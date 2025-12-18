@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+@plugin "tailwindcss-animate";
+
+/* 1. THIS IS THE FIX. 
+   We explicitly tell Tailwind: "Don't check the system settings. 
+   Only turn on dark mode if the class '.dark' is on the HTML tag."
+*/
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-geist-mono), ui-serif, Georgia, Cambria,
+    "Times New Roman", Times, serif;
+
+  /* Your custom Parchment colors defined here for v4 */
+  --color-parchment-50: #fdfcfa;
+  --color-parchment-100: #f9f6f0;
+  --color-parchment-200: #f3ede0;
+}
+
+/* 2. BASE STYLES
+   We use standard Tailwind utility classes here. 
+   The 'dark:' prefix will now strictly obey your toggle button.
+*/
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply antialiased font-serif;
+    /* Light mode default -> Dark mode override */
+    @apply bg-parchment-50 text-neutral-900 transition-colors duration-300;
+    @apply dark:bg-neutral-950 dark:text-neutral-100;
+  }
+}
+
+@layer components {
+  .container-reading {
+    @apply max-w-2xl mx-auto px-6;
+  }
+
+  .prose-reading {
+    @apply text-lg leading-relaxed text-neutral-800 dark:text-neutral-200;
+  }
+
+  .prose-reading p {
+    @apply mb-4;
+  }
+
+  .verse-wrapper {
+    /* inline-flex keeps the number and word on the same line without extra gaps */
+    @apply inline-flex items-baseline whitespace-nowrap;
+  }
+
+  .verse-num {
+    /* Using relative positioning instead of align-super prevents jumpy line heights */
+    @apply font-sans text-[0.65rem] font-bold text-amber-700 dark:text-amber-500;
+    @apply relative -top-[0.4em] mr-1 select-none leading-0;
+  }
+
+  .btn {
+    @apply px-4 py-2 rounded-lg font-medium transition-colors;
+  }
+
+  .btn-primary {
+    @apply bg-neutral-900 text-white hover:bg-neutral-800 dark:bg-neutral-100 dark:text-neutral-900 dark:hover:bg-neutral-200;
+  }
+
+  .btn-secondary {
+    @apply bg-neutral-100 text-neutral-900 hover:bg-neutral-200 dark:bg-neutral-800 dark:text-neutral-100 dark:hover:bg-neutral-700;
+  }
+
+  /* 3. CARD STYLING
+     We use the 'dark:' prefix to ensure cards switch colors correctly.
+  */
+  .card {
+    @apply bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-xl transition-colors;
+  }
+}
+
+::selection {
+  @apply bg-amber-200 dark:bg-amber-900;
+}
