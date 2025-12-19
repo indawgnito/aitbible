@@ -111,7 +111,10 @@ export function TranslationCarousel() {
                   -
                 </span>
               </div>
-              <p className="text-base md:text-lg text-neutral-700 dark:text-neutral-300 pr-20">
+              <span className="float-right ml-4 mb-2 text-xs text-red-600 dark:text-red-400 font-sans font-medium uppercase tracking-wider">
+                Traditional
+              </span>
+              <p className="text-base md:text-lg text-neutral-700 dark:text-neutral-300">
                 {translationExamples[currentExample].traditional.text
                   .split(
                     translationExamples[currentExample].traditional.highlight
@@ -130,9 +133,6 @@ export function TranslationCarousel() {
                     </span>
                   ))}
               </p>
-              <span className="absolute top-2 right-4 text-xs text-red-600 dark:text-red-400 font-sans font-medium uppercase tracking-wider">
-                Traditional
-              </span>
             </div>
 
             {/* AIT Translation - Green/Added */}
@@ -142,7 +142,10 @@ export function TranslationCarousel() {
                   +
                 </span>
               </div>
-              <p className="text-base md:text-lg text-neutral-900 dark:text-neutral-100 pr-20">
+              <span className="float-right ml-4 mb-2 text-xs text-emerald-600 dark:text-emerald-400 font-sans font-medium uppercase tracking-wider">
+                AIT
+              </span>
+              <p className="text-base md:text-lg text-neutral-900 dark:text-neutral-100">
                 {translationExamples[currentExample].ait.text
                   .split(translationExamples[currentExample].ait.highlight)
                   .map((part, i, arr) => (
@@ -156,9 +159,6 @@ export function TranslationCarousel() {
                     </span>
                   ))}
               </p>
-              <span className="absolute top-2 right-4 text-xs text-emerald-600 dark:text-emerald-400 font-sans font-medium uppercase tracking-wider">
-                AIT
-              </span>
             </div>
           </div>
 

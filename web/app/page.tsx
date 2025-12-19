@@ -105,6 +105,18 @@ export default function Home() {
           })}
         </div>
       </div>
+
+      {/* Old Testament */}
+      <div className="mt-12">
+        <h2 className="font-sans font-semibold text-sm uppercase tracking-wide text-neutral-500 dark:text-neutral-400 mb-6">
+          Old Testament
+        </h2>
+        <div className="card p-8 text-center">
+          <span className="text-neutral-500 dark:text-neutral-400">
+            Coming soon
+          </span>
+        </div>
+      </div>
     </div>
   );
 }
