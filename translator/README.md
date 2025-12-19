@@ -112,11 +112,6 @@ python translate_batch.py run --book matthew --model claude-opus-4-5 --thinking
 | `--model claude-opus-4-5` | Uses the most capable model                                          |
 | `--thinking`              | Enables extended thinking for better reasoning on difficult passages |
 
-**Cost estimate for Matthew (28 chapters) with Opus + thinking:**
-
-- Realtime: ~$25-40
-- Batch: ~$12-20 (50% off)
-
 ---
 
 ## All Options
