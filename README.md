@@ -6,7 +6,7 @@ This project combines powerful AI translation capabilities with a modern web int
 
 ## What is AIT Bible?
 
-AIT Bible uses Claude (Anthropic's AI) to translate the New Testament directly from the original Greek texts (SBLGNT). Unlike traditional translations constrained by committee decisions and ecclesiastical tradition, this translation aims to convey what the text would have meant to its original first-century audience.
+AIT Bible uses advanced AI models (Google Gemini, Anthropic Claude) to translate the New Testament directly from the original Greek texts (SBLGNT). Unlike traditional translations constrained by committee decisions and ecclesiastical tradition, this translation aims to convey what the text would have meant to its original first-century audience.
 
 **Key principles:**
 
@@ -21,12 +21,13 @@ This repository contains two main components:
 
 ### 1. Translator (`/translator`)
 
-Python-based translation engine that uses Claude API to translate Greek texts.
+Python-based translation engine that uses AI APIs (Google Gemini or Anthropic Claude) to translate Greek texts.
 
 **Features:**
 - Real-time and batch translation modes
-- 50% cost savings with batch API
-- Extended thinking for complex passages
+- Multiple AI model support (Gemini 3, Gemini 3 Flash, Claude Opus, Claude Sonnet)
+- 50% cost savings with Anthropic's batch API
+- Extended thinking for complex passages (both Gemini and Claude models)
 - Morphological Greek text parsing
 - JSON export for web consumption
 
@@ -53,16 +54,25 @@ Next.js application for browsing and reading the translations.
 cd translator
 
 # Install dependencies
-pip install anthropic requests
+pip install anthropic google-genai
 
-# Set API key
-export ANTHROPIC_API_KEY="your-api-key-here"
+# Set API key (choose one based on your model preference)
+export GEMINI_API_KEY="your-gemini-key-here"  # For Gemini models (default)
+# OR
+export ANTHROPIC_API_KEY="your-anthropic-key-here"  # For Claude models
 
 # Get Greek source texts
 git clone https://github.com/morphgnt/sblgnt.git greek_texts
 
-# Translate (batch mode recommended for cost savings)
-python translate_batch.py run --book matthew --model claude-opus-4-5 --thinking
+# Translate with Gemini 3 Flash (default, fast and affordable)
+python translate_batch.py run --book matthew
+
+# With extended thinking for better quality
+python translate_batch.py run --book matthew --thinking
+
+# For premium models with extended thinking
+python translate_batch.py run --book matthew --model gemini-3 --thinking
+python translate_batch.py run --book matthew --model opus-4-5 --thinking
 ```
 
 ### Run the Web App
@@ -133,26 +143,27 @@ aitbible/
 
 ## Workflow
 
-1. **Translate** a book using the Python translator
-2. **Export** the translation to JSON format
-3. **Copy** JSON to the web app's data folder
-4. **View** the translation in your browser
+1. **Translate** a book using the Python translator (JSON auto-exported!)
+2. **View** the translation in your browser
 
 ```bash
-# 1. Translate
+# 1. Translate (automatically exports JSON to ../web/data/)
 cd translator
-python translate_batch.py run --book matthew --model claude-opus-4-5 --thinking
+python translate_batch.py run --book matthew
 
-# 2. Export to JSON
-python utils.py json output/matthew -o matthew.json
+# With extended thinking for better quality
+python translate_batch.py run --book matthew --thinking
 
-# 3. Copy to web app
-cp matthew.json ../web/data/
+# For premium models (Gemini 3 or Claude Opus)
+python translate_batch.py run --book matthew --model gemini-3 --thinking
+python translate_batch.py run --book matthew --model opus-4-5 --thinking
 
-# 4. View in browser
+# 2. View in browser
 cd ../web
 npm run dev
 ```
+
+**Note:** Full book translations now automatically export to JSON in `web/data/`. No manual export step needed!
 
 ## Available Books
 
@@ -164,20 +175,22 @@ All 27 New Testament books are supported:
 - **General Letters**: Hebrews, James, 1-2 Peter, 1-3 John, Jude
 - **Apocalyptic**: Revelation
 
-## Cost Estimates
+## Cost Comparison
 
-Translating Matthew (28 chapters) with Claude Opus 4.5 + extended thinking:
+Translating Matthew (28 chapters):
 
-- **Batch mode**: ~$12-20 (recommended)
-- **Real-time mode**: ~$25-40
+- **Gemini 3 Flash** (default): Free tier available, very affordable
+- **Gemini 3**: Moderate cost, excellent quality
+- **Claude Opus 4.5** (batch mode): ~$12-20 (highest quality, with extended thinking)
+- **Claude Sonnet 4.5** (batch mode): ~$4-8 (excellent balance)
 
-Batch mode provides 50% cost savings and is ideal for translating entire books.
+Gemini models are the default for cost-effectiveness. Claude's batch mode provides 50% savings over real-time.
 
 ## Technology
 
 **Translator:**
 - Python 3.x
-- Anthropic Claude API (Opus 4.5 or Sonnet 4.5)
+- Google Gemini API (Gemini 3, Gemini 3 Flash) or Anthropic Claude API (Opus 4.5, Sonnet 4.5)
 - MorphGNT SBLGNT Greek texts
 
 **Web App:**
@@ -221,13 +234,14 @@ For commercial licensing of translations, please contact the project maintainers
 
 - [Translator Documentation](translator/readme.md) — Detailed translation usage and options
 - [Web App Documentation](web/readme.md) — Setup and deployment guide
-- [Anthropic Claude](https://www.anthropic.com/claude) — The AI powering translations
+- [Google Gemini](https://ai.google.dev/gemini-api) — AI model powering translations (default)
+- [Anthropic Claude](https://www.anthropic.com/claude) — Alternative AI model
 - [SBLGNT](http://sblgnt.com/) — The Greek text source
 
 ## Vision
 
 This project exists because traditional Bible translations often prioritize familiarity over accuracy. Words change meaning over centuries. "Hypocrite" once meant "actor," but now implies moral failing. "Let" once meant "prevent," but now means "allow."
 
-By using AI trained on vast amounts of Greek literature and linguistic data, we can produce translations that better capture what the original authors intended their original audiences to understand — free from the constraints of tradition, committee politics, and theological agendas.
+By using advanced AI models trained on vast amounts of Greek literature and linguistic data, we can produce translations that better capture what the original authors intended their original audiences to understand — free from the constraints of tradition, committee politics, and theological agendas.
 
 This is not a replacement for scholarly translation work, but a complement — a fresh perspective that invites readers to encounter familiar texts with new eyes.

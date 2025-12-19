@@ -1,6 +1,10 @@
+Here is the raw README.md content. I have wrapped it in a code block so you can copy the whole thing easily.
+
+Markdown
+
 # AIT Bible Translator
 
-AI translation of the Bible from original Greek, prioritizing accuracy and meaning over tradition.
+AI translation of the Bible from original Greek, prioritizing accuracy and meaning over tradition. Supports **Anthropic Claude** and **Google Gemini** models.
 
 ---
 
@@ -9,32 +13,37 @@ AI translation of the Bible from original Greek, prioritizing accuracy and meani
 ### 1. Install dependencies
 
 ```bash
-pip install anthropic requests
+pip install anthropic google-genai requests
 ```
 
-If you get errors about the batch API, upgrade:
+If you get errors about the batch API or Gemini, upgrade:
 
 ```bash
-pip install --upgrade anthropic
+pip install --upgrade anthropic google-genai
 ```
 
-### 2. Set your API key
+### 2. Set your API keys
+
+You can use Anthropic (Claude), Google (Gemini), or both.
+
+**Anthropic:**
 
 ```bash
-export ANTHROPIC_API_KEY="your-api-key-here"
+export ANTHROPIC_API_KEY="your-anthropic-key-here"
 ```
 
-Or add to your shell profile (`~/.zshrc` or `~/.bashrc`):
+**Google Gemini:**
 
 ```bash
-echo 'export ANTHROPIC_API_KEY="your-api-key-here"' >> ~/.zshrc
-source ~/.zshrc
+export GEMINI_API_KEY="your-gemini-key-here"
 ```
+
+_Tip: Add these lines to your shell profile (`~/.zshrc` or `~/.bashrc`) to save them permanently._
 
 ### 3. Get the Greek source texts
 
 ```bash
-git clone https://github.com/morphgnt/sblgnt.git greek_texts
+git clone [https://github.com/morphgnt/sblgnt.git](https://github.com/morphgnt/sblgnt.git) greek_texts
 ```
 
 This downloads the MorphGNT SBLGNT (SBL Greek New Testament) with morphological tagging.
@@ -43,74 +52,73 @@ This downloads the MorphGNT SBLGNT (SBL Greek New Testament) with morphological 
 
 ## Quick Start
 
-**Translate one chapter (realtime):**
+**Translate one chapter (fast):**
 
 ```bash
 python translate.py --book matthew --chapter 6
 ```
 
-**Translate entire book (batch, 50% cheaper):**
+**Translate entire book (parallel processing):**
 
 ```bash
-python translate_batch.py run --book matthew --model claude-opus-4-5 --thinking
+python translate.py --book matthew --all --model gemini-3-flash
+```
+
+**Translate the entire New Testament (bulk):**
+
+```bash
+python translate.py --new-testament --model gemini-3-flash --thinking
 ```
 
 ---
 
-## Two Ways to Translate
+## Translation Modes
 
-### Option A: Realtime (`translate.py`)
+### 1. Realtime / Parallel (`translate.py`)
 
-Translates chapters one at a time. Good for testing or small jobs.
+Best for single chapters, full books (fast), or the entire New Testament.
+
+- **Fastest:** Uses threading to translate multiple chapters at once.
+- **Models:** Supports both Claude and Gemini.
 
 ```bash
 # Single chapter
 python translate.py --book matthew --chapter 6
 
-# Specific verses
-python translate.py --book matthew --chapter 6 --verses 1-18
+# Entire book (Parallel - finishes in seconds/minutes)
+python translate.py --book matthew --all --model gemini-3-flash
 
-# Entire book (sequential)
-python translate.py --book matthew --all
-
-# With extended thinking
-python translate.py --book matthew --chapter 5 --thinking
-
-# With Opus model
-python translate.py --book matthew --chapter 5 --model claude-opus-4-5 --thinking
+# Full New Testament (Sequential books, parallel chapters)
+python translate.py --new-testament --model gemini-3-flash --thinking
 ```
 
-### Option B: Batch (`translate_batch.py`)
+### 2. Batch (`translate_batch.py`)
 
-Submits all chapters at once. **50% cost savings.** Best for full books.
+Best for cost savings on large, non-urgent jobs. **50% cost savings.**
+
+- **Slower:** Submits a file, waits for the provider to process it (up to 24h), then downloads results.
+- **Cheaper:** Uses the Batch API pricing tiers.
 
 ```bash
 # Full pipeline: submit → wait → download
-python translate_batch.py run --book matthew
+python translate_batch.py run --book matthew --model claude-opus-4-5
 
 # Or step by step:
 python translate_batch.py submit --book matthew
 python translate_batch.py status --book matthew
-python translate_batch.py wait --book matthew      # optional: polls until done
+python translate_batch.py wait --book matthew      # polls until done
 python translate_batch.py download --book matthew
 ```
-
-**You don't need to keep the terminal open.** After `submit`, close your laptop. Come back later and run `status` then `download`.
 
 ---
 
 ## Recommended Settings
 
-For the best quality translation:
-
-```bash
-python translate_batch.py run --book matthew --model claude-opus-4-5 --thinking
-```
-
-| Flag                      | What it does                                                         |
-| ------------------------- | -------------------------------------------------------------------- |
-| `--model claude-opus-4-5` | Uses the most capable model                                          |
-| `--thinking`              | Enables extended thinking for better reasoning on difficult passages |
+| Goal            | Command                              | Why?                                              |
+| :-------------- | :----------------------------------- | :------------------------------------------------ |
+| **Max Speed**   | `--model gemini-3-flash`             | Extremely fast, high rate limits, very cheap.     |
+| **Max Quality** | `--model claude-opus-4-5 --thinking` | Deepest reasoning, best nuance.                   |
+| **Balanced**    | `--model gemini-3 --thinking`        | Great reasoning at a lower price point than Opus. |
 
 ---
 
@@ -119,35 +127,30 @@ python translate_batch.py run --book matthew --model claude-opus-4-5 --thinking
 ### translate.py
 
 ```
---book, -b        Book name (required)
+--book, -b        Book name (required unless using --new-testament)
 --chapter, -c     Chapter number
 --verses, -v      Verse range, e.g., "1-18"
---all, -a         Translate all chapters
---model, -m       Model (default: claude-sonnet-4-5)
+--all, -a         Translate all chapters in the book
+--new-testament   Translate the entire New Testament (all books)
+--model, -m       Model (default: gemini-3-flash)
 --thinking, -t    Enable extended thinking
 --output, -o      Output directory (default: output/)
 --greek-texts, -g Greek texts directory (default: greek_texts/)
+--parallel, -p    Number of parallel requests (default: 5 or auto)
 --list-books      Show available books
 ```
 
 ### translate_batch.py
 
-**Commands:**
-
-- `submit` — Send batch to Anthropic
-- `status` — Check progress
-- `wait` — Poll until complete
-- `download` — Save results to files
-- `run` — Do all of the above
+**Commands:** `submit`, `status`, `wait`, `download`, `run`
 
 **Flags:**
 
 ```
 --book, -b        Book name (required)
---model, -m       Model (default: claude-sonnet-4-5)
+--model, -m       Model (default: gemini-3-flash)
 --thinking, -t    Enable extended thinking
 --output, -o      Output directory (default: output/)
---greek-texts, -g Greek texts directory (default: greek_texts/)
 --chapters        Specific chapters, e.g., "1-10" or "1,5,7"
 --poll-interval   Seconds between status checks (default: 30)
 --batch-id        Use specific batch ID instead of saved one
@@ -174,31 +177,6 @@ Each file contains:
 
 ---
 
-## Available Books
-
-```bash
-python translate.py --list-books
-```
-
-```
-matthew: 28 chapters      mark: 16 chapters
-luke: 24 chapters         john: 21 chapters
-acts: 28 chapters         romans: 16 chapters
-1corinthians: 16          2corinthians: 13
-galatians: 6              ephesians: 6
-philippians: 4            colossians: 4
-1thessalonians: 5         2thessalonians: 3
-1timothy: 6               2timothy: 4
-titus: 3                  philemon: 1
-hebrews: 13               james: 5
-1peter: 5                 2peter: 3
-1john: 5                  2john: 1
-3john: 1                  jude: 1
-revelation: 22
-```
-
----
-
 ## Export for Website
 
 After translating, export to JSON for your Next.js app:
@@ -209,24 +187,6 @@ python utils.py json output/matthew -o matthew.json
 
 # All books
 python utils.py export-all output -o json/
-```
-
-JSON format:
-
-```json
-{
-  "book": "Matthew",
-  "chapters": [
-    {
-      "chapter": 1,
-      "verses": [
-        { "verse": 1, "text": "..." },
-        { "verse": 2, "text": "..." }
-      ],
-      "notes": "..."
-    }
-  ]
-}
 ```
 
 ---
@@ -242,14 +202,20 @@ This translator follows these principles:
 
 Key translation examples:
 
-- πραεῖς (Matthew 5:5) → "gentle in strength" (not "meek") — controlled strength, not weakness
-- ὑποκριτής (Matthew 6:5) → "performers" (not "hypocrites") — theatrical critique, not moral inconsistency
-- ἁπλοῦς (Matthew 6:22) → "generous" (not "single") — Hebrew idiom about disposition toward wealth
-- λόγος (John 1:1) → "Logos" (not "Word") — reason, divine order, organizing principle of cosmos
+- πραεῖς (Matthew 5:5) → "gentle in strength" (not "meek")
+- ὑποκριτής (Matthew 6:5) → "performers" (not "hypocrites")
+- ἁπλοῦς (Matthew 6:22) → "generous" (not "single")
+- λόγος (John 1:1) → "Logos" (not "Word")
 
 ---
 
 ## Troubleshooting
+
+**"ImportError: The 'google-genai' package is required..."**
+
+```bash
+pip install google-genai
+```
 
 **"AttributeError: 'Messages' object has no attribute 'batches'"**
 
@@ -257,28 +223,23 @@ Key translation examples:
 pip install --upgrade anthropic
 ```
 
-**"ANTHROPIC_API_KEY environment variable not set"**
+**"Rate limit hit..."**
+The script will automatically retry. If it persists, try reducing parallelism:
 
 ```bash
-export ANTHROPIC_API_KEY="your-key-here"
-```
-
-**"Greek text file not found"**
-
-```bash
-git clone https://github.com/morphgnt/sblgnt.git greek_texts
+python translate.py --book matthew --all --parallel 1
 ```
 
 **Batch stuck or want to cancel:**
-The batch will auto-expire after 24 hours, or you can cancel via the Anthropic console.
+Batches auto-expire after 24 hours. You can cancel via the provider's console.
 
 ---
 
 ## Files
 
 ```
-translate.py          # Realtime translation (one chapter at a time)
-translate_batch.py    # Batch translation (50% cheaper)
+translate.py          # Realtime/Parallel translation
+translate_batch.py    # Batch API translation (cheaper)
 greek_parser.py       # Parses MorphGNT files
 prompt_template.py    # The translation prompt
 utils.py              # Export to JSON for website
@@ -290,11 +251,14 @@ requirements.txt      # Dependencies
 ## License
 
 ### Software Code
-GNU GPL v3 - See [LICENSE](../LICENSE) for details. The code is free and open source, and any modifications must remain open source under GPL v3. This prevents proprietary forks.
+
+GNU GPL v3 - See [LICENSE](../LICENSE) for details. The code is free and open source.
 
 ### Translation Output
-CC BY-NC-SA 4.0 - The English translations produced are licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0. Non-commercial use with attribution is permitted. Contact project maintainers for commercial licensing.
+
+CC BY-NC-SA 4.0 - The English translations produced are licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0.
 
 ### Source Materials
+
 - **SBLGNT Greek Text**: [CC BY 4.0](http://sblgnt.com/license/)
 - **MorphGNT Data**: [CC BY-SA 3.0](https://github.com/morphgnt/sblgnt)

@@ -86,11 +86,11 @@ lib/
   books.ts            # Book metadata (names, chapters, IDs)
   data.ts             # JSON data loading and book availability
 data/
-  matthew.json        # Translation files (Matthew, Mark, Luke, John, Revelation)
+  matthew.json        # Translation files (Matthew, Mark, Luke, John)
   mark.json
   luke.json
   john.json
-  revelation.json
+  ...
 ```
 
 ## Tech Stack
