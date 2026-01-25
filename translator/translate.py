@@ -23,6 +23,8 @@ except ImportError:
 from greek_parser import GreekTextParser
 from prompt_template import build_prompt
 from utils import export_book_to_json
+from xml_export import export_book_to_xml
+from glossary_builder import build_glossary
 
 
 # Configuration
@@ -307,6 +309,7 @@ def translate_book(
     use_thinking: bool = False,
     json_dir: Optional[Path] = None,
     parallel: Optional[int] = None,
+    export_xml: bool = False,
 ) -> list[Path]:
     """
     Translate an entire book, chapter by chapter with parallel processing.
@@ -359,19 +362,44 @@ def translate_book(
 
     print(f"\nCompleted {book_name.title()}: {len(saved_files)} chapters translated.")
 
-    # Auto-export to JSON for full book
+    # Auto-export for web app
     if json_dir is None:
         json_dir = Path(__file__).parent.parent / "web" / "data"
 
     book_dir = output_dir / book_name.lower()
-    json_file = json_dir / f"{book_name.lower()}.json"
+    book_id = book_name.lower()
+    book_display_name = book_name.title()
 
-    print(f"\nExporting to JSON for web app...")
+    if export_xml:
+        xml_file = json_dir / f"{book_id}.xml"
+        print(f"\nExporting to XML for web app...")
+        try:
+            export_book_to_xml(
+                book_dir,
+                xml_file,
+                book_id,
+                book_display_name,
+                parser  # Pass the Greek parser for word/lemma data
+            )
+        except Exception as e:
+            print(f"  Warning: XML export failed: {e}")
+            print(f"  You can manually export later with: python utils.py xml {book_dir}")
+    else:
+        json_file = json_dir / f"{book_id}.json"
+        print(f"\nExporting to JSON for web app...")
+        try:
+            export_book_to_json(book_dir, json_file)
+        except Exception as e:
+            print(f"  Warning: JSON export failed: {e}")
+            print(f"  You can manually export later with: python utils.py json {book_dir}")
+
+    # Update glossary with new terms from this translation
+    print(f"\nUpdating glossary...")
     try:
-        export_book_to_json(book_dir, json_file)
+        build_glossary()
     except Exception as e:
-        print(f"  Warning: JSON export failed: {e}")
-        print(f"  You can manually export later with: python utils.py json {book_dir}")
+        print(f"  Warning: Glossary update failed: {e}")
+        print(f"  You can manually update later with: python glossary_builder.py")
 
     return saved_files
 
@@ -423,6 +451,11 @@ Examples:
         help="Translate the entire New Testament (all available books)",
     )
     arg_parser.add_argument(
+        "--yes", "-y",
+        action="store_true",
+        help="Skip confirmation prompts (for automated/batch runs)",
+    )
+    arg_parser.add_argument(
         "--output", "-o",
         default="output",
         help="Output directory (default: 'output')",
@@ -446,6 +479,11 @@ Examples:
         "--json-dir", "-j",
         type=Path,
         help="JSON output directory for full books (default: ../web/data)",
+    )
+    arg_parser.add_argument(
+        "--xml",
+        action="store_true",
+        help="Export to XML format (with Greek text and speaker tags) instead of JSON",
     )
     arg_parser.add_argument(
         "--parallel", "-p",
@@ -505,12 +543,13 @@ Examples:
         else:
              print(f"  - THINKING:     Disabled")
              
-        print("\nType 'Y' to confirm and proceed, or anything else to cancel.")
-        confirm = input("> ")
-        
-        if confirm.strip().upper() != 'Y':
-            print("Operation cancelled.")
-            sys.exit(0)
+        if not args.yes:
+            print("\nType 'Y' to confirm and proceed, or anything else to cancel.")
+            confirm = input("> ")
+
+            if confirm.strip().upper() != 'Y':
+                print("Operation cancelled.")
+                sys.exit(0)
             
         print("\nStarting Bulk Translation...")
         start_time = time.time()
@@ -526,6 +565,7 @@ Examples:
                 use_thinking=args.thinking,
                 json_dir=args.json_dir,
                 parallel=args.parallel if hasattr(args, 'parallel') else None,
+                export_xml=args.xml,
             )
             
         elapsed = time.time() - start_time
@@ -554,6 +594,7 @@ Examples:
             use_thinking=args.thinking,
             json_dir=args.json_dir,
             parallel=args.parallel if hasattr(args, 'parallel') else None,
+            export_xml=args.xml,
         )
     else:
         start_verse = None

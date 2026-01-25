@@ -51,12 +51,12 @@ class Verse:
             result.append(w.text)
         return "".join(result)
 
-@dataclass 
+@dataclass
 class Chapter:
     """A chapter containing verses."""
     chapter_num: int
     verses: Dict[int, Verse]
-    
+
     @property
     def text(self) -> str:
         """Reconstruct the Greek text of this chapter."""
@@ -65,7 +65,7 @@ class Chapter:
             verse = self.verses[verse_num]
             lines.append(f"{verse_num} {verse.text}")
         return "\n".join(lines)
-    
+
     def get_verse_range(self, start: int, end: int) -> str:
         """Get Greek text for a range of verses."""
         lines = []
@@ -74,6 +74,25 @@ class Chapter:
                 verse = self.verses[verse_num]
                 lines.append(f"{verse_num} {verse.text}")
         return "\n".join(lines)
+
+    def get_verse_words(self, verse_num: int) -> List[Tuple[str, str]]:
+        """Get list of (word_text, lemma) tuples for a verse.
+
+        Used for XML export with word-level lemma data.
+        """
+        if verse_num not in self.verses:
+            return []
+        return [(w.text, w.lemma) for w in self.verses[verse_num].words]
+
+    def get_all_verse_words(self) -> Dict[int, List[Tuple[str, str]]]:
+        """Get word data for all verses in the chapter.
+
+        Returns dict mapping verse_num -> list of (word_text, lemma) tuples.
+        """
+        return {
+            verse_num: [(w.text, w.lemma) for w in verse.words]
+            for verse_num, verse in self.verses.items()
+        }
 
 class GreekTextParser:
     """Parse and access MorphGNT SBLGNT text files."""

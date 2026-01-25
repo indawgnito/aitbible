@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  AIT Bible XML Example
+  Matthew 5:1-12 (The Beatitudes)
+
+  This example demonstrates all major schema features:
+  - Verse structure with text, Greek, and notes
+  - Speaker attribution (q who="Jesus")
+  - Paragraph breaks (p/)
+  - Greek words with lemmas (w lemma="...")
+  - Translation notes (note term="...")
+-->
+<ait version="1.0">
+  <book id="matthew" name="Matthew">
+    <chapter num="5">
+
+      <verse num="1">
+        <text><p/>When he saw the crowds, he went up onto the mountain, and when he had sat down, his disciples came to him.</text>
+        <greek>
+          <w lemma="ὁράω">Ἰδὼν</w>
+          <w lemma="δέ">δὲ</w>
+          <w lemma="ὁ">τοὺς</w>
+          <w lemma="ὄχλος">ὄχλους</w>
+          <w lemma="ἀναβαίνω">ἀνέβη</w>
+          <w lemma="εἰς">εἰς</w>
+          <w lemma="ὁ">τὸ</w>
+          <w lemma="ὄρος">ὄρος·</w>
+          <w lemma="καί">καὶ</w>
+          <w lemma="καθίζω">καθίσαντος</w>
+          <w lemma="αὐτός">αὐτοῦ</w>
+          <w lemma="προσέρχομαι">προσῆλθαν</w>
+          <w lemma="αὐτός">αὐτῷ</w>
+          <w lemma="ὁ">οἱ</w>
+          <w lemma="μαθητής">μαθηταὶ</w>
+          <w lemma="αὐτός">αὐτοῦ·</w>
+        </greek>
+      </verse>
+
+      <verse num="2">
+        <text>And opening his mouth, he began teaching them, saying:</text>
+        <greek>
+          <w lemma="καί">καὶ</w>
+          <w lemma="ἀνοίγω">ἀνοίξας</w>
+          <w lemma="ὁ">τὸ</w>
+          <w lemma="στόμα">στόμα</w>
+          <w lemma="αὐτός">αὐτοῦ</w>
+          <w lemma="διδάσκω">ἐδίδασκεν</w>
+          <w lemma="αὐτός">αὐτοὺς</w>
+          <w lemma="λέγω">λέγων·</w>
+        </greek>
+      </verse>
+
+      <verse num="3">
+        <text><p/><q who="Jesus">"Blessed are the destitute in spirit, for theirs is the kingdom of the heavens.</q></text>
+        <greek>
+          <w lemma="μακάριος">Μακάριοι</w>
+          <w lemma="ὁ">οἱ</w>
+          <w lemma="πτωχός">πτωχοὶ</w>
+          <w lemma="ὁ">τῷ</w>
+          <w lemma="πνεῦμα">πνεύματι,</w>
+          <w lemma="ὅτι">ὅτι</w>
+          <w lemma="αὐτός">αὐτῶν</w>
+          <w lemma="εἰμί">ἐστιν</w>
+          <w lemma="ὁ">ἡ</w>
+          <w lemma="βασιλεία">βασιλεία</w>
+          <w lemma="ὁ">τῶν</w>
+          <w lemma="οὐρανός">οὐρανῶν.</w>
+        </greek>
+        <note term="destitute">Greek πτωχός refers not to modest means but to begging poverty—those with nothing. This is stronger than "poor" in modern English, which can suggest merely limited resources.</note>
+      </verse>
+
+      <verse num="4">
+        <text><q who="Jesus">Blessed are those who mourn, for they will be comforted.</q></text>
+        <greek>
+          <w lemma="μακάριος">μακάριοι</w>
+          <w lemma="ὁ">οἱ</w>
+          <w lemma="πενθέω">πενθοῦντες,</w>
+          <w lemma="ὅτι">ὅτι</w>
+          <w lemma="αὐτός">αὐτοὶ</w>
+          <w lemma="παρακαλέω">παρακληθήσονται.</w>
+        </greek>
+      </verse>
+
+      <verse num="5">
+        <text><q who="Jesus">Blessed are those gentle in strength, for they will inherit the earth.</q></text>
+        <greek>
+          <w lemma="μακάριος">μακάριοι</w>
+          <w lemma="ὁ">οἱ</w>
+          <w lemma="πραΰς">πραεῖς,</w>
+          <w lemma="ὅτι">ὅτι</w>
+          <w lemma="αὐτός">αὐτοὶ</w>
+          <w lemma="κληρονομέω">κληρονομήσουσι</w>
+          <w lemma="ὁ">τὴν</w>
+          <w lemma="γῆ">γῆν.</w>
+        </greek>
+        <note term="gentle in strength">Greek πραεῖς (often translated "meek") doesn't mean weakness or passivity. It describes controlled strength—power held in check, like a war horse trained for battle but responsive to its rider. The word implies having the capacity for force but choosing restraint and gentleness.</note>
+      </verse>
+
+      <verse num="6">
+        <text><q who="Jesus">Blessed are those who hunger and thirst for justice, for they will be satisfied.</q></text>
+        <greek>
+          <w lemma="μακάριος">μακάριοι</w>
+          <w lemma="ὁ">οἱ</w>
+          <w lemma="πεινάω">πεινῶντες</w>
+          <w lemma="καί">καὶ</w>
+          <w lemma="διψάω">διψῶντες</w>
+          <w lemma="ὁ">τὴν</w>
+          <w lemma="δικαιοσύνη">δικαιοσύνην,</w>
+          <w lemma="ὅτι">ὅτι</w>
+          <w lemma="αὐτός">αὐτοὶ</w>
+          <w lemma="χορτάζω">χορτασθήσονται.</w>
+        </greek>
+        <note term="justice">Greek δικαιοσύνη encompasses both personal righteousness and social justice. In the Hebrew prophetic tradition Jesus draws from, it particularly emphasizes right relationships and fair treatment of the vulnerable.</note>
+      </verse>
+
+      <verse num="7">
+        <text><q who="Jesus">Blessed are the merciful, for they will receive mercy.</q></text>
+        <greek>
+          <w lemma="μακάριος">μακάριοι</w>
+          <w lemma="ὁ">οἱ</w>
+          <w lemma="ἐλεήμων">ἐλεήμονες,</w>
+          <w lemma="ὅτι">ὅτι</w>
+          <w lemma="αὐτός">αὐτοὶ</w>
+          <w lemma="ἐλεέω">ἐλεηθήσονται.</w>
+        </greek>
+      </verse>
+
+      <verse num="8">
+        <text><q who="Jesus">Blessed are the pure in heart, for they will see God.</q></text>
+        <greek>
+          <w lemma="μακάριος">μακάριοι</w>
+          <w lemma="ὁ">οἱ</w>
+          <w lemma="καθαρός">καθαροὶ</w>
+          <w lemma="ὁ">τῇ</w>
+          <w lemma="καρδία">καρδίᾳ,</w>
+          <w lemma="ὅτι">ὅτι</w>
+          <w lemma="αὐτός">αὐτοὶ</w>
+          <w lemma="ὁ">τὸν</w>
+          <w lemma="θεός">θεὸν</w>
+          <w lemma="ὁράω">ὄψονται.</w>
+        </greek>
+      </verse>
+
+      <verse num="9">
+        <text><q who="Jesus">Blessed are the peacemakers, for they will be called sons of God.</q></text>
+        <greek>
+          <w lemma="μακάριος">μακάριοι</w>
+          <w lemma="ὁ">οἱ</w>
+          <w lemma="εἰρηνοποιός">εἰρηνοποιοί,</w>
+          <w lemma="ὅτι">ὅτι</w>
+          <w lemma="αὐτός">αὐτοὶ</w>
+          <w lemma="υἱός">υἱοὶ</w>
+          <w lemma="θεός">θεοῦ</w>
+          <w lemma="καλέω">κληθήσονται.</w>
+        </greek>
+      </verse>
+
+      <verse num="10">
+        <text><q who="Jesus">Blessed are those who have been persecuted on account of justice, for theirs is the kingdom of the heavens.</q></text>
+        <greek>
+          <w lemma="μακάριος">μακάριοι</w>
+          <w lemma="ὁ">οἱ</w>
+          <w lemma="διώκω">δεδιωγμένοι</w>
+          <w lemma="ἕνεκα">ἕνεκεν</w>
+          <w lemma="δικαιοσύνη">δικαιοσύνης,</w>
+          <w lemma="ὅτι">ὅτι</w>
+          <w lemma="αὐτός">αὐτῶν</w>
+          <w lemma="εἰμί">ἐστιν</w>
+          <w lemma="ὁ">ἡ</w>
+          <w lemma="βασιλεία">βασιλεία</w>
+          <w lemma="ὁ">τῶν</w>
+          <w lemma="οὐρανός">οὐρανῶν.</w>
+        </greek>
+      </verse>
+
+      <verse num="11">
+        <text><p/><q who="Jesus">"Blessed are you when people insult you and persecute you and say every kind of evil against you falsely on my account.</q></text>
+        <greek>
+          <w lemma="μακάριος">μακάριοί</w>
+          <w lemma="εἰμί">ἐστε</w>
+          <w lemma="ὅταν">ὅταν</w>
+          <w lemma="ὀνειδίζω">ὀνειδίσωσιν</w>
+          <w lemma="ὑμεῖς">ὑμᾶς</w>
+          <w lemma="καί">καὶ</w>
+          <w lemma="διώκω">διώξωσιν</w>
+          <w lemma="καί">καὶ</w>
+          <w lemma="λέγω">εἴπωσιν</w>
+          <w lemma="πᾶς">πᾶν</w>
+          <w lemma="πονηρός">πονηρὸν</w>
+          <w lemma="κατά">καθ'</w>
+          <w lemma="ὑμεῖς">ὑμῶν</w>
+          <w lemma="ψεύδομαι">ψευδόμενοι</w>
+          <w lemma="ἕνεκα">ἕνεκεν</w>
+          <w lemma="ἐγώ">ἐμοῦ.</w>
+        </greek>
+      </verse>
+
+      <verse num="12">
+        <text><q who="Jesus">Rejoice and be overjoyed, because your reward is great in the heavens—for this is how they persecuted the prophets before you."</q></text>
+        <greek>
+          <w lemma="χαίρω">χαίρετε</w>
+          <w lemma="καί">καὶ</w>
+          <w lemma="ἀγαλλιάω">ἀγαλλιᾶσθε,</w>
+          <w lemma="ὅτι">ὅτι</w>
+          <w lemma="ὁ">ὁ</w>
+          <w lemma="μισθός">μισθὸς</w>
+          <w lemma="ὑμεῖς">ὑμῶν</w>
+          <w lemma="πολύς">πολὺς</w>
+          <w lemma="ἐν">ἐν</w>
+          <w lemma="ὁ">τοῖς</w>
+          <w lemma="οὐρανός">οὐρανοῖς·</w>
+          <w lemma="οὕτως">οὕτως</w>
+          <w lemma="γάρ">γὰρ</w>
+          <w lemma="διώκω">ἐδίωξαν</w>
+          <w lemma="ὁ">τοὺς</w>
+          <w lemma="προφήτης">προφήτας</w>
+          <w lemma="ὁ">τοὺς</w>
+          <w lemma="πρό">πρὸ</w>
+          <w lemma="ὑμεῖς">ὑμῶν.</w>
+        </greek>
+      </verse>
+
+    </chapter>
+  </book>
+</ait>

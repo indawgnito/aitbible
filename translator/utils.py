@@ -4,6 +4,7 @@ Utility scripts to process translations for the AIT Bible website.
 
 - Combine chapter files into a single book file
 - Export translations to JSON format for the Next.js app
+- Export translations to AIT XML format
 """
 
 import json
@@ -11,6 +12,9 @@ import re
 from pathlib import Path
 from typing import Dict, List, Optional
 from dataclasses import dataclass, asdict
+
+from xml_export import export_book_to_xml
+from greek_parser import GreekTextParser
 
 
 @dataclass
@@ -232,15 +236,24 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  # Export single book to data/matthew.json
+  # Export single book to JSON
   python utils.py json output/matthew
-  
-  # Export all books in output/ to data/
+
+  # Export all books to JSON
   python utils.py export-all output
-  
+
+  # Export single book to XML (with Greek word data)
+  python utils.py xml output/matthew
+
+  # Export all books to XML
+  python utils.py export-all-xml output
+
+  # Export XML without Greek data (faster)
+  python utils.py xml output/matthew --no-greek
+
   # Export to custom location
   python utils.py json output/matthew -o ../website/data/matthew.json
-  python utils.py export-all output -o ../website/data
+  python utils.py xml output/matthew -o ../website/data/matthew.xml
         """
     )
     
@@ -270,7 +283,7 @@ Examples:
         help="Output file (default: data/<book>.json)"
     )
     
-    # Export all command
+    # Export all JSON command
     all_parser = subparsers.add_parser(
         "export-all",
         help="Export all books in output/ to JSON"
@@ -285,7 +298,45 @@ Examples:
         type=Path,
         help="JSON output directory (default: ./data)"
     )
-    
+
+    # Export XML command
+    xml_parser = subparsers.add_parser(
+        "xml",
+        help="Export book to AIT XML format (with Greek and speaker tags)"
+    )
+    xml_parser.add_argument("book_dir", type=Path, help="Book directory")
+    xml_parser.add_argument(
+        "-o", "--output",
+        type=Path,
+        help="Output file (default: ../web/data/<book>.xml)"
+    )
+    xml_parser.add_argument(
+        "--no-greek",
+        action="store_true",
+        help="Skip adding Greek word data"
+    )
+
+    # Export all XML command
+    all_xml_parser = subparsers.add_parser(
+        "export-all-xml",
+        help="Export all books in output/ to AIT XML format"
+    )
+    all_xml_parser.add_argument(
+        "output_dir",
+        type=Path,
+        help="Directory containing book folders (e.g., 'output')"
+    )
+    all_xml_parser.add_argument(
+        "-o", "--xml-dir",
+        type=Path,
+        help="XML output directory (default: ../web/data)"
+    )
+    all_xml_parser.add_argument(
+        "--no-greek",
+        action="store_true",
+        help="Skip adding Greek word data"
+    )
+
     args = parser.parse_args()
     
     if args.command == "combine":
@@ -299,16 +350,58 @@ Examples:
     elif args.command == "export-all":
         json_dir = args.json_dir or Path("data")
         json_dir.mkdir(parents=True, exist_ok=True)
-        
+
         count = 0
         for book_dir in args.output_dir.iterdir():
             if book_dir.is_dir() and book_dir.name != "json":
                 output_file = json_dir / f"{book_dir.name}.json"
                 export_book_to_json(book_dir, output_file)
                 count += 1
-        
+
         print(f"\nExported {count} books to {json_dir}/")
-    
+
+    elif args.command == "xml":
+        book_id = args.book_dir.name.lower()
+        book_name = args.book_dir.name.title()
+        output_file = args.output or Path("../web/data") / f"{book_id}.xml"
+
+        greek_parser = None
+        if not args.no_greek:
+            greek_parser = GreekTextParser("greek_texts")
+
+        export_book_to_xml(
+            args.book_dir,
+            output_file,
+            book_id,
+            book_name,
+            greek_parser
+        )
+
+    elif args.command == "export-all-xml":
+        xml_dir = args.xml_dir or Path("../web/data")
+        xml_dir.mkdir(parents=True, exist_ok=True)
+
+        greek_parser = None
+        if not args.no_greek:
+            greek_parser = GreekTextParser("greek_texts")
+
+        count = 0
+        for book_dir in args.output_dir.iterdir():
+            if book_dir.is_dir() and book_dir.name not in ("json", "xml"):
+                book_id = book_dir.name.lower()
+                book_name = book_dir.name.title()
+                output_file = xml_dir / f"{book_id}.xml"
+                export_book_to_xml(
+                    book_dir,
+                    output_file,
+                    book_id,
+                    book_name,
+                    greek_parser
+                )
+                count += 1
+
+        print(f"\nExported {count} books to {xml_dir}/")
+
     else:
         parser.print_help()
 

@@ -29,6 +29,7 @@ except ImportError:
 from greek_parser import GreekTextParser
 from prompt_template import build_prompt
 from utils import export_book_to_json
+from xml_export import export_book_to_xml
 
 
 # Configuration
@@ -207,7 +208,7 @@ def check_batch_status(client, batch_id: str, provider: str) -> dict:
 
 
 def download_batch_results(
-    client, batch_id: str, book_name: str, output_dir: Path, provider: str, parser: Optional[GreekTextParser] = None, json_dir: Optional[Path] = None
+    client, batch_id: str, book_name: str, output_dir: Path, provider: str, parser: Optional[GreekTextParser] = None, json_dir: Optional[Path] = None, export_xml_flag: bool = False
 ) -> list[Path]:
     print(f"Downloading results for {book_name.title()} (Batch {batch_id})...")
     book_dir = output_dir / book_name.lower()
@@ -269,8 +270,11 @@ def download_batch_results(
     if parser:
         total = parser.get_chapter_count(book_name)
         if len(saved_files) >= total - 1:
-            export_json(book_name, book_dir, json_dir)
-    
+            if export_xml_flag:
+                export_xml(book_name, book_dir, json_dir, parser)
+            else:
+                export_json(book_name, book_dir, json_dir)
+
     return saved_files
 
 
@@ -286,6 +290,17 @@ def export_json(book_name, book_dir, json_dir):
         print(f"  Exported JSON for {book_name.title()}")
     except Exception as e:
         print(f"  JSON export failed: {e}")
+
+
+def export_xml(book_name, book_dir, xml_dir, parser: Optional[GreekTextParser] = None):
+    if xml_dir is None: xml_dir = Path(__file__).parent.parent / "web" / "data"
+    try:
+        book_id = book_name.lower()
+        book_display_name = book_name.title()
+        export_book_to_xml(book_dir, xml_dir / f"{book_id}.xml", book_id, book_display_name, parser)
+        print(f"  Exported XML for {book_name.title()}")
+    except Exception as e:
+        print(f"  XML export failed: {e}")
 
 
 def save_batch_id(batch_id, book_name, output_dir, provider):
@@ -324,6 +339,7 @@ def main():
     download = subparsers.add_parser("download")
     add_common(download)
     download.add_argument("--json-dir", "-j", type=Path)
+    download.add_argument("--xml", action="store_true", help="Export to XML format instead of JSON")
 
     args = parser.parse_args()
     if not args.command:
@@ -411,9 +427,13 @@ def main():
                     client = get_anthropic_client()
                 elif saved[1] == "google" and not hasattr(client, "batches"):
                     client = get_google_client()
-                
+
                 try:
-                    download_batch_results(client, saved[0], book, output_dir, saved[1], parser=text_parser, json_dir=args.json_dir)
+                    download_batch_results(
+                        client, saved[0], book, output_dir, saved[1],
+                        parser=text_parser, json_dir=args.json_dir,
+                        export_xml_flag=args.xml
+                    )
                 except Exception as e:
                     print(f"Error downloading {book}: {e}")
             else:

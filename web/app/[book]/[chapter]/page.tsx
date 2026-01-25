@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getBook, getBookName } from "@/lib/books";
-import { getChapter, getBookData } from "@/lib/data";
+import { getXmlChapter, getXmlBookData, getKjvChapter } from "@/lib/data";
 import { TranslationNotes } from "@/components/TranslationNotes";
+import { ChapterContent } from "@/components/ChapterContent";
 
 interface ChapterPageProps {
   params: Promise<{ book: string; chapter: string }>;
@@ -22,8 +23,8 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
   const chapterNum = parseInt(chapterStr, 10);
 
   const bookInfo = getBook(book);
-  const chapterData = getChapter(book, chapterNum);
-  const bookData = getBookData(book);
+  const chapterData = getXmlChapter(book, chapterNum);
+  const bookData = getXmlBookData(book);
 
   if (!bookInfo || !chapterData || !bookData) {
     notFound();
@@ -40,6 +41,15 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
   const nextExists = nextChapter
     ? bookData.chapters.some((c) => c.chapter === nextChapter)
     : false;
+
+  // Get KJV text for comparison
+  const kjvVerses = getKjvChapter(book, chapterNum) ?? {};
+
+  // Collect all notes from this chapter for the legacy TranslationNotes component
+  const allNotes = chapterData.verses
+    .flatMap((v) => v.notes)
+    .map((n) => `**"${n.term}"**: ${n.explanation}`)
+    .join("\n\n");
 
   return (
     <article className="container-reading py-12">
@@ -71,50 +81,16 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
         </h1>
       </header>
 
-      {/* The Translation */}
-      <div className="prose-reading">
-        {(() => {
-          // Group verses into paragraphs
-          const paragraphs: (typeof chapterData.verses)[] = [];
-          let currentParagraph: typeof chapterData.verses = [];
-
-          chapterData.verses.forEach((verse, index) => {
-            if (verse.paragraphStart && currentParagraph.length > 0) {
-              paragraphs.push(currentParagraph);
-              currentParagraph = [];
-            }
-            currentParagraph.push(verse);
-          });
-          if (currentParagraph.length > 0) {
-            paragraphs.push(currentParagraph);
-          }
-
-          return paragraphs.map((paragraph, pIndex) => (
-            <p key={pIndex} className="mb-4">
-              {paragraph.map((verse) => {
-                // Split the text to grab the first word
-                const words = verse.text.trim().split(" ");
-                const firstWord = words[0];
-                const restOfText = words.slice(1).join(" ");
-
-                return (
-                  <span key={verse.verse}>
-                    {/* The wrapper ensures the number and first word stay together */}
-                    <span className="verse-wrapper">
-                      <sup className="verse-num">{verse.verse}</sup>
-                      {firstWord}
-                    </span>
-                    {/* Add a space and the rest of the text */} {restOfText}{" "}
-                  </span>
-                );
-              })}
-            </p>
-          ));
-        })()}
-      </div>
+      {/* The Translation - now with clickable verses */}
+      <ChapterContent
+        chapter={chapterData}
+        bookName={bookInfo.name}
+        chapterNum={chapterNum}
+        kjvVerses={kjvVerses}
+      />
 
       {/* Translation Notes (Collapsible) */}
-      <TranslationNotes notes={chapterData.notes} />
+      <TranslationNotes notes={allNotes} />
 
       {/* Chapter Navigation */}
       <nav className="mt-16 pt-8 border-t border-neutral-200 dark:border-neutral-800 flex justify-between items-center">
