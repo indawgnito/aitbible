@@ -211,13 +211,16 @@ function getTextContent(el: Element): string {
 }
 
 /**
- * Strip markdown formatting (bold, italic) from text.
+ * Strip markdown formatting and speaker tag remnants from text.
  */
 function stripMarkdown(text: string): string {
   // Remove **bold** markers
   text = text.replace(/\*\*([^*]+)\*\*/g, "$1");
   // Remove *italic* markers
   text = text.replace(/\*([^*]+)\*/g, "$1");
+  // Remove leftover speaker tags [SPEAKER:...] and [/SPEAKER:...]
+  text = text.replace(/\[\/SPEAKER:[^\]]*\]/g, "");
+  text = text.replace(/\[SPEAKER:[^\]]*\]/g, "");
   return text;
 }
 

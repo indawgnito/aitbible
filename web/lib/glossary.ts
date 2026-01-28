@@ -96,11 +96,13 @@ export const termLookup = buildTermLookup();
 
 /**
  * Check if a word (or phrase starting with word) matches a glossary term.
+ * Only matches if the term's Greek lemma is present in the verse's lemmas.
  * Returns the term and the full matched text if found.
  */
 export function matchGlossaryTerm(
   text: string,
-  startIndex: number
+  startIndex: number,
+  verseLemmas?: Set<string>
 ): { term: GlossaryTerm; matchedText: string } | null {
   // Get the word at startIndex
   const remainingText = text.slice(startIndex);
@@ -115,9 +117,24 @@ export function matchGlossaryTerm(
 
   if (!potentialTerm) return null;
 
+  // If we have verseLemmas, verify the Greek lemma is in the verse
+  // This prevents false positives like "just" (merely) vs "just" (righteous)
+  if (verseLemmas && verseLemmas.size > 0) {
+    const termLemma = potentialTerm.lemma.toLowerCase();
+    // Check if any part of the term's lemma matches any verse lemma
+    // (handles compound lemmas like "ζωή, αἰώνιος")
+    const termLemmaParts = termLemma.split(/[,\s\/]+/).map(l => l.trim()).filter(Boolean);
+    const hasMatchingLemma = termLemmaParts.some(part =>
+      Array.from(verseLemmas).some(vl => vl.includes(part) || part.includes(vl))
+    );
+
+    if (!hasMatchingLemma) {
+      return null;
+    }
+  }
+
   // Check if the full rendering matches
   const rendering = potentialTerm.aitRendering;
-  const renderingLower = rendering.toLowerCase();
 
   // For single-word terms
   if (!rendering.includes(" ")) {

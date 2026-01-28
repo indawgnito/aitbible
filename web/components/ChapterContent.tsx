@@ -134,8 +134,11 @@ function VerseSpan({ verse, onClick, onTermClick, isHighlighted }: VerseSpanProp
   // Determine if we have notes or Greek (visual indicator)
   const hasExtras = verse.notes.length > 0 || verse.greek.length > 0;
 
+  // Get the set of Greek lemmas in this verse for glossary term validation
+  const verseLemmas = new Set(verse.greek.map(w => w.lemma.toLowerCase()));
+
   // Render segments with proper speaker coloring and glossary term detection
-  const renderedSegments = renderSegments(verse.segments, onTermClick);
+  const renderedSegments = renderSegments(verse.segments, onTermClick, verseLemmas);
 
   // We need to insert the verse number before the first character
   // Split the first segment to wrap verse number with first word
@@ -194,7 +197,8 @@ function getSpeakerClass(speaker: string): string {
  */
 function renderSegments(
   segments: { type: "text" | "speaker"; content: string; speaker?: string }[] | undefined,
-  onTermClick: (term: GlossaryTerm) => void
+  onTermClick: (term: GlossaryTerm) => void,
+  verseLemmas: Set<string>
 ): React.ReactNode[] {
   if (!segments || segments.length === 0) {
     return [];
@@ -209,7 +213,8 @@ function renderSegments(
     const contentWithTerms = renderTextWithGlossaryTerms(
       segment.content,
       onTermClick,
-      speakerClass
+      speakerClass,
+      verseLemmas
     );
 
     return <span key={index}>{contentWithTerms}</span>;
@@ -222,7 +227,8 @@ function renderSegments(
 function renderTextWithGlossaryTerms(
   text: string,
   onTermClick: (term: GlossaryTerm) => void,
-  speakerClass: string
+  speakerClass: string,
+  verseLemmas: Set<string>
 ): React.ReactNode[] {
   const result: React.ReactNode[] = [];
   let currentIndex = 0;
@@ -230,7 +236,7 @@ function renderTextWithGlossaryTerms(
 
   while (currentIndex < text.length) {
     // Try to match a glossary term at current position
-    const match = matchGlossaryTerm(text, currentIndex);
+    const match = matchGlossaryTerm(text, currentIndex, verseLemmas);
 
     if (match) {
       // Add any text before the match
