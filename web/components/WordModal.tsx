@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
 import type { GlossaryTerm } from "@/lib/glossary";
 import { glossaryCategories } from "@/lib/glossary";
@@ -115,29 +115,22 @@ export function WordModal({ isOpen, onClose, term }: WordModalProps) {
 
           {/* Appears In */}
           {term.appearsIn.length > 0 && (
-            <section>
-              <h3 className="text-xs font-sans font-semibold uppercase tracking-wide text-neutral-500 dark:text-neutral-400 mb-3">
-                Appears In
-              </h3>
-              <div className="flex flex-wrap gap-2">
-                {term.appearsIn.slice(0, 6).map((ref, idx) => (
-                  <Link
-                    key={idx}
-                    href={`/${ref.book}/${ref.chapter}#${ref.verses[0]}`}
-                    onClick={onClose}
-                    className="inline-flex items-center px-3 py-1.5 rounded-lg text-sm bg-neutral-100 hover:bg-neutral-200 dark:bg-neutral-800 dark:hover:bg-neutral-700 text-neutral-700 dark:text-neutral-300 transition-colors"
-                  >
-                    {getBookName(ref.book)} {ref.chapter}:{formatVerses(ref.verses)}
-                  </Link>
-                ))}
-                {term.appearsIn.length > 6 && (
-                  <span className="inline-flex items-center px-3 py-1.5 text-sm text-neutral-500 dark:text-neutral-400">
-                    +{term.appearsIn.length - 6} more
-                  </span>
-                )}
-              </div>
-            </section>
+            <AppearsInSection
+              appearsIn={term.appearsIn}
+              greekAppearsIn={term.greekAppearsIn}
+              greekLabel={term.greek}
+              onClose={onClose}
+            />
           )}
+          {term.appearsIn.length === 0 &&
+            term.greekAppearsIn &&
+            term.greekAppearsIn.length > 0 && (
+              <GreekOnlySection
+                greekAppearsIn={term.greekAppearsIn}
+                greekLabel={term.greek}
+                onClose={onClose}
+              />
+            )}
         </div>
 
         {/* Footer */}
@@ -165,6 +158,154 @@ export function WordModal({ isOpen, onClose, term }: WordModalProps) {
         </div>
       </div>
     </div>
+  );
+}
+
+/**
+ * Expandable "Appears In" section with show more/less toggle.
+ */
+function countRefs(refs: { verses: number[] }[]): number {
+  return refs.reduce((sum, r) => sum + r.verses.length, 0);
+}
+
+function AppearsInSection({
+  appearsIn,
+  greekAppearsIn,
+  greekLabel,
+  onClose,
+}: {
+  appearsIn: GlossaryTerm["appearsIn"];
+  greekAppearsIn?: GlossaryTerm["greekAppearsIn"];
+  greekLabel?: string;
+  onClose: () => void;
+}) {
+  const INITIAL_COUNT = 6;
+  const [expanded, setExpanded] = useState(false);
+  const [greekExpanded, setGreekExpanded] = useState(false);
+
+  const hasMore = appearsIn.length > INITIAL_COUNT;
+  const visible = expanded ? appearsIn : appearsIn.slice(0, INITIAL_COUNT);
+
+  const hasGreek = greekAppearsIn && greekAppearsIn.length > 0;
+  const greekHasMore = hasGreek && greekAppearsIn.length > INITIAL_COUNT;
+  const greekVisible = hasGreek
+    ? greekExpanded
+      ? greekAppearsIn
+      : greekAppearsIn.slice(0, INITIAL_COUNT)
+    : [];
+
+  return (
+    <section className="space-y-4">
+      <div>
+        <h3 className="text-xs font-sans font-semibold uppercase tracking-wide text-neutral-500 dark:text-neutral-400 mb-3">
+          Used in translation ({countRefs(appearsIn)})
+        </h3>
+        <div className="flex flex-wrap gap-2">
+          {visible.map((ref) => (
+            <Link
+              key={`${ref.book}-${ref.chapter}`}
+              href={`/${ref.book}/${ref.chapter}#${ref.verses[0]}`}
+              onClick={onClose}
+              className="inline-flex items-center px-3 py-1.5 rounded-lg text-sm bg-neutral-100 hover:bg-neutral-200 dark:bg-neutral-800 dark:hover:bg-neutral-700 text-neutral-700 dark:text-neutral-300 transition-colors"
+            >
+              {getBookName(ref.book)} {ref.chapter}:{formatVerses(ref.verses)}
+            </Link>
+          ))}
+          {hasMore && (
+            <button
+              onClick={() => setExpanded(!expanded)}
+              className="inline-flex items-center px-3 py-1.5 rounded-lg text-sm text-amber-700 dark:text-amber-500 hover:bg-amber-50 dark:hover:bg-amber-900/20 transition-colors cursor-pointer"
+            >
+              {expanded
+                ? "Show less"
+                : `+${appearsIn.length - INITIAL_COUNT} more`}
+            </button>
+          )}
+        </div>
+      </div>
+
+      {hasGreek && (
+        <div>
+          <h3 className="text-xs font-sans font-semibold uppercase tracking-wide text-neutral-400 dark:text-neutral-500 mb-3">
+            {greekLabel
+              ? `${greekLabel} also in (${countRefs(greekAppearsIn)})`
+              : `Greek also in (${countRefs(greekAppearsIn)})`}
+          </h3>
+          <div className="flex flex-wrap gap-2">
+            {greekVisible.map((ref) => (
+              <Link
+                key={`greek-${ref.book}-${ref.chapter}`}
+                href={`/${ref.book}/${ref.chapter}#${ref.verses[0]}`}
+                onClick={onClose}
+                className="inline-flex items-center px-3 py-1.5 rounded-lg text-sm bg-neutral-50 hover:bg-neutral-100 dark:bg-neutral-800/50 dark:hover:bg-neutral-800 text-neutral-500 dark:text-neutral-400 transition-colors"
+              >
+                {getBookName(ref.book)} {ref.chapter}:
+                {formatVerses(ref.verses)}
+              </Link>
+            ))}
+            {greekHasMore && (
+              <button
+                onClick={() => setGreekExpanded(!greekExpanded)}
+                className="inline-flex items-center px-3 py-1.5 rounded-lg text-sm text-neutral-500 dark:text-neutral-400 hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors cursor-pointer"
+              >
+                {greekExpanded
+                  ? "Show less"
+                  : `+${greekAppearsIn.length - INITIAL_COUNT} more`}
+              </button>
+            )}
+          </div>
+        </div>
+      )}
+    </section>
+  );
+}
+
+function GreekOnlySection({
+  greekAppearsIn,
+  greekLabel,
+  onClose,
+}: {
+  greekAppearsIn: GlossaryTerm["greekAppearsIn"];
+  greekLabel?: string;
+  onClose: () => void;
+}) {
+  const INITIAL_COUNT = 6;
+  const [expanded, setExpanded] = useState(false);
+  const hasMore = greekAppearsIn.length > INITIAL_COUNT;
+  const visible = expanded
+    ? greekAppearsIn
+    : greekAppearsIn.slice(0, INITIAL_COUNT);
+
+  return (
+    <section>
+      <h3 className="text-xs font-sans font-semibold uppercase tracking-wide text-neutral-400 dark:text-neutral-500 mb-3">
+        {greekLabel
+          ? `${greekLabel} appears in (${countRefs(greekAppearsIn)})`
+          : `Greek appears in (${countRefs(greekAppearsIn)})`}
+      </h3>
+      <div className="flex flex-wrap gap-2">
+        {visible.map((ref) => (
+          <Link
+            key={`greek-${ref.book}-${ref.chapter}`}
+            href={`/${ref.book}/${ref.chapter}#${ref.verses[0]}`}
+            onClick={onClose}
+            className="inline-flex items-center px-3 py-1.5 rounded-lg text-sm bg-neutral-50 hover:bg-neutral-100 dark:bg-neutral-800/50 dark:hover:bg-neutral-800 text-neutral-500 dark:text-neutral-400 transition-colors"
+          >
+            {getBookName(ref.book)} {ref.chapter}:{formatVerses(ref.verses)}
+          </Link>
+        ))}
+        {hasMore && (
+          <button
+            onClick={() => setExpanded(!expanded)}
+            className="inline-flex items-center px-3 py-1.5 rounded-lg text-sm text-neutral-500 dark:text-neutral-400 hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors cursor-pointer"
+          >
+            {expanded
+              ? "Show less"
+              : `+${greekAppearsIn.length - INITIAL_COUNT} more`}
+          </button>
+        )}
+      </div>
+    </section>
   );
 }
 

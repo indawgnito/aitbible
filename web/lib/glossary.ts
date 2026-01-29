@@ -17,6 +17,7 @@ export interface GlossaryTerm {
   brief: string;
   context: string;
   appearsIn: { book: string; chapter: number; verses: number[] }[];
+  greekAppearsIn: { book: string; chapter: number; verses: number[] }[];
 }
 
 export interface GlossaryCategory {
@@ -75,16 +76,22 @@ export function buildTermLookup(): Map<string, GlossaryTerm> {
   const lookup = new Map<string, GlossaryTerm>();
 
   for (const term of glossaryTerms) {
-    // Add the main AIT rendering
-    const words = term.aitRendering.toLowerCase().split(/\s+/);
+    // Handle slash-separated alternative renderings (e.g. "Messiah / Anointed")
+    const alternatives = term.aitRendering.includes(" / ")
+      ? term.aitRendering.split(" / ").map((s) => s.trim())
+      : [term.aitRendering];
 
-    // For single-word renderings, add directly
-    if (words.length === 1) {
-      lookup.set(words[0], term);
-    } else {
-      // For multi-word phrases, add the first word as a trigger
-      // The full matching will be done in the render function
-      lookup.set(words[0], term);
+    for (const alt of alternatives) {
+      const words = alt.toLowerCase().split(/\s+/);
+
+      // For single-word renderings, add directly
+      if (words.length === 1) {
+        lookup.set(words[0], term);
+      } else {
+        // For multi-word phrases, add the first word as a trigger
+        // The full matching will be done in the render function
+        lookup.set(words[0], term);
+      }
     }
   }
 
@@ -133,28 +140,31 @@ export function matchGlossaryTerm(
     }
   }
 
-  // Check if the full rendering matches
-  const rendering = potentialTerm.aitRendering;
+  // Check if the full rendering matches (handle slash-separated alternatives)
+  const alternatives = potentialTerm.aitRendering.includes(" / ")
+    ? potentialTerm.aitRendering.split(" / ").map((s) => s.trim())
+    : [potentialTerm.aitRendering];
 
-  // For single-word terms
-  if (!rendering.includes(" ")) {
-    // Match the word with possible punctuation after
-    const singleWordMatch = remainingText.match(
+  for (const rendering of alternatives) {
+    // For single-word terms
+    if (!rendering.includes(" ")) {
+      const singleWordMatch = remainingText.match(
+        new RegExp(`^(${escapeRegex(rendering)})(?=[\\s.,;:!?'"\\)]|$)`, "i")
+      );
+      if (singleWordMatch) {
+        return { term: potentialTerm, matchedText: singleWordMatch[1] };
+      }
+      continue;
+    }
+
+    // For multi-word phrases, check if the phrase matches
+    const phraseMatch = remainingText.match(
       new RegExp(`^(${escapeRegex(rendering)})(?=[\\s.,;:!?'"\\)]|$)`, "i")
     );
-    if (singleWordMatch) {
-      return { term: potentialTerm, matchedText: singleWordMatch[1] };
+
+    if (phraseMatch) {
+      return { term: potentialTerm, matchedText: phraseMatch[1] };
     }
-    return null;
-  }
-
-  // For multi-word phrases, check if the phrase matches
-  const phraseMatch = remainingText.match(
-    new RegExp(`^(${escapeRegex(rendering)})(?=[\\s.,;:!?'"\\)]|$)`, "i")
-  );
-
-  if (phraseMatch) {
-    return { term: potentialTerm, matchedText: phraseMatch[1] };
   }
 
   return null;
