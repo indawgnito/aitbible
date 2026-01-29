@@ -270,17 +270,33 @@ function renderTextWithGlossaryTerms(
       currentIndex =
         text.indexOf(match.matchedText, currentIndex) + match.matchedText.length;
     } else {
-      // No match, find the next word boundary or end
-      const nextSpace = text.indexOf(" ", currentIndex + 1);
-      const endIndex = nextSpace === -1 ? text.length : nextSpace + 1;
+      // No match at this position
+      // Check if current char is a non-word char (quote, paren, etc.)
+      // If so, advance by 1 so we can try matching the next word
+      const charAtPos = text[currentIndex];
+      const isWordChar = /[\w'-]/.test(charAtPos);
 
-      result.push(
-        <span key={keyIndex++} className={speakerClass}>
-          {text.slice(currentIndex, endIndex)}
-        </span>
-      );
+      if (!isWordChar) {
+        // Non-word char (quote mark, punctuation, etc.) - emit it and advance by 1
+        result.push(
+          <span key={keyIndex++} className={speakerClass}>
+            {charAtPos}
+          </span>
+        );
+        currentIndex += 1;
+      } else {
+        // Word char but no glossary match - skip to next word boundary
+        const nextSpace = text.indexOf(" ", currentIndex + 1);
+        const endIndex = nextSpace === -1 ? text.length : nextSpace + 1;
 
-      currentIndex = endIndex;
+        result.push(
+          <span key={keyIndex++} className={speakerClass}>
+            {text.slice(currentIndex, endIndex)}
+          </span>
+        );
+
+        currentIndex = endIndex;
+      }
     }
   }
 
