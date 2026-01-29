@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback, useMemo } from "react";
+import { useState, useCallback, useMemo, useEffect } from "react";
 import Link from "next/link";
 import type { GlossaryTerm } from "@/lib/glossary";
 import { ExpandableRefs } from "@/components/ExpandableRefs";
@@ -100,7 +100,7 @@ export function GlossaryContent({
                 )}
               </div>
 
-              <div className="space-y-6">
+              <div className="space-y-2">
                 {terms.map((term) => (
                   <GlossaryEntry key={term.id} term={term} />
                 ))}
@@ -130,44 +130,69 @@ export function GlossaryContent({
 }
 
 function GlossaryEntry({ term }: { term: GlossaryTerm }) {
+  const [open, setOpen] = useState(false);
+
+  // Auto-expand if this term is the URL hash target
+  useEffect(() => {
+    if (window.location.hash === `#${term.id}`) {
+      setOpen(true);
+    }
+  }, [term.id]);
+
   return (
     <article
       id={term.id}
-      className="scroll-mt-32 p-5 rounded-xl bg-neutral-50 dark:bg-neutral-800/50 border border-neutral-200 dark:border-neutral-700"
+      className="scroll-mt-32 rounded-xl bg-neutral-50 dark:bg-neutral-800/50 border border-neutral-200 dark:border-neutral-700"
     >
-      {/* Header */}
-      <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1 mb-3">
-        <h3 className="text-lg font-semibold text-neutral-900 dark:text-neutral-100">
+      {/* Collapsed header — always visible */}
+      <button
+        onClick={() => setOpen(!open)}
+        className="w-full flex items-baseline gap-x-3 gap-y-1 flex-wrap px-5 py-3.5 text-left cursor-pointer"
+      >
+        <h3 className="text-base font-semibold text-neutral-900 dark:text-neutral-100">
           {term.aitRendering}
         </h3>
-        <span className="text-lg text-neutral-500 dark:text-neutral-400 font-greek">
+        <span className="text-base text-neutral-500 dark:text-neutral-400 font-greek">
           {term.greek}
         </span>
         <span className="text-sm text-neutral-500 dark:text-neutral-400">
-          (traditional: &quot;{term.traditional}&quot;)
+          &larr; &quot;{term.traditional}&quot;
         </span>
-      </div>
+        <svg
+          className={`w-4 h-4 ml-auto text-neutral-400 transition-transform flex-shrink-0 ${open ? "rotate-180" : ""}`}
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+        </svg>
+      </button>
 
-      {/* Brief */}
-      <p className="text-neutral-700 dark:text-neutral-300 mb-4">
-        {renderMarkdown(term.brief)}
-      </p>
+      {/* Expanded content */}
+      {open && (
+        <div className="px-5 pb-5 pt-0 border-t border-neutral-200 dark:border-neutral-700">
+          {/* Brief */}
+          <p className="text-neutral-700 dark:text-neutral-300 mt-4 mb-4">
+            {renderMarkdown(term.brief)}
+          </p>
 
-      {/* Context */}
-      <div className="text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed space-y-2 mb-4">
-        {term.context.split("\n\n").map((paragraph, idx) => (
-          <p key={idx}>{renderMarkdown(paragraph)}</p>
-        ))}
-      </div>
+          {/* Context */}
+          <div className="text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed space-y-2 mb-4">
+            {term.context.split("\n\n").map((paragraph, idx) => (
+              <p key={idx}>{renderMarkdown(paragraph)}</p>
+            ))}
+          </div>
 
-      {/* Appears In (dual refs) */}
-      {(term.appearsIn.length > 0 || term.greekAppearsIn?.length > 0) && (
-        <ExpandableRefs
-          appearsIn={term.appearsIn}
-          greekAppearsIn={term.greekAppearsIn}
-          greekLabel={term.greek}
-          initialCount={4}
-        />
+          {/* Appears In (dual refs) */}
+          {(term.appearsIn.length > 0 || term.greekAppearsIn?.length > 0) && (
+            <ExpandableRefs
+              appearsIn={term.appearsIn}
+              greekAppearsIn={term.greekAppearsIn}
+              greekLabel={term.greek}
+              initialCount={4}
+            />
+          )}
+        </div>
       )}
     </article>
   );
