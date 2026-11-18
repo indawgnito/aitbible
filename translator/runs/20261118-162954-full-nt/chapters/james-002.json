@@ -1,0 +1,471 @@
+{
+ "id": "james-002",
+ "book": "james",
+ "chapter": 2,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZobn2xQ8s1CHjTHf",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 7220,
+  "output_tokens": 16087
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"My brothers and sisters, surely you do not hold faith in our glorious Lord Jesus Christ while practicing favoritism?\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For if a man wearing gold rings and splendid clothing comes into your assembly, and a poor person in filthy clothing also comes in,\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and you look attentively at the one wearing the splendid clothing and say,\"},{\"speaker\":\"other\",\"text\":\"“You sit here in a good place,”\"},{\"speaker\":\"narrator\",\"text\":\"and to the poor person you say,\"},{\"speaker\":\"other\",\"text\":\"“You stand, or sit there down by my footstool,”\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"have you not made distinctions among yourselves and become judges with evil thoughts?\"}]},{\"verse\":5,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Listen, my beloved brothers and sisters. Did God not choose those who are poor in the eyes of the world to be rich in faith and heirs of the kingdom he promised to those who love him?\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But you have dishonored the poor person. Is it not the rich who oppress you, and is it not they who drag you into court?\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Is it not they who blaspheme the good name that was invoked over you?\"}]},{\"verse\":8,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"If, however, you are carrying out the royal law in accordance with the scripture,\"},{\"speaker\":\"scripture\",\"text\":\"“You shall love your neighbor as yourself,”\"},{\"speaker\":\"narrator\",\"text\":\"you do well.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But if you show favoritism, you are committing sin and are convicted by the law as transgressors.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For whoever keeps the whole law but stumbles in one point has become guilty of it all.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For the one who said,\"},{\"speaker\":\"scripture\",\"text\":\"“Do not commit adultery,”\"},{\"speaker\":\"narrator\",\"text\":\"also said,\"},{\"speaker\":\"scripture\",\"text\":\"“Do not murder.”\"},{\"speaker\":\"narrator\",\"text\":\"Now if you do not commit adultery but do murder, you have become a transgressor of the law.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So speak and so act as people who are going to be judged by a law of freedom.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For judgment is merciless to the one who has shown no mercy. Mercy triumphs over judgment.\"}]},{\"verse\":14,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"What good is it, my brothers and sisters, if someone claims to have faith but has no works? Can that faith save them?\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"If a brother or sister is poorly clothed and lacking daily food,\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and one of you says to them,\"},{\"speaker\":\"other\",\"text\":\"“Go in peace; keep warm and eat your fill,”\"},{\"speaker\":\"narrator\",\"text\":\"but you do not give them what the body needs, what good is it?\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So too faith by itself, if it has no works, is dead.\"}]},{\"verse\":18,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But someone will say,\"},{\"speaker\":\"other\",\"text\":\"“You have faith, and I have works.”\"},{\"speaker\":\"narrator\",\"text\":\"Show me your faith apart from the works, and I will show you my faith by my works.\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"You believe that God is one? You do well. Even the demons believe, and they shudder.\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But do you want to know, you empty person, that faith apart from works does not work?\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Was not Abraham our father justified by works when he offered up his son Isaac on the altar?\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"You see that faith was working together with his works, and by the works his faith was made complete,\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and the scripture was fulfilled that says,\"},{\"speaker\":\"scripture\",\"text\":\"“Abraham believed God, and it was counted to him as righteousness,”\"},{\"speaker\":\"narrator\",\"text\":\"and he was called a friend of God.\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"You see that a person is justified by works and not by faith alone.\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"In the same way, was not Rahab the prostitute also justified by works when she welcomed the messengers and sent them out by a different road?\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For just as the body apart from the spirit is dead, so too faith apart from works is dead.\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"surely you do not hold\",\"lemma\":\"\",\"kind\":\"departure\",\"traditional\":\"do not hold the faith … with partiality (a command)\",\"note\":\"Most English versions read this sentence as a command. The Greek edition translated here punctuates it as a question, and the negative used expects the answer no. The earliest manuscripts had no punctuation, so either reading is possible, and the point is the same either way: faith and favoritism do not belong together.\"},{\"verse\":1,\"phrase\":\"faith in our glorious Lord Jesus Christ\",\"lemma\":\"πίστις\",\"kind\":\"ambiguity\",\"traditional\":\"the faith of our Lord Jesus Christ, the Lord of glory\",\"note\":\"The Greek is literally 'the faith of our Lord Jesus Christ of the glory.' Most interpreters take it as faith in Jesus, though it can also be read as the faithfulness of Jesus. The closing words 'of the glory' are awkward: they may describe the Lord as glorious, as here, or stand as a title, 'Jesus Christ, the Glory.'\"},{\"verse\":2,\"phrase\":\"assembly\",\"lemma\":\"συναγωγή\",\"kind\":\"background\",\"traditional\":\"assembly / meeting\",\"note\":\"The Greek word is synagoge, the ordinary term for a gathering and for a Jewish synagogue. James uses it for a meeting of Jesus-followers, one sign of how Jewish the setting of this letter is. In 5:14 he uses the word usually translated 'church.'\"},{\"verse\":4,\"phrase\":\"made distinctions among yourselves\",\"lemma\":\"διακρίνω\",\"kind\":\"ambiguity\",\"traditional\":\"made distinctions among yourselves\",\"note\":\"The verb can also mean to be divided or to waver, the sense it has in 1:6, which would give 'are you not divided within yourselves?' On that reading the fault is an inner inconsistency between faith and behavior. Most translations take it as discrimination between people, as here.\"},{\"verse\":7,\"phrase\":\"invoked over you\",\"lemma\":\"ἐπικαλέω\",\"kind\":\"background\",\"traditional\":\"by which you are called\",\"note\":\"To have a name called over someone is a Septuagint idiom for belonging to the one named, used of Israel as God's people. Here the name is most likely that of Jesus. Many see a reference to its being spoken at baptism, though the text does not say so.\"},{\"verse\":8,\"phrase\":\"royal law\",\"lemma\":\"βασιλικός\",\"kind\":\"ambiguity\",\"traditional\":\"royal law\",\"note\":\"'Royal' may mean the law that belongs to the king, or to the kingdom mentioned in verse 5. It may instead mean the law that rules over the other commands. The quotation is from Leviticus 19:18.\"},{\"verse\":15,\"phrase\":\"poorly clothed\",\"lemma\":\"γυμνός\",\"kind\":\"departure\",\"traditional\":\"naked\",\"note\":\"The Greek word often means 'naked' but was also used of someone wearing only an undergarment or lacking adequate clothing, which is the likely sense here. Several modern versions translate similarly.\"},{\"verse\":18,\"phrase\":\"You have faith, and I have works.\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"Thou hast faith, and I have works: shew me thy faith without thy works… (quotation extended)\",\"note\":\"Ancient manuscripts had no quotation marks, and where the objector's words end is one of the most debated questions in the letter. The text follows the most common view: the objection is this one sentence, meaning roughly 'one person has faith, another has works,' and James replies from 'Show me.' Others extend the quotation to the end of the verse or beyond, which makes the speaker an ally of James and not an opponent.\"},{\"verse\":19,\"phrase\":\"God is one\",\"lemma\":\"εἷς\",\"kind\":\"background\",\"traditional\":\"there is one God / God is one\",\"note\":\"This echoes the Shema (Deuteronomy 6:4), the central Jewish confession. 'Believe' is the verb form of the word translated 'faith' throughout the chapter, so the point is that faith of this bare kind is something even demons have. Some manuscripts read 'there is one God.'\"},{\"verse\":20,\"phrase\":\"does not work\",\"lemma\":\"ἀργός\",\"kind\":\"departure\",\"traditional\":\"is useless / is barren (KJV: is dead)\",\"note\":\"The Greek adjective means idle or unproductive, literally 'not working,' and James is punning on 'works.' The rendering keeps the pun, where most versions have 'useless' or 'barren.' Many later manuscripts read 'dead' here, as in verses 17 and 26, and that reading lies behind the King James Version.\"},{\"verse\":21,\"phrase\":\"justified\",\"lemma\":\"δικαιόω\",\"kind\":\"ambiguity\",\"traditional\":\"justified\",\"note\":\"Greek has one word-family where English has two: 'justified' is the verb that goes with 'righteousness' in verse 23. It can mean to declare someone in the right or to show them to be in the right, and some translators prefer 'vindicated' or 'shown to be righteous' in James. Paul uses the same verb and the same Genesis text to say a person is justified by faith apart from works of the law (Romans 3:28; 4:2–3). Most interpreters hold that the two writers use 'faith' and 'works' differently and are answering different questions, though how far they agree is debated.\"},{\"verse\":23,\"phrase\":\"friend of God\",\"lemma\":\"φίλος\",\"kind\":\"background\",\"traditional\":\"the friend of God\",\"note\":\"The quotation is Genesis 15:6. Abraham is called God's friend in Isaiah 41:8 and 2 Chronicles 20:7, and the title was common in Jewish writing of the period.\"}],\"candidates\":[{\"lemma\":\"ἀδελφός\",\"rendering\":\"brothers and sisters (plural address); brother (singular)\",\"verse\":1,\"reason\":\"The plural address recurs throughout the letters and translators split between 'brothers' and 'brothers and sisters'; readers will notice variation.\"},{\"lemma\":\"ἔργον\",\"rendering\":\"works\",\"verse\":14,\"reason\":\"'Works' versus 'deeds' or 'actions' needs one decision so that James 2 and Paul's 'works of the law' can be compared by the reader.\"},{\"lemma\":\"λογίζομαι\",\"rendering\":\"counted\",\"verse\":23,\"reason\":\"The Genesis 15:6 citation recurs in Romans 4 and Galatians 3, and 'counted', 'credited' and 'reckoned' are all in use; it should match everywhere.\"},{\"lemma\":\"συναγωγή\",\"rendering\":\"assembly\",\"verse\":2,\"reason\":\"Usually 'synagogue' in the Gospels and Acts, but here a gathering of Jesus-followers; a policy is needed on when to use 'synagogue' and when 'assembly'.\"},{\"lemma\":\"βλασφημέω\",\"rendering\":\"blaspheme\",\"verse\":7,\"reason\":\"The word covers both abusive speech against people and against God; a rule is needed for when to use 'blaspheme' and when 'slander' or 'insult'.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "My brothers and sisters, surely you do not hold faith in our glorious Lord Jesus Christ while practicing favoritism?"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For if a man wearing gold rings and splendid clothing comes into your assembly, and a poor person in filthy clothing also comes in,"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and you look attentively at the one wearing the splendid clothing and say,"
+     },
+     {
+      "speaker": "other",
+      "text": "“You sit here in a good place,”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "and to the poor person you say,"
+     },
+     {
+      "speaker": "other",
+      "text": "“You stand, or sit there down by my footstool,”"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "have you not made distinctions among yourselves and become judges with evil thoughts?"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Listen, my beloved brothers and sisters. Did God not choose those who are poor in the eyes of the world to be rich in faith and heirs of the kingdom he promised to those who love him?"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But you have dishonored the poor person. Is it not the rich who oppress you, and is it not they who drag you into court?"
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Is it not they who blaspheme the good name that was invoked over you?"
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "If, however, you are carrying out the royal law in accordance with the scripture,"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“You shall love your neighbor as yourself,”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "you do well."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But if you show favoritism, you are committing sin and are convicted by the law as transgressors."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For whoever keeps the whole law but stumbles in one point has become guilty of it all."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For the one who said,"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“Do not commit adultery,”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "also said,"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“Do not murder.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "Now if you do not commit adultery but do murder, you have become a transgressor of the law."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So speak and so act as people who are going to be judged by a law of freedom."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For judgment is merciless to the one who has shown no mercy. Mercy triumphs over judgment."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "What good is it, my brothers and sisters, if someone claims to have faith but has no works? Can that faith save them?"
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "If a brother or sister is poorly clothed and lacking daily food,"
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and one of you says to them,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Go in peace; keep warm and eat your fill,”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "but you do not give them what the body needs, what good is it?"
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So too faith by itself, if it has no works, is dead."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But someone will say,"
+     },
+     {
+      "speaker": "other",
+      "text": "“You have faith, and I have works.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "Show me your faith apart from the works, and I will show you my faith by my works."
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "You believe that God is one? You do well. Even the demons believe, and they shudder."
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But do you want to know, you empty person, that faith apart from works does not work?"
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Was not Abraham our father justified by works when he offered up his son Isaac on the altar?"
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "You see that faith was working together with his works, and by the works his faith was made complete,"
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and the scripture was fulfilled that says,"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“Abraham believed God, and it was counted to him as righteousness,”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "and he was called a friend of God."
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "You see that a person is justified by works and not by faith alone."
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "In the same way, was not Rahab the prostitute also justified by works when she welcomed the messengers and sent them out by a different road?"
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For just as the body apart from the spirit is dead, so too faith apart from works is dead."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "surely you do not hold",
+    "lemma": "",
+    "kind": "departure",
+    "traditional": "do not hold the faith … with partiality (a command)",
+    "note": "Most English versions read this sentence as a command. The Greek edition translated here punctuates it as a question, and the negative used expects the answer no. The earliest manuscripts had no punctuation, so either reading is possible, and the point is the same either way: faith and favoritism do not belong together."
+   },
+   {
+    "verse": 1,
+    "phrase": "faith in our glorious Lord Jesus Christ",
+    "lemma": "πίστις",
+    "kind": "ambiguity",
+    "traditional": "the faith of our Lord Jesus Christ, the Lord of glory",
+    "note": "The Greek is literally 'the faith of our Lord Jesus Christ of the glory.' Most interpreters take it as faith in Jesus, though it can also be read as the faithfulness of Jesus. The closing words 'of the glory' are awkward: they may describe the Lord as glorious, as here, or stand as a title, 'Jesus Christ, the Glory.'"
+   },
+   {
+    "verse": 2,
+    "phrase": "assembly",
+    "lemma": "συναγωγή",
+    "kind": "background",
+    "traditional": "assembly / meeting",
+    "note": "The Greek word is synagoge, the ordinary term for a gathering and for a Jewish synagogue. James uses it for a meeting of Jesus-followers, one sign of how Jewish the setting of this letter is. In 5:14 he uses the word usually translated 'church.'"
+   },
+   {
+    "verse": 4,
+    "phrase": "made distinctions among yourselves",
+    "lemma": "διακρίνω",
+    "kind": "ambiguity",
+    "traditional": "made distinctions among yourselves",
+    "note": "The verb can also mean to be divided or to waver, the sense it has in 1:6, which would give 'are you not divided within yourselves?' On that reading the fault is an inner inconsistency between faith and behavior. Most translations take it as discrimination between people, as here."
+   },
+   {
+    "verse": 7,
+    "phrase": "invoked over you",
+    "lemma": "ἐπικαλέω",
+    "kind": "background",
+    "traditional": "by which you are called",
+    "note": "To have a name called over someone is a Septuagint idiom for belonging to the one named, used of Israel as God's people. Here the name is most likely that of Jesus. Many see a reference to its being spoken at baptism, though the text does not say so."
+   },
+   {
+    "verse": 8,
+    "phrase": "royal law",
+    "lemma": "βασιλικός",
+    "kind": "ambiguity",
+    "traditional": "royal law",
+    "note": "'Royal' may mean the law that belongs to the king, or to the kingdom mentioned in verse 5. It may instead mean the law that rules over the other commands. The quotation is from Leviticus 19:18."
+   },
+   {
+    "verse": 15,
+    "phrase": "poorly clothed",
+    "lemma": "γυμνός",
+    "kind": "departure",
+    "traditional": "naked",
+    "note": "The Greek word often means 'naked' but was also used of someone wearing only an undergarment or lacking adequate clothing, which is the likely sense here. Several modern versions translate similarly."
+   },
+   {
+    "verse": 18,
+    "phrase": "You have faith, and I have works.",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "Thou hast faith, and I have works: shew me thy faith without thy works… (quotation extended)",
+    "note": "Ancient manuscripts had no quotation marks, and where the objector's words end is one of the most debated questions in the letter. The text follows the most common view: the objection is this one sentence, meaning roughly 'one person has faith, another has works,' and James replies from 'Show me.' Others extend the quotation to the end of the verse or beyond, which makes the speaker an ally of James and not an opponent."
+   },
+   {
+    "verse": 19,
+    "phrase": "God is one",
+    "lemma": "εἷς",
+    "kind": "background",
+    "traditional": "there is one God / God is one",
+    "note": "This echoes the Shema (Deuteronomy 6:4), the central Jewish confession. 'Believe' is the verb form of the word translated 'faith' throughout the chapter, so the point is that faith of this bare kind is something even demons have. Some manuscripts read 'there is one God.'"
+   },
+   {
+    "verse": 20,
+    "phrase": "does not work",
+    "lemma": "ἀργός",
+    "kind": "departure",
+    "traditional": "is useless / is barren (KJV: is dead)",
+    "note": "The Greek adjective means idle or unproductive, literally 'not working,' and James is punning on 'works.' The rendering keeps the pun, where most versions have 'useless' or 'barren.' Many later manuscripts read 'dead' here, as in verses 17 and 26, and that reading lies behind the King James Version."
+   },
+   {
+    "verse": 21,
+    "phrase": "justified",
+    "lemma": "δικαιόω",
+    "kind": "ambiguity",
+    "traditional": "justified",
+    "note": "Greek has one word-family where English has two: 'justified' is the verb that goes with 'righteousness' in verse 23. It can mean to declare someone in the right or to show them to be in the right, and some translators prefer 'vindicated' or 'shown to be righteous' in James. Paul uses the same verb and the same Genesis text to say a person is justified by faith apart from works of the law (Romans 3:28; 4:2–3). Most interpreters hold that the two writers use 'faith' and 'works' differently and are answering different questions, though how far they agree is debated."
+   },
+   {
+    "verse": 23,
+    "phrase": "friend of God",
+    "lemma": "φίλος",
+    "kind": "background",
+    "traditional": "the friend of God",
+    "note": "The quotation is Genesis 15:6. Abraham is called God's friend in Isaiah 41:8 and 2 Chronicles 20:7, and the title was common in Jewish writing of the period."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "ἀδελφός",
+    "rendering": "brothers and sisters (plural address); brother (singular)",
+    "verse": 1,
+    "reason": "The plural address recurs throughout the letters and translators split between 'brothers' and 'brothers and sisters'; readers will notice variation."
+   },
+   {
+    "lemma": "ἔργον",
+    "rendering": "works",
+    "verse": 14,
+    "reason": "'Works' versus 'deeds' or 'actions' needs one decision so that James 2 and Paul's 'works of the law' can be compared by the reader."
+   },
+   {
+    "lemma": "λογίζομαι",
+    "rendering": "counted",
+    "verse": 23,
+    "reason": "The Genesis 15:6 citation recurs in Romans 4 and Galatians 3, and 'counted', 'credited' and 'reckoned' are all in use; it should match everywhere."
+   },
+   {
+    "lemma": "συναγωγή",
+    "rendering": "assembly",
+    "verse": 2,
+    "reason": "Usually 'synagogue' in the Gospels and Acts, but here a gathering of Jesus-followers; a policy is needed on when to use 'synagogue' and when 'assembly'."
+   },
+   {
+    "lemma": "βλασφημέω",
+    "rendering": "blaspheme",
+    "verse": 7,
+    "reason": "The word covers both abusive speech against people and against God; a rule is needed for when to use 'blaspheme' and when 'slander' or 'insult'."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

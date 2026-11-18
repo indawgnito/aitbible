@@ -1,0 +1,422 @@
+{
+ "id": "ephesians-006",
+ "book": "ephesians",
+ "chapter": 6,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBCMDV2iatV7B53jJotp",
+ "stop_reason": "end_turn",
+ "batch": false,
+ "attempt": 2,
+ "usage": {
+  "input_tokens": 7793,
+  "output_tokens": 13135
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Children, obey your parents in the Lord, for this is right.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"scripture\",\"text\":\"“Honor your father and mother,”\"},{\"speaker\":\"narrator\",\"text\":\"which is the first commandment with a promise,\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"scripture\",\"text\":\"“so that it may go well with you and you may live long on the earth.”\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And fathers, do not provoke your children to anger, but bring them up in the discipline and instruction of the Lord.\"}]},{\"verse\":5,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Slaves, obey your earthly masters with fear and trembling, in sincerity of heart, as you would Christ,\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"not serving only when watched, as people-pleasers, but as slaves of Christ doing the will of God, wholeheartedly\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"serving with goodwill, as for the Lord and not for people,\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"knowing that whatever good each person does, this he will receive back from the Lord, whether slave or free.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And masters, do the same to them, giving up threats, knowing that both their Master and yours is in the heavens, and there is no favoritism with him.\"}]},{\"verse\":10,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Finally, be strong in the Lord and in the power of his might.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Put on the full armor of God, so that you may be able to stand against the schemes of the devil,\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"because our wrestling is not against blood and flesh, but against the rulers, against the authorities, against the world-rulers of this darkness, against the spiritual forces of evil in the heavenly places.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Therefore take up the full armor of God, so that you may be able to withstand on the evil day and, having done everything, to stand.\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Stand, then, with truth belted around your waist, with the breastplate of righteousness on,\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and with your feet shod in the readiness of the good news of peace,\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"in every situation taking up the shield of faith, with which you will be able to put out all the flaming arrows of the evil one.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And take the helmet of salvation, and the sword of the Spirit, which is the word of God,\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"through every prayer and petition, praying on every occasion in the Spirit, and to that end keeping watch with all perseverance and petition for all the holy ones,\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and for me, that a word may be given to me when I open my mouth, to make known boldly the secret of the good news,\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"for which I am an ambassador in chains, so that in declaring it I may speak boldly, as I must.\"}]},{\"verse\":21,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So that you also may know how things are with me and what I am doing, Tychicus, the beloved brother and faithful servant in the Lord, will make everything known to you.\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"I am sending him to you for this very purpose, that you may know how we are and that he may encourage your hearts.\"}]},{\"verse\":23,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Peace to the brothers and sisters, and love with faith, from God the Father and the Lord Jesus Christ.\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Grace be with all who love our Lord Jesus Christ with undying love.\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"right\",\"lemma\":\"δίκαιος\",\"kind\":\"register-exception\",\"traditional\":\"right\",\"note\":\"This translation normally renders this adjective as “righteous” or “just”, but here it describes a course of action, not a person, and plain English says “this is right”, as most versions do. Greek has a single word-family where English has two (right/righteous/righteousness and just/justice), so the same root lies behind “the breastplate of righteousness” in verse 14.\"},{\"verse\":3,\"phrase\":\"on the earth\",\"lemma\":\"γῆ\",\"kind\":\"background\",\"traditional\":\"on the earth\",\"note\":\"The quotation is the commandment of Exodus 20:12 and Deuteronomy 5:16 in its Greek form. There the promise concerns long life in “the land that the Lord your God is giving you”, and the Greek word can mean either “land” or “earth”. The letter leaves out the clause about the land God is giving, which makes the promise read as a general one.\"},{\"verse\":6,\"phrase\":\"wholeheartedly\",\"lemma\":\"ψυχή\",\"kind\":\"ambiguity\",\"traditional\":\"doing the will of God from the heart\",\"note\":\"The Greek phrase, literally “from the soul”, sits between two clauses and can attach to either. Most English versions join it to what precedes (“doing the will of God from the heart”). The punctuation of the Greek edition translated here joins it to what follows (“wholeheartedly serving with goodwill”), and the translation follows that.\"},{\"verse\":9,\"phrase\":\"their Master and yours\",\"lemma\":\"κύριος\",\"kind\":\"background\",\"traditional\":\"your Master / their Lord and yours\",\"note\":\"Greek uses one word, kyrios, for both a slave’s “master” and “the Lord”. Throughout verses 5–9 the passage plays on this: slaves serve earthly masters as serving the Lord, and masters are reminded that they have a Master of their own. English has to choose between “master” and “Lord” each time, which hides the repetition.\"},{\"verse\":9,\"phrase\":\"in the heavens\",\"lemma\":\"οὐρανός\",\"kind\":\"departure\",\"traditional\":\"in heaven\",\"note\":\"The Greek is plural, a turn of phrase carried over from Hebrew and from the Greek Old Testament. Most English translations flatten it to “heaven”. This translation keeps the plural where the Greek has it.\"},{\"verse\":13,\"phrase\":\"having done everything\",\"lemma\":\"κατεργάζομαι\",\"kind\":\"ambiguity\",\"traditional\":\"having done all\",\"note\":\"The verb can mean “accomplish, carry through” or “overcome, subdue”. Most translations take it as having made every preparation or done all that the fight requires. On the other reading it means “having defeated all opponents”. Either fits the military picture.\"},{\"verse\":15,\"phrase\":\"readiness\",\"lemma\":\"ἑτοιμασία\",\"kind\":\"ambiguity\",\"traditional\":\"preparation\",\"note\":\"The Greek leaves open how “readiness” relates to “the good news of peace”. It may be the readiness or firm footing that the good news gives, or a readiness to go and announce it. The rendering keeps the Greek’s open phrasing; commentators are divided.\"},{\"verse\":15,\"phrase\":\"good news\",\"lemma\":\"εὐαγγέλιον\",\"kind\":\"departure\",\"traditional\":\"gospel\",\"note\":\"“Gospel” has become a religious term and a book title. The Greek was an ordinary word for a public announcement of good news, used also of imperial proclamations. Many modern translations already alternate between “gospel” and “good news”.\"},{\"verse\":18,\"phrase\":\"holy ones\",\"lemma\":\"ἅγιος\",\"kind\":\"departure\",\"traditional\":\"saints\",\"note\":\"“Saints” now suggests canonised individuals or people of unusual virtue. The Greek word is used of all members of the community as people set apart for God, echoing the Greek Old Testament’s language for Israel. Many translations keep “saints”; others use “God’s people”.\"},{\"verse\":19,\"phrase\":\"secret\",\"lemma\":\"μυστήριον\",\"kind\":\"departure\",\"traditional\":\"mystery\",\"note\":\"The traditional “mystery” suggests to a modern reader something puzzling or beyond understanding. In the usage of the period, including the Greek book of Daniel, the word means a secret, here one that God kept hidden and has now disclosed, which is why it can be “made known”. Most English versions keep “mystery”, and scholars generally explain it in this sense.\"},{\"verse\":20,\"phrase\":\"an ambassador in chains\",\"lemma\":\"πρεσβεύω\",\"kind\":\"background\",\"traditional\":\"an ambassador in bonds\",\"note\":\"The verb is the ordinary term for serving as an official envoy. Envoys were by long custom treated as inviolable, so an ambassador in chains is a deliberate paradox. The Greek word for “chain” is singular.\"},{\"verse\":23,\"phrase\":\"brothers and sisters\",\"lemma\":\"ἀδελφός\",\"kind\":\"departure\",\"traditional\":\"brethren / brothers\",\"note\":\"The Greek plural was the normal way to address or refer to a mixed group of men and women as members of one family, and here it means the whole community. Older versions have “brethren” or “brothers”; several modern translations render it as here. In verse 21 the singular refers to one man and is translated “brother”.\"},{\"verse\":24,\"phrase\":\"with undying love\",\"lemma\":\"ἀφθαρσία\",\"kind\":\"ambiguity\",\"traditional\":\"in sincerity / with love incorruptible\",\"note\":\"The letter’s last words are literally “in imperishability”, and what they modify is disputed. They may describe the love of those who love Christ, as translated here and in most versions. They may instead go with “grace” (“grace and immortality be with all…”), or describe Christ as the one who lives in immortality.\"}],\"candidates\":[{\"lemma\":\"μυστήριον\",\"rendering\":\"secret\",\"verse\":19,\"reason\":\"Recurs in the Gospels, Paul and Revelation; translators divide between “mystery” and “secret”, and a reader would be misled if the two alternated across chapters.\"},{\"lemma\":\"ἀδελφός\",\"rendering\":\"brothers and sisters (plural, of the community)\",\"verse\":23,\"reason\":\"The generic plural occurs in nearly every letter and in Acts, and “brothers” versus “brothers and sisters” needs a single policy.\"},{\"lemma\":\"δοῦλος\",\"rendering\":\"slave\",\"verse\":5,\"reason\":\"Translations vary between “slave”, “servant” and “bondservant”; it must stay distinct from διάκονος and consistent in phrases such as “slaves of Christ”.\"},{\"lemma\":\"παρρησία\",\"rendering\":\"boldly (with related verb: speak boldly)\",\"verse\":19,\"reason\":\"Occurs across John, Acts, Paul, Hebrews and 1 John with renderings ranging over “boldness”, “confidence”, “openly” and “plainly”; the senses need to be mapped once.\"},{\"lemma\":\"ἐξουσία\",\"rendering\":\"authorities (plural, of spiritual powers)\",\"verse\":12,\"reason\":\"Paired repeatedly with ἀρχή for cosmic powers and also used for “authority”, “right” and “power”; consistent English for each sense is needed across the letters.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Children, obey your parents in the Lord, for this is right."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "scripture",
+      "text": "“Honor your father and mother,”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "which is the first commandment with a promise,"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "scripture",
+      "text": "“so that it may go well with you and you may live long on the earth.”"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And fathers, do not provoke your children to anger, but bring them up in the discipline and instruction of the Lord."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Slaves, obey your earthly masters with fear and trembling, in sincerity of heart, as you would Christ,"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "not serving only when watched, as people-pleasers, but as slaves of Christ doing the will of God, wholeheartedly"
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "serving with goodwill, as for the Lord and not for people,"
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "knowing that whatever good each person does, this he will receive back from the Lord, whether slave or free."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And masters, do the same to them, giving up threats, knowing that both their Master and yours is in the heavens, and there is no favoritism with him."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Finally, be strong in the Lord and in the power of his might."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Put on the full armor of God, so that you may be able to stand against the schemes of the devil,"
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "because our wrestling is not against blood and flesh, but against the rulers, against the authorities, against the world-rulers of this darkness, against the spiritual forces of evil in the heavenly places."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Therefore take up the full armor of God, so that you may be able to withstand on the evil day and, having done everything, to stand."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Stand, then, with truth belted around your waist, with the breastplate of righteousness on,"
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and with your feet shod in the readiness of the good news of peace,"
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "in every situation taking up the shield of faith, with which you will be able to put out all the flaming arrows of the evil one."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And take the helmet of salvation, and the sword of the Spirit, which is the word of God,"
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "through every prayer and petition, praying on every occasion in the Spirit, and to that end keeping watch with all perseverance and petition for all the holy ones,"
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and for me, that a word may be given to me when I open my mouth, to make known boldly the secret of the good news,"
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "for which I am an ambassador in chains, so that in declaring it I may speak boldly, as I must."
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So that you also may know how things are with me and what I am doing, Tychicus, the beloved brother and faithful servant in the Lord, will make everything known to you."
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "I am sending him to you for this very purpose, that you may know how we are and that he may encourage your hearts."
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Peace to the brothers and sisters, and love with faith, from God the Father and the Lord Jesus Christ."
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Grace be with all who love our Lord Jesus Christ with undying love."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "right",
+    "lemma": "δίκαιος",
+    "kind": "register-exception",
+    "traditional": "right",
+    "note": "This translation normally renders this adjective as “righteous” or “just”, but here it describes a course of action, not a person, and plain English says “this is right”, as most versions do. Greek has a single word-family where English has two (right/righteous/righteousness and just/justice), so the same root lies behind “the breastplate of righteousness” in verse 14."
+   },
+   {
+    "verse": 3,
+    "phrase": "on the earth",
+    "lemma": "γῆ",
+    "kind": "background",
+    "traditional": "on the earth",
+    "note": "The quotation is the commandment of Exodus 20:12 and Deuteronomy 5:16 in its Greek form. There the promise concerns long life in “the land that the Lord your God is giving you”, and the Greek word can mean either “land” or “earth”. The letter leaves out the clause about the land God is giving, which makes the promise read as a general one."
+   },
+   {
+    "verse": 6,
+    "phrase": "wholeheartedly",
+    "lemma": "ψυχή",
+    "kind": "ambiguity",
+    "traditional": "doing the will of God from the heart",
+    "note": "The Greek phrase, literally “from the soul”, sits between two clauses and can attach to either. Most English versions join it to what precedes (“doing the will of God from the heart”). The punctuation of the Greek edition translated here joins it to what follows (“wholeheartedly serving with goodwill”), and the translation follows that."
+   },
+   {
+    "verse": 9,
+    "phrase": "their Master and yours",
+    "lemma": "κύριος",
+    "kind": "background",
+    "traditional": "your Master / their Lord and yours",
+    "note": "Greek uses one word, kyrios, for both a slave’s “master” and “the Lord”. Throughout verses 5–9 the passage plays on this: slaves serve earthly masters as serving the Lord, and masters are reminded that they have a Master of their own. English has to choose between “master” and “Lord” each time, which hides the repetition."
+   },
+   {
+    "verse": 9,
+    "phrase": "in the heavens",
+    "lemma": "οὐρανός",
+    "kind": "departure",
+    "traditional": "in heaven",
+    "note": "The Greek is plural, a turn of phrase carried over from Hebrew and from the Greek Old Testament. Most English translations flatten it to “heaven”. This translation keeps the plural where the Greek has it."
+   },
+   {
+    "verse": 13,
+    "phrase": "having done everything",
+    "lemma": "κατεργάζομαι",
+    "kind": "ambiguity",
+    "traditional": "having done all",
+    "note": "The verb can mean “accomplish, carry through” or “overcome, subdue”. Most translations take it as having made every preparation or done all that the fight requires. On the other reading it means “having defeated all opponents”. Either fits the military picture."
+   },
+   {
+    "verse": 15,
+    "phrase": "readiness",
+    "lemma": "ἑτοιμασία",
+    "kind": "ambiguity",
+    "traditional": "preparation",
+    "note": "The Greek leaves open how “readiness” relates to “the good news of peace”. It may be the readiness or firm footing that the good news gives, or a readiness to go and announce it. The rendering keeps the Greek’s open phrasing; commentators are divided."
+   },
+   {
+    "verse": 15,
+    "phrase": "good news",
+    "lemma": "εὐαγγέλιον",
+    "kind": "departure",
+    "traditional": "gospel",
+    "note": "“Gospel” has become a religious term and a book title. The Greek was an ordinary word for a public announcement of good news, used also of imperial proclamations. Many modern translations already alternate between “gospel” and “good news”."
+   },
+   {
+    "verse": 18,
+    "phrase": "holy ones",
+    "lemma": "ἅγιος",
+    "kind": "departure",
+    "traditional": "saints",
+    "note": "“Saints” now suggests canonised individuals or people of unusual virtue. The Greek word is used of all members of the community as people set apart for God, echoing the Greek Old Testament’s language for Israel. Many translations keep “saints”; others use “God’s people”."
+   },
+   {
+    "verse": 19,
+    "phrase": "secret",
+    "lemma": "μυστήριον",
+    "kind": "departure",
+    "traditional": "mystery",
+    "note": "The traditional “mystery” suggests to a modern reader something puzzling or beyond understanding. In the usage of the period, including the Greek book of Daniel, the word means a secret, here one that God kept hidden and has now disclosed, which is why it can be “made known”. Most English versions keep “mystery”, and scholars generally explain it in this sense."
+   },
+   {
+    "verse": 20,
+    "phrase": "an ambassador in chains",
+    "lemma": "πρεσβεύω",
+    "kind": "background",
+    "traditional": "an ambassador in bonds",
+    "note": "The verb is the ordinary term for serving as an official envoy. Envoys were by long custom treated as inviolable, so an ambassador in chains is a deliberate paradox. The Greek word for “chain” is singular."
+   },
+   {
+    "verse": 23,
+    "phrase": "brothers and sisters",
+    "lemma": "ἀδελφός",
+    "kind": "departure",
+    "traditional": "brethren / brothers",
+    "note": "The Greek plural was the normal way to address or refer to a mixed group of men and women as members of one family, and here it means the whole community. Older versions have “brethren” or “brothers”; several modern translations render it as here. In verse 21 the singular refers to one man and is translated “brother”."
+   },
+   {
+    "verse": 24,
+    "phrase": "with undying love",
+    "lemma": "ἀφθαρσία",
+    "kind": "ambiguity",
+    "traditional": "in sincerity / with love incorruptible",
+    "note": "The letter’s last words are literally “in imperishability”, and what they modify is disputed. They may describe the love of those who love Christ, as translated here and in most versions. They may instead go with “grace” (“grace and immortality be with all…”), or describe Christ as the one who lives in immortality."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "μυστήριον",
+    "rendering": "secret",
+    "verse": 19,
+    "reason": "Recurs in the Gospels, Paul and Revelation; translators divide between “mystery” and “secret”, and a reader would be misled if the two alternated across chapters."
+   },
+   {
+    "lemma": "ἀδελφός",
+    "rendering": "brothers and sisters (plural, of the community)",
+    "verse": 23,
+    "reason": "The generic plural occurs in nearly every letter and in Acts, and “brothers” versus “brothers and sisters” needs a single policy."
+   },
+   {
+    "lemma": "δοῦλος",
+    "rendering": "slave",
+    "verse": 5,
+    "reason": "Translations vary between “slave”, “servant” and “bondservant”; it must stay distinct from διάκονος and consistent in phrases such as “slaves of Christ”."
+   },
+   {
+    "lemma": "παρρησία",
+    "rendering": "boldly (with related verb: speak boldly)",
+    "verse": 19,
+    "reason": "Occurs across John, Acts, Paul, Hebrews and 1 John with renderings ranging over “boldness”, “confidence”, “openly” and “plainly”; the senses need to be mapped once."
+   },
+   {
+    "lemma": "ἐξουσία",
+    "rendering": "authorities (plural, of spiritual powers)",
+    "verse": 12,
+    "reason": "Paired repeatedly with ἀρχή for cosmic powers and also used for “authority”, “right” and “power”; consistent English for each sense is needed across the letters."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "patch": {
+  "register_version": "0.4-draft",
+  "register_hash": "c28b4cbb7bda",
+  "reason": "euangelion promoted to active after full-run drift (good news 37 / gospel 35)",
+  "date": "2026-11-18T16:37:24"
+ },
+ "previous_attempts": [
+  {
+   "attempt": 1,
+   "message_id": "msg_011ChBBhZfukDXL6SLy5LWRo",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input_tokens": 7629,
+    "output_tokens": 13936
+   },
+   "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Children, obey your parents in the Lord, for this is right.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"scripture\",\"text\":\"“Honor your father and mother,”\"},{\"speaker\":\"narrator\",\"text\":\"which is the first commandment with a promise,\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"scripture\",\"text\":\"“so that it may go well with you and you may live long on the earth.”\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And fathers, do not provoke your children to anger, but bring them up in the discipline and instruction of the Lord.\"}]},{\"verse\":5,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Slaves, obey your earthly masters with fear and trembling, in sincerity of heart, as you would Christ,\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"not with service done for the eye, as people-pleasers, but as slaves of Christ doing the will of God from the soul,\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"serving with goodwill, as for the Lord and not for people,\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"knowing that each one will receive back from the Lord whatever good they have done, whether slave or free.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And masters, do the same to them, giving up threats, knowing that both their Master and yours is in the heavens, and with him there is no favoritism.\"}]},{\"verse\":10,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Finally, be strengthened in the Lord and in the might of his strength.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Put on the full armor of God so that you may be able to stand against the schemes of the devil.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For our struggle is not against blood and flesh but against the rulers, against the authorities, against the world-rulers of this darkness, against the spiritual forces of evil in the heavenly places.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Therefore take up the full armor of God, so that you may be able to withstand on the evil day and, having accomplished everything, to stand.\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Stand, then, having belted your waist with truth and put on the breastplate of righteousness,\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and having shod your feet with the readiness of the gospel of peace,\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"with all these taking up the shield of faith, with which you will be able to extinguish all the flaming arrows of the evil one.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And receive the helmet of salvation, and the sword of the Spirit, which is the word of God,\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"praying at all times in the Spirit with every kind of prayer and petition, and to this end staying alert with all perseverance and petition for all the holy ones,\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and for me, that when I open my mouth a word may be given to me, to make known boldly the mystery of the gospel,\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"for which I am an ambassador in chains, so that in proclaiming it I may speak boldly, as I ought to speak.\"}]},{\"verse\":21,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So that you also may know how things are with me and what I am doing, Tychicus, the beloved brother and faithful servant in the Lord, will make everything known to you.\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"I am sending him to you for this very purpose, so that you may know how we are and that he may encourage your hearts.\"}]},{\"verse\":23,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Peace to the brothers and sisters, and love with faith, from God the Father and the Lord Jesus Christ.\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Grace be with all who love our Lord Jesus Christ with an undying love.\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"right\",\"lemma\":\"δίκαιος\",\"kind\":\"register-exception\",\"traditional\":\"right\",\"note\":\"The Greek adjective is the one usually rendered ‘righteous’ or ‘just’ in this translation, and it belongs to the same word-family as ‘righteousness’ in verse 14. Greek has one family where English has two (right/righteous, just/justice). Here it describes a course of action, not a person, and ‘this is righteous’ or ‘this is just’ would be unnatural English, so the traditional ‘right’ is kept.\"},{\"verse\":3,\"phrase\":\"on the earth\",\"lemma\":\"γῆ\",\"kind\":\"ambiguity\",\"traditional\":\"on the earth\",\"note\":\"The Greek word means both ‘earth’ and ‘land’. In the commandment as given (Exodus 20:12; Deuteronomy 5:16) it refers to the land God was giving Israel. The quotation here leaves out that clause, which suggests the promise is being applied more widely, so ‘earth’ is used. ‘In the land’ remains possible.\"},{\"verse\":5,\"phrase\":\"Slaves\",\"lemma\":\"δοῦλος\",\"kind\":\"departure\",\"traditional\":\"servants\",\"note\":\"Older English versions have ‘servants’, which suggests hired staff free to leave. The Greek word denotes a person owned by another, as verse 8 confirms with its contrast between ‘slave’ and ‘free’. Most modern translations now use ‘slaves’.\"},{\"verse\":5,\"phrase\":\"earthly masters\",\"lemma\":\"κύριος\",\"kind\":\"background\",\"traditional\":\"masters according to the flesh\",\"note\":\"The word for ‘master’ is the same Greek word translated ‘Lord’ when used of Christ, and the passage plays on it throughout: slaves serve their human ‘lords’ as serving the Lord, and in verse 9 the ‘lords’ are reminded that they have a Lord themselves. ‘Master’ is used there to keep the link visible. ‘Earthly’ renders a phrase meaning literally ‘according to the flesh’, that is, in the merely human sphere.\"},{\"verse\":6,\"phrase\":\"from the soul\",\"lemma\":\"ψυχή\",\"kind\":\"ambiguity\",\"traditional\":\"from the heart\",\"note\":\"The phrase can go with what precedes (‘doing the will of God from the soul’) or with what follows (‘from the soul serving with goodwill’). Ancient manuscripts had no punctuation, and editors differ; the SBLGNT punctuates the second way. The first is followed here as in most English versions, and the difference in sense is slight. The Greek word differs from the one rendered ‘heart’ in verse 5, so it is rendered differently.\"},{\"verse\":9,\"phrase\":\"in the heavens\",\"lemma\":\"οὐρανός\",\"kind\":\"departure\",\"traditional\":\"in heaven\",\"note\":\"The Greek is plural, a Semitic turn of phrase for God's dwelling that a first-century hearer would have noticed. Most translations flatten it to the singular ‘heaven’. This translation keeps the plural where the Greek has it.\"},{\"verse\":12,\"phrase\":\"world-rulers of this darkness\",\"lemma\":\"κοσμοκράτωρ\",\"kind\":\"background\",\"traditional\":\"rulers of the darkness of this world\",\"note\":\"The Greek term is rare and occurs only here in the New Testament. Outside it, the word appears chiefly in astrological and religious contexts for gods or heavenly bodies thought to govern the world. Here it names hostile spiritual powers, alongside the ‘rulers’ and ‘authorities’, in contrast with human opponents (‘blood and flesh’).\"},{\"verse\":13,\"phrase\":\"having accomplished everything\",\"lemma\":\"κατεργάζομαι\",\"kind\":\"ambiguity\",\"traditional\":\"having done all\",\"note\":\"The verb usually means to accomplish or carry something through, giving the sense ‘having done everything required’, that is, having made every preparation or fought the battle through. It can also mean to overcome or subdue, which would give ‘having defeated them all’. Most translations take the first sense, as here.\"},{\"verse\":15,\"phrase\":\"the readiness of the gospel of peace\",\"lemma\":\"ἑτοιμασία\",\"kind\":\"ambiguity\",\"traditional\":\"the preparation of the gospel of peace\",\"note\":\"The relation between ‘readiness’ and ‘the gospel’ is left open by the Greek. It may be the readiness the gospel gives, a firm footing for the fight, or readiness to announce the gospel. The image probably echoes Isaiah 52:7, on the feet of the messenger who announces peace.\"},{\"verse\":18,\"phrase\":\"holy ones\",\"lemma\":\"ἅγιος\",\"kind\":\"departure\",\"traditional\":\"saints\",\"note\":\"‘Saints’ now suggests canonised individuals or people of exceptional virtue. The Greek word is used of all members of the community as people set apart for God, echoing the Septuagint's language for Israel. Many translations keep ‘saints’; others use ‘God's people’.\"},{\"verse\":19,\"phrase\":\"mystery\",\"lemma\":\"μυστήριον\",\"kind\":\"background\",\"traditional\":\"mystery\",\"note\":\"In this letter the word refers to God's plan, once hidden and now disclosed (see 3:3–6), not to a puzzle to be solved. That is why it can be ‘made known’. Some translations use ‘secret’ for this reason.\"},{\"verse\":23,\"phrase\":\"brothers and sisters\",\"lemma\":\"ἀδελφός\",\"kind\":\"departure\",\"traditional\":\"brothers / brethren\",\"note\":\"The Greek plural was the ordinary way to address a mixed group of men and women as siblings, and the letter addresses the whole community. ‘Brothers’ alone would now be heard as excluding women. Many recent translations make the same choice; others keep ‘brothers’ as the more literal form.\"},{\"verse\":24,\"phrase\":\"with an undying love\",\"lemma\":\"ἀφθαρσία\",\"kind\":\"ambiguity\",\"traditional\":\"in sincerity\",\"note\":\"The closing words are literally ‘in imperishability’ or ‘in immortality’, and their connection is disputed. They may describe the love (a love that does not perish, as here), go with ‘grace’ (‘grace and immortality be with all’), or describe the sphere in which Christ or the believers live. The older rendering ‘in sincerity’ is not well supported by the word's usage.\"}],\"candidates\":[{\"lemma\":\"μυστήριον\",\"rendering\":\"mystery\",\"verse\":19,\"reason\":\"Recurs across Paul, the Gospels and Revelation; ‘mystery’ and ‘secret’ are both defensible and readers would be misled if the two alternated.\"},{\"lemma\":\"ἀδελφός\",\"rendering\":\"brothers and sisters (plural, of the community); brother (singular, of a man)\",\"verse\":21,\"reason\":\"The plural address occurs in nearly every letter and translators split between ‘brothers’ and ‘brothers and sisters’.\"},{\"lemma\":\"δοῦλος\",\"rendering\":\"slave\",\"verse\":5,\"reason\":\"The διάκονος entry presupposes ‘slave’, but the word needs its own entry to settle literal and metaphorical uses (‘slave of Christ’) and the cognate verb δουλεύω.\"},{\"lemma\":\"σάρξ\",\"rendering\":\"flesh (in ‘blood and flesh’); earthly (for κατὰ σάρκα of human masters)\",\"verse\":5,\"reason\":\"Its range (body, humanity, the merely human sphere, the sinful orientation) invites inconsistent renderings across the Pauline letters.\"},{\"lemma\":\"παρρησία\",\"rendering\":\"boldly\",\"verse\":19,\"reason\":\"Recurs in John, Acts, Paul and Hebrews with renderings varying between boldness, confidence, openness and plain speech; the cognate verb should match.\"}]}",
+   "errors": []
+  }
+ ]
+}

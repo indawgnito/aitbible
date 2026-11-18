@@ -1,0 +1,281 @@
+{
+ "id": "2john-001",
+ "book": "2john",
+ "chapter": 1,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZefvNP69pt33y9GY",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 4851,
+  "output_tokens": 7757
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The elder, to the chosen lady and her children, whom I love in truth, and not I alone but also all who have come to know the truth,\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"because of the truth that remains in us and will be with us forever:\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Grace, mercy, and peace will be with us from God the Father and from Jesus Christ, the Son of the Father, in truth and love.\"}]},{\"verse\":4,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"I was overjoyed to find some of your children walking in truth, just as we received a command from the Father.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And now I ask you, lady, not as though I were writing you a new command, but the one we have had from the beginning: that we love one another.\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And this is love: that we walk according to his commands. This is the command, just as you heard from the beginning: that you walk in it.\"}]},{\"verse\":7,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For many deceivers have gone out into the world, people who do not acknowledge Jesus Christ as coming in flesh. Such a person is the deceiver and the antichrist.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Watch yourselves, so that you do not lose what we worked for, but receive full wages.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Everyone who goes on ahead and does not remain in the teaching of Christ does not have God. The one who remains in the teaching has both the Father and the Son.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"If anyone comes to you and does not bring this teaching, do not receive him into your house, and do not give him a greeting;\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"for whoever gives him a greeting shares in his evil deeds.\"}]},{\"verse\":12,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Though I have much to write to you, I did not want to do it with paper and ink. Instead I hope to come to you and speak face to face, so that your joy may be complete.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The children of your chosen sister greet you.\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"The elder\",\"lemma\":\"πρεσβύτερος\",\"kind\":\"background\",\"traditional\":\"The elder\",\"note\":\"The writer gives a title instead of a name. The word can mean simply an older man, but it was also the regular term for a recognised leader in a synagogue or congregation. Early tradition identified this elder with John; the letter itself does not say.\"},{\"verse\":1,\"phrase\":\"the chosen lady\",\"lemma\":\"κυρία\",\"kind\":\"ambiguity\",\"traditional\":\"the elect lady\",\"note\":\"Most scholars take the 'lady' and her 'children' as a figure for a congregation and its members, with the 'chosen sister' of verse 13 being the writer's own congregation. The shift between singular 'you' and plural 'you' in the letter fits this. A minority reads it as an individual woman and her family, and a few take one of the two Greek words as her personal name. 'Chosen' replaces 'elect', which now suggests voting.\"},{\"verse\":1,\"phrase\":\"in truth\",\"lemma\":\"ἀλήθεια\",\"kind\":\"ambiguity\",\"traditional\":\"in the truth\",\"note\":\"The Greek phrase has no article and could mean simply 'truly, sincerely'. Because the next words speak of 'the truth' as something known and remaining in believers, many interpreters think the writer already means the truth of the message here. The rendering 'in truth' leaves both possibilities open.\"},{\"verse\":6,\"phrase\":\"walk in it\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"walk in it\",\"note\":\"The pronoun 'it' is feminine in Greek and could refer back to 'love' or to 'the command'; both nouns are feminine. Most interpreters take it as love, so that the command is to live a life of love. The English keeps the pronoun as open as the Greek.\"},{\"verse\":7,\"phrase\":\"acknowledge Jesus Christ as coming in flesh\",\"lemma\":\"ἔρχομαι\",\"kind\":\"ambiguity\",\"traditional\":\"confess that Jesus Christ is come in the flesh\",\"note\":\"'Acknowledge' is used because 'confess' now mostly suggests admitting a wrong; the Greek word means to declare one's agreement openly. The participle 'coming' is present tense, unlike the similar statement in 1 John 4:2, which says 'has come'. Most scholars take it as a timeless description of the incarnation, denied by teachers who would not accept that the Christ was truly human; a few think it refers to a future coming.\"},{\"verse\":7,\"phrase\":\"the antichrist\",\"lemma\":\"ἀντίχριστος\",\"kind\":\"background\",\"traditional\":\"the antichrist\",\"note\":\"The word occurs in the New Testament only in the letters of John. It can mean one who opposes Christ or one who puts himself in Christ's place. Here it is applied not to a single future figure but to anyone who teaches the denial just described.\"},{\"verse\":8,\"phrase\":\"what we worked for\",\"lemma\":\"ἐργάζομαι\",\"kind\":\"textual\",\"traditional\":\"what we have worked for\",\"note\":\"Manuscripts differ here. Some read 'what you worked for', and a later form of the text puts all three verbs in the first person ('that we do not lose... but receive'). The reading translated, with 'you' losing what 'we' worked for, is the one printed in SBLGNT.\"},{\"verse\":8,\"phrase\":\"full wages\",\"lemma\":\"μισθός\",\"kind\":\"departure\",\"traditional\":\"a full reward\",\"note\":\"The Greek word is the ordinary term for a worker's pay, and it follows directly on the verb 'worked'. 'Reward' is the traditional rendering and is not wrong, but it can suggest a prize or bonus where the Greek image is of pay earned by labour and received in full.\"},{\"verse\":9,\"phrase\":\"goes on ahead\",\"lemma\":\"προάγω\",\"kind\":\"background\",\"traditional\":\"transgresseth\",\"note\":\"The verb means to go in front or advance. The writer is probably turning the teachers' own claim against them: they presented their teaching as progress, and he says they have advanced right out of the teaching. The older English 'transgresses' reflects a different Greek verb found in later manuscripts.\"},{\"verse\":9,\"phrase\":\"the teaching of Christ\",\"lemma\":\"διδαχή\",\"kind\":\"ambiguity\",\"traditional\":\"the doctrine of Christ\",\"note\":\"The Greek can mean the teaching that Christ gave or the teaching about Christ. Since the dispute in verse 7 concerns what is said about Jesus, many scholars prefer the second; others point out that John's writings elsewhere speak of Jesus' own teaching. The English 'of' preserves the ambiguity.\"},{\"verse\":10,\"phrase\":\"give him a greeting\",\"lemma\":\"χαίρω\",\"kind\":\"background\",\"traditional\":\"bid him God speed\",\"note\":\"The Greek is literally 'do not say Rejoice to him', the standard word of greeting on meeting and parting. Travelling teachers depended on believers for lodging and support, and congregations met in homes. Receiving and greeting such a teacher therefore meant giving him a base and a platform. The instruction concerns that kind of endorsement, not ordinary courtesy.\"},{\"verse\":12,\"phrase\":\"your joy\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"our joy\",\"note\":\"Manuscripts are divided between 'your joy' and 'our joy'; the two Greek words differ by one letter and were pronounced alike. SBLGNT prints 'your', which is translated here; many editions and English versions read 'our'.\"}],\"candidates\":[{\"lemma\":\"μένω\",\"rendering\":\"remain\",\"verse\":2,\"reason\":\"A key Johannine term rendered variously as 'abide', 'remain', 'continue', 'live' and 'stay'; readers lose the thread if the English varies across John and the letters.\"},{\"lemma\":\"σάρξ\",\"rendering\":\"flesh\",\"verse\":7,\"reason\":\"Translations swing between 'flesh', 'body', 'human nature' and 'sinful nature' across John and Paul; the senses need to be fixed once.\"},{\"lemma\":\"ὁμολογέω\",\"rendering\":\"acknowledge\",\"verse\":7,\"reason\":\"Traditional 'confess' now suggests admitting guilt; the choice between 'confess', 'acknowledge' and 'declare' should be uniform where the sense is public affirmation.\"},{\"lemma\":\"πρεσβύτερος\",\"rendering\":\"elder\",\"verse\":1,\"reason\":\"Recurs in the Gospels, Acts, the Pastorals and Revelation for Jewish and Christian leaders and for older men; 'elder', 'presbyter' and 'older man' need assigning by sense.\"},{\"lemma\":\"μισθός\",\"rendering\":\"wages\",\"verse\":8,\"reason\":\"Rendered 'reward' in most traditional versions but 'wages' or 'pay' in labour contexts; the Gospels and Paul use it in both and the reader should see the same image.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The elder, to the chosen lady and her children, whom I love in truth, and not I alone but also all who have come to know the truth,"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "because of the truth that remains in us and will be with us forever:"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Grace, mercy, and peace will be with us from God the Father and from Jesus Christ, the Son of the Father, in truth and love."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "I was overjoyed to find some of your children walking in truth, just as we received a command from the Father."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And now I ask you, lady, not as though I were writing you a new command, but the one we have had from the beginning: that we love one another."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And this is love: that we walk according to his commands. This is the command, just as you heard from the beginning: that you walk in it."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For many deceivers have gone out into the world, people who do not acknowledge Jesus Christ as coming in flesh. Such a person is the deceiver and the antichrist."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Watch yourselves, so that you do not lose what we worked for, but receive full wages."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Everyone who goes on ahead and does not remain in the teaching of Christ does not have God. The one who remains in the teaching has both the Father and the Son."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "If anyone comes to you and does not bring this teaching, do not receive him into your house, and do not give him a greeting;"
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "for whoever gives him a greeting shares in his evil deeds."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Though I have much to write to you, I did not want to do it with paper and ink. Instead I hope to come to you and speak face to face, so that your joy may be complete."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The children of your chosen sister greet you."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "The elder",
+    "lemma": "πρεσβύτερος",
+    "kind": "background",
+    "traditional": "The elder",
+    "note": "The writer gives a title instead of a name. The word can mean simply an older man, but it was also the regular term for a recognised leader in a synagogue or congregation. Early tradition identified this elder with John; the letter itself does not say."
+   },
+   {
+    "verse": 1,
+    "phrase": "the chosen lady",
+    "lemma": "κυρία",
+    "kind": "ambiguity",
+    "traditional": "the elect lady",
+    "note": "Most scholars take the 'lady' and her 'children' as a figure for a congregation and its members, with the 'chosen sister' of verse 13 being the writer's own congregation. The shift between singular 'you' and plural 'you' in the letter fits this. A minority reads it as an individual woman and her family, and a few take one of the two Greek words as her personal name. 'Chosen' replaces 'elect', which now suggests voting."
+   },
+   {
+    "verse": 1,
+    "phrase": "in truth",
+    "lemma": "ἀλήθεια",
+    "kind": "ambiguity",
+    "traditional": "in the truth",
+    "note": "The Greek phrase has no article and could mean simply 'truly, sincerely'. Because the next words speak of 'the truth' as something known and remaining in believers, many interpreters think the writer already means the truth of the message here. The rendering 'in truth' leaves both possibilities open."
+   },
+   {
+    "verse": 6,
+    "phrase": "walk in it",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "walk in it",
+    "note": "The pronoun 'it' is feminine in Greek and could refer back to 'love' or to 'the command'; both nouns are feminine. Most interpreters take it as love, so that the command is to live a life of love. The English keeps the pronoun as open as the Greek."
+   },
+   {
+    "verse": 7,
+    "phrase": "acknowledge Jesus Christ as coming in flesh",
+    "lemma": "ἔρχομαι",
+    "kind": "ambiguity",
+    "traditional": "confess that Jesus Christ is come in the flesh",
+    "note": "'Acknowledge' is used because 'confess' now mostly suggests admitting a wrong; the Greek word means to declare one's agreement openly. The participle 'coming' is present tense, unlike the similar statement in 1 John 4:2, which says 'has come'. Most scholars take it as a timeless description of the incarnation, denied by teachers who would not accept that the Christ was truly human; a few think it refers to a future coming."
+   },
+   {
+    "verse": 7,
+    "phrase": "the antichrist",
+    "lemma": "ἀντίχριστος",
+    "kind": "background",
+    "traditional": "the antichrist",
+    "note": "The word occurs in the New Testament only in the letters of John. It can mean one who opposes Christ or one who puts himself in Christ's place. Here it is applied not to a single future figure but to anyone who teaches the denial just described."
+   },
+   {
+    "verse": 8,
+    "phrase": "what we worked for",
+    "lemma": "ἐργάζομαι",
+    "kind": "textual",
+    "traditional": "what we have worked for",
+    "note": "Manuscripts differ here. Some read 'what you worked for', and a later form of the text puts all three verbs in the first person ('that we do not lose... but receive'). The reading translated, with 'you' losing what 'we' worked for, is the one printed in SBLGNT."
+   },
+   {
+    "verse": 8,
+    "phrase": "full wages",
+    "lemma": "μισθός",
+    "kind": "departure",
+    "traditional": "a full reward",
+    "note": "The Greek word is the ordinary term for a worker's pay, and it follows directly on the verb 'worked'. 'Reward' is the traditional rendering and is not wrong, but it can suggest a prize or bonus where the Greek image is of pay earned by labour and received in full."
+   },
+   {
+    "verse": 9,
+    "phrase": "goes on ahead",
+    "lemma": "προάγω",
+    "kind": "background",
+    "traditional": "transgresseth",
+    "note": "The verb means to go in front or advance. The writer is probably turning the teachers' own claim against them: they presented their teaching as progress, and he says they have advanced right out of the teaching. The older English 'transgresses' reflects a different Greek verb found in later manuscripts."
+   },
+   {
+    "verse": 9,
+    "phrase": "the teaching of Christ",
+    "lemma": "διδαχή",
+    "kind": "ambiguity",
+    "traditional": "the doctrine of Christ",
+    "note": "The Greek can mean the teaching that Christ gave or the teaching about Christ. Since the dispute in verse 7 concerns what is said about Jesus, many scholars prefer the second; others point out that John's writings elsewhere speak of Jesus' own teaching. The English 'of' preserves the ambiguity."
+   },
+   {
+    "verse": 10,
+    "phrase": "give him a greeting",
+    "lemma": "χαίρω",
+    "kind": "background",
+    "traditional": "bid him God speed",
+    "note": "The Greek is literally 'do not say Rejoice to him', the standard word of greeting on meeting and parting. Travelling teachers depended on believers for lodging and support, and congregations met in homes. Receiving and greeting such a teacher therefore meant giving him a base and a platform. The instruction concerns that kind of endorsement, not ordinary courtesy."
+   },
+   {
+    "verse": 12,
+    "phrase": "your joy",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "our joy",
+    "note": "Manuscripts are divided between 'your joy' and 'our joy'; the two Greek words differ by one letter and were pronounced alike. SBLGNT prints 'your', which is translated here; many editions and English versions read 'our'."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "μένω",
+    "rendering": "remain",
+    "verse": 2,
+    "reason": "A key Johannine term rendered variously as 'abide', 'remain', 'continue', 'live' and 'stay'; readers lose the thread if the English varies across John and the letters."
+   },
+   {
+    "lemma": "σάρξ",
+    "rendering": "flesh",
+    "verse": 7,
+    "reason": "Translations swing between 'flesh', 'body', 'human nature' and 'sinful nature' across John and Paul; the senses need to be fixed once."
+   },
+   {
+    "lemma": "ὁμολογέω",
+    "rendering": "acknowledge",
+    "verse": 7,
+    "reason": "Traditional 'confess' now suggests admitting guilt; the choice between 'confess', 'acknowledge' and 'declare' should be uniform where the sense is public affirmation."
+   },
+   {
+    "lemma": "πρεσβύτερος",
+    "rendering": "elder",
+    "verse": 1,
+    "reason": "Recurs in the Gospels, Acts, the Pastorals and Revelation for Jewish and Christian leaders and for older men; 'elder', 'presbyter' and 'older man' need assigning by sense."
+   },
+   {
+    "lemma": "μισθός",
+    "rendering": "wages",
+    "verse": 8,
+    "reason": "Rendered 'reward' in most traditional versions but 'wages' or 'pay' in labour contexts; the Gospels and Paul use it in both and the reader should see the same image."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

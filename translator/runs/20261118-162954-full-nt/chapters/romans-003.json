@@ -1,0 +1,471 @@
+{
+ "id": "romans-003",
+ "book": "romans",
+ "chapter": 3,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZfuoiWuDvMe4EKhE",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 8072,
+  "output_tokens": 15017
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"What advantage, then, does the Jew have, or what is the benefit of circumcision?\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Much in every way. First of all, they were entrusted with the oracles of God.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"What then? If some were unfaithful, will their unfaithfulness nullify the faithfulness of God?\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Absolutely not! Let God be true, though every person be a liar, as it is written:\"},{\"speaker\":\"scripture\",\"text\":\"“So that you may be vindicated in your words and prevail when you are judged.”\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But if our unrighteousness shows the righteousness of God, what shall we say? Is God unjust when he inflicts wrath? I am speaking in a human way.\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Absolutely not! Otherwise how will God judge the world?\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But if through my lie the truth of God abounds to his glory, why am I still being judged as a sinner?\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And why not say, as we are slanderously reported to say and as some claim we say, “Let us do evil so that good may come”? Their condemnation is deserved.\"}]},{\"verse\":9,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"What then? Are we any better off? Not at all, for we have already charged that Jews and Greeks alike are all under sin,\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"as it is written:\"},{\"speaker\":\"scripture\",\"text\":\"“There is no one righteous, not even one;\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"scripture\",\"text\":\"there is no one who understands, there is no one who seeks God.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"scripture\",\"text\":\"All have turned aside, together they have become worthless; there is no one who does good, there is not even one.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"scripture\",\"text\":\"Their throat is an open grave, with their tongues they deceive, the venom of asps is under their lips;\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"scripture\",\"text\":\"their mouth is full of cursing and bitterness.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"scripture\",\"text\":\"Their feet are swift to shed blood,\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"scripture\",\"text\":\"ruin and misery are in their ways,\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"scripture\",\"text\":\"and the way of peace they have not known.\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"scripture\",\"text\":\"There is no fear of God before their eyes.”\"}]},{\"verse\":19,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now we know that whatever the law says, it speaks to those within the law, so that every mouth may be silenced and the whole world become answerable to God,\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"because by works of the law no flesh will be justified before him; for through the law comes knowledge of sin.\"}]},{\"verse\":21,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But now, apart from the law, the righteousness of God has been disclosed, attested by the Law and the Prophets,\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"the righteousness of God through faith in Jesus Christ, for all who believe. For there is no distinction,\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"for all have sinned and fall short of the glory of God,\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and they are justified freely by his grace through the redemption that is in Christ Jesus,\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"whom God put forward as a place of atonement, through faith, by his blood. This was to demonstrate his righteousness, because he had passed over the sins committed beforehand\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"in the forbearance of God; it was to demonstrate his righteousness at the present time, so that he might be just and the one who justifies the person who has faith in Jesus.\"}]},{\"verse\":27,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Where, then, is boasting? It is shut out. By what kind of law? A law of works? No, but by a law of faith.\"}]},{\"verse\":28,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For we hold that a person is justified by faith apart from works of the law.\"}]},{\"verse\":29,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Or is God the God of Jews only? Is he not the God of Gentiles also? Yes, of Gentiles also,\"}]},{\"verse\":30,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"since God is one, and he will justify the circumcised by faith and the uncircumcised through that same faith.\"}]},{\"verse\":31,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Do we then nullify the law through this faith? Absolutely not! On the contrary, we uphold the law.\"}]}],\"notes\":[{\"verse\":3,\"phrase\":\"were unfaithful\",\"lemma\":\"ἀπιστέω\",\"kind\":\"ambiguity\",\"traditional\":\"did not believe\",\"note\":\"The verb can mean either 'refused to believe' or 'proved unfaithful'. Verses 2–3 play on one word-family in Greek: Israel was 'entrusted' with God's words, some were 'unfaithful', and their 'unfaithfulness' cannot cancel God's 'faithfulness'. The rendering keeps that chain visible, but 'did not believe' is an equally possible reading, and many translations adopt it.\"},{\"verse\":4,\"phrase\":\"vindicated\",\"lemma\":\"δικαιόω\",\"kind\":\"departure\",\"traditional\":\"justified\",\"note\":\"Greek has a single word-family where English has two: righteous/just, righteousness/justice, and justify all translate related Greek words. Here, where God is the one shown to be in the right, 'vindicated' is the natural English. Elsewhere in the chapter the same verb is 'justify' and the noun is 'righteousness', and in verse 26 'just' and 'justifies' are used so that the Greek wordplay can be heard. Some scholars prefer 'justice' for the noun throughout.\"},{\"verse\":4,\"phrase\":\"when you are judged\",\"lemma\":\"κρίνω\",\"kind\":\"ambiguity\",\"traditional\":\"when thou art judged\",\"note\":\"The quotation is from Psalm 51:4 in its Greek form. The Greek verb can be read as passive ('when you are judged') or as middle ('when you go to law' or 'when you judge'). The Hebrew text of the psalm has 'when you judge'. The passive is followed here because it suits Paul's picture of God being put on trial and winning.\"},{\"verse\":9,\"phrase\":\"Are we any better off?\",\"lemma\":\"προέχω\",\"kind\":\"ambiguity\",\"traditional\":\"Are we better than they?\",\"note\":\"The meaning of this one-word question is disputed. It may mean 'Do we (Jews) have an advantage?', which is the majority reading followed here, or 'Are we at a disadvantage?', or 'Are we making excuses?' The reply can also be read as 'Not entirely' instead of 'Not at all'.\"},{\"verse\":10,\"phrase\":\"There is no one righteous, not even one\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"Verses 10–18 are a chain of Scripture quotations joined into a single indictment, a technique known from other Jewish writings of the period. The lines are drawn, in their Greek form, mainly from Psalm 14:1–3 (paralleled in Psalm 53), Psalm 5:9, Psalm 140:3, Psalm 10:7, Isaiah 59:7–8 and Psalm 36:1. They are presented here as one quotation, as Paul presents them.\"},{\"verse\":20,\"phrase\":\"works of the law\",\"lemma\":\"ἔργον\",\"kind\":\"ambiguity\",\"traditional\":\"the deeds of the law\",\"note\":\"The phrase means things done because the law of Moses requires them. Scholars dispute its focus. The traditional reading takes it as any effort to gain standing with God by obedience. Many recent interpreters think Paul has chiefly in view the practices that marked Jews off from Gentiles, such as circumcision, food laws and sabbath. The translation leaves the phrase open.\"},{\"verse\":21,\"phrase\":\"the righteousness of God\",\"lemma\":\"δικαιοσύνη\",\"kind\":\"ambiguity\",\"traditional\":\"the righteousness of God\",\"note\":\"The Greek can mean God's own righteousness, that is, his faithful action to set things right, or a righteous standing that comes from God to people. Both readings have strong support, and some hold that Paul intends both. The literal phrase is kept so that the reader can weigh them.\"},{\"verse\":22,\"phrase\":\"faith in Jesus Christ\",\"lemma\":\"πίστις\",\"kind\":\"ambiguity\",\"traditional\":\"faith in Jesus Christ\",\"note\":\"The Greek is literally 'faith of Jesus Christ' and can be read two ways: the believer's faith in Christ, or Christ's own faithfulness, meaning his obedience to the point of death. 'Faith in Jesus Christ' is the traditional and still majority reading, but 'the faithfulness of Jesus Christ' has substantial scholarly support. On that reading the following phrase, 'for all who believe', is not a repetition.\"},{\"verse\":25,\"phrase\":\"place of atonement\",\"lemma\":\"ἱλαστήριον\",\"kind\":\"departure\",\"traditional\":\"propitiation\",\"note\":\"In the Greek Old Testament this word is the name of the gold cover of the ark, where blood was sprinkled on the Day of Atonement (Leviticus 16). Hebrews 9:5 uses it in the same way. The rendering lets that allusion be heard. Whether Paul means the ark cover itself ('mercy seat'), a sacrifice that turns away wrath ('propitiation') or one that removes sin ('expiation') is a long-running dispute.\"},{\"verse\":26,\"phrase\":\"who has faith in Jesus\",\"lemma\":\"πίστις\",\"kind\":\"ambiguity\",\"traditional\":\"which believeth in Jesus\",\"note\":\"The Greek is literally 'the one who is of the faith of Jesus'. As in verse 22, this can mean the person who has faith in Jesus, which is the majority reading, or the person who lives from the faithfulness of Jesus. The grammar allows both.\"},{\"verse\":27,\"phrase\":\"law of faith\",\"lemma\":\"νόμος\",\"kind\":\"ambiguity\",\"traditional\":\"the law of faith\",\"note\":\"Paul uses the same word, 'law', that he has used for the law of Moses. Some take it here in a looser sense, 'principle' or 'rule': boasting is excluded on the principle of faith. Others think he still means the Mosaic law, viewed as calling for faith and not for works. 'Law' is kept so that the play on the word remains visible.\"},{\"verse\":29,\"phrase\":\"Gentiles\",\"lemma\":\"ἔθνος\",\"kind\":\"background\",\"traditional\":\"Gentiles\",\"note\":\"The Greek word means 'peoples' or 'nations'. In the plural, in Jewish usage, it refers to all the peoples other than Israel. English translations render the same word 'Gentiles' or 'nations' according to context. Paul's argument in the next verse rests on Israel's daily confession that God is one (Deuteronomy 6:4): if there is one God, he is God of all peoples.\"}],\"candidates\":[{\"lemma\":\"νόμος\",\"rendering\":\"law (lowercase; 'the Law and the Prophets' for the scriptural collection)\",\"verse\":19,\"reason\":\"Paul shifts between the Mosaic law, Scripture as a whole and possibly 'principle' (3:27; 7:21–23; 8:2), and both capitalisation and the choice between 'law' and 'principle' need to be uniform across the letters.\"},{\"lemma\":\"χάρις\",\"rendering\":\"grace\",\"verse\":24,\"reason\":\"It is frequent in every letter, and translators divide between 'grace', 'favor' and 'gift'; variation would hide a central term from the reader.\"},{\"lemma\":\"σάρξ\",\"rendering\":\"flesh\",\"verse\":20,\"reason\":\"Its range runs from 'humanity' and 'body' to Paul's 'flesh' as a power opposed to the Spirit, and translations vary widely ('sinful nature', 'human being', 'flesh').\"},{\"lemma\":\"καταργέω\",\"rendering\":\"nullify\",\"verse\":3,\"reason\":\"A favourite Pauline verb rendered 'nullify', 'abolish', 'bring to nothing', 'make void' and 'release' in different places; readers cannot see the link without a set of fixed renderings by sense.\"},{\"lemma\":\"ἀπολύτρωσις\",\"rendering\":\"redemption\",\"verse\":24,\"reason\":\"'Redemption' is traditional, but its sense of ransoming or release from captivity is fading in modern English; the choice between 'redemption', 'release' and 'liberation' should be made once for Paul, Luke and Hebrews.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "What advantage, then, does the Jew have, or what is the benefit of circumcision?"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Much in every way. First of all, they were entrusted with the oracles of God."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "What then? If some were unfaithful, will their unfaithfulness nullify the faithfulness of God?"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Absolutely not! Let God be true, though every person be a liar, as it is written:"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“So that you may be vindicated in your words and prevail when you are judged.”"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But if our unrighteousness shows the righteousness of God, what shall we say? Is God unjust when he inflicts wrath? I am speaking in a human way."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Absolutely not! Otherwise how will God judge the world?"
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But if through my lie the truth of God abounds to his glory, why am I still being judged as a sinner?"
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And why not say, as we are slanderously reported to say and as some claim we say, “Let us do evil so that good may come”? Their condemnation is deserved."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "What then? Are we any better off? Not at all, for we have already charged that Jews and Greeks alike are all under sin,"
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "as it is written:"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“There is no one righteous, not even one;"
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "scripture",
+      "text": "there is no one who understands, there is no one who seeks God."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "scripture",
+      "text": "All have turned aside, together they have become worthless; there is no one who does good, there is not even one."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "scripture",
+      "text": "Their throat is an open grave, with their tongues they deceive, the venom of asps is under their lips;"
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "scripture",
+      "text": "their mouth is full of cursing and bitterness."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "scripture",
+      "text": "Their feet are swift to shed blood,"
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "scripture",
+      "text": "ruin and misery are in their ways,"
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "scripture",
+      "text": "and the way of peace they have not known."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "scripture",
+      "text": "There is no fear of God before their eyes.”"
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now we know that whatever the law says, it speaks to those within the law, so that every mouth may be silenced and the whole world become answerable to God,"
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "because by works of the law no flesh will be justified before him; for through the law comes knowledge of sin."
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But now, apart from the law, the righteousness of God has been disclosed, attested by the Law and the Prophets,"
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "the righteousness of God through faith in Jesus Christ, for all who believe. For there is no distinction,"
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "for all have sinned and fall short of the glory of God,"
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and they are justified freely by his grace through the redemption that is in Christ Jesus,"
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "whom God put forward as a place of atonement, through faith, by his blood. This was to demonstrate his righteousness, because he had passed over the sins committed beforehand"
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "in the forbearance of God; it was to demonstrate his righteousness at the present time, so that he might be just and the one who justifies the person who has faith in Jesus."
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Where, then, is boasting? It is shut out. By what kind of law? A law of works? No, but by a law of faith."
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For we hold that a person is justified by faith apart from works of the law."
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Or is God the God of Jews only? Is he not the God of Gentiles also? Yes, of Gentiles also,"
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "since God is one, and he will justify the circumcised by faith and the uncircumcised through that same faith."
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Do we then nullify the law through this faith? Absolutely not! On the contrary, we uphold the law."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 3,
+    "phrase": "were unfaithful",
+    "lemma": "ἀπιστέω",
+    "kind": "ambiguity",
+    "traditional": "did not believe",
+    "note": "The verb can mean either 'refused to believe' or 'proved unfaithful'. Verses 2–3 play on one word-family in Greek: Israel was 'entrusted' with God's words, some were 'unfaithful', and their 'unfaithfulness' cannot cancel God's 'faithfulness'. The rendering keeps that chain visible, but 'did not believe' is an equally possible reading, and many translations adopt it."
+   },
+   {
+    "verse": 4,
+    "phrase": "vindicated",
+    "lemma": "δικαιόω",
+    "kind": "departure",
+    "traditional": "justified",
+    "note": "Greek has a single word-family where English has two: righteous/just, righteousness/justice, and justify all translate related Greek words. Here, where God is the one shown to be in the right, 'vindicated' is the natural English. Elsewhere in the chapter the same verb is 'justify' and the noun is 'righteousness', and in verse 26 'just' and 'justifies' are used so that the Greek wordplay can be heard. Some scholars prefer 'justice' for the noun throughout."
+   },
+   {
+    "verse": 4,
+    "phrase": "when you are judged",
+    "lemma": "κρίνω",
+    "kind": "ambiguity",
+    "traditional": "when thou art judged",
+    "note": "The quotation is from Psalm 51:4 in its Greek form. The Greek verb can be read as passive ('when you are judged') or as middle ('when you go to law' or 'when you judge'). The Hebrew text of the psalm has 'when you judge'. The passive is followed here because it suits Paul's picture of God being put on trial and winning."
+   },
+   {
+    "verse": 9,
+    "phrase": "Are we any better off?",
+    "lemma": "προέχω",
+    "kind": "ambiguity",
+    "traditional": "Are we better than they?",
+    "note": "The meaning of this one-word question is disputed. It may mean 'Do we (Jews) have an advantage?', which is the majority reading followed here, or 'Are we at a disadvantage?', or 'Are we making excuses?' The reply can also be read as 'Not entirely' instead of 'Not at all'."
+   },
+   {
+    "verse": 10,
+    "phrase": "There is no one righteous, not even one",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "Verses 10–18 are a chain of Scripture quotations joined into a single indictment, a technique known from other Jewish writings of the period. The lines are drawn, in their Greek form, mainly from Psalm 14:1–3 (paralleled in Psalm 53), Psalm 5:9, Psalm 140:3, Psalm 10:7, Isaiah 59:7–8 and Psalm 36:1. They are presented here as one quotation, as Paul presents them."
+   },
+   {
+    "verse": 20,
+    "phrase": "works of the law",
+    "lemma": "ἔργον",
+    "kind": "ambiguity",
+    "traditional": "the deeds of the law",
+    "note": "The phrase means things done because the law of Moses requires them. Scholars dispute its focus. The traditional reading takes it as any effort to gain standing with God by obedience. Many recent interpreters think Paul has chiefly in view the practices that marked Jews off from Gentiles, such as circumcision, food laws and sabbath. The translation leaves the phrase open."
+   },
+   {
+    "verse": 21,
+    "phrase": "the righteousness of God",
+    "lemma": "δικαιοσύνη",
+    "kind": "ambiguity",
+    "traditional": "the righteousness of God",
+    "note": "The Greek can mean God's own righteousness, that is, his faithful action to set things right, or a righteous standing that comes from God to people. Both readings have strong support, and some hold that Paul intends both. The literal phrase is kept so that the reader can weigh them."
+   },
+   {
+    "verse": 22,
+    "phrase": "faith in Jesus Christ",
+    "lemma": "πίστις",
+    "kind": "ambiguity",
+    "traditional": "faith in Jesus Christ",
+    "note": "The Greek is literally 'faith of Jesus Christ' and can be read two ways: the believer's faith in Christ, or Christ's own faithfulness, meaning his obedience to the point of death. 'Faith in Jesus Christ' is the traditional and still majority reading, but 'the faithfulness of Jesus Christ' has substantial scholarly support. On that reading the following phrase, 'for all who believe', is not a repetition."
+   },
+   {
+    "verse": 25,
+    "phrase": "place of atonement",
+    "lemma": "ἱλαστήριον",
+    "kind": "departure",
+    "traditional": "propitiation",
+    "note": "In the Greek Old Testament this word is the name of the gold cover of the ark, where blood was sprinkled on the Day of Atonement (Leviticus 16). Hebrews 9:5 uses it in the same way. The rendering lets that allusion be heard. Whether Paul means the ark cover itself ('mercy seat'), a sacrifice that turns away wrath ('propitiation') or one that removes sin ('expiation') is a long-running dispute."
+   },
+   {
+    "verse": 26,
+    "phrase": "who has faith in Jesus",
+    "lemma": "πίστις",
+    "kind": "ambiguity",
+    "traditional": "which believeth in Jesus",
+    "note": "The Greek is literally 'the one who is of the faith of Jesus'. As in verse 22, this can mean the person who has faith in Jesus, which is the majority reading, or the person who lives from the faithfulness of Jesus. The grammar allows both."
+   },
+   {
+    "verse": 27,
+    "phrase": "law of faith",
+    "lemma": "νόμος",
+    "kind": "ambiguity",
+    "traditional": "the law of faith",
+    "note": "Paul uses the same word, 'law', that he has used for the law of Moses. Some take it here in a looser sense, 'principle' or 'rule': boasting is excluded on the principle of faith. Others think he still means the Mosaic law, viewed as calling for faith and not for works. 'Law' is kept so that the play on the word remains visible."
+   },
+   {
+    "verse": 29,
+    "phrase": "Gentiles",
+    "lemma": "ἔθνος",
+    "kind": "background",
+    "traditional": "Gentiles",
+    "note": "The Greek word means 'peoples' or 'nations'. In the plural, in Jewish usage, it refers to all the peoples other than Israel. English translations render the same word 'Gentiles' or 'nations' according to context. Paul's argument in the next verse rests on Israel's daily confession that God is one (Deuteronomy 6:4): if there is one God, he is God of all peoples."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "νόμος",
+    "rendering": "law (lowercase; 'the Law and the Prophets' for the scriptural collection)",
+    "verse": 19,
+    "reason": "Paul shifts between the Mosaic law, Scripture as a whole and possibly 'principle' (3:27; 7:21–23; 8:2), and both capitalisation and the choice between 'law' and 'principle' need to be uniform across the letters."
+   },
+   {
+    "lemma": "χάρις",
+    "rendering": "grace",
+    "verse": 24,
+    "reason": "It is frequent in every letter, and translators divide between 'grace', 'favor' and 'gift'; variation would hide a central term from the reader."
+   },
+   {
+    "lemma": "σάρξ",
+    "rendering": "flesh",
+    "verse": 20,
+    "reason": "Its range runs from 'humanity' and 'body' to Paul's 'flesh' as a power opposed to the Spirit, and translations vary widely ('sinful nature', 'human being', 'flesh')."
+   },
+   {
+    "lemma": "καταργέω",
+    "rendering": "nullify",
+    "verse": 3,
+    "reason": "A favourite Pauline verb rendered 'nullify', 'abolish', 'bring to nothing', 'make void' and 'release' in different places; readers cannot see the link without a set of fixed renderings by sense."
+   },
+   {
+    "lemma": "ἀπολύτρωσις",
+    "rendering": "redemption",
+    "verse": 24,
+    "reason": "'Redemption' is traditional, but its sense of ransoming or release from captivity is fading in modern English; the choice between 'redemption', 'release' and 'liberation' should be made once for Paul, Luke and Hebrews."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [
+  "Verse 2: πιστεύω is not rendered with a register form (believe / trust) and has no register-exception note."
+ ]
+}

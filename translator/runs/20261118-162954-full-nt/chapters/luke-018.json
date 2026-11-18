@@ -1,0 +1,649 @@
+{
+ "id": "luke-018",
+ "book": "luke",
+ "chapter": 18,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZff91EHbcmuPK7Tr",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 9503,
+  "output_tokens": 16203
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then he told them a parable about their need to pray always and not lose heart,\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"saying,\"},{\"speaker\":\"Jesus\",\"text\":\"“In a certain city there was a judge who neither feared God nor respected people.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And there was a widow in that city who kept coming to him, saying, ‘Give me justice against my opponent.’\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For a while he refused, but afterward he said to himself, ‘Even though I neither fear God nor respect people,\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"yet because this widow keeps causing me trouble, I will give her justice, so that she does not wear me out with her endless coming.’”\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And the Lord said,\"},{\"speaker\":\"Jesus\",\"text\":\"“Hear what the unjust judge says.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And will not God bring about justice for his chosen ones, who cry out to him day and night? Will he delay long over them?\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"I tell you, he will bring about justice for them quickly. Yet when the Son of Man comes, will he find faith on the earth?”\"}]},{\"verse\":9,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He also told this parable to some who were confident in themselves that they were righteous and who looked down on the rest:\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"“Two men went up to the temple to pray, one a Pharisee and the other a tax collector.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"The Pharisee stood and prayed this to himself: ‘God, I thank you that I am not like the rest of people—robbers, wrongdoers, adulterers—or even like this tax collector.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"I fast twice a week; I give a tenth of everything I acquire.’\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But the tax collector, standing far off, would not even lift his eyes to heaven, but kept beating his breast, saying, ‘God, be merciful to me, the sinner!’\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"I tell you, this man went down to his house justified, rather than the other. For everyone who exalts himself will be humbled, but the one who humbles himself will be exalted.”\"}]},{\"verse\":15,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"People were bringing even their babies to him so that he might touch them; but when the disciples saw it, they rebuked them.\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But Jesus called them to him, saying,\"},{\"speaker\":\"Jesus\",\"text\":\"“Let the little children come to me, and do not hinder them, for the kingdom of God belongs to such as these.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Truly I tell you, whoever does not receive the kingdom of God like a little child will never enter it.”\"}]},{\"verse\":18,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"A certain ruler asked him,\"},{\"speaker\":\"other\",\"text\":\"“Good teacher, what must I do to inherit eternal life?”\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus said to him,\"},{\"speaker\":\"Jesus\",\"text\":\"“Why do you call me good? No one is good except one: God.\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"You know the commandments: ‘Do not commit adultery, do not murder, do not steal, do not give false testimony, honor your father and mother.’”\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He said,\"},{\"speaker\":\"other\",\"text\":\"“All these I have kept since my youth.”\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When Jesus heard this, he said to him,\"},{\"speaker\":\"Jesus\",\"text\":\"“One thing you still lack. Sell everything you have and distribute it to the poor, and you will have treasure in the heavens; then come, follow me.”\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But when he heard this he became deeply grieved, for he was extremely rich.\"}]},{\"verse\":24,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus looked at him and said,\"},{\"speaker\":\"Jesus\",\"text\":\"“How hard it is for those who have wealth to enter the kingdom of God!\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Indeed, it is easier for a camel to go through the eye of a needle than for a rich person to enter the kingdom of God.”\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Those who heard this said,\"},{\"speaker\":\"other\",\"text\":\"“Then who can be saved?”\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He said,\"},{\"speaker\":\"Jesus\",\"text\":\"“What is impossible with people is possible with God.”\"}]},{\"verse\":28,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then Peter said,\"},{\"speaker\":\"other\",\"text\":\"“Look, we have left what was ours and followed you.”\"}]},{\"verse\":29,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Truly I tell you, there is no one who has left house or wife or brothers or sisters or parents or children for the sake of the kingdom of God\"}]},{\"verse\":30,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"who will not receive back many times as much in this present time, and in the coming age eternal life.”\"}]},{\"verse\":31,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Taking the twelve aside, he said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Look, we are going up to Jerusalem, and everything written through the prophets about the Son of Man will be accomplished.\"}]},{\"verse\":32,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For he will be handed over to the Gentiles and will be mocked and abused and spat upon,\"}]},{\"verse\":33,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"and after flogging him they will kill him, and on the third day he will rise.”\"}]},{\"verse\":34,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But they understood none of this; this saying was hidden from them, and they did not grasp what was being said.\"}]},{\"verse\":35,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"As he was approaching Jericho, a blind man was sitting beside the road begging.\"}]},{\"verse\":36,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Hearing a crowd going by, he asked what this was.\"}]},{\"verse\":37,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They told him,\"},{\"speaker\":\"other\",\"text\":\"“Jesus of Nazareth is passing by.”\"}]},{\"verse\":38,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And he cried out,\"},{\"speaker\":\"other\",\"text\":\"“Jesus, Son of David, have mercy on me!”\"}]},{\"verse\":39,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Those who were in front rebuked him, telling him to be quiet; but he shouted all the more,\"},{\"speaker\":\"other\",\"text\":\"“Son of David, have mercy on me!”\"}]},{\"verse\":40,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus stopped and ordered him to be brought to him. When he came near, he asked him,\"}]},{\"verse\":41,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"“What do you want me to do for you?”\"},{\"speaker\":\"narrator\",\"text\":\"He said,\"},{\"speaker\":\"other\",\"text\":\"“Lord, let me see again.”\"}]},{\"verse\":42,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And Jesus said to him,\"},{\"speaker\":\"Jesus\",\"text\":\"“See again; your faith has saved you.”\"}]},{\"verse\":43,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And at once he could see again, and he began following him, glorifying God. And all the people, when they saw it, gave praise to God.\"}]}],\"notes\":[{\"verse\":5,\"phrase\":\"wear me out\",\"lemma\":\"ὑπωπιάζω\",\"kind\":\"ambiguity\",\"traditional\":\"weary me; wear me out\",\"note\":\"The verb literally means to strike someone under the eye, to give a black eye, and Paul uses it of a boxer's blows in 1 Corinthians 9:27. Most interpreters take it figuratively here, as in this rendering. Some think the judge is wryly afraid the widow will actually come and hit him, or that she will blacken his reputation. The phrase rendered 'endless' can also mean 'in the end'.\"},{\"verse\":7,\"phrase\":\"Will he delay long over them?\",\"lemma\":\"μακροθυμέω\",\"kind\":\"ambiguity\",\"traditional\":\"though he bear long with them; Will he delay long over them?\",\"note\":\"This clause is one of the hardest in Luke. The verb normally means 'be patient', and the clause can be read as a second question expecting the answer no (as here, with most modern translations) or as a concession: 'even though he is patient with them', that is, even though he seems slow to act. Scholars remain divided.\"},{\"verse\":9,\"phrase\":\"righteous\",\"lemma\":\"δίκαιος\",\"kind\":\"background\",\"traditional\":\"righteous\",\"note\":\"Greek has one word-family where English has two: 'righteous' here and 'justified' in verse 14 are the adjective and verb of the same root, so the man who goes home 'justified' is the one declared to be what the others assumed they were. 'Just' and 'vindicated' would be equally possible English. The widow's 'justice' and the 'unjust' judge in verses 3–8 use related words. 'Righteous' and 'justify' are the standard English renderings; most other languages use a single word for 'just' throughout.\"},{\"verse\":11,\"phrase\":\"prayed this to himself\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"stood and prayed thus with himself\",\"note\":\"The Greek phrase 'to himself' can go with 'prayed' (he prayed silently, or perhaps about himself) or with 'stood' (he stood by himself, apart from others). Manuscripts vary in the word order, which reflects the same uncertainty. Many modern translations choose 'stood by himself and prayed'.\"},{\"verse\":13,\"phrase\":\"be merciful to me\",\"lemma\":\"ἱλάσκομαι\",\"kind\":\"background\",\"traditional\":\"be merciful to me\",\"note\":\"This is not the ordinary plea for mercy that the blind man uses in verse 38. The verb belongs to the vocabulary of atonement and sacrifice; its only other New Testament use is Hebrews 2:17, of making atonement for sins. Spoken in the temple, the prayer is close to 'let atonement be made for me'. The traditional rendering is kept as the most natural English.\"},{\"verse\":13,\"phrase\":\"the sinner\",\"lemma\":\"ἁμαρτωλός\",\"kind\":\"departure\",\"traditional\":\"a sinner\",\"note\":\"The Greek has the definite article. Most translations treat it as generic and write 'a sinner', which is grammatically possible. Given its full force, it has the tax collector see himself as the sinner, in contrast to the Pharisee, who measures himself against other people.\"},{\"verse\":18,\"phrase\":\"eternal life\",\"lemma\":\"αἰώνιος\",\"kind\":\"background\",\"traditional\":\"eternal life; everlasting life\",\"note\":\"The adjective is formed from the word for 'age', and in Jewish usage 'eternal life' is the life of the age to come, a matter of kind as well as length. Verse 30 makes the link explicit: 'in the coming age eternal life'. 'Eternal' is the standard rendering and is kept here; a minority of translators prefer 'life of the age to come'.\"},{\"verse\":25,\"phrase\":\"the eye of a needle\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"a needle's eye\",\"note\":\"The image is deliberately absurd: the largest animal familiar to the hearers and the smallest opening. The popular explanation that the 'Needle's Eye' was a narrow gate in Jerusalem has no ancient evidence behind it. The saying means what verse 27 says, that the thing is humanly impossible.\"},{\"verse\":29,\"phrase\":\"brothers or sisters\",\"lemma\":\"ἀδελφός\",\"kind\":\"departure\",\"traditional\":\"brethren; brothers\",\"note\":\"The Greek masculine plural was the ordinary way to refer to siblings of both sexes. The parallel saying in Mark 10:29 spells out 'brothers or sisters'. Some translations keep 'brothers' here.\"},{\"verse\":32,\"phrase\":\"Gentiles\",\"lemma\":\"ἔθνος\",\"kind\":\"background\",\"traditional\":\"Gentiles\",\"note\":\"The Greek word means 'peoples' or 'nations'. In the plural, in Jewish usage, it regularly means the non-Jewish peoples, and it is translated 'Gentiles' in that sense and 'nations' elsewhere. Here it refers to the Roman authorities.\"},{\"verse\":42,\"phrase\":\"has saved you\",\"lemma\":\"σῴζω\",\"kind\":\"ambiguity\",\"traditional\":\"hath saved thee; has made you well\",\"note\":\"The verb covers both rescue from illness or danger and salvation in the fuller sense. It is the same verb as in verse 26, 'Then who can be saved?'. Many translations write 'made you well' or 'healed you' here. 'Saved' keeps the link with verse 26 and leaves both senses open, as the Greek does.\"}],\"candidates\":[{\"lemma\":\"ἀμήν\",\"rendering\":\"Truly\",\"verse\":17,\"reason\":\"Jesus' sentence-opening formula recurs throughout the Gospels and translators split between 'Truly', 'Amen' and 'I assure you'; it should be uniform.\"},{\"lemma\":\"τελώνης\",\"rendering\":\"tax collector\",\"verse\":10,\"reason\":\"Recurs across the Synoptics; 'tax collector', 'toll collector' and 'publican' are all in use and suggest different roles to a modern reader.\"},{\"lemma\":\"σῴζω\",\"rendering\":\"save\",\"verse\":26,\"reason\":\"The verb covers both physical healing or rescue and salvation; whether to keep 'save' in healing stories (as in v. 42) needs one policy across the Gospels.\"},{\"lemma\":\"ἀδελφός\",\"rendering\":\"brothers or sisters\",\"verse\":29,\"reason\":\"The generic plural recurs across the whole New Testament and translations vary between 'brothers', 'brothers and sisters' and 'siblings'.\"},{\"lemma\":\"Ναζωραῖος\",\"rendering\":\"of Nazareth\",\"verse\":37,\"reason\":\"The epithet alternates with Ναζαρηνός in the Gospels and Acts, and translators vary between 'of Nazareth', 'the Nazarene' and 'the Nazorean'.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then he told them a parable about their need to pray always and not lose heart,"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "saying,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“In a certain city there was a judge who neither feared God nor respected people."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And there was a widow in that city who kept coming to him, saying, ‘Give me justice against my opponent.’"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For a while he refused, but afterward he said to himself, ‘Even though I neither fear God nor respect people,"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "yet because this widow keeps causing me trouble, I will give her justice, so that she does not wear me out with her endless coming.’”"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And the Lord said,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Hear what the unjust judge says."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And will not God bring about justice for his chosen ones, who cry out to him day and night? Will he delay long over them?"
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "I tell you, he will bring about justice for them quickly. Yet when the Son of Man comes, will he find faith on the earth?”"
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He also told this parable to some who were confident in themselves that they were righteous and who looked down on the rest:"
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "“Two men went up to the temple to pray, one a Pharisee and the other a tax collector."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "The Pharisee stood and prayed this to himself: ‘God, I thank you that I am not like the rest of people—robbers, wrongdoers, adulterers—or even like this tax collector."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "I fast twice a week; I give a tenth of everything I acquire.’"
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But the tax collector, standing far off, would not even lift his eyes to heaven, but kept beating his breast, saying, ‘God, be merciful to me, the sinner!’"
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "I tell you, this man went down to his house justified, rather than the other. For everyone who exalts himself will be humbled, but the one who humbles himself will be exalted.”"
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "People were bringing even their babies to him so that he might touch them; but when the disciples saw it, they rebuked them."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But Jesus called them to him, saying,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Let the little children come to me, and do not hinder them, for the kingdom of God belongs to such as these."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Truly I tell you, whoever does not receive the kingdom of God like a little child will never enter it.”"
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "A certain ruler asked him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Good teacher, what must I do to inherit eternal life?”"
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus said to him,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Why do you call me good? No one is good except one: God."
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "You know the commandments: ‘Do not commit adultery, do not murder, do not steal, do not give false testimony, honor your father and mother.’”"
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“All these I have kept since my youth.”"
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When Jesus heard this, he said to him,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“One thing you still lack. Sell everything you have and distribute it to the poor, and you will have treasure in the heavens; then come, follow me.”"
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But when he heard this he became deeply grieved, for he was extremely rich."
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus looked at him and said,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“How hard it is for those who have wealth to enter the kingdom of God!"
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Indeed, it is easier for a camel to go through the eye of a needle than for a rich person to enter the kingdom of God.”"
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Those who heard this said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Then who can be saved?”"
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He said,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“What is impossible with people is possible with God.”"
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then Peter said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Look, we have left what was ours and followed you.”"
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Truly I tell you, there is no one who has left house or wife or brothers or sisters or parents or children for the sake of the kingdom of God"
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "who will not receive back many times as much in this present time, and in the coming age eternal life.”"
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Taking the twelve aside, he said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Look, we are going up to Jerusalem, and everything written through the prophets about the Son of Man will be accomplished."
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For he will be handed over to the Gentiles and will be mocked and abused and spat upon,"
+     }
+    ]
+   },
+   {
+    "verse": 33,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "and after flogging him they will kill him, and on the third day he will rise.”"
+     }
+    ]
+   },
+   {
+    "verse": 34,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But they understood none of this; this saying was hidden from them, and they did not grasp what was being said."
+     }
+    ]
+   },
+   {
+    "verse": 35,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "As he was approaching Jericho, a blind man was sitting beside the road begging."
+     }
+    ]
+   },
+   {
+    "verse": 36,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Hearing a crowd going by, he asked what this was."
+     }
+    ]
+   },
+   {
+    "verse": 37,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They told him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Jesus of Nazareth is passing by.”"
+     }
+    ]
+   },
+   {
+    "verse": 38,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And he cried out,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Jesus, Son of David, have mercy on me!”"
+     }
+    ]
+   },
+   {
+    "verse": 39,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Those who were in front rebuked him, telling him to be quiet; but he shouted all the more,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Son of David, have mercy on me!”"
+     }
+    ]
+   },
+   {
+    "verse": 40,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus stopped and ordered him to be brought to him. When he came near, he asked him,"
+     }
+    ]
+   },
+   {
+    "verse": 41,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "“What do you want me to do for you?”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "He said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Lord, let me see again.”"
+     }
+    ]
+   },
+   {
+    "verse": 42,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And Jesus said to him,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“See again; your faith has saved you.”"
+     }
+    ]
+   },
+   {
+    "verse": 43,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And at once he could see again, and he began following him, glorifying God. And all the people, when they saw it, gave praise to God."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 5,
+    "phrase": "wear me out",
+    "lemma": "ὑπωπιάζω",
+    "kind": "ambiguity",
+    "traditional": "weary me; wear me out",
+    "note": "The verb literally means to strike someone under the eye, to give a black eye, and Paul uses it of a boxer's blows in 1 Corinthians 9:27. Most interpreters take it figuratively here, as in this rendering. Some think the judge is wryly afraid the widow will actually come and hit him, or that she will blacken his reputation. The phrase rendered 'endless' can also mean 'in the end'."
+   },
+   {
+    "verse": 7,
+    "phrase": "Will he delay long over them?",
+    "lemma": "μακροθυμέω",
+    "kind": "ambiguity",
+    "traditional": "though he bear long with them; Will he delay long over them?",
+    "note": "This clause is one of the hardest in Luke. The verb normally means 'be patient', and the clause can be read as a second question expecting the answer no (as here, with most modern translations) or as a concession: 'even though he is patient with them', that is, even though he seems slow to act. Scholars remain divided."
+   },
+   {
+    "verse": 9,
+    "phrase": "righteous",
+    "lemma": "δίκαιος",
+    "kind": "background",
+    "traditional": "righteous",
+    "note": "Greek has one word-family where English has two: 'righteous' here and 'justified' in verse 14 are the adjective and verb of the same root, so the man who goes home 'justified' is the one declared to be what the others assumed they were. 'Just' and 'vindicated' would be equally possible English. The widow's 'justice' and the 'unjust' judge in verses 3–8 use related words. 'Righteous' and 'justify' are the standard English renderings; most other languages use a single word for 'just' throughout."
+   },
+   {
+    "verse": 11,
+    "phrase": "prayed this to himself",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "stood and prayed thus with himself",
+    "note": "The Greek phrase 'to himself' can go with 'prayed' (he prayed silently, or perhaps about himself) or with 'stood' (he stood by himself, apart from others). Manuscripts vary in the word order, which reflects the same uncertainty. Many modern translations choose 'stood by himself and prayed'."
+   },
+   {
+    "verse": 13,
+    "phrase": "be merciful to me",
+    "lemma": "ἱλάσκομαι",
+    "kind": "background",
+    "traditional": "be merciful to me",
+    "note": "This is not the ordinary plea for mercy that the blind man uses in verse 38. The verb belongs to the vocabulary of atonement and sacrifice; its only other New Testament use is Hebrews 2:17, of making atonement for sins. Spoken in the temple, the prayer is close to 'let atonement be made for me'. The traditional rendering is kept as the most natural English."
+   },
+   {
+    "verse": 13,
+    "phrase": "the sinner",
+    "lemma": "ἁμαρτωλός",
+    "kind": "departure",
+    "traditional": "a sinner",
+    "note": "The Greek has the definite article. Most translations treat it as generic and write 'a sinner', which is grammatically possible. Given its full force, it has the tax collector see himself as the sinner, in contrast to the Pharisee, who measures himself against other people."
+   },
+   {
+    "verse": 18,
+    "phrase": "eternal life",
+    "lemma": "αἰώνιος",
+    "kind": "background",
+    "traditional": "eternal life; everlasting life",
+    "note": "The adjective is formed from the word for 'age', and in Jewish usage 'eternal life' is the life of the age to come, a matter of kind as well as length. Verse 30 makes the link explicit: 'in the coming age eternal life'. 'Eternal' is the standard rendering and is kept here; a minority of translators prefer 'life of the age to come'."
+   },
+   {
+    "verse": 25,
+    "phrase": "the eye of a needle",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "a needle's eye",
+    "note": "The image is deliberately absurd: the largest animal familiar to the hearers and the smallest opening. The popular explanation that the 'Needle's Eye' was a narrow gate in Jerusalem has no ancient evidence behind it. The saying means what verse 27 says, that the thing is humanly impossible."
+   },
+   {
+    "verse": 29,
+    "phrase": "brothers or sisters",
+    "lemma": "ἀδελφός",
+    "kind": "departure",
+    "traditional": "brethren; brothers",
+    "note": "The Greek masculine plural was the ordinary way to refer to siblings of both sexes. The parallel saying in Mark 10:29 spells out 'brothers or sisters'. Some translations keep 'brothers' here."
+   },
+   {
+    "verse": 32,
+    "phrase": "Gentiles",
+    "lemma": "ἔθνος",
+    "kind": "background",
+    "traditional": "Gentiles",
+    "note": "The Greek word means 'peoples' or 'nations'. In the plural, in Jewish usage, it regularly means the non-Jewish peoples, and it is translated 'Gentiles' in that sense and 'nations' elsewhere. Here it refers to the Roman authorities."
+   },
+   {
+    "verse": 42,
+    "phrase": "has saved you",
+    "lemma": "σῴζω",
+    "kind": "ambiguity",
+    "traditional": "hath saved thee; has made you well",
+    "note": "The verb covers both rescue from illness or danger and salvation in the fuller sense. It is the same verb as in verse 26, 'Then who can be saved?'. Many translations write 'made you well' or 'healed you' here. 'Saved' keeps the link with verse 26 and leaves both senses open, as the Greek does."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "ἀμήν",
+    "rendering": "Truly",
+    "verse": 17,
+    "reason": "Jesus' sentence-opening formula recurs throughout the Gospels and translators split between 'Truly', 'Amen' and 'I assure you'; it should be uniform."
+   },
+   {
+    "lemma": "τελώνης",
+    "rendering": "tax collector",
+    "verse": 10,
+    "reason": "Recurs across the Synoptics; 'tax collector', 'toll collector' and 'publican' are all in use and suggest different roles to a modern reader."
+   },
+   {
+    "lemma": "σῴζω",
+    "rendering": "save",
+    "verse": 26,
+    "reason": "The verb covers both physical healing or rescue and salvation; whether to keep 'save' in healing stories (as in v. 42) needs one policy across the Gospels."
+   },
+   {
+    "lemma": "ἀδελφός",
+    "rendering": "brothers or sisters",
+    "verse": 29,
+    "reason": "The generic plural recurs across the whole New Testament and translations vary between 'brothers', 'brothers and sisters' and 'siblings'."
+   },
+   {
+    "lemma": "Ναζωραῖος",
+    "rendering": "of Nazareth",
+    "verse": 37,
+    "reason": "The epithet alternates with Ναζαρηνός in the Gospels and Acts, and translators vary between 'of Nazareth', 'the Nazarene' and 'the Nazorean'."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

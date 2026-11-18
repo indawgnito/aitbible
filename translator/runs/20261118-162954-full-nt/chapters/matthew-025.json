@@ -1,0 +1,603 @@
+{
+ "id": "matthew-025",
+ "book": "matthew",
+ "chapter": 25,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZk7gdRvnVnRK4U8D",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 9594,
+  "output_tokens": 17322
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"“Then the kingdom of the heavens will be like ten young women who took their torches and went out to meet the bridegroom.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Five of them were foolish and five were sensible.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For the foolish ones, when they took their torches, took no oil with them,\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"but the sensible ones took oil in flasks along with their torches.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"As the bridegroom was a long time coming, they all grew drowsy and fell asleep.\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But in the middle of the night there was a shout: ‘Look, the bridegroom! Come out to meet him!’\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Then all those young women got up and put their torches in order.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"The foolish ones said to the sensible, ‘Give us some of your oil, because our torches are going out.’\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But the sensible ones answered, ‘No, there may well not be enough for us and for you. Go instead to those who sell it and buy some for yourselves.’\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But while they were going off to buy it, the bridegroom came, and those who were ready went in with him to the wedding feast, and the door was shut.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Later the rest of the young women came too, saying, ‘Sir, sir, open up for us!’\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But he answered, ‘Truly I tell you, I do not know you.’\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"So keep watch, because you do not know the day or the hour.\"}]},{\"verse\":14,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"“For it is like a man going abroad, who called his own slaves and handed his property over to them.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"To one he gave five talents, to another two, and to another one, to each according to his own ability, and he went abroad. Immediately\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"the one who had received the five talents went and put them to work and gained five more.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"In the same way the one with the two gained two more.\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But the one who had received the one went off, dug a hole in the ground, and hid his master’s money.\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"After a long time the master of those slaves came and settled accounts with them.\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"The one who had received the five talents came forward and brought five more talents, saying, ‘Master, you handed five talents over to me. See, I have gained five more talents.’\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"His master said to him, ‘Well done, good and faithful slave! You were faithful over a few things; I will put you in charge of many. Enter into your master’s joy.’\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"The one with the two talents also came forward and said, ‘Master, you handed two talents over to me. See, I have gained two more talents.’\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"His master said to him, ‘Well done, good and faithful slave! You were faithful over a few things; I will put you in charge of many. Enter into your master’s joy.’\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Then the one who had received the one talent also came forward and said, ‘Master, I knew that you are a hard man, reaping where you did not sow and gathering from where you did not scatter.\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"So I was afraid, and I went off and hid your talent in the ground. See, you have what is yours.’\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But his master answered him, ‘You wicked and lazy slave! You knew that I reap where I did not sow and gather from where I did not scatter?\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Then you should have deposited my money with the bankers, and when I came I would have received back what is mine with interest.\"}]},{\"verse\":28,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"So take the talent from him and give it to the one who has the ten talents.\"}]},{\"verse\":29,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For to everyone who has, more will be given, and he will have more than enough; but from the one who does not have, even what he has will be taken away.\"}]},{\"verse\":30,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And throw the useless slave out into the outer darkness. In that place there will be weeping and gnashing of teeth.’\"}]},{\"verse\":31,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"“When the Son of Man comes in his glory, and all the angels with him, then he will sit on his glorious throne.\"}]},{\"verse\":32,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"All the nations will be gathered before him, and he will separate people from one another, as a shepherd separates the sheep from the goats,\"}]},{\"verse\":33,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"and he will place the sheep at his right and the goats at his left.\"}]},{\"verse\":34,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Then the king will say to those at his right, ‘Come, you who are blessed by my Father, inherit the kingdom prepared for you from the foundation of the world.\"}]},{\"verse\":35,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For I was hungry and you gave me something to eat, I was thirsty and you gave me a drink, I was a stranger and you took me in,\"}]},{\"verse\":36,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"naked and you clothed me, I was sick and you looked after me, I was in prison and you came to me.’\"}]},{\"verse\":37,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Then the righteous will answer him, ‘Lord, when did we see you hungry and feed you, or thirsty and give you a drink?\"}]},{\"verse\":38,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"When did we see you a stranger and take you in, or naked and clothe you?\"}]},{\"verse\":39,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"When did we see you sick or in prison and come to you?’\"}]},{\"verse\":40,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And the king will answer them, ‘Truly I tell you, insofar as you did it for one of the least of these brothers and sisters of mine, you did it for me.’\"}]},{\"verse\":41,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Then he will also say to those at his left, ‘Go away from me, you who are cursed, into the eternal fire prepared for the devil and his angels.\"}]},{\"verse\":42,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For I was hungry and you gave me nothing to eat, I was thirsty and you gave me no drink,\"}]},{\"verse\":43,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"I was a stranger and you did not take me in, naked and you did not clothe me, sick and in prison and you did not look after me.’\"}]},{\"verse\":44,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Then they too will answer, ‘Lord, when did we see you hungry or thirsty or a stranger or naked or sick or in prison and not serve you?’\"}]},{\"verse\":45,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Then he will answer them, ‘Truly I tell you, insofar as you did not do it for one of the least of these, you did not do it for me either.’\"}]},{\"verse\":46,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And these will go away into eternal punishment, but the righteous into eternal life.”\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"the kingdom of the heavens\",\"lemma\":\"οὐρανός\",\"kind\":\"departure\",\"traditional\":\"the kingdom of heaven\",\"note\":\"Matthew's Greek has the plural, 'the heavens', a Semitic turn of phrase that a first-century hearer would have noticed. Most English translations flatten it to 'heaven'; the plural is kept here.\"},{\"verse\":1,\"phrase\":\"young women\",\"lemma\":\"παρθένος\",\"kind\":\"departure\",\"traditional\":\"virgins (some versions: bridesmaids)\",\"note\":\"The Greek word denotes a girl of marriageable age who is not yet married. Virginity is assumed but is not the point of the story, and the modern English word 'virgins' puts the stress there. 'Bridesmaids' is a reasonable inference from the scene but says more than the word does.\"},{\"verse\":1,\"phrase\":\"torches\",\"lemma\":\"λαμπάς\",\"kind\":\"departure\",\"traditional\":\"lamps\",\"note\":\"The Greek word ordinarily means a torch, and a different word is used for the small household oil lamp. Many commentators picture poles wrapped in oil-soaked rags, which burn quickly and need fresh oil, and that suits an outdoor night procession. The word can occasionally mean a lamp, however, and most English versions translate it so; the question is not settled.\"},{\"verse\":11,\"phrase\":\"Sir, sir\",\"lemma\":\"κύριος\",\"kind\":\"departure\",\"traditional\":\"Lord, Lord\",\"note\":\"The Greek word is the ordinary respectful address to a superior and also the word for 'Lord'. It is the same word translated 'Master' in verse 20 and 'Lord' in verse 37. Within the story the young women are addressing the bridegroom, so 'Sir' is used. Matthew's readers would also have heard an echo of 7:21–23, where people cry 'Lord, Lord' and are told 'I never knew you.'\"},{\"verse\":14,\"phrase\":\"slaves\",\"lemma\":\"δοῦλος\",\"kind\":\"departure\",\"traditional\":\"servants\",\"note\":\"The Greek word means a slave, a person owned by a master, not a hired servant. Slaves in the ancient world could be trusted with managing very large sums on their owner's behalf, as here. English versions are divided between 'servants' and 'slaves'.\"},{\"verse\":15,\"phrase\":\"talents\",\"lemma\":\"τάλαντον\",\"kind\":\"background\",\"traditional\":\"talents\",\"note\":\"A talent was a large weight of silver or gold used as a unit of money, roughly six thousand days' wages for a labourer. Even the slave given one talent is therefore entrusted with a fortune. The English sense of 'talent' as a natural ability comes from this parable and is not what the word meant.\"},{\"verse\":15,\"phrase\":\"Immediately\",\"lemma\":\"εὐθέως\",\"kind\":\"ambiguity\",\"traditional\":\"and straightway took his journey (KJV); modern versions mostly attach it to the first slave\",\"note\":\"The earliest manuscripts have no punctuation, so 'immediately' can go either with the master's departure or with the first slave's getting to work. The SBLGNT and most modern translations take it with the slave, which this translation follows. The word falls at the end of verse 15 in the traditional numbering.\"},{\"verse\":32,\"phrase\":\"All the nations\",\"lemma\":\"ἔθνος\",\"kind\":\"ambiguity\",\"traditional\":\"all the nations\",\"note\":\"One Greek word means both 'nations' and, in the plural, 'Gentiles', the non-Jewish peoples. Most interpreters take the phrase here to mean the whole of humanity, as in 24:14 and 28:19. A minority take it as the Gentile or non-Christian peoples, judged by how they treated Jesus's followers.\"},{\"verse\":36,\"phrase\":\"looked after me\",\"lemma\":\"ἐπισκέπτομαι\",\"kind\":\"departure\",\"traditional\":\"visited me\",\"note\":\"The Greek verb means to go to see someone in order to help or care for them, not merely to pay a call. The same verb is used in verse 43 of both the sick and the prisoner. In the ancient world prisoners depended on outsiders for food and other necessities.\"},{\"verse\":40,\"phrase\":\"brothers and sisters\",\"lemma\":\"ἀδελφός\",\"kind\":\"ambiguity\",\"traditional\":\"my brethren / my brothers\",\"note\":\"The Greek plural regularly covers both sexes. Who is meant is disputed. Many readers take it as anyone in need. Many scholars note that elsewhere in Matthew Jesus's 'brothers' are his disciples (12:49–50; 28:10), and take it as his followers or messengers, as in 10:40–42. The translation leaves both readings open.\"},{\"verse\":41,\"phrase\":\"eternal\",\"lemma\":\"αἰώνιος\",\"kind\":\"background\",\"traditional\":\"eternal, everlasting\",\"note\":\"The Greek adjective is formed from the word for 'age'. In Jewish usage it describes what belongs to the age to come, so it speaks of kind as well as length. 'Eternal' is the standard rendering and is kept here and in verse 46 for fire, punishment and life alike. A minority of translators prefer 'of the age to come'.\"}],\"candidates\":[{\"lemma\":\"δοῦλος\",\"rendering\":\"slave\",\"verse\":14,\"reason\":\"Occurs throughout the New Testament and translators split between 'slave' and 'servant'; readers would be misled by variation, especially where Paul calls himself one.\"},{\"lemma\":\"κύριος\",\"rendering\":\"Sir / Master / Lord (by addressee)\",\"verse\":11,\"reason\":\"A single word covers polite address, a slave-owner and the divine title, and the boundaries between 'sir', 'master' and 'Lord' need a consistent policy across the Gospels.\"},{\"lemma\":\"ἀδελφός\",\"rendering\":\"brothers and sisters (plural)\",\"verse\":40,\"reason\":\"The inclusive plural recurs constantly in the Gospels and letters and needs one rule for when it is 'brothers' and when 'brothers and sisters'.\"},{\"lemma\":\"ἀμήν\",\"rendering\":\"Truly (in 'Truly I tell you')\",\"verse\":12,\"reason\":\"Jesus's formula occurs dozens of times across all four Gospels, and the choice between 'Truly', 'Amen' and 'I assure you' should be made once.\"},{\"lemma\":\"παρθένος\",\"rendering\":\"young women\",\"verse\":1,\"reason\":\"The choice between 'virgin' and 'young woman' or 'unmarried girl' matters in Matthew 1:23, Luke 1:27 and 1 Corinthians 7 as well as here, and needs sense-by-sense guidance.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "“Then the kingdom of the heavens will be like ten young women who took their torches and went out to meet the bridegroom."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Five of them were foolish and five were sensible."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For the foolish ones, when they took their torches, took no oil with them,"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "but the sensible ones took oil in flasks along with their torches."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "As the bridegroom was a long time coming, they all grew drowsy and fell asleep."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But in the middle of the night there was a shout: ‘Look, the bridegroom! Come out to meet him!’"
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Then all those young women got up and put their torches in order."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "The foolish ones said to the sensible, ‘Give us some of your oil, because our torches are going out.’"
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But the sensible ones answered, ‘No, there may well not be enough for us and for you. Go instead to those who sell it and buy some for yourselves.’"
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But while they were going off to buy it, the bridegroom came, and those who were ready went in with him to the wedding feast, and the door was shut."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Later the rest of the young women came too, saying, ‘Sir, sir, open up for us!’"
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But he answered, ‘Truly I tell you, I do not know you.’"
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "So keep watch, because you do not know the day or the hour."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "“For it is like a man going abroad, who called his own slaves and handed his property over to them."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "To one he gave five talents, to another two, and to another one, to each according to his own ability, and he went abroad. Immediately"
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "the one who had received the five talents went and put them to work and gained five more."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "In the same way the one with the two gained two more."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But the one who had received the one went off, dug a hole in the ground, and hid his master’s money."
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "After a long time the master of those slaves came and settled accounts with them."
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "The one who had received the five talents came forward and brought five more talents, saying, ‘Master, you handed five talents over to me. See, I have gained five more talents.’"
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "His master said to him, ‘Well done, good and faithful slave! You were faithful over a few things; I will put you in charge of many. Enter into your master’s joy.’"
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "The one with the two talents also came forward and said, ‘Master, you handed two talents over to me. See, I have gained two more talents.’"
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "His master said to him, ‘Well done, good and faithful slave! You were faithful over a few things; I will put you in charge of many. Enter into your master’s joy.’"
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Then the one who had received the one talent also came forward and said, ‘Master, I knew that you are a hard man, reaping where you did not sow and gathering from where you did not scatter."
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "So I was afraid, and I went off and hid your talent in the ground. See, you have what is yours.’"
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But his master answered him, ‘You wicked and lazy slave! You knew that I reap where I did not sow and gather from where I did not scatter?"
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Then you should have deposited my money with the bankers, and when I came I would have received back what is mine with interest."
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "So take the talent from him and give it to the one who has the ten talents."
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For to everyone who has, more will be given, and he will have more than enough; but from the one who does not have, even what he has will be taken away."
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And throw the useless slave out into the outer darkness. In that place there will be weeping and gnashing of teeth.’"
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "“When the Son of Man comes in his glory, and all the angels with him, then he will sit on his glorious throne."
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "All the nations will be gathered before him, and he will separate people from one another, as a shepherd separates the sheep from the goats,"
+     }
+    ]
+   },
+   {
+    "verse": 33,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "and he will place the sheep at his right and the goats at his left."
+     }
+    ]
+   },
+   {
+    "verse": 34,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Then the king will say to those at his right, ‘Come, you who are blessed by my Father, inherit the kingdom prepared for you from the foundation of the world."
+     }
+    ]
+   },
+   {
+    "verse": 35,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For I was hungry and you gave me something to eat, I was thirsty and you gave me a drink, I was a stranger and you took me in,"
+     }
+    ]
+   },
+   {
+    "verse": 36,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "naked and you clothed me, I was sick and you looked after me, I was in prison and you came to me.’"
+     }
+    ]
+   },
+   {
+    "verse": 37,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Then the righteous will answer him, ‘Lord, when did we see you hungry and feed you, or thirsty and give you a drink?"
+     }
+    ]
+   },
+   {
+    "verse": 38,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "When did we see you a stranger and take you in, or naked and clothe you?"
+     }
+    ]
+   },
+   {
+    "verse": 39,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "When did we see you sick or in prison and come to you?’"
+     }
+    ]
+   },
+   {
+    "verse": 40,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And the king will answer them, ‘Truly I tell you, insofar as you did it for one of the least of these brothers and sisters of mine, you did it for me.’"
+     }
+    ]
+   },
+   {
+    "verse": 41,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Then he will also say to those at his left, ‘Go away from me, you who are cursed, into the eternal fire prepared for the devil and his angels."
+     }
+    ]
+   },
+   {
+    "verse": 42,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For I was hungry and you gave me nothing to eat, I was thirsty and you gave me no drink,"
+     }
+    ]
+   },
+   {
+    "verse": 43,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "I was a stranger and you did not take me in, naked and you did not clothe me, sick and in prison and you did not look after me.’"
+     }
+    ]
+   },
+   {
+    "verse": 44,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Then they too will answer, ‘Lord, when did we see you hungry or thirsty or a stranger or naked or sick or in prison and not serve you?’"
+     }
+    ]
+   },
+   {
+    "verse": 45,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Then he will answer them, ‘Truly I tell you, insofar as you did not do it for one of the least of these, you did not do it for me either.’"
+     }
+    ]
+   },
+   {
+    "verse": 46,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And these will go away into eternal punishment, but the righteous into eternal life.”"
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "the kingdom of the heavens",
+    "lemma": "οὐρανός",
+    "kind": "departure",
+    "traditional": "the kingdom of heaven",
+    "note": "Matthew's Greek has the plural, 'the heavens', a Semitic turn of phrase that a first-century hearer would have noticed. Most English translations flatten it to 'heaven'; the plural is kept here."
+   },
+   {
+    "verse": 1,
+    "phrase": "young women",
+    "lemma": "παρθένος",
+    "kind": "departure",
+    "traditional": "virgins (some versions: bridesmaids)",
+    "note": "The Greek word denotes a girl of marriageable age who is not yet married. Virginity is assumed but is not the point of the story, and the modern English word 'virgins' puts the stress there. 'Bridesmaids' is a reasonable inference from the scene but says more than the word does."
+   },
+   {
+    "verse": 1,
+    "phrase": "torches",
+    "lemma": "λαμπάς",
+    "kind": "departure",
+    "traditional": "lamps",
+    "note": "The Greek word ordinarily means a torch, and a different word is used for the small household oil lamp. Many commentators picture poles wrapped in oil-soaked rags, which burn quickly and need fresh oil, and that suits an outdoor night procession. The word can occasionally mean a lamp, however, and most English versions translate it so; the question is not settled."
+   },
+   {
+    "verse": 11,
+    "phrase": "Sir, sir",
+    "lemma": "κύριος",
+    "kind": "departure",
+    "traditional": "Lord, Lord",
+    "note": "The Greek word is the ordinary respectful address to a superior and also the word for 'Lord'. It is the same word translated 'Master' in verse 20 and 'Lord' in verse 37. Within the story the young women are addressing the bridegroom, so 'Sir' is used. Matthew's readers would also have heard an echo of 7:21–23, where people cry 'Lord, Lord' and are told 'I never knew you.'"
+   },
+   {
+    "verse": 14,
+    "phrase": "slaves",
+    "lemma": "δοῦλος",
+    "kind": "departure",
+    "traditional": "servants",
+    "note": "The Greek word means a slave, a person owned by a master, not a hired servant. Slaves in the ancient world could be trusted with managing very large sums on their owner's behalf, as here. English versions are divided between 'servants' and 'slaves'."
+   },
+   {
+    "verse": 15,
+    "phrase": "talents",
+    "lemma": "τάλαντον",
+    "kind": "background",
+    "traditional": "talents",
+    "note": "A talent was a large weight of silver or gold used as a unit of money, roughly six thousand days' wages for a labourer. Even the slave given one talent is therefore entrusted with a fortune. The English sense of 'talent' as a natural ability comes from this parable and is not what the word meant."
+   },
+   {
+    "verse": 15,
+    "phrase": "Immediately",
+    "lemma": "εὐθέως",
+    "kind": "ambiguity",
+    "traditional": "and straightway took his journey (KJV); modern versions mostly attach it to the first slave",
+    "note": "The earliest manuscripts have no punctuation, so 'immediately' can go either with the master's departure or with the first slave's getting to work. The SBLGNT and most modern translations take it with the slave, which this translation follows. The word falls at the end of verse 15 in the traditional numbering."
+   },
+   {
+    "verse": 32,
+    "phrase": "All the nations",
+    "lemma": "ἔθνος",
+    "kind": "ambiguity",
+    "traditional": "all the nations",
+    "note": "One Greek word means both 'nations' and, in the plural, 'Gentiles', the non-Jewish peoples. Most interpreters take the phrase here to mean the whole of humanity, as in 24:14 and 28:19. A minority take it as the Gentile or non-Christian peoples, judged by how they treated Jesus's followers."
+   },
+   {
+    "verse": 36,
+    "phrase": "looked after me",
+    "lemma": "ἐπισκέπτομαι",
+    "kind": "departure",
+    "traditional": "visited me",
+    "note": "The Greek verb means to go to see someone in order to help or care for them, not merely to pay a call. The same verb is used in verse 43 of both the sick and the prisoner. In the ancient world prisoners depended on outsiders for food and other necessities."
+   },
+   {
+    "verse": 40,
+    "phrase": "brothers and sisters",
+    "lemma": "ἀδελφός",
+    "kind": "ambiguity",
+    "traditional": "my brethren / my brothers",
+    "note": "The Greek plural regularly covers both sexes. Who is meant is disputed. Many readers take it as anyone in need. Many scholars note that elsewhere in Matthew Jesus's 'brothers' are his disciples (12:49–50; 28:10), and take it as his followers or messengers, as in 10:40–42. The translation leaves both readings open."
+   },
+   {
+    "verse": 41,
+    "phrase": "eternal",
+    "lemma": "αἰώνιος",
+    "kind": "background",
+    "traditional": "eternal, everlasting",
+    "note": "The Greek adjective is formed from the word for 'age'. In Jewish usage it describes what belongs to the age to come, so it speaks of kind as well as length. 'Eternal' is the standard rendering and is kept here and in verse 46 for fire, punishment and life alike. A minority of translators prefer 'of the age to come'."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "δοῦλος",
+    "rendering": "slave",
+    "verse": 14,
+    "reason": "Occurs throughout the New Testament and translators split between 'slave' and 'servant'; readers would be misled by variation, especially where Paul calls himself one."
+   },
+   {
+    "lemma": "κύριος",
+    "rendering": "Sir / Master / Lord (by addressee)",
+    "verse": 11,
+    "reason": "A single word covers polite address, a slave-owner and the divine title, and the boundaries between 'sir', 'master' and 'Lord' need a consistent policy across the Gospels."
+   },
+   {
+    "lemma": "ἀδελφός",
+    "rendering": "brothers and sisters (plural)",
+    "verse": 40,
+    "reason": "The inclusive plural recurs constantly in the Gospels and letters and needs one rule for when it is 'brothers' and when 'brothers and sisters'."
+   },
+   {
+    "lemma": "ἀμήν",
+    "rendering": "Truly (in 'Truly I tell you')",
+    "verse": 12,
+    "reason": "Jesus's formula occurs dozens of times across all four Gospels, and the choice between 'Truly', 'Amen' and 'I assure you' should be made once."
+   },
+   {
+    "lemma": "παρθένος",
+    "rendering": "young women",
+    "verse": 1,
+    "reason": "The choice between 'virgin' and 'young woman' or 'unmarried girl' matters in Matthew 1:23, Luke 1:27 and 1 Corinthians 7 as well as here, and needs sense-by-sense guidance."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

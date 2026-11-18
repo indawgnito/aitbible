@@ -1,0 +1,513 @@
+{
+ "id": "luke-014",
+ "book": "luke",
+ "chapter": 14,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZjsoA1CXESBmmtug",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 7900,
+  "output_tokens": 12289
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"One Sabbath, when he went to the house of one of the leaders of the Pharisees to eat bread, they were watching him closely.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And there in front of him was a man who had dropsy.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus responded by asking the experts in the law and the Pharisees,\"},{\"speaker\":\"Jesus\",\"text\":\"“Is it permitted to heal on the Sabbath, or not?”\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But they kept silent. So he took hold of the man, cured him, and sent him on his way.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then he said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Which of you, if your son or your ox falls into a well, will not immediately pull him out on the Sabbath day?”\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And they were not able to give any answer to this.\"}]},{\"verse\":7,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He told a parable to those who had been invited, when he noticed how they were choosing the places of honor. He said to them,\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"“When you are invited by someone to a wedding feast, do not recline in the place of honor, in case someone more distinguished than you has been invited by him,\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"and the one who invited both you and him will come and say to you, ‘Give your place to this man.’ Then in shame you will begin to take the last place.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But when you are invited, go and recline in the last place, so that when the one who has invited you comes, he will say to you, ‘Friend, move up higher.’ Then you will have honor in the presence of all who are reclining at table with you.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For everyone who exalts himself will be humbled, and the one who humbles himself will be exalted.”\"}]},{\"verse\":12,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He also said to the one who had invited him,\"},{\"speaker\":\"Jesus\",\"text\":\"“When you give a lunch or a dinner, do not ask your friends or your brothers or your relatives or rich neighbors, in case they also invite you in return and that becomes your repayment.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But when you give a banquet, invite the poor, the crippled, the lame, the blind,\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"and you will be blessed, because they have no way to repay you; for you will be repaid at the resurrection of the righteous.”\"}]},{\"verse\":15,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When one of those reclining at table with him heard this, he said to him,\"},{\"speaker\":\"other\",\"text\":\"“Blessed is whoever will eat bread in the kingdom of God!”\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But he said to him,\"},{\"speaker\":\"Jesus\",\"text\":\"“A man was giving a great dinner and invited many.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"At the hour of the dinner he sent his slave to say to those who had been invited, ‘Come, because it is now ready.’\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But they all alike began to excuse themselves. The first said to him, ‘I have bought a field, and I must go out and see it. I ask you, consider me excused.’\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Another said, ‘I have bought five yoke of oxen, and I am on my way to try them out. I ask you, consider me excused.’\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And another said, ‘I have married a wife, and so I cannot come.’\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"The slave came and reported this to his master. Then the owner of the house became angry and said to his slave, ‘Go out quickly into the streets and alleys of the city, and bring in here the poor and the crippled and the blind and the lame.’\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And the slave said, ‘Master, what you ordered has been done, and there is still room.’\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And the master said to the slave, ‘Go out to the roads and hedgerows and press them to come in, so that my house may be filled.\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For I tell you, none of those men who were invited will taste my dinner.’”\"}]},{\"verse\":25,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Large crowds were travelling with him, and he turned and said to them,\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"“If anyone comes to me and does not hate his own father and mother and wife and children and brothers and sisters, and even his own life as well, he cannot be my disciple.\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Whoever does not carry his own cross and come after me cannot be my disciple.\"}]},{\"verse\":28,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For which of you, wanting to build a tower, does not first sit down and calculate the cost, to see whether he has enough to complete it?\"}]},{\"verse\":29,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Otherwise, once he has laid a foundation and is not able to finish, all who are watching will begin to mock him,\"}]},{\"verse\":30,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"saying, ‘This man began to build and was not able to finish.’\"}]},{\"verse\":31,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Or what king, going out to meet another king in battle, will not first sit down and consider whether he is strong enough with ten thousand to face the one coming against him with twenty thousand?\"}]},{\"verse\":32,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"If he is not, then while the other is still far away he sends a delegation and asks for terms of peace.\"}]},{\"verse\":33,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"So then, any one of you who does not give up all that he has cannot be my disciple.\"}]},{\"verse\":34,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Salt, then, is good; but if even the salt loses its taste, with what will it be seasoned?\"}]},{\"verse\":35,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"It is fit neither for the soil nor for the manure pile; they throw it out. Whoever has ears to hear, let him hear.”\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"eat bread\",\"lemma\":\"ἄρτος\",\"kind\":\"background\",\"traditional\":\"eat bread\",\"note\":\"To 'eat bread' is a Semitic way of saying 'have a meal'; it does not mean that only bread was served. The phrase is kept because the guest in verse 15 picks it up when he speaks of eating bread in the kingdom of God.\"},{\"verse\":2,\"phrase\":\"dropsy\",\"lemma\":\"ὑδρωπικός\",\"kind\":\"background\",\"traditional\":\"dropsy\",\"note\":\"Dropsy is the older English name for what is now called edema: visible swelling of the body caused by retained fluid, usually a symptom of serious underlying illness. The Greek word is a standard medical term of the period and occurs only here in the New Testament.\"},{\"verse\":3,\"phrase\":\"experts in the law\",\"lemma\":\"νομικός\",\"kind\":\"departure\",\"traditional\":\"lawyers\",\"note\":\"The traditional 'lawyers' suggests courtroom advocates to a modern reader. These were specialists in interpreting the Law of Moses, the same group elsewhere called scribes. Many recent translations make a similar adjustment.\"},{\"verse\":5,\"phrase\":\"son\",\"lemma\":\"υἱός\",\"kind\":\"textual\",\"traditional\":\"an ass or an ox\",\"note\":\"Many manuscripts read 'donkey' instead of 'son', and a few read 'sheep'; the King James Version follows the 'donkey' reading. 'Son' has strong early support and is the more surprising pairing, which copyists would be likely to smooth to match the familiar 'ox and donkey'. Most modern editions therefore adopt it.\"},{\"verse\":8,\"phrase\":\"recline\",\"lemma\":\"κατακλίνω\",\"kind\":\"background\",\"traditional\":\"sit down\",\"note\":\"At formal meals guests lay on couches arranged around the table, leaning on the left elbow. The couches were ranked, so where one reclined showed one's standing publicly. The 'place of honor' is literally the 'first couch'.\"},{\"verse\":17,\"phrase\":\"slave\",\"lemma\":\"δοῦλος\",\"kind\":\"departure\",\"traditional\":\"servant\",\"note\":\"The Greek word denotes a person owned by a master, not a hired employee, and a first-century reader would have understood it so. 'Servant' is the long-standing English rendering, though several modern translations now use 'slave'. Ancient slavery was not based on race and differed in various ways from later Atlantic slavery, but the person was still property.\"},{\"verse\":18,\"phrase\":\"all alike\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"with one consent\",\"note\":\"The Greek is a compressed idiom, literally 'from one', with a noun left unstated. It probably means 'unanimously' or 'with one voice', though 'all at once' is also possible. Either way the point is that every guest refused.\"},{\"verse\":23,\"phrase\":\"press them to come in\",\"lemma\":\"ἀναγκάζω\",\"kind\":\"departure\",\"traditional\":\"compel them to come in\",\"note\":\"The verb covers a range from physical force to insistent urging, and standard lexicons place this verse at the urging end: a single slave cannot force strangers into a house, and the picture is of overcoming polite reluctance. 'Compel' is the usual English rendering and is not wrong, but it suggests coercion. The verse was later cited to justify forced conversion, a reading the story does not support.\"},{\"verse\":24,\"phrase\":\"I tell you\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"\",\"note\":\"'You' is plural in Greek, although the master has been speaking to a single slave. The sentence is punctuated here as the close of the master's speech, as most translations do. It may instead be Jesus stepping outside the story to address the dinner guests directly, in which case 'my dinner' is his own.\"},{\"verse\":26,\"phrase\":\"hate\",\"lemma\":\"μισέω\",\"kind\":\"background\",\"traditional\":\"hate\",\"note\":\"In Semitic idiom 'love' and 'hate' can express preference, not emotion: to 'hate' one thing is to put it second to another (compare Genesis 29:30–31 and the parallel in Matthew 10:37, 'loves father or mother more than me'). The stark wording is kept because it is what the Greek says. The demand is for overriding loyalty, not hostility toward one's family.\"},{\"verse\":34,\"phrase\":\"loses its taste\",\"lemma\":\"μωραίνω\",\"kind\":\"background\",\"traditional\":\"have lost his savour\",\"note\":\"The verb ordinarily means 'to make or become foolish'; applied to salt it means to become insipid. A Greek reader may have heard a hint of the disciple who becomes foolish. How salt could lose its saltiness is debated; impure salt from the Dead Sea region could have its true salt leached out, leaving a useless residue.\"}],\"candidates\":[{\"lemma\":\"νομικός\",\"rendering\":\"experts in the law\",\"verse\":3,\"reason\":\"Recurs in Matthew, Luke and Titus; 'lawyer' misleads, and the rendering should be coordinated with γραμματεύς and νομοδιδάσκαλος.\"},{\"lemma\":\"δοῦλος\",\"rendering\":\"slave\",\"verse\":17,\"reason\":\"Very frequent across the New Testament; translators divide between 'servant', 'slave' and 'bondservant', and variation would confuse readers.\"},{\"lemma\":\"ψυχή\",\"rendering\":\"life\",\"verse\":26,\"reason\":\"Shifts between 'life', 'soul' and 'self' across books; the discipleship sayings especially need a consistent choice.\"},{\"lemma\":\"δόξα\",\"rendering\":\"honor\",\"verse\":10,\"reason\":\"Usually 'glory', but in social contexts like this one it means honor or reputation; the boundary between the senses needs one policy.\"},{\"lemma\":\"θεραπεύω\",\"rendering\":\"heal\",\"verse\":3,\"reason\":\"Occurs alongside ἰάομαι (here rendered 'cure') throughout the Gospels and Acts; a fixed pairing of English verbs would keep the two distinguishable.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "One Sabbath, when he went to the house of one of the leaders of the Pharisees to eat bread, they were watching him closely."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And there in front of him was a man who had dropsy."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus responded by asking the experts in the law and the Pharisees,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Is it permitted to heal on the Sabbath, or not?”"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But they kept silent. So he took hold of the man, cured him, and sent him on his way."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then he said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Which of you, if your son or your ox falls into a well, will not immediately pull him out on the Sabbath day?”"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And they were not able to give any answer to this."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He told a parable to those who had been invited, when he noticed how they were choosing the places of honor. He said to them,"
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "“When you are invited by someone to a wedding feast, do not recline in the place of honor, in case someone more distinguished than you has been invited by him,"
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "and the one who invited both you and him will come and say to you, ‘Give your place to this man.’ Then in shame you will begin to take the last place."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But when you are invited, go and recline in the last place, so that when the one who has invited you comes, he will say to you, ‘Friend, move up higher.’ Then you will have honor in the presence of all who are reclining at table with you."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For everyone who exalts himself will be humbled, and the one who humbles himself will be exalted.”"
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He also said to the one who had invited him,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“When you give a lunch or a dinner, do not ask your friends or your brothers or your relatives or rich neighbors, in case they also invite you in return and that becomes your repayment."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But when you give a banquet, invite the poor, the crippled, the lame, the blind,"
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "and you will be blessed, because they have no way to repay you; for you will be repaid at the resurrection of the righteous.”"
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When one of those reclining at table with him heard this, he said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Blessed is whoever will eat bread in the kingdom of God!”"
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But he said to him,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“A man was giving a great dinner and invited many."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "At the hour of the dinner he sent his slave to say to those who had been invited, ‘Come, because it is now ready.’"
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But they all alike began to excuse themselves. The first said to him, ‘I have bought a field, and I must go out and see it. I ask you, consider me excused.’"
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Another said, ‘I have bought five yoke of oxen, and I am on my way to try them out. I ask you, consider me excused.’"
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And another said, ‘I have married a wife, and so I cannot come.’"
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "The slave came and reported this to his master. Then the owner of the house became angry and said to his slave, ‘Go out quickly into the streets and alleys of the city, and bring in here the poor and the crippled and the blind and the lame.’"
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And the slave said, ‘Master, what you ordered has been done, and there is still room.’"
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And the master said to the slave, ‘Go out to the roads and hedgerows and press them to come in, so that my house may be filled."
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For I tell you, none of those men who were invited will taste my dinner.’”"
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Large crowds were travelling with him, and he turned and said to them,"
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "“If anyone comes to me and does not hate his own father and mother and wife and children and brothers and sisters, and even his own life as well, he cannot be my disciple."
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Whoever does not carry his own cross and come after me cannot be my disciple."
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For which of you, wanting to build a tower, does not first sit down and calculate the cost, to see whether he has enough to complete it?"
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Otherwise, once he has laid a foundation and is not able to finish, all who are watching will begin to mock him,"
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "saying, ‘This man began to build and was not able to finish.’"
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Or what king, going out to meet another king in battle, will not first sit down and consider whether he is strong enough with ten thousand to face the one coming against him with twenty thousand?"
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "If he is not, then while the other is still far away he sends a delegation and asks for terms of peace."
+     }
+    ]
+   },
+   {
+    "verse": 33,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "So then, any one of you who does not give up all that he has cannot be my disciple."
+     }
+    ]
+   },
+   {
+    "verse": 34,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Salt, then, is good; but if even the salt loses its taste, with what will it be seasoned?"
+     }
+    ]
+   },
+   {
+    "verse": 35,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "It is fit neither for the soil nor for the manure pile; they throw it out. Whoever has ears to hear, let him hear.”"
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "eat bread",
+    "lemma": "ἄρτος",
+    "kind": "background",
+    "traditional": "eat bread",
+    "note": "To 'eat bread' is a Semitic way of saying 'have a meal'; it does not mean that only bread was served. The phrase is kept because the guest in verse 15 picks it up when he speaks of eating bread in the kingdom of God."
+   },
+   {
+    "verse": 2,
+    "phrase": "dropsy",
+    "lemma": "ὑδρωπικός",
+    "kind": "background",
+    "traditional": "dropsy",
+    "note": "Dropsy is the older English name for what is now called edema: visible swelling of the body caused by retained fluid, usually a symptom of serious underlying illness. The Greek word is a standard medical term of the period and occurs only here in the New Testament."
+   },
+   {
+    "verse": 3,
+    "phrase": "experts in the law",
+    "lemma": "νομικός",
+    "kind": "departure",
+    "traditional": "lawyers",
+    "note": "The traditional 'lawyers' suggests courtroom advocates to a modern reader. These were specialists in interpreting the Law of Moses, the same group elsewhere called scribes. Many recent translations make a similar adjustment."
+   },
+   {
+    "verse": 5,
+    "phrase": "son",
+    "lemma": "υἱός",
+    "kind": "textual",
+    "traditional": "an ass or an ox",
+    "note": "Many manuscripts read 'donkey' instead of 'son', and a few read 'sheep'; the King James Version follows the 'donkey' reading. 'Son' has strong early support and is the more surprising pairing, which copyists would be likely to smooth to match the familiar 'ox and donkey'. Most modern editions therefore adopt it."
+   },
+   {
+    "verse": 8,
+    "phrase": "recline",
+    "lemma": "κατακλίνω",
+    "kind": "background",
+    "traditional": "sit down",
+    "note": "At formal meals guests lay on couches arranged around the table, leaning on the left elbow. The couches were ranked, so where one reclined showed one's standing publicly. The 'place of honor' is literally the 'first couch'."
+   },
+   {
+    "verse": 17,
+    "phrase": "slave",
+    "lemma": "δοῦλος",
+    "kind": "departure",
+    "traditional": "servant",
+    "note": "The Greek word denotes a person owned by a master, not a hired employee, and a first-century reader would have understood it so. 'Servant' is the long-standing English rendering, though several modern translations now use 'slave'. Ancient slavery was not based on race and differed in various ways from later Atlantic slavery, but the person was still property."
+   },
+   {
+    "verse": 18,
+    "phrase": "all alike",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "with one consent",
+    "note": "The Greek is a compressed idiom, literally 'from one', with a noun left unstated. It probably means 'unanimously' or 'with one voice', though 'all at once' is also possible. Either way the point is that every guest refused."
+   },
+   {
+    "verse": 23,
+    "phrase": "press them to come in",
+    "lemma": "ἀναγκάζω",
+    "kind": "departure",
+    "traditional": "compel them to come in",
+    "note": "The verb covers a range from physical force to insistent urging, and standard lexicons place this verse at the urging end: a single slave cannot force strangers into a house, and the picture is of overcoming polite reluctance. 'Compel' is the usual English rendering and is not wrong, but it suggests coercion. The verse was later cited to justify forced conversion, a reading the story does not support."
+   },
+   {
+    "verse": 24,
+    "phrase": "I tell you",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "",
+    "note": "'You' is plural in Greek, although the master has been speaking to a single slave. The sentence is punctuated here as the close of the master's speech, as most translations do. It may instead be Jesus stepping outside the story to address the dinner guests directly, in which case 'my dinner' is his own."
+   },
+   {
+    "verse": 26,
+    "phrase": "hate",
+    "lemma": "μισέω",
+    "kind": "background",
+    "traditional": "hate",
+    "note": "In Semitic idiom 'love' and 'hate' can express preference, not emotion: to 'hate' one thing is to put it second to another (compare Genesis 29:30–31 and the parallel in Matthew 10:37, 'loves father or mother more than me'). The stark wording is kept because it is what the Greek says. The demand is for overriding loyalty, not hostility toward one's family."
+   },
+   {
+    "verse": 34,
+    "phrase": "loses its taste",
+    "lemma": "μωραίνω",
+    "kind": "background",
+    "traditional": "have lost his savour",
+    "note": "The verb ordinarily means 'to make or become foolish'; applied to salt it means to become insipid. A Greek reader may have heard a hint of the disciple who becomes foolish. How salt could lose its saltiness is debated; impure salt from the Dead Sea region could have its true salt leached out, leaving a useless residue."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "νομικός",
+    "rendering": "experts in the law",
+    "verse": 3,
+    "reason": "Recurs in Matthew, Luke and Titus; 'lawyer' misleads, and the rendering should be coordinated with γραμματεύς and νομοδιδάσκαλος."
+   },
+   {
+    "lemma": "δοῦλος",
+    "rendering": "slave",
+    "verse": 17,
+    "reason": "Very frequent across the New Testament; translators divide between 'servant', 'slave' and 'bondservant', and variation would confuse readers."
+   },
+   {
+    "lemma": "ψυχή",
+    "rendering": "life",
+    "verse": 26,
+    "reason": "Shifts between 'life', 'soul' and 'self' across books; the discipleship sayings especially need a consistent choice."
+   },
+   {
+    "lemma": "δόξα",
+    "rendering": "honor",
+    "verse": 10,
+    "reason": "Usually 'glory', but in social contexts like this one it means honor or reputation; the boundary between the senses needs one policy."
+   },
+   {
+    "lemma": "θεραπεύω",
+    "rendering": "heal",
+    "verse": 3,
+    "reason": "Occurs alongside ἰάομαι (here rendered 'cure') throughout the Gospels and Acts; a fixed pairing of English verbs would keep the two distinguishable."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

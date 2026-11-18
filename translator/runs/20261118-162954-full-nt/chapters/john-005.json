@@ -1,0 +1,639 @@
+{
+ "id": "john-005",
+ "book": "john",
+ "chapter": 5,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZks41Vt1JYHLDUAQ",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 9895,
+  "output_tokens": 14708
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"After this there was a festival of the Jews, and Jesus went up to Jerusalem.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now there is in Jerusalem, by the Sheep Gate, a pool called in Hebrew Bethesda, which has five colonnades.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"In these lay a crowd of the sick: blind, lame, and withered.\"}]},{\"verse\":5,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"A certain man was there who had been ill for thirty-eight years.\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When Jesus saw him lying there and knew that he had already been that way a long time, he said to him,\"},{\"speaker\":\"Jesus\",\"text\":\"“Do you want to become well?”\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The sick man answered him,\"},{\"speaker\":\"other\",\"text\":\"“Sir, I have no one to put me into the pool when the water is stirred up; and while I am on my way, someone else goes down ahead of me.”\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus said to him,\"},{\"speaker\":\"Jesus\",\"text\":\"“Get up, pick up your mat, and walk.”\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And at once the man became well, and he picked up his mat and began to walk. Now that day was a Sabbath.\"}]},{\"verse\":10,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So the Jewish leaders said to the man who had been healed,\"},{\"speaker\":\"other\",\"text\":\"“It is the Sabbath, and you are not permitted to pick up your mat.”\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But he answered them,\"},{\"speaker\":\"other\",\"text\":\"“The one who made me well, he is the one who said to me, ‘Pick up your mat and walk.’”\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They asked him,\"},{\"speaker\":\"other\",\"text\":\"“Who is the man who said to you, ‘Pick it up and walk’?”\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But the man who had been healed did not know who it was, for Jesus had slipped away, since there was a crowd in the place.\"}]},{\"verse\":14,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"After this Jesus found him in the temple and said to him,\"},{\"speaker\":\"Jesus\",\"text\":\"“See, you have become well. Sin no more, so that nothing worse happens to you.”\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The man went away and told the Jewish leaders that it was Jesus who had made him well.\"}]},{\"verse\":16,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And for this reason the Jewish leaders began to persecute Jesus, because he was doing these things on the Sabbath.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But he answered them,\"},{\"speaker\":\"Jesus\",\"text\":\"“My Father has been working until now, and I am working too.”\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For this reason, then, the Jewish leaders were seeking all the more to kill him, because he was not only breaking the Sabbath but was also calling God his own Father, making himself equal to God.\"}]},{\"verse\":19,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So Jesus answered and said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Truly, truly, I tell you, the Son can do nothing on his own, but only what he sees the Father doing; for whatever the Father does, the Son also does in the same way.\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For the Father loves the Son and shows him everything that he himself is doing, and he will show him greater works than these, so that you will be amazed.\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For just as the Father raises the dead and gives them life, so also the Son gives life to those he wishes.\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Nor does the Father judge anyone, but he has given all judgment to the Son,\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"so that all may honor the Son just as they honor the Father. Whoever does not honor the Son does not honor the Father who sent him.\"}]},{\"verse\":24,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Truly, truly, I tell you, whoever hears my word and believes the one who sent me has eternal life and does not come into judgment, but has crossed over from death into life.\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Truly, truly, I tell you, an hour is coming, and is now here, when the dead will hear the voice of the Son of God, and those who hear will live.\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For just as the Father has life in himself, so also he has given the Son to have life in himself;\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"and he has given him authority to carry out judgment, because he is the Son of Man.\"}]},{\"verse\":28,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Do not be amazed at this, for an hour is coming in which all who are in the tombs will hear his voice\"}]},{\"verse\":29,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"and will come out: those who have done good to a resurrection of life, and those who have practiced evil to a resurrection of judgment.\"}]},{\"verse\":30,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"I can do nothing on my own. As I hear, I judge, and my judgment is just, because I do not seek my own will but the will of the one who sent me.\"}]},{\"verse\":31,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"If I testify about myself, my testimony is not true.\"}]},{\"verse\":32,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"There is another who testifies about me, and I know that the testimony he gives about me is true.\"}]},{\"verse\":33,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"You have sent to John, and he has testified to the truth.\"}]},{\"verse\":34,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But I do not accept testimony from a human being; rather, I say these things so that you may be saved.\"}]},{\"verse\":35,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"He was the lamp that burns and shines, and you were willing for a time to rejoice in his light.\"}]},{\"verse\":36,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But I have testimony greater than John’s. For the works that the Father has given me to complete, the very works that I am doing, testify about me that the Father has sent me,\"}]},{\"verse\":37,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"and the Father who sent me has himself testified about me. You have never heard his voice or seen his form,\"}]},{\"verse\":38,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"and you do not have his word remaining in you, because you do not believe the one he sent.\"}]},{\"verse\":39,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"You search the Scriptures because you think that in them you have eternal life; and it is they that testify about me,\"}]},{\"verse\":40,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"yet you are not willing to come to me so that you may have life.\"}]},{\"verse\":41,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"I do not accept glory from people,\"}]},{\"verse\":42,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"but I know you, that you do not have the love of God in yourselves.\"}]},{\"verse\":43,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"I have come in my Father’s name, and you do not accept me; if another comes in his own name, him you will accept.\"}]},{\"verse\":44,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"How can you believe, when you accept glory from one another and do not seek the glory that comes from the only God?\"}]},{\"verse\":45,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Do not think that I will accuse you before the Father. The one who accuses you is Moses, in whom you have set your hope.\"}]},{\"verse\":46,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For if you believed Moses, you would believe me, for he wrote about me.\"}]},{\"verse\":47,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But if you do not believe his writings, how will you believe my words?”\"}]}],\"notes\":[{\"verse\":2,\"phrase\":\"by the Sheep Gate\",\"lemma\":\"προβατικός\",\"kind\":\"ambiguity\",\"traditional\":\"by the sheep gate (older versions: by the sheep market)\",\"note\":\"The Greek has only an adjective, “the sheep-something,” and leaves the noun to be supplied. Most translations supply “gate,” since Nehemiah mentions a Sheep Gate in Jerusalem’s wall. The sentence can also be read as “by the Sheep Pool there is a place called Bethesda.”\"},{\"verse\":2,\"phrase\":\"Bethesda\",\"lemma\":\"Βηθεσδά\",\"kind\":\"textual\",\"traditional\":\"Bethesda\",\"note\":\"The manuscripts disagree on the name: some read Bethzatha, others Bethsaida, and there are further spellings. The SBLGNT text prints Bethesda, the familiar form, though editors are divided. “In Hebrew” here includes Aramaic, the everyday Semitic language of the region, which Greek writers did not usually distinguish from Hebrew.\"},{\"verse\":3,\"phrase\":\"blind, lame, and withered\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"\",\"note\":\"Many later manuscripts continue with “waiting for the movement of the water” and add a verse 4, which says that an angel went down into the pool from time to time and stirred the water, and that the first person in afterward was healed. The earliest manuscripts lack these words, and the Greek text translated here omits them, which is why the numbering passes from 3 to 5. The addition was probably made to explain the sick man’s remark in verse 7.\"},{\"verse\":10,\"phrase\":\"the Jewish leaders\",\"lemma\":\"Ἰουδαῖος\",\"kind\":\"departure\",\"traditional\":\"the Jews\",\"note\":\"The Greek says simply “the Jews,” but in this scene John uses the term for the authorities in Jerusalem who police Sabbath observance, not for the Jewish people as a whole; Jesus and the healed man are Jews too. The narrower rendering is used in verses 10–18 to make that clear. Scholars are divided on how to translate the word in John: some prefer “Judeans” throughout, others keep “Jews” everywhere.\"},{\"verse\":10,\"phrase\":\"pick up your mat\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"Carrying a load on the Sabbath was treated as forbidden work, on the basis of passages such as Jeremiah 17:21–22, and later rabbinic law lists carrying an object from one place to another among the prohibited kinds of labor. The objection is to the man carrying his bedding, not at first to the healing itself.\"},{\"verse\":17,\"phrase\":\"My Father has been working until now\",\"lemma\":\"ἐργάζομαι\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"Genesis says God rested on the seventh day, yet Jewish interpreters of the period commonly held that God never stops sustaining the world, giving life and judging, even on the Sabbath. Jesus claims the same exemption for himself, which is why the next verse says his hearers took him to be making himself equal to God.\"},{\"verse\":24,\"phrase\":\"eternal life\",\"lemma\":\"αἰώνιος\",\"kind\":\"background\",\"traditional\":\"eternal life, everlasting life\",\"note\":\"The adjective is formed from the word for “age,” and in Jewish usage “eternal life” is the life of the age to come, a matter of kind as well as length. John’s striking point here is that the believer already has it. “Eternal” is the standard rendering; a minority of translators prefer “life of the age to come.”\"},{\"verse\":27,\"phrase\":\"the Son of Man\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"the Son of man\",\"note\":\"Here alone in the Gospels the phrase lacks the Greek definite article. Most interpreters take it as the title all the same, since Greek often drops the article in this construction, and the wording echoes Daniel 7:13–14, where “one like a son of man” is given authority. Others read “because he is a son of man,” that is, a human being, so that humanity is judged by one of its own.\"},{\"verse\":31,\"phrase\":\"my testimony is not true\",\"lemma\":\"ἀληθής\",\"kind\":\"background\",\"traditional\":\"my witness is not true\",\"note\":\"The point is legal, not a concession that Jesus might be lying. In Jewish law, as in ancient courts generally, a person’s unsupported testimony on his own behalf did not count, and a matter had to be established by two or three witnesses (Deuteronomy 19:15). Jesus therefore goes on to call witnesses: John, his own works, the Father and the Scriptures.\"},{\"verse\":39,\"phrase\":\"You search the Scriptures\",\"lemma\":\"ἐραυνάω\",\"kind\":\"ambiguity\",\"traditional\":\"Search the scriptures\",\"note\":\"The Greek verb form can be either a statement (“you search”) or a command (“search!”). Older English versions took it as a command; most modern translations and commentators read a statement, because the following words, “because you think … yet you are not willing,” describe what the hearers already do.\"},{\"verse\":42,\"phrase\":\"the love of God\",\"lemma\":\"ἀγάπη\",\"kind\":\"ambiguity\",\"traditional\":\"the love of God\",\"note\":\"The Greek phrase can mean love for God or God’s own love. Most interpreters take it here as love for God, which the hearers lack, but the other sense is possible, and the English phrase leaves the question as open as the Greek does.\"}],\"candidates\":[{\"lemma\":\"μένω\",\"rendering\":\"remain\",\"verse\":38,\"reason\":\"A key Johannine term rendered variously as abide, remain, stay or dwell; the reader loses John's thread if the English varies.\"},{\"lemma\":\"δόξα\",\"rendering\":\"glory\",\"verse\":41,\"reason\":\"Ranges from human honor or reputation to divine splendor, and John plays on both, so translators split between glory, honor and praise.\"},{\"lemma\":\"μαρτυρέω\",\"rendering\":\"testify\",\"verse\":31,\"reason\":\"The verb and its noun μαρτυρία are a legal motif across John, Acts and Revelation, and translations alternate between testify/testimony and bear witness/witness.\"},{\"lemma\":\"κρίσις\",\"rendering\":\"judgment\",\"verse\":22,\"reason\":\"Translators alternate between judgment, condemnation and justice, sometimes within one passage (e.g. John 5:24, 29), which obscures the repetition.\"},{\"lemma\":\"ἀμήν\",\"rendering\":\"truly\",\"verse\":19,\"reason\":\"Jesus's introductory formula, doubled in John, is rendered truly, verily, amen or very truly, and needs one form across the Gospels.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "After this there was a festival of the Jews, and Jesus went up to Jerusalem."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now there is in Jerusalem, by the Sheep Gate, a pool called in Hebrew Bethesda, which has five colonnades."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "In these lay a crowd of the sick: blind, lame, and withered."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "A certain man was there who had been ill for thirty-eight years."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When Jesus saw him lying there and knew that he had already been that way a long time, he said to him,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Do you want to become well?”"
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The sick man answered him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Sir, I have no one to put me into the pool when the water is stirred up; and while I am on my way, someone else goes down ahead of me.”"
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus said to him,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Get up, pick up your mat, and walk.”"
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And at once the man became well, and he picked up his mat and began to walk. Now that day was a Sabbath."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So the Jewish leaders said to the man who had been healed,"
+     },
+     {
+      "speaker": "other",
+      "text": "“It is the Sabbath, and you are not permitted to pick up your mat.”"
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But he answered them,"
+     },
+     {
+      "speaker": "other",
+      "text": "“The one who made me well, he is the one who said to me, ‘Pick up your mat and walk.’”"
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They asked him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Who is the man who said to you, ‘Pick it up and walk’?”"
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But the man who had been healed did not know who it was, for Jesus had slipped away, since there was a crowd in the place."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "After this Jesus found him in the temple and said to him,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“See, you have become well. Sin no more, so that nothing worse happens to you.”"
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The man went away and told the Jewish leaders that it was Jesus who had made him well."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And for this reason the Jewish leaders began to persecute Jesus, because he was doing these things on the Sabbath."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But he answered them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“My Father has been working until now, and I am working too.”"
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For this reason, then, the Jewish leaders were seeking all the more to kill him, because he was not only breaking the Sabbath but was also calling God his own Father, making himself equal to God."
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So Jesus answered and said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Truly, truly, I tell you, the Son can do nothing on his own, but only what he sees the Father doing; for whatever the Father does, the Son also does in the same way."
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For the Father loves the Son and shows him everything that he himself is doing, and he will show him greater works than these, so that you will be amazed."
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For just as the Father raises the dead and gives them life, so also the Son gives life to those he wishes."
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Nor does the Father judge anyone, but he has given all judgment to the Son,"
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "so that all may honor the Son just as they honor the Father. Whoever does not honor the Son does not honor the Father who sent him."
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Truly, truly, I tell you, whoever hears my word and believes the one who sent me has eternal life and does not come into judgment, but has crossed over from death into life."
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Truly, truly, I tell you, an hour is coming, and is now here, when the dead will hear the voice of the Son of God, and those who hear will live."
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For just as the Father has life in himself, so also he has given the Son to have life in himself;"
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "and he has given him authority to carry out judgment, because he is the Son of Man."
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Do not be amazed at this, for an hour is coming in which all who are in the tombs will hear his voice"
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "and will come out: those who have done good to a resurrection of life, and those who have practiced evil to a resurrection of judgment."
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "I can do nothing on my own. As I hear, I judge, and my judgment is just, because I do not seek my own will but the will of the one who sent me."
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "If I testify about myself, my testimony is not true."
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "There is another who testifies about me, and I know that the testimony he gives about me is true."
+     }
+    ]
+   },
+   {
+    "verse": 33,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "You have sent to John, and he has testified to the truth."
+     }
+    ]
+   },
+   {
+    "verse": 34,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But I do not accept testimony from a human being; rather, I say these things so that you may be saved."
+     }
+    ]
+   },
+   {
+    "verse": 35,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "He was the lamp that burns and shines, and you were willing for a time to rejoice in his light."
+     }
+    ]
+   },
+   {
+    "verse": 36,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But I have testimony greater than John’s. For the works that the Father has given me to complete, the very works that I am doing, testify about me that the Father has sent me,"
+     }
+    ]
+   },
+   {
+    "verse": 37,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "and the Father who sent me has himself testified about me. You have never heard his voice or seen his form,"
+     }
+    ]
+   },
+   {
+    "verse": 38,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "and you do not have his word remaining in you, because you do not believe the one he sent."
+     }
+    ]
+   },
+   {
+    "verse": 39,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "You search the Scriptures because you think that in them you have eternal life; and it is they that testify about me,"
+     }
+    ]
+   },
+   {
+    "verse": 40,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "yet you are not willing to come to me so that you may have life."
+     }
+    ]
+   },
+   {
+    "verse": 41,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "I do not accept glory from people,"
+     }
+    ]
+   },
+   {
+    "verse": 42,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "but I know you, that you do not have the love of God in yourselves."
+     }
+    ]
+   },
+   {
+    "verse": 43,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "I have come in my Father’s name, and you do not accept me; if another comes in his own name, him you will accept."
+     }
+    ]
+   },
+   {
+    "verse": 44,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "How can you believe, when you accept glory from one another and do not seek the glory that comes from the only God?"
+     }
+    ]
+   },
+   {
+    "verse": 45,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Do not think that I will accuse you before the Father. The one who accuses you is Moses, in whom you have set your hope."
+     }
+    ]
+   },
+   {
+    "verse": 46,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For if you believed Moses, you would believe me, for he wrote about me."
+     }
+    ]
+   },
+   {
+    "verse": 47,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But if you do not believe his writings, how will you believe my words?”"
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 2,
+    "phrase": "by the Sheep Gate",
+    "lemma": "προβατικός",
+    "kind": "ambiguity",
+    "traditional": "by the sheep gate (older versions: by the sheep market)",
+    "note": "The Greek has only an adjective, “the sheep-something,” and leaves the noun to be supplied. Most translations supply “gate,” since Nehemiah mentions a Sheep Gate in Jerusalem’s wall. The sentence can also be read as “by the Sheep Pool there is a place called Bethesda.”"
+   },
+   {
+    "verse": 2,
+    "phrase": "Bethesda",
+    "lemma": "Βηθεσδά",
+    "kind": "textual",
+    "traditional": "Bethesda",
+    "note": "The manuscripts disagree on the name: some read Bethzatha, others Bethsaida, and there are further spellings. The SBLGNT text prints Bethesda, the familiar form, though editors are divided. “In Hebrew” here includes Aramaic, the everyday Semitic language of the region, which Greek writers did not usually distinguish from Hebrew."
+   },
+   {
+    "verse": 3,
+    "phrase": "blind, lame, and withered",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "",
+    "note": "Many later manuscripts continue with “waiting for the movement of the water” and add a verse 4, which says that an angel went down into the pool from time to time and stirred the water, and that the first person in afterward was healed. The earliest manuscripts lack these words, and the Greek text translated here omits them, which is why the numbering passes from 3 to 5. The addition was probably made to explain the sick man’s remark in verse 7."
+   },
+   {
+    "verse": 10,
+    "phrase": "the Jewish leaders",
+    "lemma": "Ἰουδαῖος",
+    "kind": "departure",
+    "traditional": "the Jews",
+    "note": "The Greek says simply “the Jews,” but in this scene John uses the term for the authorities in Jerusalem who police Sabbath observance, not for the Jewish people as a whole; Jesus and the healed man are Jews too. The narrower rendering is used in verses 10–18 to make that clear. Scholars are divided on how to translate the word in John: some prefer “Judeans” throughout, others keep “Jews” everywhere."
+   },
+   {
+    "verse": 10,
+    "phrase": "pick up your mat",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "Carrying a load on the Sabbath was treated as forbidden work, on the basis of passages such as Jeremiah 17:21–22, and later rabbinic law lists carrying an object from one place to another among the prohibited kinds of labor. The objection is to the man carrying his bedding, not at first to the healing itself."
+   },
+   {
+    "verse": 17,
+    "phrase": "My Father has been working until now",
+    "lemma": "ἐργάζομαι",
+    "kind": "background",
+    "traditional": "",
+    "note": "Genesis says God rested on the seventh day, yet Jewish interpreters of the period commonly held that God never stops sustaining the world, giving life and judging, even on the Sabbath. Jesus claims the same exemption for himself, which is why the next verse says his hearers took him to be making himself equal to God."
+   },
+   {
+    "verse": 24,
+    "phrase": "eternal life",
+    "lemma": "αἰώνιος",
+    "kind": "background",
+    "traditional": "eternal life, everlasting life",
+    "note": "The adjective is formed from the word for “age,” and in Jewish usage “eternal life” is the life of the age to come, a matter of kind as well as length. John’s striking point here is that the believer already has it. “Eternal” is the standard rendering; a minority of translators prefer “life of the age to come.”"
+   },
+   {
+    "verse": 27,
+    "phrase": "the Son of Man",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "the Son of man",
+    "note": "Here alone in the Gospels the phrase lacks the Greek definite article. Most interpreters take it as the title all the same, since Greek often drops the article in this construction, and the wording echoes Daniel 7:13–14, where “one like a son of man” is given authority. Others read “because he is a son of man,” that is, a human being, so that humanity is judged by one of its own."
+   },
+   {
+    "verse": 31,
+    "phrase": "my testimony is not true",
+    "lemma": "ἀληθής",
+    "kind": "background",
+    "traditional": "my witness is not true",
+    "note": "The point is legal, not a concession that Jesus might be lying. In Jewish law, as in ancient courts generally, a person’s unsupported testimony on his own behalf did not count, and a matter had to be established by two or three witnesses (Deuteronomy 19:15). Jesus therefore goes on to call witnesses: John, his own works, the Father and the Scriptures."
+   },
+   {
+    "verse": 39,
+    "phrase": "You search the Scriptures",
+    "lemma": "ἐραυνάω",
+    "kind": "ambiguity",
+    "traditional": "Search the scriptures",
+    "note": "The Greek verb form can be either a statement (“you search”) or a command (“search!”). Older English versions took it as a command; most modern translations and commentators read a statement, because the following words, “because you think … yet you are not willing,” describe what the hearers already do."
+   },
+   {
+    "verse": 42,
+    "phrase": "the love of God",
+    "lemma": "ἀγάπη",
+    "kind": "ambiguity",
+    "traditional": "the love of God",
+    "note": "The Greek phrase can mean love for God or God’s own love. Most interpreters take it here as love for God, which the hearers lack, but the other sense is possible, and the English phrase leaves the question as open as the Greek does."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "μένω",
+    "rendering": "remain",
+    "verse": 38,
+    "reason": "A key Johannine term rendered variously as abide, remain, stay or dwell; the reader loses John's thread if the English varies."
+   },
+   {
+    "lemma": "δόξα",
+    "rendering": "glory",
+    "verse": 41,
+    "reason": "Ranges from human honor or reputation to divine splendor, and John plays on both, so translators split between glory, honor and praise."
+   },
+   {
+    "lemma": "μαρτυρέω",
+    "rendering": "testify",
+    "verse": 31,
+    "reason": "The verb and its noun μαρτυρία are a legal motif across John, Acts and Revelation, and translations alternate between testify/testimony and bear witness/witness."
+   },
+   {
+    "lemma": "κρίσις",
+    "rendering": "judgment",
+    "verse": 22,
+    "reason": "Translators alternate between judgment, condemnation and justice, sometimes within one passage (e.g. John 5:24, 29), which obscures the repetition."
+   },
+   {
+    "lemma": "ἀμήν",
+    "rendering": "truly",
+    "verse": 19,
+    "reason": "Jesus's introductory formula, doubled in John, is rendered truly, verily, amen or very truly, and needs one form across the Gospels."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

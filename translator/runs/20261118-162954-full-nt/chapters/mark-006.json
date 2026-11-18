@@ -1,0 +1,815 @@
+{
+ "id": "mark-006",
+ "book": "mark",
+ "chapter": 6,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZmN3TRqgrRLAkDbw",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 10867,
+  "output_tokens": 19330
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He went out from there and came to his hometown, and his disciples followed him.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When the Sabbath came, he began to teach in the synagogue, and many who heard him were astounded, saying,\"},{\"speaker\":\"other\",\"text\":\"“Where did this man get these things? What is this wisdom given to him, and what are these deeds of power done through his hands?\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Isn’t this the carpenter, the son of Mary and brother of James and Joses and Judas and Simon? And aren’t his sisters here with us?”\"},{\"speaker\":\"narrator\",\"text\":\"And they took offense at him.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“A prophet is not without honor except in his hometown and among his relatives and in his own house.”\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And he could not do any deed of power there, except that he laid his hands on a few of the sick and healed them.\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And he was amazed at their unbelief. Then he went around the surrounding villages, teaching.\"}]},{\"verse\":7,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He called the twelve to him and began to send them out two by two, and he gave them authority over the unclean spirits.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He instructed them to take nothing for the road except a staff alone: no bread, no bag, no coins in their belts,\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"but to wear sandals, and not to put on two tunics.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And he said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Wherever you enter a house, stay there until you leave that place.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And if any place does not welcome you and they will not listen to you, as you leave shake off the dust that is under your feet as a testimony against them.”\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So they went out and proclaimed that people should turn back.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They were driving out many demons, and anointing many of the sick with oil and healing them.\"}]},{\"verse\":14,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"King Herod heard of it, for Jesus’s name had become well known. People were saying,\"},{\"speaker\":\"other\",\"text\":\"“John the Baptizer has been raised from the dead, and that is why these powers are at work in him.”\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But others were saying,\"},{\"speaker\":\"other\",\"text\":\"“He is Elijah.”\"},{\"speaker\":\"narrator\",\"text\":\"And others were saying,\"},{\"speaker\":\"other\",\"text\":\"“He is a prophet, like one of the prophets.”\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But when Herod heard of it, he said,\"},{\"speaker\":\"other\",\"text\":\"“John, the man I beheaded—he has been raised.”\"}]},{\"verse\":17,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For Herod himself had sent and seized John and bound him in prison on account of Herodias, the wife of his brother Philip, because he had married her.\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For John had been telling Herod,\"},{\"speaker\":\"other\",\"text\":\"“It is not lawful for you to have your brother’s wife.”\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So Herodias held a grudge against him and wanted to kill him, but she could not,\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"for Herod feared John, knowing him to be a righteous and holy man, and he kept him safe. When he listened to him he was greatly perplexed, yet he listened to him gladly.\"}]},{\"verse\":21,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then an opportune day came, when Herod on his birthday gave a banquet for his nobles, his military commanders, and the leading men of Galilee.\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When the daughter of Herodias herself came in and danced, she pleased Herod and his guests, and the king said to the girl,\"},{\"speaker\":\"other\",\"text\":\"“Ask me for whatever you want, and I will give it to you.”\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And he swore to her,\"},{\"speaker\":\"other\",\"text\":\"“Whatever you ask me, I will give you, up to half of my kingdom.”\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"She went out and said to her mother,\"},{\"speaker\":\"other\",\"text\":\"“What should I ask for?”\"},{\"speaker\":\"narrator\",\"text\":\"She said,\"},{\"speaker\":\"other\",\"text\":\"“The head of John the Baptizer.”\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"At once she hurried back in to the king and made her request:\"},{\"speaker\":\"other\",\"text\":\"“I want you to give me right now, on a platter, the head of John the Baptist.”\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The king was deeply distressed, but because of his oaths and his guests he did not want to refuse her.\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So at once the king sent a soldier of his guard with orders to bring John’s head. The man went and beheaded him in the prison,\"}]},{\"verse\":28,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"brought his head on a platter, and gave it to the girl, and the girl gave it to her mother.\"}]},{\"verse\":29,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When his disciples heard of it, they came and took his corpse and laid it in a tomb.\"}]},{\"verse\":30,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The apostles gathered around Jesus and reported to him all that they had done and all that they had taught.\"}]},{\"verse\":31,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Come away by yourselves to a deserted place and rest a while.”\"},{\"speaker\":\"narrator\",\"text\":\"For many were coming and going, and they had no chance even to eat.\"}]},{\"verse\":32,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So they went away in the boat to a deserted place by themselves.\"}]},{\"verse\":33,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But many saw them going and recognized them, and they ran there together on foot from all the towns and got there ahead of them.\"}]},{\"verse\":34,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When he came ashore he saw a large crowd, and he was moved with compassion for them, because they were like sheep without a shepherd, and he began to teach them many things.\"}]},{\"verse\":35,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When the hour was already late, his disciples came to him and said,\"},{\"speaker\":\"other\",\"text\":\"“This is a deserted place, and the hour is already late.\"}]},{\"verse\":36,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Send them away, so that they can go into the surrounding farms and villages and buy themselves something to eat.”\"}]},{\"verse\":37,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But he answered them,\"},{\"speaker\":\"Jesus\",\"text\":\"“You give them something to eat.”\"},{\"speaker\":\"narrator\",\"text\":\"They said to him,\"},{\"speaker\":\"other\",\"text\":\"“Are we to go and buy bread for two hundred denarii and give it to them to eat?”\"}]},{\"verse\":38,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“How many loaves do you have? Go and see.”\"},{\"speaker\":\"narrator\",\"text\":\"When they had found out, they said,\"},{\"speaker\":\"other\",\"text\":\"“Five, and two fish.”\"}]},{\"verse\":39,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then he ordered them to have everyone recline, group by group, on the green grass.\"}]},{\"verse\":40,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They settled down plot by plot, in hundreds and in fifties.\"}]},{\"verse\":41,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Taking the five loaves and the two fish, he looked up to heaven, said the blessing, and broke the loaves, and he kept giving them to his disciples to set before the people; and he divided the two fish among them all.\"}]},{\"verse\":42,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They all ate and were satisfied,\"}]},{\"verse\":43,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and they picked up twelve baskets full of broken pieces, and some of the fish as well.\"}]},{\"verse\":44,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Those who had eaten the loaves were five thousand men.\"}]},{\"verse\":45,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Immediately he made his disciples get into the boat and go on ahead to the other side, toward Bethsaida, while he himself sent the crowd away.\"}]},{\"verse\":46,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"After taking leave of them, he went off to the mountain to pray.\"}]},{\"verse\":47,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When evening came, the boat was in the middle of the sea, and he was alone on the land.\"}]},{\"verse\":48,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He saw them straining at the oars, for the wind was against them, and about the fourth watch of the night he came toward them, walking on the sea. He meant to pass by them.\"}]},{\"verse\":49,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But when they saw him walking on the sea, they thought it was a ghost and cried out,\"}]},{\"verse\":50,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"for they all saw him and were terrified. But at once he spoke with them and said,\"},{\"speaker\":\"Jesus\",\"text\":\"“Take courage; it is I. Do not be afraid.”\"}]},{\"verse\":51,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then he climbed into the boat with them, and the wind died down. And within themselves they were astonished beyond all measure,\"}]},{\"verse\":52,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"for they had not understood about the loaves; instead, their hearts were hardened.\"}]},{\"verse\":53,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When they had crossed over, they came to land at Gennesaret and moored there.\"}]},{\"verse\":54,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"As they got out of the boat, people at once recognized him\"}]},{\"verse\":55,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and ran about that whole region and began to carry those who were ill around on mats to wherever they heard he was.\"}]},{\"verse\":56,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And wherever he went, into villages or towns or farms, they laid the infirm in the marketplaces and begged him to let them touch even the fringe of his cloak; and all who touched it were made well.\"}]}],\"notes\":[{\"verse\":2,\"phrase\":\"deeds of power\",\"lemma\":\"δύναμις\",\"kind\":\"departure\",\"traditional\":\"mighty works / miracles\",\"note\":\"The Greek is simply the plural of the ordinary word for power. Many translations use ‘miracles’ or ‘mighty works’, though some modern versions also have ‘deeds of power’. Keeping ‘power’ lets the reader see the link with verse 14, where the same word describes the ‘powers’ at work in Jesus.\"},{\"verse\":3,\"phrase\":\"carpenter\",\"lemma\":\"τέκτων\",\"kind\":\"background\",\"traditional\":\"carpenter\",\"note\":\"The word refers to a craftsman who makes or builds things, most often in wood, though it could also cover building work more generally. ‘Carpenter’ is kept as the most common sense, but ‘builder’ or ‘craftsman’ is also possible. The crowd’s point is that Jesus is an ordinary local tradesman whose family they know.\"},{\"verse\":12,\"phrase\":\"turn back\",\"lemma\":\"μετανοέω\",\"kind\":\"departure\",\"traditional\":\"repent\",\"note\":\"Most translations keep ‘repent’ as an established term that includes a change of life. In current English, however, ‘repent’ centres on feeling sorry, whereas the Greek word in the Gospels carries the prophets’ call to return to God, a change of direction in mind and conduct. ‘Turn back’ is used for this word throughout this translation.\"},{\"verse\":14,\"phrase\":\"King Herod\",\"lemma\":\"βασιλεύς\",\"kind\":\"background\",\"traditional\":\"King Herod\",\"note\":\"This is Herod Antipas, a son of Herod the Great, who governed Galilee and Perea under Rome with the lesser title of tetrarch. He never officially held the title of king; Mark’s wording probably reflects popular usage.\"},{\"verse\":14,\"phrase\":\"People were saying\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"and he said\",\"note\":\"Most manuscripts read a singular verb, ‘he was saying’, which makes Herod the speaker here, and older English versions follow that reading. The SBLGNT follows a smaller group of early witnesses that read the plural, which fits the series of three popular opinions in verses 14 and 15 before Herod gives his own in verse 16.\"},{\"verse\":20,\"phrase\":\"greatly perplexed\",\"lemma\":\"ἀπορέω\",\"kind\":\"textual\",\"traditional\":\"he did many things\",\"note\":\"The majority of manuscripts read a similar-looking Greek verb meaning ‘he did many things’, which older English versions follow. The SBLGNT, with most modern editions, follows early witnesses that read ‘he was greatly perplexed’.\"},{\"verse\":22,\"phrase\":\"the daughter of Herodias herself\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"the daughter of Herodias\",\"note\":\"The manuscripts are divided here. The SBLGNT reads ‘the daughter of Herodias herself’; some of the earliest manuscripts instead read ‘his daughter Herodias’, making the girl Herod’s daughter and giving her the same name as her mother, and some modern editions and translations adopt that reading. Mark does not name the girl; the name Salome comes from the Jewish historian Josephus.\"},{\"verse\":37,\"phrase\":\"two hundred denarii\",\"lemma\":\"δηνάριον\",\"kind\":\"background\",\"traditional\":\"two hundred denarii / two hundred pennyworth\",\"note\":\"A denarius was a Roman silver coin, roughly a day’s pay for a labourer. Two hundred denarii was therefore something like eight months’ wages, which is the point of the disciples’ incredulous question.\"},{\"verse\":40,\"phrase\":\"plot by plot\",\"lemma\":\"πρασιά\",\"kind\":\"background\",\"traditional\":\"in ranks / in groups\",\"note\":\"The Greek word means a garden bed, and Mark doubles it, just as he doubles a word for a dining party in verse 39 (‘group by group’). The doubling is a distributive idiom, and the picture is of the crowd laid out on the grass in orderly rectangular blocks like the beds of a garden.\"},{\"verse\":48,\"phrase\":\"He meant to pass by them\",\"lemma\":\"παρέρχομαι\",\"kind\":\"ambiguity\",\"traditional\":\"he would have passed by them\",\"note\":\"The words can be read plainly: he intended to walk past them. Many scholars, however, hear an echo of the Greek Old Testament, where God ‘passes by’ when revealing himself (as to Moses in Exodus 33) and where Job 9 speaks of God walking on the sea and passing by unseen. On that reading the phrase signals a divine self-disclosure rather than an attempt to avoid the boat; which reading Mark intends is debated.\"},{\"verse\":50,\"phrase\":\"it is I\",\"lemma\":\"εἰμί\",\"kind\":\"ambiguity\",\"traditional\":\"it is I\",\"note\":\"The Greek phrase is the everyday way of saying ‘it’s me’, and that is its surface meaning here. The same two words, literally ‘I am’, are also God’s self-designation in the Greek Old Testament. Given the setting of walking on the sea, many interpreters think Mark’s readers were meant to hear both.\"},{\"verse\":56,\"phrase\":\"fringe\",\"lemma\":\"κράσπεδον\",\"kind\":\"background\",\"traditional\":\"hem / fringe\",\"note\":\"The word can mean simply the edge of a garment, but in the Greek Old Testament it is the term for the tassels that Israelite men were commanded to wear on the corners of their clothing (Numbers 15). It is likely, though not certain, that these tassels are meant here.\"}],\"candidates\":[{\"lemma\":\"σκανδαλίζω\",\"rendering\":\"took offense at\",\"verse\":3,\"reason\":\"Recurs across the Gospels and Paul with renderings ranging from ‘offend’ to ‘cause to stumble’ to ‘fall away’, and the traditional ‘offend’ now suggests mere hurt feelings.\"},{\"lemma\":\"δύναμις\",\"rendering\":\"deeds of power\",\"verse\":2,\"reason\":\"The plural for Jesus’s acts is variously rendered ‘miracles’, ‘mighty works’ and ‘deeds of power’, and it should stay distinct from σημεῖον and τέρας across the New Testament.\"},{\"lemma\":\"σπλαγχνίζομαι\",\"rendering\":\"was moved with compassion\",\"verse\":34,\"reason\":\"A distinctive Gospel verb used almost only of Jesus, rendered inconsistently as ‘had compassion’, ‘felt pity’ or ‘was moved’, and readers should be able to recognise it wherever it recurs.\"},{\"lemma\":\"σῴζω\",\"rendering\":\"were made well\",\"verse\":56,\"reason\":\"The same verb means ‘heal’, ‘rescue’ and ‘save’ in different contexts, and a policy is needed on when to show the link between physical healing and salvation.\"},{\"lemma\":\"ἔρημος\",\"rendering\":\"deserted\",\"verse\":31,\"reason\":\"Rendered ‘wilderness’, ‘desert’, ‘deserted’, ‘desolate’ or ‘remote’ by different translators, which hides the wilderness theme that runs through Mark and the other Gospels.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He went out from there and came to his hometown, and his disciples followed him."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When the Sabbath came, he began to teach in the synagogue, and many who heard him were astounded, saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Where did this man get these things? What is this wisdom given to him, and what are these deeds of power done through his hands?"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Isn’t this the carpenter, the son of Mary and brother of James and Joses and Judas and Simon? And aren’t his sisters here with us?”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "And they took offense at him."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“A prophet is not without honor except in his hometown and among his relatives and in his own house.”"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And he could not do any deed of power there, except that he laid his hands on a few of the sick and healed them."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And he was amazed at their unbelief. Then he went around the surrounding villages, teaching."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He called the twelve to him and began to send them out two by two, and he gave them authority over the unclean spirits."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He instructed them to take nothing for the road except a staff alone: no bread, no bag, no coins in their belts,"
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "but to wear sandals, and not to put on two tunics."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And he said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Wherever you enter a house, stay there until you leave that place."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And if any place does not welcome you and they will not listen to you, as you leave shake off the dust that is under your feet as a testimony against them.”"
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So they went out and proclaimed that people should turn back."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They were driving out many demons, and anointing many of the sick with oil and healing them."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "King Herod heard of it, for Jesus’s name had become well known. People were saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“John the Baptizer has been raised from the dead, and that is why these powers are at work in him.”"
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But others were saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“He is Elijah.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "And others were saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“He is a prophet, like one of the prophets.”"
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But when Herod heard of it, he said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“John, the man I beheaded—he has been raised.”"
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For Herod himself had sent and seized John and bound him in prison on account of Herodias, the wife of his brother Philip, because he had married her."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For John had been telling Herod,"
+     },
+     {
+      "speaker": "other",
+      "text": "“It is not lawful for you to have your brother’s wife.”"
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So Herodias held a grudge against him and wanted to kill him, but she could not,"
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "for Herod feared John, knowing him to be a righteous and holy man, and he kept him safe. When he listened to him he was greatly perplexed, yet he listened to him gladly."
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then an opportune day came, when Herod on his birthday gave a banquet for his nobles, his military commanders, and the leading men of Galilee."
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When the daughter of Herodias herself came in and danced, she pleased Herod and his guests, and the king said to the girl,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Ask me for whatever you want, and I will give it to you.”"
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And he swore to her,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Whatever you ask me, I will give you, up to half of my kingdom.”"
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "She went out and said to her mother,"
+     },
+     {
+      "speaker": "other",
+      "text": "“What should I ask for?”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "She said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“The head of John the Baptizer.”"
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "At once she hurried back in to the king and made her request:"
+     },
+     {
+      "speaker": "other",
+      "text": "“I want you to give me right now, on a platter, the head of John the Baptist.”"
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The king was deeply distressed, but because of his oaths and his guests he did not want to refuse her."
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So at once the king sent a soldier of his guard with orders to bring John’s head. The man went and beheaded him in the prison,"
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "brought his head on a platter, and gave it to the girl, and the girl gave it to her mother."
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When his disciples heard of it, they came and took his corpse and laid it in a tomb."
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The apostles gathered around Jesus and reported to him all that they had done and all that they had taught."
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Come away by yourselves to a deserted place and rest a while.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "For many were coming and going, and they had no chance even to eat."
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So they went away in the boat to a deserted place by themselves."
+     }
+    ]
+   },
+   {
+    "verse": 33,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But many saw them going and recognized them, and they ran there together on foot from all the towns and got there ahead of them."
+     }
+    ]
+   },
+   {
+    "verse": 34,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When he came ashore he saw a large crowd, and he was moved with compassion for them, because they were like sheep without a shepherd, and he began to teach them many things."
+     }
+    ]
+   },
+   {
+    "verse": 35,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When the hour was already late, his disciples came to him and said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“This is a deserted place, and the hour is already late."
+     }
+    ]
+   },
+   {
+    "verse": 36,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Send them away, so that they can go into the surrounding farms and villages and buy themselves something to eat.”"
+     }
+    ]
+   },
+   {
+    "verse": 37,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But he answered them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“You give them something to eat.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "They said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Are we to go and buy bread for two hundred denarii and give it to them to eat?”"
+     }
+    ]
+   },
+   {
+    "verse": 38,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“How many loaves do you have? Go and see.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "When they had found out, they said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Five, and two fish.”"
+     }
+    ]
+   },
+   {
+    "verse": 39,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then he ordered them to have everyone recline, group by group, on the green grass."
+     }
+    ]
+   },
+   {
+    "verse": 40,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They settled down plot by plot, in hundreds and in fifties."
+     }
+    ]
+   },
+   {
+    "verse": 41,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Taking the five loaves and the two fish, he looked up to heaven, said the blessing, and broke the loaves, and he kept giving them to his disciples to set before the people; and he divided the two fish among them all."
+     }
+    ]
+   },
+   {
+    "verse": 42,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They all ate and were satisfied,"
+     }
+    ]
+   },
+   {
+    "verse": 43,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and they picked up twelve baskets full of broken pieces, and some of the fish as well."
+     }
+    ]
+   },
+   {
+    "verse": 44,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Those who had eaten the loaves were five thousand men."
+     }
+    ]
+   },
+   {
+    "verse": 45,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Immediately he made his disciples get into the boat and go on ahead to the other side, toward Bethsaida, while he himself sent the crowd away."
+     }
+    ]
+   },
+   {
+    "verse": 46,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "After taking leave of them, he went off to the mountain to pray."
+     }
+    ]
+   },
+   {
+    "verse": 47,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When evening came, the boat was in the middle of the sea, and he was alone on the land."
+     }
+    ]
+   },
+   {
+    "verse": 48,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He saw them straining at the oars, for the wind was against them, and about the fourth watch of the night he came toward them, walking on the sea. He meant to pass by them."
+     }
+    ]
+   },
+   {
+    "verse": 49,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But when they saw him walking on the sea, they thought it was a ghost and cried out,"
+     }
+    ]
+   },
+   {
+    "verse": 50,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "for they all saw him and were terrified. But at once he spoke with them and said,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Take courage; it is I. Do not be afraid.”"
+     }
+    ]
+   },
+   {
+    "verse": 51,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then he climbed into the boat with them, and the wind died down. And within themselves they were astonished beyond all measure,"
+     }
+    ]
+   },
+   {
+    "verse": 52,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "for they had not understood about the loaves; instead, their hearts were hardened."
+     }
+    ]
+   },
+   {
+    "verse": 53,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When they had crossed over, they came to land at Gennesaret and moored there."
+     }
+    ]
+   },
+   {
+    "verse": 54,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "As they got out of the boat, people at once recognized him"
+     }
+    ]
+   },
+   {
+    "verse": 55,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and ran about that whole region and began to carry those who were ill around on mats to wherever they heard he was."
+     }
+    ]
+   },
+   {
+    "verse": 56,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And wherever he went, into villages or towns or farms, they laid the infirm in the marketplaces and begged him to let them touch even the fringe of his cloak; and all who touched it were made well."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 2,
+    "phrase": "deeds of power",
+    "lemma": "δύναμις",
+    "kind": "departure",
+    "traditional": "mighty works / miracles",
+    "note": "The Greek is simply the plural of the ordinary word for power. Many translations use ‘miracles’ or ‘mighty works’, though some modern versions also have ‘deeds of power’. Keeping ‘power’ lets the reader see the link with verse 14, where the same word describes the ‘powers’ at work in Jesus."
+   },
+   {
+    "verse": 3,
+    "phrase": "carpenter",
+    "lemma": "τέκτων",
+    "kind": "background",
+    "traditional": "carpenter",
+    "note": "The word refers to a craftsman who makes or builds things, most often in wood, though it could also cover building work more generally. ‘Carpenter’ is kept as the most common sense, but ‘builder’ or ‘craftsman’ is also possible. The crowd’s point is that Jesus is an ordinary local tradesman whose family they know."
+   },
+   {
+    "verse": 12,
+    "phrase": "turn back",
+    "lemma": "μετανοέω",
+    "kind": "departure",
+    "traditional": "repent",
+    "note": "Most translations keep ‘repent’ as an established term that includes a change of life. In current English, however, ‘repent’ centres on feeling sorry, whereas the Greek word in the Gospels carries the prophets’ call to return to God, a change of direction in mind and conduct. ‘Turn back’ is used for this word throughout this translation."
+   },
+   {
+    "verse": 14,
+    "phrase": "King Herod",
+    "lemma": "βασιλεύς",
+    "kind": "background",
+    "traditional": "King Herod",
+    "note": "This is Herod Antipas, a son of Herod the Great, who governed Galilee and Perea under Rome with the lesser title of tetrarch. He never officially held the title of king; Mark’s wording probably reflects popular usage."
+   },
+   {
+    "verse": 14,
+    "phrase": "People were saying",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "and he said",
+    "note": "Most manuscripts read a singular verb, ‘he was saying’, which makes Herod the speaker here, and older English versions follow that reading. The SBLGNT follows a smaller group of early witnesses that read the plural, which fits the series of three popular opinions in verses 14 and 15 before Herod gives his own in verse 16."
+   },
+   {
+    "verse": 20,
+    "phrase": "greatly perplexed",
+    "lemma": "ἀπορέω",
+    "kind": "textual",
+    "traditional": "he did many things",
+    "note": "The majority of manuscripts read a similar-looking Greek verb meaning ‘he did many things’, which older English versions follow. The SBLGNT, with most modern editions, follows early witnesses that read ‘he was greatly perplexed’."
+   },
+   {
+    "verse": 22,
+    "phrase": "the daughter of Herodias herself",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "the daughter of Herodias",
+    "note": "The manuscripts are divided here. The SBLGNT reads ‘the daughter of Herodias herself’; some of the earliest manuscripts instead read ‘his daughter Herodias’, making the girl Herod’s daughter and giving her the same name as her mother, and some modern editions and translations adopt that reading. Mark does not name the girl; the name Salome comes from the Jewish historian Josephus."
+   },
+   {
+    "verse": 37,
+    "phrase": "two hundred denarii",
+    "lemma": "δηνάριον",
+    "kind": "background",
+    "traditional": "two hundred denarii / two hundred pennyworth",
+    "note": "A denarius was a Roman silver coin, roughly a day’s pay for a labourer. Two hundred denarii was therefore something like eight months’ wages, which is the point of the disciples’ incredulous question."
+   },
+   {
+    "verse": 40,
+    "phrase": "plot by plot",
+    "lemma": "πρασιά",
+    "kind": "background",
+    "traditional": "in ranks / in groups",
+    "note": "The Greek word means a garden bed, and Mark doubles it, just as he doubles a word for a dining party in verse 39 (‘group by group’). The doubling is a distributive idiom, and the picture is of the crowd laid out on the grass in orderly rectangular blocks like the beds of a garden."
+   },
+   {
+    "verse": 48,
+    "phrase": "He meant to pass by them",
+    "lemma": "παρέρχομαι",
+    "kind": "ambiguity",
+    "traditional": "he would have passed by them",
+    "note": "The words can be read plainly: he intended to walk past them. Many scholars, however, hear an echo of the Greek Old Testament, where God ‘passes by’ when revealing himself (as to Moses in Exodus 33) and where Job 9 speaks of God walking on the sea and passing by unseen. On that reading the phrase signals a divine self-disclosure rather than an attempt to avoid the boat; which reading Mark intends is debated."
+   },
+   {
+    "verse": 50,
+    "phrase": "it is I",
+    "lemma": "εἰμί",
+    "kind": "ambiguity",
+    "traditional": "it is I",
+    "note": "The Greek phrase is the everyday way of saying ‘it’s me’, and that is its surface meaning here. The same two words, literally ‘I am’, are also God’s self-designation in the Greek Old Testament. Given the setting of walking on the sea, many interpreters think Mark’s readers were meant to hear both."
+   },
+   {
+    "verse": 56,
+    "phrase": "fringe",
+    "lemma": "κράσπεδον",
+    "kind": "background",
+    "traditional": "hem / fringe",
+    "note": "The word can mean simply the edge of a garment, but in the Greek Old Testament it is the term for the tassels that Israelite men were commanded to wear on the corners of their clothing (Numbers 15). It is likely, though not certain, that these tassels are meant here."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "σκανδαλίζω",
+    "rendering": "took offense at",
+    "verse": 3,
+    "reason": "Recurs across the Gospels and Paul with renderings ranging from ‘offend’ to ‘cause to stumble’ to ‘fall away’, and the traditional ‘offend’ now suggests mere hurt feelings."
+   },
+   {
+    "lemma": "δύναμις",
+    "rendering": "deeds of power",
+    "verse": 2,
+    "reason": "The plural for Jesus’s acts is variously rendered ‘miracles’, ‘mighty works’ and ‘deeds of power’, and it should stay distinct from σημεῖον and τέρας across the New Testament."
+   },
+   {
+    "lemma": "σπλαγχνίζομαι",
+    "rendering": "was moved with compassion",
+    "verse": 34,
+    "reason": "A distinctive Gospel verb used almost only of Jesus, rendered inconsistently as ‘had compassion’, ‘felt pity’ or ‘was moved’, and readers should be able to recognise it wherever it recurs."
+   },
+   {
+    "lemma": "σῴζω",
+    "rendering": "were made well",
+    "verse": 56,
+    "reason": "The same verb means ‘heal’, ‘rescue’ and ‘save’ in different contexts, and a policy is needed on when to show the link between physical healing and salvation."
+   },
+   {
+    "lemma": "ἔρημος",
+    "rendering": "deserted",
+    "verse": 31,
+    "reason": "Rendered ‘wilderness’, ‘desert’, ‘deserted’, ‘desolate’ or ‘remote’ by different translators, which hides the wilderness theme that runs through Mark and the other Gospels."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

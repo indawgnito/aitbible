@@ -1,0 +1,279 @@
+{
+ "id": "2thessalonians-001",
+ "book": "2thessalonians",
+ "chapter": 1,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZfA6YS9CgGhgLHJC",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 6639,
+  "output_tokens": 9288
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Paul, Silvanus, and Timothy, to the assembly of the Thessalonians in God our Father and the Lord Jesus Christ:\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Grace to you and peace from God the Father and the Lord Jesus Christ.\"}]},{\"verse\":3,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"We ought always to give thanks to God for you, brothers and sisters, as is fitting, because your faith is growing abundantly and the love that every one of you has for one another is increasing,\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"so that we ourselves boast about you in the assemblies of God, about your endurance and faith in all your persecutions and the afflictions you are bearing.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"This is evidence of God's just judgment, so that you may be counted worthy of the kingdom of God, for which you are in fact suffering,\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"since indeed it is just in God's sight to repay with affliction those who afflict you\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and to give you who are afflicted relief along with us, at the revelation of the Lord Jesus from heaven with the angels of his power\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"in flaming fire, bringing retribution on those who do not know God and on those who do not obey the good news of our Lord Jesus.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They will pay the penalty of eternal destruction, away from the presence of the Lord and from the glory of his might,\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"when he comes on that day to be glorified in his holy ones and to be marveled at in all who have believed, because our testimony to you was believed.\"}]},{\"verse\":11,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"To this end we also pray for you always, that our God may count you worthy of the calling and by his power bring to completion every desire for goodness and every work of faith,\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"so that the name of our Lord Jesus may be glorified in you, and you in him, according to the grace of our God and the Lord Jesus Christ.\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"assembly\",\"lemma\":\"ἐκκλησία\",\"kind\":\"departure\",\"traditional\":\"church\",\"note\":\"The traditional rendering is 'church', which is near-universal and which readers readily understand. A first-century hearer knew this word as the ordinary term for a civic gathering and as the Greek Old Testament's word for Israel assembled before God. 'Church' now suggests a building or an institution, so 'assembly' is used throughout this translation.\"},{\"verse\":2,\"phrase\":\"God the Father\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"God our Father\",\"note\":\"Many manuscripts read 'God our Father' here, matching verse 1 and Paul's usual greeting. The edition translated omits 'our', judging that scribes more likely added it to match the familiar formula than removed it. The evidence is closely divided.\"},{\"verse\":3,\"phrase\":\"brothers and sisters\",\"lemma\":\"ἀδελφός\",\"kind\":\"departure\",\"traditional\":\"brothers / brethren\",\"note\":\"The Greek plural is grammatically masculine but was the normal way to address a mixed group of men and women. Since the letter is addressed to the whole assembly, 'brothers and sisters' gives what the first hearers understood. Many recent translations do the same.\"},{\"verse\":4,\"phrase\":\"faith\",\"lemma\":\"πίστις\",\"kind\":\"ambiguity\",\"traditional\":\"faith\",\"note\":\"The Greek word covers both 'faith' (trust) and 'faithfulness' (loyalty, reliability). Paired with endurance under persecution, it could well mean 'faithfulness' here, and some interpreters take it so. 'Faith' is kept because verse 3 has just used the same word for the Thessalonians' growing trust.\"},{\"verse\":5,\"phrase\":\"This is evidence\",\"lemma\":\"ἔνδειγμα\",\"kind\":\"ambiguity\",\"traditional\":\"a manifest token / evidence\",\"note\":\"In Greek this phrase is loosely attached to what precedes, and a new sentence has been started in English for clarity. It is not certain what the 'evidence' is. Most take it to be the Thessalonians' endurance and faith under persecution, while others take it to be the sufferings themselves, seen as part of God's process of fitting them for the kingdom.\"},{\"verse\":5,\"phrase\":\"just\",\"lemma\":\"δίκαιος\",\"kind\":\"departure\",\"traditional\":\"righteous judgment\",\"note\":\"Most translations have 'righteous judgment' here and then 'just' in verse 6, though the Greek word is the same. Greek has one word-family where English has two (righteous/just, righteousness/justice). Because the point in both verses is that God judges fairly, 'just' is used in both so the repetition is visible.\"},{\"verse\":7,\"phrase\":\"the angels of his power\",\"lemma\":\"δύναμις\",\"kind\":\"ambiguity\",\"traditional\":\"his mighty angels\",\"note\":\"The Greek reads literally 'angels of his power'. Most translations treat this as a Semitic idiom meaning 'his powerful angels'. It can also mean the angels who belong to and carry out his power, and the literal wording is kept here because it allows both senses.\"},{\"verse\":8,\"phrase\":\"retribution\",\"lemma\":\"ἐκδίκησις\",\"kind\":\"departure\",\"traditional\":\"vengeance\",\"note\":\"The traditional 'vengeance' can suggest personal vindictiveness. The Greek word belongs to the language of justice, meaning the carrying out of a deserved sentence or the vindication of the wronged. The phrase, together with 'in flaming fire', echoes the Greek text of Isaiah 66:15, where the Lord comes in fire to repay his enemies.\"},{\"verse\":8,\"phrase\":\"good news\",\"lemma\":\"εὐαγγέλιον\",\"kind\":\"departure\",\"traditional\":\"gospel\",\"note\":\"'Gospel' is the traditional rendering and remains common. The Greek word was an everyday term for good news or a welcome announcement, used for example of a victory or a ruler's accession. 'Good news' gives a modern reader what the original hearers heard.\"},{\"verse\":9,\"phrase\":\"away from the presence of the Lord\",\"lemma\":\"ἀπό\",\"kind\":\"ambiguity\",\"traditional\":\"from the presence of the Lord\",\"note\":\"The Greek preposition is simply 'from'. It may mean separation ('away from the Lord's presence'), as most modern translations take it, or source ('destruction that comes from the Lord's presence'). The wording echoes the Greek text of Isaiah 2:10, 19 and 21, where people hide from the face of the Lord and the glory of his might, which favours separation. The nature of 'eternal destruction', whether unending ruin or final annihilation, is debated and the Greek does not settle it.\"},{\"verse\":10,\"phrase\":\"holy ones\",\"lemma\":\"ἅγιος\",\"kind\":\"departure\",\"traditional\":\"saints\",\"note\":\"The traditional rendering is 'saints', which now suggests canonised individuals or people of exceptional virtue. The word is used of all believers as people set apart for God, echoing the Greek Old Testament's language for Israel. A few interpreters think angels are meant here, but the parallel with 'all who have believed' points to believers.\"},{\"verse\":11,\"phrase\":\"every desire for goodness\",\"lemma\":\"εὐδοκία\",\"kind\":\"ambiguity\",\"traditional\":\"all the good pleasure of his goodness / every resolve for good\",\"note\":\"The Greek does not say whose 'good pleasure' or 'desire' this is. Older translations took it as God's own good pleasure, while most modern ones take it as the believers' desire to do good. The parallel with 'work of faith', which is clearly theirs, supports the modern reading. The verb rendered 'count you worthy' is likewise taken by some as 'make you worthy', though its ordinary meaning is 'deem worthy'.\"},{\"verse\":12,\"phrase\":\"our God and the Lord Jesus Christ\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"our God and the Lord Jesus Christ\",\"note\":\"In Greek a single article governs both 'God' and 'Lord', so the phrase can be read as 'our God and Lord, Jesus Christ', calling Jesus God. Most scholars prefer two persons, because 'Lord Jesus Christ' is a fixed expression that often stands without an article, as in verses 1 and 2. The grammar allows either reading.\"}],\"candidates\":[{\"lemma\":\"ἀδελφός\",\"rendering\":\"brothers and sisters\",\"verse\":3,\"reason\":\"The plural address to mixed congregations recurs in every letter, and translators divide between 'brothers', 'brothers and sisters' and 'friends'.\"},{\"lemma\":\"εὐαγγέλιον\",\"rendering\":\"good news\",\"verse\":8,\"reason\":\"It occurs throughout the New Testament, and 'gospel' versus 'good news' needs one decision so readers see a single term.\"},{\"lemma\":\"θλῖψις\",\"rendering\":\"affliction\",\"verse\":4,\"reason\":\"Translators vary between affliction, tribulation, trouble, distress and suffering across books, and the wordplay with the verb θλίβω (vv. 6-7) depends on a consistent choice.\"},{\"lemma\":\"ὑπομονή\",\"rendering\":\"endurance\",\"verse\":4,\"reason\":\"It is rendered variously as patience, endurance, perseverance and steadfastness across the letters and Revelation, where it is a key term.\"},{\"lemma\":\"ἐκδίκησις\",\"rendering\":\"retribution\",\"verse\":8,\"reason\":\"'Vengeance', 'retribution', 'punishment' and 'justice' are all in use (Luke 18:7-8; Romans 12:19; Hebrews 10:30), and they carry very different tones in English.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Paul, Silvanus, and Timothy, to the assembly of the Thessalonians in God our Father and the Lord Jesus Christ:"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Grace to you and peace from God the Father and the Lord Jesus Christ."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "We ought always to give thanks to God for you, brothers and sisters, as is fitting, because your faith is growing abundantly and the love that every one of you has for one another is increasing,"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "so that we ourselves boast about you in the assemblies of God, about your endurance and faith in all your persecutions and the afflictions you are bearing."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "This is evidence of God's just judgment, so that you may be counted worthy of the kingdom of God, for which you are in fact suffering,"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "since indeed it is just in God's sight to repay with affliction those who afflict you"
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and to give you who are afflicted relief along with us, at the revelation of the Lord Jesus from heaven with the angels of his power"
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "in flaming fire, bringing retribution on those who do not know God and on those who do not obey the good news of our Lord Jesus."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They will pay the penalty of eternal destruction, away from the presence of the Lord and from the glory of his might,"
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "when he comes on that day to be glorified in his holy ones and to be marveled at in all who have believed, because our testimony to you was believed."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "To this end we also pray for you always, that our God may count you worthy of the calling and by his power bring to completion every desire for goodness and every work of faith,"
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "so that the name of our Lord Jesus may be glorified in you, and you in him, according to the grace of our God and the Lord Jesus Christ."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "assembly",
+    "lemma": "ἐκκλησία",
+    "kind": "departure",
+    "traditional": "church",
+    "note": "The traditional rendering is 'church', which is near-universal and which readers readily understand. A first-century hearer knew this word as the ordinary term for a civic gathering and as the Greek Old Testament's word for Israel assembled before God. 'Church' now suggests a building or an institution, so 'assembly' is used throughout this translation."
+   },
+   {
+    "verse": 2,
+    "phrase": "God the Father",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "God our Father",
+    "note": "Many manuscripts read 'God our Father' here, matching verse 1 and Paul's usual greeting. The edition translated omits 'our', judging that scribes more likely added it to match the familiar formula than removed it. The evidence is closely divided."
+   },
+   {
+    "verse": 3,
+    "phrase": "brothers and sisters",
+    "lemma": "ἀδελφός",
+    "kind": "departure",
+    "traditional": "brothers / brethren",
+    "note": "The Greek plural is grammatically masculine but was the normal way to address a mixed group of men and women. Since the letter is addressed to the whole assembly, 'brothers and sisters' gives what the first hearers understood. Many recent translations do the same."
+   },
+   {
+    "verse": 4,
+    "phrase": "faith",
+    "lemma": "πίστις",
+    "kind": "ambiguity",
+    "traditional": "faith",
+    "note": "The Greek word covers both 'faith' (trust) and 'faithfulness' (loyalty, reliability). Paired with endurance under persecution, it could well mean 'faithfulness' here, and some interpreters take it so. 'Faith' is kept because verse 3 has just used the same word for the Thessalonians' growing trust."
+   },
+   {
+    "verse": 5,
+    "phrase": "This is evidence",
+    "lemma": "ἔνδειγμα",
+    "kind": "ambiguity",
+    "traditional": "a manifest token / evidence",
+    "note": "In Greek this phrase is loosely attached to what precedes, and a new sentence has been started in English for clarity. It is not certain what the 'evidence' is. Most take it to be the Thessalonians' endurance and faith under persecution, while others take it to be the sufferings themselves, seen as part of God's process of fitting them for the kingdom."
+   },
+   {
+    "verse": 5,
+    "phrase": "just",
+    "lemma": "δίκαιος",
+    "kind": "departure",
+    "traditional": "righteous judgment",
+    "note": "Most translations have 'righteous judgment' here and then 'just' in verse 6, though the Greek word is the same. Greek has one word-family where English has two (righteous/just, righteousness/justice). Because the point in both verses is that God judges fairly, 'just' is used in both so the repetition is visible."
+   },
+   {
+    "verse": 7,
+    "phrase": "the angels of his power",
+    "lemma": "δύναμις",
+    "kind": "ambiguity",
+    "traditional": "his mighty angels",
+    "note": "The Greek reads literally 'angels of his power'. Most translations treat this as a Semitic idiom meaning 'his powerful angels'. It can also mean the angels who belong to and carry out his power, and the literal wording is kept here because it allows both senses."
+   },
+   {
+    "verse": 8,
+    "phrase": "retribution",
+    "lemma": "ἐκδίκησις",
+    "kind": "departure",
+    "traditional": "vengeance",
+    "note": "The traditional 'vengeance' can suggest personal vindictiveness. The Greek word belongs to the language of justice, meaning the carrying out of a deserved sentence or the vindication of the wronged. The phrase, together with 'in flaming fire', echoes the Greek text of Isaiah 66:15, where the Lord comes in fire to repay his enemies."
+   },
+   {
+    "verse": 8,
+    "phrase": "good news",
+    "lemma": "εὐαγγέλιον",
+    "kind": "departure",
+    "traditional": "gospel",
+    "note": "'Gospel' is the traditional rendering and remains common. The Greek word was an everyday term for good news or a welcome announcement, used for example of a victory or a ruler's accession. 'Good news' gives a modern reader what the original hearers heard."
+   },
+   {
+    "verse": 9,
+    "phrase": "away from the presence of the Lord",
+    "lemma": "ἀπό",
+    "kind": "ambiguity",
+    "traditional": "from the presence of the Lord",
+    "note": "The Greek preposition is simply 'from'. It may mean separation ('away from the Lord's presence'), as most modern translations take it, or source ('destruction that comes from the Lord's presence'). The wording echoes the Greek text of Isaiah 2:10, 19 and 21, where people hide from the face of the Lord and the glory of his might, which favours separation. The nature of 'eternal destruction', whether unending ruin or final annihilation, is debated and the Greek does not settle it."
+   },
+   {
+    "verse": 10,
+    "phrase": "holy ones",
+    "lemma": "ἅγιος",
+    "kind": "departure",
+    "traditional": "saints",
+    "note": "The traditional rendering is 'saints', which now suggests canonised individuals or people of exceptional virtue. The word is used of all believers as people set apart for God, echoing the Greek Old Testament's language for Israel. A few interpreters think angels are meant here, but the parallel with 'all who have believed' points to believers."
+   },
+   {
+    "verse": 11,
+    "phrase": "every desire for goodness",
+    "lemma": "εὐδοκία",
+    "kind": "ambiguity",
+    "traditional": "all the good pleasure of his goodness / every resolve for good",
+    "note": "The Greek does not say whose 'good pleasure' or 'desire' this is. Older translations took it as God's own good pleasure, while most modern ones take it as the believers' desire to do good. The parallel with 'work of faith', which is clearly theirs, supports the modern reading. The verb rendered 'count you worthy' is likewise taken by some as 'make you worthy', though its ordinary meaning is 'deem worthy'."
+   },
+   {
+    "verse": 12,
+    "phrase": "our God and the Lord Jesus Christ",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "our God and the Lord Jesus Christ",
+    "note": "In Greek a single article governs both 'God' and 'Lord', so the phrase can be read as 'our God and Lord, Jesus Christ', calling Jesus God. Most scholars prefer two persons, because 'Lord Jesus Christ' is a fixed expression that often stands without an article, as in verses 1 and 2. The grammar allows either reading."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "ἀδελφός",
+    "rendering": "brothers and sisters",
+    "verse": 3,
+    "reason": "The plural address to mixed congregations recurs in every letter, and translators divide between 'brothers', 'brothers and sisters' and 'friends'."
+   },
+   {
+    "lemma": "εὐαγγέλιον",
+    "rendering": "good news",
+    "verse": 8,
+    "reason": "It occurs throughout the New Testament, and 'gospel' versus 'good news' needs one decision so readers see a single term."
+   },
+   {
+    "lemma": "θλῖψις",
+    "rendering": "affliction",
+    "verse": 4,
+    "reason": "Translators vary between affliction, tribulation, trouble, distress and suffering across books, and the wordplay with the verb θλίβω (vv. 6-7) depends on a consistent choice."
+   },
+   {
+    "lemma": "ὑπομονή",
+    "rendering": "endurance",
+    "verse": 4,
+    "reason": "It is rendered variously as patience, endurance, perseverance and steadfastness across the letters and Revelation, where it is a key term."
+   },
+   {
+    "lemma": "ἐκδίκησις",
+    "rendering": "retribution",
+    "verse": 8,
+    "reason": "'Vengeance', 'retribution', 'punishment' and 'justice' are all in use (Luke 18:7-8; Romans 12:19; Hebrews 10:30), and they carry very different tones in English."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

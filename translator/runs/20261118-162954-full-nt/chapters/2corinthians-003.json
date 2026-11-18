@@ -1,0 +1,347 @@
+{
+ "id": "2corinthians-003",
+ "book": "2corinthians",
+ "chapter": 3,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZhPfmPCYZ6cgiy3e",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 6176,
+  "output_tokens": 11055
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Are we beginning to commend ourselves again? Or do we need, as some do, letters of commendation to you or from you?\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"You yourselves are our letter, written on our hearts, known and read by all people.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"You show that you are a letter from Christ, delivered by us, written not with ink but with the Spirit of the living God, not on tablets of stone but on tablets that are hearts of flesh.\"}]},{\"verse\":4,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Such is the confidence we have through Christ toward God.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Not that we are competent in ourselves to count anything as coming from ourselves; rather, our competence is from God,\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"who also made us competent as servants of a new covenant, not of the written text but of the Spirit; for the written text kills, but the Spirit gives life.\"}]},{\"verse\":7,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now if the service of death, carved in writing on stones, came with glory, so that the sons of Israel could not gaze at the face of Moses because of the glory of his face, a glory that was being set aside,\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"how will the service of the Spirit not come with glory all the more?\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For if there was glory in the service of condemnation, much more does the service of righteousness overflow with glory.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Indeed, in this respect what had been glorified has not been glorified at all, on account of the glory that surpasses it.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For if what was being set aside came through glory, much more is what remains in glory.\"}]},{\"verse\":12,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Having such a hope, then, we act with great openness,\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and not like Moses, who used to put a veil over his face so that the sons of Israel would not gaze at the end of what was being set aside.\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But their minds were hardened. For to this very day the same veil remains at the reading of the old covenant, not lifted, because it is in Christ that it is set aside.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Indeed, to this day, whenever Moses is read, a veil lies over their heart.\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But whenever anyone turns to the Lord, the veil is taken away.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now the Lord is the Spirit, and where the Spirit of the Lord is, there is freedom.\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And we all, with unveiled face, seeing the glory of the Lord as in a mirror, are being transformed into the same image, from glory to glory, as from the Lord, the Spirit.\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"letters of commendation\",\"lemma\":\"συστατικός\",\"kind\":\"background\",\"traditional\":\"letters of recommendation\",\"note\":\"Travellers in the ancient world commonly carried a letter from a known person vouching for them to strangers. Paul's rivals at Corinth seem to have arrived with such letters. 'Commendation' is used to keep the Greek's echo of 'commend ourselves' in the same verse.\"},{\"verse\":2,\"phrase\":\"our hearts\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"our hearts\",\"note\":\"A few manuscripts read 'your hearts', and some translations have followed them because it seems to suit the image better. 'Our hearts' has much the stronger manuscript support and is the reading translated here.\"},{\"verse\":3,\"phrase\":\"delivered by us\",\"lemma\":\"διακονέω\",\"kind\":\"ambiguity\",\"traditional\":\"ministered by us\",\"note\":\"The Greek verb means to serve or carry out a task for someone, and it belongs to the same word-family as 'servants' (v. 6) and 'service' (vv. 7–9). In the letter image it may mean that Paul carried the letter, or that he acted as Christ's scribe in producing it. 'Delivered' is chosen, but 'prepared by us' or 'cared for by us' are also possible.\"},{\"verse\":3,\"phrase\":\"tablets of stone\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"tablets of stone\",\"note\":\"The stone tablets are those of the law given to Moses at Sinai (Exodus 31:18). 'Hearts of flesh' echoes Ezekiel's promise that God would replace his people's heart of stone with a heart of flesh and put his Spirit in them (Ezekiel 36:26–27). Jeremiah's promise of a new covenant written on hearts (Jeremiah 31:31–33) lies behind verse 6.\"},{\"verse\":6,\"phrase\":\"the written text\",\"lemma\":\"γράμμα\",\"kind\":\"departure\",\"traditional\":\"the letter\",\"note\":\"The traditional 'the letter kills' uses 'letter' in the sense of something written, but in this chapter English 'letter' already stands for a different Greek word meaning an epistle (vv. 1–3). The Greek word here means writing or a written document, and refers to the law as a text inscribed on stone (v. 7). The contrast is between a covenant that exists as writing and one given by the Spirit, not between literal and figurative interpretation, though that reading has a long history.\"},{\"verse\":7,\"phrase\":\"service\",\"lemma\":\"διακονία\",\"kind\":\"departure\",\"traditional\":\"ministry (KJV: ministration)\",\"note\":\"The Greek noun belongs with the word rendered 'servants' in verse 6 and means the carrying out of a task for someone. 'Ministry' is the usual rendering, but it now suggests a church office and hides the link. 'The service of death' means the service whose outcome was death; the same pattern runs through 'of the Spirit', 'of condemnation' and 'of righteousness'.\"},{\"verse\":7,\"phrase\":\"was being set aside\",\"lemma\":\"καταργέω\",\"kind\":\"departure\",\"traditional\":\"fading / passing away\",\"note\":\"Many translations say the glory on Moses' face was 'fading'. The Greek verb does not mean to fade; in the usage of the period, and everywhere else in Paul, it means to nullify, abolish or put out of operation. The same verb recurs in verses 11, 13 and 14 and is rendered the same way each time. Some scholars defend 'fading' as a contextual sense, but there is little lexical support for it.\"},{\"verse\":12,\"phrase\":\"openness\",\"lemma\":\"παρρησία\",\"kind\":\"departure\",\"traditional\":\"boldness\",\"note\":\"The Greek word means frank, unconcealed speech or conduct, the freedom to say everything openly. 'Boldness' is the usual rendering and is not wrong. Here, though, the contrast is with Moses veiling his face, so the point is that nothing is hidden, not that Paul is courageous.\"},{\"verse\":13,\"phrase\":\"the end\",\"lemma\":\"τέλος\",\"kind\":\"ambiguity\",\"traditional\":\"the end\",\"note\":\"The Greek word can mean a termination or a goal. On the first reading, the veil kept Israel from seeing the glory come to its end; on the second, it kept them from seeing what the passing covenant was aiming at, namely Christ. Both are defended by scholars; 'end' can carry either sense in English and is kept.\"},{\"verse\":14,\"phrase\":\"old covenant\",\"lemma\":\"διαθήκη\",\"kind\":\"background\",\"traditional\":\"old testament / old covenant\",\"note\":\"This is the earliest known use of the phrase. Paul means the covenant made at Sinai as it was read aloud from the books of Moses in the synagogue, as verse 15 shows. It was not yet a title for a collection of books.\"},{\"verse\":14,\"phrase\":\"not lifted, because it is in Christ that it is set aside\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"remains unlifted, because only through Christ is it taken away\",\"note\":\"The Greek can also be read: 'the same veil remains, it not being unveiled that in Christ it is set aside', where 'it' is the old covenant and not the veil. The rendering here follows the majority of translations in taking the veil as what is set aside. The word for 'lifted' is the verb rendered 'unveiled' in verse 18.\"},{\"verse\":16,\"phrase\":\"anyone turns to the Lord\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"when one turns to the Lord\",\"note\":\"The Greek verb has no stated subject: it could be 'anyone', 'their heart' (v. 15), Israel, or Moses himself. The sentence adapts Exodus 34:34, where Moses removed his veil whenever he went in before the Lord, and Paul applies it to anyone who turns to the Lord now. Whether 'the Lord' here is God, as in Exodus, or Christ is debated.\"},{\"verse\":18,\"phrase\":\"seeing the glory of the Lord as in a mirror\",\"lemma\":\"κατοπτρίζω\",\"kind\":\"ambiguity\",\"traditional\":\"beholding as in a mirror\",\"note\":\"The Greek verb, which is rare, is built on the word for mirror and can mean either to look at something in a mirror or to reflect as a mirror does. Most interpreters and the ancient versions favour 'seeing', which fits the contrast with those who could not look. 'Reflecting the glory of the Lord' would fit the comparison with Moses' shining face, and some translations adopt it.\"},{\"verse\":18,\"phrase\":\"the Lord, the Spirit\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"the Spirit of the Lord / the Lord who is the Spirit\",\"note\":\"The Greek is two nouns side by side, literally 'from Lord, Spirit'. It can be read as 'the Lord who is the Spirit' (in line with v. 17), 'the Spirit of the Lord', or 'the Lord of the Spirit'. The rendering leaves the two terms side by side as the Greek does; the first reading is the most widely held.\"}],\"candidates\":[{\"lemma\":\"διακονία\",\"rendering\":\"service\",\"verse\":7,\"reason\":\"The register fixes διάκονος as 'servant', but the cognate noun (and the verb διακονέω) is usually 'ministry', which breaks the link and suggests clergy; one decision is needed across Acts and the letters.\"},{\"lemma\":\"καταργέω\",\"rendering\":\"set aside\",\"verse\":7,\"reason\":\"A characteristic Pauline verb rendered very variously (abolish, nullify, destroy, fade, pass away), where the variation hides a recurring theological term in Romans, 1–2 Corinthians, Galatians and Ephesians.\"},{\"lemma\":\"παρρησία\",\"rendering\":\"openness\",\"verse\":12,\"reason\":\"Recurs in John, Acts, Paul, Hebrews and 1 John, and translators split between 'boldness', 'confidence', 'openness' and 'plainly'; readers cannot see that it is one word.\"},{\"lemma\":\"διαθήκη\",\"rendering\":\"covenant\",\"verse\":6,\"reason\":\"The 'covenant' versus 'testament' or 'will' question (especially Galatians 3 and Hebrews 9) needs a single policy, and this chapter's 'old covenant' and 'new covenant' depend on it.\"},{\"lemma\":\"γράμμα\",\"rendering\":\"written text\",\"verse\":6,\"reason\":\"The letter/Spirit contrast recurs in Romans 2:27–29 and 7:6, and traditional 'letter' collides with ἐπιστολή and invites the literal-versus-spiritual misreading.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Are we beginning to commend ourselves again? Or do we need, as some do, letters of commendation to you or from you?"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "You yourselves are our letter, written on our hearts, known and read by all people."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "You show that you are a letter from Christ, delivered by us, written not with ink but with the Spirit of the living God, not on tablets of stone but on tablets that are hearts of flesh."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Such is the confidence we have through Christ toward God."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Not that we are competent in ourselves to count anything as coming from ourselves; rather, our competence is from God,"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "who also made us competent as servants of a new covenant, not of the written text but of the Spirit; for the written text kills, but the Spirit gives life."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now if the service of death, carved in writing on stones, came with glory, so that the sons of Israel could not gaze at the face of Moses because of the glory of his face, a glory that was being set aside,"
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "how will the service of the Spirit not come with glory all the more?"
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For if there was glory in the service of condemnation, much more does the service of righteousness overflow with glory."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Indeed, in this respect what had been glorified has not been glorified at all, on account of the glory that surpasses it."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For if what was being set aside came through glory, much more is what remains in glory."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Having such a hope, then, we act with great openness,"
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and not like Moses, who used to put a veil over his face so that the sons of Israel would not gaze at the end of what was being set aside."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But their minds were hardened. For to this very day the same veil remains at the reading of the old covenant, not lifted, because it is in Christ that it is set aside."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Indeed, to this day, whenever Moses is read, a veil lies over their heart."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But whenever anyone turns to the Lord, the veil is taken away."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now the Lord is the Spirit, and where the Spirit of the Lord is, there is freedom."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And we all, with unveiled face, seeing the glory of the Lord as in a mirror, are being transformed into the same image, from glory to glory, as from the Lord, the Spirit."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "letters of commendation",
+    "lemma": "συστατικός",
+    "kind": "background",
+    "traditional": "letters of recommendation",
+    "note": "Travellers in the ancient world commonly carried a letter from a known person vouching for them to strangers. Paul's rivals at Corinth seem to have arrived with such letters. 'Commendation' is used to keep the Greek's echo of 'commend ourselves' in the same verse."
+   },
+   {
+    "verse": 2,
+    "phrase": "our hearts",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "our hearts",
+    "note": "A few manuscripts read 'your hearts', and some translations have followed them because it seems to suit the image better. 'Our hearts' has much the stronger manuscript support and is the reading translated here."
+   },
+   {
+    "verse": 3,
+    "phrase": "delivered by us",
+    "lemma": "διακονέω",
+    "kind": "ambiguity",
+    "traditional": "ministered by us",
+    "note": "The Greek verb means to serve or carry out a task for someone, and it belongs to the same word-family as 'servants' (v. 6) and 'service' (vv. 7–9). In the letter image it may mean that Paul carried the letter, or that he acted as Christ's scribe in producing it. 'Delivered' is chosen, but 'prepared by us' or 'cared for by us' are also possible."
+   },
+   {
+    "verse": 3,
+    "phrase": "tablets of stone",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "tablets of stone",
+    "note": "The stone tablets are those of the law given to Moses at Sinai (Exodus 31:18). 'Hearts of flesh' echoes Ezekiel's promise that God would replace his people's heart of stone with a heart of flesh and put his Spirit in them (Ezekiel 36:26–27). Jeremiah's promise of a new covenant written on hearts (Jeremiah 31:31–33) lies behind verse 6."
+   },
+   {
+    "verse": 6,
+    "phrase": "the written text",
+    "lemma": "γράμμα",
+    "kind": "departure",
+    "traditional": "the letter",
+    "note": "The traditional 'the letter kills' uses 'letter' in the sense of something written, but in this chapter English 'letter' already stands for a different Greek word meaning an epistle (vv. 1–3). The Greek word here means writing or a written document, and refers to the law as a text inscribed on stone (v. 7). The contrast is between a covenant that exists as writing and one given by the Spirit, not between literal and figurative interpretation, though that reading has a long history."
+   },
+   {
+    "verse": 7,
+    "phrase": "service",
+    "lemma": "διακονία",
+    "kind": "departure",
+    "traditional": "ministry (KJV: ministration)",
+    "note": "The Greek noun belongs with the word rendered 'servants' in verse 6 and means the carrying out of a task for someone. 'Ministry' is the usual rendering, but it now suggests a church office and hides the link. 'The service of death' means the service whose outcome was death; the same pattern runs through 'of the Spirit', 'of condemnation' and 'of righteousness'."
+   },
+   {
+    "verse": 7,
+    "phrase": "was being set aside",
+    "lemma": "καταργέω",
+    "kind": "departure",
+    "traditional": "fading / passing away",
+    "note": "Many translations say the glory on Moses' face was 'fading'. The Greek verb does not mean to fade; in the usage of the period, and everywhere else in Paul, it means to nullify, abolish or put out of operation. The same verb recurs in verses 11, 13 and 14 and is rendered the same way each time. Some scholars defend 'fading' as a contextual sense, but there is little lexical support for it."
+   },
+   {
+    "verse": 12,
+    "phrase": "openness",
+    "lemma": "παρρησία",
+    "kind": "departure",
+    "traditional": "boldness",
+    "note": "The Greek word means frank, unconcealed speech or conduct, the freedom to say everything openly. 'Boldness' is the usual rendering and is not wrong. Here, though, the contrast is with Moses veiling his face, so the point is that nothing is hidden, not that Paul is courageous."
+   },
+   {
+    "verse": 13,
+    "phrase": "the end",
+    "lemma": "τέλος",
+    "kind": "ambiguity",
+    "traditional": "the end",
+    "note": "The Greek word can mean a termination or a goal. On the first reading, the veil kept Israel from seeing the glory come to its end; on the second, it kept them from seeing what the passing covenant was aiming at, namely Christ. Both are defended by scholars; 'end' can carry either sense in English and is kept."
+   },
+   {
+    "verse": 14,
+    "phrase": "old covenant",
+    "lemma": "διαθήκη",
+    "kind": "background",
+    "traditional": "old testament / old covenant",
+    "note": "This is the earliest known use of the phrase. Paul means the covenant made at Sinai as it was read aloud from the books of Moses in the synagogue, as verse 15 shows. It was not yet a title for a collection of books."
+   },
+   {
+    "verse": 14,
+    "phrase": "not lifted, because it is in Christ that it is set aside",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "remains unlifted, because only through Christ is it taken away",
+    "note": "The Greek can also be read: 'the same veil remains, it not being unveiled that in Christ it is set aside', where 'it' is the old covenant and not the veil. The rendering here follows the majority of translations in taking the veil as what is set aside. The word for 'lifted' is the verb rendered 'unveiled' in verse 18."
+   },
+   {
+    "verse": 16,
+    "phrase": "anyone turns to the Lord",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "when one turns to the Lord",
+    "note": "The Greek verb has no stated subject: it could be 'anyone', 'their heart' (v. 15), Israel, or Moses himself. The sentence adapts Exodus 34:34, where Moses removed his veil whenever he went in before the Lord, and Paul applies it to anyone who turns to the Lord now. Whether 'the Lord' here is God, as in Exodus, or Christ is debated."
+   },
+   {
+    "verse": 18,
+    "phrase": "seeing the glory of the Lord as in a mirror",
+    "lemma": "κατοπτρίζω",
+    "kind": "ambiguity",
+    "traditional": "beholding as in a mirror",
+    "note": "The Greek verb, which is rare, is built on the word for mirror and can mean either to look at something in a mirror or to reflect as a mirror does. Most interpreters and the ancient versions favour 'seeing', which fits the contrast with those who could not look. 'Reflecting the glory of the Lord' would fit the comparison with Moses' shining face, and some translations adopt it."
+   },
+   {
+    "verse": 18,
+    "phrase": "the Lord, the Spirit",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "the Spirit of the Lord / the Lord who is the Spirit",
+    "note": "The Greek is two nouns side by side, literally 'from Lord, Spirit'. It can be read as 'the Lord who is the Spirit' (in line with v. 17), 'the Spirit of the Lord', or 'the Lord of the Spirit'. The rendering leaves the two terms side by side as the Greek does; the first reading is the most widely held."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "διακονία",
+    "rendering": "service",
+    "verse": 7,
+    "reason": "The register fixes διάκονος as 'servant', but the cognate noun (and the verb διακονέω) is usually 'ministry', which breaks the link and suggests clergy; one decision is needed across Acts and the letters."
+   },
+   {
+    "lemma": "καταργέω",
+    "rendering": "set aside",
+    "verse": 7,
+    "reason": "A characteristic Pauline verb rendered very variously (abolish, nullify, destroy, fade, pass away), where the variation hides a recurring theological term in Romans, 1–2 Corinthians, Galatians and Ephesians."
+   },
+   {
+    "lemma": "παρρησία",
+    "rendering": "openness",
+    "verse": 12,
+    "reason": "Recurs in John, Acts, Paul, Hebrews and 1 John, and translators split between 'boldness', 'confidence', 'openness' and 'plainly'; readers cannot see that it is one word."
+   },
+   {
+    "lemma": "διαθήκη",
+    "rendering": "covenant",
+    "verse": 6,
+    "reason": "The 'covenant' versus 'testament' or 'will' question (especially Galatians 3 and Hebrews 9) needs a single policy, and this chapter's 'old covenant' and 'new covenant' depend on it."
+   },
+   {
+    "lemma": "γράμμα",
+    "rendering": "written text",
+    "verse": 6,
+    "reason": "The letter/Spirit contrast recurs in Romans 2:27–29 and 7:6, and traditional 'letter' collides with ἐπιστολή and invites the literal-versus-spiritual misreading."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

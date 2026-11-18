@@ -1,0 +1,575 @@
+{
+ "id": "luke-003",
+ "book": "luke",
+ "chapter": 3,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZfubhZqwcQtE7Knb",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 8283,
+  "output_tokens": 10096
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"In the fifteenth year of the rule of Tiberius Caesar, when Pontius Pilate was governor of Judea, and Herod was tetrarch of Galilee, and his brother Philip tetrarch of the region of Iturea and Trachonitis, and Lysanias tetrarch of Abilene,\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"during the high priesthood of Annas and Caiaphas, a word of God came to John the son of Zechariah in the wilderness.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And he went into all the region around the Jordan, proclaiming a baptism of turning back for the forgiveness of sins,\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"as it is written in the book of the words of Isaiah the prophet:\"},{\"speaker\":\"scripture\",\"text\":\"“A voice of one crying out in the wilderness: ‘Prepare the way of the Lord; make his paths straight.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"scripture\",\"text\":\"Every ravine will be filled in, and every mountain and hill will be made low; the crooked places will become straight, and the rough ways smooth roads;\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"scripture\",\"text\":\"and all flesh will see the salvation of God.’”\"}]},{\"verse\":7,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So he would say to the crowds that came out to be baptized by him,\"},{\"speaker\":\"other\",\"text\":\"“Brood of vipers! Who warned you to flee from the coming wrath?\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Produce, then, fruits worthy of turning back, and do not begin to say to yourselves, ‘We have Abraham as our father.’ For I tell you that God is able to raise up children for Abraham from these stones.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Already the axe is lying at the root of the trees; so every tree that does not produce good fruit is cut down and thrown into the fire.”\"}]},{\"verse\":10,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And the crowds kept asking him,\"},{\"speaker\":\"other\",\"text\":\"“What then should we do?”\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He would answer them,\"},{\"speaker\":\"other\",\"text\":\"“Whoever has two tunics must share with the one who has none, and whoever has food must do the same.”\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Tax collectors also came to be baptized, and they said to him,\"},{\"speaker\":\"other\",\"text\":\"“Teacher, what should we do?”\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He said to them,\"},{\"speaker\":\"other\",\"text\":\"“Collect nothing more than what you have been ordered to.”\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Soldiers too were asking him,\"},{\"speaker\":\"other\",\"text\":\"“And we, what should we do?”\"},{\"speaker\":\"narrator\",\"text\":\"He said to them,\"},{\"speaker\":\"other\",\"text\":\"“Do not extort money from anyone by threats or false charges, and be content with your pay.”\"}]},{\"verse\":15,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"As the people were waiting expectantly, and all were wondering in their hearts about John, whether he might perhaps be the Messiah,\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"John answered them all, saying,\"},{\"speaker\":\"other\",\"text\":\"“I baptize you with water, but one who is stronger than I am is coming, the strap of whose sandals I am not fit to untie. He will baptize you with the Holy Spirit and fire.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"His winnowing shovel is in his hand, to clear his threshing floor and to gather the wheat into his barn, but the chaff he will burn up with unquenchable fire.”\"}]},{\"verse\":18,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So, with many other exhortations as well, he proclaimed good news to the people.\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But Herod the tetrarch, who had been rebuked by him about Herodias, his brother’s wife, and about all the evil things that Herod had done,\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"added this also to them all: he locked John up in prison.\"}]},{\"verse\":21,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now when all the people had been baptized, and when Jesus too had been baptized and was praying, heaven was opened,\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and the Holy Spirit came down on him in bodily form, like a dove, and a voice came from heaven:\"},{\"speaker\":\"God\",\"text\":\"“You are my beloved Son; with you I am well pleased.”\"}]},{\"verse\":23,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus himself was about thirty years old when he began his work, being the son, as was supposed, of Joseph, son of Heli,\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"son of Matthat, son of Levi, son of Melchi, son of Jannai, son of Joseph,\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"son of Mattathias, son of Amos, son of Nahum, son of Esli, son of Naggai,\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"son of Maath, son of Mattathias, son of Semein, son of Josech, son of Joda,\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"son of Joanan, son of Rhesa, son of Zerubbabel, son of Shealtiel, son of Neri,\"}]},{\"verse\":28,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"son of Melchi, son of Addi, son of Cosam, son of Elmadam, son of Er,\"}]},{\"verse\":29,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"son of Joshua, son of Eliezer, son of Jorim, son of Matthat, son of Levi,\"}]},{\"verse\":30,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"son of Simeon, son of Judah, son of Joseph, son of Jonam, son of Eliakim,\"}]},{\"verse\":31,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"son of Melea, son of Menna, son of Mattatha, son of Nathan, son of David,\"}]},{\"verse\":32,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"son of Jesse, son of Obed, son of Boaz, son of Sala, son of Nahshon,\"}]},{\"verse\":33,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"son of Amminadab, son of Admin, son of Arni, son of Hezron, son of Perez, son of Judah,\"}]},{\"verse\":34,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"son of Jacob, son of Isaac, son of Abraham, son of Terah, son of Nahor,\"}]},{\"verse\":35,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"son of Serug, son of Reu, son of Peleg, son of Eber, son of Shelah,\"}]},{\"verse\":36,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"son of Cainan, son of Arphaxad, son of Shem, son of Noah, son of Lamech,\"}]},{\"verse\":37,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"son of Methuselah, son of Enoch, son of Jared, son of Mahalalel, son of Cainan,\"}]},{\"verse\":38,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"son of Enosh, son of Seth, son of Adam, son of God.\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"tetrarch of Galilee\",\"lemma\":\"τετρααρχέω\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"A tetrarch was a dependent prince ruling part of a kingdom under Roman authority, ranking below a king. This Herod is Herod Antipas, a son of Herod the Great, whose territory was divided among his sons at his death. The fifteenth year of Tiberius is usually placed around AD 28 or 29, though the exact reckoning is disputed.\"},{\"verse\":2,\"phrase\":\"during the high priesthood of Annas and Caiaphas\",\"lemma\":\"ἀρχιερεύς\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"The Greek has 'high priest' in the singular with two names. Only one man held the office at a time; Caiaphas was the serving high priest in this period. Annas, his father-in-law, had been deposed by the Romans years earlier but kept great influence, and he is still called high priest elsewhere in the New Testament.\"},{\"verse\":3,\"phrase\":\"turning back\",\"lemma\":\"μετάνοια\",\"kind\":\"departure\",\"traditional\":\"repentance\",\"note\":\"The traditional rendering is 'repentance', which in modern English centres on feeling sorry. The Greek word carries the prophets' call to return to God, a change of direction in mind and conduct, as John's practical instructions in verses 10–14 show. Most translations keep 'repentance' as an established term that readers understand to include a change of life.\"},{\"verse\":15,\"phrase\":\"the Messiah\",\"lemma\":\"Χριστός\",\"kind\":\"departure\",\"traditional\":\"the Christ\",\"note\":\"The Greek word means 'anointed one' and here is a title for the king Israel was expecting, not a name. 'Messiah' conveys that the crowd is asking about an office. Several modern translations make the same choice in the Gospels where the title itself is under discussion, keeping 'Christ' where it functions as a name.\"},{\"verse\":16,\"phrase\":\"with the Holy Spirit and fire\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"\",\"note\":\"The Greek preposition can mean 'with' or 'in', so 'in the Holy Spirit and fire' is equally possible. It is also disputed whether 'fire' describes purification of those who receive the Spirit, or judgment on those who do not, as the burning chaff in the next verse might suggest. Some interpreters see both.\"},{\"verse\":22,\"phrase\":\"You are my beloved Son; with you I am well pleased.\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"\",\"note\":\"A few witnesses, chiefly Codex Bezae, the Old Latin, and several early Christian writers, read instead 'You are my Son; today I have begotten you', quoting Psalm 2:7. The great majority of manuscripts have the reading translated here, and most editors prefer it, though some scholars argue the other reading is original. The Greek could also be punctuated 'my Son, the Beloved'.\"},{\"verse\":23,\"phrase\":\"when he began his work\",\"lemma\":\"ἄρχω\",\"kind\":\"ambiguity\",\"traditional\":\"\",\"note\":\"The Greek says only 'when beginning', without stating what he began. Most interpreters take it as the start of his public activity, and 'his work' is supplied to complete the English. An older reading takes it with the age: 'was beginning to be about thirty years old'.\"},{\"verse\":23,\"phrase\":\"as was supposed\",\"lemma\":\"νομίζω\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"The phrase looks back to the account of Jesus' birth in the first two chapters, where Joseph is not his natural father. Luke's genealogy runs backwards from Jesus to Adam and differs from Matthew's between Joseph and David, tracing the line through David's son Nathan, not Solomon. Explanations have been proposed since antiquity, including that one list gives Mary's line or a legal line of descent, but none is certain.\"},{\"verse\":29,\"phrase\":\"Joshua\",\"lemma\":\"Ἰησοῦς\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"The Greek name here is identical to the name 'Jesus'; both represent the Hebrew name Joshua. English translations conventionally write 'Joshua' for this ancestor to distinguish him, though older versions have 'Jose' or 'Jesus'.\"},{\"verse\":32,\"phrase\":\"son of Sala\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"son of Salmon\",\"note\":\"The manuscripts vary over several names in this part of the list. The edition translated here reads 'Sala' where many manuscripts have 'Salmon', the form found in Matthew and in Ruth, and it spells the name before Boaz in a way that still plainly refers to Obed. Copyists often adjusted unfamiliar names toward the Old Testament forms.\"},{\"verse\":33,\"phrase\":\"son of Admin, son of Arni\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"son of Aram\",\"note\":\"This is among the most confused points in the genealogy's manuscript tradition. Many manuscripts read 'son of Aram' (the Ram of Ruth 4:19 and Matthew 1:3–4) in place of these two names, and others have further combinations. The names Admin and Arni are otherwise unknown, which is why many editors judge them original and the alternatives to be corrections.\"},{\"verse\":36,\"phrase\":\"son of Cainan\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"This Cainan, placed between Arphaxad and Shelah, appears in the Greek Septuagint version of Genesis 10–11 but not in the Hebrew text. Luke's list follows the Greek Scriptures used by his readers. A different Cainan, called Kenan in English Old Testaments, appears in verse 37.\"}],\"candidates\":[{\"lemma\":\"εὐαγγελίζω\",\"rendering\":\"proclaimed good news\",\"verse\":18,\"reason\":\"Recurs across Luke–Acts and Paul, and translators vary between 'preach the gospel', 'bring good news' and 'evangelize'; it should be coordinated with the rendering of εὐαγγέλιον.\"},{\"lemma\":\"ἄφεσις\",\"rendering\":\"forgiveness\",\"verse\":3,\"reason\":\"Means release or remission as well as forgiveness (compare Luke 4:18), and the choice between 'forgiveness', 'release' and 'remission' should be consistent across the New Testament.\"},{\"lemma\":\"κηρύσσω\",\"rendering\":\"proclaiming\",\"verse\":3,\"reason\":\"Traditionally 'preach', which now suggests a sermon; the herald's sense 'proclaim' needs to be fixed across the Gospels, Acts and the letters.\"},{\"lemma\":\"τελώνης\",\"rendering\":\"tax collectors\",\"verse\":12,\"reason\":\"These were contractors collecting tolls and duties, not direct taxes; 'tax collector', 'toll collector' and the older 'publican' compete, and the term recurs throughout the Synoptic Gospels.\"},{\"lemma\":\"ὀργή\",\"rendering\":\"wrath\",\"verse\":7,\"reason\":\"Used of God's judgment across the Gospels, Paul and Revelation; 'wrath', 'anger' and 'retribution' are all in use, and variation would obscure a recurring theme.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "In the fifteenth year of the rule of Tiberius Caesar, when Pontius Pilate was governor of Judea, and Herod was tetrarch of Galilee, and his brother Philip tetrarch of the region of Iturea and Trachonitis, and Lysanias tetrarch of Abilene,"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "during the high priesthood of Annas and Caiaphas, a word of God came to John the son of Zechariah in the wilderness."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And he went into all the region around the Jordan, proclaiming a baptism of turning back for the forgiveness of sins,"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "as it is written in the book of the words of Isaiah the prophet:"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“A voice of one crying out in the wilderness: ‘Prepare the way of the Lord; make his paths straight."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "scripture",
+      "text": "Every ravine will be filled in, and every mountain and hill will be made low; the crooked places will become straight, and the rough ways smooth roads;"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "scripture",
+      "text": "and all flesh will see the salvation of God.’”"
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So he would say to the crowds that came out to be baptized by him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Brood of vipers! Who warned you to flee from the coming wrath?"
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Produce, then, fruits worthy of turning back, and do not begin to say to yourselves, ‘We have Abraham as our father.’ For I tell you that God is able to raise up children for Abraham from these stones."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Already the axe is lying at the root of the trees; so every tree that does not produce good fruit is cut down and thrown into the fire.”"
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And the crowds kept asking him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“What then should we do?”"
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He would answer them,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Whoever has two tunics must share with the one who has none, and whoever has food must do the same.”"
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Tax collectors also came to be baptized, and they said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Teacher, what should we do?”"
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He said to them,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Collect nothing more than what you have been ordered to.”"
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Soldiers too were asking him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“And we, what should we do?”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "He said to them,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Do not extort money from anyone by threats or false charges, and be content with your pay.”"
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "As the people were waiting expectantly, and all were wondering in their hearts about John, whether he might perhaps be the Messiah,"
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "John answered them all, saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“I baptize you with water, but one who is stronger than I am is coming, the strap of whose sandals I am not fit to untie. He will baptize you with the Holy Spirit and fire."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "His winnowing shovel is in his hand, to clear his threshing floor and to gather the wheat into his barn, but the chaff he will burn up with unquenchable fire.”"
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So, with many other exhortations as well, he proclaimed good news to the people."
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But Herod the tetrarch, who had been rebuked by him about Herodias, his brother’s wife, and about all the evil things that Herod had done,"
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "added this also to them all: he locked John up in prison."
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now when all the people had been baptized, and when Jesus too had been baptized and was praying, heaven was opened,"
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and the Holy Spirit came down on him in bodily form, like a dove, and a voice came from heaven:"
+     },
+     {
+      "speaker": "God",
+      "text": "“You are my beloved Son; with you I am well pleased.”"
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus himself was about thirty years old when he began his work, being the son, as was supposed, of Joseph, son of Heli,"
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "son of Matthat, son of Levi, son of Melchi, son of Jannai, son of Joseph,"
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "son of Mattathias, son of Amos, son of Nahum, son of Esli, son of Naggai,"
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "son of Maath, son of Mattathias, son of Semein, son of Josech, son of Joda,"
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "son of Joanan, son of Rhesa, son of Zerubbabel, son of Shealtiel, son of Neri,"
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "son of Melchi, son of Addi, son of Cosam, son of Elmadam, son of Er,"
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "son of Joshua, son of Eliezer, son of Jorim, son of Matthat, son of Levi,"
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "son of Simeon, son of Judah, son of Joseph, son of Jonam, son of Eliakim,"
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "son of Melea, son of Menna, son of Mattatha, son of Nathan, son of David,"
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "son of Jesse, son of Obed, son of Boaz, son of Sala, son of Nahshon,"
+     }
+    ]
+   },
+   {
+    "verse": 33,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "son of Amminadab, son of Admin, son of Arni, son of Hezron, son of Perez, son of Judah,"
+     }
+    ]
+   },
+   {
+    "verse": 34,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "son of Jacob, son of Isaac, son of Abraham, son of Terah, son of Nahor,"
+     }
+    ]
+   },
+   {
+    "verse": 35,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "son of Serug, son of Reu, son of Peleg, son of Eber, son of Shelah,"
+     }
+    ]
+   },
+   {
+    "verse": 36,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "son of Cainan, son of Arphaxad, son of Shem, son of Noah, son of Lamech,"
+     }
+    ]
+   },
+   {
+    "verse": 37,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "son of Methuselah, son of Enoch, son of Jared, son of Mahalalel, son of Cainan,"
+     }
+    ]
+   },
+   {
+    "verse": 38,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "son of Enosh, son of Seth, son of Adam, son of God."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "tetrarch of Galilee",
+    "lemma": "τετρααρχέω",
+    "kind": "background",
+    "traditional": "",
+    "note": "A tetrarch was a dependent prince ruling part of a kingdom under Roman authority, ranking below a king. This Herod is Herod Antipas, a son of Herod the Great, whose territory was divided among his sons at his death. The fifteenth year of Tiberius is usually placed around AD 28 or 29, though the exact reckoning is disputed."
+   },
+   {
+    "verse": 2,
+    "phrase": "during the high priesthood of Annas and Caiaphas",
+    "lemma": "ἀρχιερεύς",
+    "kind": "background",
+    "traditional": "",
+    "note": "The Greek has 'high priest' in the singular with two names. Only one man held the office at a time; Caiaphas was the serving high priest in this period. Annas, his father-in-law, had been deposed by the Romans years earlier but kept great influence, and he is still called high priest elsewhere in the New Testament."
+   },
+   {
+    "verse": 3,
+    "phrase": "turning back",
+    "lemma": "μετάνοια",
+    "kind": "departure",
+    "traditional": "repentance",
+    "note": "The traditional rendering is 'repentance', which in modern English centres on feeling sorry. The Greek word carries the prophets' call to return to God, a change of direction in mind and conduct, as John's practical instructions in verses 10–14 show. Most translations keep 'repentance' as an established term that readers understand to include a change of life."
+   },
+   {
+    "verse": 15,
+    "phrase": "the Messiah",
+    "lemma": "Χριστός",
+    "kind": "departure",
+    "traditional": "the Christ",
+    "note": "The Greek word means 'anointed one' and here is a title for the king Israel was expecting, not a name. 'Messiah' conveys that the crowd is asking about an office. Several modern translations make the same choice in the Gospels where the title itself is under discussion, keeping 'Christ' where it functions as a name."
+   },
+   {
+    "verse": 16,
+    "phrase": "with the Holy Spirit and fire",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "",
+    "note": "The Greek preposition can mean 'with' or 'in', so 'in the Holy Spirit and fire' is equally possible. It is also disputed whether 'fire' describes purification of those who receive the Spirit, or judgment on those who do not, as the burning chaff in the next verse might suggest. Some interpreters see both."
+   },
+   {
+    "verse": 22,
+    "phrase": "You are my beloved Son; with you I am well pleased.",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "",
+    "note": "A few witnesses, chiefly Codex Bezae, the Old Latin, and several early Christian writers, read instead 'You are my Son; today I have begotten you', quoting Psalm 2:7. The great majority of manuscripts have the reading translated here, and most editors prefer it, though some scholars argue the other reading is original. The Greek could also be punctuated 'my Son, the Beloved'."
+   },
+   {
+    "verse": 23,
+    "phrase": "when he began his work",
+    "lemma": "ἄρχω",
+    "kind": "ambiguity",
+    "traditional": "",
+    "note": "The Greek says only 'when beginning', without stating what he began. Most interpreters take it as the start of his public activity, and 'his work' is supplied to complete the English. An older reading takes it with the age: 'was beginning to be about thirty years old'."
+   },
+   {
+    "verse": 23,
+    "phrase": "as was supposed",
+    "lemma": "νομίζω",
+    "kind": "background",
+    "traditional": "",
+    "note": "The phrase looks back to the account of Jesus' birth in the first two chapters, where Joseph is not his natural father. Luke's genealogy runs backwards from Jesus to Adam and differs from Matthew's between Joseph and David, tracing the line through David's son Nathan, not Solomon. Explanations have been proposed since antiquity, including that one list gives Mary's line or a legal line of descent, but none is certain."
+   },
+   {
+    "verse": 29,
+    "phrase": "Joshua",
+    "lemma": "Ἰησοῦς",
+    "kind": "background",
+    "traditional": "",
+    "note": "The Greek name here is identical to the name 'Jesus'; both represent the Hebrew name Joshua. English translations conventionally write 'Joshua' for this ancestor to distinguish him, though older versions have 'Jose' or 'Jesus'."
+   },
+   {
+    "verse": 32,
+    "phrase": "son of Sala",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "son of Salmon",
+    "note": "The manuscripts vary over several names in this part of the list. The edition translated here reads 'Sala' where many manuscripts have 'Salmon', the form found in Matthew and in Ruth, and it spells the name before Boaz in a way that still plainly refers to Obed. Copyists often adjusted unfamiliar names toward the Old Testament forms."
+   },
+   {
+    "verse": 33,
+    "phrase": "son of Admin, son of Arni",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "son of Aram",
+    "note": "This is among the most confused points in the genealogy's manuscript tradition. Many manuscripts read 'son of Aram' (the Ram of Ruth 4:19 and Matthew 1:3–4) in place of these two names, and others have further combinations. The names Admin and Arni are otherwise unknown, which is why many editors judge them original and the alternatives to be corrections."
+   },
+   {
+    "verse": 36,
+    "phrase": "son of Cainan",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "This Cainan, placed between Arphaxad and Shelah, appears in the Greek Septuagint version of Genesis 10–11 but not in the Hebrew text. Luke's list follows the Greek Scriptures used by his readers. A different Cainan, called Kenan in English Old Testaments, appears in verse 37."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "εὐαγγελίζω",
+    "rendering": "proclaimed good news",
+    "verse": 18,
+    "reason": "Recurs across Luke–Acts and Paul, and translators vary between 'preach the gospel', 'bring good news' and 'evangelize'; it should be coordinated with the rendering of εὐαγγέλιον."
+   },
+   {
+    "lemma": "ἄφεσις",
+    "rendering": "forgiveness",
+    "verse": 3,
+    "reason": "Means release or remission as well as forgiveness (compare Luke 4:18), and the choice between 'forgiveness', 'release' and 'remission' should be consistent across the New Testament."
+   },
+   {
+    "lemma": "κηρύσσω",
+    "rendering": "proclaiming",
+    "verse": 3,
+    "reason": "Traditionally 'preach', which now suggests a sermon; the herald's sense 'proclaim' needs to be fixed across the Gospels, Acts and the letters."
+   },
+   {
+    "lemma": "τελώνης",
+    "rendering": "tax collectors",
+    "verse": 12,
+    "reason": "These were contractors collecting tolls and duties, not direct taxes; 'tax collector', 'toll collector' and the older 'publican' compete, and the term recurs throughout the Synoptic Gospels."
+   },
+   {
+    "lemma": "ὀργή",
+    "rendering": "wrath",
+    "verse": 7,
+    "reason": "Used of God's judgment across the Gospels, Paul and Revelation; 'wrath', 'anger' and 'retribution' are all in use, and variation would obscure a recurring theme."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

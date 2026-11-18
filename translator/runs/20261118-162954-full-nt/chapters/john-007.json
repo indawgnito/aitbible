@@ -1,0 +1,767 @@
+{
+ "id": "john-007",
+ "book": "john",
+ "chapter": 7,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZmrkmvoG5oX21tai",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 10279,
+  "output_tokens": 17448
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"After this Jesus went about in Galilee. He did not want to go about in Judea, because the Judeans were seeking to kill him.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now the Jews’ Festival of Booths was near.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So his brothers said to him,\"},{\"speaker\":\"other\",\"text\":\"“Leave here and go to Judea, so that your disciples too may see the works you are doing.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"For no one does anything in secret while he himself seeks to be in the open. If you are doing these things, show yourself to the world.”\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For not even his brothers believed in him.\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So Jesus said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“My time has not yet arrived, but your time is always ready.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"The world cannot hate you, but it hates me, because I testify about it that its works are evil.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"You go up to the festival. I am not going up to this festival, because my time has not yet been fulfilled.”\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Having said this, he stayed behind in Galilee.\"}]},{\"verse\":10,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But when his brothers had gone up to the festival, then he too went up, not publicly but, as it were, in secret.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So the Jewish leaders were looking for him at the festival and saying,\"},{\"speaker\":\"other\",\"text\":\"“Where is that man?”\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And there was much murmuring about him among the crowds. Some were saying,\"},{\"speaker\":\"other\",\"text\":\"“He is a good man.”\"},{\"speaker\":\"narrator\",\"text\":\"Others were saying,\"},{\"speaker\":\"other\",\"text\":\"“No, he is leading the crowd astray.”\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Yet no one spoke openly about him, for fear of the Jewish leaders.\"}]},{\"verse\":14,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When the festival was already half over, Jesus went up to the temple and began to teach.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So the Jewish leaders were amazed and said,\"},{\"speaker\":\"other\",\"text\":\"“How is this man so learned, when he has never studied?”\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So Jesus answered them,\"},{\"speaker\":\"Jesus\",\"text\":\"“My teaching is not mine but belongs to the one who sent me.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"If anyone is willing to do his will, that person will know about the teaching, whether it is from God or whether I speak on my own.\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"The one who speaks on his own seeks his own glory; but the one who seeks the glory of the one who sent him is true, and there is no falsehood in him.\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Did not Moses give you the law? Yet none of you keeps the law. Why are you seeking to kill me?”\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The crowd answered,\"},{\"speaker\":\"other\",\"text\":\"“You have a demon! Who is seeking to kill you?”\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus answered them,\"},{\"speaker\":\"Jesus\",\"text\":\"“I did one work, and you are all amazed.\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For this reason Moses has given you circumcision—not that it comes from Moses, but from the fathers—and you circumcise a person on the Sabbath.\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"If a person receives circumcision on the Sabbath so that the law of Moses is not broken, are you angry with me because I made a whole person well on the Sabbath?\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Do not judge by appearance, but judge with just judgment.”\"}]},{\"verse\":25,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So some of the people of Jerusalem were saying,\"},{\"speaker\":\"other\",\"text\":\"“Is this not the man they are seeking to kill?\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"And look, he is speaking openly, and they say nothing to him. Can it be that the rulers have truly come to know that this is the Messiah?\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"But we know where this man is from; when the Messiah comes, no one knows where he is from.”\"}]},{\"verse\":28,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So Jesus cried out as he was teaching in the temple,\"},{\"speaker\":\"Jesus\",\"text\":\"“You know me, and you know where I am from. Yet I have not come on my own; rather, the one who sent me is true, and you do not know him.\"}]},{\"verse\":29,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"I know him, because I am from him, and he sent me.”\"}]},{\"verse\":30,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So they were seeking to seize him, yet no one laid a hand on him, because his hour had not yet come.\"}]},{\"verse\":31,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But many of the crowd believed in him, and they were saying,\"},{\"speaker\":\"other\",\"text\":\"“When the Messiah comes, surely he will not do more signs than this man has done?”\"}]},{\"verse\":32,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The Pharisees heard the crowd murmuring these things about him, and the chief priests and the Pharisees sent officers to seize him.\"}]},{\"verse\":33,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So Jesus said,\"},{\"speaker\":\"Jesus\",\"text\":\"“I am with you a little while longer, and then I am going to the one who sent me.\"}]},{\"verse\":34,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"You will look for me and will not find me, and where I am you cannot come.”\"}]},{\"verse\":35,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So the Jews said to one another,\"},{\"speaker\":\"other\",\"text\":\"“Where does this man intend to go, that we will not find him? Surely he does not intend to go to the Diaspora among the Greeks and teach the Greeks?\"}]},{\"verse\":36,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"What is this saying of his, ‘You will look for me and will not find me, and where I am you cannot come’?”\"}]},{\"verse\":37,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"On the last day, the great day of the festival, Jesus stood and cried out,\"},{\"speaker\":\"Jesus\",\"text\":\"“Let anyone who is thirsty come to me and drink.\"}]},{\"verse\":38,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Whoever believes in me, as the scripture has said, ‘Rivers of living water will flow from within him.’”\"}]},{\"verse\":39,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now he said this about the Spirit, which those who had believed in him were going to receive; for as yet there was no Spirit, because Jesus had not yet been glorified.\"}]},{\"verse\":40,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So some of the crowd, when they heard these words, were saying,\"},{\"speaker\":\"other\",\"text\":\"“This truly is the Prophet.”\"}]},{\"verse\":41,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Others were saying,\"},{\"speaker\":\"other\",\"text\":\"“This is the Messiah.”\"},{\"speaker\":\"narrator\",\"text\":\"But some were saying,\"},{\"speaker\":\"other\",\"text\":\"“Surely the Messiah does not come from Galilee?\"}]},{\"verse\":42,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Has not the scripture said that the Messiah comes from the offspring of David, and from Bethlehem, the village where David was?”\"}]},{\"verse\":43,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So a division arose in the crowd because of him.\"}]},{\"verse\":44,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Some of them wanted to seize him, but no one laid hands on him.\"}]},{\"verse\":45,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So the officers came to the chief priests and Pharisees, who said to them,\"},{\"speaker\":\"other\",\"text\":\"“Why did you not bring him?”\"}]},{\"verse\":46,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The officers answered,\"},{\"speaker\":\"other\",\"text\":\"“Never has a person spoken like this!”\"}]},{\"verse\":47,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So the Pharisees answered them,\"},{\"speaker\":\"other\",\"text\":\"“Surely you have not been led astray as well?\"}]},{\"verse\":48,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Has any of the rulers believed in him, or any of the Pharisees?\"}]},{\"verse\":49,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"But this crowd that does not know the law—they are accursed.”\"}]},{\"verse\":50,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Nicodemus, the one who had come to him earlier and who was one of them, said to them,\"}]},{\"verse\":51,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"“Surely our law does not judge a person without first hearing from him and finding out what he is doing?”\"}]},{\"verse\":52,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They answered him,\"},{\"speaker\":\"other\",\"text\":\"“Surely you are not from Galilee too? Search and see that no prophet arises from Galilee.”\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"the Judeans\",\"lemma\":\"Ἰουδαῖος\",\"kind\":\"departure\",\"traditional\":\"the Jews\",\"note\":\"The Greek word names a people with a religion and a homeland, and John uses it in more than one way. Here the contrast is geographic, Judea as against Galilee, so 'Judeans' is used. In verses 11, 13 and 15 the group is the Jerusalem authorities, as opposed to the festival crowds, who were themselves Jewish, so 'the Jewish leaders' is used there. Most translations have 'the Jews' throughout, and scholars are divided on the best English.\"},{\"verse\":2,\"phrase\":\"Festival of Booths\",\"lemma\":\"σκηνοπηγία\",\"kind\":\"background\",\"traditional\":\"Feast of Tabernacles\",\"note\":\"This was the week-long autumn pilgrimage festival (Sukkot), when people lived in temporary shelters to recall the wilderness years and to celebrate the harvest. 'Booths' is used because 'tabernacles' no longer suggests a hut to most readers. Later Jewish sources describe daily water-pouring rites at this festival, which may lie behind Jesus's words about thirst and living water in verses 37–38.\"},{\"verse\":8,\"phrase\":\"I am not going up\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"I am not yet going up\",\"note\":\"Many manuscripts, including some of the earliest, read 'not yet' instead of 'not'. Many editors prefer 'not' as the harder reading, which scribes may have softened because Jesus does go up in verse 10; others regard 'not yet' as original. The decision is disputed.\"},{\"verse\":15,\"phrase\":\"so learned\",\"lemma\":\"γράμμα\",\"kind\":\"background\",\"traditional\":\"knoweth letters\",\"note\":\"The Greek says literally that he 'knows letters', an idiom for being educated. The surprise is not that Jesus can read but that he teaches Scripture like a trained scholar without having studied under a recognised teacher.\"},{\"verse\":22,\"phrase\":\"For this reason\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"\",\"note\":\"These words can be attached to the end of verse 21 instead: 'you are all amazed because of it. Moses has given you circumcision…'. Several modern translations take them that way or leave them untranslated. The rendering here follows the punctuation of the Greek edition being translated, on which Jesus points to circumcision on the Sabbath as given with a purpose that his healing fulfils.\"},{\"verse\":24,\"phrase\":\"just judgment\",\"lemma\":\"δίκαιος\",\"kind\":\"departure\",\"traditional\":\"righteous judgment\",\"note\":\"Greek has one word-family where English has two (righteous/just, righteousness/justice). Since the subject here is judging fairly, 'just' is used. Older translations have 'righteous judgment'.\"},{\"verse\":26,\"phrase\":\"the Messiah\",\"lemma\":\"Χριστός\",\"kind\":\"departure\",\"traditional\":\"the Christ\",\"note\":\"The Greek word means the anointed king Israel expected, and in this chapter it is a title under debate, not a name. 'Messiah' conveys that to a modern reader; 'Christ' is kept where the word functions as a name for Jesus. Several modern translations make the same distinction.\"},{\"verse\":35,\"phrase\":\"the Diaspora among the Greeks\",\"lemma\":\"διασπορά\",\"kind\":\"background\",\"traditional\":\"the dispersed among the Gentiles\",\"note\":\"The 'Diaspora' was the standard term for Jews living scattered outside the land of Israel, here those in the Greek-speaking world. The speakers wonder, scornfully, whether Jesus will go abroad to those communities and even teach non-Jews. 'Greeks' here means Greek-speaking Gentiles.\"},{\"verse\":38,\"phrase\":\"Whoever believes in me\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"\",\"note\":\"The Greek can be punctuated differently: 'Let anyone who is thirsty come to me, and let the one who believes in me drink. As the scripture has said, rivers of living water will flow from within him', in which case the rivers flow from Jesus, not from the believer. Both readings are ancient and both have scholarly support. The translation follows the punctuation of the Greek edition used, which is also the more common reading.\"},{\"verse\":38,\"phrase\":\"from within him\",\"lemma\":\"κοιλία\",\"kind\":\"departure\",\"traditional\":\"out of his belly\",\"note\":\"The Greek word means the belly or womb and was also used for a person's inner self; many modern versions have 'heart' or 'from within'. No single Old Testament passage matches the quotation. It probably draws together several texts about water flowing in the wilderness and from the temple, and which ones are meant is disputed.\"},{\"verse\":39,\"phrase\":\"as yet there was no Spirit\",\"lemma\":\"πνεῦμα\",\"kind\":\"departure\",\"traditional\":\"the Spirit was not yet given\",\"note\":\"The Greek says simply 'there was not yet Spirit'. Most translations add 'given', as some later manuscripts do. John has already spoken of the Spirit descending on Jesus, so the meaning is not that the Spirit did not exist but that the Spirit was not yet present with believers in the way that followed Jesus's glorification.\"},{\"verse\":40,\"phrase\":\"the Prophet\",\"lemma\":\"προφήτης\",\"kind\":\"background\",\"traditional\":\"the Prophet\",\"note\":\"This is not 'a prophet' but a particular expected figure: the prophet like Moses promised in Deuteronomy 18:15–18. In John the crowds treat this figure as distinct from the Messiah (compare 1:20–21).\"}],\"candidates\":[{\"lemma\":\"παρρησία\",\"rendering\":\"openly / in the open\",\"verse\":4,\"reason\":\"It ranges across 'openly', 'plainly', 'boldly' and 'confidence' in John, Acts, Paul and Hebrews, and translators vary widely, so the senses need fixing once.\"},{\"lemma\":\"ὑπηρέτης\",\"rendering\":\"officers\",\"verse\":32,\"reason\":\"It is rendered variously as officers, guards, temple police, attendants, servants and ministers across the Gospels, Acts and 1 Corinthians, and the reader should see one word per sense.\"},{\"lemma\":\"πλανάω\",\"rendering\":\"lead astray\",\"verse\":12,\"reason\":\"'Deceive', 'lead astray', 'mislead' and 'go astray' compete across the Gospels, the letters and Revelation, and the charge of leading the people astray is a recurring technical accusation.\"},{\"lemma\":\"ἄρχων\",\"rendering\":\"rulers\",\"verse\":26,\"reason\":\"'Rulers', 'authorities', 'leaders' and 'officials' are all in use for Jewish council members, civic magistrates and spiritual powers, and consistency by sense is needed.\"},{\"lemma\":\"διασπορά\",\"rendering\":\"the Diaspora\",\"verse\":35,\"reason\":\"It occurs here and in James 1:1 and 1 Peter 1:1, where 'Dispersion', 'Diaspora' and 'scattered' compete, and it should be decided whether the established English word 'Diaspora' is used throughout.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "After this Jesus went about in Galilee. He did not want to go about in Judea, because the Judeans were seeking to kill him."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now the Jews’ Festival of Booths was near."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So his brothers said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Leave here and go to Judea, so that your disciples too may see the works you are doing."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "For no one does anything in secret while he himself seeks to be in the open. If you are doing these things, show yourself to the world.”"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For not even his brothers believed in him."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So Jesus said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“My time has not yet arrived, but your time is always ready."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "The world cannot hate you, but it hates me, because I testify about it that its works are evil."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "You go up to the festival. I am not going up to this festival, because my time has not yet been fulfilled.”"
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Having said this, he stayed behind in Galilee."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But when his brothers had gone up to the festival, then he too went up, not publicly but, as it were, in secret."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So the Jewish leaders were looking for him at the festival and saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Where is that man?”"
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And there was much murmuring about him among the crowds. Some were saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“He is a good man.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "Others were saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“No, he is leading the crowd astray.”"
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Yet no one spoke openly about him, for fear of the Jewish leaders."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When the festival was already half over, Jesus went up to the temple and began to teach."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So the Jewish leaders were amazed and said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“How is this man so learned, when he has never studied?”"
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So Jesus answered them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“My teaching is not mine but belongs to the one who sent me."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "If anyone is willing to do his will, that person will know about the teaching, whether it is from God or whether I speak on my own."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "The one who speaks on his own seeks his own glory; but the one who seeks the glory of the one who sent him is true, and there is no falsehood in him."
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Did not Moses give you the law? Yet none of you keeps the law. Why are you seeking to kill me?”"
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The crowd answered,"
+     },
+     {
+      "speaker": "other",
+      "text": "“You have a demon! Who is seeking to kill you?”"
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus answered them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“I did one work, and you are all amazed."
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For this reason Moses has given you circumcision—not that it comes from Moses, but from the fathers—and you circumcise a person on the Sabbath."
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "If a person receives circumcision on the Sabbath so that the law of Moses is not broken, are you angry with me because I made a whole person well on the Sabbath?"
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Do not judge by appearance, but judge with just judgment.”"
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So some of the people of Jerusalem were saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Is this not the man they are seeking to kill?"
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "And look, he is speaking openly, and they say nothing to him. Can it be that the rulers have truly come to know that this is the Messiah?"
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "But we know where this man is from; when the Messiah comes, no one knows where he is from.”"
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So Jesus cried out as he was teaching in the temple,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“You know me, and you know where I am from. Yet I have not come on my own; rather, the one who sent me is true, and you do not know him."
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "I know him, because I am from him, and he sent me.”"
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So they were seeking to seize him, yet no one laid a hand on him, because his hour had not yet come."
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But many of the crowd believed in him, and they were saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“When the Messiah comes, surely he will not do more signs than this man has done?”"
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The Pharisees heard the crowd murmuring these things about him, and the chief priests and the Pharisees sent officers to seize him."
+     }
+    ]
+   },
+   {
+    "verse": 33,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So Jesus said,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“I am with you a little while longer, and then I am going to the one who sent me."
+     }
+    ]
+   },
+   {
+    "verse": 34,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "You will look for me and will not find me, and where I am you cannot come.”"
+     }
+    ]
+   },
+   {
+    "verse": 35,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So the Jews said to one another,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Where does this man intend to go, that we will not find him? Surely he does not intend to go to the Diaspora among the Greeks and teach the Greeks?"
+     }
+    ]
+   },
+   {
+    "verse": 36,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "What is this saying of his, ‘You will look for me and will not find me, and where I am you cannot come’?”"
+     }
+    ]
+   },
+   {
+    "verse": 37,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "On the last day, the great day of the festival, Jesus stood and cried out,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Let anyone who is thirsty come to me and drink."
+     }
+    ]
+   },
+   {
+    "verse": 38,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Whoever believes in me, as the scripture has said, ‘Rivers of living water will flow from within him.’”"
+     }
+    ]
+   },
+   {
+    "verse": 39,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now he said this about the Spirit, which those who had believed in him were going to receive; for as yet there was no Spirit, because Jesus had not yet been glorified."
+     }
+    ]
+   },
+   {
+    "verse": 40,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So some of the crowd, when they heard these words, were saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“This truly is the Prophet.”"
+     }
+    ]
+   },
+   {
+    "verse": 41,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Others were saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“This is the Messiah.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "But some were saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Surely the Messiah does not come from Galilee?"
+     }
+    ]
+   },
+   {
+    "verse": 42,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Has not the scripture said that the Messiah comes from the offspring of David, and from Bethlehem, the village where David was?”"
+     }
+    ]
+   },
+   {
+    "verse": 43,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So a division arose in the crowd because of him."
+     }
+    ]
+   },
+   {
+    "verse": 44,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Some of them wanted to seize him, but no one laid hands on him."
+     }
+    ]
+   },
+   {
+    "verse": 45,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So the officers came to the chief priests and Pharisees, who said to them,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Why did you not bring him?”"
+     }
+    ]
+   },
+   {
+    "verse": 46,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The officers answered,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Never has a person spoken like this!”"
+     }
+    ]
+   },
+   {
+    "verse": 47,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So the Pharisees answered them,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Surely you have not been led astray as well?"
+     }
+    ]
+   },
+   {
+    "verse": 48,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Has any of the rulers believed in him, or any of the Pharisees?"
+     }
+    ]
+   },
+   {
+    "verse": 49,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "But this crowd that does not know the law—they are accursed.”"
+     }
+    ]
+   },
+   {
+    "verse": 50,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Nicodemus, the one who had come to him earlier and who was one of them, said to them,"
+     }
+    ]
+   },
+   {
+    "verse": 51,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "“Surely our law does not judge a person without first hearing from him and finding out what he is doing?”"
+     }
+    ]
+   },
+   {
+    "verse": 52,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They answered him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Surely you are not from Galilee too? Search and see that no prophet arises from Galilee.”"
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "the Judeans",
+    "lemma": "Ἰουδαῖος",
+    "kind": "departure",
+    "traditional": "the Jews",
+    "note": "The Greek word names a people with a religion and a homeland, and John uses it in more than one way. Here the contrast is geographic, Judea as against Galilee, so 'Judeans' is used. In verses 11, 13 and 15 the group is the Jerusalem authorities, as opposed to the festival crowds, who were themselves Jewish, so 'the Jewish leaders' is used there. Most translations have 'the Jews' throughout, and scholars are divided on the best English."
+   },
+   {
+    "verse": 2,
+    "phrase": "Festival of Booths",
+    "lemma": "σκηνοπηγία",
+    "kind": "background",
+    "traditional": "Feast of Tabernacles",
+    "note": "This was the week-long autumn pilgrimage festival (Sukkot), when people lived in temporary shelters to recall the wilderness years and to celebrate the harvest. 'Booths' is used because 'tabernacles' no longer suggests a hut to most readers. Later Jewish sources describe daily water-pouring rites at this festival, which may lie behind Jesus's words about thirst and living water in verses 37–38."
+   },
+   {
+    "verse": 8,
+    "phrase": "I am not going up",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "I am not yet going up",
+    "note": "Many manuscripts, including some of the earliest, read 'not yet' instead of 'not'. Many editors prefer 'not' as the harder reading, which scribes may have softened because Jesus does go up in verse 10; others regard 'not yet' as original. The decision is disputed."
+   },
+   {
+    "verse": 15,
+    "phrase": "so learned",
+    "lemma": "γράμμα",
+    "kind": "background",
+    "traditional": "knoweth letters",
+    "note": "The Greek says literally that he 'knows letters', an idiom for being educated. The surprise is not that Jesus can read but that he teaches Scripture like a trained scholar without having studied under a recognised teacher."
+   },
+   {
+    "verse": 22,
+    "phrase": "For this reason",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "",
+    "note": "These words can be attached to the end of verse 21 instead: 'you are all amazed because of it. Moses has given you circumcision…'. Several modern translations take them that way or leave them untranslated. The rendering here follows the punctuation of the Greek edition being translated, on which Jesus points to circumcision on the Sabbath as given with a purpose that his healing fulfils."
+   },
+   {
+    "verse": 24,
+    "phrase": "just judgment",
+    "lemma": "δίκαιος",
+    "kind": "departure",
+    "traditional": "righteous judgment",
+    "note": "Greek has one word-family where English has two (righteous/just, righteousness/justice). Since the subject here is judging fairly, 'just' is used. Older translations have 'righteous judgment'."
+   },
+   {
+    "verse": 26,
+    "phrase": "the Messiah",
+    "lemma": "Χριστός",
+    "kind": "departure",
+    "traditional": "the Christ",
+    "note": "The Greek word means the anointed king Israel expected, and in this chapter it is a title under debate, not a name. 'Messiah' conveys that to a modern reader; 'Christ' is kept where the word functions as a name for Jesus. Several modern translations make the same distinction."
+   },
+   {
+    "verse": 35,
+    "phrase": "the Diaspora among the Greeks",
+    "lemma": "διασπορά",
+    "kind": "background",
+    "traditional": "the dispersed among the Gentiles",
+    "note": "The 'Diaspora' was the standard term for Jews living scattered outside the land of Israel, here those in the Greek-speaking world. The speakers wonder, scornfully, whether Jesus will go abroad to those communities and even teach non-Jews. 'Greeks' here means Greek-speaking Gentiles."
+   },
+   {
+    "verse": 38,
+    "phrase": "Whoever believes in me",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "",
+    "note": "The Greek can be punctuated differently: 'Let anyone who is thirsty come to me, and let the one who believes in me drink. As the scripture has said, rivers of living water will flow from within him', in which case the rivers flow from Jesus, not from the believer. Both readings are ancient and both have scholarly support. The translation follows the punctuation of the Greek edition used, which is also the more common reading."
+   },
+   {
+    "verse": 38,
+    "phrase": "from within him",
+    "lemma": "κοιλία",
+    "kind": "departure",
+    "traditional": "out of his belly",
+    "note": "The Greek word means the belly or womb and was also used for a person's inner self; many modern versions have 'heart' or 'from within'. No single Old Testament passage matches the quotation. It probably draws together several texts about water flowing in the wilderness and from the temple, and which ones are meant is disputed."
+   },
+   {
+    "verse": 39,
+    "phrase": "as yet there was no Spirit",
+    "lemma": "πνεῦμα",
+    "kind": "departure",
+    "traditional": "the Spirit was not yet given",
+    "note": "The Greek says simply 'there was not yet Spirit'. Most translations add 'given', as some later manuscripts do. John has already spoken of the Spirit descending on Jesus, so the meaning is not that the Spirit did not exist but that the Spirit was not yet present with believers in the way that followed Jesus's glorification."
+   },
+   {
+    "verse": 40,
+    "phrase": "the Prophet",
+    "lemma": "προφήτης",
+    "kind": "background",
+    "traditional": "the Prophet",
+    "note": "This is not 'a prophet' but a particular expected figure: the prophet like Moses promised in Deuteronomy 18:15–18. In John the crowds treat this figure as distinct from the Messiah (compare 1:20–21)."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "παρρησία",
+    "rendering": "openly / in the open",
+    "verse": 4,
+    "reason": "It ranges across 'openly', 'plainly', 'boldly' and 'confidence' in John, Acts, Paul and Hebrews, and translators vary widely, so the senses need fixing once."
+   },
+   {
+    "lemma": "ὑπηρέτης",
+    "rendering": "officers",
+    "verse": 32,
+    "reason": "It is rendered variously as officers, guards, temple police, attendants, servants and ministers across the Gospels, Acts and 1 Corinthians, and the reader should see one word per sense."
+   },
+   {
+    "lemma": "πλανάω",
+    "rendering": "lead astray",
+    "verse": 12,
+    "reason": "'Deceive', 'lead astray', 'mislead' and 'go astray' compete across the Gospels, the letters and Revelation, and the charge of leading the people astray is a recurring technical accusation."
+   },
+   {
+    "lemma": "ἄρχων",
+    "rendering": "rulers",
+    "verse": 26,
+    "reason": "'Rulers', 'authorities', 'leaders' and 'officials' are all in use for Jewish council members, civic magistrates and spiritual powers, and consistency by sense is needed."
+   },
+   {
+    "lemma": "διασπορά",
+    "rendering": "the Diaspora",
+    "verse": 35,
+    "reason": "It occurs here and in James 1:1 and 1 Peter 1:1, where 'Dispersion', 'Diaspora' and 'scattered' compete, and it should be decided whether the established English word 'Diaspora' is used throughout."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

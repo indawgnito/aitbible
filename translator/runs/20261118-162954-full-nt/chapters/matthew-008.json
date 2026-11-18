@@ -1,0 +1,591 @@
+{
+ "id": "matthew-008",
+ "book": "matthew",
+ "chapter": 8,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhaCR2w7zejmgZQVhc",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 7901,
+  "output_tokens": 14849
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When he came down from the mountain, large crowds followed him.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And look, a man with a skin disease came up and bowed down before him, saying,\"},{\"speaker\":\"other\",\"text\":\"“Lord, if you are willing, you can make me clean.”\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He stretched out his hand and touched him, saying,\"},{\"speaker\":\"Jesus\",\"text\":\"“I am willing; be made clean.”\"},{\"speaker\":\"narrator\",\"text\":\"And immediately his skin disease was cleansed.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And Jesus said to him,\"},{\"speaker\":\"Jesus\",\"text\":\"“See that you tell no one. But go, show yourself to the priest and offer the gift that Moses commanded, as a testimony to them.”\"}]},{\"verse\":5,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When he entered Capernaum, a centurion came to him, pleading with him\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and saying,\"},{\"speaker\":\"other\",\"text\":\"“Lord, my servant is lying at home paralyzed, terribly tormented.”\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He said to him,\"},{\"speaker\":\"Jesus\",\"text\":\"“I will come and heal him.”\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The centurion answered,\"},{\"speaker\":\"other\",\"text\":\"“Lord, I am not worthy for you to come under my roof. But only say the word, and my servant will be healed.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"For I too am a man under authority, with soldiers under me. I say to this one, ‘Go,’ and he goes; and to another, ‘Come,’ and he comes; and to my slave, ‘Do this,’ and he does it.”\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When Jesus heard this, he was amazed and said to those who were following,\"},{\"speaker\":\"Jesus\",\"text\":\"“Truly I tell you, with no one in Israel have I found such faith.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"I tell you that many will come from east and west and recline at table with Abraham and Isaac and Jacob in the kingdom of the heavens,\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"but the sons of the kingdom will be driven out into the outer darkness. In that place there will be weeping and gnashing of teeth.”\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And Jesus said to the centurion,\"},{\"speaker\":\"Jesus\",\"text\":\"“Go; let it be done for you as you have believed.”\"},{\"speaker\":\"narrator\",\"text\":\"And the servant was healed in that very hour.\"}]},{\"verse\":14,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When Jesus came into Peter’s house, he saw Peter’s mother-in-law lying there with a fever.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He touched her hand, and the fever left her, and she got up and began to serve him.\"}]},{\"verse\":16,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When evening came, they brought to him many who were demon-possessed, and he drove out the spirits with a word and healed all who were sick.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"This was to fulfill what was spoken through Isaiah the prophet:\"},{\"speaker\":\"scripture\",\"text\":\"“He himself took our sicknesses and carried our diseases.”\"}]},{\"verse\":18,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now when Jesus saw large crowds around him, he gave orders to cross to the other side.\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And a scribe came up and said to him,\"},{\"speaker\":\"other\",\"text\":\"“Teacher, I will follow you wherever you go.”\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus said to him,\"},{\"speaker\":\"Jesus\",\"text\":\"“Foxes have dens and the birds of the sky have nests, but the Son of Man has nowhere to lay his head.”\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Another, one of the disciples, said to him,\"},{\"speaker\":\"other\",\"text\":\"“Lord, allow me first to go and bury my father.”\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But Jesus said to him,\"},{\"speaker\":\"Jesus\",\"text\":\"“Follow me, and leave the dead to bury their own dead.”\"}]},{\"verse\":23,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When he got into the boat, his disciples followed him.\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And look, a great storm shook the sea, so that the boat was being covered by the waves; but he was asleep.\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They came and woke him, saying,\"},{\"speaker\":\"other\",\"text\":\"“Lord, save us! We are perishing!”\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Why are you so afraid, you of little faith?”\"},{\"speaker\":\"narrator\",\"text\":\"Then he got up and rebuked the winds and the sea, and there was a great calm.\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The men were amazed and said,\"},{\"speaker\":\"other\",\"text\":\"“What kind of man is this, that even the winds and the sea obey him?”\"}]},{\"verse\":28,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When he came to the other side, to the region of the Gadarenes, two demon-possessed men met him, coming out from the tombs. They were so fierce that no one could pass along that road.\"}]},{\"verse\":29,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And look, they cried out,\"},{\"speaker\":\"other\",\"text\":\"“What have you to do with us, Son of God? Have you come here before the appointed time to torment us?”\"}]},{\"verse\":30,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now some distance away from them a large herd of pigs was feeding.\"}]},{\"verse\":31,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The demons pleaded with him,\"},{\"speaker\":\"other\",\"text\":\"“If you drive us out, send us into the herd of pigs.”\"}]},{\"verse\":32,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Go!”\"},{\"speaker\":\"narrator\",\"text\":\"So they came out and went off into the pigs; and look, the whole herd rushed down the steep bank into the sea and died in the waters.\"}]},{\"verse\":33,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Those tending them fled, and going off into the town they reported everything, including what had happened to the demon-possessed men.\"}]},{\"verse\":34,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And look, the whole town came out to meet Jesus, and when they saw him they pleaded with him to move on from their region.\"}]}],\"notes\":[{\"verse\":2,\"phrase\":\"a man with a skin disease\",\"lemma\":\"λεπρός\",\"kind\":\"departure\",\"traditional\":\"a leper\",\"note\":\"The traditional 'leper' suggests Hansen's disease, which is what 'leprosy' means today. The Greek word, as used in the Septuagint for the condition regulated in Leviticus 13–14, covers a range of scaly skin conditions that made a person ritually unclean, which is why the man asks to be made 'clean' rather than healed. Most scholars agree the term is broader than modern leprosy, though many translations keep the familiar word.\"},{\"verse\":2,\"phrase\":\"bowed down before him\",\"lemma\":\"προσκυνέω\",\"kind\":\"departure\",\"traditional\":\"worshipped him\",\"note\":\"The verb describes the physical act of prostrating oneself before a superior, whether a king, a patron or a god. Older translations render it 'worshipped'; many modern ones have 'knelt before him'. Whether Matthew means readers to see more than deep respect in the gesture here is debated, and the rendering leaves that open.\"},{\"verse\":4,\"phrase\":\"as a testimony to them\",\"lemma\":\"μαρτύριον\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"Leviticus 14 required a person recovered from such a skin disease to be examined by a priest and to make an offering before returning to ordinary community life. 'Them' may be the priests or the people generally. The phrase could also be taken in a hostile sense, 'as evidence against them', but most interpreters read it as positive proof of the cure.\"},{\"verse\":6,\"phrase\":\"my servant\",\"lemma\":\"παῖς\",\"kind\":\"ambiguity\",\"traditional\":\"my servant\",\"note\":\"The Greek word can mean either a child ('my boy', 'my son') or a servant of any age. Most translations choose 'servant', partly because Luke's parallel account calls him a slave; a minority of scholars argue for 'son'. It is a different word from the one rendered 'slave' in verse 9.\"},{\"verse\":7,\"phrase\":\"I will come and heal him\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"\",\"note\":\"The Greek can equally be read as a question, with an emphatic 'I': 'Am I to come and heal him?' On that reading Jesus hesitates over entering a Gentile's house, and the centurion's reply in verse 8 answers the hesitation. Most translations take it as a statement, but a number of scholars prefer the question.\"},{\"verse\":9,\"phrase\":\"my slave\",\"lemma\":\"δοῦλος\",\"kind\":\"departure\",\"traditional\":\"my servant\",\"note\":\"The word denotes a person owned by another, not a hired employee, and a first-century reader would have understood it so. Many English versions soften it to 'servant'. 'Slave' also keeps it distinct from the different word translated 'servant' in verses 6, 8 and 13.\"},{\"verse\":10,\"phrase\":\"with no one in Israel have I found such faith\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"I have not found so great faith, no, not in Israel\",\"note\":\"Many manuscripts read 'not even in Israel have I found such faith', which matches the wording of Luke 7:9. The reading translated here has early manuscript support, and editors generally judge that copyists were more likely to bring Matthew into line with Luke than the reverse.\"},{\"verse\":11,\"phrase\":\"the kingdom of the heavens\",\"lemma\":\"οὐρανός\",\"kind\":\"departure\",\"traditional\":\"the kingdom of heaven\",\"note\":\"The Greek is plural, reflecting a Hebrew and Aramaic way of speaking that a first-century hearer would have noticed. Most translations flatten it to 'heaven'. The picture of reclining at table is of a banquet, where guests lay on couches to eat.\"},{\"verse\":12,\"phrase\":\"the sons of the kingdom\",\"lemma\":\"υἱός\",\"kind\":\"background\",\"traditional\":\"the children of the kingdom\",\"note\":\"'Son of' something is a Semitic idiom for one who belongs to it or is its natural heir. Here it refers to those who would be expected to inherit the kingdom by birth, in contrast to the many who come from east and west.\"},{\"verse\":17,\"phrase\":\"He himself took our sicknesses and carried our diseases\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"The quotation is Isaiah 53:4. Matthew's wording stays close to the Hebrew, which speaks of sicknesses and pains, rather than the Septuagint, which speaks of sins. He applies the line to physical healing.\"},{\"verse\":22,\"phrase\":\"leave the dead to bury their own dead\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"Burying a parent was among the most serious family obligations in Jewish life, which is what makes the saying so startling. Some interpreters think the father had not yet died and the man was asking to stay at home until he did, but the Greek does not say so. The first 'dead' is usually understood figuratively, of those who do not respond to Jesus' call.\"},{\"verse\":24,\"phrase\":\"a great storm shook the sea\",\"lemma\":\"σεισμός\",\"kind\":\"departure\",\"traditional\":\"there arose a great tempest in the sea\",\"note\":\"The Greek noun means a shaking and is the usual word for an earthquake, as elsewhere in Matthew. Mark and Luke use an ordinary word for a squall in their accounts. 'Storm' is clearly what is meant, since waves and winds follow, and the verb 'shook' is supplied to keep the force of the unusual word.\"},{\"verse\":28,\"phrase\":\"the Gadarenes\",\"lemma\":\"Γαδαρηνός\",\"kind\":\"textual\",\"traditional\":\"the Gergesenes\",\"note\":\"Manuscripts vary between Gadarenes, Gerasenes and Gergesenes, here and in the parallel passages in Mark and Luke. Gadara and Gerasa were both cities of the Decapolis, Gadara several miles from the lake and Gerasa much farther. Most editors judge 'Gadarenes' to be the original reading in Matthew.\"}],\"candidates\":[{\"lemma\":\"προσκυνέω\",\"rendering\":\"bow down before\",\"verse\":2,\"reason\":\"Recurs across the Gospels, Acts and Revelation, and the choice between 'worship', 'kneel' and 'bow down' carries christological weight that should not vary by chapter.\"},{\"lemma\":\"δοῦλος\",\"rendering\":\"slave\",\"verse\":9,\"reason\":\"Very frequent across the New Testament; 'servant', 'slave' and 'bondservant' are all in use, and inconsistency would obscure both the social reality and Paul's self-descriptions.\"},{\"lemma\":\"λεπρός\",\"rendering\":\"a man with a skin disease\",\"verse\":2,\"reason\":\"The λεπρός/λέπρα word group recurs through the Synoptics, and translators split between 'leper/leprosy' and a broader skin-disease rendering.\"},{\"lemma\":\"ἰδού\",\"rendering\":\"look\",\"verse\":2,\"reason\":\"Extremely frequent in narrative and speech; translators variously use 'behold', 'look', 'suddenly' or omit it, and a single policy is needed for consistency.\"},{\"lemma\":\"κύριος\",\"rendering\":\"Lord\",\"verse\":2,\"reason\":\"As a form of address to Jesus it can mean 'sir', 'master' or 'Lord', and the choice in each Gospel scene needs a consistent principle.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When he came down from the mountain, large crowds followed him."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And look, a man with a skin disease came up and bowed down before him, saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Lord, if you are willing, you can make me clean.”"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He stretched out his hand and touched him, saying,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“I am willing; be made clean.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "And immediately his skin disease was cleansed."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And Jesus said to him,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“See that you tell no one. But go, show yourself to the priest and offer the gift that Moses commanded, as a testimony to them.”"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When he entered Capernaum, a centurion came to him, pleading with him"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Lord, my servant is lying at home paralyzed, terribly tormented.”"
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He said to him,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“I will come and heal him.”"
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The centurion answered,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Lord, I am not worthy for you to come under my roof. But only say the word, and my servant will be healed."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "For I too am a man under authority, with soldiers under me. I say to this one, ‘Go,’ and he goes; and to another, ‘Come,’ and he comes; and to my slave, ‘Do this,’ and he does it.”"
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When Jesus heard this, he was amazed and said to those who were following,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Truly I tell you, with no one in Israel have I found such faith."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "I tell you that many will come from east and west and recline at table with Abraham and Isaac and Jacob in the kingdom of the heavens,"
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "but the sons of the kingdom will be driven out into the outer darkness. In that place there will be weeping and gnashing of teeth.”"
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And Jesus said to the centurion,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Go; let it be done for you as you have believed.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "And the servant was healed in that very hour."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When Jesus came into Peter’s house, he saw Peter’s mother-in-law lying there with a fever."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He touched her hand, and the fever left her, and she got up and began to serve him."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When evening came, they brought to him many who were demon-possessed, and he drove out the spirits with a word and healed all who were sick."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "This was to fulfill what was spoken through Isaiah the prophet:"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“He himself took our sicknesses and carried our diseases.”"
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now when Jesus saw large crowds around him, he gave orders to cross to the other side."
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And a scribe came up and said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Teacher, I will follow you wherever you go.”"
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus said to him,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Foxes have dens and the birds of the sky have nests, but the Son of Man has nowhere to lay his head.”"
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Another, one of the disciples, said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Lord, allow me first to go and bury my father.”"
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But Jesus said to him,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Follow me, and leave the dead to bury their own dead.”"
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When he got into the boat, his disciples followed him."
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And look, a great storm shook the sea, so that the boat was being covered by the waves; but he was asleep."
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They came and woke him, saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Lord, save us! We are perishing!”"
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Why are you so afraid, you of little faith?”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "Then he got up and rebuked the winds and the sea, and there was a great calm."
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The men were amazed and said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“What kind of man is this, that even the winds and the sea obey him?”"
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When he came to the other side, to the region of the Gadarenes, two demon-possessed men met him, coming out from the tombs. They were so fierce that no one could pass along that road."
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And look, they cried out,"
+     },
+     {
+      "speaker": "other",
+      "text": "“What have you to do with us, Son of God? Have you come here before the appointed time to torment us?”"
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now some distance away from them a large herd of pigs was feeding."
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The demons pleaded with him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“If you drive us out, send us into the herd of pigs.”"
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Go!”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "So they came out and went off into the pigs; and look, the whole herd rushed down the steep bank into the sea and died in the waters."
+     }
+    ]
+   },
+   {
+    "verse": 33,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Those tending them fled, and going off into the town they reported everything, including what had happened to the demon-possessed men."
+     }
+    ]
+   },
+   {
+    "verse": 34,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And look, the whole town came out to meet Jesus, and when they saw him they pleaded with him to move on from their region."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 2,
+    "phrase": "a man with a skin disease",
+    "lemma": "λεπρός",
+    "kind": "departure",
+    "traditional": "a leper",
+    "note": "The traditional 'leper' suggests Hansen's disease, which is what 'leprosy' means today. The Greek word, as used in the Septuagint for the condition regulated in Leviticus 13–14, covers a range of scaly skin conditions that made a person ritually unclean, which is why the man asks to be made 'clean' rather than healed. Most scholars agree the term is broader than modern leprosy, though many translations keep the familiar word."
+   },
+   {
+    "verse": 2,
+    "phrase": "bowed down before him",
+    "lemma": "προσκυνέω",
+    "kind": "departure",
+    "traditional": "worshipped him",
+    "note": "The verb describes the physical act of prostrating oneself before a superior, whether a king, a patron or a god. Older translations render it 'worshipped'; many modern ones have 'knelt before him'. Whether Matthew means readers to see more than deep respect in the gesture here is debated, and the rendering leaves that open."
+   },
+   {
+    "verse": 4,
+    "phrase": "as a testimony to them",
+    "lemma": "μαρτύριον",
+    "kind": "background",
+    "traditional": "",
+    "note": "Leviticus 14 required a person recovered from such a skin disease to be examined by a priest and to make an offering before returning to ordinary community life. 'Them' may be the priests or the people generally. The phrase could also be taken in a hostile sense, 'as evidence against them', but most interpreters read it as positive proof of the cure."
+   },
+   {
+    "verse": 6,
+    "phrase": "my servant",
+    "lemma": "παῖς",
+    "kind": "ambiguity",
+    "traditional": "my servant",
+    "note": "The Greek word can mean either a child ('my boy', 'my son') or a servant of any age. Most translations choose 'servant', partly because Luke's parallel account calls him a slave; a minority of scholars argue for 'son'. It is a different word from the one rendered 'slave' in verse 9."
+   },
+   {
+    "verse": 7,
+    "phrase": "I will come and heal him",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "",
+    "note": "The Greek can equally be read as a question, with an emphatic 'I': 'Am I to come and heal him?' On that reading Jesus hesitates over entering a Gentile's house, and the centurion's reply in verse 8 answers the hesitation. Most translations take it as a statement, but a number of scholars prefer the question."
+   },
+   {
+    "verse": 9,
+    "phrase": "my slave",
+    "lemma": "δοῦλος",
+    "kind": "departure",
+    "traditional": "my servant",
+    "note": "The word denotes a person owned by another, not a hired employee, and a first-century reader would have understood it so. Many English versions soften it to 'servant'. 'Slave' also keeps it distinct from the different word translated 'servant' in verses 6, 8 and 13."
+   },
+   {
+    "verse": 10,
+    "phrase": "with no one in Israel have I found such faith",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "I have not found so great faith, no, not in Israel",
+    "note": "Many manuscripts read 'not even in Israel have I found such faith', which matches the wording of Luke 7:9. The reading translated here has early manuscript support, and editors generally judge that copyists were more likely to bring Matthew into line with Luke than the reverse."
+   },
+   {
+    "verse": 11,
+    "phrase": "the kingdom of the heavens",
+    "lemma": "οὐρανός",
+    "kind": "departure",
+    "traditional": "the kingdom of heaven",
+    "note": "The Greek is plural, reflecting a Hebrew and Aramaic way of speaking that a first-century hearer would have noticed. Most translations flatten it to 'heaven'. The picture of reclining at table is of a banquet, where guests lay on couches to eat."
+   },
+   {
+    "verse": 12,
+    "phrase": "the sons of the kingdom",
+    "lemma": "υἱός",
+    "kind": "background",
+    "traditional": "the children of the kingdom",
+    "note": "'Son of' something is a Semitic idiom for one who belongs to it or is its natural heir. Here it refers to those who would be expected to inherit the kingdom by birth, in contrast to the many who come from east and west."
+   },
+   {
+    "verse": 17,
+    "phrase": "He himself took our sicknesses and carried our diseases",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "The quotation is Isaiah 53:4. Matthew's wording stays close to the Hebrew, which speaks of sicknesses and pains, rather than the Septuagint, which speaks of sins. He applies the line to physical healing."
+   },
+   {
+    "verse": 22,
+    "phrase": "leave the dead to bury their own dead",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "Burying a parent was among the most serious family obligations in Jewish life, which is what makes the saying so startling. Some interpreters think the father had not yet died and the man was asking to stay at home until he did, but the Greek does not say so. The first 'dead' is usually understood figuratively, of those who do not respond to Jesus' call."
+   },
+   {
+    "verse": 24,
+    "phrase": "a great storm shook the sea",
+    "lemma": "σεισμός",
+    "kind": "departure",
+    "traditional": "there arose a great tempest in the sea",
+    "note": "The Greek noun means a shaking and is the usual word for an earthquake, as elsewhere in Matthew. Mark and Luke use an ordinary word for a squall in their accounts. 'Storm' is clearly what is meant, since waves and winds follow, and the verb 'shook' is supplied to keep the force of the unusual word."
+   },
+   {
+    "verse": 28,
+    "phrase": "the Gadarenes",
+    "lemma": "Γαδαρηνός",
+    "kind": "textual",
+    "traditional": "the Gergesenes",
+    "note": "Manuscripts vary between Gadarenes, Gerasenes and Gergesenes, here and in the parallel passages in Mark and Luke. Gadara and Gerasa were both cities of the Decapolis, Gadara several miles from the lake and Gerasa much farther. Most editors judge 'Gadarenes' to be the original reading in Matthew."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "προσκυνέω",
+    "rendering": "bow down before",
+    "verse": 2,
+    "reason": "Recurs across the Gospels, Acts and Revelation, and the choice between 'worship', 'kneel' and 'bow down' carries christological weight that should not vary by chapter."
+   },
+   {
+    "lemma": "δοῦλος",
+    "rendering": "slave",
+    "verse": 9,
+    "reason": "Very frequent across the New Testament; 'servant', 'slave' and 'bondservant' are all in use, and inconsistency would obscure both the social reality and Paul's self-descriptions."
+   },
+   {
+    "lemma": "λεπρός",
+    "rendering": "a man with a skin disease",
+    "verse": 2,
+    "reason": "The λεπρός/λέπρα word group recurs through the Synoptics, and translators split between 'leper/leprosy' and a broader skin-disease rendering."
+   },
+   {
+    "lemma": "ἰδού",
+    "rendering": "look",
+    "verse": 2,
+    "reason": "Extremely frequent in narrative and speech; translators variously use 'behold', 'look', 'suddenly' or omit it, and a single policy is needed for consistency."
+   },
+   {
+    "lemma": "κύριος",
+    "rendering": "Lord",
+    "verse": 2,
+    "reason": "As a form of address to Jesus it can mean 'sir', 'master' or 'Lord', and the choice in each Gospel scene needs a consistent principle."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

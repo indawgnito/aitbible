@@ -1,0 +1,515 @@
+{
+ "id": "matthew-018",
+ "book": "matthew",
+ "chapter": 18,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZm7SQqy5PN5t2MZJ",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 9020,
+  "output_tokens": 14501
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"At that time the disciples came to Jesus and said,\"},{\"speaker\":\"other\",\"text\":\"“Who then is greatest in the kingdom of the heavens?”\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He called a child to him, stood the child in their midst,\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and said,\"},{\"speaker\":\"Jesus\",\"text\":\"“Truly I tell you, unless you turn and become like children, you will never enter the kingdom of the heavens.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"So whoever humbles himself like this child, that is the one who is greatest in the kingdom of the heavens.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And whoever welcomes one such child in my name welcomes me.\"}]},{\"verse\":6,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But whoever causes one of these little ones who believe in me to stumble, it would be better for him to have a donkey's millstone hung around his neck and to be drowned in the depths of the sea.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Woe to the world because of stumbling blocks! For stumbling blocks must come, but woe to the person through whom the stumbling block comes!\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"If your hand or your foot causes you to stumble, cut it off and throw it away from you. It is better for you to enter life maimed or lame than to have two hands or two feet and be thrown into the eternal fire.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And if your eye causes you to stumble, tear it out and throw it away from you. It is better for you to enter life with one eye than to have two eyes and be thrown into the Gehenna of fire.\"}]},{\"verse\":10,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"See that you do not look down on one of these little ones, for I tell you that their angels in the heavens continually see the face of my Father who is in the heavens.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"What do you think? If someone has a hundred sheep and one of them goes astray, will he not leave the ninety-nine on the hills and go and search for the one that is straying?\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And if he does find it, truly I tell you, he rejoices over it more than over the ninety-nine that never went astray.\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"In the same way, it is not the will of your Father who is in the heavens that one of these little ones should perish.\"}]},{\"verse\":15,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"If your brother sins against you, go and show him his fault, between you and him alone. If he listens to you, you have won your brother.\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But if he does not listen, take one or two others with you, so that ‘by the mouth of two witnesses or three every matter may be established.’\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"If he refuses to listen to them, tell it to the assembly; and if he refuses to listen even to the assembly, let him be to you like a Gentile and a tax collector.\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Truly I tell you, whatever you bind on earth will be bound in heaven, and whatever you loose on earth will be loosed in heaven.\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Again, truly I tell you that if two of you agree on earth about any matter they ask for, it will be done for them by my Father who is in the heavens.\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For where two or three are gathered in my name, there I am in their midst.”\"}]},{\"verse\":21,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then Peter came up and said to him,\"},{\"speaker\":\"other\",\"text\":\"“Lord, how many times shall my brother sin against me and I forgive him? Up to seven times?”\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus said to him,\"},{\"speaker\":\"Jesus\",\"text\":\"“I do not say to you up to seven times, but up to seventy-seven times.\"}]},{\"verse\":23,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For this reason the kingdom of the heavens may be compared to a king who wanted to settle accounts with his slaves.\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"When he began to settle them, a man was brought to him who owed ten thousand talents.\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Since he had no means to repay, the master ordered him to be sold, with his wife and children and everything he had, and repayment to be made.\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"So the slave fell down and bowed low before him, saying, ‘Be patient with me, and I will repay you everything.’\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Moved with compassion, the master of that slave released him and forgave him the loan.\"}]},{\"verse\":28,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But that slave went out and found one of his fellow slaves who owed him a hundred denarii. He seized him and began to choke him, saying, ‘Repay what you owe.’\"}]},{\"verse\":29,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"So his fellow slave fell down and pleaded with him, saying, ‘Be patient with me, and I will repay you.’\"}]},{\"verse\":30,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But he refused. Instead he went and threw him into prison until he repaid what was owed.\"}]},{\"verse\":31,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"When his fellow slaves saw what had happened, they were deeply distressed, and they went and reported to their master everything that had happened.\"}]},{\"verse\":32,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Then his master summoned him and said to him, ‘You wicked slave! I forgave you all that debt because you pleaded with me.\"}]},{\"verse\":33,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Should you not also have had mercy on your fellow slave, as I had mercy on you?’\"}]},{\"verse\":34,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And in his anger his master handed him over to the torturers until he repaid all that was owed.\"}]},{\"verse\":35,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"So also my heavenly Father will do to you, unless each of you forgives his brother from your hearts.”\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"the kingdom of the heavens\",\"lemma\":\"οὐρανός\",\"kind\":\"departure\",\"traditional\":\"the kingdom of heaven\",\"note\":\"The Greek is plural here and in Matthew's phrase 'Father in the heavens', reflecting a Hebrew and Aramaic way of speaking that a first-century hearer would have recognised. Most translations flatten it to 'heaven'. This translation keeps the plural wherever the Greek has it; verse 18, where the Greek is singular, reads 'heaven'.\"},{\"verse\":6,\"phrase\":\"to stumble\",\"lemma\":\"σκανδαλίζω\",\"kind\":\"departure\",\"traditional\":\"offend (KJV); cause to sin (many modern versions)\",\"note\":\"The verb and its noun (rendered 'stumbling blocks' in verse 7) come from the image of a trap or an obstacle that brings someone down. In Jewish Greek they describe whatever causes a person to fall away from God. 'Offend' now suggests hurt feelings, and 'cause to sin' is narrower than the Greek. Several modern translations also use 'stumble'.\"},{\"verse\":6,\"phrase\":\"a donkey's millstone\",\"lemma\":\"ὀνικός\",\"kind\":\"background\",\"traditional\":\"a great millstone\",\"note\":\"The Greek specifies the large upper stone of a mill turned by a donkey, as distinct from the small hand mill used in a household. Most translations say 'a great millstone' or 'a heavy millstone'. The point is the stone's size.\"},{\"verse\":9,\"phrase\":\"Gehenna\",\"lemma\":\"γέεννα\",\"kind\":\"departure\",\"traditional\":\"hell\",\"note\":\"Gehenna is a place name, the Valley of Hinnom outside Jerusalem, which by this period had become the name for the place of final fiery judgment. Many translations render it 'hell', usually with a footnote. That merges it with Hades and with later imagery, so the name is kept here.\"},{\"verse\":10,\"phrase\":\"see the face of my Father\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"To 'see the face' of a king was a court expression for having direct access to his presence. The saying means that the angels who represent these little ones stand in the highest rank before God. It reflects a Jewish belief in angels assigned to peoples or individuals. The verse does not spell out how that guardianship works.\"},{\"verse\":10,\"phrase\":\"my Father who is in the heavens\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"\",\"note\":\"The verse numbering passes from 10 to 12. Verse 11 ('For the Son of Man came to save what was lost') is absent from the earliest manuscripts. It is widely judged to be a later addition drawn from Luke 19:10, and the Greek text translated here omits it.\"},{\"verse\":15,\"phrase\":\"against you\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"\",\"note\":\"The words 'against you' are missing from two of the oldest major manuscripts, and some editions and translations omit or bracket them. Without them the saying concerns any sin by a fellow believer, not only a personal wrong. The Greek text translated here includes them, and the question is disputed.\"},{\"verse\":16,\"phrase\":\"by the mouth of two witnesses or three every matter may be established\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"Jesus is citing the rule of evidence in Deuteronomy 19:15, which required more than one witness before a charge could stand. 'By the mouth of' is the Hebrew idiom for 'on the testimony of'.\"},{\"verse\":17,\"phrase\":\"the assembly\",\"lemma\":\"ἐκκλησία\",\"kind\":\"departure\",\"traditional\":\"the church\",\"note\":\"The Greek word meant a gathering of citizens, and in the Greek Old Testament it was the term for Israel assembled before God. 'Church' is the near-universal rendering and readers know what it refers to, but it now suggests a building or an institution. 'Assembly' is used throughout this translation; here it means the local gathered community of disciples.\"},{\"verse\":18,\"phrase\":\"will be bound in heaven\",\"lemma\":\"δέω\",\"kind\":\"ambiguity\",\"traditional\":\"shall be bound in heaven\",\"note\":\"The Greek form can also be read 'will have been bound' and 'will have been loosed', which would make the community's decision follow one already made in heaven. Most translations use the simple future, as here, and grammarians disagree on how much weight the form carries. 'Bind' and 'loose' were Jewish terms for forbidding and permitting, or for imposing and lifting a ban. The 'you' is plural.\"},{\"verse\":22,\"phrase\":\"seventy-seven times\",\"lemma\":\"ἑβδομηκοντάκις\",\"kind\":\"ambiguity\",\"traditional\":\"seventy times seven\",\"note\":\"The Greek can be read as either 'seventy-seven times' or 'seventy times seven' (490). The identical phrase stands in the Greek version of Genesis 4:24 for Lamech's seventy-sevenfold vengeance, which Jesus appears to be reversing, so 'seventy-seven' is preferred here. Either way the number means forgiveness without keeping count.\"},{\"verse\":23,\"phrase\":\"slaves\",\"lemma\":\"δοῦλος\",\"kind\":\"departure\",\"traditional\":\"servants\",\"note\":\"The Greek word is the ordinary term for a slave, a person owned by a master, and the story assumes it: the king can order the man and his family sold. 'Servants' is the traditional rendering and some modern versions keep it. A king's slaves could hold high office and handle great sums, as this one evidently does.\"},{\"verse\":24,\"phrase\":\"ten thousand talents\",\"lemma\":\"τάλαντον\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"A talent was the largest unit of money, worth roughly six thousand denarii, and a denarius was about a day's wage for a labourer. 'Ten thousand' is the highest number for which Greek had a single word, so the sum is deliberately beyond imagining. The hundred denarii of verse 28 is a real debt of a few months' wages, yet it is hundreds of thousands of times smaller.\"}],\"candidates\":[{\"lemma\":\"σκανδαλίζω\",\"rendering\":\"cause to stumble (noun σκάνδαλον: stumbling block)\",\"verse\":6,\"reason\":\"Recurs across the Gospels and Paul, and translations vary between 'offend', 'cause to sin', 'fall away' and 'stumble', which hides a single recurring image from the reader.\"},{\"lemma\":\"δοῦλος\",\"rendering\":\"slave\",\"verse\":23,\"reason\":\"Very frequent in parables and in Paul's self-descriptions; 'servant', 'slave' and 'bondservant' all have defenders, and the choice should be uniform.\"},{\"lemma\":\"ἀδελφός\",\"rendering\":\"brother\",\"verse\":15,\"reason\":\"Used throughout the New Testament for fellow members of the community regardless of sex; whether to render 'brother', 'brother or sister' or 'fellow believer' needs one policy.\"},{\"lemma\":\"προσκυνέω\",\"rendering\":\"bowed low before\",\"verse\":26,\"reason\":\"Covers both physical prostration before a superior and worship of God or Jesus; translations split between 'worship', 'kneel' and 'bow down', and the choice carries theological weight.\"},{\"lemma\":\"ἀμήν\",\"rendering\":\"truly\",\"verse\":3,\"reason\":\"Jesus's distinctive 'Amen I say to you' occurs dozens of times across the Gospels and is rendered 'truly', 'verily', 'amen' or 'I assure you'; it should be uniform.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "At that time the disciples came to Jesus and said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Who then is greatest in the kingdom of the heavens?”"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He called a child to him, stood the child in their midst,"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and said,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Truly I tell you, unless you turn and become like children, you will never enter the kingdom of the heavens."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "So whoever humbles himself like this child, that is the one who is greatest in the kingdom of the heavens."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And whoever welcomes one such child in my name welcomes me."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But whoever causes one of these little ones who believe in me to stumble, it would be better for him to have a donkey's millstone hung around his neck and to be drowned in the depths of the sea."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Woe to the world because of stumbling blocks! For stumbling blocks must come, but woe to the person through whom the stumbling block comes!"
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "If your hand or your foot causes you to stumble, cut it off and throw it away from you. It is better for you to enter life maimed or lame than to have two hands or two feet and be thrown into the eternal fire."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And if your eye causes you to stumble, tear it out and throw it away from you. It is better for you to enter life with one eye than to have two eyes and be thrown into the Gehenna of fire."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "See that you do not look down on one of these little ones, for I tell you that their angels in the heavens continually see the face of my Father who is in the heavens."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "What do you think? If someone has a hundred sheep and one of them goes astray, will he not leave the ninety-nine on the hills and go and search for the one that is straying?"
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And if he does find it, truly I tell you, he rejoices over it more than over the ninety-nine that never went astray."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "In the same way, it is not the will of your Father who is in the heavens that one of these little ones should perish."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "If your brother sins against you, go and show him his fault, between you and him alone. If he listens to you, you have won your brother."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But if he does not listen, take one or two others with you, so that ‘by the mouth of two witnesses or three every matter may be established.’"
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "If he refuses to listen to them, tell it to the assembly; and if he refuses to listen even to the assembly, let him be to you like a Gentile and a tax collector."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Truly I tell you, whatever you bind on earth will be bound in heaven, and whatever you loose on earth will be loosed in heaven."
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Again, truly I tell you that if two of you agree on earth about any matter they ask for, it will be done for them by my Father who is in the heavens."
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For where two or three are gathered in my name, there I am in their midst.”"
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then Peter came up and said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Lord, how many times shall my brother sin against me and I forgive him? Up to seven times?”"
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus said to him,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“I do not say to you up to seven times, but up to seventy-seven times."
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For this reason the kingdom of the heavens may be compared to a king who wanted to settle accounts with his slaves."
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "When he began to settle them, a man was brought to him who owed ten thousand talents."
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Since he had no means to repay, the master ordered him to be sold, with his wife and children and everything he had, and repayment to be made."
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "So the slave fell down and bowed low before him, saying, ‘Be patient with me, and I will repay you everything.’"
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Moved with compassion, the master of that slave released him and forgave him the loan."
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But that slave went out and found one of his fellow slaves who owed him a hundred denarii. He seized him and began to choke him, saying, ‘Repay what you owe.’"
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "So his fellow slave fell down and pleaded with him, saying, ‘Be patient with me, and I will repay you.’"
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But he refused. Instead he went and threw him into prison until he repaid what was owed."
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "When his fellow slaves saw what had happened, they were deeply distressed, and they went and reported to their master everything that had happened."
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Then his master summoned him and said to him, ‘You wicked slave! I forgave you all that debt because you pleaded with me."
+     }
+    ]
+   },
+   {
+    "verse": 33,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Should you not also have had mercy on your fellow slave, as I had mercy on you?’"
+     }
+    ]
+   },
+   {
+    "verse": 34,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And in his anger his master handed him over to the torturers until he repaid all that was owed."
+     }
+    ]
+   },
+   {
+    "verse": 35,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "So also my heavenly Father will do to you, unless each of you forgives his brother from your hearts.”"
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "the kingdom of the heavens",
+    "lemma": "οὐρανός",
+    "kind": "departure",
+    "traditional": "the kingdom of heaven",
+    "note": "The Greek is plural here and in Matthew's phrase 'Father in the heavens', reflecting a Hebrew and Aramaic way of speaking that a first-century hearer would have recognised. Most translations flatten it to 'heaven'. This translation keeps the plural wherever the Greek has it; verse 18, where the Greek is singular, reads 'heaven'."
+   },
+   {
+    "verse": 6,
+    "phrase": "to stumble",
+    "lemma": "σκανδαλίζω",
+    "kind": "departure",
+    "traditional": "offend (KJV); cause to sin (many modern versions)",
+    "note": "The verb and its noun (rendered 'stumbling blocks' in verse 7) come from the image of a trap or an obstacle that brings someone down. In Jewish Greek they describe whatever causes a person to fall away from God. 'Offend' now suggests hurt feelings, and 'cause to sin' is narrower than the Greek. Several modern translations also use 'stumble'."
+   },
+   {
+    "verse": 6,
+    "phrase": "a donkey's millstone",
+    "lemma": "ὀνικός",
+    "kind": "background",
+    "traditional": "a great millstone",
+    "note": "The Greek specifies the large upper stone of a mill turned by a donkey, as distinct from the small hand mill used in a household. Most translations say 'a great millstone' or 'a heavy millstone'. The point is the stone's size."
+   },
+   {
+    "verse": 9,
+    "phrase": "Gehenna",
+    "lemma": "γέεννα",
+    "kind": "departure",
+    "traditional": "hell",
+    "note": "Gehenna is a place name, the Valley of Hinnom outside Jerusalem, which by this period had become the name for the place of final fiery judgment. Many translations render it 'hell', usually with a footnote. That merges it with Hades and with later imagery, so the name is kept here."
+   },
+   {
+    "verse": 10,
+    "phrase": "see the face of my Father",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "To 'see the face' of a king was a court expression for having direct access to his presence. The saying means that the angels who represent these little ones stand in the highest rank before God. It reflects a Jewish belief in angels assigned to peoples or individuals. The verse does not spell out how that guardianship works."
+   },
+   {
+    "verse": 10,
+    "phrase": "my Father who is in the heavens",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "",
+    "note": "The verse numbering passes from 10 to 12. Verse 11 ('For the Son of Man came to save what was lost') is absent from the earliest manuscripts. It is widely judged to be a later addition drawn from Luke 19:10, and the Greek text translated here omits it."
+   },
+   {
+    "verse": 15,
+    "phrase": "against you",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "",
+    "note": "The words 'against you' are missing from two of the oldest major manuscripts, and some editions and translations omit or bracket them. Without them the saying concerns any sin by a fellow believer, not only a personal wrong. The Greek text translated here includes them, and the question is disputed."
+   },
+   {
+    "verse": 16,
+    "phrase": "by the mouth of two witnesses or three every matter may be established",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "Jesus is citing the rule of evidence in Deuteronomy 19:15, which required more than one witness before a charge could stand. 'By the mouth of' is the Hebrew idiom for 'on the testimony of'."
+   },
+   {
+    "verse": 17,
+    "phrase": "the assembly",
+    "lemma": "ἐκκλησία",
+    "kind": "departure",
+    "traditional": "the church",
+    "note": "The Greek word meant a gathering of citizens, and in the Greek Old Testament it was the term for Israel assembled before God. 'Church' is the near-universal rendering and readers know what it refers to, but it now suggests a building or an institution. 'Assembly' is used throughout this translation; here it means the local gathered community of disciples."
+   },
+   {
+    "verse": 18,
+    "phrase": "will be bound in heaven",
+    "lemma": "δέω",
+    "kind": "ambiguity",
+    "traditional": "shall be bound in heaven",
+    "note": "The Greek form can also be read 'will have been bound' and 'will have been loosed', which would make the community's decision follow one already made in heaven. Most translations use the simple future, as here, and grammarians disagree on how much weight the form carries. 'Bind' and 'loose' were Jewish terms for forbidding and permitting, or for imposing and lifting a ban. The 'you' is plural."
+   },
+   {
+    "verse": 22,
+    "phrase": "seventy-seven times",
+    "lemma": "ἑβδομηκοντάκις",
+    "kind": "ambiguity",
+    "traditional": "seventy times seven",
+    "note": "The Greek can be read as either 'seventy-seven times' or 'seventy times seven' (490). The identical phrase stands in the Greek version of Genesis 4:24 for Lamech's seventy-sevenfold vengeance, which Jesus appears to be reversing, so 'seventy-seven' is preferred here. Either way the number means forgiveness without keeping count."
+   },
+   {
+    "verse": 23,
+    "phrase": "slaves",
+    "lemma": "δοῦλος",
+    "kind": "departure",
+    "traditional": "servants",
+    "note": "The Greek word is the ordinary term for a slave, a person owned by a master, and the story assumes it: the king can order the man and his family sold. 'Servants' is the traditional rendering and some modern versions keep it. A king's slaves could hold high office and handle great sums, as this one evidently does."
+   },
+   {
+    "verse": 24,
+    "phrase": "ten thousand talents",
+    "lemma": "τάλαντον",
+    "kind": "background",
+    "traditional": "",
+    "note": "A talent was the largest unit of money, worth roughly six thousand denarii, and a denarius was about a day's wage for a labourer. 'Ten thousand' is the highest number for which Greek had a single word, so the sum is deliberately beyond imagining. The hundred denarii of verse 28 is a real debt of a few months' wages, yet it is hundreds of thousands of times smaller."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "σκανδαλίζω",
+    "rendering": "cause to stumble (noun σκάνδαλον: stumbling block)",
+    "verse": 6,
+    "reason": "Recurs across the Gospels and Paul, and translations vary between 'offend', 'cause to sin', 'fall away' and 'stumble', which hides a single recurring image from the reader."
+   },
+   {
+    "lemma": "δοῦλος",
+    "rendering": "slave",
+    "verse": 23,
+    "reason": "Very frequent in parables and in Paul's self-descriptions; 'servant', 'slave' and 'bondservant' all have defenders, and the choice should be uniform."
+   },
+   {
+    "lemma": "ἀδελφός",
+    "rendering": "brother",
+    "verse": 15,
+    "reason": "Used throughout the New Testament for fellow members of the community regardless of sex; whether to render 'brother', 'brother or sister' or 'fellow believer' needs one policy."
+   },
+   {
+    "lemma": "προσκυνέω",
+    "rendering": "bowed low before",
+    "verse": 26,
+    "reason": "Covers both physical prostration before a superior and worship of God or Jesus; translations split between 'worship', 'kneel' and 'bow down', and the choice carries theological weight."
+   },
+   {
+    "lemma": "ἀμήν",
+    "rendering": "truly",
+    "verse": 3,
+    "reason": "Jesus's distinctive 'Amen I say to you' occurs dozens of times across the Gospels and is rendered 'truly', 'verily', 'amen' or 'I assure you'; it should be uniform."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

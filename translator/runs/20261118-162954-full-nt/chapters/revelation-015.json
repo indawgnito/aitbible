@@ -1,0 +1,219 @@
+{
+ "id": "revelation-015",
+ "book": "revelation",
+ "chapter": 15,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZdvt9JtJ6tC8EVdv",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 5802,
+  "output_tokens": 8417
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then I saw another sign in heaven, great and marvelous: seven angels with seven plagues, the last ones, because with them the fury of God is completed.\"}]},{\"verse\":2,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And I saw what looked like a sea of glass mixed with fire, and those who had conquered the beast and its image and the number of its name, standing on the sea of glass, holding lyres of God.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And they sing the song of Moses, the slave of God, and the song of the Lamb, saying:\"},{\"speaker\":\"other\",\"text\":\"“Great and marvelous are your works, Lord God, the Almighty! Righteous and true are your ways, King of the ages!\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Who will not fear, Lord, and glorify your name? For you alone are holy. For all the nations will come and worship before you, for your righteous acts have been revealed.”\"}]},{\"verse\":5,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"After this I looked, and the temple of the tent of testimony in heaven was opened,\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and out of the temple came the seven angels who had the seven plagues, clothed in clean, bright linen and with golden sashes wrapped around their chests.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then one of the four living creatures gave the seven angels seven golden bowls full of the fury of God, who lives forever and ever.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And the temple was filled with smoke from the glory of God and from his power, and no one could enter the temple until the seven plagues of the seven angels were completed.\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"fury\",\"lemma\":\"θυμός\",\"kind\":\"departure\",\"traditional\":\"wrath\",\"note\":\"Most translations use \\\"wrath\\\" both for this word and for a second Greek word, orgē. Revelation uses the two side by side (for example 16:19), and this word is the more heated term, denoting an outburst of anger. \\\"Fury\\\" keeps the two apart; the difference in meaning is one of intensity, not of kind.\"},{\"verse\":2,\"phrase\":\"standing on the sea of glass\",\"lemma\":\"ἐπί\",\"kind\":\"ambiguity\",\"traditional\":\"standing on (or beside) the sea of glass\",\"note\":\"The Greek preposition can mean either \\\"on\\\" or \\\"at, beside\\\". Some translations have the victors standing on the shore of the sea, as Israel stood beside the Red Sea when Moses sang; others have them standing on its glassy surface. Either reading is possible.\"},{\"verse\":2,\"phrase\":\"lyres\",\"lemma\":\"κιθάρα\",\"kind\":\"departure\",\"traditional\":\"harps\",\"note\":\"The kithara was a hand-held stringed instrument of the lyre family, played with a plectrum. It was not a harp in the modern sense. Most English versions keep \\\"harps\\\" from long tradition. \\\"Lyres of God\\\" probably means lyres given by God or used in his service.\"},{\"verse\":3,\"phrase\":\"slave\",\"lemma\":\"δοῦλος\",\"kind\":\"departure\",\"traditional\":\"servant\",\"note\":\"The Greek word is the ordinary term for a slave, someone who belongs to a master. Most translations soften it to \\\"servant\\\". In the Greek Old Testament, \\\"slave of the Lord\\\" is also a title of honor for Moses and the prophets, marking them as wholly at God's disposal, and that sense is in view here.\"},{\"verse\":3,\"phrase\":\"the song of Moses\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"The reference is to the song Moses and Israel sang after crossing the Red Sea (Exodus 15), and perhaps also to Moses' final song in Deuteronomy 32. The words that follow do not quote either. They are woven from phrases in the Psalms, Deuteronomy and Jeremiah.\"},{\"verse\":3,\"phrase\":\"King of the ages\",\"lemma\":\"αἰών\",\"kind\":\"textual\",\"traditional\":\"King of the nations\",\"note\":\"The manuscripts are divided between \\\"King of the ages\\\" and \\\"King of the nations\\\"; a few late copies have \\\"King of saints\\\", the reading behind the King James Version. The edition translated here prints \\\"ages\\\", but many scholars and translations prefer \\\"nations\\\", which echoes Jeremiah 10:7. The evidence is closely balanced.\"},{\"verse\":4,\"phrase\":\"nations\",\"lemma\":\"ἔθνος\",\"kind\":\"background\",\"traditional\":\"nations\",\"note\":\"The Greek word is the same one rendered \\\"Gentiles\\\" elsewhere in the New Testament, where it means the non-Jewish peoples. Here the scope is all the peoples of the world, so \\\"nations\\\" is used. The line echoes Psalm 86:9.\"},{\"verse\":4,\"phrase\":\"righteous acts\",\"lemma\":\"δικαίωμα\",\"kind\":\"ambiguity\",\"traditional\":\"righteous acts / judgments\",\"note\":\"The word can mean a righteous deed, or a decree or judicial sentence. Some translations therefore have \\\"your judgments have been revealed\\\", meaning God's verdicts on the world. \\\"Righteous acts\\\" keeps the link with \\\"righteous\\\" in the previous line, which is from the same Greek word-family.\"},{\"verse\":5,\"phrase\":\"the tent of testimony\",\"lemma\":\"σκηνή\",\"kind\":\"background\",\"traditional\":\"the tabernacle of the testimony\",\"note\":\"This is the Greek Old Testament's name for the tent sanctuary Israel carried in the wilderness, which housed the tablets of the covenant, called the \\\"testimony\\\". John sees its heavenly counterpart. The phrase probably means \\\"the temple, that is, the tent of testimony\\\".\"},{\"verse\":6,\"phrase\":\"linen\",\"lemma\":\"λίνον\",\"kind\":\"textual\",\"traditional\":\"linen\",\"note\":\"Some important early manuscripts read \\\"stone\\\" (lithon) instead of \\\"linen\\\" (linon), a difference of one letter. That reading would have the angels clothed in pure bright stone. Most editors and translations regard \\\"stone\\\" as a copying error and read \\\"linen\\\".\"}],\"candidates\":[{\"lemma\":\"θυμός\",\"rendering\":\"fury\",\"verse\":1,\"reason\":\"Revelation pairs θυμός with ὀργή (14:10; 16:19; 19:15), so the two need distinct, fixed English words across the book and the NT.\"},{\"lemma\":\"δοῦλος\",\"rendering\":\"slave\",\"verse\":3,\"reason\":\"Translators split between \\\"slave\\\" and \\\"servant\\\" throughout the NT, and readers would be misled if the choice varied by chapter, especially in the honorific \\\"slave of God\\\".\"},{\"lemma\":\"ναός\",\"rendering\":\"temple\",\"verse\":5,\"reason\":\"ναός (the sanctuary building) and ἱερόν (the whole temple complex) are both traditionally \\\"temple\\\"; one NT-wide decision is needed on whether to distinguish them, for example by \\\"sanctuary\\\".\"},{\"lemma\":\"αἰών\",\"rendering\":\"ages / forever and ever\",\"verse\":3,\"reason\":\"The word recurs as \\\"age\\\", \\\"world\\\" and in the formula εἰς τοὺς αἰῶνας τῶν αἰώνων; a decision is needed on whether to keep \\\"ages\\\" visible in the formula.\"},{\"lemma\":\"προσκυνέω\",\"rendering\":\"worship\",\"verse\":4,\"reason\":\"The verb covers physical prostration and worship; translators vary between \\\"worship\\\" and \\\"bow down\\\", and the choice matters in the Gospels and Revelation alike.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then I saw another sign in heaven, great and marvelous: seven angels with seven plagues, the last ones, because with them the fury of God is completed."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And I saw what looked like a sea of glass mixed with fire, and those who had conquered the beast and its image and the number of its name, standing on the sea of glass, holding lyres of God."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And they sing the song of Moses, the slave of God, and the song of the Lamb, saying:"
+     },
+     {
+      "speaker": "other",
+      "text": "“Great and marvelous are your works, Lord God, the Almighty! Righteous and true are your ways, King of the ages!"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Who will not fear, Lord, and glorify your name? For you alone are holy. For all the nations will come and worship before you, for your righteous acts have been revealed.”"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "After this I looked, and the temple of the tent of testimony in heaven was opened,"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and out of the temple came the seven angels who had the seven plagues, clothed in clean, bright linen and with golden sashes wrapped around their chests."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then one of the four living creatures gave the seven angels seven golden bowls full of the fury of God, who lives forever and ever."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And the temple was filled with smoke from the glory of God and from his power, and no one could enter the temple until the seven plagues of the seven angels were completed."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "fury",
+    "lemma": "θυμός",
+    "kind": "departure",
+    "traditional": "wrath",
+    "note": "Most translations use \"wrath\" both for this word and for a second Greek word, orgē. Revelation uses the two side by side (for example 16:19), and this word is the more heated term, denoting an outburst of anger. \"Fury\" keeps the two apart; the difference in meaning is one of intensity, not of kind."
+   },
+   {
+    "verse": 2,
+    "phrase": "standing on the sea of glass",
+    "lemma": "ἐπί",
+    "kind": "ambiguity",
+    "traditional": "standing on (or beside) the sea of glass",
+    "note": "The Greek preposition can mean either \"on\" or \"at, beside\". Some translations have the victors standing on the shore of the sea, as Israel stood beside the Red Sea when Moses sang; others have them standing on its glassy surface. Either reading is possible."
+   },
+   {
+    "verse": 2,
+    "phrase": "lyres",
+    "lemma": "κιθάρα",
+    "kind": "departure",
+    "traditional": "harps",
+    "note": "The kithara was a hand-held stringed instrument of the lyre family, played with a plectrum. It was not a harp in the modern sense. Most English versions keep \"harps\" from long tradition. \"Lyres of God\" probably means lyres given by God or used in his service."
+   },
+   {
+    "verse": 3,
+    "phrase": "slave",
+    "lemma": "δοῦλος",
+    "kind": "departure",
+    "traditional": "servant",
+    "note": "The Greek word is the ordinary term for a slave, someone who belongs to a master. Most translations soften it to \"servant\". In the Greek Old Testament, \"slave of the Lord\" is also a title of honor for Moses and the prophets, marking them as wholly at God's disposal, and that sense is in view here."
+   },
+   {
+    "verse": 3,
+    "phrase": "the song of Moses",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "The reference is to the song Moses and Israel sang after crossing the Red Sea (Exodus 15), and perhaps also to Moses' final song in Deuteronomy 32. The words that follow do not quote either. They are woven from phrases in the Psalms, Deuteronomy and Jeremiah."
+   },
+   {
+    "verse": 3,
+    "phrase": "King of the ages",
+    "lemma": "αἰών",
+    "kind": "textual",
+    "traditional": "King of the nations",
+    "note": "The manuscripts are divided between \"King of the ages\" and \"King of the nations\"; a few late copies have \"King of saints\", the reading behind the King James Version. The edition translated here prints \"ages\", but many scholars and translations prefer \"nations\", which echoes Jeremiah 10:7. The evidence is closely balanced."
+   },
+   {
+    "verse": 4,
+    "phrase": "nations",
+    "lemma": "ἔθνος",
+    "kind": "background",
+    "traditional": "nations",
+    "note": "The Greek word is the same one rendered \"Gentiles\" elsewhere in the New Testament, where it means the non-Jewish peoples. Here the scope is all the peoples of the world, so \"nations\" is used. The line echoes Psalm 86:9."
+   },
+   {
+    "verse": 4,
+    "phrase": "righteous acts",
+    "lemma": "δικαίωμα",
+    "kind": "ambiguity",
+    "traditional": "righteous acts / judgments",
+    "note": "The word can mean a righteous deed, or a decree or judicial sentence. Some translations therefore have \"your judgments have been revealed\", meaning God's verdicts on the world. \"Righteous acts\" keeps the link with \"righteous\" in the previous line, which is from the same Greek word-family."
+   },
+   {
+    "verse": 5,
+    "phrase": "the tent of testimony",
+    "lemma": "σκηνή",
+    "kind": "background",
+    "traditional": "the tabernacle of the testimony",
+    "note": "This is the Greek Old Testament's name for the tent sanctuary Israel carried in the wilderness, which housed the tablets of the covenant, called the \"testimony\". John sees its heavenly counterpart. The phrase probably means \"the temple, that is, the tent of testimony\"."
+   },
+   {
+    "verse": 6,
+    "phrase": "linen",
+    "lemma": "λίνον",
+    "kind": "textual",
+    "traditional": "linen",
+    "note": "Some important early manuscripts read \"stone\" (lithon) instead of \"linen\" (linon), a difference of one letter. That reading would have the angels clothed in pure bright stone. Most editors and translations regard \"stone\" as a copying error and read \"linen\"."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "θυμός",
+    "rendering": "fury",
+    "verse": 1,
+    "reason": "Revelation pairs θυμός with ὀργή (14:10; 16:19; 19:15), so the two need distinct, fixed English words across the book and the NT."
+   },
+   {
+    "lemma": "δοῦλος",
+    "rendering": "slave",
+    "verse": 3,
+    "reason": "Translators split between \"slave\" and \"servant\" throughout the NT, and readers would be misled if the choice varied by chapter, especially in the honorific \"slave of God\"."
+   },
+   {
+    "lemma": "ναός",
+    "rendering": "temple",
+    "verse": 5,
+    "reason": "ναός (the sanctuary building) and ἱερόν (the whole temple complex) are both traditionally \"temple\"; one NT-wide decision is needed on whether to distinguish them, for example by \"sanctuary\"."
+   },
+   {
+    "lemma": "αἰών",
+    "rendering": "ages / forever and ever",
+    "verse": 3,
+    "reason": "The word recurs as \"age\", \"world\" and in the formula εἰς τοὺς αἰῶνας τῶν αἰώνων; a decision is needed on whether to keep \"ages\" visible in the formula."
+   },
+   {
+    "lemma": "προσκυνέω",
+    "rendering": "worship",
+    "verse": 4,
+    "reason": "The verb covers physical prostration and worship; translators vary between \"worship\" and \"bow down\", and the choice matters in the Gospels and Revelation alike."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

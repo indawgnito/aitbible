@@ -1,0 +1,685 @@
+{
+ "id": "luke-020",
+ "book": "luke",
+ "chapter": 20,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZm7MiQmoZFK6yigc",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 9627,
+  "output_tokens": 14699
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"One day, as he was teaching the people in the temple and proclaiming the good news, the chief priests and the scribes came up with the elders,\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and they said to him,\"},{\"speaker\":\"other\",\"text\":\"“Tell us, by what authority are you doing these things? Or who is it that gave you this authority?”\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He answered them,\"},{\"speaker\":\"Jesus\",\"text\":\"“I too will ask you a question, and you tell me:\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Was John’s baptism from heaven or from human beings?”\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They reasoned it out among themselves, saying,\"},{\"speaker\":\"other\",\"text\":\"“If we say, ‘From heaven,’ he will say, ‘Why did you not believe him?’\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"But if we say, ‘From human beings,’ all the people will stone us, for they are convinced that John was a prophet.”\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So they answered that they did not know where it was from.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And Jesus said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Nor am I telling you by what authority I am doing these things.”\"}]},{\"verse\":9,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then he began to tell the people this parable:\"},{\"speaker\":\"Jesus\",\"text\":\"“A man planted a vineyard, leased it to tenants, and went abroad for a long time.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"When the time came, he sent a slave to the tenants, so that they would give him some of the fruit of the vineyard. But the tenants beat him and sent him away empty-handed.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"He went on to send another slave; but that one too they beat and humiliated and sent away empty-handed.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"He went on to send a third; this one too they wounded and threw out.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Then the owner of the vineyard said, ‘What shall I do? I will send my beloved son; perhaps they will respect him.’\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But when the tenants saw him, they reasoned with one another, saying, ‘This is the heir. Let us kill him, so that the inheritance may be ours.’\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And they threw him out of the vineyard and killed him. What then will the owner of the vineyard do to them?\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"He will come and destroy those tenants and give the vineyard to others.”\"},{\"speaker\":\"narrator\",\"text\":\"When they heard this, they said,\"},{\"speaker\":\"other\",\"text\":\"“May that never happen!”\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But he looked straight at them and said,\"},{\"speaker\":\"Jesus\",\"text\":\"“What then is this that is written: ‘The stone that the builders rejected, this has become the cornerstone’?\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Everyone who falls on that stone will be broken to pieces; and anyone it falls on, it will crush.”\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The scribes and the chief priests sought to lay hands on him that very hour, but they feared the people; for they knew that he had told this parable against them.\"}]},{\"verse\":20,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So they watched him closely and sent spies who pretended to be righteous, so that they might catch him in something he said and so hand him over to the rule and authority of the governor.\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They questioned him, saying,\"},{\"speaker\":\"other\",\"text\":\"“Teacher, we know that you speak and teach rightly and show no partiality, but truly teach the way of God.\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Is it lawful for us to give tribute to Caesar, or not?”\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But he saw through their craftiness and said to them,\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"“Show me a denarius. Whose image and inscription does it have?”\"},{\"speaker\":\"narrator\",\"text\":\"They answered,\"},{\"speaker\":\"other\",\"text\":\"“Caesar’s.”\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Then give back to Caesar what is Caesar’s, and to God what is God’s.”\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And they were unable to catch him in what he said in front of the people; and, amazed at his answer, they fell silent.\"}]},{\"verse\":27,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then some of the Sadducees, who deny that there is a resurrection, came up and questioned him,\"}]},{\"verse\":28,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"saying,\"},{\"speaker\":\"other\",\"text\":\"“Teacher, Moses wrote for us that if a man’s brother dies having a wife, and he is childless, his brother should take the wife and raise up offspring for his brother.\"}]},{\"verse\":29,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Now there were seven brothers. The first took a wife and died childless;\"}]},{\"verse\":30,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"then the second\"}]},{\"verse\":31,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"and the third took her, and in the same way all seven left no children and died.\"}]},{\"verse\":32,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Last of all, the woman died too.\"}]},{\"verse\":33,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"So in the resurrection, whose wife does the woman become? For all seven had her as wife.”\"}]},{\"verse\":34,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“The children of this age marry and are given in marriage,\"}]},{\"verse\":35,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"but those who are counted worthy to attain to that age and to the resurrection from the dead neither marry nor are given in marriage.\"}]},{\"verse\":36,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For they can no longer die either, because they are equal to angels, and they are children of God, being children of the resurrection.\"}]},{\"verse\":37,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But that the dead are raised, even Moses made known in the passage about the bush, where he calls the Lord the God of Abraham and the God of Isaac and the God of Jacob.\"}]},{\"verse\":38,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"He is not God of the dead but of the living, for to him all are alive.”\"}]},{\"verse\":39,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Some of the scribes answered,\"},{\"speaker\":\"other\",\"text\":\"“Teacher, you have spoken well.”\"}]},{\"verse\":40,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For they no longer dared to ask him anything.\"}]},{\"verse\":41,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then he said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“How is it that they say the Messiah is David’s son?\"}]},{\"verse\":42,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For David himself says in the book of Psalms, ‘The Lord said to my Lord: “Sit at my right hand\"}]},{\"verse\":43,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"until I make your enemies a footstool for your feet.”’\"}]},{\"verse\":44,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"So David calls him ‘Lord’; how then is he his son?”\"}]},{\"verse\":45,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"While all the people were listening, he said to the disciples,\"}]},{\"verse\":46,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"“Beware of the scribes, who like to walk around in long robes and love greetings in the marketplaces and the best seats in the synagogues and the places of honor at dinners,\"}]},{\"verse\":47,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"who devour widows’ houses and for show make long prayers. These will receive a heavier judgment.”\"}]}],\"notes\":[{\"verse\":10,\"phrase\":\"slave\",\"lemma\":\"δοῦλος\",\"kind\":\"departure\",\"traditional\":\"servant\",\"note\":\"The Greek word denotes a person owned by a master, not a hired employee. Older English versions say 'servant'; several modern translations now use 'slave', as here. A landowner sending his slaves as agents was ordinary practice, and their mistreatment was an insult to the owner himself.\"},{\"verse\":17,\"phrase\":\"the cornerstone\",\"lemma\":\"κεφαλή\",\"kind\":\"ambiguity\",\"traditional\":\"the head of the corner\",\"note\":\"The quotation is Psalm 118:22, and the Greek is literally 'head of the corner'. It may mean a foundation stone at the corner of a building or the capstone that completes it at the top; scholars are divided. Either way it is the most important stone, which the builders had thrown aside.\"},{\"verse\":18,\"phrase\":\"it will crush\",\"lemma\":\"λικμάω\",\"kind\":\"ambiguity\",\"traditional\":\"it will grind him to powder\",\"note\":\"The verb ordinarily means to winnow, scattering chaff to the wind, so the sense may be 'it will scatter him like chaff'. In one Greek version of Daniel 2:44 it is used of a kingdom that crushes all others, in a passage about a stone, and most translators take that sense here.\"},{\"verse\":22,\"phrase\":\"tribute\",\"lemma\":\"φόρος\",\"kind\":\"background\",\"traditional\":\"tribute / taxes\",\"note\":\"This was the direct tax Rome levied on subject peoples, imposed on Judea when it came under a Roman governor. Its introduction had provoked an uprising, and it remained a bitter issue. A plain yes would discredit Jesus with the people, and a plain no could be reported to the governor as sedition.\"},{\"verse\":24,\"phrase\":\"denarius\",\"lemma\":\"δηνάριον\",\"kind\":\"background\",\"traditional\":\"penny / denarius\",\"note\":\"A Roman silver coin, roughly a day's wage for a labourer. It carried the emperor's portrait and titles, which under Tiberius included the claim to be son of the divine Augustus. Many Jews found such coins offensive, since they bore both an image and a claim to divinity.\"},{\"verse\":25,\"phrase\":\"give back\",\"lemma\":\"ἀποδίδωμι\",\"kind\":\"departure\",\"traditional\":\"render\",\"note\":\"The questioners asked whether it is lawful to 'give' tribute; Jesus answers with a compound of the same verb that means to give back or pay what is owed. 'Render' in the traditional versions meant this but no longer conveys it. The change of verb implies that the coin already belongs to Caesar, and leaves open what belongs to God.\"},{\"verse\":28,\"phrase\":\"raise up offspring for his brother\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"raise up seed unto his brother\",\"note\":\"The reference is to the law in Deuteronomy 25:5–6, under which a dead man's brother married the widow and the first son counted as the dead man's heir. The Sadducees use it to make resurrection look absurd.\"},{\"verse\":34,\"phrase\":\"children of this age\",\"lemma\":\"υἱός\",\"kind\":\"background\",\"traditional\":\"children of this world / sons of this age\",\"note\":\"The Greek is literally 'sons of this age', a Semitic idiom in which 'son of' means 'belonging to'. The same idiom lies behind 'children of God' and 'children of the resurrection' in verse 36. 'This age' and 'that age' reflect the Jewish division of time into the present age and the age to come.\"},{\"verse\":37,\"phrase\":\"in the passage about the bush\",\"lemma\":\"βάτος\",\"kind\":\"background\",\"traditional\":\"at the bush\",\"note\":\"The Greek says only 'at the bush'. Before chapter and verse numbers existed, a passage was cited by naming its subject; this is the story of the burning bush in Exodus 3. The Sadducees accepted the books of Moses as authoritative, so Jesus argues from them.\"},{\"verse\":38,\"phrase\":\"to him all are alive\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"all live unto him\",\"note\":\"The Greek is a bare dative, 'all live to him'. It may mean that from God's standpoint all are alive, as rendered here, or that all live for him or by his power. The argument is that God would not name himself as the God of people who had ceased to exist.\"},{\"verse\":41,\"phrase\":\"the Messiah\",\"lemma\":\"Χριστός\",\"kind\":\"departure\",\"traditional\":\"Christ\",\"note\":\"The Greek christos means 'anointed' and translates the Hebrew word that gives English 'Messiah', the title of the king Israel expected. Here the title itself is under discussion, so it is rendered 'Messiah'; where the word functions as a name for Jesus, this translation keeps 'Christ'. Several modern translations make the same distinction.\"},{\"verse\":42,\"phrase\":\"The Lord said to my Lord\",\"lemma\":\"κύριος\",\"kind\":\"background\",\"traditional\":\"The LORD said unto my Lord\",\"note\":\"The quotation is Psalm 110:1. The Hebrew has two different words, the divine name and 'my lord', a term for a superior; the Greek uses the same word for both. Jesus' question turns on the second: David, the supposed speaker, calls the Messiah his lord, which a father would not normally say of his son.\"}],\"candidates\":[{\"lemma\":\"δοῦλος\",\"rendering\":\"slave\",\"verse\":10,\"reason\":\"Translators split between 'slave' and 'servant' across the parables and Paul's self-descriptions, and a reader would be misled if the word varied from chapter to chapter.\"},{\"lemma\":\"γραμματεύς\",\"rendering\":\"scribes\",\"verse\":1,\"reason\":\"It recurs throughout the Gospels and Acts; 'scribe' suggests a copyist to modern readers, where 'legal scholar' or 'teacher of the law' are plausible alternatives, so one choice is needed.\"},{\"lemma\":\"αἰών\",\"rendering\":\"age\",\"verse\":34,\"reason\":\"It is rendered variously 'age', 'world' and 'eternity' across the New Testament, and the this-age/that-age contrast needs one consistent treatment.\"},{\"lemma\":\"εὐαγγελίζω\",\"rendering\":\"proclaiming the good news\",\"verse\":1,\"reason\":\"It is frequent in Luke–Acts and Paul, and 'preach the gospel', 'proclaim the good news' and 'bring good news' should not alternate at random.\"},{\"lemma\":\"ἐξουσία\",\"rendering\":\"authority\",\"verse\":2,\"reason\":\"It ranges over 'authority', 'power', 'right' and 'jurisdiction' across the New Testament and needs a default with defined alternates.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "One day, as he was teaching the people in the temple and proclaiming the good news, the chief priests and the scribes came up with the elders,"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and they said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Tell us, by what authority are you doing these things? Or who is it that gave you this authority?”"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He answered them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“I too will ask you a question, and you tell me:"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Was John’s baptism from heaven or from human beings?”"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They reasoned it out among themselves, saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“If we say, ‘From heaven,’ he will say, ‘Why did you not believe him?’"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "But if we say, ‘From human beings,’ all the people will stone us, for they are convinced that John was a prophet.”"
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So they answered that they did not know where it was from."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And Jesus said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Nor am I telling you by what authority I am doing these things.”"
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then he began to tell the people this parable:"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“A man planted a vineyard, leased it to tenants, and went abroad for a long time."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "When the time came, he sent a slave to the tenants, so that they would give him some of the fruit of the vineyard. But the tenants beat him and sent him away empty-handed."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "He went on to send another slave; but that one too they beat and humiliated and sent away empty-handed."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "He went on to send a third; this one too they wounded and threw out."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Then the owner of the vineyard said, ‘What shall I do? I will send my beloved son; perhaps they will respect him.’"
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But when the tenants saw him, they reasoned with one another, saying, ‘This is the heir. Let us kill him, so that the inheritance may be ours.’"
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And they threw him out of the vineyard and killed him. What then will the owner of the vineyard do to them?"
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "He will come and destroy those tenants and give the vineyard to others.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "When they heard this, they said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“May that never happen!”"
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But he looked straight at them and said,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“What then is this that is written: ‘The stone that the builders rejected, this has become the cornerstone’?"
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Everyone who falls on that stone will be broken to pieces; and anyone it falls on, it will crush.”"
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The scribes and the chief priests sought to lay hands on him that very hour, but they feared the people; for they knew that he had told this parable against them."
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So they watched him closely and sent spies who pretended to be righteous, so that they might catch him in something he said and so hand him over to the rule and authority of the governor."
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They questioned him, saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Teacher, we know that you speak and teach rightly and show no partiality, but truly teach the way of God."
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Is it lawful for us to give tribute to Caesar, or not?”"
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But he saw through their craftiness and said to them,"
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "“Show me a denarius. Whose image and inscription does it have?”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "They answered,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Caesar’s.”"
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Then give back to Caesar what is Caesar’s, and to God what is God’s.”"
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And they were unable to catch him in what he said in front of the people; and, amazed at his answer, they fell silent."
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then some of the Sadducees, who deny that there is a resurrection, came up and questioned him,"
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Teacher, Moses wrote for us that if a man’s brother dies having a wife, and he is childless, his brother should take the wife and raise up offspring for his brother."
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Now there were seven brothers. The first took a wife and died childless;"
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "then the second"
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "and the third took her, and in the same way all seven left no children and died."
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Last of all, the woman died too."
+     }
+    ]
+   },
+   {
+    "verse": 33,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "So in the resurrection, whose wife does the woman become? For all seven had her as wife.”"
+     }
+    ]
+   },
+   {
+    "verse": 34,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“The children of this age marry and are given in marriage,"
+     }
+    ]
+   },
+   {
+    "verse": 35,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "but those who are counted worthy to attain to that age and to the resurrection from the dead neither marry nor are given in marriage."
+     }
+    ]
+   },
+   {
+    "verse": 36,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For they can no longer die either, because they are equal to angels, and they are children of God, being children of the resurrection."
+     }
+    ]
+   },
+   {
+    "verse": 37,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But that the dead are raised, even Moses made known in the passage about the bush, where he calls the Lord the God of Abraham and the God of Isaac and the God of Jacob."
+     }
+    ]
+   },
+   {
+    "verse": 38,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "He is not God of the dead but of the living, for to him all are alive.”"
+     }
+    ]
+   },
+   {
+    "verse": 39,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Some of the scribes answered,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Teacher, you have spoken well.”"
+     }
+    ]
+   },
+   {
+    "verse": 40,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For they no longer dared to ask him anything."
+     }
+    ]
+   },
+   {
+    "verse": 41,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then he said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“How is it that they say the Messiah is David’s son?"
+     }
+    ]
+   },
+   {
+    "verse": 42,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For David himself says in the book of Psalms, ‘The Lord said to my Lord: “Sit at my right hand"
+     }
+    ]
+   },
+   {
+    "verse": 43,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "until I make your enemies a footstool for your feet.”’"
+     }
+    ]
+   },
+   {
+    "verse": 44,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "So David calls him ‘Lord’; how then is he his son?”"
+     }
+    ]
+   },
+   {
+    "verse": 45,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "While all the people were listening, he said to the disciples,"
+     }
+    ]
+   },
+   {
+    "verse": 46,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "“Beware of the scribes, who like to walk around in long robes and love greetings in the marketplaces and the best seats in the synagogues and the places of honor at dinners,"
+     }
+    ]
+   },
+   {
+    "verse": 47,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "who devour widows’ houses and for show make long prayers. These will receive a heavier judgment.”"
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 10,
+    "phrase": "slave",
+    "lemma": "δοῦλος",
+    "kind": "departure",
+    "traditional": "servant",
+    "note": "The Greek word denotes a person owned by a master, not a hired employee. Older English versions say 'servant'; several modern translations now use 'slave', as here. A landowner sending his slaves as agents was ordinary practice, and their mistreatment was an insult to the owner himself."
+   },
+   {
+    "verse": 17,
+    "phrase": "the cornerstone",
+    "lemma": "κεφαλή",
+    "kind": "ambiguity",
+    "traditional": "the head of the corner",
+    "note": "The quotation is Psalm 118:22, and the Greek is literally 'head of the corner'. It may mean a foundation stone at the corner of a building or the capstone that completes it at the top; scholars are divided. Either way it is the most important stone, which the builders had thrown aside."
+   },
+   {
+    "verse": 18,
+    "phrase": "it will crush",
+    "lemma": "λικμάω",
+    "kind": "ambiguity",
+    "traditional": "it will grind him to powder",
+    "note": "The verb ordinarily means to winnow, scattering chaff to the wind, so the sense may be 'it will scatter him like chaff'. In one Greek version of Daniel 2:44 it is used of a kingdom that crushes all others, in a passage about a stone, and most translators take that sense here."
+   },
+   {
+    "verse": 22,
+    "phrase": "tribute",
+    "lemma": "φόρος",
+    "kind": "background",
+    "traditional": "tribute / taxes",
+    "note": "This was the direct tax Rome levied on subject peoples, imposed on Judea when it came under a Roman governor. Its introduction had provoked an uprising, and it remained a bitter issue. A plain yes would discredit Jesus with the people, and a plain no could be reported to the governor as sedition."
+   },
+   {
+    "verse": 24,
+    "phrase": "denarius",
+    "lemma": "δηνάριον",
+    "kind": "background",
+    "traditional": "penny / denarius",
+    "note": "A Roman silver coin, roughly a day's wage for a labourer. It carried the emperor's portrait and titles, which under Tiberius included the claim to be son of the divine Augustus. Many Jews found such coins offensive, since they bore both an image and a claim to divinity."
+   },
+   {
+    "verse": 25,
+    "phrase": "give back",
+    "lemma": "ἀποδίδωμι",
+    "kind": "departure",
+    "traditional": "render",
+    "note": "The questioners asked whether it is lawful to 'give' tribute; Jesus answers with a compound of the same verb that means to give back or pay what is owed. 'Render' in the traditional versions meant this but no longer conveys it. The change of verb implies that the coin already belongs to Caesar, and leaves open what belongs to God."
+   },
+   {
+    "verse": 28,
+    "phrase": "raise up offspring for his brother",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "raise up seed unto his brother",
+    "note": "The reference is to the law in Deuteronomy 25:5–6, under which a dead man's brother married the widow and the first son counted as the dead man's heir. The Sadducees use it to make resurrection look absurd."
+   },
+   {
+    "verse": 34,
+    "phrase": "children of this age",
+    "lemma": "υἱός",
+    "kind": "background",
+    "traditional": "children of this world / sons of this age",
+    "note": "The Greek is literally 'sons of this age', a Semitic idiom in which 'son of' means 'belonging to'. The same idiom lies behind 'children of God' and 'children of the resurrection' in verse 36. 'This age' and 'that age' reflect the Jewish division of time into the present age and the age to come."
+   },
+   {
+    "verse": 37,
+    "phrase": "in the passage about the bush",
+    "lemma": "βάτος",
+    "kind": "background",
+    "traditional": "at the bush",
+    "note": "The Greek says only 'at the bush'. Before chapter and verse numbers existed, a passage was cited by naming its subject; this is the story of the burning bush in Exodus 3. The Sadducees accepted the books of Moses as authoritative, so Jesus argues from them."
+   },
+   {
+    "verse": 38,
+    "phrase": "to him all are alive",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "all live unto him",
+    "note": "The Greek is a bare dative, 'all live to him'. It may mean that from God's standpoint all are alive, as rendered here, or that all live for him or by his power. The argument is that God would not name himself as the God of people who had ceased to exist."
+   },
+   {
+    "verse": 41,
+    "phrase": "the Messiah",
+    "lemma": "Χριστός",
+    "kind": "departure",
+    "traditional": "Christ",
+    "note": "The Greek christos means 'anointed' and translates the Hebrew word that gives English 'Messiah', the title of the king Israel expected. Here the title itself is under discussion, so it is rendered 'Messiah'; where the word functions as a name for Jesus, this translation keeps 'Christ'. Several modern translations make the same distinction."
+   },
+   {
+    "verse": 42,
+    "phrase": "The Lord said to my Lord",
+    "lemma": "κύριος",
+    "kind": "background",
+    "traditional": "The LORD said unto my Lord",
+    "note": "The quotation is Psalm 110:1. The Hebrew has two different words, the divine name and 'my lord', a term for a superior; the Greek uses the same word for both. Jesus' question turns on the second: David, the supposed speaker, calls the Messiah his lord, which a father would not normally say of his son."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "δοῦλος",
+    "rendering": "slave",
+    "verse": 10,
+    "reason": "Translators split between 'slave' and 'servant' across the parables and Paul's self-descriptions, and a reader would be misled if the word varied from chapter to chapter."
+   },
+   {
+    "lemma": "γραμματεύς",
+    "rendering": "scribes",
+    "verse": 1,
+    "reason": "It recurs throughout the Gospels and Acts; 'scribe' suggests a copyist to modern readers, where 'legal scholar' or 'teacher of the law' are plausible alternatives, so one choice is needed."
+   },
+   {
+    "lemma": "αἰών",
+    "rendering": "age",
+    "verse": 34,
+    "reason": "It is rendered variously 'age', 'world' and 'eternity' across the New Testament, and the this-age/that-age contrast needs one consistent treatment."
+   },
+   {
+    "lemma": "εὐαγγελίζω",
+    "rendering": "proclaiming the good news",
+    "verse": 1,
+    "reason": "It is frequent in Luke–Acts and Paul, and 'preach the gospel', 'proclaim the good news' and 'bring good news' should not alternate at random."
+   },
+   {
+    "lemma": "ἐξουσία",
+    "rendering": "authority",
+    "verse": 2,
+    "reason": "It ranges over 'authority', 'power', 'right' and 'jurisdiction' across the New Testament and needs a default with defined alternates."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

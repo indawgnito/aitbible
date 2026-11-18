@@ -1,0 +1,729 @@
+{
+ "id": "matthew-021",
+ "book": "matthew",
+ "chapter": 21,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZoM4JypzkGUtHYrF",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 10427,
+  "output_tokens": 20504
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When they drew near to Jerusalem and came to Bethphage, to the Mount of Olives, Jesus then sent two disciples,\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"saying to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Go into the village ahead of you, and at once you will find a donkey tied up, and a colt with her. Untie them and bring them to me.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And if anyone says anything to you, you are to say, ‘The Lord needs them,’ and he will send them at once.”\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"This happened so that what was spoken through the prophet might be fulfilled:\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"scripture\",\"text\":\"“Say to daughter Zion, ‘Look, your king is coming to you, gentle and mounted on a donkey, and on a colt, the foal of a beast of burden.’”\"}]},{\"verse\":6,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The disciples went and did as Jesus had directed them;\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"they brought the donkey and the colt and laid their cloaks on them, and he sat on them.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Most of the crowd spread their own cloaks on the road, while others were cutting branches from the trees and spreading them on the road.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The crowds going ahead of him and those following were shouting,\"},{\"speaker\":\"other\",\"text\":\"“Hosanna to the Son of David! Blessed is the one who comes in the name of the Lord! Hosanna in the highest!”\"}]},{\"verse\":10,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When he entered Jerusalem, the whole city was shaken, asking,\"},{\"speaker\":\"other\",\"text\":\"“Who is this?”\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And the crowds were saying,\"},{\"speaker\":\"other\",\"text\":\"“This is the prophet Jesus, from Nazareth in Galilee.”\"}]},{\"verse\":12,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus entered the temple and drove out all who were selling and buying in the temple, and he overturned the tables of the money changers and the seats of those selling doves.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“It is written, ‘My house will be called a house of prayer,’ but you are making it a den of bandits.”\"}]},{\"verse\":14,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Blind and lame people came to him in the temple, and he healed them.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But when the chief priests and the scribes saw the wonders he did, and the children shouting in the temple,\"},{\"speaker\":\"other\",\"text\":\"“Hosanna to the Son of David!”\"},{\"speaker\":\"narrator\",\"text\":\"they were indignant\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and said to him,\"},{\"speaker\":\"other\",\"text\":\"“Do you hear what these are saying?”\"},{\"speaker\":\"narrator\",\"text\":\"Jesus said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Yes. Have you never read, ‘Out of the mouths of infants and nursing babies you have prepared praise for yourself’?”\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And leaving them, he went out of the city to Bethany and spent the night there.\"}]},{\"verse\":18,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Early in the morning, as he was returning to the city, he was hungry.\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Seeing a lone fig tree by the road, he went up to it and found nothing on it but leaves. He said to it,\"},{\"speaker\":\"Jesus\",\"text\":\"“May no fruit ever come from you again!”\"},{\"speaker\":\"narrator\",\"text\":\"And the fig tree withered at once.\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When the disciples saw it, they were amazed and said,\"},{\"speaker\":\"other\",\"text\":\"“How did the fig tree wither at once?”\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus answered them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Truly I tell you, if you have faith and do not doubt, not only will you do what was done to the fig tree, but even if you say to this mountain, ‘Be lifted up and thrown into the sea,’ it will happen.\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And everything you ask for in prayer, believing, you will receive.”\"}]},{\"verse\":23,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When he had come into the temple, the chief priests and the elders of the people came up to him as he was teaching and said,\"},{\"speaker\":\"other\",\"text\":\"“By what authority are you doing these things? And who gave you this authority?”\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus answered them,\"},{\"speaker\":\"Jesus\",\"text\":\"“I too will ask you one question, and if you answer me, I too will tell you by what authority I am doing these things.\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Where was John’s baptism from? From heaven, or from people?”\"},{\"speaker\":\"narrator\",\"text\":\"They discussed it among themselves, saying,\"},{\"speaker\":\"other\",\"text\":\"“If we say, ‘From heaven,’ he will say to us, ‘Why then did you not believe him?’\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"But if we say, ‘From people,’ we are afraid of the crowd, for they all hold John to be a prophet.”\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So they answered Jesus,\"},{\"speaker\":\"other\",\"text\":\"“We do not know.”\"},{\"speaker\":\"narrator\",\"text\":\"He in turn said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Neither will I tell you by what authority I am doing these things.\"}]},{\"verse\":28,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"“What do you think? A man had two sons. He went to the first and said, ‘Son, go and work in the vineyard today.’\"}]},{\"verse\":29,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"He answered, ‘I will not,’ but afterward he changed his mind and went.\"}]},{\"verse\":30,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"He went to the second and said the same. He answered, ‘I will, sir,’ and did not go.\"}]},{\"verse\":31,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Which of the two did the father’s will?”\"},{\"speaker\":\"narrator\",\"text\":\"They said,\"},{\"speaker\":\"other\",\"text\":\"“The first.”\"},{\"speaker\":\"narrator\",\"text\":\"Jesus said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Truly I tell you, the tax collectors and the prostitutes are going into the kingdom of God ahead of you.\"}]},{\"verse\":32,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For John came to you in the way of righteousness, and you did not believe him, but the tax collectors and the prostitutes believed him. And you, when you saw this, did not even change your minds afterward and believe him.\"}]},{\"verse\":33,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"“Listen to another parable. There was a landowner who planted a vineyard, put a fence around it, dug a winepress in it, and built a tower. Then he leased it to tenants and went abroad.\"}]},{\"verse\":34,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"When the season of fruits drew near, he sent his slaves to the tenants to collect his fruits.\"}]},{\"verse\":35,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And the tenants seized his slaves; one they beat, another they killed, another they stoned.\"}]},{\"verse\":36,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Again he sent other slaves, more than the first, and they did the same to them.\"}]},{\"verse\":37,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Finally he sent his son to them, saying, ‘They will respect my son.’\"}]},{\"verse\":38,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But when the tenants saw the son, they said among themselves, ‘This is the heir. Come, let us kill him and have his inheritance.’\"}]},{\"verse\":39,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And they seized him, threw him out of the vineyard, and killed him.\"}]},{\"verse\":40,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"So when the owner of the vineyard comes, what will he do to those tenants?”\"}]},{\"verse\":41,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They said to him,\"},{\"speaker\":\"other\",\"text\":\"“He will bring those wretches to a wretched end and lease the vineyard to other tenants, who will give him the fruits in their seasons.”\"}]},{\"verse\":42,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Have you never read in the Scriptures, ‘The stone that the builders rejected has become the cornerstone. This came from the Lord, and it is wonderful in our eyes’?\"}]},{\"verse\":43,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For this reason I tell you that the kingdom of God will be taken away from you and given to a nation that produces its fruits.\"}]},{\"verse\":44,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And anyone who falls on this stone will be shattered, and anyone it falls on, it will crush.”\"}]},{\"verse\":45,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When the chief priests and the Pharisees heard his parables, they realized that he was speaking about them.\"}]},{\"verse\":46,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They wanted to arrest him, but they feared the crowds, since they held him to be a prophet.\"}]}],\"notes\":[{\"verse\":3,\"phrase\":\"The Lord needs them\",\"lemma\":\"κύριος\",\"kind\":\"ambiguity\",\"traditional\":\"The Lord needs them\",\"note\":\"The Greek can also be read 'Their master needs them', since 'of them' can attach either to 'lord' or to 'need', and the word for 'Lord' is also the ordinary word for an owner or master. Most translations take it as the text does, with Jesus referring to himself. A minority of interpreters take 'the Lord' to mean God, or the animals' owner.\"},{\"verse\":5,\"phrase\":\"gentle\",\"lemma\":\"πραΰς\",\"kind\":\"departure\",\"traditional\":\"meek\",\"note\":\"The traditional 'meek' now suggests weakness or timidity, which the Greek word does not. It describes someone unassuming and not self-assertive, here a king who arrives without the trappings of war. 'Gentle' or 'humble' is the usual rendering in modern translations.\"},{\"verse\":5,\"phrase\":\"on a donkey, and on a colt\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"The quotation joins an opening line from Isaiah 62:11 to Zechariah 9:9. In the Hebrew poetry of Zechariah the second line restates the first, so one animal is described twice. Matthew, alone among the Gospels, mentions both a donkey and her colt in the narrative. Whether he read the prophecy as naming two animals, or simply reports that the mother accompanied the colt, is debated.\"},{\"verse\":7,\"phrase\":\"he sat on them\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"he sat on them\",\"note\":\"The nearest antecedent of 'them' is the cloaks, and most interpreters understand that Jesus sat on the cloaks laid over the animal he rode. The Greek could also mean that he sat on the animals. The English is left as open as the Greek.\"},{\"verse\":9,\"phrase\":\"Hosanna\",\"lemma\":\"ὡσαννά\",\"kind\":\"background\",\"traditional\":\"Hosanna\",\"note\":\"A Hebrew expression transliterated into Greek, originally a plea meaning 'Save, please!' as in Psalm 118:25, the psalm from which the next line of the shout is taken. By the first century it appears to have become a shout of acclamation, which is how it works here with 'to the Son of David'. 'In the highest' means in the highest places, that is, in heaven.\"},{\"verse\":13,\"phrase\":\"a den of bandits\",\"lemma\":\"λῃστής\",\"kind\":\"departure\",\"traditional\":\"a den of thieves; a den of robbers\",\"note\":\"The Greek word denotes a brigand who robs with violence, as distinct from a thief who steals by stealth; it is the word later used of the two men crucified with Jesus. The phrase comes from Jeremiah 7:11, where the temple is pictured as the hideout to which wrongdoers retreat in safety, not as the place where the robbing is done. 'Robbers' remains the commonest modern rendering.\"},{\"verse\":29,\"phrase\":\"I will not\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"\",\"note\":\"The manuscripts give this parable in different forms. In the form followed here, the first son refuses and then goes. In another well-attested form the order is reversed, so that the son who obeys is the second and the answer in verse 31 is 'the last'. A third form has the hearers approve the son who said yes and did nothing; the point of the parable is the same in the first two forms.\"},{\"verse\":32,\"phrase\":\"the way of righteousness\",\"lemma\":\"δικαιοσύνη\",\"kind\":\"ambiguity\",\"traditional\":\"the way of righteousness\",\"note\":\"The phrase may mean that John himself lived rightly, or that he came teaching the right way of life that God requires; both fit Matthew's use of the word. Greek has one word-family where English has two (righteous and just, righteousness and justice), so 'the way of justice' would be an equally literal rendering.\"},{\"verse\":33,\"phrase\":\"planted a vineyard\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"The details of the vineyard, with its fence, winepress and tower, echo the song of the vineyard in Isaiah 5:1–7, where the vineyard is Israel and its owner is God. Hearers who knew that passage would have recognised the story as being about God and his people before any explanation was given.\"},{\"verse\":34,\"phrase\":\"slaves\",\"lemma\":\"δοῦλος\",\"kind\":\"departure\",\"traditional\":\"servants\",\"note\":\"The Greek word means a slave, a person owned by a master, not a hired employee; landowners commonly used slaves as their agents. Several recent translations render 'slaves', while others retain 'servants' because of the associations slavery has for modern readers.\"},{\"verse\":42,\"phrase\":\"the cornerstone\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"the head of the corner; the cornerstone\",\"note\":\"Literally 'head of the corner', quoting Psalm 118:22–23. It may be a foundation stone at the corner of a building or the capstone that completes a wall or arch; scholars are divided. Either way it is the stone on which the structure depends.\"},{\"verse\":43,\"phrase\":\"a nation\",\"lemma\":\"ἔθνος\",\"kind\":\"ambiguity\",\"traditional\":\"a nation; a people\",\"note\":\"The Greek word is the one that in the plural is usually rendered 'Gentiles'; in the singular, as here, it means a people or nation. The saying therefore does not simply say 'given to the Gentiles'. Who this 'nation' is has been much debated; many interpreters take it to be the community of Jesus's followers, Jewish and Gentile, in contrast to the leaders addressed in verse 45.\"},{\"verse\":44,\"phrase\":\"falls on this stone\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"\",\"note\":\"This verse is absent from a small number of early witnesses, and some editors bracket it as a possible borrowing from Luke 20:18. The great majority of manuscripts, including early ones, contain it, and the edition translated here prints it without brackets.\"}],\"candidates\":[{\"lemma\":\"δοῦλος\",\"rendering\":\"slave\",\"verse\":34,\"reason\":\"Occurs throughout the New Testament and translations split between 'slave' and 'servant'; varying it would hide the status of the people in the parables and in Paul's self-descriptions.\"},{\"lemma\":\"λῃστής\",\"rendering\":\"bandit\",\"verse\":13,\"reason\":\"Recurs in the temple saying, the arrest, the crucifixion and John 10, and is rendered 'thief', 'robber', 'bandit' or 'rebel'; one rendering keeps the links visible and keeps it distinct from κλέπτης.\"},{\"lemma\":\"γραμματεύς\",\"rendering\":\"scribe\",\"verse\":15,\"reason\":\"Very frequent in the Gospels; 'scribe' suggests a copyist to modern readers where the word means an expert in the Law, so the choice between 'scribe', 'legal expert' and 'teacher of the law' should be made once.\"},{\"lemma\":\"τελώνης\",\"rendering\":\"tax collector\",\"verse\":31,\"reason\":\"Recurs across the Synoptics; translators vary between 'tax collector', 'toll collector' and 'publican', and the choice affects how readers picture the role.\"},{\"lemma\":\"ἱερόν\",\"rendering\":\"temple\",\"verse\":12,\"reason\":\"Denotes the whole temple precinct, as distinct from ναός, the sanctuary building; both are usually 'temple' in English, and a decision is needed on whether and how to mark the difference.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When they drew near to Jerusalem and came to Bethphage, to the Mount of Olives, Jesus then sent two disciples,"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "saying to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Go into the village ahead of you, and at once you will find a donkey tied up, and a colt with her. Untie them and bring them to me."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And if anyone says anything to you, you are to say, ‘The Lord needs them,’ and he will send them at once.”"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "This happened so that what was spoken through the prophet might be fulfilled:"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "scripture",
+      "text": "“Say to daughter Zion, ‘Look, your king is coming to you, gentle and mounted on a donkey, and on a colt, the foal of a beast of burden.’”"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The disciples went and did as Jesus had directed them;"
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "they brought the donkey and the colt and laid their cloaks on them, and he sat on them."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Most of the crowd spread their own cloaks on the road, while others were cutting branches from the trees and spreading them on the road."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The crowds going ahead of him and those following were shouting,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Hosanna to the Son of David! Blessed is the one who comes in the name of the Lord! Hosanna in the highest!”"
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When he entered Jerusalem, the whole city was shaken, asking,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Who is this?”"
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And the crowds were saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“This is the prophet Jesus, from Nazareth in Galilee.”"
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus entered the temple and drove out all who were selling and buying in the temple, and he overturned the tables of the money changers and the seats of those selling doves."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“It is written, ‘My house will be called a house of prayer,’ but you are making it a den of bandits.”"
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Blind and lame people came to him in the temple, and he healed them."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But when the chief priests and the scribes saw the wonders he did, and the children shouting in the temple,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Hosanna to the Son of David!”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "they were indignant"
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Do you hear what these are saying?”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "Jesus said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Yes. Have you never read, ‘Out of the mouths of infants and nursing babies you have prepared praise for yourself’?”"
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And leaving them, he went out of the city to Bethany and spent the night there."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Early in the morning, as he was returning to the city, he was hungry."
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Seeing a lone fig tree by the road, he went up to it and found nothing on it but leaves. He said to it,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“May no fruit ever come from you again!”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "And the fig tree withered at once."
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When the disciples saw it, they were amazed and said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“How did the fig tree wither at once?”"
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus answered them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Truly I tell you, if you have faith and do not doubt, not only will you do what was done to the fig tree, but even if you say to this mountain, ‘Be lifted up and thrown into the sea,’ it will happen."
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And everything you ask for in prayer, believing, you will receive.”"
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When he had come into the temple, the chief priests and the elders of the people came up to him as he was teaching and said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“By what authority are you doing these things? And who gave you this authority?”"
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus answered them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“I too will ask you one question, and if you answer me, I too will tell you by what authority I am doing these things."
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Where was John’s baptism from? From heaven, or from people?”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "They discussed it among themselves, saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“If we say, ‘From heaven,’ he will say to us, ‘Why then did you not believe him?’"
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "But if we say, ‘From people,’ we are afraid of the crowd, for they all hold John to be a prophet.”"
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So they answered Jesus,"
+     },
+     {
+      "speaker": "other",
+      "text": "“We do not know.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "He in turn said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Neither will I tell you by what authority I am doing these things."
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "“What do you think? A man had two sons. He went to the first and said, ‘Son, go and work in the vineyard today.’"
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "He answered, ‘I will not,’ but afterward he changed his mind and went."
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "He went to the second and said the same. He answered, ‘I will, sir,’ and did not go."
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Which of the two did the father’s will?”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "They said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“The first.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "Jesus said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Truly I tell you, the tax collectors and the prostitutes are going into the kingdom of God ahead of you."
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For John came to you in the way of righteousness, and you did not believe him, but the tax collectors and the prostitutes believed him. And you, when you saw this, did not even change your minds afterward and believe him."
+     }
+    ]
+   },
+   {
+    "verse": 33,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "“Listen to another parable. There was a landowner who planted a vineyard, put a fence around it, dug a winepress in it, and built a tower. Then he leased it to tenants and went abroad."
+     }
+    ]
+   },
+   {
+    "verse": 34,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "When the season of fruits drew near, he sent his slaves to the tenants to collect his fruits."
+     }
+    ]
+   },
+   {
+    "verse": 35,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And the tenants seized his slaves; one they beat, another they killed, another they stoned."
+     }
+    ]
+   },
+   {
+    "verse": 36,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Again he sent other slaves, more than the first, and they did the same to them."
+     }
+    ]
+   },
+   {
+    "verse": 37,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Finally he sent his son to them, saying, ‘They will respect my son.’"
+     }
+    ]
+   },
+   {
+    "verse": 38,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But when the tenants saw the son, they said among themselves, ‘This is the heir. Come, let us kill him and have his inheritance.’"
+     }
+    ]
+   },
+   {
+    "verse": 39,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And they seized him, threw him out of the vineyard, and killed him."
+     }
+    ]
+   },
+   {
+    "verse": 40,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "So when the owner of the vineyard comes, what will he do to those tenants?”"
+     }
+    ]
+   },
+   {
+    "verse": 41,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“He will bring those wretches to a wretched end and lease the vineyard to other tenants, who will give him the fruits in their seasons.”"
+     }
+    ]
+   },
+   {
+    "verse": 42,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Have you never read in the Scriptures, ‘The stone that the builders rejected has become the cornerstone. This came from the Lord, and it is wonderful in our eyes’?"
+     }
+    ]
+   },
+   {
+    "verse": 43,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For this reason I tell you that the kingdom of God will be taken away from you and given to a nation that produces its fruits."
+     }
+    ]
+   },
+   {
+    "verse": 44,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And anyone who falls on this stone will be shattered, and anyone it falls on, it will crush.”"
+     }
+    ]
+   },
+   {
+    "verse": 45,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When the chief priests and the Pharisees heard his parables, they realized that he was speaking about them."
+     }
+    ]
+   },
+   {
+    "verse": 46,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They wanted to arrest him, but they feared the crowds, since they held him to be a prophet."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 3,
+    "phrase": "The Lord needs them",
+    "lemma": "κύριος",
+    "kind": "ambiguity",
+    "traditional": "The Lord needs them",
+    "note": "The Greek can also be read 'Their master needs them', since 'of them' can attach either to 'lord' or to 'need', and the word for 'Lord' is also the ordinary word for an owner or master. Most translations take it as the text does, with Jesus referring to himself. A minority of interpreters take 'the Lord' to mean God, or the animals' owner."
+   },
+   {
+    "verse": 5,
+    "phrase": "gentle",
+    "lemma": "πραΰς",
+    "kind": "departure",
+    "traditional": "meek",
+    "note": "The traditional 'meek' now suggests weakness or timidity, which the Greek word does not. It describes someone unassuming and not self-assertive, here a king who arrives without the trappings of war. 'Gentle' or 'humble' is the usual rendering in modern translations."
+   },
+   {
+    "verse": 5,
+    "phrase": "on a donkey, and on a colt",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "The quotation joins an opening line from Isaiah 62:11 to Zechariah 9:9. In the Hebrew poetry of Zechariah the second line restates the first, so one animal is described twice. Matthew, alone among the Gospels, mentions both a donkey and her colt in the narrative. Whether he read the prophecy as naming two animals, or simply reports that the mother accompanied the colt, is debated."
+   },
+   {
+    "verse": 7,
+    "phrase": "he sat on them",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "he sat on them",
+    "note": "The nearest antecedent of 'them' is the cloaks, and most interpreters understand that Jesus sat on the cloaks laid over the animal he rode. The Greek could also mean that he sat on the animals. The English is left as open as the Greek."
+   },
+   {
+    "verse": 9,
+    "phrase": "Hosanna",
+    "lemma": "ὡσαννά",
+    "kind": "background",
+    "traditional": "Hosanna",
+    "note": "A Hebrew expression transliterated into Greek, originally a plea meaning 'Save, please!' as in Psalm 118:25, the psalm from which the next line of the shout is taken. By the first century it appears to have become a shout of acclamation, which is how it works here with 'to the Son of David'. 'In the highest' means in the highest places, that is, in heaven."
+   },
+   {
+    "verse": 13,
+    "phrase": "a den of bandits",
+    "lemma": "λῃστής",
+    "kind": "departure",
+    "traditional": "a den of thieves; a den of robbers",
+    "note": "The Greek word denotes a brigand who robs with violence, as distinct from a thief who steals by stealth; it is the word later used of the two men crucified with Jesus. The phrase comes from Jeremiah 7:11, where the temple is pictured as the hideout to which wrongdoers retreat in safety, not as the place where the robbing is done. 'Robbers' remains the commonest modern rendering."
+   },
+   {
+    "verse": 29,
+    "phrase": "I will not",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "",
+    "note": "The manuscripts give this parable in different forms. In the form followed here, the first son refuses and then goes. In another well-attested form the order is reversed, so that the son who obeys is the second and the answer in verse 31 is 'the last'. A third form has the hearers approve the son who said yes and did nothing; the point of the parable is the same in the first two forms."
+   },
+   {
+    "verse": 32,
+    "phrase": "the way of righteousness",
+    "lemma": "δικαιοσύνη",
+    "kind": "ambiguity",
+    "traditional": "the way of righteousness",
+    "note": "The phrase may mean that John himself lived rightly, or that he came teaching the right way of life that God requires; both fit Matthew's use of the word. Greek has one word-family where English has two (righteous and just, righteousness and justice), so 'the way of justice' would be an equally literal rendering."
+   },
+   {
+    "verse": 33,
+    "phrase": "planted a vineyard",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "The details of the vineyard, with its fence, winepress and tower, echo the song of the vineyard in Isaiah 5:1–7, where the vineyard is Israel and its owner is God. Hearers who knew that passage would have recognised the story as being about God and his people before any explanation was given."
+   },
+   {
+    "verse": 34,
+    "phrase": "slaves",
+    "lemma": "δοῦλος",
+    "kind": "departure",
+    "traditional": "servants",
+    "note": "The Greek word means a slave, a person owned by a master, not a hired employee; landowners commonly used slaves as their agents. Several recent translations render 'slaves', while others retain 'servants' because of the associations slavery has for modern readers."
+   },
+   {
+    "verse": 42,
+    "phrase": "the cornerstone",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "the head of the corner; the cornerstone",
+    "note": "Literally 'head of the corner', quoting Psalm 118:22–23. It may be a foundation stone at the corner of a building or the capstone that completes a wall or arch; scholars are divided. Either way it is the stone on which the structure depends."
+   },
+   {
+    "verse": 43,
+    "phrase": "a nation",
+    "lemma": "ἔθνος",
+    "kind": "ambiguity",
+    "traditional": "a nation; a people",
+    "note": "The Greek word is the one that in the plural is usually rendered 'Gentiles'; in the singular, as here, it means a people or nation. The saying therefore does not simply say 'given to the Gentiles'. Who this 'nation' is has been much debated; many interpreters take it to be the community of Jesus's followers, Jewish and Gentile, in contrast to the leaders addressed in verse 45."
+   },
+   {
+    "verse": 44,
+    "phrase": "falls on this stone",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "",
+    "note": "This verse is absent from a small number of early witnesses, and some editors bracket it as a possible borrowing from Luke 20:18. The great majority of manuscripts, including early ones, contain it, and the edition translated here prints it without brackets."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "δοῦλος",
+    "rendering": "slave",
+    "verse": 34,
+    "reason": "Occurs throughout the New Testament and translations split between 'slave' and 'servant'; varying it would hide the status of the people in the parables and in Paul's self-descriptions."
+   },
+   {
+    "lemma": "λῃστής",
+    "rendering": "bandit",
+    "verse": 13,
+    "reason": "Recurs in the temple saying, the arrest, the crucifixion and John 10, and is rendered 'thief', 'robber', 'bandit' or 'rebel'; one rendering keeps the links visible and keeps it distinct from κλέπτης."
+   },
+   {
+    "lemma": "γραμματεύς",
+    "rendering": "scribe",
+    "verse": 15,
+    "reason": "Very frequent in the Gospels; 'scribe' suggests a copyist to modern readers where the word means an expert in the Law, so the choice between 'scribe', 'legal expert' and 'teacher of the law' should be made once."
+   },
+   {
+    "lemma": "τελώνης",
+    "rendering": "tax collector",
+    "verse": 31,
+    "reason": "Recurs across the Synoptics; translators vary between 'tax collector', 'toll collector' and 'publican', and the choice affects how readers picture the role."
+   },
+   {
+    "lemma": "ἱερόν",
+    "rendering": "temple",
+    "verse": 12,
+    "reason": "Denotes the whole temple precinct, as distinct from ναός, the sanctuary building; both are usually 'temple' in English, and a decision is needed on whether and how to mark the difference."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [
+  "Verse 22: πιστεύω is not rendered with a register form (believe / trust) and has no register-exception note."
+ ]
+}

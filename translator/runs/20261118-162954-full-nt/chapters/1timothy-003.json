@@ -1,0 +1,311 @@
+{
+ "id": "1timothy-003",
+ "book": "1timothy",
+ "chapter": 3,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZiPQZFXT3u1c5XFr",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 6494,
+  "output_tokens": 12987
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The saying is trustworthy. If anyone aspires to the position of overseer, it is a good work he desires.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So the overseer must be above reproach, the husband of one wife, clear-headed, self-controlled, respectable, hospitable, able to teach,\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"not a drunkard, not violent, but gentle, peaceable, not a lover of money,\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"managing his own household well, keeping his children in submission with all dignity\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"(but if someone does not know how to manage his own household, how will he care for God's assembly?),\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"not a recent convert, so that he does not become conceited and fall into the judgment of the devil.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He must also have a good reputation with those outside, so that he does not fall into disgrace and the snare of the devil.\"}]},{\"verse\":8,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Deacons likewise must be dignified, not double-tongued, not given to much wine, not greedy for shameful gain,\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"holding the mystery of the faith with a clean conscience.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And these too must first be tested; then let them serve, if they are blameless.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Women likewise must be dignified, not slanderers, clear-headed, faithful in everything.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Deacons must be husbands of one wife, managing their children and their own households well.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For those who have served well gain a good standing for themselves and great confidence in the faith that is in Christ Jesus.\"}]},{\"verse\":14,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"I am writing these things to you, though I hope to come to you soon,\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"but if I am delayed, so that you may know how one must behave in God's household, which is the assembly of the living God, a pillar and support of the truth.\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And beyond dispute, great is the mystery of godliness: He was revealed in flesh, vindicated in spirit, seen by angels, proclaimed among the nations, believed in throughout the world, taken up in glory.\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"The saying is trustworthy\",\"lemma\":\"πιστός\",\"kind\":\"register-exception\",\"traditional\":\"This is a faithful saying / The saying is trustworthy\",\"note\":\"The adjective is normally rendered 'faithful' in this translation, but applied to a statement it means 'reliable, deserving trust', and 'a faithful saying' no longer says that in English. The formula recurs in the letters to Timothy and Titus. It is disputed whether it here endorses what follows about overseers or looks back to the end of chapter 2; the punctuation leaves this open.\"},{\"verse\":1,\"phrase\":\"the position of overseer\",\"lemma\":\"ἐπισκοπή\",\"kind\":\"departure\",\"traditional\":\"the office of a bishop\",\"note\":\"The Greek noun means 'oversight', and the related word in verse 2 means 'overseer', a term used for supervisors and officials of many kinds. 'Bishop' derives from this word but now suggests a single leader over many congregations, an arrangement that developed later. Many modern translations also use 'overseer'; others keep 'bishop' for continuity with later usage.\"},{\"verse\":2,\"phrase\":\"the husband of one wife\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"the husband of one wife\",\"note\":\"Literally 'a man of one woman'. The phrase may mean faithful to his wife, married only once (excluding remarriage after death or divorce), or not polygamous; all three have serious defenders. The literal rendering is kept because the Greek does not decide between them. The same phrase recurs in verse 12.\"},{\"verse\":5,\"phrase\":\"God's assembly\",\"lemma\":\"ἐκκλησία\",\"kind\":\"departure\",\"traditional\":\"the church of God\",\"note\":\"The Greek word was the ordinary term for a civic gathering and, in the Greek Old Testament, for Israel assembled before God. 'Church' is the near-universal rendering and is clear enough in reference, but it now suggests a building or institution. This translation uses 'assembly' throughout so that the reader can see it is one word.\"},{\"verse\":6,\"phrase\":\"the judgment of the devil\",\"lemma\":\"κρίμα\",\"kind\":\"ambiguity\",\"traditional\":\"the condemnation of the devil\",\"note\":\"The Greek can mean the judgment that was passed on the devil, which the conceited person would share, or a judgment the devil brings about as accuser. Most interpreters prefer the first. In verse 7 'the snare of the devil' is clearly a snare the devil sets, which leads some to read this verse the same way.\"},{\"verse\":8,\"phrase\":\"Deacons\",\"lemma\":\"διάκονος\",\"kind\":\"background\",\"traditional\":\"deacons\",\"note\":\"The word is the ordinary Greek term for a servant or someone who carries out a task for another, and is translated 'servant' elsewhere. Here it names a recognised role in the assembly alongside the overseer, so the traditional 'deacon' is kept. The verb 'serve' in verses 10 and 13 is from the same root.\"},{\"verse\":11,\"phrase\":\"Women\",\"lemma\":\"γυνή\",\"kind\":\"ambiguity\",\"traditional\":\"their wives / women\",\"note\":\"The Greek word means both 'woman' and 'wife', and there is no 'their' in the text. The verse may refer to women who serve as deacons or to the wives of deacons; both views are widely held. 'Women' is used because it leaves the question as open as the Greek does.\"},{\"verse\":11,\"phrase\":\"slanderers\",\"lemma\":\"διάβολος\",\"kind\":\"background\",\"traditional\":\"slanderers\",\"note\":\"This is the same Greek word translated 'devil' in verses 6 and 7. As an ordinary adjective it means 'slanderous' or 'given to false accusation'; with the article it had become the standard title for the adversary.\"},{\"verse\":15,\"phrase\":\"God's household\",\"lemma\":\"οἶκος\",\"kind\":\"departure\",\"traditional\":\"the house of God\",\"note\":\"The word can mean a building or the family and dependants who make up a household. It is the same word used in verses 4, 5 and 12 for the households overseers and deacons must manage, and the argument depends on that link, so 'household' is used here too. 'House of God' is the older rendering and may carry an echo of the temple.\"},{\"verse\":16,\"phrase\":\"He was revealed\",\"lemma\":\"ὅς\",\"kind\":\"textual\",\"traditional\":\"God was manifest\",\"note\":\"The earliest manuscripts read 'who' (rendered here as 'He'), which begins what is widely thought to be a fragment of an early hymn or confession about Christ. Many later manuscripts read 'God', the basis of the King James rendering 'God was manifest in the flesh'; in ancient script the two readings differ by only a couple of strokes. Nearly all modern editions and translations follow the earlier reading.\"},{\"verse\":16,\"phrase\":\"vindicated in spirit\",\"lemma\":\"δικαιόω\",\"kind\":\"ambiguity\",\"traditional\":\"justified in the Spirit\",\"note\":\"The verb is the one translated 'justify' elsewhere, from the same word-family as 'righteousness'; here it means shown or declared to be in the right, probably with reference to the resurrection. The phrase may be 'in spirit', in contrast with 'in flesh' in the previous line, or 'by the Spirit', meaning the Holy Spirit. The Greek allows both and interpreters are divided.\"},{\"verse\":16,\"phrase\":\"among the nations\",\"lemma\":\"ἔθνος\",\"kind\":\"ambiguity\",\"traditional\":\"unto the Gentiles / among the nations\",\"note\":\"The Greek plural means both 'nations' and, from a Jewish standpoint, 'Gentiles', the non-Jewish peoples; it is one word. 'Nations' is used here because the parallel line 'in the world' suggests the whole world is in view. 'Among Gentiles' is equally possible and fits Paul's description of himself as a teacher of the Gentiles in 2:7.\"}],\"candidates\":[{\"lemma\":\"ἐπίσκοπος\",\"rendering\":\"overseer\",\"verse\":2,\"reason\":\"Occurs in Acts 20:28, Philippians 1:1, Titus 1:7 and 1 Peter 2:25, and translators split between 'bishop' and 'overseer'; the cognate ἐπισκοπή (v. 1) should follow the same decision.\"},{\"lemma\":\"εὐσέβεια\",\"rendering\":\"godliness\",\"verse\":16,\"reason\":\"Frequent in the Pastoral Letters and 2 Peter, and rendered variously as 'godliness', 'piety', 'religion' or 'devotion'; readers should see one word.\"},{\"lemma\":\"μυστήριον\",\"rendering\":\"mystery\",\"verse\":9,\"reason\":\"Recurs across the Gospels, Paul and Revelation, where it means a secret now disclosed and not a puzzle; translators vary between 'mystery' and 'secret'.\"},{\"lemma\":\"σώφρων\",\"rendering\":\"self-controlled\",\"verse\":2,\"reason\":\"The σώφρων/σωφροσύνη/σωφρονέω family runs through the Pastorals and elsewhere and is rendered 'sober', 'sensible', 'prudent', 'self-controlled' and 'temperate' by different translators.\"},{\"lemma\":\"παρρησία\",\"rendering\":\"confidence\",\"verse\":13,\"reason\":\"Common in John, Acts, Paul, Hebrews and 1 John with a range from frank speech to boldness to confidence before God; a split by sense needs fixing once.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The saying is trustworthy. If anyone aspires to the position of overseer, it is a good work he desires."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So the overseer must be above reproach, the husband of one wife, clear-headed, self-controlled, respectable, hospitable, able to teach,"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "not a drunkard, not violent, but gentle, peaceable, not a lover of money,"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "managing his own household well, keeping his children in submission with all dignity"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "(but if someone does not know how to manage his own household, how will he care for God's assembly?),"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "not a recent convert, so that he does not become conceited and fall into the judgment of the devil."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He must also have a good reputation with those outside, so that he does not fall into disgrace and the snare of the devil."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Deacons likewise must be dignified, not double-tongued, not given to much wine, not greedy for shameful gain,"
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "holding the mystery of the faith with a clean conscience."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And these too must first be tested; then let them serve, if they are blameless."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Women likewise must be dignified, not slanderers, clear-headed, faithful in everything."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Deacons must be husbands of one wife, managing their children and their own households well."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For those who have served well gain a good standing for themselves and great confidence in the faith that is in Christ Jesus."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "I am writing these things to you, though I hope to come to you soon,"
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "but if I am delayed, so that you may know how one must behave in God's household, which is the assembly of the living God, a pillar and support of the truth."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And beyond dispute, great is the mystery of godliness: He was revealed in flesh, vindicated in spirit, seen by angels, proclaimed among the nations, believed in throughout the world, taken up in glory."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "The saying is trustworthy",
+    "lemma": "πιστός",
+    "kind": "register-exception",
+    "traditional": "This is a faithful saying / The saying is trustworthy",
+    "note": "The adjective is normally rendered 'faithful' in this translation, but applied to a statement it means 'reliable, deserving trust', and 'a faithful saying' no longer says that in English. The formula recurs in the letters to Timothy and Titus. It is disputed whether it here endorses what follows about overseers or looks back to the end of chapter 2; the punctuation leaves this open."
+   },
+   {
+    "verse": 1,
+    "phrase": "the position of overseer",
+    "lemma": "ἐπισκοπή",
+    "kind": "departure",
+    "traditional": "the office of a bishop",
+    "note": "The Greek noun means 'oversight', and the related word in verse 2 means 'overseer', a term used for supervisors and officials of many kinds. 'Bishop' derives from this word but now suggests a single leader over many congregations, an arrangement that developed later. Many modern translations also use 'overseer'; others keep 'bishop' for continuity with later usage."
+   },
+   {
+    "verse": 2,
+    "phrase": "the husband of one wife",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "the husband of one wife",
+    "note": "Literally 'a man of one woman'. The phrase may mean faithful to his wife, married only once (excluding remarriage after death or divorce), or not polygamous; all three have serious defenders. The literal rendering is kept because the Greek does not decide between them. The same phrase recurs in verse 12."
+   },
+   {
+    "verse": 5,
+    "phrase": "God's assembly",
+    "lemma": "ἐκκλησία",
+    "kind": "departure",
+    "traditional": "the church of God",
+    "note": "The Greek word was the ordinary term for a civic gathering and, in the Greek Old Testament, for Israel assembled before God. 'Church' is the near-universal rendering and is clear enough in reference, but it now suggests a building or institution. This translation uses 'assembly' throughout so that the reader can see it is one word."
+   },
+   {
+    "verse": 6,
+    "phrase": "the judgment of the devil",
+    "lemma": "κρίμα",
+    "kind": "ambiguity",
+    "traditional": "the condemnation of the devil",
+    "note": "The Greek can mean the judgment that was passed on the devil, which the conceited person would share, or a judgment the devil brings about as accuser. Most interpreters prefer the first. In verse 7 'the snare of the devil' is clearly a snare the devil sets, which leads some to read this verse the same way."
+   },
+   {
+    "verse": 8,
+    "phrase": "Deacons",
+    "lemma": "διάκονος",
+    "kind": "background",
+    "traditional": "deacons",
+    "note": "The word is the ordinary Greek term for a servant or someone who carries out a task for another, and is translated 'servant' elsewhere. Here it names a recognised role in the assembly alongside the overseer, so the traditional 'deacon' is kept. The verb 'serve' in verses 10 and 13 is from the same root."
+   },
+   {
+    "verse": 11,
+    "phrase": "Women",
+    "lemma": "γυνή",
+    "kind": "ambiguity",
+    "traditional": "their wives / women",
+    "note": "The Greek word means both 'woman' and 'wife', and there is no 'their' in the text. The verse may refer to women who serve as deacons or to the wives of deacons; both views are widely held. 'Women' is used because it leaves the question as open as the Greek does."
+   },
+   {
+    "verse": 11,
+    "phrase": "slanderers",
+    "lemma": "διάβολος",
+    "kind": "background",
+    "traditional": "slanderers",
+    "note": "This is the same Greek word translated 'devil' in verses 6 and 7. As an ordinary adjective it means 'slanderous' or 'given to false accusation'; with the article it had become the standard title for the adversary."
+   },
+   {
+    "verse": 15,
+    "phrase": "God's household",
+    "lemma": "οἶκος",
+    "kind": "departure",
+    "traditional": "the house of God",
+    "note": "The word can mean a building or the family and dependants who make up a household. It is the same word used in verses 4, 5 and 12 for the households overseers and deacons must manage, and the argument depends on that link, so 'household' is used here too. 'House of God' is the older rendering and may carry an echo of the temple."
+   },
+   {
+    "verse": 16,
+    "phrase": "He was revealed",
+    "lemma": "ὅς",
+    "kind": "textual",
+    "traditional": "God was manifest",
+    "note": "The earliest manuscripts read 'who' (rendered here as 'He'), which begins what is widely thought to be a fragment of an early hymn or confession about Christ. Many later manuscripts read 'God', the basis of the King James rendering 'God was manifest in the flesh'; in ancient script the two readings differ by only a couple of strokes. Nearly all modern editions and translations follow the earlier reading."
+   },
+   {
+    "verse": 16,
+    "phrase": "vindicated in spirit",
+    "lemma": "δικαιόω",
+    "kind": "ambiguity",
+    "traditional": "justified in the Spirit",
+    "note": "The verb is the one translated 'justify' elsewhere, from the same word-family as 'righteousness'; here it means shown or declared to be in the right, probably with reference to the resurrection. The phrase may be 'in spirit', in contrast with 'in flesh' in the previous line, or 'by the Spirit', meaning the Holy Spirit. The Greek allows both and interpreters are divided."
+   },
+   {
+    "verse": 16,
+    "phrase": "among the nations",
+    "lemma": "ἔθνος",
+    "kind": "ambiguity",
+    "traditional": "unto the Gentiles / among the nations",
+    "note": "The Greek plural means both 'nations' and, from a Jewish standpoint, 'Gentiles', the non-Jewish peoples; it is one word. 'Nations' is used here because the parallel line 'in the world' suggests the whole world is in view. 'Among Gentiles' is equally possible and fits Paul's description of himself as a teacher of the Gentiles in 2:7."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "ἐπίσκοπος",
+    "rendering": "overseer",
+    "verse": 2,
+    "reason": "Occurs in Acts 20:28, Philippians 1:1, Titus 1:7 and 1 Peter 2:25, and translators split between 'bishop' and 'overseer'; the cognate ἐπισκοπή (v. 1) should follow the same decision."
+   },
+   {
+    "lemma": "εὐσέβεια",
+    "rendering": "godliness",
+    "verse": 16,
+    "reason": "Frequent in the Pastoral Letters and 2 Peter, and rendered variously as 'godliness', 'piety', 'religion' or 'devotion'; readers should see one word."
+   },
+   {
+    "lemma": "μυστήριον",
+    "rendering": "mystery",
+    "verse": 9,
+    "reason": "Recurs across the Gospels, Paul and Revelation, where it means a secret now disclosed and not a puzzle; translators vary between 'mystery' and 'secret'."
+   },
+   {
+    "lemma": "σώφρων",
+    "rendering": "self-controlled",
+    "verse": 2,
+    "reason": "The σώφρων/σωφροσύνη/σωφρονέω family runs through the Pastorals and elsewhere and is rendered 'sober', 'sensible', 'prudent', 'self-controlled' and 'temperate' by different translators."
+   },
+   {
+    "lemma": "παρρησία",
+    "rendering": "confidence",
+    "verse": 13,
+    "reason": "Common in John, Acts, Paul, Hebrews and 1 John with a range from frank speech to boldness to confidence before God; a split by sense needs fixing once."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

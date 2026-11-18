@@ -1,0 +1,647 @@
+{
+ "id": "mark-008",
+ "book": "mark",
+ "chapter": 8,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBAMoYAPbtV6bGQxuftD",
+ "stop_reason": "end_turn",
+ "batch": false,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 8260,
+  "output_tokens": 11929
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"In those days, when there was again a large crowd and they had nothing to eat, he called the disciples to him and said to them,\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"speaker_name\":\"\",\"text\":\"“I feel compassion for the crowd, because they have stayed with me three days now and have nothing to eat.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"speaker_name\":\"\",\"text\":\"And if I send them home hungry, they will collapse on the way; and some of them have come from far away.”\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"His disciples answered him,\"},{\"speaker\":\"crowd\",\"speaker_name\":\"\",\"text\":\"“Where could anyone get enough bread to satisfy these people, here in a deserted place?”\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"He asked them,\"},{\"speaker\":\"Jesus\",\"speaker_name\":\"\",\"text\":\"“How many loaves do you have?”\"},{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"They said,\"},{\"speaker\":\"crowd\",\"speaker_name\":\"\",\"text\":\"“Seven.”\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"He directed the crowd to recline on the ground. Then he took the seven loaves, gave thanks, broke them, and kept giving them to his disciples to set before the people, and they set them before the crowd.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"They also had a few small fish; and after blessing them, he said that these too should be set before them.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"They ate and were satisfied, and they picked up the leftover pieces, seven large baskets.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"There were about four thousand. And he sent them away.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"And immediately he got into the boat with his disciples and went to the region of Dalmanutha.\"}]},{\"verse\":11,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"The Pharisees came out and began to argue with him, seeking from him a sign from heaven, testing him.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"Sighing deeply in his spirit, he said,\"},{\"speaker\":\"Jesus\",\"speaker_name\":\"\",\"text\":\"“Why does this generation seek a sign? Truly I tell you, no sign will be given to this generation.”\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"And leaving them, he got into the boat again and went away to the other side.\"}]},{\"verse\":14,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"They had forgotten to take bread, and apart from one loaf they had none with them in the boat.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"And he was cautioning them, saying,\"},{\"speaker\":\"Jesus\",\"speaker_name\":\"\",\"text\":\"“Watch out! Beware of the leaven of the Pharisees and the leaven of Herod.”\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"And they were discussing with one another that they had no bread.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"Aware of this, he said to them,\"},{\"speaker\":\"Jesus\",\"speaker_name\":\"\",\"text\":\"“Why are you discussing that you have no bread? Do you not yet perceive or understand? Is your heart hardened?\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"speaker_name\":\"\",\"text\":\"Having eyes, do you not see, and having ears, do you not hear? And do you not remember?\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"speaker_name\":\"\",\"text\":\"When I broke the five loaves for the five thousand, how many baskets full of pieces did you pick up?”\"},{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"They said to him,\"},{\"speaker\":\"crowd\",\"speaker_name\":\"\",\"text\":\"“Twelve.”\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"speaker_name\":\"\",\"text\":\"“And the seven for the four thousand—how many large baskets full of pieces did you pick up?”\"},{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"And they said to him,\"},{\"speaker\":\"crowd\",\"speaker_name\":\"\",\"text\":\"“Seven.”\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"And he said to them,\"},{\"speaker\":\"Jesus\",\"speaker_name\":\"\",\"text\":\"“Do you not yet understand?”\"}]},{\"verse\":22,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"They came to Bethsaida. And people brought a blind man to him and begged him to touch him.\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"Taking the blind man by the hand, he led him out of the village; and after spitting on his eyes and laying his hands on him, he asked him,\"},{\"speaker\":\"Jesus\",\"speaker_name\":\"\",\"text\":\"“Do you see anything?”\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"He looked up and said,\"},{\"speaker\":\"other\",\"speaker_name\":\"the blind man\",\"text\":\"“I see people—I see them like trees, walking around.”\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"Then he laid his hands on his eyes again; and the man looked hard and was restored, and he could see everything clearly.\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"And he sent him to his home, saying,\"},{\"speaker\":\"Jesus\",\"speaker_name\":\"\",\"text\":\"“Do not even go into the village.”\"}]},{\"verse\":27,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"Jesus and his disciples went out to the villages of Caesarea Philippi. On the way he asked his disciples,\"},{\"speaker\":\"Jesus\",\"speaker_name\":\"\",\"text\":\"“Who do people say that I am?”\"}]},{\"verse\":28,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"They told him,\"},{\"speaker\":\"crowd\",\"speaker_name\":\"\",\"text\":\"“John the Baptist; and others, Elijah; and others, one of the prophets.”\"}]},{\"verse\":29,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"And he asked them,\"},{\"speaker\":\"Jesus\",\"speaker_name\":\"\",\"text\":\"“But you—who do you say that I am?”\"},{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"Peter answered him,\"},{\"speaker\":\"other\",\"speaker_name\":\"Peter\",\"text\":\"“You are the Messiah.”\"}]},{\"verse\":30,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"And he sternly warned them to tell no one about him.\"}]},{\"verse\":31,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"Then he began to teach them that the Son of Man must suffer many things and be rejected by the elders and the chief priests and the scribes, and be killed, and after three days rise again.\"}]},{\"verse\":32,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"He was saying this openly. And Peter took him aside and began to rebuke him.\"}]},{\"verse\":33,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"But he turned, looked at his disciples, and rebuked Peter, saying,\"},{\"speaker\":\"Jesus\",\"speaker_name\":\"\",\"text\":\"“Get behind me, Satan! For your mind is not on the things of God but on the things of people.”\"}]},{\"verse\":34,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"Then he called the crowd to him along with his disciples and said to them,\"},{\"speaker\":\"Jesus\",\"speaker_name\":\"\",\"text\":\"“If anyone wants to come behind me, let them deny themselves, take up their cross, and follow me.\"}]},{\"verse\":35,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"speaker_name\":\"\",\"text\":\"For whoever wants to save their life will lose it, but whoever loses their life for my sake and for the sake of the good news will save it.\"}]},{\"verse\":36,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"speaker_name\":\"\",\"text\":\"For what does it benefit a person to gain the whole world and forfeit their life?\"}]},{\"verse\":37,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"speaker_name\":\"\",\"text\":\"For what could a person give in exchange for their life?\"}]},{\"verse\":38,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"speaker_name\":\"\",\"text\":\"For whoever is ashamed of me and of my words in this adulterous and sinful generation, the Son of Man will also be ashamed of that person when he comes in the glory of his Father with the holy angels.”\"}]}],\"notes\":[{\"verse\":8,\"phrase\":\"large baskets\",\"lemma\":\"σπυρίς\",\"kind\":\"departure\",\"traditional\":\"baskets\",\"note\":\"Mark uses a different word for the baskets here than in the feeding of the five thousand (6:43), and Jesus keeps the two words apart when he recalls both meals in verses 19–20. This word names a hamper that could be big enough to hold a person (Acts 9:25). Most translations render both words simply as 'baskets'; 'large baskets' keeps the distinction visible, though the exact size is not certain.\"},{\"verse\":10,\"phrase\":\"Dalmanutha\",\"lemma\":\"Δαλμανουθά\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"This place name appears nowhere else in ancient literature and its location is unknown. Matthew's parallel has 'Magadan', and some manuscripts of Mark substitute that or 'Magdala'. It was presumably on the western shore of the Sea of Galilee.\"},{\"verse\":12,\"phrase\":\"no sign will be given to this generation\",\"lemma\":\"εἰ\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"The Greek literally says 'if a sign shall be given to this generation', leaving the sentence unfinished. This mirrors a Hebrew oath formula, familiar from the Greek Old Testament, in which the unspoken ending is a self-curse ('may such-and-such happen to me if ...'). It is an emphatic denial, stronger than a plain 'no'.\"},{\"verse\":15,\"phrase\":\"leaven\",\"lemma\":\"ζύμη\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"Leaven was a piece of fermented dough kept back to raise the next batch, and it was a common image for an influence, usually a corrupting one, that spreads unseen through the whole. Herod is Herod Antipas, ruler of Galilee, who had executed John the Baptist. The disciples take the remark literally, as a comment on their lack of bread.\"},{\"verse\":16,\"phrase\":\"they had no bread\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"It is because we have no bread\",\"note\":\"Many manuscripts read 'we have no bread', giving the disciples' words directly, and many translations follow them. The text translated here reads 'they have', which reports the content of their discussion indirectly. The sense of the scene is the same either way.\"},{\"verse\":24,\"phrase\":\"He looked up\",\"lemma\":\"ἀναβλέπω\",\"kind\":\"ambiguity\",\"traditional\":\"\",\"note\":\"The Greek verb can mean either 'look up' or 'regain sight', and it has the second meaning elsewhere in Mark (10:51–52). Here 'looked up' fits the sequence better, since full sight is restored only in the next verse, but 'beginning to see again' is also possible.\"},{\"verse\":26,\"phrase\":\"Do not even go into the village\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"Neither go into the town, nor tell it to any in the town\",\"note\":\"The manuscripts differ considerably here. Many add 'nor tell anyone in the village', and others have still longer forms. The short reading translated here is found in the earliest witnesses and is the one most editors accept.\"},{\"verse\":29,\"phrase\":\"the Messiah\",\"lemma\":\"Χριστός\",\"kind\":\"departure\",\"traditional\":\"the Christ\",\"note\":\"The Greek word translates the Hebrew for 'anointed one' and here is a title: the anointed king Israel was waiting for. 'Christ' now reads as a name, so 'Messiah' is used where the title itself is the point. Several modern translations make the same choice in the Gospels.\"},{\"verse\":30,\"phrase\":\"sternly warned\",\"lemma\":\"ἐπιτιμάω\",\"kind\":\"background\",\"traditional\":\"charged\",\"note\":\"The verb here is the same one translated 'rebuke' in verses 32 and 33, where Peter rebukes Jesus and Jesus rebukes Peter. Mark also uses it for Jesus silencing unclean spirits. Followed by a command, as here, it means to warn or order sternly, but a Greek reader would hear the same forceful word three times in four verses.\"},{\"verse\":34,\"phrase\":\"come behind me\",\"lemma\":\"ὀπίσω\",\"kind\":\"departure\",\"traditional\":\"come after me\",\"note\":\"The Greek phrase is the same one used in the command to Peter in verse 33, 'Get behind me.' To walk behind a teacher was the position of a disciple, so Peter is being sent back to his place as a follower, and the invitation here describes that place. Most translations have 'come after me', which hides the echo.\"},{\"verse\":35,\"phrase\":\"life\",\"lemma\":\"ψυχή\",\"kind\":\"departure\",\"traditional\":\"life (v. 35) / soul (vv. 36–37)\",\"note\":\"The same Greek word runs through verses 35–37. Many translations switch from 'life' to 'soul' at verse 36, which breaks the argument and suggests a distinct immaterial part of a person. In the usage of the period, shaped by the Greek Old Testament, the word means a person's life or very self. 'Life' is kept throughout, as in some modern versions.\"},{\"verse\":35,\"phrase\":\"good news\",\"lemma\":\"εὐαγγέλιον\",\"kind\":\"departure\",\"traditional\":\"gospel\",\"note\":\"The Greek word was an ordinary term for a public announcement of good news, used also of imperial proclamations. 'Gospel' has become a religious term and a book title, so 'good news' is used instead. Many modern translations already alternate between the two.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "In those days, when there was again a large crowd and they had nothing to eat, he called the disciples to him and said to them,"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "speaker_name": "",
+      "text": "“I feel compassion for the crowd, because they have stayed with me three days now and have nothing to eat."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "speaker_name": "",
+      "text": "And if I send them home hungry, they will collapse on the way; and some of them have come from far away.”"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "His disciples answered him,"
+     },
+     {
+      "speaker": "crowd",
+      "speaker_name": "",
+      "text": "“Where could anyone get enough bread to satisfy these people, here in a deserted place?”"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "He asked them,"
+     },
+     {
+      "speaker": "Jesus",
+      "speaker_name": "",
+      "text": "“How many loaves do you have?”"
+     },
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "They said,"
+     },
+     {
+      "speaker": "crowd",
+      "speaker_name": "",
+      "text": "“Seven.”"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "He directed the crowd to recline on the ground. Then he took the seven loaves, gave thanks, broke them, and kept giving them to his disciples to set before the people, and they set them before the crowd."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "They also had a few small fish; and after blessing them, he said that these too should be set before them."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "They ate and were satisfied, and they picked up the leftover pieces, seven large baskets."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "There were about four thousand. And he sent them away."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "And immediately he got into the boat with his disciples and went to the region of Dalmanutha."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "The Pharisees came out and began to argue with him, seeking from him a sign from heaven, testing him."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "Sighing deeply in his spirit, he said,"
+     },
+     {
+      "speaker": "Jesus",
+      "speaker_name": "",
+      "text": "“Why does this generation seek a sign? Truly I tell you, no sign will be given to this generation.”"
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "And leaving them, he got into the boat again and went away to the other side."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "They had forgotten to take bread, and apart from one loaf they had none with them in the boat."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "And he was cautioning them, saying,"
+     },
+     {
+      "speaker": "Jesus",
+      "speaker_name": "",
+      "text": "“Watch out! Beware of the leaven of the Pharisees and the leaven of Herod.”"
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "And they were discussing with one another that they had no bread."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "Aware of this, he said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "speaker_name": "",
+      "text": "“Why are you discussing that you have no bread? Do you not yet perceive or understand? Is your heart hardened?"
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "speaker_name": "",
+      "text": "Having eyes, do you not see, and having ears, do you not hear? And do you not remember?"
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "speaker_name": "",
+      "text": "When I broke the five loaves for the five thousand, how many baskets full of pieces did you pick up?”"
+     },
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "They said to him,"
+     },
+     {
+      "speaker": "crowd",
+      "speaker_name": "",
+      "text": "“Twelve.”"
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "speaker_name": "",
+      "text": "“And the seven for the four thousand—how many large baskets full of pieces did you pick up?”"
+     },
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "And they said to him,"
+     },
+     {
+      "speaker": "crowd",
+      "speaker_name": "",
+      "text": "“Seven.”"
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "And he said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "speaker_name": "",
+      "text": "“Do you not yet understand?”"
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "They came to Bethsaida. And people brought a blind man to him and begged him to touch him."
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "Taking the blind man by the hand, he led him out of the village; and after spitting on his eyes and laying his hands on him, he asked him,"
+     },
+     {
+      "speaker": "Jesus",
+      "speaker_name": "",
+      "text": "“Do you see anything?”"
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "He looked up and said,"
+     },
+     {
+      "speaker": "other",
+      "speaker_name": "the blind man",
+      "text": "“I see people—I see them like trees, walking around.”"
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "Then he laid his hands on his eyes again; and the man looked hard and was restored, and he could see everything clearly."
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "And he sent him to his home, saying,"
+     },
+     {
+      "speaker": "Jesus",
+      "speaker_name": "",
+      "text": "“Do not even go into the village.”"
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "Jesus and his disciples went out to the villages of Caesarea Philippi. On the way he asked his disciples,"
+     },
+     {
+      "speaker": "Jesus",
+      "speaker_name": "",
+      "text": "“Who do people say that I am?”"
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "They told him,"
+     },
+     {
+      "speaker": "crowd",
+      "speaker_name": "",
+      "text": "“John the Baptist; and others, Elijah; and others, one of the prophets.”"
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "And he asked them,"
+     },
+     {
+      "speaker": "Jesus",
+      "speaker_name": "",
+      "text": "“But you—who do you say that I am?”"
+     },
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "Peter answered him,"
+     },
+     {
+      "speaker": "other",
+      "speaker_name": "Peter",
+      "text": "“You are the Messiah.”"
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "And he sternly warned them to tell no one about him."
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "Then he began to teach them that the Son of Man must suffer many things and be rejected by the elders and the chief priests and the scribes, and be killed, and after three days rise again."
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "He was saying this openly. And Peter took him aside and began to rebuke him."
+     }
+    ]
+   },
+   {
+    "verse": 33,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "But he turned, looked at his disciples, and rebuked Peter, saying,"
+     },
+     {
+      "speaker": "Jesus",
+      "speaker_name": "",
+      "text": "“Get behind me, Satan! For your mind is not on the things of God but on the things of people.”"
+     }
+    ]
+   },
+   {
+    "verse": 34,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "Then he called the crowd to him along with his disciples and said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "speaker_name": "",
+      "text": "“If anyone wants to come behind me, let them deny themselves, take up their cross, and follow me."
+     }
+    ]
+   },
+   {
+    "verse": 35,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "speaker_name": "",
+      "text": "For whoever wants to save their life will lose it, but whoever loses their life for my sake and for the sake of the good news will save it."
+     }
+    ]
+   },
+   {
+    "verse": 36,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "speaker_name": "",
+      "text": "For what does it benefit a person to gain the whole world and forfeit their life?"
+     }
+    ]
+   },
+   {
+    "verse": 37,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "speaker_name": "",
+      "text": "For what could a person give in exchange for their life?"
+     }
+    ]
+   },
+   {
+    "verse": 38,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "speaker_name": "",
+      "text": "For whoever is ashamed of me and of my words in this adulterous and sinful generation, the Son of Man will also be ashamed of that person when he comes in the glory of his Father with the holy angels.”"
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 8,
+    "phrase": "large baskets",
+    "lemma": "σπυρίς",
+    "kind": "departure",
+    "traditional": "baskets",
+    "note": "Mark uses a different word for the baskets here than in the feeding of the five thousand (6:43), and Jesus keeps the two words apart when he recalls both meals in verses 19–20. This word names a hamper that could be big enough to hold a person (Acts 9:25). Most translations render both words simply as 'baskets'; 'large baskets' keeps the distinction visible, though the exact size is not certain."
+   },
+   {
+    "verse": 10,
+    "phrase": "Dalmanutha",
+    "lemma": "Δαλμανουθά",
+    "kind": "background",
+    "traditional": "",
+    "note": "This place name appears nowhere else in ancient literature and its location is unknown. Matthew's parallel has 'Magadan', and some manuscripts of Mark substitute that or 'Magdala'. It was presumably on the western shore of the Sea of Galilee."
+   },
+   {
+    "verse": 12,
+    "phrase": "no sign will be given to this generation",
+    "lemma": "εἰ",
+    "kind": "background",
+    "traditional": "",
+    "note": "The Greek literally says 'if a sign shall be given to this generation', leaving the sentence unfinished. This mirrors a Hebrew oath formula, familiar from the Greek Old Testament, in which the unspoken ending is a self-curse ('may such-and-such happen to me if ...'). It is an emphatic denial, stronger than a plain 'no'."
+   },
+   {
+    "verse": 15,
+    "phrase": "leaven",
+    "lemma": "ζύμη",
+    "kind": "background",
+    "traditional": "",
+    "note": "Leaven was a piece of fermented dough kept back to raise the next batch, and it was a common image for an influence, usually a corrupting one, that spreads unseen through the whole. Herod is Herod Antipas, ruler of Galilee, who had executed John the Baptist. The disciples take the remark literally, as a comment on their lack of bread."
+   },
+   {
+    "verse": 16,
+    "phrase": "they had no bread",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "It is because we have no bread",
+    "note": "Many manuscripts read 'we have no bread', giving the disciples' words directly, and many translations follow them. The text translated here reads 'they have', which reports the content of their discussion indirectly. The sense of the scene is the same either way."
+   },
+   {
+    "verse": 24,
+    "phrase": "He looked up",
+    "lemma": "ἀναβλέπω",
+    "kind": "ambiguity",
+    "traditional": "",
+    "note": "The Greek verb can mean either 'look up' or 'regain sight', and it has the second meaning elsewhere in Mark (10:51–52). Here 'looked up' fits the sequence better, since full sight is restored only in the next verse, but 'beginning to see again' is also possible."
+   },
+   {
+    "verse": 26,
+    "phrase": "Do not even go into the village",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "Neither go into the town, nor tell it to any in the town",
+    "note": "The manuscripts differ considerably here. Many add 'nor tell anyone in the village', and others have still longer forms. The short reading translated here is found in the earliest witnesses and is the one most editors accept."
+   },
+   {
+    "verse": 29,
+    "phrase": "the Messiah",
+    "lemma": "Χριστός",
+    "kind": "departure",
+    "traditional": "the Christ",
+    "note": "The Greek word translates the Hebrew for 'anointed one' and here is a title: the anointed king Israel was waiting for. 'Christ' now reads as a name, so 'Messiah' is used where the title itself is the point. Several modern translations make the same choice in the Gospels."
+   },
+   {
+    "verse": 30,
+    "phrase": "sternly warned",
+    "lemma": "ἐπιτιμάω",
+    "kind": "background",
+    "traditional": "charged",
+    "note": "The verb here is the same one translated 'rebuke' in verses 32 and 33, where Peter rebukes Jesus and Jesus rebukes Peter. Mark also uses it for Jesus silencing unclean spirits. Followed by a command, as here, it means to warn or order sternly, but a Greek reader would hear the same forceful word three times in four verses."
+   },
+   {
+    "verse": 34,
+    "phrase": "come behind me",
+    "lemma": "ὀπίσω",
+    "kind": "departure",
+    "traditional": "come after me",
+    "note": "The Greek phrase is the same one used in the command to Peter in verse 33, 'Get behind me.' To walk behind a teacher was the position of a disciple, so Peter is being sent back to his place as a follower, and the invitation here describes that place. Most translations have 'come after me', which hides the echo."
+   },
+   {
+    "verse": 35,
+    "phrase": "life",
+    "lemma": "ψυχή",
+    "kind": "departure",
+    "traditional": "life (v. 35) / soul (vv. 36–37)",
+    "note": "The same Greek word runs through verses 35–37. Many translations switch from 'life' to 'soul' at verse 36, which breaks the argument and suggests a distinct immaterial part of a person. In the usage of the period, shaped by the Greek Old Testament, the word means a person's life or very self. 'Life' is kept throughout, as in some modern versions."
+   },
+   {
+    "verse": 35,
+    "phrase": "good news",
+    "lemma": "εὐαγγέλιον",
+    "kind": "departure",
+    "traditional": "gospel",
+    "note": "The Greek word was an ordinary term for a public announcement of good news, used also of imperial proclamations. 'Gospel' has become a religious term and a book title, so 'good news' is used instead. Many modern translations already alternate between the two."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

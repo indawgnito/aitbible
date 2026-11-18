@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ait version="1.0">
-  <book id="3john" name="3John">
+<ait version="2.0" run="20261118-162954-full-nt" model="claude-fable-5-2" register="0.4-draft">
+  <book id="3john" name="3 John">
     <chapter num="1">
       <verse num="1">
-        <text><p/><q who="The Elder">“The Elder, to the beloved Gaius, whom I love in truth.</q></text>
+        <text><p/>The elder, to the beloved Gaius, whom I love in truth.</text>
         <greek>
           <w lemma="ὁ">Ὁ</w>
           <w lemma="πρεσβύτερος">πρεσβύτερος</w>
@@ -18,7 +18,7 @@
         </greek>
       </verse>
       <verse num="2">
-        <text><p/><q who="The Elder">Beloved, I pray that in every way you fare well and stay healthy, just as your inner life is faring well.</q></text>
+        <text><p/>Beloved, I pray that in every respect it may go well with you and that you may be in good health, just as it goes well with your soul.</text>
         <greek>
           <w lemma="ἀγαπητός">Ἀγαπητέ,</w>
           <w lemma="περί">περὶ</w>
@@ -34,9 +34,10 @@
           <w lemma="ὁ">ἡ</w>
           <w lemma="ψυχή">ψυχή.</w>
         </greek>
+        <note term="I pray" kind="ambiguity" lemma="εὔχομαι" traditional="I pray / I wish">The verb can mean either &#x27;pray&#x27; or simply &#x27;wish&#x27;. A wish for the recipient&#x27;s health was a standard opening in Greek letters of the period, so a first-century reader would hear a familiar courtesy here, given a Christian turn by the reference to the soul. The verse is a conventional greeting, not a promise of prosperity.</note>
       </verse>
       <verse num="3">
-        <text><q who="The Elder">For I rejoiced greatly when the brothers came and testified to your truth—to how you are walking in the truth.</q></text>
+        <text>For I rejoiced greatly when brothers came and testified to your truth, to how you are walking in truth.</text>
         <greek>
           <w lemma="χαίρω">ἐχάρην</w>
           <w lemma="γάρ">γὰρ</w>
@@ -56,26 +57,26 @@
         </greek>
       </verse>
       <verse num="4">
-        <text><q who="The Elder">I have no greater joy than this: to hear that my children are walking in the truth.</q></text>
+        <text>I have no greater joy than this, to hear that my children are walking in the truth.</text>
         <greek>
           <w lemma="μειζότερος">μειζοτέραν</w>
           <w lemma="οὗτος">τούτων</w>
           <w lemma="οὐ">οὐκ</w>
           <w lemma="ἔχω">ἔχω</w>
-          <w lemma="χαρά">⸀χαράν,</w>
+          <w lemma="χαρά">χαράν,</w>
           <w lemma="ἵνα">ἵνα</w>
           <w lemma="ἀκούω">ἀκούω</w>
           <w lemma="ὁ">τὰ</w>
           <w lemma="ἐμός">ἐμὰ</w>
           <w lemma="τέκνον">τέκνα</w>
           <w lemma="ἐν">ἐν</w>
-          <w lemma="ὁ">⸀τῇ</w>
+          <w lemma="ὁ">τῇ</w>
           <w lemma="ἀλήθεια">ἀληθείᾳ</w>
           <w lemma="περιπατέω">περιπατοῦντα.</w>
         </greek>
       </verse>
       <verse num="5">
-        <text><p/><q who="The Elder">Beloved, you are acting faithfully in whatever you do for the brothers, especially since they are strangers to you.</q></text>
+        <text><p/>Beloved, you act faithfully in whatever you do for the brothers, strangers though they are.</text>
         <greek>
           <w lemma="ἀγαπητός">Ἀγαπητέ,</w>
           <w lemma="πιστός">πιστὸν</w>
@@ -87,12 +88,12 @@
           <w lemma="ὁ">τοὺς</w>
           <w lemma="ἀδελφός">ἀδελφοὺς</w>
           <w lemma="καί">καὶ</w>
-          <w lemma="οὗτος">⸀τοῦτο</w>
+          <w lemma="οὗτος">τοῦτο</w>
           <w lemma="ξένος">ξένους,</w>
         </greek>
       </verse>
       <verse num="6">
-        <text><q who="The Elder">They have testified to your love before the assembly. You will do well to send them forward on their journey in a manner worthy of God.</q></text>
+        <text>They have testified to your love before the assembly. You will do well to send them on their way in a manner worthy of God,</text>
         <greek>
           <w lemma="ὅς">οἳ</w>
           <w lemma="μαρτυρέω">ἐμαρτύρησάν</w>
@@ -109,9 +110,11 @@
           <w lemma="ὁ">τοῦ</w>
           <w lemma="θεός">θεοῦ·</w>
         </greek>
+        <note term="assembly" kind="departure" lemma="ἐκκλησία" traditional="church">The Greek word meant a gathering of people: a city&#x27;s citizen assembly, or in the Greek Old Testament Israel assembled before God. &#x27;Church&#x27; is the near-universal rendering and readers know what it refers to, but it now suggests a building or an institution. This translation uses &#x27;assembly&#x27; throughout so that the reader sees one word for one Greek word, though it can sound like a one-off meeting.</note>
+        <note term="send them on their way" kind="background" lemma="προπέμπω" traditional="send them on their journey / bring forward on their journey">In early Christian usage this verb was close to a technical term for equipping travellers for the next stage of a journey with food, money and sometimes companions. Gaius is being asked for practical support, not merely a farewell.</note>
       </verse>
       <verse num="7">
-        <text><q who="The Elder">For they went out on behalf of the Name, accepting nothing from the outsiders.</q></text>
+        <text>for they set out for the sake of the Name, taking nothing from the pagans.</text>
         <greek>
           <w lemma="ὑπέρ">ὑπὲρ</w>
           <w lemma="γάρ">γὰρ</w>
@@ -122,16 +125,18 @@
           <w lemma="λαμβάνω">λαμβάνοντες</w>
           <w lemma="ἀπό">ἀπὸ</w>
           <w lemma="ὁ">τῶν</w>
-          <w lemma="ἐθνικός">⸀ἐθνικῶν.</w>
+          <w lemma="ἐθνικός">ἐθνικῶν.</w>
         </greek>
+        <note term="the Name" kind="ambiguity" lemma="ὄνομα" traditional="his name&#x27;s sake / the sake of the Name">The Greek says only &#x27;the name&#x27; without saying whose. Most interpreters take it as the name of Jesus, as elsewhere in early Christian speech about missionaries; others hear the Jewish reverential use of &#x27;the Name&#x27; for God. The Greek does not decide between them.</note>
+        <note term="pagans" kind="departure" lemma="ἐθνικός" traditional="Gentiles">The word means &#x27;people of the nations&#x27;, that is, those outside God&#x27;s people. Many versions translate &#x27;Gentiles&#x27;, but Gaius and his circle bear Greek names and were probably non-Jews themselves, so the contrast is with unbelievers, not with an ethnic group. The point is that the travelling brothers did not take support from those they were evangelising. Some versions accordingly have &#x27;pagans&#x27; or &#x27;non-believers&#x27;.</note>
       </verse>
       <verse num="8">
-        <text><q who="The Elder">Therefore, we are obligated to support such people, so that we may become co-workers for the truth.</q></text>
+        <text>So we ought to take such people in, so that we may become co-workers with the truth.</text>
         <greek>
           <w lemma="ἐγώ">ἡμεῖς</w>
           <w lemma="οὖν">οὖν</w>
           <w lemma="ὀφείλω">ὀφείλομεν</w>
-          <w lemma="ὑπολαμβάνω">⸀ὑπολαμβάνειν</w>
+          <w lemma="ὑπολαμβάνω">ὑπολαμβάνειν</w>
           <w lemma="ὁ">τοὺς</w>
           <w lemma="τοιοῦτος">τοιούτους,</w>
           <w lemma="ἵνα">ἵνα</w>
@@ -140,12 +145,13 @@
           <w lemma="ὁ">τῇ</w>
           <w lemma="ἀλήθεια">ἀληθείᾳ.</w>
         </greek>
+        <note term="co-workers with the truth" kind="ambiguity" lemma="συνεργός" traditional="fellow workers for the truth">The Greek can mean working together with the truth, the truth being pictured as itself active (as in verse 12, where it testifies), or working together with the missionaries for the truth. Translations and commentators are divided, and either reading fits the context.</note>
       </verse>
       <verse num="9">
-        <text><p/><q who="The Elder">I wrote something to the assembly, but Diotrephes, who loves to be first among them, does not accept our authority.</q></text>
+        <text><p/>I wrote something to the assembly, but Diotrephes, who loves to be first among them, does not receive us.</text>
         <greek>
           <w lemma="γράφω">Ἔγραψά</w>
-          <w lemma="τις">⸀τι</w>
+          <w lemma="τις">τι</w>
           <w lemma="ὁ">τῇ</w>
           <w lemma="ἐκκλησία">ἐκκλησίᾳ·</w>
           <w lemma="ἀλλά">ἀλλ’</w>
@@ -157,9 +163,10 @@
           <w lemma="ἐπιδέχομαι">ἐπιδέχεται</w>
           <w lemma="ἐγώ">ἡμᾶς.</w>
         </greek>
+        <note term="does not receive us" kind="ambiguity" lemma="ἐπιδέχομαι" traditional="receiveth us not / does not acknowledge our authority">The same verb is used in verse 10 for refusing hospitality to the travelling brothers, and it is rendered the same way in both places. Here it may mean that Diotrephes refuses to welcome the elder&#x27;s emissaries, or more broadly that he does not accept the elder&#x27;s authority; many versions choose the second. &#x27;Us&#x27; may refer to the elder alone or to him and his associates.</note>
       </verse>
       <verse num="10">
-        <text><q who="The Elder">For this reason, if I come, I will bring up the works he is doing—spouting wicked nonsense against us. And not satisfied with that, he refuses to welcome the brothers himself, and even prevents those who want to do so, throwing them out of the assembly.</q></text>
+        <text>For this reason, if I come, I will bring up the things he is doing, spouting malicious nonsense about us. And not content with that, he does not receive the brothers himself, and those who want to he stops and throws out of the assembly.</text>
         <greek>
           <w lemma="διά">διὰ</w>
           <w lemma="οὗτος">τοῦτο,</w>
@@ -197,7 +204,7 @@
         </greek>
       </verse>
       <verse num="11">
-        <text><p/><q who="The Elder">Beloved, do not imitate what is evil but what is good. The one who does good is from God; the one who does evil has not seen God.</q></text>
+        <text><p/>Beloved, do not imitate what is evil but what is good. The one who does good is from God; the one who does evil has not seen God.</text>
         <greek>
           <w lemma="ἀγαπητός">Ἀγαπητέ,</w>
           <w lemma="μή">μὴ</w>
@@ -222,7 +229,7 @@
         </greek>
       </verse>
       <verse num="12">
-        <text><q who="The Elder">Demetrius has been well-spoken of by everyone and by the truth itself. We also testify for him, and you know that our testimony is true.</q></text>
+        <text><p/>Everyone testifies in Demetrius’s favor, and so does the truth itself. We testify too, and you know that our testimony is true.</text>
         <greek>
           <w lemma="Δημήτριος">Δημητρίῳ</w>
           <w lemma="μαρτυρέω">μεμαρτύρηται</w>
@@ -238,7 +245,7 @@
           <w lemma="δέ">δὲ</w>
           <w lemma="μαρτυρέω">μαρτυροῦμεν,</w>
           <w lemma="καί">καὶ</w>
-          <w lemma="οἶδα">⸀οἶδας</w>
+          <w lemma="οἶδα">οἶδας</w>
           <w lemma="ὅτι">ὅτι</w>
           <w lemma="ὁ">ἡ</w>
           <w lemma="μαρτυρία">μαρτυρία</w>
@@ -246,14 +253,15 @@
           <w lemma="ἀληθής">ἀληθής</w>
           <w lemma="εἰμί">ἐστιν.</w>
         </greek>
+        <note term="Everyone testifies in Demetrius’s favor" kind="background" lemma="μαρτυρέω" traditional="Demetrius hath good report of all men">This verse follows the form of an ancient letter of recommendation. Demetrius was probably the bearer of the letter and one of the travelling brothers whom Gaius is being asked to welcome, though the letter does not say so explicitly.</note>
       </verse>
       <verse num="13">
-        <text><p/><q who="The Elder">I had many things to write to you, but I do not wish to write them with ink and pen.</q></text>
+        <text><p/>I had many things to write to you, but I do not want to write to you with ink and pen.</text>
         <greek>
           <w lemma="πολύς">Πολλὰ</w>
           <w lemma="ἔχω">εἶχον</w>
-          <w lemma="γράφω">⸂γράψαι</w>
-          <w lemma="σύ">σοι⸃,</w>
+          <w lemma="γράφω">γράψαι</w>
+          <w lemma="σύ">σοι,</w>
           <w lemma="ἀλλά">ἀλλ’</w>
           <w lemma="οὐ">οὐ</w>
           <w lemma="θέλω">θέλω</w>
@@ -262,26 +270,27 @@
           <w lemma="καί">καὶ</w>
           <w lemma="κάλαμος">καλάμου</w>
           <w lemma="σύ">σοι</w>
-          <w lemma="γράφω">⸀γράφειν·</w>
+          <w lemma="γράφω">γράφειν·</w>
         </greek>
       </verse>
       <verse num="14">
-        <text><q who="The Elder">I hope to see you soon, and we will speak face to face.</q></text>
+        <text>I hope to see you soon, and we will speak face to face.</text>
         <greek>
           <w lemma="ἐλπίζω">ἐλπίζω</w>
           <w lemma="δέ">δὲ</w>
           <w lemma="εὐθέως">εὐθέως</w>
-          <w lemma="σύ">⸂σε</w>
-          <w lemma="ὁράω">ἰδεῖν⸃,</w>
+          <w lemma="σύ">σε</w>
+          <w lemma="ὁράω">ἰδεῖν,</w>
           <w lemma="καί">καὶ</w>
           <w lemma="στόμα">στόμα</w>
           <w lemma="πρός">πρὸς</w>
           <w lemma="στόμα">στόμα</w>
           <w lemma="λαλέω">λαλήσομεν.</w>
         </greek>
+        <note term="face to face" kind="background" lemma="στόμα" traditional="face to face">The Greek is literally &#x27;mouth to mouth&#x27;, a Semitic idiom found in the Greek Old Testament for direct personal speech. &#x27;Face to face&#x27; is the English equivalent; the literal phrase would mislead a modern reader.</note>
       </verse>
       <verse num="15">
-        <text><p/><q who="The Elder">Peace to you. The friends greet you. Greet the friends by name.”</q></text>
+        <text><p/>Peace to you. The friends greet you. Greet the friends by name.</text>
         <greek>
           <w lemma="εἰρήνη">Εἰρήνη</w>
           <w lemma="σύ">σοι.</w>
@@ -295,6 +304,7 @@
           <w lemma="κατά">κατ’</w>
           <w lemma="ὄνομα">ὄνομα.</w>
         </greek>
+        <note term="Peace to you." kind="textual" lemma="" traditional="">Verse numbering differs between editions here. Some English Bibles, including the King James Version, print these closing greetings as the end of verse 14 and have no verse 15. The wording is not affected.</note>
       </verse>
     </chapter>
   </book>

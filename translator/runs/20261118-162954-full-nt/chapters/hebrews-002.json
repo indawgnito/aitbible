@@ -1,0 +1,363 @@
+{
+ "id": "hebrews-002",
+ "book": "hebrews",
+ "chapter": 2,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZi8dMdSDuNTSMbQH",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 6607,
+  "output_tokens": 12670
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For this reason we must pay all the more attention to what we have heard, so that we do not drift away.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For if the message spoken through angels proved firm, and every transgression and act of disobedience received its just repayment,\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"how will we escape if we neglect so great a salvation? It was first spoken through the Lord and was confirmed to us by those who heard him,\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"while God added his own testimony with signs and wonders and various acts of power, and with distributions of the Holy Spirit according to his will.\"}]},{\"verse\":5,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For it was not to angels that he subjected the world to come, about which we are speaking.\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But someone has testified somewhere, saying,\"},{\"speaker\":\"scripture\",\"text\":\"“What is a human being that you remember him, or a son of man that you care for him?\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"scripture\",\"text\":\"You made him for a little while lower than angels; you crowned him with glory and honor;\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"scripture\",\"text\":\"you subjected all things under his feet.”\"},{\"speaker\":\"narrator\",\"text\":\"For in subjecting all things to him, he left nothing that is not subject to him. But as it is, we do not yet see all things subjected to him.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But we do see the one who for a little while was made lower than angels, Jesus, crowned with glory and honor because of the suffering of death, so that apart from God he might taste death for everyone.\"}]},{\"verse\":10,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For it was fitting that he, for whom all things exist and through whom all things exist, in bringing many sons to glory, should perfect the pioneer of their salvation through sufferings.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For the one who makes holy and those who are being made holy are all from one source. That is why he is not ashamed to call them brothers,\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"saying,\"},{\"speaker\":\"Jesus\",\"text\":\"“I will proclaim your name to my brothers; in the midst of the assembly I will sing your praise.”\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And again,\"},{\"speaker\":\"Jesus\",\"text\":\"“I will put my trust in him.”\"},{\"speaker\":\"narrator\",\"text\":\"And again,\"},{\"speaker\":\"Jesus\",\"text\":\"“Here I am, and the children God has given me.”\"}]},{\"verse\":14,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Since, then, the children share in blood and flesh, he too in the same way took part in the same things, so that through death he might render powerless the one who holds the power of death, that is, the devil,\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and set free those who all their lives were held in slavery by fear of death.\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For surely it is not angels that he takes hold of; it is the offspring of Abraham that he takes hold of.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"That is why he had to be made like his brothers in every respect, so that he might become a merciful and faithful high priest in matters relating to God, to make atonement for the sins of the people.\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For because he himself has suffered when tested, he is able to help those who are being tested.\"}]}],\"notes\":[{\"verse\":2,\"phrase\":\"the message spoken through angels\",\"lemma\":\"ἄγγελος\",\"kind\":\"background\",\"traditional\":\"the word spoken by angels\",\"note\":\"This is the Law given at Sinai. Jewish tradition of the period held that angels were present and acted as intermediaries when the Law was given, an idea also reflected in Acts 7:53 and Galatians 3:19. The argument runs from the lesser to the greater: if that message was binding, the one delivered by the Lord himself is more so.\"},{\"verse\":6,\"phrase\":\"a human being\",\"lemma\":\"ἄνθρωπος\",\"kind\":\"departure\",\"traditional\":\"man\",\"note\":\"The quotation is Psalm 8:4–6 in its Greek form. The Greek word means a human being rather than a male, and 'son of man' in the parallel line is a Semitic idiom for the same thing. The singular 'him' is kept because the author goes on to apply the psalm to Jesus; whether 'him' in verse 8 still means humanity in general or already means Jesus is disputed.\"},{\"verse\":7,\"phrase\":\"for a little while\",\"lemma\":\"βραχύς\",\"kind\":\"ambiguity\",\"traditional\":\"a little\",\"note\":\"The Greek phrase can mean 'a little' in degree or 'for a little while' in time. The Hebrew psalm means degree, but the Greek allows either, and the use made of the phrase in verse 9, where Jesus' lowering is followed by his crowning, favours the temporal sense. Translations are divided.\"},{\"verse\":7,\"phrase\":\"you crowned him with glory and honor\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"\",\"note\":\"Many manuscripts add a further line from the psalm here, 'and set him over the works of your hands'. The Greek edition translated here treats it as a later addition by copyists completing the quotation, and omits it.\"},{\"verse\":9,\"phrase\":\"apart from God\",\"lemma\":\"χωρίς\",\"kind\":\"textual\",\"traditional\":\"by the grace of God\",\"note\":\"Nearly all manuscripts read 'by the grace of God' (chariti theou), and almost every English translation follows them. The Greek edition translated here adopts 'apart from God' (chōris theou), found in very few manuscripts but known to early Christian writers including Origen, on the ground that copyists were more likely to soften the harder reading than to create it. If original, it probably means that Jesus died in abandonment by God, or possibly that he died for everyone except God. The majority of scholars still prefer 'by the grace of God'.\"},{\"verse\":10,\"phrase\":\"pioneer\",\"lemma\":\"ἀρχηγός\",\"kind\":\"ambiguity\",\"traditional\":\"captain; author; founder\",\"note\":\"The word describes someone who begins something and leads others into it: the founder of a city, the head of a clan, a leader who goes first. English versions vary between 'author', 'founder', 'captain' and 'pioneer'. 'Pioneer' is chosen because the context is of one who goes ahead on a path along which many others are brought to glory.\"},{\"verse\":10,\"phrase\":\"perfect\",\"lemma\":\"τελειόω\",\"kind\":\"background\",\"traditional\":\"make perfect\",\"note\":\"The verb means to bring something to its goal or completion, and does not imply an earlier moral defect. In the Greek Old Testament a related expression is used for installing a priest in office, and many scholars hear that overtone here: through suffering Jesus was fully fitted for his role as high priest.\"},{\"verse\":11,\"phrase\":\"from one source\",\"lemma\":\"εἷς\",\"kind\":\"ambiguity\",\"traditional\":\"all of one\",\"note\":\"The Greek says only 'from one', without a noun. It may mean one Father, that is God, which is the most common view, or one human ancestor such as Adam or Abraham, or one shared human stock. The rendering leaves the reference open.\"},{\"verse\":12,\"phrase\":\"I will proclaim your name to my brothers\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"The author places three Scripture texts on Jesus' lips: Psalm 22:22 here, and Isaiah 8:17 and 8:18 in the next verse, all in their Greek form. Psalm 22 is the psalm of the righteous sufferer whose opening line Jesus cries from the cross in the Gospels. The quotations are cited to show the Son identifying himself with God's people as family.\"},{\"verse\":12,\"phrase\":\"assembly\",\"lemma\":\"ἐκκλησία\",\"kind\":\"departure\",\"traditional\":\"church; congregation\",\"note\":\"This is the word usually translated 'church' elsewhere in the New Testament. In the psalm being quoted it is the Greek Old Testament's term for Israel gathered for worship, and a first-century hearer also knew it as an ordinary word for a civic gathering. This translation uses 'assembly' throughout so that the reader can see it is one word. 'Church' is the near-universal rendering elsewhere, though many versions also use 'assembly' or 'congregation' in this verse.\"},{\"verse\":16,\"phrase\":\"takes hold of\",\"lemma\":\"ἐπιλαμβάνομαι\",\"kind\":\"departure\",\"traditional\":\"helps\",\"note\":\"The verb means to take hold of or grasp. Most modern translations render it 'helps', taking the grasp as one of rescue; older interpreters, followed by the King James Version, understood it as taking on a nature, that is, the incarnation. The literal sense is kept here because it covers both and because the same verb describes God taking Israel by the hand in the passage quoted at Hebrews 8:9.\"},{\"verse\":17,\"phrase\":\"to make atonement for\",\"lemma\":\"ἱλάσκομαι\",\"kind\":\"departure\",\"traditional\":\"to make propitiation for; to make reconciliation for\",\"note\":\"Whether this verb means turning away God's wrath ('propitiation') or removing sin ('expiation') is a long-running dispute. Here its direct object is 'sins', which fits the removal of sin more naturally, though many scholars hold that averting wrath is still implied. 'Make atonement' is the sacrificial term that covers both and matches the word's use in the Greek Old Testament.\"},{\"verse\":18,\"phrase\":\"tested\",\"lemma\":\"πειράζω\",\"kind\":\"departure\",\"traditional\":\"tempted\",\"note\":\"The Greek verb covers both testing and tempting, and most English versions have 'tempted' here. 'Tested' is chosen because the context is trial through suffering, which presses a person to abandon faithfulness, rather than enticement to particular sins. The two ideas overlap and the traditional rendering is defensible.\"}],\"candidates\":[{\"lemma\":\"ἀρχηγός\",\"rendering\":\"pioneer\",\"verse\":10,\"reason\":\"Occurs in Acts 3:15, 5:31 and Hebrews 2:10, 12:2 as a title of Jesus, and versions vary between author, founder, prince, captain and pioneer; one choice should hold across all four.\"},{\"lemma\":\"τελειόω\",\"rendering\":\"perfect\",\"verse\":10,\"reason\":\"A thematic verb in Hebrews (and in John and Paul) where 'perfect' risks implying moral defect while 'complete' loses the tradition; the word group including τέλειος and τελείωσις needs one policy.\"},{\"lemma\":\"πειράζω\",\"rendering\":\"test\",\"verse\":18,\"reason\":\"The 'tempt' versus 'test' choice recurs across the Gospels, Paul, Hebrews and James, and readers are misled if the same word and the noun πειρασμός vary without explanation.\"},{\"lemma\":\"ἁγιάζω\",\"rendering\":\"make holy\",\"verse\":11,\"reason\":\"Traditionally 'sanctify', which hides the link with ἅγιος ('holy', 'holy ones'); the verb recurs in John, Paul and Hebrews and should be rendered consistently with the register's treatment of ἅγιος.\"},{\"lemma\":\"ἀδελφός\",\"rendering\":\"brothers\",\"verse\":11,\"reason\":\"Whether the plural is 'brothers' or 'brothers and sisters' when the community is meant affects hundreds of verses and should not vary chapter by chapter.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For this reason we must pay all the more attention to what we have heard, so that we do not drift away."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For if the message spoken through angels proved firm, and every transgression and act of disobedience received its just repayment,"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "how will we escape if we neglect so great a salvation? It was first spoken through the Lord and was confirmed to us by those who heard him,"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "while God added his own testimony with signs and wonders and various acts of power, and with distributions of the Holy Spirit according to his will."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For it was not to angels that he subjected the world to come, about which we are speaking."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But someone has testified somewhere, saying,"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“What is a human being that you remember him, or a son of man that you care for him?"
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "scripture",
+      "text": "You made him for a little while lower than angels; you crowned him with glory and honor;"
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "scripture",
+      "text": "you subjected all things under his feet.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "For in subjecting all things to him, he left nothing that is not subject to him. But as it is, we do not yet see all things subjected to him."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But we do see the one who for a little while was made lower than angels, Jesus, crowned with glory and honor because of the suffering of death, so that apart from God he might taste death for everyone."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For it was fitting that he, for whom all things exist and through whom all things exist, in bringing many sons to glory, should perfect the pioneer of their salvation through sufferings."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For the one who makes holy and those who are being made holy are all from one source. That is why he is not ashamed to call them brothers,"
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "saying,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“I will proclaim your name to my brothers; in the midst of the assembly I will sing your praise.”"
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And again,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“I will put my trust in him.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "And again,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Here I am, and the children God has given me.”"
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Since, then, the children share in blood and flesh, he too in the same way took part in the same things, so that through death he might render powerless the one who holds the power of death, that is, the devil,"
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and set free those who all their lives were held in slavery by fear of death."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For surely it is not angels that he takes hold of; it is the offspring of Abraham that he takes hold of."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "That is why he had to be made like his brothers in every respect, so that he might become a merciful and faithful high priest in matters relating to God, to make atonement for the sins of the people."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For because he himself has suffered when tested, he is able to help those who are being tested."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 2,
+    "phrase": "the message spoken through angels",
+    "lemma": "ἄγγελος",
+    "kind": "background",
+    "traditional": "the word spoken by angels",
+    "note": "This is the Law given at Sinai. Jewish tradition of the period held that angels were present and acted as intermediaries when the Law was given, an idea also reflected in Acts 7:53 and Galatians 3:19. The argument runs from the lesser to the greater: if that message was binding, the one delivered by the Lord himself is more so."
+   },
+   {
+    "verse": 6,
+    "phrase": "a human being",
+    "lemma": "ἄνθρωπος",
+    "kind": "departure",
+    "traditional": "man",
+    "note": "The quotation is Psalm 8:4–6 in its Greek form. The Greek word means a human being rather than a male, and 'son of man' in the parallel line is a Semitic idiom for the same thing. The singular 'him' is kept because the author goes on to apply the psalm to Jesus; whether 'him' in verse 8 still means humanity in general or already means Jesus is disputed."
+   },
+   {
+    "verse": 7,
+    "phrase": "for a little while",
+    "lemma": "βραχύς",
+    "kind": "ambiguity",
+    "traditional": "a little",
+    "note": "The Greek phrase can mean 'a little' in degree or 'for a little while' in time. The Hebrew psalm means degree, but the Greek allows either, and the use made of the phrase in verse 9, where Jesus' lowering is followed by his crowning, favours the temporal sense. Translations are divided."
+   },
+   {
+    "verse": 7,
+    "phrase": "you crowned him with glory and honor",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "",
+    "note": "Many manuscripts add a further line from the psalm here, 'and set him over the works of your hands'. The Greek edition translated here treats it as a later addition by copyists completing the quotation, and omits it."
+   },
+   {
+    "verse": 9,
+    "phrase": "apart from God",
+    "lemma": "χωρίς",
+    "kind": "textual",
+    "traditional": "by the grace of God",
+    "note": "Nearly all manuscripts read 'by the grace of God' (chariti theou), and almost every English translation follows them. The Greek edition translated here adopts 'apart from God' (chōris theou), found in very few manuscripts but known to early Christian writers including Origen, on the ground that copyists were more likely to soften the harder reading than to create it. If original, it probably means that Jesus died in abandonment by God, or possibly that he died for everyone except God. The majority of scholars still prefer 'by the grace of God'."
+   },
+   {
+    "verse": 10,
+    "phrase": "pioneer",
+    "lemma": "ἀρχηγός",
+    "kind": "ambiguity",
+    "traditional": "captain; author; founder",
+    "note": "The word describes someone who begins something and leads others into it: the founder of a city, the head of a clan, a leader who goes first. English versions vary between 'author', 'founder', 'captain' and 'pioneer'. 'Pioneer' is chosen because the context is of one who goes ahead on a path along which many others are brought to glory."
+   },
+   {
+    "verse": 10,
+    "phrase": "perfect",
+    "lemma": "τελειόω",
+    "kind": "background",
+    "traditional": "make perfect",
+    "note": "The verb means to bring something to its goal or completion, and does not imply an earlier moral defect. In the Greek Old Testament a related expression is used for installing a priest in office, and many scholars hear that overtone here: through suffering Jesus was fully fitted for his role as high priest."
+   },
+   {
+    "verse": 11,
+    "phrase": "from one source",
+    "lemma": "εἷς",
+    "kind": "ambiguity",
+    "traditional": "all of one",
+    "note": "The Greek says only 'from one', without a noun. It may mean one Father, that is God, which is the most common view, or one human ancestor such as Adam or Abraham, or one shared human stock. The rendering leaves the reference open."
+   },
+   {
+    "verse": 12,
+    "phrase": "I will proclaim your name to my brothers",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "The author places three Scripture texts on Jesus' lips: Psalm 22:22 here, and Isaiah 8:17 and 8:18 in the next verse, all in their Greek form. Psalm 22 is the psalm of the righteous sufferer whose opening line Jesus cries from the cross in the Gospels. The quotations are cited to show the Son identifying himself with God's people as family."
+   },
+   {
+    "verse": 12,
+    "phrase": "assembly",
+    "lemma": "ἐκκλησία",
+    "kind": "departure",
+    "traditional": "church; congregation",
+    "note": "This is the word usually translated 'church' elsewhere in the New Testament. In the psalm being quoted it is the Greek Old Testament's term for Israel gathered for worship, and a first-century hearer also knew it as an ordinary word for a civic gathering. This translation uses 'assembly' throughout so that the reader can see it is one word. 'Church' is the near-universal rendering elsewhere, though many versions also use 'assembly' or 'congregation' in this verse."
+   },
+   {
+    "verse": 16,
+    "phrase": "takes hold of",
+    "lemma": "ἐπιλαμβάνομαι",
+    "kind": "departure",
+    "traditional": "helps",
+    "note": "The verb means to take hold of or grasp. Most modern translations render it 'helps', taking the grasp as one of rescue; older interpreters, followed by the King James Version, understood it as taking on a nature, that is, the incarnation. The literal sense is kept here because it covers both and because the same verb describes God taking Israel by the hand in the passage quoted at Hebrews 8:9."
+   },
+   {
+    "verse": 17,
+    "phrase": "to make atonement for",
+    "lemma": "ἱλάσκομαι",
+    "kind": "departure",
+    "traditional": "to make propitiation for; to make reconciliation for",
+    "note": "Whether this verb means turning away God's wrath ('propitiation') or removing sin ('expiation') is a long-running dispute. Here its direct object is 'sins', which fits the removal of sin more naturally, though many scholars hold that averting wrath is still implied. 'Make atonement' is the sacrificial term that covers both and matches the word's use in the Greek Old Testament."
+   },
+   {
+    "verse": 18,
+    "phrase": "tested",
+    "lemma": "πειράζω",
+    "kind": "departure",
+    "traditional": "tempted",
+    "note": "The Greek verb covers both testing and tempting, and most English versions have 'tempted' here. 'Tested' is chosen because the context is trial through suffering, which presses a person to abandon faithfulness, rather than enticement to particular sins. The two ideas overlap and the traditional rendering is defensible."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "ἀρχηγός",
+    "rendering": "pioneer",
+    "verse": 10,
+    "reason": "Occurs in Acts 3:15, 5:31 and Hebrews 2:10, 12:2 as a title of Jesus, and versions vary between author, founder, prince, captain and pioneer; one choice should hold across all four."
+   },
+   {
+    "lemma": "τελειόω",
+    "rendering": "perfect",
+    "verse": 10,
+    "reason": "A thematic verb in Hebrews (and in John and Paul) where 'perfect' risks implying moral defect while 'complete' loses the tradition; the word group including τέλειος and τελείωσις needs one policy."
+   },
+   {
+    "lemma": "πειράζω",
+    "rendering": "test",
+    "verse": 18,
+    "reason": "The 'tempt' versus 'test' choice recurs across the Gospels, Paul, Hebrews and James, and readers are misled if the same word and the noun πειρασμός vary without explanation."
+   },
+   {
+    "lemma": "ἁγιάζω",
+    "rendering": "make holy",
+    "verse": 11,
+    "reason": "Traditionally 'sanctify', which hides the link with ἅγιος ('holy', 'holy ones'); the verb recurs in John, Paul and Hebrews and should be rendered consistently with the register's treatment of ἅγιος."
+   },
+   {
+    "lemma": "ἀδελφός",
+    "rendering": "brothers",
+    "verse": 11,
+    "reason": "Whether the plural is 'brothers' or 'brothers and sisters' when the community is meant affects hundreds of verses and should not vary chapter by chapter."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

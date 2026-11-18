@@ -1,0 +1,307 @@
+{
+ "id": "2thessalonians-003",
+ "book": "2thessalonians",
+ "chapter": 3,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZrZysSystiCqrfx4",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 5924,
+  "output_tokens": 8492
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Finally, brothers and sisters, pray for us, that the word of the Lord may race ahead and be glorified, just as it was among you,\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and that we may be rescued from perverse and evil people; for not everyone has faith.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But the Lord is faithful; he will strengthen you and guard you from the evil one.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And we have confidence in the Lord about you, that you are doing, and will go on doing, what we command.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"May the Lord direct your hearts into the love of God and into the endurance of Christ.\"}]},{\"verse\":6,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now we command you, brothers and sisters, in the name of our Lord Jesus Christ, to keep away from every brother or sister who lives in an undisciplined way and not according to the tradition they received from us.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For you yourselves know how you ought to imitate us: we were not undisciplined among you,\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"nor did we eat anyone's bread without paying for it; rather, in toil and hardship we worked night and day so as not to be a burden to any of you,\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"not that we lack the right, but so as to give you in ourselves an example to imitate.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For even when we were with you, we used to give you this command: “If anyone is not willing to work, neither should that person eat.”\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For we hear that some among you are living in an undisciplined way, not busy at work but busybodies.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Such people we command and urge in the Lord Jesus Christ to work quietly and eat their own bread.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But as for you, brothers and sisters, do not grow weary of doing what is right.\"}]},{\"verse\":14,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"If anyone does not obey our word in this letter, take note of that person and do not associate with them, so that they may be put to shame.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Yet do not regard them as an enemy, but warn them as a brother or sister.\"}]},{\"verse\":16,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now may the Lord of peace himself give you peace at all times and in every way. The Lord be with you all.\"}]},{\"verse\":17,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"I, Paul, write this greeting with my own hand, which is the mark in every letter; this is how I write.\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The grace of our Lord Jesus Christ be with you all.\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"brothers and sisters\",\"lemma\":\"ἀδελφός\",\"kind\":\"departure\",\"traditional\":\"brothers; brethren\",\"note\":\"The Greek plural, used to address a whole congregation, included the women in it, and a first-century hearer would have understood it that way. Several recent translations render it this way. In verses 6 and 15 the generic singular is rendered \\\"brother or sister\\\" for the same reason.\"},{\"verse\":3,\"phrase\":\"the evil one\",\"lemma\":\"πονηρός\",\"kind\":\"ambiguity\",\"traditional\":\"the evil one; evil\",\"note\":\"The Greek form can be masculine (\\\"the evil one\\\", meaning Satan) or neuter (\\\"evil\\\" in general). Most modern translations choose the personal sense, which suits the letter's interest in Satan's activity in the previous chapter, but \\\"from evil\\\" is equally possible grammatically. The word echoes the \\\"evil people\\\" of verse 2.\"},{\"verse\":5,\"phrase\":\"the love of God and into the endurance of Christ\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"the love of God and the steadfastness of Christ; older versions: the patient waiting for Christ\",\"note\":\"Both phrases are open in Greek. \\\"The love of God\\\" may be God's love for them or their love for God, and \\\"the endurance of Christ\\\" may be the endurance Christ himself showed, the endurance he gives, or (as in older versions) patient waiting for Christ. The rendering keeps the Greek's openness; most scholars favour God's love for them and Christ's own endurance as the model.\"},{\"verse\":6,\"phrase\":\"in an undisciplined way\",\"lemma\":\"ἀτάκτως\",\"kind\":\"departure\",\"traditional\":\"in idleness; idle (older versions: disorderly)\",\"note\":\"The word means out of order, not keeping to one's proper place or duty, and was used of soldiers out of rank and of workers absent from their duties. Many modern translations render it \\\"idle\\\" because the context concerns refusing to work, and that is clearly the form the disorder took here. The word itself is broader, so the translation keeps the general sense here and for the related verb in verse 7.\"},{\"verse\":6,\"phrase\":\"they received\",\"lemma\":\"παραλαμβάνω\",\"kind\":\"textual\",\"traditional\":\"you received; they received\",\"note\":\"Manuscripts vary between \\\"they received\\\" and \\\"you received\\\". The edition translated here reads \\\"they\\\", referring to the undisciplined members. The difference does not affect the sense much, since the whole community had received the same teaching.\"},{\"verse\":9,\"phrase\":\"the right\",\"lemma\":\"ἐξουσία\",\"kind\":\"background\",\"traditional\":\"power; right\",\"note\":\"The right in view is that of a travelling teacher to be housed and fed by those he teaches. Paul argues for this right at length in 1 Corinthians 9, while explaining there too that he chose not to use it.\"},{\"verse\":10,\"phrase\":\"not willing to work\",\"lemma\":\"θέλω\",\"kind\":\"background\",\"traditional\":\"will not work\",\"note\":\"The Greek specifies refusal, not inability: the rule is aimed at those who choose not to work, not at those who cannot work or cannot find work. Older English \\\"will not work\\\" meant the same but is now easily misread as a simple future.\"},{\"verse\":11,\"phrase\":\"not busy at work but busybodies\",\"lemma\":\"περιεργάζομαι\",\"kind\":\"background\",\"traditional\":\"not busy at work, but busybodies\",\"note\":\"The Greek plays on two forms of the same verb: \\\"working\\\" and \\\"working around\\\", that is, meddling in what is not one's concern. The English pun on \\\"busy\\\" reproduces the wordplay.\"},{\"verse\":17,\"phrase\":\"the mark\",\"lemma\":\"σημεῖον\",\"kind\":\"background\",\"traditional\":\"token; sign\",\"note\":\"Letters were normally dictated to a secretary, and the sender could add the closing lines in his own handwriting as authentication. The point has particular force in this letter, which has already warned (2:2) about a letter falsely claiming to come from the writers.\"}],\"candidates\":[{\"lemma\":\"ἀδελφός\",\"rendering\":\"brothers and sisters (plural address); brother or sister (generic singular)\",\"verse\":1,\"reason\":\"Occurs throughout the letters and Acts; whether the plural address and the generic singular are rendered inclusively needs one policy for the whole New Testament.\"},{\"lemma\":\"περιπατέω\",\"rendering\":\"live\",\"verse\":6,\"reason\":\"The metaphorical \\\"walk\\\" for conduct recurs across Paul and John; translators split between \\\"walk\\\" and \\\"live\\\", and the choice should not vary by chapter.\"},{\"lemma\":\"ὑπομονή\",\"rendering\":\"endurance\",\"verse\":5,\"reason\":\"Rendered variously as patience, perseverance, steadfastness and endurance across the tradition; it recurs widely and needs one English word.\"},{\"lemma\":\"παραγγέλλω\",\"rendering\":\"command\",\"verse\":4,\"reason\":\"Recurs in the Gospels, Acts and the letters, with translators varying between command, instruct, charge and order.\"},{\"lemma\":\"ἀτάκτως\",\"rendering\":\"in an undisciplined way\",\"verse\":6,\"reason\":\"This word group (with ἄτακτος in 1 Thessalonians 5:14 and ἀτακτέω) is rendered \\\"idle\\\" or \\\"disorderly\\\" in different versions and must match across both Thessalonian letters.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Finally, brothers and sisters, pray for us, that the word of the Lord may race ahead and be glorified, just as it was among you,"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and that we may be rescued from perverse and evil people; for not everyone has faith."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But the Lord is faithful; he will strengthen you and guard you from the evil one."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And we have confidence in the Lord about you, that you are doing, and will go on doing, what we command."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "May the Lord direct your hearts into the love of God and into the endurance of Christ."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now we command you, brothers and sisters, in the name of our Lord Jesus Christ, to keep away from every brother or sister who lives in an undisciplined way and not according to the tradition they received from us."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For you yourselves know how you ought to imitate us: we were not undisciplined among you,"
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "nor did we eat anyone's bread without paying for it; rather, in toil and hardship we worked night and day so as not to be a burden to any of you,"
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "not that we lack the right, but so as to give you in ourselves an example to imitate."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For even when we were with you, we used to give you this command: “If anyone is not willing to work, neither should that person eat.”"
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For we hear that some among you are living in an undisciplined way, not busy at work but busybodies."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Such people we command and urge in the Lord Jesus Christ to work quietly and eat their own bread."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But as for you, brothers and sisters, do not grow weary of doing what is right."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "If anyone does not obey our word in this letter, take note of that person and do not associate with them, so that they may be put to shame."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Yet do not regard them as an enemy, but warn them as a brother or sister."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now may the Lord of peace himself give you peace at all times and in every way. The Lord be with you all."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "I, Paul, write this greeting with my own hand, which is the mark in every letter; this is how I write."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The grace of our Lord Jesus Christ be with you all."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "brothers and sisters",
+    "lemma": "ἀδελφός",
+    "kind": "departure",
+    "traditional": "brothers; brethren",
+    "note": "The Greek plural, used to address a whole congregation, included the women in it, and a first-century hearer would have understood it that way. Several recent translations render it this way. In verses 6 and 15 the generic singular is rendered \"brother or sister\" for the same reason."
+   },
+   {
+    "verse": 3,
+    "phrase": "the evil one",
+    "lemma": "πονηρός",
+    "kind": "ambiguity",
+    "traditional": "the evil one; evil",
+    "note": "The Greek form can be masculine (\"the evil one\", meaning Satan) or neuter (\"evil\" in general). Most modern translations choose the personal sense, which suits the letter's interest in Satan's activity in the previous chapter, but \"from evil\" is equally possible grammatically. The word echoes the \"evil people\" of verse 2."
+   },
+   {
+    "verse": 5,
+    "phrase": "the love of God and into the endurance of Christ",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "the love of God and the steadfastness of Christ; older versions: the patient waiting for Christ",
+    "note": "Both phrases are open in Greek. \"The love of God\" may be God's love for them or their love for God, and \"the endurance of Christ\" may be the endurance Christ himself showed, the endurance he gives, or (as in older versions) patient waiting for Christ. The rendering keeps the Greek's openness; most scholars favour God's love for them and Christ's own endurance as the model."
+   },
+   {
+    "verse": 6,
+    "phrase": "in an undisciplined way",
+    "lemma": "ἀτάκτως",
+    "kind": "departure",
+    "traditional": "in idleness; idle (older versions: disorderly)",
+    "note": "The word means out of order, not keeping to one's proper place or duty, and was used of soldiers out of rank and of workers absent from their duties. Many modern translations render it \"idle\" because the context concerns refusing to work, and that is clearly the form the disorder took here. The word itself is broader, so the translation keeps the general sense here and for the related verb in verse 7."
+   },
+   {
+    "verse": 6,
+    "phrase": "they received",
+    "lemma": "παραλαμβάνω",
+    "kind": "textual",
+    "traditional": "you received; they received",
+    "note": "Manuscripts vary between \"they received\" and \"you received\". The edition translated here reads \"they\", referring to the undisciplined members. The difference does not affect the sense much, since the whole community had received the same teaching."
+   },
+   {
+    "verse": 9,
+    "phrase": "the right",
+    "lemma": "ἐξουσία",
+    "kind": "background",
+    "traditional": "power; right",
+    "note": "The right in view is that of a travelling teacher to be housed and fed by those he teaches. Paul argues for this right at length in 1 Corinthians 9, while explaining there too that he chose not to use it."
+   },
+   {
+    "verse": 10,
+    "phrase": "not willing to work",
+    "lemma": "θέλω",
+    "kind": "background",
+    "traditional": "will not work",
+    "note": "The Greek specifies refusal, not inability: the rule is aimed at those who choose not to work, not at those who cannot work or cannot find work. Older English \"will not work\" meant the same but is now easily misread as a simple future."
+   },
+   {
+    "verse": 11,
+    "phrase": "not busy at work but busybodies",
+    "lemma": "περιεργάζομαι",
+    "kind": "background",
+    "traditional": "not busy at work, but busybodies",
+    "note": "The Greek plays on two forms of the same verb: \"working\" and \"working around\", that is, meddling in what is not one's concern. The English pun on \"busy\" reproduces the wordplay."
+   },
+   {
+    "verse": 17,
+    "phrase": "the mark",
+    "lemma": "σημεῖον",
+    "kind": "background",
+    "traditional": "token; sign",
+    "note": "Letters were normally dictated to a secretary, and the sender could add the closing lines in his own handwriting as authentication. The point has particular force in this letter, which has already warned (2:2) about a letter falsely claiming to come from the writers."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "ἀδελφός",
+    "rendering": "brothers and sisters (plural address); brother or sister (generic singular)",
+    "verse": 1,
+    "reason": "Occurs throughout the letters and Acts; whether the plural address and the generic singular are rendered inclusively needs one policy for the whole New Testament."
+   },
+   {
+    "lemma": "περιπατέω",
+    "rendering": "live",
+    "verse": 6,
+    "reason": "The metaphorical \"walk\" for conduct recurs across Paul and John; translators split between \"walk\" and \"live\", and the choice should not vary by chapter."
+   },
+   {
+    "lemma": "ὑπομονή",
+    "rendering": "endurance",
+    "verse": 5,
+    "reason": "Rendered variously as patience, perseverance, steadfastness and endurance across the tradition; it recurs widely and needs one English word."
+   },
+   {
+    "lemma": "παραγγέλλω",
+    "rendering": "command",
+    "verse": 4,
+    "reason": "Recurs in the Gospels, Acts and the letters, with translators varying between command, instruct, charge and order."
+   },
+   {
+    "lemma": "ἀτάκτως",
+    "rendering": "in an undisciplined way",
+    "verse": 6,
+    "reason": "This word group (with ἄτακτος in 1 Thessalonians 5:14 and ἀτακτέω) is rendered \"idle\" or \"disorderly\" in different versions and must match across both Thessalonian letters."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

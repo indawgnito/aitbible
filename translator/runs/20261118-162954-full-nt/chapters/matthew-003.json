@@ -1,0 +1,349 @@
+{
+ "id": "matthew-003",
+ "book": "matthew",
+ "chapter": 3,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZgu81H144Vhnr8Zo",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 6606,
+  "output_tokens": 9116
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"In those days John the Baptist arrived, proclaiming in the wilderness of Judea\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and saying,\"},{\"speaker\":\"other\",\"text\":\"“Turn back, for the kingdom of the heavens has come near.”\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For this is the one spoken of through Isaiah the prophet, who said:\"},{\"speaker\":\"scripture\",\"text\":\"“A voice of one crying out in the wilderness: ‘Prepare the way of the Lord; make his paths straight.’”\"}]},{\"verse\":4,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now John himself wore clothing of camel’s hair and a leather belt around his waist, and his food was locusts and wild honey.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then Jerusalem and all Judea and all the region around the Jordan were going out to him,\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and they were being baptized by him in the Jordan River, confessing their sins.\"}]},{\"verse\":7,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But when he saw many of the Pharisees and Sadducees coming to his baptism, he said to them,\"},{\"speaker\":\"other\",\"text\":\"“Brood of vipers! Who warned you to flee from the coming wrath?\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"So produce fruit worthy of your turning back,\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"and do not presume to say to yourselves, ‘We have Abraham as our father.’ For I tell you that God is able to raise up children for Abraham from these stones.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Already the axe lies at the root of the trees; so every tree that does not produce good fruit is cut down and thrown into the fire.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"I baptize you in water for turning back, but the one coming after me is stronger than I am; I am not fit to carry his sandals. He will baptize you in the Holy Spirit and fire.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"His winnowing shovel is in his hand, and he will clean out his threshing floor and gather his wheat into the storehouse, but the chaff he will burn up with unquenchable fire.”\"}]},{\"verse\":13,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then Jesus arrived at the Jordan from Galilee, coming to John to be baptized by him.\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But John tried to stop him, saying,\"},{\"speaker\":\"other\",\"text\":\"“I need to be baptized by you, and you come to me?”\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But Jesus answered him,\"},{\"speaker\":\"Jesus\",\"text\":\"“Allow it for now, for in this way it is fitting for us to fulfill all righteousness.”\"},{\"speaker\":\"narrator\",\"text\":\"Then he allowed him.\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When Jesus had been baptized, he came up at once from the water. And look, the heavens were opened, and he saw the Spirit of God descending like a dove and coming upon him.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And look, a voice from the heavens, saying,\"},{\"speaker\":\"God\",\"text\":\"“This is my Son, the beloved, in whom I delight.”\"}]}],\"notes\":[{\"verse\":2,\"phrase\":\"Turn back\",\"lemma\":\"μετανοέω\",\"kind\":\"departure\",\"traditional\":\"Repent\",\"note\":\"'Repent' now suggests mainly feeling sorry. The Greek word, as used in the Gospels, carries the Hebrew prophets' call to 'return' to God: a change of direction in mind and conduct. Most translations keep 'repent' as an established term understood to include a change of life. The related noun in verses 8 and 11 is rendered 'turning back'.\"},{\"verse\":2,\"phrase\":\"the kingdom of the heavens\",\"lemma\":\"οὐρανός\",\"kind\":\"departure\",\"traditional\":\"the kingdom of heaven\",\"note\":\"The Greek is plural, a Semitic turn of phrase characteristic of Matthew, and the plural is kept here. Most translations flatten it to 'heaven'. The phrase is Matthew's usual equivalent of 'the kingdom of God' in the other Gospels.\"},{\"verse\":2,\"phrase\":\"has come near\",\"lemma\":\"ἐγγίζω\",\"kind\":\"ambiguity\",\"traditional\":\"is at hand\",\"note\":\"The Greek perfect tense describes something that has drawn near and now stands close. Whether this means the kingdom is on the point of arriving or has in some sense already arrived is debated. The rendering leaves the question as open as the Greek does.\"},{\"verse\":3,\"phrase\":\"the way of the Lord\",\"lemma\":\"κύριος\",\"kind\":\"background\",\"traditional\":\"the way of the Lord\",\"note\":\"The quotation is Isaiah 40:3 in its Greek form. In Isaiah 'the Lord' is Israel's God, returning to his people through the desert. Matthew applies the passage to John as the one preparing the way for Jesus.\"},{\"verse\":4,\"phrase\":\"a leather belt around his waist\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"a leather belt around his waist\",\"note\":\"The description recalls the prophet Elijah, who is identified in 2 Kings 1:8 by his hairy garment and leather belt. A reader familiar with the Scriptures would have caught the allusion, and Matthew later connects John with Elijah explicitly.\"},{\"verse\":7,\"phrase\":\"coming to his baptism\",\"lemma\":\"ἐπί\",\"kind\":\"ambiguity\",\"traditional\":\"coming to his baptism\",\"note\":\"The Greek can mean that the Pharisees and Sadducees were coming to be baptized, or only that they were coming to the place where John was baptizing, perhaps to observe. John's question about fleeing the coming wrath favours the first, but the phrase does not settle it.\"},{\"verse\":11,\"phrase\":\"in water\",\"lemma\":\"ἐν\",\"kind\":\"ambiguity\",\"traditional\":\"with water\",\"note\":\"The Greek preposition can mark either the element in which someone is immersed ('in') or the means used ('with'). Many translations have 'with water' and 'with the Holy Spirit'. Because the verb describes dipping or immersing, 'in' is used here for both phrases.\"},{\"verse\":11,\"phrase\":\"the Holy Spirit and fire\",\"lemma\":\"πῦρ\",\"kind\":\"ambiguity\",\"traditional\":\"the Holy Spirit and fire\",\"note\":\"It is disputed whether 'fire' is a second image for the purifying work of the Spirit, or a separate baptism of judgment for those who do not turn back. The fire that destroys in verses 10 and 12 supports the second reading, but many interpreters hold that both purification and judgment are in view.\"},{\"verse\":12,\"phrase\":\"winnowing shovel\",\"lemma\":\"πτύον\",\"kind\":\"departure\",\"traditional\":\"winnowing fork (older versions: fan)\",\"note\":\"The Greek word names the shovel used to toss threshed grain into the wind, so that the light chaff blew away and the heavier grain fell back to the floor. Greek has a different word for the fork. Most modern translations say 'winnowing fork', and the picture is the same either way.\"},{\"verse\":15,\"phrase\":\"righteousness\",\"lemma\":\"δικαιοσύνη\",\"kind\":\"background\",\"traditional\":\"righteousness\",\"note\":\"Greek has one word-family where English has two: righteous and just, righteousness and justice, and the verb 'justify', all share a single Greek root. The word covers being in the right, doing what God requires, and God's own action to set things right. Here most interpreters take 'fulfill all righteousness' to mean doing everything God's will requires, though exactly why Jesus' baptism belongs to that is debated.\"},{\"verse\":16,\"phrase\":\"the heavens were opened\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"the heavens were opened to him\",\"note\":\"Many manuscripts add 'to him' after 'were opened', which would make the vision more clearly Jesus' own experience. Some of the earliest witnesses lack the words, and the Greek text followed here omits them.\"},{\"verse\":17,\"phrase\":\"in whom I delight\",\"lemma\":\"εὐδοκέω\",\"kind\":\"departure\",\"traditional\":\"with whom I am well pleased\",\"note\":\"The verb, in the Greek Old Testament, regularly expresses God's delight in or favour toward someone. 'Well pleased' can sound like mere approval, so 'delight' is used. The declaration echoes Psalm 2:7 ('You are my son') and Isaiah 42:1, where God speaks of his chosen servant in whom his soul delights.\"}],\"candidates\":[{\"lemma\":\"βασιλεία\",\"rendering\":\"kingdom\",\"verse\":2,\"reason\":\"Recurs throughout the New Testament and translators divide between 'kingdom', 'reign' and 'rule'; readers would be misled if the English varied between chapters.\"},{\"lemma\":\"κηρύσσω\",\"rendering\":\"proclaim\",\"verse\":1,\"reason\":\"Traditional 'preach' now suggests a sermon in church, whereas the word means a herald's public announcement; it needs one rendering across the Gospels, Acts and the letters.\"},{\"lemma\":\"ἰδού\",\"rendering\":\"look\",\"verse\":16,\"reason\":\"Extremely frequent attention-marker rendered variously as 'behold', 'look', 'see', 'suddenly' or left out; a single policy is needed.\"},{\"lemma\":\"ἐγγίζω\",\"rendering\":\"come near\",\"verse\":2,\"reason\":\"The 'kingdom has come near / is at hand' formula recurs in Matthew, Mark and Luke and its rendering carries theological weight, so it should be the same everywhere.\"},{\"lemma\":\"εὐδοκέω\",\"rendering\":\"delight\",\"verse\":17,\"reason\":\"The heavenly voice recurs at the baptism and transfiguration across the Synoptics and 2 Peter, and the related noun εὐδοκία needs a matching decision.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "In those days John the Baptist arrived, proclaiming in the wilderness of Judea"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Turn back, for the kingdom of the heavens has come near.”"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For this is the one spoken of through Isaiah the prophet, who said:"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“A voice of one crying out in the wilderness: ‘Prepare the way of the Lord; make his paths straight.’”"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now John himself wore clothing of camel’s hair and a leather belt around his waist, and his food was locusts and wild honey."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then Jerusalem and all Judea and all the region around the Jordan were going out to him,"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and they were being baptized by him in the Jordan River, confessing their sins."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But when he saw many of the Pharisees and Sadducees coming to his baptism, he said to them,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Brood of vipers! Who warned you to flee from the coming wrath?"
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "So produce fruit worthy of your turning back,"
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "and do not presume to say to yourselves, ‘We have Abraham as our father.’ For I tell you that God is able to raise up children for Abraham from these stones."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Already the axe lies at the root of the trees; so every tree that does not produce good fruit is cut down and thrown into the fire."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "I baptize you in water for turning back, but the one coming after me is stronger than I am; I am not fit to carry his sandals. He will baptize you in the Holy Spirit and fire."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "His winnowing shovel is in his hand, and he will clean out his threshing floor and gather his wheat into the storehouse, but the chaff he will burn up with unquenchable fire.”"
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then Jesus arrived at the Jordan from Galilee, coming to John to be baptized by him."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But John tried to stop him, saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“I need to be baptized by you, and you come to me?”"
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But Jesus answered him,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Allow it for now, for in this way it is fitting for us to fulfill all righteousness.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "Then he allowed him."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When Jesus had been baptized, he came up at once from the water. And look, the heavens were opened, and he saw the Spirit of God descending like a dove and coming upon him."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And look, a voice from the heavens, saying,"
+     },
+     {
+      "speaker": "God",
+      "text": "“This is my Son, the beloved, in whom I delight.”"
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 2,
+    "phrase": "Turn back",
+    "lemma": "μετανοέω",
+    "kind": "departure",
+    "traditional": "Repent",
+    "note": "'Repent' now suggests mainly feeling sorry. The Greek word, as used in the Gospels, carries the Hebrew prophets' call to 'return' to God: a change of direction in mind and conduct. Most translations keep 'repent' as an established term understood to include a change of life. The related noun in verses 8 and 11 is rendered 'turning back'."
+   },
+   {
+    "verse": 2,
+    "phrase": "the kingdom of the heavens",
+    "lemma": "οὐρανός",
+    "kind": "departure",
+    "traditional": "the kingdom of heaven",
+    "note": "The Greek is plural, a Semitic turn of phrase characteristic of Matthew, and the plural is kept here. Most translations flatten it to 'heaven'. The phrase is Matthew's usual equivalent of 'the kingdom of God' in the other Gospels."
+   },
+   {
+    "verse": 2,
+    "phrase": "has come near",
+    "lemma": "ἐγγίζω",
+    "kind": "ambiguity",
+    "traditional": "is at hand",
+    "note": "The Greek perfect tense describes something that has drawn near and now stands close. Whether this means the kingdom is on the point of arriving or has in some sense already arrived is debated. The rendering leaves the question as open as the Greek does."
+   },
+   {
+    "verse": 3,
+    "phrase": "the way of the Lord",
+    "lemma": "κύριος",
+    "kind": "background",
+    "traditional": "the way of the Lord",
+    "note": "The quotation is Isaiah 40:3 in its Greek form. In Isaiah 'the Lord' is Israel's God, returning to his people through the desert. Matthew applies the passage to John as the one preparing the way for Jesus."
+   },
+   {
+    "verse": 4,
+    "phrase": "a leather belt around his waist",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "a leather belt around his waist",
+    "note": "The description recalls the prophet Elijah, who is identified in 2 Kings 1:8 by his hairy garment and leather belt. A reader familiar with the Scriptures would have caught the allusion, and Matthew later connects John with Elijah explicitly."
+   },
+   {
+    "verse": 7,
+    "phrase": "coming to his baptism",
+    "lemma": "ἐπί",
+    "kind": "ambiguity",
+    "traditional": "coming to his baptism",
+    "note": "The Greek can mean that the Pharisees and Sadducees were coming to be baptized, or only that they were coming to the place where John was baptizing, perhaps to observe. John's question about fleeing the coming wrath favours the first, but the phrase does not settle it."
+   },
+   {
+    "verse": 11,
+    "phrase": "in water",
+    "lemma": "ἐν",
+    "kind": "ambiguity",
+    "traditional": "with water",
+    "note": "The Greek preposition can mark either the element in which someone is immersed ('in') or the means used ('with'). Many translations have 'with water' and 'with the Holy Spirit'. Because the verb describes dipping or immersing, 'in' is used here for both phrases."
+   },
+   {
+    "verse": 11,
+    "phrase": "the Holy Spirit and fire",
+    "lemma": "πῦρ",
+    "kind": "ambiguity",
+    "traditional": "the Holy Spirit and fire",
+    "note": "It is disputed whether 'fire' is a second image for the purifying work of the Spirit, or a separate baptism of judgment for those who do not turn back. The fire that destroys in verses 10 and 12 supports the second reading, but many interpreters hold that both purification and judgment are in view."
+   },
+   {
+    "verse": 12,
+    "phrase": "winnowing shovel",
+    "lemma": "πτύον",
+    "kind": "departure",
+    "traditional": "winnowing fork (older versions: fan)",
+    "note": "The Greek word names the shovel used to toss threshed grain into the wind, so that the light chaff blew away and the heavier grain fell back to the floor. Greek has a different word for the fork. Most modern translations say 'winnowing fork', and the picture is the same either way."
+   },
+   {
+    "verse": 15,
+    "phrase": "righteousness",
+    "lemma": "δικαιοσύνη",
+    "kind": "background",
+    "traditional": "righteousness",
+    "note": "Greek has one word-family where English has two: righteous and just, righteousness and justice, and the verb 'justify', all share a single Greek root. The word covers being in the right, doing what God requires, and God's own action to set things right. Here most interpreters take 'fulfill all righteousness' to mean doing everything God's will requires, though exactly why Jesus' baptism belongs to that is debated."
+   },
+   {
+    "verse": 16,
+    "phrase": "the heavens were opened",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "the heavens were opened to him",
+    "note": "Many manuscripts add 'to him' after 'were opened', which would make the vision more clearly Jesus' own experience. Some of the earliest witnesses lack the words, and the Greek text followed here omits them."
+   },
+   {
+    "verse": 17,
+    "phrase": "in whom I delight",
+    "lemma": "εὐδοκέω",
+    "kind": "departure",
+    "traditional": "with whom I am well pleased",
+    "note": "The verb, in the Greek Old Testament, regularly expresses God's delight in or favour toward someone. 'Well pleased' can sound like mere approval, so 'delight' is used. The declaration echoes Psalm 2:7 ('You are my son') and Isaiah 42:1, where God speaks of his chosen servant in whom his soul delights."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "βασιλεία",
+    "rendering": "kingdom",
+    "verse": 2,
+    "reason": "Recurs throughout the New Testament and translators divide between 'kingdom', 'reign' and 'rule'; readers would be misled if the English varied between chapters."
+   },
+   {
+    "lemma": "κηρύσσω",
+    "rendering": "proclaim",
+    "verse": 1,
+    "reason": "Traditional 'preach' now suggests a sermon in church, whereas the word means a herald's public announcement; it needs one rendering across the Gospels, Acts and the letters."
+   },
+   {
+    "lemma": "ἰδού",
+    "rendering": "look",
+    "verse": 16,
+    "reason": "Extremely frequent attention-marker rendered variously as 'behold', 'look', 'see', 'suddenly' or left out; a single policy is needed."
+   },
+   {
+    "lemma": "ἐγγίζω",
+    "rendering": "come near",
+    "verse": 2,
+    "reason": "The 'kingdom has come near / is at hand' formula recurs in Matthew, Mark and Luke and its rendering carries theological weight, so it should be the same everywhere."
+   },
+   {
+    "lemma": "εὐδοκέω",
+    "rendering": "delight",
+    "verse": 17,
+    "reason": "The heavenly voice recurs at the baptism and transfiguration across the Synoptics and 2 Peter, and the related noun εὐδοκία needs a matching decision."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

@@ -1,0 +1,463 @@
+{
+ "id": "luke-015",
+ "book": "luke",
+ "chapter": 15,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZoMErqU8D7FArANZ",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 7679,
+  "output_tokens": 11284
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now all the tax collectors and sinners were drawing near to him to listen to him.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And both the Pharisees and the scribes were grumbling, saying,\"},{\"speaker\":\"other\",\"text\":\"“This man welcomes sinners and eats with them.”\"}]},{\"verse\":3,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So he told them this parable:\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"“What man among you, who has a hundred sheep and loses one of them, does not leave the ninety-nine in the wilderness and go after the lost one until he finds it?\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And when he has found it, he lays it on his shoulders, rejoicing,\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"and when he comes home he calls together his friends and neighbors and says to them, ‘Rejoice with me, for I have found my sheep that was lost.’\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"I tell you that in the same way there will be more joy in heaven over one sinner who turns back than over ninety-nine righteous people who have no need of turning back.\"}]},{\"verse\":8,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Or what woman who has ten drachmas, if she loses one drachma, does not light a lamp and sweep the house and search carefully until she finds it?\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And when she has found it, she calls together her friends and neighbors and says, ‘Rejoice with me, for I have found the drachma that I lost.’\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"In the same way, I tell you, there is joy in the presence of God’s angels over one sinner who turns back.”\"}]},{\"verse\":11,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then he said,\"},{\"speaker\":\"Jesus\",\"text\":\"“A man had two sons.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"The younger of them said to his father, ‘Father, give me the share of the property that falls to me.’ So he divided his livelihood between them.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Not many days later the younger son gathered everything together and went abroad to a distant country, and there he squandered his property by living recklessly.\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"When he had spent everything, a severe famine came over that country, and he began to be in need.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"So he went and attached himself to one of the citizens of that country, who sent him into his fields to feed pigs.\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"He longed to fill his belly with the carob pods the pigs were eating, and no one would give him anything.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But when he came to himself, he said, ‘How many of my father’s hired workers have more than enough bread, while I am perishing here from hunger!\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"I will get up and go to my father and say to him, “Father, I have sinned against heaven and in your sight;\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"I am no longer worthy to be called your son. Make me like one of your hired workers.”’\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"So he got up and went to his father. But while he was still far off, his father saw him and was moved with compassion; he ran, threw his arms around his neck, and kissed him.\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"The son said to him, ‘Father, I have sinned against heaven and in your sight; I am no longer worthy to be called your son.’\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But the father said to his slaves, ‘Quick! Bring out the best robe and put it on him, and put a ring on his hand and sandals on his feet.\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Bring the fattened calf and slaughter it, and let us eat and celebrate,\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"because this son of mine was dead and has come back to life; he was lost and has been found.’ And they began to celebrate.\"}]},{\"verse\":25,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Now his older son was in the field, and as he came and drew near to the house, he heard music and dancing.\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"He called one of the servants over and asked what this might be.\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"He told him, ‘Your brother has come, and your father has slaughtered the fattened calf, because he has got him back safe and sound.’\"}]},{\"verse\":28,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But he became angry and refused to go in. So his father came out and began pleading with him.\"}]},{\"verse\":29,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But he answered his father, ‘Look, all these years I have been slaving for you, and I have never disobeyed a command of yours; yet you have never given me even a young goat so that I could celebrate with my friends.\"}]},{\"verse\":30,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But when this son of yours came, who has devoured your livelihood with prostitutes, you slaughtered the fattened calf for him!’\"}]},{\"verse\":31,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"He said to him, ‘My child, you are always with me, and everything that is mine is yours.\"}]},{\"verse\":32,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But it was necessary to celebrate and rejoice, because this brother of yours was dead and has come to life; he was lost and has been found.’”\"}]}],\"notes\":[{\"verse\":7,\"phrase\":\"turns back\",\"lemma\":\"μετανοέω\",\"kind\":\"departure\",\"traditional\":\"repents\",\"note\":\"The traditional rendering is 'repent' and 'repentance'. In modern English 'repent' centres on feeling sorry, whereas the Greek word in the Gospels carries the prophets' call to return to God, a change of direction in mind and conduct. Most translations keep 'repent' as an established term that readers understand to include a change of life.\"},{\"verse\":8,\"phrase\":\"drachmas\",\"lemma\":\"δραχμή\",\"kind\":\"background\",\"traditional\":\"pieces of silver / silver coins\",\"note\":\"The drachma was a Greek silver coin, roughly equal in value to the Roman denarius, which was about a day's wage for a labourer. Ten of them would be a modest household's savings, so losing one mattered.\"},{\"verse\":12,\"phrase\":\"the share of the property that falls to me\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"the portion of goods that falleth to me\",\"note\":\"The phrase is ordinary legal language for the portion of an inheritance due to an heir. Under Deuteronomy 21:17 the firstborn received a double share, so the younger of two sons could expect a third. An inheritance normally passed at the father's death; asking for it while he was alive would have struck hearers as a serious affront.\"},{\"verse\":15,\"phrase\":\"to feed pigs\",\"lemma\":\"χοῖρος\",\"kind\":\"background\",\"traditional\":\"to feed swine\",\"note\":\"Pigs were unclean animals under the Jewish law (Leviticus 11:7), and tending them was regarded as degrading work for a Jew. For the original audience this detail marks how far the son has fallen, in a Gentile land and in Gentile service.\"},{\"verse\":16,\"phrase\":\"fill his belly with\",\"lemma\":\"γεμίζω\",\"kind\":\"textual\",\"traditional\":\"fill his belly with / be fed with\",\"note\":\"Manuscripts are divided here. Some read 'fill his belly with', which is the reading of the edition translated here; other early manuscripts read 'be satisfied with', which several modern editions and translations follow. The sense is little affected.\"},{\"verse\":16,\"phrase\":\"carob pods\",\"lemma\":\"κεράτιον\",\"kind\":\"background\",\"traditional\":\"husks\",\"note\":\"The Greek word means 'little horns' and refers to the curved pods of the carob tree, common around the Mediterranean. They were used as animal fodder and eaten by people only in poverty. The older English 'husks' is less exact.\"},{\"verse\":17,\"phrase\":\"perishing\",\"lemma\":\"ἀπόλλυμι\",\"kind\":\"background\",\"traditional\":\"perish\",\"note\":\"The Greek verb here is the same one translated 'lose' and 'lost' throughout the chapter (the lost sheep, the lost coin, the son who 'was lost'). It covers both being lost and being destroyed, and a Greek reader would hear the son describing himself with the word that runs through all three parables.\"},{\"verse\":18,\"phrase\":\"against heaven\",\"lemma\":\"οὐρανός\",\"kind\":\"background\",\"traditional\":\"against heaven\",\"note\":\"'Heaven' here is a reverent Jewish way of referring to God without naming him. The son is confessing that he has sinned against God and against his father.\"},{\"verse\":21,\"phrase\":\"I am no longer worthy to be called your son.\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"\",\"note\":\"Some early manuscripts add 'Make me like one of your hired workers' at the end of this verse. Most editors regard the addition as copied from verse 19. On the shorter reading, the son does not finish his prepared speech before the father speaks.\"},{\"verse\":22,\"phrase\":\"slaves\",\"lemma\":\"δοῦλος\",\"kind\":\"departure\",\"traditional\":\"servants\",\"note\":\"Most English versions have 'servants', though some recent ones have 'slaves'. The Greek word ordinarily means a slave, a person owned by the household. The parable distinguishes these from the 'hired workers' of verses 17 and 19, who were free day labourers. The older son's complaint in verse 29, 'I have been slaving for you', uses the related verb.\"}],\"candidates\":[{\"lemma\":\"δοῦλος\",\"rendering\":\"slave\",\"verse\":22,\"reason\":\"Recurs throughout the New Testament in literal and metaphorical uses, and translations split between 'servant', 'slave' and 'bondservant'; the related verb δουλεύω (v. 29) should follow the same decision.\"},{\"lemma\":\"σπλαγχνίζομαι\",\"rendering\":\"be moved with compassion\",\"verse\":20,\"reason\":\"A characteristic Gospel verb used of Jesus and of figures in parables, variously rendered 'had compassion', 'felt pity' or 'was deeply moved'; readers should be able to see that it is the same word.\"},{\"lemma\":\"ἀπόλλυμι\",\"rendering\":\"lose / be lost; perish (v. 17)\",\"verse\":4,\"reason\":\"One verb covers 'lose', 'be lost', 'perish' and 'destroy' across the New Testament, and the links between these senses are often theologically significant and need a consistent policy.\"},{\"lemma\":\"τελώνης\",\"rendering\":\"tax collector\",\"verse\":1,\"reason\":\"Frequent in the Synoptics, with 'tax collector', 'toll collector' and 'publican' all in use; the choice affects how readers picture the role.\"},{\"lemma\":\"εὐφραίνω\",\"rendering\":\"celebrate\",\"verse\":23,\"reason\":\"Rendered variously as 'make merry', 'celebrate', 'rejoice' or 'be glad' across Luke-Acts and elsewhere, and it needs to stay distinct from χαίρω, 'rejoice', as in verse 32.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now all the tax collectors and sinners were drawing near to him to listen to him."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And both the Pharisees and the scribes were grumbling, saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“This man welcomes sinners and eats with them.”"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So he told them this parable:"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "“What man among you, who has a hundred sheep and loses one of them, does not leave the ninety-nine in the wilderness and go after the lost one until he finds it?"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And when he has found it, he lays it on his shoulders, rejoicing,"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "and when he comes home he calls together his friends and neighbors and says to them, ‘Rejoice with me, for I have found my sheep that was lost.’"
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "I tell you that in the same way there will be more joy in heaven over one sinner who turns back than over ninety-nine righteous people who have no need of turning back."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Or what woman who has ten drachmas, if she loses one drachma, does not light a lamp and sweep the house and search carefully until she finds it?"
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And when she has found it, she calls together her friends and neighbors and says, ‘Rejoice with me, for I have found the drachma that I lost.’"
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "In the same way, I tell you, there is joy in the presence of God’s angels over one sinner who turns back.”"
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then he said,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“A man had two sons."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "The younger of them said to his father, ‘Father, give me the share of the property that falls to me.’ So he divided his livelihood between them."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Not many days later the younger son gathered everything together and went abroad to a distant country, and there he squandered his property by living recklessly."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "When he had spent everything, a severe famine came over that country, and he began to be in need."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "So he went and attached himself to one of the citizens of that country, who sent him into his fields to feed pigs."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "He longed to fill his belly with the carob pods the pigs were eating, and no one would give him anything."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But when he came to himself, he said, ‘How many of my father’s hired workers have more than enough bread, while I am perishing here from hunger!"
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "I will get up and go to my father and say to him, “Father, I have sinned against heaven and in your sight;"
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "I am no longer worthy to be called your son. Make me like one of your hired workers.”’"
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "So he got up and went to his father. But while he was still far off, his father saw him and was moved with compassion; he ran, threw his arms around his neck, and kissed him."
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "The son said to him, ‘Father, I have sinned against heaven and in your sight; I am no longer worthy to be called your son.’"
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But the father said to his slaves, ‘Quick! Bring out the best robe and put it on him, and put a ring on his hand and sandals on his feet."
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Bring the fattened calf and slaughter it, and let us eat and celebrate,"
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "because this son of mine was dead and has come back to life; he was lost and has been found.’ And they began to celebrate."
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Now his older son was in the field, and as he came and drew near to the house, he heard music and dancing."
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "He called one of the servants over and asked what this might be."
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "He told him, ‘Your brother has come, and your father has slaughtered the fattened calf, because he has got him back safe and sound.’"
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But he became angry and refused to go in. So his father came out and began pleading with him."
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But he answered his father, ‘Look, all these years I have been slaving for you, and I have never disobeyed a command of yours; yet you have never given me even a young goat so that I could celebrate with my friends."
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But when this son of yours came, who has devoured your livelihood with prostitutes, you slaughtered the fattened calf for him!’"
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "He said to him, ‘My child, you are always with me, and everything that is mine is yours."
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But it was necessary to celebrate and rejoice, because this brother of yours was dead and has come to life; he was lost and has been found.’”"
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 7,
+    "phrase": "turns back",
+    "lemma": "μετανοέω",
+    "kind": "departure",
+    "traditional": "repents",
+    "note": "The traditional rendering is 'repent' and 'repentance'. In modern English 'repent' centres on feeling sorry, whereas the Greek word in the Gospels carries the prophets' call to return to God, a change of direction in mind and conduct. Most translations keep 'repent' as an established term that readers understand to include a change of life."
+   },
+   {
+    "verse": 8,
+    "phrase": "drachmas",
+    "lemma": "δραχμή",
+    "kind": "background",
+    "traditional": "pieces of silver / silver coins",
+    "note": "The drachma was a Greek silver coin, roughly equal in value to the Roman denarius, which was about a day's wage for a labourer. Ten of them would be a modest household's savings, so losing one mattered."
+   },
+   {
+    "verse": 12,
+    "phrase": "the share of the property that falls to me",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "the portion of goods that falleth to me",
+    "note": "The phrase is ordinary legal language for the portion of an inheritance due to an heir. Under Deuteronomy 21:17 the firstborn received a double share, so the younger of two sons could expect a third. An inheritance normally passed at the father's death; asking for it while he was alive would have struck hearers as a serious affront."
+   },
+   {
+    "verse": 15,
+    "phrase": "to feed pigs",
+    "lemma": "χοῖρος",
+    "kind": "background",
+    "traditional": "to feed swine",
+    "note": "Pigs were unclean animals under the Jewish law (Leviticus 11:7), and tending them was regarded as degrading work for a Jew. For the original audience this detail marks how far the son has fallen, in a Gentile land and in Gentile service."
+   },
+   {
+    "verse": 16,
+    "phrase": "fill his belly with",
+    "lemma": "γεμίζω",
+    "kind": "textual",
+    "traditional": "fill his belly with / be fed with",
+    "note": "Manuscripts are divided here. Some read 'fill his belly with', which is the reading of the edition translated here; other early manuscripts read 'be satisfied with', which several modern editions and translations follow. The sense is little affected."
+   },
+   {
+    "verse": 16,
+    "phrase": "carob pods",
+    "lemma": "κεράτιον",
+    "kind": "background",
+    "traditional": "husks",
+    "note": "The Greek word means 'little horns' and refers to the curved pods of the carob tree, common around the Mediterranean. They were used as animal fodder and eaten by people only in poverty. The older English 'husks' is less exact."
+   },
+   {
+    "verse": 17,
+    "phrase": "perishing",
+    "lemma": "ἀπόλλυμι",
+    "kind": "background",
+    "traditional": "perish",
+    "note": "The Greek verb here is the same one translated 'lose' and 'lost' throughout the chapter (the lost sheep, the lost coin, the son who 'was lost'). It covers both being lost and being destroyed, and a Greek reader would hear the son describing himself with the word that runs through all three parables."
+   },
+   {
+    "verse": 18,
+    "phrase": "against heaven",
+    "lemma": "οὐρανός",
+    "kind": "background",
+    "traditional": "against heaven",
+    "note": "'Heaven' here is a reverent Jewish way of referring to God without naming him. The son is confessing that he has sinned against God and against his father."
+   },
+   {
+    "verse": 21,
+    "phrase": "I am no longer worthy to be called your son.",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "",
+    "note": "Some early manuscripts add 'Make me like one of your hired workers' at the end of this verse. Most editors regard the addition as copied from verse 19. On the shorter reading, the son does not finish his prepared speech before the father speaks."
+   },
+   {
+    "verse": 22,
+    "phrase": "slaves",
+    "lemma": "δοῦλος",
+    "kind": "departure",
+    "traditional": "servants",
+    "note": "Most English versions have 'servants', though some recent ones have 'slaves'. The Greek word ordinarily means a slave, a person owned by the household. The parable distinguishes these from the 'hired workers' of verses 17 and 19, who were free day labourers. The older son's complaint in verse 29, 'I have been slaving for you', uses the related verb."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "δοῦλος",
+    "rendering": "slave",
+    "verse": 22,
+    "reason": "Recurs throughout the New Testament in literal and metaphorical uses, and translations split between 'servant', 'slave' and 'bondservant'; the related verb δουλεύω (v. 29) should follow the same decision."
+   },
+   {
+    "lemma": "σπλαγχνίζομαι",
+    "rendering": "be moved with compassion",
+    "verse": 20,
+    "reason": "A characteristic Gospel verb used of Jesus and of figures in parables, variously rendered 'had compassion', 'felt pity' or 'was deeply moved'; readers should be able to see that it is the same word."
+   },
+   {
+    "lemma": "ἀπόλλυμι",
+    "rendering": "lose / be lost; perish (v. 17)",
+    "verse": 4,
+    "reason": "One verb covers 'lose', 'be lost', 'perish' and 'destroy' across the New Testament, and the links between these senses are often theologically significant and need a consistent policy."
+   },
+   {
+    "lemma": "τελώνης",
+    "rendering": "tax collector",
+    "verse": 1,
+    "reason": "Frequent in the Synoptics, with 'tax collector', 'toll collector' and 'publican' all in use; the choice affects how readers picture the role."
+   },
+   {
+    "lemma": "εὐφραίνω",
+    "rendering": "celebrate",
+    "verse": 23,
+    "reason": "Rendered variously as 'make merry', 'celebrate', 'rejoice' or 'be glad' across Luke-Acts and elsewhere, and it needs to stay distinct from χαίρω, 'rejoice', as in verse 32."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

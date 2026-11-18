@@ -1,0 +1,395 @@
+{
+ "id": "2timothy-004",
+ "book": "2timothy",
+ "chapter": 4,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZfuVM9XAmKPVMHCA",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 6808,
+  "output_tokens": 17828
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"I solemnly charge you before God and Christ Jesus, who is going to judge the living and the dead, and by his appearing and his kingdom:\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"proclaim the word; be on hand, whether the time is right or not; reprove, rebuke, encourage, with all patience and instruction.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For a time will come when people will not put up with sound teaching, but following their own desires they will heap up teachers for themselves, because their ears itch,\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and they will turn their ears away from the truth and turn aside to myths.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But you, keep a clear head in everything, endure hardship, do the work of an evangelist, carry out your service in full.\"}]},{\"verse\":6,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For I am already being poured out as a drink offering, and the time of my departure is at hand.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"I have fought the good fight, I have finished the race, I have kept the faith.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"As for what remains, the crown of righteousness is laid up for me, which the Lord, the righteous judge, will award me on that day, and not only me but also all who have loved his appearing.\"}]},{\"verse\":9,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Do your best to come to me soon,\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"for Demas has deserted me, because he loved the present age, and has gone to Thessalonica; Crescens has gone to Galatia, Titus to Dalmatia.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Luke alone is with me. Pick up Mark and bring him with you, for he is useful to me for service,\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and I have sent Tychicus to Ephesus.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When you come, bring the cloak that I left in Troas with Carpus, and the scrolls, especially the parchments.\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Alexander the metalworker did me a great deal of harm; the Lord will repay him according to his deeds.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"You too must be on your guard against him, for he strongly opposed our words.\"}]},{\"verse\":16,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"At my first defence no one came to my side; everyone deserted me. May it not be counted against them.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But the Lord stood by my side and gave me strength, so that through me the proclamation might be carried out in full and all the Gentiles might hear it; and I was rescued from the lion's mouth.\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The Lord will rescue me from every evil deed and bring me safely into his heavenly kingdom. To him be the glory forever and ever. Amen.\"}]},{\"verse\":19,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Greet Prisca and Aquila, and the household of Onesiphorus.\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Erastus stayed in Corinth, and Trophimus I left in Miletus, ill.\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Do your best to come before winter. Eubulus greets you, and so do Pudens, Linus, Claudia and all the brothers and sisters.\"}]},{\"verse\":22,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The Lord be with your spirit. Grace be with you all.\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"by his appearing and his kingdom\",\"lemma\":\"ἐπιφάνεια\",\"kind\":\"textual\",\"traditional\":\"at his appearing and his kingdom\",\"note\":\"The earliest manuscripts have a bare accusative, the Greek construction for the thing one swears by, so Paul is invoking Christ's appearing and reign as part of the oath. Later manuscripts read ‘at his appearing’, attaching the phrase to the judging, and the King James Version follows them. ‘Appearing’ translates a word used for the visible manifestation of a god or the arrival of a ruler.\"},{\"verse\":2,\"phrase\":\"be on hand\",\"lemma\":\"ἐφίστημι\",\"kind\":\"ambiguity\",\"traditional\":\"be instant / be ready\",\"note\":\"The verb means to stand by or be at one's post, and can also carry the sense of pressing on with something, so some translations have ‘be persistent’ or ‘be urgent’. The same verb returns in verse 6, where the time of Paul's departure ‘is at hand’; the rendering here keeps that echo.\"},{\"verse\":5,\"phrase\":\"service\",\"lemma\":\"διακονία\",\"kind\":\"departure\",\"traditional\":\"ministry\",\"note\":\"The Greek word meant service rendered or a task carried out on someone's behalf. ‘Ministry’ is the traditional rendering and remains common, but it now suggests a clerical profession, which the word did not. It recurs in verse 11, where it may refer either to personal help for Paul or to the work of the mission.\"},{\"verse\":6,\"phrase\":\"poured out as a drink offering\",\"lemma\":\"σπένδω\",\"kind\":\"background\",\"traditional\":\"ready to be offered / poured out as a drink offering\",\"note\":\"Wine was poured out alongside a sacrifice in both Jewish and Greco-Roman worship, and Paul pictures his approaching death as such an offering, as he also does in Philippians 2:17. ‘Departure’ in the same verse was a common euphemism for death; the word was also used of a ship casting off or an army breaking camp.\"},{\"verse\":7,\"phrase\":\"I have kept the faith\",\"lemma\":\"πίστις\",\"kind\":\"ambiguity\",\"traditional\":\"I have kept the faith\",\"note\":\"The Greek phrase was an established expression for keeping one's pledge or staying loyal, so the sense may be ‘I have kept faith’, that is, remained true to the commission. The other reading is that Paul has guarded the faith as a body of belief entrusted to him, in line with the charge to guard the deposit earlier in the letter. The traditional wording allows both.\"},{\"verse\":8,\"phrase\":\"crown of righteousness\",\"lemma\":\"στέφανος\",\"kind\":\"background\",\"traditional\":\"crown of righteousness\",\"note\":\"The word is the victor's wreath awarded at athletic games, not a king's crown, and it continues the picture of the contest and the race in verse 7, with the Lord as the judge who awards the prize. ‘Of righteousness’ may mean the wreath given for a righteous life or the wreath that consists in being declared righteous; interpreters are divided.\"},{\"verse\":10,\"phrase\":\"Galatia\",\"lemma\":\"Γαλατία\",\"kind\":\"textual\",\"traditional\":\"Galatia\",\"note\":\"Some important early manuscripts read ‘Gaul’ instead. Even with the reading ‘Galatia’ the reference is uncertain, since Greek writers of the period could use that name for Gaul as well as for the region in Asia Minor. Most translations print ‘Galatia’.\"},{\"verse\":13,\"phrase\":\"the scrolls, especially the parchments\",\"lemma\":\"μεμβράνα\",\"kind\":\"departure\",\"traditional\":\"the books, especially the parchments\",\"note\":\"Books at this time were normally papyrus rolls, so ‘scrolls’ gives a truer picture than ‘books’. ‘Parchments’ is a Latin loanword for prepared animal skin, possibly parchment notebooks; what they contained (Scripture, Paul's own notes, personal documents) is unknown. A minority view takes ‘especially’ as ‘that is’, making the scrolls and the parchments the same items.\"},{\"verse\":14,\"phrase\":\"metalworker\",\"lemma\":\"χαλκεύς\",\"kind\":\"departure\",\"traditional\":\"coppersmith\",\"note\":\"The word originally named a worker in copper or bronze but by this period was used for a smith or metalworker of any kind. ‘Coppersmith’ is the traditional rendering and may be right, but it is more specific than the Greek requires.\"},{\"verse\":14,\"phrase\":\"will repay\",\"lemma\":\"ἀποδίδωμι\",\"kind\":\"textual\",\"traditional\":\"the Lord reward him according to his works\",\"note\":\"The earliest manuscripts have a future tense, a statement that the Lord will deal with Alexander; later manuscripts have a wish, ‘may the Lord repay him’, which the King James Version follows. The wording echoes Psalm 62:12 and Proverbs 24:12. The same verb is used in verse 8 for the Lord awarding the crown.\"},{\"verse\":16,\"phrase\":\"first defence\",\"lemma\":\"ἀπολογία\",\"kind\":\"background\",\"traditional\":\"first answer / first defense\",\"note\":\"The word is the legal term for a defendant's speech in court. Most scholars take this to be the preliminary hearing of Paul's current trial; an older view refers it to an earlier trial that ended in release. ‘Came to my side’ uses a verb for appearing in court in someone's support.\"},{\"verse\":17,\"phrase\":\"all the Gentiles\",\"lemma\":\"ἔθνος\",\"kind\":\"ambiguity\",\"traditional\":\"all the Gentiles\",\"note\":\"Greek has one word for ‘nations’ and ‘Gentiles’ (non-Jewish peoples), and the phrase could equally be rendered ‘all the nations’. ‘Gentiles’ is chosen here because Paul is speaking of his own commission as apostle to the non-Jewish world, and most translations do the same.\"},{\"verse\":17,\"phrase\":\"the lion's mouth\",\"lemma\":\"λέων\",\"kind\":\"background\",\"traditional\":\"the mouth of the lion\",\"note\":\"The phrase echoes Psalm 22:21 and the story of Daniel, and most interpreters take it as a figure for extreme danger, not a literal sentence to the arena. Suggestions that the lion is the emperor, or Satan, go back to early readers but cannot be confirmed.\"},{\"verse\":21,\"phrase\":\"brothers and sisters\",\"lemma\":\"ἀδελφός\",\"kind\":\"departure\",\"traditional\":\"brethren / brothers\",\"note\":\"The Greek plural was the ordinary way to refer to a mixed group of men and women, here the fellow believers with Paul, among whom a woman, Claudia, has just been named. ‘Brothers’ alone would suggest to a modern reader that only men are meant. Many recent translations render it the same way.\"},{\"verse\":22,\"phrase\":\"you all\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"Grace be with you\",\"note\":\"In the first sentence ‘your’ is singular, addressed to Timothy; in the second ‘you’ is plural. The closing blessing therefore reaches beyond Timothy to the community with him, which suggests the letter was expected to be heard by others.\"}],\"candidates\":[{\"lemma\":\"διακονία\",\"rendering\":\"service\",\"verse\":5,\"reason\":\"Recurs across Acts and the letters, where ‘ministry’ and ‘service’ give modern readers quite different impressions and the related διάκονος and διακονέω need to match.\"},{\"lemma\":\"ἀδελφός\",\"rendering\":\"brothers and sisters\",\"verse\":21,\"reason\":\"The plural for mixed groups of believers occurs throughout the letters and Acts, and translators split between ‘brothers’ and ‘brothers and sisters’.\"},{\"lemma\":\"αἰών\",\"rendering\":\"age (v. 10); forever and ever (v. 18, doxology formula)\",\"verse\":10,\"reason\":\"‘Age’ versus ‘world’, and the handling of the ‘ages of ages’ formula, should be settled once so the link between the two uses is treated consistently.\"},{\"lemma\":\"στέφανος\",\"rendering\":\"crown\",\"verse\":8,\"reason\":\"The victor's wreath recurs in Paul, James, 1 Peter and Revelation; ‘crown’ suggests royalty while ‘wreath’ has its own misleading modern associations.\"},{\"lemma\":\"παρακαλέω\",\"rendering\":\"encourage\",\"verse\":2,\"reason\":\"Very frequent across the New Testament with a range covering urge, appeal, encourage and comfort, so translations vary widely and need a governing rule.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "I solemnly charge you before God and Christ Jesus, who is going to judge the living and the dead, and by his appearing and his kingdom:"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "proclaim the word; be on hand, whether the time is right or not; reprove, rebuke, encourage, with all patience and instruction."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For a time will come when people will not put up with sound teaching, but following their own desires they will heap up teachers for themselves, because their ears itch,"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and they will turn their ears away from the truth and turn aside to myths."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But you, keep a clear head in everything, endure hardship, do the work of an evangelist, carry out your service in full."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For I am already being poured out as a drink offering, and the time of my departure is at hand."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "I have fought the good fight, I have finished the race, I have kept the faith."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "As for what remains, the crown of righteousness is laid up for me, which the Lord, the righteous judge, will award me on that day, and not only me but also all who have loved his appearing."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Do your best to come to me soon,"
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "for Demas has deserted me, because he loved the present age, and has gone to Thessalonica; Crescens has gone to Galatia, Titus to Dalmatia."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Luke alone is with me. Pick up Mark and bring him with you, for he is useful to me for service,"
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and I have sent Tychicus to Ephesus."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When you come, bring the cloak that I left in Troas with Carpus, and the scrolls, especially the parchments."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Alexander the metalworker did me a great deal of harm; the Lord will repay him according to his deeds."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "You too must be on your guard against him, for he strongly opposed our words."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "At my first defence no one came to my side; everyone deserted me. May it not be counted against them."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But the Lord stood by my side and gave me strength, so that through me the proclamation might be carried out in full and all the Gentiles might hear it; and I was rescued from the lion's mouth."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The Lord will rescue me from every evil deed and bring me safely into his heavenly kingdom. To him be the glory forever and ever. Amen."
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Greet Prisca and Aquila, and the household of Onesiphorus."
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Erastus stayed in Corinth, and Trophimus I left in Miletus, ill."
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Do your best to come before winter. Eubulus greets you, and so do Pudens, Linus, Claudia and all the brothers and sisters."
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The Lord be with your spirit. Grace be with you all."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "by his appearing and his kingdom",
+    "lemma": "ἐπιφάνεια",
+    "kind": "textual",
+    "traditional": "at his appearing and his kingdom",
+    "note": "The earliest manuscripts have a bare accusative, the Greek construction for the thing one swears by, so Paul is invoking Christ's appearing and reign as part of the oath. Later manuscripts read ‘at his appearing’, attaching the phrase to the judging, and the King James Version follows them. ‘Appearing’ translates a word used for the visible manifestation of a god or the arrival of a ruler."
+   },
+   {
+    "verse": 2,
+    "phrase": "be on hand",
+    "lemma": "ἐφίστημι",
+    "kind": "ambiguity",
+    "traditional": "be instant / be ready",
+    "note": "The verb means to stand by or be at one's post, and can also carry the sense of pressing on with something, so some translations have ‘be persistent’ or ‘be urgent’. The same verb returns in verse 6, where the time of Paul's departure ‘is at hand’; the rendering here keeps that echo."
+   },
+   {
+    "verse": 5,
+    "phrase": "service",
+    "lemma": "διακονία",
+    "kind": "departure",
+    "traditional": "ministry",
+    "note": "The Greek word meant service rendered or a task carried out on someone's behalf. ‘Ministry’ is the traditional rendering and remains common, but it now suggests a clerical profession, which the word did not. It recurs in verse 11, where it may refer either to personal help for Paul or to the work of the mission."
+   },
+   {
+    "verse": 6,
+    "phrase": "poured out as a drink offering",
+    "lemma": "σπένδω",
+    "kind": "background",
+    "traditional": "ready to be offered / poured out as a drink offering",
+    "note": "Wine was poured out alongside a sacrifice in both Jewish and Greco-Roman worship, and Paul pictures his approaching death as such an offering, as he also does in Philippians 2:17. ‘Departure’ in the same verse was a common euphemism for death; the word was also used of a ship casting off or an army breaking camp."
+   },
+   {
+    "verse": 7,
+    "phrase": "I have kept the faith",
+    "lemma": "πίστις",
+    "kind": "ambiguity",
+    "traditional": "I have kept the faith",
+    "note": "The Greek phrase was an established expression for keeping one's pledge or staying loyal, so the sense may be ‘I have kept faith’, that is, remained true to the commission. The other reading is that Paul has guarded the faith as a body of belief entrusted to him, in line with the charge to guard the deposit earlier in the letter. The traditional wording allows both."
+   },
+   {
+    "verse": 8,
+    "phrase": "crown of righteousness",
+    "lemma": "στέφανος",
+    "kind": "background",
+    "traditional": "crown of righteousness",
+    "note": "The word is the victor's wreath awarded at athletic games, not a king's crown, and it continues the picture of the contest and the race in verse 7, with the Lord as the judge who awards the prize. ‘Of righteousness’ may mean the wreath given for a righteous life or the wreath that consists in being declared righteous; interpreters are divided."
+   },
+   {
+    "verse": 10,
+    "phrase": "Galatia",
+    "lemma": "Γαλατία",
+    "kind": "textual",
+    "traditional": "Galatia",
+    "note": "Some important early manuscripts read ‘Gaul’ instead. Even with the reading ‘Galatia’ the reference is uncertain, since Greek writers of the period could use that name for Gaul as well as for the region in Asia Minor. Most translations print ‘Galatia’."
+   },
+   {
+    "verse": 13,
+    "phrase": "the scrolls, especially the parchments",
+    "lemma": "μεμβράνα",
+    "kind": "departure",
+    "traditional": "the books, especially the parchments",
+    "note": "Books at this time were normally papyrus rolls, so ‘scrolls’ gives a truer picture than ‘books’. ‘Parchments’ is a Latin loanword for prepared animal skin, possibly parchment notebooks; what they contained (Scripture, Paul's own notes, personal documents) is unknown. A minority view takes ‘especially’ as ‘that is’, making the scrolls and the parchments the same items."
+   },
+   {
+    "verse": 14,
+    "phrase": "metalworker",
+    "lemma": "χαλκεύς",
+    "kind": "departure",
+    "traditional": "coppersmith",
+    "note": "The word originally named a worker in copper or bronze but by this period was used for a smith or metalworker of any kind. ‘Coppersmith’ is the traditional rendering and may be right, but it is more specific than the Greek requires."
+   },
+   {
+    "verse": 14,
+    "phrase": "will repay",
+    "lemma": "ἀποδίδωμι",
+    "kind": "textual",
+    "traditional": "the Lord reward him according to his works",
+    "note": "The earliest manuscripts have a future tense, a statement that the Lord will deal with Alexander; later manuscripts have a wish, ‘may the Lord repay him’, which the King James Version follows. The wording echoes Psalm 62:12 and Proverbs 24:12. The same verb is used in verse 8 for the Lord awarding the crown."
+   },
+   {
+    "verse": 16,
+    "phrase": "first defence",
+    "lemma": "ἀπολογία",
+    "kind": "background",
+    "traditional": "first answer / first defense",
+    "note": "The word is the legal term for a defendant's speech in court. Most scholars take this to be the preliminary hearing of Paul's current trial; an older view refers it to an earlier trial that ended in release. ‘Came to my side’ uses a verb for appearing in court in someone's support."
+   },
+   {
+    "verse": 17,
+    "phrase": "all the Gentiles",
+    "lemma": "ἔθνος",
+    "kind": "ambiguity",
+    "traditional": "all the Gentiles",
+    "note": "Greek has one word for ‘nations’ and ‘Gentiles’ (non-Jewish peoples), and the phrase could equally be rendered ‘all the nations’. ‘Gentiles’ is chosen here because Paul is speaking of his own commission as apostle to the non-Jewish world, and most translations do the same."
+   },
+   {
+    "verse": 17,
+    "phrase": "the lion's mouth",
+    "lemma": "λέων",
+    "kind": "background",
+    "traditional": "the mouth of the lion",
+    "note": "The phrase echoes Psalm 22:21 and the story of Daniel, and most interpreters take it as a figure for extreme danger, not a literal sentence to the arena. Suggestions that the lion is the emperor, or Satan, go back to early readers but cannot be confirmed."
+   },
+   {
+    "verse": 21,
+    "phrase": "brothers and sisters",
+    "lemma": "ἀδελφός",
+    "kind": "departure",
+    "traditional": "brethren / brothers",
+    "note": "The Greek plural was the ordinary way to refer to a mixed group of men and women, here the fellow believers with Paul, among whom a woman, Claudia, has just been named. ‘Brothers’ alone would suggest to a modern reader that only men are meant. Many recent translations render it the same way."
+   },
+   {
+    "verse": 22,
+    "phrase": "you all",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "Grace be with you",
+    "note": "In the first sentence ‘your’ is singular, addressed to Timothy; in the second ‘you’ is plural. The closing blessing therefore reaches beyond Timothy to the community with him, which suggests the letter was expected to be heard by others."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "διακονία",
+    "rendering": "service",
+    "verse": 5,
+    "reason": "Recurs across Acts and the letters, where ‘ministry’ and ‘service’ give modern readers quite different impressions and the related διάκονος and διακονέω need to match."
+   },
+   {
+    "lemma": "ἀδελφός",
+    "rendering": "brothers and sisters",
+    "verse": 21,
+    "reason": "The plural for mixed groups of believers occurs throughout the letters and Acts, and translators split between ‘brothers’ and ‘brothers and sisters’."
+   },
+   {
+    "lemma": "αἰών",
+    "rendering": "age (v. 10); forever and ever (v. 18, doxology formula)",
+    "verse": 10,
+    "reason": "‘Age’ versus ‘world’, and the handling of the ‘ages of ages’ formula, should be settled once so the link between the two uses is treated consistently."
+   },
+   {
+    "lemma": "στέφανος",
+    "rendering": "crown",
+    "verse": 8,
+    "reason": "The victor's wreath recurs in Paul, James, 1 Peter and Revelation; ‘crown’ suggests royalty while ‘wreath’ has its own misleading modern associations."
+   },
+   {
+    "lemma": "παρακαλέω",
+    "rendering": "encourage",
+    "verse": 2,
+    "reason": "Very frequent across the New Testament with a range covering urge, appeal, encourage and comfort, so translations vary widely and need a governing rule."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

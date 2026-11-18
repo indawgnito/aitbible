@@ -1,0 +1,531 @@
+{
+ "id": "mark-011",
+ "book": "mark",
+ "chapter": 11,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZi9DxJ1HuJqKLWb3",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 7987,
+  "output_tokens": 13070
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"As they approached Jerusalem, at Bethphage and Bethany near the Mount of Olives, he sent two of his disciples\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Go into the village ahead of you, and immediately as you enter it you will find a colt tied up, on which no one has ever sat. Untie it and bring it.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And if anyone says to you, ‘Why are you doing this?’ say, ‘The Lord needs it and will send it back here immediately.’”\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They went off and found a colt tied at a door, outside on the street, and they untied it.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Some of those standing there said to them,\"},{\"speaker\":\"other\",\"text\":\"“What are you doing, untying the colt?”\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They answered them just as Jesus had said, and they let them go.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They brought the colt to Jesus and threw their cloaks over it, and he sat on it.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Many spread their cloaks on the road, and others spread leafy branches they had cut from the fields.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Those who went ahead and those who followed were shouting,\"},{\"speaker\":\"other\",\"text\":\"“Hosanna! Blessed is the one who comes in the name of the Lord!\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Blessed is the coming kingdom of our father David! Hosanna in the highest!”\"}]},{\"verse\":11,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He entered Jerusalem and went into the temple. After looking around at everything, since the hour was already late, he went out to Bethany with the Twelve.\"}]},{\"verse\":12,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The next day, as they were leaving Bethany, he was hungry.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Seeing from a distance a fig tree in leaf, he went to see whether he might find anything on it. When he came to it he found nothing but leaves, for it was not the season for figs.\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He said to it,\"},{\"speaker\":\"Jesus\",\"text\":\"“May no one ever eat fruit from you again!”\"},{\"speaker\":\"narrator\",\"text\":\"And his disciples were listening.\"}]},{\"verse\":15,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They came to Jerusalem. Entering the temple, he began to drive out those who were selling and those who were buying in the temple, and he overturned the tables of the money changers and the seats of those selling doves,\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and he would not allow anyone to carry anything through the temple.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He was teaching and saying to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Is it not written, ‘My house will be called a house of prayer for all the nations’? But you have made it a den of bandits.”\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The chief priests and the scribes heard this and began looking for a way to destroy him; for they were afraid of him, because the whole crowd was astounded at his teaching.\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When evening came, they went out of the city.\"}]},{\"verse\":20,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"As they passed by in the morning, they saw the fig tree withered from the roots.\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Peter remembered and said to him,\"},{\"speaker\":\"other\",\"text\":\"“Rabbi, look! The fig tree you cursed has withered.”\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus answered them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Have faith in God.\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Truly I tell you, whoever says to this mountain, ‘Be lifted up and thrown into the sea,’ and does not doubt in their heart but believes that what they say is happening, it will be so for them.\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For this reason I tell you, everything you pray and ask for, believe that you have received it, and it will be so for you.\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And whenever you stand praying, forgive, if you have anything against anyone, so that your Father in the heavens may also forgive you your offenses.”\"}]},{\"verse\":27,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They came again to Jerusalem. As he was walking in the temple, the chief priests, the scribes and the elders came to him\"}]},{\"verse\":28,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and said to him,\"},{\"speaker\":\"other\",\"text\":\"“By what authority are you doing these things? Or who gave you this authority to do these things?”\"}]},{\"verse\":29,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“I will ask you one question. Answer me, and I will tell you by what authority I do these things.\"}]},{\"verse\":30,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"The baptism of John—was it from heaven or from human beings? Answer me.”\"}]},{\"verse\":31,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They discussed it among themselves, saying,\"},{\"speaker\":\"other\",\"text\":\"“What should we say? If we say, ‘From heaven,’ he will say, ‘Then why did you not believe him?’\"}]},{\"verse\":32,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"But should we say, ‘From human beings’?”\"},{\"speaker\":\"narrator\",\"text\":\"They were afraid of the crowd, for everyone held that John really was a prophet.\"}]},{\"verse\":33,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So they answered Jesus,\"},{\"speaker\":\"other\",\"text\":\"“We do not know.”\"},{\"speaker\":\"narrator\",\"text\":\"And Jesus said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Then neither am I telling you by what authority I do these things.”\"}]}],\"notes\":[{\"verse\":3,\"phrase\":\"The Lord needs it\",\"lemma\":\"κύριος\",\"kind\":\"ambiguity\",\"traditional\":\"The Lord has need of it\",\"note\":\"The Greek word means 'lord', 'master' or 'owner', so the phrase could also be heard as 'the master needs it' or even 'its owner needs it'. Most translations take it as Jesus referring to himself. The rest of the sentence is read here as part of the message, a promise to return the colt promptly; it could also be Jesus's prediction that the person will send the colt at once.\"},{\"verse\":9,\"phrase\":\"Hosanna\",\"lemma\":\"ὡσαννά\",\"kind\":\"background\",\"traditional\":\"Hosanna\",\"note\":\"Mark leaves this Hebrew or Aramaic word untranslated in his Greek. It comes from the plea 'Save, please!' in Psalm 118:25, and the next line of the crowd's shout quotes Psalm 118:26, a psalm sung at the pilgrim festivals. By this period the word seems to have been used as a shout of acclamation as much as a prayer.\"},{\"verse\":13,\"phrase\":\"for it was not the season for figs\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"for it was not the season for figs\",\"note\":\"Around Passover a fig tree in leaf would not yet have ripe figs, as Mark himself points out. Most interpreters therefore read the episode as an acted sign rather than an outburst of frustration. Mark wraps the fig tree story around the action in the temple, so that each interprets the other.\"},{\"verse\":15,\"phrase\":\"temple\",\"lemma\":\"ἱερόν\",\"kind\":\"background\",\"traditional\":\"temple\",\"note\":\"The Greek word here refers to the whole temple complex with its courts, not the sanctuary building itself. The trading took place in the large outer court. Money changers exchanged pilgrims' currency for the coinage accepted for temple dues, and doves were the sacrifice offered by those who could not afford a larger animal.\"},{\"verse\":17,\"phrase\":\"for all the nations\",\"lemma\":\"ἔθνος\",\"kind\":\"background\",\"traditional\":\"for all nations\",\"note\":\"The quotation is from Isaiah 56:7. The Greek word translated 'nations' here is the same word rendered 'Gentiles' elsewhere in this translation; in the plural it means the non-Jewish peoples. The outer court was the one part of the temple that non-Jews could enter.\"},{\"verse\":17,\"phrase\":\"a den of bandits\",\"lemma\":\"λῃστής\",\"kind\":\"departure\",\"traditional\":\"a den of robbers (or thieves)\",\"note\":\"The phrase comes from Jeremiah 7:11. The Greek word means a violent brigand or outlaw, not a cheat or petty thief; it is the same word used later for the men crucified with Jesus. In Jeremiah the image is of a hideout where bandits retreat to feel safe after their crimes, so the charge is probably not only about dishonest trading. Most translations keep 'robbers'.\"},{\"verse\":19,\"phrase\":\"When evening came\",\"lemma\":\"ὅταν\",\"kind\":\"ambiguity\",\"traditional\":\"When evening came\",\"note\":\"The Greek construction can describe a single occasion or a repeated one: 'whenever evening came, they would go out of the city', meaning each night of that week. Translations are divided. Some manuscripts also read 'he went out' rather than 'they went out'.\"},{\"verse\":25,\"phrase\":\"in the heavens\",\"lemma\":\"οὐρανός\",\"kind\":\"departure\",\"traditional\":\"your Father in heaven\",\"note\":\"The Greek is plural here, a Semitic turn of phrase reflecting Hebrew and Aramaic usage, and this translation keeps it. Most English versions flatten it to 'heaven'. Where the Greek is singular, as in verses 30 and 31, 'heaven' is used.\"},{\"verse\":25,\"phrase\":\"offenses\",\"lemma\":\"παράπτωμα\",\"kind\":\"departure\",\"traditional\":\"trespasses\",\"note\":\"The traditional 'trespasses' now suggests entering someone's property without permission. The Greek word means a false step or wrong done against someone, which fits the context of having something against another person. Some modern versions use 'sins', but that is the usual rendering of a different Greek word.\"},{\"verse\":25,\"phrase\":\"may also forgive you your offenses\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"\",\"note\":\"Many later manuscripts add a verse 26: 'But if you do not forgive, neither will your Father in heaven forgive your trespasses.' It is absent from the earliest manuscripts and was probably added under the influence of Matthew 6:15. The edition translated here omits it, which is why the numbering passes from 25 to 27.\"},{\"verse\":30,\"phrase\":\"from heaven\",\"lemma\":\"οὐρανός\",\"kind\":\"background\",\"traditional\":\"from heaven\",\"note\":\"'Heaven' here is a reverent Jewish way of saying 'God' without naming him. The question is whether John's baptism was authorised by God or was merely a human undertaking.\"},{\"verse\":31,\"phrase\":\"What should we say?\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"\",\"note\":\"These words are missing from many manuscripts and from several critical editions and translations, which begin the deliberation with 'If we say'. The edition translated here includes them. The sense of the passage is not affected.\"}],\"candidates\":[{\"lemma\":\"ἱερόν\",\"rendering\":\"temple\",\"verse\":11,\"reason\":\"It denotes the whole temple precinct and needs to be kept consistently distinct from ναός, the sanctuary building, across the Gospels and Acts.\"},{\"lemma\":\"λῃστής\",\"rendering\":\"bandit\",\"verse\":17,\"reason\":\"It recurs in the arrest, Barabbas, crucifixion and Good Samaritan passages, where 'robber', 'thief', 'bandit' and 'rebel' compete and readers lose the link if the English varies.\"},{\"lemma\":\"γραμματεύς\",\"rendering\":\"scribe\",\"verse\":18,\"reason\":\"'Scribe' suggests a copyist to modern readers, whereas the word denotes a trained expert in the Law; one decision is needed for its many occurrences in the Gospels and Acts.\"},{\"lemma\":\"παράπτωμα\",\"rendering\":\"offense\",\"verse\":25,\"reason\":\"It recurs in Matthew 6, Romans 5, Ephesians and elsewhere, and translators vary between 'trespass', 'transgression', 'sin' and 'offense'; it should stay distinct from ἁμαρτία.\"},{\"lemma\":\"ἀμήν\",\"rendering\":\"truly\",\"verse\":23,\"reason\":\"The formula 'Amen, I say to you' occurs dozens of times across all four Gospels and is rendered 'truly', 'amen', 'verily' or 'I assure you'; it needs one form throughout.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "As they approached Jerusalem, at Bethphage and Bethany near the Mount of Olives, he sent two of his disciples"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Go into the village ahead of you, and immediately as you enter it you will find a colt tied up, on which no one has ever sat. Untie it and bring it."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And if anyone says to you, ‘Why are you doing this?’ say, ‘The Lord needs it and will send it back here immediately.’”"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They went off and found a colt tied at a door, outside on the street, and they untied it."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Some of those standing there said to them,"
+     },
+     {
+      "speaker": "other",
+      "text": "“What are you doing, untying the colt?”"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They answered them just as Jesus had said, and they let them go."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They brought the colt to Jesus and threw their cloaks over it, and he sat on it."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Many spread their cloaks on the road, and others spread leafy branches they had cut from the fields."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Those who went ahead and those who followed were shouting,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Hosanna! Blessed is the one who comes in the name of the Lord!"
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Blessed is the coming kingdom of our father David! Hosanna in the highest!”"
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He entered Jerusalem and went into the temple. After looking around at everything, since the hour was already late, he went out to Bethany with the Twelve."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The next day, as they were leaving Bethany, he was hungry."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Seeing from a distance a fig tree in leaf, he went to see whether he might find anything on it. When he came to it he found nothing but leaves, for it was not the season for figs."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He said to it,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“May no one ever eat fruit from you again!”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "And his disciples were listening."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They came to Jerusalem. Entering the temple, he began to drive out those who were selling and those who were buying in the temple, and he overturned the tables of the money changers and the seats of those selling doves,"
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and he would not allow anyone to carry anything through the temple."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He was teaching and saying to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Is it not written, ‘My house will be called a house of prayer for all the nations’? But you have made it a den of bandits.”"
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The chief priests and the scribes heard this and began looking for a way to destroy him; for they were afraid of him, because the whole crowd was astounded at his teaching."
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When evening came, they went out of the city."
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "As they passed by in the morning, they saw the fig tree withered from the roots."
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Peter remembered and said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Rabbi, look! The fig tree you cursed has withered.”"
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus answered them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Have faith in God."
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Truly I tell you, whoever says to this mountain, ‘Be lifted up and thrown into the sea,’ and does not doubt in their heart but believes that what they say is happening, it will be so for them."
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For this reason I tell you, everything you pray and ask for, believe that you have received it, and it will be so for you."
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And whenever you stand praying, forgive, if you have anything against anyone, so that your Father in the heavens may also forgive you your offenses.”"
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They came again to Jerusalem. As he was walking in the temple, the chief priests, the scribes and the elders came to him"
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“By what authority are you doing these things? Or who gave you this authority to do these things?”"
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“I will ask you one question. Answer me, and I will tell you by what authority I do these things."
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "The baptism of John—was it from heaven or from human beings? Answer me.”"
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They discussed it among themselves, saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“What should we say? If we say, ‘From heaven,’ he will say, ‘Then why did you not believe him?’"
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "But should we say, ‘From human beings’?”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "They were afraid of the crowd, for everyone held that John really was a prophet."
+     }
+    ]
+   },
+   {
+    "verse": 33,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So they answered Jesus,"
+     },
+     {
+      "speaker": "other",
+      "text": "“We do not know.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "And Jesus said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Then neither am I telling you by what authority I do these things.”"
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 3,
+    "phrase": "The Lord needs it",
+    "lemma": "κύριος",
+    "kind": "ambiguity",
+    "traditional": "The Lord has need of it",
+    "note": "The Greek word means 'lord', 'master' or 'owner', so the phrase could also be heard as 'the master needs it' or even 'its owner needs it'. Most translations take it as Jesus referring to himself. The rest of the sentence is read here as part of the message, a promise to return the colt promptly; it could also be Jesus's prediction that the person will send the colt at once."
+   },
+   {
+    "verse": 9,
+    "phrase": "Hosanna",
+    "lemma": "ὡσαννά",
+    "kind": "background",
+    "traditional": "Hosanna",
+    "note": "Mark leaves this Hebrew or Aramaic word untranslated in his Greek. It comes from the plea 'Save, please!' in Psalm 118:25, and the next line of the crowd's shout quotes Psalm 118:26, a psalm sung at the pilgrim festivals. By this period the word seems to have been used as a shout of acclamation as much as a prayer."
+   },
+   {
+    "verse": 13,
+    "phrase": "for it was not the season for figs",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "for it was not the season for figs",
+    "note": "Around Passover a fig tree in leaf would not yet have ripe figs, as Mark himself points out. Most interpreters therefore read the episode as an acted sign rather than an outburst of frustration. Mark wraps the fig tree story around the action in the temple, so that each interprets the other."
+   },
+   {
+    "verse": 15,
+    "phrase": "temple",
+    "lemma": "ἱερόν",
+    "kind": "background",
+    "traditional": "temple",
+    "note": "The Greek word here refers to the whole temple complex with its courts, not the sanctuary building itself. The trading took place in the large outer court. Money changers exchanged pilgrims' currency for the coinage accepted for temple dues, and doves were the sacrifice offered by those who could not afford a larger animal."
+   },
+   {
+    "verse": 17,
+    "phrase": "for all the nations",
+    "lemma": "ἔθνος",
+    "kind": "background",
+    "traditional": "for all nations",
+    "note": "The quotation is from Isaiah 56:7. The Greek word translated 'nations' here is the same word rendered 'Gentiles' elsewhere in this translation; in the plural it means the non-Jewish peoples. The outer court was the one part of the temple that non-Jews could enter."
+   },
+   {
+    "verse": 17,
+    "phrase": "a den of bandits",
+    "lemma": "λῃστής",
+    "kind": "departure",
+    "traditional": "a den of robbers (or thieves)",
+    "note": "The phrase comes from Jeremiah 7:11. The Greek word means a violent brigand or outlaw, not a cheat or petty thief; it is the same word used later for the men crucified with Jesus. In Jeremiah the image is of a hideout where bandits retreat to feel safe after their crimes, so the charge is probably not only about dishonest trading. Most translations keep 'robbers'."
+   },
+   {
+    "verse": 19,
+    "phrase": "When evening came",
+    "lemma": "ὅταν",
+    "kind": "ambiguity",
+    "traditional": "When evening came",
+    "note": "The Greek construction can describe a single occasion or a repeated one: 'whenever evening came, they would go out of the city', meaning each night of that week. Translations are divided. Some manuscripts also read 'he went out' rather than 'they went out'."
+   },
+   {
+    "verse": 25,
+    "phrase": "in the heavens",
+    "lemma": "οὐρανός",
+    "kind": "departure",
+    "traditional": "your Father in heaven",
+    "note": "The Greek is plural here, a Semitic turn of phrase reflecting Hebrew and Aramaic usage, and this translation keeps it. Most English versions flatten it to 'heaven'. Where the Greek is singular, as in verses 30 and 31, 'heaven' is used."
+   },
+   {
+    "verse": 25,
+    "phrase": "offenses",
+    "lemma": "παράπτωμα",
+    "kind": "departure",
+    "traditional": "trespasses",
+    "note": "The traditional 'trespasses' now suggests entering someone's property without permission. The Greek word means a false step or wrong done against someone, which fits the context of having something against another person. Some modern versions use 'sins', but that is the usual rendering of a different Greek word."
+   },
+   {
+    "verse": 25,
+    "phrase": "may also forgive you your offenses",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "",
+    "note": "Many later manuscripts add a verse 26: 'But if you do not forgive, neither will your Father in heaven forgive your trespasses.' It is absent from the earliest manuscripts and was probably added under the influence of Matthew 6:15. The edition translated here omits it, which is why the numbering passes from 25 to 27."
+   },
+   {
+    "verse": 30,
+    "phrase": "from heaven",
+    "lemma": "οὐρανός",
+    "kind": "background",
+    "traditional": "from heaven",
+    "note": "'Heaven' here is a reverent Jewish way of saying 'God' without naming him. The question is whether John's baptism was authorised by God or was merely a human undertaking."
+   },
+   {
+    "verse": 31,
+    "phrase": "What should we say?",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "",
+    "note": "These words are missing from many manuscripts and from several critical editions and translations, which begin the deliberation with 'If we say'. The edition translated here includes them. The sense of the passage is not affected."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "ἱερόν",
+    "rendering": "temple",
+    "verse": 11,
+    "reason": "It denotes the whole temple precinct and needs to be kept consistently distinct from ναός, the sanctuary building, across the Gospels and Acts."
+   },
+   {
+    "lemma": "λῃστής",
+    "rendering": "bandit",
+    "verse": 17,
+    "reason": "It recurs in the arrest, Barabbas, crucifixion and Good Samaritan passages, where 'robber', 'thief', 'bandit' and 'rebel' compete and readers lose the link if the English varies."
+   },
+   {
+    "lemma": "γραμματεύς",
+    "rendering": "scribe",
+    "verse": 18,
+    "reason": "'Scribe' suggests a copyist to modern readers, whereas the word denotes a trained expert in the Law; one decision is needed for its many occurrences in the Gospels and Acts."
+   },
+   {
+    "lemma": "παράπτωμα",
+    "rendering": "offense",
+    "verse": 25,
+    "reason": "It recurs in Matthew 6, Romans 5, Ephesians and elsewhere, and translators vary between 'trespass', 'transgression', 'sin' and 'offense'; it should stay distinct from ἁμαρτία."
+   },
+   {
+    "lemma": "ἀμήν",
+    "rendering": "truly",
+    "verse": 23,
+    "reason": "The formula 'Amen, I say to you' occurs dozens of times across all four Gospels and is rendered 'truly', 'amen', 'verily' or 'I assure you'; it needs one form throughout."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

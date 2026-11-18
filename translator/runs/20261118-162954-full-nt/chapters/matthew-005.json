@@ -1,0 +1,655 @@
+{
+ "id": "matthew-005",
+ "book": "matthew",
+ "chapter": 5,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZiP8rznxry3aefGY",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 9922,
+  "output_tokens": 20996
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When he saw the crowds, he went up the mountain, and after he had sat down his disciples came to him.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then he opened his mouth and began to teach them, saying:\"}]},{\"verse\":3,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"“Blessed are the poor in spirit, for theirs is the kingdom of the heavens.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Blessed are those who mourn, for they will be comforted.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Blessed are the gentle, for they will inherit the earth.\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Blessed are those who hunger and thirst for righteousness, for they will be satisfied.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Blessed are the merciful, for they will be shown mercy.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Blessed are the pure in heart, for they will see God.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Blessed are the peacemakers, for they will be called sons of God.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Blessed are those who have been persecuted for the sake of righteousness, for theirs is the kingdom of the heavens.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Blessed are you when people insult you and persecute you and falsely say every kind of evil against you on my account.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Rejoice and be glad, for your reward is great in the heavens; for that is how they persecuted the prophets who were before you.\"}]},{\"verse\":13,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"“You are the salt of the earth. But if the salt loses its taste, what will make it salty again? It is no longer good for anything except to be thrown out and trampled underfoot by people.\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"You are the light of the world. A city set on a mountain cannot be hidden.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Nor do people light a lamp and put it under a basket; they put it on the lampstand, and it gives light to everyone in the house.\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"In the same way, let your light shine before people, so that they may see your good works and give glory to your Father in the heavens.\"}]},{\"verse\":17,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"“Do not think that I came to abolish the Law or the Prophets. I did not come to abolish but to fulfill.\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For truly I tell you, until heaven and earth pass away, not one iota or one stroke of a letter will pass away from the Law until everything has taken place.\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"So whoever sets aside one of the least of these commandments and teaches people to do the same will be called least in the kingdom of the heavens; but whoever does them and teaches them will be called great in the kingdom of the heavens.\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For I tell you that unless your righteousness goes far beyond that of the scribes and Pharisees, you will never enter the kingdom of the heavens.\"}]},{\"verse\":21,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"“You have heard that it was said to the people of long ago, ‘You shall not murder; and whoever murders will be liable to judgment.’\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But I tell you that everyone who is angry with his brother will be liable to judgment; whoever says to his brother, ‘Raka,’ will be liable to the council; and whoever says, ‘Fool!’ will be liable to the Gehenna of fire.\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"So if you are offering your gift at the altar and there remember that your brother has something against you,\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"leave your gift there in front of the altar and first go and be reconciled to your brother; then come and offer your gift.\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Come to terms quickly with your accuser while you are with him on the way, or your accuser may hand you over to the judge, and the judge to the officer, and you will be thrown into prison.\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Truly I tell you, you will never get out of there until you have paid back the last penny.\"}]},{\"verse\":27,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"“You have heard that it was said, ‘You shall not commit adultery.’\"}]},{\"verse\":28,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But I tell you that everyone who looks at a woman in order to desire her has already committed adultery with her in his heart.\"}]},{\"verse\":29,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"If your right eye causes you to stumble, tear it out and throw it away from you; for it is better for you that one part of your body be lost than that your whole body be thrown into Gehenna.\"}]},{\"verse\":30,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And if your right hand causes you to stumble, cut it off and throw it away from you; for it is better for you that one part of your body be lost than that your whole body go off into Gehenna.\"}]},{\"verse\":31,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"“It was also said, ‘Whoever divorces his wife must give her a certificate of divorce.’\"}]},{\"verse\":32,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But I tell you that everyone who divorces his wife, except on the ground of sexual immorality, makes her commit adultery, and whoever marries a divorced woman commits adultery.\"}]},{\"verse\":33,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"“Again, you have heard that it was said to the people of long ago, ‘You shall not swear falsely, but shall keep your oaths to the Lord.’\"}]},{\"verse\":34,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But I tell you not to swear at all: neither by heaven, for it is God’s throne;\"}]},{\"verse\":35,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"nor by the earth, for it is the footstool of his feet; nor by Jerusalem, for it is the city of the great King;\"}]},{\"verse\":36,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"nor shall you swear by your head, for you cannot make a single hair white or black.\"}]},{\"verse\":37,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Let your word be ‘Yes, yes’ or ‘No, no’; anything beyond these is from the evil one.\"}]},{\"verse\":38,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"“You have heard that it was said, ‘An eye for an eye and a tooth for a tooth.’\"}]},{\"verse\":39,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But I tell you not to resist the evil person. Instead, whoever slaps you on the right cheek, turn the other to him as well;\"}]},{\"verse\":40,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"and if anyone wants to sue you and take your tunic, let him have your cloak as well;\"}]},{\"verse\":41,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"and whoever forces you into service for one mile, go with him two.\"}]},{\"verse\":42,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Give to the one who asks you, and do not turn away from the one who wants to borrow from you.\"}]},{\"verse\":43,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"“You have heard that it was said, ‘You shall love your neighbor and hate your enemy.’\"}]},{\"verse\":44,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But I tell you, love your enemies and pray for those who persecute you,\"}]},{\"verse\":45,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"so that you may become sons of your Father in the heavens; for he makes his sun rise on the evil and the good, and sends rain on the righteous and the unrighteous.\"}]},{\"verse\":46,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For if you love those who love you, what reward do you have? Do not even the tax collectors do the same?\"}]},{\"verse\":47,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And if you greet only your brothers, what more are you doing than anyone else? Do not even the Gentiles do the same?\"}]},{\"verse\":48,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"So you shall be perfect, as your heavenly Father is perfect.\"}]}],\"notes\":[{\"verse\":3,\"phrase\":\"the kingdom of the heavens\",\"lemma\":\"οὐρανός\",\"kind\":\"departure\",\"traditional\":\"the kingdom of heaven\",\"note\":\"The Greek is plural, following Hebrew and Aramaic idiom, in which the word for heaven is always plural. Most English versions flatten it to 'heaven'; this translation keeps the plural wherever the Greek has it and God's dwelling is meant. 'Kingdom of the heavens' is Matthew's characteristic expression for what the other Gospels call the kingdom of God.\"},{\"verse\":5,\"phrase\":\"gentle\",\"lemma\":\"πραΰς\",\"kind\":\"departure\",\"traditional\":\"meek\",\"note\":\"'Meek' now suggests weakness, which the Greek does not; 'gentle' or 'humble' is the mainstream modern rendering. The line echoes Psalm 37:11 (Septuagint 36:11), where the word renders the Hebrew for the humble poor and what they inherit is the land. The Greek word translated 'earth' here can mean either 'land' or 'earth'.\"},{\"verse\":6,\"phrase\":\"righteousness\",\"lemma\":\"δικαιοσύνη\",\"kind\":\"background\",\"traditional\":\"righteousness\",\"note\":\"Greek has one word-family where English has two: 'righteous' and 'just', 'righteousness' and 'justice' all translate the same root. 'Righteousness' is the mainstream English rendering and is kept, though translations into most other languages use their word for justice and some scholars prefer it in English. In Matthew the word chiefly means conduct that is right in God's eyes; some take the hunger here to be for God to set things right.\"},{\"verse\":9,\"phrase\":\"sons of God\",\"lemma\":\"υἱός\",\"kind\":\"departure\",\"traditional\":\"children of God (KJV, NRSV, NIV); sons of God (ESV, NASB)\",\"note\":\"The Greek says 'sons', and many versions render 'children' because women are plainly included. 'Sons' is kept here and in verse 45 because in Semitic idiom a 'son of' someone is one who shares that person's character, which is the point of both verses: those who make peace and love enemies resemble their Father.\"},{\"verse\":14,\"phrase\":\"mountain\",\"lemma\":\"ὄρος\",\"kind\":\"departure\",\"traditional\":\"a city set on a hill\",\"note\":\"The Greek word is the same one translated 'mountain' in verse 1 and covers any height from a hill upward. English versions traditionally say 'hill' here. The rendering is kept uniform so the reader can see that it is one word.\"},{\"verse\":22,\"phrase\":\"angry with his brother\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"angry with his brother without a cause\",\"note\":\"Many later manuscripts add 'without cause' after 'brother', and the King James Version follows them. The earliest witnesses lack the word, and most editors judge it a scribal softening of an unqualified statement.\"},{\"verse\":22,\"phrase\":\"Raka\",\"lemma\":\"ῥακά\",\"kind\":\"background\",\"traditional\":\"Raca\",\"note\":\"Matthew leaves this term of abuse untranslated; it is usually explained as Aramaic for 'empty one', roughly 'blockhead' or 'good-for-nothing'. The 'council' is the Sanhedrin, a judicial body. The three penalties rise steeply while the offences scarcely differ; whether the escalation is literal or deliberately ironic is disputed.\"},{\"verse\":22,\"phrase\":\"Gehenna\",\"lemma\":\"γέεννα\",\"kind\":\"departure\",\"traditional\":\"hell (hell fire; the hell of fire)\",\"note\":\"Gehenna is a place name: the Valley of Hinnom beside Jerusalem, associated in the Hebrew Scriptures with child sacrifice and by the first century a name for the place of final fiery judgment. Many translations render it 'hell', usually with a footnote. The name is kept here because 'hell' merges it with Hades and with later imagery.\"},{\"verse\":28,\"phrase\":\"in order to desire her\",\"lemma\":\"ἐπιθυμέω\",\"kind\":\"ambiguity\",\"traditional\":\"looks at a woman lustfully; looks on a woman to lust after her\",\"note\":\"The Greek construction normally expresses purpose: looking with the aim of desiring. The verb is the one the Septuagint uses in the commandment 'You shall not covet your neighbor's wife', and the word for 'woman' also means 'wife', so some read 'looks at another man's wife in order to covet her'. The traditional 'lustfully' is not wrong but hides the echo of the commandment.\"},{\"verse\":32,\"phrase\":\"sexual immorality\",\"lemma\":\"πορνεία\",\"kind\":\"ambiguity\",\"traditional\":\"fornication; unchastity; sexual immorality\",\"note\":\"The Greek word is a broad term for unlawful sexual activity. Here it is most often taken to mean adultery or other sexual infidelity by the wife; others have argued for premarital unchastity discovered after the wedding, or for marriages within forbidden degrees of kinship. The exception clause appears only in Matthew (here and 19:9), and its scope remains disputed.\"},{\"verse\":39,\"phrase\":\"the evil person\",\"lemma\":\"πονηρός\",\"kind\":\"ambiguity\",\"traditional\":\"resist not evil; do not resist an evil person\",\"note\":\"The Greek form can be masculine ('the evil person') or neuter ('evil' in the abstract); the examples that follow, all about individuals who wrong you, favour the personal sense. The same form in verse 37 is taken as 'the evil one', the devil, though 'from evil' is possible there. The verb 'resist' can also mean to oppose in court or to retaliate with force, and some take the command in that narrower sense.\"},{\"verse\":41,\"phrase\":\"forces you into service\",\"lemma\":\"ἀγγαρεύω\",\"kind\":\"background\",\"traditional\":\"compel thee to go a mile; forces you to go one mile\",\"note\":\"The verb is a technical term for compulsory requisition of labour or transport by officials or soldiers. It is the word used when Simon of Cyrene is made to carry the cross (27:32). A hearer in Roman-ruled territory would think of a soldier commandeering a passer-by to carry his pack.\"},{\"verse\":43,\"phrase\":\"hate your enemy\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"'Love your neighbor' is Leviticus 19:18. 'Hate your enemy' is not found in the Jewish Scriptures; it appears to summarise a popular inference or a teaching current in some circles. Comparable language about hating the 'sons of darkness' occurs in the Community Rule among the Dead Sea Scrolls.\"},{\"verse\":44,\"phrase\":\"love your enemies and pray for those who persecute you\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"love your enemies, bless them that curse you, do good to them that hate you, and pray for them which despitefully use you, and persecute you\",\"note\":\"Later manuscripts, followed by the King James Version, have a longer form of this verse. The extra clauses are generally judged to have been imported from the parallel in Luke 6:27–28; the earliest witnesses have the short form translated here.\"},{\"verse\":48,\"phrase\":\"perfect\",\"lemma\":\"τέλειος\",\"kind\":\"ambiguity\",\"traditional\":\"perfect\",\"note\":\"The Greek word means complete, whole or mature, having reached its goal, rather than flawless. In context it points to a love that is whole and undivided, extended to enemies as well as friends, as the Father's is; the Septuagint uses the word for wholehearted devotion to God (Deuteronomy 18:13). 'Perfect' is kept as the traditional rendering, but 'complete' or 'whole' is defensible.\"}],\"candidates\":[{\"lemma\":\"σκανδαλίζω\",\"rendering\":\"causes you to stumble\",\"verse\":29,\"reason\":\"Recurs across the Gospels and Paul, and versions vary between 'offend', 'cause to sin', 'cause to stumble' and 'fall away', which hides one metaphor from the reader.\"},{\"lemma\":\"πορνεία\",\"rendering\":\"sexual immorality\",\"verse\":32,\"reason\":\"A broad term rendered variously as 'fornication', 'unchastity', 'sexual immorality' or 'prostitution'; the choice affects the divorce sayings, Acts 15 and Paul and should be made once.\"},{\"lemma\":\"ἀδελφός\",\"rendering\":\"brother\",\"verse\":22,\"reason\":\"Needs a single policy on 'brother' versus 'brother or sister' / 'brothers and sisters' where community members of both sexes are meant.\"},{\"lemma\":\"ἀμήν\",\"rendering\":\"truly\",\"verse\":18,\"reason\":\"Jesus' formula 'Amen, I say to you' occurs dozens of times across the Gospels and is rendered 'truly', 'verily', 'amen' or 'I assure you'; it should be uniform.\"},{\"lemma\":\"υἱός\",\"rendering\":\"sons\",\"verse\":9,\"reason\":\"Plural 'sons of God' and the idiom 'son of X' recur across the New Testament, and translators divide between 'sons' and 'children'; the reader should not see it vary.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When he saw the crowds, he went up the mountain, and after he had sat down his disciples came to him."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then he opened his mouth and began to teach them, saying:"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "“Blessed are the poor in spirit, for theirs is the kingdom of the heavens."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Blessed are those who mourn, for they will be comforted."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Blessed are the gentle, for they will inherit the earth."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Blessed are those who hunger and thirst for righteousness, for they will be satisfied."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Blessed are the merciful, for they will be shown mercy."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Blessed are the pure in heart, for they will see God."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Blessed are the peacemakers, for they will be called sons of God."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Blessed are those who have been persecuted for the sake of righteousness, for theirs is the kingdom of the heavens."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Blessed are you when people insult you and persecute you and falsely say every kind of evil against you on my account."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Rejoice and be glad, for your reward is great in the heavens; for that is how they persecuted the prophets who were before you."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "“You are the salt of the earth. But if the salt loses its taste, what will make it salty again? It is no longer good for anything except to be thrown out and trampled underfoot by people."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "You are the light of the world. A city set on a mountain cannot be hidden."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Nor do people light a lamp and put it under a basket; they put it on the lampstand, and it gives light to everyone in the house."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "In the same way, let your light shine before people, so that they may see your good works and give glory to your Father in the heavens."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "“Do not think that I came to abolish the Law or the Prophets. I did not come to abolish but to fulfill."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For truly I tell you, until heaven and earth pass away, not one iota or one stroke of a letter will pass away from the Law until everything has taken place."
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "So whoever sets aside one of the least of these commandments and teaches people to do the same will be called least in the kingdom of the heavens; but whoever does them and teaches them will be called great in the kingdom of the heavens."
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For I tell you that unless your righteousness goes far beyond that of the scribes and Pharisees, you will never enter the kingdom of the heavens."
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "“You have heard that it was said to the people of long ago, ‘You shall not murder; and whoever murders will be liable to judgment.’"
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But I tell you that everyone who is angry with his brother will be liable to judgment; whoever says to his brother, ‘Raka,’ will be liable to the council; and whoever says, ‘Fool!’ will be liable to the Gehenna of fire."
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "So if you are offering your gift at the altar and there remember that your brother has something against you,"
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "leave your gift there in front of the altar and first go and be reconciled to your brother; then come and offer your gift."
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Come to terms quickly with your accuser while you are with him on the way, or your accuser may hand you over to the judge, and the judge to the officer, and you will be thrown into prison."
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Truly I tell you, you will never get out of there until you have paid back the last penny."
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "“You have heard that it was said, ‘You shall not commit adultery.’"
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But I tell you that everyone who looks at a woman in order to desire her has already committed adultery with her in his heart."
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "If your right eye causes you to stumble, tear it out and throw it away from you; for it is better for you that one part of your body be lost than that your whole body be thrown into Gehenna."
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And if your right hand causes you to stumble, cut it off and throw it away from you; for it is better for you that one part of your body be lost than that your whole body go off into Gehenna."
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "“It was also said, ‘Whoever divorces his wife must give her a certificate of divorce.’"
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But I tell you that everyone who divorces his wife, except on the ground of sexual immorality, makes her commit adultery, and whoever marries a divorced woman commits adultery."
+     }
+    ]
+   },
+   {
+    "verse": 33,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "“Again, you have heard that it was said to the people of long ago, ‘You shall not swear falsely, but shall keep your oaths to the Lord.’"
+     }
+    ]
+   },
+   {
+    "verse": 34,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But I tell you not to swear at all: neither by heaven, for it is God’s throne;"
+     }
+    ]
+   },
+   {
+    "verse": 35,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "nor by the earth, for it is the footstool of his feet; nor by Jerusalem, for it is the city of the great King;"
+     }
+    ]
+   },
+   {
+    "verse": 36,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "nor shall you swear by your head, for you cannot make a single hair white or black."
+     }
+    ]
+   },
+   {
+    "verse": 37,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Let your word be ‘Yes, yes’ or ‘No, no’; anything beyond these is from the evil one."
+     }
+    ]
+   },
+   {
+    "verse": 38,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "“You have heard that it was said, ‘An eye for an eye and a tooth for a tooth.’"
+     }
+    ]
+   },
+   {
+    "verse": 39,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But I tell you not to resist the evil person. Instead, whoever slaps you on the right cheek, turn the other to him as well;"
+     }
+    ]
+   },
+   {
+    "verse": 40,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "and if anyone wants to sue you and take your tunic, let him have your cloak as well;"
+     }
+    ]
+   },
+   {
+    "verse": 41,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "and whoever forces you into service for one mile, go with him two."
+     }
+    ]
+   },
+   {
+    "verse": 42,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Give to the one who asks you, and do not turn away from the one who wants to borrow from you."
+     }
+    ]
+   },
+   {
+    "verse": 43,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "“You have heard that it was said, ‘You shall love your neighbor and hate your enemy.’"
+     }
+    ]
+   },
+   {
+    "verse": 44,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But I tell you, love your enemies and pray for those who persecute you,"
+     }
+    ]
+   },
+   {
+    "verse": 45,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "so that you may become sons of your Father in the heavens; for he makes his sun rise on the evil and the good, and sends rain on the righteous and the unrighteous."
+     }
+    ]
+   },
+   {
+    "verse": 46,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For if you love those who love you, what reward do you have? Do not even the tax collectors do the same?"
+     }
+    ]
+   },
+   {
+    "verse": 47,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And if you greet only your brothers, what more are you doing than anyone else? Do not even the Gentiles do the same?"
+     }
+    ]
+   },
+   {
+    "verse": 48,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "So you shall be perfect, as your heavenly Father is perfect."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 3,
+    "phrase": "the kingdom of the heavens",
+    "lemma": "οὐρανός",
+    "kind": "departure",
+    "traditional": "the kingdom of heaven",
+    "note": "The Greek is plural, following Hebrew and Aramaic idiom, in which the word for heaven is always plural. Most English versions flatten it to 'heaven'; this translation keeps the plural wherever the Greek has it and God's dwelling is meant. 'Kingdom of the heavens' is Matthew's characteristic expression for what the other Gospels call the kingdom of God."
+   },
+   {
+    "verse": 5,
+    "phrase": "gentle",
+    "lemma": "πραΰς",
+    "kind": "departure",
+    "traditional": "meek",
+    "note": "'Meek' now suggests weakness, which the Greek does not; 'gentle' or 'humble' is the mainstream modern rendering. The line echoes Psalm 37:11 (Septuagint 36:11), where the word renders the Hebrew for the humble poor and what they inherit is the land. The Greek word translated 'earth' here can mean either 'land' or 'earth'."
+   },
+   {
+    "verse": 6,
+    "phrase": "righteousness",
+    "lemma": "δικαιοσύνη",
+    "kind": "background",
+    "traditional": "righteousness",
+    "note": "Greek has one word-family where English has two: 'righteous' and 'just', 'righteousness' and 'justice' all translate the same root. 'Righteousness' is the mainstream English rendering and is kept, though translations into most other languages use their word for justice and some scholars prefer it in English. In Matthew the word chiefly means conduct that is right in God's eyes; some take the hunger here to be for God to set things right."
+   },
+   {
+    "verse": 9,
+    "phrase": "sons of God",
+    "lemma": "υἱός",
+    "kind": "departure",
+    "traditional": "children of God (KJV, NRSV, NIV); sons of God (ESV, NASB)",
+    "note": "The Greek says 'sons', and many versions render 'children' because women are plainly included. 'Sons' is kept here and in verse 45 because in Semitic idiom a 'son of' someone is one who shares that person's character, which is the point of both verses: those who make peace and love enemies resemble their Father."
+   },
+   {
+    "verse": 14,
+    "phrase": "mountain",
+    "lemma": "ὄρος",
+    "kind": "departure",
+    "traditional": "a city set on a hill",
+    "note": "The Greek word is the same one translated 'mountain' in verse 1 and covers any height from a hill upward. English versions traditionally say 'hill' here. The rendering is kept uniform so the reader can see that it is one word."
+   },
+   {
+    "verse": 22,
+    "phrase": "angry with his brother",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "angry with his brother without a cause",
+    "note": "Many later manuscripts add 'without cause' after 'brother', and the King James Version follows them. The earliest witnesses lack the word, and most editors judge it a scribal softening of an unqualified statement."
+   },
+   {
+    "verse": 22,
+    "phrase": "Raka",
+    "lemma": "ῥακά",
+    "kind": "background",
+    "traditional": "Raca",
+    "note": "Matthew leaves this term of abuse untranslated; it is usually explained as Aramaic for 'empty one', roughly 'blockhead' or 'good-for-nothing'. The 'council' is the Sanhedrin, a judicial body. The three penalties rise steeply while the offences scarcely differ; whether the escalation is literal or deliberately ironic is disputed."
+   },
+   {
+    "verse": 22,
+    "phrase": "Gehenna",
+    "lemma": "γέεννα",
+    "kind": "departure",
+    "traditional": "hell (hell fire; the hell of fire)",
+    "note": "Gehenna is a place name: the Valley of Hinnom beside Jerusalem, associated in the Hebrew Scriptures with child sacrifice and by the first century a name for the place of final fiery judgment. Many translations render it 'hell', usually with a footnote. The name is kept here because 'hell' merges it with Hades and with later imagery."
+   },
+   {
+    "verse": 28,
+    "phrase": "in order to desire her",
+    "lemma": "ἐπιθυμέω",
+    "kind": "ambiguity",
+    "traditional": "looks at a woman lustfully; looks on a woman to lust after her",
+    "note": "The Greek construction normally expresses purpose: looking with the aim of desiring. The verb is the one the Septuagint uses in the commandment 'You shall not covet your neighbor's wife', and the word for 'woman' also means 'wife', so some read 'looks at another man's wife in order to covet her'. The traditional 'lustfully' is not wrong but hides the echo of the commandment."
+   },
+   {
+    "verse": 32,
+    "phrase": "sexual immorality",
+    "lemma": "πορνεία",
+    "kind": "ambiguity",
+    "traditional": "fornication; unchastity; sexual immorality",
+    "note": "The Greek word is a broad term for unlawful sexual activity. Here it is most often taken to mean adultery or other sexual infidelity by the wife; others have argued for premarital unchastity discovered after the wedding, or for marriages within forbidden degrees of kinship. The exception clause appears only in Matthew (here and 19:9), and its scope remains disputed."
+   },
+   {
+    "verse": 39,
+    "phrase": "the evil person",
+    "lemma": "πονηρός",
+    "kind": "ambiguity",
+    "traditional": "resist not evil; do not resist an evil person",
+    "note": "The Greek form can be masculine ('the evil person') or neuter ('evil' in the abstract); the examples that follow, all about individuals who wrong you, favour the personal sense. The same form in verse 37 is taken as 'the evil one', the devil, though 'from evil' is possible there. The verb 'resist' can also mean to oppose in court or to retaliate with force, and some take the command in that narrower sense."
+   },
+   {
+    "verse": 41,
+    "phrase": "forces you into service",
+    "lemma": "ἀγγαρεύω",
+    "kind": "background",
+    "traditional": "compel thee to go a mile; forces you to go one mile",
+    "note": "The verb is a technical term for compulsory requisition of labour or transport by officials or soldiers. It is the word used when Simon of Cyrene is made to carry the cross (27:32). A hearer in Roman-ruled territory would think of a soldier commandeering a passer-by to carry his pack."
+   },
+   {
+    "verse": 43,
+    "phrase": "hate your enemy",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "'Love your neighbor' is Leviticus 19:18. 'Hate your enemy' is not found in the Jewish Scriptures; it appears to summarise a popular inference or a teaching current in some circles. Comparable language about hating the 'sons of darkness' occurs in the Community Rule among the Dead Sea Scrolls."
+   },
+   {
+    "verse": 44,
+    "phrase": "love your enemies and pray for those who persecute you",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "love your enemies, bless them that curse you, do good to them that hate you, and pray for them which despitefully use you, and persecute you",
+    "note": "Later manuscripts, followed by the King James Version, have a longer form of this verse. The extra clauses are generally judged to have been imported from the parallel in Luke 6:27–28; the earliest witnesses have the short form translated here."
+   },
+   {
+    "verse": 48,
+    "phrase": "perfect",
+    "lemma": "τέλειος",
+    "kind": "ambiguity",
+    "traditional": "perfect",
+    "note": "The Greek word means complete, whole or mature, having reached its goal, rather than flawless. In context it points to a love that is whole and undivided, extended to enemies as well as friends, as the Father's is; the Septuagint uses the word for wholehearted devotion to God (Deuteronomy 18:13). 'Perfect' is kept as the traditional rendering, but 'complete' or 'whole' is defensible."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "σκανδαλίζω",
+    "rendering": "causes you to stumble",
+    "verse": 29,
+    "reason": "Recurs across the Gospels and Paul, and versions vary between 'offend', 'cause to sin', 'cause to stumble' and 'fall away', which hides one metaphor from the reader."
+   },
+   {
+    "lemma": "πορνεία",
+    "rendering": "sexual immorality",
+    "verse": 32,
+    "reason": "A broad term rendered variously as 'fornication', 'unchastity', 'sexual immorality' or 'prostitution'; the choice affects the divorce sayings, Acts 15 and Paul and should be made once."
+   },
+   {
+    "lemma": "ἀδελφός",
+    "rendering": "brother",
+    "verse": 22,
+    "reason": "Needs a single policy on 'brother' versus 'brother or sister' / 'brothers and sisters' where community members of both sexes are meant."
+   },
+   {
+    "lemma": "ἀμήν",
+    "rendering": "truly",
+    "verse": 18,
+    "reason": "Jesus' formula 'Amen, I say to you' occurs dozens of times across the Gospels and is rendered 'truly', 'verily', 'amen' or 'I assure you'; it should be uniform."
+   },
+   {
+    "lemma": "υἱός",
+    "rendering": "sons",
+    "verse": 9,
+    "reason": "Plural 'sons of God' and the idiom 'son of X' recur across the New Testament, and translators divide between 'sons' and 'children'; the reader should not see it vary."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

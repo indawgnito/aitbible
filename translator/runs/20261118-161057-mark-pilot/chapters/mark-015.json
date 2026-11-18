@@ -1,0 +1,725 @@
+{
+ "id": "mark-015",
+ "book": "mark",
+ "chapter": 15,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBAZgowAJWKmY4iJUFW4",
+ "stop_reason": "end_turn",
+ "batch": false,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 9016,
+  "output_tokens": 13567
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"As soon as it was morning, the chief priests, after consulting with the elders and scribes and the whole council, bound Jesus, led him away, and handed him over to Pilate.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"Pilate asked him,\"},{\"speaker\":\"other\",\"speaker_name\":\"Pilate\",\"text\":\"“Are you the king of the Jews?”\"},{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"He answered him,\"},{\"speaker\":\"Jesus\",\"speaker_name\":\"\",\"text\":\"“You say so.”\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"And the chief priests were accusing him of many things.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"Pilate questioned him again:\"},{\"speaker\":\"other\",\"speaker_name\":\"Pilate\",\"text\":\"“Have you no answer at all? See how many charges they are bringing against you.”\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"But Jesus made no further answer, so that Pilate was amazed.\"}]},{\"verse\":6,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"Now at the festival he used to release to them one prisoner, whichever one they requested.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"The man called Barabbas was in prison with the rebels who had committed murder during the rebellion.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"The crowd came up and began to ask Pilate to do as he usually did for them.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"Pilate answered them,\"},{\"speaker\":\"other\",\"speaker_name\":\"Pilate\",\"text\":\"“Do you want me to release to you the king of the Jews?”\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"For he knew that it was out of envy that the chief priests had handed him over.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"But the chief priests stirred up the crowd to have him release Barabbas to them instead.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"Pilate spoke to them again:\"},{\"speaker\":\"other\",\"speaker_name\":\"Pilate\",\"text\":\"“Then what do you want me to do with the one you call the king of the Jews?”\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"They shouted back,\"},{\"speaker\":\"crowd\",\"speaker_name\":\"\",\"text\":\"“Crucify him!”\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"Pilate said to them,\"},{\"speaker\":\"other\",\"speaker_name\":\"Pilate\",\"text\":\"“Why? What wrong has he done?”\"},{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"But they shouted all the more,\"},{\"speaker\":\"crowd\",\"speaker_name\":\"\",\"text\":\"“Crucify him!”\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"Pilate, wanting to satisfy the crowd, released Barabbas to them, and after having Jesus flogged, he handed him over to be crucified.\"}]},{\"verse\":16,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"The soldiers led him away inside the palace, that is, the governor’s headquarters, and called together the whole cohort.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"They dressed him in purple, and after weaving a crown of thorns they put it on him.\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"And they began to salute him:\"},{\"speaker\":\"crowd\",\"speaker_name\":\"\",\"text\":\"“Hail, king of the Jews!”\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"They kept striking his head with a reed and spitting on him, and going down on their knees they paid him homage.\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"When they had finished mocking him, they stripped him of the purple and put his own clothes on him. Then they led him out to crucify him.\"}]},{\"verse\":21,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"They pressed into service a passer-by, a certain Simon of Cyrene, the father of Alexander and Rufus, who was coming in from the country, to carry his cross.\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"They brought him to the place Golgotha, which translated means Place of the Skull.\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"They tried to give him wine mixed with myrrh, but he did not take it.\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"And they crucified him and divided his clothes among themselves, casting lots for them to decide who would take what.\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"It was the third hour when they crucified him.\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"The inscription stating the charge against him read: “The King of the Jews.”\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"And with him they crucified two bandits, one on his right and one on his left.\"}]},{\"verse\":29,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"Those passing by hurled abuse at him, shaking their heads and saying,\"},{\"speaker\":\"crowd\",\"speaker_name\":\"\",\"text\":\"“Ha! You who would destroy the temple and build it in three days,\"}]},{\"verse\":30,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"crowd\",\"speaker_name\":\"\",\"text\":\"save yourself and come down from the cross!”\"}]},{\"verse\":31,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"In the same way the chief priests too, along with the scribes, were mocking him among themselves and saying,\"},{\"speaker\":\"crowd\",\"speaker_name\":\"\",\"text\":\"“He saved others; himself he cannot save!\"}]},{\"verse\":32,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"crowd\",\"speaker_name\":\"\",\"text\":\"Let the Messiah, the king of Israel, come down now from the cross, so that we may see and believe!”\"},{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"Even those crucified with him were taunting him.\"}]},{\"verse\":33,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"When the sixth hour came, darkness fell over the whole land until the ninth hour.\"}]},{\"verse\":34,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"And at the ninth hour Jesus cried out with a loud voice,\"},{\"speaker\":\"Jesus\",\"speaker_name\":\"\",\"text\":\"“Eloi, Eloi, lema sabachthani?”\"},{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"which translated means,\"},{\"speaker\":\"Jesus\",\"speaker_name\":\"\",\"text\":\"“My God, my God, why have you abandoned me?”\"}]},{\"verse\":35,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"Some of those standing by heard it and said,\"},{\"speaker\":\"crowd\",\"speaker_name\":\"\",\"text\":\"“Look, he is calling Elijah.”\"}]},{\"verse\":36,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"Someone ran, filled a sponge with sour wine, put it on a reed, and gave it to him to drink, saying,\"},{\"speaker\":\"other\",\"speaker_name\":\"a bystander\",\"text\":\"“Wait! Let us see whether Elijah comes to take him down.”\"}]},{\"verse\":37,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"But Jesus let out a loud cry and breathed his last.\"}]},{\"verse\":38,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"And the curtain of the temple was torn in two, from top to bottom.\"}]},{\"verse\":39,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"When the centurion who stood facing him saw that he breathed his last in this way, he said,\"},{\"speaker\":\"other\",\"speaker_name\":\"the centurion\",\"text\":\"“Truly this man was God’s Son!”\"}]},{\"verse\":40,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"There were also women watching from a distance, among them Mary Magdalene, Mary the mother of James the younger and of Joses, and Salome,\"}]},{\"verse\":41,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"who had followed him and served him when he was in Galilee, and many other women who had come up with him to Jerusalem.\"}]},{\"verse\":42,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"When evening had already come, since it was the day of Preparation, that is, the day before the Sabbath,\"}]},{\"verse\":43,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"Joseph of Arimathea came, a respected councillor who was himself also waiting for the kingdom of God. Gathering his courage, he went in to Pilate and asked for the body of Jesus.\"}]},{\"verse\":44,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"Pilate was amazed that he should already be dead, and summoning the centurion, he asked him whether he had been dead for some time.\"}]},{\"verse\":45,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"When he learned it from the centurion, he granted the corpse to Joseph.\"}]},{\"verse\":46,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"Joseph bought a linen cloth, took him down, wrapped him in the cloth, and laid him in a tomb that had been cut out of rock; then he rolled a stone against the entrance of the tomb.\"}]},{\"verse\":47,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"speaker_name\":\"\",\"text\":\"Mary Magdalene and Mary the mother of Joses were watching where he was laid.\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"the whole council\",\"lemma\":\"συνέδριον\",\"kind\":\"background\",\"traditional\":\"the whole council / the whole Sanhedrin\",\"note\":\"The Greek word is synedrion, the source of the name Sanhedrin: the high council in Jerusalem, presided over by the high priest. It could not carry out an execution on its own authority under Roman rule, which is why Jesus is taken to Pilate, the Roman governor of Judea.\"},{\"verse\":2,\"phrase\":\"You say so\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"Thou sayest it / You have said so\",\"note\":\"The reply is literally ‘You are saying [it].’ It neither plainly accepts nor plainly rejects the title. Some interpreters take it as a qualified yes (‘It is as you say’), others as a deflection (‘Those are your words’). The rendering leaves the reserve intact, and Pilate’s continued questioning suggests he did not hear a confession.\"},{\"verse\":16,\"phrase\":\"the governor’s headquarters\",\"lemma\":\"πραιτώριον\",\"kind\":\"background\",\"traditional\":\"the Praetorium\",\"note\":\"Mark uses the Latin word praetorium, the official residence and headquarters of a Roman governor. In Jerusalem this was either Herod’s former palace or the Antonia fortress beside the temple; which one is disputed. A cohort was nominally about six hundred soldiers, though the term may be used loosely here for the unit on duty.\"},{\"verse\":21,\"phrase\":\"pressed into service\",\"lemma\":\"ἀγγαρεύω\",\"kind\":\"departure\",\"traditional\":\"compelled\",\"note\":\"The verb was the regular term for the right of officials and soldiers to requisition a civilian’s labour or animals on the spot. ‘Compelled’ is accurate but loses the sense of a recognised, legal imposition by an occupying army. The condemned normally carried the crossbeam himself; Mark does not say why Jesus did not.\"},{\"verse\":25,\"phrase\":\"the third hour\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"the third hour\",\"note\":\"Hours were counted from sunrise, so the third hour is about nine in the morning, the sixth (verse 33) about noon, and the ninth about three in the afternoon. Many modern translations convert to clock times; the ancient reckoning is kept here because the hours were approximate divisions of daylight, not clock readings.\"},{\"verse\":27,\"phrase\":\"bandits\",\"lemma\":\"λῃστής\",\"kind\":\"departure\",\"traditional\":\"thieves / robbers\",\"note\":\"The word means an armed brigand who uses violence, not a thief, for which Greek has a different word. The Jewish historian Josephus uses it for insurgents against Rome, and since Barabbas and his fellow rebels have just been mentioned, these two may have been condemned for rebellion. Several modern translations have ‘bandits’ or ‘rebels’.\"},{\"verse\":27,\"phrase\":\"one on his right and one on his left\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"\",\"note\":\"There is no verse 28 in this edition. The sentence found there in later manuscripts (‘And the scripture was fulfilled that says, He was counted among the lawless’) is absent from the earliest witnesses and was probably added under the influence of Luke 22:37. Most modern editions omit it while keeping the traditional verse numbers.\"},{\"verse\":32,\"phrase\":\"the Messiah\",\"lemma\":\"Χριστός\",\"kind\":\"departure\",\"traditional\":\"Christ\",\"note\":\"The Greek is ho christos, ‘the anointed one’, used here with the article as a title and set beside ‘the king of Israel’. A first-century Jewish hearer heard a royal title, not a name, which ‘Messiah’ conveys better than ‘Christ’. Several modern translations make the same choice in the Gospels.\"},{\"verse\":33,\"phrase\":\"the whole land\",\"lemma\":\"γῆ\",\"kind\":\"ambiguity\",\"traditional\":\"the whole land\",\"note\":\"The Greek word can mean a particular land or region, or the earth as a whole. Most translations take it as the land of Judea, as here; ‘over the whole earth’ is equally possible grammatically.\"},{\"verse\":34,\"phrase\":\"abandoned\",\"lemma\":\"ἐγκαταλείπω\",\"kind\":\"departure\",\"traditional\":\"forsaken\",\"note\":\"Jesus cries out the opening line of Psalm 22, which Mark gives first in Aramaic and then in Greek. The Greek verb is the ordinary word for leaving someone behind or in the lurch; ‘forsaken’ is the traditional rendering but is now archaic, and several modern translations use ‘abandoned’. The Aramaic ‘Eloi’ explains how bystanders could mishear a call to Elijah.\"},{\"verse\":36,\"phrase\":\"sour wine\",\"lemma\":\"ὄξος\",\"kind\":\"departure\",\"traditional\":\"vinegar\",\"note\":\"The word refers to the cheap, sharp wine drunk by soldiers and labourers, not to vinegar in the modern sense. Most modern translations render it ‘sour wine’ or ‘wine vinegar’. Many interpreters see an echo of Psalm 69:21, where the sufferer is given this drink for his thirst.\"},{\"verse\":39,\"phrase\":\"God’s Son\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"the Son of God\",\"note\":\"The Greek has no article: ‘son of God’. On a Roman soldier’s lips this could mean ‘a son of a god’, a divine or heroic figure. Greek grammar also allows a definite sense when such a phrase precedes the verb, and Mark’s readers would hear the title the Gospel itself gives Jesus. The rendering keeps the wording open to both.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "As soon as it was morning, the chief priests, after consulting with the elders and scribes and the whole council, bound Jesus, led him away, and handed him over to Pilate."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "Pilate asked him,"
+     },
+     {
+      "speaker": "other",
+      "speaker_name": "Pilate",
+      "text": "“Are you the king of the Jews?”"
+     },
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "He answered him,"
+     },
+     {
+      "speaker": "Jesus",
+      "speaker_name": "",
+      "text": "“You say so.”"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "And the chief priests were accusing him of many things."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "Pilate questioned him again:"
+     },
+     {
+      "speaker": "other",
+      "speaker_name": "Pilate",
+      "text": "“Have you no answer at all? See how many charges they are bringing against you.”"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "But Jesus made no further answer, so that Pilate was amazed."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "Now at the festival he used to release to them one prisoner, whichever one they requested."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "The man called Barabbas was in prison with the rebels who had committed murder during the rebellion."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "The crowd came up and began to ask Pilate to do as he usually did for them."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "Pilate answered them,"
+     },
+     {
+      "speaker": "other",
+      "speaker_name": "Pilate",
+      "text": "“Do you want me to release to you the king of the Jews?”"
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "For he knew that it was out of envy that the chief priests had handed him over."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "But the chief priests stirred up the crowd to have him release Barabbas to them instead."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "Pilate spoke to them again:"
+     },
+     {
+      "speaker": "other",
+      "speaker_name": "Pilate",
+      "text": "“Then what do you want me to do with the one you call the king of the Jews?”"
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "They shouted back,"
+     },
+     {
+      "speaker": "crowd",
+      "speaker_name": "",
+      "text": "“Crucify him!”"
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "Pilate said to them,"
+     },
+     {
+      "speaker": "other",
+      "speaker_name": "Pilate",
+      "text": "“Why? What wrong has he done?”"
+     },
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "But they shouted all the more,"
+     },
+     {
+      "speaker": "crowd",
+      "speaker_name": "",
+      "text": "“Crucify him!”"
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "Pilate, wanting to satisfy the crowd, released Barabbas to them, and after having Jesus flogged, he handed him over to be crucified."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "The soldiers led him away inside the palace, that is, the governor’s headquarters, and called together the whole cohort."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "They dressed him in purple, and after weaving a crown of thorns they put it on him."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "And they began to salute him:"
+     },
+     {
+      "speaker": "crowd",
+      "speaker_name": "",
+      "text": "“Hail, king of the Jews!”"
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "They kept striking his head with a reed and spitting on him, and going down on their knees they paid him homage."
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "When they had finished mocking him, they stripped him of the purple and put his own clothes on him. Then they led him out to crucify him."
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "They pressed into service a passer-by, a certain Simon of Cyrene, the father of Alexander and Rufus, who was coming in from the country, to carry his cross."
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "They brought him to the place Golgotha, which translated means Place of the Skull."
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "They tried to give him wine mixed with myrrh, but he did not take it."
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "And they crucified him and divided his clothes among themselves, casting lots for them to decide who would take what."
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "It was the third hour when they crucified him."
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "The inscription stating the charge against him read: “The King of the Jews.”"
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "And with him they crucified two bandits, one on his right and one on his left."
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "Those passing by hurled abuse at him, shaking their heads and saying,"
+     },
+     {
+      "speaker": "crowd",
+      "speaker_name": "",
+      "text": "“Ha! You who would destroy the temple and build it in three days,"
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "crowd",
+      "speaker_name": "",
+      "text": "save yourself and come down from the cross!”"
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "In the same way the chief priests too, along with the scribes, were mocking him among themselves and saying,"
+     },
+     {
+      "speaker": "crowd",
+      "speaker_name": "",
+      "text": "“He saved others; himself he cannot save!"
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "crowd",
+      "speaker_name": "",
+      "text": "Let the Messiah, the king of Israel, come down now from the cross, so that we may see and believe!”"
+     },
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "Even those crucified with him were taunting him."
+     }
+    ]
+   },
+   {
+    "verse": 33,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "When the sixth hour came, darkness fell over the whole land until the ninth hour."
+     }
+    ]
+   },
+   {
+    "verse": 34,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "And at the ninth hour Jesus cried out with a loud voice,"
+     },
+     {
+      "speaker": "Jesus",
+      "speaker_name": "",
+      "text": "“Eloi, Eloi, lema sabachthani?”"
+     },
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "which translated means,"
+     },
+     {
+      "speaker": "Jesus",
+      "speaker_name": "",
+      "text": "“My God, my God, why have you abandoned me?”"
+     }
+    ]
+   },
+   {
+    "verse": 35,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "Some of those standing by heard it and said,"
+     },
+     {
+      "speaker": "crowd",
+      "speaker_name": "",
+      "text": "“Look, he is calling Elijah.”"
+     }
+    ]
+   },
+   {
+    "verse": 36,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "Someone ran, filled a sponge with sour wine, put it on a reed, and gave it to him to drink, saying,"
+     },
+     {
+      "speaker": "other",
+      "speaker_name": "a bystander",
+      "text": "“Wait! Let us see whether Elijah comes to take him down.”"
+     }
+    ]
+   },
+   {
+    "verse": 37,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "But Jesus let out a loud cry and breathed his last."
+     }
+    ]
+   },
+   {
+    "verse": 38,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "And the curtain of the temple was torn in two, from top to bottom."
+     }
+    ]
+   },
+   {
+    "verse": 39,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "When the centurion who stood facing him saw that he breathed his last in this way, he said,"
+     },
+     {
+      "speaker": "other",
+      "speaker_name": "the centurion",
+      "text": "“Truly this man was God’s Son!”"
+     }
+    ]
+   },
+   {
+    "verse": 40,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "There were also women watching from a distance, among them Mary Magdalene, Mary the mother of James the younger and of Joses, and Salome,"
+     }
+    ]
+   },
+   {
+    "verse": 41,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "who had followed him and served him when he was in Galilee, and many other women who had come up with him to Jerusalem."
+     }
+    ]
+   },
+   {
+    "verse": 42,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "When evening had already come, since it was the day of Preparation, that is, the day before the Sabbath,"
+     }
+    ]
+   },
+   {
+    "verse": 43,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "Joseph of Arimathea came, a respected councillor who was himself also waiting for the kingdom of God. Gathering his courage, he went in to Pilate and asked for the body of Jesus."
+     }
+    ]
+   },
+   {
+    "verse": 44,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "Pilate was amazed that he should already be dead, and summoning the centurion, he asked him whether he had been dead for some time."
+     }
+    ]
+   },
+   {
+    "verse": 45,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "When he learned it from the centurion, he granted the corpse to Joseph."
+     }
+    ]
+   },
+   {
+    "verse": 46,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "Joseph bought a linen cloth, took him down, wrapped him in the cloth, and laid him in a tomb that had been cut out of rock; then he rolled a stone against the entrance of the tomb."
+     }
+    ]
+   },
+   {
+    "verse": 47,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "speaker_name": "",
+      "text": "Mary Magdalene and Mary the mother of Joses were watching where he was laid."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "the whole council",
+    "lemma": "συνέδριον",
+    "kind": "background",
+    "traditional": "the whole council / the whole Sanhedrin",
+    "note": "The Greek word is synedrion, the source of the name Sanhedrin: the high council in Jerusalem, presided over by the high priest. It could not carry out an execution on its own authority under Roman rule, which is why Jesus is taken to Pilate, the Roman governor of Judea."
+   },
+   {
+    "verse": 2,
+    "phrase": "You say so",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "Thou sayest it / You have said so",
+    "note": "The reply is literally ‘You are saying [it].’ It neither plainly accepts nor plainly rejects the title. Some interpreters take it as a qualified yes (‘It is as you say’), others as a deflection (‘Those are your words’). The rendering leaves the reserve intact, and Pilate’s continued questioning suggests he did not hear a confession."
+   },
+   {
+    "verse": 16,
+    "phrase": "the governor’s headquarters",
+    "lemma": "πραιτώριον",
+    "kind": "background",
+    "traditional": "the Praetorium",
+    "note": "Mark uses the Latin word praetorium, the official residence and headquarters of a Roman governor. In Jerusalem this was either Herod’s former palace or the Antonia fortress beside the temple; which one is disputed. A cohort was nominally about six hundred soldiers, though the term may be used loosely here for the unit on duty."
+   },
+   {
+    "verse": 21,
+    "phrase": "pressed into service",
+    "lemma": "ἀγγαρεύω",
+    "kind": "departure",
+    "traditional": "compelled",
+    "note": "The verb was the regular term for the right of officials and soldiers to requisition a civilian’s labour or animals on the spot. ‘Compelled’ is accurate but loses the sense of a recognised, legal imposition by an occupying army. The condemned normally carried the crossbeam himself; Mark does not say why Jesus did not."
+   },
+   {
+    "verse": 25,
+    "phrase": "the third hour",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "the third hour",
+    "note": "Hours were counted from sunrise, so the third hour is about nine in the morning, the sixth (verse 33) about noon, and the ninth about three in the afternoon. Many modern translations convert to clock times; the ancient reckoning is kept here because the hours were approximate divisions of daylight, not clock readings."
+   },
+   {
+    "verse": 27,
+    "phrase": "bandits",
+    "lemma": "λῃστής",
+    "kind": "departure",
+    "traditional": "thieves / robbers",
+    "note": "The word means an armed brigand who uses violence, not a thief, for which Greek has a different word. The Jewish historian Josephus uses it for insurgents against Rome, and since Barabbas and his fellow rebels have just been mentioned, these two may have been condemned for rebellion. Several modern translations have ‘bandits’ or ‘rebels’."
+   },
+   {
+    "verse": 27,
+    "phrase": "one on his right and one on his left",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "",
+    "note": "There is no verse 28 in this edition. The sentence found there in later manuscripts (‘And the scripture was fulfilled that says, He was counted among the lawless’) is absent from the earliest witnesses and was probably added under the influence of Luke 22:37. Most modern editions omit it while keeping the traditional verse numbers."
+   },
+   {
+    "verse": 32,
+    "phrase": "the Messiah",
+    "lemma": "Χριστός",
+    "kind": "departure",
+    "traditional": "Christ",
+    "note": "The Greek is ho christos, ‘the anointed one’, used here with the article as a title and set beside ‘the king of Israel’. A first-century Jewish hearer heard a royal title, not a name, which ‘Messiah’ conveys better than ‘Christ’. Several modern translations make the same choice in the Gospels."
+   },
+   {
+    "verse": 33,
+    "phrase": "the whole land",
+    "lemma": "γῆ",
+    "kind": "ambiguity",
+    "traditional": "the whole land",
+    "note": "The Greek word can mean a particular land or region, or the earth as a whole. Most translations take it as the land of Judea, as here; ‘over the whole earth’ is equally possible grammatically."
+   },
+   {
+    "verse": 34,
+    "phrase": "abandoned",
+    "lemma": "ἐγκαταλείπω",
+    "kind": "departure",
+    "traditional": "forsaken",
+    "note": "Jesus cries out the opening line of Psalm 22, which Mark gives first in Aramaic and then in Greek. The Greek verb is the ordinary word for leaving someone behind or in the lurch; ‘forsaken’ is the traditional rendering but is now archaic, and several modern translations use ‘abandoned’. The Aramaic ‘Eloi’ explains how bystanders could mishear a call to Elijah."
+   },
+   {
+    "verse": 36,
+    "phrase": "sour wine",
+    "lemma": "ὄξος",
+    "kind": "departure",
+    "traditional": "vinegar",
+    "note": "The word refers to the cheap, sharp wine drunk by soldiers and labourers, not to vinegar in the modern sense. Most modern translations render it ‘sour wine’ or ‘wine vinegar’. Many interpreters see an echo of Psalm 69:21, where the sufferer is given this drink for his thirst."
+   },
+   {
+    "verse": 39,
+    "phrase": "God’s Son",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "the Son of God",
+    "note": "The Greek has no article: ‘son of God’. On a Roman soldier’s lips this could mean ‘a son of a god’, a divine or heroic figure. Greek grammar also allows a definite sense when such a phrase precedes the verb, and Mark’s readers would hear the title the Gospel itself gives Jesus. The rendering keeps the wording open to both."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

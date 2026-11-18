@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ait version="1.0">
-  <book id="2john" name="2John">
+<ait version="2.0" run="20261118-162954-full-nt" model="claude-fable-5-2" register="0.4-draft">
+  <book id="2john" name="2 John">
     <chapter num="1">
       <verse num="1">
-        <text><p/>The Elder, to the chosen Lady and her children, whom I love in Truth—and not I alone, but also all those who have come to know the Truth—</text>
+        <text><p/>The elder, to the chosen lady and her children, whom I love in truth, and not I alone but also all who have come to know the truth,</text>
         <greek>
           <w lemma="ὁ">Ὁ</w>
           <w lemma="πρεσβύτερος">πρεσβύτερος</w>
@@ -30,9 +30,12 @@
           <w lemma="ὁ">τὴν</w>
           <w lemma="ἀλήθεια">ἀλήθειαν,</w>
         </greek>
+        <note term="The elder" kind="background" lemma="πρεσβύτερος" traditional="The elder">The writer gives a title instead of a name. The word can mean simply an older man, but it was also the regular term for a recognised leader in a synagogue or congregation. Early tradition identified this elder with John; the letter itself does not say.</note>
+        <note term="the chosen lady" kind="ambiguity" lemma="κυρία" traditional="the elect lady">Most scholars take the &#x27;lady&#x27; and her &#x27;children&#x27; as a figure for a congregation and its members, with the &#x27;chosen sister&#x27; of verse 13 being the writer&#x27;s own congregation. The shift between singular &#x27;you&#x27; and plural &#x27;you&#x27; in the letter fits this. A minority reads it as an individual woman and her family, and a few take one of the two Greek words as her personal name. &#x27;Chosen&#x27; replaces &#x27;elect&#x27;, which now suggests voting.</note>
+        <note term="in truth" kind="ambiguity" lemma="ἀλήθεια" traditional="in the truth">The Greek phrase has no article and could mean simply &#x27;truly, sincerely&#x27;. Because the next words speak of &#x27;the truth&#x27; as something known and remaining in believers, many interpreters think the writer already means the truth of the message here. The rendering &#x27;in truth&#x27; leaves both possibilities open.</note>
       </verse>
       <verse num="2">
-        <text>because of the Truth that abides within us and will be with us throughout the age.</text>
+        <text>because of the truth that remains in us and will be with us forever:</text>
         <greek>
           <w lemma="διά">διὰ</w>
           <w lemma="ὁ">τὴν</w>
@@ -51,7 +54,7 @@
         </greek>
       </verse>
       <verse num="3">
-        <text><p/>Grace, mercy, and peace will be with us from God the Father and from Jesus Christ, the Father’s Son, in Truth and love.</text>
+        <text>Grace, mercy, and peace will be with us from God the Father and from Jesus Christ, the Son of the Father, in truth and love.</text>
         <greek>
           <w lemma="εἰμί">ἔσται</w>
           <w lemma="μετά">μεθ’</w>
@@ -63,7 +66,7 @@
           <w lemma="θεός">θεοῦ</w>
           <w lemma="πατήρ">πατρός,</w>
           <w lemma="καί">καὶ</w>
-          <w lemma="παρά">⸀παρὰ</w>
+          <w lemma="παρά">παρὰ</w>
           <w lemma="Ἰησοῦς">Ἰησοῦ</w>
           <w lemma="Χριστός">Χριστοῦ</w>
           <w lemma="ὁ">τοῦ</w>
@@ -77,7 +80,7 @@
         </greek>
       </verse>
       <verse num="4">
-        <text><p/>I rejoiced greatly to find some of your children living their lives in Truth, just as we received a command from the Father.</text>
+        <text><p/>I was overjoyed to find some of your children walking in truth, just as we received a command from the Father.</text>
         <greek>
           <w lemma="χαίρω">Ἐχάρην</w>
           <w lemma="λίαν">λίαν</w>
@@ -99,7 +102,7 @@
         </greek>
       </verse>
       <verse num="5">
-        <text>And now I ask you, Lady—not as if I were writing a new command to you, but one which we have had from the beginning—that we love one another.</text>
+        <text>And now I ask you, lady, not as though I were writing you a new command, but the one we have had from the beginning: that we love one another.</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="νῦν">νῦν</w>
@@ -109,9 +112,9 @@
           <w lemma="οὐ">οὐχ</w>
           <w lemma="ὡς">ὡς</w>
           <w lemma="ἐντολή">ἐντολὴν</w>
-          <w lemma="καινός">⸂καινὴν</w>
+          <w lemma="καινός">καινὴν</w>
           <w lemma="γράφω">γράφων</w>
-          <w lemma="σύ">σοι⸃</w>
+          <w lemma="σύ">σοι</w>
           <w lemma="ἀλλά">ἀλλὰ</w>
           <w lemma="ὅς">ἣν</w>
           <w lemma="ἔχω">εἴχομεν</w>
@@ -123,7 +126,7 @@
         </greek>
       </verse>
       <verse num="6">
-        <text>And this is what love is: that we live according to his commands. This is the command, just as you heard from the beginning, so that you might live your life in it.</text>
+        <text>And this is love: that we walk according to his commands. This is the command, just as you heard from the beginning: that you walk in it.</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="οὗτος">αὕτη</w>
@@ -137,9 +140,9 @@
           <w lemma="ἐντολή">ἐντολὰς</w>
           <w lemma="αὐτός">αὐτοῦ·</w>
           <w lemma="οὗτος">αὕτη</w>
-          <w lemma="ὁ">⸂ἡ</w>
+          <w lemma="ὁ">ἡ</w>
           <w lemma="ἐντολή">ἐντολή</w>
-          <w lemma="εἰμί">ἐστιν⸃,</w>
+          <w lemma="εἰμί">ἐστιν,</w>
           <w lemma="καθώς">καθὼς</w>
           <w lemma="ἀκούω">ἠκούσατε</w>
           <w lemma="ἀπό">ἀπ’</w>
@@ -149,14 +152,15 @@
           <w lemma="αὐτός">αὐτῇ</w>
           <w lemma="περιπατέω">περιπατῆτε.</w>
         </greek>
+        <note term="walk in it" kind="ambiguity" lemma="" traditional="walk in it">The pronoun &#x27;it&#x27; is feminine in Greek and could refer back to &#x27;love&#x27; or to &#x27;the command&#x27;; both nouns are feminine. Most interpreters take it as love, so that the command is to live a life of love. The English keeps the pronoun as open as the Greek.</note>
       </verse>
       <verse num="7">
-        <text><p/>I say this because many imposters have gone out into the world, those who do not acknowledge Jesus Christ as coming in human flesh. This is the imposter and the antichrist.</text>
+        <text><p/>For many deceivers have gone out into the world, people who do not acknowledge Jesus Christ as coming in flesh. Such a person is the deceiver and the antichrist.</text>
         <greek>
           <w lemma="ὅτι">ὅτι</w>
           <w lemma="πολύς">πολλοὶ</w>
           <w lemma="πλάνος">πλάνοι</w>
-          <w lemma="ἐξέρχομαι">⸀ἐξῆλθον</w>
+          <w lemma="ἐξέρχομαι">ἐξῆλθον</w>
           <w lemma="εἰς">εἰς</w>
           <w lemma="ὁ">τὸν</w>
           <w lemma="κόσμος">κόσμον,</w>
@@ -176,29 +180,33 @@
           <w lemma="ὁ">ὁ</w>
           <w lemma="ἀντίχριστος">ἀντίχριστος.</w>
         </greek>
+        <note term="acknowledge Jesus Christ as coming in flesh" kind="ambiguity" lemma="ἔρχομαι" traditional="confess that Jesus Christ is come in the flesh">&#x27;Acknowledge&#x27; is used because &#x27;confess&#x27; now mostly suggests admitting a wrong; the Greek word means to declare one&#x27;s agreement openly. The participle &#x27;coming&#x27; is present tense, unlike the similar statement in 1 John 4:2, which says &#x27;has come&#x27;. Most scholars take it as a timeless description of the incarnation, denied by teachers who would not accept that the Christ was truly human; a few think it refers to a future coming.</note>
+        <note term="the antichrist" kind="background" lemma="ἀντίχριστος" traditional="the antichrist">The word occurs in the New Testament only in the letters of John. It can mean one who opposes Christ or one who puts himself in Christ&#x27;s place. Here it is applied not to a single future figure but to anyone who teaches the denial just described.</note>
       </verse>
       <verse num="8">
-        <text>Watch yourselves, so that you do not lose what we have worked for, but instead receive a full wage.</text>
+        <text>Watch yourselves, so that you do not lose what we worked for, but receive full wages.</text>
         <greek>
           <w lemma="βλέπω">βλέπετε</w>
           <w lemma="ἑαυτοῦ">ἑαυτούς,</w>
           <w lemma="ἵνα">ἵνα</w>
           <w lemma="μή">μὴ</w>
-          <w lemma="ἀπόλλυμι">⸀ἀπολέσητε</w>
+          <w lemma="ἀπόλλυμι">ἀπολέσητε</w>
           <w lemma="ὅς">ἃ</w>
-          <w lemma="ἐργάζομαι">⸀εἰργασάμεθα,</w>
+          <w lemma="ἐργάζομαι">εἰργασάμεθα,</w>
           <w lemma="ἀλλά">ἀλλὰ</w>
           <w lemma="μισθός">μισθὸν</w>
           <w lemma="πλήρης">πλήρη</w>
-          <w lemma="ἀπολαμβάνω">⸀ἀπολάβητε.</w>
+          <w lemma="ἀπολαμβάνω">ἀπολάβητε.</w>
         </greek>
+        <note term="what we worked for" kind="textual" lemma="ἐργάζομαι" traditional="what we have worked for">Manuscripts differ here. Some read &#x27;what you worked for&#x27;, and a later form of the text puts all three verbs in the first person (&#x27;that we do not lose... but receive&#x27;). The reading translated, with &#x27;you&#x27; losing what &#x27;we&#x27; worked for, is the one printed in SBLGNT.</note>
+        <note term="full wages" kind="departure" lemma="μισθός" traditional="a full reward">The Greek word is the ordinary term for a worker&#x27;s pay, and it follows directly on the verb &#x27;worked&#x27;. &#x27;Reward&#x27; is the traditional rendering and is not wrong, but it can suggest a prize or bonus where the Greek image is of pay earned by labour and received in full.</note>
       </verse>
       <verse num="9">
-        <text>Anyone who "advances" too far and does not abide in the teaching of the Christ does not have God; the one who abides in this teaching has both the Father and the Son.</text>
+        <text>Everyone who goes on ahead and does not remain in the teaching of Christ does not have God. The one who remains in the teaching has both the Father and the Son.</text>
         <greek>
           <w lemma="πᾶς">πᾶς</w>
           <w lemma="ὁ">ὁ</w>
-          <w lemma="προάγω">⸀προάγων</w>
+          <w lemma="προάγω">προάγων</w>
           <w lemma="καί">καὶ</w>
           <w lemma="μή">μὴ</w>
           <w lemma="μένω">μένων</w>
@@ -214,7 +222,7 @@
           <w lemma="μένω">μένων</w>
           <w lemma="ἐν">ἐν</w>
           <w lemma="ὁ">τῇ</w>
-          <w lemma="διδαχή">⸀διδαχῇ,</w>
+          <w lemma="διδαχή">διδαχῇ,</w>
           <w lemma="οὗτος">οὗτος</w>
           <w lemma="καί">καὶ</w>
           <w lemma="ὁ">τὸν</w>
@@ -224,9 +232,11 @@
           <w lemma="υἱός">υἱὸν</w>
           <w lemma="ἔχω">ἔχει.</w>
         </greek>
+        <note term="goes on ahead" kind="background" lemma="προάγω" traditional="transgresseth">The verb means to go in front or advance. The writer is probably turning the teachers&#x27; own claim against them: they presented their teaching as progress, and he says they have advanced right out of the teaching. The older English &#x27;transgresses&#x27; reflects a different Greek verb found in later manuscripts.</note>
+        <note term="the teaching of Christ" kind="ambiguity" lemma="διδαχή" traditional="the doctrine of Christ">The Greek can mean the teaching that Christ gave or the teaching about Christ. Since the dispute in verse 7 concerns what is said about Jesus, many scholars prefer the second; others point out that John&#x27;s writings elsewhere speak of Jesus&#x27; own teaching. The English &#x27;of&#x27; preserves the ambiguity.</note>
       </verse>
       <verse num="10">
-        <text>If anyone comes to you and does not bring this teaching, do not receive him into your house and do not even give him a greeting.</text>
+        <text>If anyone comes to you and does not bring this teaching, do not receive him into your house, and do not give him a greeting;</text>
         <greek>
           <w lemma="εἰ">εἴ</w>
           <w lemma="τις">τις</w>
@@ -250,13 +260,14 @@
           <w lemma="μή">μὴ</w>
           <w lemma="λέγω">λέγετε·</w>
         </greek>
+        <note term="give him a greeting" kind="background" lemma="χαίρω" traditional="bid him God speed">The Greek is literally &#x27;do not say Rejoice to him&#x27;, the standard word of greeting on meeting and parting. Travelling teachers depended on believers for lodging and support, and congregations met in homes. Receiving and greeting such a teacher therefore meant giving him a base and a platform. The instruction concerns that kind of endorsement, not ordinary courtesy.</note>
       </verse>
       <verse num="11">
-        <text>For the one who gives him a greeting partners in his wicked works.</text>
+        <text>for whoever gives him a greeting shares in his evil deeds.</text>
         <greek>
           <w lemma="ὁ">ὁ</w>
-          <w lemma="λέγω">⸂λέγων</w>
-          <w lemma="γάρ">γὰρ⸃</w>
+          <w lemma="λέγω">λέγων</w>
+          <w lemma="γάρ">γὰρ</w>
           <w lemma="αὐτός">αὐτῷ</w>
           <w lemma="χαίρω">χαίρειν</w>
           <w lemma="κοινωνέω">κοινωνεῖ</w>
@@ -268,7 +279,7 @@
         </greek>
       </verse>
       <verse num="12">
-        <text><p/>Although I have many things to write to you, I do not want to do so with paper and ink. Instead, I hope to come to you and speak mouth to mouth, so that our joy may be fulfilled.</text>
+        <text><p/>Though I have much to write to you, I did not want to do it with paper and ink. Instead I hope to come to you and speak face to face, so that your joy may be complete.</text>
         <greek>
           <w lemma="πολύς">Πολλὰ</w>
           <w lemma="ἔχω">ἔχων</w>
@@ -282,7 +293,7 @@
           <w lemma="μέλαν">μέλανος,</w>
           <w lemma="ἀλλά">ἀλλὰ</w>
           <w lemma="ἐλπίζω">ἐλπίζω</w>
-          <w lemma="γίνομαι">⸀γενέσθαι</w>
+          <w lemma="γίνομαι">γενέσθαι</w>
           <w lemma="πρός">πρὸς</w>
           <w lemma="σύ">ὑμᾶς</w>
           <w lemma="καί">καὶ</w>
@@ -293,10 +304,11 @@
           <w lemma="ἵνα">ἵνα</w>
           <w lemma="ὁ">ἡ</w>
           <w lemma="χαρά">χαρὰ</w>
-          <w lemma="σύ">⸀ὑμῶν</w>
-          <w lemma="πληρόω">⸂πεπληρωμένη</w>
-          <w lemma="εἰμί">ᾖ⸃.</w>
+          <w lemma="σύ">ὑμῶν</w>
+          <w lemma="πληρόω">πεπληρωμένη</w>
+          <w lemma="εἰμί">ᾖ.</w>
         </greek>
+        <note term="your joy" kind="textual" lemma="" traditional="our joy">Manuscripts are divided between &#x27;your joy&#x27; and &#x27;our joy&#x27;; the two Greek words differ by one letter and were pronounced alike. SBLGNT prints &#x27;your&#x27;, which is translated here; many editions and English versions read &#x27;our&#x27;.</note>
       </verse>
       <verse num="13">
         <text>The children of your chosen sister greet you.</text>
@@ -309,7 +321,7 @@
           <w lemma="ἀδελφή">ἀδελφῆς</w>
           <w lemma="σύ">σου</w>
           <w lemma="ὁ">τῆς</w>
-          <w lemma="ἐκλεκτός">⸀ἐκλεκτῆς.</w>
+          <w lemma="ἐκλεκτός">ἐκλεκτῆς.</w>
         </greek>
       </verse>
     </chapter>

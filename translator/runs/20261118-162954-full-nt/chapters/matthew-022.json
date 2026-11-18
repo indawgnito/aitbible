@@ -1,0 +1,675 @@
+{
+ "id": "matthew-022",
+ "book": "matthew",
+ "chapter": 22,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZnbYN53GqycEiHgK",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 8656,
+  "output_tokens": 14820
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus responded by speaking to them again in parables:\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"“The kingdom of the heavens is like a king who gave a wedding feast for his son.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"He sent his slaves to summon those who had been invited to the wedding feast, but they would not come.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Again he sent other slaves, saying, ‘Tell those who have been invited: “Look, I have prepared my dinner; my bulls and fattened cattle have been slaughtered, and everything is ready. Come to the wedding feast.”’\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But they paid no attention and went off, one to his own field, another to his business,\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"while the rest seized his slaves, abused them, and killed them.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"The king was furious. He sent his troops, destroyed those murderers, and burned their city.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Then he said to his slaves, ‘The wedding feast is ready, but those who were invited were not worthy.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"So go to where the roads lead out of the city, and invite to the wedding feast everyone you find.’\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And those slaves went out into the roads and gathered everyone they found, both bad and good, and the wedding feast was filled with guests.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But when the king came in to look at the guests, he saw there a man who was not dressed in wedding clothes,\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"and he said to him, ‘Friend, how did you get in here without wedding clothes?’ But the man was struck silent.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Then the king said to the servants, ‘Bind him hand and foot and throw him out into the darkness outside. There, there will be weeping and gnashing of teeth.’\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For many are invited, but few are chosen.”\"}]},{\"verse\":15,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then the Pharisees went and made a plan to trap him in what he said.\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They sent their disciples to him, together with the Herodians, saying,\"},{\"speaker\":\"other\",\"text\":\"“Teacher, we know that you are truthful and teach the way of God in truth, and that you defer to no one, for you show no partiality.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"So tell us what you think: is it permitted to pay the poll tax to Caesar, or not?”\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But Jesus, aware of their malice, said,\"},{\"speaker\":\"Jesus\",\"text\":\"“Why are you testing me, you hypocrites?\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Show me the coin for the poll tax.”\"},{\"speaker\":\"narrator\",\"text\":\"And they brought him a denarius.\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Whose image is this, and whose inscription?”\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They said to him,\"},{\"speaker\":\"other\",\"text\":\"“Caesar’s.”\"},{\"speaker\":\"narrator\",\"text\":\"Then he said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“So give back to Caesar what is Caesar’s, and to God what is God’s.”\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When they heard this they were amazed, and they left him and went away.\"}]},{\"verse\":23,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"On that day Sadducees came to him, saying that there is no resurrection, and they asked him a question:\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"“Teacher, Moses said, ‘If a man dies without having children, his brother shall marry his widow and raise up offspring for his brother.’\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Now there were seven brothers among us. The first married and died, and having no offspring he left his wife to his brother.\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"The same happened with the second and the third, down to the seventh.\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Last of all, the woman died.\"}]},{\"verse\":28,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"In the resurrection, then, which of the seven will she be the wife of? For they all had her.”\"}]},{\"verse\":29,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus answered them,\"},{\"speaker\":\"Jesus\",\"text\":\"“You are mistaken, because you know neither the Scriptures nor the power of God.\"}]},{\"verse\":30,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For in the resurrection people neither marry nor are given in marriage, but are like angels of God in heaven.\"}]},{\"verse\":31,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And as for the resurrection of the dead, have you not read what was said to you by God:\"}]},{\"verse\":32,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"‘I am the God of Abraham and the God of Isaac and the God of Jacob’? He is not the God of the dead but of the living.”\"}]},{\"verse\":33,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And when the crowds heard this, they were astonished at his teaching.\"}]},{\"verse\":34,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When the Pharisees heard that he had silenced the Sadducees, they gathered together,\"}]},{\"verse\":35,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and one of them, an expert in the Law, asked him a question to test him:\"}]},{\"verse\":36,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"“Teacher, which commandment in the Law is the greatest?”\"}]},{\"verse\":37,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He said to him,\"},{\"speaker\":\"Jesus\",\"text\":\"“‘You shall love the Lord your God with all your heart and with all your soul and with all your mind.’\"}]},{\"verse\":38,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"This is the greatest and first commandment.\"}]},{\"verse\":39,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"A second is like it: ‘You shall love your neighbor as yourself.’\"}]},{\"verse\":40,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"On these two commandments hang the whole Law and the Prophets.”\"}]},{\"verse\":41,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"While the Pharisees were gathered together, Jesus asked them a question:\"}]},{\"verse\":42,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"“What do you think about the Messiah? Whose son is he?”\"},{\"speaker\":\"narrator\",\"text\":\"They said to him,\"},{\"speaker\":\"other\",\"text\":\"“David’s.”\"}]},{\"verse\":43,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“How is it, then, that David, in the Spirit, calls him Lord, saying,\"}]},{\"verse\":44,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"‘The Lord said to my Lord, “Sit at my right hand until I put your enemies under your feet”’?\"}]},{\"verse\":45,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"If David, then, calls him Lord, how is he his son?”\"}]},{\"verse\":46,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And no one was able to answer him a word, nor from that day did anyone dare to ask him anything more.\"}]}],\"notes\":[{\"verse\":2,\"phrase\":\"kingdom of the heavens\",\"lemma\":\"οὐρανός\",\"kind\":\"departure\",\"traditional\":\"kingdom of heaven\",\"note\":\"The Greek is plural, reflecting a Semitic way of speaking about God's dwelling that a first-century hearer would have noticed. Most English translations flatten it to 'heaven'. The plural is kept here because it is Matthew's characteristic phrase.\"},{\"verse\":3,\"phrase\":\"slaves\",\"lemma\":\"δοῦλος\",\"kind\":\"departure\",\"traditional\":\"servants\",\"note\":\"The Greek word denotes a person owned by a master, not a hired employee, and 'servants' softens that for a modern reader. Many recent translations now use 'slaves'. The attendants in verse 13 are a different Greek word and are rendered 'servants'.\"},{\"verse\":12,\"phrase\":\"Friend\",\"lemma\":\"ἑταῖρος\",\"kind\":\"background\",\"traditional\":\"Friend\",\"note\":\"This is not the ordinary word for a friend but a polite form of address to someone whose name is not used, something like 'my good man'. In Matthew it is used only three times, each time to a person who is in the wrong (also 20:13 and 26:50), so it carries a note of reproach, not warmth.\"},{\"verse\":14,\"phrase\":\"invited\",\"lemma\":\"κλητός\",\"kind\":\"departure\",\"traditional\":\"called\",\"note\":\"The traditional rendering is 'many are called'. The Greek word is from the same verb used throughout the parable for inviting guests to the feast, and 'invited' keeps that link audible. Some modern translations do the same. Others keep 'called' because of its use elsewhere in the New Testament for God's summons.\"},{\"verse\":16,\"phrase\":\"Herodians\",\"lemma\":\"Ἡρῳδιανοί\",\"kind\":\"background\",\"traditional\":\"Herodians\",\"note\":\"These were evidently supporters of the family of Herod, which ruled by Rome's favor, though little else is known of them. They would have been expected to approve of paying Roman tax, while many Pharisees resented it. An answer either way could therefore be used against Jesus.\"},{\"verse\":17,\"phrase\":\"poll tax\",\"lemma\":\"κῆνσος\",\"kind\":\"departure\",\"traditional\":\"tribute; taxes\",\"note\":\"The Greek borrows the Latin word census. It refers to the head tax Rome levied on subject peoples on the basis of a census, not to taxes in general. It was a sore point in Judea, where its introduction had provoked a revolt, so the question was politically dangerous.\"},{\"verse\":19,\"phrase\":\"denarius\",\"lemma\":\"δηνάριον\",\"kind\":\"background\",\"traditional\":\"penny; denarius\",\"note\":\"A denarius was a Roman silver coin, roughly a day's wage for a laborer. It carried the emperor's portrait and an inscription giving his titles, which on the common coin of the period included a claim to be son of the deified Augustus. Jesus's question in the next verse turns on that image and wording.\"},{\"verse\":21,\"phrase\":\"give back\",\"lemma\":\"ἀποδίδωμι\",\"kind\":\"departure\",\"traditional\":\"render; give\",\"note\":\"The questioners asked whether it was permitted to 'give' the tax. Jesus answers with a different, compound verb that normally means to pay what is owed or return what belongs to another. 'Give back' keeps that shift. 'Render' in older versions carried the same sense but is no longer heard that way.\"},{\"verse\":23,\"phrase\":\"saying that there is no resurrection\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"who say there is no resurrection\",\"note\":\"In the text translated here the phrase has no article, so it most naturally means that the Sadducees came asserting this. Many manuscripts add the article, giving 'Sadducees, who say there is no resurrection', a description of the group. Either way the point is the same: the Sadducees denied a resurrection, and their question is meant to make the idea look absurd.\"},{\"verse\":24,\"phrase\":\"shall marry his widow\",\"lemma\":\"ἐπιγαμβρεύω\",\"kind\":\"background\",\"traditional\":\"shall marry his wife\",\"note\":\"The Sadducees summarize the law of levirate marriage in Deuteronomy 25:5–6. Under it a dead man's brother married the widow, and the first son counted as the dead man's heir. The Greek verb is a technical term for marrying as a brother-in-law. The verb for 'raise up' offspring is from the same root as the word for 'resurrection'.\"},{\"verse\":30,\"phrase\":\"angels of God\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"angels in heaven; the angels of God in heaven\",\"note\":\"The Greek edition translated here reads 'angels of God'. Some important early manuscripts lack 'of God', and several modern editions and translations follow them. The meaning is not materially affected.\"},{\"verse\":35,\"phrase\":\"an expert in the Law\",\"lemma\":\"νομικός\",\"kind\":\"departure\",\"traditional\":\"a lawyer\",\"note\":\"The traditional 'lawyer' suggests a courtroom advocate. The word refers to a specialist in interpreting the Law of Moses, much the same as the 'scribes' elsewhere in the Gospels. Many modern translations render it this way. A few manuscripts omit the word in this verse.\"},{\"verse\":42,\"phrase\":\"Messiah\",\"lemma\":\"Χριστός\",\"kind\":\"departure\",\"traditional\":\"Christ\",\"note\":\"The Greek word is the one traditionally rendered 'Christ'. Here it has the article and is a title under discussion, the anointed king Israel expected, not a name for Jesus. 'Messiah' conveys what a first-century Jewish hearer would have heard. Several modern translations make the same distinction in the Gospels.\"},{\"verse\":44,\"phrase\":\"The Lord said to my Lord\",\"lemma\":\"κύριος\",\"kind\":\"background\",\"traditional\":\"The LORD said unto my Lord\",\"note\":\"This quotes Psalm 110:1. In the Hebrew the first 'Lord' is the divine name and the second is an ordinary word for a master or superior, but the Greek uses the same word for both. Jesus's argument assumes, as his hearers did, that David composed the psalm and that the second 'Lord' is the Messiah.\"}],\"candidates\":[{\"lemma\":\"δοῦλος\",\"rendering\":\"slave\",\"verse\":3,\"reason\":\"Recurs across the whole New Testament and translators split between 'servant' and 'slave'; it must stay distinct from διάκονος everywhere.\"},{\"lemma\":\"ψυχή\",\"rendering\":\"soul\",\"verse\":37,\"reason\":\"Ranges over 'life', 'self' and 'soul' across books, and readers are misled if the English varies without a principle.\"},{\"lemma\":\"νομικός\",\"rendering\":\"expert in the Law\",\"verse\":35,\"reason\":\"Traditional 'lawyer' misleads; it recurs in Luke and Titus and needs one rendering coordinated with γραμματεύς.\"},{\"lemma\":\"ἔξεστιν\",\"rendering\":\"it is permitted\",\"verse\":17,\"reason\":\"Recurs in controversy stories across the Gospels and in Paul; 'lawful' versus 'permitted' should be decided once.\"},{\"lemma\":\"κλητός\",\"rendering\":\"invited\",\"verse\":14,\"reason\":\"'Invited' fits this parable, but Paul uses the word for God's call; the split between 'called' and 'invited' needs a rule.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus responded by speaking to them again in parables:"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "“The kingdom of the heavens is like a king who gave a wedding feast for his son."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "He sent his slaves to summon those who had been invited to the wedding feast, but they would not come."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Again he sent other slaves, saying, ‘Tell those who have been invited: “Look, I have prepared my dinner; my bulls and fattened cattle have been slaughtered, and everything is ready. Come to the wedding feast.”’"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But they paid no attention and went off, one to his own field, another to his business,"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "while the rest seized his slaves, abused them, and killed them."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "The king was furious. He sent his troops, destroyed those murderers, and burned their city."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Then he said to his slaves, ‘The wedding feast is ready, but those who were invited were not worthy."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "So go to where the roads lead out of the city, and invite to the wedding feast everyone you find.’"
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And those slaves went out into the roads and gathered everyone they found, both bad and good, and the wedding feast was filled with guests."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But when the king came in to look at the guests, he saw there a man who was not dressed in wedding clothes,"
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "and he said to him, ‘Friend, how did you get in here without wedding clothes?’ But the man was struck silent."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Then the king said to the servants, ‘Bind him hand and foot and throw him out into the darkness outside. There, there will be weeping and gnashing of teeth.’"
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For many are invited, but few are chosen.”"
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then the Pharisees went and made a plan to trap him in what he said."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They sent their disciples to him, together with the Herodians, saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Teacher, we know that you are truthful and teach the way of God in truth, and that you defer to no one, for you show no partiality."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "So tell us what you think: is it permitted to pay the poll tax to Caesar, or not?”"
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But Jesus, aware of their malice, said,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Why are you testing me, you hypocrites?"
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Show me the coin for the poll tax.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "And they brought him a denarius."
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Whose image is this, and whose inscription?”"
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Caesar’s.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "Then he said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“So give back to Caesar what is Caesar’s, and to God what is God’s.”"
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When they heard this they were amazed, and they left him and went away."
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "On that day Sadducees came to him, saying that there is no resurrection, and they asked him a question:"
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "“Teacher, Moses said, ‘If a man dies without having children, his brother shall marry his widow and raise up offspring for his brother.’"
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Now there were seven brothers among us. The first married and died, and having no offspring he left his wife to his brother."
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "The same happened with the second and the third, down to the seventh."
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Last of all, the woman died."
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "In the resurrection, then, which of the seven will she be the wife of? For they all had her.”"
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus answered them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“You are mistaken, because you know neither the Scriptures nor the power of God."
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For in the resurrection people neither marry nor are given in marriage, but are like angels of God in heaven."
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And as for the resurrection of the dead, have you not read what was said to you by God:"
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "‘I am the God of Abraham and the God of Isaac and the God of Jacob’? He is not the God of the dead but of the living.”"
+     }
+    ]
+   },
+   {
+    "verse": 33,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And when the crowds heard this, they were astonished at his teaching."
+     }
+    ]
+   },
+   {
+    "verse": 34,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When the Pharisees heard that he had silenced the Sadducees, they gathered together,"
+     }
+    ]
+   },
+   {
+    "verse": 35,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and one of them, an expert in the Law, asked him a question to test him:"
+     }
+    ]
+   },
+   {
+    "verse": 36,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "“Teacher, which commandment in the Law is the greatest?”"
+     }
+    ]
+   },
+   {
+    "verse": 37,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He said to him,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“‘You shall love the Lord your God with all your heart and with all your soul and with all your mind.’"
+     }
+    ]
+   },
+   {
+    "verse": 38,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "This is the greatest and first commandment."
+     }
+    ]
+   },
+   {
+    "verse": 39,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "A second is like it: ‘You shall love your neighbor as yourself.’"
+     }
+    ]
+   },
+   {
+    "verse": 40,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "On these two commandments hang the whole Law and the Prophets.”"
+     }
+    ]
+   },
+   {
+    "verse": 41,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "While the Pharisees were gathered together, Jesus asked them a question:"
+     }
+    ]
+   },
+   {
+    "verse": 42,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "“What do you think about the Messiah? Whose son is he?”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "They said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“David’s.”"
+     }
+    ]
+   },
+   {
+    "verse": 43,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“How is it, then, that David, in the Spirit, calls him Lord, saying,"
+     }
+    ]
+   },
+   {
+    "verse": 44,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "‘The Lord said to my Lord, “Sit at my right hand until I put your enemies under your feet”’?"
+     }
+    ]
+   },
+   {
+    "verse": 45,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "If David, then, calls him Lord, how is he his son?”"
+     }
+    ]
+   },
+   {
+    "verse": 46,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And no one was able to answer him a word, nor from that day did anyone dare to ask him anything more."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 2,
+    "phrase": "kingdom of the heavens",
+    "lemma": "οὐρανός",
+    "kind": "departure",
+    "traditional": "kingdom of heaven",
+    "note": "The Greek is plural, reflecting a Semitic way of speaking about God's dwelling that a first-century hearer would have noticed. Most English translations flatten it to 'heaven'. The plural is kept here because it is Matthew's characteristic phrase."
+   },
+   {
+    "verse": 3,
+    "phrase": "slaves",
+    "lemma": "δοῦλος",
+    "kind": "departure",
+    "traditional": "servants",
+    "note": "The Greek word denotes a person owned by a master, not a hired employee, and 'servants' softens that for a modern reader. Many recent translations now use 'slaves'. The attendants in verse 13 are a different Greek word and are rendered 'servants'."
+   },
+   {
+    "verse": 12,
+    "phrase": "Friend",
+    "lemma": "ἑταῖρος",
+    "kind": "background",
+    "traditional": "Friend",
+    "note": "This is not the ordinary word for a friend but a polite form of address to someone whose name is not used, something like 'my good man'. In Matthew it is used only three times, each time to a person who is in the wrong (also 20:13 and 26:50), so it carries a note of reproach, not warmth."
+   },
+   {
+    "verse": 14,
+    "phrase": "invited",
+    "lemma": "κλητός",
+    "kind": "departure",
+    "traditional": "called",
+    "note": "The traditional rendering is 'many are called'. The Greek word is from the same verb used throughout the parable for inviting guests to the feast, and 'invited' keeps that link audible. Some modern translations do the same. Others keep 'called' because of its use elsewhere in the New Testament for God's summons."
+   },
+   {
+    "verse": 16,
+    "phrase": "Herodians",
+    "lemma": "Ἡρῳδιανοί",
+    "kind": "background",
+    "traditional": "Herodians",
+    "note": "These were evidently supporters of the family of Herod, which ruled by Rome's favor, though little else is known of them. They would have been expected to approve of paying Roman tax, while many Pharisees resented it. An answer either way could therefore be used against Jesus."
+   },
+   {
+    "verse": 17,
+    "phrase": "poll tax",
+    "lemma": "κῆνσος",
+    "kind": "departure",
+    "traditional": "tribute; taxes",
+    "note": "The Greek borrows the Latin word census. It refers to the head tax Rome levied on subject peoples on the basis of a census, not to taxes in general. It was a sore point in Judea, where its introduction had provoked a revolt, so the question was politically dangerous."
+   },
+   {
+    "verse": 19,
+    "phrase": "denarius",
+    "lemma": "δηνάριον",
+    "kind": "background",
+    "traditional": "penny; denarius",
+    "note": "A denarius was a Roman silver coin, roughly a day's wage for a laborer. It carried the emperor's portrait and an inscription giving his titles, which on the common coin of the period included a claim to be son of the deified Augustus. Jesus's question in the next verse turns on that image and wording."
+   },
+   {
+    "verse": 21,
+    "phrase": "give back",
+    "lemma": "ἀποδίδωμι",
+    "kind": "departure",
+    "traditional": "render; give",
+    "note": "The questioners asked whether it was permitted to 'give' the tax. Jesus answers with a different, compound verb that normally means to pay what is owed or return what belongs to another. 'Give back' keeps that shift. 'Render' in older versions carried the same sense but is no longer heard that way."
+   },
+   {
+    "verse": 23,
+    "phrase": "saying that there is no resurrection",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "who say there is no resurrection",
+    "note": "In the text translated here the phrase has no article, so it most naturally means that the Sadducees came asserting this. Many manuscripts add the article, giving 'Sadducees, who say there is no resurrection', a description of the group. Either way the point is the same: the Sadducees denied a resurrection, and their question is meant to make the idea look absurd."
+   },
+   {
+    "verse": 24,
+    "phrase": "shall marry his widow",
+    "lemma": "ἐπιγαμβρεύω",
+    "kind": "background",
+    "traditional": "shall marry his wife",
+    "note": "The Sadducees summarize the law of levirate marriage in Deuteronomy 25:5–6. Under it a dead man's brother married the widow, and the first son counted as the dead man's heir. The Greek verb is a technical term for marrying as a brother-in-law. The verb for 'raise up' offspring is from the same root as the word for 'resurrection'."
+   },
+   {
+    "verse": 30,
+    "phrase": "angels of God",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "angels in heaven; the angels of God in heaven",
+    "note": "The Greek edition translated here reads 'angels of God'. Some important early manuscripts lack 'of God', and several modern editions and translations follow them. The meaning is not materially affected."
+   },
+   {
+    "verse": 35,
+    "phrase": "an expert in the Law",
+    "lemma": "νομικός",
+    "kind": "departure",
+    "traditional": "a lawyer",
+    "note": "The traditional 'lawyer' suggests a courtroom advocate. The word refers to a specialist in interpreting the Law of Moses, much the same as the 'scribes' elsewhere in the Gospels. Many modern translations render it this way. A few manuscripts omit the word in this verse."
+   },
+   {
+    "verse": 42,
+    "phrase": "Messiah",
+    "lemma": "Χριστός",
+    "kind": "departure",
+    "traditional": "Christ",
+    "note": "The Greek word is the one traditionally rendered 'Christ'. Here it has the article and is a title under discussion, the anointed king Israel expected, not a name for Jesus. 'Messiah' conveys what a first-century Jewish hearer would have heard. Several modern translations make the same distinction in the Gospels."
+   },
+   {
+    "verse": 44,
+    "phrase": "The Lord said to my Lord",
+    "lemma": "κύριος",
+    "kind": "background",
+    "traditional": "The LORD said unto my Lord",
+    "note": "This quotes Psalm 110:1. In the Hebrew the first 'Lord' is the divine name and the second is an ordinary word for a master or superior, but the Greek uses the same word for both. Jesus's argument assumes, as his hearers did, that David composed the psalm and that the second 'Lord' is the Messiah."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "δοῦλος",
+    "rendering": "slave",
+    "verse": 3,
+    "reason": "Recurs across the whole New Testament and translators split between 'servant' and 'slave'; it must stay distinct from διάκονος everywhere."
+   },
+   {
+    "lemma": "ψυχή",
+    "rendering": "soul",
+    "verse": 37,
+    "reason": "Ranges over 'life', 'self' and 'soul' across books, and readers are misled if the English varies without a principle."
+   },
+   {
+    "lemma": "νομικός",
+    "rendering": "expert in the Law",
+    "verse": 35,
+    "reason": "Traditional 'lawyer' misleads; it recurs in Luke and Titus and needs one rendering coordinated with γραμματεύς."
+   },
+   {
+    "lemma": "ἔξεστιν",
+    "rendering": "it is permitted",
+    "verse": 17,
+    "reason": "Recurs in controversy stories across the Gospels and in Paul; 'lawful' versus 'permitted' should be decided once."
+   },
+   {
+    "lemma": "κλητός",
+    "rendering": "invited",
+    "verse": 14,
+    "reason": "'Invited' fits this parable, but Paul uses the word for God's call; the split between 'called' and 'invited' needs a rule."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}
