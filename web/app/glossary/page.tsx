@@ -9,7 +9,7 @@ import { GlossaryContent } from "./GlossaryContent";
 export const metadata: Metadata = {
   title: "Glossary | AIT Bible",
   description:
-    "Understanding key terms in the AIT Bible translation — where and why we differ from traditional renderings.",
+    "The words where the AIT Bible departs from the traditional English rendering, with the reason and the standard scholarly view.",
 };
 
 export default function GlossaryPage() {

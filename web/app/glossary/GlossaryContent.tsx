@@ -60,10 +60,10 @@ export function GlossaryContent({
           Translation Glossary
         </h1>
         <p className="text-lg text-neutral-600 dark:text-neutral-400 leading-relaxed">
-          The AIT Bible sometimes uses different words than traditional English
-          translations. This glossary explains why — not to be different for its
-          own sake, but to recover meaning that conventional renderings may
-          obscure.
+          These are the words where the AIT Bible uses a different English
+          word from the traditional one. Each entry gives the reason, the
+          standard scholarly view, and the verses where the word is used.
+          Where scholars disagree, the entry says so.
         </p>
       </div>
 
