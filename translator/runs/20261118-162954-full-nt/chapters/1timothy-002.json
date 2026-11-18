@@ -1,0 +1,285 @@
+{
+ "id": "1timothy-002",
+ "book": "1timothy",
+ "chapter": 2,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZhecMsFgeCdYajhb",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 5586,
+  "output_tokens": 7291
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"First of all, then, I urge that petitions, prayers, intercessions, and thanksgivings be made for all people,\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"for kings and all who hold high position, so that we may lead a tranquil and quiet life in all godliness and dignity.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"This is good and acceptable in the sight of God our Savior,\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"who wants all people to be saved and to come to knowledge of the truth.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For there is one God, and one mediator between God and human beings, Christ Jesus, himself human,\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"who gave himself as a ransom for all, the testimony given at its proper time.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For this I was appointed a herald and an apostle (I am telling the truth; I am not lying), a teacher of the Gentiles in faith and truth.\"}]},{\"verse\":8,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So I want the men in every place to pray, lifting up holy hands without anger or argument.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Likewise, I want women to adorn themselves in respectable dress, with modesty and self-control, not with braided hair and gold or pearls or costly clothing,\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"but, as is fitting for women who profess reverence for God, with good works.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"A woman should learn in quietness, in all submission.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"I do not permit a woman to teach or to exercise authority over a man; she is to be in quietness.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For Adam was formed first, then Eve;\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and Adam was not deceived, but the woman was deceived and has come into transgression.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But she will be saved through childbearing, if they remain in faith and love and holiness, with self-control.\"}]}],\"notes\":[{\"verse\":2,\"phrase\":\"kings\",\"lemma\":\"βασιλεύς\",\"kind\":\"background\",\"traditional\":\"kings\",\"note\":\"In the Greek-speaking East the Roman emperor was commonly called by this word, alongside local client kings. A first-century reader would have understood the prayer to include the emperor and his officials.\"},{\"verse\":5,\"phrase\":\"himself human\",\"lemma\":\"ἄνθρωπος\",\"kind\":\"departure\",\"traditional\":\"the man Christ Jesus\",\"note\":\"The Greek uses the same word twice in a row: a mediator between God and 'humans' who is a 'human'. The word means a human being, not specifically a male, and the point is that the mediator shares the nature of those he represents. The traditional 'the man' hides the repetition and can suggest that maleness is in view.\"},{\"verse\":6,\"phrase\":\"the testimony given at its proper time\",\"lemma\":\"μαρτύριον\",\"kind\":\"ambiguity\",\"traditional\":\"to be testified in due time\",\"note\":\"The Greek is very compressed, literally 'the testimony in its own times', with no verb. It is most often taken to mean that Christ's self-giving was itself God's witness, delivered at the time God chose. Others take it as the testimony now to be proclaimed, which verse 7 then picks up.\"},{\"verse\":7,\"phrase\":\"Gentiles\",\"lemma\":\"ἔθνος\",\"kind\":\"background\",\"traditional\":\"Gentiles\",\"note\":\"The Greek word means 'peoples' or 'nations', and in the plural it is the ordinary Jewish term for the non-Jewish peoples. This translation renders the one word as 'Gentiles' or 'nations' according to sense. Here it echoes the 'all people' of verses 1, 4 and 6.\"},{\"verse\":8,\"phrase\":\"lifting up holy hands\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"lifting up holy hands\",\"note\":\"Standing with hands raised and palms open was the normal posture of prayer among both Jews and Greeks. The emphasis falls on the character of those praying, not on the gesture.\"},{\"verse\":8,\"phrase\":\"argument\",\"lemma\":\"διαλογισμός\",\"kind\":\"ambiguity\",\"traditional\":\"doubting\",\"note\":\"The word means reasoning or deliberation, and can refer either to inward doubt or to outward dispute. Older versions chose 'doubting'. Most modern translations choose 'quarreling' or 'argument', which pairs more naturally with 'anger'.\"},{\"verse\":11,\"phrase\":\"quietness\",\"lemma\":\"ἡσυχία\",\"kind\":\"ambiguity\",\"traditional\":\"silence\",\"note\":\"Older versions have 'silence', and the word can mean that. More often it means calm, a settled and undisruptive manner, and its adjective is the 'quiet' life of verse 2 that all believers are to lead. Many modern translations therefore render 'quietness' or 'quietly'. Whether complete silence in the assembly is meant is disputed.\"},{\"verse\":12,\"phrase\":\"a woman\",\"lemma\":\"γυνή\",\"kind\":\"ambiguity\",\"traditional\":\"a woman\",\"note\":\"The Greek words for 'woman' and 'man' are also the ordinary words for 'wife' and 'husband'. Most interpreters take the general sense here because the surrounding instructions concern the assembly. A minority read verses 11–15 of wife and husband, pointing to the appeal to Adam and Eve and to childbearing.\"},{\"verse\":12,\"phrase\":\"exercise authority over\",\"lemma\":\"αὐθεντέω\",\"kind\":\"ambiguity\",\"traditional\":\"usurp authority over (KJV); exercise authority over, have authority over (most modern versions)\",\"note\":\"This verb occurs only here in the New Testament and is rare in surviving Greek of the period. It is not the usual word for holding authority. Many scholars take it neutrally, as 'exercise authority'. Others argue for a negative or assertive sense such as 'domineer', 'dictate to' or 'assume authority'. The evidence is too thin to settle the question, and the rendering here follows the majority of modern translations.\"},{\"verse\":15,\"phrase\":\"she will be saved through childbearing\",\"lemma\":\"τεκνογονία\",\"kind\":\"ambiguity\",\"traditional\":\"she shall be saved in childbearing\",\"note\":\"This is one of the most disputed sentences in the letters. The Greek has 'the childbearing', which some take as the birth of the Messiah, reversing Eve's transgression. Others read 'kept safe through childbirth'. Others again think women will come to salvation in the ordinary course of motherhood and faithful life, not by abandoning it. The verb shifts from 'she' to 'they' without explanation, probably moving from Eve, or woman as a type, to women generally.\"}],\"candidates\":[{\"lemma\":\"εὐσέβεια\",\"rendering\":\"godliness\",\"verse\":2,\"reason\":\"A key term in the Pastorals, Acts and 2 Peter; 'godliness', 'piety', 'devotion' and 'reverence' are all in use, and 'godliness' may mislead a modern reader toward 'being like God'.\"},{\"lemma\":\"σωφροσύνη\",\"rendering\":\"self-control\",\"verse\":9,\"reason\":\"The σώφρων word group recurs through the Pastorals and elsewhere and is rendered variously as sobriety, propriety, good sense, moderation and self-control; it also needs distinguishing from ἐγκράτεια.\"},{\"lemma\":\"σῴζω\",\"rendering\":\"save\",\"verse\":4,\"reason\":\"Occurs across the whole New Testament with senses from physical rescue and healing to final salvation; verse 15 shows how much turns on whether 'save', 'keep safe' or 'rescue' is chosen.\"},{\"lemma\":\"ὅσιος\",\"rendering\":\"holy\",\"verse\":8,\"reason\":\"A different word from ἅγιος, meaning devout or pleasing to God, yet usually rendered 'holy'; a decision is needed on whether to distinguish the two in English.\"},{\"lemma\":\"γυνή\",\"rendering\":\"woman\",\"verse\":9,\"reason\":\"The same word means 'woman' and 'wife', as ἀνήρ means 'man' and 'husband'; in disputed passages (1 Timothy 2–3, 1 Corinthians 11 and 14) a consistent policy and note are needed.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "First of all, then, I urge that petitions, prayers, intercessions, and thanksgivings be made for all people,"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "for kings and all who hold high position, so that we may lead a tranquil and quiet life in all godliness and dignity."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "This is good and acceptable in the sight of God our Savior,"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "who wants all people to be saved and to come to knowledge of the truth."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For there is one God, and one mediator between God and human beings, Christ Jesus, himself human,"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "who gave himself as a ransom for all, the testimony given at its proper time."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For this I was appointed a herald and an apostle (I am telling the truth; I am not lying), a teacher of the Gentiles in faith and truth."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So I want the men in every place to pray, lifting up holy hands without anger or argument."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Likewise, I want women to adorn themselves in respectable dress, with modesty and self-control, not with braided hair and gold or pearls or costly clothing,"
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "but, as is fitting for women who profess reverence for God, with good works."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "A woman should learn in quietness, in all submission."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "I do not permit a woman to teach or to exercise authority over a man; she is to be in quietness."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For Adam was formed first, then Eve;"
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and Adam was not deceived, but the woman was deceived and has come into transgression."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But she will be saved through childbearing, if they remain in faith and love and holiness, with self-control."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 2,
+    "phrase": "kings",
+    "lemma": "βασιλεύς",
+    "kind": "background",
+    "traditional": "kings",
+    "note": "In the Greek-speaking East the Roman emperor was commonly called by this word, alongside local client kings. A first-century reader would have understood the prayer to include the emperor and his officials."
+   },
+   {
+    "verse": 5,
+    "phrase": "himself human",
+    "lemma": "ἄνθρωπος",
+    "kind": "departure",
+    "traditional": "the man Christ Jesus",
+    "note": "The Greek uses the same word twice in a row: a mediator between God and 'humans' who is a 'human'. The word means a human being, not specifically a male, and the point is that the mediator shares the nature of those he represents. The traditional 'the man' hides the repetition and can suggest that maleness is in view."
+   },
+   {
+    "verse": 6,
+    "phrase": "the testimony given at its proper time",
+    "lemma": "μαρτύριον",
+    "kind": "ambiguity",
+    "traditional": "to be testified in due time",
+    "note": "The Greek is very compressed, literally 'the testimony in its own times', with no verb. It is most often taken to mean that Christ's self-giving was itself God's witness, delivered at the time God chose. Others take it as the testimony now to be proclaimed, which verse 7 then picks up."
+   },
+   {
+    "verse": 7,
+    "phrase": "Gentiles",
+    "lemma": "ἔθνος",
+    "kind": "background",
+    "traditional": "Gentiles",
+    "note": "The Greek word means 'peoples' or 'nations', and in the plural it is the ordinary Jewish term for the non-Jewish peoples. This translation renders the one word as 'Gentiles' or 'nations' according to sense. Here it echoes the 'all people' of verses 1, 4 and 6."
+   },
+   {
+    "verse": 8,
+    "phrase": "lifting up holy hands",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "lifting up holy hands",
+    "note": "Standing with hands raised and palms open was the normal posture of prayer among both Jews and Greeks. The emphasis falls on the character of those praying, not on the gesture."
+   },
+   {
+    "verse": 8,
+    "phrase": "argument",
+    "lemma": "διαλογισμός",
+    "kind": "ambiguity",
+    "traditional": "doubting",
+    "note": "The word means reasoning or deliberation, and can refer either to inward doubt or to outward dispute. Older versions chose 'doubting'. Most modern translations choose 'quarreling' or 'argument', which pairs more naturally with 'anger'."
+   },
+   {
+    "verse": 11,
+    "phrase": "quietness",
+    "lemma": "ἡσυχία",
+    "kind": "ambiguity",
+    "traditional": "silence",
+    "note": "Older versions have 'silence', and the word can mean that. More often it means calm, a settled and undisruptive manner, and its adjective is the 'quiet' life of verse 2 that all believers are to lead. Many modern translations therefore render 'quietness' or 'quietly'. Whether complete silence in the assembly is meant is disputed."
+   },
+   {
+    "verse": 12,
+    "phrase": "a woman",
+    "lemma": "γυνή",
+    "kind": "ambiguity",
+    "traditional": "a woman",
+    "note": "The Greek words for 'woman' and 'man' are also the ordinary words for 'wife' and 'husband'. Most interpreters take the general sense here because the surrounding instructions concern the assembly. A minority read verses 11–15 of wife and husband, pointing to the appeal to Adam and Eve and to childbearing."
+   },
+   {
+    "verse": 12,
+    "phrase": "exercise authority over",
+    "lemma": "αὐθεντέω",
+    "kind": "ambiguity",
+    "traditional": "usurp authority over (KJV); exercise authority over, have authority over (most modern versions)",
+    "note": "This verb occurs only here in the New Testament and is rare in surviving Greek of the period. It is not the usual word for holding authority. Many scholars take it neutrally, as 'exercise authority'. Others argue for a negative or assertive sense such as 'domineer', 'dictate to' or 'assume authority'. The evidence is too thin to settle the question, and the rendering here follows the majority of modern translations."
+   },
+   {
+    "verse": 15,
+    "phrase": "she will be saved through childbearing",
+    "lemma": "τεκνογονία",
+    "kind": "ambiguity",
+    "traditional": "she shall be saved in childbearing",
+    "note": "This is one of the most disputed sentences in the letters. The Greek has 'the childbearing', which some take as the birth of the Messiah, reversing Eve's transgression. Others read 'kept safe through childbirth'. Others again think women will come to salvation in the ordinary course of motherhood and faithful life, not by abandoning it. The verb shifts from 'she' to 'they' without explanation, probably moving from Eve, or woman as a type, to women generally."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "εὐσέβεια",
+    "rendering": "godliness",
+    "verse": 2,
+    "reason": "A key term in the Pastorals, Acts and 2 Peter; 'godliness', 'piety', 'devotion' and 'reverence' are all in use, and 'godliness' may mislead a modern reader toward 'being like God'."
+   },
+   {
+    "lemma": "σωφροσύνη",
+    "rendering": "self-control",
+    "verse": 9,
+    "reason": "The σώφρων word group recurs through the Pastorals and elsewhere and is rendered variously as sobriety, propriety, good sense, moderation and self-control; it also needs distinguishing from ἐγκράτεια."
+   },
+   {
+    "lemma": "σῴζω",
+    "rendering": "save",
+    "verse": 4,
+    "reason": "Occurs across the whole New Testament with senses from physical rescue and healing to final salvation; verse 15 shows how much turns on whether 'save', 'keep safe' or 'rescue' is chosen."
+   },
+   {
+    "lemma": "ὅσιος",
+    "rendering": "holy",
+    "verse": 8,
+    "reason": "A different word from ἅγιος, meaning devout or pleasing to God, yet usually rendered 'holy'; a decision is needed on whether to distinguish the two in English."
+   },
+   {
+    "lemma": "γυνή",
+    "rendering": "woman",
+    "verse": 9,
+    "reason": "The same word means 'woman' and 'wife', as ἀνήρ means 'man' and 'husband'; in disputed passages (1 Timothy 2–3, 1 Corinthians 11 and 14) a consistent policy and note are needed."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

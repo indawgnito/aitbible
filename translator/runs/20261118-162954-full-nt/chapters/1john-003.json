@@ -1,0 +1,383 @@
+{
+ "id": "1john-003",
+ "book": "1john",
+ "chapter": 3,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZfuuoRkFQ7DR8AYp",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 7860,
+  "output_tokens": 14234
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"See what kind of love the Father has given us: that we should be called children of God—and so we are. This is why the world does not know us: it did not know him.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Beloved, now we are children of God, and what we will be has not yet been revealed. We know that when he is revealed we will be like him, because we will see him as he is.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And everyone who has this hope set on him purifies themselves, just as he is pure.\"}]},{\"verse\":4,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Everyone who practices sin also practices lawlessness, and sin is lawlessness.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And you know that he was revealed in order to take away sins, and in him there is no sin.\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"No one who remains in him sins; no one who sins has seen him or known him.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Little children, let no one deceive you. Whoever practices righteousness is righteous, just as he is righteous.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Whoever practices sin is of the devil, because the devil has been sinning from the beginning. The Son of God was revealed for this: to destroy the works of the devil.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"No one who has been born of God practices sin, because God's seed remains in them; and they cannot sin, because they have been born of God.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"By this the children of God and the children of the devil are revealed: anyone who does not practice righteousness is not of God, nor is anyone who does not love their brother or sister.\"}]},{\"verse\":11,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For this is the message you heard from the beginning: that we should love one another,\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"not like Cain, who was of the evil one and slaughtered his brother. And why did he slaughter him? Because his own works were evil and his brother's were righteous.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Do not be surprised, brothers and sisters, if the world hates you.\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"We know that we have crossed over from death into life, because we love the brothers and sisters. Whoever does not love remains in death.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Everyone who hates their brother or sister is a murderer, and you know that no murderer has eternal life remaining in them.\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"By this we have come to know love: he laid down his life for us. And we ought to lay down our lives for the brothers and sisters.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But whoever has the world's goods and sees their brother or sister in need, yet closes off compassion toward them—how does the love of God remain in such a person?\"}]},{\"verse\":18,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Little children, let us not love with word or with tongue, but in deed and truth.\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"By this we will know that we are of the truth, and in his presence we will set our hearts at rest\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"whenever our hearts condemn us; for God is greater than our hearts, and he knows everything.\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Beloved, if our hearts do not condemn us, we have confidence before God,\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and whatever we ask we receive from him, because we keep his commandments and do what is pleasing in his sight.\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And this is his commandment: that we believe in the name of his Son Jesus Christ and love one another, just as he commanded us.\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And whoever keeps his commandments remains in him, and he in that person. And by this we know that he remains in us: by the Spirit he gave us.\"}]}],\"notes\":[{\"verse\":2,\"phrase\":\"when he is revealed\",\"lemma\":\"φανερόω\",\"kind\":\"ambiguity\",\"traditional\":\"when he shall appear\",\"note\":\"The Greek verb has no expressed subject, so it can also be read 'when it is revealed', that is, when what we will be is made known. The rendering follows 2:28, where the same expression clearly refers to Christ's coming, and most translations do likewise. The word translated 'when' does not imply doubt about the event.\"},{\"verse\":3,\"phrase\":\"just as he is pure\",\"lemma\":\"ἐκεῖνος\",\"kind\":\"background\",\"traditional\":\"even as he is pure\",\"note\":\"Here and in verses 5, 7 and 16 the Greek says 'that one', a pronoun this letter uses to point to Jesus without naming him. English 'he' cannot show the distinction, but in each case the reference is to Christ.\"},{\"verse\":6,\"phrase\":\"sins\",\"lemma\":\"ἁμαρτάνω\",\"kind\":\"ambiguity\",\"traditional\":\"sinneth not / does not keep on sinning\",\"note\":\"The Greek is a plain present tense, as in verse 9 ('cannot sin'). Many modern translations render 'keeps on sinning' or 'makes a practice of sinning', taking the tense to describe a habit, which eases the tension with 1:8–2:1, where believers are said to sin. Whether the tense alone can carry that weight is disputed, so the text leaves the statement as stark as the Greek. 'Practices sin' in verses 4, 8 and 9 renders a different expression, literally 'does sin', the counterpart of 'does righteousness'.\"},{\"verse\":6,\"phrase\":\"remains\",\"lemma\":\"μένω\",\"kind\":\"departure\",\"traditional\":\"abides\",\"note\":\"The traditional 'abide' is now archaic. The Greek is the ordinary word for staying or remaining somewhere, and the letter uses it repeatedly (verses 6, 9, 14, 15, 17, 24). 'Remains' is used throughout so that the repetition is visible.\"},{\"verse\":7,\"phrase\":\"righteousness\",\"lemma\":\"δικαιοσύνη\",\"kind\":\"background\",\"traditional\":\"righteousness\",\"note\":\"Greek has a single word-family where English has two: 'righteous' and 'just', 'righteousness' and 'justice'. In this chapter the sense is doing what is right, and 'righteous' in verses 7 and 12 is the matching adjective.\"},{\"verse\":9,\"phrase\":\"God's seed remains in them\",\"lemma\":\"σπέρμα\",\"kind\":\"ambiguity\",\"traditional\":\"his seed remaineth in him\",\"note\":\"The Greek is literally 'his seed remains in him'. Most interpreters take it as God's seed remaining in the believer, an image of divine life implanted at birth from God, variously identified with the Spirit or the word. Since 'seed' can also mean offspring, a minority read 'God's offspring remain in him', that is, in God.\"},{\"verse\":10,\"phrase\":\"their brother or sister\",\"lemma\":\"ἀδελφός\",\"kind\":\"departure\",\"traditional\":\"his brother\",\"note\":\"The Greek word is grammatically masculine but was the ordinary way of referring to fellow members of the community, women included. It is rendered 'brother or sister', and in the plural 'brothers and sisters', as several recent translations do. In verse 12 it is Cain's literal brother Abel, and the Greek reader would hear the same word throughout.\"},{\"verse\":12,\"phrase\":\"slaughtered\",\"lemma\":\"σφάζω\",\"kind\":\"departure\",\"traditional\":\"slew / murdered\",\"note\":\"The verb is not the usual word for killing. It is used of butchering animals and of violent, bloody killing; outside this verse the New Testament uses it only in Revelation. Most translations have 'murdered' or 'killed'; 'slaughtered' keeps the brutality of the word.\"},{\"verse\":15,\"phrase\":\"eternal life\",\"lemma\":\"αἰώνιος\",\"kind\":\"background\",\"traditional\":\"eternal life\",\"note\":\"In Jewish usage 'eternal life' is the life of the age to come, so the phrase speaks of a kind of life as well as its unending length. In this letter that life is something believers already have, as verse 14 says.\"},{\"verse\":17,\"phrase\":\"closes off compassion\",\"lemma\":\"σπλάγχνον\",\"kind\":\"departure\",\"traditional\":\"shutteth up his bowels of compassion / closes his heart\",\"note\":\"The Greek word means the inward parts, regarded as the seat of pity and tender feeling. Modern translations often say 'heart', but a different Greek word for 'heart' follows in verses 19–21, so 'compassion' is used here to keep the two apart.\"},{\"verse\":19,\"phrase\":\"set our hearts at rest\",\"lemma\":\"πείθω\",\"kind\":\"ambiguity\",\"traditional\":\"shall assure our hearts\",\"note\":\"The grammar of verses 19–20 is among the most difficult in the letter. The verb normally means 'persuade', and the Greek of verse 20 has two connecting words that can each be read as 'that', 'because' or, in the first case, 'whenever'. The rendering follows the common view that God's greater knowledge is a comfort to a self-accusing conscience. Others read 'we will convince our hearts that God is greater', and a few take God's greatness as a warning, not a reassurance.\"}],\"candidates\":[{\"lemma\":\"μένω\",\"rendering\":\"remain\",\"verse\":6,\"reason\":\"A key Johannine term across the Gospel and letters, where translations vary between 'abide', 'remain', 'live' and 'stay', and the repetition is lost if the English varies.\"},{\"lemma\":\"ἀδελφός\",\"rendering\":\"brother or sister / brothers and sisters\",\"verse\":10,\"reason\":\"Occurs throughout the New Testament for fellow believers, and the choice between 'brother' and an inclusive rendering needs to be made once.\"},{\"lemma\":\"φανερόω\",\"rendering\":\"reveal\",\"verse\":2,\"reason\":\"Used of Christ's first and future coming across John, the Johannine letters and Paul, where 'appear', 'reveal' and 'make manifest' compete and need to be kept distinct from ἀποκαλύπτω.\"},{\"lemma\":\"παρρησία\",\"rendering\":\"confidence\",\"verse\":21,\"reason\":\"Recurs in John, Acts, Paul, Hebrews and 1 John with renderings ranging over 'boldness', 'confidence', 'openness' and 'plain speech', so its senses need mapping.\"},{\"lemma\":\"ἀγαπητός\",\"rendering\":\"beloved\",\"verse\":2,\"reason\":\"A frequent form of address in the letters, where 'beloved' and 'dear friends' compete and only the first keeps the link with the love vocabulary.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "See what kind of love the Father has given us: that we should be called children of God—and so we are. This is why the world does not know us: it did not know him."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Beloved, now we are children of God, and what we will be has not yet been revealed. We know that when he is revealed we will be like him, because we will see him as he is."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And everyone who has this hope set on him purifies themselves, just as he is pure."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Everyone who practices sin also practices lawlessness, and sin is lawlessness."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And you know that he was revealed in order to take away sins, and in him there is no sin."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "No one who remains in him sins; no one who sins has seen him or known him."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Little children, let no one deceive you. Whoever practices righteousness is righteous, just as he is righteous."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Whoever practices sin is of the devil, because the devil has been sinning from the beginning. The Son of God was revealed for this: to destroy the works of the devil."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "No one who has been born of God practices sin, because God's seed remains in them; and they cannot sin, because they have been born of God."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "By this the children of God and the children of the devil are revealed: anyone who does not practice righteousness is not of God, nor is anyone who does not love their brother or sister."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For this is the message you heard from the beginning: that we should love one another,"
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "not like Cain, who was of the evil one and slaughtered his brother. And why did he slaughter him? Because his own works were evil and his brother's were righteous."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Do not be surprised, brothers and sisters, if the world hates you."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "We know that we have crossed over from death into life, because we love the brothers and sisters. Whoever does not love remains in death."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Everyone who hates their brother or sister is a murderer, and you know that no murderer has eternal life remaining in them."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "By this we have come to know love: he laid down his life for us. And we ought to lay down our lives for the brothers and sisters."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But whoever has the world's goods and sees their brother or sister in need, yet closes off compassion toward them—how does the love of God remain in such a person?"
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Little children, let us not love with word or with tongue, but in deed and truth."
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "By this we will know that we are of the truth, and in his presence we will set our hearts at rest"
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "whenever our hearts condemn us; for God is greater than our hearts, and he knows everything."
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Beloved, if our hearts do not condemn us, we have confidence before God,"
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and whatever we ask we receive from him, because we keep his commandments and do what is pleasing in his sight."
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And this is his commandment: that we believe in the name of his Son Jesus Christ and love one another, just as he commanded us."
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And whoever keeps his commandments remains in him, and he in that person. And by this we know that he remains in us: by the Spirit he gave us."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 2,
+    "phrase": "when he is revealed",
+    "lemma": "φανερόω",
+    "kind": "ambiguity",
+    "traditional": "when he shall appear",
+    "note": "The Greek verb has no expressed subject, so it can also be read 'when it is revealed', that is, when what we will be is made known. The rendering follows 2:28, where the same expression clearly refers to Christ's coming, and most translations do likewise. The word translated 'when' does not imply doubt about the event."
+   },
+   {
+    "verse": 3,
+    "phrase": "just as he is pure",
+    "lemma": "ἐκεῖνος",
+    "kind": "background",
+    "traditional": "even as he is pure",
+    "note": "Here and in verses 5, 7 and 16 the Greek says 'that one', a pronoun this letter uses to point to Jesus without naming him. English 'he' cannot show the distinction, but in each case the reference is to Christ."
+   },
+   {
+    "verse": 6,
+    "phrase": "sins",
+    "lemma": "ἁμαρτάνω",
+    "kind": "ambiguity",
+    "traditional": "sinneth not / does not keep on sinning",
+    "note": "The Greek is a plain present tense, as in verse 9 ('cannot sin'). Many modern translations render 'keeps on sinning' or 'makes a practice of sinning', taking the tense to describe a habit, which eases the tension with 1:8–2:1, where believers are said to sin. Whether the tense alone can carry that weight is disputed, so the text leaves the statement as stark as the Greek. 'Practices sin' in verses 4, 8 and 9 renders a different expression, literally 'does sin', the counterpart of 'does righteousness'."
+   },
+   {
+    "verse": 6,
+    "phrase": "remains",
+    "lemma": "μένω",
+    "kind": "departure",
+    "traditional": "abides",
+    "note": "The traditional 'abide' is now archaic. The Greek is the ordinary word for staying or remaining somewhere, and the letter uses it repeatedly (verses 6, 9, 14, 15, 17, 24). 'Remains' is used throughout so that the repetition is visible."
+   },
+   {
+    "verse": 7,
+    "phrase": "righteousness",
+    "lemma": "δικαιοσύνη",
+    "kind": "background",
+    "traditional": "righteousness",
+    "note": "Greek has a single word-family where English has two: 'righteous' and 'just', 'righteousness' and 'justice'. In this chapter the sense is doing what is right, and 'righteous' in verses 7 and 12 is the matching adjective."
+   },
+   {
+    "verse": 9,
+    "phrase": "God's seed remains in them",
+    "lemma": "σπέρμα",
+    "kind": "ambiguity",
+    "traditional": "his seed remaineth in him",
+    "note": "The Greek is literally 'his seed remains in him'. Most interpreters take it as God's seed remaining in the believer, an image of divine life implanted at birth from God, variously identified with the Spirit or the word. Since 'seed' can also mean offspring, a minority read 'God's offspring remain in him', that is, in God."
+   },
+   {
+    "verse": 10,
+    "phrase": "their brother or sister",
+    "lemma": "ἀδελφός",
+    "kind": "departure",
+    "traditional": "his brother",
+    "note": "The Greek word is grammatically masculine but was the ordinary way of referring to fellow members of the community, women included. It is rendered 'brother or sister', and in the plural 'brothers and sisters', as several recent translations do. In verse 12 it is Cain's literal brother Abel, and the Greek reader would hear the same word throughout."
+   },
+   {
+    "verse": 12,
+    "phrase": "slaughtered",
+    "lemma": "σφάζω",
+    "kind": "departure",
+    "traditional": "slew / murdered",
+    "note": "The verb is not the usual word for killing. It is used of butchering animals and of violent, bloody killing; outside this verse the New Testament uses it only in Revelation. Most translations have 'murdered' or 'killed'; 'slaughtered' keeps the brutality of the word."
+   },
+   {
+    "verse": 15,
+    "phrase": "eternal life",
+    "lemma": "αἰώνιος",
+    "kind": "background",
+    "traditional": "eternal life",
+    "note": "In Jewish usage 'eternal life' is the life of the age to come, so the phrase speaks of a kind of life as well as its unending length. In this letter that life is something believers already have, as verse 14 says."
+   },
+   {
+    "verse": 17,
+    "phrase": "closes off compassion",
+    "lemma": "σπλάγχνον",
+    "kind": "departure",
+    "traditional": "shutteth up his bowels of compassion / closes his heart",
+    "note": "The Greek word means the inward parts, regarded as the seat of pity and tender feeling. Modern translations often say 'heart', but a different Greek word for 'heart' follows in verses 19–21, so 'compassion' is used here to keep the two apart."
+   },
+   {
+    "verse": 19,
+    "phrase": "set our hearts at rest",
+    "lemma": "πείθω",
+    "kind": "ambiguity",
+    "traditional": "shall assure our hearts",
+    "note": "The grammar of verses 19–20 is among the most difficult in the letter. The verb normally means 'persuade', and the Greek of verse 20 has two connecting words that can each be read as 'that', 'because' or, in the first case, 'whenever'. The rendering follows the common view that God's greater knowledge is a comfort to a self-accusing conscience. Others read 'we will convince our hearts that God is greater', and a few take God's greatness as a warning, not a reassurance."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "μένω",
+    "rendering": "remain",
+    "verse": 6,
+    "reason": "A key Johannine term across the Gospel and letters, where translations vary between 'abide', 'remain', 'live' and 'stay', and the repetition is lost if the English varies."
+   },
+   {
+    "lemma": "ἀδελφός",
+    "rendering": "brother or sister / brothers and sisters",
+    "verse": 10,
+    "reason": "Occurs throughout the New Testament for fellow believers, and the choice between 'brother' and an inclusive rendering needs to be made once."
+   },
+   {
+    "lemma": "φανερόω",
+    "rendering": "reveal",
+    "verse": 2,
+    "reason": "Used of Christ's first and future coming across John, the Johannine letters and Paul, where 'appear', 'reveal' and 'make manifest' compete and need to be kept distinct from ἀποκαλύπτω."
+   },
+   {
+    "lemma": "παρρησία",
+    "rendering": "confidence",
+    "verse": 21,
+    "reason": "Recurs in John, Acts, Paul, Hebrews and 1 John with renderings ranging over 'boldness', 'confidence', 'openness' and 'plain speech', so its senses need mapping."
+   },
+   {
+    "lemma": "ἀγαπητός",
+    "rendering": "beloved",
+    "verse": 2,
+    "reason": "A frequent form of address in the letters, where 'beloved' and 'dear friends' compete and only the first keeps the link with the love vocabulary."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

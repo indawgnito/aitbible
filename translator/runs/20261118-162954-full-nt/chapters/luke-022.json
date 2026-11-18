@@ -1,0 +1,1045 @@
+{
+ "id": "luke-022",
+ "book": "luke",
+ "chapter": 22,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZmbwiZitjgpoYKUf",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 11500,
+  "output_tokens": 21716
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now the Feast of Unleavened Bread, which is called Passover, was drawing near.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And the chief priests and the scribes were looking for a way to do away with him, for they were afraid of the people.\"}]},{\"verse\":3,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then Satan entered Judas, the one called Iscariot, who belonged to the number of the Twelve.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He went off and discussed with the chief priests and the officers of the guard how he might hand him over to them.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They were delighted and agreed to give him money.\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He consented, and began looking for a good opportunity to hand him over to them when no crowd was present.\"}]},{\"verse\":7,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then came the day of Unleavened Bread, on which the Passover lamb had to be sacrificed.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus sent Peter and John, saying,\"},{\"speaker\":\"Jesus\",\"text\":\"“Go and prepare the Passover for us, so that we may eat it.”\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They said to him,\"},{\"speaker\":\"other\",\"text\":\"“Where do you want us to prepare it?”\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Look, when you have entered the city, a man carrying a jar of water will meet you. Follow him into the house that he enters,\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"and say to the master of the house, ‘The Teacher says to you: “Where is the guest room where I may eat the Passover with my disciples?”’\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And he will show you a large upstairs room, furnished. Prepare it there.”\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They went and found it just as he had told them, and they prepared the Passover.\"}]},{\"verse\":14,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When the hour came, he reclined at table, and the apostles with him.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And he said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“I have earnestly longed to eat this Passover with you before I suffer.\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For I tell you, I will certainly not eat it until it is fulfilled in the kingdom of God.”\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then he took a cup, gave thanks and said,\"},{\"speaker\":\"Jesus\",\"text\":\"“Take this and share it among yourselves.\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For I tell you, from now on I will certainly not drink of the fruit of the vine until the kingdom of God comes.”\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And he took bread, gave thanks, broke it and gave it to them, saying,\"},{\"speaker\":\"Jesus\",\"text\":\"“This is my body [which is given for you. Do this in remembrance of me.”\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And he did the same with the cup after the supper, saying,\"},{\"speaker\":\"Jesus\",\"text\":\"“This cup that is poured out for you is the new covenant in my blood.”]\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"“But look, the hand of the one who is handing me over is with me on the table.\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For the Son of Man goes as it has been determined, but woe to that man through whom he is handed over!”\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And they began to ask one another which of them it could be who was going to do this.\"}]},{\"verse\":24,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"A dispute also arose among them as to which of them was considered the greatest.\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But he said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“The kings of the Gentiles lord it over them, and those who have authority over them are called Benefactors.\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But not so with you. Rather, let the greatest among you become like the youngest, and the one who leads like the one who serves.\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For who is greater, the one who reclines at table or the one who serves? Is it not the one who reclines? But I am among you as the one who serves.\"}]},{\"verse\":28,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"You are the ones who have stayed with me through my times of testing.\"}]},{\"verse\":29,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And I confer on you a kingdom, just as my Father conferred one on me,\"}]},{\"verse\":30,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"so that you may eat and drink at my table in my kingdom, and you will sit on thrones judging the twelve tribes of Israel.\"}]},{\"verse\":31,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Simon, Simon, look! Satan has demanded to have all of you, to sift you like wheat,\"}]},{\"verse\":32,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"but I have pleaded for you, that your faith may not fail. And you, once you have turned back, strengthen your brothers.”\"}]},{\"verse\":33,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But he said to him,\"},{\"speaker\":\"other\",\"text\":\"“Lord, with you I am ready to go both to prison and to death.”\"}]},{\"verse\":34,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He said,\"},{\"speaker\":\"Jesus\",\"text\":\"“I tell you, Peter, the rooster will not crow today until you have three times denied that you know me.”\"}]},{\"verse\":35,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And he said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“When I sent you out without purse or bag or sandals, did you lack anything?”\"},{\"speaker\":\"narrator\",\"text\":\"They said,\"},{\"speaker\":\"other\",\"text\":\"“Nothing.”\"}]},{\"verse\":36,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“But now, whoever has a purse should take it, and likewise a bag; and whoever does not have a sword should sell his cloak and buy one.\"}]},{\"verse\":37,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For I tell you, this that is written must be brought to completion in me: ‘And he was counted among the lawless.’ For indeed what concerns me is reaching its completion.”\"}]},{\"verse\":38,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They said,\"},{\"speaker\":\"other\",\"text\":\"“Lord, look, here are two swords.”\"},{\"speaker\":\"narrator\",\"text\":\"He said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“That is enough.”\"}]},{\"verse\":39,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He went out and made his way, as was his custom, to the Mount of Olives, and the disciples followed him.\"}]},{\"verse\":40,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When he reached the place, he said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Pray that you may not enter into testing.”\"}]},{\"verse\":41,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And he withdrew from them about a stone’s throw, knelt down and prayed,\"}]},{\"verse\":42,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"saying,\"},{\"speaker\":\"Jesus\",\"text\":\"“Father, if you are willing, take this cup away from me. Yet not my will but yours be done.”\"}]},{\"verse\":43,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And an angel from heaven appeared to him, strengthening him.\"}]},{\"verse\":44,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And being in anguish, he prayed more earnestly, and his sweat became like drops of blood falling to the ground.\"}]},{\"verse\":45,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When he rose from prayer and came to the disciples, he found them asleep from grief,\"}]},{\"verse\":46,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and he said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Why are you sleeping? Get up and pray, so that you may not enter into testing.”\"}]},{\"verse\":47,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"While he was still speaking, a crowd appeared, and the one called Judas, one of the Twelve, was leading them. He came up to Jesus to kiss him.\"}]},{\"verse\":48,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But Jesus said to him,\"},{\"speaker\":\"Jesus\",\"text\":\"“Judas, is it with a kiss that you hand over the Son of Man?”\"}]},{\"verse\":49,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When those around him saw what was about to happen, they said,\"},{\"speaker\":\"other\",\"text\":\"“Lord, shall we strike with the sword?”\"}]},{\"verse\":50,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And one of them struck the high priest’s slave and cut off his right ear.\"}]},{\"verse\":51,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But Jesus answered,\"},{\"speaker\":\"Jesus\",\"text\":\"“Stop! No more of this.”\"},{\"speaker\":\"narrator\",\"text\":\"And he touched the ear and healed him.\"}]},{\"verse\":52,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then Jesus said to the chief priests, officers of the temple guard and elders who had come out against him,\"},{\"speaker\":\"Jesus\",\"text\":\"“Have you come out with swords and clubs as if against a bandit?\"}]},{\"verse\":53,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Day after day I was with you in the temple, and you did not lay a hand on me. But this is your hour, and the authority of darkness.”\"}]},{\"verse\":54,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They seized him, led him away and brought him into the high priest’s house. Peter was following at a distance.\"}]},{\"verse\":55,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When they had lit a fire in the middle of the courtyard and sat down together, Peter sat among them.\"}]},{\"verse\":56,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"A slave girl saw him sitting in the firelight, looked closely at him and said,\"},{\"speaker\":\"other\",\"text\":\"“This man was with him too.”\"}]},{\"verse\":57,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But he denied it, saying,\"},{\"speaker\":\"other\",\"text\":\"“I do not know him, woman.”\"}]},{\"verse\":58,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"A little later someone else saw him and said,\"},{\"speaker\":\"other\",\"text\":\"“You are one of them too.”\"},{\"speaker\":\"narrator\",\"text\":\"But Peter said,\"},{\"speaker\":\"other\",\"text\":\"“Man, I am not!”\"}]},{\"verse\":59,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"About an hour later another man kept insisting,\"},{\"speaker\":\"other\",\"text\":\"“Certainly this man was with him too, for he is a Galilean.”\"}]},{\"verse\":60,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But Peter said,\"},{\"speaker\":\"other\",\"text\":\"“Man, I do not know what you are talking about.”\"},{\"speaker\":\"narrator\",\"text\":\"And immediately, while he was still speaking, a rooster crowed.\"}]},{\"verse\":61,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And the Lord turned and looked at Peter, and Peter remembered the word of the Lord, how he had said to him,\"},{\"speaker\":\"Jesus\",\"text\":\"“Before a rooster crows today, you will deny me three times.”\"}]},{\"verse\":62,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And he went outside and wept bitterly.\"}]},{\"verse\":63,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The men who were holding Jesus began mocking him and beating him.\"}]},{\"verse\":64,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They blindfolded him and kept asking,\"},{\"speaker\":\"other\",\"text\":\"“Prophesy! Who is it that hit you?”\"}]},{\"verse\":65,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And they said many other abusive things against him.\"}]},{\"verse\":66,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When day came, the assembly of the elders of the people gathered, both chief priests and scribes, and they brought him before their council,\"}]},{\"verse\":67,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"saying,\"},{\"speaker\":\"other\",\"text\":\"“If you are the Messiah, tell us.”\"},{\"speaker\":\"narrator\",\"text\":\"But he said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“If I tell you, you will certainly not believe,\"}]},{\"verse\":68,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"and if I ask a question, you will certainly not answer.\"}]},{\"verse\":69,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But from now on the Son of Man will be seated at the right hand of the power of God.”\"}]},{\"verse\":70,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They all said,\"},{\"speaker\":\"other\",\"text\":\"“Are you, then, the Son of God?”\"},{\"speaker\":\"narrator\",\"text\":\"He said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“You say that I am.”\"}]},{\"verse\":71,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They said,\"},{\"speaker\":\"other\",\"text\":\"“What further need do we have of testimony? We have heard it ourselves from his own mouth.”\"}]}],\"notes\":[{\"verse\":4,\"phrase\":\"hand him over\",\"lemma\":\"παραδίδωμι\",\"kind\":\"departure\",\"traditional\":\"betray\",\"note\":\"The Greek verb means to hand someone or something over, and is the ordinary word for delivering a person into custody. It does not in itself carry the idea of treachery, though the context supplies it here. Most English versions say “betray” for Judas’s act; this translation keeps “hand over” throughout the chapter (verses 4, 6, 21, 22, 48), so that the reader sees the same word that is used elsewhere of Jesus being handed over to the authorities.\"},{\"verse\":19,\"phrase\":\"[which is given for you. Do this in remembrance of me.”\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"\",\"note\":\"The words in square brackets, running from here to the end of verse 20, are missing from one important early Greek manuscript and from several Old Latin copies, which therefore have no cup after the bread. They are present in almost all other manuscripts, including the earliest. Most scholars today regard them as original, but the edition translated here brackets them to mark the doubt.\"},{\"verse\":25,\"phrase\":\"Gentiles\",\"lemma\":\"ἔθνος\",\"kind\":\"ambiguity\",\"traditional\":\"Gentiles\",\"note\":\"The Greek word means “peoples” or “nations” and, in the plural on Jewish lips, the non-Jewish peoples. The phrase could equally be translated “the kings of the nations”. English uses two words where the Greek has one.\"},{\"verse\":25,\"phrase\":\"Benefactors\",\"lemma\":\"εὐεργέτης\",\"kind\":\"background\",\"traditional\":\"benefactors\",\"note\":\"“Benefactor” was a formal title of honour in the Greek-speaking world. It was voted to kings and wealthy patrons by the cities they favoured, and some Hellenistic kings bore it as part of their name. Jesus’ remark is pointed: rulers who dominate their subjects are publicly praised as their benefactors.\"},{\"verse\":37,\"phrase\":\"counted among the lawless\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"numbered with the transgressors\",\"note\":\"The quotation is from Isaiah 53:12, part of the passage about the suffering servant. Jesus applies it to his coming arrest and execution alongside criminals. “Brought to completion” and “reaching its completion” reflect two related Greek words in the verse.\"},{\"verse\":36,\"phrase\":\"whoever does not have a sword\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"he that hath no sword\",\"note\":\"The Greek says only “the one who does not have”, without stating the object. It may mean “whoever has no sword”, as here and in most translations, or “whoever has no purse”, meaning that even someone without money should sell his cloak to buy a sword. Either way, most interpreters take the saying as a vivid warning of coming hostility, not as a literal instruction to arm.\"},{\"verse\":38,\"phrase\":\"That is enough.\",\"lemma\":\"ἱκανός\",\"kind\":\"ambiguity\",\"traditional\":\"It is enough\",\"note\":\"The reply can mean that two swords are sufficient, or it can be a way of closing the conversation, as in “Enough of this.” Most interpreters prefer the second, since the disciples have taken the saying about swords literally and Jesus later stops their use of one (verse 51). The translation leaves both readings open, as the Greek does.\"},{\"verse\":40,\"phrase\":\"testing\",\"lemma\":\"πειρασμός\",\"kind\":\"departure\",\"traditional\":\"temptation\",\"note\":\"The Greek word covers both a test or trial of someone’s loyalty and an enticement to do wrong; English “temptation” now suggests only the second. Here, on the night of the arrest, the danger is a crisis that will test the disciples’ loyalty, and the same word in verse 28 (“times of testing”) describes what Jesus himself has been through. Some modern versions likewise have “the time of trial”.\"},{\"verse\":43,\"phrase\":\"an angel from heaven appeared to him\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"\",\"note\":\"Verses 43 and 44 are absent from several of the earliest and most important manuscripts and present in others, and they were known to Christian writers as early as the second century. Scholars are divided on whether Luke wrote them or they are a very early addition. The edition translated here prints them as part of the text.\"},{\"verse\":50,\"phrase\":\"slave\",\"lemma\":\"δοῦλος\",\"kind\":\"departure\",\"traditional\":\"servant\",\"note\":\"The Greek word denotes a person owned by another, not a hired employee. “Servant” is the traditional English rendering, but it suggests a freer status than the word conveyed to a first-century reader. Many recent translations also use “slave”.\"},{\"verse\":51,\"phrase\":\"Stop! No more of this.\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"Suffer ye thus far\",\"note\":\"The Greek is terse, literally “Allow as far as this.” It is usually taken as a command to the disciples to stop fighting. It could also mean “Let them do even this”, that is, allow the arrest to go ahead. The translation follows the majority view.\"},{\"verse\":52,\"phrase\":\"bandit\",\"lemma\":\"λῃστής\",\"kind\":\"departure\",\"traditional\":\"robber, thief\",\"note\":\"The word refers to someone who robs with violence, a brigand or outlaw, and not to a sneak thief, for which Greek has a different word. In the period it was also applied to armed insurgents. The point is that they have come armed as if he were a dangerous outlaw.\"},{\"verse\":67,\"phrase\":\"Messiah\",\"lemma\":\"Χριστός\",\"kind\":\"departure\",\"traditional\":\"Christ\",\"note\":\"The Greek word means “anointed one” and translates the Hebrew title for the king Israel expected. Here the council is asking about that title, not using a name, so “Messiah” is used. Several modern translations make the same distinction, keeping “Christ” where the word functions as a name for Jesus.\"},{\"verse\":70,\"phrase\":\"You say that I am.\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"Ye say that I am\",\"note\":\"The reply is indirect. It may be an idiom of assent (“You are right to say that I am”), or it may put the responsibility for the statement back on the questioners without a plain yes. The Greek could also be read “You say it, because I am.” The council treats it as an admission in the next verse.\"}],\"candidates\":[{\"lemma\":\"παραδίδωμι\",\"rendering\":\"hand over\",\"verse\":4,\"reason\":\"The same verb is used of Judas, the priests, Pilate and God delivering Jesus up; translators split between “betray”, “hand over” and “deliver”, which hides the thread from readers.\"},{\"lemma\":\"πειρασμός\",\"rendering\":\"testing\",\"verse\":28,\"reason\":\"It recurs in the Lord’s Prayer, the wilderness narrative, James and 1 Peter, and the choice between “temptation”, “trial” and “testing” should be made once.\"},{\"lemma\":\"δοῦλος\",\"rendering\":\"slave\",\"verse\":50,\"reason\":\"It is very frequent across the Gospels and letters, including as a self-description of the apostles, and “servant” versus “slave” needs a single policy.\"},{\"lemma\":\"διαθήκη\",\"rendering\":\"covenant\",\"verse\":20,\"reason\":\"It recurs in the Gospels, Paul and Hebrews, where “covenant”, “testament” and “will” compete, and the related verb in verse 29 plays on it.\"},{\"lemma\":\"γραμματεύς\",\"rendering\":\"scribe\",\"verse\":2,\"reason\":\"It is frequent in the Gospels and Acts; “scribe” suggests a copyist to modern readers where the sense is closer to a scholar or teacher of the law, so one decision is needed.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now the Feast of Unleavened Bread, which is called Passover, was drawing near."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And the chief priests and the scribes were looking for a way to do away with him, for they were afraid of the people."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then Satan entered Judas, the one called Iscariot, who belonged to the number of the Twelve."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He went off and discussed with the chief priests and the officers of the guard how he might hand him over to them."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They were delighted and agreed to give him money."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He consented, and began looking for a good opportunity to hand him over to them when no crowd was present."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then came the day of Unleavened Bread, on which the Passover lamb had to be sacrificed."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus sent Peter and John, saying,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Go and prepare the Passover for us, so that we may eat it.”"
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Where do you want us to prepare it?”"
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Look, when you have entered the city, a man carrying a jar of water will meet you. Follow him into the house that he enters,"
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "and say to the master of the house, ‘The Teacher says to you: “Where is the guest room where I may eat the Passover with my disciples?”’"
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And he will show you a large upstairs room, furnished. Prepare it there.”"
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They went and found it just as he had told them, and they prepared the Passover."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When the hour came, he reclined at table, and the apostles with him."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And he said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“I have earnestly longed to eat this Passover with you before I suffer."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For I tell you, I will certainly not eat it until it is fulfilled in the kingdom of God.”"
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then he took a cup, gave thanks and said,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Take this and share it among yourselves."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For I tell you, from now on I will certainly not drink of the fruit of the vine until the kingdom of God comes.”"
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And he took bread, gave thanks, broke it and gave it to them, saying,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“This is my body [which is given for you. Do this in remembrance of me.”"
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And he did the same with the cup after the supper, saying,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“This cup that is poured out for you is the new covenant in my blood.”]"
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "“But look, the hand of the one who is handing me over is with me on the table."
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For the Son of Man goes as it has been determined, but woe to that man through whom he is handed over!”"
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And they began to ask one another which of them it could be who was going to do this."
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "A dispute also arose among them as to which of them was considered the greatest."
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But he said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“The kings of the Gentiles lord it over them, and those who have authority over them are called Benefactors."
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But not so with you. Rather, let the greatest among you become like the youngest, and the one who leads like the one who serves."
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For who is greater, the one who reclines at table or the one who serves? Is it not the one who reclines? But I am among you as the one who serves."
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "You are the ones who have stayed with me through my times of testing."
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And I confer on you a kingdom, just as my Father conferred one on me,"
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "so that you may eat and drink at my table in my kingdom, and you will sit on thrones judging the twelve tribes of Israel."
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Simon, Simon, look! Satan has demanded to have all of you, to sift you like wheat,"
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "but I have pleaded for you, that your faith may not fail. And you, once you have turned back, strengthen your brothers.”"
+     }
+    ]
+   },
+   {
+    "verse": 33,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But he said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Lord, with you I am ready to go both to prison and to death.”"
+     }
+    ]
+   },
+   {
+    "verse": 34,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He said,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“I tell you, Peter, the rooster will not crow today until you have three times denied that you know me.”"
+     }
+    ]
+   },
+   {
+    "verse": 35,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And he said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“When I sent you out without purse or bag or sandals, did you lack anything?”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "They said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Nothing.”"
+     }
+    ]
+   },
+   {
+    "verse": 36,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“But now, whoever has a purse should take it, and likewise a bag; and whoever does not have a sword should sell his cloak and buy one."
+     }
+    ]
+   },
+   {
+    "verse": 37,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For I tell you, this that is written must be brought to completion in me: ‘And he was counted among the lawless.’ For indeed what concerns me is reaching its completion.”"
+     }
+    ]
+   },
+   {
+    "verse": 38,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Lord, look, here are two swords.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "He said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“That is enough.”"
+     }
+    ]
+   },
+   {
+    "verse": 39,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He went out and made his way, as was his custom, to the Mount of Olives, and the disciples followed him."
+     }
+    ]
+   },
+   {
+    "verse": 40,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When he reached the place, he said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Pray that you may not enter into testing.”"
+     }
+    ]
+   },
+   {
+    "verse": 41,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And he withdrew from them about a stone’s throw, knelt down and prayed,"
+     }
+    ]
+   },
+   {
+    "verse": 42,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "saying,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Father, if you are willing, take this cup away from me. Yet not my will but yours be done.”"
+     }
+    ]
+   },
+   {
+    "verse": 43,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And an angel from heaven appeared to him, strengthening him."
+     }
+    ]
+   },
+   {
+    "verse": 44,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And being in anguish, he prayed more earnestly, and his sweat became like drops of blood falling to the ground."
+     }
+    ]
+   },
+   {
+    "verse": 45,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When he rose from prayer and came to the disciples, he found them asleep from grief,"
+     }
+    ]
+   },
+   {
+    "verse": 46,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and he said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Why are you sleeping? Get up and pray, so that you may not enter into testing.”"
+     }
+    ]
+   },
+   {
+    "verse": 47,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "While he was still speaking, a crowd appeared, and the one called Judas, one of the Twelve, was leading them. He came up to Jesus to kiss him."
+     }
+    ]
+   },
+   {
+    "verse": 48,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But Jesus said to him,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Judas, is it with a kiss that you hand over the Son of Man?”"
+     }
+    ]
+   },
+   {
+    "verse": 49,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When those around him saw what was about to happen, they said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Lord, shall we strike with the sword?”"
+     }
+    ]
+   },
+   {
+    "verse": 50,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And one of them struck the high priest’s slave and cut off his right ear."
+     }
+    ]
+   },
+   {
+    "verse": 51,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But Jesus answered,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Stop! No more of this.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "And he touched the ear and healed him."
+     }
+    ]
+   },
+   {
+    "verse": 52,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then Jesus said to the chief priests, officers of the temple guard and elders who had come out against him,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Have you come out with swords and clubs as if against a bandit?"
+     }
+    ]
+   },
+   {
+    "verse": 53,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Day after day I was with you in the temple, and you did not lay a hand on me. But this is your hour, and the authority of darkness.”"
+     }
+    ]
+   },
+   {
+    "verse": 54,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They seized him, led him away and brought him into the high priest’s house. Peter was following at a distance."
+     }
+    ]
+   },
+   {
+    "verse": 55,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When they had lit a fire in the middle of the courtyard and sat down together, Peter sat among them."
+     }
+    ]
+   },
+   {
+    "verse": 56,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "A slave girl saw him sitting in the firelight, looked closely at him and said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“This man was with him too.”"
+     }
+    ]
+   },
+   {
+    "verse": 57,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But he denied it, saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“I do not know him, woman.”"
+     }
+    ]
+   },
+   {
+    "verse": 58,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "A little later someone else saw him and said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“You are one of them too.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "But Peter said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Man, I am not!”"
+     }
+    ]
+   },
+   {
+    "verse": 59,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "About an hour later another man kept insisting,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Certainly this man was with him too, for he is a Galilean.”"
+     }
+    ]
+   },
+   {
+    "verse": 60,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But Peter said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Man, I do not know what you are talking about.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "And immediately, while he was still speaking, a rooster crowed."
+     }
+    ]
+   },
+   {
+    "verse": 61,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And the Lord turned and looked at Peter, and Peter remembered the word of the Lord, how he had said to him,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Before a rooster crows today, you will deny me three times.”"
+     }
+    ]
+   },
+   {
+    "verse": 62,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And he went outside and wept bitterly."
+     }
+    ]
+   },
+   {
+    "verse": 63,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The men who were holding Jesus began mocking him and beating him."
+     }
+    ]
+   },
+   {
+    "verse": 64,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They blindfolded him and kept asking,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Prophesy! Who is it that hit you?”"
+     }
+    ]
+   },
+   {
+    "verse": 65,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And they said many other abusive things against him."
+     }
+    ]
+   },
+   {
+    "verse": 66,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When day came, the assembly of the elders of the people gathered, both chief priests and scribes, and they brought him before their council,"
+     }
+    ]
+   },
+   {
+    "verse": 67,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“If you are the Messiah, tell us.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "But he said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“If I tell you, you will certainly not believe,"
+     }
+    ]
+   },
+   {
+    "verse": 68,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "and if I ask a question, you will certainly not answer."
+     }
+    ]
+   },
+   {
+    "verse": 69,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But from now on the Son of Man will be seated at the right hand of the power of God.”"
+     }
+    ]
+   },
+   {
+    "verse": 70,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They all said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Are you, then, the Son of God?”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "He said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“You say that I am.”"
+     }
+    ]
+   },
+   {
+    "verse": 71,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“What further need do we have of testimony? We have heard it ourselves from his own mouth.”"
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 4,
+    "phrase": "hand him over",
+    "lemma": "παραδίδωμι",
+    "kind": "departure",
+    "traditional": "betray",
+    "note": "The Greek verb means to hand someone or something over, and is the ordinary word for delivering a person into custody. It does not in itself carry the idea of treachery, though the context supplies it here. Most English versions say “betray” for Judas’s act; this translation keeps “hand over” throughout the chapter (verses 4, 6, 21, 22, 48), so that the reader sees the same word that is used elsewhere of Jesus being handed over to the authorities."
+   },
+   {
+    "verse": 19,
+    "phrase": "[which is given for you. Do this in remembrance of me.”",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "",
+    "note": "The words in square brackets, running from here to the end of verse 20, are missing from one important early Greek manuscript and from several Old Latin copies, which therefore have no cup after the bread. They are present in almost all other manuscripts, including the earliest. Most scholars today regard them as original, but the edition translated here brackets them to mark the doubt."
+   },
+   {
+    "verse": 25,
+    "phrase": "Gentiles",
+    "lemma": "ἔθνος",
+    "kind": "ambiguity",
+    "traditional": "Gentiles",
+    "note": "The Greek word means “peoples” or “nations” and, in the plural on Jewish lips, the non-Jewish peoples. The phrase could equally be translated “the kings of the nations”. English uses two words where the Greek has one."
+   },
+   {
+    "verse": 25,
+    "phrase": "Benefactors",
+    "lemma": "εὐεργέτης",
+    "kind": "background",
+    "traditional": "benefactors",
+    "note": "“Benefactor” was a formal title of honour in the Greek-speaking world. It was voted to kings and wealthy patrons by the cities they favoured, and some Hellenistic kings bore it as part of their name. Jesus’ remark is pointed: rulers who dominate their subjects are publicly praised as their benefactors."
+   },
+   {
+    "verse": 37,
+    "phrase": "counted among the lawless",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "numbered with the transgressors",
+    "note": "The quotation is from Isaiah 53:12, part of the passage about the suffering servant. Jesus applies it to his coming arrest and execution alongside criminals. “Brought to completion” and “reaching its completion” reflect two related Greek words in the verse."
+   },
+   {
+    "verse": 36,
+    "phrase": "whoever does not have a sword",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "he that hath no sword",
+    "note": "The Greek says only “the one who does not have”, without stating the object. It may mean “whoever has no sword”, as here and in most translations, or “whoever has no purse”, meaning that even someone without money should sell his cloak to buy a sword. Either way, most interpreters take the saying as a vivid warning of coming hostility, not as a literal instruction to arm."
+   },
+   {
+    "verse": 38,
+    "phrase": "That is enough.",
+    "lemma": "ἱκανός",
+    "kind": "ambiguity",
+    "traditional": "It is enough",
+    "note": "The reply can mean that two swords are sufficient, or it can be a way of closing the conversation, as in “Enough of this.” Most interpreters prefer the second, since the disciples have taken the saying about swords literally and Jesus later stops their use of one (verse 51). The translation leaves both readings open, as the Greek does."
+   },
+   {
+    "verse": 40,
+    "phrase": "testing",
+    "lemma": "πειρασμός",
+    "kind": "departure",
+    "traditional": "temptation",
+    "note": "The Greek word covers both a test or trial of someone’s loyalty and an enticement to do wrong; English “temptation” now suggests only the second. Here, on the night of the arrest, the danger is a crisis that will test the disciples’ loyalty, and the same word in verse 28 (“times of testing”) describes what Jesus himself has been through. Some modern versions likewise have “the time of trial”."
+   },
+   {
+    "verse": 43,
+    "phrase": "an angel from heaven appeared to him",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "",
+    "note": "Verses 43 and 44 are absent from several of the earliest and most important manuscripts and present in others, and they were known to Christian writers as early as the second century. Scholars are divided on whether Luke wrote them or they are a very early addition. The edition translated here prints them as part of the text."
+   },
+   {
+    "verse": 50,
+    "phrase": "slave",
+    "lemma": "δοῦλος",
+    "kind": "departure",
+    "traditional": "servant",
+    "note": "The Greek word denotes a person owned by another, not a hired employee. “Servant” is the traditional English rendering, but it suggests a freer status than the word conveyed to a first-century reader. Many recent translations also use “slave”."
+   },
+   {
+    "verse": 51,
+    "phrase": "Stop! No more of this.",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "Suffer ye thus far",
+    "note": "The Greek is terse, literally “Allow as far as this.” It is usually taken as a command to the disciples to stop fighting. It could also mean “Let them do even this”, that is, allow the arrest to go ahead. The translation follows the majority view."
+   },
+   {
+    "verse": 52,
+    "phrase": "bandit",
+    "lemma": "λῃστής",
+    "kind": "departure",
+    "traditional": "robber, thief",
+    "note": "The word refers to someone who robs with violence, a brigand or outlaw, and not to a sneak thief, for which Greek has a different word. In the period it was also applied to armed insurgents. The point is that they have come armed as if he were a dangerous outlaw."
+   },
+   {
+    "verse": 67,
+    "phrase": "Messiah",
+    "lemma": "Χριστός",
+    "kind": "departure",
+    "traditional": "Christ",
+    "note": "The Greek word means “anointed one” and translates the Hebrew title for the king Israel expected. Here the council is asking about that title, not using a name, so “Messiah” is used. Several modern translations make the same distinction, keeping “Christ” where the word functions as a name for Jesus."
+   },
+   {
+    "verse": 70,
+    "phrase": "You say that I am.",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "Ye say that I am",
+    "note": "The reply is indirect. It may be an idiom of assent (“You are right to say that I am”), or it may put the responsibility for the statement back on the questioners without a plain yes. The Greek could also be read “You say it, because I am.” The council treats it as an admission in the next verse."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "παραδίδωμι",
+    "rendering": "hand over",
+    "verse": 4,
+    "reason": "The same verb is used of Judas, the priests, Pilate and God delivering Jesus up; translators split between “betray”, “hand over” and “deliver”, which hides the thread from readers."
+   },
+   {
+    "lemma": "πειρασμός",
+    "rendering": "testing",
+    "verse": 28,
+    "reason": "It recurs in the Lord’s Prayer, the wilderness narrative, James and 1 Peter, and the choice between “temptation”, “trial” and “testing” should be made once."
+   },
+   {
+    "lemma": "δοῦλος",
+    "rendering": "slave",
+    "verse": 50,
+    "reason": "It is very frequent across the Gospels and letters, including as a self-description of the apostles, and “servant” versus “slave” needs a single policy."
+   },
+   {
+    "lemma": "διαθήκη",
+    "rendering": "covenant",
+    "verse": 20,
+    "reason": "It recurs in the Gospels, Paul and Hebrews, where “covenant”, “testament” and “will” compete, and the related verb in verse 29 plays on it."
+   },
+   {
+    "lemma": "γραμματεύς",
+    "rendering": "scribe",
+    "verse": 2,
+    "reason": "It is frequent in the Gospels and Acts; “scribe” suggests a copyist to modern readers where the sense is closer to a scholar or teacher of the law, so one decision is needed."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

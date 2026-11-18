@@ -1,0 +1,795 @@
+{
+ "id": "matthew-013",
+ "book": "matthew",
+ "chapter": 13,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZdveiRu52QyfQh95",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 11035,
+  "output_tokens": 24033
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"That day Jesus went out of the house and sat beside the sea.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And large crowds gathered around him, so that he got into a boat and sat down, while the whole crowd stood on the shore.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And he told them many things in parables, saying:\"},{\"speaker\":\"Jesus\",\"text\":\"“Look, a sower went out to sow.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And as he sowed, some seeds fell along the path, and the birds came and ate them up.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Others fell on rocky ground, where they did not have much soil, and at once they sprang up, because they had no depth of soil;\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"but when the sun rose they were scorched, and because they had no root they withered.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Others fell among the thorns, and the thorns came up and choked them.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Still others fell on the good soil and produced grain: some a hundredfold, some sixty, some thirty.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Let the one who has ears hear.”\"}]},{\"verse\":10,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The disciples came and said to him,\"},{\"speaker\":\"other\",\"text\":\"“Why do you speak to them in parables?”\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He answered them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Because to you it has been given to know the secrets of the kingdom of the heavens, but to them it has not been given.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For whoever has will be given more and will have an abundance; but whoever does not have, even what they have will be taken from them.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"This is why I speak to them in parables: because seeing they do not see, and hearing they do not hear or understand.\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And in them the prophecy of Isaiah is being fulfilled, which says: ‘You will hear and hear but never understand, and you will look and look but never see.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For this people’s heart has grown dull, and with their ears they have barely heard, and their eyes they have shut, so that they might never see with their eyes and hear with their ears and understand with their heart and turn back, and I would heal them.’\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But blessed are your eyes, because they see, and your ears, because they hear.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For truly I tell you, many prophets and righteous people longed to see what you see and did not see it, and to hear what you hear and did not hear it.\"}]},{\"verse\":18,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"“You, then, hear the parable of the sower.\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"When anyone hears the word of the kingdom and does not understand it, the evil one comes and snatches away what has been sown in that person’s heart. This is the one sown along the path.\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"As for the one sown on rocky ground, this is the one who hears the word and at once receives it with joy,\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"yet has no root within and lasts only for a time; and when affliction or persecution comes because of the word, at once that person stumbles.\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"As for the one sown among the thorns, this is the one who hears the word, but the anxiety of this age and the deceitfulness of wealth choke the word, and it becomes unfruitful.\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"As for the one sown on the good soil, this is the one who hears the word and understands it, who indeed bears fruit and produces, in one case a hundredfold, in another sixty, in another thirty.”\"}]},{\"verse\":24,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He set another parable before them:\"},{\"speaker\":\"Jesus\",\"text\":\"“The kingdom of the heavens may be compared to a man who sowed good seed in his field.\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But while everyone was asleep, his enemy came and sowed weeds in among the wheat, and went away.\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"When the plants sprouted and produced grain, then the weeds appeared as well.\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"The householder’s slaves came and said to him, ‘Master, did you not sow good seed in your field? Where then did the weeds come from?’\"}]},{\"verse\":28,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"He said to them, ‘An enemy has done this.’ The slaves said to him, ‘Then do you want us to go and collect them?’\"}]},{\"verse\":29,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But he said, ‘No, for in collecting the weeds you might uproot the wheat along with them.\"}]},{\"verse\":30,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Let both grow together until the harvest, and at harvest time I will say to the reapers, “Collect the weeds first and bind them in bundles to be burned, but gather the wheat into my barn.”’”\"}]},{\"verse\":31,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He set another parable before them:\"},{\"speaker\":\"Jesus\",\"text\":\"“The kingdom of the heavens is like a mustard seed, which a man took and sowed in his field.\"}]},{\"verse\":32,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"It is the smallest of all the seeds, but when it has grown it is larger than the garden plants and becomes a tree, so that the birds of the sky come and nest in its branches.”\"}]},{\"verse\":33,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He told them another parable:\"},{\"speaker\":\"Jesus\",\"text\":\"“The kingdom of the heavens is like leaven, which a woman took and hid in three measures of flour until it was all leavened.”\"}]},{\"verse\":34,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"All these things Jesus spoke to the crowds in parables, and without a parable he would say nothing to them,\"}]},{\"verse\":35,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"so that what was spoken through the prophet might be fulfilled:\"},{\"speaker\":\"scripture\",\"text\":\"“I will open my mouth in parables; I will utter things hidden from the foundation.”\"}]},{\"verse\":36,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then he left the crowds and went into the house. And his disciples came to him and said,\"},{\"speaker\":\"other\",\"text\":\"“Explain to us the parable of the weeds in the field.”\"}]},{\"verse\":37,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He answered,\"},{\"speaker\":\"Jesus\",\"text\":\"“The one who sows the good seed is the Son of Man.\"}]},{\"verse\":38,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"The field is the world. As for the good seed, these are the sons of the kingdom. The weeds are the sons of the evil one,\"}]},{\"verse\":39,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"and the enemy who sowed them is the devil. The harvest is the end of the age, and the reapers are angels.\"}]},{\"verse\":40,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"So just as the weeds are collected and burned with fire, so it will be at the end of the age.\"}]},{\"verse\":41,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"The Son of Man will send out his angels, and they will collect out of his kingdom everything that causes stumbling and those who practice lawlessness,\"}]},{\"verse\":42,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"and they will throw them into the furnace of fire. In that place there will be weeping and gnashing of teeth.\"}]},{\"verse\":43,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Then the righteous will shine out like the sun in the kingdom of their Father. Let the one who has ears hear.\"}]},{\"verse\":44,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"“The kingdom of the heavens is like treasure hidden in the field, which a man found and hid; and in his joy he goes and sells everything he has and buys that field.\"}]},{\"verse\":45,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"“Again, the kingdom of the heavens is like a merchant looking for fine pearls.\"}]},{\"verse\":46,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"On finding one pearl of great value, he went away and sold everything he had and bought it.\"}]},{\"verse\":47,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"“Again, the kingdom of the heavens is like a dragnet that was thrown into the sea and gathered fish of every kind.\"}]},{\"verse\":48,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"When it was full, they hauled it up onto the shore, sat down, and collected the good ones into containers, but threw the bad ones away.\"}]},{\"verse\":49,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"So it will be at the end of the age. The angels will go out and separate the evil from among the righteous\"}]},{\"verse\":50,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"and throw them into the furnace of fire. In that place there will be weeping and gnashing of teeth.\"}]},{\"verse\":51,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"“Have you understood all these things?”\"},{\"speaker\":\"narrator\",\"text\":\"They said to him,\"},{\"speaker\":\"other\",\"text\":\"“Yes.”\"}]},{\"verse\":52,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And he said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“For this reason every scribe who has become a disciple of the kingdom of the heavens is like a householder who brings out of his storeroom things new and old.”\"}]},{\"verse\":53,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now when Jesus had finished these parables, he moved on from there.\"}]},{\"verse\":54,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He came to his hometown and taught them in their synagogue, so that they were astonished and said,\"},{\"speaker\":\"other\",\"text\":\"“Where did this man get this wisdom and these mighty works?\"}]},{\"verse\":55,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Is this not the carpenter’s son? Is his mother not called Mary, and his brothers James and Joseph and Simon and Judas?\"}]},{\"verse\":56,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"And his sisters, are they not all here with us? Where then did this man get all these things?”\"}]},{\"verse\":57,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And they stumbled over him. But Jesus said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“A prophet is not without honor except in his hometown and in his own house.”\"}]},{\"verse\":58,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And he did not do many mighty works there, because of their unbelief.\"}]}],\"notes\":[{\"verse\":11,\"phrase\":\"the kingdom of the heavens\",\"lemma\":\"οὐρανός\",\"kind\":\"departure\",\"traditional\":\"the kingdom of heaven\",\"note\":\"Matthew's Greek has the plural, 'the heavens', a Semitic turn of phrase that a first-century hearer would have noticed. Most translations flatten it to 'heaven'. The phrase is Matthew's usual equivalent of 'the kingdom of God' in the other Gospels.\"},{\"verse\":14,\"phrase\":\"the prophecy of Isaiah\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"Verses 14–15 quote Isaiah 6:9–10, following the ancient Greek version (the Septuagint) almost word for word. In Isaiah the words belong to God's commissioning of the prophet, warning him that his message will meet a people unwilling to hear.\"},{\"verse\":19,\"phrase\":\"the one sown along the path\",\"lemma\":\"σπείρω\",\"kind\":\"ambiguity\",\"traditional\":\"this is what was sown along the path\",\"note\":\"The Greek identifies the hearer with what is sown, although in the explanation the seed is the word. Some translations smooth this to 'the seed sown' or 'what was sown'. The masculine form here points to the person, so the slightly mixed image of the Greek is kept.\"},{\"verse\":21,\"phrase\":\"stumbles\",\"lemma\":\"σκανδαλίζω\",\"kind\":\"departure\",\"traditional\":\"falls away; is offended\",\"note\":\"The verb pictures being tripped or trapped, and in the Septuagint and the New Testament it is used for being brought to a fall in one's loyalty to God. Translations usually vary the English: 'falls away' here, 'causes of sin' in verse 41, 'took offense' in verse 57. One image is kept for the whole word-family in this chapter so that the link is visible.\"},{\"verse\":22,\"phrase\":\"this age\",\"lemma\":\"αἰών\",\"kind\":\"departure\",\"traditional\":\"the cares of this world; the worries of this life\",\"note\":\"The Greek word is a time-word: the present era, set against the age to come. It is the same word as in 'the end of the age' (verses 39, 40, 49). Most modern translations have 'age' there but 'world' or 'life' here.\"},{\"verse\":25,\"phrase\":\"weeds\",\"lemma\":\"ζιζάνιον\",\"kind\":\"background\",\"traditional\":\"tares\",\"note\":\"The word names a particular weed, generally identified as darnel, a grass that looks much like wheat until the ears form. That is why the weeds only become visible in verse 26, and why pulling them out early would endanger the wheat.\"},{\"verse\":27,\"phrase\":\"slaves\",\"lemma\":\"δοῦλος\",\"kind\":\"departure\",\"traditional\":\"servants\",\"note\":\"The word denotes a person owned by a master, not a hired worker, and 'servant' softens this for a modern reader. Many recent translations and lexicons prefer 'slave'. Others keep 'servant' because ancient slavery differed in important ways from the later Atlantic slave trade.\"},{\"verse\":32,\"phrase\":\"nest in its branches\",\"lemma\":\"κατασκηνόω\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"Birds lodging in the branches of a great tree is an Old Testament image for a kingdom large enough to shelter the nations (Ezekiel 17:23; 31:6; Daniel 4:12). Mustard is a large garden shrub, not strictly a tree. Calling it one points the hearer to that background.\"},{\"verse\":33,\"phrase\":\"three measures of flour\",\"lemma\":\"σάτον\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"The measure is the saton (Hebrew seah). Three of them is usually reckoned at something like 35–40 litres of flour, enough bread for well over a hundred people, so the amount is strikingly large. 'Hid' is the plain sense of the verb and fits the chapter's theme of hidden things (verses 35, 44).\"},{\"verse\":35,\"phrase\":\"from the foundation\",\"lemma\":\"καταβολή\",\"kind\":\"textual\",\"traditional\":\"from the foundation of the world\",\"note\":\"The quotation is Psalm 78:2. Many manuscripts read 'from the foundation of the world'. SBLGNT prints the shorter text without 'of the world', though that is still the sense. A few manuscripts read 'through Isaiah the prophet', which is generally judged not to be original.\"},{\"verse\":38,\"phrase\":\"the sons of the kingdom\",\"lemma\":\"υἱός\",\"kind\":\"background\",\"traditional\":\"the children of the kingdom\",\"note\":\"'Son of' is a Semitic way of saying 'belonging to' or 'sharing the character of', and is not limited to males. Many translations have 'children' or 'people of the kingdom'. 'Of the evil one' could grammatically be 'of evil', but verse 19 and the devil's role in verse 39 favor the personal sense.\"},{\"verse\":52,\"phrase\":\"who has become a disciple of\",\"lemma\":\"μαθητεύω\",\"kind\":\"ambiguity\",\"traditional\":\"instructed unto the kingdom; trained for the kingdom\",\"note\":\"The verb is the cognate of 'disciple' and can mean either 'become a disciple' or 'be made a disciple, be instructed'. The following dative can be taken as 'of', 'for' or 'in' the kingdom. Many translations have 'trained for the kingdom'; this rendering keeps the link with the disciples who have just said they understand.\"},{\"verse\":55,\"phrase\":\"carpenter\",\"lemma\":\"τέκτων\",\"kind\":\"background\",\"traditional\":\"carpenter\",\"note\":\"The Greek word covers a craftsman who builds, most often in wood but also in other materials. 'Builder' or 'woodworker' would also be defensible. 'Carpenter' is kept as the nearest single English trade.\"}],\"candidates\":[{\"lemma\":\"σκανδαλίζω\",\"rendering\":\"stumble / cause stumbling\",\"verse\":21,\"reason\":\"The verb and its noun σκάνδαλον recur across the Gospels and Paul and are rendered 'offend', 'fall away', 'cause to sin' or 'stumble' by different translators, which hides a single image from the reader.\"},{\"lemma\":\"αἰών\",\"rendering\":\"age\",\"verse\":22,\"reason\":\"Translations alternate between 'world', 'life', 'age' and 'forever' for this time-word, and a consistent decision is needed for phrases such as 'this age' and 'the end of the age'.\"},{\"lemma\":\"δοῦλος\",\"rendering\":\"slave\",\"verse\":27,\"reason\":\"The 'slave' versus 'servant' choice recurs in parables, in Paul's self-descriptions and in the household codes, and should not vary from chapter to chapter.\"},{\"lemma\":\"μυστήριον\",\"rendering\":\"secret\",\"verse\":11,\"reason\":\"'Mystery' now suggests a puzzle, not a divine secret disclosed to insiders, and the word recurs in the Gospels, Paul and Revelation with translators divided between 'mystery' and 'secret'.\"},{\"lemma\":\"δύναμις\",\"rendering\":\"mighty work (plural, of Jesus' acts)\",\"verse\":54,\"reason\":\"The plural used for Jesus' acts is variously rendered 'miracles', 'mighty works' or 'deeds of power', and needs one rendering distinct from σημεῖον and τέρας.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "That day Jesus went out of the house and sat beside the sea."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And large crowds gathered around him, so that he got into a boat and sat down, while the whole crowd stood on the shore."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And he told them many things in parables, saying:"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Look, a sower went out to sow."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And as he sowed, some seeds fell along the path, and the birds came and ate them up."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Others fell on rocky ground, where they did not have much soil, and at once they sprang up, because they had no depth of soil;"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "but when the sun rose they were scorched, and because they had no root they withered."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Others fell among the thorns, and the thorns came up and choked them."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Still others fell on the good soil and produced grain: some a hundredfold, some sixty, some thirty."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Let the one who has ears hear.”"
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The disciples came and said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Why do you speak to them in parables?”"
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He answered them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Because to you it has been given to know the secrets of the kingdom of the heavens, but to them it has not been given."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For whoever has will be given more and will have an abundance; but whoever does not have, even what they have will be taken from them."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "This is why I speak to them in parables: because seeing they do not see, and hearing they do not hear or understand."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And in them the prophecy of Isaiah is being fulfilled, which says: ‘You will hear and hear but never understand, and you will look and look but never see."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For this people’s heart has grown dull, and with their ears they have barely heard, and their eyes they have shut, so that they might never see with their eyes and hear with their ears and understand with their heart and turn back, and I would heal them.’"
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But blessed are your eyes, because they see, and your ears, because they hear."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For truly I tell you, many prophets and righteous people longed to see what you see and did not see it, and to hear what you hear and did not hear it."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "“You, then, hear the parable of the sower."
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "When anyone hears the word of the kingdom and does not understand it, the evil one comes and snatches away what has been sown in that person’s heart. This is the one sown along the path."
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "As for the one sown on rocky ground, this is the one who hears the word and at once receives it with joy,"
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "yet has no root within and lasts only for a time; and when affliction or persecution comes because of the word, at once that person stumbles."
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "As for the one sown among the thorns, this is the one who hears the word, but the anxiety of this age and the deceitfulness of wealth choke the word, and it becomes unfruitful."
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "As for the one sown on the good soil, this is the one who hears the word and understands it, who indeed bears fruit and produces, in one case a hundredfold, in another sixty, in another thirty.”"
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He set another parable before them:"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“The kingdom of the heavens may be compared to a man who sowed good seed in his field."
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But while everyone was asleep, his enemy came and sowed weeds in among the wheat, and went away."
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "When the plants sprouted and produced grain, then the weeds appeared as well."
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "The householder’s slaves came and said to him, ‘Master, did you not sow good seed in your field? Where then did the weeds come from?’"
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "He said to them, ‘An enemy has done this.’ The slaves said to him, ‘Then do you want us to go and collect them?’"
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But he said, ‘No, for in collecting the weeds you might uproot the wheat along with them."
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Let both grow together until the harvest, and at harvest time I will say to the reapers, “Collect the weeds first and bind them in bundles to be burned, but gather the wheat into my barn.”’”"
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He set another parable before them:"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“The kingdom of the heavens is like a mustard seed, which a man took and sowed in his field."
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "It is the smallest of all the seeds, but when it has grown it is larger than the garden plants and becomes a tree, so that the birds of the sky come and nest in its branches.”"
+     }
+    ]
+   },
+   {
+    "verse": 33,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He told them another parable:"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“The kingdom of the heavens is like leaven, which a woman took and hid in three measures of flour until it was all leavened.”"
+     }
+    ]
+   },
+   {
+    "verse": 34,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "All these things Jesus spoke to the crowds in parables, and without a parable he would say nothing to them,"
+     }
+    ]
+   },
+   {
+    "verse": 35,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "so that what was spoken through the prophet might be fulfilled:"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“I will open my mouth in parables; I will utter things hidden from the foundation.”"
+     }
+    ]
+   },
+   {
+    "verse": 36,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then he left the crowds and went into the house. And his disciples came to him and said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Explain to us the parable of the weeds in the field.”"
+     }
+    ]
+   },
+   {
+    "verse": 37,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He answered,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“The one who sows the good seed is the Son of Man."
+     }
+    ]
+   },
+   {
+    "verse": 38,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "The field is the world. As for the good seed, these are the sons of the kingdom. The weeds are the sons of the evil one,"
+     }
+    ]
+   },
+   {
+    "verse": 39,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "and the enemy who sowed them is the devil. The harvest is the end of the age, and the reapers are angels."
+     }
+    ]
+   },
+   {
+    "verse": 40,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "So just as the weeds are collected and burned with fire, so it will be at the end of the age."
+     }
+    ]
+   },
+   {
+    "verse": 41,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "The Son of Man will send out his angels, and they will collect out of his kingdom everything that causes stumbling and those who practice lawlessness,"
+     }
+    ]
+   },
+   {
+    "verse": 42,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "and they will throw them into the furnace of fire. In that place there will be weeping and gnashing of teeth."
+     }
+    ]
+   },
+   {
+    "verse": 43,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Then the righteous will shine out like the sun in the kingdom of their Father. Let the one who has ears hear."
+     }
+    ]
+   },
+   {
+    "verse": 44,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "“The kingdom of the heavens is like treasure hidden in the field, which a man found and hid; and in his joy he goes and sells everything he has and buys that field."
+     }
+    ]
+   },
+   {
+    "verse": 45,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "“Again, the kingdom of the heavens is like a merchant looking for fine pearls."
+     }
+    ]
+   },
+   {
+    "verse": 46,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "On finding one pearl of great value, he went away and sold everything he had and bought it."
+     }
+    ]
+   },
+   {
+    "verse": 47,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "“Again, the kingdom of the heavens is like a dragnet that was thrown into the sea and gathered fish of every kind."
+     }
+    ]
+   },
+   {
+    "verse": 48,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "When it was full, they hauled it up onto the shore, sat down, and collected the good ones into containers, but threw the bad ones away."
+     }
+    ]
+   },
+   {
+    "verse": 49,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "So it will be at the end of the age. The angels will go out and separate the evil from among the righteous"
+     }
+    ]
+   },
+   {
+    "verse": 50,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "and throw them into the furnace of fire. In that place there will be weeping and gnashing of teeth."
+     }
+    ]
+   },
+   {
+    "verse": 51,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "“Have you understood all these things?”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "They said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Yes.”"
+     }
+    ]
+   },
+   {
+    "verse": 52,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And he said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“For this reason every scribe who has become a disciple of the kingdom of the heavens is like a householder who brings out of his storeroom things new and old.”"
+     }
+    ]
+   },
+   {
+    "verse": 53,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now when Jesus had finished these parables, he moved on from there."
+     }
+    ]
+   },
+   {
+    "verse": 54,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He came to his hometown and taught them in their synagogue, so that they were astonished and said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Where did this man get this wisdom and these mighty works?"
+     }
+    ]
+   },
+   {
+    "verse": 55,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Is this not the carpenter’s son? Is his mother not called Mary, and his brothers James and Joseph and Simon and Judas?"
+     }
+    ]
+   },
+   {
+    "verse": 56,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "And his sisters, are they not all here with us? Where then did this man get all these things?”"
+     }
+    ]
+   },
+   {
+    "verse": 57,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And they stumbled over him. But Jesus said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“A prophet is not without honor except in his hometown and in his own house.”"
+     }
+    ]
+   },
+   {
+    "verse": 58,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And he did not do many mighty works there, because of their unbelief."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 11,
+    "phrase": "the kingdom of the heavens",
+    "lemma": "οὐρανός",
+    "kind": "departure",
+    "traditional": "the kingdom of heaven",
+    "note": "Matthew's Greek has the plural, 'the heavens', a Semitic turn of phrase that a first-century hearer would have noticed. Most translations flatten it to 'heaven'. The phrase is Matthew's usual equivalent of 'the kingdom of God' in the other Gospels."
+   },
+   {
+    "verse": 14,
+    "phrase": "the prophecy of Isaiah",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "Verses 14–15 quote Isaiah 6:9–10, following the ancient Greek version (the Septuagint) almost word for word. In Isaiah the words belong to God's commissioning of the prophet, warning him that his message will meet a people unwilling to hear."
+   },
+   {
+    "verse": 19,
+    "phrase": "the one sown along the path",
+    "lemma": "σπείρω",
+    "kind": "ambiguity",
+    "traditional": "this is what was sown along the path",
+    "note": "The Greek identifies the hearer with what is sown, although in the explanation the seed is the word. Some translations smooth this to 'the seed sown' or 'what was sown'. The masculine form here points to the person, so the slightly mixed image of the Greek is kept."
+   },
+   {
+    "verse": 21,
+    "phrase": "stumbles",
+    "lemma": "σκανδαλίζω",
+    "kind": "departure",
+    "traditional": "falls away; is offended",
+    "note": "The verb pictures being tripped or trapped, and in the Septuagint and the New Testament it is used for being brought to a fall in one's loyalty to God. Translations usually vary the English: 'falls away' here, 'causes of sin' in verse 41, 'took offense' in verse 57. One image is kept for the whole word-family in this chapter so that the link is visible."
+   },
+   {
+    "verse": 22,
+    "phrase": "this age",
+    "lemma": "αἰών",
+    "kind": "departure",
+    "traditional": "the cares of this world; the worries of this life",
+    "note": "The Greek word is a time-word: the present era, set against the age to come. It is the same word as in 'the end of the age' (verses 39, 40, 49). Most modern translations have 'age' there but 'world' or 'life' here."
+   },
+   {
+    "verse": 25,
+    "phrase": "weeds",
+    "lemma": "ζιζάνιον",
+    "kind": "background",
+    "traditional": "tares",
+    "note": "The word names a particular weed, generally identified as darnel, a grass that looks much like wheat until the ears form. That is why the weeds only become visible in verse 26, and why pulling them out early would endanger the wheat."
+   },
+   {
+    "verse": 27,
+    "phrase": "slaves",
+    "lemma": "δοῦλος",
+    "kind": "departure",
+    "traditional": "servants",
+    "note": "The word denotes a person owned by a master, not a hired worker, and 'servant' softens this for a modern reader. Many recent translations and lexicons prefer 'slave'. Others keep 'servant' because ancient slavery differed in important ways from the later Atlantic slave trade."
+   },
+   {
+    "verse": 32,
+    "phrase": "nest in its branches",
+    "lemma": "κατασκηνόω",
+    "kind": "background",
+    "traditional": "",
+    "note": "Birds lodging in the branches of a great tree is an Old Testament image for a kingdom large enough to shelter the nations (Ezekiel 17:23; 31:6; Daniel 4:12). Mustard is a large garden shrub, not strictly a tree. Calling it one points the hearer to that background."
+   },
+   {
+    "verse": 33,
+    "phrase": "three measures of flour",
+    "lemma": "σάτον",
+    "kind": "background",
+    "traditional": "",
+    "note": "The measure is the saton (Hebrew seah). Three of them is usually reckoned at something like 35–40 litres of flour, enough bread for well over a hundred people, so the amount is strikingly large. 'Hid' is the plain sense of the verb and fits the chapter's theme of hidden things (verses 35, 44)."
+   },
+   {
+    "verse": 35,
+    "phrase": "from the foundation",
+    "lemma": "καταβολή",
+    "kind": "textual",
+    "traditional": "from the foundation of the world",
+    "note": "The quotation is Psalm 78:2. Many manuscripts read 'from the foundation of the world'. SBLGNT prints the shorter text without 'of the world', though that is still the sense. A few manuscripts read 'through Isaiah the prophet', which is generally judged not to be original."
+   },
+   {
+    "verse": 38,
+    "phrase": "the sons of the kingdom",
+    "lemma": "υἱός",
+    "kind": "background",
+    "traditional": "the children of the kingdom",
+    "note": "'Son of' is a Semitic way of saying 'belonging to' or 'sharing the character of', and is not limited to males. Many translations have 'children' or 'people of the kingdom'. 'Of the evil one' could grammatically be 'of evil', but verse 19 and the devil's role in verse 39 favor the personal sense."
+   },
+   {
+    "verse": 52,
+    "phrase": "who has become a disciple of",
+    "lemma": "μαθητεύω",
+    "kind": "ambiguity",
+    "traditional": "instructed unto the kingdom; trained for the kingdom",
+    "note": "The verb is the cognate of 'disciple' and can mean either 'become a disciple' or 'be made a disciple, be instructed'. The following dative can be taken as 'of', 'for' or 'in' the kingdom. Many translations have 'trained for the kingdom'; this rendering keeps the link with the disciples who have just said they understand."
+   },
+   {
+    "verse": 55,
+    "phrase": "carpenter",
+    "lemma": "τέκτων",
+    "kind": "background",
+    "traditional": "carpenter",
+    "note": "The Greek word covers a craftsman who builds, most often in wood but also in other materials. 'Builder' or 'woodworker' would also be defensible. 'Carpenter' is kept as the nearest single English trade."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "σκανδαλίζω",
+    "rendering": "stumble / cause stumbling",
+    "verse": 21,
+    "reason": "The verb and its noun σκάνδαλον recur across the Gospels and Paul and are rendered 'offend', 'fall away', 'cause to sin' or 'stumble' by different translators, which hides a single image from the reader."
+   },
+   {
+    "lemma": "αἰών",
+    "rendering": "age",
+    "verse": 22,
+    "reason": "Translations alternate between 'world', 'life', 'age' and 'forever' for this time-word, and a consistent decision is needed for phrases such as 'this age' and 'the end of the age'."
+   },
+   {
+    "lemma": "δοῦλος",
+    "rendering": "slave",
+    "verse": 27,
+    "reason": "The 'slave' versus 'servant' choice recurs in parables, in Paul's self-descriptions and in the household codes, and should not vary from chapter to chapter."
+   },
+   {
+    "lemma": "μυστήριον",
+    "rendering": "secret",
+    "verse": 11,
+    "reason": "'Mystery' now suggests a puzzle, not a divine secret disclosed to insiders, and the word recurs in the Gospels, Paul and Revelation with translators divided between 'mystery' and 'secret'."
+   },
+   {
+    "lemma": "δύναμις",
+    "rendering": "mighty work (plural, of Jesus' acts)",
+    "verse": 54,
+    "reason": "The plural used for Jesus' acts is variously rendered 'miracles', 'mighty works' or 'deeds of power', and needs one rendering distinct from σημεῖον and τέρας."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

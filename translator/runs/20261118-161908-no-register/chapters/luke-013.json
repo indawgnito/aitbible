@@ -1,0 +1,545 @@
+{
+ "id": "luke-013",
+ "book": "luke",
+ "chapter": 13,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBApyrH52NuNypCsoej4",
+ "stop_reason": "end_turn",
+ "batch": false,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 7757,
+  "output_tokens": 15702
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now some people were present at that very time who told him about the Galileans whose blood Pilate had mixed with their sacrifices.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And he answered them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Do you think that these Galileans were worse sinners than all the other Galileans because they suffered these things?\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"No, I tell you; but unless you repent, you will all perish likewise.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Or those eighteen on whom the tower in Siloam fell and killed them: do you think that they were worse offenders than all the other people living in Jerusalem?\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"No, I tell you; but unless you repent, you will all perish in the same way.”\"}]},{\"verse\":6,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then he told this parable:\"},{\"speaker\":\"Jesus\",\"text\":\"“A man had a fig tree planted in his vineyard, and he came looking for fruit on it and found none.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"So he said to the vinedresser, ‘Look, for three years now I have been coming to look for fruit on this fig tree, and I find none. Cut it down! Why should it use up the soil as well?’\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But he answered him, ‘Sir, leave it this year too, until I dig around it and put manure on it.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Then if it bears fruit next year, well and good; but if not, you can cut it down.’”\"}]},{\"verse\":10,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now he was teaching in one of the synagogues on the Sabbath.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And there was a woman who had had a disabling spirit for eighteen years; she was bent over and could not straighten up fully.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When Jesus saw her, he called her over and said to her,\"},{\"speaker\":\"Jesus\",\"text\":\"“Woman, you are released from your disability.”\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And he laid his hands on her, and at once she was straightened up and began glorifying God.\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But the synagogue leader, indignant that Jesus had healed on the Sabbath, responded by saying to the crowd,\"},{\"speaker\":\"other\",\"text\":\"“There are six days on which work ought to be done. So come and be healed on those days, and not on the Sabbath day.”\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But the Lord answered him and said,\"},{\"speaker\":\"Jesus\",\"text\":\"“Hypocrites! Does not each of you on the Sabbath untie his ox or his donkey from the manger and lead it away to give it water?\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And this woman, a daughter of Abraham whom Satan has bound for eighteen years now, ought she not to have been untied from this bond on the Sabbath day?”\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"As he said these things, all his opponents were put to shame, and the whole crowd rejoiced at all the glorious things being done by him.\"}]},{\"verse\":18,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So he said,\"},{\"speaker\":\"Jesus\",\"text\":\"“What is the kingdom of God like, and to what shall I compare it?\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"It is like a mustard seed that a man took and put in his own garden, and it grew and became a tree, and the birds of the sky nested in its branches.”\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And again he said,\"},{\"speaker\":\"Jesus\",\"text\":\"“To what shall I compare the kingdom of God?\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"It is like leaven that a woman took and hid in three measures of flour until it was all leavened.”\"}]},{\"verse\":22,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He went on through towns and villages, teaching and making his way toward Jerusalem.\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Someone said to him,\"},{\"speaker\":\"other\",\"text\":\"“Lord, are only a few being saved?”\"},{\"speaker\":\"narrator\",\"text\":\"And he said to them,\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"“Strive to enter through the narrow door, because many, I tell you, will seek to enter and will not be able,\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"once the master of the house has risen and shut the door, and you begin to stand outside and knock at the door, saying, ‘Lord, open to us.’ And he will answer you, ‘I do not know where you are from.’\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Then you will begin to say, ‘We ate and drank in your presence, and you taught in our streets.’\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And he will say to you, ‘I do not know where you are from. Get away from me, all you doers of wrong!’\"}]},{\"verse\":28,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"In that place there will be weeping and grinding of teeth, when you see Abraham and Isaac and Jacob and all the prophets in the kingdom of God, but yourselves being thrown out.\"}]},{\"verse\":29,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And people will come from east and west and from north and south and will recline at table in the kingdom of God.\"}]},{\"verse\":30,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And look, there are last who will be first, and there are first who will be last.”\"}]},{\"verse\":31,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"In that very hour some Pharisees came up and said to him,\"},{\"speaker\":\"other\",\"text\":\"“Get out and go on your way from here, because Herod wants to kill you.”\"}]},{\"verse\":32,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And he said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Go and tell that fox, ‘Look, I am casting out demons and performing healings today and tomorrow, and on the third day I reach my goal.’\"}]},{\"verse\":33,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Nevertheless, I must go on my way today and tomorrow and the day after, because it is not possible for a prophet to perish outside Jerusalem.\"}]},{\"verse\":34,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Jerusalem, Jerusalem, the city that kills the prophets and stones those sent to her! How often I wanted to gather your children the way a hen gathers her own brood under her wings, and you did not want it.\"}]},{\"verse\":35,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Look, your house is left to you. And I tell you, you will certainly not see me until the time comes when you say, ‘Blessed is the one who comes in the name of the Lord!’”\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"whose blood Pilate had mixed with their sacrifices\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"This incident is not recorded in any other surviving source. The wording implies that Galilean pilgrims were killed by the Roman governor's soldiers while offering sacrifices at the Jerusalem temple. The tower collapse at Siloam in verse 4 is likewise known only from this passage.\"},{\"verse\":4,\"phrase\":\"worse offenders\",\"lemma\":\"ὀφειλέτης\",\"kind\":\"background\",\"traditional\":\"sinners (KJV); worse offenders; more guilty\",\"note\":\"The Greek word literally means “debtors.” Speaking of sin as a debt owed to God was an ordinary Jewish idiom of the period, so the word here means much the same as “sinners” in verse 2. Most modern translations render it as “offenders” or “guilty,” as is done here.\"},{\"verse\":9,\"phrase\":\"next year, well and good\",\"lemma\":\"μέλλω\",\"kind\":\"ambiguity\",\"traditional\":\"well and good; fine\",\"note\":\"The Greek sentence breaks off after “if it bears fruit,” leaving the happy outcome unstated. Like most translations, this one supplies “well and good.” The time phrase can mean either “next year” or more loosely “in the future.”\"},{\"verse\":11,\"phrase\":\"could not straighten up fully\",\"lemma\":\"παντελής\",\"kind\":\"ambiguity\",\"traditional\":\"could not fully straighten herself; could in no wise lift up herself\",\"note\":\"The Greek phrase meaning “completely” can go with either word. It may mean she could not straighten up all the way, or that she was completely unable to straighten up. The Greek word order slightly favours the first reading, but both are defensible.\"},{\"verse\":16,\"phrase\":\"untied\",\"lemma\":\"λύω\",\"kind\":\"background\",\"traditional\":\"loosed; set free\",\"note\":\"Jesus turns the synagogue leader's words back on him. The same verb is used for untying the ox in verse 15 and for freeing the woman here, and “released” in verse 12 is a compound of it. The leader's “ought” in verse 14 is also echoed: work ought to be done on six days, but this woman ought to have been freed on the Sabbath itself.\"},{\"verse\":21,\"phrase\":\"three measures\",\"lemma\":\"σάτον\",\"kind\":\"background\",\"traditional\":\"three measures\",\"note\":\"The measure is the Hebrew seah. Estimates of its size vary, but three of them amount to several dozen litres of flour, enough bread for a very large gathering. The point is the small amount of leaven set against the huge batch it transforms.\"},{\"verse\":25,\"phrase\":\"once the master of the house has risen\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"When once the master of the house has risen (beginning a new sentence)\",\"note\":\"The punctuation here is uncertain. This translation follows the edition's punctuation, which attaches the clause to verse 24: many will be unable to enter once the door is shut. Many translations instead begin a new sentence here, running on to “then he will answer you” or to verse 26.\"},{\"verse\":27,\"phrase\":\"Get away from me, all you doers of wrong!\",\"lemma\":\"ἀδικία\",\"kind\":\"background\",\"traditional\":\"Depart from me, all you workers of iniquity; all you evildoers\",\"note\":\"The householder's words echo Psalm 6:8 (6:9 in the Greek Psalter), where the psalmist dismisses his enemies. The word rendered “wrong” covers injustice and wrongdoing generally.\"},{\"verse\":29,\"phrase\":\"recline at table\",\"lemma\":\"ἀνακλίνω\",\"kind\":\"departure\",\"traditional\":\"sit down\",\"note\":\"Older translations have “sit down,” but the verb refers to reclining on couches, the posture of guests at a formal banquet. The image is the feast of the age to come, with guests arriving from every direction. Several modern versions also render it “recline at table” or “take their places at the feast.”\"},{\"verse\":32,\"phrase\":\"that fox\",\"lemma\":\"ἀλώπηξ\",\"kind\":\"background\",\"traditional\":\"that fox\",\"note\":\"Herod here is Herod Antipas, ruler of Galilee and Perea, who had executed John the Baptist. In Greek usage the fox stood for cunning. In Jewish usage it could also stand for a petty, insignificant figure in contrast to a lion; either or both may be intended.\"},{\"verse\":32,\"phrase\":\"I reach my goal\",\"lemma\":\"τελειόω\",\"kind\":\"ambiguity\",\"traditional\":\"I shall be perfected; I finish my course\",\"note\":\"The verb means to complete or bring to its end, and the form can be read as “I am brought to completion” or “I finish.” It may refer to finishing his work, to his death in Jerusalem, or to both. “Today, tomorrow, and the third day” is an idiom for a short, fixed period, not a literal count of days.\"},{\"verse\":35,\"phrase\":\"your house is left to you\",\"lemma\":\"ἀφίημι\",\"kind\":\"textual\",\"traditional\":\"your house is left unto you desolate\",\"note\":\"Many later manuscripts add “desolate,” probably under the influence of Matthew 23:38 and Jeremiah 22:5; the earliest witnesses lack it. The sense is that the house, meaning the temple or the city, is abandoned to its people. The closing words quote Psalm 118:26, a greeting for pilgrims arriving at the temple.\"}],\"candidates\":[{\"lemma\":\"μετανοέω\",\"rendering\":\"repent\",\"verse\":3,\"reason\":\"Recurs throughout the New Testament; translators differ between “repent,” “turn back,” and “change your mind/heart,” and readers would notice variation.\"},{\"lemma\":\"ἰδού\",\"rendering\":\"look\",\"verse\":7,\"reason\":\"Extremely frequent; needs a policy on “look,” “behold,” “see,” or leaving it untranslated in narrative introductions such as verse 11.\"},{\"lemma\":\"δεῖ\",\"rendering\":\"ought / must\",\"verse\":14,\"reason\":\"Luke uses it thematically for divine necessity as well as obligation, so the choice between “must,” “ought,” and “it is necessary” should be settled across books.\"},{\"lemma\":\"σῴζω\",\"rendering\":\"being saved\",\"verse\":23,\"reason\":\"Covers rescue, healing, and end-time salvation across the New Testament; a decision is needed on when “save” is kept and when “heal” or “rescue” is used.\"},{\"lemma\":\"ὑποκριτής\",\"rendering\":\"hypocrites\",\"verse\":15,\"reason\":\"The traditional loan-rendering may be narrower than first-century usage (play-actor, pretender), and it recurs across the Synoptic Gospels.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now some people were present at that very time who told him about the Galileans whose blood Pilate had mixed with their sacrifices."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And he answered them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Do you think that these Galileans were worse sinners than all the other Galileans because they suffered these things?"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "No, I tell you; but unless you repent, you will all perish likewise."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Or those eighteen on whom the tower in Siloam fell and killed them: do you think that they were worse offenders than all the other people living in Jerusalem?"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "No, I tell you; but unless you repent, you will all perish in the same way.”"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then he told this parable:"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“A man had a fig tree planted in his vineyard, and he came looking for fruit on it and found none."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "So he said to the vinedresser, ‘Look, for three years now I have been coming to look for fruit on this fig tree, and I find none. Cut it down! Why should it use up the soil as well?’"
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But he answered him, ‘Sir, leave it this year too, until I dig around it and put manure on it."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Then if it bears fruit next year, well and good; but if not, you can cut it down.’”"
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now he was teaching in one of the synagogues on the Sabbath."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And there was a woman who had had a disabling spirit for eighteen years; she was bent over and could not straighten up fully."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When Jesus saw her, he called her over and said to her,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Woman, you are released from your disability.”"
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And he laid his hands on her, and at once she was straightened up and began glorifying God."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But the synagogue leader, indignant that Jesus had healed on the Sabbath, responded by saying to the crowd,"
+     },
+     {
+      "speaker": "other",
+      "text": "“There are six days on which work ought to be done. So come and be healed on those days, and not on the Sabbath day.”"
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But the Lord answered him and said,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Hypocrites! Does not each of you on the Sabbath untie his ox or his donkey from the manger and lead it away to give it water?"
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And this woman, a daughter of Abraham whom Satan has bound for eighteen years now, ought she not to have been untied from this bond on the Sabbath day?”"
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "As he said these things, all his opponents were put to shame, and the whole crowd rejoiced at all the glorious things being done by him."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So he said,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“What is the kingdom of God like, and to what shall I compare it?"
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "It is like a mustard seed that a man took and put in his own garden, and it grew and became a tree, and the birds of the sky nested in its branches.”"
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And again he said,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“To what shall I compare the kingdom of God?"
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "It is like leaven that a woman took and hid in three measures of flour until it was all leavened.”"
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He went on through towns and villages, teaching and making his way toward Jerusalem."
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Someone said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Lord, are only a few being saved?”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "And he said to them,"
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "“Strive to enter through the narrow door, because many, I tell you, will seek to enter and will not be able,"
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "once the master of the house has risen and shut the door, and you begin to stand outside and knock at the door, saying, ‘Lord, open to us.’ And he will answer you, ‘I do not know where you are from.’"
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Then you will begin to say, ‘We ate and drank in your presence, and you taught in our streets.’"
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And he will say to you, ‘I do not know where you are from. Get away from me, all you doers of wrong!’"
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "In that place there will be weeping and grinding of teeth, when you see Abraham and Isaac and Jacob and all the prophets in the kingdom of God, but yourselves being thrown out."
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And people will come from east and west and from north and south and will recline at table in the kingdom of God."
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And look, there are last who will be first, and there are first who will be last.”"
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "In that very hour some Pharisees came up and said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Get out and go on your way from here, because Herod wants to kill you.”"
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And he said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Go and tell that fox, ‘Look, I am casting out demons and performing healings today and tomorrow, and on the third day I reach my goal.’"
+     }
+    ]
+   },
+   {
+    "verse": 33,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Nevertheless, I must go on my way today and tomorrow and the day after, because it is not possible for a prophet to perish outside Jerusalem."
+     }
+    ]
+   },
+   {
+    "verse": 34,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Jerusalem, Jerusalem, the city that kills the prophets and stones those sent to her! How often I wanted to gather your children the way a hen gathers her own brood under her wings, and you did not want it."
+     }
+    ]
+   },
+   {
+    "verse": 35,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Look, your house is left to you. And I tell you, you will certainly not see me until the time comes when you say, ‘Blessed is the one who comes in the name of the Lord!’”"
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "whose blood Pilate had mixed with their sacrifices",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "This incident is not recorded in any other surviving source. The wording implies that Galilean pilgrims were killed by the Roman governor's soldiers while offering sacrifices at the Jerusalem temple. The tower collapse at Siloam in verse 4 is likewise known only from this passage."
+   },
+   {
+    "verse": 4,
+    "phrase": "worse offenders",
+    "lemma": "ὀφειλέτης",
+    "kind": "background",
+    "traditional": "sinners (KJV); worse offenders; more guilty",
+    "note": "The Greek word literally means “debtors.” Speaking of sin as a debt owed to God was an ordinary Jewish idiom of the period, so the word here means much the same as “sinners” in verse 2. Most modern translations render it as “offenders” or “guilty,” as is done here."
+   },
+   {
+    "verse": 9,
+    "phrase": "next year, well and good",
+    "lemma": "μέλλω",
+    "kind": "ambiguity",
+    "traditional": "well and good; fine",
+    "note": "The Greek sentence breaks off after “if it bears fruit,” leaving the happy outcome unstated. Like most translations, this one supplies “well and good.” The time phrase can mean either “next year” or more loosely “in the future.”"
+   },
+   {
+    "verse": 11,
+    "phrase": "could not straighten up fully",
+    "lemma": "παντελής",
+    "kind": "ambiguity",
+    "traditional": "could not fully straighten herself; could in no wise lift up herself",
+    "note": "The Greek phrase meaning “completely” can go with either word. It may mean she could not straighten up all the way, or that she was completely unable to straighten up. The Greek word order slightly favours the first reading, but both are defensible."
+   },
+   {
+    "verse": 16,
+    "phrase": "untied",
+    "lemma": "λύω",
+    "kind": "background",
+    "traditional": "loosed; set free",
+    "note": "Jesus turns the synagogue leader's words back on him. The same verb is used for untying the ox in verse 15 and for freeing the woman here, and “released” in verse 12 is a compound of it. The leader's “ought” in verse 14 is also echoed: work ought to be done on six days, but this woman ought to have been freed on the Sabbath itself."
+   },
+   {
+    "verse": 21,
+    "phrase": "three measures",
+    "lemma": "σάτον",
+    "kind": "background",
+    "traditional": "three measures",
+    "note": "The measure is the Hebrew seah. Estimates of its size vary, but three of them amount to several dozen litres of flour, enough bread for a very large gathering. The point is the small amount of leaven set against the huge batch it transforms."
+   },
+   {
+    "verse": 25,
+    "phrase": "once the master of the house has risen",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "When once the master of the house has risen (beginning a new sentence)",
+    "note": "The punctuation here is uncertain. This translation follows the edition's punctuation, which attaches the clause to verse 24: many will be unable to enter once the door is shut. Many translations instead begin a new sentence here, running on to “then he will answer you” or to verse 26."
+   },
+   {
+    "verse": 27,
+    "phrase": "Get away from me, all you doers of wrong!",
+    "lemma": "ἀδικία",
+    "kind": "background",
+    "traditional": "Depart from me, all you workers of iniquity; all you evildoers",
+    "note": "The householder's words echo Psalm 6:8 (6:9 in the Greek Psalter), where the psalmist dismisses his enemies. The word rendered “wrong” covers injustice and wrongdoing generally."
+   },
+   {
+    "verse": 29,
+    "phrase": "recline at table",
+    "lemma": "ἀνακλίνω",
+    "kind": "departure",
+    "traditional": "sit down",
+    "note": "Older translations have “sit down,” but the verb refers to reclining on couches, the posture of guests at a formal banquet. The image is the feast of the age to come, with guests arriving from every direction. Several modern versions also render it “recline at table” or “take their places at the feast.”"
+   },
+   {
+    "verse": 32,
+    "phrase": "that fox",
+    "lemma": "ἀλώπηξ",
+    "kind": "background",
+    "traditional": "that fox",
+    "note": "Herod here is Herod Antipas, ruler of Galilee and Perea, who had executed John the Baptist. In Greek usage the fox stood for cunning. In Jewish usage it could also stand for a petty, insignificant figure in contrast to a lion; either or both may be intended."
+   },
+   {
+    "verse": 32,
+    "phrase": "I reach my goal",
+    "lemma": "τελειόω",
+    "kind": "ambiguity",
+    "traditional": "I shall be perfected; I finish my course",
+    "note": "The verb means to complete or bring to its end, and the form can be read as “I am brought to completion” or “I finish.” It may refer to finishing his work, to his death in Jerusalem, or to both. “Today, tomorrow, and the third day” is an idiom for a short, fixed period, not a literal count of days."
+   },
+   {
+    "verse": 35,
+    "phrase": "your house is left to you",
+    "lemma": "ἀφίημι",
+    "kind": "textual",
+    "traditional": "your house is left unto you desolate",
+    "note": "Many later manuscripts add “desolate,” probably under the influence of Matthew 23:38 and Jeremiah 22:5; the earliest witnesses lack it. The sense is that the house, meaning the temple or the city, is abandoned to its people. The closing words quote Psalm 118:26, a greeting for pilgrims arriving at the temple."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "μετανοέω",
+    "rendering": "repent",
+    "verse": 3,
+    "reason": "Recurs throughout the New Testament; translators differ between “repent,” “turn back,” and “change your mind/heart,” and readers would notice variation."
+   },
+   {
+    "lemma": "ἰδού",
+    "rendering": "look",
+    "verse": 7,
+    "reason": "Extremely frequent; needs a policy on “look,” “behold,” “see,” or leaving it untranslated in narrative introductions such as verse 11."
+   },
+   {
+    "lemma": "δεῖ",
+    "rendering": "ought / must",
+    "verse": 14,
+    "reason": "Luke uses it thematically for divine necessity as well as obligation, so the choice between “must,” “ought,” and “it is necessary” should be settled across books."
+   },
+   {
+    "lemma": "σῴζω",
+    "rendering": "being saved",
+    "verse": 23,
+    "reason": "Covers rescue, healing, and end-time salvation across the New Testament; a decision is needed on when “save” is kept and when “heal” or “rescue” is used."
+   },
+   {
+    "lemma": "ὑποκριτής",
+    "rendering": "hypocrites",
+    "verse": 15,
+    "reason": "The traditional loan-rendering may be narrower than first-century usage (play-actor, pretender), and it recurs across the Synoptic Gospels."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

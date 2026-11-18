@@ -9,59 +9,47 @@ export default function Home() {
   return (
     <div className="container-reading py-16">
       {/* Hero */}
-      <div className="text-center mb-16">
+      <div className="text-center mb-10">
         <h1 className="text-4xl md:text-5xl font-bold text-neutral-900 dark:text-neutral-100 mb-6">
           AIT Bible
         </h1>
         <p className="text-xl text-neutral-600 dark:text-neutral-400 max-w-xl mx-auto leading-relaxed">
-          A fresh translation from the original Greek, prioritizing accuracy and
-          meaning over tradition.
+          An AI translation of the Greek New Testament that shows its work.
         </p>
+      </div>
+
+      {/* About */}
+      <div className="mb-12 space-y-4 text-neutral-700 dark:text-neutral-300">
+        <p>
+          The AIT Bible is a translation of the Greek New Testament made by
+          an AI model. It aims to say in plain modern English what a
+          first-century reader would have understood, and it explains itself:
+          where the text departs from the traditional wording, a note gives
+          the reason and what most scholars think.
+        </p>
+        <p className="text-sm text-neutral-600 dark:text-neutral-400">
+          This is a machine translation that has not been reviewed by
+          scholars. Read it beside an established translation, not in place
+          of one.
+        </p>
+        <div className="flex flex-wrap items-center gap-4 pt-2 font-sans">
+          <Link
+            href="/matthew/1"
+            className="px-5 py-2.5 rounded-lg bg-amber-700 hover:bg-amber-800 text-white font-medium transition-colors"
+          >
+            Start reading
+          </Link>
+          <Link
+            href="/vision"
+            className="text-amber-700 dark:text-amber-500 hover:underline font-medium"
+          >
+            How it was made →
+          </Link>
+        </div>
       </div>
 
       {/* Translation Example */}
       <TranslationCarousel />
-
-      {/* About */}
-      <div className="card p-8 mb-12">
-        <h2 className="font-sans font-semibold text-lg text-neutral-900 dark:text-neutral-100 mb-4">
-          Why This Translation?
-        </h2>
-        <div className="space-y-4 text-neutral-700 dark:text-neutral-300">
-          <p>
-            In 1997, world chess champion Garry Kasparov lost to Deep Blue,
-            IBM&rsquo;s chess-playing computer. Today, no one questions using
-            chess engines for analysis—the tool simply sees more than we can. We
-            believe language translation is now crossing a similar threshold.
-          </p>
-          <p>
-            Modern AI can hold the entirety of ancient Greek, centuries of
-            linguistic context, and semantic patterns across thousands of texts
-            in view simultaneously. No individual translator—however skilled—can
-            match that scope. This isn&rsquo;t about replacing human judgment,
-            but simply recognizing when a tool can see better than we can alone.
-          </p>
-          <p>
-            Traditional translations also carry accumulated meaning. Words like
-            &ldquo;hypocrites&rdquo; have gathered connotations over centuries
-            that obscure what the original Greek audience would have understood.
-            AI helps us cut through those layers and ask:{" "}
-            <em>
-              What did this actually mean to the people who first heard it?
-            </em>
-          </p>
-          <p className="text-sm text-neutral-600 dark:text-neutral-400">
-            This is an ongoing project. AI is imperfect, and we approach this
-            work with humility and transparency.{" "}
-            <Link
-              href="/vision"
-              className="text-amber-700 dark:text-amber-500 hover:underline font-medium font-sans"
-            >
-              Read our full vision →
-            </Link>
-          </p>
-        </div>
-      </div>
 
       {/* Book List */}
       <div>
@@ -83,7 +71,7 @@ export default function Home() {
                     {book.name}
                   </span>
                   <span className="block text-sm text-neutral-500 dark:text-neutral-400 mt-1">
-                    {book.chapters} chapters
+                    {book.chapters} {book.chapters === 1 ? "chapter" : "chapters"}
                   </span>
                 </Link>
               );
@@ -103,18 +91,6 @@ export default function Home() {
               </div>
             );
           })}
-        </div>
-      </div>
-
-      {/* Old Testament */}
-      <div className="mt-12">
-        <h2 className="font-sans font-semibold text-sm uppercase tracking-wide text-neutral-500 dark:text-neutral-400 mb-6">
-          Old Testament
-        </h2>
-        <div className="card p-8 text-center">
-          <span className="text-neutral-500 dark:text-neutral-400">
-            Coming soon
-          </span>
         </div>
       </div>
     </div>

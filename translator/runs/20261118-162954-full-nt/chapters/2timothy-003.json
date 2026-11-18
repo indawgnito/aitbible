@@ -1,0 +1,313 @@
+{
+ "id": "2timothy-003",
+ "book": "2timothy",
+ "chapter": 3,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZhPqZ4mu1NpJXsCY",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 5997,
+  "output_tokens": 7712
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But know this: in the last days hard times will set in.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For people will be lovers of themselves, lovers of money, boastful, arrogant, abusive, disobedient to parents, ungrateful, unholy,\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"heartless, implacable, slanderous, without self-control, savage, with no love for what is good,\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"treacherous, reckless, puffed up with conceit, lovers of pleasure rather than lovers of God,\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"holding to an outward form of godliness but having denied its power. Avoid these people as well.\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For among them are those who worm their way into households and take captive weak-willed women who are loaded down with sins and led by all kinds of desires,\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"always learning and never able to arrive at knowledge of the truth.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Just as Jannes and Jambres opposed Moses, so these also oppose the truth: people whose minds are corrupted, who have failed the test where the faith is concerned.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But they will make no further progress, for their folly will be plain to everyone, as the folly of those two also came to be.\"}]},{\"verse\":10,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But you have followed closely my teaching, my way of life, my purpose, my faith, my patience, my love, my endurance,\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"my persecutions, my sufferings, the kind that happened to me in Antioch, in Iconium, in Lystra, the kind of persecutions I endured. And from all of them the Lord rescued me.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Indeed, all who want to live a godly life in Christ Jesus will be persecuted,\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"while evil people and charlatans will progress from bad to worse, deceiving and being deceived.\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But as for you, remain in what you have learned and become convinced of, knowing from whom you learned it,\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and that from infancy you have known the sacred writings, which are able to make you wise for salvation through faith in Christ Jesus.\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Every scripture is God-breathed and useful for teaching, for reproof, for correction, for training in righteousness,\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"so that the person who belongs to God may be complete, completely equipped for every good work.\"}]}],\"notes\":[{\"verse\":6,\"phrase\":\"weak-willed women\",\"lemma\":\"γυναικάριον\",\"kind\":\"background\",\"traditional\":\"silly women; weak women\",\"note\":\"The Greek is a diminutive of 'woman' used with contempt, literally 'little women'. It describes the particular women these teachers targeted, not women in general. English versions vary between 'silly', 'weak', 'gullible' and 'weak-willed'; the following phrases about sins and desires suggest that moral weakness is meant, not lack of intelligence.\"},{\"verse\":8,\"phrase\":\"Jannes and Jambres\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"These names do not appear in the Old Testament. Jewish tradition gave them to the Egyptian magicians who matched Moses' signs before Pharaoh (Exodus 7–9) until their powers failed and they were exposed. The author assumes his reader knows the story.\"},{\"verse\":8,\"phrase\":\"failed the test\",\"lemma\":\"ἀδόκιμος\",\"kind\":\"departure\",\"traditional\":\"reprobate; disqualified\",\"note\":\"The word describes something that has been tested and found not genuine, as with coinage or metal that does not pass assay. 'Reprobate' now suggests general depravity, which the Greek does not say. Most modern versions use 'disqualified' or 'rejected', which express the same idea.\"},{\"verse\":10,\"phrase\":\"my faith\",\"lemma\":\"πίστις\",\"kind\":\"ambiguity\",\"traditional\":\"faith\",\"note\":\"In a list of personal qualities alongside patience and endurance, the word could equally mean 'faithfulness', that is, Paul's reliability. Most translations keep 'faith', and the Greek does not settle the question.\"},{\"verse\":11,\"phrase\":\"in Antioch, in Iconium, in Lystra\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"These are three cities in the south of Asia Minor where, according to Acts 13–14, Paul was driven out, threatened with stoning, and finally stoned and left for dead. Acts 16:1 places Timothy at Lystra, so these are events he would have known about from his own home region. The Antioch meant is Pisidian Antioch, not Antioch in Syria.\"},{\"verse\":13,\"phrase\":\"charlatans\",\"lemma\":\"γόης\",\"kind\":\"ambiguity\",\"traditional\":\"impostors; seducers\",\"note\":\"The word originally meant a sorcerer or enchanter, and by this period was commonly used for a swindler or fraud. Most translations choose 'impostors'. 'Charlatans' is used here because it keeps the suggestion of bogus powers, which fits the comparison with Pharaoh's magicians in verse 8; whether actual magical practice is alleged is uncertain.\"},{\"verse\":14,\"phrase\":\"from whom\",\"lemma\":\"τίς\",\"kind\":\"textual\",\"traditional\":\"of whom thou hast learned them\",\"note\":\"The earliest manuscripts have a plural here, meaning 'from which people', which probably takes in Timothy's mother and grandmother (1:5) as well as Paul. Many later manuscripts have the singular, pointing to Paul alone. English cannot show the difference without paraphrase.\"},{\"verse\":16,\"phrase\":\"Every scripture\",\"lemma\":\"γραφή\",\"kind\":\"ambiguity\",\"traditional\":\"All Scripture is inspired by God and profitable\",\"note\":\"The Greek has no verb 'is' and no article, so two questions arise. The phrase can mean 'every scripture', passage by passage, or 'all Scripture' as a whole; and the sentence can be read 'every scripture is God-breathed and useful' or 'every God-breathed scripture is also useful'. Most translations and scholars take the first construction, as here, and many prefer 'all Scripture'; the practical difference is small, since the writings in view are the sacred writings of verse 15.\"},{\"verse\":16,\"phrase\":\"God-breathed\",\"lemma\":\"θεόπνευστος\",\"kind\":\"departure\",\"traditional\":\"inspired by God; given by inspiration of God\",\"note\":\"This rare compound joins 'God' and 'breathe' and occurs only here in the New Testament. 'Inspired' comes from the Latin translation and in modern English suggests artistic brilliance, whereas the Greek says that the writings come from God's breath. Several modern versions render it 'God-breathed' or 'breathed out by God'; the word states the origin of scripture without explaining how this happened.\"},{\"verse\":17,\"phrase\":\"the person who belongs to God\",\"lemma\":\"ἄνθρωπος\",\"kind\":\"departure\",\"traditional\":\"the man of God\",\"note\":\"The Greek word is the general one for a human being, not the word for a male. 'Man of God' is also a title in the Greek Old Testament for figures such as Moses and Elijah, and it is applied to Timothy in 1 Timothy 6:11. Many scholars therefore think the phrase here refers especially to Timothy as a Christian leader, while others take it of any believer; the rendering leaves both open.\"},{\"verse\":17,\"phrase\":\"complete, completely equipped\",\"lemma\":\"ἄρτιος\",\"kind\":\"background\",\"traditional\":\"perfect, thoroughly furnished; complete, equipped\",\"note\":\"The Greek uses two words from the same root, an adjective meaning fit or complete and a verb meaning to fit out fully. The repetition in English reproduces this echo. The adjective describes being fully suited to a task, not moral perfection.\"}],\"candidates\":[{\"lemma\":\"εὐσέβεια\",\"rendering\":\"godliness\",\"verse\":5,\"reason\":\"Frequent in the Pastorals, 2 Peter and Acts, and translators vary between godliness, piety, devotion and religion; the adverb and adjective (v. 12) need to match.\"},{\"lemma\":\"ὑπομονή\",\"rendering\":\"endurance\",\"verse\":10,\"reason\":\"Recurs across Paul, Hebrews, James and Revelation and is variously rendered patience, endurance, perseverance or steadfastness; it must stay distinct from μακροθυμία.\"},{\"lemma\":\"μακροθυμία\",\"rendering\":\"patience\",\"verse\":10,\"reason\":\"Often paired with ὑπομονή and rendered patience, longsuffering or forbearance; the two need fixed and distinct English.\"},{\"lemma\":\"διδασκαλία\",\"rendering\":\"teaching\",\"verse\":10,\"reason\":\"Rendered 'doctrine' in the older tradition and 'teaching' or 'instruction' in modern versions; it is a key term in the Pastorals and should not vary.\"},{\"lemma\":\"ἀδόκιμος\",\"rendering\":\"failed the test\",\"verse\":8,\"reason\":\"Occurs in Romans, 1–2 Corinthians, Titus and Hebrews with renderings ranging from reprobate to disqualified to worthless; the testing image should be handled consistently, along with δόκιμος.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But know this: in the last days hard times will set in."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For people will be lovers of themselves, lovers of money, boastful, arrogant, abusive, disobedient to parents, ungrateful, unholy,"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "heartless, implacable, slanderous, without self-control, savage, with no love for what is good,"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "treacherous, reckless, puffed up with conceit, lovers of pleasure rather than lovers of God,"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "holding to an outward form of godliness but having denied its power. Avoid these people as well."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For among them are those who worm their way into households and take captive weak-willed women who are loaded down with sins and led by all kinds of desires,"
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "always learning and never able to arrive at knowledge of the truth."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Just as Jannes and Jambres opposed Moses, so these also oppose the truth: people whose minds are corrupted, who have failed the test where the faith is concerned."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But they will make no further progress, for their folly will be plain to everyone, as the folly of those two also came to be."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But you have followed closely my teaching, my way of life, my purpose, my faith, my patience, my love, my endurance,"
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "my persecutions, my sufferings, the kind that happened to me in Antioch, in Iconium, in Lystra, the kind of persecutions I endured. And from all of them the Lord rescued me."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Indeed, all who want to live a godly life in Christ Jesus will be persecuted,"
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "while evil people and charlatans will progress from bad to worse, deceiving and being deceived."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But as for you, remain in what you have learned and become convinced of, knowing from whom you learned it,"
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and that from infancy you have known the sacred writings, which are able to make you wise for salvation through faith in Christ Jesus."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Every scripture is God-breathed and useful for teaching, for reproof, for correction, for training in righteousness,"
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "so that the person who belongs to God may be complete, completely equipped for every good work."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 6,
+    "phrase": "weak-willed women",
+    "lemma": "γυναικάριον",
+    "kind": "background",
+    "traditional": "silly women; weak women",
+    "note": "The Greek is a diminutive of 'woman' used with contempt, literally 'little women'. It describes the particular women these teachers targeted, not women in general. English versions vary between 'silly', 'weak', 'gullible' and 'weak-willed'; the following phrases about sins and desires suggest that moral weakness is meant, not lack of intelligence."
+   },
+   {
+    "verse": 8,
+    "phrase": "Jannes and Jambres",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "These names do not appear in the Old Testament. Jewish tradition gave them to the Egyptian magicians who matched Moses' signs before Pharaoh (Exodus 7–9) until their powers failed and they were exposed. The author assumes his reader knows the story."
+   },
+   {
+    "verse": 8,
+    "phrase": "failed the test",
+    "lemma": "ἀδόκιμος",
+    "kind": "departure",
+    "traditional": "reprobate; disqualified",
+    "note": "The word describes something that has been tested and found not genuine, as with coinage or metal that does not pass assay. 'Reprobate' now suggests general depravity, which the Greek does not say. Most modern versions use 'disqualified' or 'rejected', which express the same idea."
+   },
+   {
+    "verse": 10,
+    "phrase": "my faith",
+    "lemma": "πίστις",
+    "kind": "ambiguity",
+    "traditional": "faith",
+    "note": "In a list of personal qualities alongside patience and endurance, the word could equally mean 'faithfulness', that is, Paul's reliability. Most translations keep 'faith', and the Greek does not settle the question."
+   },
+   {
+    "verse": 11,
+    "phrase": "in Antioch, in Iconium, in Lystra",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "These are three cities in the south of Asia Minor where, according to Acts 13–14, Paul was driven out, threatened with stoning, and finally stoned and left for dead. Acts 16:1 places Timothy at Lystra, so these are events he would have known about from his own home region. The Antioch meant is Pisidian Antioch, not Antioch in Syria."
+   },
+   {
+    "verse": 13,
+    "phrase": "charlatans",
+    "lemma": "γόης",
+    "kind": "ambiguity",
+    "traditional": "impostors; seducers",
+    "note": "The word originally meant a sorcerer or enchanter, and by this period was commonly used for a swindler or fraud. Most translations choose 'impostors'. 'Charlatans' is used here because it keeps the suggestion of bogus powers, which fits the comparison with Pharaoh's magicians in verse 8; whether actual magical practice is alleged is uncertain."
+   },
+   {
+    "verse": 14,
+    "phrase": "from whom",
+    "lemma": "τίς",
+    "kind": "textual",
+    "traditional": "of whom thou hast learned them",
+    "note": "The earliest manuscripts have a plural here, meaning 'from which people', which probably takes in Timothy's mother and grandmother (1:5) as well as Paul. Many later manuscripts have the singular, pointing to Paul alone. English cannot show the difference without paraphrase."
+   },
+   {
+    "verse": 16,
+    "phrase": "Every scripture",
+    "lemma": "γραφή",
+    "kind": "ambiguity",
+    "traditional": "All Scripture is inspired by God and profitable",
+    "note": "The Greek has no verb 'is' and no article, so two questions arise. The phrase can mean 'every scripture', passage by passage, or 'all Scripture' as a whole; and the sentence can be read 'every scripture is God-breathed and useful' or 'every God-breathed scripture is also useful'. Most translations and scholars take the first construction, as here, and many prefer 'all Scripture'; the practical difference is small, since the writings in view are the sacred writings of verse 15."
+   },
+   {
+    "verse": 16,
+    "phrase": "God-breathed",
+    "lemma": "θεόπνευστος",
+    "kind": "departure",
+    "traditional": "inspired by God; given by inspiration of God",
+    "note": "This rare compound joins 'God' and 'breathe' and occurs only here in the New Testament. 'Inspired' comes from the Latin translation and in modern English suggests artistic brilliance, whereas the Greek says that the writings come from God's breath. Several modern versions render it 'God-breathed' or 'breathed out by God'; the word states the origin of scripture without explaining how this happened."
+   },
+   {
+    "verse": 17,
+    "phrase": "the person who belongs to God",
+    "lemma": "ἄνθρωπος",
+    "kind": "departure",
+    "traditional": "the man of God",
+    "note": "The Greek word is the general one for a human being, not the word for a male. 'Man of God' is also a title in the Greek Old Testament for figures such as Moses and Elijah, and it is applied to Timothy in 1 Timothy 6:11. Many scholars therefore think the phrase here refers especially to Timothy as a Christian leader, while others take it of any believer; the rendering leaves both open."
+   },
+   {
+    "verse": 17,
+    "phrase": "complete, completely equipped",
+    "lemma": "ἄρτιος",
+    "kind": "background",
+    "traditional": "perfect, thoroughly furnished; complete, equipped",
+    "note": "The Greek uses two words from the same root, an adjective meaning fit or complete and a verb meaning to fit out fully. The repetition in English reproduces this echo. The adjective describes being fully suited to a task, not moral perfection."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "εὐσέβεια",
+    "rendering": "godliness",
+    "verse": 5,
+    "reason": "Frequent in the Pastorals, 2 Peter and Acts, and translators vary between godliness, piety, devotion and religion; the adverb and adjective (v. 12) need to match."
+   },
+   {
+    "lemma": "ὑπομονή",
+    "rendering": "endurance",
+    "verse": 10,
+    "reason": "Recurs across Paul, Hebrews, James and Revelation and is variously rendered patience, endurance, perseverance or steadfastness; it must stay distinct from μακροθυμία."
+   },
+   {
+    "lemma": "μακροθυμία",
+    "rendering": "patience",
+    "verse": 10,
+    "reason": "Often paired with ὑπομονή and rendered patience, longsuffering or forbearance; the two need fixed and distinct English."
+   },
+   {
+    "lemma": "διδασκαλία",
+    "rendering": "teaching",
+    "verse": 10,
+    "reason": "Rendered 'doctrine' in the older tradition and 'teaching' or 'instruction' in modern versions; it is a key term in the Pastorals and should not vary."
+   },
+   {
+    "lemma": "ἀδόκιμος",
+    "rendering": "failed the test",
+    "verse": 8,
+    "reason": "Occurs in Romans, 1–2 Corinthians, Titus and Hebrews with renderings ranging from reprobate to disqualified to worthless; the testing image should be handled consistently, along with δόκιμος."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

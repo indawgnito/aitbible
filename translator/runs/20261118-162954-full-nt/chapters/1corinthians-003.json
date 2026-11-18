@@ -1,0 +1,405 @@
+{
+ "id": "1corinthians-003",
+ "book": "1corinthians",
+ "chapter": 3,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZo6XN9rMB6HXG1hr",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 6630,
+  "output_tokens": 9788
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And I, brothers and sisters, could not speak to you as spiritual people, but as people of flesh, as infants in Christ.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"I gave you milk to drink, not solid food, for you were not yet able to take it. In fact, you are still not able even now,\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"for you are still fleshly. For where there is jealousy and strife among you, are you not fleshly and living in a merely human way?\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For when someone says,\"},{\"speaker\":\"other\",\"text\":\"“I belong to Paul,”\"},{\"speaker\":\"narrator\",\"text\":\"and another,\"},{\"speaker\":\"other\",\"text\":\"“I belong to Apollos,”\"},{\"speaker\":\"narrator\",\"text\":\"are you not merely human?\"}]},{\"verse\":5,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"What then is Apollos? And what is Paul? Servants through whom you came to believe, as the Lord assigned to each.\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"I planted, Apollos watered, but God was making it grow.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So neither the one who plants nor the one who waters is anything, but only God, who makes it grow.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The one who plants and the one who waters are one, and each will receive his own wages according to his own labor.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For we are God’s fellow workers; you are God’s field, God’s building.\"}]},{\"verse\":10,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"According to the grace of God given to me, like a skilled master builder I laid a foundation, and someone else is building on it. But each one must take care how he builds on it.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For no one can lay any foundation other than the one already laid, which is Jesus Christ.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now if anyone builds on the foundation with gold, silver, precious stones, wood, hay, straw,\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"each one’s work will become visible, for the Day will make it clear, because it is revealed in fire, and the fire itself will test what kind of work each one’s is.\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"If the work that anyone has built on it remains, he will receive wages.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"If anyone’s work is burned up, he will suffer loss; he himself will be saved, but only as through fire.\"}]},{\"verse\":16,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Do you not know that you are God’s temple and that the Spirit of God lives in you?\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"If anyone destroys God’s temple, God will destroy that person; for God’s temple is holy, and that is what you are.\"}]},{\"verse\":18,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Let no one deceive himself. If anyone among you thinks he is wise in this age, let him become a fool so that he may become wise.\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For the wisdom of this world is foolishness in God’s sight. For it is written:\"},{\"speaker\":\"scripture\",\"text\":\"“He catches the wise in their own cunning,”\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and again:\"},{\"speaker\":\"scripture\",\"text\":\"“The Lord knows the reasonings of the wise, that they are futile.”\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So let no one boast in human beings. For all things are yours,\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"whether Paul or Apollos or Cephas or the world or life or death or the present or the future—all are yours,\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and you are Christ’s, and Christ is God’s.\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"people of flesh\",\"lemma\":\"σάρκινος\",\"kind\":\"departure\",\"traditional\":\"carnal\",\"note\":\"Paul uses two related adjectives: one in verse 1 that normally means 'made of flesh', and one in verse 3 that means 'characterised by flesh'. They are rendered 'people of flesh' and 'fleshly' to keep them distinct. 'Carnal' now suggests sexual sin, which is not the point here; other versions use 'worldly' or 'unspiritual'. Whether Paul intends a real difference between the two words is debated.\"},{\"verse\":3,\"phrase\":\"living in a merely human way\",\"lemma\":\"περιπατέω\",\"kind\":\"departure\",\"traditional\":\"walk as men\",\"note\":\"The Greek is literally 'walking according to a human being'. 'Walk' is a Semitic idiom for how one conducts one's life, and Greek-speaking Jews used it that way. 'Merely' is supplied to bring out the contrast with life shaped by the Spirit, as it is in verse 4.\"},{\"verse\":8,\"phrase\":\"wages\",\"lemma\":\"μισθός\",\"kind\":\"departure\",\"traditional\":\"reward\",\"note\":\"The word is the ordinary term for a worker's pay, and it fits the picture of field hands and builders that runs through the passage. Many translations use 'wages' here and 'reward' in verse 14; the same word is kept in both places so that the link stays visible.\"},{\"verse\":9,\"phrase\":\"God’s fellow workers\",\"lemma\":\"συνεργός\",\"kind\":\"ambiguity\",\"traditional\":\"labourers together with God\",\"note\":\"The Greek can mean 'people who work alongside God' or 'fellow workers who belong to God', that is, Paul and Apollos as colleagues in God's service. The second fits the surrounding argument, which plays down the workers and stresses that everything is God's, but both readings have scholarly support. The English is left open to either.\"},{\"verse\":10,\"phrase\":\"skilled master builder\",\"lemma\":\"σοφός\",\"kind\":\"ambiguity\",\"traditional\":\"wise master builder\",\"note\":\"The adjective is the same word translated 'wise' in verses 18–20. It was the normal term for a skilled craftsman, and the Greek version of Isaiah 3:3 has the same phrase. A Greek reader would hear the echo of the letter's argument about wisdom, which the English 'skilled' does not carry. The 'master builder' was the person who directed a building project, not a designer in the modern sense of 'architect'.\"},{\"verse\":13,\"phrase\":\"the Day\",\"lemma\":\"ἡμέρα\",\"kind\":\"background\",\"traditional\":\"the day\",\"note\":\"This is the 'day of the Lord' of the prophets, the day of God's judgment, which Paul elsewhere calls the day of the Lord Jesus Christ (1:8). The prophets often link fire with that day. The capital letter is an English convention to mark this; the Greek has simply 'the day'.\"},{\"verse\":13,\"phrase\":\"it is revealed in fire\",\"lemma\":\"ἀποκαλύπτω\",\"kind\":\"ambiguity\",\"traditional\":\"it shall be revealed by fire\",\"note\":\"The subject of 'is revealed' is not stated. Most interpreters take it to be the Day, which arrives with fire; others take it to be each person's work, which the fire exposes. The English 'it' leaves the question as open as the Greek does.\"},{\"verse\":15,\"phrase\":\"only as through fire\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"yet so as by fire\",\"note\":\"The picture is of someone who escapes through the flames of a burning building with nothing but his life. The fire in this passage tests the quality of work built on the foundation, and the people in view are those who build up the community. The verse later became important in debates about purgatory, but most modern scholars of all traditions read it as an image of narrow escape, not a description of purifying punishment.\"},{\"verse\":16,\"phrase\":\"you are God’s temple\",\"lemma\":\"ναός\",\"kind\":\"background\",\"traditional\":\"ye are the temple of God\",\"note\":\"'You' is plural throughout verses 16–17 and 'temple' is singular: the community as a whole is the temple, continuing the building image of verses 9–15. The word used is the one for the sanctuary proper, the place where the deity dwells, not for the wider temple precincts. Paul applies the image to the individual body later, in 6:19.\"},{\"verse\":17,\"phrase\":\"destroys\",\"lemma\":\"φθείρω\",\"kind\":\"ambiguity\",\"traditional\":\"defile\",\"note\":\"Paul uses the same verb twice, side by side: whoever does this to God's temple, God will do it to him. The verb can mean 'ruin', 'corrupt' or 'destroy'. Some older versions translate the first as 'defile' and the second as 'destroy', which hides the deliberate repetition. 'Destroy' is used for both, though the first may carry the nuance of damaging or corrupting the community.\"},{\"verse\":19,\"phrase\":\"“He catches the wise in their own cunning,”\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"He taketh the wise in their own craftiness\",\"note\":\"The quotation is from Job 5:13, from a speech of Eliphaz. Paul's wording differs from the standard Greek version of Job and is closer to the Hebrew. In Greek it is not a full sentence but a descriptive phrase, 'the one who catches the wise'.\"},{\"verse\":20,\"phrase\":\"of the wise\",\"lemma\":\"σοφός\",\"kind\":\"background\",\"traditional\":\"of the wise\",\"note\":\"The quotation is from Psalm 94:11 (93:11 in the Greek numbering). The psalm speaks of the thoughts 'of people'; Paul's quotation has 'of the wise', which applies the line directly to his argument about human wisdom.\"}],\"candidates\":[{\"lemma\":\"ἀδελφός\",\"rendering\":\"brothers and sisters\",\"verse\":1,\"reason\":\"The plural address to a mixed congregation recurs throughout the letters, and translations vary between 'brothers', 'brothers and sisters' and 'brethren'.\"},{\"lemma\":\"περιπατέω\",\"rendering\":\"live\",\"verse\":3,\"reason\":\"The figurative 'walk' for conduct is frequent in Paul and John, and a single policy is needed on whether to keep the idiom or render it 'live'.\"},{\"lemma\":\"σαρκικός\",\"rendering\":\"fleshly\",\"verse\":3,\"reason\":\"The σάρξ word group (σάρξ, σαρκικός, σάρκινος) needs one coordinated decision, since 'carnal', 'worldly', 'fleshly' and 'sinful nature' all compete and mislead in different ways.\"},{\"lemma\":\"μισθός\",\"rendering\":\"wages\",\"verse\":8,\"reason\":\"It varies between 'wages' and 'reward' across the Gospels and letters, and the choice affects how readers hear the language of recompense.\"},{\"lemma\":\"ναός\",\"rendering\":\"temple\",\"verse\":16,\"reason\":\"It needs distinguishing from ἱερόν (the temple complex) consistently, especially in the Gospels, where both occur and 'sanctuary' is an option.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And I, brothers and sisters, could not speak to you as spiritual people, but as people of flesh, as infants in Christ."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "I gave you milk to drink, not solid food, for you were not yet able to take it. In fact, you are still not able even now,"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "for you are still fleshly. For where there is jealousy and strife among you, are you not fleshly and living in a merely human way?"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For when someone says,"
+     },
+     {
+      "speaker": "other",
+      "text": "“I belong to Paul,”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "and another,"
+     },
+     {
+      "speaker": "other",
+      "text": "“I belong to Apollos,”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "are you not merely human?"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "What then is Apollos? And what is Paul? Servants through whom you came to believe, as the Lord assigned to each."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "I planted, Apollos watered, but God was making it grow."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So neither the one who plants nor the one who waters is anything, but only God, who makes it grow."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The one who plants and the one who waters are one, and each will receive his own wages according to his own labor."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For we are God’s fellow workers; you are God’s field, God’s building."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "According to the grace of God given to me, like a skilled master builder I laid a foundation, and someone else is building on it. But each one must take care how he builds on it."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For no one can lay any foundation other than the one already laid, which is Jesus Christ."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now if anyone builds on the foundation with gold, silver, precious stones, wood, hay, straw,"
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "each one’s work will become visible, for the Day will make it clear, because it is revealed in fire, and the fire itself will test what kind of work each one’s is."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "If the work that anyone has built on it remains, he will receive wages."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "If anyone’s work is burned up, he will suffer loss; he himself will be saved, but only as through fire."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Do you not know that you are God’s temple and that the Spirit of God lives in you?"
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "If anyone destroys God’s temple, God will destroy that person; for God’s temple is holy, and that is what you are."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Let no one deceive himself. If anyone among you thinks he is wise in this age, let him become a fool so that he may become wise."
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For the wisdom of this world is foolishness in God’s sight. For it is written:"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“He catches the wise in their own cunning,”"
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and again:"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“The Lord knows the reasonings of the wise, that they are futile.”"
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So let no one boast in human beings. For all things are yours,"
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "whether Paul or Apollos or Cephas or the world or life or death or the present or the future—all are yours,"
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and you are Christ’s, and Christ is God’s."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "people of flesh",
+    "lemma": "σάρκινος",
+    "kind": "departure",
+    "traditional": "carnal",
+    "note": "Paul uses two related adjectives: one in verse 1 that normally means 'made of flesh', and one in verse 3 that means 'characterised by flesh'. They are rendered 'people of flesh' and 'fleshly' to keep them distinct. 'Carnal' now suggests sexual sin, which is not the point here; other versions use 'worldly' or 'unspiritual'. Whether Paul intends a real difference between the two words is debated."
+   },
+   {
+    "verse": 3,
+    "phrase": "living in a merely human way",
+    "lemma": "περιπατέω",
+    "kind": "departure",
+    "traditional": "walk as men",
+    "note": "The Greek is literally 'walking according to a human being'. 'Walk' is a Semitic idiom for how one conducts one's life, and Greek-speaking Jews used it that way. 'Merely' is supplied to bring out the contrast with life shaped by the Spirit, as it is in verse 4."
+   },
+   {
+    "verse": 8,
+    "phrase": "wages",
+    "lemma": "μισθός",
+    "kind": "departure",
+    "traditional": "reward",
+    "note": "The word is the ordinary term for a worker's pay, and it fits the picture of field hands and builders that runs through the passage. Many translations use 'wages' here and 'reward' in verse 14; the same word is kept in both places so that the link stays visible."
+   },
+   {
+    "verse": 9,
+    "phrase": "God’s fellow workers",
+    "lemma": "συνεργός",
+    "kind": "ambiguity",
+    "traditional": "labourers together with God",
+    "note": "The Greek can mean 'people who work alongside God' or 'fellow workers who belong to God', that is, Paul and Apollos as colleagues in God's service. The second fits the surrounding argument, which plays down the workers and stresses that everything is God's, but both readings have scholarly support. The English is left open to either."
+   },
+   {
+    "verse": 10,
+    "phrase": "skilled master builder",
+    "lemma": "σοφός",
+    "kind": "ambiguity",
+    "traditional": "wise master builder",
+    "note": "The adjective is the same word translated 'wise' in verses 18–20. It was the normal term for a skilled craftsman, and the Greek version of Isaiah 3:3 has the same phrase. A Greek reader would hear the echo of the letter's argument about wisdom, which the English 'skilled' does not carry. The 'master builder' was the person who directed a building project, not a designer in the modern sense of 'architect'."
+   },
+   {
+    "verse": 13,
+    "phrase": "the Day",
+    "lemma": "ἡμέρα",
+    "kind": "background",
+    "traditional": "the day",
+    "note": "This is the 'day of the Lord' of the prophets, the day of God's judgment, which Paul elsewhere calls the day of the Lord Jesus Christ (1:8). The prophets often link fire with that day. The capital letter is an English convention to mark this; the Greek has simply 'the day'."
+   },
+   {
+    "verse": 13,
+    "phrase": "it is revealed in fire",
+    "lemma": "ἀποκαλύπτω",
+    "kind": "ambiguity",
+    "traditional": "it shall be revealed by fire",
+    "note": "The subject of 'is revealed' is not stated. Most interpreters take it to be the Day, which arrives with fire; others take it to be each person's work, which the fire exposes. The English 'it' leaves the question as open as the Greek does."
+   },
+   {
+    "verse": 15,
+    "phrase": "only as through fire",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "yet so as by fire",
+    "note": "The picture is of someone who escapes through the flames of a burning building with nothing but his life. The fire in this passage tests the quality of work built on the foundation, and the people in view are those who build up the community. The verse later became important in debates about purgatory, but most modern scholars of all traditions read it as an image of narrow escape, not a description of purifying punishment."
+   },
+   {
+    "verse": 16,
+    "phrase": "you are God’s temple",
+    "lemma": "ναός",
+    "kind": "background",
+    "traditional": "ye are the temple of God",
+    "note": "'You' is plural throughout verses 16–17 and 'temple' is singular: the community as a whole is the temple, continuing the building image of verses 9–15. The word used is the one for the sanctuary proper, the place where the deity dwells, not for the wider temple precincts. Paul applies the image to the individual body later, in 6:19."
+   },
+   {
+    "verse": 17,
+    "phrase": "destroys",
+    "lemma": "φθείρω",
+    "kind": "ambiguity",
+    "traditional": "defile",
+    "note": "Paul uses the same verb twice, side by side: whoever does this to God's temple, God will do it to him. The verb can mean 'ruin', 'corrupt' or 'destroy'. Some older versions translate the first as 'defile' and the second as 'destroy', which hides the deliberate repetition. 'Destroy' is used for both, though the first may carry the nuance of damaging or corrupting the community."
+   },
+   {
+    "verse": 19,
+    "phrase": "“He catches the wise in their own cunning,”",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "He taketh the wise in their own craftiness",
+    "note": "The quotation is from Job 5:13, from a speech of Eliphaz. Paul's wording differs from the standard Greek version of Job and is closer to the Hebrew. In Greek it is not a full sentence but a descriptive phrase, 'the one who catches the wise'."
+   },
+   {
+    "verse": 20,
+    "phrase": "of the wise",
+    "lemma": "σοφός",
+    "kind": "background",
+    "traditional": "of the wise",
+    "note": "The quotation is from Psalm 94:11 (93:11 in the Greek numbering). The psalm speaks of the thoughts 'of people'; Paul's quotation has 'of the wise', which applies the line directly to his argument about human wisdom."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "ἀδελφός",
+    "rendering": "brothers and sisters",
+    "verse": 1,
+    "reason": "The plural address to a mixed congregation recurs throughout the letters, and translations vary between 'brothers', 'brothers and sisters' and 'brethren'."
+   },
+   {
+    "lemma": "περιπατέω",
+    "rendering": "live",
+    "verse": 3,
+    "reason": "The figurative 'walk' for conduct is frequent in Paul and John, and a single policy is needed on whether to keep the idiom or render it 'live'."
+   },
+   {
+    "lemma": "σαρκικός",
+    "rendering": "fleshly",
+    "verse": 3,
+    "reason": "The σάρξ word group (σάρξ, σαρκικός, σάρκινος) needs one coordinated decision, since 'carnal', 'worldly', 'fleshly' and 'sinful nature' all compete and mislead in different ways."
+   },
+   {
+    "lemma": "μισθός",
+    "rendering": "wages",
+    "verse": 8,
+    "reason": "It varies between 'wages' and 'reward' across the Gospels and letters, and the choice affects how readers hear the language of recompense."
+   },
+   {
+    "lemma": "ναός",
+    "rendering": "temple",
+    "verse": 16,
+    "reason": "It needs distinguishing from ἱερόν (the temple complex) consistently, especially in the Gospels, where both occur and 'sanctuary' is an option."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

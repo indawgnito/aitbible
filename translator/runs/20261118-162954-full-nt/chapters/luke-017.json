@@ -1,0 +1,555 @@
+{
+ "id": "luke-017",
+ "book": "luke",
+ "chapter": 17,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZoLoE2sH3x7Msoda",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 7974,
+  "output_tokens": 14552
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He said to his disciples,\"},{\"speaker\":\"Jesus\",\"text\":\"“It is impossible for stumbling blocks not to come, but woe to the one through whom they come!\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"It would be better for him to have a millstone hung around his neck and be thrown into the sea than to cause one of these little ones to stumble.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Watch yourselves. If your brother sins, rebuke him, and if he turns back, forgive him.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And if he sins against you seven times in a day and seven times returns to you saying, ‘I turn back,’ you shall forgive him.”\"}]},{\"verse\":5,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The apostles said to the Lord,\"},{\"speaker\":\"other\",\"text\":\"“Give us more faith.”\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The Lord said,\"},{\"speaker\":\"Jesus\",\"text\":\"“If you have faith like a mustard seed, you could say to this mulberry tree, ‘Be uprooted and planted in the sea,’ and it would obey you.\"}]},{\"verse\":7,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Which of you who has a slave plowing or tending sheep will say to him when he comes in from the field, ‘Come at once and recline at the table’?\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Will he not instead say to him, ‘Prepare something for my dinner, then fasten your belt and serve me until I have eaten and drunk, and after that you will eat and drink yourself’?\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Does he thank the slave because he did what was ordered?\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"So you also, when you have done everything you were ordered, say, ‘We are unworthy slaves; we have done what we were obliged to do.’”\"}]},{\"verse\":11,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"As he was traveling to Jerusalem, he was passing between Samaria and Galilee.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"As he was entering a certain village, ten men with leprosy met him. They stood at a distance\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and raised their voices, saying,\"},{\"speaker\":\"other\",\"text\":\"“Jesus, Master, have mercy on us!”\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When he saw them, he said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Go and show yourselves to the priests.”\"},{\"speaker\":\"narrator\",\"text\":\"And as they were going, they were made clean.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"One of them, seeing that he had been healed, came back, glorifying God with a loud voice,\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and fell on his face at Jesus’ feet, thanking him. And he was a Samaritan.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus responded,\"},{\"speaker\":\"Jesus\",\"text\":\"“Were not the ten made clean? Where are the nine?\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Was none of them found coming back to give glory to God except this foreigner?”\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And he said to him,\"},{\"speaker\":\"Jesus\",\"text\":\"“Get up and go; your faith has saved you.”\"}]},{\"verse\":20,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Asked by the Pharisees when the kingdom of God was coming, he answered them,\"},{\"speaker\":\"Jesus\",\"text\":\"“The kingdom of God does not come in a way that can be observed,\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"nor will they say, ‘Look, here it is!’ or ‘There!’ For look, the kingdom of God is among you.”\"}]},{\"verse\":22,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then he said to the disciples,\"},{\"speaker\":\"Jesus\",\"text\":\"“Days will come when you will long to see one of the days of the Son of Man, and you will not see it.\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"They will say to you, ‘Look, there!’ or ‘Look, here!’ Do not go off or chase after them.\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For just as lightning flashes and shines from one end of the sky to the other, so the Son of Man will be in his day.\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But first he must suffer many things and be rejected by this generation.\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And just as it was in the days of Noah, so it will also be in the days of the Son of Man:\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"they were eating, drinking, marrying, being given in marriage, until the day Noah entered the ark, and the flood came and destroyed them all.\"}]},{\"verse\":28,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"It was the same in the days of Lot: they were eating, drinking, buying, selling, planting, building;\"}]},{\"verse\":29,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"but on the day Lot went out from Sodom, it rained fire and sulfur from heaven and destroyed them all.\"}]},{\"verse\":30,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"It will be just like that on the day the Son of Man is revealed.\"}]},{\"verse\":31,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"On that day, the one who is on the roof, with his belongings in the house, must not come down to get them, and likewise the one in the field must not return to what is behind.\"}]},{\"verse\":32,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Remember Lot’s wife.\"}]},{\"verse\":33,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Whoever seeks to preserve their life will lose it, but whoever loses it will keep it alive.\"}]},{\"verse\":34,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"I tell you, on that night there will be two on one bed: one will be taken and the other left.\"}]},{\"verse\":35,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"There will be two women grinding together: one will be taken and the other left.”\"}]},{\"verse\":37,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And they answered him,\"},{\"speaker\":\"other\",\"text\":\"“Where, Lord?”\"},{\"speaker\":\"narrator\",\"text\":\"He said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Where the body is, there the vultures also will be gathered.”\"}]}],\"notes\":[{\"verse\":3,\"phrase\":\"turns back\",\"lemma\":\"μετανοέω\",\"kind\":\"departure\",\"traditional\":\"repents\",\"note\":\"The Greek verb describes a change of direction in mind and conduct, echoing the prophets’ call to return to God. ‘Repent’ in modern English centres on feeling sorry, which is narrower. Most translations keep ‘repent’ as an established term that readers understand to include a change of life.\"},{\"verse\":7,\"phrase\":\"slave\",\"lemma\":\"δοῦλος\",\"kind\":\"departure\",\"traditional\":\"servant\",\"note\":\"The Greek word denotes a person owned by a master, not a hired employee, and the parable depends on this: the master owes him no thanks for his labour. Many translations use ‘servant’, which softens the picture; several recent ones use ‘slave’.\"},{\"verse\":10,\"phrase\":\"unworthy\",\"lemma\":\"ἀχρεῖος\",\"kind\":\"ambiguity\",\"traditional\":\"unprofitable\",\"note\":\"The word ordinarily means ‘useless’ or ‘worthless’, but these slaves have done all that was required of them, so it cannot be meant literally. Most interpreters take it as an expression of modesty: slaves with no claim to credit or reward. Some propose the sense ‘to whom nothing is owed’, though that meaning is not clearly attested elsewhere.\"},{\"verse\":11,\"phrase\":\"between Samaria and Galilee\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"through the midst of Samaria and Galilee\",\"note\":\"The Greek phrase can mean either ‘along the border between’ the two regions or ‘through the middle of’ both. The first is the more common view and fits a mixed group of Jews and a Samaritan. The order of the names, Samaria before Galilee, is odd for a journey south to Jerusalem on either reading.\"},{\"verse\":12,\"phrase\":\"leprosy\",\"lemma\":\"λεπρός\",\"kind\":\"background\",\"traditional\":\"lepers\",\"note\":\"The Greek term covers a range of skin conditions, not only the disease now called leprosy. Under the Law of Moses (Leviticus 13–14) such conditions made a person ritually unclean and required living apart, which is why the men stand at a distance. A priest had to examine the person and declare them clean before they could return to the community, hence the instruction in verse 14.\"},{\"verse\":18,\"phrase\":\"foreigner\",\"lemma\":\"ἀλλογενής\",\"kind\":\"background\",\"traditional\":\"stranger\",\"note\":\"This word, literally ‘of another race’, occurs only here in the New Testament. It is the term used in the warning inscription in the Jerusalem temple that barred non-Jews from the inner courts. Jews and Samaritans regarded each other with hostility, which gives the point its edge.\"},{\"verse\":19,\"phrase\":\"saved you\",\"lemma\":\"σῴζω\",\"kind\":\"ambiguity\",\"traditional\":\"made you well\",\"note\":\"The Greek verb means both ‘heal’ and ‘rescue, save’. Most modern translations have ‘made you well’ here. But all ten were healed, and Luke uses different verbs for that in verses 14 and 15, so this word to the one who came back probably says something more. The verb is ambiguous and may carry both senses.\"},{\"verse\":20,\"phrase\":\"in a way that can be observed\",\"lemma\":\"παρατήρησις\",\"kind\":\"ambiguity\",\"traditional\":\"with observation\",\"note\":\"The Greek noun means close watching, as of symptoms or of the sky. The likeliest sense is that the kingdom’s arrival cannot be tracked or predicted by watching for signs. A minority take it as ‘with observance’ of religious rules.\"},{\"verse\":21,\"phrase\":\"among you\",\"lemma\":\"ἐντός\",\"kind\":\"ambiguity\",\"traditional\":\"within you\",\"note\":\"The Greek preposition usually means ‘inside’, and older translations have ‘within you’. Most modern translations prefer ‘among you’ or ‘in your midst’. One reason is that Jesus is speaking to Pharisees; another is that Luke nowhere else describes the kingdom as an inner state. A third proposal, ‘within your reach’, has also been made. The question remains disputed.\"},{\"verse\":35,\"phrase\":\"one will be taken and the other left\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"\",\"note\":\"Verse 36 (‘Two men will be in the field; one will be taken and the other left’) is absent from the earliest and best manuscripts and is not in the Greek text translated here. It was probably added by copyists from the parallel in Matthew 24:40. The traditional verse numbering therefore passes from 35 to 37.\"},{\"verse\":37,\"phrase\":\"vultures\",\"lemma\":\"ἀετός\",\"kind\":\"ambiguity\",\"traditional\":\"eagles\",\"note\":\"The Greek word normally means ‘eagle’ but was also used for vultures, and birds gathering at a body, here meaning a corpse, points to vultures. Most modern translations render it so. Some interpreters keep ‘eagles’ and see an allusion to the eagle standards of the Roman army. The saying is proverbial, and its exact point is debated.\"}],\"candidates\":[{\"lemma\":\"σκανδαλίζω\",\"rendering\":\"cause to stumble (σκάνδαλον: stumbling block)\",\"verse\":2,\"reason\":\"The verb and its noun recur across the Gospels and Paul, and translations vary widely (offend, cause to sin, cause to stumble, trap), which hides the shared image from readers.\"},{\"lemma\":\"δοῦλος\",\"rendering\":\"slave\",\"verse\":7,\"reason\":\"‘Servant’ versus ‘slave’ affects parables, Paul’s self-descriptions and the household codes, and must be decided once for the whole New Testament.\"},{\"lemma\":\"σῴζω\",\"rendering\":\"save\",\"verse\":19,\"reason\":\"In healing stories the verb can mean ‘heal’ or ‘save’, and the recurring formula ‘your faith has saved you’ needs one consistent treatment across the Gospels.\"},{\"lemma\":\"ψυχή\",\"rendering\":\"life\",\"verse\":33,\"reason\":\"‘Life’ versus ‘soul’ changes the meaning of the lose-your-life sayings and many other passages, and should not vary from chapter to chapter.\"},{\"lemma\":\"λεπρός\",\"rendering\":\"man with leprosy\",\"verse\":12,\"reason\":\"Whether to keep ‘leper/leprosy’ or use ‘skin disease’ needs one decision for λεπρός and λέπρα across the Gospels.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He said to his disciples,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“It is impossible for stumbling blocks not to come, but woe to the one through whom they come!"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "It would be better for him to have a millstone hung around his neck and be thrown into the sea than to cause one of these little ones to stumble."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Watch yourselves. If your brother sins, rebuke him, and if he turns back, forgive him."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And if he sins against you seven times in a day and seven times returns to you saying, ‘I turn back,’ you shall forgive him.”"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The apostles said to the Lord,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Give us more faith.”"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The Lord said,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“If you have faith like a mustard seed, you could say to this mulberry tree, ‘Be uprooted and planted in the sea,’ and it would obey you."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Which of you who has a slave plowing or tending sheep will say to him when he comes in from the field, ‘Come at once and recline at the table’?"
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Will he not instead say to him, ‘Prepare something for my dinner, then fasten your belt and serve me until I have eaten and drunk, and after that you will eat and drink yourself’?"
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Does he thank the slave because he did what was ordered?"
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "So you also, when you have done everything you were ordered, say, ‘We are unworthy slaves; we have done what we were obliged to do.’”"
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "As he was traveling to Jerusalem, he was passing between Samaria and Galilee."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "As he was entering a certain village, ten men with leprosy met him. They stood at a distance"
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and raised their voices, saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Jesus, Master, have mercy on us!”"
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When he saw them, he said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Go and show yourselves to the priests.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "And as they were going, they were made clean."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "One of them, seeing that he had been healed, came back, glorifying God with a loud voice,"
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and fell on his face at Jesus’ feet, thanking him. And he was a Samaritan."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus responded,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Were not the ten made clean? Where are the nine?"
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Was none of them found coming back to give glory to God except this foreigner?”"
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And he said to him,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Get up and go; your faith has saved you.”"
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Asked by the Pharisees when the kingdom of God was coming, he answered them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“The kingdom of God does not come in a way that can be observed,"
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "nor will they say, ‘Look, here it is!’ or ‘There!’ For look, the kingdom of God is among you.”"
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then he said to the disciples,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Days will come when you will long to see one of the days of the Son of Man, and you will not see it."
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "They will say to you, ‘Look, there!’ or ‘Look, here!’ Do not go off or chase after them."
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For just as lightning flashes and shines from one end of the sky to the other, so the Son of Man will be in his day."
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But first he must suffer many things and be rejected by this generation."
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And just as it was in the days of Noah, so it will also be in the days of the Son of Man:"
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "they were eating, drinking, marrying, being given in marriage, until the day Noah entered the ark, and the flood came and destroyed them all."
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "It was the same in the days of Lot: they were eating, drinking, buying, selling, planting, building;"
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "but on the day Lot went out from Sodom, it rained fire and sulfur from heaven and destroyed them all."
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "It will be just like that on the day the Son of Man is revealed."
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "On that day, the one who is on the roof, with his belongings in the house, must not come down to get them, and likewise the one in the field must not return to what is behind."
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Remember Lot’s wife."
+     }
+    ]
+   },
+   {
+    "verse": 33,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Whoever seeks to preserve their life will lose it, but whoever loses it will keep it alive."
+     }
+    ]
+   },
+   {
+    "verse": 34,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "I tell you, on that night there will be two on one bed: one will be taken and the other left."
+     }
+    ]
+   },
+   {
+    "verse": 35,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "There will be two women grinding together: one will be taken and the other left.”"
+     }
+    ]
+   },
+   {
+    "verse": 37,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And they answered him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Where, Lord?”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "He said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Where the body is, there the vultures also will be gathered.”"
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 3,
+    "phrase": "turns back",
+    "lemma": "μετανοέω",
+    "kind": "departure",
+    "traditional": "repents",
+    "note": "The Greek verb describes a change of direction in mind and conduct, echoing the prophets’ call to return to God. ‘Repent’ in modern English centres on feeling sorry, which is narrower. Most translations keep ‘repent’ as an established term that readers understand to include a change of life."
+   },
+   {
+    "verse": 7,
+    "phrase": "slave",
+    "lemma": "δοῦλος",
+    "kind": "departure",
+    "traditional": "servant",
+    "note": "The Greek word denotes a person owned by a master, not a hired employee, and the parable depends on this: the master owes him no thanks for his labour. Many translations use ‘servant’, which softens the picture; several recent ones use ‘slave’."
+   },
+   {
+    "verse": 10,
+    "phrase": "unworthy",
+    "lemma": "ἀχρεῖος",
+    "kind": "ambiguity",
+    "traditional": "unprofitable",
+    "note": "The word ordinarily means ‘useless’ or ‘worthless’, but these slaves have done all that was required of them, so it cannot be meant literally. Most interpreters take it as an expression of modesty: slaves with no claim to credit or reward. Some propose the sense ‘to whom nothing is owed’, though that meaning is not clearly attested elsewhere."
+   },
+   {
+    "verse": 11,
+    "phrase": "between Samaria and Galilee",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "through the midst of Samaria and Galilee",
+    "note": "The Greek phrase can mean either ‘along the border between’ the two regions or ‘through the middle of’ both. The first is the more common view and fits a mixed group of Jews and a Samaritan. The order of the names, Samaria before Galilee, is odd for a journey south to Jerusalem on either reading."
+   },
+   {
+    "verse": 12,
+    "phrase": "leprosy",
+    "lemma": "λεπρός",
+    "kind": "background",
+    "traditional": "lepers",
+    "note": "The Greek term covers a range of skin conditions, not only the disease now called leprosy. Under the Law of Moses (Leviticus 13–14) such conditions made a person ritually unclean and required living apart, which is why the men stand at a distance. A priest had to examine the person and declare them clean before they could return to the community, hence the instruction in verse 14."
+   },
+   {
+    "verse": 18,
+    "phrase": "foreigner",
+    "lemma": "ἀλλογενής",
+    "kind": "background",
+    "traditional": "stranger",
+    "note": "This word, literally ‘of another race’, occurs only here in the New Testament. It is the term used in the warning inscription in the Jerusalem temple that barred non-Jews from the inner courts. Jews and Samaritans regarded each other with hostility, which gives the point its edge."
+   },
+   {
+    "verse": 19,
+    "phrase": "saved you",
+    "lemma": "σῴζω",
+    "kind": "ambiguity",
+    "traditional": "made you well",
+    "note": "The Greek verb means both ‘heal’ and ‘rescue, save’. Most modern translations have ‘made you well’ here. But all ten were healed, and Luke uses different verbs for that in verses 14 and 15, so this word to the one who came back probably says something more. The verb is ambiguous and may carry both senses."
+   },
+   {
+    "verse": 20,
+    "phrase": "in a way that can be observed",
+    "lemma": "παρατήρησις",
+    "kind": "ambiguity",
+    "traditional": "with observation",
+    "note": "The Greek noun means close watching, as of symptoms or of the sky. The likeliest sense is that the kingdom’s arrival cannot be tracked or predicted by watching for signs. A minority take it as ‘with observance’ of religious rules."
+   },
+   {
+    "verse": 21,
+    "phrase": "among you",
+    "lemma": "ἐντός",
+    "kind": "ambiguity",
+    "traditional": "within you",
+    "note": "The Greek preposition usually means ‘inside’, and older translations have ‘within you’. Most modern translations prefer ‘among you’ or ‘in your midst’. One reason is that Jesus is speaking to Pharisees; another is that Luke nowhere else describes the kingdom as an inner state. A third proposal, ‘within your reach’, has also been made. The question remains disputed."
+   },
+   {
+    "verse": 35,
+    "phrase": "one will be taken and the other left",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "",
+    "note": "Verse 36 (‘Two men will be in the field; one will be taken and the other left’) is absent from the earliest and best manuscripts and is not in the Greek text translated here. It was probably added by copyists from the parallel in Matthew 24:40. The traditional verse numbering therefore passes from 35 to 37."
+   },
+   {
+    "verse": 37,
+    "phrase": "vultures",
+    "lemma": "ἀετός",
+    "kind": "ambiguity",
+    "traditional": "eagles",
+    "note": "The Greek word normally means ‘eagle’ but was also used for vultures, and birds gathering at a body, here meaning a corpse, points to vultures. Most modern translations render it so. Some interpreters keep ‘eagles’ and see an allusion to the eagle standards of the Roman army. The saying is proverbial, and its exact point is debated."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "σκανδαλίζω",
+    "rendering": "cause to stumble (σκάνδαλον: stumbling block)",
+    "verse": 2,
+    "reason": "The verb and its noun recur across the Gospels and Paul, and translations vary widely (offend, cause to sin, cause to stumble, trap), which hides the shared image from readers."
+   },
+   {
+    "lemma": "δοῦλος",
+    "rendering": "slave",
+    "verse": 7,
+    "reason": "‘Servant’ versus ‘slave’ affects parables, Paul’s self-descriptions and the household codes, and must be decided once for the whole New Testament."
+   },
+   {
+    "lemma": "σῴζω",
+    "rendering": "save",
+    "verse": 19,
+    "reason": "In healing stories the verb can mean ‘heal’ or ‘save’, and the recurring formula ‘your faith has saved you’ needs one consistent treatment across the Gospels."
+   },
+   {
+    "lemma": "ψυχή",
+    "rendering": "life",
+    "verse": 33,
+    "reason": "‘Life’ versus ‘soul’ changes the meaning of the lose-your-life sayings and many other passages, and should not vary from chapter to chapter."
+   },
+   {
+    "lemma": "λεπρός",
+    "rendering": "man with leprosy",
+    "verse": 12,
+    "reason": "Whether to keep ‘leper/leprosy’ or use ‘skin disease’ needs one decision for λεπρός and λέπρα across the Gospels."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

@@ -1,0 +1,353 @@
+{
+ "id": "1john-005",
+ "book": "1john",
+ "chapter": 5,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZkd3cYivSGRoDdrq",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 7026,
+  "output_tokens": 14130
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Everyone who believes that Jesus is the Christ has been born of God, and everyone who loves the father loves also the one born of him.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"By this we know that we love the children of God: when we love God and carry out his commandments.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For this is love for God: that we keep his commandments. And his commandments are not burdensome,\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"because everything born of God conquers the world. And this is the victory that has conquered the world: our faith.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And who is it that conquers the world, if not the one who believes that Jesus is the Son of God?\"}]},{\"verse\":6,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"This is the one who came through water and blood, Jesus Christ: not with the water only, but with the water and with the blood. And the Spirit is the one who testifies, because the Spirit is the truth.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For there are three that testify:\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"the Spirit and the water and the blood, and the three are in agreement.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"If we accept the testimony of people, the testimony of God is greater, for this is the testimony of God: that he has testified about his Son.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Whoever believes in the Son of God has the testimony within himself. Whoever does not believe God has made him a liar, because he has not believed in the testimony that God has borne about his Son.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And this is the testimony: that God gave us eternal life, and this life is in his Son.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Whoever has the Son has life; whoever does not have the Son of God does not have life.\"}]},{\"verse\":13,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"I have written these things to you so that you may know that you have eternal life, you who believe in the name of the Son of God.\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And this is the confidence we have before him: that if we ask for anything according to his will, he hears us.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And if we know that he hears us, whatever we ask, we know that we have the requests we have asked of him.\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"If anyone sees his brother committing a sin that does not lead to death, he shall ask, and he will give him life—to those whose sin does not lead to death. There is sin that leads to death; I do not say that he should make request about that.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"All wrongdoing is sin, and there is sin that does not lead to death.\"}]},{\"verse\":18,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"We know that everyone who has been born of God does not sin; rather, the one who was born of God keeps him safe, and the evil one does not touch him.\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"We know that we are from God, and the whole world lies in the power of the evil one.\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And we know that the Son of God has come and has given us understanding, so that we may know the true one; and we are in the true one, in his Son Jesus Christ. This is the true God and eternal life.\"}]},{\"verse\":21,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Little children, guard yourselves from idols.\"}]}],\"notes\":[{\"verse\":3,\"phrase\":\"love for God\",\"lemma\":\"ἀγάπη\",\"kind\":\"ambiguity\",\"traditional\":\"the love of God\",\"note\":\"The Greek is literally ‘the love of God’, which could mean either God’s love for us or our love for God. The definition that follows, keeping his commandments, shows that love directed toward God is meant here, and most modern translations agree.\"},{\"verse\":6,\"phrase\":\"through water and blood\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"by water and blood\",\"note\":\"The first readers evidently knew what this referred to; modern readers must infer it. The most widely held view is that the water is Jesus’ baptism and the blood his death, and that ‘not with the water only’ answers people who accepted the first but denied the significance of the second. Other proposals include the water and blood that flowed from Jesus’ side at the crucifixion (John 19:34), or baptism and the Lord’s Supper. The matter is disputed.\"},{\"verse\":7,\"phrase\":\"For there are three that testify:\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"For there are three that bear record in heaven, the Father, the Word, and the Holy Ghost: and these three are one. And there are three that bear witness in earth\",\"note\":\"The King James Version has a longer text here naming the Father, the Word and the Holy Spirit as three witnesses in heaven. These words are absent from every early Greek manuscript and from the early translations. They appear in the Latin tradition and in only a handful of very late Greek manuscripts. Scholars are virtually unanimous that they are not original, and the SBLGNT omits them.\"},{\"verse\":11,\"phrase\":\"eternal life\",\"lemma\":\"αἰώνιος\",\"kind\":\"background\",\"traditional\":\"eternal life, everlasting life\",\"note\":\"In Jewish usage of the period, ‘eternal life’ is the life of the age to come, so the phrase describes a kind of life as well as its unending length. In this letter that life is already possessed by those who have the Son. ‘Eternal’ is the standard rendering; a minority of translators prefer ‘life of the age to come’.\"},{\"verse\":16,\"phrase\":\"a sin that does not lead to death\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"a sin not unto death\",\"note\":\"The letter does not say what the ‘sin that leads to death’ is, and it remains uncertain. Leading proposals are the deliberate rejection of Christ by those who had left the community (2:19, 22), the Old Testament distinction between inadvertent and defiant sin, and sin punished by physical death. ‘Death’ most likely means spiritual death, the opposite of the ‘life’ the chapter has been describing.\"},{\"verse\":16,\"phrase\":\"he will give him life\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"he shall give him life\",\"note\":\"The Greek does not say who gives life. Many translations supply ‘God’ as the subject. Grammatically the simplest reading is that the one who prays is the giver, in the sense that his prayer obtains life for the sinner. The translation leaves the pronoun as open as the Greek.\"},{\"verse\":18,\"phrase\":\"does not sin\",\"lemma\":\"ἁμαρτάνω\",\"kind\":\"ambiguity\",\"traditional\":\"sinneth not\",\"note\":\"The verb is in the present tense, and some translations render ‘does not keep on sinning’ to ease the tension with 1:8–10 and 5:16, which assume that believers do sin. Whether the tense alone can carry that weight is debated. Others take the statement as describing what is true of the believer in principle, or as an ideal stated absolutely.\"},{\"verse\":18,\"phrase\":\"the one who was born of God keeps him safe\",\"lemma\":\"γεννάω\",\"kind\":\"ambiguity\",\"traditional\":\"he that is begotten of God keepeth himself\",\"note\":\"The Greek shifts from ‘everyone who has been born of God’ (the believer) to a different verb form, ‘the one who was born of God’, which most scholars take to be Jesus, the Son, who protects the believer. Some manuscripts read ‘himself’ instead of ‘him’, giving the King James Version’s sense that the believer guards himself. The SBLGNT reads ‘him’.\"},{\"verse\":19,\"phrase\":\"lies in the power of the evil one\",\"lemma\":\"πονηρός\",\"kind\":\"ambiguity\",\"traditional\":\"lieth in wickedness\",\"note\":\"The Greek is literally ‘lies in the evil’, and the form could be neuter (‘in evil’, as in the King James Version) or masculine (‘in the evil one’). Since verse 18 has just spoken of ‘the evil one’ as a person, nearly all modern translations take it as masculine. ‘To lie in’ someone is a Greek idiom for being dependent on them or under their control. The phrase is set against ‘we are in the true one’ in verse 20.\"},{\"verse\":20,\"phrase\":\"This is the true God and eternal life\",\"lemma\":\"οὗτος\",\"kind\":\"ambiguity\",\"traditional\":\"This is the true God, and eternal life\",\"note\":\"‘This’ may refer to Jesus Christ, the nearest name, which would make the sentence one of the New Testament’s most direct statements that Jesus is God. It may instead refer back to ‘the true one’, the Father, whom the verse has just distinguished from his Son. Scholars are divided, and the Greek does not settle it.\"},{\"verse\":21,\"phrase\":\"idols\",\"lemma\":\"εἴδωλον\",\"kind\":\"ambiguity\",\"traditional\":\"idols\",\"note\":\"The letter ends abruptly with a warning it has not prepared for. It may be meant literally, of the images of pagan worship that surrounded the readers. It may instead be figurative, of the false conceptions of God taught by the letter’s opponents, in contrast to ‘the true God’ just named. Both readings have scholarly support.\"}],\"candidates\":[{\"lemma\":\"γεννάω\",\"rendering\":\"be born of (passive); ‘the father’ for the active participle\",\"verse\":1,\"reason\":\"The Johannine ‘born of God’ can equally be rendered ‘begotten by’ or ‘fathered by’ God, and the choice must match across John 1, John 3 and 1 John.\"},{\"lemma\":\"ἀδελφός\",\"rendering\":\"brother\",\"verse\":16,\"reason\":\"Where it means a fellow believer of either sex, translators divide between ‘brother’, ‘brother or sister’ and ‘fellow believer’, and variation between chapters would confuse readers.\"},{\"lemma\":\"μαρτυρία\",\"rendering\":\"testimony (μαρτυρέω: testify)\",\"verse\":9,\"reason\":\"‘Testimony/testify’ and ‘witness/bear witness’ are both common, and the word group is thematic across John, the Johannine letters, Acts and Revelation.\"},{\"lemma\":\"νικάω\",\"rendering\":\"conquer\",\"verse\":4,\"reason\":\"‘Overcome’, ‘conquer’ and ‘be victorious’ all appear in translations, and the verb is a key term linking John 16:33, 1 John and the letters of Revelation.\"},{\"lemma\":\"παρρησία\",\"rendering\":\"confidence\",\"verse\":14,\"reason\":\"It ranges over ‘boldness’, ‘confidence’, ‘openness’ and ‘plain speech’ across John, Acts, Paul, Hebrews and 1 John, and needs sense-by-sense defaults.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Everyone who believes that Jesus is the Christ has been born of God, and everyone who loves the father loves also the one born of him."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "By this we know that we love the children of God: when we love God and carry out his commandments."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For this is love for God: that we keep his commandments. And his commandments are not burdensome,"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "because everything born of God conquers the world. And this is the victory that has conquered the world: our faith."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And who is it that conquers the world, if not the one who believes that Jesus is the Son of God?"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "This is the one who came through water and blood, Jesus Christ: not with the water only, but with the water and with the blood. And the Spirit is the one who testifies, because the Spirit is the truth."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For there are three that testify:"
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "the Spirit and the water and the blood, and the three are in agreement."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "If we accept the testimony of people, the testimony of God is greater, for this is the testimony of God: that he has testified about his Son."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Whoever believes in the Son of God has the testimony within himself. Whoever does not believe God has made him a liar, because he has not believed in the testimony that God has borne about his Son."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And this is the testimony: that God gave us eternal life, and this life is in his Son."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Whoever has the Son has life; whoever does not have the Son of God does not have life."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "I have written these things to you so that you may know that you have eternal life, you who believe in the name of the Son of God."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And this is the confidence we have before him: that if we ask for anything according to his will, he hears us."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And if we know that he hears us, whatever we ask, we know that we have the requests we have asked of him."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "If anyone sees his brother committing a sin that does not lead to death, he shall ask, and he will give him life—to those whose sin does not lead to death. There is sin that leads to death; I do not say that he should make request about that."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "All wrongdoing is sin, and there is sin that does not lead to death."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "We know that everyone who has been born of God does not sin; rather, the one who was born of God keeps him safe, and the evil one does not touch him."
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "We know that we are from God, and the whole world lies in the power of the evil one."
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And we know that the Son of God has come and has given us understanding, so that we may know the true one; and we are in the true one, in his Son Jesus Christ. This is the true God and eternal life."
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Little children, guard yourselves from idols."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 3,
+    "phrase": "love for God",
+    "lemma": "ἀγάπη",
+    "kind": "ambiguity",
+    "traditional": "the love of God",
+    "note": "The Greek is literally ‘the love of God’, which could mean either God’s love for us or our love for God. The definition that follows, keeping his commandments, shows that love directed toward God is meant here, and most modern translations agree."
+   },
+   {
+    "verse": 6,
+    "phrase": "through water and blood",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "by water and blood",
+    "note": "The first readers evidently knew what this referred to; modern readers must infer it. The most widely held view is that the water is Jesus’ baptism and the blood his death, and that ‘not with the water only’ answers people who accepted the first but denied the significance of the second. Other proposals include the water and blood that flowed from Jesus’ side at the crucifixion (John 19:34), or baptism and the Lord’s Supper. The matter is disputed."
+   },
+   {
+    "verse": 7,
+    "phrase": "For there are three that testify:",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "For there are three that bear record in heaven, the Father, the Word, and the Holy Ghost: and these three are one. And there are three that bear witness in earth",
+    "note": "The King James Version has a longer text here naming the Father, the Word and the Holy Spirit as three witnesses in heaven. These words are absent from every early Greek manuscript and from the early translations. They appear in the Latin tradition and in only a handful of very late Greek manuscripts. Scholars are virtually unanimous that they are not original, and the SBLGNT omits them."
+   },
+   {
+    "verse": 11,
+    "phrase": "eternal life",
+    "lemma": "αἰώνιος",
+    "kind": "background",
+    "traditional": "eternal life, everlasting life",
+    "note": "In Jewish usage of the period, ‘eternal life’ is the life of the age to come, so the phrase describes a kind of life as well as its unending length. In this letter that life is already possessed by those who have the Son. ‘Eternal’ is the standard rendering; a minority of translators prefer ‘life of the age to come’."
+   },
+   {
+    "verse": 16,
+    "phrase": "a sin that does not lead to death",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "a sin not unto death",
+    "note": "The letter does not say what the ‘sin that leads to death’ is, and it remains uncertain. Leading proposals are the deliberate rejection of Christ by those who had left the community (2:19, 22), the Old Testament distinction between inadvertent and defiant sin, and sin punished by physical death. ‘Death’ most likely means spiritual death, the opposite of the ‘life’ the chapter has been describing."
+   },
+   {
+    "verse": 16,
+    "phrase": "he will give him life",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "he shall give him life",
+    "note": "The Greek does not say who gives life. Many translations supply ‘God’ as the subject. Grammatically the simplest reading is that the one who prays is the giver, in the sense that his prayer obtains life for the sinner. The translation leaves the pronoun as open as the Greek."
+   },
+   {
+    "verse": 18,
+    "phrase": "does not sin",
+    "lemma": "ἁμαρτάνω",
+    "kind": "ambiguity",
+    "traditional": "sinneth not",
+    "note": "The verb is in the present tense, and some translations render ‘does not keep on sinning’ to ease the tension with 1:8–10 and 5:16, which assume that believers do sin. Whether the tense alone can carry that weight is debated. Others take the statement as describing what is true of the believer in principle, or as an ideal stated absolutely."
+   },
+   {
+    "verse": 18,
+    "phrase": "the one who was born of God keeps him safe",
+    "lemma": "γεννάω",
+    "kind": "ambiguity",
+    "traditional": "he that is begotten of God keepeth himself",
+    "note": "The Greek shifts from ‘everyone who has been born of God’ (the believer) to a different verb form, ‘the one who was born of God’, which most scholars take to be Jesus, the Son, who protects the believer. Some manuscripts read ‘himself’ instead of ‘him’, giving the King James Version’s sense that the believer guards himself. The SBLGNT reads ‘him’."
+   },
+   {
+    "verse": 19,
+    "phrase": "lies in the power of the evil one",
+    "lemma": "πονηρός",
+    "kind": "ambiguity",
+    "traditional": "lieth in wickedness",
+    "note": "The Greek is literally ‘lies in the evil’, and the form could be neuter (‘in evil’, as in the King James Version) or masculine (‘in the evil one’). Since verse 18 has just spoken of ‘the evil one’ as a person, nearly all modern translations take it as masculine. ‘To lie in’ someone is a Greek idiom for being dependent on them or under their control. The phrase is set against ‘we are in the true one’ in verse 20."
+   },
+   {
+    "verse": 20,
+    "phrase": "This is the true God and eternal life",
+    "lemma": "οὗτος",
+    "kind": "ambiguity",
+    "traditional": "This is the true God, and eternal life",
+    "note": "‘This’ may refer to Jesus Christ, the nearest name, which would make the sentence one of the New Testament’s most direct statements that Jesus is God. It may instead refer back to ‘the true one’, the Father, whom the verse has just distinguished from his Son. Scholars are divided, and the Greek does not settle it."
+   },
+   {
+    "verse": 21,
+    "phrase": "idols",
+    "lemma": "εἴδωλον",
+    "kind": "ambiguity",
+    "traditional": "idols",
+    "note": "The letter ends abruptly with a warning it has not prepared for. It may be meant literally, of the images of pagan worship that surrounded the readers. It may instead be figurative, of the false conceptions of God taught by the letter’s opponents, in contrast to ‘the true God’ just named. Both readings have scholarly support."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "γεννάω",
+    "rendering": "be born of (passive); ‘the father’ for the active participle",
+    "verse": 1,
+    "reason": "The Johannine ‘born of God’ can equally be rendered ‘begotten by’ or ‘fathered by’ God, and the choice must match across John 1, John 3 and 1 John."
+   },
+   {
+    "lemma": "ἀδελφός",
+    "rendering": "brother",
+    "verse": 16,
+    "reason": "Where it means a fellow believer of either sex, translators divide between ‘brother’, ‘brother or sister’ and ‘fellow believer’, and variation between chapters would confuse readers."
+   },
+   {
+    "lemma": "μαρτυρία",
+    "rendering": "testimony (μαρτυρέω: testify)",
+    "verse": 9,
+    "reason": "‘Testimony/testify’ and ‘witness/bear witness’ are both common, and the word group is thematic across John, the Johannine letters, Acts and Revelation."
+   },
+   {
+    "lemma": "νικάω",
+    "rendering": "conquer",
+    "verse": 4,
+    "reason": "‘Overcome’, ‘conquer’ and ‘be victorious’ all appear in translations, and the verb is a key term linking John 16:33, 1 John and the letters of Revelation."
+   },
+   {
+    "lemma": "παρρησία",
+    "rendering": "confidence",
+    "verse": 14,
+    "reason": "It ranges over ‘boldness’, ‘confidence’, ‘openness’ and ‘plain speech’ across John, Acts, Paul, Hebrews and 1 John, and needs sense-by-sense defaults."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

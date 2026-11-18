@@ -1,0 +1,445 @@
+{
+ "id": "acts-025",
+ "book": "acts",
+ "chapter": 25,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZev6wxBp37Ws1SjS",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 7342,
+  "output_tokens": 8575
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Three days after Festus arrived in the province, he went up to Jerusalem from Caesarea,\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and the chief priests and the leading men of the Jews presented their case against Paul to him. They kept urging him,\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"asking as a favor against Paul that he summon him to Jerusalem; they were setting an ambush to kill him on the way.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Festus answered that Paul was being kept at Caesarea, and that he himself was about to leave for there shortly.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"“So let those among you who have authority,”\"},{\"speaker\":\"narrator\",\"text\":\"he said,\"},{\"speaker\":\"other\",\"text\":\"“come down with me, and if there is anything wrong in the man, let them accuse him.”\"}]},{\"verse\":6,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"After spending no more than eight or ten days among them, he went down to Caesarea, and the next day he sat on the judgment seat and ordered Paul to be brought.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When he arrived, the Jews who had come down from Jerusalem stood around him, bringing many serious charges that they were not able to prove,\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"while Paul said in his defense,\"},{\"speaker\":\"other\",\"text\":\"“I have committed no offense against the law of the Jews, or against the temple, or against Caesar.”\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But Festus, wishing to do the Jews a favor, answered Paul,\"},{\"speaker\":\"other\",\"text\":\"“Are you willing to go up to Jerusalem and be tried there about these matters before me?”\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Paul said,\"},{\"speaker\":\"other\",\"text\":\"“I am standing before Caesar’s judgment seat, where I ought to be tried. I have done the Jews no wrong, as you yourself know very well.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"If, then, I am in the wrong and have done anything deserving death, I do not refuse to die. But if there is nothing in what these men accuse me of, no one can hand me over to them as a favor. I appeal to Caesar.”\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then Festus, after conferring with his council, answered,\"},{\"speaker\":\"other\",\"text\":\"“You have appealed to Caesar; to Caesar you will go.”\"}]},{\"verse\":13,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"After some days had passed, King Agrippa and Bernice arrived at Caesarea to pay their respects to Festus.\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"As they were spending several days there, Festus laid Paul’s case before the king, saying,\"},{\"speaker\":\"other\",\"text\":\"“There is a man left behind by Felix as a prisoner.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"When I was in Jerusalem, the chief priests and the elders of the Jews presented their case about him, asking for a sentence against him.\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"I answered them that it is not the custom of Romans to hand over any person as a favor before the accused has met his accusers face to face and had an opportunity to defend himself against the accusation.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"So when they had come together here, I made no delay: the next day I sat on the judgment seat and ordered the man to be brought.\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"When the accusers stood up, they brought against him no charge of the crimes I had suspected.\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Instead they had certain disputes with him about their own religion and about a certain Jesus, who had died, but whom Paul claimed to be alive.\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Being at a loss how to investigate these matters, I asked whether he would be willing to go to Jerusalem and be tried there about them.\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"But when Paul appealed to be kept for the Emperor’s decision, I ordered him to be kept until I could send him up to Caesar.”\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Agrippa said to Festus,\"},{\"speaker\":\"other\",\"text\":\"“I would like to hear the man myself.”\"},{\"speaker\":\"other\",\"text\":\"“Tomorrow,”\"},{\"speaker\":\"narrator\",\"text\":\"he said,\"},{\"speaker\":\"other\",\"text\":\"“you will hear him.”\"}]},{\"verse\":23,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So the next day Agrippa and Bernice came with great pageantry and entered the audience hall with the military tribunes and the most prominent men of the city, and at Festus’s command Paul was brought in.\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And Festus said,\"},{\"speaker\":\"other\",\"text\":\"“King Agrippa, and all you men who are present with us, you see this man about whom the whole multitude of the Jews petitioned me, both in Jerusalem and here, shouting that he must not live any longer.\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"But I found that he had done nothing deserving death, and when he himself appealed to the Emperor, I decided to send him.\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"I have nothing definite to write to my lord about him. So I have brought him before all of you, and especially before you, King Agrippa, so that after the examination has taken place I may have something to write.\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"For it seems unreasonable to me to send a prisoner without also indicating the charges against him.”\"}]}],\"notes\":[{\"verse\":6,\"phrase\":\"judgment seat\",\"lemma\":\"βῆμα\",\"kind\":\"background\",\"traditional\":\"judgment seat\",\"note\":\"The word names the raised platform on which a Roman magistrate sat to hear cases. Taking his seat there marked the proceedings as a formal trial, which is why Paul can say in verse 10 that he already stands before Caesar's court: the governor judged as the emperor's representative.\"},{\"verse\":11,\"phrase\":\"hand me over to them as a favor\",\"lemma\":\"χαρίζομαι\",\"kind\":\"departure\",\"traditional\":\"hand me over to them\",\"note\":\"The verb means to grant something as a favor, and it shares its root with the noun for the 'favor' the leaders asked for in verse 3 and that Festus wished to do in verse 9. Most versions say only 'hand me over' or 'deliver me', which loses Paul's pointed echo. Festus uses the same verb in verse 16.\"},{\"verse\":11,\"phrase\":\"I appeal to Caesar\",\"lemma\":\"ἐπικαλέω\",\"kind\":\"background\",\"traditional\":\"I appeal unto Caesar\",\"note\":\"A Roman citizen facing a capital charge could have his case transferred from a provincial governor to the emperor's court in Rome. The emperor at this time was Nero. The exact legal scope of the right in this period is debated, which may be why Festus consults his advisers before granting it.\"},{\"verse\":13,\"phrase\":\"King Agrippa and Bernice\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"king Agrippa and Bernice\",\"note\":\"This is Herod Agrippa II, son of the Herod of Acts 12 and great-grandson of Herod the Great. He ruled territories to the north-east under Roman patronage and had authority over the Jerusalem temple and the appointment of high priests. Bernice was his sister. A courtesy visit to a newly arrived governor was expected of a client king.\"},{\"verse\":18,\"phrase\":\"of the crimes I had suspected\",\"lemma\":\"πονηρός\",\"kind\":\"textual\",\"traditional\":\"of such things as I supposed\",\"note\":\"Manuscripts differ over the word for 'evil' here: some make it describe the things suspected, some make it describe the charge, and some omit it. The reading translated has 'evil things', meaning serious crimes. The sense of the verse is much the same on any reading.\"},{\"verse\":19,\"phrase\":\"religion\",\"lemma\":\"δεισιδαιμονία\",\"kind\":\"ambiguity\",\"traditional\":\"superstition\",\"note\":\"The Greek word could be used neutrally or respectfully for devotion to the gods, or dismissively for superstition. Older versions have 'superstition'. Most modern translators choose 'religion' because Festus is speaking to a Jewish king whom he would not wish to insult. A Roman official's private view may still have been closer to the dismissive sense.\"},{\"verse\":21,\"phrase\":\"the Emperor’s\",\"lemma\":\"Σεβαστός\",\"kind\":\"background\",\"traditional\":\"Augustus\",\"note\":\"The Greek title is the standard equivalent of the Latin Augustus, 'the revered one'. It was first given to Octavian and then borne by each emperor after him. Here it refers to the reigning emperor, Nero, not to the first Augustus, so 'the Emperor' is used, while 'Caesar' is kept for the other word.\"},{\"verse\":23,\"phrase\":\"military tribunes\",\"lemma\":\"χιλίαρχος\",\"kind\":\"background\",\"traditional\":\"chief captains\",\"note\":\"The Greek term, literally 'commander of a thousand', was the regular equivalent of the Roman military tribune, the officer commanding a cohort. Those present would be the senior officers of the units stationed at Caesarea, the governor's headquarters.\"},{\"verse\":26,\"phrase\":\"my lord\",\"lemma\":\"κύριος\",\"kind\":\"background\",\"traditional\":\"my lord\",\"note\":\"The Greek has simply 'the lord', used as a title for the emperor. The usage became common in the eastern provinces around this time. It is the same word that Christians used for Jesus, and readers of Acts would have noticed that.\"}],\"candidates\":[{\"lemma\":\"βῆμα\",\"rendering\":\"judgment seat\",\"verse\":6,\"reason\":\"Recurs in the Gospels, Acts, Romans 14:10 and 2 Corinthians 5:10; translators vary between judgment seat, tribunal, judge's bench and court, and readers should be able to connect the Roman and divine uses.\"},{\"lemma\":\"χιλίαρχος\",\"rendering\":\"military tribunes\",\"verse\":23,\"reason\":\"Frequent in Acts 21–25 and found in John, Mark and Revelation; versions vary between tribune, commander, chief captain and officer.\"},{\"lemma\":\"ἀρχιερεύς\",\"rendering\":\"chief priests\",\"verse\":2,\"reason\":\"The plural (chief priests) and the singular (high priest) need a consistent convention across the Gospels, Acts and Hebrews.\"},{\"lemma\":\"χαρίζομαι\",\"rendering\":\"hand over as a favor\",\"verse\":11,\"reason\":\"Its senses (grant as a favor, give freely, forgive) recur in Luke–Acts and Paul, and the link to χάρις is easily lost if each chapter chooses independently.\"},{\"lemma\":\"δεισιδαιμονία\",\"rendering\":\"religion\",\"verse\":19,\"reason\":\"This noun and the related adjective at Acts 17:22 need one decision on neutral 'religion/religious' versus pejorative 'superstition/superstitious'.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Three days after Festus arrived in the province, he went up to Jerusalem from Caesarea,"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and the chief priests and the leading men of the Jews presented their case against Paul to him. They kept urging him,"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "asking as a favor against Paul that he summon him to Jerusalem; they were setting an ambush to kill him on the way."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Festus answered that Paul was being kept at Caesarea, and that he himself was about to leave for there shortly."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "“So let those among you who have authority,”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "he said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“come down with me, and if there is anything wrong in the man, let them accuse him.”"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "After spending no more than eight or ten days among them, he went down to Caesarea, and the next day he sat on the judgment seat and ordered Paul to be brought."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When he arrived, the Jews who had come down from Jerusalem stood around him, bringing many serious charges that they were not able to prove,"
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "while Paul said in his defense,"
+     },
+     {
+      "speaker": "other",
+      "text": "“I have committed no offense against the law of the Jews, or against the temple, or against Caesar.”"
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But Festus, wishing to do the Jews a favor, answered Paul,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Are you willing to go up to Jerusalem and be tried there about these matters before me?”"
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Paul said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“I am standing before Caesar’s judgment seat, where I ought to be tried. I have done the Jews no wrong, as you yourself know very well."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "If, then, I am in the wrong and have done anything deserving death, I do not refuse to die. But if there is nothing in what these men accuse me of, no one can hand me over to them as a favor. I appeal to Caesar.”"
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then Festus, after conferring with his council, answered,"
+     },
+     {
+      "speaker": "other",
+      "text": "“You have appealed to Caesar; to Caesar you will go.”"
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "After some days had passed, King Agrippa and Bernice arrived at Caesarea to pay their respects to Festus."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "As they were spending several days there, Festus laid Paul’s case before the king, saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“There is a man left behind by Felix as a prisoner."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "When I was in Jerusalem, the chief priests and the elders of the Jews presented their case about him, asking for a sentence against him."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "I answered them that it is not the custom of Romans to hand over any person as a favor before the accused has met his accusers face to face and had an opportunity to defend himself against the accusation."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "So when they had come together here, I made no delay: the next day I sat on the judgment seat and ordered the man to be brought."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "When the accusers stood up, they brought against him no charge of the crimes I had suspected."
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Instead they had certain disputes with him about their own religion and about a certain Jesus, who had died, but whom Paul claimed to be alive."
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Being at a loss how to investigate these matters, I asked whether he would be willing to go to Jerusalem and be tried there about them."
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "But when Paul appealed to be kept for the Emperor’s decision, I ordered him to be kept until I could send him up to Caesar.”"
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Agrippa said to Festus,"
+     },
+     {
+      "speaker": "other",
+      "text": "“I would like to hear the man myself.”"
+     },
+     {
+      "speaker": "other",
+      "text": "“Tomorrow,”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "he said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“you will hear him.”"
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So the next day Agrippa and Bernice came with great pageantry and entered the audience hall with the military tribunes and the most prominent men of the city, and at Festus’s command Paul was brought in."
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And Festus said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“King Agrippa, and all you men who are present with us, you see this man about whom the whole multitude of the Jews petitioned me, both in Jerusalem and here, shouting that he must not live any longer."
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "But I found that he had done nothing deserving death, and when he himself appealed to the Emperor, I decided to send him."
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "I have nothing definite to write to my lord about him. So I have brought him before all of you, and especially before you, King Agrippa, so that after the examination has taken place I may have something to write."
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "For it seems unreasonable to me to send a prisoner without also indicating the charges against him.”"
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 6,
+    "phrase": "judgment seat",
+    "lemma": "βῆμα",
+    "kind": "background",
+    "traditional": "judgment seat",
+    "note": "The word names the raised platform on which a Roman magistrate sat to hear cases. Taking his seat there marked the proceedings as a formal trial, which is why Paul can say in verse 10 that he already stands before Caesar's court: the governor judged as the emperor's representative."
+   },
+   {
+    "verse": 11,
+    "phrase": "hand me over to them as a favor",
+    "lemma": "χαρίζομαι",
+    "kind": "departure",
+    "traditional": "hand me over to them",
+    "note": "The verb means to grant something as a favor, and it shares its root with the noun for the 'favor' the leaders asked for in verse 3 and that Festus wished to do in verse 9. Most versions say only 'hand me over' or 'deliver me', which loses Paul's pointed echo. Festus uses the same verb in verse 16."
+   },
+   {
+    "verse": 11,
+    "phrase": "I appeal to Caesar",
+    "lemma": "ἐπικαλέω",
+    "kind": "background",
+    "traditional": "I appeal unto Caesar",
+    "note": "A Roman citizen facing a capital charge could have his case transferred from a provincial governor to the emperor's court in Rome. The emperor at this time was Nero. The exact legal scope of the right in this period is debated, which may be why Festus consults his advisers before granting it."
+   },
+   {
+    "verse": 13,
+    "phrase": "King Agrippa and Bernice",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "king Agrippa and Bernice",
+    "note": "This is Herod Agrippa II, son of the Herod of Acts 12 and great-grandson of Herod the Great. He ruled territories to the north-east under Roman patronage and had authority over the Jerusalem temple and the appointment of high priests. Bernice was his sister. A courtesy visit to a newly arrived governor was expected of a client king."
+   },
+   {
+    "verse": 18,
+    "phrase": "of the crimes I had suspected",
+    "lemma": "πονηρός",
+    "kind": "textual",
+    "traditional": "of such things as I supposed",
+    "note": "Manuscripts differ over the word for 'evil' here: some make it describe the things suspected, some make it describe the charge, and some omit it. The reading translated has 'evil things', meaning serious crimes. The sense of the verse is much the same on any reading."
+   },
+   {
+    "verse": 19,
+    "phrase": "religion",
+    "lemma": "δεισιδαιμονία",
+    "kind": "ambiguity",
+    "traditional": "superstition",
+    "note": "The Greek word could be used neutrally or respectfully for devotion to the gods, or dismissively for superstition. Older versions have 'superstition'. Most modern translators choose 'religion' because Festus is speaking to a Jewish king whom he would not wish to insult. A Roman official's private view may still have been closer to the dismissive sense."
+   },
+   {
+    "verse": 21,
+    "phrase": "the Emperor’s",
+    "lemma": "Σεβαστός",
+    "kind": "background",
+    "traditional": "Augustus",
+    "note": "The Greek title is the standard equivalent of the Latin Augustus, 'the revered one'. It was first given to Octavian and then borne by each emperor after him. Here it refers to the reigning emperor, Nero, not to the first Augustus, so 'the Emperor' is used, while 'Caesar' is kept for the other word."
+   },
+   {
+    "verse": 23,
+    "phrase": "military tribunes",
+    "lemma": "χιλίαρχος",
+    "kind": "background",
+    "traditional": "chief captains",
+    "note": "The Greek term, literally 'commander of a thousand', was the regular equivalent of the Roman military tribune, the officer commanding a cohort. Those present would be the senior officers of the units stationed at Caesarea, the governor's headquarters."
+   },
+   {
+    "verse": 26,
+    "phrase": "my lord",
+    "lemma": "κύριος",
+    "kind": "background",
+    "traditional": "my lord",
+    "note": "The Greek has simply 'the lord', used as a title for the emperor. The usage became common in the eastern provinces around this time. It is the same word that Christians used for Jesus, and readers of Acts would have noticed that."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "βῆμα",
+    "rendering": "judgment seat",
+    "verse": 6,
+    "reason": "Recurs in the Gospels, Acts, Romans 14:10 and 2 Corinthians 5:10; translators vary between judgment seat, tribunal, judge's bench and court, and readers should be able to connect the Roman and divine uses."
+   },
+   {
+    "lemma": "χιλίαρχος",
+    "rendering": "military tribunes",
+    "verse": 23,
+    "reason": "Frequent in Acts 21–25 and found in John, Mark and Revelation; versions vary between tribune, commander, chief captain and officer."
+   },
+   {
+    "lemma": "ἀρχιερεύς",
+    "rendering": "chief priests",
+    "verse": 2,
+    "reason": "The plural (chief priests) and the singular (high priest) need a consistent convention across the Gospels, Acts and Hebrews."
+   },
+   {
+    "lemma": "χαρίζομαι",
+    "rendering": "hand over as a favor",
+    "verse": 11,
+    "reason": "Its senses (grant as a favor, give freely, forgive) recur in Luke–Acts and Paul, and the link to χάρις is easily lost if each chapter chooses independently."
+   },
+   {
+    "lemma": "δεισιδαιμονία",
+    "rendering": "religion",
+    "verse": 19,
+    "reason": "This noun and the related adjective at Acts 17:22 need one decision on neutral 'religion/religious' versus pejorative 'superstition/superstitious'."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

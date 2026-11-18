@@ -1,0 +1,553 @@
+{
+ "id": "acts-020",
+ "book": "acts",
+ "chapter": 20,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBAxsX1ES4wFJKkwQa7N",
+ "stop_reason": "end_turn",
+ "batch": false,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 10077,
+  "output_tokens": 14656
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"After the uproar had ceased, Paul sent for the disciples and, after encouraging them, said farewell and set out to travel to Macedonia.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When he had gone through those regions and encouraged the people there with many words, he came to Greece,\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"where he spent three months. When a plot was formed against him by the Jews as he was about to set sail for Syria, he decided to return through Macedonia.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He was accompanied by Sopater son of Pyrrhus, from Beroea; by Aristarchus and Secundus, from Thessalonica; by Gaius of Derbe, and Timothy; and by Tychicus and Trophimus from Asia.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"These men had arrived and were waiting for us at Troas;\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"but we sailed from Philippi after the days of Unleavened Bread, and within five days we came to them at Troas, where we stayed seven days.\"}]},{\"verse\":7,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"On the first day of the week, when we had gathered to break bread, Paul was speaking to them, since he was about to leave the next day, and he prolonged his talk until midnight.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"There were a good many lamps in the upper room where we were gathered.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"A young man named Eutychus was sitting on the windowsill, sinking into a deep sleep as Paul went on speaking still longer; overcome by sleep, he fell down from the third story and was picked up dead.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But Paul went down, fell on him, and putting his arms around him said,\"},{\"speaker\":\"other\",\"text\":\"“Stop this uproar, for his life is in him.”\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then he went back up, broke the bread and ate, and after conversing for a long time, until daybreak, he departed.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They brought the boy away alive, and were comforted more than a little.\"}]},{\"verse\":13,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"We went ahead to the ship and set sail for Assos, intending to take Paul on board there; for he had arranged it so, intending to go on foot himself.\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When he met us at Assos, we took him on board and came to Mitylene,\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and sailing from there, on the following day we arrived opposite Chios; the next day we crossed over to Samos, and the day after that we came to Miletus.\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For Paul had decided to sail past Ephesus, so that he would not have to spend time in Asia; for he was hurrying to be in Jerusalem, if it were possible for him, on the day of Pentecost.\"}]},{\"verse\":17,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"From Miletus he sent to Ephesus and summoned the elders of the assembly.\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When they came to him, he said to them,\"},{\"speaker\":\"other\",\"text\":\"“You yourselves know how I lived among you the whole time, from the first day I set foot in Asia,\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"serving the Lord as a slave with all humility and with tears, and with the trials that came upon me through the plots of the Jews;\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"how I did not shrink from declaring to you anything that was beneficial, and from teaching you in public and from house to house,\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"solemnly testifying to both Jews and Greeks about turning back to God and faith in our Lord Jesus.\"}]},{\"verse\":22,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"other\",\"text\":\"And now, look, bound by the Spirit, I am going to Jerusalem, not knowing what will happen to me there,\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"except that the Holy Spirit solemnly testifies to me in city after city, saying that bonds and afflictions await me.\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"But I make no account of my life as precious to myself, so that I may finish my course and the service I received from the Lord Jesus, to testify solemnly to the good news of God’s grace.\"}]},{\"verse\":25,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"other\",\"text\":\"And now, look, I know that none of you among whom I went about proclaiming the kingdom will see my face again.\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Therefore I testify to you this very day that I am clean of the blood of all,\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"for I did not shrink from declaring to you the whole purpose of God.\"}]},{\"verse\":28,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"other\",\"text\":\"Keep watch over yourselves and over all the flock, in which the Holy Spirit has placed you as overseers, to shepherd the assembly of God, which he acquired through his own blood.\"}]},{\"verse\":29,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"I know that after my departure savage wolves will come in among you, not sparing the flock,\"}]},{\"verse\":30,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"and from among your own selves men will arise speaking twisted things, to draw the disciples away after them.\"}]},{\"verse\":31,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Therefore stay alert, remembering that for three years, night and day, I did not stop warning each one of you with tears.\"}]},{\"verse\":32,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"other\",\"text\":\"And now I entrust you to God and to the word of his grace, which is able to build you up and to give you the inheritance among all those who have been made holy.\"}]},{\"verse\":33,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"I coveted no one’s silver or gold or clothing.\"}]},{\"verse\":34,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"You yourselves know that these hands served my own needs and those of the people with me.\"}]},{\"verse\":35,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"In everything I showed you that by working hard in this way we must help the weak, and remember the words of the Lord Jesus, that he himself said,\"},{\"speaker\":\"Jesus\",\"text\":\"‘It is more blessed to give than to receive.’”\"}]},{\"verse\":36,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When he had said these things, he knelt down with them all and prayed.\"}]},{\"verse\":37,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"There was much weeping among them all, and they fell on Paul’s neck and kissed him,\"}]},{\"verse\":38,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"grieving most of all over the word he had spoken, that they were not going to see his face again. Then they escorted him to the ship.\"}]}],\"notes\":[{\"verse\":4,\"phrase\":\"from Asia\",\"lemma\":\"Ἀσιανός\",\"kind\":\"background\",\"traditional\":\"of Asia\",\"note\":\"Asia here and throughout the chapter is the Roman province of that name, covering the western part of modern Turkey with Ephesus as its chief city. It is not the continent.\"},{\"verse\":7,\"phrase\":\"On the first day of the week\",\"lemma\":\"σάββατον\",\"kind\":\"background\",\"traditional\":\"upon the first day of the week\",\"note\":\"The Greek idiom is literally 'the first of the sabbaths', the ordinary way of naming the day after the Sabbath. The gathering is in the evening; whether Luke counts the day from sunset (making this Saturday night) or from morning (Sunday night) is disputed. 'Breaking bread' means sharing a meal, and most scholars think it here includes the Lord's Supper, though that is not certain.\"},{\"verse\":15,\"phrase\":\"we crossed over to Samos\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"we arrived at Samos, and tarried at Trogyllium\",\"note\":\"Many later manuscripts add 'and after staying at Trogyllium' at this point, a reading familiar from the King James Version. The earliest witnesses lack the phrase and the SBLGNT omits it; it may be an early and accurate local detail, but its originality is doubtful.\"},{\"verse\":17,\"phrase\":\"assembly\",\"lemma\":\"ἐκκλησία\",\"kind\":\"departure\",\"traditional\":\"church\",\"note\":\"The Greek word was the ordinary term for a civic gathering and the Septuagint's word for Israel assembled; Luke has just used it for the town meeting at Ephesus in the previous chapter. 'Church' is near-universal in English Bibles and readers know what it refers to, but it now suggests a building or institution. This translation uses 'assembly' throughout so that the one Greek word shows as one English word.\"},{\"verse\":19,\"phrase\":\"serving the Lord as a slave\",\"lemma\":\"δουλεύω\",\"kind\":\"departure\",\"traditional\":\"serving the Lord\",\"note\":\"The verb is the one for a slave's service to an owner, and first-century hearers would have heard it that way. Most translations have simply 'serving', and some avoid 'slave' because of its association with modern race-based slavery; several recent versions now use it.\"},{\"verse\":21,\"phrase\":\"turning back to God\",\"lemma\":\"μετάνοια\",\"kind\":\"departure\",\"traditional\":\"repentance toward God\",\"note\":\"The Greek word denotes a change of direction in mind and conduct, echoing the prophets' call to return to God. 'Repentance' is the established rendering and most translations keep it, understanding it to include a change of life, but in current English it centres on feeling sorry.\"},{\"verse\":22,\"phrase\":\"bound by the Spirit\",\"lemma\":\"πνεῦμα\",\"kind\":\"ambiguity\",\"traditional\":\"bound in the spirit\",\"note\":\"The Greek could mean that Paul is constrained by the Holy Spirit or that he is bound in his own spirit, that is, inwardly compelled. The next verse names the Holy Spirit in full, which some take as support for each reading in turn. 'Bound' is kept because it plays on the 'bonds' that await him in verse 23.\"},{\"verse\":24,\"phrase\":\"good news\",\"lemma\":\"εὐαγγέλιον\",\"kind\":\"departure\",\"traditional\":\"gospel\",\"note\":\"The Greek was an ordinary word for a public announcement of good news, used also of imperial proclamations. 'Gospel' has become a religious term and a book title; many modern translations already alternate between the two renderings.\"},{\"verse\":26,\"phrase\":\"clean of the blood of all\",\"lemma\":\"καθαρός\",\"kind\":\"background\",\"traditional\":\"pure from the blood of all men\",\"note\":\"To have someone's blood on oneself is a biblical idiom for bearing responsibility for that person's death. Paul echoes the watchman of Ezekiel 3 and 33, who is answerable for the people's blood only if he fails to warn them.\"},{\"verse\":28,\"phrase\":\"overseers\",\"lemma\":\"ἐπίσκοπος\",\"kind\":\"background\",\"traditional\":\"overseers; elsewhere bishops\",\"note\":\"The men called 'elders' in verse 17 are here called 'overseers', the word that later came to mean 'bishop'. Most scholars conclude that in this period the two terms described the same local leaders, not distinct offices. The word was a common one for a supervisor or guardian.\"},{\"verse\":28,\"phrase\":\"through his own blood\",\"lemma\":\"ἴδιος\",\"kind\":\"ambiguity\",\"traditional\":\"with his own blood\",\"note\":\"The Greek can also be read 'through the blood of his Own', that is, of his own Son, and a number of scholars and translations prefer that. The rendering here follows the more usual construal of the grammar. The difficulty of speaking of God's blood probably explains why many manuscripts read 'the assembly of the Lord' in place of 'the assembly of God'.\"},{\"verse\":32,\"phrase\":\"those who have been made holy\",\"lemma\":\"ἁγιάζω\",\"kind\":\"departure\",\"traditional\":\"them which are sanctified\",\"note\":\"The verb means to set apart as belonging to God. 'Sanctified' is the traditional rendering and is accurate, but it is now a technical church word; 'made holy' says the same thing in plain English.\"},{\"verse\":35,\"phrase\":\"‘It is more blessed to give than to receive.’\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"It is more blessed to give than to receive\",\"note\":\"This saying of Jesus is not recorded in any of the four Gospels. Paul cites it as something his hearers already know, which shows that sayings of Jesus circulated independently of the written Gospels.\"}],\"candidates\":[{\"lemma\":\"ἐπίσκοπος\",\"rendering\":\"overseers\",\"verse\":28,\"reason\":\"Translations split between 'overseer' and 'bishop' across Acts, Philippians, the Pastorals and 1 Peter, and the choice shapes how readers picture early church order.\"},{\"lemma\":\"πρεσβύτερος\",\"rendering\":\"elders\",\"verse\":17,\"reason\":\"Used of Jewish and Christian leaders and of older men generally; 'elder', 'presbyter' and 'priest' are all live options in the tradition and need one policy.\"},{\"lemma\":\"διακονία\",\"rendering\":\"service\",\"verse\":24,\"reason\":\"Rendered 'ministry', 'service', 'task' or 'relief' in different places; 'ministry' has become church jargon and a consistent decision is needed alongside διάκονος.\"},{\"lemma\":\"παρακαλέω\",\"rendering\":\"encourage (v. 1, 2); comfort (v. 12)\",\"verse\":1,\"reason\":\"The word ranges over urge, encourage, comfort and appeal throughout Acts and the letters, and translators vary widely for the same sense.\"},{\"lemma\":\"ἁγιάζω\",\"rendering\":\"made holy\",\"verse\":32,\"reason\":\"'Sanctify' versus 'make holy' or 'consecrate' recurs across John, Paul and Hebrews and should match the handling of ἅγιος and ἁγιασμός.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "After the uproar had ceased, Paul sent for the disciples and, after encouraging them, said farewell and set out to travel to Macedonia."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When he had gone through those regions and encouraged the people there with many words, he came to Greece,"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "where he spent three months. When a plot was formed against him by the Jews as he was about to set sail for Syria, he decided to return through Macedonia."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He was accompanied by Sopater son of Pyrrhus, from Beroea; by Aristarchus and Secundus, from Thessalonica; by Gaius of Derbe, and Timothy; and by Tychicus and Trophimus from Asia."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "These men had arrived and were waiting for us at Troas;"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "but we sailed from Philippi after the days of Unleavened Bread, and within five days we came to them at Troas, where we stayed seven days."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "On the first day of the week, when we had gathered to break bread, Paul was speaking to them, since he was about to leave the next day, and he prolonged his talk until midnight."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "There were a good many lamps in the upper room where we were gathered."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "A young man named Eutychus was sitting on the windowsill, sinking into a deep sleep as Paul went on speaking still longer; overcome by sleep, he fell down from the third story and was picked up dead."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But Paul went down, fell on him, and putting his arms around him said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Stop this uproar, for his life is in him.”"
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then he went back up, broke the bread and ate, and after conversing for a long time, until daybreak, he departed."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They brought the boy away alive, and were comforted more than a little."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "We went ahead to the ship and set sail for Assos, intending to take Paul on board there; for he had arranged it so, intending to go on foot himself."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When he met us at Assos, we took him on board and came to Mitylene,"
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and sailing from there, on the following day we arrived opposite Chios; the next day we crossed over to Samos, and the day after that we came to Miletus."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For Paul had decided to sail past Ephesus, so that he would not have to spend time in Asia; for he was hurrying to be in Jerusalem, if it were possible for him, on the day of Pentecost."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "From Miletus he sent to Ephesus and summoned the elders of the assembly."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When they came to him, he said to them,"
+     },
+     {
+      "speaker": "other",
+      "text": "“You yourselves know how I lived among you the whole time, from the first day I set foot in Asia,"
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "serving the Lord as a slave with all humility and with tears, and with the trials that came upon me through the plots of the Jews;"
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "how I did not shrink from declaring to you anything that was beneficial, and from teaching you in public and from house to house,"
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "solemnly testifying to both Jews and Greeks about turning back to God and faith in our Lord Jesus."
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "And now, look, bound by the Spirit, I am going to Jerusalem, not knowing what will happen to me there,"
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "except that the Holy Spirit solemnly testifies to me in city after city, saying that bonds and afflictions await me."
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "But I make no account of my life as precious to myself, so that I may finish my course and the service I received from the Lord Jesus, to testify solemnly to the good news of God’s grace."
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "And now, look, I know that none of you among whom I went about proclaiming the kingdom will see my face again."
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Therefore I testify to you this very day that I am clean of the blood of all,"
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "for I did not shrink from declaring to you the whole purpose of God."
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Keep watch over yourselves and over all the flock, in which the Holy Spirit has placed you as overseers, to shepherd the assembly of God, which he acquired through his own blood."
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "I know that after my departure savage wolves will come in among you, not sparing the flock,"
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "and from among your own selves men will arise speaking twisted things, to draw the disciples away after them."
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Therefore stay alert, remembering that for three years, night and day, I did not stop warning each one of you with tears."
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "And now I entrust you to God and to the word of his grace, which is able to build you up and to give you the inheritance among all those who have been made holy."
+     }
+    ]
+   },
+   {
+    "verse": 33,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "I coveted no one’s silver or gold or clothing."
+     }
+    ]
+   },
+   {
+    "verse": 34,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "You yourselves know that these hands served my own needs and those of the people with me."
+     }
+    ]
+   },
+   {
+    "verse": 35,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "In everything I showed you that by working hard in this way we must help the weak, and remember the words of the Lord Jesus, that he himself said,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "‘It is more blessed to give than to receive.’”"
+     }
+    ]
+   },
+   {
+    "verse": 36,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When he had said these things, he knelt down with them all and prayed."
+     }
+    ]
+   },
+   {
+    "verse": 37,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "There was much weeping among them all, and they fell on Paul’s neck and kissed him,"
+     }
+    ]
+   },
+   {
+    "verse": 38,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "grieving most of all over the word he had spoken, that they were not going to see his face again. Then they escorted him to the ship."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 4,
+    "phrase": "from Asia",
+    "lemma": "Ἀσιανός",
+    "kind": "background",
+    "traditional": "of Asia",
+    "note": "Asia here and throughout the chapter is the Roman province of that name, covering the western part of modern Turkey with Ephesus as its chief city. It is not the continent."
+   },
+   {
+    "verse": 7,
+    "phrase": "On the first day of the week",
+    "lemma": "σάββατον",
+    "kind": "background",
+    "traditional": "upon the first day of the week",
+    "note": "The Greek idiom is literally 'the first of the sabbaths', the ordinary way of naming the day after the Sabbath. The gathering is in the evening; whether Luke counts the day from sunset (making this Saturday night) or from morning (Sunday night) is disputed. 'Breaking bread' means sharing a meal, and most scholars think it here includes the Lord's Supper, though that is not certain."
+   },
+   {
+    "verse": 15,
+    "phrase": "we crossed over to Samos",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "we arrived at Samos, and tarried at Trogyllium",
+    "note": "Many later manuscripts add 'and after staying at Trogyllium' at this point, a reading familiar from the King James Version. The earliest witnesses lack the phrase and the SBLGNT omits it; it may be an early and accurate local detail, but its originality is doubtful."
+   },
+   {
+    "verse": 17,
+    "phrase": "assembly",
+    "lemma": "ἐκκλησία",
+    "kind": "departure",
+    "traditional": "church",
+    "note": "The Greek word was the ordinary term for a civic gathering and the Septuagint's word for Israel assembled; Luke has just used it for the town meeting at Ephesus in the previous chapter. 'Church' is near-universal in English Bibles and readers know what it refers to, but it now suggests a building or institution. This translation uses 'assembly' throughout so that the one Greek word shows as one English word."
+   },
+   {
+    "verse": 19,
+    "phrase": "serving the Lord as a slave",
+    "lemma": "δουλεύω",
+    "kind": "departure",
+    "traditional": "serving the Lord",
+    "note": "The verb is the one for a slave's service to an owner, and first-century hearers would have heard it that way. Most translations have simply 'serving', and some avoid 'slave' because of its association with modern race-based slavery; several recent versions now use it."
+   },
+   {
+    "verse": 21,
+    "phrase": "turning back to God",
+    "lemma": "μετάνοια",
+    "kind": "departure",
+    "traditional": "repentance toward God",
+    "note": "The Greek word denotes a change of direction in mind and conduct, echoing the prophets' call to return to God. 'Repentance' is the established rendering and most translations keep it, understanding it to include a change of life, but in current English it centres on feeling sorry."
+   },
+   {
+    "verse": 22,
+    "phrase": "bound by the Spirit",
+    "lemma": "πνεῦμα",
+    "kind": "ambiguity",
+    "traditional": "bound in the spirit",
+    "note": "The Greek could mean that Paul is constrained by the Holy Spirit or that he is bound in his own spirit, that is, inwardly compelled. The next verse names the Holy Spirit in full, which some take as support for each reading in turn. 'Bound' is kept because it plays on the 'bonds' that await him in verse 23."
+   },
+   {
+    "verse": 24,
+    "phrase": "good news",
+    "lemma": "εὐαγγέλιον",
+    "kind": "departure",
+    "traditional": "gospel",
+    "note": "The Greek was an ordinary word for a public announcement of good news, used also of imperial proclamations. 'Gospel' has become a religious term and a book title; many modern translations already alternate between the two renderings."
+   },
+   {
+    "verse": 26,
+    "phrase": "clean of the blood of all",
+    "lemma": "καθαρός",
+    "kind": "background",
+    "traditional": "pure from the blood of all men",
+    "note": "To have someone's blood on oneself is a biblical idiom for bearing responsibility for that person's death. Paul echoes the watchman of Ezekiel 3 and 33, who is answerable for the people's blood only if he fails to warn them."
+   },
+   {
+    "verse": 28,
+    "phrase": "overseers",
+    "lemma": "ἐπίσκοπος",
+    "kind": "background",
+    "traditional": "overseers; elsewhere bishops",
+    "note": "The men called 'elders' in verse 17 are here called 'overseers', the word that later came to mean 'bishop'. Most scholars conclude that in this period the two terms described the same local leaders, not distinct offices. The word was a common one for a supervisor or guardian."
+   },
+   {
+    "verse": 28,
+    "phrase": "through his own blood",
+    "lemma": "ἴδιος",
+    "kind": "ambiguity",
+    "traditional": "with his own blood",
+    "note": "The Greek can also be read 'through the blood of his Own', that is, of his own Son, and a number of scholars and translations prefer that. The rendering here follows the more usual construal of the grammar. The difficulty of speaking of God's blood probably explains why many manuscripts read 'the assembly of the Lord' in place of 'the assembly of God'."
+   },
+   {
+    "verse": 32,
+    "phrase": "those who have been made holy",
+    "lemma": "ἁγιάζω",
+    "kind": "departure",
+    "traditional": "them which are sanctified",
+    "note": "The verb means to set apart as belonging to God. 'Sanctified' is the traditional rendering and is accurate, but it is now a technical church word; 'made holy' says the same thing in plain English."
+   },
+   {
+    "verse": 35,
+    "phrase": "‘It is more blessed to give than to receive.’",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "It is more blessed to give than to receive",
+    "note": "This saying of Jesus is not recorded in any of the four Gospels. Paul cites it as something his hearers already know, which shows that sayings of Jesus circulated independently of the written Gospels."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "ἐπίσκοπος",
+    "rendering": "overseers",
+    "verse": 28,
+    "reason": "Translations split between 'overseer' and 'bishop' across Acts, Philippians, the Pastorals and 1 Peter, and the choice shapes how readers picture early church order."
+   },
+   {
+    "lemma": "πρεσβύτερος",
+    "rendering": "elders",
+    "verse": 17,
+    "reason": "Used of Jewish and Christian leaders and of older men generally; 'elder', 'presbyter' and 'priest' are all live options in the tradition and need one policy."
+   },
+   {
+    "lemma": "διακονία",
+    "rendering": "service",
+    "verse": 24,
+    "reason": "Rendered 'ministry', 'service', 'task' or 'relief' in different places; 'ministry' has become church jargon and a consistent decision is needed alongside διάκονος."
+   },
+   {
+    "lemma": "παρακαλέω",
+    "rendering": "encourage (v. 1, 2); comfort (v. 12)",
+    "verse": 1,
+    "reason": "The word ranges over urge, encourage, comfort and appeal throughout Acts and the letters, and translators vary widely for the same sense."
+   },
+   {
+    "lemma": "ἁγιάζω",
+    "rendering": "made holy",
+    "verse": 32,
+    "reason": "'Sanctify' versus 'make holy' or 'consecrate' recurs across John, Paul and Hebrews and should match the handling of ἅγιος and ἁγιασμός."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [
+  "Verse 19: δουλεύω is not rendered with a register form (serve as a slave / be enslaved to) and has no register-exception note."
+ ]
+}

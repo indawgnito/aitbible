@@ -1,204 +1,81 @@
 # AIT Bible
 
-AI-powered translation of the Bible from original Greek, prioritizing accuracy and meaning over tradition.
+An AI translation of the Greek New Testament that shows its work.
 
-This project combines powerful AI translation capabilities with a modern web interface to make a fresh, thoughtful Bible translation accessible to everyone.
+The text aims to say in plain modern English what a first-century reader would have understood. It departs from the traditional English word only where that word now misleads, and every departure carries a note giving the traditional wording, the reason, and the standard scholarly view.
 
-## What is AIT Bible?
+This is a machine translation. No scholar has reviewed it. Read it beside an established translation, not in place of one.
 
-AIT Bible uses advanced AI models (Google Gemini, Anthropic Claude) to translate the New Testament directly from the original Greek texts (SBLGNT). Unlike traditional translations constrained by committee decisions and ecclesiastical tradition, this translation aims to convey what the text would have meant to its original first-century audience.
+## How it works
 
-**Key principles:**
+- **The Greek source decides the verses.** The verse list comes from MorphGNT (SBLGNT). A chapter is rejected unless every verse is present exactly once.
+- **A decision register keeps it consistent.** Each chapter is translated separately, so a short list of Greek words with one agreed rendering each is applied to all 260 chapters. See [translator/register.json](translator/register.json).
+- **An audit checks the result.** After each run it counts how every register word was rendered across the whole New Testament; chapters that drift are re-translated.
+- **Everything is recorded.** Each run stores the model, prompt, register version and the raw output of every chapter under [translator/runs/](translator/runs/).
 
-- **Original Audience Understanding** — What would a first-century reader have understood?
-- **Accuracy Over Tradition** — Depart from familiar translations when they obscure meaning
-- **Meaning Over Brevity** — Use more words when needed to convey full meaning
-- **Critical Text Basis** — Uses SBLGNT, omits later additions
+The current text was produced by `claude-fable-5-2` in run `20261118-162954-full-nt`.
 
-## Project Components
+## Examples
 
-This repository contains two main components:
+These are generated from the served text by `translator/build_glossary.py`.
 
-### 1. Translator (`/translator`)
+**Matthew 16:18**
 
-Python-based translation engine that uses AI APIs (Google Gemini or Anthropic Claude) to translate Greek texts.
+> KJV: "And I say also unto thee, That thou art Peter, and upon this rock I will build my church; and the gates of hell shall not prevail against it."
+>
+> AIT: "And I in turn tell you: you are Peter, and on this rock I will build my assembly, and the gates of Hades will not overpower it."
 
-**Features:**
-- Real-time and batch translation modes
-- Multiple AI model support (Gemini 3, Gemini 3 Flash, Claude Opus, Claude Sonnet)
-- 50% cost savings with Anthropic's batch API
-- Extended thinking for complex passages (both Gemini and Claude models)
-- Morphological Greek text parsing
-- JSON export for web consumption
+The Greek *ekklēsia* was the word for a gathering of citizens, and in the Greek Old Testament for Israel assembled before God. "Church" now suggests a building or an institution. The same verse keeps *Hades*, the realm of the dead, where older versions have "hell".
 
-[→ See translator README for detailed usage](translator/readme.md)
+**Matthew 6:2**
 
-### 2. Web App (`/web`)
+> KJV: "Therefore when thou doest thine alms, do not sound a trumpet before thee, as the hypocrites do in the synagogues and in the streets, that they may have glory of men. Verily I say unto you, They have their reward."
+>
+> AIT: "So when you give to the needy, do not sound a trumpet ahead of you, as the performers do in the synagogues and in the streets, so that people will praise them. Truly I tell you, they have been paid their reward in full."
 
-Next.js application for browsing and reading the translations.
+In Matthew 6 the charge is religion staged for an audience, and the Greek word began as the term for a stage actor. Elsewhere, where the charge is pretense, this translation keeps "hypocrites": by the first century the word already meant that too. "Paid in full" is the wording of receipts from the period.
 
-**Features:**
-- Interactive translation viewer
-- Translation notes with detailed explanations
-- Dark mode support
-- Translation carousel showcasing key passages
-- Responsive design for all devices
+**Matthew 6:22**
 
-[→ See web README for setup and deployment](web/readme.md)
+> KJV: "The light of the body is the eye: if therefore thine eye be single, thy whole body shall be full of light."
+>
+> AIT: "The lamp of the body is the eye. So if your eye is generous, your whole body will be full of light;"
 
-## Quick Start
+The saying sits between treasure in heaven and serving wealth, and the "evil eye" that follows was a Jewish idiom for stinginess. Most translations keep the physical image with "healthy" or "sound"; this one follows the idiom and says so in the note.
 
-### Translate a Book
+**Mark 1:15**
+
+> KJV: "And saying, The time is fulfilled, and the kingdom of God is at hand: repent ye, and believe the gospel."
+>
+> AIT: "and saying, “The time has been fulfilled, and the kingdom of God has come near. Turn back, and believe in the good news.”"
+
+"Repent" now centres on feeling sorry. The Greek carries the prophets' call to return to God: a change of direction. Most translations keep "repent" as an established term.
+
+**John 1:1**
+
+> KJV: "In the beginning was the Word, and the Word was with God, and the Word was God."
+>
+> AIT: "In the beginning was the Logos, and the Logos was with God, and the Logos was God."
+
+Left untranslated because "the Word" is now commonly heard as meaning the Bible. The note at this verse gives both backgrounds: God's creating speech in Genesis, which most scholars see as primary and which "Word" reflects, and the Greek sense of reason and order.
+
+## Repository
+
+| Path | Contents |
+|---|---|
+| [translator/](translator/) | The translation pipeline, register, audit and run records. See its [README](translator/README.md). |
+| [web/](web/) | Next.js site for reading the translation, with notes, Greek and a KJV comparison. |
+| [schema/](schema/) | Description of the XML format the site reads. |
 
 ```bash
-cd translator
-
-# Install dependencies
-pip install anthropic google-genai
-
-# Set API key (choose one based on your model preference)
-export GEMINI_API_KEY="your-gemini-key-here"  # For Gemini models (default)
-# OR
-export ANTHROPIC_API_KEY="your-anthropic-key-here"  # For Claude models
-
-# Get Greek source texts
-git clone https://github.com/morphgnt/sblgnt.git greek_texts
-
-# Translate with Gemini 3 Flash (default, fast and affordable)
-python translate_batch.py run --book matthew
-
-# With extended thinking for better quality
-python translate_batch.py run --book matthew --thinking
-
-# For premium models with extended thinking
-python translate_batch.py run --book matthew --model gemini-3 --thinking
-python translate_batch.py run --book matthew --model opus-4-5 --thinking
+cd web && npm install && npm run dev
 ```
 
-### Run the Web App
+## Known limits
 
-```bash
-cd web
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) to view the translation.
-
-## Translation Examples
-
-**Matthew 5:5** — "Gentle in strength" instead of "meek"
-
-> Traditional: "Blessed are the **meek**, for they will inherit the earth."
->
-> AIT: "Blessed are those **gentle in strength**, for they will inherit the earth."
-
-The Greek *praeis* (πραεῖς) describes controlled strength, not weakness or passivity. Like a war horse trained for battle but responsive to its rider, it means having power but choosing restraint.
-
-**Matthew 6:5** — "Performers" instead of "hypocrites"
-
-> Traditional: "And when you pray, you must not be like the **hypocrites**."
->
-> AIT: "And when you pray, do not be like the **performers**."
-
-The Greek *hypokritēs* (ὑποκριτής) meant "stage actor"—not someone morally inconsistent, but someone putting on a theatrical performance for an audience.
-
-**Matthew 6:22** — "Generous" instead of "single"
-
-> Traditional: "If your eye is **single**, your whole body will be full of light."
->
-> AIT: "If your eye is **generous**, your whole body will be full of light."
-
-The Greek *haplous* (ἁπλοῦς) invokes a Hebrew idiom where a "good eye" means generosity and an "evil eye" means stinginess. In context with Matthew 6's teaching on treasure and Mammon, this is about one's disposition toward wealth, not physical vision.
-
-**John 1:1** — "Logos" instead of "Word"
-
-> Traditional: "In the beginning was the **Word**, and the Word was with God, and the Word was God."
->
-> AIT: "In the beginning was the **Logos**, and the Logos was with God, and the Logos was God."
-
-*Logos* (λόγος) carried meanings of reason, divine order, and the organizing principle of the cosmos, all nuances that "word" doesn't fully capture.
-
-## Project Structure
-
-```
-aitbible/
-├── translator/              # Python translation engine
-│   ├── translate.py         # Real-time translation
-│   ├── translate_batch.py   # Batch translation (50% cheaper)
-│   ├── greek_parser.py      # Greek text parser
-│   ├── prompt_template.py   # Translation prompt
-│   └── utils.py             # Export to JSON
-├── web/                     # Next.js web application
-│   ├── app/                 # Next.js app router pages
-│   ├── components/          # React components
-│   ├── data/                # Translation JSON files
-│   └── lib/                 # Utilities and data loading
-└── README.md                # This file
-```
-
-## Workflow
-
-1. **Translate** a book using the Python translator (JSON auto-exported!)
-2. **View** the translation in your browser
-
-```bash
-# 1. Translate (automatically exports JSON to ../web/data/)
-cd translator
-python translate_batch.py run --book matthew
-
-# With extended thinking for better quality
-python translate_batch.py run --book matthew --thinking
-
-# For premium models (Gemini 3 or Claude Opus)
-python translate_batch.py run --book matthew --model gemini-3 --thinking
-python translate_batch.py run --book matthew --model opus-4-5 --thinking
-
-# 2. View in browser
-cd ../web
-npm run dev
-```
-
-**Note:** Full book translations now automatically export to JSON in `web/data/`. No manual export step needed!
-
-## Available Books
-
-All 27 New Testament books are supported:
-
-- **Gospels**: Matthew, Mark, Luke, John
-- **History**: Acts
-- **Paul's Letters**: Romans, 1-2 Corinthians, Galatians, Ephesians, Philippians, Colossians, 1-2 Thessalonians, 1-2 Timothy, Titus, Philemon
-- **General Letters**: Hebrews, James, 1-2 Peter, 1-3 John, Jude
-- **Apocalyptic**: Revelation
-
-## Cost Comparison
-
-Translating Matthew (28 chapters):
-
-- **Gemini 3 Flash** (default): Free tier available, very affordable
-- **Gemini 3**: Moderate cost, excellent quality
-- **Claude Opus 4.5** (batch mode): ~$12-20 (highest quality, with extended thinking)
-- **Claude Sonnet 4.5** (batch mode): ~$4-8 (excellent balance)
-
-Gemini models are the default for cost-effectiveness. Claude's batch mode provides 50% savings over real-time.
-
-## Technology
-
-**Translator:**
-- Python 3.x
-- Google Gemini API (Gemini 3, Gemini 3 Flash) or Anthropic Claude API (Opus 4.5, Sonnet 4.5)
-- MorphGNT SBLGNT Greek texts
-
-**Web App:**
-- Next.js 16
-- React 19
-- TypeScript
-- Tailwind CSS 4
-- next-themes for dark mode
+- No second-pass review yet: an omitted clause inside a verse is only caught by a word-count warning.
+- No register entry has been checked against a lexicon.
+- The KJV comparison uses a different Greek text, so some differences are textual and not translational.
 
 ## License
 
@@ -229,19 +106,3 @@ For commercial licensing of translations, please contact the project maintainers
 ### Source Materials
 - **SBLGNT Greek Text**: [CC BY 4.0](http://sblgnt.com/license/) © 2010 Logos Bible Software and Society of Biblical Literature
 - **MorphGNT Data**: [CC BY-SA 3.0](https://github.com/morphgnt/sblgnt)
-
-## Learn More
-
-- [Translator Documentation](translator/readme.md) — Detailed translation usage and options
-- [Web App Documentation](web/readme.md) — Setup and deployment guide
-- [Google Gemini](https://ai.google.dev/gemini-api) — AI model powering translations (default)
-- [Anthropic Claude](https://www.anthropic.com/claude) — Alternative AI model
-- [SBLGNT](http://sblgnt.com/) — The Greek text source
-
-## Vision
-
-This project exists because traditional Bible translations often prioritize familiarity over accuracy. Words change meaning over centuries. "Hypocrite" once meant "actor," but now implies moral failing. "Let" once meant "prevent," but now means "allow."
-
-By using advanced AI models trained on vast amounts of Greek literature and linguistic data, we can produce translations that better capture what the original authors intended their original audiences to understand — free from the constraints of tradition, committee politics, and theological agendas.
-
-This is not a replacement for scholarly translation work, but a complement — a fresh perspective that invites readers to encounter familiar texts with new eyes.

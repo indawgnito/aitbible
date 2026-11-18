@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ait version="1.0">
+<ait version="2.0" run="20261118-162954-full-nt" model="claude-fable-5-2" register="0.4-draft">
   <book id="jude" name="Jude">
     <chapter num="1">
       <verse num="1">
-        <text><p/>Jude, a slave of Jesus Christ and a brother of James, to those who have been called, who are loved in God the Father and kept for Jesus Christ:</text>
+        <text><p/>Jude, a slave of Jesus Christ and a brother of James, to those who are called, loved in God the Father and kept for Jesus Christ:</text>
         <greek>
           <w lemma="Ἰούδας">Ἰούδας</w>
           <w lemma="Ἰησοῦς">Ἰησοῦ</w>
@@ -16,13 +16,15 @@
           <w lemma="ἐν">ἐν</w>
           <w lemma="θεός">θεῷ</w>
           <w lemma="πατήρ">πατρὶ</w>
-          <w lemma="ἀγαπάω">⸀ἠγαπημένοις</w>
+          <w lemma="ἀγαπάω">ἠγαπημένοις</w>
           <w lemma="καί">καὶ</w>
           <w lemma="Ἰησοῦς">Ἰησοῦ</w>
           <w lemma="Χριστός">Χριστῷ</w>
           <w lemma="τηρέω">τετηρημένοις</w>
           <w lemma="κλητός">κλητοῖς·</w>
         </greek>
+        <note term="a slave of Jesus Christ" kind="departure" lemma="δοῦλος" traditional="servant">The Greek word is the ordinary term for a slave, a person owned by a master, and a first-century reader would have heard it that way. Most English versions soften it to &#x27;servant&#x27;, partly because &#x27;slave of God&#x27; was also an honorific in the Septuagint for figures such as Moses and David. Both the ownership and the honour are probably in view here.</note>
+        <note term="kept for Jesus Christ" kind="ambiguity" lemma="τηρέω" traditional="kept for Jesus Christ; preserved in Jesus Christ">The Greek has a bare dative, which can mean &#x27;kept for Jesus Christ&#x27; (safe until his coming) or &#x27;kept by Jesus Christ&#x27;. Most recent translations choose &#x27;for&#x27;. The verb &#x27;keep&#x27; recurs through the letter (verses 6, 13, 21) and is rendered the same way each time.</note>
       </verse>
       <verse num="2">
         <text>May mercy, peace, and love be multiplied to you.</text>
@@ -37,7 +39,7 @@
         </greek>
       </verse>
       <verse num="3">
-        <text><p/>Beloved, while I was making every effort to write to you about our shared salvation, I found it necessary to write and exhort you to contend for the faith that was once for all handed down to the holy ones.</text>
+        <text><p/>Beloved, while I was making every effort to write to you about the salvation we share, I found it necessary to write and urge you to contend for the faith that was handed down to the holy ones once for all.</text>
         <greek>
           <w lemma="ἀγαπητός">Ἀγαπητοί,</w>
           <w lemma="πᾶς">πᾶσαν</w>
@@ -48,7 +50,7 @@
           <w lemma="περί">περὶ</w>
           <w lemma="ὁ">τῆς</w>
           <w lemma="κοινός">κοινῆς</w>
-          <w lemma="ἐγώ">⸀ἡμῶν</w>
+          <w lemma="ἐγώ">ἡμῶν</w>
           <w lemma="σωτηρία">σωτηρίας</w>
           <w lemma="ἀνάγκη">ἀνάγκην</w>
           <w lemma="ἔχω">ἔσχον</w>
@@ -63,9 +65,10 @@
           <w lemma="ἅγιος">ἁγίοις</w>
           <w lemma="πίστις">πίστει.</w>
         </greek>
+        <note term="the holy ones" kind="departure" lemma="ἅγιος" traditional="saints">The traditional &#x27;saints&#x27; now suggests canonised individuals or people of exceptional virtue. The Greek term is used of all believers as people set apart for God, echoing the Septuagint&#x27;s language for Israel. Many translations keep &#x27;saints&#x27;; others use &#x27;God&#x27;s people&#x27;.</note>
       </verse>
       <verse num="4">
-        <text>For certain people have slipped in stealthily—those who were designated for this condemnation long ago—godless people who turn the grace of our God into a license for unrestrained behavior and deny our only Master-Sovereign and Lord, Jesus Christ.</text>
+        <text>For certain people have slipped in unnoticed, those who were long ago written down for this condemnation, ungodly people who turn the grace of our God into debauchery and deny our only Master and Lord, Jesus Christ.</text>
         <greek>
           <w lemma="παρεισδύω">παρεισέδυσαν</w>
           <w lemma="γάρ">γάρ</w>
@@ -90,7 +93,7 @@
           <w lemma="καί">καὶ</w>
           <w lemma="ὁ">τὸν</w>
           <w lemma="μόνος">μόνον</w>
-          <w lemma="δεσπότης">⸀δεσπότην</w>
+          <w lemma="δεσπότης">δεσπότην</w>
           <w lemma="καί">καὶ</w>
           <w lemma="κύριος">κύριον</w>
           <w lemma="ἐγώ">ἡμῶν</w>
@@ -100,18 +103,18 @@
         </greek>
       </verse>
       <verse num="5">
-        <text><p/>Now I want to remind you, although you once knew it all, that Jesus, having saved a people out of the land of Egypt, afterward destroyed those who did not trust.</text>
+        <text><p/>Now I want to remind you, though you know all of this once for all, that Jesus, having saved a people out of the land of Egypt, afterward destroyed those who did not believe,</text>
         <greek>
           <w lemma="ὑπομιμνῄσκω">Ὑπομνῆσαι</w>
           <w lemma="δέ">δὲ</w>
           <w lemma="σύ">ὑμᾶς</w>
           <w lemma="βούλομαι">βούλομαι,</w>
           <w lemma="ὁράω">εἰδότας</w>
-          <w lemma="σύ">⸂ὑμᾶς</w>
-          <w lemma="ἅπαξ">ἅπαξ⸃</w>
-          <w lemma="πᾶς">⸀πάντα,</w>
+          <w lemma="σύ">ὑμᾶς</w>
+          <w lemma="ἅπαξ">ἅπαξ</w>
+          <w lemma="πᾶς">πάντα,</w>
           <w lemma="ὅτι">ὅτι</w>
-          <w lemma="Ἰησοῦς">⸀Ἰησοῦς</w>
+          <w lemma="Ἰησοῦς">Ἰησοῦς</w>
           <w lemma="λαός">λαὸν</w>
           <w lemma="ἐκ">ἐκ</w>
           <w lemma="γῆ">γῆς</w>
@@ -124,9 +127,10 @@
           <w lemma="πιστεύω">πιστεύσαντας</w>
           <w lemma="ἀπόλλυμι">ἀπώλεσεν,</w>
         </greek>
+        <note term="Jesus" kind="textual" lemma="Ἰησοῦς" traditional="the Lord">The manuscripts are divided here: some read &#x27;Jesus&#x27;, many read &#x27;the Lord&#x27;, and a few read &#x27;God&#x27;. The Greek edition translated here adopts &#x27;Jesus&#x27;, the harder reading and one with strong early support, which would mean Jude sees Jesus as active in the exodus. Most older English versions follow &#x27;the Lord&#x27;. The position of &#x27;once for all&#x27; in the sentence also varies among manuscripts.</note>
       </verse>
       <verse num="6">
-        <text>And the angels who did not keep to their own domain of authority but abandoned their proper dwelling place, he has kept in everlasting chains under murky darkness for the judgment of the great day.</text>
+        <text>and the angels who did not keep their own domain but abandoned their proper dwelling he has kept in everlasting chains beneath the gloom for the judgment of the great day;</text>
         <greek>
           <w lemma="ἄγγελος">ἀγγέλους</w>
           <w lemma="τέ">τε</w>
@@ -151,9 +155,10 @@
           <w lemma="ζόφος">ζόφον</w>
           <w lemma="τηρέω">τετήρηκεν·</w>
         </greek>
+        <note term="the angels who did not keep their own domain" kind="background" lemma="" traditional="">Jude alludes to a Jewish tradition, built on Genesis 6:1–4 and told at length in 1 Enoch, in which angels left heaven to take human wives and were imprisoned until the final judgment. His readers evidently knew the story. The word rendered &#x27;domain&#x27; can also mean &#x27;position of authority&#x27; or &#x27;rule&#x27;.</note>
       </verse>
       <verse num="7">
-        <text>Just as Sodom and Gomorrah and the cities around them, which indulged in sexual immorality in the same way as these and went after different kinds of flesh, they stand as an example by undergoing the justice of eternal fire.</text>
+        <text>just as Sodom and Gomorrah and the cities around them, which in the same way as these gave themselves over to sexual immorality and went after flesh of a different kind, stand as an example, undergoing the punishment of eternal fire.</text>
         <greek>
           <w lemma="ὡς">ὡς</w>
           <w lemma="Σόδομα">Σόδομα</w>
@@ -166,8 +171,8 @@
           <w lemma="πόλις">πόλεις,</w>
           <w lemma="ὁ">τὸν</w>
           <w lemma="ὅμοιος">ὅμοιον</w>
-          <w lemma="τρόπος">⸂τρόπον</w>
-          <w lemma="οὗτος">τούτοις⸃</w>
+          <w lemma="τρόπος">τρόπον</w>
+          <w lemma="οὗτος">τούτοις</w>
           <w lemma="ἐκπορνεύω">ἐκπορνεύσασαι</w>
           <w lemma="καί">καὶ</w>
           <w lemma="ἀπέρχομαι">ἀπελθοῦσαι</w>
@@ -181,9 +186,10 @@
           <w lemma="δίκη">δίκην</w>
           <w lemma="ὑπέχω">ὑπέχουσαι.</w>
         </greek>
+        <note term="flesh of a different kind" kind="departure" lemma="ἕτερος" traditional="strange flesh; unnatural desire">The Greek is literally &#x27;other flesh&#x27; or &#x27;different flesh&#x27;. Many translations paraphrase it as &#x27;unnatural desire&#x27; or &#x27;perversion&#x27;. The literal wording fits the comparison Jude is drawing: &#x27;these&#x27; most naturally refers to the angels of verse 6, who crossed the boundary between angels and humans, as the men of Sodom sought to do with their angelic visitors (Genesis 19). Some interpreters instead take the phrase as a reference to same-sex acts.</note>
       </verse>
       <verse num="8">
-        <text><p/>Yet in the same way, these dreamers defile the flesh, reject lordship, and slander celestial glories.</text>
+        <text><p/>Yet in the same way these people too, in their dreaming, defile the flesh, reject lordship, and slander the glorious ones.</text>
         <greek>
           <w lemma="ὁμοίως">Ὁμοίως</w>
           <w lemma="μέντοι">μέντοι</w>
@@ -200,9 +206,10 @@
           <w lemma="δέ">δὲ</w>
           <w lemma="βλασφημέω">βλασφημοῦσιν.</w>
         </greek>
+        <note term="the glorious ones" kind="background" lemma="δόξα" traditional="dignities; the glorious ones">The Greek is literally &#x27;glories&#x27;, a term used in Jewish writings for angelic beings. Most scholars take it that way here, which explains the example of Michael that follows. Older versions rendered it &#x27;dignities&#x27;, which could suggest human authorities.</note>
       </verse>
       <verse num="9">
-        <text>But even Michael the archangel, when he was disputing with the devil and arguing about the body of Moses, did not dare to bring a slandering judgment against him, but said, <q who="angel">“May the Lord rebuke you.”</q></text>
+        <text>But Michael the archangel, when he was disputing with the devil and arguing about the body of Moses, did not dare to bring a slanderous judgment against him, but said,<q who="angel"> “May the Lord rebuke you!”</q></text>
         <greek>
           <w lemma="ὁ">ὁ</w>
           <w lemma="δέ">δὲ</w>
@@ -229,9 +236,10 @@
           <w lemma="σύ">σοι</w>
           <w lemma="κύριος">κύριος.</w>
         </greek>
+        <note term="the body of Moses" kind="background" lemma="" traditional="">This episode is not in the Old Testament. Early Christian writers say Jude drew it from a Jewish work about the death of Moses, the relevant part of which has not survived. Michael&#x27;s words echo Zechariah 3:2, where the Lord rebukes Satan.</note>
       </verse>
       <verse num="10">
-        <text>But these people slander whatever they do not understand, and whatever they do know instinctively, like irrational animals, they are destroyed by these very things.</text>
+        <text>But these people slander whatever they do not understand, and whatever they do know by instinct, like unreasoning animals, by these things they are ruined.</text>
         <greek>
           <w lemma="οὗτος">οὗτοι</w>
           <w lemma="δέ">δὲ</w>
@@ -254,7 +262,7 @@
         </greek>
       </verse>
       <verse num="11">
-        <text>Woe to them! For they have walked in the way of Cain, they have abandoned themselves to Balaam’s error for the sake of profit, and they have perished in Korah’s rebellion.</text>
+        <text>Woe to them! For they have gone the way of Cain, have abandoned themselves to Balaam’s error for pay, and have perished in Korah’s rebellion.</text>
         <greek>
           <w lemma="οὐαί">οὐαὶ</w>
           <w lemma="αὐτός">αὐτοῖς,</w>
@@ -280,11 +288,11 @@
         </greek>
       </verse>
       <verse num="12">
-        <text><p/>These people are hidden reefs at your love-feasts, feasting with you without fear, shepherding only themselves. They are waterless clouds carried along by winds; autumn trees without fruit, twice dead and uprooted;</text>
+        <text>These are the reefs at your love feasts, feasting with you, fearlessly shepherding themselves; waterless clouds swept along by winds; late-autumn trees without fruit, twice dead, uprooted;</text>
         <greek>
           <w lemma="οὗτος">οὗτοί</w>
           <w lemma="εἰμί">εἰσιν</w>
-          <w lemma="ὁ">⸀οἱ</w>
+          <w lemma="ὁ">οἱ</w>
           <w lemma="ἐν">ἐν</w>
           <w lemma="ὁ">ταῖς</w>
           <w lemma="ἀγάπη">ἀγάπαις</w>
@@ -306,9 +314,10 @@
           <w lemma="ἀποθνῄσκω">ἀποθανόντα</w>
           <w lemma="ἐκριζόω">ἐκριζωθέντα,</w>
         </greek>
+        <note term="reefs at your love feasts" kind="ambiguity" lemma="σπιλάς" traditional="spots; blemishes">The Greek word normally means a rock in or under the sea, a hazard to ships, and that is the sense followed here. Many translations instead render &#x27;blemishes&#x27; or &#x27;spots&#x27;, taking it as equivalent to a similar word used in the parallel at 2 Peter 2:13. Both readings have scholarly support. The &#x27;love feasts&#x27; were the shared meals of the early Christian communities.</note>
       </verse>
       <verse num="13">
-        <text>wild waves of the sea foaming up their own shame; wandering stars, for whom the murky darkness of gloom has been kept forever.</text>
+        <text>wild waves of the sea, foaming up their own shameful deeds; wandering stars, for whom the gloom of darkness has been kept forever.</text>
         <greek>
           <w lemma="κῦμα">κύματα</w>
           <w lemma="ἄγριος">ἄγρια</w>
@@ -330,7 +339,7 @@
         </greek>
       </verse>
       <verse num="14">
-        <text><p/>Enoch, the seventh from Adam, also prophesied about these people, saying, <q who="scripture">“Behold, the Lord came with myriads of his holy ones,</q></text>
+        <text><p/>It was about these people too that Enoch, the seventh from Adam, prophesied, saying,<q who="other"> “Look, the Lord comes with his holy myriads,</q></text>
         <greek>
           <w lemma="προφητεύω">Προεφήτευσεν</w>
           <w lemma="δέ">δὲ</w>
@@ -349,9 +358,10 @@
           <w lemma="μυριάς">μυριάσιν</w>
           <w lemma="αὐτός">αὐτοῦ,</w>
         </greek>
+        <note term="Enoch, the seventh from Adam" kind="background" lemma="" traditional="">The quotation is from 1 Enoch 1:9, a Jewish work widely read in this period but not part of most biblical canons. Enoch is counted seventh from Adam by inclusive reckoning of the generations in Genesis 5. The verb rendered &#x27;comes&#x27; is a past tense in the Greek, a prophetic way of speaking of a future event as certain.</note>
       </verse>
       <verse num="15">
-        <text><q who="scripture">to execute judgment against all and to convict every soul concerning all their godless deeds which they committed in a godless way, and concerning all the harsh things that godless sinners have spoken against him.”</q></text>
+        <text><q who="other">to execute judgment on all, and to convict all the ungodly of all the ungodly deeds they committed in their ungodliness, and of all the harsh things that ungodly sinners have spoken against him.”</q></text>
         <greek>
           <w lemma="ποιέω">ποιῆσαι</w>
           <w lemma="κρίσις">κρίσιν</w>
@@ -359,9 +369,9 @@
           <w lemma="πᾶς">πάντων</w>
           <w lemma="καί">καὶ</w>
           <w lemma="ἐλέγχω">ἐλέγξαι</w>
-          <w lemma="πᾶς">⸂πάντας</w>
+          <w lemma="πᾶς">πάντας</w>
           <w lemma="ὁ">τοὺς</w>
-          <w lemma="ἀσεβής">ἀσεβεῖς⸃</w>
+          <w lemma="ἀσεβής">ἀσεβεῖς</w>
           <w lemma="περί">περὶ</w>
           <w lemma="πᾶς">πάντων</w>
           <w lemma="ὁ">τῶν</w>
@@ -384,7 +394,7 @@
         </greek>
       </verse>
       <verse num="16">
-        <text>These are grumblers, fault-finders who follow after their own desires; their mouths speak arrogant bombs, and they flatter people for the sake of their own advantage.</text>
+        <text>These people are grumblers, complainers about their lot, following their own desires; their mouths speak bombast, and they flatter people for the sake of gain.</text>
         <greek>
           <w lemma="οὗτος">οὗτοί</w>
           <w lemma="εἰμί">εἰσιν</w>
@@ -393,7 +403,7 @@
           <w lemma="κατά">κατὰ</w>
           <w lemma="ὁ">τὰς</w>
           <w lemma="ἐπιθυμία">ἐπιθυμίας</w>
-          <w lemma="αὐτός">⸀αὐτῶν</w>
+          <w lemma="αὐτός">αὐτῶν</w>
           <w lemma="πορεύομαι">πορευόμενοι,</w>
           <w lemma="καί">καὶ</w>
           <w lemma="ὁ">τὸ</w>
@@ -408,7 +418,7 @@
         </greek>
       </verse>
       <verse num="17">
-        <text><p/>But you, beloved, must remember the words spoken beforehand by the apostles of our Lord Jesus Christ.</text>
+        <text><p/>But you, beloved, remember the words spoken beforehand by the apostles of our Lord Jesus Christ,</text>
         <greek>
           <w lemma="σύ">Ὑμεῖς</w>
           <w lemma="δέ">δέ,</w>
@@ -429,14 +439,14 @@
         </greek>
       </verse>
       <verse num="18">
-        <text>For they told you, <q who="scripture">“In the last time there will be scoffers following after their own godless desires.”</q></text>
+        <text>for they used to say to you,<q who="other"> “In the last time there will be scoffers, following their own ungodly desires.”</q></text>
         <greek>
           <w lemma="ὅτι">ὅτι</w>
           <w lemma="λέγω">ἔλεγον</w>
-          <w lemma="σύ">⸀ὑμῖν·</w>
-          <w lemma="ἐπί">⸂Ἐπ’</w>
+          <w lemma="σύ">ὑμῖν·</w>
+          <w lemma="ἐπί">Ἐπ’</w>
           <w lemma="ἔσχατος">ἐσχάτου</w>
-          <w lemma="χρόνος">χρόνου⸃</w>
+          <w lemma="χρόνος">χρόνου</w>
           <w lemma="εἰμί">ἔσονται</w>
           <w lemma="ἐμπαίκτης">ἐμπαῖκται</w>
           <w lemma="κατά">κατὰ</w>
@@ -449,7 +459,7 @@
         </greek>
       </verse>
       <verse num="19">
-        <text>These are the ones who cause divisions—soulish people, not having the Spirit.</text>
+        <text>These are the ones who cause divisions, merely natural people who do not have the Spirit.</text>
         <greek>
           <w lemma="οὗτος">οὗτοί</w>
           <w lemma="εἰμί">εἰσιν</w>
@@ -460,19 +470,20 @@
           <w lemma="μή">μὴ</w>
           <w lemma="ἔχω">ἔχοντες.</w>
         </greek>
+        <note term="merely natural people" kind="departure" lemma="ψυχικός" traditional="sensual; worldly">The Greek adjective describes someone living at the level of ordinary human life, as opposed to life animated by God&#x27;s Spirit; Paul uses it the same way in 1 Corinthians 2:14. &#x27;Sensual&#x27; wrongly suggests bodily indulgence, and &#x27;worldly&#x27; is vaguer than the Greek. Most interpreters take &#x27;Spirit&#x27; here as the Holy Spirit.</note>
       </verse>
       <verse num="20">
-        <text><p/>But you, beloved, by building yourselves up in your most holy faith and praying in the Holy Spirit,</text>
+        <text>But you, beloved, building yourselves up on your most holy faith and praying in the Holy Spirit,</text>
         <greek>
           <w lemma="σύ">ὑμεῖς</w>
           <w lemma="δέ">δέ,</w>
           <w lemma="ἀγαπητός">ἀγαπητοί,</w>
-          <w lemma="ἐποικοδομέω">⸂ἐποικοδομοῦντες</w>
+          <w lemma="ἐποικοδομέω">ἐποικοδομοῦντες</w>
           <w lemma="ἑαυτοῦ">ἑαυτοὺς</w>
           <w lemma="ὁ">τῇ</w>
           <w lemma="ἅγιος">ἁγιωτάτῃ</w>
           <w lemma="σύ">ὑμῶν</w>
-          <w lemma="πίστις">πίστει⸃,</w>
+          <w lemma="πίστις">πίστει,</w>
           <w lemma="ἐν">ἐν</w>
           <w lemma="πνεῦμα">πνεύματι</w>
           <w lemma="ἅγιος">ἁγίῳ</w>
@@ -480,7 +491,7 @@
         </greek>
       </verse>
       <verse num="21">
-        <text>keep yourselves in the love of God as you wait for the mercy of our Lord Jesus Christ, leading to eternal life.</text>
+        <text>keep yourselves in the love of God, as you wait for the mercy of our Lord Jesus Christ that leads to eternal life.</text>
         <greek>
           <w lemma="ἑαυτοῦ">ἑαυτοὺς</w>
           <w lemma="ἐν">ἐν</w>
@@ -501,17 +512,19 @@
         </greek>
       </verse>
       <verse num="22">
-        <text>Have mercy on those who are wavering;</text>
+        <text>And have mercy on some, those who are wavering;</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="ὅς">οὓς</w>
           <w lemma="μέν">μὲν</w>
-          <w lemma="ἐλεάω">⸀ἐλεᾶτε</w>
-          <w lemma="διακρίνω">⸂διακρινομένους,</w>
+          <w lemma="ἐλεάω">ἐλεᾶτε</w>
+          <w lemma="διακρίνω">διακρινομένους,</w>
         </greek>
+        <note term="have mercy on some" kind="textual" lemma="" traditional="">The manuscripts of verses 22–23 differ considerably. Some have two groups of people and others three, and in place of the first &#x27;have mercy&#x27; some read &#x27;convince&#x27; or &#x27;refute&#x27;. The three-group text translated here is the one most modern editions adopt, but the original wording is uncertain.</note>
+        <note term="those who are wavering" kind="ambiguity" lemma="διακρίνω" traditional="those who doubt">The same Greek verb is used in verse 9 of Michael &#x27;disputing&#x27; with the devil. Here it may likewise mean &#x27;those who dispute&#x27;, or, as most translations take it, &#x27;those who doubt&#x27; or &#x27;waver&#x27;. An older tradition, following a different manuscript reading, renders &#x27;making a distinction&#x27;.</note>
       </verse>
       <verse num="23">
-        <text>save others by snatching them out of the fire; and on others have mercy with fear, hating even the tunic stained by the flesh.</text>
+        <text>save others, snatching them out of the fire; and on others have mercy with fear, hating even the tunic stained by the flesh.</text>
         <greek>
           <w lemma="ὅς">οὓς</w>
           <w lemma="δέ">δὲ</w>
@@ -523,7 +536,7 @@
           <w lemma="δέ">δὲ</w>
           <w lemma="ἐλεάω">ἐλεᾶτε</w>
           <w lemma="ἐν">ἐν</w>
-          <w lemma="φόβος">φόβῳ⸃,</w>
+          <w lemma="φόβος">φόβῳ,</w>
           <w lemma="μισέω">μισοῦντες</w>
           <w lemma="καί">καὶ</w>
           <w lemma="ὁ">τὸν</w>
@@ -535,13 +548,13 @@
         </greek>
       </verse>
       <verse num="24">
-        <text><p/>Now to the one who is able to guard you from stumbling and to stand you before his glory, blameless and with exultation—</text>
+        <text><p/>Now to the one who is able to guard you from stumbling and to make you stand in the presence of his glory without blemish and with great joy,</text>
         <greek>
           <w lemma="ὁ">Τῷ</w>
           <w lemma="δέ">δὲ</w>
           <w lemma="δύναμαι">δυναμένῳ</w>
           <w lemma="φυλάσσω">φυλάξαι</w>
-          <w lemma="σύ">⸀ὑμᾶς</w>
+          <w lemma="σύ">ὑμᾶς</w>
           <w lemma="ἄπταιστος">ἀπταίστους</w>
           <w lemma="καί">καὶ</w>
           <w lemma="ἵστημι">στῆσαι</w>
@@ -555,27 +568,27 @@
         </greek>
       </verse>
       <verse num="25">
-        <text>to the only God our Savior, through Jesus Christ our Lord, be glory, majesty, might, and authority, before all time, and now, and for all the ages. Amen.</text>
+        <text>to the only God, our Savior, through Jesus Christ our Lord, be glory, majesty, might, and authority, before every age and now and for all the ages. Amen.</text>
         <greek>
-          <w lemma="μόνος">⸀μόνῳ</w>
+          <w lemma="μόνος">μόνῳ</w>
           <w lemma="θεός">θεῷ</w>
           <w lemma="σωτήρ">σωτῆρι</w>
           <w lemma="ἐγώ">ἡμῶν</w>
-          <w lemma="διά">⸂διὰ</w>
+          <w lemma="διά">διὰ</w>
           <w lemma="Ἰησοῦς">Ἰησοῦ</w>
           <w lemma="Χριστός">Χριστοῦ</w>
           <w lemma="ὁ">τοῦ</w>
           <w lemma="κύριος">κυρίου</w>
-          <w lemma="ἐγώ">ἡμῶν⸃</w>
-          <w lemma="δόξα">⸀δόξα</w>
+          <w lemma="ἐγώ">ἡμῶν</w>
+          <w lemma="δόξα">δόξα</w>
           <w lemma="μεγαλωσύνη">μεγαλωσύνη</w>
           <w lemma="κράτος">κράτος</w>
           <w lemma="καί">καὶ</w>
           <w lemma="ἐξουσία">ἐξουσία</w>
-          <w lemma="πρό">⸂πρὸ</w>
+          <w lemma="πρό">πρὸ</w>
           <w lemma="πᾶς">παντὸς</w>
           <w lemma="ὁ">τοῦ</w>
-          <w lemma="αἰών">αἰῶνος⸃</w>
+          <w lemma="αἰών">αἰῶνος</w>
           <w lemma="καί">καὶ</w>
           <w lemma="νῦν">νῦν</w>
           <w lemma="καί">καὶ</w>

@@ -1,0 +1,309 @@
+{
+ "id": "titus-001",
+ "book": "titus",
+ "chapter": 1,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZhtDk9LmR9hyGfqH",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 6083,
+  "output_tokens": 8563
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Paul, a slave of God and an apostle of Jesus Christ, for the faith of God’s chosen ones and the knowledge of the truth that accords with godliness,\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"in hope of eternal life, which God, who does not lie, promised before long ages\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and at the right time he revealed his word in the proclamation with which I was entrusted by the command of God our Savior,\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"to Titus, a true child in a shared faith: Grace and peace from God the Father and Christ Jesus our Savior.\"}]},{\"verse\":5,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"This is why I left you behind in Crete: so that you would set right what remained to be done and appoint elders in each town, as I directed you,\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"if anyone is above reproach, the husband of one wife, with believing children who are not open to a charge of reckless living or insubordinate.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For the overseer, as God’s household manager, must be above reproach: not arrogant, not quick-tempered, not a heavy drinker, not violent, not greedy for shameful gain,\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"but hospitable, a lover of what is good, sensible, just, devout, self-controlled,\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"holding firmly to the faithful word as it has been taught, so that he may be able both to encourage with healthy teaching and to rebuke those who speak against it.\"}]},{\"verse\":10,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For there are many insubordinate people, empty talkers and deceivers, especially those of the circumcision,\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"who must be silenced. They are overturning whole households, teaching what they ought not for the sake of shameful gain.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"One of them, a prophet of their own, said,\"},{\"speaker\":\"other\",\"text\":\"“Cretans are always liars, vicious beasts, lazy gluttons.”\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"This testimony is true. For this reason rebuke them sharply, so that they may be healthy in the faith,\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"not paying attention to Jewish myths and the commands of people who turn away from the truth.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"To the pure all things are pure, but to the defiled and unbelieving nothing is pure; instead, both their mind and their conscience are defiled.\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They profess to know God, but by their works they deny him, being detestable and disobedient and unfit for any good work.\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"slave\",\"lemma\":\"δοῦλος\",\"kind\":\"departure\",\"traditional\":\"servant\",\"note\":\"The Greek word is the ordinary term for a person owned by a master, not a hired servant. Many English versions soften it to 'servant' or 'bondservant'. In the Septuagint 'slave of God' is also a title of honour for figures such as Moses and the prophets, so the phrase carries both total belonging and dignity.\"},{\"verse\":1,\"phrase\":\"for the faith\",\"lemma\":\"κατά\",\"kind\":\"ambiguity\",\"traditional\":\"according to the faith\",\"note\":\"The preposition can mean 'in accordance with' or express aim ('with a view to'). The rendering takes it as the purpose of Paul's apostleship, which is to further the faith and knowledge of God's chosen people. This is the view of most recent interpreters. The alternative is that his apostleship conforms to the faith they hold.\"},{\"verse\":2,\"phrase\":\"before long ages\",\"lemma\":\"αἰώνιος\",\"kind\":\"departure\",\"traditional\":\"before the world began; before time began; before times eternal\",\"note\":\"The same adjective appears twice in this verse: 'eternal' life and, literally, 'age-long times'. It comes from the word for 'age', and in Jewish usage 'eternal life' is the life of the age to come, a matter of kind as well as length. With 'times' in the plural it looks back over the long ages of the past, so 'before time began' says slightly more than the Greek does. Many translations nonetheless take it as a reference to eternity past.\"},{\"verse\":6,\"phrase\":\"the husband of one wife\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"the husband of one wife\",\"note\":\"Literally 'a man of one woman'. The phrase has been taken to exclude polygamy, to exclude remarriage after divorce or a wife's death, or more generally to require marital faithfulness. Many recent interpreters favour the last ('faithful to his wife'), but the question remains disputed and the traditional wording leaves it open.\"},{\"verse\":6,\"phrase\":\"believing\",\"lemma\":\"πιστός\",\"kind\":\"ambiguity\",\"traditional\":\"faithful; believing\",\"note\":\"The adjective can mean 'believing' (sharing the faith) or 'faithful, trustworthy' (dependable and obedient children). Translations and commentators are divided. The explanation that follows, about not being wild or insubordinate, fits either reading.\"},{\"verse\":7,\"phrase\":\"overseer\",\"lemma\":\"ἐπίσκοπος\",\"kind\":\"background\",\"traditional\":\"bishop\",\"note\":\"The word was an ordinary term for a supervisor or guardian, and the English 'bishop' descends from it. The passage moves from 'elders' in verse 5 to 'the overseer' here without a break, so most scholars conclude that the two terms describe the same local leaders at this stage. The single bishop over a region is a later development.\"},{\"verse\":7,\"phrase\":\"household manager\",\"lemma\":\"οἰκονόμος\",\"kind\":\"departure\",\"traditional\":\"steward\",\"note\":\"The word denotes the person, often a trusted slave, who ran a household's affairs and property on the owner's behalf. 'Steward' is accurate but now suggests other roles to most readers. The image is of the congregation as God's household, with the overseer answerable to its owner.\"},{\"verse\":8,\"phrase\":\"just\",\"lemma\":\"δίκαιος\",\"kind\":\"background\",\"traditional\":\"just; upright\",\"note\":\"Greek has one word-family where English has two: righteous and just, righteousness and justice. The adjective here is the one rendered 'righteous' elsewhere in the New Testament. In a list of virtues like this, paired with 'devout', it denotes fair and right dealing with other people. This was a conventional pairing in Greek moral language.\"},{\"verse\":9,\"phrase\":\"healthy teaching\",\"lemma\":\"ὑγιαίνω\",\"kind\":\"departure\",\"traditional\":\"sound doctrine\",\"note\":\"The verb means to be in good health, and the letters to Timothy and Titus use it repeatedly as a medical image for teaching that makes people well. 'Sound doctrine' is the traditional rendering, but 'sound' no longer suggests health to most readers. 'Healthy' also keeps the link with verse 13, where the same verb is used of people being 'healthy in the faith'.\"},{\"verse\":10,\"phrase\":\"those of the circumcision\",\"lemma\":\"περιτομή\",\"kind\":\"background\",\"traditional\":\"they of the circumcision; the circumcision party\",\"note\":\"The phrase refers to people of Jewish background. Here they are most likely Jewish members of the Christian communities on Crete, since Titus is expected to correct them. Whether they formed an organised group pressing Jewish observances on others is not certain, though verse 14 points to Jewish traditions and rules as the substance of their teaching.\"},{\"verse\":12,\"phrase\":\"a prophet of their own\",\"lemma\":\"προφήτης\",\"kind\":\"background\",\"traditional\":\"a prophet of their own\",\"note\":\"The line is a verse of Greek poetry traditionally attributed to Epimenides, a Cretan sage of the sixth century BC who was reputed to be a seer. Cretans had a proverbial reputation for lying in the ancient world. 'Prophet' reflects how such figures were regarded among Greeks and does not rank him with the prophets of Israel.\"}],\"candidates\":[{\"lemma\":\"δοῦλος\",\"rendering\":\"slave\",\"verse\":1,\"reason\":\"Occurs throughout the New Testament and translations split between 'slave', 'servant' and 'bondservant'; readers would be misled by variation, especially in self-designations and parables.\"},{\"lemma\":\"εὐσέβεια\",\"rendering\":\"godliness\",\"verse\":1,\"reason\":\"A key term in the Pastoral Letters and 2 Peter, where 'godliness', 'piety', 'devotion' and 'reverence' are all defensible and need one consistent choice.\"},{\"lemma\":\"ἐπίσκοπος\",\"rendering\":\"overseer\",\"verse\":7,\"reason\":\"The choice between 'overseer' and 'bishop' affects Acts 20:28, Philippians 1:1, 1 Timothy 3:2 and 1 Peter 2:25 and should be uniform.\"},{\"lemma\":\"ὑγιαίνω\",\"rendering\":\"healthy (teaching); be healthy\",\"verse\":9,\"reason\":\"The medical metaphor recurs through 1–2 Timothy and Titus (with ὑγιής), and 'sound' versus 'healthy' should be decided once to keep the image visible.\"},{\"lemma\":\"σώφρων\",\"rendering\":\"sensible\",\"verse\":8,\"reason\":\"The σώφρων word-group recurs across the Pastorals and elsewhere and is rendered variously as 'self-controlled', 'sensible', 'sober-minded' and 'prudent', and it has to be kept distinct from ἐγκρατής.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Paul, a slave of God and an apostle of Jesus Christ, for the faith of God’s chosen ones and the knowledge of the truth that accords with godliness,"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "in hope of eternal life, which God, who does not lie, promised before long ages"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and at the right time he revealed his word in the proclamation with which I was entrusted by the command of God our Savior,"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "to Titus, a true child in a shared faith: Grace and peace from God the Father and Christ Jesus our Savior."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "This is why I left you behind in Crete: so that you would set right what remained to be done and appoint elders in each town, as I directed you,"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "if anyone is above reproach, the husband of one wife, with believing children who are not open to a charge of reckless living or insubordinate."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For the overseer, as God’s household manager, must be above reproach: not arrogant, not quick-tempered, not a heavy drinker, not violent, not greedy for shameful gain,"
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "but hospitable, a lover of what is good, sensible, just, devout, self-controlled,"
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "holding firmly to the faithful word as it has been taught, so that he may be able both to encourage with healthy teaching and to rebuke those who speak against it."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For there are many insubordinate people, empty talkers and deceivers, especially those of the circumcision,"
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "who must be silenced. They are overturning whole households, teaching what they ought not for the sake of shameful gain."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "One of them, a prophet of their own, said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Cretans are always liars, vicious beasts, lazy gluttons.”"
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "This testimony is true. For this reason rebuke them sharply, so that they may be healthy in the faith,"
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "not paying attention to Jewish myths and the commands of people who turn away from the truth."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "To the pure all things are pure, but to the defiled and unbelieving nothing is pure; instead, both their mind and their conscience are defiled."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They profess to know God, but by their works they deny him, being detestable and disobedient and unfit for any good work."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "slave",
+    "lemma": "δοῦλος",
+    "kind": "departure",
+    "traditional": "servant",
+    "note": "The Greek word is the ordinary term for a person owned by a master, not a hired servant. Many English versions soften it to 'servant' or 'bondservant'. In the Septuagint 'slave of God' is also a title of honour for figures such as Moses and the prophets, so the phrase carries both total belonging and dignity."
+   },
+   {
+    "verse": 1,
+    "phrase": "for the faith",
+    "lemma": "κατά",
+    "kind": "ambiguity",
+    "traditional": "according to the faith",
+    "note": "The preposition can mean 'in accordance with' or express aim ('with a view to'). The rendering takes it as the purpose of Paul's apostleship, which is to further the faith and knowledge of God's chosen people. This is the view of most recent interpreters. The alternative is that his apostleship conforms to the faith they hold."
+   },
+   {
+    "verse": 2,
+    "phrase": "before long ages",
+    "lemma": "αἰώνιος",
+    "kind": "departure",
+    "traditional": "before the world began; before time began; before times eternal",
+    "note": "The same adjective appears twice in this verse: 'eternal' life and, literally, 'age-long times'. It comes from the word for 'age', and in Jewish usage 'eternal life' is the life of the age to come, a matter of kind as well as length. With 'times' in the plural it looks back over the long ages of the past, so 'before time began' says slightly more than the Greek does. Many translations nonetheless take it as a reference to eternity past."
+   },
+   {
+    "verse": 6,
+    "phrase": "the husband of one wife",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "the husband of one wife",
+    "note": "Literally 'a man of one woman'. The phrase has been taken to exclude polygamy, to exclude remarriage after divorce or a wife's death, or more generally to require marital faithfulness. Many recent interpreters favour the last ('faithful to his wife'), but the question remains disputed and the traditional wording leaves it open."
+   },
+   {
+    "verse": 6,
+    "phrase": "believing",
+    "lemma": "πιστός",
+    "kind": "ambiguity",
+    "traditional": "faithful; believing",
+    "note": "The adjective can mean 'believing' (sharing the faith) or 'faithful, trustworthy' (dependable and obedient children). Translations and commentators are divided. The explanation that follows, about not being wild or insubordinate, fits either reading."
+   },
+   {
+    "verse": 7,
+    "phrase": "overseer",
+    "lemma": "ἐπίσκοπος",
+    "kind": "background",
+    "traditional": "bishop",
+    "note": "The word was an ordinary term for a supervisor or guardian, and the English 'bishop' descends from it. The passage moves from 'elders' in verse 5 to 'the overseer' here without a break, so most scholars conclude that the two terms describe the same local leaders at this stage. The single bishop over a region is a later development."
+   },
+   {
+    "verse": 7,
+    "phrase": "household manager",
+    "lemma": "οἰκονόμος",
+    "kind": "departure",
+    "traditional": "steward",
+    "note": "The word denotes the person, often a trusted slave, who ran a household's affairs and property on the owner's behalf. 'Steward' is accurate but now suggests other roles to most readers. The image is of the congregation as God's household, with the overseer answerable to its owner."
+   },
+   {
+    "verse": 8,
+    "phrase": "just",
+    "lemma": "δίκαιος",
+    "kind": "background",
+    "traditional": "just; upright",
+    "note": "Greek has one word-family where English has two: righteous and just, righteousness and justice. The adjective here is the one rendered 'righteous' elsewhere in the New Testament. In a list of virtues like this, paired with 'devout', it denotes fair and right dealing with other people. This was a conventional pairing in Greek moral language."
+   },
+   {
+    "verse": 9,
+    "phrase": "healthy teaching",
+    "lemma": "ὑγιαίνω",
+    "kind": "departure",
+    "traditional": "sound doctrine",
+    "note": "The verb means to be in good health, and the letters to Timothy and Titus use it repeatedly as a medical image for teaching that makes people well. 'Sound doctrine' is the traditional rendering, but 'sound' no longer suggests health to most readers. 'Healthy' also keeps the link with verse 13, where the same verb is used of people being 'healthy in the faith'."
+   },
+   {
+    "verse": 10,
+    "phrase": "those of the circumcision",
+    "lemma": "περιτομή",
+    "kind": "background",
+    "traditional": "they of the circumcision; the circumcision party",
+    "note": "The phrase refers to people of Jewish background. Here they are most likely Jewish members of the Christian communities on Crete, since Titus is expected to correct them. Whether they formed an organised group pressing Jewish observances on others is not certain, though verse 14 points to Jewish traditions and rules as the substance of their teaching."
+   },
+   {
+    "verse": 12,
+    "phrase": "a prophet of their own",
+    "lemma": "προφήτης",
+    "kind": "background",
+    "traditional": "a prophet of their own",
+    "note": "The line is a verse of Greek poetry traditionally attributed to Epimenides, a Cretan sage of the sixth century BC who was reputed to be a seer. Cretans had a proverbial reputation for lying in the ancient world. 'Prophet' reflects how such figures were regarded among Greeks and does not rank him with the prophets of Israel."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "δοῦλος",
+    "rendering": "slave",
+    "verse": 1,
+    "reason": "Occurs throughout the New Testament and translations split between 'slave', 'servant' and 'bondservant'; readers would be misled by variation, especially in self-designations and parables."
+   },
+   {
+    "lemma": "εὐσέβεια",
+    "rendering": "godliness",
+    "verse": 1,
+    "reason": "A key term in the Pastoral Letters and 2 Peter, where 'godliness', 'piety', 'devotion' and 'reverence' are all defensible and need one consistent choice."
+   },
+   {
+    "lemma": "ἐπίσκοπος",
+    "rendering": "overseer",
+    "verse": 7,
+    "reason": "The choice between 'overseer' and 'bishop' affects Acts 20:28, Philippians 1:1, 1 Timothy 3:2 and 1 Peter 2:25 and should be uniform."
+   },
+   {
+    "lemma": "ὑγιαίνω",
+    "rendering": "healthy (teaching); be healthy",
+    "verse": 9,
+    "reason": "The medical metaphor recurs through 1–2 Timothy and Titus (with ὑγιής), and 'sound' versus 'healthy' should be decided once to keep the image visible."
+   },
+   {
+    "lemma": "σώφρων",
+    "rendering": "sensible",
+    "verse": 8,
+    "reason": "The σώφρων word-group recurs across the Pastorals and elsewhere and is rendered variously as 'self-controlled', 'sensible', 'sober-minded' and 'prudent', and it has to be kept distinct from ἐγκρατής."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [
+  "Verse 3: πιστεύω is not rendered with a register form (believe / trust) and has no register-exception note."
+ ]
+}

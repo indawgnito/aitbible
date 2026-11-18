@@ -1,0 +1,575 @@
+{
+ "id": "matthew-010",
+ "book": "matthew",
+ "chapter": 10,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZjPBmWYD6HYLMrvq",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 8993,
+  "output_tokens": 16211
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And calling his twelve disciples to him, he gave them authority over unclean spirits, to drive them out, and to heal every disease and every sickness.\"}]},{\"verse\":2,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The names of the twelve apostles are these: first, Simon, who is called Peter, and Andrew his brother; James the son of Zebedee, and John his brother;\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Philip and Bartholomew; Thomas and Matthew the tax collector; James the son of Alphaeus, and Thaddaeus;\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Simon the Zealot, and Judas Iscariot, who also handed him over.\"}]},{\"verse\":5,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"These twelve Jesus sent out with these instructions:\"},{\"speaker\":\"Jesus\",\"text\":\"“Do not go off on a road to the Gentiles, and do not enter a town of the Samaritans;\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"but go instead to the lost sheep of the house of Israel.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"As you go, proclaim, ‘The kingdom of the heavens has come near.’\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Heal the sick, raise the dead, cleanse those with skin disease, drive out demons. You received as a gift; give as a gift.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Do not acquire gold or silver or copper for your belts,\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"or a bag for the road, or two tunics, or sandals, or a staff; for the worker is worthy of his food.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Whatever town or village you enter, find out who in it is worthy, and stay there until you leave.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"As you enter the house, greet it;\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"and if the house is worthy, let your peace come upon it; but if it is not worthy, let your peace return to you.\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And if anyone does not welcome you or listen to your words, shake the dust off your feet as you leave that house or town.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Truly I tell you, it will be more bearable for the land of Sodom and Gomorrah on the day of judgment than for that town.\"}]},{\"verse\":16,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Look, I am sending you out like sheep among wolves; so be as shrewd as snakes and as innocent as doves.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Be on your guard against people; for they will hand you over to councils and flog you in their synagogues,\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"and you will be brought before governors and kings for my sake, as a testimony to them and to the Gentiles.\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But when they hand you over, do not worry about how you are to speak or what you are to say; for what you are to say will be given to you in that hour.\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For it is not you who are speaking, but the Spirit of your Father speaking in you.\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Brother will hand over brother to death, and a father his child; children will rise up against parents and have them put to death.\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"You will be hated by everyone because of my name; but the one who endures to the end will be saved.\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"When they persecute you in one town, flee to the next; for truly I tell you, you will certainly not finish going through the towns of Israel before the Son of Man comes.\"}]},{\"verse\":24,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"A disciple is not above the teacher, nor a slave above his master.\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"It is enough for the disciple to become like his teacher, and the slave like his master. If they called the master of the house Beelzebul, how much more the members of his household!\"}]},{\"verse\":26,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"So do not be afraid of them; for there is nothing covered that will not be uncovered, and nothing hidden that will not be made known.\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"What I tell you in the dark, say in the light; and what you hear in your ear, proclaim on the housetops.\"}]},{\"verse\":28,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And do not be afraid of those who kill the body but cannot kill the soul; be afraid rather of the one who can destroy both soul and body in Gehenna.\"}]},{\"verse\":29,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Are not two sparrows sold for a penny? Yet not one of them will fall to the ground apart from your Father.\"}]},{\"verse\":30,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"As for you, even the hairs of your head are all counted.\"}]},{\"verse\":31,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"So do not be afraid; you are worth more than many sparrows.\"}]},{\"verse\":32,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"So everyone who acknowledges me before people, I too will acknowledge before my Father in the heavens;\"}]},{\"verse\":33,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"but whoever denies me before people, I too will deny before my Father in the heavens.\"}]},{\"verse\":34,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Do not think that I came to bring peace to the earth; I did not come to bring peace but a sword.\"}]},{\"verse\":35,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For I came to set a man against his father, and a daughter against her mother, and a daughter-in-law against her mother-in-law;\"}]},{\"verse\":36,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"and a person’s enemies will be the members of their own household.\"}]},{\"verse\":37,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Whoever loves father or mother more than me is not worthy of me; and whoever loves son or daughter more than me is not worthy of me;\"}]},{\"verse\":38,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"and whoever does not take up their cross and follow after me is not worthy of me.\"}]},{\"verse\":39,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Whoever finds their life will lose it, and whoever loses their life for my sake will find it.\"}]},{\"verse\":40,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Whoever welcomes you welcomes me, and whoever welcomes me welcomes the one who sent me.\"}]},{\"verse\":41,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Whoever welcomes a prophet because he is a prophet will receive a prophet’s reward, and whoever welcomes a righteous person because he is righteous will receive a righteous person’s reward.\"}]},{\"verse\":42,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And whoever gives one of these little ones even a cup of cold water because he is a disciple—truly I tell you, that person will certainly not lose their reward.”\"}]}],\"notes\":[{\"verse\":4,\"phrase\":\"the Zealot\",\"lemma\":\"Καναναῖος\",\"kind\":\"departure\",\"traditional\":\"the Cananaean (KJV: the Canaanite)\",\"note\":\"The Greek word transliterates an Aramaic term meaning 'zealous one'; it has nothing to do with Canaan or Cana. Luke's lists of the Twelve give the Greek equivalent, 'Simon the Zealot'. Whether the label marks Simon as a member of a revolutionary movement or simply as a man known for religious zeal is disputed.\"},{\"verse\":4,\"phrase\":\"handed him over\",\"lemma\":\"παραδίδωμι\",\"kind\":\"departure\",\"traditional\":\"betrayed him\",\"note\":\"The verb is the ordinary Greek word for handing a person over to an authority, and it is the same verb Jesus uses of the disciples' own fate in verses 17, 19 and 21. Most translations use 'betrayed' when Judas is the subject, which hides that link. The word itself does not say 'treachery', though the act it describes here was one.\"},{\"verse\":5,\"phrase\":\"Gentiles\",\"lemma\":\"ἔθνος\",\"kind\":\"background\",\"traditional\":\"Gentiles\",\"note\":\"Greek has a single word that means 'peoples' or 'nations' and, in Jewish usage in the plural, the non-Jewish peoples. This translation renders it 'Gentiles' or 'nations' according to sense, as most translations do. Here and in verse 18 the non-Jewish peoples are meant.\"},{\"verse\":7,\"phrase\":\"The kingdom of the heavens\",\"lemma\":\"οὐρανός\",\"kind\":\"departure\",\"traditional\":\"the kingdom of heaven\",\"note\":\"Matthew's Greek is plural, here and in 'my Father in the heavens' (verses 32–33), reflecting a Hebrew and Aramaic way of speaking. Most English translations flatten the plural to 'heaven'. The plural is kept because a first-century hearer would have noticed it.\"},{\"verse\":8,\"phrase\":\"those with skin disease\",\"lemma\":\"λεπρός\",\"kind\":\"departure\",\"traditional\":\"lepers\",\"note\":\"The Greek word, like the Hebrew term it translates in the Septuagint, covers a range of scaly skin conditions that made a person ritually unclean; this is why the verb is 'cleanse' rather than 'heal'. It is not limited to, and may not include, the illness now called leprosy (Hansen's disease). Most translations keep 'lepers', often with a footnote saying the same.\"},{\"verse\":12,\"phrase\":\"greet it\",\"lemma\":\"ἀσπάζομαι\",\"kind\":\"background\",\"traditional\":\"salute it\",\"note\":\"The customary Jewish greeting on entering a home was a wish of peace ('Peace to this house'). That is why the next verse can speak of 'your peace' coming upon the house or returning to the speaker: the greeting is treated as a real blessing given or withdrawn.\"},{\"verse\":23,\"phrase\":\"before the Son of Man comes\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"till the Son of man be come\",\"note\":\"The wording echoes Daniel 7:13, where one 'like a son of man' comes with the clouds of heaven. What 'coming' is meant here is one of the most disputed questions in the Gospel: proposals include Jesus' resurrection and exaltation, the destruction of Jerusalem in AD 70, and his final return. The Greek does not settle the question.\"},{\"verse\":24,\"phrase\":\"slave\",\"lemma\":\"δοῦλος\",\"kind\":\"departure\",\"traditional\":\"servant\",\"note\":\"The Greek word means a person owned by a master, not a hired employee, and the saying depends on that relationship. Older English translations used 'servant'; several recent ones use 'slave'. The word translated 'master' is the same word elsewhere rendered 'lord'.\"},{\"verse\":25,\"phrase\":\"Beelzebul\",\"lemma\":\"Βεελζεβούλ\",\"kind\":\"background\",\"traditional\":\"Beelzebub\",\"note\":\"A name for the ruler of the demons (see Matthew 12:24), which Jesus' opponents applied to him. Its origin is uncertain; it is probably related to a title of the Canaanite god Baal, and some think it could be heard as 'lord of the dwelling', which would give added point to 'master of the house'. The spelling 'Beelzebub' in older English Bibles comes from the Latin tradition, influenced by 2 Kings 1:2.\"},{\"verse\":28,\"phrase\":\"Gehenna\",\"lemma\":\"γέεννα\",\"kind\":\"departure\",\"traditional\":\"hell\",\"note\":\"Gehenna is a place name: the Valley of Hinnom outside Jerusalem, which by Jesus' time had become the standard Jewish image for the place of final judgment. Many translations render it 'hell', usually with a footnote giving the name. The name is kept because 'hell' merges it with Hades, a different word, and with much later imagery.\"},{\"verse\":39,\"phrase\":\"their life\",\"lemma\":\"ψυχή\",\"kind\":\"ambiguity\",\"traditional\":\"his life\",\"note\":\"The Greek word is the same one rendered 'soul' in verse 28. It covers a person's life, self and inner being, and English has no single word for that range. 'Soul' is used in verse 28, where it is set against the body, and 'life' here, where the contrast is between saving and losing oneself; the reader should hear the two verses together.\"},{\"verse\":41,\"phrase\":\"because he is a prophet\",\"lemma\":\"ὄνομα\",\"kind\":\"departure\",\"traditional\":\"in the name of a prophet\",\"note\":\"The Greek says literally 'into the name of a prophet', a Semitic idiom meaning 'on the ground that he is a prophet'. The traditional literal rendering is obscure in English, and most modern translations paraphrase it in a similar way. The same idiom lies behind 'because he is righteous' here and 'because he is a disciple' in verse 42.\"}],\"candidates\":[{\"lemma\":\"δοῦλος\",\"rendering\":\"slave\",\"verse\":24,\"reason\":\"It is very frequent across the New Testament, and translations split between 'slave', 'servant' and 'bondservant', so an unregistered choice will vary from chapter to chapter.\"},{\"lemma\":\"ψυχή\",\"rendering\":\"soul / life\",\"verse\":28,\"reason\":\"One Greek word is split between 'soul' and 'life' (both in this chapter), and the rule for the split needs to be fixed once for parallel sayings across the Gospels and letters.\"},{\"lemma\":\"παραδίδωμι\",\"rendering\":\"hand over\",\"verse\":4,\"reason\":\"Whether Judas 'betrays' or 'hands over' Jesus, and whether the link with the other uses of the verb is kept, needs one decision for the Gospels, Acts and Paul.\"},{\"lemma\":\"λεπρός\",\"rendering\":\"those with skin disease\",\"verse\":8,\"reason\":\"'Leper' and 'leprosy' mislead modern readers but are deeply traditional, and the word recurs across the Synoptic Gospels, so the choice must be uniform.\"},{\"lemma\":\"πόλις\",\"rendering\":\"town\",\"verse\":5,\"reason\":\"Translators waver between 'city' and 'town' for the same places, and readers will see parallel passages disagree unless a rule is set.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And calling his twelve disciples to him, he gave them authority over unclean spirits, to drive them out, and to heal every disease and every sickness."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The names of the twelve apostles are these: first, Simon, who is called Peter, and Andrew his brother; James the son of Zebedee, and John his brother;"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Philip and Bartholomew; Thomas and Matthew the tax collector; James the son of Alphaeus, and Thaddaeus;"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Simon the Zealot, and Judas Iscariot, who also handed him over."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "These twelve Jesus sent out with these instructions:"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Do not go off on a road to the Gentiles, and do not enter a town of the Samaritans;"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "but go instead to the lost sheep of the house of Israel."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "As you go, proclaim, ‘The kingdom of the heavens has come near.’"
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Heal the sick, raise the dead, cleanse those with skin disease, drive out demons. You received as a gift; give as a gift."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Do not acquire gold or silver or copper for your belts,"
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "or a bag for the road, or two tunics, or sandals, or a staff; for the worker is worthy of his food."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Whatever town or village you enter, find out who in it is worthy, and stay there until you leave."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "As you enter the house, greet it;"
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "and if the house is worthy, let your peace come upon it; but if it is not worthy, let your peace return to you."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And if anyone does not welcome you or listen to your words, shake the dust off your feet as you leave that house or town."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Truly I tell you, it will be more bearable for the land of Sodom and Gomorrah on the day of judgment than for that town."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Look, I am sending you out like sheep among wolves; so be as shrewd as snakes and as innocent as doves."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Be on your guard against people; for they will hand you over to councils and flog you in their synagogues,"
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "and you will be brought before governors and kings for my sake, as a testimony to them and to the Gentiles."
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But when they hand you over, do not worry about how you are to speak or what you are to say; for what you are to say will be given to you in that hour."
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For it is not you who are speaking, but the Spirit of your Father speaking in you."
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Brother will hand over brother to death, and a father his child; children will rise up against parents and have them put to death."
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "You will be hated by everyone because of my name; but the one who endures to the end will be saved."
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "When they persecute you in one town, flee to the next; for truly I tell you, you will certainly not finish going through the towns of Israel before the Son of Man comes."
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "A disciple is not above the teacher, nor a slave above his master."
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "It is enough for the disciple to become like his teacher, and the slave like his master. If they called the master of the house Beelzebul, how much more the members of his household!"
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "So do not be afraid of them; for there is nothing covered that will not be uncovered, and nothing hidden that will not be made known."
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "What I tell you in the dark, say in the light; and what you hear in your ear, proclaim on the housetops."
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And do not be afraid of those who kill the body but cannot kill the soul; be afraid rather of the one who can destroy both soul and body in Gehenna."
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Are not two sparrows sold for a penny? Yet not one of them will fall to the ground apart from your Father."
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "As for you, even the hairs of your head are all counted."
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "So do not be afraid; you are worth more than many sparrows."
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "So everyone who acknowledges me before people, I too will acknowledge before my Father in the heavens;"
+     }
+    ]
+   },
+   {
+    "verse": 33,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "but whoever denies me before people, I too will deny before my Father in the heavens."
+     }
+    ]
+   },
+   {
+    "verse": 34,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Do not think that I came to bring peace to the earth; I did not come to bring peace but a sword."
+     }
+    ]
+   },
+   {
+    "verse": 35,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For I came to set a man against his father, and a daughter against her mother, and a daughter-in-law against her mother-in-law;"
+     }
+    ]
+   },
+   {
+    "verse": 36,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "and a person’s enemies will be the members of their own household."
+     }
+    ]
+   },
+   {
+    "verse": 37,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Whoever loves father or mother more than me is not worthy of me; and whoever loves son or daughter more than me is not worthy of me;"
+     }
+    ]
+   },
+   {
+    "verse": 38,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "and whoever does not take up their cross and follow after me is not worthy of me."
+     }
+    ]
+   },
+   {
+    "verse": 39,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Whoever finds their life will lose it, and whoever loses their life for my sake will find it."
+     }
+    ]
+   },
+   {
+    "verse": 40,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Whoever welcomes you welcomes me, and whoever welcomes me welcomes the one who sent me."
+     }
+    ]
+   },
+   {
+    "verse": 41,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Whoever welcomes a prophet because he is a prophet will receive a prophet’s reward, and whoever welcomes a righteous person because he is righteous will receive a righteous person’s reward."
+     }
+    ]
+   },
+   {
+    "verse": 42,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And whoever gives one of these little ones even a cup of cold water because he is a disciple—truly I tell you, that person will certainly not lose their reward.”"
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 4,
+    "phrase": "the Zealot",
+    "lemma": "Καναναῖος",
+    "kind": "departure",
+    "traditional": "the Cananaean (KJV: the Canaanite)",
+    "note": "The Greek word transliterates an Aramaic term meaning 'zealous one'; it has nothing to do with Canaan or Cana. Luke's lists of the Twelve give the Greek equivalent, 'Simon the Zealot'. Whether the label marks Simon as a member of a revolutionary movement or simply as a man known for religious zeal is disputed."
+   },
+   {
+    "verse": 4,
+    "phrase": "handed him over",
+    "lemma": "παραδίδωμι",
+    "kind": "departure",
+    "traditional": "betrayed him",
+    "note": "The verb is the ordinary Greek word for handing a person over to an authority, and it is the same verb Jesus uses of the disciples' own fate in verses 17, 19 and 21. Most translations use 'betrayed' when Judas is the subject, which hides that link. The word itself does not say 'treachery', though the act it describes here was one."
+   },
+   {
+    "verse": 5,
+    "phrase": "Gentiles",
+    "lemma": "ἔθνος",
+    "kind": "background",
+    "traditional": "Gentiles",
+    "note": "Greek has a single word that means 'peoples' or 'nations' and, in Jewish usage in the plural, the non-Jewish peoples. This translation renders it 'Gentiles' or 'nations' according to sense, as most translations do. Here and in verse 18 the non-Jewish peoples are meant."
+   },
+   {
+    "verse": 7,
+    "phrase": "The kingdom of the heavens",
+    "lemma": "οὐρανός",
+    "kind": "departure",
+    "traditional": "the kingdom of heaven",
+    "note": "Matthew's Greek is plural, here and in 'my Father in the heavens' (verses 32–33), reflecting a Hebrew and Aramaic way of speaking. Most English translations flatten the plural to 'heaven'. The plural is kept because a first-century hearer would have noticed it."
+   },
+   {
+    "verse": 8,
+    "phrase": "those with skin disease",
+    "lemma": "λεπρός",
+    "kind": "departure",
+    "traditional": "lepers",
+    "note": "The Greek word, like the Hebrew term it translates in the Septuagint, covers a range of scaly skin conditions that made a person ritually unclean; this is why the verb is 'cleanse' rather than 'heal'. It is not limited to, and may not include, the illness now called leprosy (Hansen's disease). Most translations keep 'lepers', often with a footnote saying the same."
+   },
+   {
+    "verse": 12,
+    "phrase": "greet it",
+    "lemma": "ἀσπάζομαι",
+    "kind": "background",
+    "traditional": "salute it",
+    "note": "The customary Jewish greeting on entering a home was a wish of peace ('Peace to this house'). That is why the next verse can speak of 'your peace' coming upon the house or returning to the speaker: the greeting is treated as a real blessing given or withdrawn."
+   },
+   {
+    "verse": 23,
+    "phrase": "before the Son of Man comes",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "till the Son of man be come",
+    "note": "The wording echoes Daniel 7:13, where one 'like a son of man' comes with the clouds of heaven. What 'coming' is meant here is one of the most disputed questions in the Gospel: proposals include Jesus' resurrection and exaltation, the destruction of Jerusalem in AD 70, and his final return. The Greek does not settle the question."
+   },
+   {
+    "verse": 24,
+    "phrase": "slave",
+    "lemma": "δοῦλος",
+    "kind": "departure",
+    "traditional": "servant",
+    "note": "The Greek word means a person owned by a master, not a hired employee, and the saying depends on that relationship. Older English translations used 'servant'; several recent ones use 'slave'. The word translated 'master' is the same word elsewhere rendered 'lord'."
+   },
+   {
+    "verse": 25,
+    "phrase": "Beelzebul",
+    "lemma": "Βεελζεβούλ",
+    "kind": "background",
+    "traditional": "Beelzebub",
+    "note": "A name for the ruler of the demons (see Matthew 12:24), which Jesus' opponents applied to him. Its origin is uncertain; it is probably related to a title of the Canaanite god Baal, and some think it could be heard as 'lord of the dwelling', which would give added point to 'master of the house'. The spelling 'Beelzebub' in older English Bibles comes from the Latin tradition, influenced by 2 Kings 1:2."
+   },
+   {
+    "verse": 28,
+    "phrase": "Gehenna",
+    "lemma": "γέεννα",
+    "kind": "departure",
+    "traditional": "hell",
+    "note": "Gehenna is a place name: the Valley of Hinnom outside Jerusalem, which by Jesus' time had become the standard Jewish image for the place of final judgment. Many translations render it 'hell', usually with a footnote giving the name. The name is kept because 'hell' merges it with Hades, a different word, and with much later imagery."
+   },
+   {
+    "verse": 39,
+    "phrase": "their life",
+    "lemma": "ψυχή",
+    "kind": "ambiguity",
+    "traditional": "his life",
+    "note": "The Greek word is the same one rendered 'soul' in verse 28. It covers a person's life, self and inner being, and English has no single word for that range. 'Soul' is used in verse 28, where it is set against the body, and 'life' here, where the contrast is between saving and losing oneself; the reader should hear the two verses together."
+   },
+   {
+    "verse": 41,
+    "phrase": "because he is a prophet",
+    "lemma": "ὄνομα",
+    "kind": "departure",
+    "traditional": "in the name of a prophet",
+    "note": "The Greek says literally 'into the name of a prophet', a Semitic idiom meaning 'on the ground that he is a prophet'. The traditional literal rendering is obscure in English, and most modern translations paraphrase it in a similar way. The same idiom lies behind 'because he is righteous' here and 'because he is a disciple' in verse 42."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "δοῦλος",
+    "rendering": "slave",
+    "verse": 24,
+    "reason": "It is very frequent across the New Testament, and translations split between 'slave', 'servant' and 'bondservant', so an unregistered choice will vary from chapter to chapter."
+   },
+   {
+    "lemma": "ψυχή",
+    "rendering": "soul / life",
+    "verse": 28,
+    "reason": "One Greek word is split between 'soul' and 'life' (both in this chapter), and the rule for the split needs to be fixed once for parallel sayings across the Gospels and letters."
+   },
+   {
+    "lemma": "παραδίδωμι",
+    "rendering": "hand over",
+    "verse": 4,
+    "reason": "Whether Judas 'betrays' or 'hands over' Jesus, and whether the link with the other uses of the verb is kept, needs one decision for the Gospels, Acts and Paul."
+   },
+   {
+    "lemma": "λεπρός",
+    "rendering": "those with skin disease",
+    "verse": 8,
+    "reason": "'Leper' and 'leprosy' mislead modern readers but are deeply traditional, and the word recurs across the Synoptic Gospels, so the choice must be uniform."
+   },
+   {
+    "lemma": "πόλις",
+    "rendering": "town",
+    "verse": 5,
+    "reason": "Translators waver between 'city' and 'town' for the same places, and readers will see parallel passages disagree unless a rule is set."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

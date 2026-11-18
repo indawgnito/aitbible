@@ -1,0 +1,885 @@
+{
+  "version": "0.3-draft",
+  "status_note": "First draft written by the model from general knowledge. No entry has been checked against a lexicon (verified=false throughout). 'contested' means scholars genuinely disagree and the default is an editorial choice that needs a human decision.",
+  "stance": "Render what a competent first-century reader of Koine Greek would have understood, judged by usage in the period (including the Septuagint), not by a word's origin. Depart from the traditional English word only where it now misleads; where the traditional word is still the best one, keep it.",
+  "entries": [
+    {
+      "id": "dikaiosyne",
+      "lemma": "δικαιοσύνη",
+      "also": [
+        "δίκαιος",
+        "δικαιόω",
+        "δικαίωσις",
+        "δικαίωμα",
+        "δικαίως"
+      ],
+      "sense": "being in the right, doing what is right; God's saving action that sets things right",
+      "default": "righteousness",
+      "alternates": [
+        {
+          "rendering": "justice",
+          "when": "Where fair judging or ruling is meant (e.g. Acts 17:31; Hebrews 11:33; Revelation 19:11)."
+        }
+      ],
+      "family": {
+        "δίκαιος": "righteous / just / innocent",
+        "δικαιόω": "justify / vindicate",
+        "δικαίωσις": "justification",
+        "δικαίωμα": "righteous requirement / righteous act",
+        "δικαίως": "justly / rightly"
+      },
+      "traditional": "righteousness, righteous, justify",
+      "status": "contested",
+      "rationale": "'Righteousness' is kept because the alternative misleads more: 'the justice of God' suggests to a modern reader God's punishing justice, where Paul means God's action to put things right. The note at first occurrence tells the reader that Greek has one word-family where English has two (righteous/just, righteousness/justice, justify).",
+      "standard_view": "Same as the default. Translations from Latin and most other languages use their single word for 'justice' throughout, and some scholars prefer 'justice' or 'covenant faithfulness' in English.",
+      "watch": [
+        "uprightness",
+        "made just",
+        "set right",
+        "covenant faithfulness"
+      ],
+      "verified": false,
+      "history": "The 2025 prompt mandated 'justice' everywhere, arguing from Plato's usage; reversed in 0.2 on the merits.",
+      "role": "active"
+    },
+    {
+      "id": "hypokrites",
+      "lemma": "ὑποκριτής",
+      "also": [
+        "ὑπόκρισις",
+        "ὑποκρίνομαι"
+      ],
+      "sense": "one whose piety is a show; a pretender",
+      "default": "hypocrites",
+      "alternates": [
+        {
+          "rendering": "performers",
+          "when": "Where the passage itself is about doing religion to be seen by an audience (Matthew 6:2, 6:5, 6:16)."
+        }
+      ],
+      "traditional": "hypocrites",
+      "status": "contested",
+      "rationale": "In Matthew 6 the theatrical image is alive in the context (trumpets, street corners, being seen), so 'performers' is defensible there. Elsewhere the charge is pretense or inconsistency, which 'hypocrite' still says well.",
+      "standard_view": "The word did originally mean a stage actor, but in Jewish Greek before the New Testament (Septuagint, e.g. Job) it already meant a godless or insincere person. Arguing from the stage origin everywhere is an argument from etymology.",
+      "watch": [
+        "performer",
+        "actor",
+        "pretender"
+      ],
+      "verified": false,
+      "history": "The previous draft used 'performers' in all 17 places.",
+      "family": {
+        "ὑπόκρισις": "pretense / hypocrisy",
+        "ὑποκρίνομαι": "pretend"
+      },
+      "role": "active"
+    },
+    {
+      "id": "logos-prologue",
+      "lemma": "λόγος",
+      "also": [],
+      "sense": "the personal, pre-existent Word (John 1:1, 1:14; Revelation 19:13; 1 John 1:1)",
+      "default": "Logos",
+      "alternates": [],
+      "traditional": "Word",
+      "status": "contested",
+      "rationale": "Kept as a loanword under the three-part test: it is a title, it occurs in four verses, and the English candidate actively misleads. In current usage 'the Word' commonly means the Bible, so 'the Word was God' gives many readers a false meaning, and 'word' alone conveys nothing of what a Greek-speaking reader heard (reason, the ordering principle of the world) or of God's creating speech in Genesis 1. A note is required at John 1:1 covering both backgrounds.",
+      "standard_view": "Nearly all translations use 'Word'. Most scholars see John's main background as the Hebrew Bible's 'word of the Lord' and Wisdom traditions, which 'Word' reflects and 'Logos' does not; the note must say so.",
+      "watch": [
+        "word",
+        "message"
+      ],
+      "verified": false,
+      "scope": [
+        "john 1",
+        "1john 1",
+        "revelation 19"
+      ],
+      "history": "The 2025 draft used 'Logos' because the prompt told it to. Version 0.2 briefly reversed it to 'Word'; restored the same day on the argument that 'Word' misinforms modern readers, which is the register's own test for a departure.",
+      "role": "active"
+    },
+    {
+      "id": "praus",
+      "lemma": "πραΰς",
+      "also": [
+        "πραΰτης"
+      ],
+      "sense": "gentle, humble, not self-assertive",
+      "default": "gentle",
+      "alternates": [],
+      "traditional": "meek",
+      "status": "contested",
+      "rationale": "'Meek' now suggests weakness, which the Greek does not. 'Gentle' is accurate and plain. Matthew 5:5 echoes Psalm 37:11 (Septuagint 36:11), where the word renders the Hebrew for the humble poor.",
+      "standard_view": "That illustration is widespread in sermons, but I do not know of lexical evidence that it defines the word; it needs checking before it is used. 'Gentle' or 'humble' is the mainstream modern rendering.",
+      "watch": [
+        "gentle in",
+        "meek",
+        "humble"
+      ],
+      "verified": false,
+      "history": "The previous draft used 'gentle in their strength', resting on the claim that the word described a trained war horse.",
+      "family": {
+        "πραΰτης": "gentleness"
+      },
+      "role": "active"
+    },
+    {
+      "id": "ekklesia",
+      "lemma": "ἐκκλησία",
+      "also": [],
+      "sense": "the gathered community of believers, local or as a whole",
+      "default": "assembly",
+      "alternates": [
+        {
+          "rendering": "assembly",
+          "when": "Also for the civic assembly in Acts 19 and Israel's assembly in Acts 7:38 and Hebrews 2:12; the same word is deliberate."
+        }
+      ],
+      "traditional": "church",
+      "status": "contested",
+      "rationale": "A first-century hearer knew the word as a civic gathering and as the Septuagint's term for Israel assembled. 'Church' now means a building or an institution. One English word everywhere shows the reader it is one Greek word.",
+      "standard_view": "'Church' is near-universal and readers know what it refers to. 'Assembly' can sound like a one-off meeting.",
+      "watch": [
+        "ekklesia",
+        "church",
+        "congregation",
+        "community",
+        "gathering"
+      ],
+      "verified": false,
+      "history": "The previous draft mixed assembly (53), ekklesia (23) and church (18).",
+      "role": "active"
+    },
+    {
+      "id": "diabolos",
+      "lemma": "διάβολος",
+      "also": [],
+      "sense": "the devil, as a title for Satan",
+      "default": "the devil",
+      "alternates": [
+        {
+          "rendering": "slanderers / slanderous",
+          "when": "Where it is an adjective describing people (1 Timothy 3:11; 2 Timothy 3:3; Titus 2:3)."
+        }
+      ],
+      "traditional": "the devil",
+      "status": "settled",
+      "rationale": "With the article it functions as a name, and 'the devil' is itself the Greek word carried into English. The literal sense 'slanderer' belongs in the note, not the text.",
+      "standard_view": "Same as the default.",
+      "watch": [
+        "slanderer",
+        "accuser"
+      ],
+      "verified": false,
+      "history": "The previous draft split between slanderer, devil and accuser.",
+      "role": "watch"
+    },
+    {
+      "id": "metanoia",
+      "lemma": "μετανοέω",
+      "also": [
+        "μετάνοια"
+      ],
+      "sense": "to turn around in mind and conduct, toward God",
+      "default": "turn back",
+      "alternates": [],
+      "traditional": "repent, repentance",
+      "status": "contested",
+      "rationale": "'Repent' now centres on feeling sorry. In the Gospels the word carries the prophets' call to 'return' to God, a change of direction. 'Change your mind' is too thin and too mental.",
+      "standard_view": "Most translations keep 'repent' as an established term that readers understand as including a change of life.",
+      "watch": [
+        "repent",
+        "change your",
+        "change of",
+        "changed their",
+        "turn"
+      ],
+      "verified": false,
+      "history": "The previous draft used change, turn and repent interchangeably.",
+      "options": [
+        {
+          "rendering": "repent / repentance",
+          "when": "Reader's choice if the project keeps the traditional word; do not mix within one run."
+        }
+      ],
+      "family": {
+        "μετάνοια": "turning back"
+      },
+      "role": "active"
+    },
+    {
+      "id": "christos",
+      "lemma": "Χριστός",
+      "also": [],
+      "sense": "the anointed king Israel expected; in the letters, close to a name for Jesus",
+      "default": "Christ",
+      "alternates": [
+        {
+          "rendering": "Messiah",
+          "when": "Gospels and Acts, where it is a title under discussion ('Are you the Messiah?', 'the Messiah must suffer'), normally with the article and not attached to 'Jesus'."
+        }
+      ],
+      "traditional": "Christ",
+      "status": "settled",
+      "rationale": "A first-century Jewish hearer heard a title, which 'Messiah' conveys where the title is the point. In 'Jesus Christ' and throughout the letters it works as a name and 'Christ' is kept. 'Anointed' is not used in the text.",
+      "standard_view": "Several modern translations make the same split (Messiah as title in the Gospels, Christ elsewhere).",
+      "watch": [
+        "messiah",
+        "anointed"
+      ],
+      "verified": false,
+      "role": "active"
+    },
+    {
+      "id": "ioudaios",
+      "lemma": "Ἰουδαῖος",
+      "also": [],
+      "sense": "member of the Jewish people; in places, specifically people of Judea or the Jerusalem leadership",
+      "default": "Jews",
+      "alternates": [
+        {
+          "rendering": "Judeans",
+          "when": "Where the contrast is geographic: Judea as against Galilee or Samaria (e.g. John 7:1, 11:7-8)."
+        },
+        {
+          "rendering": "the Jewish leaders",
+          "when": "In John, where the group in view is clearly the authorities in Jerusalem and not the people as a whole (e.g. John 5:10-18, 9:22, 18-19)."
+        }
+      ],
+      "traditional": "Jews",
+      "status": "contested",
+      "rationale": "The word names a people with a religion and a homeland; no single English word covers it. Using 'Jews' by default keeps the plain meaning; the two alternates mark the places where John's usage is narrower, which matters because a blanket 'the Jews' as Jesus's opponents has a long history of harm.",
+      "standard_view": "Scholars are divided. Some argue for 'Judeans' throughout as the ancient ethnic-geographic sense; others object that this erases Jews from the New Testament.",
+      "watch": [
+        "judean",
+        "jewish"
+      ],
+      "verified": false,
+      "history": "The previous draft used 'Judeans' almost throughout John and 'Jews' almost everywhere else.",
+      "role": "active"
+    },
+    {
+      "id": "gehenna",
+      "lemma": "γέεννα",
+      "also": [],
+      "sense": "the Valley of Hinnom as the place of final judgment",
+      "default": "Gehenna",
+      "alternates": [],
+      "traditional": "hell",
+      "status": "settled",
+      "rationale": "It is a place name. 'Hell' merges it with Hades and with later imagery. Several modern translations keep the name.",
+      "standard_view": "Many translations still use 'hell', usually with a footnote giving Gehenna.",
+      "watch": [
+        "hell"
+      ],
+      "verified": false,
+      "role": "active"
+    },
+    {
+      "id": "hades",
+      "lemma": "ᾅδης",
+      "also": [],
+      "sense": "the realm of the dead",
+      "default": "Hades",
+      "alternates": [],
+      "traditional": "hell (KJV); Hades (most modern)",
+      "status": "settled",
+      "rationale": "Keeps the realm of the dead distinct from Gehenna. This is already the mainstream modern rendering.",
+      "standard_view": "Same as the default.",
+      "watch": [
+        "hell",
+        "grave"
+      ],
+      "verified": false,
+      "role": "active"
+    },
+    {
+      "id": "aionios",
+      "lemma": "αἰώνιος",
+      "also": [],
+      "sense": "belonging to the age to come; lasting, unending",
+      "default": "eternal",
+      "alternates": [
+        {
+          "rendering": "long ages",
+          "when": "With χρόνος in the plural (Romans 16:25; 2 Timothy 1:9; Titus 1:2)."
+        }
+      ],
+      "traditional": "eternal, everlasting",
+      "status": "contested",
+      "rationale": "The word comes from 'age' and in Jewish usage 'eternal life' is the life of the coming age, a matter of kind as well as length. 'Eternal' is kept as the default because it is accurate about duration and readable; the note carries the 'age to come' sense.",
+      "standard_view": "'Eternal' is standard. A minority of translators render 'of the age (to come)' throughout.",
+      "watch": [
+        "everlasting",
+        "age to come",
+        "of the age",
+        "age-long"
+      ],
+      "verified": false,
+      "history": "The previous draft used eternal (48) and age-based phrases (18) without a rule.",
+      "options": [
+        {
+          "rendering": "the life of the age to come",
+          "when": "Optional stance choice for ζωὴ αἰώνιος; if chosen, use it for every occurrence of that phrase."
+        }
+      ],
+      "role": "active"
+    },
+    {
+      "id": "doulos",
+      "lemma": "δοῦλος",
+      "also": [
+        "δούλη",
+        "σύνδουλος",
+        "δουλεύω",
+        "δουλόω",
+        "δουλεία"
+      ],
+      "sense": "a person owned by another",
+      "default": "slave",
+      "alternates": [],
+      "family": {
+        "σύνδουλος": "fellow slave",
+        "δουλεύω": "serve as a slave / be enslaved to",
+        "δουλεία": "slavery"
+      },
+      "traditional": "servant",
+      "status": "settled",
+      "rationale": "The word meant a slave, and hearers knew it. 'Servant' softens it and blurs the difference from διάκονος and παῖς.",
+      "standard_view": "Several modern translations now use 'slave'; others keep 'servant' or 'bondservant' to avoid association with race-based chattel slavery.",
+      "watch": [
+        "servant",
+        "bondservant",
+        "bond-servant"
+      ],
+      "verified": false,
+      "role": "watch"
+    },
+    {
+      "id": "diakonos",
+      "lemma": "διάκονος",
+      "also": [],
+      "sense": "one who serves or carries out a task for another",
+      "default": "servant",
+      "alternates": [
+        {
+          "rendering": "deacon",
+          "when": "Where it names a recognised role in an assembly (Philippians 1:1; 1 Timothy 3:8, 3:12; arguably Romans 16:1)."
+        }
+      ],
+      "traditional": "minister, servant, deacon",
+      "status": "settled",
+      "rationale": "Kept distinct from δοῦλος (slave) so the two never share an English word.",
+      "standard_view": "Whether Romans 16:1 is 'deacon' or 'servant' is disputed.",
+      "watch": [
+        "minister",
+        "slave"
+      ],
+      "verified": false,
+      "role": "active"
+    },
+    {
+      "id": "pistis",
+      "lemma": "πίστις",
+      "also": [
+        "πιστεύω",
+        "πιστός"
+      ],
+      "sense": "trust, faith; also faithfulness, reliability",
+      "default": "faith",
+      "alternates": [
+        {
+          "rendering": "faithfulness",
+          "when": "Where the quality of being reliable is meant (e.g. Romans 3:3 of God; Galatians 5:22; Matthew 23:23)."
+        },
+        {
+          "rendering": "faith in Jesus Christ",
+          "when": "For the phrase πίστις (Ἰησοῦ) Χριστοῦ (Romans 3:22, 3:26; Galatians 2:16, 2:20, 3:22; Philippians 3:9). The alternative 'the faithfulness of Jesus Christ' goes in the note, every time."
+        }
+      ],
+      "family": {
+        "πιστεύω": "believe / trust",
+        "πιστός": "faithful / believing"
+      },
+      "traditional": "faith, believe",
+      "status": "contested",
+      "rationale": "'Faith' with 'faithfulness' where reliability is meant covers the range. For the disputed phrase the grammar allows both readings; the default follows the majority reading and the note always states the other.",
+      "standard_view": "'Faith in Christ' is the traditional and still majority reading; 'faithfulness of Christ' has substantial scholarly support.",
+      "watch": [
+        "trust",
+        "allegiance",
+        "loyalty",
+        "faithfulness of"
+      ],
+      "verified": false,
+      "history": "The previous draft chose 'faithfulness of Jesus Christ' in Romans 3 without flagging that it was a choice.",
+      "role": "active"
+    },
+    {
+      "id": "euangelion",
+      "lemma": "εὐαγγέλιον",
+      "also": [
+        "εὐαγγελίζω"
+      ],
+      "sense": "the announcement of good news",
+      "default": "good news",
+      "alternates": [],
+      "family": {
+        "εὐαγγελίζω": "good news"
+      },
+      "traditional": "gospel",
+      "status": "settled",
+      "rationale": "'Gospel' is now a religious term or a book title. The Greek was an ordinary word for a public announcement of good news, also used of imperial proclamations.",
+      "standard_view": "Many modern translations already alternate between 'good news' and 'gospel'.",
+      "watch": [
+        "gospel",
+        "glad tidings",
+        "proclamation"
+      ],
+      "verified": false,
+      "role": "watch"
+    },
+    {
+      "id": "sarx",
+      "lemma": "σάρξ",
+      "also": [
+        "σαρκικός",
+        "σάρκινος"
+      ],
+      "sense": "flesh: the body, human nature, and in Paul human nature as opposed to God's Spirit",
+      "default": "flesh",
+      "alternates": [
+        {
+          "rendering": "human being / humanity",
+          "when": "In the idiom 'all flesh' / 'no flesh' (πᾶσα σάρξ) meaning everyone or no one."
+        }
+      ],
+      "traditional": "flesh",
+      "status": "settled",
+      "rationale": "Paul uses one word across its senses on purpose, and the reader should be able to see that. Interpretive substitutes ('sinful nature') decide the question for the reader. The loanword 'sarx' is not used.",
+      "standard_view": "Formal translations keep 'flesh'; some dynamic ones use 'sinful nature' or similar.",
+      "watch": [
+        "sarx",
+        "sinful nature",
+        "human nature",
+        "mortal"
+      ],
+      "verified": false,
+      "family": {
+        "σαρκικός": "fleshly / of the flesh",
+        "σάρκινος": "made of flesh / fleshly"
+      },
+      "role": "watch"
+    },
+    {
+      "id": "pneuma",
+      "lemma": "πνεῦμα",
+      "also": [],
+      "sense": "spirit; the Spirit of God",
+      "default": "spirit / Spirit",
+      "alternates": [
+        {
+          "rendering": "wind / breath",
+          "when": "Only where the physical sense is required (John 3:8a; 2 Thessalonians 2:8; Hebrews 1:7)."
+        }
+      ],
+      "traditional": "spirit, Spirit, ghost",
+      "status": "settled",
+      "rationale": "No English word joins breath, wind and spirit, so wordplay is explained in a note.",
+      "standard_view": "Same as the default.",
+      "watch": [
+        "pneuma",
+        "ghost"
+      ],
+      "verified": false,
+      "history": "The loanword 'pneuma' is not used in the text; the previous draft used it in 14 verses.",
+      "role": "watch"
+    },
+    {
+      "id": "makarios",
+      "lemma": "μακάριος",
+      "also": [],
+      "sense": "in an enviable, favoured state",
+      "default": "blessed",
+      "alternates": [],
+      "traditional": "blessed",
+      "status": "contested",
+      "rationale": "'Blessed' still carries the sense of divine favour that the beatitude form has in the Septuagint Psalms. 'Happy' is too much about mood and 'flourishing' is a modern philosophical gloss.",
+      "standard_view": "'Blessed' is standard; 'happy', 'fortunate' and 'flourishing' each have advocates.",
+      "watch": [
+        "happy",
+        "fortunate",
+        "flourish",
+        "favored"
+      ],
+      "verified": false,
+      "history": "The previous draft mostly used 'blessed' with scattered 'flourishing' and 'fortunate'.",
+      "role": "active"
+    },
+    {
+      "id": "haplous",
+      "lemma": "ἁπλοῦς",
+      "also": [],
+      "sense": "single, sound; in the 'good eye' idiom, generous (Matthew 6:22; Luke 11:34)",
+      "default": "generous",
+      "alternates": [],
+      "traditional": "single (KJV); healthy, sound (modern)",
+      "status": "contested",
+      "rationale": "In Matthew the saying sits between treasure in heaven and serving Mammon, and the 'evil eye' that follows is a known Jewish idiom for stinginess, so 'generous' fits the context.",
+      "standard_view": "Most translations use 'healthy' or 'sound', keeping the physical image of the eye, and mention generosity in a footnote. The physical image is lost with 'generous'.",
+      "watch": [
+        "clear",
+        "healthy",
+        "sound",
+        "single"
+      ],
+      "verified": false,
+      "history": "This is the homepage example; the previous draft's served text said 'clear'.",
+      "role": "active"
+    },
+    {
+      "id": "parousia",
+      "lemma": "παρουσία",
+      "also": [],
+      "sense": "arrival and presence, especially the arrival of a ruler",
+      "default": "coming",
+      "alternates": [
+        {
+          "rendering": "arrival / presence",
+          "when": "Of ordinary people (1 Corinthians 16:17; 2 Corinthians 7:6-7, 10:10; Philippians 1:26, 2:12)."
+        }
+      ],
+      "traditional": "coming",
+      "status": "settled",
+      "rationale": "'Coming' is accurate and plain. The royal-visit sense belongs in the note. The loanword 'Parousia' is not used in the text.",
+      "standard_view": "Same as the default.",
+      "watch": [
+        "parousia",
+        "arrival",
+        "presence"
+      ],
+      "verified": false,
+      "role": "active"
+    },
+    {
+      "id": "kosmos",
+      "lemma": "κόσμος",
+      "also": [],
+      "sense": "the world: creation, humanity, or human society organised apart from God",
+      "default": "world",
+      "alternates": [
+        {
+          "rendering": "adornment",
+          "when": "1 Peter 3:3 only."
+        }
+      ],
+      "traditional": "world",
+      "status": "settled",
+      "rationale": "John and Paul shift between senses of one word, and the reader should see the same word.",
+      "standard_view": "Same as the default.",
+      "watch": [
+        "world-system",
+        "world order",
+        "cosmos",
+        "universe"
+      ],
+      "verified": false,
+      "history": "Glosses such as 'world-system', which the previous draft used in places, are interpretation and belong in notes.",
+      "role": "watch"
+    },
+    {
+      "id": "basileia",
+      "lemma": "βασιλεία",
+      "also": [],
+      "sense": "kingship, reign; the realm ruled",
+      "default": "kingdom",
+      "alternates": [
+        {
+          "rendering": "kingdom of the heavens",
+          "when": "Matthew's βασιλεία τῶν οὐρανῶν, always, keeping his plural."
+        }
+      ],
+      "traditional": "kingdom",
+      "status": "settled",
+      "rationale": "The Greek leans toward the activity of reigning more than a territory, which a note can say once; 'kingdom' is kept so the phrase stays recognisable and consistent.",
+      "standard_view": "Same as the default; some render 'reign' or 'rule'.",
+      "watch": [
+        "reign",
+        "empire",
+        "kingship"
+      ],
+      "verified": false,
+      "role": "watch"
+    },
+    {
+      "id": "monogenes",
+      "lemma": "μονογενής",
+      "also": [],
+      "sense": "only one of its kind; an only child",
+      "default": "one and only",
+      "alternates": [
+        {
+          "rendering": "only",
+          "when": "Of an ordinary only child (Luke 7:12, 8:42, 9:38)."
+        }
+      ],
+      "traditional": "only begotten",
+      "status": "settled",
+      "rationale": "The second half of the word comes from 'kind', not 'beget'. 'One and only' is the mainstream modern rendering.",
+      "standard_view": "A minority of scholars have recently defended 'only begotten'.",
+      "watch": [
+        "unique",
+        "only begotten",
+        "one-of-a-kind"
+      ],
+      "verified": false,
+      "role": "active"
+    },
+    {
+      "id": "hilasterion",
+      "lemma": "ἱλαστήριον",
+      "also": [
+        "ἱλασμός",
+        "ἱλάσκομαι"
+      ],
+      "sense": "the cover of the ark where atonement was made; a means of atonement",
+      "default": "place of atonement",
+      "alternates": [],
+      "traditional": "propitiation; mercy seat (Hebrews 9:5)",
+      "status": "contested",
+      "rationale": "In the Septuagint the word is the name of the ark's cover, which is how Hebrews 9:5 uses it; using the same phrase in Romans 3:25 lets the reader see the allusion.",
+      "standard_view": "Whether Romans 3:25 means 'mercy seat', 'propitiation' (turning away wrath) or 'expiation' (removing sin) is a long-running dispute.",
+      "watch": [
+        "propitiation",
+        "expiation",
+        "mercy seat",
+        "sacrifice of atonement"
+      ],
+      "verified": false,
+      "family": {
+        "ἱλασμός": "atoning sacrifice",
+        "ἱλάσκομαι": "make atonement / be merciful"
+      },
+      "role": "active"
+    },
+    {
+      "id": "epiousios",
+      "lemma": "ἐπιούσιος",
+      "also": [],
+      "sense": "uncertain: 'for the coming day', 'necessary for existence', or 'for today'",
+      "default": "daily",
+      "alternates": [],
+      "traditional": "daily",
+      "status": "contested",
+      "rationale": "The word is almost unknown outside the Lord's Prayer and its meaning is genuinely uncertain. With no secure alternative, the traditional word stays and the note says plainly that the meaning is unknown and lists the options.",
+      "standard_view": "'Daily' is traditional; 'for tomorrow' and 'that we need' appear in footnotes of most translations.",
+      "watch": [
+        "we need",
+        "tomorrow",
+        "necessary"
+      ],
+      "verified": false,
+      "role": "active"
+    },
+    {
+      "id": "parakletos",
+      "lemma": "παράκλητος",
+      "also": [],
+      "sense": "one called alongside to help, especially an advocate",
+      "default": "Advocate",
+      "alternates": [],
+      "traditional": "Comforter",
+      "status": "settled",
+      "rationale": "Outside the New Testament the word is used of someone who speaks on another's behalf, and 1 John 2:1 clearly uses it that way. The loanword 'Paraclete' is not used.",
+      "standard_view": "'Advocate', 'Helper' and 'Counselor' are all in current use.",
+      "watch": [
+        "paraclete",
+        "helper",
+        "comforter",
+        "counselor"
+      ],
+      "verified": false,
+      "role": "active"
+    },
+    {
+      "id": "porneia",
+      "lemma": "πορνεία",
+      "also": [
+        "πορνεύω",
+        "πόρνος"
+      ],
+      "sense": "sexual relations outside what the law permits",
+      "default": "sexual immorality",
+      "alternates": [
+        {
+          "rendering": "prostitution",
+          "when": "In Revelation's image of the prostitute (Revelation 17-19), where the commercial sense is the picture."
+        }
+      ],
+      "traditional": "fornication",
+      "status": "settled",
+      "rationale": "A broad term; 'fornication' is obsolete and narrower.",
+      "standard_view": "Same as the default.",
+      "watch": [
+        "fornication",
+        "unchastity",
+        "porneia"
+      ],
+      "verified": false,
+      "family": {
+        "πορνεύω": "commit sexual immorality",
+        "πόρνος": "sexually immoral"
+      },
+      "role": "watch"
+    },
+    {
+      "id": "ouranos",
+      "lemma": "οὐρανός",
+      "also": [],
+      "sense": "the sky; the dwelling of God",
+      "default": "heaven",
+      "alternates": [
+        {
+          "rendering": "the heavens",
+          "when": "Where the Greek is plural and the reference is to God's dwelling, including Matthew's 'kingdom of the heavens' and 'Father in the heavens'."
+        },
+        {
+          "rendering": "sky",
+          "when": "Where the visible sky is meant (birds, weather, stars)."
+        }
+      ],
+      "traditional": "heaven",
+      "status": "settled",
+      "rationale": "Keeping the plural where the Greek has it preserves a Semitic turn of phrase that a first-century hearer would have noticed.",
+      "standard_view": "Most translations flatten the plural to 'heaven'.",
+      "watch": [],
+      "verified": false,
+      "role": "active"
+    },
+    {
+      "id": "apecho-receipt",
+      "lemma": "ἀπέχω",
+      "also": [],
+      "sense": "to have received in full (the wording of a receipt), in Matthew 6:2, 6:5, 6:16 and Luke 6:24",
+      "default": "paid in full",
+      "alternates": [
+        {
+          "rendering": "be far from / abstain from",
+          "when": "The word's other, unrelated uses (distance; abstaining), translated by context."
+        }
+      ],
+      "traditional": "have their reward",
+      "status": "settled",
+      "rationale": "The verb is the standard term on surviving receipts from the period, so hearers would have caught the commercial tone.",
+      "standard_view": "Modern translations commonly render 'have received their reward in full'.",
+      "watch": [
+        "received their reward"
+      ],
+      "verified": false,
+      "scope": [
+        "matthew 6",
+        "luke 6"
+      ],
+      "role": "active"
+    },
+    {
+      "id": "adelphos",
+      "lemma": "ἀδελφός",
+      "also": [
+        "ἀδελφή"
+      ],
+      "sense": "sibling; in the plural, fellow members of the community",
+      "default": "brothers and sisters",
+      "alternates": [
+        {
+          "rendering": "brothers",
+          "when": "Where the group is literally male siblings (James and John; Jesus's brothers) or the context shows only men are meant."
+        },
+        {
+          "rendering": "brother",
+          "when": "The singular, of one man, whether a literal brother or a fellow believer."
+        },
+        {
+          "rendering": "brother or sister",
+          "when": "The generic singular in rules about how members treat one another (e.g. Matthew 18:15; Romans 14:10; 1 John 2:9-11)."
+        }
+      ],
+      "family": {
+        "ἀδελφή": "sister"
+      },
+      "traditional": "brothers, brethren",
+      "status": "contested",
+      "rationale": "In Greek the masculine plural was the ordinary way to address a mixed group of siblings, so the first hearers in a mixed assembly understood the women to be included. English 'brothers' now reads as men only.",
+      "standard_view": "Several modern translations use 'brothers and sisters'; more formal ones keep 'brothers' with a footnote saying the word can include women.",
+      "watch": [
+        "brethren",
+        "siblings",
+        "believers",
+        "friends"
+      ],
+      "verified": false,
+      "role": "watch"
+    },
+    {
+      "id": "hagioi",
+      "lemma": "ἅγιος",
+      "also": [],
+      "role": "active",
+      "sense": "used as a noun in the plural for the members of the community (οἱ ἅγιοι)",
+      "default": "holy ones",
+      "alternates": [
+        {
+          "rendering": "holy",
+          "when": "Every other use: the ordinary adjective (Holy Spirit, holy city, holy place) is translated normally."
+        }
+      ],
+      "traditional": "saints",
+      "status": "settled",
+      "rationale": "'Saints' now suggests canonised individuals or people of exceptional virtue. The word is used of all believers as people set apart for God, echoing the Septuagint's language for Israel.",
+      "standard_view": "Many translations keep 'saints'; others use 'God's people' or 'his holy people'.",
+      "watch": [
+        "saints",
+        "holy people",
+        "god's people"
+      ],
+      "verified": false,
+      "history": "Added in 0.3: the pilot rendered it 'holy ones' in Philemon and 'holy people' elsewhere, surfaced by the candidates list."
+    },
+    {
+      "id": "ethnos",
+      "lemma": "ἔθνος",
+      "also": [],
+      "role": "active",
+      "sense": "a people or nation; in the plural, the non-Jewish peoples",
+      "default": "Gentiles",
+      "alternates": [
+        {
+          "rendering": "nation / nations",
+          "when": "Where a people or peoples as political or ethnic units are meant, including Israel itself, and in 'all the nations' where the scope is the whole world (e.g. Matthew 24:14, 28:19; Revelation)."
+        }
+      ],
+      "traditional": "Gentiles, nations, heathen",
+      "status": "settled",
+      "rationale": "One Greek word covers both; the split by sense is the standard practice. The entry exists because the pilot chapters wavered, and the note at first occurrence should tell the reader it is one word.",
+      "standard_view": "Same as the default.",
+      "watch": [
+        "pagans",
+        "heathen",
+        "peoples",
+        "foreigners"
+      ],
+      "verified": false,
+      "history": "Added in 0.3 from the candidates list (nominated in five pilot chapters)."
+    }
+  ],
+  "field_notes": {
+    "history": "What the December 2025 / January 2026 draft did. For maintainers; never sent to the model.",
+    "scope": "If present, the entry governs only these chapters.",
+    "watch": "Other renderings the audit counts, to expose drift.",
+    "verified": "True once a human has checked the entry against a lexicon.",
+    "options": "Alternative project-wide choices a human could switch to. Never sent to the model and never accepted by the validator.",
+    "family": "Renderings for related lemmas; sent to the model and checked by the validator and audit.",
+    "role": "'active': sent to the model, because it changes what the model would do or settles a word it wavers on. 'watch': not sent; the model already renders it this way unaided, so the entry only tells the audit what to count. Promote a watch entry to active if a run shows drift. An entry is only demoted to watch on evidence: at least five unaided occurrences in a register-off run, all matching."
+  },
+  "loanword_test": "A Greek term is left untranslated only if all three hold: it functions as a title or proper name; every English candidate actively misleads a modern reader, rather than merely falling short; and it occurs in few enough places that the text stays English. Logos (John 1), Gehenna and Hades pass. Ordinary vocabulary such as pneuma and sarx does not."
+}

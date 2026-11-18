@@ -1,0 +1,307 @@
+{
+ "id": "1timothy-004",
+ "book": "1timothy",
+ "chapter": 4,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZsognFV3GAb6zAsh",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 6149,
+  "output_tokens": 9114
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now the Spirit says explicitly that in later times some will turn away from the faith, devoting themselves to deceiving spirits and teachings of demons\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"through the hypocrisy of liars whose own conscience has been seared,\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"who forbid marriage and demand abstinence from foods that God created to be received with thanksgiving by those who believe and have come to know the truth.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For everything created by God is good, and nothing is to be rejected when it is received with thanksgiving,\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"for it is made holy through God’s word and prayer.\"}]},{\"verse\":6,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"If you lay these things before the brothers and sisters, you will be a good servant of Christ Jesus, nourished on the words of the faith and of the good teaching that you have followed closely.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But have nothing to do with profane old wives’ tales. Train yourself instead for godliness;\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"for training the body is useful for a little, but godliness is useful for everything, holding a promise of life, the present life and the life to come.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The saying is trustworthy and deserves full acceptance.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For this is why we toil and are reviled: because we have set our hope on the living God, who is the Savior of all people, especially of those who believe.\"}]},{\"verse\":11,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Command these things and teach them.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Let no one look down on you because you are young, but set the believers an example in speech, in conduct, in love, in faith, in purity.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Until I come, devote yourself to the public reading, to exhortation, to teaching.\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Do not neglect the gift that is in you, which was given to you through prophecy, with the laying on of hands by the council of elders.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Practice these things; be absorbed in them, so that your progress may be plain to all.\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Keep watch on yourself and on the teaching. Persist in these things, for by doing so you will save both yourself and those who hear you.\"}]}],\"notes\":[{\"verse\":2,\"phrase\":\"seared\",\"lemma\":\"καυστηριάζω\",\"kind\":\"ambiguity\",\"traditional\":\"seared with a hot iron\",\"note\":\"The verb means to burn with a hot iron. It may picture a conscience cauterized into numbness, or one branded with a mark of ownership, as slaves and criminals were, here implying ownership by the deceiving powers of verse 1. Most translations and commentators take the first sense, but the second is a serious possibility and cannot be excluded.\"},{\"verse\":5,\"phrase\":\"God’s word and prayer\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"the word of God and prayer\",\"note\":\"It is unclear what 'God's word' refers to. It may be God's own declaration in Genesis that what he made is good, or scriptural words spoken in a grace at table, or the gospel message. The translation leaves the phrase as open as the Greek.\"},{\"verse\":7,\"phrase\":\"old wives’ tales\",\"lemma\":\"γραώδης\",\"kind\":\"background\",\"traditional\":\"old wives' fables\",\"note\":\"The Greek calls the stories 'profane and old-womanish'. The second word was a stock put-down in philosophical polemic for stories thought unworthy of belief. It is conventional sarcasm aimed at the content of the rival teaching, not a comment on who was spreading it.\"},{\"verse\":8,\"phrase\":\"for a little\",\"lemma\":\"ὀλίγος\",\"kind\":\"ambiguity\",\"traditional\":\"profiteth little / of some value\",\"note\":\"The Greek phrase can mean 'to a small extent' or 'for a short time'. The contrast with 'for everything' favours extent, but the following mention of the present life and the life to come gives the time sense some support. The rendering keeps the Greek's deliberate parallel between 'a little' and 'everything'.\"},{\"verse\":9,\"phrase\":\"trustworthy\",\"lemma\":\"πιστός\",\"kind\":\"register-exception\",\"traditional\":\"faithful saying\",\"note\":\"This translation normally renders the adjective 'faithful' or 'believing'. Here it describes a statement, not a person, and means that the saying can be relied on. 'A faithful saying' is no longer natural English, so 'trustworthy' is used for this formula.\"},{\"verse\":9,\"phrase\":\"The saying\",\"lemma\":\"λόγος\",\"kind\":\"ambiguity\",\"traditional\":\"\",\"note\":\"This formula recurs in the letters to Timothy and Titus to mark a statement as established teaching. Here it is disputed whether it points back to the saying about godliness in verse 8 or forward to verse 10. Most interpreters take it as pointing back.\"},{\"verse\":10,\"phrase\":\"are reviled\",\"lemma\":\"ὀνειδίζω\",\"kind\":\"textual\",\"traditional\":\"suffer reproach\",\"note\":\"Manuscripts are divided between 'we are reviled' (the SBLGNT reading, followed here and by the King James tradition) and 'we struggle', which many modern editions and translations prefer. The two Greek words look and sound similar, and either could have given rise to the other.\"},{\"verse\":10,\"phrase\":\"especially\",\"lemma\":\"μάλιστα\",\"kind\":\"ambiguity\",\"traditional\":\"specially / especially\",\"note\":\"The usual sense of the word is 'especially', which makes God the Savior of all people and of believers in a particular way. A minority of scholars argue it can mean 'that is to say', which would make 'those who believe' a definition of 'all people'. That sense is disputed, and the ordinary meaning is kept.\"},{\"verse\":12,\"phrase\":\"in faith\",\"lemma\":\"πίστις\",\"kind\":\"ambiguity\",\"traditional\":\"in faith\",\"note\":\"In a list of observable qualities the word could equally mean 'faithfulness', that is, reliability. Most translations keep 'faith', and the Greek does not settle the question.\"},{\"verse\":13,\"phrase\":\"the public reading\",\"lemma\":\"ἀνάγνωσις\",\"kind\":\"background\",\"traditional\":\"reading\",\"note\":\"The word means reading aloud to a gathering, as the Scriptures were read in the synagogue, not private study. Few people owned books, and most heard the Scriptures only when they were read aloud. The three activities named together look like the elements of a meeting: reading, exhortation based on it, and instruction.\"},{\"verse\":14,\"phrase\":\"council of elders\",\"lemma\":\"πρεσβυτέριον\",\"kind\":\"background\",\"traditional\":\"presbytery\",\"note\":\"The word names the elders of a community as a body. It is also used of the Jewish council in Jerusalem. Laying on of hands was the recognised gesture for commissioning someone to a task. 2 Timothy 1:6 speaks of Paul's own hands in connection with Timothy's gift, and how the two statements relate is not certain.\"}],\"candidates\":[{\"lemma\":\"εὐσέβεια\",\"rendering\":\"godliness\",\"verse\":7,\"reason\":\"It is a key term of the Pastoral letters, also found in Acts and 2 Peter, and 'godliness', 'piety', 'reverence' and 'devotion' are all defensible, so it needs one rendering throughout.\"},{\"lemma\":\"ἀδελφός\",\"rendering\":\"brothers and sisters\",\"verse\":6,\"reason\":\"The plural addressed to mixed congregations recurs across every letter, and translators split between 'brothers', 'brothers and sisters' and 'believers'.\"},{\"lemma\":\"διδασκαλία\",\"rendering\":\"teaching\",\"verse\":1,\"reason\":\"It is frequent in the Pastoral letters and traditionally varies between 'doctrine', 'teaching' and 'instruction', which hides the repetition within and across chapters.\"},{\"lemma\":\"χάρισμα\",\"rendering\":\"gift\",\"verse\":14,\"reason\":\"It recurs in Romans, 1 Corinthians, the Pastoral letters and 1 Peter, and translators vary between 'gift', 'spiritual gift' and 'grace-gift', as well as the loanword 'charism'.\"},{\"lemma\":\"πρεσβυτέριον\",\"rendering\":\"council of elders\",\"verse\":14,\"reason\":\"It is used of both the Jerusalem council (Luke 22:66; Acts 22:5) and a church body, and it should be aligned with the rendering of πρεσβύτερος.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now the Spirit says explicitly that in later times some will turn away from the faith, devoting themselves to deceiving spirits and teachings of demons"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "through the hypocrisy of liars whose own conscience has been seared,"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "who forbid marriage and demand abstinence from foods that God created to be received with thanksgiving by those who believe and have come to know the truth."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For everything created by God is good, and nothing is to be rejected when it is received with thanksgiving,"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "for it is made holy through God’s word and prayer."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "If you lay these things before the brothers and sisters, you will be a good servant of Christ Jesus, nourished on the words of the faith and of the good teaching that you have followed closely."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But have nothing to do with profane old wives’ tales. Train yourself instead for godliness;"
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "for training the body is useful for a little, but godliness is useful for everything, holding a promise of life, the present life and the life to come."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The saying is trustworthy and deserves full acceptance."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For this is why we toil and are reviled: because we have set our hope on the living God, who is the Savior of all people, especially of those who believe."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Command these things and teach them."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Let no one look down on you because you are young, but set the believers an example in speech, in conduct, in love, in faith, in purity."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Until I come, devote yourself to the public reading, to exhortation, to teaching."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Do not neglect the gift that is in you, which was given to you through prophecy, with the laying on of hands by the council of elders."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Practice these things; be absorbed in them, so that your progress may be plain to all."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Keep watch on yourself and on the teaching. Persist in these things, for by doing so you will save both yourself and those who hear you."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 2,
+    "phrase": "seared",
+    "lemma": "καυστηριάζω",
+    "kind": "ambiguity",
+    "traditional": "seared with a hot iron",
+    "note": "The verb means to burn with a hot iron. It may picture a conscience cauterized into numbness, or one branded with a mark of ownership, as slaves and criminals were, here implying ownership by the deceiving powers of verse 1. Most translations and commentators take the first sense, but the second is a serious possibility and cannot be excluded."
+   },
+   {
+    "verse": 5,
+    "phrase": "God’s word and prayer",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "the word of God and prayer",
+    "note": "It is unclear what 'God's word' refers to. It may be God's own declaration in Genesis that what he made is good, or scriptural words spoken in a grace at table, or the gospel message. The translation leaves the phrase as open as the Greek."
+   },
+   {
+    "verse": 7,
+    "phrase": "old wives’ tales",
+    "lemma": "γραώδης",
+    "kind": "background",
+    "traditional": "old wives' fables",
+    "note": "The Greek calls the stories 'profane and old-womanish'. The second word was a stock put-down in philosophical polemic for stories thought unworthy of belief. It is conventional sarcasm aimed at the content of the rival teaching, not a comment on who was spreading it."
+   },
+   {
+    "verse": 8,
+    "phrase": "for a little",
+    "lemma": "ὀλίγος",
+    "kind": "ambiguity",
+    "traditional": "profiteth little / of some value",
+    "note": "The Greek phrase can mean 'to a small extent' or 'for a short time'. The contrast with 'for everything' favours extent, but the following mention of the present life and the life to come gives the time sense some support. The rendering keeps the Greek's deliberate parallel between 'a little' and 'everything'."
+   },
+   {
+    "verse": 9,
+    "phrase": "trustworthy",
+    "lemma": "πιστός",
+    "kind": "register-exception",
+    "traditional": "faithful saying",
+    "note": "This translation normally renders the adjective 'faithful' or 'believing'. Here it describes a statement, not a person, and means that the saying can be relied on. 'A faithful saying' is no longer natural English, so 'trustworthy' is used for this formula."
+   },
+   {
+    "verse": 9,
+    "phrase": "The saying",
+    "lemma": "λόγος",
+    "kind": "ambiguity",
+    "traditional": "",
+    "note": "This formula recurs in the letters to Timothy and Titus to mark a statement as established teaching. Here it is disputed whether it points back to the saying about godliness in verse 8 or forward to verse 10. Most interpreters take it as pointing back."
+   },
+   {
+    "verse": 10,
+    "phrase": "are reviled",
+    "lemma": "ὀνειδίζω",
+    "kind": "textual",
+    "traditional": "suffer reproach",
+    "note": "Manuscripts are divided between 'we are reviled' (the SBLGNT reading, followed here and by the King James tradition) and 'we struggle', which many modern editions and translations prefer. The two Greek words look and sound similar, and either could have given rise to the other."
+   },
+   {
+    "verse": 10,
+    "phrase": "especially",
+    "lemma": "μάλιστα",
+    "kind": "ambiguity",
+    "traditional": "specially / especially",
+    "note": "The usual sense of the word is 'especially', which makes God the Savior of all people and of believers in a particular way. A minority of scholars argue it can mean 'that is to say', which would make 'those who believe' a definition of 'all people'. That sense is disputed, and the ordinary meaning is kept."
+   },
+   {
+    "verse": 12,
+    "phrase": "in faith",
+    "lemma": "πίστις",
+    "kind": "ambiguity",
+    "traditional": "in faith",
+    "note": "In a list of observable qualities the word could equally mean 'faithfulness', that is, reliability. Most translations keep 'faith', and the Greek does not settle the question."
+   },
+   {
+    "verse": 13,
+    "phrase": "the public reading",
+    "lemma": "ἀνάγνωσις",
+    "kind": "background",
+    "traditional": "reading",
+    "note": "The word means reading aloud to a gathering, as the Scriptures were read in the synagogue, not private study. Few people owned books, and most heard the Scriptures only when they were read aloud. The three activities named together look like the elements of a meeting: reading, exhortation based on it, and instruction."
+   },
+   {
+    "verse": 14,
+    "phrase": "council of elders",
+    "lemma": "πρεσβυτέριον",
+    "kind": "background",
+    "traditional": "presbytery",
+    "note": "The word names the elders of a community as a body. It is also used of the Jewish council in Jerusalem. Laying on of hands was the recognised gesture for commissioning someone to a task. 2 Timothy 1:6 speaks of Paul's own hands in connection with Timothy's gift, and how the two statements relate is not certain."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "εὐσέβεια",
+    "rendering": "godliness",
+    "verse": 7,
+    "reason": "It is a key term of the Pastoral letters, also found in Acts and 2 Peter, and 'godliness', 'piety', 'reverence' and 'devotion' are all defensible, so it needs one rendering throughout."
+   },
+   {
+    "lemma": "ἀδελφός",
+    "rendering": "brothers and sisters",
+    "verse": 6,
+    "reason": "The plural addressed to mixed congregations recurs across every letter, and translators split between 'brothers', 'brothers and sisters' and 'believers'."
+   },
+   {
+    "lemma": "διδασκαλία",
+    "rendering": "teaching",
+    "verse": 1,
+    "reason": "It is frequent in the Pastoral letters and traditionally varies between 'doctrine', 'teaching' and 'instruction', which hides the repetition within and across chapters."
+   },
+   {
+    "lemma": "χάρισμα",
+    "rendering": "gift",
+    "verse": 14,
+    "reason": "It recurs in Romans, 1 Corinthians, the Pastoral letters and 1 Peter, and translators vary between 'gift', 'spiritual gift' and 'grace-gift', as well as the loanword 'charism'."
+   },
+   {
+    "lemma": "πρεσβυτέριον",
+    "rendering": "council of elders",
+    "verse": 14,
+    "reason": "It is used of both the Jerusalem council (Luke 22:66; Acts 22:5) and a church body, and it should be aligned with the rendering of πρεσβύτερος."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [
+  "Verse 3: πιστός is not rendered with a register form (faithful / believing) and has no register-exception note.",
+  "Verse 10: πιστός is not rendered with a register form (faithful / believing) and has no register-exception note.",
+  "Verse 12: πιστός is not rendered with a register form (faithful / believing) and has no register-exception note."
+ ]
+}

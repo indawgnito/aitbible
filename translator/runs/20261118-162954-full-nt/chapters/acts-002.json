@@ -1,0 +1,673 @@
+{
+ "id": "acts-002",
+ "book": "acts",
+ "chapter": 2,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZfuXcUiKS77h67tn",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 10823,
+  "output_tokens": 20086
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When the day of Pentecost arrived, they were all together in one place.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Suddenly a sound came from heaven like the rush of a violent wind, and it filled the whole house where they were sitting.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And there appeared to them tongues as of fire, divided among them, and one settled on each of them.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They were all filled with the Holy Spirit and began to speak in other tongues, as the Spirit gave them to speak out.\"}]},{\"verse\":5,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now there were Jews living in Jerusalem, devout men from every nation under heaven.\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"At this sound the crowd gathered and was thrown into confusion, because each one heard them speaking in his own language.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They were astounded and amazed, and said,\"},{\"speaker\":\"other\",\"text\":\"“Look, aren’t all these who are speaking Galileans?\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"So how is it that each of us hears them in our own language, the one we were born into?\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Parthians and Medes and Elamites, and those who live in Mesopotamia, Judea and Cappadocia, Pontus and Asia,\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Phrygia and Pamphylia, Egypt and the parts of Libya near Cyrene, and visitors from Rome,\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"both Jews and converts, Cretans and Arabs—we hear them speaking in our own tongues of the great deeds of God.”\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They were all astounded and at a loss, saying to one another,\"},{\"speaker\":\"other\",\"text\":\"“What does this mean?”\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But others mocked and said,\"},{\"speaker\":\"other\",\"text\":\"“They are full of sweet wine.”\"}]},{\"verse\":14,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But Peter, standing with the eleven, raised his voice and spoke out to them:\"},{\"speaker\":\"other\",\"text\":\"“Fellow Jews and all you who live in Jerusalem, let this be known to you, and give ear to my words.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"These people are not drunk, as you suppose, for it is only the third hour of the day.\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"No, this is what was spoken through the prophet Joel:\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"‘And it will be in the last days, God says, that I will pour out my Spirit on all flesh, and your sons and your daughters will prophesy, and your young men will see visions, and your old men will dream dreams.\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Yes, even on my slaves, men and women alike, I will pour out my Spirit in those days, and they will prophesy.\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"And I will give wonders in the sky above and signs on the earth below, blood and fire and a cloud of smoke.\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"The sun will be turned to darkness and the moon to blood before the day of the Lord comes, the great and glorious day.\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"And it will be that everyone who calls on the name of the Lord will be saved.’\"}]},{\"verse\":22,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"other\",\"text\":\"Fellow Israelites, hear these words: Jesus of Nazareth, a man attested to you by God with deeds of power and wonders and signs that God did through him among you, as you yourselves know—\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"this man, handed over by the fixed plan and foreknowledge of God, you nailed up and killed by the hands of lawless men.\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"But God raised him up, bringing the pangs of death to an end, because it was not possible for him to be held by it.\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"For David says of him: ‘I saw the Lord always before me, for he is at my right hand so that I may not be shaken.\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Therefore my heart was glad and my tongue rejoiced, and my flesh too will dwell in hope,\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"because you will not abandon my soul to Hades, nor will you let your faithful one see decay.\"}]},{\"verse\":28,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"You have made known to me the paths of life; you will fill me with gladness in your presence.’\"}]},{\"verse\":29,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"other\",\"text\":\"Brothers, I may speak to you plainly about the patriarch David: he both died and was buried, and his tomb is among us to this day.\"}]},{\"verse\":30,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"So, being a prophet, and knowing that God had sworn to him with an oath to seat one from the fruit of his loins on his throne,\"}]},{\"verse\":31,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"he foresaw and spoke about the resurrection of the Messiah, that he was not abandoned to Hades, nor did his flesh see decay.\"}]},{\"verse\":32,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"This Jesus God raised up, and of that we are all witnesses.\"}]},{\"verse\":33,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Exalted, then, to the right hand of God, and having received from the Father the promise of the Holy Spirit, he has poured out this that you see and hear.\"}]},{\"verse\":34,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"For David did not go up into the heavens, but he himself says: ‘The Lord said to my Lord, “Sit at my right hand\"}]},{\"verse\":35,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"until I make your enemies a footstool for your feet.”’\"}]},{\"verse\":36,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"So let the whole house of Israel know for certain that God has made him both Lord and Messiah, this Jesus whom you crucified.”\"}]},{\"verse\":37,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When they heard this they were cut to the heart, and they said to Peter and the rest of the apostles,\"},{\"speaker\":\"other\",\"text\":\"“Brothers, what should we do?”\"}]},{\"verse\":38,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Peter said to them,\"},{\"speaker\":\"other\",\"text\":\"“Turn back, and let each of you be baptized in the name of Jesus Christ for the forgiveness of your sins, and you will receive the gift of the Holy Spirit.\"}]},{\"verse\":39,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"For the promise is for you and for your children and for all who are far away, as many as the Lord our God calls to himself.”\"}]},{\"verse\":40,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"With many other words he bore solemn witness and kept urging them, saying,\"},{\"speaker\":\"other\",\"text\":\"“Be saved from this crooked generation.”\"}]},{\"verse\":41,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So those who welcomed his word were baptized, and about three thousand people were added that day.\"}]},{\"verse\":42,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They were devoted to the apostles’ teaching and to the common life, to the breaking of bread and to the prayers.\"}]},{\"verse\":43,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Awe came over everyone, and many wonders and signs were taking place through the apostles.\"}]},{\"verse\":44,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"All who believed were together and held everything in common,\"}]},{\"verse\":45,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and they would sell their property and possessions and divide the proceeds among all, as anyone had need.\"}]},{\"verse\":46,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Day by day they were devoted, with one mind, to being in the temple; and breaking bread in their homes, they shared their food with great joy and simplicity of heart,\"}]},{\"verse\":47,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"praising God and having favor with all the people. And day by day the Lord added to their company those who were being saved.\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"Pentecost\",\"lemma\":\"πεντηκοστή\",\"kind\":\"background\",\"traditional\":\"Pentecost\",\"note\":\"The word means 'fiftieth' and was the Greek name for the Jewish Feast of Weeks, the harvest festival held on the fiftieth day after Passover. It was one of the three pilgrimage festivals, which helps explain why Jerusalem was so full of Jews from abroad.\"},{\"verse\":4,\"phrase\":\"other tongues\",\"lemma\":\"γλῶσσα\",\"kind\":\"ambiguity\",\"traditional\":\"other tongues\",\"note\":\"The Greek word means both the tongue as an organ and a language. Verses 6–11 show that real foreign languages, understood by their native speakers, are meant here. 'Tongues' is kept so that the echo of the 'tongues as of fire' in verse 3 is not lost. A minority of scholars think Luke has reshaped an account of ecstatic speech.\"},{\"verse\":5,\"phrase\":\"nation\",\"lemma\":\"ἔθνος\",\"kind\":\"background\",\"traditional\":\"nation\",\"note\":\"The Greek word here is the same one that in the plural is usually translated 'Gentiles', meaning the non-Jewish peoples. Here it plainly means the nations of the world as ethnic and political units, among whom these Jews had been living.\"},{\"verse\":9,\"phrase\":\"Asia\",\"lemma\":\"Ἀσία\",\"kind\":\"background\",\"traditional\":\"Asia\",\"note\":\"This is the Roman province of Asia, the western part of modern Turkey with Ephesus as its chief city, and not the continent.\"},{\"verse\":14,\"phrase\":\"Fellow Jews\",\"lemma\":\"Ἰουδαῖος\",\"kind\":\"ambiguity\",\"traditional\":\"Men of Judea\",\"note\":\"The Greek is literally 'Men, Jews', a formal style of address also seen in verses 22 and 29. Many translations render it 'Men of Judea', taking the word geographically alongside 'all who live in Jerusalem'. Since verse 5 uses the same word for Jews from every nation now living in the city, the ethnic sense is preferred here, but either is possible.\"},{\"verse\":15,\"phrase\":\"the third hour of the day\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"the third hour of the day\",\"note\":\"Hours were counted from sunrise, so the third hour is about nine in the morning. Peter's point is that it is far too early in the day for anyone to be drunk.\"},{\"verse\":18,\"phrase\":\"my slaves, men and women alike\",\"lemma\":\"δοῦλος\",\"kind\":\"departure\",\"traditional\":\"my servants, both men and women (or 'menservants and maidservants')\",\"note\":\"The Greek words are the ordinary masculine and feminine terms for slaves, and a first-century reader would have heard them that way. Most translations soften this to 'servants'. In Joel the line extends the gift of the Spirit down to the lowest social rank; the added 'my' in Acts makes them God's own slaves.\"},{\"verse\":23,\"phrase\":\"lawless men\",\"lemma\":\"ἄνομος\",\"kind\":\"ambiguity\",\"traditional\":\"lawless men / wicked men\",\"note\":\"The word can mean 'wicked' in general or, more specifically, 'those without the Law', that is, Gentiles. Many scholars think the second sense is intended here, pointing to the Romans who carried out the execution. The rendering leaves both possibilities open.\"},{\"verse\":24,\"phrase\":\"the pangs of death\",\"lemma\":\"ὠδίν\",\"kind\":\"background\",\"traditional\":\"the pains of death / the agony of death\",\"note\":\"The Greek word normally means the pains of childbirth. The phrase comes from the Greek version of the Psalms (for example Psalm 18:4–5), where it translates a Hebrew word that can mean either 'cords' or 'pangs'. Whether Luke intends an image of death in labour, unable to hold back what it must give up, is debated.\"},{\"verse\":27,\"phrase\":\"your faithful one\",\"lemma\":\"ὅσιος\",\"kind\":\"departure\",\"traditional\":\"your Holy One\",\"note\":\"This is not the usual Greek word for 'holy' but one meaning devout or loyal to God, used in the Greek Psalms for the Hebrew word for a faithful worshipper. Most translations have 'your Holy One', often capitalised as a title. The rendering here keeps the two Greek words distinct; the quotation is from Psalm 16:8–11.\"},{\"verse\":31,\"phrase\":\"the Messiah\",\"lemma\":\"Χριστός\",\"kind\":\"departure\",\"traditional\":\"the Christ\",\"note\":\"The Greek word means 'anointed one' and here, as in verse 36, it is a title for Israel's expected king, which 'Messiah' conveys more directly than 'Christ'. Where it is attached to Jesus's name, as in verse 38, 'Christ' is kept. Several modern translations make the same distinction.\"},{\"verse\":33,\"phrase\":\"to the right hand of God\",\"lemma\":\"δεξιός\",\"kind\":\"ambiguity\",\"traditional\":\"exalted to (or at) the right hand of God\",\"note\":\"The Greek can equally mean 'exalted by the right hand of God', that is, by God's power. 'To the right hand' is chosen because the psalm quoted in the next verse speaks of sitting at God's right hand, but the other reading has scholarly support.\"},{\"verse\":38,\"phrase\":\"Turn back\",\"lemma\":\"μετανοέω\",\"kind\":\"departure\",\"traditional\":\"Repent\",\"note\":\"'Repent' now suggests mainly feeling sorry, whereas the Greek word carries the prophets' call to return to God, a change of direction in mind and conduct. Most translations keep 'repent' as an established term that readers understand to include a changed life.\"},{\"verse\":42,\"phrase\":\"the common life\",\"lemma\":\"κοινωνία\",\"kind\":\"departure\",\"traditional\":\"the fellowship\",\"note\":\"The Greek word means sharing or partnership and is related to the word 'common' in verse 44. 'Fellowship' is the usual rendering, but in modern usage it often suggests little more than social time. Scholars disagree whether the word here refers to the community's bond in general or specifically to the sharing of goods described in the following verses.\"},{\"verse\":47,\"phrase\":\"to their company\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"added to the church (KJV)\",\"note\":\"Later manuscripts read 'added to the church', which is the source of the King James wording. The earliest manuscripts lack 'the church' and have only a phrase meaning 'together' or 'to the same group', the same expression used in verses 1 and 44.\"}],\"candidates\":[{\"lemma\":\"δοῦλος\",\"rendering\":\"slaves\",\"verse\":18,\"reason\":\"Translations vary between 'slave', 'servant' and 'bondservant' across the Gospels, Acts and the letters, and the choice changes how readers hear both social references and the metaphor of belonging to God or Christ.\"},{\"lemma\":\"ψυχή\",\"rendering\":\"soul (v. 27); people / everyone (vv. 41, 43)\",\"verse\":27,\"reason\":\"The word ranges over 'soul', 'life', 'self' and 'person' throughout the New Testament, and inconsistent handling will mislead readers about what is being said of the human person.\"},{\"lemma\":\"κοινωνία\",\"rendering\":\"the common life\",\"verse\":42,\"reason\":\"Rendered variously as 'fellowship', 'sharing', 'participation', 'communion' and 'partnership' in Acts and the letters; one policy by sense is needed.\"},{\"lemma\":\"γλῶσσα\",\"rendering\":\"tongues\",\"verse\":4,\"reason\":\"Whether to say 'tongues' or 'languages' must be settled consistently between Acts 2, 10 and 19 and 1 Corinthians 12–14, since the choice shapes how readers understand the phenomenon.\"},{\"lemma\":\"δύναμις\",\"rendering\":\"deeds of power\",\"verse\":22,\"reason\":\"In the plural, of Jesus's and the apostles' acts, it is rendered 'miracles', 'mighty works' or 'deeds of power', and should be uniform across the Gospels, Acts and the letters.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When the day of Pentecost arrived, they were all together in one place."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Suddenly a sound came from heaven like the rush of a violent wind, and it filled the whole house where they were sitting."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And there appeared to them tongues as of fire, divided among them, and one settled on each of them."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They were all filled with the Holy Spirit and began to speak in other tongues, as the Spirit gave them to speak out."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now there were Jews living in Jerusalem, devout men from every nation under heaven."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "At this sound the crowd gathered and was thrown into confusion, because each one heard them speaking in his own language."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They were astounded and amazed, and said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Look, aren’t all these who are speaking Galileans?"
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "So how is it that each of us hears them in our own language, the one we were born into?"
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Parthians and Medes and Elamites, and those who live in Mesopotamia, Judea and Cappadocia, Pontus and Asia,"
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Phrygia and Pamphylia, Egypt and the parts of Libya near Cyrene, and visitors from Rome,"
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "both Jews and converts, Cretans and Arabs—we hear them speaking in our own tongues of the great deeds of God.”"
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They were all astounded and at a loss, saying to one another,"
+     },
+     {
+      "speaker": "other",
+      "text": "“What does this mean?”"
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But others mocked and said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“They are full of sweet wine.”"
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But Peter, standing with the eleven, raised his voice and spoke out to them:"
+     },
+     {
+      "speaker": "other",
+      "text": "“Fellow Jews and all you who live in Jerusalem, let this be known to you, and give ear to my words."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "These people are not drunk, as you suppose, for it is only the third hour of the day."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "No, this is what was spoken through the prophet Joel:"
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "‘And it will be in the last days, God says, that I will pour out my Spirit on all flesh, and your sons and your daughters will prophesy, and your young men will see visions, and your old men will dream dreams."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Yes, even on my slaves, men and women alike, I will pour out my Spirit in those days, and they will prophesy."
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "And I will give wonders in the sky above and signs on the earth below, blood and fire and a cloud of smoke."
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "The sun will be turned to darkness and the moon to blood before the day of the Lord comes, the great and glorious day."
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "And it will be that everyone who calls on the name of the Lord will be saved.’"
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Fellow Israelites, hear these words: Jesus of Nazareth, a man attested to you by God with deeds of power and wonders and signs that God did through him among you, as you yourselves know—"
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "this man, handed over by the fixed plan and foreknowledge of God, you nailed up and killed by the hands of lawless men."
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "But God raised him up, bringing the pangs of death to an end, because it was not possible for him to be held by it."
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "For David says of him: ‘I saw the Lord always before me, for he is at my right hand so that I may not be shaken."
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Therefore my heart was glad and my tongue rejoiced, and my flesh too will dwell in hope,"
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "because you will not abandon my soul to Hades, nor will you let your faithful one see decay."
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "You have made known to me the paths of life; you will fill me with gladness in your presence.’"
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Brothers, I may speak to you plainly about the patriarch David: he both died and was buried, and his tomb is among us to this day."
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "So, being a prophet, and knowing that God had sworn to him with an oath to seat one from the fruit of his loins on his throne,"
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "he foresaw and spoke about the resurrection of the Messiah, that he was not abandoned to Hades, nor did his flesh see decay."
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "This Jesus God raised up, and of that we are all witnesses."
+     }
+    ]
+   },
+   {
+    "verse": 33,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Exalted, then, to the right hand of God, and having received from the Father the promise of the Holy Spirit, he has poured out this that you see and hear."
+     }
+    ]
+   },
+   {
+    "verse": 34,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "For David did not go up into the heavens, but he himself says: ‘The Lord said to my Lord, “Sit at my right hand"
+     }
+    ]
+   },
+   {
+    "verse": 35,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "until I make your enemies a footstool for your feet.”’"
+     }
+    ]
+   },
+   {
+    "verse": 36,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "So let the whole house of Israel know for certain that God has made him both Lord and Messiah, this Jesus whom you crucified.”"
+     }
+    ]
+   },
+   {
+    "verse": 37,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When they heard this they were cut to the heart, and they said to Peter and the rest of the apostles,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Brothers, what should we do?”"
+     }
+    ]
+   },
+   {
+    "verse": 38,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Peter said to them,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Turn back, and let each of you be baptized in the name of Jesus Christ for the forgiveness of your sins, and you will receive the gift of the Holy Spirit."
+     }
+    ]
+   },
+   {
+    "verse": 39,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "For the promise is for you and for your children and for all who are far away, as many as the Lord our God calls to himself.”"
+     }
+    ]
+   },
+   {
+    "verse": 40,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "With many other words he bore solemn witness and kept urging them, saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Be saved from this crooked generation.”"
+     }
+    ]
+   },
+   {
+    "verse": 41,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So those who welcomed his word were baptized, and about three thousand people were added that day."
+     }
+    ]
+   },
+   {
+    "verse": 42,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They were devoted to the apostles’ teaching and to the common life, to the breaking of bread and to the prayers."
+     }
+    ]
+   },
+   {
+    "verse": 43,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Awe came over everyone, and many wonders and signs were taking place through the apostles."
+     }
+    ]
+   },
+   {
+    "verse": 44,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "All who believed were together and held everything in common,"
+     }
+    ]
+   },
+   {
+    "verse": 45,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and they would sell their property and possessions and divide the proceeds among all, as anyone had need."
+     }
+    ]
+   },
+   {
+    "verse": 46,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Day by day they were devoted, with one mind, to being in the temple; and breaking bread in their homes, they shared their food with great joy and simplicity of heart,"
+     }
+    ]
+   },
+   {
+    "verse": 47,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "praising God and having favor with all the people. And day by day the Lord added to their company those who were being saved."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "Pentecost",
+    "lemma": "πεντηκοστή",
+    "kind": "background",
+    "traditional": "Pentecost",
+    "note": "The word means 'fiftieth' and was the Greek name for the Jewish Feast of Weeks, the harvest festival held on the fiftieth day after Passover. It was one of the three pilgrimage festivals, which helps explain why Jerusalem was so full of Jews from abroad."
+   },
+   {
+    "verse": 4,
+    "phrase": "other tongues",
+    "lemma": "γλῶσσα",
+    "kind": "ambiguity",
+    "traditional": "other tongues",
+    "note": "The Greek word means both the tongue as an organ and a language. Verses 6–11 show that real foreign languages, understood by their native speakers, are meant here. 'Tongues' is kept so that the echo of the 'tongues as of fire' in verse 3 is not lost. A minority of scholars think Luke has reshaped an account of ecstatic speech."
+   },
+   {
+    "verse": 5,
+    "phrase": "nation",
+    "lemma": "ἔθνος",
+    "kind": "background",
+    "traditional": "nation",
+    "note": "The Greek word here is the same one that in the plural is usually translated 'Gentiles', meaning the non-Jewish peoples. Here it plainly means the nations of the world as ethnic and political units, among whom these Jews had been living."
+   },
+   {
+    "verse": 9,
+    "phrase": "Asia",
+    "lemma": "Ἀσία",
+    "kind": "background",
+    "traditional": "Asia",
+    "note": "This is the Roman province of Asia, the western part of modern Turkey with Ephesus as its chief city, and not the continent."
+   },
+   {
+    "verse": 14,
+    "phrase": "Fellow Jews",
+    "lemma": "Ἰουδαῖος",
+    "kind": "ambiguity",
+    "traditional": "Men of Judea",
+    "note": "The Greek is literally 'Men, Jews', a formal style of address also seen in verses 22 and 29. Many translations render it 'Men of Judea', taking the word geographically alongside 'all who live in Jerusalem'. Since verse 5 uses the same word for Jews from every nation now living in the city, the ethnic sense is preferred here, but either is possible."
+   },
+   {
+    "verse": 15,
+    "phrase": "the third hour of the day",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "the third hour of the day",
+    "note": "Hours were counted from sunrise, so the third hour is about nine in the morning. Peter's point is that it is far too early in the day for anyone to be drunk."
+   },
+   {
+    "verse": 18,
+    "phrase": "my slaves, men and women alike",
+    "lemma": "δοῦλος",
+    "kind": "departure",
+    "traditional": "my servants, both men and women (or 'menservants and maidservants')",
+    "note": "The Greek words are the ordinary masculine and feminine terms for slaves, and a first-century reader would have heard them that way. Most translations soften this to 'servants'. In Joel the line extends the gift of the Spirit down to the lowest social rank; the added 'my' in Acts makes them God's own slaves."
+   },
+   {
+    "verse": 23,
+    "phrase": "lawless men",
+    "lemma": "ἄνομος",
+    "kind": "ambiguity",
+    "traditional": "lawless men / wicked men",
+    "note": "The word can mean 'wicked' in general or, more specifically, 'those without the Law', that is, Gentiles. Many scholars think the second sense is intended here, pointing to the Romans who carried out the execution. The rendering leaves both possibilities open."
+   },
+   {
+    "verse": 24,
+    "phrase": "the pangs of death",
+    "lemma": "ὠδίν",
+    "kind": "background",
+    "traditional": "the pains of death / the agony of death",
+    "note": "The Greek word normally means the pains of childbirth. The phrase comes from the Greek version of the Psalms (for example Psalm 18:4–5), where it translates a Hebrew word that can mean either 'cords' or 'pangs'. Whether Luke intends an image of death in labour, unable to hold back what it must give up, is debated."
+   },
+   {
+    "verse": 27,
+    "phrase": "your faithful one",
+    "lemma": "ὅσιος",
+    "kind": "departure",
+    "traditional": "your Holy One",
+    "note": "This is not the usual Greek word for 'holy' but one meaning devout or loyal to God, used in the Greek Psalms for the Hebrew word for a faithful worshipper. Most translations have 'your Holy One', often capitalised as a title. The rendering here keeps the two Greek words distinct; the quotation is from Psalm 16:8–11."
+   },
+   {
+    "verse": 31,
+    "phrase": "the Messiah",
+    "lemma": "Χριστός",
+    "kind": "departure",
+    "traditional": "the Christ",
+    "note": "The Greek word means 'anointed one' and here, as in verse 36, it is a title for Israel's expected king, which 'Messiah' conveys more directly than 'Christ'. Where it is attached to Jesus's name, as in verse 38, 'Christ' is kept. Several modern translations make the same distinction."
+   },
+   {
+    "verse": 33,
+    "phrase": "to the right hand of God",
+    "lemma": "δεξιός",
+    "kind": "ambiguity",
+    "traditional": "exalted to (or at) the right hand of God",
+    "note": "The Greek can equally mean 'exalted by the right hand of God', that is, by God's power. 'To the right hand' is chosen because the psalm quoted in the next verse speaks of sitting at God's right hand, but the other reading has scholarly support."
+   },
+   {
+    "verse": 38,
+    "phrase": "Turn back",
+    "lemma": "μετανοέω",
+    "kind": "departure",
+    "traditional": "Repent",
+    "note": "'Repent' now suggests mainly feeling sorry, whereas the Greek word carries the prophets' call to return to God, a change of direction in mind and conduct. Most translations keep 'repent' as an established term that readers understand to include a changed life."
+   },
+   {
+    "verse": 42,
+    "phrase": "the common life",
+    "lemma": "κοινωνία",
+    "kind": "departure",
+    "traditional": "the fellowship",
+    "note": "The Greek word means sharing or partnership and is related to the word 'common' in verse 44. 'Fellowship' is the usual rendering, but in modern usage it often suggests little more than social time. Scholars disagree whether the word here refers to the community's bond in general or specifically to the sharing of goods described in the following verses."
+   },
+   {
+    "verse": 47,
+    "phrase": "to their company",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "added to the church (KJV)",
+    "note": "Later manuscripts read 'added to the church', which is the source of the King James wording. The earliest manuscripts lack 'the church' and have only a phrase meaning 'together' or 'to the same group', the same expression used in verses 1 and 44."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "δοῦλος",
+    "rendering": "slaves",
+    "verse": 18,
+    "reason": "Translations vary between 'slave', 'servant' and 'bondservant' across the Gospels, Acts and the letters, and the choice changes how readers hear both social references and the metaphor of belonging to God or Christ."
+   },
+   {
+    "lemma": "ψυχή",
+    "rendering": "soul (v. 27); people / everyone (vv. 41, 43)",
+    "verse": 27,
+    "reason": "The word ranges over 'soul', 'life', 'self' and 'person' throughout the New Testament, and inconsistent handling will mislead readers about what is being said of the human person."
+   },
+   {
+    "lemma": "κοινωνία",
+    "rendering": "the common life",
+    "verse": 42,
+    "reason": "Rendered variously as 'fellowship', 'sharing', 'participation', 'communion' and 'partnership' in Acts and the letters; one policy by sense is needed."
+   },
+   {
+    "lemma": "γλῶσσα",
+    "rendering": "tongues",
+    "verse": 4,
+    "reason": "Whether to say 'tongues' or 'languages' must be settled consistently between Acts 2, 10 and 19 and 1 Corinthians 12–14, since the choice shapes how readers understand the phenomenon."
+   },
+   {
+    "lemma": "δύναμις",
+    "rendering": "deeds of power",
+    "verse": 22,
+    "reason": "In the plural, of Jesus's and the apostles' acts, it is rendered 'miracles', 'mighty works' or 'deeds of power', and should be uniform across the Gospels, Acts and the letters."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

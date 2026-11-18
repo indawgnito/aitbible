@@ -1,0 +1,403 @@
+{
+ "id": "galatians-001",
+ "book": "galatians",
+ "chapter": 1,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZhegqo8uyxLGVhzA",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 6881,
+  "output_tokens": 9589
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Paul, an apostle—not from people nor through a person, but through Jesus Christ and God the Father, who raised him from the dead—\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and all the brothers and sisters who are with me, to the assemblies of Galatia:\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Grace to you and peace from God the Father and our Lord Jesus Christ,\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"who gave himself for our sins to rescue us from the present evil age, according to the will of our God and Father,\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"to whom be the glory to the ages of the ages. Amen.\"}]},{\"verse\":6,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"I am astonished that you are so quickly turning away from the one who called you in the grace of Christ to a different good news—\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"not that there is another; it is only that some people are troubling you and want to distort the good news of Christ.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But even if we, or an angel from heaven, should proclaim to you good news contrary to what we proclaimed to you, let him be accursed.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"As we have said before, so now I say again: if anyone is proclaiming to you good news contrary to what you received, let him be accursed.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For am I now trying to win over people, or God? Or am I seeking to please people? If I were still pleasing people, I would not be a slave of Christ.\"}]},{\"verse\":11,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For I want you to know, brothers and sisters, that the good news proclaimed by me is not of human origin;\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"for I did not receive it from any person, nor was I taught it, but it came through a revelation of Jesus Christ.\"}]},{\"verse\":13,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For you have heard of my former way of life in Judaism: how I persecuted the assembly of God beyond measure and tried to destroy it,\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and I was advancing in Judaism beyond many of my own age among my people, being far more zealous for the traditions of my ancestors.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But when the one who set me apart from my mother’s womb and called me through his grace was pleased\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"to reveal his Son in me so that I might proclaim him as good news among the Gentiles, I did not at once consult flesh and blood,\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"nor did I go up to Jerusalem to those who were apostles before me, but I went away into Arabia, and returned again to Damascus.\"}]},{\"verse\":18,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then after three years I went up to Jerusalem to get to know Cephas, and I stayed with him fifteen days;\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"but I saw none of the other apostles, except James the brother of the Lord.\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"As for what I am writing to you—see, before God, I am not lying.\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then I went into the regions of Syria and Cilicia.\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And I was unknown by face to the assemblies of Judea that are in Christ;\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"they only kept hearing,\"},{\"speaker\":\"other\",\"text\":\"“The one who once persecuted us is now proclaiming as good news the faith he once tried to destroy,”\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and they glorified God because of me.\"}]}],\"notes\":[{\"verse\":2,\"phrase\":\"brothers and sisters\",\"lemma\":\"ἀδελφός\",\"kind\":\"departure\",\"traditional\":\"brethren / brothers\",\"note\":\"The Greek plural is grammatically masculine but was the ordinary way to address or refer to a mixed group of men and women. Here it refers to fellow believers, and Paul's companions and the Galatian congregations included women. Older translations have 'brethren' or 'brothers'; many recent ones use 'brothers and sisters'.\"},{\"verse\":2,\"phrase\":\"assemblies\",\"lemma\":\"ἐκκλησία\",\"kind\":\"departure\",\"traditional\":\"churches\",\"note\":\"The Greek word meant a gathering of citizens and, in the Greek Old Testament, Israel assembled before God. 'Church' is the near-universal rendering and readers know what it refers to, but it now suggests a building or an institution, which the word did not mean. 'Assembly' is used throughout this translation so that the reader can see it is one word.\"},{\"verse\":5,\"phrase\":\"to the ages of the ages\",\"lemma\":\"αἰών\",\"kind\":\"departure\",\"traditional\":\"for ever and ever\",\"note\":\"The phrase is a Semitic-style idiom meaning 'for all time', and 'for ever and ever' gives its sense accurately. The literal form is kept here because the same word has just been used in verse 4 for 'the present evil age'. Paul sets the present age against the ages to come, and the usual rendering hides that link.\"},{\"verse\":6,\"phrase\":\"good news\",\"lemma\":\"εὐαγγέλιον\",\"kind\":\"departure\",\"traditional\":\"gospel\",\"note\":\"The Greek noun was an ordinary word for a report of good news, such as a victory or a ruler's accession, and the related verb means to announce such news. 'Gospel' is the traditional rendering and remains standard in most translations, but today it suggests a book or a religious term more than an announcement. Using 'good news' and 'proclaim good news' keeps the noun and the verb visibly connected, as they are in the Greek of verses 6–11.\"},{\"verse\":8,\"phrase\":\"let him be accursed\",\"lemma\":\"ἀνάθεμα\",\"kind\":\"background\",\"traditional\":\"let him be accursed\",\"note\":\"In the Greek Old Testament this word translates the Hebrew term for something irrevocably handed over to God, usually for destruction. Paul is not venting anger. He is formally consigning such a person to God's judgment, and he includes himself and angels in the hypothetical.\"},{\"verse\":10,\"phrase\":\"slave of Christ\",\"lemma\":\"δοῦλος\",\"kind\":\"departure\",\"traditional\":\"servant of Christ\",\"note\":\"The Greek word denotes a slave, a person owned by a master, not a hired servant. Many translations soften it to 'servant', partly because of the associations of slavery in modern history. The phrase also echoes the Old Testament title 'slave of the Lord', used of Moses and the prophets, which carried honour as well as total obligation.\"},{\"verse\":12,\"phrase\":\"a revelation of Jesus Christ\",\"lemma\":\"ἀποκάλυψις\",\"kind\":\"ambiguity\",\"traditional\":\"the revelation of Jesus Christ\",\"note\":\"The Greek can mean a revelation given by Jesus Christ or a revelation whose content is Jesus Christ. Verse 16, where God reveals his Son, favours the second, though the contrast with 'from any person' fits the first. The English 'of' leaves both possibilities open, as the Greek does.\"},{\"verse\":13,\"phrase\":\"Judaism\",\"lemma\":\"Ἰουδαϊσμός\",\"kind\":\"background\",\"traditional\":\"Judaism / the Jews' religion\",\"note\":\"In the New Testament this word occurs only in these two verses. In earlier Jewish writing, notably 2 Maccabees, it names the Jewish way of life as a cause to be zealously defended against outside pressure, and it does not mean a religion set over against 'Christianity'. Paul is describing his former militant devotion to ancestral practice, not a religion he has left for another.\"},{\"verse\":15,\"phrase\":\"the one who set me apart\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"God, who set me apart\",\"note\":\"Many manuscripts read 'God, who set me apart'. The edition translated here follows the manuscripts that lack the word 'God', judging it an early clarification by copyists. The meaning is the same either way. The wording echoes the callings of the servant in Isaiah 49:1 and of Jeremiah in Jeremiah 1:5.\"},{\"verse\":16,\"phrase\":\"in me\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"in me\",\"note\":\"The Greek phrase can mean 'in me' (an inward revelation), 'to me', or 'through me' (Paul's life as the place where the Son is displayed to others). Many translations choose 'to me'. The same phrase recurs in verse 24, where it is rendered 'because of me'.\"},{\"verse\":16,\"phrase\":\"Gentiles\",\"lemma\":\"ἔθνος\",\"kind\":\"background\",\"traditional\":\"Gentiles / nations / heathen\",\"note\":\"The Greek word means 'peoples' or 'nations'. In the plural it was the regular Jewish term for all peoples other than Israel. This translation uses 'Gentiles' for that sense and 'nations' where peoples as such are meant, but it is a single Greek word throughout.\"},{\"verse\":18,\"phrase\":\"Cephas\",\"lemma\":\"Κηφᾶς\",\"kind\":\"background\",\"traditional\":\"Cephas / Peter\",\"note\":\"Cephas is the Aramaic name meaning 'rock', of which 'Peter' is the Greek equivalent; the two names refer to the same person. Paul usually uses the Aramaic form. Some later manuscripts substitute 'Peter' here.\"},{\"verse\":19,\"phrase\":\"except James\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"save James / except James\",\"note\":\"The Greek can be read as counting James among the apostles ('none of the other apostles except James') or as setting him beside them ('none of the other apostles, though I did see James'). The first is the more natural reading and is followed here, but the second is grammatically possible. This James is the brother of Jesus and leader of the Jerusalem assembly, not one of the Twelve.\"}],\"candidates\":[{\"lemma\":\"εὐαγγέλιον\",\"rendering\":\"good news\",\"verse\":6,\"reason\":\"The choice between 'gospel' and 'good news' (and the matching rendering of the verb εὐαγγελίζομαι) affects every book and must be uniform for the noun–verb link to show.\"},{\"lemma\":\"δοῦλος\",\"rendering\":\"slave\",\"verse\":10,\"reason\":\"Translators divide between 'slave', 'servant' and 'bondservant', and varying it across books would obscure a single, theologically loaded term.\"},{\"lemma\":\"ἀδελφός\",\"rendering\":\"brothers and sisters\",\"verse\":2,\"reason\":\"The plural used of mixed congregations recurs throughout the letters and Acts, and 'brothers' versus 'brothers and sisters' needs one policy.\"},{\"lemma\":\"αἰών\",\"rendering\":\"age\",\"verse\":4,\"reason\":\"The word spans 'age', 'world' and the 'forever' idioms; a single decision is needed on whether to keep 'age(s)' visible, especially in doxologies.\"},{\"lemma\":\"ἀνάθεμα\",\"rendering\":\"accursed\",\"verse\":8,\"reason\":\"It recurs in Romans, 1 Corinthians and Acts with renderings ranging from 'accursed' to 'anathema' to 'under God's curse', and should be uniform.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Paul, an apostle—not from people nor through a person, but through Jesus Christ and God the Father, who raised him from the dead—"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and all the brothers and sisters who are with me, to the assemblies of Galatia:"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Grace to you and peace from God the Father and our Lord Jesus Christ,"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "who gave himself for our sins to rescue us from the present evil age, according to the will of our God and Father,"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "to whom be the glory to the ages of the ages. Amen."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "I am astonished that you are so quickly turning away from the one who called you in the grace of Christ to a different good news—"
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "not that there is another; it is only that some people are troubling you and want to distort the good news of Christ."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But even if we, or an angel from heaven, should proclaim to you good news contrary to what we proclaimed to you, let him be accursed."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "As we have said before, so now I say again: if anyone is proclaiming to you good news contrary to what you received, let him be accursed."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For am I now trying to win over people, or God? Or am I seeking to please people? If I were still pleasing people, I would not be a slave of Christ."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For I want you to know, brothers and sisters, that the good news proclaimed by me is not of human origin;"
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "for I did not receive it from any person, nor was I taught it, but it came through a revelation of Jesus Christ."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For you have heard of my former way of life in Judaism: how I persecuted the assembly of God beyond measure and tried to destroy it,"
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and I was advancing in Judaism beyond many of my own age among my people, being far more zealous for the traditions of my ancestors."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But when the one who set me apart from my mother’s womb and called me through his grace was pleased"
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "to reveal his Son in me so that I might proclaim him as good news among the Gentiles, I did not at once consult flesh and blood,"
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "nor did I go up to Jerusalem to those who were apostles before me, but I went away into Arabia, and returned again to Damascus."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then after three years I went up to Jerusalem to get to know Cephas, and I stayed with him fifteen days;"
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "but I saw none of the other apostles, except James the brother of the Lord."
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "As for what I am writing to you—see, before God, I am not lying."
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then I went into the regions of Syria and Cilicia."
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And I was unknown by face to the assemblies of Judea that are in Christ;"
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "they only kept hearing,"
+     },
+     {
+      "speaker": "other",
+      "text": "“The one who once persecuted us is now proclaiming as good news the faith he once tried to destroy,”"
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and they glorified God because of me."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 2,
+    "phrase": "brothers and sisters",
+    "lemma": "ἀδελφός",
+    "kind": "departure",
+    "traditional": "brethren / brothers",
+    "note": "The Greek plural is grammatically masculine but was the ordinary way to address or refer to a mixed group of men and women. Here it refers to fellow believers, and Paul's companions and the Galatian congregations included women. Older translations have 'brethren' or 'brothers'; many recent ones use 'brothers and sisters'."
+   },
+   {
+    "verse": 2,
+    "phrase": "assemblies",
+    "lemma": "ἐκκλησία",
+    "kind": "departure",
+    "traditional": "churches",
+    "note": "The Greek word meant a gathering of citizens and, in the Greek Old Testament, Israel assembled before God. 'Church' is the near-universal rendering and readers know what it refers to, but it now suggests a building or an institution, which the word did not mean. 'Assembly' is used throughout this translation so that the reader can see it is one word."
+   },
+   {
+    "verse": 5,
+    "phrase": "to the ages of the ages",
+    "lemma": "αἰών",
+    "kind": "departure",
+    "traditional": "for ever and ever",
+    "note": "The phrase is a Semitic-style idiom meaning 'for all time', and 'for ever and ever' gives its sense accurately. The literal form is kept here because the same word has just been used in verse 4 for 'the present evil age'. Paul sets the present age against the ages to come, and the usual rendering hides that link."
+   },
+   {
+    "verse": 6,
+    "phrase": "good news",
+    "lemma": "εὐαγγέλιον",
+    "kind": "departure",
+    "traditional": "gospel",
+    "note": "The Greek noun was an ordinary word for a report of good news, such as a victory or a ruler's accession, and the related verb means to announce such news. 'Gospel' is the traditional rendering and remains standard in most translations, but today it suggests a book or a religious term more than an announcement. Using 'good news' and 'proclaim good news' keeps the noun and the verb visibly connected, as they are in the Greek of verses 6–11."
+   },
+   {
+    "verse": 8,
+    "phrase": "let him be accursed",
+    "lemma": "ἀνάθεμα",
+    "kind": "background",
+    "traditional": "let him be accursed",
+    "note": "In the Greek Old Testament this word translates the Hebrew term for something irrevocably handed over to God, usually for destruction. Paul is not venting anger. He is formally consigning such a person to God's judgment, and he includes himself and angels in the hypothetical."
+   },
+   {
+    "verse": 10,
+    "phrase": "slave of Christ",
+    "lemma": "δοῦλος",
+    "kind": "departure",
+    "traditional": "servant of Christ",
+    "note": "The Greek word denotes a slave, a person owned by a master, not a hired servant. Many translations soften it to 'servant', partly because of the associations of slavery in modern history. The phrase also echoes the Old Testament title 'slave of the Lord', used of Moses and the prophets, which carried honour as well as total obligation."
+   },
+   {
+    "verse": 12,
+    "phrase": "a revelation of Jesus Christ",
+    "lemma": "ἀποκάλυψις",
+    "kind": "ambiguity",
+    "traditional": "the revelation of Jesus Christ",
+    "note": "The Greek can mean a revelation given by Jesus Christ or a revelation whose content is Jesus Christ. Verse 16, where God reveals his Son, favours the second, though the contrast with 'from any person' fits the first. The English 'of' leaves both possibilities open, as the Greek does."
+   },
+   {
+    "verse": 13,
+    "phrase": "Judaism",
+    "lemma": "Ἰουδαϊσμός",
+    "kind": "background",
+    "traditional": "Judaism / the Jews' religion",
+    "note": "In the New Testament this word occurs only in these two verses. In earlier Jewish writing, notably 2 Maccabees, it names the Jewish way of life as a cause to be zealously defended against outside pressure, and it does not mean a religion set over against 'Christianity'. Paul is describing his former militant devotion to ancestral practice, not a religion he has left for another."
+   },
+   {
+    "verse": 15,
+    "phrase": "the one who set me apart",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "God, who set me apart",
+    "note": "Many manuscripts read 'God, who set me apart'. The edition translated here follows the manuscripts that lack the word 'God', judging it an early clarification by copyists. The meaning is the same either way. The wording echoes the callings of the servant in Isaiah 49:1 and of Jeremiah in Jeremiah 1:5."
+   },
+   {
+    "verse": 16,
+    "phrase": "in me",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "in me",
+    "note": "The Greek phrase can mean 'in me' (an inward revelation), 'to me', or 'through me' (Paul's life as the place where the Son is displayed to others). Many translations choose 'to me'. The same phrase recurs in verse 24, where it is rendered 'because of me'."
+   },
+   {
+    "verse": 16,
+    "phrase": "Gentiles",
+    "lemma": "ἔθνος",
+    "kind": "background",
+    "traditional": "Gentiles / nations / heathen",
+    "note": "The Greek word means 'peoples' or 'nations'. In the plural it was the regular Jewish term for all peoples other than Israel. This translation uses 'Gentiles' for that sense and 'nations' where peoples as such are meant, but it is a single Greek word throughout."
+   },
+   {
+    "verse": 18,
+    "phrase": "Cephas",
+    "lemma": "Κηφᾶς",
+    "kind": "background",
+    "traditional": "Cephas / Peter",
+    "note": "Cephas is the Aramaic name meaning 'rock', of which 'Peter' is the Greek equivalent; the two names refer to the same person. Paul usually uses the Aramaic form. Some later manuscripts substitute 'Peter' here."
+   },
+   {
+    "verse": 19,
+    "phrase": "except James",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "save James / except James",
+    "note": "The Greek can be read as counting James among the apostles ('none of the other apostles except James') or as setting him beside them ('none of the other apostles, though I did see James'). The first is the more natural reading and is followed here, but the second is grammatically possible. This James is the brother of Jesus and leader of the Jerusalem assembly, not one of the Twelve."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "εὐαγγέλιον",
+    "rendering": "good news",
+    "verse": 6,
+    "reason": "The choice between 'gospel' and 'good news' (and the matching rendering of the verb εὐαγγελίζομαι) affects every book and must be uniform for the noun–verb link to show."
+   },
+   {
+    "lemma": "δοῦλος",
+    "rendering": "slave",
+    "verse": 10,
+    "reason": "Translators divide between 'slave', 'servant' and 'bondservant', and varying it across books would obscure a single, theologically loaded term."
+   },
+   {
+    "lemma": "ἀδελφός",
+    "rendering": "brothers and sisters",
+    "verse": 2,
+    "reason": "The plural used of mixed congregations recurs throughout the letters and Acts, and 'brothers' versus 'brothers and sisters' needs one policy."
+   },
+   {
+    "lemma": "αἰών",
+    "rendering": "age",
+    "verse": 4,
+    "reason": "The word spans 'age', 'world' and the 'forever' idioms; a single decision is needed on whether to keep 'age(s)' visible, especially in doxologies."
+   },
+   {
+    "lemma": "ἀνάθεμα",
+    "rendering": "accursed",
+    "verse": 8,
+    "reason": "It recurs in Romans, 1 Corinthians and Acts with renderings ranging from 'accursed' to 'anathema' to 'under God's curse', and should be uniform."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

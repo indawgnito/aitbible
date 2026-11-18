@@ -1,0 +1,323 @@
+{
+ "id": "1corinthians-002",
+ "book": "1corinthians",
+ "chapter": 2,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZmMuGe4epvZYD9pZ",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 5785,
+  "output_tokens": 12507
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And when I came to you, brothers and sisters, I did not come with superiority of speech or of wisdom as I proclaimed to you the testimony of God.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For I decided to know nothing among you except Jesus Christ, and him crucified.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And I was with you in weakness and in fear and in much trembling,\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and my speech and my proclamation came not with the persuasiveness of wisdom but with a demonstration of the Spirit and of power,\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"so that your faith might rest not on human wisdom but on the power of God.\"}]},{\"verse\":6,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Yet we do speak wisdom among the mature, though a wisdom not of this age nor of the rulers of this age, who are being brought to nothing.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Rather, we speak God’s wisdom in a mystery, the wisdom that has been hidden, which God determined in advance, before the ages, for our glory.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"None of the rulers of this age has known it, for if they had known it, they would not have crucified the Lord of glory.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But as it is written:\"},{\"speaker\":\"scripture\",\"text\":\"“What eye has not seen and ear has not heard, and what has not arisen in the human heart, all that God has prepared for those who love him.”\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For to us God has revealed them through the Spirit; for the Spirit searches everything, even the depths of God.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For who among people knows the things of a person except the person’s spirit that is within? So too, no one knows the things of God except the Spirit of God.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now we have received not the spirit of the world but the Spirit that is from God, so that we may know the things freely given to us by God.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And we speak of these things not in words taught by human wisdom but in words taught by the Spirit, interpreting spiritual things to spiritual people.\"}]},{\"verse\":14,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But a natural person does not accept the things of the Spirit of God, for to such a person they are foolishness; nor can that person know them, because they are examined spiritually.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The spiritual person examines everything, yet that person is examined by no one.\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For\"},{\"speaker\":\"scripture\",\"text\":\"“who has known the mind of the Lord, so as to instruct him?”\"},{\"speaker\":\"narrator\",\"text\":\"But we have the mind of Christ.\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"brothers and sisters\",\"lemma\":\"ἀδελφός\",\"kind\":\"departure\",\"traditional\":\"brethren / brothers\",\"note\":\"The Greek masculine plural was the ordinary way to address a mixed group, and Paul is writing to the whole congregation, women included. Many recent translations render it this way; others keep “brothers” and leave the inclusion to be understood.\"},{\"verse\":1,\"phrase\":\"the testimony of God\",\"lemma\":\"μαρτύριον\",\"kind\":\"textual\",\"traditional\":\"the testimony of God / the mystery of God\",\"note\":\"Early manuscripts are divided here between “testimony” (martyrion) and “mystery” (mystērion), two words that differ by only a few letters. The SBLGNT, translated here, prints “testimony”; other critical editions print “mystery”, and English versions differ accordingly. Either reading suits the context, and the question is open.\"},{\"verse\":4,\"phrase\":\"the persuasiveness of wisdom\",\"lemma\":\"πειθώ\",\"kind\":\"textual\",\"traditional\":\"persuasive words of wisdom\",\"note\":\"This phrase has come down in many slightly different forms. The most familiar is “persuasive words of wisdom”, to which some manuscripts add “human”. The SBLGNT adopts a shorter form, “persuasion of wisdom”. The sense is the same in every form: Paul did not rely on the rhetorical technique that Corinthians admired.\"},{\"verse\":6,\"phrase\":\"the rulers of this age\",\"lemma\":\"ἄρχων\",\"kind\":\"ambiguity\",\"traditional\":\"the princes of this world / the rulers of this age\",\"note\":\"The word ordinarily means human rulers, and on that reading Paul means the authorities who had Jesus crucified (verse 8). Many interpreters think he means, or also means, the spiritual powers standing behind those authorities, since he uses similar language for such powers elsewhere. The translation leaves the phrase as open as the Greek.\"},{\"verse\":7,\"phrase\":\"mystery\",\"lemma\":\"μυστήριον\",\"kind\":\"background\",\"traditional\":\"mystery\",\"note\":\"In Paul, as in Jewish writings in Greek such as Daniel, this word does not mean a puzzle. It means a secret purpose of God that can be known only because God discloses it. “In a mystery” may describe how the wisdom is spoken or the form in which the wisdom exists; the Greek allows either.\"},{\"verse\":7,\"phrase\":\"determined in advance\",\"lemma\":\"προορίζω\",\"kind\":\"departure\",\"traditional\":\"predestined / ordained / decreed\",\"note\":\"The verb means to decide or mark out beforehand. Most translations use “predestined” or “decreed”. “Predestined” now carries the weight of later doctrinal debates about the fate of individuals, whereas here what God determined is the wisdom itself, that is, the plan centred on the crucified Christ.\"},{\"verse\":9,\"phrase\":\"What eye has not seen\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"No passage of the Jewish Scriptures matches this quotation word for word. The closest is Isaiah 64:4, and the phrase about the heart resembles Isaiah 65:17; Paul may be quoting freely or combining texts. “Arisen in the heart” is a Semitic way of saying that a thought has occurred to someone.\"},{\"verse\":10,\"phrase\":\"For\",\"lemma\":\"γάρ\",\"kind\":\"textual\",\"traditional\":\"But\",\"note\":\"Manuscripts divide between “for” and “but” at the start of this verse. The SBLGNT prints “for”, which makes the verse explain how what was prepared came to be known. With “but”, the verse contrasts “us” with the rulers who did not know.\"},{\"verse\":13,\"phrase\":\"interpreting spiritual things to spiritual people\",\"lemma\":\"συγκρίνω\",\"kind\":\"ambiguity\",\"traditional\":\"comparing spiritual things with spiritual\",\"note\":\"The Greek is compressed, and both the verb and the word “spiritual” in the dative are ambiguous. The verb can mean interpret (its sense in the Greek Old Testament, of dreams), compare, or combine, and the dative can be “to spiritual people” or “with spiritual words”. The chief alternative is therefore “fitting spiritual things to spiritual words”. The rendering here follows the Septuagint sense and the contrast of persons in verses 14–15, but the matter is disputed.\"},{\"verse\":14,\"phrase\":\"natural person\",\"lemma\":\"ψυχικός\",\"kind\":\"background\",\"traditional\":\"natural man\",\"note\":\"The adjective comes from the word for the life or soul that every living person has, and Paul sets it against “spiritual”, meaning of God’s Spirit. A “natural” person is someone living with ordinary human resources alone, without the Spirit. It is not a comment on intelligence or character. Some translations paraphrase as “unspiritual” or “the person without the Spirit”.\"},{\"verse\":14,\"phrase\":\"examined\",\"lemma\":\"ἀνακρίνω\",\"kind\":\"departure\",\"traditional\":\"discerned (v. 14) / judges, is judged (v. 15)\",\"note\":\"Paul uses the same verb three times in verses 14–15, and most translations vary it, with “discerned” in verse 14 and “judges” in verse 15. The word means to examine or investigate, often in a judicial hearing, and Paul uses it again of the Corinthians’ scrutiny of him in 4:3–4. One English word is kept here so that the repetition can be heard.\"},{\"verse\":16,\"phrase\":\"the mind of the Lord\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"The quotation is Isaiah 40:13 in its Greek form, where “the Lord” is Israel’s God and the expected answer is “no one”. The Hebrew has “spirit” where the Greek version has “mind”, which suits Paul’s argument about the Spirit. He then answers the question with the claim that “we have the mind of Christ”.\"}],\"candidates\":[{\"lemma\":\"ἀδελφός\",\"rendering\":\"brothers and sisters\",\"verse\":1,\"reason\":\"The plural as an address to mixed congregations occurs throughout the letters and Acts, and translations split between “brothers” and “brothers and sisters”; it needs one policy.\"},{\"lemma\":\"μυστήριον\",\"rendering\":\"mystery\",\"verse\":7,\"reason\":\"It recurs across the Gospels, Paul and Revelation, and “mystery” suggests a puzzle to modern readers where the period sense is a divinely disclosed secret; “mystery” or “secret” should be settled once.\"},{\"lemma\":\"αἰών\",\"rendering\":\"age\",\"verse\":6,\"reason\":\"Traditional versions alternate between “world”, “age” and “forever”; the contrast between this age and the coming one is lost unless the rendering is fixed.\"},{\"lemma\":\"καταργέω\",\"rendering\":\"bring to nothing\",\"verse\":6,\"reason\":\"This is a favourite Pauline verb rendered very variously (abolish, nullify, destroy, pass away, bring to nothing), and the variation hides a recurring theme.\"},{\"lemma\":\"προορίζω\",\"rendering\":\"determine in advance\",\"verse\":7,\"reason\":\"It occurs in Acts, Romans, 1 Corinthians and Ephesians, and the choice between “predestine” and a plainer rendering is doctrinally loaded and should be consistent.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And when I came to you, brothers and sisters, I did not come with superiority of speech or of wisdom as I proclaimed to you the testimony of God."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For I decided to know nothing among you except Jesus Christ, and him crucified."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And I was with you in weakness and in fear and in much trembling,"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and my speech and my proclamation came not with the persuasiveness of wisdom but with a demonstration of the Spirit and of power,"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "so that your faith might rest not on human wisdom but on the power of God."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Yet we do speak wisdom among the mature, though a wisdom not of this age nor of the rulers of this age, who are being brought to nothing."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Rather, we speak God’s wisdom in a mystery, the wisdom that has been hidden, which God determined in advance, before the ages, for our glory."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "None of the rulers of this age has known it, for if they had known it, they would not have crucified the Lord of glory."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But as it is written:"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“What eye has not seen and ear has not heard, and what has not arisen in the human heart, all that God has prepared for those who love him.”"
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For to us God has revealed them through the Spirit; for the Spirit searches everything, even the depths of God."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For who among people knows the things of a person except the person’s spirit that is within? So too, no one knows the things of God except the Spirit of God."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now we have received not the spirit of the world but the Spirit that is from God, so that we may know the things freely given to us by God."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And we speak of these things not in words taught by human wisdom but in words taught by the Spirit, interpreting spiritual things to spiritual people."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But a natural person does not accept the things of the Spirit of God, for to such a person they are foolishness; nor can that person know them, because they are examined spiritually."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The spiritual person examines everything, yet that person is examined by no one."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“who has known the mind of the Lord, so as to instruct him?”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "But we have the mind of Christ."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "brothers and sisters",
+    "lemma": "ἀδελφός",
+    "kind": "departure",
+    "traditional": "brethren / brothers",
+    "note": "The Greek masculine plural was the ordinary way to address a mixed group, and Paul is writing to the whole congregation, women included. Many recent translations render it this way; others keep “brothers” and leave the inclusion to be understood."
+   },
+   {
+    "verse": 1,
+    "phrase": "the testimony of God",
+    "lemma": "μαρτύριον",
+    "kind": "textual",
+    "traditional": "the testimony of God / the mystery of God",
+    "note": "Early manuscripts are divided here between “testimony” (martyrion) and “mystery” (mystērion), two words that differ by only a few letters. The SBLGNT, translated here, prints “testimony”; other critical editions print “mystery”, and English versions differ accordingly. Either reading suits the context, and the question is open."
+   },
+   {
+    "verse": 4,
+    "phrase": "the persuasiveness of wisdom",
+    "lemma": "πειθώ",
+    "kind": "textual",
+    "traditional": "persuasive words of wisdom",
+    "note": "This phrase has come down in many slightly different forms. The most familiar is “persuasive words of wisdom”, to which some manuscripts add “human”. The SBLGNT adopts a shorter form, “persuasion of wisdom”. The sense is the same in every form: Paul did not rely on the rhetorical technique that Corinthians admired."
+   },
+   {
+    "verse": 6,
+    "phrase": "the rulers of this age",
+    "lemma": "ἄρχων",
+    "kind": "ambiguity",
+    "traditional": "the princes of this world / the rulers of this age",
+    "note": "The word ordinarily means human rulers, and on that reading Paul means the authorities who had Jesus crucified (verse 8). Many interpreters think he means, or also means, the spiritual powers standing behind those authorities, since he uses similar language for such powers elsewhere. The translation leaves the phrase as open as the Greek."
+   },
+   {
+    "verse": 7,
+    "phrase": "mystery",
+    "lemma": "μυστήριον",
+    "kind": "background",
+    "traditional": "mystery",
+    "note": "In Paul, as in Jewish writings in Greek such as Daniel, this word does not mean a puzzle. It means a secret purpose of God that can be known only because God discloses it. “In a mystery” may describe how the wisdom is spoken or the form in which the wisdom exists; the Greek allows either."
+   },
+   {
+    "verse": 7,
+    "phrase": "determined in advance",
+    "lemma": "προορίζω",
+    "kind": "departure",
+    "traditional": "predestined / ordained / decreed",
+    "note": "The verb means to decide or mark out beforehand. Most translations use “predestined” or “decreed”. “Predestined” now carries the weight of later doctrinal debates about the fate of individuals, whereas here what God determined is the wisdom itself, that is, the plan centred on the crucified Christ."
+   },
+   {
+    "verse": 9,
+    "phrase": "What eye has not seen",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "No passage of the Jewish Scriptures matches this quotation word for word. The closest is Isaiah 64:4, and the phrase about the heart resembles Isaiah 65:17; Paul may be quoting freely or combining texts. “Arisen in the heart” is a Semitic way of saying that a thought has occurred to someone."
+   },
+   {
+    "verse": 10,
+    "phrase": "For",
+    "lemma": "γάρ",
+    "kind": "textual",
+    "traditional": "But",
+    "note": "Manuscripts divide between “for” and “but” at the start of this verse. The SBLGNT prints “for”, which makes the verse explain how what was prepared came to be known. With “but”, the verse contrasts “us” with the rulers who did not know."
+   },
+   {
+    "verse": 13,
+    "phrase": "interpreting spiritual things to spiritual people",
+    "lemma": "συγκρίνω",
+    "kind": "ambiguity",
+    "traditional": "comparing spiritual things with spiritual",
+    "note": "The Greek is compressed, and both the verb and the word “spiritual” in the dative are ambiguous. The verb can mean interpret (its sense in the Greek Old Testament, of dreams), compare, or combine, and the dative can be “to spiritual people” or “with spiritual words”. The chief alternative is therefore “fitting spiritual things to spiritual words”. The rendering here follows the Septuagint sense and the contrast of persons in verses 14–15, but the matter is disputed."
+   },
+   {
+    "verse": 14,
+    "phrase": "natural person",
+    "lemma": "ψυχικός",
+    "kind": "background",
+    "traditional": "natural man",
+    "note": "The adjective comes from the word for the life or soul that every living person has, and Paul sets it against “spiritual”, meaning of God’s Spirit. A “natural” person is someone living with ordinary human resources alone, without the Spirit. It is not a comment on intelligence or character. Some translations paraphrase as “unspiritual” or “the person without the Spirit”."
+   },
+   {
+    "verse": 14,
+    "phrase": "examined",
+    "lemma": "ἀνακρίνω",
+    "kind": "departure",
+    "traditional": "discerned (v. 14) / judges, is judged (v. 15)",
+    "note": "Paul uses the same verb three times in verses 14–15, and most translations vary it, with “discerned” in verse 14 and “judges” in verse 15. The word means to examine or investigate, often in a judicial hearing, and Paul uses it again of the Corinthians’ scrutiny of him in 4:3–4. One English word is kept here so that the repetition can be heard."
+   },
+   {
+    "verse": 16,
+    "phrase": "the mind of the Lord",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "The quotation is Isaiah 40:13 in its Greek form, where “the Lord” is Israel’s God and the expected answer is “no one”. The Hebrew has “spirit” where the Greek version has “mind”, which suits Paul’s argument about the Spirit. He then answers the question with the claim that “we have the mind of Christ”."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "ἀδελφός",
+    "rendering": "brothers and sisters",
+    "verse": 1,
+    "reason": "The plural as an address to mixed congregations occurs throughout the letters and Acts, and translations split between “brothers” and “brothers and sisters”; it needs one policy."
+   },
+   {
+    "lemma": "μυστήριον",
+    "rendering": "mystery",
+    "verse": 7,
+    "reason": "It recurs across the Gospels, Paul and Revelation, and “mystery” suggests a puzzle to modern readers where the period sense is a divinely disclosed secret; “mystery” or “secret” should be settled once."
+   },
+   {
+    "lemma": "αἰών",
+    "rendering": "age",
+    "verse": 6,
+    "reason": "Traditional versions alternate between “world”, “age” and “forever”; the contrast between this age and the coming one is lost unless the rendering is fixed."
+   },
+   {
+    "lemma": "καταργέω",
+    "rendering": "bring to nothing",
+    "verse": 6,
+    "reason": "This is a favourite Pauline verb rendered very variously (abolish, nullify, destroy, pass away, bring to nothing), and the variation hides a recurring theme."
+   },
+   {
+    "lemma": "προορίζω",
+    "rendering": "determine in advance",
+    "verse": 7,
+    "reason": "It occurs in Acts, Romans, 1 Corinthians and Ephesians, and the choice between “predestine” and a plainer rendering is doctrinally loaded and should be consistent."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

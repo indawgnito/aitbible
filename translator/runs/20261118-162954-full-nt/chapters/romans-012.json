@@ -1,0 +1,373 @@
+{
+ "id": "romans-012",
+ "book": "romans",
+ "chapter": 12,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZkctTd8sAd1SthE6",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 6202,
+  "output_tokens": 13110
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So I urge you, brothers and sisters, through the mercies of God, to present your bodies as a sacrifice, living, holy, pleasing to God, which is your rational worship.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And do not be conformed to this age, but be transformed by the renewing of your mind, so that you may discern what the will of God is: what is good and pleasing and perfect.\"}]},{\"verse\":3,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For through the grace given to me I say to every one of you: do not think of yourself more highly than you ought to think, but think so as to think sensibly, each according to the measure of faith that God has apportioned.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For just as in one body we have many members, and the members do not all have the same function,\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"so we, the many, are one body in Christ, and individually members of one another.\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"We have gifts that differ according to the grace given to us: if prophecy, in proportion to our faith;\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"if service, in the serving; if one teaches, in the teaching;\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"if one encourages, in the encouraging; the one who shares, with generosity; the one who leads, with diligence; the one who shows mercy, with cheerfulness.\"}]},{\"verse\":9,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Let love be without pretense. Abhor what is evil; cling to what is good.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"In your love as brothers and sisters, be devoted to one another; in showing honor, outdo one another.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"In diligence, do not be slack; in spirit, be fervent; serve the Lord.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"In hope, rejoice; in affliction, endure; in prayer, persist.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Share in the needs of the holy ones; pursue hospitality.\"}]},{\"verse\":14,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Bless those who persecute; bless and do not curse.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Rejoice with those who rejoice; weep with those who weep.\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Think the same way toward one another; do not think lofty thoughts, but go along with the lowly. Do not think yourselves wise.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Repay no one evil for evil. Take thought for what is honorable in the sight of all people.\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"If possible, so far as it depends on you, live at peace with all people.\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Do not avenge yourselves, beloved, but leave room for the wrath, for it is written:\"},{\"speaker\":\"scripture\",\"text\":\"“Vengeance is mine; I will repay,”\"},{\"speaker\":\"narrator\",\"text\":\"says the Lord.\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"On the contrary,\"},{\"speaker\":\"scripture\",\"text\":\"“if your enemy is hungry, feed him; if he is thirsty, give him a drink; for by doing this you will heap burning coals on his head.”\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Do not be overcome by evil, but overcome evil with good.\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"rational worship\",\"lemma\":\"λογικός\",\"kind\":\"departure\",\"traditional\":\"spiritual worship; reasonable service\",\"note\":\"The adjective was common in the philosophy of the period for what belongs to reason or befits a rational being, and moralists used it to contrast thoughtful devotion with the mere slaughter of animals. Many translations render it 'spiritual', and some 'true and proper'; 'rational' stays closer to ordinary usage and fits the 'renewing of your mind' in the next verse. The noun covers the service of worship, especially sacrificial worship.\"},{\"verse\":2,\"phrase\":\"this age\",\"lemma\":\"αἰών\",\"kind\":\"departure\",\"traditional\":\"this world\",\"note\":\"The Greek word is a term of time, not place. Paul shares the Jewish framework of two ages, the present one and the one to come, and tells his readers not to take their shape from the present one. 'World' is the traditional rendering and several modern versions keep it, though others also use 'age'.\"},{\"verse\":3,\"phrase\":\"the measure of faith\",\"lemma\":\"μέτρον\",\"kind\":\"ambiguity\",\"traditional\":\"the measure of faith\",\"note\":\"This may mean a quantity of faith that God gives in differing amounts to different believers, or a measuring standard, namely the faith all believers share, by which each is to assess himself. Both readings have scholarly support. The translation keeps the traditional wording, which leaves the question open.\"},{\"verse\":6,\"phrase\":\"We have gifts\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"Having gifts ... let us use them\",\"note\":\"Verses 6 to 8 in Greek are a single clipped sentence with no main verb: 'having gifts ... if prophecy, in proportion to faith; if service, in the service', and so on. Most translations supply an instruction such as 'let us use them', and the context supports hearing the list as exhortation. The translation keeps the Greek's compressed form and does not add the words.\"},{\"verse\":6,\"phrase\":\"in proportion to our faith\",\"lemma\":\"ἀναλογία\",\"kind\":\"ambiguity\",\"traditional\":\"according to the proportion of faith\",\"note\":\"The Greek has 'the faith', which may mean the prophet's own faith (prophesy as far as your faith reaches and no further) or the faith as a body of belief (prophecy must agree with it). The second reading gave rise to the theological phrase 'the analogy of faith'. Most recent interpreters prefer the first, in line with verse 3, but the question is not settled.\"},{\"verse\":8,\"phrase\":\"the one who leads\",\"lemma\":\"προΐστημι\",\"kind\":\"ambiguity\",\"traditional\":\"he that ruleth; the one who leads\",\"note\":\"The verb can mean to preside or lead, and also to care for or give aid, as a patron would. Because it stands here between sharing and showing mercy, some scholars prefer 'the one who gives aid'. The translation follows the more common reading.\"},{\"verse\":11,\"phrase\":\"in spirit\",\"lemma\":\"πνεῦμα\",\"kind\":\"ambiguity\",\"traditional\":\"fervent in spirit\",\"note\":\"The verb means to boil or seethe. 'Spirit' may be the human spirit (be fervent inwardly) or the Holy Spirit (be set aglow by the Spirit); the Greek does not distinguish, and translations and commentators are divided.\"},{\"verse\":13,\"phrase\":\"holy ones\",\"lemma\":\"ἅγιος\",\"kind\":\"departure\",\"traditional\":\"saints\",\"note\":\"The traditional 'saints' now suggests canonised individuals or people of unusual virtue. Paul uses the word of all believers as people set apart for God, echoing the Septuagint's language for Israel. Many translations keep 'saints'; others use 'God's people'.\"},{\"verse\":14,\"phrase\":\"those who persecute\",\"lemma\":\"διώκω\",\"kind\":\"textual\",\"traditional\":\"those who persecute you\",\"note\":\"Many manuscripts read 'those who persecute you', as in the similar saying of Jesus. Some early witnesses lack 'you', and the Greek text translated here follows them. The sense is little affected.\"},{\"verse\":16,\"phrase\":\"the lowly\",\"lemma\":\"ταπεινός\",\"kind\":\"ambiguity\",\"traditional\":\"men of low estate; the lowly\",\"note\":\"The Greek form can be masculine (lowly people) or neuter (humble things, such as menial tasks). The contrast with 'lofty thoughts' favours the neuter, but the adjective elsewhere in the New Testament refers to people. The verb means to be carried along with something, hence 'go along with'.\"},{\"verse\":19,\"phrase\":\"the wrath\",\"lemma\":\"ὀργή\",\"kind\":\"ambiguity\",\"traditional\":\"the wrath of God\",\"note\":\"The Greek says only 'the wrath'; 'of God' is not in the text, though many translations add it. Almost all interpreters take it as God's judgment, as the quotation from Deuteronomy 32:35 that follows indicates. The point is to step aside and leave justice to God.\"},{\"verse\":20,\"phrase\":\"heap burning coals on his head\",\"lemma\":\"ἄνθραξ\",\"kind\":\"background\",\"traditional\":\"heap coals of fire on his head\",\"note\":\"The verse quotes Proverbs 25:21–22 in its Greek form. The meaning of the image is disputed. Most interpreters take it as the burning shame or remorse that kindness awakens in an enemy and that may lead to a change of heart. Others take it as a sign of the judgment the enemy incurs by persisting. The next verse, about overcoming evil with good, favours the first.\"}],\"candidates\":[{\"lemma\":\"ἀδελφός\",\"rendering\":\"brothers and sisters\",\"verse\":1,\"reason\":\"The plural address to mixed congregations recurs throughout the letters, and translations split between 'brothers', 'brothers and sisters' and 'brethren'; it needs one policy.\"},{\"lemma\":\"αἰών\",\"rendering\":\"age\",\"verse\":2,\"reason\":\"It is traditionally rendered 'world' in some places and 'age' or 'ever' in others; the two-age framework is obscured unless the temporal sense is rendered consistently.\"},{\"lemma\":\"παρακαλέω\",\"rendering\":\"urge (v. 1); encourage (v. 8)\",\"verse\":1,\"reason\":\"It ranges over urge, appeal, exhort, encourage and comfort across the New Testament, and each sense needs a fixed English word so that readers can see the links.\"},{\"lemma\":\"δουλεύω\",\"rendering\":\"serve\",\"verse\":11,\"reason\":\"It means to serve as a slave; it should be aligned with whatever is decided for δοῦλος and kept distinct from διακονέω and διακονία, which are also 'serve' and 'service'.\"},{\"lemma\":\"λατρεία\",\"rendering\":\"worship\",\"verse\":1,\"reason\":\"This word for sacrificial service is rendered 'service' or 'worship' in different translations and needs to be distinguished consistently from προσκυνέω and διακονία.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So I urge you, brothers and sisters, through the mercies of God, to present your bodies as a sacrifice, living, holy, pleasing to God, which is your rational worship."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And do not be conformed to this age, but be transformed by the renewing of your mind, so that you may discern what the will of God is: what is good and pleasing and perfect."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For through the grace given to me I say to every one of you: do not think of yourself more highly than you ought to think, but think so as to think sensibly, each according to the measure of faith that God has apportioned."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For just as in one body we have many members, and the members do not all have the same function,"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "so we, the many, are one body in Christ, and individually members of one another."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "We have gifts that differ according to the grace given to us: if prophecy, in proportion to our faith;"
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "if service, in the serving; if one teaches, in the teaching;"
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "if one encourages, in the encouraging; the one who shares, with generosity; the one who leads, with diligence; the one who shows mercy, with cheerfulness."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Let love be without pretense. Abhor what is evil; cling to what is good."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "In your love as brothers and sisters, be devoted to one another; in showing honor, outdo one another."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "In diligence, do not be slack; in spirit, be fervent; serve the Lord."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "In hope, rejoice; in affliction, endure; in prayer, persist."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Share in the needs of the holy ones; pursue hospitality."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Bless those who persecute; bless and do not curse."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Rejoice with those who rejoice; weep with those who weep."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Think the same way toward one another; do not think lofty thoughts, but go along with the lowly. Do not think yourselves wise."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Repay no one evil for evil. Take thought for what is honorable in the sight of all people."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "If possible, so far as it depends on you, live at peace with all people."
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Do not avenge yourselves, beloved, but leave room for the wrath, for it is written:"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“Vengeance is mine; I will repay,”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "says the Lord."
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "On the contrary,"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“if your enemy is hungry, feed him; if he is thirsty, give him a drink; for by doing this you will heap burning coals on his head.”"
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Do not be overcome by evil, but overcome evil with good."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "rational worship",
+    "lemma": "λογικός",
+    "kind": "departure",
+    "traditional": "spiritual worship; reasonable service",
+    "note": "The adjective was common in the philosophy of the period for what belongs to reason or befits a rational being, and moralists used it to contrast thoughtful devotion with the mere slaughter of animals. Many translations render it 'spiritual', and some 'true and proper'; 'rational' stays closer to ordinary usage and fits the 'renewing of your mind' in the next verse. The noun covers the service of worship, especially sacrificial worship."
+   },
+   {
+    "verse": 2,
+    "phrase": "this age",
+    "lemma": "αἰών",
+    "kind": "departure",
+    "traditional": "this world",
+    "note": "The Greek word is a term of time, not place. Paul shares the Jewish framework of two ages, the present one and the one to come, and tells his readers not to take their shape from the present one. 'World' is the traditional rendering and several modern versions keep it, though others also use 'age'."
+   },
+   {
+    "verse": 3,
+    "phrase": "the measure of faith",
+    "lemma": "μέτρον",
+    "kind": "ambiguity",
+    "traditional": "the measure of faith",
+    "note": "This may mean a quantity of faith that God gives in differing amounts to different believers, or a measuring standard, namely the faith all believers share, by which each is to assess himself. Both readings have scholarly support. The translation keeps the traditional wording, which leaves the question open."
+   },
+   {
+    "verse": 6,
+    "phrase": "We have gifts",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "Having gifts ... let us use them",
+    "note": "Verses 6 to 8 in Greek are a single clipped sentence with no main verb: 'having gifts ... if prophecy, in proportion to faith; if service, in the service', and so on. Most translations supply an instruction such as 'let us use them', and the context supports hearing the list as exhortation. The translation keeps the Greek's compressed form and does not add the words."
+   },
+   {
+    "verse": 6,
+    "phrase": "in proportion to our faith",
+    "lemma": "ἀναλογία",
+    "kind": "ambiguity",
+    "traditional": "according to the proportion of faith",
+    "note": "The Greek has 'the faith', which may mean the prophet's own faith (prophesy as far as your faith reaches and no further) or the faith as a body of belief (prophecy must agree with it). The second reading gave rise to the theological phrase 'the analogy of faith'. Most recent interpreters prefer the first, in line with verse 3, but the question is not settled."
+   },
+   {
+    "verse": 8,
+    "phrase": "the one who leads",
+    "lemma": "προΐστημι",
+    "kind": "ambiguity",
+    "traditional": "he that ruleth; the one who leads",
+    "note": "The verb can mean to preside or lead, and also to care for or give aid, as a patron would. Because it stands here between sharing and showing mercy, some scholars prefer 'the one who gives aid'. The translation follows the more common reading."
+   },
+   {
+    "verse": 11,
+    "phrase": "in spirit",
+    "lemma": "πνεῦμα",
+    "kind": "ambiguity",
+    "traditional": "fervent in spirit",
+    "note": "The verb means to boil or seethe. 'Spirit' may be the human spirit (be fervent inwardly) or the Holy Spirit (be set aglow by the Spirit); the Greek does not distinguish, and translations and commentators are divided."
+   },
+   {
+    "verse": 13,
+    "phrase": "holy ones",
+    "lemma": "ἅγιος",
+    "kind": "departure",
+    "traditional": "saints",
+    "note": "The traditional 'saints' now suggests canonised individuals or people of unusual virtue. Paul uses the word of all believers as people set apart for God, echoing the Septuagint's language for Israel. Many translations keep 'saints'; others use 'God's people'."
+   },
+   {
+    "verse": 14,
+    "phrase": "those who persecute",
+    "lemma": "διώκω",
+    "kind": "textual",
+    "traditional": "those who persecute you",
+    "note": "Many manuscripts read 'those who persecute you', as in the similar saying of Jesus. Some early witnesses lack 'you', and the Greek text translated here follows them. The sense is little affected."
+   },
+   {
+    "verse": 16,
+    "phrase": "the lowly",
+    "lemma": "ταπεινός",
+    "kind": "ambiguity",
+    "traditional": "men of low estate; the lowly",
+    "note": "The Greek form can be masculine (lowly people) or neuter (humble things, such as menial tasks). The contrast with 'lofty thoughts' favours the neuter, but the adjective elsewhere in the New Testament refers to people. The verb means to be carried along with something, hence 'go along with'."
+   },
+   {
+    "verse": 19,
+    "phrase": "the wrath",
+    "lemma": "ὀργή",
+    "kind": "ambiguity",
+    "traditional": "the wrath of God",
+    "note": "The Greek says only 'the wrath'; 'of God' is not in the text, though many translations add it. Almost all interpreters take it as God's judgment, as the quotation from Deuteronomy 32:35 that follows indicates. The point is to step aside and leave justice to God."
+   },
+   {
+    "verse": 20,
+    "phrase": "heap burning coals on his head",
+    "lemma": "ἄνθραξ",
+    "kind": "background",
+    "traditional": "heap coals of fire on his head",
+    "note": "The verse quotes Proverbs 25:21–22 in its Greek form. The meaning of the image is disputed. Most interpreters take it as the burning shame or remorse that kindness awakens in an enemy and that may lead to a change of heart. Others take it as a sign of the judgment the enemy incurs by persisting. The next verse, about overcoming evil with good, favours the first."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "ἀδελφός",
+    "rendering": "brothers and sisters",
+    "verse": 1,
+    "reason": "The plural address to mixed congregations recurs throughout the letters, and translations split between 'brothers', 'brothers and sisters' and 'brethren'; it needs one policy."
+   },
+   {
+    "lemma": "αἰών",
+    "rendering": "age",
+    "verse": 2,
+    "reason": "It is traditionally rendered 'world' in some places and 'age' or 'ever' in others; the two-age framework is obscured unless the temporal sense is rendered consistently."
+   },
+   {
+    "lemma": "παρακαλέω",
+    "rendering": "urge (v. 1); encourage (v. 8)",
+    "verse": 1,
+    "reason": "It ranges over urge, appeal, exhort, encourage and comfort across the New Testament, and each sense needs a fixed English word so that readers can see the links."
+   },
+   {
+    "lemma": "δουλεύω",
+    "rendering": "serve",
+    "verse": 11,
+    "reason": "It means to serve as a slave; it should be aligned with whatever is decided for δοῦλος and kept distinct from διακονέω and διακονία, which are also 'serve' and 'service'."
+   },
+   {
+    "lemma": "λατρεία",
+    "rendering": "worship",
+    "verse": 1,
+    "reason": "This word for sacrificial service is rendered 'service' or 'worship' in different translations and needs to be distinguished consistently from προσκυνέω and διακονία."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

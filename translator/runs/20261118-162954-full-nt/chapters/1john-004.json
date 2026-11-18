@@ -1,0 +1,369 @@
+{
+ "id": "1john-004",
+ "book": "1john",
+ "chapter": 4,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZhPm62KfSG2jQfiE",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 7423,
+  "output_tokens": 9707
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Beloved, do not believe every spirit, but test the spirits to see whether they are from God, because many false prophets have gone out into the world.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"By this you know the Spirit of God: every spirit that acknowledges Jesus Christ as having come in the flesh is from God,\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and every spirit that does not acknowledge Jesus is not from God. This is the spirit of the antichrist, which you have heard is coming, and now it is already in the world.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"You are from God, little children, and you have overcome them, because the one who is in you is greater than the one who is in the world.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They are from the world; that is why they speak from the world, and the world listens to them.\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"We are from God. Whoever knows God listens to us; whoever is not from God does not listen to us. From this we know the Spirit of truth and the spirit of error.\"}]},{\"verse\":7,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Beloved, let us love one another, because love is from God, and everyone who loves has been born of God and knows God.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Whoever does not love has not come to know God, because God is love.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"In this the love of God was revealed among us: that God has sent his one and only Son into the world so that we might live through him.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"In this is love: not that we have loved God, but that he loved us and sent his Son as the atoning sacrifice for our sins.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Beloved, if God loved us in this way, we also ought to love one another.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"No one has ever seen God. If we love one another, God remains in us, and his love has been perfected in us.\"}]},{\"verse\":13,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"By this we know that we remain in him and he in us: that he has given us of his Spirit.\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And we have seen and testify that the Father has sent the Son as Savior of the world.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Whoever acknowledges that Jesus is the Son of God, God remains in them and they in God.\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And we have come to know and have believed the love that God has for us. God is love, and whoever remains in love remains in God, and God remains in them.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"In this love has been perfected with us, so that we may have confidence on the day of judgment: because just as he is, so also are we in this world.\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"There is no fear in love; rather, perfect love drives out fear, because fear has to do with punishment, and the one who fears has not been perfected in love.\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"We love because he first loved us.\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"If anyone says,\"},{\"speaker\":\"other\",\"text\":\"“I love God,”\"},{\"speaker\":\"narrator\",\"text\":\"and hates their brother or sister, that person is a liar; for whoever does not love their brother or sister, whom they have seen, cannot love God, whom they have not seen.\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And this command we have from him: that whoever loves God must also love their brother or sister.\"}]}],\"notes\":[{\"verse\":2,\"phrase\":\"acknowledges\",\"lemma\":\"ὁμολογέω\",\"kind\":\"departure\",\"traditional\":\"confesses\",\"note\":\"The Greek verb means to declare openly or agree publicly to something. ‘Confess’ is the traditional rendering, but in modern English it mainly suggests admitting wrongdoing, which is not the sense here. Several modern translations also use ‘acknowledge’.\"},{\"verse\":2,\"phrase\":\"Jesus Christ as having come in the flesh\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"that Jesus Christ is come in the flesh\",\"note\":\"The Greek can be construed in three ways: acknowledging ‘Jesus Christ, come in the flesh’ (the person so described), acknowledging ‘that Jesus Christ has come in the flesh’ (the fact), or acknowledging ‘Jesus as the Christ come in the flesh’. The rendering here follows the first, which stays closest to the grammar. All three are aimed at teachers who denied that the Son of God was a real human being. The verb ‘you know’ could also be read as a command, ‘know’.\"},{\"verse\":3,\"phrase\":\"does not acknowledge Jesus\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"confesseth not that Jesus Christ is come in the flesh\",\"note\":\"Many later manuscripts expand this to match verse 2 (‘does not confess that Jesus Christ has come in the flesh’), which is the reading behind the King James Version. A few ancient witnesses, mostly Latin and patristic, read ‘annuls Jesus’ or ‘separates Jesus’ instead of ‘does not acknowledge’. Most editors judge the short reading translated here to be original.\"},{\"verse\":6,\"phrase\":\"the Spirit of truth and the spirit of error\",\"lemma\":\"πνεῦμα\",\"kind\":\"ambiguity\",\"traditional\":\"the spirit of truth, and the spirit of error\",\"note\":\"Greek manuscripts do not distinguish capital from lower-case letters, so whether ‘Spirit of truth’ means the Holy Spirit (as in John 14:17) or more generally a spirit that inspires true teaching is an interpreter's decision. The capital here follows verse 2, where the Spirit of God is the standard for the test. The word rendered ‘error’ can also mean ‘deception’, a going or leading astray.\"},{\"verse\":9,\"phrase\":\"one and only\",\"lemma\":\"μονογενής\",\"kind\":\"departure\",\"traditional\":\"only begotten\",\"note\":\"The word describes someone who is the only one of a kind, and was the ordinary term for an only child. Its second element is related to ‘kind’ rather than ‘beget’, so ‘one and only’ is now the usual rendering. A minority of scholars have recently defended ‘only begotten’.\"},{\"verse\":9,\"phrase\":\"among us\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"toward us\",\"note\":\"The Greek phrase is literally ‘in us’, and can mean ‘among us’, ‘within us’ or ‘in our case’. The same phrase occurs in verse 16, where it is rendered ‘for us’ because the love is something God ‘has’. In verse 12 it is rendered ‘in us’ because it follows the verb ‘remains’.\"},{\"verse\":10,\"phrase\":\"atoning sacrifice\",\"lemma\":\"ἱλασμός\",\"kind\":\"departure\",\"traditional\":\"propitiation\",\"note\":\"In the Greek Old Testament this word and its relatives are used for atonement and for offerings that deal with sin. The traditional ‘propitiation’ stresses the turning away of divine wrath, while others prefer ‘expiation’, the removal of sin. The dispute is long-running, and ‘atoning sacrifice’ leaves room for both senses in plain English.\"},{\"verse\":12,\"phrase\":\"remains\",\"lemma\":\"μένω\",\"kind\":\"departure\",\"traditional\":\"abides (KJV: dwelleth)\",\"note\":\"This is the everyday Greek verb for staying or remaining somewhere, and a favourite of this author for a lasting relationship with God. ‘Abide’ is the traditional rendering but is now archaic. ‘Remain’ is used for it throughout the chapter so that the repetition stays visible.\"},{\"verse\":12,\"phrase\":\"his love has been perfected in us\",\"lemma\":\"τελειόω\",\"kind\":\"ambiguity\",\"traditional\":\"his love is perfected in us\",\"note\":\"‘His love’ may mean God's love for us, our love for God, or the kind of love that is God's; most interpreters take it as God's love reaching its intended goal when believers love one another. ‘Perfected’ here means brought to its full end or completion. It does not mean made flawless.\"},{\"verse\":17,\"phrase\":\"In this\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"Herein\",\"note\":\"‘In this’ may point back to the mutual remaining of verse 16 or forward to the confidence and likeness described in the rest of the verse; the translation leaves both open. ‘He’ in ‘just as he is’ translates a pronoun (‘that one’) which this letter regularly uses for Jesus.\"},{\"verse\":19,\"phrase\":\"We love\",\"lemma\":\"ἀγαπάω\",\"kind\":\"textual\",\"traditional\":\"We love him\",\"note\":\"Many later manuscripts add an object, ‘him’ or ‘God’, and the King James Version follows them. The earliest witnesses have no object, which leaves the statement general. The verb form could also be read as an exhortation, ‘let us love’.\"},{\"verse\":20,\"phrase\":\"brother or sister\",\"lemma\":\"ἀδελφός\",\"kind\":\"departure\",\"traditional\":\"brother\",\"note\":\"The Greek word is the masculine ‘brother’, but in early Christian usage it regularly meant a fellow member of the community, man or woman. ‘Brother or sister’ conveys that range; several modern translations do the same. Some manuscripts make the last clause a question: ‘how can he love God, whom he has not seen?’\"}],\"candidates\":[{\"lemma\":\"μένω\",\"rendering\":\"remain\",\"verse\":12,\"reason\":\"A key word in John's Gospel and letters, rendered variously as abide, remain, live, dwell or stay; readers lose the thread if it varies.\"},{\"lemma\":\"ὁμολογέω\",\"rendering\":\"acknowledge\",\"verse\":2,\"reason\":\"Recurs across the Gospels, Paul, Hebrews and the Johannine letters; ‘confess’ misleads in modern English, and the alternatives (acknowledge, declare, profess) differ.\"},{\"lemma\":\"ἀδελφός\",\"rendering\":\"brother or sister\",\"verse\":20,\"reason\":\"Occurs throughout the New Testament for fellow believers of either sex; a single policy is needed on ‘brother’ versus ‘brother or sister’.\"},{\"lemma\":\"τελειόω\",\"rendering\":\"perfect (verb) / perfect (adjective τέλειος)\",\"verse\":12,\"reason\":\"The verb and τέλειος recur in Matthew, Paul, Hebrews, James and John, where ‘perfect’, ‘complete’ and ‘mature’ compete and affect theology.\"},{\"lemma\":\"ἀγαπητός\",\"rendering\":\"Beloved\",\"verse\":1,\"reason\":\"A frequent form of address in the letters, rendered ‘beloved’, ‘dear friends’ or ‘loved ones’; it should be uniform, and here it plays on the verb ‘love’.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Beloved, do not believe every spirit, but test the spirits to see whether they are from God, because many false prophets have gone out into the world."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "By this you know the Spirit of God: every spirit that acknowledges Jesus Christ as having come in the flesh is from God,"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and every spirit that does not acknowledge Jesus is not from God. This is the spirit of the antichrist, which you have heard is coming, and now it is already in the world."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "You are from God, little children, and you have overcome them, because the one who is in you is greater than the one who is in the world."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They are from the world; that is why they speak from the world, and the world listens to them."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "We are from God. Whoever knows God listens to us; whoever is not from God does not listen to us. From this we know the Spirit of truth and the spirit of error."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Beloved, let us love one another, because love is from God, and everyone who loves has been born of God and knows God."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Whoever does not love has not come to know God, because God is love."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "In this the love of God was revealed among us: that God has sent his one and only Son into the world so that we might live through him."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "In this is love: not that we have loved God, but that he loved us and sent his Son as the atoning sacrifice for our sins."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Beloved, if God loved us in this way, we also ought to love one another."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "No one has ever seen God. If we love one another, God remains in us, and his love has been perfected in us."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "By this we know that we remain in him and he in us: that he has given us of his Spirit."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And we have seen and testify that the Father has sent the Son as Savior of the world."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Whoever acknowledges that Jesus is the Son of God, God remains in them and they in God."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And we have come to know and have believed the love that God has for us. God is love, and whoever remains in love remains in God, and God remains in them."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "In this love has been perfected with us, so that we may have confidence on the day of judgment: because just as he is, so also are we in this world."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "There is no fear in love; rather, perfect love drives out fear, because fear has to do with punishment, and the one who fears has not been perfected in love."
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "We love because he first loved us."
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "If anyone says,"
+     },
+     {
+      "speaker": "other",
+      "text": "“I love God,”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "and hates their brother or sister, that person is a liar; for whoever does not love their brother or sister, whom they have seen, cannot love God, whom they have not seen."
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And this command we have from him: that whoever loves God must also love their brother or sister."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 2,
+    "phrase": "acknowledges",
+    "lemma": "ὁμολογέω",
+    "kind": "departure",
+    "traditional": "confesses",
+    "note": "The Greek verb means to declare openly or agree publicly to something. ‘Confess’ is the traditional rendering, but in modern English it mainly suggests admitting wrongdoing, which is not the sense here. Several modern translations also use ‘acknowledge’."
+   },
+   {
+    "verse": 2,
+    "phrase": "Jesus Christ as having come in the flesh",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "that Jesus Christ is come in the flesh",
+    "note": "The Greek can be construed in three ways: acknowledging ‘Jesus Christ, come in the flesh’ (the person so described), acknowledging ‘that Jesus Christ has come in the flesh’ (the fact), or acknowledging ‘Jesus as the Christ come in the flesh’. The rendering here follows the first, which stays closest to the grammar. All three are aimed at teachers who denied that the Son of God was a real human being. The verb ‘you know’ could also be read as a command, ‘know’."
+   },
+   {
+    "verse": 3,
+    "phrase": "does not acknowledge Jesus",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "confesseth not that Jesus Christ is come in the flesh",
+    "note": "Many later manuscripts expand this to match verse 2 (‘does not confess that Jesus Christ has come in the flesh’), which is the reading behind the King James Version. A few ancient witnesses, mostly Latin and patristic, read ‘annuls Jesus’ or ‘separates Jesus’ instead of ‘does not acknowledge’. Most editors judge the short reading translated here to be original."
+   },
+   {
+    "verse": 6,
+    "phrase": "the Spirit of truth and the spirit of error",
+    "lemma": "πνεῦμα",
+    "kind": "ambiguity",
+    "traditional": "the spirit of truth, and the spirit of error",
+    "note": "Greek manuscripts do not distinguish capital from lower-case letters, so whether ‘Spirit of truth’ means the Holy Spirit (as in John 14:17) or more generally a spirit that inspires true teaching is an interpreter's decision. The capital here follows verse 2, where the Spirit of God is the standard for the test. The word rendered ‘error’ can also mean ‘deception’, a going or leading astray."
+   },
+   {
+    "verse": 9,
+    "phrase": "one and only",
+    "lemma": "μονογενής",
+    "kind": "departure",
+    "traditional": "only begotten",
+    "note": "The word describes someone who is the only one of a kind, and was the ordinary term for an only child. Its second element is related to ‘kind’ rather than ‘beget’, so ‘one and only’ is now the usual rendering. A minority of scholars have recently defended ‘only begotten’."
+   },
+   {
+    "verse": 9,
+    "phrase": "among us",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "toward us",
+    "note": "The Greek phrase is literally ‘in us’, and can mean ‘among us’, ‘within us’ or ‘in our case’. The same phrase occurs in verse 16, where it is rendered ‘for us’ because the love is something God ‘has’. In verse 12 it is rendered ‘in us’ because it follows the verb ‘remains’."
+   },
+   {
+    "verse": 10,
+    "phrase": "atoning sacrifice",
+    "lemma": "ἱλασμός",
+    "kind": "departure",
+    "traditional": "propitiation",
+    "note": "In the Greek Old Testament this word and its relatives are used for atonement and for offerings that deal with sin. The traditional ‘propitiation’ stresses the turning away of divine wrath, while others prefer ‘expiation’, the removal of sin. The dispute is long-running, and ‘atoning sacrifice’ leaves room for both senses in plain English."
+   },
+   {
+    "verse": 12,
+    "phrase": "remains",
+    "lemma": "μένω",
+    "kind": "departure",
+    "traditional": "abides (KJV: dwelleth)",
+    "note": "This is the everyday Greek verb for staying or remaining somewhere, and a favourite of this author for a lasting relationship with God. ‘Abide’ is the traditional rendering but is now archaic. ‘Remain’ is used for it throughout the chapter so that the repetition stays visible."
+   },
+   {
+    "verse": 12,
+    "phrase": "his love has been perfected in us",
+    "lemma": "τελειόω",
+    "kind": "ambiguity",
+    "traditional": "his love is perfected in us",
+    "note": "‘His love’ may mean God's love for us, our love for God, or the kind of love that is God's; most interpreters take it as God's love reaching its intended goal when believers love one another. ‘Perfected’ here means brought to its full end or completion. It does not mean made flawless."
+   },
+   {
+    "verse": 17,
+    "phrase": "In this",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "Herein",
+    "note": "‘In this’ may point back to the mutual remaining of verse 16 or forward to the confidence and likeness described in the rest of the verse; the translation leaves both open. ‘He’ in ‘just as he is’ translates a pronoun (‘that one’) which this letter regularly uses for Jesus."
+   },
+   {
+    "verse": 19,
+    "phrase": "We love",
+    "lemma": "ἀγαπάω",
+    "kind": "textual",
+    "traditional": "We love him",
+    "note": "Many later manuscripts add an object, ‘him’ or ‘God’, and the King James Version follows them. The earliest witnesses have no object, which leaves the statement general. The verb form could also be read as an exhortation, ‘let us love’."
+   },
+   {
+    "verse": 20,
+    "phrase": "brother or sister",
+    "lemma": "ἀδελφός",
+    "kind": "departure",
+    "traditional": "brother",
+    "note": "The Greek word is the masculine ‘brother’, but in early Christian usage it regularly meant a fellow member of the community, man or woman. ‘Brother or sister’ conveys that range; several modern translations do the same. Some manuscripts make the last clause a question: ‘how can he love God, whom he has not seen?’"
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "μένω",
+    "rendering": "remain",
+    "verse": 12,
+    "reason": "A key word in John's Gospel and letters, rendered variously as abide, remain, live, dwell or stay; readers lose the thread if it varies."
+   },
+   {
+    "lemma": "ὁμολογέω",
+    "rendering": "acknowledge",
+    "verse": 2,
+    "reason": "Recurs across the Gospels, Paul, Hebrews and the Johannine letters; ‘confess’ misleads in modern English, and the alternatives (acknowledge, declare, profess) differ."
+   },
+   {
+    "lemma": "ἀδελφός",
+    "rendering": "brother or sister",
+    "verse": 20,
+    "reason": "Occurs throughout the New Testament for fellow believers of either sex; a single policy is needed on ‘brother’ versus ‘brother or sister’."
+   },
+   {
+    "lemma": "τελειόω",
+    "rendering": "perfect (verb) / perfect (adjective τέλειος)",
+    "verse": 12,
+    "reason": "The verb and τέλειος recur in Matthew, Paul, Hebrews, James and John, where ‘perfect’, ‘complete’ and ‘mature’ compete and affect theology."
+   },
+   {
+    "lemma": "ἀγαπητός",
+    "rendering": "Beloved",
+    "verse": 1,
+    "reason": "A frequent form of address in the letters, rendered ‘beloved’, ‘dear friends’ or ‘loved ones’; it should be uniform, and here it plays on the verb ‘love’."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

@@ -1,0 +1,267 @@
+{
+ "id": "hebrews-008",
+ "book": "hebrews",
+ "chapter": 8,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZefRT2YMLFSLf3eo",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 5719,
+  "output_tokens": 8149
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now the main point in what is being said is this: we have such a high priest, one who sat down at the right hand of the throne of the Majesty in the heavens,\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"a minister of the sanctuary and of the true tent, which the Lord pitched, not a human being.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For every high priest is appointed to offer both gifts and sacrifices; so it is necessary for this one also to have something to offer.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now if he were on earth, he would not even be a priest, since there are those who offer the gifts according to the law.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They serve what is a copy and shadow of the heavenly things, just as Moses was instructed when he was about to construct the tent. For he says,\"},{\"speaker\":\"scripture\",\"text\":\"“See that you make everything according to the pattern that was shown to you on the mountain.”\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But as it is, he has obtained a ministry that is superior to the same degree that the covenant he mediates is better, a covenant that has been enacted on better promises.\"}]},{\"verse\":7,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For if that first one had been faultless, no place would have been sought for a second.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For finding fault with them he says:\"},{\"speaker\":\"scripture\",\"text\":\"“Look, days are coming, says the Lord, when I will conclude a new covenant with the house of Israel and with the house of Judah,\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"scripture\",\"text\":\"not like the covenant that I made with their ancestors on the day I took them by the hand to lead them out of the land of Egypt; because they did not remain in my covenant, and I disregarded them, says the Lord.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"scripture\",\"text\":\"For this is the covenant that I will make with the house of Israel after those days, says the Lord: I will put my laws into their mind and write them on their hearts, and I will be their God, and they will be my people.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"scripture\",\"text\":\"And they will not teach, each one his fellow citizen and each one his brother, saying, ‘Know the Lord,’ because they will all know me, from the least of them to the greatest.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"scripture\",\"text\":\"For I will be merciful toward their wrongdoings, and their sins I will never remember again.”\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"In saying “new,” he has made the first one old; and what is growing old and aging is close to disappearing.\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"the main point\",\"lemma\":\"κεφάλαιον\",\"kind\":\"ambiguity\",\"traditional\":\"the sum\",\"note\":\"The Greek word can mean either the chief point of an argument or a summary of it. Older versions took it as 'the sum' of what has been said. Most modern scholars prefer 'main point', since what follows advances the argument rather than recapping it.\"},{\"verse\":1,\"phrase\":\"the heavens\",\"lemma\":\"οὐρανός\",\"kind\":\"departure\",\"traditional\":\"heaven\",\"note\":\"The Greek is plural, a Semitic turn of phrase for God's dwelling that a first-century hearer would have noticed. Most translations flatten it to the singular 'heaven'. The plural is kept here wherever the Greek has it.\"},{\"verse\":2,\"phrase\":\"the sanctuary\",\"lemma\":\"ἅγιος\",\"kind\":\"ambiguity\",\"traditional\":\"the sanctuary\",\"note\":\"The Greek is literally 'of the holy', a plural that could in form mean 'holy ones' or 'holy things'. Hebrews regularly uses this neuter plural for the holy place of the sanctuary, and the pairing with 'tent' confirms that sense here. Nearly all interpreters agree.\"},{\"verse\":2,\"phrase\":\"tent\",\"lemma\":\"σκηνή\",\"kind\":\"departure\",\"traditional\":\"tabernacle\",\"note\":\"The Greek word is the ordinary term for a tent, and the Septuagint uses it for Israel's portable wilderness sanctuary. 'Tabernacle' comes from Latin and has become a technical religious term, hiding the plain image a Greek reader would have heard. Most English versions use 'tabernacle', though some use 'tent'.\"},{\"verse\":5,\"phrase\":\"was instructed\",\"lemma\":\"χρηματίζω\",\"kind\":\"background\",\"traditional\":\"was warned by God\",\"note\":\"The verb was commonly used in this period for a divine communication or oracle, so the reader would understand that the instruction came from God. The quotation that follows is Exodus 25:40, where God tells Moses to build the wilderness sanctuary according to the pattern shown to him on Mount Sinai.\"},{\"verse\":8,\"phrase\":\"finding fault with them\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"finding fault with them\",\"note\":\"Manuscripts differ between two forms of 'them'. With one, the sense is 'finding fault with them, he says'. With the other, it could also be read 'finding fault, he says to them', which would make the fault lie with the covenant rather than the people. The translation follows the SBLGNT reading.\"},{\"verse\":8,\"phrase\":\"conclude\",\"lemma\":\"συντελέω\",\"kind\":\"departure\",\"traditional\":\"make\",\"note\":\"The quotation is Jeremiah 31:31–34 (38:31–34 in the Septuagint), the longest Old Testament quotation in the New Testament. Where the Septuagint has the usual verb for making a covenant, Hebrews has one meaning 'bring to completion'. Most versions render it 'make' or 'establish'; 'conclude' keeps the note of completion.\"},{\"verse\":9,\"phrase\":\"I disregarded them\",\"lemma\":\"ἀμελέω\",\"kind\":\"background\",\"traditional\":\"I regarded them not\",\"note\":\"Hebrews quotes Jeremiah in the Greek of the Septuagint. The Hebrew text of Jeremiah 31:32 reads differently at this point, usually translated 'though I was their husband' or 'their master'. English Old Testaments follow the Hebrew, which is why the two passages do not match.\"},{\"verse\":13,\"phrase\":\"made the first one old\",\"lemma\":\"παλαιόω\",\"kind\":\"departure\",\"traditional\":\"made the first one obsolete\",\"note\":\"The same Greek verb appears twice in this verse, first for what God's word 'new' does to the first covenant and then for what is 'growing old'. Many modern translations use 'obsolete', which fits the argument but is narrower than the Greek and loses the simple contrast of new and old. 'Old' is used both times to keep the repetition.\"}],\"candidates\":[{\"lemma\":\"διαθήκη\",\"rendering\":\"covenant\",\"verse\":6,\"reason\":\"Central term across the New Testament where 'covenant' competes with 'testament' or 'will' (notably Hebrews 9:16–17 and Galatians 3:15), and readers need a consistent policy.\"},{\"lemma\":\"σκηνή\",\"rendering\":\"tent\",\"verse\":2,\"reason\":\"Translators vary between 'tent', 'tabernacle', 'shelter' and 'dwelling' across the Gospels, Acts, Hebrews and Revelation, obscuring links between passages.\"},{\"lemma\":\"λατρεύω\",\"rendering\":\"serve\",\"verse\":5,\"reason\":\"Denotes cultic service to a deity and is rendered variously as 'serve' or 'worship', which blurs it with προσκυνέω and δουλεύω.\"},{\"lemma\":\"λειτουργός\",\"rendering\":\"minister\",\"verse\":2,\"reason\":\"With λειτουργία (v. 6) it denotes public or priestly service; 'minister' now suggests clergy, and versions vary between 'minister', 'servant' and 'one who serves'.\"},{\"lemma\":\"τύπος\",\"rendering\":\"pattern\",\"verse\":5,\"reason\":\"Rendered variously as 'pattern', 'type', 'example', 'model' and 'form' across Acts, Paul and Hebrews, with theological weight attached to the choice.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now the main point in what is being said is this: we have such a high priest, one who sat down at the right hand of the throne of the Majesty in the heavens,"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "a minister of the sanctuary and of the true tent, which the Lord pitched, not a human being."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For every high priest is appointed to offer both gifts and sacrifices; so it is necessary for this one also to have something to offer."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now if he were on earth, he would not even be a priest, since there are those who offer the gifts according to the law."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They serve what is a copy and shadow of the heavenly things, just as Moses was instructed when he was about to construct the tent. For he says,"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“See that you make everything according to the pattern that was shown to you on the mountain.”"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But as it is, he has obtained a ministry that is superior to the same degree that the covenant he mediates is better, a covenant that has been enacted on better promises."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For if that first one had been faultless, no place would have been sought for a second."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For finding fault with them he says:"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“Look, days are coming, says the Lord, when I will conclude a new covenant with the house of Israel and with the house of Judah,"
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "scripture",
+      "text": "not like the covenant that I made with their ancestors on the day I took them by the hand to lead them out of the land of Egypt; because they did not remain in my covenant, and I disregarded them, says the Lord."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "scripture",
+      "text": "For this is the covenant that I will make with the house of Israel after those days, says the Lord: I will put my laws into their mind and write them on their hearts, and I will be their God, and they will be my people."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "scripture",
+      "text": "And they will not teach, each one his fellow citizen and each one his brother, saying, ‘Know the Lord,’ because they will all know me, from the least of them to the greatest."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "scripture",
+      "text": "For I will be merciful toward their wrongdoings, and their sins I will never remember again.”"
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "In saying “new,” he has made the first one old; and what is growing old and aging is close to disappearing."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "the main point",
+    "lemma": "κεφάλαιον",
+    "kind": "ambiguity",
+    "traditional": "the sum",
+    "note": "The Greek word can mean either the chief point of an argument or a summary of it. Older versions took it as 'the sum' of what has been said. Most modern scholars prefer 'main point', since what follows advances the argument rather than recapping it."
+   },
+   {
+    "verse": 1,
+    "phrase": "the heavens",
+    "lemma": "οὐρανός",
+    "kind": "departure",
+    "traditional": "heaven",
+    "note": "The Greek is plural, a Semitic turn of phrase for God's dwelling that a first-century hearer would have noticed. Most translations flatten it to the singular 'heaven'. The plural is kept here wherever the Greek has it."
+   },
+   {
+    "verse": 2,
+    "phrase": "the sanctuary",
+    "lemma": "ἅγιος",
+    "kind": "ambiguity",
+    "traditional": "the sanctuary",
+    "note": "The Greek is literally 'of the holy', a plural that could in form mean 'holy ones' or 'holy things'. Hebrews regularly uses this neuter plural for the holy place of the sanctuary, and the pairing with 'tent' confirms that sense here. Nearly all interpreters agree."
+   },
+   {
+    "verse": 2,
+    "phrase": "tent",
+    "lemma": "σκηνή",
+    "kind": "departure",
+    "traditional": "tabernacle",
+    "note": "The Greek word is the ordinary term for a tent, and the Septuagint uses it for Israel's portable wilderness sanctuary. 'Tabernacle' comes from Latin and has become a technical religious term, hiding the plain image a Greek reader would have heard. Most English versions use 'tabernacle', though some use 'tent'."
+   },
+   {
+    "verse": 5,
+    "phrase": "was instructed",
+    "lemma": "χρηματίζω",
+    "kind": "background",
+    "traditional": "was warned by God",
+    "note": "The verb was commonly used in this period for a divine communication or oracle, so the reader would understand that the instruction came from God. The quotation that follows is Exodus 25:40, where God tells Moses to build the wilderness sanctuary according to the pattern shown to him on Mount Sinai."
+   },
+   {
+    "verse": 8,
+    "phrase": "finding fault with them",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "finding fault with them",
+    "note": "Manuscripts differ between two forms of 'them'. With one, the sense is 'finding fault with them, he says'. With the other, it could also be read 'finding fault, he says to them', which would make the fault lie with the covenant rather than the people. The translation follows the SBLGNT reading."
+   },
+   {
+    "verse": 8,
+    "phrase": "conclude",
+    "lemma": "συντελέω",
+    "kind": "departure",
+    "traditional": "make",
+    "note": "The quotation is Jeremiah 31:31–34 (38:31–34 in the Septuagint), the longest Old Testament quotation in the New Testament. Where the Septuagint has the usual verb for making a covenant, Hebrews has one meaning 'bring to completion'. Most versions render it 'make' or 'establish'; 'conclude' keeps the note of completion."
+   },
+   {
+    "verse": 9,
+    "phrase": "I disregarded them",
+    "lemma": "ἀμελέω",
+    "kind": "background",
+    "traditional": "I regarded them not",
+    "note": "Hebrews quotes Jeremiah in the Greek of the Septuagint. The Hebrew text of Jeremiah 31:32 reads differently at this point, usually translated 'though I was their husband' or 'their master'. English Old Testaments follow the Hebrew, which is why the two passages do not match."
+   },
+   {
+    "verse": 13,
+    "phrase": "made the first one old",
+    "lemma": "παλαιόω",
+    "kind": "departure",
+    "traditional": "made the first one obsolete",
+    "note": "The same Greek verb appears twice in this verse, first for what God's word 'new' does to the first covenant and then for what is 'growing old'. Many modern translations use 'obsolete', which fits the argument but is narrower than the Greek and loses the simple contrast of new and old. 'Old' is used both times to keep the repetition."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "διαθήκη",
+    "rendering": "covenant",
+    "verse": 6,
+    "reason": "Central term across the New Testament where 'covenant' competes with 'testament' or 'will' (notably Hebrews 9:16–17 and Galatians 3:15), and readers need a consistent policy."
+   },
+   {
+    "lemma": "σκηνή",
+    "rendering": "tent",
+    "verse": 2,
+    "reason": "Translators vary between 'tent', 'tabernacle', 'shelter' and 'dwelling' across the Gospels, Acts, Hebrews and Revelation, obscuring links between passages."
+   },
+   {
+    "lemma": "λατρεύω",
+    "rendering": "serve",
+    "verse": 5,
+    "reason": "Denotes cultic service to a deity and is rendered variously as 'serve' or 'worship', which blurs it with προσκυνέω and δουλεύω."
+   },
+   {
+    "lemma": "λειτουργός",
+    "rendering": "minister",
+    "verse": 2,
+    "reason": "With λειτουργία (v. 6) it denotes public or priestly service; 'minister' now suggests clergy, and versions vary between 'minister', 'servant' and 'one who serves'."
+   },
+   {
+    "lemma": "τύπος",
+    "rendering": "pattern",
+    "verse": 5,
+    "reason": "Rendered variously as 'pattern', 'type', 'example', 'model' and 'form' across Acts, Paul and Hebrews, with theological weight attached to the choice."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [
+  "Verse 2: ἅγιος is not rendered with a register form (holy ones; holy) and has no register-exception note."
+ ]
+}

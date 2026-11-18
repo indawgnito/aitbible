@@ -1,0 +1,467 @@
+{
+ "id": "acts-011",
+ "book": "acts",
+ "chapter": 11,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZkcfrjzagyhv9PKu",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 9025,
+  "output_tokens": 12944
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now the apostles and the brothers and sisters throughout Judea heard that the Gentiles too had received the word of God.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But when Peter went up to Jerusalem, those of the circumcision took issue with him,\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"saying,\"},{\"speaker\":\"other\",\"text\":\"“You went in to uncircumcised men and ate with them!”\"}]},{\"verse\":4,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But Peter began and set it out for them in order, saying:\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"“I was in the city of Joppa praying, and in a trance I saw a vision: an object coming down, like a great linen sheet being lowered from heaven by its four corners, and it came right up to me.\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"I stared into it and looked closely, and I saw the four-footed animals of the earth, the wild beasts, the crawling things, and the birds of the sky.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"I also heard a voice saying to me, ‘Get up, Peter; slaughter and eat.’\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"But I said, ‘Certainly not, Lord! Nothing profane or unclean has ever entered my mouth.’\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"But a voice from heaven answered a second time, ‘What God has made clean, you must not call profane.’\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"This happened three times, and then everything was drawn up again into heaven.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"And at that very moment three men arrived at the house where we were, sent to me from Caesarea.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"The Spirit told me to go with them, making no distinction. These six brothers also came with me, and we went into the man’s house.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"He told us how he had seen the angel standing in his house and saying,\"},{\"speaker\":\"angel\",\"text\":\"‘Send to Joppa and summon Simon, who is called Peter;\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"angel\",\"text\":\"he will speak words to you by which you will be saved, you and all your household.’\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"As I began to speak, the Holy Spirit fell on them, just as on us at the beginning.\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"And I remembered the word of the Lord, how he used to say,\"},{\"speaker\":\"Jesus\",\"text\":\"‘John baptized with water, but you will be baptized with the Holy Spirit.’\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"So if God gave them the same gift he gave us when we believed in the Lord Jesus Christ, who was I to be able to hinder God?”\"}]},{\"verse\":18,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When they heard this, they fell silent and glorified God, saying,\"},{\"speaker\":\"other\",\"text\":\"“So then, God has granted even the Gentiles the turning back that leads to life.”\"}]},{\"verse\":19,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now those who had been scattered by the trouble that arose over Stephen traveled as far as Phoenicia, Cyprus, and Antioch, speaking the word to no one except Jews.\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But some of them were men of Cyprus and Cyrene, who came to Antioch and began speaking to the Greek-speakers as well, proclaiming the good news of the Lord Jesus.\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The hand of the Lord was with them, and a great number who believed turned to the Lord.\"}]},{\"verse\":22,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The report about them reached the ears of the assembly in Jerusalem, and they sent Barnabas out as far as Antioch.\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When he arrived and saw the grace of God, he was glad, and he encouraged them all to stay with the Lord with resolute hearts,\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"for he was a good man, full of the Holy Spirit and of faith. And a sizeable crowd was added to the Lord.\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then he went off to Tarsus to look for Saul,\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and when he found him he brought him to Antioch. And so for a whole year they met together with the assembly and taught a sizeable crowd, and it was in Antioch that the disciples were first called Christians.\"}]},{\"verse\":27,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"In those days prophets came down from Jerusalem to Antioch.\"}]},{\"verse\":28,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"One of them, named Agabus, stood up and indicated through the Spirit that there was going to be a great famine over the whole inhabited world. This took place under Claudius.\"}]},{\"verse\":29,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The disciples decided that each of them, according to their means, would send aid to the brothers and sisters living in Judea.\"}]},{\"verse\":30,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"This they did, sending it to the elders by the hand of Barnabas and Saul.\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"Gentiles\",\"lemma\":\"ἔθνος\",\"kind\":\"background\",\"traditional\":\"Gentiles\",\"note\":\"The Greek word means 'peoples' or 'nations'. In the plural, in Jewish usage, it means the non-Jewish peoples. This translation uses 'Gentiles' for that sense and 'nations' where peoples as such are meant, but it is one Greek word throughout.\"},{\"verse\":1,\"phrase\":\"brothers and sisters\",\"lemma\":\"ἀδελφός\",\"kind\":\"departure\",\"traditional\":\"brethren / brothers\",\"note\":\"The masculine plural was the ordinary Greek way to address or describe a mixed group of siblings, and here it means the members of the community, women included. Older translations have 'brethren' or 'brothers', and several modern ones have 'brothers and sisters' or 'believers'. In verse 12, where six particular men are meant, 'brothers' is kept.\"},{\"verse\":2,\"phrase\":\"those of the circumcision\",\"lemma\":\"περιτομή\",\"kind\":\"ambiguity\",\"traditional\":\"they that were of the circumcision / the circumcision party\",\"note\":\"The phrase can simply mean Jewish believers, which at this point is nearly everyone in the Jerusalem community. It can also mean a group within it that held strictly to circumcision. Some translations decide for the second with 'the circumcision party', but the Greek does not settle it and the rendering here leaves it open.\"},{\"verse\":3,\"phrase\":\"uncircumcised men\",\"lemma\":\"ἀκροβυστία\",\"kind\":\"background\",\"traditional\":\"men uncircumcised\",\"note\":\"The Greek is blunt: literally 'men having a foreskin'. The charge is not that Peter preached to Gentiles but that he entered their home and shared their table. Many observant Jews avoided this because Gentile food and households were regarded as sources of impurity.\"},{\"verse\":8,\"phrase\":\"profane\",\"lemma\":\"κοινός\",\"kind\":\"departure\",\"traditional\":\"common\",\"note\":\"The word ordinarily means 'shared, common'. In Jewish Greek it had become a term for what is ritually ordinary as opposed to holy, and so unfit for a Jew to eat. 'Common' is the traditional rendering, but a modern reader hears it as 'frequent' or 'ordinary'. 'Profane' is used here in its older sense of 'not holy', and the related verb in verse 9 is rendered 'call profane' to keep the echo.\"},{\"verse\":12,\"phrase\":\"making no distinction\",\"lemma\":\"διακρίνω\",\"kind\":\"ambiguity\",\"traditional\":\"nothing doubting\",\"note\":\"The verb can mean 'to make a distinction' or, mostly in the middle voice, 'to hesitate, to doubt'. The form here is active, which favors 'making no distinction' between Jew and Gentile. Older translations render 'without hesitating', as in the parallel at 10:20. The same verb is used in verse 2 for the critics 'taking issue' with Peter, which may be a deliberate echo.\"},{\"verse\":18,\"phrase\":\"turning back\",\"lemma\":\"μετάνοια\",\"kind\":\"departure\",\"traditional\":\"repentance\",\"note\":\"The traditional rendering is 'repentance', which most translations keep as an established term. In modern English it centres on feeling sorry. The Greek word, shaped by the prophets' call to 'return' to God, means a change of direction in mind and conduct, and 'turning back' is used for it throughout this translation.\"},{\"verse\":19,\"phrase\":\"trouble\",\"lemma\":\"θλῖψις\",\"kind\":\"departure\",\"traditional\":\"persecution\",\"note\":\"Most translations have 'persecution' here, which describes the events of chapter 8 accurately. The Greek word is the general one for distress or affliction, not the specific word for persecution used at 8:1. The plainer rendering keeps the two apart.\"},{\"verse\":20,\"phrase\":\"Greek-speakers\",\"lemma\":\"Ἑλληνιστής\",\"kind\":\"textual\",\"traditional\":\"Greeks / Grecians\",\"note\":\"Manuscripts are divided between 'Hellenists' (Greek-speakers), the reading translated here, and 'Greeks'. At Acts 6:1 the first word means Greek-speaking Jews. Here the contrast with 'Jews' in verse 19 shows that non-Jews are meant, whichever reading is original. Many translations therefore print 'Greeks'.\"},{\"verse\":22,\"phrase\":\"assembly\",\"lemma\":\"ἐκκλησία\",\"kind\":\"departure\",\"traditional\":\"church\",\"note\":\"The traditional rendering is 'church', which is near-universal and which readers readily understand. A first-century hearer knew the word as a civic gathering and as the Septuagint's term for Israel assembled, whereas 'church' now suggests a building or an institution. This translation uses 'assembly' wherever the word occurs, though it can sound like a single meeting and not a standing community.\"},{\"verse\":26,\"phrase\":\"Christians\",\"lemma\":\"Χριστιανός\",\"kind\":\"background\",\"traditional\":\"Christians\",\"note\":\"The word is formed with a Latin-style ending used for the adherents or partisans of a leader, so it means roughly 'Christ's people'. It appears only three times in the New Testament and is not a name believers use for themselves there. Many scholars think outsiders in Antioch coined it, though this is not certain. The verb can mean either 'were called' or 'took the name'.\"},{\"verse\":28,\"phrase\":\"the whole inhabited world\",\"lemma\":\"οἰκουμένη\",\"kind\":\"background\",\"traditional\":\"all the world\",\"note\":\"The word means the inhabited world, and in common usage often amounted to the Roman empire. Claudius was emperor from AD 41 to 54. Ancient sources mention food shortages in several regions during his reign, including a severe famine in Judea in the mid-40s. No single empire-wide famine is recorded, so the phrase is probably a general expression for widespread scarcity.\"}],\"candidates\":[{\"lemma\":\"ἀδελφός\",\"rendering\":\"brothers and sisters\",\"verse\":1,\"reason\":\"The plural for community members recurs throughout Acts and the letters, and translators split between 'brothers', 'brothers and sisters' and 'believers', so readers need one policy.\"},{\"lemma\":\"θλῖψις\",\"rendering\":\"trouble\",\"verse\":19,\"reason\":\"It is rendered variously as tribulation, affliction, persecution, distress and trouble across the New Testament, and needs a default that keeps it distinct from διωγμός.\"},{\"lemma\":\"οἰκουμένη\",\"rendering\":\"the whole inhabited world\",\"verse\":28,\"reason\":\"It recurs in Luke-Acts, Hebrews and Revelation, where 'world', 'inhabited world' and 'empire' are all defensible, and it should be kept distinct from κόσμος.\"},{\"lemma\":\"διακονία\",\"rendering\":\"aid\",\"verse\":29,\"reason\":\"It covers table service, ministry and material relief (the collection), and translators vary between 'ministry', 'service' and 'relief', so a sense-split decision is needed.\"},{\"lemma\":\"κοινός\",\"rendering\":\"profane\",\"verse\":8,\"reason\":\"The ritual sense, with the verb κοινόω, recurs in Mark 7, Acts 10–11, Romans 14 and Hebrews, and is rendered 'common', 'unclean', 'impure', 'defiled' or 'profane'; it must also be kept distinct from ἀκάθαρτος.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now the apostles and the brothers and sisters throughout Judea heard that the Gentiles too had received the word of God."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But when Peter went up to Jerusalem, those of the circumcision took issue with him,"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“You went in to uncircumcised men and ate with them!”"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But Peter began and set it out for them in order, saying:"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "“I was in the city of Joppa praying, and in a trance I saw a vision: an object coming down, like a great linen sheet being lowered from heaven by its four corners, and it came right up to me."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "I stared into it and looked closely, and I saw the four-footed animals of the earth, the wild beasts, the crawling things, and the birds of the sky."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "I also heard a voice saying to me, ‘Get up, Peter; slaughter and eat.’"
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "But I said, ‘Certainly not, Lord! Nothing profane or unclean has ever entered my mouth.’"
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "But a voice from heaven answered a second time, ‘What God has made clean, you must not call profane.’"
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "This happened three times, and then everything was drawn up again into heaven."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "And at that very moment three men arrived at the house where we were, sent to me from Caesarea."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "The Spirit told me to go with them, making no distinction. These six brothers also came with me, and we went into the man’s house."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "He told us how he had seen the angel standing in his house and saying,"
+     },
+     {
+      "speaker": "angel",
+      "text": "‘Send to Joppa and summon Simon, who is called Peter;"
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "angel",
+      "text": "he will speak words to you by which you will be saved, you and all your household.’"
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "As I began to speak, the Holy Spirit fell on them, just as on us at the beginning."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "And I remembered the word of the Lord, how he used to say,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "‘John baptized with water, but you will be baptized with the Holy Spirit.’"
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "So if God gave them the same gift he gave us when we believed in the Lord Jesus Christ, who was I to be able to hinder God?”"
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When they heard this, they fell silent and glorified God, saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“So then, God has granted even the Gentiles the turning back that leads to life.”"
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now those who had been scattered by the trouble that arose over Stephen traveled as far as Phoenicia, Cyprus, and Antioch, speaking the word to no one except Jews."
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But some of them were men of Cyprus and Cyrene, who came to Antioch and began speaking to the Greek-speakers as well, proclaiming the good news of the Lord Jesus."
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The hand of the Lord was with them, and a great number who believed turned to the Lord."
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The report about them reached the ears of the assembly in Jerusalem, and they sent Barnabas out as far as Antioch."
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When he arrived and saw the grace of God, he was glad, and he encouraged them all to stay with the Lord with resolute hearts,"
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "for he was a good man, full of the Holy Spirit and of faith. And a sizeable crowd was added to the Lord."
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then he went off to Tarsus to look for Saul,"
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and when he found him he brought him to Antioch. And so for a whole year they met together with the assembly and taught a sizeable crowd, and it was in Antioch that the disciples were first called Christians."
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "In those days prophets came down from Jerusalem to Antioch."
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "One of them, named Agabus, stood up and indicated through the Spirit that there was going to be a great famine over the whole inhabited world. This took place under Claudius."
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The disciples decided that each of them, according to their means, would send aid to the brothers and sisters living in Judea."
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "This they did, sending it to the elders by the hand of Barnabas and Saul."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "Gentiles",
+    "lemma": "ἔθνος",
+    "kind": "background",
+    "traditional": "Gentiles",
+    "note": "The Greek word means 'peoples' or 'nations'. In the plural, in Jewish usage, it means the non-Jewish peoples. This translation uses 'Gentiles' for that sense and 'nations' where peoples as such are meant, but it is one Greek word throughout."
+   },
+   {
+    "verse": 1,
+    "phrase": "brothers and sisters",
+    "lemma": "ἀδελφός",
+    "kind": "departure",
+    "traditional": "brethren / brothers",
+    "note": "The masculine plural was the ordinary Greek way to address or describe a mixed group of siblings, and here it means the members of the community, women included. Older translations have 'brethren' or 'brothers', and several modern ones have 'brothers and sisters' or 'believers'. In verse 12, where six particular men are meant, 'brothers' is kept."
+   },
+   {
+    "verse": 2,
+    "phrase": "those of the circumcision",
+    "lemma": "περιτομή",
+    "kind": "ambiguity",
+    "traditional": "they that were of the circumcision / the circumcision party",
+    "note": "The phrase can simply mean Jewish believers, which at this point is nearly everyone in the Jerusalem community. It can also mean a group within it that held strictly to circumcision. Some translations decide for the second with 'the circumcision party', but the Greek does not settle it and the rendering here leaves it open."
+   },
+   {
+    "verse": 3,
+    "phrase": "uncircumcised men",
+    "lemma": "ἀκροβυστία",
+    "kind": "background",
+    "traditional": "men uncircumcised",
+    "note": "The Greek is blunt: literally 'men having a foreskin'. The charge is not that Peter preached to Gentiles but that he entered their home and shared their table. Many observant Jews avoided this because Gentile food and households were regarded as sources of impurity."
+   },
+   {
+    "verse": 8,
+    "phrase": "profane",
+    "lemma": "κοινός",
+    "kind": "departure",
+    "traditional": "common",
+    "note": "The word ordinarily means 'shared, common'. In Jewish Greek it had become a term for what is ritually ordinary as opposed to holy, and so unfit for a Jew to eat. 'Common' is the traditional rendering, but a modern reader hears it as 'frequent' or 'ordinary'. 'Profane' is used here in its older sense of 'not holy', and the related verb in verse 9 is rendered 'call profane' to keep the echo."
+   },
+   {
+    "verse": 12,
+    "phrase": "making no distinction",
+    "lemma": "διακρίνω",
+    "kind": "ambiguity",
+    "traditional": "nothing doubting",
+    "note": "The verb can mean 'to make a distinction' or, mostly in the middle voice, 'to hesitate, to doubt'. The form here is active, which favors 'making no distinction' between Jew and Gentile. Older translations render 'without hesitating', as in the parallel at 10:20. The same verb is used in verse 2 for the critics 'taking issue' with Peter, which may be a deliberate echo."
+   },
+   {
+    "verse": 18,
+    "phrase": "turning back",
+    "lemma": "μετάνοια",
+    "kind": "departure",
+    "traditional": "repentance",
+    "note": "The traditional rendering is 'repentance', which most translations keep as an established term. In modern English it centres on feeling sorry. The Greek word, shaped by the prophets' call to 'return' to God, means a change of direction in mind and conduct, and 'turning back' is used for it throughout this translation."
+   },
+   {
+    "verse": 19,
+    "phrase": "trouble",
+    "lemma": "θλῖψις",
+    "kind": "departure",
+    "traditional": "persecution",
+    "note": "Most translations have 'persecution' here, which describes the events of chapter 8 accurately. The Greek word is the general one for distress or affliction, not the specific word for persecution used at 8:1. The plainer rendering keeps the two apart."
+   },
+   {
+    "verse": 20,
+    "phrase": "Greek-speakers",
+    "lemma": "Ἑλληνιστής",
+    "kind": "textual",
+    "traditional": "Greeks / Grecians",
+    "note": "Manuscripts are divided between 'Hellenists' (Greek-speakers), the reading translated here, and 'Greeks'. At Acts 6:1 the first word means Greek-speaking Jews. Here the contrast with 'Jews' in verse 19 shows that non-Jews are meant, whichever reading is original. Many translations therefore print 'Greeks'."
+   },
+   {
+    "verse": 22,
+    "phrase": "assembly",
+    "lemma": "ἐκκλησία",
+    "kind": "departure",
+    "traditional": "church",
+    "note": "The traditional rendering is 'church', which is near-universal and which readers readily understand. A first-century hearer knew the word as a civic gathering and as the Septuagint's term for Israel assembled, whereas 'church' now suggests a building or an institution. This translation uses 'assembly' wherever the word occurs, though it can sound like a single meeting and not a standing community."
+   },
+   {
+    "verse": 26,
+    "phrase": "Christians",
+    "lemma": "Χριστιανός",
+    "kind": "background",
+    "traditional": "Christians",
+    "note": "The word is formed with a Latin-style ending used for the adherents or partisans of a leader, so it means roughly 'Christ's people'. It appears only three times in the New Testament and is not a name believers use for themselves there. Many scholars think outsiders in Antioch coined it, though this is not certain. The verb can mean either 'were called' or 'took the name'."
+   },
+   {
+    "verse": 28,
+    "phrase": "the whole inhabited world",
+    "lemma": "οἰκουμένη",
+    "kind": "background",
+    "traditional": "all the world",
+    "note": "The word means the inhabited world, and in common usage often amounted to the Roman empire. Claudius was emperor from AD 41 to 54. Ancient sources mention food shortages in several regions during his reign, including a severe famine in Judea in the mid-40s. No single empire-wide famine is recorded, so the phrase is probably a general expression for widespread scarcity."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "ἀδελφός",
+    "rendering": "brothers and sisters",
+    "verse": 1,
+    "reason": "The plural for community members recurs throughout Acts and the letters, and translators split between 'brothers', 'brothers and sisters' and 'believers', so readers need one policy."
+   },
+   {
+    "lemma": "θλῖψις",
+    "rendering": "trouble",
+    "verse": 19,
+    "reason": "It is rendered variously as tribulation, affliction, persecution, distress and trouble across the New Testament, and needs a default that keeps it distinct from διωγμός."
+   },
+   {
+    "lemma": "οἰκουμένη",
+    "rendering": "the whole inhabited world",
+    "verse": 28,
+    "reason": "It recurs in Luke-Acts, Hebrews and Revelation, where 'world', 'inhabited world' and 'empire' are all defensible, and it should be kept distinct from κόσμος."
+   },
+   {
+    "lemma": "διακονία",
+    "rendering": "aid",
+    "verse": 29,
+    "reason": "It covers table service, ministry and material relief (the collection), and translators vary between 'ministry', 'service' and 'relief', so a sense-split decision is needed."
+   },
+   {
+    "lemma": "κοινός",
+    "rendering": "profane",
+    "verse": 8,
+    "reason": "The ritual sense, with the verb κοινόω, recurs in Mark 7, Acts 10–11, Romans 14 and Hebrews, and is rendered 'common', 'unclean', 'impure', 'defiled' or 'profane'; it must also be kept distinct from ἀκάθαρτος."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

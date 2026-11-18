@@ -1,0 +1,425 @@
+{
+ "id": "1peter-002",
+ "book": "1peter",
+ "chapter": 2,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZvnw97o8oZdq6YWs",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 7923,
+  "output_tokens": 23801
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So put away all malice and all deceit, hypocrisy and envy and all slander,\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and, like newborn babies, crave the pure spiritual milk, so that by it you may grow up into salvation,\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"if indeed you have tasted that the Lord is good.\"}]},{\"verse\":4,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"As you come to him, a living stone, rejected by people but chosen and honored in God’s sight,\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"you yourselves also, like living stones, are being built up as a spiritual house, to be a holy priesthood, to offer spiritual sacrifices acceptable to God through Jesus Christ.\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For it stands in Scripture:\"},{\"speaker\":\"scripture\",\"text\":\"“See, I am laying in Zion a stone, a cornerstone chosen and honored, and whoever believes in him will never be put to shame.”\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So the honor is for you who believe; but for those who do not believe,\"},{\"speaker\":\"scripture\",\"text\":\"“The stone that the builders rejected has become the head of the corner,”\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and\"},{\"speaker\":\"scripture\",\"text\":\"“a stone to stumble on and a rock to trip over.”\"},{\"speaker\":\"narrator\",\"text\":\"They stumble because they disobey the word, and to this they were also appointed.\"}]},{\"verse\":9,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But you are a chosen race, a royal priesthood, a holy nation, a people for his own possession, so that you may proclaim the mighty acts of the one who called you out of darkness into his marvelous light.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Once you were not a people, but now you are God’s people; you had not received mercy, but now you have received mercy.\"}]},{\"verse\":11,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Beloved, I urge you as foreigners and temporary residents to keep away from the desires of the flesh, which wage war against the soul.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Keep your conduct among the Gentiles good, so that, where they slander you as wrongdoers, they may observe your good deeds and glorify God on the day of visitation.\"}]},{\"verse\":13,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Submit, for the Lord’s sake, to every human creature: whether to the emperor as supreme,\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"or to governors as those sent by him to punish wrongdoers and to praise those who do good.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For this is God’s will: that by doing good you should silence the ignorance of foolish people.\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Live as free people, yet not using your freedom as a cover for evil, but as slaves of God.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Honor everyone. Love the brotherhood. Fear God. Honor the emperor.\"}]},{\"verse\":18,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Household slaves, submit to your masters with all fear, not only to the good and considerate but also to the unjust.\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For this wins favor: if someone, out of awareness of God, bears up under pain while suffering unjustly.\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For what credit is there if you sin and are beaten for it and endure? But if you do good and suffer for it and endure, this wins favor with God.\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For to this you were called, because Christ also suffered for you, leaving you an example so that you would follow in his footsteps.\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He committed no sin, nor was deceit found in his mouth.\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When he was insulted, he did not insult in return; when he suffered, he did not threaten, but entrusted himself to the one who judges justly.\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He himself bore our sins in his body on the tree, so that we, having died to sins, might live for righteousness. By his wounds you were healed.\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For you were like sheep going astray, but now you have turned back to the shepherd and overseer of your souls.\"}]}],\"notes\":[{\"verse\":2,\"phrase\":\"spiritual\",\"lemma\":\"λογικός\",\"kind\":\"ambiguity\",\"traditional\":\"spiritual milk; milk of the word\",\"note\":\"The adjective normally means 'rational' or 'belonging to the mind', and in religious writing of the period it marks something as non-literal: this is not physical milk. Many translations and commentators instead render 'milk of the word', because the adjective is related to the noun 'word' (logos) and the preceding verses have just spoken of God's word. Both readings are well supported. A different Greek word lies behind 'spiritual' in verse 5.\"},{\"verse\":4,\"phrase\":\"honored\",\"lemma\":\"ἔντιμος\",\"kind\":\"departure\",\"traditional\":\"precious\",\"note\":\"The word means 'held in honor, highly valued' and is usually rendered 'precious' here and in verse 6. 'Honored' is used so that the reader can hear the link in verse 7, where the related noun 'honor' is applied to those who believe, in contrast to the shame mentioned at the end of verse 6.\"},{\"verse\":5,\"phrase\":\"are being built up\",\"lemma\":\"οἰκοδομέω\",\"kind\":\"ambiguity\",\"traditional\":\"are being built up\",\"note\":\"The Greek form can be either a statement ('you are being built') or a command ('let yourselves be built'). Most translations and commentators take it as a statement, as here, but some prefer the command.\"},{\"verse\":8,\"phrase\":\"a rock to trip over\",\"lemma\":\"σκάνδαλον\",\"kind\":\"departure\",\"traditional\":\"a rock of offense\",\"note\":\"The Greek noun refers to something that causes a person to fall, a trap or obstacle, not to something that hurts feelings, as 'offense' now suggests. The line comes from Isaiah 8:14; the two quotations before it are from Isaiah 28:16 and Psalm 118:22.\"},{\"verse\":9,\"phrase\":\"nation\",\"lemma\":\"ἔθνος\",\"kind\":\"background\",\"traditional\":\"nation\",\"note\":\"The word translated 'nation' here is the same word translated 'Gentiles' in verse 12; in the plural it commonly means the non-Jewish peoples. The titles in this verse are drawn from Exodus 19:5–6 and Isaiah 43:20–21, where they describe Israel, and verse 10 echoes Hosea 1–2.\"},{\"verse\":9,\"phrase\":\"mighty acts\",\"lemma\":\"ἀρετή\",\"kind\":\"departure\",\"traditional\":\"praises; excellencies\",\"note\":\"The word usually means 'excellence' or 'virtue', but in the plural and used of a deity it referred to displays of divine power. Peter is echoing the Greek version of Isaiah 43:21, where the word stands for a Hebrew term meaning 'praise', so 'praises' and 'excellencies' are also defensible and widely used.\"},{\"verse\":11,\"phrase\":\"foreigners and temporary residents\",\"lemma\":\"πάροικος\",\"kind\":\"departure\",\"traditional\":\"strangers and pilgrims; sojourners and exiles\",\"note\":\"The first term was used for a non-citizen living in a place with limited rights, the second for someone staying only for a time. 'Pilgrims' and 'exiles' suggest a religious journey or banishment, which neither word implies. The pair echoes Abraham's description of himself in Genesis 23:4. Scholars debate whether Peter is describing the readers' actual civic status, their social estrangement as Christians, or both.\"},{\"verse\":12,\"phrase\":\"the day of visitation\",\"lemma\":\"ἐπισκοπή\",\"kind\":\"background\",\"traditional\":\"the day of visitation\",\"note\":\"In the Greek Scriptures God's 'visitation' is his coming to inspect and act, whether to rescue or to judge; the phrase occurs in Isaiah 10:3. Whether Peter means the final judgment or the moment when God brings these observers to faith is disputed.\"},{\"verse\":13,\"phrase\":\"every human creature\",\"lemma\":\"κτίσις\",\"kind\":\"departure\",\"traditional\":\"every human institution; every ordinance of man\",\"note\":\"Most translations render 'every human institution' or 'authority'. Elsewhere in the New Testament, however, this noun always refers to creation or a created being, and the sense 'institution' is hard to parallel; a number of commentators therefore read 'every human creature', with emperor and governors as the first examples. The question remains open. 'Emperor' translates the ordinary word for 'king', which Greek speakers in the eastern provinces used for the Roman emperor.\"},{\"verse\":16,\"phrase\":\"slaves of God\",\"lemma\":\"δοῦλος\",\"kind\":\"departure\",\"traditional\":\"servants of God\",\"note\":\"The word means a slave, a person owned by another, not a hired servant. The paradox is deliberate: those who are free belong wholly to God. In verse 18 'household slaves' translates a different word, used for slaves attached to a household and traditionally rendered 'servants'.\"},{\"verse\":18,\"phrase\":\"with all fear\",\"lemma\":\"φόβος\",\"kind\":\"ambiguity\",\"traditional\":\"with all respect\",\"note\":\"Many translations have 'with all respect', taking the attitude as directed toward the masters. In this letter, though, fear is owed to God (as in verse 17) and readers are told not to fear human opponents (3:14), so reverence toward God is probably meant. The Greek does not state the object.\"},{\"verse\":19,\"phrase\":\"wins favor\",\"lemma\":\"χάρις\",\"kind\":\"departure\",\"traditional\":\"is commendable; is a gracious thing; is thankworthy\",\"note\":\"The word is the one usually translated 'grace'. Here and in verse 20 it is taken in its everyday sense of favor or credit: such conduct is what God looks on with approval. Some interpreters instead read 'this is grace', meaning that such endurance is evidence of God's grace at work.\"},{\"verse\":24,\"phrase\":\"tree\",\"lemma\":\"ξύλον\",\"kind\":\"background\",\"traditional\":\"tree\",\"note\":\"The Greek word means wood or something made of wood, such as a beam, stake or gallows, and is used here for the cross. 'Tree' is kept because the wording echoes Deuteronomy 21:22–23, where a body hung 'on a tree' is under God's curse. Verses 22–25 draw throughout on the language of Isaiah 53.\"}],\"candidates\":[{\"lemma\":\"ψυχή\",\"rendering\":\"soul\",\"verse\":11,\"reason\":\"Ranges across 'life', 'self' and 'soul' throughout the New Testament, and 'soul' can suggest to modern readers an immaterial part of the person that the Greek does not necessarily imply.\"},{\"lemma\":\"δοῦλος\",\"rendering\":\"slaves\",\"verse\":16,\"reason\":\"Translations waver between 'slave', 'servant' and 'bondservant' across the New Testament, and the choice changes how readers hear both social instructions and the metaphor of belonging to God.\"},{\"lemma\":\"χάρις\",\"rendering\":\"favor\",\"verse\":19,\"reason\":\"Usually 'grace', but in places it means favor, credit or thanks; a rule is needed for when to leave the traditional word.\"},{\"lemma\":\"σκάνδαλον\",\"rendering\":\"a rock to trip over (traditionally 'offense')\",\"verse\":8,\"reason\":\"Recurs in the Gospels and Paul with its verb, and the traditional 'offense/offend' now suggests hurt feelings where the Greek means a cause of falling.\"},{\"lemma\":\"ἐπίσκοπος\",\"rendering\":\"overseer\",\"verse\":25,\"reason\":\"Rendered 'bishop', 'overseer' or 'guardian' in different translations; it needs one decision covering both its use for Christ here and its use for church leaders elsewhere.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So put away all malice and all deceit, hypocrisy and envy and all slander,"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and, like newborn babies, crave the pure spiritual milk, so that by it you may grow up into salvation,"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "if indeed you have tasted that the Lord is good."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "As you come to him, a living stone, rejected by people but chosen and honored in God’s sight,"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "you yourselves also, like living stones, are being built up as a spiritual house, to be a holy priesthood, to offer spiritual sacrifices acceptable to God through Jesus Christ."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For it stands in Scripture:"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“See, I am laying in Zion a stone, a cornerstone chosen and honored, and whoever believes in him will never be put to shame.”"
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So the honor is for you who believe; but for those who do not believe,"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“The stone that the builders rejected has become the head of the corner,”"
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“a stone to stumble on and a rock to trip over.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "They stumble because they disobey the word, and to this they were also appointed."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But you are a chosen race, a royal priesthood, a holy nation, a people for his own possession, so that you may proclaim the mighty acts of the one who called you out of darkness into his marvelous light."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Once you were not a people, but now you are God’s people; you had not received mercy, but now you have received mercy."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Beloved, I urge you as foreigners and temporary residents to keep away from the desires of the flesh, which wage war against the soul."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Keep your conduct among the Gentiles good, so that, where they slander you as wrongdoers, they may observe your good deeds and glorify God on the day of visitation."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Submit, for the Lord’s sake, to every human creature: whether to the emperor as supreme,"
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "or to governors as those sent by him to punish wrongdoers and to praise those who do good."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For this is God’s will: that by doing good you should silence the ignorance of foolish people."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Live as free people, yet not using your freedom as a cover for evil, but as slaves of God."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Honor everyone. Love the brotherhood. Fear God. Honor the emperor."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Household slaves, submit to your masters with all fear, not only to the good and considerate but also to the unjust."
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For this wins favor: if someone, out of awareness of God, bears up under pain while suffering unjustly."
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For what credit is there if you sin and are beaten for it and endure? But if you do good and suffer for it and endure, this wins favor with God."
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For to this you were called, because Christ also suffered for you, leaving you an example so that you would follow in his footsteps."
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He committed no sin, nor was deceit found in his mouth."
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When he was insulted, he did not insult in return; when he suffered, he did not threaten, but entrusted himself to the one who judges justly."
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He himself bore our sins in his body on the tree, so that we, having died to sins, might live for righteousness. By his wounds you were healed."
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For you were like sheep going astray, but now you have turned back to the shepherd and overseer of your souls."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 2,
+    "phrase": "spiritual",
+    "lemma": "λογικός",
+    "kind": "ambiguity",
+    "traditional": "spiritual milk; milk of the word",
+    "note": "The adjective normally means 'rational' or 'belonging to the mind', and in religious writing of the period it marks something as non-literal: this is not physical milk. Many translations and commentators instead render 'milk of the word', because the adjective is related to the noun 'word' (logos) and the preceding verses have just spoken of God's word. Both readings are well supported. A different Greek word lies behind 'spiritual' in verse 5."
+   },
+   {
+    "verse": 4,
+    "phrase": "honored",
+    "lemma": "ἔντιμος",
+    "kind": "departure",
+    "traditional": "precious",
+    "note": "The word means 'held in honor, highly valued' and is usually rendered 'precious' here and in verse 6. 'Honored' is used so that the reader can hear the link in verse 7, where the related noun 'honor' is applied to those who believe, in contrast to the shame mentioned at the end of verse 6."
+   },
+   {
+    "verse": 5,
+    "phrase": "are being built up",
+    "lemma": "οἰκοδομέω",
+    "kind": "ambiguity",
+    "traditional": "are being built up",
+    "note": "The Greek form can be either a statement ('you are being built') or a command ('let yourselves be built'). Most translations and commentators take it as a statement, as here, but some prefer the command."
+   },
+   {
+    "verse": 8,
+    "phrase": "a rock to trip over",
+    "lemma": "σκάνδαλον",
+    "kind": "departure",
+    "traditional": "a rock of offense",
+    "note": "The Greek noun refers to something that causes a person to fall, a trap or obstacle, not to something that hurts feelings, as 'offense' now suggests. The line comes from Isaiah 8:14; the two quotations before it are from Isaiah 28:16 and Psalm 118:22."
+   },
+   {
+    "verse": 9,
+    "phrase": "nation",
+    "lemma": "ἔθνος",
+    "kind": "background",
+    "traditional": "nation",
+    "note": "The word translated 'nation' here is the same word translated 'Gentiles' in verse 12; in the plural it commonly means the non-Jewish peoples. The titles in this verse are drawn from Exodus 19:5–6 and Isaiah 43:20–21, where they describe Israel, and verse 10 echoes Hosea 1–2."
+   },
+   {
+    "verse": 9,
+    "phrase": "mighty acts",
+    "lemma": "ἀρετή",
+    "kind": "departure",
+    "traditional": "praises; excellencies",
+    "note": "The word usually means 'excellence' or 'virtue', but in the plural and used of a deity it referred to displays of divine power. Peter is echoing the Greek version of Isaiah 43:21, where the word stands for a Hebrew term meaning 'praise', so 'praises' and 'excellencies' are also defensible and widely used."
+   },
+   {
+    "verse": 11,
+    "phrase": "foreigners and temporary residents",
+    "lemma": "πάροικος",
+    "kind": "departure",
+    "traditional": "strangers and pilgrims; sojourners and exiles",
+    "note": "The first term was used for a non-citizen living in a place with limited rights, the second for someone staying only for a time. 'Pilgrims' and 'exiles' suggest a religious journey or banishment, which neither word implies. The pair echoes Abraham's description of himself in Genesis 23:4. Scholars debate whether Peter is describing the readers' actual civic status, their social estrangement as Christians, or both."
+   },
+   {
+    "verse": 12,
+    "phrase": "the day of visitation",
+    "lemma": "ἐπισκοπή",
+    "kind": "background",
+    "traditional": "the day of visitation",
+    "note": "In the Greek Scriptures God's 'visitation' is his coming to inspect and act, whether to rescue or to judge; the phrase occurs in Isaiah 10:3. Whether Peter means the final judgment or the moment when God brings these observers to faith is disputed."
+   },
+   {
+    "verse": 13,
+    "phrase": "every human creature",
+    "lemma": "κτίσις",
+    "kind": "departure",
+    "traditional": "every human institution; every ordinance of man",
+    "note": "Most translations render 'every human institution' or 'authority'. Elsewhere in the New Testament, however, this noun always refers to creation or a created being, and the sense 'institution' is hard to parallel; a number of commentators therefore read 'every human creature', with emperor and governors as the first examples. The question remains open. 'Emperor' translates the ordinary word for 'king', which Greek speakers in the eastern provinces used for the Roman emperor."
+   },
+   {
+    "verse": 16,
+    "phrase": "slaves of God",
+    "lemma": "δοῦλος",
+    "kind": "departure",
+    "traditional": "servants of God",
+    "note": "The word means a slave, a person owned by another, not a hired servant. The paradox is deliberate: those who are free belong wholly to God. In verse 18 'household slaves' translates a different word, used for slaves attached to a household and traditionally rendered 'servants'."
+   },
+   {
+    "verse": 18,
+    "phrase": "with all fear",
+    "lemma": "φόβος",
+    "kind": "ambiguity",
+    "traditional": "with all respect",
+    "note": "Many translations have 'with all respect', taking the attitude as directed toward the masters. In this letter, though, fear is owed to God (as in verse 17) and readers are told not to fear human opponents (3:14), so reverence toward God is probably meant. The Greek does not state the object."
+   },
+   {
+    "verse": 19,
+    "phrase": "wins favor",
+    "lemma": "χάρις",
+    "kind": "departure",
+    "traditional": "is commendable; is a gracious thing; is thankworthy",
+    "note": "The word is the one usually translated 'grace'. Here and in verse 20 it is taken in its everyday sense of favor or credit: such conduct is what God looks on with approval. Some interpreters instead read 'this is grace', meaning that such endurance is evidence of God's grace at work."
+   },
+   {
+    "verse": 24,
+    "phrase": "tree",
+    "lemma": "ξύλον",
+    "kind": "background",
+    "traditional": "tree",
+    "note": "The Greek word means wood or something made of wood, such as a beam, stake or gallows, and is used here for the cross. 'Tree' is kept because the wording echoes Deuteronomy 21:22–23, where a body hung 'on a tree' is under God's curse. Verses 22–25 draw throughout on the language of Isaiah 53."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "ψυχή",
+    "rendering": "soul",
+    "verse": 11,
+    "reason": "Ranges across 'life', 'self' and 'soul' throughout the New Testament, and 'soul' can suggest to modern readers an immaterial part of the person that the Greek does not necessarily imply."
+   },
+   {
+    "lemma": "δοῦλος",
+    "rendering": "slaves",
+    "verse": 16,
+    "reason": "Translations waver between 'slave', 'servant' and 'bondservant' across the New Testament, and the choice changes how readers hear both social instructions and the metaphor of belonging to God."
+   },
+   {
+    "lemma": "χάρις",
+    "rendering": "favor",
+    "verse": 19,
+    "reason": "Usually 'grace', but in places it means favor, credit or thanks; a rule is needed for when to leave the traditional word."
+   },
+   {
+    "lemma": "σκάνδαλον",
+    "rendering": "a rock to trip over (traditionally 'offense')",
+    "verse": 8,
+    "reason": "Recurs in the Gospels and Paul with its verb, and the traditional 'offense/offend' now suggests hurt feelings where the Greek means a cause of falling."
+   },
+   {
+    "lemma": "ἐπίσκοπος",
+    "rendering": "overseer",
+    "verse": 25,
+    "reason": "Rendered 'bishop', 'overseer' or 'guardian' in different translations; it needs one decision covering both its use for Christ here and its use for church leaders elsewhere."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

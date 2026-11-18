@@ -1,0 +1,689 @@
+{
+ "id": "luke-006",
+ "book": "luke",
+ "chapter": 6,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZkdGFWboDRotZKk8",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 10368,
+  "output_tokens": 17285
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"One Sabbath he happened to be passing through grainfields, and his disciples were picking the heads of grain, rubbing them in their hands, and eating them.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But some of the Pharisees said,\"},{\"speaker\":\"other\",\"text\":\"“Why are you doing what is not permitted on the Sabbath?”\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus answered them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Have you not even read what David did when he was hungry, he and those who were with him:\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"how he went into the house of God, took the loaves of presentation and ate them, and gave some to those with him, though no one is permitted to eat them except the priests alone?”\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And he said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“The Son of Man is lord of the Sabbath.”\"}]},{\"verse\":6,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"On another Sabbath he went into the synagogue and taught. A man was there whose right hand was withered.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The scribes and the Pharisees were watching him closely to see whether he would cure on the Sabbath, so that they might find a charge to bring against him.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But he knew their thoughts, and he said to the man with the withered hand,\"},{\"speaker\":\"Jesus\",\"text\":\"“Get up and stand in the middle.”\"},{\"speaker\":\"narrator\",\"text\":\"And he got up and stood there.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then Jesus said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“I ask you: is it permitted on the Sabbath to do good or to do harm, to save a life or to destroy it?”\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And looking around at them all, he said to him,\"},{\"speaker\":\"Jesus\",\"text\":\"“Stretch out your hand.”\"},{\"speaker\":\"narrator\",\"text\":\"He did so, and his hand was restored.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But they were filled with senseless fury and began discussing with one another what they might do to Jesus.\"}]},{\"verse\":12,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"In those days he went out to the mountain to pray, and he spent the whole night in prayer to God.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And when day came, he called his disciples to him and chose twelve of them, whom he also named apostles:\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Simon, whom he also named Peter, and Andrew his brother, and James and John, and Philip and Bartholomew,\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and Matthew and Thomas, and James son of Alphaeus, and Simon who was called the Zealot,\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and Judas son of James, and Judas Iscariot, who became a traitor.\"}]},{\"verse\":17,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And coming down with them, he stood on a level place, along with a large crowd of his disciples and a great multitude of the people from all Judea and Jerusalem and the coast of Tyre and Sidon,\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"who had come to hear him and to be healed of their diseases. Those troubled by unclean spirits were being cured,\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and the whole crowd was trying to touch him, because power was going out from him and healing them all.\"}]},{\"verse\":20,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then he raised his eyes to his disciples and said:\"},{\"speaker\":\"Jesus\",\"text\":\"“Blessed are you who are poor, for yours is the kingdom of God.\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Blessed are you who are hungry now, for you will eat your fill. Blessed are you who weep now, for you will laugh.\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Blessed are you when people hate you, and when they shut you out and insult you and throw out your name as evil because of the Son of Man.\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Rejoice on that day and leap for joy, for look, your reward is great in heaven; for their ancestors treated the prophets in just the same way.\"}]},{\"verse\":24,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But woe to you who are rich, for you have been paid your comfort in full.\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Woe to you who are full now, for you will go hungry. Woe, you who laugh now, for you will mourn and weep.\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Woe when all people speak well of you, for their ancestors treated the false prophets in just the same way.\"}]},{\"verse\":27,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But to you who are listening I say: love your enemies, do good to those who hate you,\"}]},{\"verse\":28,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"bless those who curse you, pray for those who mistreat you.\"}]},{\"verse\":29,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"To the one who strikes you on the cheek, offer the other as well; and from the one who takes your cloak, do not hold back your tunic either.\"}]},{\"verse\":30,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Give to everyone who asks you, and from the one who takes what is yours, do not demand it back.\"}]},{\"verse\":31,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And just as you want people to do to you, do the same to them.\"}]},{\"verse\":32,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"If you love those who love you, what credit is that to you? For even sinners love those who love them.\"}]},{\"verse\":33,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And if you do good to those who do good to you, what credit is that to you? Even sinners do the same.\"}]},{\"verse\":34,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And if you lend to those from whom you hope to receive, what credit is that to you? Even sinners lend to sinners, so as to get back the same amount.\"}]},{\"verse\":35,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Rather, love your enemies and do good and lend, expecting nothing back. Then your reward will be great, and you will be sons of the Most High, for he himself is kind to the ungrateful and the evil.\"}]},{\"verse\":36,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Be compassionate, just as your Father is compassionate.\"}]},{\"verse\":37,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And do not judge, and you will not be judged; do not condemn, and you will not be condemned. Pardon, and you will be pardoned;\"}]},{\"verse\":38,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"give, and it will be given to you. A good measure, pressed down, shaken together, running over, will be given into your lap; for with the measure you measure out, it will be measured back to you.”\"}]},{\"verse\":39,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He also told them a parable:\"},{\"speaker\":\"Jesus\",\"text\":\"“Can a blind person guide a blind person? Will they not both fall into a pit?\"}]},{\"verse\":40,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"A disciple is not above the teacher, but everyone who is fully trained will be like his teacher.\"}]},{\"verse\":41,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Why do you look at the splinter in your brother’s eye but fail to notice the beam in your own eye?\"}]},{\"verse\":42,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"How can you say to your brother, ‘Brother, let me take out the splinter that is in your eye,’ when you yourself do not see the beam in your own eye? Hypocrite! First take the beam out of your own eye, and then you will see clearly to take out the splinter that is in your brother’s eye.\"}]},{\"verse\":43,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For there is no good tree that bears bad fruit, nor again a bad tree that bears good fruit.\"}]},{\"verse\":44,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For each tree is known by its own fruit. People do not gather figs from thornbushes, nor do they pick grapes from a bramble.\"}]},{\"verse\":45,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"The good person, out of the good treasure of his heart, brings out what is good, and the evil person, out of the evil treasure, brings out what is evil; for his mouth speaks out of the overflow of the heart.\"}]},{\"verse\":46,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Why do you call me ‘Lord, Lord,’ and do not do what I say?\"}]},{\"verse\":47,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Everyone who comes to me and hears my words and does them, I will show you what that person is like:\"}]},{\"verse\":48,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"that person is like someone building a house, who dug and went down deep and laid a foundation on the rock. When a flood came, the river burst against that house and was not strong enough to shake it, because it had been well built.\"}]},{\"verse\":49,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But the one who has heard and has not done them is like someone who built a house on the ground without a foundation. The river burst against it, and at once it collapsed, and the ruin of that house was great.”\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"One Sabbath\",\"lemma\":\"δευτερόπρωτος\",\"kind\":\"textual\",\"traditional\":\"on the second sabbath after the first\",\"note\":\"Many later manuscripts read “on the second-first Sabbath”, using a word found nowhere else whose meaning is unknown. The earliest witnesses lack it, and the SBLGNT, like most modern editions, omits it.\"},{\"verse\":1,\"phrase\":\"picking the heads of grain\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"Picking grain by hand while walking through someone else’s field was allowed by the Law (Deuteronomy 23:25), so the complaint is not about theft. The objection is that picking and rubbing out the kernels counted as reaping and threshing, and so as work forbidden on the Sabbath.\"},{\"verse\":4,\"phrase\":\"the loaves of presentation\",\"lemma\":\"πρόθεσις\",\"kind\":\"departure\",\"traditional\":\"the bread of the Presence / the showbread\",\"note\":\"“Bread of the Presence” translates the Hebrew name; the Greek phrase, taken from the Septuagint, means the loaves “of the setting out”, that is, loaves presented before God. Twelve loaves were laid out in the sanctuary each Sabbath, and the old ones were eaten only by priests (Leviticus 24:5–9). The story of David is in 1 Samuel 21.\"},{\"verse\":11,\"phrase\":\"senseless fury\",\"lemma\":\"ἄνοια\",\"kind\":\"ambiguity\",\"traditional\":\"madness / fury\",\"note\":\"The Greek word means a lack of sense or understanding. Most translators take it here as irrational rage; a minority read it as bewilderment, with the opponents at a loss what to do. The rendering keeps both the folly and the anger in view.\"},{\"verse\":15,\"phrase\":\"the Zealot\",\"lemma\":\"ζηλωτής\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"The word means a zealous person, an enthusiast, and was used for those fiercely devoted to the Law. Whether it links Simon to the armed revolutionary party called Zealots during the war of 66–70 is disputed, since that party is not clearly attested as an organised group this early. Matthew and Mark give the Aramaic equivalent, “Cananaean”.\"},{\"verse\":16,\"phrase\":\"Judas son of James\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"Judas the brother of James\",\"note\":\"The Greek says only “Judas of James”. That construction normally names a father, and most modern translations render it “son of James”. Older versions wrote “brother of James”, identifying him with the author of the letter of Jude.\"},{\"verse\":24,\"phrase\":\"you have been paid your comfort in full\",\"lemma\":\"ἀπέχω\",\"kind\":\"departure\",\"traditional\":\"you have received your consolation\",\"note\":\"The verb is the standard term on surviving receipts from the period for “paid in full”, so hearers would have caught a commercial tone: the account is settled and nothing more is owed. Modern translations commonly say “have received” or “have received in full”.\"},{\"verse\":32,\"phrase\":\"what credit is that to you\",\"lemma\":\"χάρις\",\"kind\":\"ambiguity\",\"traditional\":\"what thank have ye / what credit is that to you\",\"note\":\"The word is the one usually translated “grace” or “favour”. Here it may mean the thanks or credit such conduct earns, as most translations take it, or the favour it finds with God. Matthew’s parallel has “reward”.\"},{\"verse\":35,\"phrase\":\"expecting nothing back\",\"lemma\":\"ἀπελπίζω\",\"kind\":\"ambiguity\",\"traditional\":\"hoping for nothing again / expecting nothing in return\",\"note\":\"Elsewhere in Greek this verb means “to despair”, which would give “despairing of nothing”, or, with a variant found in some manuscripts, “despairing of no one”. The contrast with verse 34, lending in the hope of receiving, favours “expecting nothing back”. Most translators adopt that sense, though it is not otherwise attested this early.\"},{\"verse\":36,\"phrase\":\"compassionate\",\"lemma\":\"οἰκτίρμων\",\"kind\":\"departure\",\"traditional\":\"merciful\",\"note\":\"The traditional rendering is “merciful”. This word is a different one from the usual New Testament term for mercy; it refers to pity felt for someone in distress, and in the Septuagint it describes God as compassionate (as in Exodus 34:6). “Compassionate” keeps the two words distinct.\"},{\"verse\":37,\"phrase\":\"Pardon, and you will be pardoned\",\"lemma\":\"ἀπολύω\",\"kind\":\"departure\",\"traditional\":\"forgive, and you will be forgiven\",\"note\":\"The verb is not the usual word for forgiving. It means to release or let go, and it was used of freeing a prisoner, acquitting a defendant or cancelling a debt. After “judge” and “condemn” the courtroom sense fits, so “pardon” is used; most translations have “forgive”.\"},{\"verse\":38,\"phrase\":\"will be given into your lap\",\"lemma\":\"κόλπος\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"The picture is of a grain seller filling a measure generously and pouring it into the fold of the buyer’s outer garment, which was pulled up over the belt to form a pouch. The Greek says “they will give”, an indefinite plural that probably refers to God’s action.\"},{\"verse\":48,\"phrase\":\"because it had been well built\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"for it was founded upon a rock\",\"note\":\"Many later manuscripts read “for it had been founded on the rock”, which matches Matthew 7:25. The earliest witnesses have “because it had been well built”, and the other reading is generally regarded as a harmonisation to Matthew.\"}],\"candidates\":[{\"lemma\":\"γραμματεύς\",\"rendering\":\"scribes\",\"verse\":7,\"reason\":\"“Scribe” suggests a copyist to modern readers, whereas the word denotes a trained expert in the Law; the choice between “scribe”, “scholar” and “legal expert” should be made once for all the Gospels and Acts.\"},{\"lemma\":\"ψυχή\",\"rendering\":\"life\",\"verse\":9,\"reason\":\"The word shifts between “life”, “self” and “soul” across the New Testament, and translators divide on it in key sayings, so the senses need to be fixed centrally.\"},{\"lemma\":\"χάρις\",\"rendering\":\"credit\",\"verse\":32,\"reason\":\"The word is usually “grace” but also means favour, thanks or credit; the non-theological senses need a consistent policy across the Gospels and letters.\"},{\"lemma\":\"βασιλεία\",\"rendering\":\"kingdom\",\"verse\":20,\"reason\":\"“Kingdom” versus “reign” or “rule” is a pervasive choice in the phrase “kingdom of God” and must not vary between chapters.\"},{\"lemma\":\"υἱὸς τοῦ ἀνθρώπου\",\"rendering\":\"Son of Man\",\"verse\":5,\"reason\":\"The title recurs throughout the Gospels and could be rendered “Son of Man”, “the Human One” or similar; capitalisation and wording need a single decision.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "One Sabbath he happened to be passing through grainfields, and his disciples were picking the heads of grain, rubbing them in their hands, and eating them."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But some of the Pharisees said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Why are you doing what is not permitted on the Sabbath?”"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus answered them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Have you not even read what David did when he was hungry, he and those who were with him:"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "how he went into the house of God, took the loaves of presentation and ate them, and gave some to those with him, though no one is permitted to eat them except the priests alone?”"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And he said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“The Son of Man is lord of the Sabbath.”"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "On another Sabbath he went into the synagogue and taught. A man was there whose right hand was withered."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The scribes and the Pharisees were watching him closely to see whether he would cure on the Sabbath, so that they might find a charge to bring against him."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But he knew their thoughts, and he said to the man with the withered hand,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Get up and stand in the middle.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "And he got up and stood there."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then Jesus said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“I ask you: is it permitted on the Sabbath to do good or to do harm, to save a life or to destroy it?”"
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And looking around at them all, he said to him,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Stretch out your hand.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "He did so, and his hand was restored."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But they were filled with senseless fury and began discussing with one another what they might do to Jesus."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "In those days he went out to the mountain to pray, and he spent the whole night in prayer to God."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And when day came, he called his disciples to him and chose twelve of them, whom he also named apostles:"
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Simon, whom he also named Peter, and Andrew his brother, and James and John, and Philip and Bartholomew,"
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and Matthew and Thomas, and James son of Alphaeus, and Simon who was called the Zealot,"
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and Judas son of James, and Judas Iscariot, who became a traitor."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And coming down with them, he stood on a level place, along with a large crowd of his disciples and a great multitude of the people from all Judea and Jerusalem and the coast of Tyre and Sidon,"
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "who had come to hear him and to be healed of their diseases. Those troubled by unclean spirits were being cured,"
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and the whole crowd was trying to touch him, because power was going out from him and healing them all."
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then he raised his eyes to his disciples and said:"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Blessed are you who are poor, for yours is the kingdom of God."
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Blessed are you who are hungry now, for you will eat your fill. Blessed are you who weep now, for you will laugh."
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Blessed are you when people hate you, and when they shut you out and insult you and throw out your name as evil because of the Son of Man."
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Rejoice on that day and leap for joy, for look, your reward is great in heaven; for their ancestors treated the prophets in just the same way."
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But woe to you who are rich, for you have been paid your comfort in full."
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Woe to you who are full now, for you will go hungry. Woe, you who laugh now, for you will mourn and weep."
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Woe when all people speak well of you, for their ancestors treated the false prophets in just the same way."
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But to you who are listening I say: love your enemies, do good to those who hate you,"
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "bless those who curse you, pray for those who mistreat you."
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "To the one who strikes you on the cheek, offer the other as well; and from the one who takes your cloak, do not hold back your tunic either."
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Give to everyone who asks you, and from the one who takes what is yours, do not demand it back."
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And just as you want people to do to you, do the same to them."
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "If you love those who love you, what credit is that to you? For even sinners love those who love them."
+     }
+    ]
+   },
+   {
+    "verse": 33,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And if you do good to those who do good to you, what credit is that to you? Even sinners do the same."
+     }
+    ]
+   },
+   {
+    "verse": 34,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And if you lend to those from whom you hope to receive, what credit is that to you? Even sinners lend to sinners, so as to get back the same amount."
+     }
+    ]
+   },
+   {
+    "verse": 35,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Rather, love your enemies and do good and lend, expecting nothing back. Then your reward will be great, and you will be sons of the Most High, for he himself is kind to the ungrateful and the evil."
+     }
+    ]
+   },
+   {
+    "verse": 36,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Be compassionate, just as your Father is compassionate."
+     }
+    ]
+   },
+   {
+    "verse": 37,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And do not judge, and you will not be judged; do not condemn, and you will not be condemned. Pardon, and you will be pardoned;"
+     }
+    ]
+   },
+   {
+    "verse": 38,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "give, and it will be given to you. A good measure, pressed down, shaken together, running over, will be given into your lap; for with the measure you measure out, it will be measured back to you.”"
+     }
+    ]
+   },
+   {
+    "verse": 39,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He also told them a parable:"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Can a blind person guide a blind person? Will they not both fall into a pit?"
+     }
+    ]
+   },
+   {
+    "verse": 40,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "A disciple is not above the teacher, but everyone who is fully trained will be like his teacher."
+     }
+    ]
+   },
+   {
+    "verse": 41,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Why do you look at the splinter in your brother’s eye but fail to notice the beam in your own eye?"
+     }
+    ]
+   },
+   {
+    "verse": 42,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "How can you say to your brother, ‘Brother, let me take out the splinter that is in your eye,’ when you yourself do not see the beam in your own eye? Hypocrite! First take the beam out of your own eye, and then you will see clearly to take out the splinter that is in your brother’s eye."
+     }
+    ]
+   },
+   {
+    "verse": 43,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For there is no good tree that bears bad fruit, nor again a bad tree that bears good fruit."
+     }
+    ]
+   },
+   {
+    "verse": 44,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For each tree is known by its own fruit. People do not gather figs from thornbushes, nor do they pick grapes from a bramble."
+     }
+    ]
+   },
+   {
+    "verse": 45,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "The good person, out of the good treasure of his heart, brings out what is good, and the evil person, out of the evil treasure, brings out what is evil; for his mouth speaks out of the overflow of the heart."
+     }
+    ]
+   },
+   {
+    "verse": 46,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Why do you call me ‘Lord, Lord,’ and do not do what I say?"
+     }
+    ]
+   },
+   {
+    "verse": 47,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Everyone who comes to me and hears my words and does them, I will show you what that person is like:"
+     }
+    ]
+   },
+   {
+    "verse": 48,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "that person is like someone building a house, who dug and went down deep and laid a foundation on the rock. When a flood came, the river burst against that house and was not strong enough to shake it, because it had been well built."
+     }
+    ]
+   },
+   {
+    "verse": 49,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But the one who has heard and has not done them is like someone who built a house on the ground without a foundation. The river burst against it, and at once it collapsed, and the ruin of that house was great.”"
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "One Sabbath",
+    "lemma": "δευτερόπρωτος",
+    "kind": "textual",
+    "traditional": "on the second sabbath after the first",
+    "note": "Many later manuscripts read “on the second-first Sabbath”, using a word found nowhere else whose meaning is unknown. The earliest witnesses lack it, and the SBLGNT, like most modern editions, omits it."
+   },
+   {
+    "verse": 1,
+    "phrase": "picking the heads of grain",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "Picking grain by hand while walking through someone else’s field was allowed by the Law (Deuteronomy 23:25), so the complaint is not about theft. The objection is that picking and rubbing out the kernels counted as reaping and threshing, and so as work forbidden on the Sabbath."
+   },
+   {
+    "verse": 4,
+    "phrase": "the loaves of presentation",
+    "lemma": "πρόθεσις",
+    "kind": "departure",
+    "traditional": "the bread of the Presence / the showbread",
+    "note": "“Bread of the Presence” translates the Hebrew name; the Greek phrase, taken from the Septuagint, means the loaves “of the setting out”, that is, loaves presented before God. Twelve loaves were laid out in the sanctuary each Sabbath, and the old ones were eaten only by priests (Leviticus 24:5–9). The story of David is in 1 Samuel 21."
+   },
+   {
+    "verse": 11,
+    "phrase": "senseless fury",
+    "lemma": "ἄνοια",
+    "kind": "ambiguity",
+    "traditional": "madness / fury",
+    "note": "The Greek word means a lack of sense or understanding. Most translators take it here as irrational rage; a minority read it as bewilderment, with the opponents at a loss what to do. The rendering keeps both the folly and the anger in view."
+   },
+   {
+    "verse": 15,
+    "phrase": "the Zealot",
+    "lemma": "ζηλωτής",
+    "kind": "background",
+    "traditional": "",
+    "note": "The word means a zealous person, an enthusiast, and was used for those fiercely devoted to the Law. Whether it links Simon to the armed revolutionary party called Zealots during the war of 66–70 is disputed, since that party is not clearly attested as an organised group this early. Matthew and Mark give the Aramaic equivalent, “Cananaean”."
+   },
+   {
+    "verse": 16,
+    "phrase": "Judas son of James",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "Judas the brother of James",
+    "note": "The Greek says only “Judas of James”. That construction normally names a father, and most modern translations render it “son of James”. Older versions wrote “brother of James”, identifying him with the author of the letter of Jude."
+   },
+   {
+    "verse": 24,
+    "phrase": "you have been paid your comfort in full",
+    "lemma": "ἀπέχω",
+    "kind": "departure",
+    "traditional": "you have received your consolation",
+    "note": "The verb is the standard term on surviving receipts from the period for “paid in full”, so hearers would have caught a commercial tone: the account is settled and nothing more is owed. Modern translations commonly say “have received” or “have received in full”."
+   },
+   {
+    "verse": 32,
+    "phrase": "what credit is that to you",
+    "lemma": "χάρις",
+    "kind": "ambiguity",
+    "traditional": "what thank have ye / what credit is that to you",
+    "note": "The word is the one usually translated “grace” or “favour”. Here it may mean the thanks or credit such conduct earns, as most translations take it, or the favour it finds with God. Matthew’s parallel has “reward”."
+   },
+   {
+    "verse": 35,
+    "phrase": "expecting nothing back",
+    "lemma": "ἀπελπίζω",
+    "kind": "ambiguity",
+    "traditional": "hoping for nothing again / expecting nothing in return",
+    "note": "Elsewhere in Greek this verb means “to despair”, which would give “despairing of nothing”, or, with a variant found in some manuscripts, “despairing of no one”. The contrast with verse 34, lending in the hope of receiving, favours “expecting nothing back”. Most translators adopt that sense, though it is not otherwise attested this early."
+   },
+   {
+    "verse": 36,
+    "phrase": "compassionate",
+    "lemma": "οἰκτίρμων",
+    "kind": "departure",
+    "traditional": "merciful",
+    "note": "The traditional rendering is “merciful”. This word is a different one from the usual New Testament term for mercy; it refers to pity felt for someone in distress, and in the Septuagint it describes God as compassionate (as in Exodus 34:6). “Compassionate” keeps the two words distinct."
+   },
+   {
+    "verse": 37,
+    "phrase": "Pardon, and you will be pardoned",
+    "lemma": "ἀπολύω",
+    "kind": "departure",
+    "traditional": "forgive, and you will be forgiven",
+    "note": "The verb is not the usual word for forgiving. It means to release or let go, and it was used of freeing a prisoner, acquitting a defendant or cancelling a debt. After “judge” and “condemn” the courtroom sense fits, so “pardon” is used; most translations have “forgive”."
+   },
+   {
+    "verse": 38,
+    "phrase": "will be given into your lap",
+    "lemma": "κόλπος",
+    "kind": "background",
+    "traditional": "",
+    "note": "The picture is of a grain seller filling a measure generously and pouring it into the fold of the buyer’s outer garment, which was pulled up over the belt to form a pouch. The Greek says “they will give”, an indefinite plural that probably refers to God’s action."
+   },
+   {
+    "verse": 48,
+    "phrase": "because it had been well built",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "for it was founded upon a rock",
+    "note": "Many later manuscripts read “for it had been founded on the rock”, which matches Matthew 7:25. The earliest witnesses have “because it had been well built”, and the other reading is generally regarded as a harmonisation to Matthew."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "γραμματεύς",
+    "rendering": "scribes",
+    "verse": 7,
+    "reason": "“Scribe” suggests a copyist to modern readers, whereas the word denotes a trained expert in the Law; the choice between “scribe”, “scholar” and “legal expert” should be made once for all the Gospels and Acts."
+   },
+   {
+    "lemma": "ψυχή",
+    "rendering": "life",
+    "verse": 9,
+    "reason": "The word shifts between “life”, “self” and “soul” across the New Testament, and translators divide on it in key sayings, so the senses need to be fixed centrally."
+   },
+   {
+    "lemma": "χάρις",
+    "rendering": "credit",
+    "verse": 32,
+    "reason": "The word is usually “grace” but also means favour, thanks or credit; the non-theological senses need a consistent policy across the Gospels and letters."
+   },
+   {
+    "lemma": "βασιλεία",
+    "rendering": "kingdom",
+    "verse": 20,
+    "reason": "“Kingdom” versus “reign” or “rule” is a pervasive choice in the phrase “kingdom of God” and must not vary between chapters."
+   },
+   {
+    "lemma": "υἱὸς τοῦ ἀνθρώπου",
+    "rendering": "Son of Man",
+    "verse": 5,
+    "reason": "The title recurs throughout the Gospels and could be rendered “Son of Man”, “the Human One” or similar; capitalisation and wording need a single decision."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

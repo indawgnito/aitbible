@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ait version="1.0">
+<ait version="2.0" run="20261118-162954-full-nt" model="claude-fable-5-2" register="0.4-draft">
   <book id="ephesians" name="Ephesians">
     <chapter num="1">
-      <verse num="1">
-        <text><p/>Paul, an apostle of Christ Jesus through the will of God, to the consecrated ones [in Ephesus] who are also faithful in Christ Jesus:</text>
+      <verse num="1" status="single">
+        <text><p/>Paul, an apostle of Christ Jesus through the will of God, to the holy ones who are [in Ephesus] and are faithful in Christ Jesus:</text>
         <greek>
           <w lemma="Παῦλος">Παῦλος</w>
           <w lemma="ἀπόστολος">ἀπόστολος</w>
-          <w lemma="Χριστός">⸂Χριστοῦ</w>
-          <w lemma="Ἰησοῦς">Ἰησοῦ⸃</w>
+          <w lemma="Χριστός">Χριστοῦ</w>
+          <w lemma="Ἰησοῦς">Ἰησοῦ</w>
           <w lemma="διά">διὰ</w>
           <w lemma="θέλημα">θελήματος</w>
           <w lemma="θεός">θεοῦ</w>
@@ -16,14 +16,16 @@
           <w lemma="ἅγιος">ἁγίοις</w>
           <w lemma="ὁ">τοῖς</w>
           <w lemma="εἰμί">οὖσιν</w>
-          <w lemma="ἐν">⸂[ἐν</w>
-          <w lemma="Ἔφεσος">Ἐφέσῳ]⸃</w>
+          <w lemma="ἐν">[ἐν</w>
+          <w lemma="Ἔφεσος">Ἐφέσῳ]</w>
           <w lemma="καί">καὶ</w>
           <w lemma="πιστός">πιστοῖς</w>
           <w lemma="ἐν">ἐν</w>
           <w lemma="Χριστός">Χριστῷ</w>
           <w lemma="Ἰησοῦς">Ἰησοῦ·</w>
         </greek>
+        <note term="[in Ephesus]" kind="textual" lemma="" traditional="at Ephesus">The brackets mark words that are missing from the earliest surviving manuscripts of the letter, including the oldest papyrus copy and the original text of the two great fourth-century codices. Many scholars think the letter was first written to circulate among several communities, with the place name added later; others hold that &#x27;in Ephesus&#x27; is original. The question remains open.</note>
+        <note term="holy ones" kind="departure" lemma="ἅγιος" traditional="saints">The traditional rendering is &#x27;saints&#x27;, which now suggests canonised individuals or people of unusual virtue. The Greek word is used of all members of the community as people set apart for God, echoing the Septuagint&#x27;s language for Israel. Many translations keep &#x27;saints&#x27;; others use &#x27;God&#x27;s people&#x27; or &#x27;his holy people&#x27;.</note>
       </verse>
       <verse num="2">
         <text>Grace to you and peace from God our Father and the Lord Jesus Christ.</text>
@@ -43,7 +45,7 @@
         </greek>
       </verse>
       <verse num="3">
-        <text><p/>Blessed be the God and Father of our Lord Jesus Christ, who has blessed us with every spiritual blessing in the celestial regions in Christ.</text>
+        <text><p/>Blessed is the God and Father of our Lord Jesus Christ, who has blessed us with every spiritual blessing in the heavenly realms in Christ,</text>
         <greek>
           <w lemma="εὐλογητός">Εὐλογητὸς</w>
           <w lemma="ὁ">ὁ</w>
@@ -70,7 +72,7 @@
         </greek>
       </verse>
       <verse num="4">
-        <text>For he chose us in him before the world was founded, so that we would be consecrated and unblemished before him. In love,</text>
+        <text>just as he chose us in him before the foundation of the world, to be holy and blameless before him in love.</text>
         <greek>
           <w lemma="καθώς">καθὼς</w>
           <w lemma="ἐκλέγομαι">ἐξελέξατο</w>
@@ -90,9 +92,10 @@
           <w lemma="ἐν">ἐν</w>
           <w lemma="ἀγάπη">ἀγάπῃ,</w>
         </greek>
+        <note term="in love" kind="ambiguity" lemma="ἀγάπη" traditional="">The phrase stands between two clauses and can go with either. This translation follows the punctuation of the Greek edition and takes it with what precedes: &#x27;holy and blameless before him in love&#x27;. Many translations instead attach it to the next verse: &#x27;In love he predestined us&#x27;. Both readings have strong scholarly support.</note>
       </verse>
       <verse num="5">
-        <text>he marked us out in advance for adoption as his own children through Jesus Christ, according to the kind intention of his will,</text>
+        <text>He predestined us for adoption to himself as sons through Jesus Christ, according to the good pleasure of his will,</text>
         <greek>
           <w lemma="προορίζω">προορίσας</w>
           <w lemma="ἐγώ">ἡμᾶς</w>
@@ -112,7 +115,7 @@
         </greek>
       </verse>
       <verse num="6">
-        <text>to the praise of the glory of his grace, which he freely lavished on us in the Beloved.</text>
+        <text>to the praise of the glory of his grace, with which he graced us in the Beloved.</text>
         <greek>
           <w lemma="εἰς">εἰς</w>
           <w lemma="ἔπαινος">ἔπαινον</w>
@@ -120,7 +123,7 @@
           <w lemma="ὁ">τῆς</w>
           <w lemma="χάρις">χάριτος</w>
           <w lemma="αὐτός">αὐτοῦ</w>
-          <w lemma="ὅς">⸀ἧς</w>
+          <w lemma="ὅς">ἧς</w>
           <w lemma="χαριτόω">ἐχαρίτωσεν</w>
           <w lemma="ἐγώ">ἡμᾶς</w>
           <w lemma="ἐν">ἐν</w>
@@ -129,7 +132,7 @@
         </greek>
       </verse>
       <verse num="7">
-        <text><p/>In him we have liberation through his blood—the release from our false steps—according to the riches of his grace,</text>
+        <text><p/>In him we have redemption through his blood, the forgiveness of our trespasses, according to the riches of his grace</text>
         <greek>
           <w lemma="ἐν">ἐν</w>
           <w lemma="ὅς">ᾧ</w>
@@ -145,15 +148,15 @@
           <w lemma="ὁ">τῶν</w>
           <w lemma="παράπτωμα">παραπτωμάτων,</w>
           <w lemma="κατά">κατὰ</w>
-          <w lemma="ὁ">⸂τὸ</w>
-          <w lemma="πλοῦτος">πλοῦτος⸃</w>
+          <w lemma="ὁ">τὸ</w>
+          <w lemma="πλοῦτος">πλοῦτος</w>
           <w lemma="ὁ">τῆς</w>
           <w lemma="χάρις">χάριτος</w>
           <w lemma="αὐτός">αὐτοῦ</w>
         </greek>
       </verse>
       <verse num="8">
-        <text>which he caused to overflow toward us. In all wisdom and insight,</text>
+        <text>which he lavished on us in all wisdom and insight.</text>
         <greek>
           <w lemma="ὅς">ἧς</w>
           <w lemma="περισσεύω">ἐπερίσσευσεν</w>
@@ -167,7 +170,7 @@
         </greek>
       </verse>
       <verse num="9">
-        <text>he made known to us the sacred secret of his will, according to his kind intention which he set forth in Christ</text>
+        <text>He made known to us the secret of his will, according to his good pleasure, which he purposed in him</text>
         <greek>
           <w lemma="γνωρίζω">γνωρίσας</w>
           <w lemma="ἐγώ">ἡμῖν</w>
@@ -185,9 +188,10 @@
           <w lemma="ἐν">ἐν</w>
           <w lemma="αὐτός">αὐτῷ</w>
         </greek>
+        <note term="secret" kind="departure" lemma="μυστήριον" traditional="mystery">The traditional rendering is &#x27;mystery&#x27;, which in modern English suggests a puzzle or something that cannot be understood. In the period, and in the Greek version of Daniel, the word meant a secret, especially a divine plan kept hidden until God discloses it. Here the point is precisely that it has now been made known. Most translations keep &#x27;mystery&#x27; as an established term.</note>
       </verse>
       <verse num="10">
-        <text>as a plan for the administration of the fullness of the times: to bring all things together under one head in Christ—the things in the heavens and the things on the earth.</text>
+        <text>as a plan for the fullness of the times: to sum up all things in Christ, the things in the heavens and the things on the earth. In him</text>
         <greek>
           <w lemma="εἰς">εἰς</w>
           <w lemma="οἰκονομία">οἰκονομίαν</w>
@@ -213,9 +217,11 @@
           <w lemma="ἐν">ἐν</w>
           <w lemma="αὐτός">αὐτῷ,</w>
         </greek>
+        <note term="to sum up" kind="departure" lemma="ἀνακεφαλαιόω" traditional="to gather together in one; to unite">Traditional renderings are &#x27;gather together in one&#x27; or &#x27;unite&#x27;. The verb was used for summing up an argument or adding items up into one total, and Romans 13:9 uses it for the commandments being &#x27;summed up&#x27; in a single saying. Many scholars explain it here as bringing all things together under Christ as head, so &#x27;unite&#x27; is a fair paraphrase. &#x27;Sum up&#x27; keeps the word&#x27;s ordinary sense.</note>
+        <note term="the heavens" kind="departure" lemma="οὐρανός" traditional="heaven">The Greek is plural, a Semitic turn of phrase that a first-century hearer would have noticed. Most English translations flatten it to &#x27;heaven&#x27;. The plural is kept here.</note>
       </verse>
       <verse num="11">
-        <text><p/>In him we were also claimed as God’s own portion, having been marked out in advance according to the purpose of the one who works out all things according to the counsel of his will.</text>
+        <text>we were also made his portion, having been predestined according to the purpose of the one who works all things according to the counsel of his will,</text>
         <greek>
           <w lemma="ἐν">ἐν</w>
           <w lemma="ὅς">ᾧ</w>
@@ -235,9 +241,10 @@
           <w lemma="θέλημα">θελήματος</w>
           <w lemma="αὐτός">αὐτοῦ,</w>
         </greek>
+        <note term="we were also made his portion" kind="ambiguity" lemma="κληρόω" traditional="we have obtained an inheritance">The verb means to assign or be assigned by lot, and occurs only here in the New Testament. It can mean &#x27;we were allotted a share&#x27;, the traditional &#x27;we obtained an inheritance&#x27;. It can also mean &#x27;we were allotted to God as his share&#x27;, echoing the Old Testament description of Israel as the Lord&#x27;s portion. This translation takes the second sense, which suits the passive form and the &#x27;possession&#x27; of verse 14, but the question is disputed.</note>
       </verse>
       <verse num="12">
-        <text>This was so that we, who were the first to hope in Christ, might exist for the praise of his glory.</text>
+        <text>so that we who first hoped in Christ might be to the praise of his glory.</text>
         <greek>
           <w lemma="εἰς">εἰς</w>
           <w lemma="ὁ">τὸ</w>
@@ -255,7 +262,7 @@
         </greek>
       </verse>
       <verse num="13">
-        <text>In him you also, when you heard the word of truth—the joyful news of your salvation—and believed in him, were sealed with the promised Holy Spirit.</text>
+        <text><p/>In him you also, when you heard the word of truth, the good news of your salvation—in him, when you also believed, you were sealed with the promised Holy Spirit,</text>
         <greek>
           <w lemma="ἐν">ἐν</w>
           <w lemma="ὅς">ᾧ</w>
@@ -285,9 +292,9 @@
         </greek>
       </verse>
       <verse num="14">
-        <text>This Spirit is the guaranteeing deposit of our inheritance, looking toward the full liberation of God’s own possession, to the praise of his glory.</text>
+        <text>who is the down payment on our inheritance, until the redemption of his own possession, to the praise of his glory.</text>
         <greek>
-          <w lemma="ὅς">⸀ὅ</w>
+          <w lemma="ὅς">ὅ</w>
           <w lemma="εἰμί">ἐστιν</w>
           <w lemma="ἀρραβών">ἀρραβὼν</w>
           <w lemma="ὁ">τῆς</w>
@@ -303,9 +310,10 @@
           <w lemma="δόξα">δόξης</w>
           <w lemma="αὐτός">αὐτοῦ.</w>
         </greek>
+        <note term="down payment" kind="departure" lemma="ἀρραβών" traditional="earnest; guarantee; pledge">Traditional renderings are &#x27;earnest&#x27;, &#x27;pledge&#x27; or &#x27;guarantee&#x27;. The word is a commercial term, borrowed from Semitic usage, for the first instalment of a payment that binds the payer to deliver the rest. &#x27;Down payment&#x27; conveys that the Spirit is a first part of the inheritance itself, which a bare promise of it would not.</note>
       </verse>
       <verse num="15">
-        <text><p/>For this reason, since I heard of the faith you have in the Lord Jesus and your love for all the consecrated ones,</text>
+        <text><p/>For this reason I too, having heard of your faith in the Lord Jesus and your love for all the holy ones,</text>
         <greek>
           <w lemma="διά">Διὰ</w>
           <w lemma="οὗτος">τοῦτο</w>
@@ -321,8 +329,8 @@
           <w lemma="Ἰησοῦς">Ἰησοῦ</w>
           <w lemma="καί">καὶ</w>
           <w lemma="ὁ">τὴν</w>
-          <w lemma="ἀγάπη">⸂ἀγάπην</w>
-          <w lemma="ὁ">τὴν⸃</w>
+          <w lemma="ἀγάπη">ἀγάπην</w>
+          <w lemma="ὁ">τὴν</w>
           <w lemma="εἰς">εἰς</w>
           <w lemma="πᾶς">πάντας</w>
           <w lemma="ὁ">τοὺς</w>
@@ -330,14 +338,14 @@
         </greek>
       </verse>
       <verse num="16">
-        <text>I never stop giving thanks for you as I make mention of you in my prayers.</text>
+        <text>do not stop giving thanks for you, remembering you in my prayers,</text>
         <greek>
           <w lemma="οὐ">οὐ</w>
           <w lemma="παύω">παύομαι</w>
           <w lemma="εὐχαριστέω">εὐχαριστῶν</w>
           <w lemma="ὑπέρ">ὑπὲρ</w>
           <w lemma="σύ">ὑμῶν</w>
-          <w lemma="μνεία">⸀μνείαν</w>
+          <w lemma="μνεία">μνείαν</w>
           <w lemma="ποιέω">ποιούμενος</w>
           <w lemma="ἐπί">ἐπὶ</w>
           <w lemma="ὁ">τῶν</w>
@@ -346,7 +354,7 @@
         </greek>
       </verse>
       <verse num="17">
-        <text>I pray that the God of our Lord Jesus Christ, the Father of glory, may give you a spirit of wisdom and revelation in the personal knowledge of him.</text>
+        <text>that the God of our Lord Jesus Christ, the Father of glory, may give you a spirit of wisdom and revelation in the knowledge of him,</text>
         <greek>
           <w lemma="ἵνα">ἵνα</w>
           <w lemma="ὁ">ὁ</w>
@@ -370,9 +378,10 @@
           <w lemma="ἐπίγνωσις">ἐπιγνώσει</w>
           <w lemma="αὐτός">αὐτοῦ,</w>
         </greek>
+        <note term="a spirit of wisdom and revelation" kind="ambiguity" lemma="πνεῦμα" traditional="the Spirit of wisdom and revelation">The Greek has no article and could mean a disposition of wisdom given by God, or the Holy Spirit as the one who gives wisdom and reveals. Many interpreters prefer the second, since revelation is something the Spirit gives and not a human disposition. The lower-case rendering follows the wording without excluding that reading.</note>
       </verse>
       <verse num="18">
-        <text>I pray that the eyes of your heart may be enlightened so that you may know what is the hope of his calling, what are the riches of his glorious inheritance among the consecrated ones,</text>
+        <text>the eyes of your heart having been enlightened, so that you may know what is the hope of his calling, what are the riches of the glory of his inheritance among the holy ones,</text>
         <greek>
           <w lemma="φωτίζω">πεφωτισμένους</w>
           <w lemma="ὁ">τοὺς</w>
@@ -391,7 +400,7 @@
           <w lemma="ὁ">τῆς</w>
           <w lemma="κλῆσις">κλήσεως</w>
           <w lemma="αὐτός">αὐτοῦ,</w>
-          <w lemma="τίς">⸀τίς</w>
+          <w lemma="τίς">τίς</w>
           <w lemma="ὁ">ὁ</w>
           <w lemma="πλοῦτος">πλοῦτος</w>
           <w lemma="ὁ">τῆς</w>
@@ -405,7 +414,7 @@
         </greek>
       </verse>
       <verse num="19">
-        <text>and what is the surpassing greatness of his power toward us who believe. This power operates according to the working of his mighty strength,</text>
+        <text>and what is the surpassing greatness of his power toward us who believe, according to the working of his mighty strength,</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="τίς">τί</w>
@@ -430,19 +439,19 @@
         </greek>
       </verse>
       <verse num="20">
-        <text>which he exercised in Christ when he raised him from the dead and seated him at his right hand in the celestial regions.</text>
+        <text>which he worked in Christ when he raised him from the dead and seated him at his right hand in the heavenly realms,</text>
         <greek>
           <w lemma="ὅς">ἣν</w>
-          <w lemma="ἐνεργέω">⸀ἐνήργηκεν</w>
+          <w lemma="ἐνεργέω">ἐνήργηκεν</w>
           <w lemma="ἐν">ἐν</w>
           <w lemma="ὁ">τῷ</w>
           <w lemma="Χριστός">Χριστῷ</w>
           <w lemma="ἐγείρω">ἐγείρας</w>
           <w lemma="αὐτός">αὐτὸν</w>
-          <w lemma="ἐκ">⸀ἐκ</w>
+          <w lemma="ἐκ">ἐκ</w>
           <w lemma="νεκρός">νεκρῶν,</w>
           <w lemma="καί">καὶ</w>
-          <w lemma="καθίζω">⸀καθίσας</w>
+          <w lemma="καθίζω">καθίσας</w>
           <w lemma="ἐν">ἐν</w>
           <w lemma="δεξιός">δεξιᾷ</w>
           <w lemma="αὐτός">αὐτοῦ</w>
@@ -452,7 +461,7 @@
         </greek>
       </verse>
       <verse num="21">
-        <text>He is now far above every ruler, authority, power, and dominion, and every name that is named, not only in this age but also in the one to come.</text>
+        <text>far above every rule and authority and power and lordship, and every name that is named, not only in this age but also in the one to come.</text>
         <greek>
           <w lemma="ὑπεράνω">ὑπεράνω</w>
           <w lemma="πᾶς">πάσης</w>
@@ -479,9 +488,10 @@
           <w lemma="ὁ">τῷ</w>
           <w lemma="μέλλω">μέλλοντι·</w>
         </greek>
+        <note term="every rule and authority and power and lordship" kind="background" lemma="" traditional="all principality, and power, and might, and dominion">These four terms were ordinary words for government and rank, but Jewish writings of the period also used such lists for orders of spiritual beings thought to stand behind the visible world. Most scholars think the letter has chiefly these unseen powers in view, as in 3:10 and 6:12. The point is that Christ is enthroned over every one of them, whatever it is called.</note>
       </verse>
       <verse num="22">
-        <text>And God "subjected all things under his feet" and gave him to the assembly as head over all things.</text>
+        <text>And he put all things under his feet, and gave him as head over all things to the assembly,</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="πᾶς">πάντα</w>
@@ -499,9 +509,11 @@
           <w lemma="ὁ">τῇ</w>
           <w lemma="ἐκκλησία">ἐκκλησίᾳ,</w>
         </greek>
+        <note term="he put all things under his feet" kind="background" lemma="" traditional="">The wording echoes Psalm 8:6, which speaks of God placing all things under the feet of humankind, and is here applied to Christ. The seating &#x27;at his right hand&#x27; in verse 20 likewise echoes Psalm 110:1. A reader steeped in the Greek Scriptures would have heard both allusions, though neither is introduced as a quotation.</note>
+        <note term="assembly" kind="departure" lemma="ἐκκλησία" traditional="church">The traditional rendering is &#x27;church&#x27;, which now commonly means a building or an institution. A first-century hearer knew the word as a civic gathering of citizens and as the Septuagint&#x27;s term for Israel assembled before God. &#x27;Church&#x27; is near-universal in English Bibles and readers know what it refers to. &#x27;Assembly&#x27; is used throughout this translation to show the word as it was heard.</note>
       </verse>
       <verse num="23">
-        <text>This assembly is his body, the fullness of the one who fills all things in every way.</text>
+        <text>which is his body, the fullness of the one who fills all things in every way.</text>
         <greek>
           <w lemma="ὅστις">ἥτις</w>
           <w lemma="εἰμί">ἐστὶν</w>
@@ -517,11 +529,12 @@
           <w lemma="πᾶς">πᾶσιν</w>
           <w lemma="πληρόω">πληρουμένου.</w>
         </greek>
+        <note term="who fills all things in every way" kind="ambiguity" lemma="πληρόω" traditional="that filleth all in all">The verb form can be read as active in sense (&#x27;who fills all things&#x27;) or as passive (&#x27;who is being filled&#x27;). Most translations take the first, as here, in line with 4:10, where Christ is said to fill all things. On the passive reading, Christ is himself being completely filled, whether by God or by the assembly as his body. The closing phrase, literally &#x27;all in all&#x27;, may mean &#x27;in every respect&#x27; or &#x27;in all things&#x27;.</note>
       </verse>
     </chapter>
     <chapter num="2">
       <verse num="1">
-        <text><p/>You were once dead in your deviations and your sins,</text>
+        <text><p/>And you were dead in your offenses and sins,</text>
         <greek>
           <w lemma="καί">Καὶ</w>
           <w lemma="σύ">ὑμᾶς</w>
@@ -532,11 +545,11 @@
           <w lemma="καί">καὶ</w>
           <w lemma="ὁ">ταῖς</w>
           <w lemma="ἁμαρτία">ἁμαρτίαις</w>
-          <w lemma="σύ">⸀ὑμῶν,</w>
+          <w lemma="σύ">ὑμῶν,</w>
         </greek>
       </verse>
       <verse num="2">
-        <text>in which you formerly walked according to the Aeon of this world, according to the ruler of the authority of the air—the spirit that is now at work in the sons of disobedience.</text>
+        <text>in which you once walked according to the age of this world, according to the ruler of the domain of the air, of the spirit that is now at work in the sons of disobedience.</text>
         <greek>
           <w lemma="ἐν">ἐν</w>
           <w lemma="ὅς">αἷς</w>
@@ -566,9 +579,12 @@
           <w lemma="ὁ">τῆς</w>
           <w lemma="ἀπείθεια">ἀπειθείας·</w>
         </greek>
+        <note term="the age of this world" kind="departure" lemma="αἰών" traditional="the course of this world">The Greek word means an age or era; older versions paraphrased it as &#x27;course&#x27; and several modern ones as &#x27;ways&#x27;. The phrase joins two expressions usually found separately, &#x27;this age&#x27; and &#x27;this world&#x27;, to describe the present order of things. A minority of scholars read it as a personal power, &#x27;the Aeon of this world&#x27;, parallel to the ruler named next; most do not.</note>
+        <note term="the domain of the air" kind="background" lemma="ἐξουσία" traditional="the power of the air">The air, the region between the earth and the heavens, was widely thought in antiquity to be the home of spirits. The word traditionally rendered &#x27;power&#x27; means authority, and here the sphere in which authority is exercised, hence &#x27;domain&#x27;. The ruler is not named, but readers have consistently understood the devil to be meant.</note>
+        <note term="of the spirit" kind="ambiguity" lemma="πνεῦμα" traditional="the spirit">&#x27;Spirit&#x27; is in the genitive case, so by strict grammar it depends on &#x27;ruler&#x27; (the ruler of the spirit) or stands in parallel with &#x27;domain&#x27; or &#x27;air&#x27;. Most English versions write &#x27;the spirit&#x27;, identifying it with the ruler himself, which gives a smoother sense but is not what the grammar most naturally says. The translation keeps the genitive; the question is disputed, and on either reading one hostile power is in view.</note>
       </verse>
       <verse num="3">
-        <text>Among them, we all once conducted our lives in the cravings of our flesh, carrying out the impulses of the flesh and of our thoughts; we were, by our very nature, children of wrath, just like the rest of humanity.</text>
+        <text>Among them we too all once lived in the desires of our flesh, carrying out the wishes of the flesh and of the mind, and we were by nature children of wrath, like the rest.</text>
         <greek>
           <w lemma="ἐν">ἐν</w>
           <w lemma="ὅς">οἷς</w>
@@ -592,7 +608,7 @@
           <w lemma="ὁ">τῶν</w>
           <w lemma="διάνοια">διανοιῶν,</w>
           <w lemma="καί">καὶ</w>
-          <w lemma="εἰμί">⸀ἤμεθα</w>
+          <w lemma="εἰμί">ἤμεθα</w>
           <w lemma="τέκνον">τέκνα</w>
           <w lemma="φύσις">φύσει</w>
           <w lemma="ὀργή">ὀργῆς</w>
@@ -603,7 +619,7 @@
         </greek>
       </verse>
       <verse num="4">
-        <text><p/>But God, being rich in mercy because of the great love with which he loved us,</text>
+        <text><p/>But God, being rich in mercy, because of the great love with which he loved us,</text>
         <greek>
           <w lemma="ὁ">ὁ</w>
           <w lemma="δέ">δὲ</w>
@@ -623,7 +639,7 @@
         </greek>
       </verse>
       <verse num="5">
-        <text>even when we were dead in our deviations, made us alive together with the Christ—by grace you have been saved—</text>
+        <text>even when we were dead in our offenses, made us alive together with Christ—by grace you have been saved—</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="εἰμί">ὄντας</w>
@@ -640,7 +656,7 @@
         </greek>
       </verse>
       <verse num="6">
-        <text>and he raised us up with him and seated us with him in the heavenly realms in Christ Jesus.</text>
+        <text>and raised us up with him and seated us with him in the heavenly places in Christ Jesus,</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="συνεγείρω">συνήγειρεν</w>
@@ -655,7 +671,7 @@
         </greek>
       </verse>
       <verse num="7">
-        <text>He did this so that in the Aeons to come he might demonstrate the surpassing wealth of his grace in his kindness toward us in Christ Jesus.</text>
+        <text>so that in the coming ages he might display the surpassing riches of his grace in kindness toward us in Christ Jesus.</text>
         <greek>
           <w lemma="ἵνα">ἵνα</w>
           <w lemma="ἐνδείκνυμι">ἐνδείξηται</w>
@@ -664,9 +680,9 @@
           <w lemma="αἰών">αἰῶσιν</w>
           <w lemma="ὁ">τοῖς</w>
           <w lemma="ἐπέρχομαι">ἐπερχομένοις</w>
-          <w lemma="ὁ">⸂τὸ</w>
+          <w lemma="ὁ">τὸ</w>
           <w lemma="ὑπερβάλλω">ὑπερβάλλον</w>
-          <w lemma="πλοῦτος">πλοῦτος⸃</w>
+          <w lemma="πλοῦτος">πλοῦτος</w>
           <w lemma="ὁ">τῆς</w>
           <w lemma="χάρις">χάριτος</w>
           <w lemma="αὐτός">αὐτοῦ</w>
@@ -680,14 +696,14 @@
         </greek>
       </verse>
       <verse num="8">
-        <text><p/>For by grace you have been saved through faith; and this is not from yourselves, it is God’s gift;</text>
+        <text>For by grace you have been saved through faith, and this is not from yourselves; it is the gift of God—</text>
         <greek>
           <w lemma="ὁ">τῇ</w>
           <w lemma="γάρ">γὰρ</w>
           <w lemma="χάρις">χάριτί</w>
           <w lemma="εἰμί">ἐστε</w>
           <w lemma="σῴζω">σεσῳσμένοι</w>
-          <w lemma="διά">⸀διὰ</w>
+          <w lemma="διά">διὰ</w>
           <w lemma="πίστις">πίστεως·</w>
           <w lemma="καί">καὶ</w>
           <w lemma="οὗτος">τοῦτο</w>
@@ -698,9 +714,10 @@
           <w lemma="ὁ">τὸ</w>
           <w lemma="δῶρον">δῶρον·</w>
         </greek>
+        <note term="and this" kind="ambiguity" lemma="οὗτος" traditional="and that">&#x27;This&#x27; is neuter in Greek, while &#x27;grace&#x27; and &#x27;faith&#x27; are both feminine nouns, so it most naturally refers to the whole fact of being saved by grace through faith. That is the majority scholarly view. A long-standing alternative takes &#x27;this&#x27; to be faith specifically, making faith itself the gift.</note>
       </verse>
       <verse num="9">
-        <text>it is not from works, so that no one can boast.</text>
+        <text>not from works, so that no one may boast.</text>
         <greek>
           <w lemma="οὐ">οὐκ</w>
           <w lemma="ἐκ">ἐξ</w>
@@ -712,7 +729,7 @@
         </greek>
       </verse>
       <verse num="10">
-        <text>For we are his masterpiece, created in Christ Jesus for good works, which God prepared beforehand so that we would walk in them.</text>
+        <text>For we are his handiwork, created in Christ Jesus for good works, which God prepared beforehand so that we might walk in them.</text>
         <greek>
           <w lemma="αὐτός">αὐτοῦ</w>
           <w lemma="γάρ">γάρ</w>
@@ -736,13 +753,13 @@
         </greek>
       </verse>
       <verse num="11">
-        <text><p/>Therefore, remember that formerly you—the nations in the flesh, who are called “the uncircumcision” by those called “the circumcision” (which is performed in the flesh by human hands)—</text>
+        <text><p/>Therefore remember that once you, the Gentiles in the flesh, who are called the uncircumcision by what is called the circumcision, which is made in the flesh by hands—</text>
         <greek>
           <w lemma="διό">Διὸ</w>
           <w lemma="μνημονεύω">μνημονεύετε</w>
           <w lemma="ὅτι">ὅτι</w>
-          <w lemma="ποτέ">⸂ποτὲ</w>
-          <w lemma="σύ">ὑμεῖς⸃</w>
+          <w lemma="ποτέ">ποτὲ</w>
+          <w lemma="σύ">ὑμεῖς</w>
           <w lemma="ὁ">τὰ</w>
           <w lemma="ἔθνος">ἔθνη</w>
           <w lemma="ἐν">ἐν</w>
@@ -758,12 +775,14 @@
           <w lemma="σάρξ">σαρκὶ</w>
           <w lemma="χειροποίητος">χειροποιήτου,</w>
         </greek>
+        <note term="Gentiles" kind="background" lemma="ἔθνος" traditional="Gentiles">The Greek word means &#x27;peoples&#x27; or &#x27;nations&#x27;, and in the plural in Jewish usage it means the non-Jewish peoples. This translation uses &#x27;Gentiles&#x27; for that sense and &#x27;nations&#x27; where peoples as such are meant. It is one word in Greek.</note>
+        <note term="made in the flesh by hands" kind="background" lemma="χειροποίητος" traditional="made in the flesh by hands">&#x27;Made by hands&#x27; is a pointed word. In the Greek Old Testament it is a regular term for idols, and elsewhere in the New Testament it describes temples and other things of merely human construction. Using it of circumcision presents the labels &#x27;circumcision&#x27; and &#x27;uncircumcision&#x27; as distinctions at the level of the body.</note>
       </verse>
       <verse num="12">
-        <text>remember that you were at that time separate from Christ, alienated from the commonwealth of Israel and strangers to the covenants of the promise, having no hope and without God in the world.</text>
+        <text>that at that time you were apart from Christ, shut out from citizenship in Israel and foreigners to the covenants of the promise, having no hope and without God in the world.</text>
         <greek>
           <w lemma="ὅτι">ὅτι</w>
-          <w lemma="εἰμί">⸀ἦτε</w>
+          <w lemma="εἰμί">ἦτε</w>
           <w lemma="ὁ">τῷ</w>
           <w lemma="καιρός">καιρῷ</w>
           <w lemma="ἐκεῖνος">ἐκείνῳ</w>
@@ -791,7 +810,7 @@
         </greek>
       </verse>
       <verse num="13">
-        <text>But now in Christ Jesus, you who were once far off have been brought near by the blood of the Christ.</text>
+        <text>But now in Christ Jesus you who once were far off have been brought near by the blood of Christ.</text>
         <greek>
           <w lemma="νυνί">νυνὶ</w>
           <w lemma="δέ">δὲ</w>
@@ -803,8 +822,8 @@
           <w lemma="ποτέ">ποτε</w>
           <w lemma="εἰμί">ὄντες</w>
           <w lemma="μακρός">μακρὰν</w>
-          <w lemma="γίνομαι">⸂ἐγενήθητε</w>
-          <w lemma="ἐγγύς">ἐγγὺς⸃</w>
+          <w lemma="γίνομαι">ἐγενήθητε</w>
+          <w lemma="ἐγγύς">ἐγγὺς</w>
           <w lemma="ἐν">ἐν</w>
           <w lemma="ὁ">τῷ</w>
           <w lemma="αἷμα">αἵματι</w>
@@ -813,7 +832,7 @@
         </greek>
       </verse>
       <verse num="14">
-        <text><p/>For he himself is our peace, who made both groups one and tore down the middle wall of the partition—the enmity—in his flesh.</text>
+        <text><p/>For he himself is our peace, who made both one and broke down the barrier of the dividing wall, the hostility, in his flesh,</text>
         <greek>
           <w lemma="αὐτός">αὐτὸς</w>
           <w lemma="γάρ">γάρ</w>
@@ -839,9 +858,11 @@
           <w lemma="σάρξ">σαρκὶ</w>
           <w lemma="αὐτός">αὐτοῦ,</w>
         </greek>
+        <note term="the barrier of the dividing wall" kind="background" lemma="μεσότοιχον" traditional="the middle wall of partition">Literally &#x27;the dividing wall of the fence&#x27;. Many readers see an allusion to the stone barrier in the Jerusalem temple beyond which Gentiles were forbidden to go on pain of death, known from Josephus and from surviving warning inscriptions. Others think of the law itself, which Jewish writers of the period could describe as a fence around Israel. The reference is uncertain, and the two ideas are not exclusive.</note>
+        <note term="the hostility, in his flesh" kind="ambiguity" lemma="ἔχθρα" traditional="the enmity">The Greek syntax across verses 14–15 is disputed. &#x27;The hostility&#x27; may explain what the dividing wall is (as here), or it may be the object of &#x27;nullifying&#x27; together with the law: &#x27;having nullified in his flesh the hostility, the law of commandments&#x27;. Likewise &#x27;in his flesh&#x27; can go with breaking down the wall or with nullifying the law. The translation keeps the Greek order so that both connections remain possible.</note>
       </verse>
       <verse num="15">
-        <text>He abolished the law of commandments expressed in decrees, so that he might create the two in himself into one new humanity, making peace,</text>
+        <text>nullifying the law of commandments expressed in decrees, so that in himself he might create the two into one new person, making peace,</text>
         <greek>
           <w lemma="ὁ">τὸν</w>
           <w lemma="νόμος">νόμον</w>
@@ -855,7 +876,7 @@
           <w lemma="δύο">δύο</w>
           <w lemma="κτίζω">κτίσῃ</w>
           <w lemma="ἐν">ἐν</w>
-          <w lemma="ἑαυτοῦ">⸀αὑτῷ</w>
+          <w lemma="ἑαυτοῦ">αὑτῷ</w>
           <w lemma="εἰς">εἰς</w>
           <w lemma="εἷς">ἕνα</w>
           <w lemma="καινός">καινὸν</w>
@@ -863,9 +884,10 @@
           <w lemma="ποιέω">ποιῶν</w>
           <w lemma="εἰρήνη">εἰρήνην,</w>
         </greek>
+        <note term="one new person" kind="departure" lemma="ἄνθρωπος" traditional="one new man">The Greek word means a human being, not specifically a male. Some modern versions use &#x27;one new humanity&#x27;, which is the point, but the image is of a single figure created in Christ out of two groups. &#x27;Person&#x27; keeps that image.</note>
       </verse>
       <verse num="16">
-        <text>and might reconcile both to God in one body through the cross, having killed the enmity by it.</text>
+        <text>and might reconcile both to God in one body through the cross, killing the hostility by it.</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="ἀποκαταλλάσσω">ἀποκαταλλάξῃ</w>
@@ -887,7 +909,7 @@
         </greek>
       </verse>
       <verse num="17">
-        <text>And he came and preached the glad tidings of peace to you who were far off and peace to those who were near;</text>
+        <text>And he came and announced the good news of peace to you who were far off, and peace to those who were near;</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="ἔρχομαι">ἐλθὼν</w>
@@ -897,7 +919,7 @@
           <w lemma="ὁ">τοῖς</w>
           <w lemma="μακρός">μακρὰν</w>
           <w lemma="καί">καὶ</w>
-          <w lemma="εἰρήνη">⸀εἰρήνην</w>
+          <w lemma="εἰρήνη">εἰρήνην</w>
           <w lemma="ὁ">τοῖς</w>
           <w lemma="ἐγγύς">ἐγγύς·</w>
         </greek>
@@ -922,7 +944,7 @@
         </greek>
       </verse>
       <verse num="19">
-        <text><p/>So then, you are no longer strangers and resident aliens, but you are fellow-citizens with the holy ones and members of God’s household,</text>
+        <text><p/>So then, you are no longer foreigners and resident aliens, but you are fellow citizens with the holy ones and members of God’s household,</text>
         <greek>
           <w lemma="ἄρα">ἄρα</w>
           <w lemma="οὖν">οὖν</w>
@@ -932,7 +954,7 @@
           <w lemma="καί">καὶ</w>
           <w lemma="πάροικος">πάροικοι,</w>
           <w lemma="ἀλλά">ἀλλὰ</w>
-          <w lemma="εἰμί">⸀ἐστὲ</w>
+          <w lemma="εἰμί">ἐστὲ</w>
           <w lemma="συμπολίτης">συμπολῖται</w>
           <w lemma="ὁ">τῶν</w>
           <w lemma="ἅγιος">ἁγίων</w>
@@ -941,9 +963,10 @@
           <w lemma="ὁ">τοῦ</w>
           <w lemma="θεός">θεοῦ,</w>
         </greek>
+        <note term="holy ones" kind="departure" lemma="ἅγιος" traditional="saints">&#x27;Saints&#x27; now suggests canonised individuals or people of unusual virtue. The Greek word is used for all members of the community as people set apart for God, echoing the Greek Old Testament&#x27;s language for Israel. Many translations keep &#x27;saints&#x27;; others use &#x27;God&#x27;s people&#x27;.</note>
       </verse>
       <verse num="20">
-        <text>built upon the foundation of the apostles and prophets, with Christ Jesus himself being the chief cornerstone.</text>
+        <text>built on the foundation of the apostles and prophets, Christ Jesus himself being the cornerstone,</text>
         <greek>
           <w lemma="ἐποικοδομέω">ἐποικοδομηθέντες</w>
           <w lemma="ἐπί">ἐπὶ</w>
@@ -956,16 +979,17 @@
           <w lemma="εἰμί">ὄντος</w>
           <w lemma="ἀκρογωνιαῖος">ἀκρογωνιαίου</w>
           <w lemma="αὐτός">αὐτοῦ</w>
-          <w lemma="Χριστός">⸂Χριστοῦ</w>
-          <w lemma="Ἰησοῦς">Ἰησοῦ⸃,</w>
+          <w lemma="Χριστός">Χριστοῦ</w>
+          <w lemma="Ἰησοῦς">Ἰησοῦ,</w>
         </greek>
+        <note term="cornerstone" kind="ambiguity" lemma="ἀκρογωνιαῖος" traditional="chief corner stone">The word comes from the Greek version of Isaiah 28:16, where it is a stone laid in a foundation. Most scholars take it here as the cornerstone from which a building&#x27;s lines are set. Some argue for the capstone or keystone that completes the structure at the top; the evidence for that sense is later and the question remains open.</note>
       </verse>
       <verse num="21">
-        <text>In him the whole building, being fitted together, grows into a holy sanctuary in the Lord;</text>
+        <text>in whom the whole building, fitted together, grows into a holy temple in the Lord,</text>
         <greek>
           <w lemma="ἐν">ἐν</w>
           <w lemma="ὅς">ᾧ</w>
-          <w lemma="πᾶς">⸀πᾶσα</w>
+          <w lemma="πᾶς">πᾶσα</w>
           <w lemma="οἰκοδομή">οἰκοδομὴ</w>
           <w lemma="συναρμολογέομαι">συναρμολογουμένη</w>
           <w lemma="αὔξω">αὔξει</w>
@@ -975,9 +999,10 @@
           <w lemma="ἐν">ἐν</w>
           <w lemma="κύριος">κυρίῳ,</w>
         </greek>
+        <note term="the whole building" kind="ambiguity" lemma="οἰκοδομή" traditional="all the building">The best-attested Greek text has no article, which in strict grammar would mean &#x27;every building&#x27;, as though several structures were growing into one temple. Most scholars and translations read &#x27;the whole building&#x27;, since Greek of this period uses the form loosely and the context describes a single structure. Some manuscripts add the article, making that sense explicit.</note>
       </verse>
       <verse num="22">
-        <text>in him you also are being built together into a dwelling place for God in the Spirit.</text>
+        <text>in whom you too are being built together into a dwelling place for God in the Spirit.</text>
         <greek>
           <w lemma="ἐν">ἐν</w>
           <w lemma="ὅς">ᾧ</w>
@@ -995,7 +1020,7 @@
     </chapter>
     <chapter num="3">
       <verse num="1">
-        <text><p/>For this reason, I, Paul, the prisoner of the Christ, Jesus, on behalf of you—the non-Jewish nations—</text>
+        <text><p/>For this reason I, Paul, the prisoner of Christ Jesus for the sake of you Gentiles—</text>
         <greek>
           <w lemma="οὗτος">Τούτου</w>
           <w lemma="χάριν">χάριν</w>
@@ -1011,9 +1036,11 @@
           <w lemma="ὁ">τῶν</w>
           <w lemma="ἔθνος">ἐθνῶν—</w>
         </greek>
+        <note term="Gentiles" kind="background" lemma="ἔθνος" traditional="Gentiles">The Greek word means &#x27;peoples&#x27; or &#x27;nations&#x27;; in the plural it was the ordinary Jewish way of referring to all the non-Jewish peoples. This translation uses &#x27;Gentiles&#x27; for that sense and &#x27;nations&#x27; where peoples as such are meant, but it is one Greek word throughout.</note>
+        <note term="For this reason I, Paul, the prisoner of Christ Jesus for the sake of you Gentiles—" kind="ambiguity" lemma="" traditional="For this cause I Paul, the prisoner of Jesus Christ for you Gentiles,">The sentence has no main verb and breaks off. Most interpreters think Paul digresses in verses 2–13 and resumes at verse 14, where &#x27;For this reason&#x27; is repeated. A minority supply a verb here: &#x27;I, Paul, am the prisoner of Christ Jesus.&#x27;</note>
       </verse>
       <verse num="2">
-        <text>assuming, of course, you have heard of the stewardship of God’s grace that was given to me for you:</text>
+        <text>if indeed you have heard of the administration of God’s grace that was given to me for you:</text>
         <greek>
           <w lemma="εἰ">εἴ</w>
           <w lemma="γέ">γε</w>
@@ -1030,13 +1057,14 @@
           <w lemma="εἰς">εἰς</w>
           <w lemma="σύ">ὑμᾶς·</w>
         </greek>
+        <note term="administration" kind="ambiguity" lemma="οἰκονομία" traditional="dispensation; stewardship">The word means the management of a household or estate, and by extension an arrangement or a task of management. Here it may be the responsibility entrusted to Paul (&#x27;stewardship&#x27;, &#x27;commission&#x27;) or the way God has arranged for his grace to be dispensed (&#x27;plan&#x27;). The same word recurs in verse 9, where God&#x27;s arrangement is more clearly in view; &#x27;administration&#x27; is used in both places to keep the link visible.</note>
       </verse>
       <verse num="3">
-        <text>that by a revelation the *mysterion* was made known to me, as I wrote to you briefly before.</text>
+        <text>by revelation the secret was made known to me, as I wrote above in brief.</text>
         <greek>
-          <w lemma="κατά">⸀κατὰ</w>
+          <w lemma="κατά">κατὰ</w>
           <w lemma="ἀποκάλυψις">ἀποκάλυψιν</w>
-          <w lemma="γνωρίζω">⸀ἐγνωρίσθη</w>
+          <w lemma="γνωρίζω">ἐγνωρίσθη</w>
           <w lemma="ἐγώ">μοι</w>
           <w lemma="ὁ">τὸ</w>
           <w lemma="μυστήριον">μυστήριον,</w>
@@ -1045,9 +1073,10 @@
           <w lemma="ἐν">ἐν</w>
           <w lemma="ὀλίγος">ὀλίγῳ,</w>
         </greek>
+        <note term="secret" kind="departure" lemma="μυστήριον" traditional="mystery">In the period, and especially in the Greek version of Daniel, this word means a secret, in particular a purpose of God that is hidden until he discloses it. &#x27;Mystery&#x27; now suggests a puzzle or something beyond understanding, whereas Paul&#x27;s point is that the secret has been revealed and can be stated plainly (verse 6). Most translations keep &#x27;mystery&#x27;, usually explaining it in this sense.</note>
       </verse>
       <verse num="4">
-        <text>By reading that, you are able to perceive my insight into the *mysterion* of the Christ.</text>
+        <text>When you read this, you can perceive my insight into the secret of Christ,</text>
         <greek>
           <w lemma="πρός">πρὸς</w>
           <w lemma="ὅς">ὃ</w>
@@ -1065,7 +1094,7 @@
         </greek>
       </verse>
       <verse num="5">
-        <text>In other generations, this was not made known to the sons of men as it has now been revealed to his holy *apostoloi* and prophets by the Spirit:</text>
+        <text>which in other generations was not made known to the sons of men as it has now been revealed to his holy apostles and prophets in the Spirit:</text>
         <greek>
           <w lemma="ὅς">ὃ</w>
           <w lemma="ἕτερος">ἑτέραις</w>
@@ -1090,7 +1119,7 @@
         </greek>
       </verse>
       <verse num="6">
-        <text>that the nations are joint-heirs, members of the same body, and joint-sharers of the promise in Christ Jesus through the *evangelion*.</text>
+        <text>that the Gentiles are fellow heirs, fellow members of the body, and fellow sharers in the promise in Christ Jesus through the good news,</text>
         <greek>
           <w lemma="εἰμί">εἶναι</w>
           <w lemma="ὁ">τὰ</w>
@@ -1102,19 +1131,20 @@
           <w lemma="συμμέτοχος">συμμέτοχα</w>
           <w lemma="ὁ">τῆς</w>
           <w lemma="ἐπαγγελία">ἐπαγγελίας</w>
-          <w lemma="ἐν">⸂ἐν</w>
+          <w lemma="ἐν">ἐν</w>
           <w lemma="Χριστός">Χριστῷ</w>
-          <w lemma="Ἰησοῦς">Ἰησοῦ⸃</w>
+          <w lemma="Ἰησοῦς">Ἰησοῦ</w>
           <w lemma="διά">διὰ</w>
           <w lemma="ὁ">τοῦ</w>
           <w lemma="εὐαγγέλιον">εὐαγγελίου,</w>
         </greek>
+        <note term="good news" kind="departure" lemma="εὐαγγέλιον" traditional="gospel">The Greek word was an ordinary term for good tidings, such as news of a victory or a ruler&#x27;s accession. &#x27;Gospel&#x27; is the traditional rendering and remains common. &#x27;Good news&#x27; is used here because it carries the plain sense and keeps the link with the related verb in verse 8, &#x27;to bring … the good news&#x27;.</note>
       </verse>
       <verse num="7">
-        <text><p/>I became a servant of this *evangelion* according to the gift of God’s grace given to me through the internal working of his power.</text>
+        <text>of which I became a servant according to the gift of God’s grace, given to me according to the working of his power.</text>
         <greek>
           <w lemma="ὅς">οὗ</w>
-          <w lemma="γίνομαι">⸀ἐγενήθην</w>
+          <w lemma="γίνομαι">ἐγενήθην</w>
           <w lemma="διάκονος">διάκονος</w>
           <w lemma="κατά">κατὰ</w>
           <w lemma="ὁ">τὴν</w>
@@ -1123,8 +1153,8 @@
           <w lemma="χάρις">χάριτος</w>
           <w lemma="ὁ">τοῦ</w>
           <w lemma="θεός">θεοῦ</w>
-          <w lemma="ὁ">⸂τῆς</w>
-          <w lemma="δίδωμι">δοθείσης⸃</w>
+          <w lemma="ὁ">τῆς</w>
+          <w lemma="δίδωμι">δοθείσης</w>
           <w lemma="ἐγώ">μοι</w>
           <w lemma="κατά">κατὰ</w>
           <w lemma="ὁ">τὴν</w>
@@ -1135,7 +1165,7 @@
         </greek>
       </verse>
       <verse num="8">
-        <text>To me—the very least of all the holy ones—this grace was given: to announce the good news of the untraceable riches of the Christ to the nations,</text>
+        <text>To me, less than the least of all the holy ones, this grace was given: to bring the Gentiles the good news of the unfathomable riches of Christ,</text>
         <greek>
           <w lemma="ἐγώ">ἐμοὶ</w>
           <w lemma="ὁ">τῷ</w>
@@ -1146,22 +1176,23 @@
           <w lemma="ὁ">ἡ</w>
           <w lemma="χάρις">χάρις</w>
           <w lemma="οὗτος">αὕτη—</w>
-          <w lemma="ὁ">⸀τοῖς</w>
+          <w lemma="ὁ">τοῖς</w>
           <w lemma="ἔθνος">ἔθνεσιν</w>
           <w lemma="εὐαγγελίζω">εὐαγγελίσασθαι</w>
-          <w lemma="ὁ">⸂τὸ</w>
+          <w lemma="ὁ">τὸ</w>
           <w lemma="ἀνεξιχνίαστος">ἀνεξιχνίαστον</w>
-          <w lemma="πλοῦτος">πλοῦτος⸃</w>
+          <w lemma="πλοῦτος">πλοῦτος</w>
           <w lemma="ὁ">τοῦ</w>
           <w lemma="Χριστός">Χριστοῦ,</w>
         </greek>
+        <note term="holy ones" kind="departure" lemma="ἅγιος" traditional="saints">The word refers to all members of the community as people set apart for God, echoing the Septuagint&#x27;s language for Israel. &#x27;Saints&#x27; now suggests canonised individuals or people of unusual virtue. Many translations keep &#x27;saints&#x27;; others use &#x27;God&#x27;s people&#x27; or &#x27;his holy people&#x27;.</note>
       </verse>
       <verse num="9">
-        <text>and to bring to light for everyone what is the stewardship of the *mysterion* which has been hidden for ages in God, who created all things.</text>
+        <text>and to enlighten everyone as to what is the administration of the secret hidden for ages in God, who created all things,</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="φωτίζω">φωτίσαι</w>
-          <w lemma="πᾶς">⸀πάντας</w>
+          <w lemma="πᾶς">πάντας</w>
           <w lemma="τίς">τίς</w>
           <w lemma="ὁ">ἡ</w>
           <w lemma="οἰκονομία">οἰκονομία</w>
@@ -1178,11 +1209,11 @@
           <w lemma="ὁ">τῷ</w>
           <w lemma="ὁ">τὰ</w>
           <w lemma="πᾶς">πάντα</w>
-          <w lemma="κτίζω">⸀κτίσαντι,</w>
+          <w lemma="κτίζω">κτίσαντι,</w>
         </greek>
       </verse>
       <verse num="10">
-        <text>This was done so that the multi-faceted wisdom of God might now be made known to the rulers and authorities in the heavenly realms through the *ekklesia*,</text>
+        <text>so that the richly varied wisdom of God might now be made known through the assembly to the rulers and the authorities in the heavenly places,</text>
         <greek>
           <w lemma="ἵνα">ἵνα</w>
           <w lemma="γνωρίζω">γνωρισθῇ</w>
@@ -1204,9 +1235,10 @@
           <w lemma="ὁ">τοῦ</w>
           <w lemma="θεός">θεοῦ,</w>
         </greek>
+        <note term="assembly" kind="departure" lemma="ἐκκλησία" traditional="church">A first-century hearer knew this word as a civic gathering of citizens and as the Septuagint&#x27;s term for Israel assembled before God. &#x27;Church&#x27; is the near-universal rendering and readers know what it refers to, but it now suggests a building or an institution. &#x27;Assembly&#x27; is used throughout this translation; it should not be heard as a single meeting.</note>
       </verse>
       <verse num="11">
-        <text>according to the purpose of the ages which he accomplished in Christ Jesus our Lord.</text>
+        <text>in keeping with the purpose of the ages that he accomplished in Christ Jesus our Lord,</text>
         <greek>
           <w lemma="κατά">κατὰ</w>
           <w lemma="πρόθεσις">πρόθεσιν</w>
@@ -1215,7 +1247,7 @@
           <w lemma="ὅς">ἣν</w>
           <w lemma="ποιέω">ἐποίησεν</w>
           <w lemma="ἐν">ἐν</w>
-          <w lemma="ὁ">⸀τῷ</w>
+          <w lemma="ὁ">τῷ</w>
           <w lemma="Χριστός">Χριστῷ</w>
           <w lemma="Ἰησοῦς">Ἰησοῦ</w>
           <w lemma="ὁ">τῷ</w>
@@ -1224,14 +1256,14 @@
         </greek>
       </verse>
       <verse num="12">
-        <text>In him we have boldness and access with confidence through his faithfulness.</text>
+        <text>in whom we have boldness and access with confidence through faith in him.</text>
         <greek>
           <w lemma="ἐν">ἐν</w>
           <w lemma="ὅς">ᾧ</w>
           <w lemma="ἔχω">ἔχομεν</w>
           <w lemma="ὁ">τὴν</w>
           <w lemma="παρρησία">παρρησίαν</w>
-          <w lemma="καί">⸀καὶ</w>
+          <w lemma="καί">καὶ</w>
           <w lemma="προσαγωγή">προσαγωγὴν</w>
           <w lemma="ἐν">ἐν</w>
           <w lemma="πεποίθησις">πεποιθήσει</w>
@@ -1240,14 +1272,15 @@
           <w lemma="πίστις">πίστεως</w>
           <w lemma="αὐτός">αὐτοῦ.</w>
         </greek>
+        <note term="through faith in him" kind="ambiguity" lemma="πίστις" traditional="by the faith of him; through faith in him">The Greek is literally &#x27;through the faith of him&#x27;. The majority reading takes this as faith directed toward Christ. A substantial number of scholars read it as Christ&#x27;s own faithfulness: &#x27;through his faithfulness&#x27;. The grammar allows either.</note>
       </verse>
       <verse num="13">
-        <text>Therefore, I ask you not to lose heart over my afflictions on your behalf, which are your glory.</text>
+        <text>So I ask you not to lose heart at my afflictions on your behalf, which are your glory.</text>
         <greek>
           <w lemma="διό">διὸ</w>
           <w lemma="αἰτέω">αἰτοῦμαι</w>
           <w lemma="μή">μὴ</w>
-          <w lemma="ἐγκακέω">⸀ἐγκακεῖν</w>
+          <w lemma="ἐγκακέω">ἐγκακεῖν</w>
           <w lemma="ἐν">ἐν</w>
           <w lemma="ὁ">ταῖς</w>
           <w lemma="θλῖψις">θλίψεσίν</w>
@@ -1259,9 +1292,10 @@
           <w lemma="δόξα">δόξα</w>
           <w lemma="σύ">ὑμῶν.</w>
         </greek>
+        <note term="I ask you not to lose heart" kind="ambiguity" lemma="αἰτέω" traditional="I desire that ye faint not">The Greek names neither the person asked nor who might lose heart. Most take it as a request to the readers not to be discouraged by Paul&#x27;s imprisonment. It could also be a prayer to God that the readers not lose heart or, less probably, that Paul himself not lose heart.</note>
       </verse>
       <verse num="14">
-        <text><p/>For this reason, I bend my knees before the Father,</text>
+        <text><p/>For this reason I bend my knees before the Father,</text>
         <greek>
           <w lemma="οὗτος">Τούτου</w>
           <w lemma="χάριν">χάριν</w>
@@ -1271,11 +1305,11 @@
           <w lemma="ἐγώ">μου</w>
           <w lemma="πρός">πρὸς</w>
           <w lemma="ὁ">τὸν</w>
-          <w lemma="πατήρ">⸀πατέρα,</w>
+          <w lemma="πατήρ">πατέρα,</w>
         </greek>
       </verse>
       <verse num="15">
-        <text>from whom every family-lineage in the heavens and on earth derives its name.</text>
+        <text>from whom every family in the heavens and on earth takes its name,</text>
         <greek>
           <w lemma="ἐκ">ἐξ</w>
           <w lemma="ὅς">οὗ</w>
@@ -1288,16 +1322,18 @@
           <w lemma="γῆ">γῆς</w>
           <w lemma="ὀνομάζω">ὀνομάζεται,</w>
         </greek>
+        <note term="every family" kind="background" lemma="πατριά" traditional="the whole family; every family">The Greek word for a family or clan (patria) is formed from the word for father (patēr), so a hearer caught a link with &#x27;the Father&#x27; in the previous verse that English cannot reproduce. The word means a group descended from a common ancestor, not &#x27;fatherhood&#x27; in the abstract. The older rendering &#x27;the whole family&#x27; is unlikely without the article in Greek.</note>
+        <note term="in the heavens" kind="departure" lemma="οὐρανός" traditional="in heaven">The Greek is plural, a Semitic turn of phrase that this translation keeps wherever it occurs. Most translations flatten it to &#x27;heaven&#x27;.</note>
       </verse>
       <verse num="16">
-        <text>I pray that he would grant you, according to the riches of his glory, to be strengthened with power through his Spirit in your inner person,</text>
+        <text>that he may grant you, according to the riches of his glory, to be strengthened with power through his Spirit in the inner person,</text>
         <greek>
           <w lemma="ἵνα">ἵνα</w>
-          <w lemma="δίδωμι">⸀δῷ</w>
+          <w lemma="δίδωμι">δῷ</w>
           <w lemma="σύ">ὑμῖν</w>
           <w lemma="κατά">κατὰ</w>
-          <w lemma="ὁ">⸂τὸ</w>
-          <w lemma="πλοῦτος">πλοῦτος⸃</w>
+          <w lemma="ὁ">τὸ</w>
+          <w lemma="πλοῦτος">πλοῦτος</w>
           <w lemma="ὁ">τῆς</w>
           <w lemma="δόξα">δόξης</w>
           <w lemma="αὐτός">αὐτοῦ</w>
@@ -1314,7 +1350,7 @@
         </greek>
       </verse>
       <verse num="17">
-        <text>so that the Christ may take up residence in your hearts through faith. And I pray that you, having been rooted and founded in love,</text>
+        <text>so that Christ may dwell in your hearts through faith, and that you, rooted and grounded in love,</text>
         <greek>
           <w lemma="κατοικέω">κατοικῆσαι</w>
           <w lemma="ὁ">τὸν</w>
@@ -1332,9 +1368,10 @@
           <w lemma="καί">καὶ</w>
           <w lemma="θεμελιόω">τεθεμελιωμένοι,</w>
         </greek>
+        <note term="rooted and grounded in love" kind="ambiguity" lemma="" traditional="rooted and grounded in love">In the Greek, &#x27;in love&#x27; stands between the clause about Christ dwelling in their hearts and the words &#x27;rooted and grounded&#x27;, and could belong to either. The edition translated here punctuates it with what precedes: &#x27;that Christ may dwell in your hearts through faith, in love&#x27;. Most translations and commentators attach it to &#x27;rooted and grounded&#x27;, as here; the punctuation is editorial and not part of the ancient text.</note>
       </verse>
       <verse num="18">
-        <text>may have the strength to grasp, together with all the holy ones, what is the breadth and length and height and depth—</text>
+        <text>may be strong enough to grasp, with all the holy ones, what is the breadth and length and height and depth,</text>
         <greek>
           <w lemma="ἵνα">ἵνα</w>
           <w lemma="ἐξισχύω">ἐξισχύσητε</w>
@@ -1349,13 +1386,13 @@
           <w lemma="καί">καὶ</w>
           <w lemma="μῆκος">μῆκος</w>
           <w lemma="καί">καὶ</w>
-          <w lemma="ὕψος">⸂ὕψος</w>
+          <w lemma="ὕψος">ὕψος</w>
           <w lemma="καί">καὶ</w>
-          <w lemma="βάθος">βάθος⸃,</w>
+          <w lemma="βάθος">βάθος,</w>
         </greek>
       </verse>
       <verse num="19">
-        <text>and to know the love of Christ that surpasses knowledge, so that you may be filled until you reach all the fullness of God.</text>
+        <text>and to know the love of Christ that surpasses knowledge, so that you may be filled to all the fullness of God.</text>
         <greek>
           <w lemma="γινώσκω">γνῶναί</w>
           <w lemma="τέ">τε</w>
@@ -1377,7 +1414,7 @@
         </greek>
       </verse>
       <verse num="20">
-        <text><p/>Now to him who is able to do far beyond all things—exceedingly more than we ask or even imagine, according to the power that is at work within us—</text>
+        <text><p/>Now to him who is able to do beyond everything, far more than all we ask or conceive, according to the power at work in us,</text>
         <greek>
           <w lemma="ὁ">Τῷ</w>
           <w lemma="δέ">δὲ</w>
@@ -1400,7 +1437,7 @@
         </greek>
       </verse>
       <verse num="21">
-        <text>to him be the glory in the *ekklesia* and in Christ Jesus to all generations, forever and ever. Amen.</text>
+        <text>to him be the glory in the assembly and in Christ Jesus, to all the generations of the age of the ages. Amen.</text>
         <greek>
           <w lemma="αὐτός">αὐτῷ</w>
           <w lemma="ὁ">ἡ</w>
@@ -1408,7 +1445,7 @@
           <w lemma="ἐν">ἐν</w>
           <w lemma="ὁ">τῇ</w>
           <w lemma="ἐκκλησία">ἐκκλησίᾳ</w>
-          <w lemma="καί">⸀καὶ</w>
+          <w lemma="καί">καὶ</w>
           <w lemma="ἐν">ἐν</w>
           <w lemma="Χριστός">Χριστῷ</w>
           <w lemma="Ἰησοῦς">Ἰησοῦ</w>
@@ -1422,11 +1459,12 @@
           <w lemma="αἰών">αἰώνων·</w>
           <w lemma="ἀμήν">ἀμήν.</w>
         </greek>
+        <note term="to all the generations of the age of the ages" kind="departure" lemma="αἰών" traditional="throughout all ages, world without end; throughout all generations, for ever and ever">The Greek piles up time expressions in a Semitic style: literally &#x27;to all the generations of the age of the ages&#x27;. The phrase is an emphatic way of saying &#x27;for all time without end&#x27;, and most translations paraphrase it so. The literal form is kept here because the letter has spoken repeatedly of &#x27;the ages&#x27; (verses 9 and 11).</note>
       </verse>
     </chapter>
     <chapter num="4">
       <verse num="1">
-        <text><p/>I urge you, then, I the prisoner in the Lord, to walk in a way worthy of the summons to which you were called,</text>
+        <text><p/>I, then, the prisoner in the Lord, urge you to walk in a way worthy of the calling with which you were called,</text>
         <greek>
           <w lemma="παρακαλέω">Παρακαλῶ</w>
           <w lemma="οὖν">οὖν</w>
@@ -1445,7 +1483,7 @@
         </greek>
       </verse>
       <verse num="2">
-        <text>with all lowliness of mind and gentle strength, with patience, bearing with one other in love,</text>
+        <text>with all humility and gentleness, with patience, bearing with one another in love,</text>
         <greek>
           <w lemma="μετά">μετὰ</w>
           <w lemma="πᾶς">πάσης</w>
@@ -1459,9 +1497,10 @@
           <w lemma="ἐν">ἐν</w>
           <w lemma="ἀγάπη">ἀγάπῃ,</w>
         </greek>
+        <note term="gentleness" kind="departure" lemma="πραΰτης" traditional="meekness">Older translations have “meekness,” which now suggests weakness or timidity. The Greek word describes someone who is not harsh or self-assertive, without any implication of weakness. “Gentleness” or “humility” is the mainstream modern rendering.</note>
       </verse>
       <verse num="3">
-        <text>making every effort to guard the oneness of the Spirit in the binding-link of peace.</text>
+        <text>making every effort to keep the unity of the Spirit in the bond of peace.</text>
         <greek>
           <w lemma="σπουδάζω">σπουδάζοντες</w>
           <w lemma="τηρέω">τηρεῖν</w>
@@ -1477,7 +1516,7 @@
         </greek>
       </verse>
       <verse num="4">
-        <text>There is one body and one Spirit, just as you were also called in one hope of your summons;</text>
+        <text>One body and one Spirit, just as you were also called in the one hope of your calling;</text>
         <greek>
           <w lemma="εἷς">ἓν</w>
           <w lemma="σῶμα">σῶμα</w>
@@ -1496,7 +1535,7 @@
         </greek>
       </verse>
       <verse num="5">
-        <text>one Lord, one faith, one *baptism*;</text>
+        <text>one Lord, one faith, one baptism;</text>
         <greek>
           <w lemma="εἷς">εἷς</w>
           <w lemma="κύριος">κύριος,</w>
@@ -1522,18 +1561,18 @@
           <w lemma="πᾶς">πάντων</w>
           <w lemma="καί">καὶ</w>
           <w lemma="ἐν">ἐν</w>
-          <w lemma="πᾶς">⸀πᾶσιν.</w>
+          <w lemma="πᾶς">πᾶσιν.</w>
         </greek>
       </verse>
       <verse num="7">
-        <text><p/>But to each one of us, grace was given according to the measure of the gift of the *Christ*.</text>
+        <text><p/>But to each one of us grace was given according to the measure of Christ’s gift.</text>
         <greek>
           <w lemma="εἷς">Ἑνὶ</w>
           <w lemma="δέ">δὲ</w>
           <w lemma="ἕκαστος">ἑκάστῳ</w>
           <w lemma="ἐγώ">ἡμῶν</w>
           <w lemma="δίδωμι">ἐδόθη</w>
-          <w lemma="ὁ">⸀ἡ</w>
+          <w lemma="ὁ">ἡ</w>
           <w lemma="χάρις">χάρις</w>
           <w lemma="κατά">κατὰ</w>
           <w lemma="ὁ">τὸ</w>
@@ -1545,7 +1584,7 @@
         </greek>
       </verse>
       <verse num="8">
-        <text>Therefore it says: <q who="scripture">“Having ascended to the height, he led a captive procession of captives; he gave gifts to humanity.”</q></text>
+        <text>Therefore it says:<q who="scripture"> “When he ascended on high, he took captives captive; he gave gifts to people.”</q></text>
         <greek>
           <w lemma="διό">διὸ</w>
           <w lemma="λέγω">λέγει·</w>
@@ -1554,14 +1593,15 @@
           <w lemma="ὕψος">ὕψος</w>
           <w lemma="αἰχμαλωτεύω">ᾐχμαλώτευσεν</w>
           <w lemma="αἰχμαλωσία">αἰχμαλωσίαν,</w>
-          <w lemma="δίδωμι">⸀ἔδωκεν</w>
+          <w lemma="δίδωμι">ἔδωκεν</w>
           <w lemma="δόμα">δόματα</w>
           <w lemma="ὁ">τοῖς</w>
           <w lemma="ἄνθρωπος">ἀνθρώποις.</w>
         </greek>
+        <note term="he gave gifts to people" kind="background" lemma="" traditional="gave gifts unto men">The quotation is from Psalm 68:18 (67:19 in the Septuagint). Both the Hebrew and the Septuagint say that the victor “received gifts among people,” whereas the wording here says he “gave” them; a similar reading appears in the later Aramaic paraphrase of the Psalms, and scholars debate whether the author follows an existing interpretive tradition or adapts the text to his point. The introductory “it says” could also be translated “he says,” with God as the speaker.</note>
       </verse>
       <verse num="9">
-        <text>Now, what does “he ascended” mean except that he also descended into the lower regions of the earth?</text>
+        <text>Now what does “he ascended” mean, if not that he also descended to the lower regions of the earth?</text>
         <greek>
           <w lemma="ὁ">τὸ</w>
           <w lemma="δέ">δὲ</w>
@@ -1572,7 +1612,7 @@
           <w lemma="μή">μὴ</w>
           <w lemma="ὅτι">ὅτι</w>
           <w lemma="καί">καὶ</w>
-          <w lemma="καταβαίνω">⸀κατέβη</w>
+          <w lemma="καταβαίνω">κατέβη</w>
           <w lemma="εἰς">εἰς</w>
           <w lemma="ὁ">τὰ</w>
           <w lemma="κατώτερος">κατώτερα</w>
@@ -1580,6 +1620,7 @@
           <w lemma="ὁ">τῆς</w>
           <w lemma="γῆ">γῆς;</w>
         </greek>
+        <note term="the lower regions of the earth" kind="ambiguity" lemma="κατώτερος" traditional="the lower parts of the earth">The phrase can mean the regions beneath the earth, that is, the realm of the dead, or “the lower regions, namely the earth,” in which case the descent is Christ’s coming into the world. Both readings have strong scholarly support, and a minority takes the descent as the giving of the Spirit after the ascension. The translation leaves the phrase as open as the Greek. Some manuscripts add “first” after “descended.”</note>
       </verse>
       <verse num="10">
         <text>The one who descended is himself also the one who ascended far above all the heavens, so that he might fill all things.</text>
@@ -1602,7 +1643,7 @@
         </greek>
       </verse>
       <verse num="11">
-        <text><p/>And he himself gave some to be *apostles*, some to be prophets, some to be evangelists, some to be shepherds and teachers,</text>
+        <text>And it was he who gave some as apostles, some as prophets, some as evangelists, some as shepherds and teachers,</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="αὐτός">αὐτὸς</w>
@@ -1622,9 +1663,10 @@
           <w lemma="καί">καὶ</w>
           <w lemma="διδάσκαλος">διδασκάλους,</w>
         </greek>
+        <note term="shepherds and teachers" kind="departure" lemma="ποιμήν" traditional="pastors and teachers">The Greek word is the ordinary one for a shepherd, used as a picture of those who look after a community. “Pastor” is the Latin word for shepherd but now names a church office, and this is the one place where most translations use it instead of “shepherds.” Because “shepherds and teachers” share a single article in Greek, many scholars think one group, or two closely overlapping groups, is meant.</note>
       </verse>
       <verse num="12">
-        <text>for the purpose of equipping the holy ones for the work of service, for the building up of the body of the *Christ*,</text>
+        <text>to equip the holy ones for the work of service, for the building up of the body of Christ,</text>
         <greek>
           <w lemma="πρός">πρὸς</w>
           <w lemma="ὁ">τὸν</w>
@@ -1641,9 +1683,11 @@
           <w lemma="ὁ">τοῦ</w>
           <w lemma="Χριστός">Χριστοῦ,</w>
         </greek>
+        <note term="holy ones" kind="departure" lemma="ἅγιος" traditional="saints">“Saints” now suggests canonised individuals or people of exceptional virtue. The Greek word is used of all members of the community as people set apart for God, echoing the Septuagint’s language for Israel. Many translations keep “saints”; others use “God’s people.”</note>
+        <note term="for the work of service" kind="ambiguity" lemma="διακονία" traditional="for the work of the ministry">The three phrases of this verse can be read as parallel, so that the leaders are given for equipping, for ministry and for building up. Here, as in most modern translations, they are read in sequence: the leaders equip all the holy ones, who then do the work of service. The Greek word covers service of many kinds, from waiting at table to carrying out a commission, whereas “ministry” now suggests clergy.</note>
       </verse>
       <verse num="13">
-        <text>until we all reach the oneness of the faith and of the full, experiential knowledge of the Son of God, to a mature manhood, to the measure of the stature of the fullness of the *Christ*.</text>
+        <text>until we all come to the unity of the faith and of the knowledge of the Son of God, to a full-grown man, to the measure of the stature of Christ’s fullness,</text>
         <greek>
           <w lemma="μέχρι(ς)">μέχρι</w>
           <w lemma="καταντάω">καταντήσωμεν</w>
@@ -1672,9 +1716,10 @@
           <w lemma="ὁ">τοῦ</w>
           <w lemma="Χριστός">Χριστοῦ,</w>
         </greek>
+        <note term="a full-grown man" kind="departure" lemma="ἀνήρ" traditional="a perfect man">The Greek uses the word for an adult male with an adjective meaning complete or fully grown, in contrast to the “infants” of the next verse. The whole community is pictured as a single person growing to adulthood. Older versions have “a perfect man”; many modern ones paraphrase as “maturity” or “mature manhood.”</note>
       </verse>
       <verse num="14">
-        <text>This is so that we may no longer be infants, tossed by the waves and carried around by every wind of teaching in the rigged dice-playing of men, in their craftiness for the scheming of error.</text>
+        <text>so that we may no longer be infants, tossed by the waves and carried about by every wind of teaching, through the trickery of people, through cunning that serves the scheming of error,</text>
         <greek>
           <w lemma="ἵνα">ἵνα</w>
           <w lemma="μηκέτι">μηκέτι</w>
@@ -1702,7 +1747,7 @@
         </greek>
       </verse>
       <verse num="15">
-        <text>Rather, being truthful in love, let us grow in every way into him who is the head, the *Christ*.</text>
+        <text>but rather, speaking the truth in love, may grow up in every way into him who is the head, Christ,</text>
         <greek>
           <w lemma="ἀληθεύω">ἀληθεύοντες</w>
           <w lemma="δέ">δὲ</w>
@@ -1717,11 +1762,12 @@
           <w lemma="εἰμί">ἐστιν</w>
           <w lemma="ὁ">ἡ</w>
           <w lemma="κεφαλή">κεφαλή,</w>
-          <w lemma="Χριστός">⸀Χριστός,</w>
+          <w lemma="Χριστός">Χριστός,</w>
         </greek>
+        <note term="speaking the truth" kind="ambiguity" lemma="ἀληθεύω" traditional="speaking the truth">The verb can mean telling the truth or, more broadly, being truthful and holding to what is true in conduct as well as speech. Most translations have “speaking the truth,” which fits the contrast with deceitful teaching in the previous verse. Some scholars prefer “living the truth” or “being truthful.”</note>
       </verse>
       <verse num="16">
-        <text>From him the whole body, being fitted together and held together through every ligament of supply, according to the operative power in the measure of each individual part, produces the growth of the body for its own building up in love.</text>
+        <text>from whom the whole body, joined and held together through every supporting ligament, as each single part does its work in due measure, brings about the body’s growth, so that it builds itself up in love.</text>
         <greek>
           <w lemma="ἐκ">ἐξ</w>
           <w lemma="ὅς">οὗ</w>
@@ -1756,7 +1802,7 @@
         </greek>
       </verse>
       <verse num="17">
-        <text><p/>Therefore, this I say and testify in the Lord: you must no longer walk as the nations walk, in the futility of their minds,</text>
+        <text><p/>So I say this and insist on it in the Lord: you must no longer walk as the Gentiles walk, in the futility of their minds,</text>
         <greek>
           <w lemma="οὗτος">Τοῦτο</w>
           <w lemma="οὖν">οὖν</w>
@@ -1770,7 +1816,7 @@
           <w lemma="περιπατέω">περιπατεῖν</w>
           <w lemma="καθώς">καθὼς</w>
           <w lemma="καί">καὶ</w>
-          <w lemma="ὁ">⸀τὰ</w>
+          <w lemma="ὁ">τὰ</w>
           <w lemma="ἔθνος">ἔθνη</w>
           <w lemma="περιπατέω">περιπατεῖ</w>
           <w lemma="ἐν">ἐν</w>
@@ -1779,11 +1825,12 @@
           <w lemma="νοῦς">νοὸς</w>
           <w lemma="αὐτός">αὐτῶν,</w>
         </greek>
+        <note term="Gentiles" kind="background" lemma="ἔθνος" traditional="Gentiles">The Greek word means “nations” or “peoples.” In the plural it is the regular Jewish term for the non-Jewish peoples, and this translation renders the one word as “Gentiles” or “nations” according to sense. The readers were themselves of non-Jewish origin (2:11), so the word here points to the way of life of peoples who do not know God.</note>
       </verse>
       <verse num="18">
-        <text>being darkened in their understanding, alienated from the life of God because of the ignorance that is in them, due to the calloused-hardness of their hearts.</text>
+        <text>being darkened in their understanding, alienated from the life of God because of the ignorance that is in them, because of the hardening of their hearts.</text>
         <greek>
-          <w lemma="σκοτόομαι">⸀ἐσκοτωμένοι</w>
+          <w lemma="σκοτόομαι">ἐσκοτωμένοι</w>
           <w lemma="ὁ">τῇ</w>
           <w lemma="διάνοια">διανοίᾳ</w>
           <w lemma="εἰμί">ὄντες,</w>
@@ -1808,7 +1855,7 @@
         </greek>
       </verse>
       <verse num="19">
-        <text>Having become insensitive to pain, they handed themselves over to licentiousness for the practice of every kind of uncleanness with an insatiable greed.</text>
+        <text>They have lost all feeling and have given themselves over to debauchery, for the practice of every kind of impurity, with greed.</text>
         <greek>
           <w lemma="ὅστις">οἵτινες</w>
           <w lemma="ἀπαλγέω">ἀπηλγηκότες</w>
@@ -1825,7 +1872,7 @@
         </greek>
       </verse>
       <verse num="20">
-        <text>But that is not how you learned the *Christ*—</text>
+        <text>But that is not how you learned Christ,</text>
         <greek>
           <w lemma="σύ">ὑμεῖς</w>
           <w lemma="δέ">δὲ</w>
@@ -1837,7 +1884,7 @@
         </greek>
       </verse>
       <verse num="21">
-        <text>if indeed you heard him and were taught in him, just as truth is in Jesus:</text>
+        <text>if indeed you heard him and were taught in him, just as truth is in Jesus,</text>
         <greek>
           <w lemma="εἰ">εἴ</w>
           <w lemma="γέ">γε</w>
@@ -1856,7 +1903,7 @@
         </greek>
       </verse>
       <verse num="22">
-        <text>that you strip off, according to your former way of life, the old humanity which is being corrupted according to the desires of deceit,</text>
+        <text>that you are to lay aside the old person who belongs to your former way of life and is being corrupted through the desires that come from deceit,</text>
         <greek>
           <w lemma="ἀποτίθημι">ἀποθέσθαι</w>
           <w lemma="σύ">ὑμᾶς</w>
@@ -1875,9 +1922,11 @@
           <w lemma="ὁ">τῆς</w>
           <w lemma="ἀπάτη">ἀπάτης,</w>
         </greek>
+        <note term="you are to lay aside" kind="ambiguity" lemma="ἀποτίθημι" traditional="that ye put off">The three infinitives in verses 22–24 (lay aside, be made new, put on) give the content of what the readers were taught. They can be read as instructions still to be carried out, as here, or as statements of what happened at conversion (“that you have laid aside the old person”). The parallel in Colossians 3:9–10 speaks of it as already done. The image is of taking off and putting on clothing.</note>
+        <note term="the old person" kind="departure" lemma="ἄνθρωπος" traditional="the old man; the old self">The Greek word means a human being, not specifically a male, and not quite “self” in the modern psychological sense. The phrase denotes the person one was before, seen as a whole way of being human. Some scholars take it corporately, of the old humanity as against the new humanity created in Christ (compare 2:15).</note>
       </verse>
       <verse num="23">
-        <text>and that you be renewed in the spirit of your mind,</text>
+        <text>to be made new in the spirit of your mind,</text>
         <greek>
           <w lemma="ἀνανεόω">ἀνανεοῦσθαι</w>
           <w lemma="δέ">δὲ</w>
@@ -1889,7 +1938,7 @@
         </greek>
       </verse>
       <verse num="24">
-        <text>and clothe yourselves with the new humanity, created according to God in the justice and holiness of the truth.</text>
+        <text>and to put on the new person, created in God’s likeness in the righteousness and holiness that come from truth.</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="ἐνδύω">ἐνδύσασθαι</w>
@@ -1907,9 +1956,10 @@
           <w lemma="ὁ">τῆς</w>
           <w lemma="ἀλήθεια">ἀληθείας.</w>
         </greek>
+        <note term="righteousness and holiness" kind="background" lemma="δικαιοσύνη" traditional="righteousness and true holiness">Greek has a single word-family where English has two (righteous/just, righteousness/justice), so “righteousness” here covers doing what is right and just. “Holiness” translates a word different from the usual one for “holy”; it denotes devotion to God, and the pair was a common Greek way of summing up right conduct toward people and toward God. “That come from truth” answers “that come from deceit” in verse 22; many translations instead render “true righteousness and holiness.”</note>
       </verse>
       <verse num="25">
-        <text><p/>Therefore, having stripped off the lie, <q who="scripture">“Speak truth each one with his neighbor,”</q> because we are members of one another.</text>
+        <text><p/>Therefore, laying aside falsehood, speak the truth, each of you with your neighbor, because we are members of one another.</text>
         <greek>
           <w lemma="διό">Διὸ</w>
           <w lemma="ἀποτίθημι">ἀποθέμενοι</w>
@@ -1929,7 +1979,7 @@
         </greek>
       </verse>
       <verse num="26">
-        <text><q who="scripture">“Be angry and do not sin;”</q> do not let the sun go down on your provocation,</text>
+        <text>Be angry and do not sin; do not let the sun go down on your anger,</text>
         <greek>
           <w lemma="ὀργίζομαι">ὀργίζεσθε</w>
           <w lemma="καί">καὶ</w>
@@ -1939,13 +1989,14 @@
           <w lemma="ἥλιος">ἥλιος</w>
           <w lemma="μή">μὴ</w>
           <w lemma="ἐπιδύω">ἐπιδυέτω</w>
-          <w lemma="ἐπί">⸀ἐπὶ</w>
+          <w lemma="ἐπί">ἐπὶ</w>
           <w lemma="παροργισμός">παροργισμῷ</w>
           <w lemma="σύ">ὑμῶν,</w>
         </greek>
+        <note term="Be angry and do not sin" kind="background" lemma="ὀργίζω" traditional="Be ye angry, and sin not">The words reproduce the Septuagint of Psalm 4:4 (4:5 in its numbering). Most interpreters take the imperative not as a command to be angry but as a concession: when you are angry, do not let it lead to sin. Verse 31 goes on to say that anger is to be removed altogether.</note>
       </verse>
       <verse num="27">
-        <text>and do not give a foothold to the slanderer.</text>
+        <text>and do not give room to the devil.</text>
         <greek>
           <w lemma="μηδέ">μηδὲ</w>
           <w lemma="δίδωμι">δίδοτε</w>
@@ -1955,7 +2006,7 @@
         </greek>
       </verse>
       <verse num="28">
-        <text>The one who steals must steal no longer, but instead must labor, working with his own hands at what is good, so that he may have something to share with the one who has need.</text>
+        <text>Whoever steals must steal no longer, but must rather labor, doing what is good with their own hands, so as to have something to share with anyone in need.</text>
         <greek>
           <w lemma="ὁ">ὁ</w>
           <w lemma="κλέπτω">κλέπτων</w>
@@ -1965,11 +2016,11 @@
           <w lemma="δέ">δὲ</w>
           <w lemma="κοπιάω">κοπιάτω</w>
           <w lemma="ἐργάζομαι">ἐργαζόμενος</w>
-          <w lemma="ὁ">⸂ταῖς</w>
+          <w lemma="ὁ">ταῖς</w>
           <w lemma="ἴδιος">ἰδίαις</w>
           <w lemma="χείρ">χερσὶν</w>
           <w lemma="ὁ">τὸ</w>
-          <w lemma="ἀγαθός">ἀγαθόν⸃,</w>
+          <w lemma="ἀγαθός">ἀγαθόν,</w>
           <w lemma="ἵνα">ἵνα</w>
           <w lemma="ἔχω">ἔχῃ</w>
           <w lemma="μεταδίδωμι">μεταδιδόναι</w>
@@ -1979,7 +2030,7 @@
         </greek>
       </verse>
       <verse num="29">
-        <text>Let no rotten word come out of your mouth, but only what is good for building up as the need arises, so that it may give grace to those who hear.</text>
+        <text>Let no rotten word come out of your mouth, but only what is good for building up where there is need, so that it may give grace to those who hear.</text>
         <greek>
           <w lemma="πᾶς">πᾶς</w>
           <w lemma="λόγος">λόγος</w>
@@ -2047,9 +2098,9 @@
         </greek>
       </verse>
       <verse num="32">
-        <text>Become kind to one another, compassionate, graciously forgiving each other, just as God in *Christ* also graciously forgave you.</text>
+        <text>Be kind to one another, compassionate, forgiving each other just as God in Christ also forgave you.</text>
         <greek>
-          <w lemma="γίνομαι">⸀γίνεσθε</w>
+          <w lemma="γίνομαι">γίνεσθε</w>
           <w lemma="εἰς">εἰς</w>
           <w lemma="ἀλλήλων">ἀλλήλους</w>
           <w lemma="χρηστός">χρηστοί,</w>
@@ -2063,13 +2114,13 @@
           <w lemma="ἐν">ἐν</w>
           <w lemma="Χριστός">Χριστῷ</w>
           <w lemma="χαρίζομαι">ἐχαρίσατο</w>
-          <w lemma="σύ">⸀ὑμῖν.</w>
+          <w lemma="σύ">ὑμῖν.</w>
         </greek>
       </verse>
     </chapter>
     <chapter num="5">
       <verse num="1">
-        <text><p/>Therefore, become imitators of God, as dearly loved children,</text>
+        <text><p/>So be imitators of God, as dearly loved children,</text>
         <greek>
           <w lemma="γίνομαι">γίνεσθε</w>
           <w lemma="οὖν">οὖν</w>
@@ -2082,7 +2133,7 @@
         </greek>
       </verse>
       <verse num="2">
-        <text>and walk in the way of love, just as Christ also loved us and handed himself over on our behalf as an offering and a sacrifice to God, resulting in a fragrant aroma.</text>
+        <text>and walk in love, just as Christ also loved us and gave himself up for us, an offering and sacrifice to God, a fragrant aroma.</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="περιπατέω">περιπατεῖτε</w>
@@ -2093,12 +2144,12 @@
           <w lemma="ὁ">ὁ</w>
           <w lemma="Χριστός">Χριστὸς</w>
           <w lemma="ἀγαπάω">ἠγάπησεν</w>
-          <w lemma="ἐγώ">⸀ἡμᾶς</w>
+          <w lemma="ἐγώ">ἡμᾶς</w>
           <w lemma="καί">καὶ</w>
           <w lemma="παραδίδωμι">παρέδωκεν</w>
           <w lemma="ἑαυτοῦ">ἑαυτὸν</w>
           <w lemma="ὑπέρ">ὑπὲρ</w>
-          <w lemma="ἐγώ">⸀ἡμῶν</w>
+          <w lemma="ἐγώ">ἡμῶν</w>
           <w lemma="προσφορά">προσφορὰν</w>
           <w lemma="καί">καὶ</w>
           <w lemma="θυσία">θυσίαν</w>
@@ -2110,13 +2161,13 @@
         </greek>
       </verse>
       <verse num="3">
-        <text><p/>But sexual immorality and any kind of impurity or insatiable craving must not even be named among you, as is proper for those set apart for God.</text>
+        <text><p/>But sexual immorality and impurity of any kind, or greed, must not even be named among you, as is fitting for holy ones,</text>
         <greek>
           <w lemma="πορνεία">Πορνεία</w>
           <w lemma="δέ">δὲ</w>
           <w lemma="καί">καὶ</w>
-          <w lemma="ἀκαθαρσία">⸂ἀκαθαρσία</w>
-          <w lemma="πᾶς">πᾶσα⸃</w>
+          <w lemma="ἀκαθαρσία">ἀκαθαρσία</w>
+          <w lemma="πᾶς">πᾶσα</w>
           <w lemma="ἤ">ἢ</w>
           <w lemma="πλεονεξία">πλεονεξία</w>
           <w lemma="μηδέ">μηδὲ</w>
@@ -2127,9 +2178,10 @@
           <w lemma="πρέπω">πρέπει</w>
           <w lemma="ἅγιος">ἁγίοις,</w>
         </greek>
+        <note term="holy ones" kind="departure" lemma="ἅγιος" traditional="saints">The traditional rendering is &#x27;saints&#x27;, which many translations keep; others use &#x27;God&#x27;s people&#x27;. The word is used of all members of the community as people set apart for God, echoing the Septuagint&#x27;s language for Israel. &#x27;Saints&#x27; now suggests canonised individuals or people of unusual virtue, which is not the meaning here.</note>
       </verse>
       <verse num="4">
-        <text>There must be no obscenity, foolish talk, or crude wit—things which are out of place—but instead, thanksgiving.</text>
+        <text>nor obscenity, nor foolish talk or crude joking, which are out of place, but rather thanksgiving.</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="αἰσχρότης">αἰσχρότης</w>
@@ -2137,20 +2189,20 @@
           <w lemma="μωρολογία">μωρολογία</w>
           <w lemma="ἤ">ἢ</w>
           <w lemma="εὐτραπελία">εὐτραπελία,</w>
-          <w lemma="ὅς">⸂ἃ</w>
+          <w lemma="ὅς">ἃ</w>
           <w lemma="οὐ">οὐκ</w>
-          <w lemma="ἀνήκω">ἀνῆκεν⸃,</w>
+          <w lemma="ἀνήκω">ἀνῆκεν,</w>
           <w lemma="ἀλλά">ἀλλὰ</w>
           <w lemma="μᾶλλον">μᾶλλον</w>
           <w lemma="εὐχαριστία">εὐχαριστία.</w>
         </greek>
       </verse>
       <verse num="5">
-        <text>For you can be certain of this: no one who is sexually immoral, or impure, or has an insatiable craving (which is to be an idolater) has any inheritance in the kingdom of Christ and of God.</text>
+        <text>For of this you can be sure: no sexually immoral or impure or greedy person—that is, an idolater—has any inheritance in the kingdom of Christ and of God.</text>
         <greek>
           <w lemma="οὗτος">τοῦτο</w>
           <w lemma="γάρ">γὰρ</w>
-          <w lemma="οἶδα">⸀ἴστε</w>
+          <w lemma="οἶδα">ἴστε</w>
           <w lemma="γινώσκω">γινώσκοντες</w>
           <w lemma="ὅτι">ὅτι</w>
           <w lemma="πᾶς">πᾶς</w>
@@ -2159,7 +2211,7 @@
           <w lemma="ἀκάθαρτος">ἀκάθαρτος</w>
           <w lemma="ἤ">ἢ</w>
           <w lemma="πλεονέκτης">πλεονέκτης,</w>
-          <w lemma="ὅς">⸀ὅ</w>
+          <w lemma="ὅς">ὅ</w>
           <w lemma="εἰμί">ἐστιν</w>
           <w lemma="εἰδωλολάτρης">εἰδωλολάτρης,</w>
           <w lemma="οὐ">οὐκ</w>
@@ -2175,7 +2227,7 @@
         </greek>
       </verse>
       <verse num="6">
-        <text><p/>Let no one deceive you with empty words, for because of these things the wrath of God comes upon those who are characterized by disobedience.</text>
+        <text><p/>Let no one deceive you with empty words, for because of these things the wrath of God is coming on the sons of disobedience.</text>
         <greek>
           <w lemma="μηδείς">Μηδεὶς</w>
           <w lemma="σύ">ὑμᾶς</w>
@@ -2198,7 +2250,7 @@
         </greek>
       </verse>
       <verse num="7">
-        <text>Therefore, do not become their partners.</text>
+        <text>So do not be partners with them;</text>
         <greek>
           <w lemma="μή">μὴ</w>
           <w lemma="οὖν">οὖν</w>
@@ -2208,7 +2260,7 @@
         </greek>
       </verse>
       <verse num="8">
-        <text>For you were once darkness, but now you are light in the Lord. Walk as children of light</text>
+        <text>for you were once darkness, but now you are light in the Lord. Walk as children of light,</text>
         <greek>
           <w lemma="εἰμί">ἦτε</w>
           <w lemma="γάρ">γάρ</w>
@@ -2226,13 +2278,13 @@
         </greek>
       </verse>
       <verse num="9">
-        <text>(for the fruit of the light consists in all goodness, justice, and truth),</text>
+        <text>for the fruit of the light is found in all goodness and righteousness and truth,</text>
         <greek>
           <w lemma="ὁ">ὁ</w>
           <w lemma="γάρ">γὰρ</w>
           <w lemma="καρπός">καρπὸς</w>
           <w lemma="ὁ">τοῦ</w>
-          <w lemma="φῶς">⸀φωτὸς</w>
+          <w lemma="φῶς">φωτὸς</w>
           <w lemma="ἐν">ἐν</w>
           <w lemma="πᾶς">πάσῃ</w>
           <w lemma="ἀγαθωσύνη">ἀγαθωσύνῃ</w>
@@ -2243,7 +2295,7 @@
         </greek>
       </verse>
       <verse num="10">
-        <text>discerning what is well-pleasing to the Lord.</text>
+        <text>and discern what is pleasing to the Lord.</text>
         <greek>
           <w lemma="δοκιμάζω">δοκιμάζοντες</w>
           <w lemma="τίς">τί</w>
@@ -2254,7 +2306,7 @@
         </greek>
       </verse>
       <verse num="11">
-        <text>Take no part in the fruitless works of darkness, but instead even expose them.</text>
+        <text>Take no part in the fruitless works of darkness, but rather expose them,</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="μή">μὴ</w>
@@ -2272,7 +2324,7 @@
         </greek>
       </verse>
       <verse num="12">
-        <text>For the things done by them in secret are shameful even to mention.</text>
+        <text>for it is shameful even to speak of the things done by them in secret.</text>
         <greek>
           <w lemma="ὁ">τὰ</w>
           <w lemma="γάρ">γὰρ</w>
@@ -2287,7 +2339,7 @@
         </greek>
       </verse>
       <verse num="13">
-        <text>But everything exposed by the light is made visible,</text>
+        <text>But everything that is exposed by the light becomes visible,</text>
         <greek>
           <w lemma="ὁ">τὰ</w>
           <w lemma="δέ">δὲ</w>
@@ -2300,7 +2352,7 @@
         </greek>
       </verse>
       <verse num="14">
-        <text>for everything that is made visible is light. Therefore it says: <q who="scripture">“Wake up, sleeper, and rise from among the dead, and Christ will shine on you.”</q></text>
+        <text>for everything that becomes visible is light. Therefore it says:<q who="scripture"> “Wake up, sleeper, and rise from the dead, and Christ will shine on you.”</q></text>
         <greek>
           <w lemma="πᾶς">πᾶν</w>
           <w lemma="γάρ">γὰρ</w>
@@ -2324,14 +2376,15 @@
           <w lemma="ὁ">ὁ</w>
           <w lemma="Χριστός">Χριστός.</w>
         </greek>
+        <note term="Therefore it says:" kind="background" lemma="" traditional="">The formula is the one used to introduce Scripture in 4:8, but the lines that follow do not match any known Old Testament passage, though they echo Isaiah 26:19 and 60:1. Most scholars think they come from an early Christian hymn, perhaps one sung at baptism. The source is not certain.</note>
       </verse>
       <verse num="15">
-        <text><p/>So then, look carefully at how you walk—not as the unwise but as the wise,</text>
+        <text><p/>So look carefully at how you walk, not as unwise people but as wise,</text>
         <greek>
           <w lemma="βλέπω">Βλέπετε</w>
           <w lemma="οὖν">οὖν</w>
-          <w lemma="ἀκριβῶς">⸂ἀκριβῶς</w>
-          <w lemma="πῶς">πῶς⸃</w>
+          <w lemma="ἀκριβῶς">ἀκριβῶς</w>
+          <w lemma="πῶς">πῶς</w>
           <w lemma="περιπατέω">περιπατεῖτε,</w>
           <w lemma="μή">μὴ</w>
           <w lemma="ὡς">ὡς</w>
@@ -2342,7 +2395,7 @@
         </greek>
       </verse>
       <verse num="16">
-        <text>buying up every opportunity, because the days are evil.</text>
+        <text>making the most of the time, because the days are evil.</text>
         <greek>
           <w lemma="ἐξαγοράζω">ἐξαγοραζόμενοι</w>
           <w lemma="ὁ">τὸν</w>
@@ -2353,9 +2406,10 @@
           <w lemma="πονηρός">πονηραί</w>
           <w lemma="εἰμί">εἰσιν.</w>
         </greek>
+        <note term="making the most of the time" kind="ambiguity" lemma="ἐξαγοράζω" traditional="redeeming the time">The verb is a marketplace word meaning to buy up or buy back, and the noun for &#x27;time&#x27; means a season or opportunity, not clock time. Most scholars take the phrase to mean seizing every opportunity while it lasts. The older rendering &#x27;redeeming the time&#x27; keeps the commercial image but is now hard to understand.</note>
       </verse>
       <verse num="17">
-        <text>For this reason, do not be foolish, but understand what the Lord’s will is.</text>
+        <text>For this reason do not be foolish, but understand what the will of the Lord is.</text>
         <greek>
           <w lemma="διά">διὰ</w>
           <w lemma="οὗτος">τοῦτο</w>
@@ -2363,7 +2417,7 @@
           <w lemma="γίνομαι">γίνεσθε</w>
           <w lemma="ἄφρων">ἄφρονες,</w>
           <w lemma="ἀλλά">ἀλλὰ</w>
-          <w lemma="συνίημι">⸀συνίετε</w>
+          <w lemma="συνίημι">συνίετε</w>
           <w lemma="τίς">τί</w>
           <w lemma="ὁ">τὸ</w>
           <w lemma="θέλημα">θέλημα</w>
@@ -2372,7 +2426,7 @@
         </greek>
       </verse>
       <verse num="18">
-        <text>And do not get drunk on wine, in which there is wild dissipation, but be filled by the Spirit,</text>
+        <text>And do not get drunk on wine, in which there is debauchery, but be filled by the Spirit,</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="μή">μὴ</w>
@@ -2387,12 +2441,13 @@
           <w lemma="ἐν">ἐν</w>
           <w lemma="πνεῦμα">πνεύματι,</w>
         </greek>
+        <note term="be filled by the Spirit" kind="ambiguity" lemma="πληρόω" traditional="be filled with the Spirit">The Greek preposition here normally marks means or sphere rather than content, so &#x27;by the Spirit&#x27; is the more natural reading: the Spirit is the one who fills. Most English versions have &#x27;with the Spirit&#x27;, making the Spirit what one is filled with, and that reading remains possible. A minority read &#x27;in spirit&#x27;, referring to the human spirit.</note>
       </verse>
       <verse num="19">
-        <text>speaking to one another in psalms, hymns, and spiritual songs, singing and making music in your heart to the Lord,</text>
+        <text>speaking to one another in psalms and hymns and spiritual songs, singing and making music with your heart to the Lord,</text>
         <greek>
           <w lemma="λαλέω">λαλοῦντες</w>
-          <w lemma="ἑαυτοῦ">⸀ἑαυτοῖς</w>
+          <w lemma="ἑαυτοῦ">ἑαυτοῖς</w>
           <w lemma="ψαλμός">ψαλμοῖς</w>
           <w lemma="καί">καὶ</w>
           <w lemma="ὕμνος">ὕμνοις</w>
@@ -2401,7 +2456,7 @@
           <w lemma="πνευματικός">πνευματικαῖς,</w>
           <w lemma="ᾄδω">ᾄδοντες</w>
           <w lemma="καί">καὶ</w>
-          <w lemma="ψάλλω">⸀ψάλλοντες</w>
+          <w lemma="ψάλλω">ψάλλοντες</w>
           <w lemma="ὁ">τῇ</w>
           <w lemma="καρδία">καρδίᾳ</w>
           <w lemma="σύ">ὑμῶν</w>
@@ -2410,7 +2465,7 @@
         </greek>
       </verse>
       <verse num="20">
-        <text>giving thanks always for all things in the name of our Lord Jesus Christ to God the Father.</text>
+        <text>giving thanks always for everything, in the name of our Lord Jesus Christ, to God the Father,</text>
         <greek>
           <w lemma="εὐχαριστέω">εὐχαριστοῦντες</w>
           <w lemma="πάντοτε">πάντοτε</w>
@@ -2430,7 +2485,7 @@
         </greek>
       </verse>
       <verse num="21">
-        <text><p/>Submit yourselves to one another out of reverence for Christ.</text>
+        <text>submitting to one another out of reverence for Christ.</text>
         <greek>
           <w lemma="ὑποτάσσω">ὑποτασσόμενοι</w>
           <w lemma="ἀλλήλων">ἀλλήλοις</w>
@@ -2438,22 +2493,24 @@
           <w lemma="φόβος">φόβῳ</w>
           <w lemma="Χριστός">Χριστοῦ.</w>
         </greek>
+        <note term="out of reverence for Christ" kind="ambiguity" lemma="φόβος" traditional="in the fear of Christ">The Greek word is the ordinary one for &#x27;fear&#x27;, which also covers the awe and respect owed to someone of higher standing. The related verb is rendered &#x27;show reverence for&#x27; in verse 33, so that the reader can see the section opens and closes with the same idea. Some translations keep &#x27;fear&#x27; in both places; &#x27;respect&#x27; is the common choice in verse 33.</note>
       </verse>
       <verse num="22">
-        <text>Wives, submit to your own husbands as to the Lord,</text>
+        <text><p/>Wives, submit to your own husbands as to the Lord,</text>
         <greek>
           <w lemma="ὁ">Αἱ</w>
           <w lemma="γυνή">γυναῖκες</w>
           <w lemma="ὁ">τοῖς</w>
           <w lemma="ἴδιος">ἰδίοις</w>
-          <w lemma="ἀνήρ">⸀ἀνδράσιν</w>
+          <w lemma="ἀνήρ">ἀνδράσιν</w>
           <w lemma="ὡς">ὡς</w>
           <w lemma="ὁ">τῷ</w>
           <w lemma="κύριος">κυρίῳ,</w>
         </greek>
+        <note term="submit" kind="textual" lemma="ὑποτάσσω" traditional="submit yourselves">The earliest manuscripts, including Papyrus 46 and Codex Vaticanus, have no verb in this verse; it reads &#x27;wives, to your own husbands as to the Lord&#x27;, borrowing its verb from &#x27;submitting to one another&#x27; in verse 21. Many other manuscripts supply the verb. English needs one, so it is supplied here, but the instruction to wives grammatically depends on the mutual submission of verse 21.</note>
       </verse>
       <verse num="23">
-        <text>because a husband is the head of the wife just as Christ is the head of the assembly—he himself being the Savior of the body.</text>
+        <text>for a husband is head of his wife as Christ also is head of the assembly, he himself being the savior of the body.</text>
         <greek>
           <w lemma="ὅτι">ὅτι</w>
           <w lemma="ἀνήρ">ἀνήρ</w>
@@ -2468,17 +2525,19 @@
           <w lemma="κεφαλή">κεφαλὴ</w>
           <w lemma="ὁ">τῆς</w>
           <w lemma="ἐκκλησία">ἐκκλησίας,</w>
-          <w lemma="αὐτός">⸀αὐτὸς</w>
+          <w lemma="αὐτός">αὐτὸς</w>
           <w lemma="σωτήρ">σωτὴρ</w>
           <w lemma="ὁ">τοῦ</w>
           <w lemma="σῶμα">σώματος.</w>
         </greek>
+        <note term="assembly" kind="departure" lemma="ἐκκλησία" traditional="church">The traditional rendering is &#x27;church&#x27;, which is near-universal. A first-century hearer knew the word as a civic gathering and as the Septuagint&#x27;s term for Israel assembled before God. &#x27;Church&#x27; now suggests a building or an institution. &#x27;Assembly&#x27; is used throughout this translation so the reader can see it is one Greek word.</note>
+        <note term="head" kind="ambiguity" lemma="κεφαλή" traditional="head">The metaphorical force of &#x27;head&#x27; is disputed. Most lexicographers take it to mean one who holds authority or pre-eminence, a use found in the Septuagint for leaders; some scholars argue for &#x27;source&#x27;, as of a river. The literal word is kept because the passage plays on head and body.</note>
       </verse>
       <verse num="24">
         <text>But as the assembly submits to Christ, so also wives should submit to their husbands in everything.</text>
         <greek>
           <w lemma="ἀλλά">ἀλλὰ</w>
-          <w lemma="ὡς">⸀ὡς</w>
+          <w lemma="ὡς">ὡς</w>
           <w lemma="ὁ">ἡ</w>
           <w lemma="ἐκκλησία">ἐκκλησία</w>
           <w lemma="ὑποτάσσω">ὑποτάσσεται</w>
@@ -2488,20 +2547,20 @@
           <w lemma="καί">καὶ</w>
           <w lemma="ὁ">αἱ</w>
           <w lemma="γυνή">γυναῖκες</w>
-          <w lemma="ὁ">⸀τοῖς</w>
+          <w lemma="ὁ">τοῖς</w>
           <w lemma="ἀνήρ">ἀνδράσιν</w>
           <w lemma="ἐν">ἐν</w>
           <w lemma="πᾶς">παντί.</w>
         </greek>
       </verse>
       <verse num="25">
-        <text><p/>Husbands, love your wives, just as Christ also loved the assembly and handed himself over for her,</text>
+        <text><p/>Husbands, love your wives, just as Christ also loved the assembly and gave himself up for her,</text>
         <greek>
           <w lemma="ὁ">Οἱ</w>
           <w lemma="ἀνήρ">ἄνδρες,</w>
           <w lemma="ἀγαπάω">ἀγαπᾶτε</w>
           <w lemma="ὁ">τὰς</w>
-          <w lemma="γυνή">⸀γυναῖκας,</w>
+          <w lemma="γυνή">γυναῖκας,</w>
           <w lemma="καθώς">καθὼς</w>
           <w lemma="καί">καὶ</w>
           <w lemma="ὁ">ὁ</w>
@@ -2517,7 +2576,7 @@
         </greek>
       </verse>
       <verse num="26">
-        <text>so that he might set her apart as holy, having cleansed her by the washing of the water with the spoken word,</text>
+        <text>so that he might make her holy, cleansing her by the washing of water with the word,</text>
         <greek>
           <w lemma="ἵνα">ἵνα</w>
           <w lemma="αὐτός">αὐτὴν</w>
@@ -2530,13 +2589,14 @@
           <w lemma="ἐν">ἐν</w>
           <w lemma="ῥῆμα">ῥήματι,</w>
         </greek>
+        <note term="by the washing of water with the word" kind="ambiguity" lemma="ῥῆμα" traditional="with the washing of water by the word">The &#x27;washing&#x27; is commonly taken as baptism, perhaps with the image of a bride&#x27;s bath before her wedding in view. &#x27;The word&#x27; is a term for something spoken; it may mean the proclaimed gospel, a confession made at baptism, or words spoken over the person baptised. The Greek does not settle which.</note>
       </verse>
       <verse num="27">
-        <text>so that he might present the assembly to himself in splendor, without spot or wrinkle or any such thing, but that she might be holy and blameless.</text>
+        <text>so that he himself might present the assembly to himself in glory, having no stain or wrinkle or anything of the sort, but so that she might be holy and without blemish.</text>
         <greek>
           <w lemma="ἵνα">ἵνα</w>
           <w lemma="παρίστημι">παραστήσῃ</w>
-          <w lemma="αὐτός">⸀αὐτὸς</w>
+          <w lemma="αὐτός">αὐτὸς</w>
           <w lemma="ἑαυτοῦ">ἑαυτῷ</w>
           <w lemma="ἔνδοξος">ἔνδοξον</w>
           <w lemma="ὁ">τὴν</w>
@@ -2559,11 +2619,11 @@
         </greek>
       </verse>
       <verse num="28">
-        <text>In the same way, husbands ought to love their own wives as their own bodies. He who loves his own wife loves himself.</text>
+        <text>In the same way husbands too ought to love their own wives as their own bodies. The one who loves his own wife loves himself,</text>
         <greek>
           <w lemma="οὕτω(ς)">οὕτως</w>
           <w lemma="ὀφείλω">ὀφείλουσιν</w>
-          <w lemma="καί">⸀καὶ</w>
+          <w lemma="καί">καὶ</w>
           <w lemma="ὁ">οἱ</w>
           <w lemma="ἀνήρ">ἄνδρες</w>
           <w lemma="ἀγαπάω">ἀγαπᾶν</w>
@@ -2584,7 +2644,7 @@
         </greek>
       </verse>
       <verse num="29">
-        <text>For no one ever hated his own flesh, but instead provides nourishment and tender care for it, just as Christ does for the assembly,</text>
+        <text>for no one ever hated his own flesh; rather, he nourishes and cherishes it, just as Christ also does the assembly,</text>
         <greek>
           <w lemma="οὐδείς">οὐδεὶς</w>
           <w lemma="γάρ">γάρ</w>
@@ -2601,7 +2661,7 @@
           <w lemma="καθώς">καθὼς</w>
           <w lemma="καί">καὶ</w>
           <w lemma="ὁ">ὁ</w>
-          <w lemma="Χριστός">⸀Χριστὸς</w>
+          <w lemma="Χριστός">Χριστὸς</w>
           <w lemma="ὁ">τὴν</w>
           <w lemma="ἐκκλησία">ἐκκλησίαν,</w>
         </greek>
@@ -2614,25 +2674,26 @@
           <w lemma="εἰμί">ἐσμὲν</w>
           <w lemma="ὁ">τοῦ</w>
           <w lemma="σῶμα">σώματος</w>
-          <w lemma="αὐτός">⸀αὐτοῦ.</w>
+          <w lemma="αὐτός">αὐτοῦ.</w>
         </greek>
+        <note term="members of his body" kind="textual" lemma="" traditional="members of his body, of his flesh, and of his bones">Many later manuscripts add &#x27;of his flesh and of his bones&#x27;, echoing Genesis 2:23, and the King James Version includes the words. The earliest witnesses lack them, and most editors judge them a later expansion, though some argue they were dropped by accident.</note>
       </verse>
       <verse num="31">
-        <text><q who="scripture">“For this reason a man shall leave his father and mother and be joined to his wife, and the two shall become one flesh.”</q></text>
+        <text><q who="scripture">“For this reason a man will leave his father and mother and be joined to his wife, and the two will become one flesh.”</q></text>
         <greek>
           <w lemma="ἀντί">ἀντὶ</w>
           <w lemma="οὗτος">τούτου</w>
           <w lemma="καταλείπω">καταλείψει</w>
           <w lemma="ἄνθρωπος">ἄνθρωπος</w>
-          <w lemma="ὁ">⸀τὸν</w>
-          <w lemma="πατήρ">⸀πατέρα</w>
+          <w lemma="ὁ">τὸν</w>
+          <w lemma="πατήρ">πατέρα</w>
           <w lemma="καί">καὶ</w>
-          <w lemma="ὁ">⸀τὴν</w>
+          <w lemma="ὁ">τὴν</w>
           <w lemma="μήτηρ">μητέρα</w>
           <w lemma="καί">καὶ</w>
           <w lemma="προσκολλάομαι">προσκολληθήσεται</w>
-          <w lemma="ὁ">⸂τῇ</w>
-          <w lemma="γυνή">γυναικὶ⸃</w>
+          <w lemma="ὁ">τῇ</w>
+          <w lemma="γυνή">γυναικὶ</w>
           <w lemma="αὐτός">αὐτοῦ,</w>
           <w lemma="καί">καὶ</w>
           <w lemma="εἰμί">ἔσονται</w>
@@ -2644,7 +2705,7 @@
         </greek>
       </verse>
       <verse num="32">
-        <text>This sacred secret is profound, and I am speaking with reference to Christ and the assembly.</text>
+        <text>This mystery is great, but I am speaking of Christ and the assembly.</text>
         <greek>
           <w lemma="ὁ">τὸ</w>
           <w lemma="μυστήριον">μυστήριον</w>
@@ -2661,9 +2722,10 @@
           <w lemma="ὁ">τὴν</w>
           <w lemma="ἐκκλησία">ἐκκλησίαν.</w>
         </greek>
+        <note term="mystery" kind="background" lemma="μυστήριον" traditional="mystery">In Paul&#x27;s usage the word means a secret in God&#x27;s purposes, once hidden and now disclosed, not a puzzle or something beyond understanding. Here the secret is that the &#x27;one flesh&#x27; union of Genesis 2:24 points to Christ and the assembly. The Latin Vulgate rendered the word sacramentum, which shaped the later view of marriage as a sacrament.</note>
       </verse>
       <verse num="33">
-        <text>Nevertheless, each one of you must love his own wife as himself, and the wife should see to it that she respects her husband.</text>
+        <text>In any case, each one of you as well must love his own wife as himself, and the wife is to show reverence for her husband.</text>
         <greek>
           <w lemma="πλήν">πλὴν</w>
           <w lemma="καί">καὶ</w>
@@ -2691,7 +2753,7 @@
     </chapter>
     <chapter num="6">
       <verse num="1">
-        <text><p/>Children, obey your parents in the Lord, for this is just.</text>
+        <text><p/>Children, obey your parents in the Lord, for this is right.</text>
         <greek>
           <w lemma="ὁ">Τὰ</w>
           <w lemma="τέκνον">τέκνα,</w>
@@ -2706,9 +2768,10 @@
           <w lemma="εἰμί">ἐστιν</w>
           <w lemma="δίκαιος">δίκαιον·</w>
         </greek>
+        <note term="right" kind="register-exception" lemma="δίκαιος" traditional="right">This translation normally renders this adjective as “righteous” or “just”, but here it describes a course of action, not a person, and plain English says “this is right”, as most versions do. Greek has a single word-family where English has two (right/righteous/righteousness and just/justice), so the same root lies behind “the breastplate of righteousness” in verse 14.</note>
       </verse>
       <verse num="2">
-        <text><q who="scripture">“Honor your father and mother”</q>—which is the first commandment accompanied by a promise—</text>
+        <text><q who="scripture">“Honor your father and mother,”</q> which is the first commandment with a promise,</text>
         <greek>
           <w lemma="τιμάω">τίμα</w>
           <w lemma="ὁ">τὸν</w>
@@ -2726,7 +2789,7 @@
         </greek>
       </verse>
       <verse num="3">
-        <text><q who="scripture">“so that it may go well with you and you may live a long time on the earth.”</q></text>
+        <text><q who="scripture">“so that it may go well with you and you may live long on the earth.”</q></text>
         <greek>
           <w lemma="ἵνα">ἵνα</w>
           <w lemma="εὖ">εὖ</w>
@@ -2739,9 +2802,10 @@
           <w lemma="ὁ">τῆς</w>
           <w lemma="γῆ">γῆς.</w>
         </greek>
+        <note term="on the earth" kind="background" lemma="γῆ" traditional="on the earth">The quotation is the commandment of Exodus 20:12 and Deuteronomy 5:16 in its Greek form. There the promise concerns long life in “the land that the Lord your God is giving you”, and the Greek word can mean either “land” or “earth”. The letter leaves out the clause about the land God is giving, which makes the promise read as a general one.</note>
       </verse>
       <verse num="4">
-        <text>And fathers, do not provoke your children to resentment, but provide for their growth in the discipline and instruction of the Lord.</text>
+        <text>And fathers, do not provoke your children to anger, but bring them up in the discipline and instruction of the Lord.</text>
         <greek>
           <w lemma="καί">Καὶ</w>
           <w lemma="ὁ">οἱ</w>
@@ -2762,15 +2826,15 @@
         </greek>
       </verse>
       <verse num="5">
-        <text><p/>Slaves, obey your earthly masters with fear and trembling, in the sincerity of your heart as you would obey the Christ.</text>
+        <text><p/>Slaves, obey your earthly masters with fear and trembling, in sincerity of heart, as you would Christ,</text>
         <greek>
           <w lemma="ὁ">Οἱ</w>
           <w lemma="δοῦλος">δοῦλοι,</w>
           <w lemma="ὑπακούω">ὑπακούετε</w>
           <w lemma="ὁ">τοῖς</w>
-          <w lemma="κατά">⸂κατὰ</w>
+          <w lemma="κατά">κατὰ</w>
           <w lemma="σάρξ">σάρκα</w>
-          <w lemma="κύριος">κυρίοις⸃</w>
+          <w lemma="κύριος">κυρίοις</w>
           <w lemma="μετά">μετὰ</w>
           <w lemma="φόβος">φόβου</w>
           <w lemma="καί">καὶ</w>
@@ -2786,7 +2850,7 @@
         </greek>
       </verse>
       <verse num="6">
-        <text>Do not serve only when you are being watched, as those who merely want to please people, but serve as slaves of Christ who are doing the will of God from the soul.</text>
+        <text>not serving only when watched, as people-pleasers, but as slaves of Christ doing the will of God, wholeheartedly</text>
         <greek>
           <w lemma="μή">μὴ</w>
           <w lemma="κατά">κατ’</w>
@@ -2795,7 +2859,7 @@
           <w lemma="ἀνθρωπάρεσκος">ἀνθρωπάρεσκοι</w>
           <w lemma="ἀλλά">ἀλλ’</w>
           <w lemma="ὡς">ὡς</w>
-          <w lemma="δοῦλος">⸀δοῦλοι</w>
+          <w lemma="δοῦλος">δοῦλοι</w>
           <w lemma="Χριστός">Χριστοῦ</w>
           <w lemma="ποιέω">ποιοῦντες</w>
           <w lemma="ὁ">τὸ</w>
@@ -2805,9 +2869,10 @@
           <w lemma="ἐκ">ἐκ</w>
           <w lemma="ψυχή">ψυχῆς</w>
         </greek>
+        <note term="wholeheartedly" kind="ambiguity" lemma="ψυχή" traditional="doing the will of God from the heart">The Greek phrase, literally “from the soul”, sits between two clauses and can attach to either. Most English versions join it to what precedes (“doing the will of God from the heart”). The punctuation of the Greek edition translated here joins it to what follows (“wholeheartedly serving with goodwill”), and the translation follows that.</note>
       </verse>
       <verse num="7">
-        <text>Render your service with goodwill, as if to the Lord and not to human beings,</text>
+        <text>serving with goodwill, as for the Lord and not for people,</text>
         <greek>
           <w lemma="μετά">μετ’</w>
           <w lemma="εὔνοια">εὐνοίας</w>
@@ -2821,18 +2886,18 @@
         </greek>
       </verse>
       <verse num="8">
-        <text>knowing that whatever good each person does, they will receive this back from the Lord, whether they are a slave or a free person.</text>
+        <text>knowing that whatever good each person does, this he will receive back from the Lord, whether slave or free.</text>
         <greek>
           <w lemma="οἶδα">εἰδότες</w>
           <w lemma="ὅτι">ὅτι</w>
-          <w lemma="ἕκαστος">⸂ἕκαστος,</w>
+          <w lemma="ἕκαστος">ἕκαστος,</w>
           <w lemma="ὅς">ὃ</w>
-          <w lemma="ἄν">ἂν⸃</w>
+          <w lemma="ἄν">ἂν</w>
           <w lemma="ποιέω">ποιήσῃ</w>
           <w lemma="ἀγαθός">ἀγαθόν,</w>
           <w lemma="οὗτος">τοῦτο</w>
-          <w lemma="κομίζω">⸀κομίσεται</w>
-          <w lemma="παρά">⸀παρὰ</w>
+          <w lemma="κομίζω">κομίσεται</w>
+          <w lemma="παρά">παρὰ</w>
           <w lemma="κύριος">κυρίου,</w>
           <w lemma="εἴτε">εἴτε</w>
           <w lemma="δοῦλος">δοῦλος</w>
@@ -2841,7 +2906,7 @@
         </greek>
       </verse>
       <verse num="9">
-        <text>And masters, do the same toward them. Give up the use of threats, knowing that the one who is both their Master and yours is in the heavens, and there is no favoritism with him.</text>
+        <text>And masters, do the same to them, giving up threats, knowing that both their Master and yours is in the heavens, and there is no favoritism with him.</text>
         <greek>
           <w lemma="καί">Καὶ</w>
           <w lemma="ὁ">οἱ</w>
@@ -2857,9 +2922,9 @@
           <w lemma="οἶδα">εἰδότες</w>
           <w lemma="ὅτι">ὅτι</w>
           <w lemma="καί">καὶ</w>
-          <w lemma="αὐτός">⸂αὐτῶν</w>
+          <w lemma="αὐτός">αὐτῶν</w>
           <w lemma="καί">καὶ</w>
-          <w lemma="σύ">ὑμῶν⸃</w>
+          <w lemma="σύ">ὑμῶν</w>
           <w lemma="ὁ">ὁ</w>
           <w lemma="κύριος">κύριός</w>
           <w lemma="εἰμί">ἐστιν</w>
@@ -2872,12 +2937,14 @@
           <w lemma="παρά">παρ’</w>
           <w lemma="αὐτός">αὐτῷ.</w>
         </greek>
+        <note term="their Master and yours" kind="background" lemma="κύριος" traditional="your Master / their Lord and yours">Greek uses one word, kyrios, for both a slave’s “master” and “the Lord”. Throughout verses 5–9 the passage plays on this: slaves serve earthly masters as serving the Lord, and masters are reminded that they have a Master of their own. English has to choose between “master” and “Lord” each time, which hides the repetition.</note>
+        <note term="in the heavens" kind="departure" lemma="οὐρανός" traditional="in heaven">The Greek is plural, a turn of phrase carried over from Hebrew and from the Greek Old Testament. Most English translations flatten it to “heaven”. This translation keeps the plural where the Greek has it.</note>
       </verse>
       <verse num="10">
-        <text><p/>Finally, be empowered in the Lord and in the strength of his might.</text>
+        <text><p/>Finally, be strong in the Lord and in the power of his might.</text>
         <greek>
-          <w lemma="ὁ">⸂Τοῦ</w>
-          <w lemma="λοιπός">λοιποῦ⸃</w>
+          <w lemma="ὁ">Τοῦ</w>
+          <w lemma="λοιπός">λοιποῦ</w>
           <w lemma="ἐνδυναμόω">ἐνδυναμοῦσθε</w>
           <w lemma="ἐν">ἐν</w>
           <w lemma="κύριος">κυρίῳ</w>
@@ -2891,7 +2958,7 @@
         </greek>
       </verse>
       <verse num="11">
-        <text>Clothe yourselves in the full armor of God so that you are able to stand against the schemes of the slanderer.</text>
+        <text>Put on the full armor of God, so that you may be able to stand against the schemes of the devil,</text>
         <greek>
           <w lemma="ἐνδύω">ἐνδύσασθε</w>
           <w lemma="ὁ">τὴν</w>
@@ -2911,7 +2978,7 @@
         </greek>
       </verse>
       <verse num="12">
-        <text>For our struggle is not against blood and flesh, but against the cosmic rulers, against the authorities, against the world-powers of this darkness, against the spiritual forces of evil in the heavenly realms.</text>
+        <text>because our wrestling is not against blood and flesh, but against the rulers, against the authorities, against the world-rulers of this darkness, against the spiritual forces of evil in the heavenly places.</text>
         <greek>
           <w lemma="ὅτι">ὅτι</w>
           <w lemma="οὐ">οὐκ</w>
@@ -2934,7 +3001,7 @@
           <w lemma="ὁ">τοὺς</w>
           <w lemma="κοσμοκράτωρ">κοσμοκράτορας</w>
           <w lemma="ὁ">τοῦ</w>
-          <w lemma="σκότος">⸀σκότους</w>
+          <w lemma="σκότος">σκότους</w>
           <w lemma="οὗτος">τούτου,</w>
           <w lemma="πρός">πρὸς</w>
           <w lemma="ὁ">τὰ</w>
@@ -2947,7 +3014,7 @@
         </greek>
       </verse>
       <verse num="13">
-        <text>Because of this, take up the full armor of God, so that you may be able to resist in the day of evil, and having accomplished everything, to stand firm.</text>
+        <text>Therefore take up the full armor of God, so that you may be able to withstand on the evil day and, having done everything, to stand.</text>
         <greek>
           <w lemma="διά">διὰ</w>
           <w lemma="οὗτος">τοῦτο</w>
@@ -2969,9 +3036,10 @@
           <w lemma="κατεργάζομαι">κατεργασάμενοι</w>
           <w lemma="ἵστημι">στῆναι.</w>
         </greek>
+        <note term="having done everything" kind="ambiguity" lemma="κατεργάζομαι" traditional="having done all">The verb can mean “accomplish, carry through” or “overcome, subdue”. Most translations take it as having made every preparation or done all that the fight requires. On the other reading it means “having defeated all opponents”. Either fits the military picture.</note>
       </verse>
       <verse num="14">
-        <text><p/>Stand, therefore, having fastened the belt of truth around your waist, having put on the breastplate of justice,</text>
+        <text>Stand, then, with truth belted around your waist, with the breastplate of righteousness on,</text>
         <greek>
           <w lemma="ἵστημι">στῆτε</w>
           <w lemma="οὖν">οὖν</w>
@@ -2990,7 +3058,7 @@
         </greek>
       </verse>
       <verse num="15">
-        <text>and having shod your feet with the readiness that comes from the gospel of peace.</text>
+        <text>and with your feet shod in the readiness of the good news of peace,</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="ὑποδέομαι">ὑποδησάμενοι</w>
@@ -3003,11 +3071,13 @@
           <w lemma="ὁ">τῆς</w>
           <w lemma="εἰρήνη">εἰρήνης,</w>
         </greek>
+        <note term="readiness" kind="ambiguity" lemma="ἑτοιμασία" traditional="preparation">The Greek leaves open how “readiness” relates to “the good news of peace”. It may be the readiness or firm footing that the good news gives, or a readiness to go and announce it. The rendering keeps the Greek’s open phrasing; commentators are divided.</note>
+        <note term="good news" kind="departure" lemma="εὐαγγέλιον" traditional="gospel">“Gospel” has become a religious term and a book title. The Greek was an ordinary word for a public announcement of good news, used also of imperial proclamations. Many modern translations already alternate between “gospel” and “good news”.</note>
       </verse>
       <verse num="16">
-        <text>In every situation, take up the great shield of faith, with which you will be able to extinguish all the flaming arrows of the evil one.</text>
+        <text>in every situation taking up the shield of faith, with which you will be able to put out all the flaming arrows of the evil one.</text>
         <greek>
-          <w lemma="ἐν">⸀ἐν</w>
+          <w lemma="ἐν">ἐν</w>
           <w lemma="πᾶς">πᾶσιν</w>
           <w lemma="ἀναλαμβάνω">ἀναλαβόντες</w>
           <w lemma="ὁ">τὸν</w>
@@ -3021,20 +3091,20 @@
           <w lemma="ὁ">τὰ</w>
           <w lemma="βέλος">βέλη</w>
           <w lemma="ὁ">τοῦ</w>
-          <w lemma="πονηρός">⸀πονηροῦ</w>
+          <w lemma="πονηρός">πονηροῦ</w>
           <w lemma="πυρόομαι">πεπυρωμένα</w>
           <w lemma="σβέννυμι">σβέσαι·</w>
         </greek>
       </verse>
       <verse num="17">
-        <text>Receive the helmet of salvation and the sword of the Spirit, which is the spoken word of God.</text>
+        <text>And take the helmet of salvation, and the sword of the Spirit, which is the word of God,</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="ὁ">τὴν</w>
           <w lemma="περικεφαλαία">περικεφαλαίαν</w>
           <w lemma="ὁ">τοῦ</w>
           <w lemma="σωτήριος">σωτηρίου</w>
-          <w lemma="δέχομαι">⸀δέξασθε,</w>
+          <w lemma="δέχομαι">δέξασθε,</w>
           <w lemma="καί">καὶ</w>
           <w lemma="ὁ">τὴν</w>
           <w lemma="μάχαιρα">μάχαιραν</w>
@@ -3047,7 +3117,7 @@
         </greek>
       </verse>
       <verse num="18">
-        <text>Pray in the Spirit at every opportunity with every kind of prayer and petition. To this end, stay alert with all perseverance and petition for all the holy ones.</text>
+        <text>through every prayer and petition, praying on every occasion in the Spirit, and to that end keeping watch with all perseverance and petition for all the holy ones,</text>
         <greek>
           <w lemma="διά">διὰ</w>
           <w lemma="πᾶς">πάσης</w>
@@ -3062,7 +3132,7 @@
           <w lemma="πνεῦμα">πνεύματι,</w>
           <w lemma="καί">καὶ</w>
           <w lemma="εἰς">εἰς</w>
-          <w lemma="αὐτός">⸀αὐτὸ</w>
+          <w lemma="αὐτός">αὐτὸ</w>
           <w lemma="ἀγρυπνέω">ἀγρυπνοῦντες</w>
           <w lemma="ἐν">ἐν</w>
           <w lemma="πᾶς">πάσῃ</w>
@@ -3074,9 +3144,10 @@
           <w lemma="ὁ">τῶν</w>
           <w lemma="ἅγιος">ἁγίων,</w>
         </greek>
+        <note term="holy ones" kind="departure" lemma="ἅγιος" traditional="saints">“Saints” now suggests canonised individuals or people of unusual virtue. The Greek word is used of all members of the community as people set apart for God, echoing the Greek Old Testament’s language for Israel. Many translations keep “saints”; others use “God’s people”.</note>
       </verse>
       <verse num="19">
-        <text>Pray also for me, that a message may be given to me when I open my mouth, so that I may boldly make known the mystery of the gospel,</text>
+        <text>and for me, that a word may be given to me when I open my mouth, to make known boldly the secret of the good news,</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="ὑπέρ">ὑπὲρ</w>
@@ -3098,9 +3169,10 @@
           <w lemma="ὁ">τοῦ</w>
           <w lemma="εὐαγγέλιον">εὐαγγελίου</w>
         </greek>
+        <note term="secret" kind="departure" lemma="μυστήριον" traditional="mystery">The traditional “mystery” suggests to a modern reader something puzzling or beyond understanding. In the usage of the period, including the Greek book of Daniel, the word means a secret, here one that God kept hidden and has now disclosed, which is why it can be “made known”. Most English versions keep “mystery”, and scholars generally explain it in this sense.</note>
       </verse>
       <verse num="20">
-        <text>for which I am an ambassador in chains. Pray that I may speak it boldly, as I am required to speak.</text>
+        <text>for which I am an ambassador in chains, so that in declaring it I may speak boldly, as I must.</text>
         <greek>
           <w lemma="ὑπέρ">ὑπὲρ</w>
           <w lemma="ὅς">οὗ</w>
@@ -3116,23 +3188,24 @@
           <w lemma="ἐγώ">με</w>
           <w lemma="λαλέω">λαλῆσαι.</w>
         </greek>
+        <note term="an ambassador in chains" kind="background" lemma="πρεσβεύω" traditional="an ambassador in bonds">The verb is the ordinary term for serving as an official envoy. Envoys were by long custom treated as inviolable, so an ambassador in chains is a deliberate paradox. The Greek word for “chain” is singular.</note>
       </verse>
       <verse num="21">
-        <text><p/>Now, so that you also may know my circumstances and what I am doing, Tychicus, the beloved brother and faithful servant in the Lord, will make everything known to you.</text>
+        <text><p/>So that you also may know how things are with me and what I am doing, Tychicus, the beloved brother and faithful servant in the Lord, will make everything known to you.</text>
         <greek>
           <w lemma="ἵνα">Ἵνα</w>
           <w lemma="δέ">δὲ</w>
-          <w lemma="οἶδα">⸂εἰδῆτε</w>
+          <w lemma="οἶδα">εἰδῆτε</w>
           <w lemma="καί">καὶ</w>
-          <w lemma="σύ">ὑμεῖς⸃</w>
+          <w lemma="σύ">ὑμεῖς</w>
           <w lemma="ὁ">τὰ</w>
           <w lemma="κατά">κατ’</w>
           <w lemma="ἐγώ">ἐμέ,</w>
           <w lemma="τίς">τί</w>
           <w lemma="πράσσω">πράσσω,</w>
           <w lemma="πᾶς">πάντα</w>
-          <w lemma="γνωρίζω">⸂γνωρίσει</w>
-          <w lemma="σύ">ὑμῖν⸃</w>
+          <w lemma="γνωρίζω">γνωρίσει</w>
+          <w lemma="σύ">ὑμῖν</w>
           <w lemma="Τυχικός">Τυχικὸς</w>
           <w lemma="ὁ">ὁ</w>
           <w lemma="ἀγαπητός">ἀγαπητὸς</w>
@@ -3145,7 +3218,7 @@
         </greek>
       </verse>
       <verse num="22">
-        <text>I have sent him to you for this very purpose: so that you may know how we are and that he may encourage your hearts.</text>
+        <text>I am sending him to you for this very purpose, that you may know how we are and that he may encourage your hearts.</text>
         <greek>
           <w lemma="ὅς">ὃν</w>
           <w lemma="πέμπω">ἔπεμψα</w>
@@ -3167,7 +3240,7 @@
         </greek>
       </verse>
       <verse num="23">
-        <text>Peace to the brothers and sisters, and love with faith, from God the Father and the Lord Jesus Christ.</text>
+        <text><p/>Peace to the brothers and sisters, and love with faith, from God the Father and the Lord Jesus Christ.</text>
         <greek>
           <w lemma="εἰρήνη">Εἰρήνη</w>
           <w lemma="ὁ">τοῖς</w>
@@ -3184,9 +3257,10 @@
           <w lemma="Ἰησοῦς">Ἰησοῦ</w>
           <w lemma="Χριστός">Χριστοῦ.</w>
         </greek>
+        <note term="brothers and sisters" kind="departure" lemma="ἀδελφός" traditional="brethren / brothers">The Greek plural was the normal way to address or refer to a mixed group of men and women as members of one family, and here it means the whole community. Older versions have “brethren” or “brothers”; several modern translations render it as here. In verse 21 the singular refers to one man and is translated “brother”.</note>
       </verse>
       <verse num="24">
-        <text>Grace be with all who love our Lord Jesus Christ with a love that never decays.</text>
+        <text>Grace be with all who love our Lord Jesus Christ with undying love.</text>
         <greek>
           <w lemma="ὁ">ἡ</w>
           <w lemma="χάρις">χάρις</w>
@@ -3200,8 +3274,9 @@
           <w lemma="Ἰησοῦς">Ἰησοῦν</w>
           <w lemma="Χριστός">Χριστὸν</w>
           <w lemma="ἐν">ἐν</w>
-          <w lemma="ἀφθαρσία">⸀ἀφθαρσίᾳ.</w>
+          <w lemma="ἀφθαρσία">ἀφθαρσίᾳ.</w>
         </greek>
+        <note term="with undying love" kind="ambiguity" lemma="ἀφθαρσία" traditional="in sincerity / with love incorruptible">The letter’s last words are literally “in imperishability”, and what they modify is disputed. They may describe the love of those who love Christ, as translated here and in most versions. They may instead go with “grace” (“grace and immortality be with all…”), or describe Christ as the one who lives in immortality.</note>
       </verse>
     </chapter>
   </book>

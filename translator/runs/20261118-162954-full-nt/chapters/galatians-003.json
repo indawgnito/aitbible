@@ -1,0 +1,481 @@
+{
+ "id": "galatians-003",
+ "book": "galatians",
+ "chapter": 3,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZmrXhitXC4kn48K9",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 8196,
+  "output_tokens": 20426
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"You foolish Galatians! Who has bewitched you—you before whose eyes Jesus Christ was publicly displayed as crucified?\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"This is the only thing I want to learn from you: did you receive the Spirit by works of the law, or by hearing with faith?\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Are you so foolish? Having begun with the Spirit, are you now finishing with the flesh?\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Have you suffered so much for nothing—if indeed it was for nothing?\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So then, does the one who supplies you with the Spirit and works miracles among you do so by works of the law, or by hearing with faith?\"}]},{\"verse\":6,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Just as Abraham\"},{\"speaker\":\"scripture\",\"text\":\"“believed God, and it was credited to him as righteousness.”\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Know, then, that those who are of faith, these are the sons of Abraham.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And the Scripture, foreseeing that God would justify the Gentiles by faith, announced the good news beforehand to Abraham:\"},{\"speaker\":\"scripture\",\"text\":\"“In you all the nations will be blessed.”\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So then, those who are of faith are blessed together with believing Abraham.\"}]},{\"verse\":10,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For all who are of works of the law are under a curse, for it is written:\"},{\"speaker\":\"scripture\",\"text\":\"“Cursed is everyone who does not abide by all the things written in the book of the law, to do them.”\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And that no one is justified before God by the law is clear, because\"},{\"speaker\":\"scripture\",\"text\":\"“The righteous one will live by faith.”\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But the law is not of faith; rather,\"},{\"speaker\":\"scripture\",\"text\":\"“The one who does them will live by them.”\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Christ redeemed us from the curse of the law by becoming a curse for us, for it is written,\"},{\"speaker\":\"scripture\",\"text\":\"“Cursed is everyone who is hung on a tree,”\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"so that the blessing of Abraham might come to the Gentiles in Christ Jesus, so that we might receive the promise of the Spirit through faith.\"}]},{\"verse\":15,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Brothers and sisters, I am speaking in human terms: even a human will, once it has been validated, no one sets aside or adds to.\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now the promises were spoken to Abraham and to his seed. It does not say, “And to seeds,” as if speaking of many, but as of one,\"},{\"speaker\":\"scripture\",\"text\":\"“And to your seed,”\"},{\"speaker\":\"narrator\",\"text\":\"who is Christ.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"What I mean is this: the law, which came four hundred and thirty years later, does not invalidate a covenant validated beforehand by God, so as to nullify the promise.\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For if the inheritance comes from the law, it no longer comes from a promise; but God has given it to Abraham as a gift through a promise.\"}]},{\"verse\":19,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Why, then, the law? It was added because of transgressions, until the seed should come to whom the promise had been made, and it was ordained through angels by the hand of a mediator.\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now a mediator is not for one party alone, but God is one.\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Is the law, then, against the promises of God? Absolutely not! For if a law had been given that was able to give life, then righteousness really would have come from the law.\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But the Scripture locked up everything under sin, so that the promise might be given by faith in Jesus Christ to those who believe.\"}]},{\"verse\":23,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Before faith came, we were held in custody under the law, locked up until the faith that was coming would be revealed.\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So then, the law became our custodian until Christ came, so that we might be justified by faith.\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But now that faith has come, we are no longer under a custodian.\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For in Christ Jesus you are all sons of God through faith.\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For all of you who were baptized into Christ have clothed yourselves with Christ.\"}]},{\"verse\":28,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"There is neither Jew nor Greek, there is neither slave nor free, there is no male and female; for you are all one in Christ Jesus.\"}]},{\"verse\":29,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And if you belong to Christ, then you are Abraham’s seed, heirs according to promise.\"}]}],\"notes\":[{\"verse\":2,\"phrase\":\"hearing with faith\",\"lemma\":\"ἀκοή\",\"kind\":\"ambiguity\",\"traditional\":\"the hearing of faith\",\"note\":\"The Greek phrase is compressed: literally 'from hearing of faith'. The first noun can mean the act of hearing or the thing heard (a message or report), and the phrase can be taken as 'hearing accompanied by faith', 'believing what you heard', or 'the message that calls for faith'. The rendering here takes it as the Galatians' own response, set against 'works of the law'; the other readings are widely held.\"},{\"verse\":4,\"phrase\":\"suffered\",\"lemma\":\"πάσχω\",\"kind\":\"ambiguity\",\"traditional\":\"suffered\",\"note\":\"The verb almost always means 'suffer' in the New Testament and the Septuagint, and that sense is kept here. In wider Greek it can also be neutral, 'experience', and many interpreters prefer 'Have you experienced so much for nothing?', referring to the Spirit and miracles just mentioned. The letter does not otherwise describe the Galatians' sufferings, so the question remains open.\"},{\"verse\":6,\"phrase\":\"righteousness\",\"lemma\":\"δικαιοσύνη\",\"kind\":\"background\",\"traditional\":\"righteousness\",\"note\":\"Greek has a single word-family where English uses two: 'righteousness', 'righteous' (verse 11) and 'justify' (verses 8, 11, 24) all share one root, so that to be 'justified' is to be declared or set in the right. Paul's argument in this chapter depends on hearing that connection. Some scholars prefer 'justice' or 'covenant faithfulness' for the noun.\"},{\"verse\":8,\"phrase\":\"Gentiles\",\"lemma\":\"ἔθνος\",\"kind\":\"background\",\"traditional\":\"Gentiles / nations\",\"note\":\"'Gentiles' and 'nations' in this verse translate the same Greek word, which in the plural means both 'peoples' in general and the non-Jewish peoples in particular. Paul's point rests on that identity: the promise that 'all the nations' would be blessed in Abraham (Genesis 12:3; 18:18) is a promise about the Gentiles.\"},{\"verse\":11,\"phrase\":\"“The righteous one will live by faith.”\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"The just shall live by faith\",\"note\":\"The quotation is from Habakkuk 2:4. In Paul's Greek 'by faith' can attach to the verb ('will live by faith') or to the subject ('the one who is righteous by faith will live'). Both readings have strong support; the rendering here follows the word order and leaves the phrase where the Greek puts it.\"},{\"verse\":13,\"phrase\":\"tree\",\"lemma\":\"ξύλον\",\"kind\":\"background\",\"traditional\":\"tree\",\"note\":\"The quotation is from Deuteronomy 21:23, which concerns the exposed body of an executed criminal. The Greek word means wood, and so a tree or anything wooden, such as a stake or beam. By Paul's time the text was applied to crucifixion, and the same word is used of the cross elsewhere in the New Testament (for example Acts 5:30).\"},{\"verse\":15,\"phrase\":\"will\",\"lemma\":\"διαθήκη\",\"kind\":\"departure\",\"traditional\":\"covenant\",\"note\":\"The same Greek word is rendered 'will' here and 'covenant' in verse 17. In everyday Greek it meant a last will and testament; in the Greek Scriptures it was the standard word for God's covenant. Paul announces a human analogy and uses legal vocabulary, so a first-century reader would have heard 'will' here, and Paul then carries the word, and the theme of inheritance, over to God's covenant with Abraham. Many translations keep 'covenant' in both verses; others also have 'will' here.\"},{\"verse\":16,\"phrase\":\"seed\",\"lemma\":\"σπέρμα\",\"kind\":\"background\",\"traditional\":\"seed / offspring\",\"note\":\"'Seed' is the ordinary biblical word for descendants, a singular noun normally used collectively, as in the promises to Abraham (Genesis 13:15; 17:8). Paul presses the singular form to say that the promise finds its heir in one person, Christ. In verse 29 he uses the same word collectively for all who belong to Christ. 'Seed' is kept so that the argument from singular and plural can be followed.\"},{\"verse\":20,\"phrase\":\"a mediator is not for one party alone\",\"lemma\":\"μεσίτης\",\"kind\":\"ambiguity\",\"traditional\":\"a mediator is not a mediator of one\",\"note\":\"The Greek says only 'the mediator is not of one, but God is one', and this is among the most disputed sentences in Paul's letters. The usual understanding, followed here, is that a mediator implies more than one party, so the law, given through angels and Moses, is less direct than the promise the one God made in person to Abraham. Other explanations exist, and none has won general agreement.\"},{\"verse\":22,\"phrase\":\"faith in Jesus Christ\",\"lemma\":\"πίστις\",\"kind\":\"ambiguity\",\"traditional\":\"faith in Jesus Christ\",\"note\":\"The Greek is literally 'faith of Jesus Christ', and the grammar allows two readings: faith directed toward Jesus Christ, or the faithfulness of Jesus Christ himself. 'Faith in Christ' is the traditional and still majority reading and is followed here. 'The faithfulness of Jesus Christ' has substantial scholarly support, and on that reading the promise is given on the basis of Christ's own faithfulness to those who believe.\"},{\"verse\":24,\"phrase\":\"custodian until Christ came\",\"lemma\":\"παιδαγωγός\",\"kind\":\"departure\",\"traditional\":\"schoolmaster / tutor / guardian\",\"note\":\"The word names a household slave who had charge of a boy, escorting him to school, supervising his behaviour and disciplining him until he came of age. He was not a teacher, so 'schoolmaster' and 'tutor' mislead, and 'guardian' suggests a legal role he did not have. The image is of temporary supervision and restraint. The phrase 'until Christ' can also be read as 'to lead us to Christ', as older versions have it, but the time references in verses 23 and 25 favour the temporal sense.\"},{\"verse\":26,\"phrase\":\"sons of God\",\"lemma\":\"υἱός\",\"kind\":\"background\",\"traditional\":\"children of God / sons of God\",\"note\":\"The word is 'sons' here and in verse 7, and it includes women, as verse 28 makes explicit. Many translations have 'children'. 'Sons' is kept because Paul's argument, continuing into chapter 4, turns on the status of a son as heir and on the believers' share in the standing of God's Son.\"},{\"verse\":26,\"phrase\":\"in Christ Jesus\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"by faith in Christ Jesus\",\"note\":\"In the Greek, 'in Christ Jesus' follows 'through faith', and the traditional rendering joins them: 'through faith in Christ Jesus'. The phrase can equally stand on its own, saying where believers are sons of God, as in 'you are all one in Christ Jesus' in verse 28. The rendering here takes it that way; the traditional reading remains possible.\"}],\"candidates\":[{\"lemma\":\"ἀδελφός\",\"rendering\":\"Brothers and sisters\",\"verse\":15,\"reason\":\"The plural address to mixed congregations recurs throughout the letters and translations split between 'brothers' and 'brothers and sisters'; it needs one policy.\"},{\"lemma\":\"διαθήκη\",\"rendering\":\"will (v. 15) / covenant (v. 17)\",\"verse\":15,\"reason\":\"The will/covenant double sense matters here and in Hebrews 9:15-17, and the renderings should be coordinated across those passages.\"},{\"lemma\":\"σπέρμα\",\"rendering\":\"seed\",\"verse\":16,\"reason\":\"'Seed', 'offspring' and 'descendants' are all in use; Paul's singular/plural argument here and in Romans 4 and 9 needs a consistent choice.\"},{\"lemma\":\"υἱός\",\"rendering\":\"sons\",\"verse\":7,\"reason\":\"Whether the plural for mixed groups is 'sons' or 'children' affects the inheritance and adoption arguments in Galatians 3–4 and Romans 8 and should not vary by chapter.\"},{\"lemma\":\"παιδαγωγός\",\"rendering\":\"custodian\",\"verse\":24,\"reason\":\"The word recurs in 1 Corinthians 4:15 and must be kept distinct from ἐπίτροπος ('guardian') in Galatians 4:2, which a chapter-by-chapter translation could easily collapse.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "You foolish Galatians! Who has bewitched you—you before whose eyes Jesus Christ was publicly displayed as crucified?"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "This is the only thing I want to learn from you: did you receive the Spirit by works of the law, or by hearing with faith?"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Are you so foolish? Having begun with the Spirit, are you now finishing with the flesh?"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Have you suffered so much for nothing—if indeed it was for nothing?"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So then, does the one who supplies you with the Spirit and works miracles among you do so by works of the law, or by hearing with faith?"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Just as Abraham"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“believed God, and it was credited to him as righteousness.”"
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Know, then, that those who are of faith, these are the sons of Abraham."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And the Scripture, foreseeing that God would justify the Gentiles by faith, announced the good news beforehand to Abraham:"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“In you all the nations will be blessed.”"
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So then, those who are of faith are blessed together with believing Abraham."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For all who are of works of the law are under a curse, for it is written:"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“Cursed is everyone who does not abide by all the things written in the book of the law, to do them.”"
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And that no one is justified before God by the law is clear, because"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“The righteous one will live by faith.”"
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But the law is not of faith; rather,"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“The one who does them will live by them.”"
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Christ redeemed us from the curse of the law by becoming a curse for us, for it is written,"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“Cursed is everyone who is hung on a tree,”"
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "so that the blessing of Abraham might come to the Gentiles in Christ Jesus, so that we might receive the promise of the Spirit through faith."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Brothers and sisters, I am speaking in human terms: even a human will, once it has been validated, no one sets aside or adds to."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now the promises were spoken to Abraham and to his seed. It does not say, “And to seeds,” as if speaking of many, but as of one,"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“And to your seed,”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "who is Christ."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "What I mean is this: the law, which came four hundred and thirty years later, does not invalidate a covenant validated beforehand by God, so as to nullify the promise."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For if the inheritance comes from the law, it no longer comes from a promise; but God has given it to Abraham as a gift through a promise."
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Why, then, the law? It was added because of transgressions, until the seed should come to whom the promise had been made, and it was ordained through angels by the hand of a mediator."
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now a mediator is not for one party alone, but God is one."
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Is the law, then, against the promises of God? Absolutely not! For if a law had been given that was able to give life, then righteousness really would have come from the law."
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But the Scripture locked up everything under sin, so that the promise might be given by faith in Jesus Christ to those who believe."
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Before faith came, we were held in custody under the law, locked up until the faith that was coming would be revealed."
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So then, the law became our custodian until Christ came, so that we might be justified by faith."
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But now that faith has come, we are no longer under a custodian."
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For in Christ Jesus you are all sons of God through faith."
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For all of you who were baptized into Christ have clothed yourselves with Christ."
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "There is neither Jew nor Greek, there is neither slave nor free, there is no male and female; for you are all one in Christ Jesus."
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And if you belong to Christ, then you are Abraham’s seed, heirs according to promise."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 2,
+    "phrase": "hearing with faith",
+    "lemma": "ἀκοή",
+    "kind": "ambiguity",
+    "traditional": "the hearing of faith",
+    "note": "The Greek phrase is compressed: literally 'from hearing of faith'. The first noun can mean the act of hearing or the thing heard (a message or report), and the phrase can be taken as 'hearing accompanied by faith', 'believing what you heard', or 'the message that calls for faith'. The rendering here takes it as the Galatians' own response, set against 'works of the law'; the other readings are widely held."
+   },
+   {
+    "verse": 4,
+    "phrase": "suffered",
+    "lemma": "πάσχω",
+    "kind": "ambiguity",
+    "traditional": "suffered",
+    "note": "The verb almost always means 'suffer' in the New Testament and the Septuagint, and that sense is kept here. In wider Greek it can also be neutral, 'experience', and many interpreters prefer 'Have you experienced so much for nothing?', referring to the Spirit and miracles just mentioned. The letter does not otherwise describe the Galatians' sufferings, so the question remains open."
+   },
+   {
+    "verse": 6,
+    "phrase": "righteousness",
+    "lemma": "δικαιοσύνη",
+    "kind": "background",
+    "traditional": "righteousness",
+    "note": "Greek has a single word-family where English uses two: 'righteousness', 'righteous' (verse 11) and 'justify' (verses 8, 11, 24) all share one root, so that to be 'justified' is to be declared or set in the right. Paul's argument in this chapter depends on hearing that connection. Some scholars prefer 'justice' or 'covenant faithfulness' for the noun."
+   },
+   {
+    "verse": 8,
+    "phrase": "Gentiles",
+    "lemma": "ἔθνος",
+    "kind": "background",
+    "traditional": "Gentiles / nations",
+    "note": "'Gentiles' and 'nations' in this verse translate the same Greek word, which in the plural means both 'peoples' in general and the non-Jewish peoples in particular. Paul's point rests on that identity: the promise that 'all the nations' would be blessed in Abraham (Genesis 12:3; 18:18) is a promise about the Gentiles."
+   },
+   {
+    "verse": 11,
+    "phrase": "“The righteous one will live by faith.”",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "The just shall live by faith",
+    "note": "The quotation is from Habakkuk 2:4. In Paul's Greek 'by faith' can attach to the verb ('will live by faith') or to the subject ('the one who is righteous by faith will live'). Both readings have strong support; the rendering here follows the word order and leaves the phrase where the Greek puts it."
+   },
+   {
+    "verse": 13,
+    "phrase": "tree",
+    "lemma": "ξύλον",
+    "kind": "background",
+    "traditional": "tree",
+    "note": "The quotation is from Deuteronomy 21:23, which concerns the exposed body of an executed criminal. The Greek word means wood, and so a tree or anything wooden, such as a stake or beam. By Paul's time the text was applied to crucifixion, and the same word is used of the cross elsewhere in the New Testament (for example Acts 5:30)."
+   },
+   {
+    "verse": 15,
+    "phrase": "will",
+    "lemma": "διαθήκη",
+    "kind": "departure",
+    "traditional": "covenant",
+    "note": "The same Greek word is rendered 'will' here and 'covenant' in verse 17. In everyday Greek it meant a last will and testament; in the Greek Scriptures it was the standard word for God's covenant. Paul announces a human analogy and uses legal vocabulary, so a first-century reader would have heard 'will' here, and Paul then carries the word, and the theme of inheritance, over to God's covenant with Abraham. Many translations keep 'covenant' in both verses; others also have 'will' here."
+   },
+   {
+    "verse": 16,
+    "phrase": "seed",
+    "lemma": "σπέρμα",
+    "kind": "background",
+    "traditional": "seed / offspring",
+    "note": "'Seed' is the ordinary biblical word for descendants, a singular noun normally used collectively, as in the promises to Abraham (Genesis 13:15; 17:8). Paul presses the singular form to say that the promise finds its heir in one person, Christ. In verse 29 he uses the same word collectively for all who belong to Christ. 'Seed' is kept so that the argument from singular and plural can be followed."
+   },
+   {
+    "verse": 20,
+    "phrase": "a mediator is not for one party alone",
+    "lemma": "μεσίτης",
+    "kind": "ambiguity",
+    "traditional": "a mediator is not a mediator of one",
+    "note": "The Greek says only 'the mediator is not of one, but God is one', and this is among the most disputed sentences in Paul's letters. The usual understanding, followed here, is that a mediator implies more than one party, so the law, given through angels and Moses, is less direct than the promise the one God made in person to Abraham. Other explanations exist, and none has won general agreement."
+   },
+   {
+    "verse": 22,
+    "phrase": "faith in Jesus Christ",
+    "lemma": "πίστις",
+    "kind": "ambiguity",
+    "traditional": "faith in Jesus Christ",
+    "note": "The Greek is literally 'faith of Jesus Christ', and the grammar allows two readings: faith directed toward Jesus Christ, or the faithfulness of Jesus Christ himself. 'Faith in Christ' is the traditional and still majority reading and is followed here. 'The faithfulness of Jesus Christ' has substantial scholarly support, and on that reading the promise is given on the basis of Christ's own faithfulness to those who believe."
+   },
+   {
+    "verse": 24,
+    "phrase": "custodian until Christ came",
+    "lemma": "παιδαγωγός",
+    "kind": "departure",
+    "traditional": "schoolmaster / tutor / guardian",
+    "note": "The word names a household slave who had charge of a boy, escorting him to school, supervising his behaviour and disciplining him until he came of age. He was not a teacher, so 'schoolmaster' and 'tutor' mislead, and 'guardian' suggests a legal role he did not have. The image is of temporary supervision and restraint. The phrase 'until Christ' can also be read as 'to lead us to Christ', as older versions have it, but the time references in verses 23 and 25 favour the temporal sense."
+   },
+   {
+    "verse": 26,
+    "phrase": "sons of God",
+    "lemma": "υἱός",
+    "kind": "background",
+    "traditional": "children of God / sons of God",
+    "note": "The word is 'sons' here and in verse 7, and it includes women, as verse 28 makes explicit. Many translations have 'children'. 'Sons' is kept because Paul's argument, continuing into chapter 4, turns on the status of a son as heir and on the believers' share in the standing of God's Son."
+   },
+   {
+    "verse": 26,
+    "phrase": "in Christ Jesus",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "by faith in Christ Jesus",
+    "note": "In the Greek, 'in Christ Jesus' follows 'through faith', and the traditional rendering joins them: 'through faith in Christ Jesus'. The phrase can equally stand on its own, saying where believers are sons of God, as in 'you are all one in Christ Jesus' in verse 28. The rendering here takes it that way; the traditional reading remains possible."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "ἀδελφός",
+    "rendering": "Brothers and sisters",
+    "verse": 15,
+    "reason": "The plural address to mixed congregations recurs throughout the letters and translations split between 'brothers' and 'brothers and sisters'; it needs one policy."
+   },
+   {
+    "lemma": "διαθήκη",
+    "rendering": "will (v. 15) / covenant (v. 17)",
+    "verse": 15,
+    "reason": "The will/covenant double sense matters here and in Hebrews 9:15-17, and the renderings should be coordinated across those passages."
+   },
+   {
+    "lemma": "σπέρμα",
+    "rendering": "seed",
+    "verse": 16,
+    "reason": "'Seed', 'offspring' and 'descendants' are all in use; Paul's singular/plural argument here and in Romans 4 and 9 needs a consistent choice."
+   },
+   {
+    "lemma": "υἱός",
+    "rendering": "sons",
+    "verse": 7,
+    "reason": "Whether the plural for mixed groups is 'sons' or 'children' affects the inheritance and adoption arguments in Galatians 3–4 and Romans 8 and should not vary by chapter."
+   },
+   {
+    "lemma": "παιδαγωγός",
+    "rendering": "custodian",
+    "verse": 24,
+    "reason": "The word recurs in 1 Corinthians 4:15 and must be kept distinct from ἐπίτροπος ('guardian') in Galatians 4:2, which a chapter-by-chapter translation could easily collapse."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

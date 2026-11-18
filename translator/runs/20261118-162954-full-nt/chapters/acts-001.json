@@ -1,0 +1,423 @@
+{
+ "id": "acts-001",
+ "book": "acts",
+ "chapter": 1,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhaEtbMjDLtf2AKR82",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 6875,
+  "output_tokens": 13916
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"I wrote my first account, Theophilus, about everything that Jesus began both to do and to teach\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"until the day he was taken up, after giving instructions through the Holy Spirit to the apostles he had chosen.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"To them he also presented himself alive after his suffering by many convincing proofs, appearing to them over forty days and speaking about the kingdom of God.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And while eating with them, he ordered them not to leave Jerusalem but to wait for what the Father had promised,\"},{\"speaker\":\"Jesus\",\"text\":\"“which you heard about from me;\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"for John baptized with water, but you will be baptized with the Holy Spirit not many days from now.”\"}]},{\"verse\":6,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So when they had come together, they began asking him,\"},{\"speaker\":\"other\",\"text\":\"“Lord, is it at this time that you are restoring the kingdom to Israel?”\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“It is not for you to know times or seasons that the Father has set by his own authority,\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"but you will receive power when the Holy Spirit has come upon you, and you will be my witnesses in Jerusalem, and in all Judea and Samaria, and to the end of the earth.”\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"After saying this, he was lifted up while they were watching, and a cloud took him up out of their sight.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And as they were gazing into heaven while he was going, suddenly two men in white clothes were standing beside them,\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and they said,\"},{\"speaker\":\"angel\",\"text\":\"“Men of Galilee, why do you stand looking into heaven? This Jesus, who has been taken up from you into heaven, will come in the same way as you saw him going into heaven.”\"}]},{\"verse\":12,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then they returned to Jerusalem from what is called the Mount of Olives, which is near Jerusalem, a sabbath day’s journey away.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When they had entered the city, they went up to the upstairs room where they were staying: Peter and John and James and Andrew, Philip and Thomas, Bartholomew and Matthew, James son of Alphaeus and Simon the Zealot and Judas son of James.\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"All these were devoting themselves with one mind to prayer, together with the women and Mary the mother of Jesus, and with his brothers.\"}]},{\"verse\":15,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"In those days Peter stood up among the brothers and sisters (the crowd gathered there numbered about a hundred and twenty people) and said,\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"“Brothers, the scripture had to be fulfilled which the Holy Spirit spoke beforehand through the mouth of David about Judas, who became a guide to those who arrested Jesus,\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"for he was numbered among us and was allotted his share in this service.”\"}]},{\"verse\":18,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now this man acquired a field with the wages of his wrongdoing, and falling headlong he burst open in the middle, and all his intestines spilled out.\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"This became known to all who live in Jerusalem, so that the field was called in their own language Akeldama, that is, Field of Blood.\"}]},{\"verse\":20,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"other\",\"text\":\"“For it is written in the book of Psalms, ‘Let his homestead become desolate, and let there be no one living in it,’ and, ‘Let another take his position of oversight.’\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"So then, of the men who accompanied us during all the time that the Lord Jesus went in and out among us,\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"beginning from John’s baptism until the day he was taken up from us, one of these must become a witness with us to his resurrection.”\"}]},{\"verse\":23,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So they put forward two: Joseph called Barsabbas, who was also known as Justus, and Matthias.\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And they prayed and said,\"},{\"speaker\":\"other\",\"text\":\"“You, Lord, who know the hearts of all, show which one of these two you have chosen\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"to take the place in this service and apostleship from which Judas turned aside to go to his own place.”\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And they cast lots for them, and the lot fell on Matthias, and he was counted with the eleven apostles.\"}]}],\"notes\":[{\"verse\":2,\"phrase\":\"through the Holy Spirit\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"after he had given commands through the Holy Spirit to the apostles whom he had chosen\",\"note\":\"In the Greek this phrase stands between \\\"giving instructions to the apostles\\\" and \\\"whom he had chosen\\\" and could modify either. Most translations, as here, attach it to the giving of instructions. A minority of interpreters read \\\"the apostles whom he had chosen through the Holy Spirit.\\\"\"},{\"verse\":4,\"phrase\":\"while eating with them\",\"lemma\":\"συναλίζω\",\"kind\":\"ambiguity\",\"traditional\":\"being assembled together with them / while staying with them\",\"note\":\"The verb is rare and its meaning here is disputed. It may mean \\\"eat together,\\\" \\\"gather together,\\\" or be a variant spelling of a verb meaning \\\"stay with.\\\" The sense \\\"eat with\\\" is how ancient translations such as the Latin took it, and it fits Luke's emphasis on the risen Jesus eating with his disciples (Luke 24:41–43; Acts 10:41). Certainty is not possible.\"},{\"verse\":10,\"phrase\":\"two men in white clothes\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"Luke regularly describes angels as men in bright or white clothing. The two \\\"men\\\" at the tomb in Luke 24:4 are called angels in 24:23, and the angel of Acts 10:3 is described as \\\"a man in bright clothing\\\" in 10:30. Readers would have understood these figures as heavenly messengers, though Luke does not use the word here.\"},{\"verse\":12,\"phrase\":\"a sabbath day’s journey\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"This is a measure of distance: the farthest one was permitted to walk on the sabbath under Jewish custom. It was about two thousand cubits, roughly a kilometre or a little over half a mile. The phrase does not imply that the events took place on a sabbath.\"},{\"verse\":13,\"phrase\":\"the Zealot\",\"lemma\":\"ζηλωτής\",\"kind\":\"ambiguity\",\"traditional\":\"the Zealot (older versions: Zelotes)\",\"note\":\"The word means someone zealous or ardently devoted, and Luke uses it elsewhere of zeal for the Law or for God (Acts 21:20; 22:3). Whether it marks Simon as belonging to a revolutionary movement is disputed, since an organised party called the Zealots is clearly attested only from the Jewish war of AD 66–70. The traditional rendering is kept, but it may mean no more than \\\"the zealous one.\\\"\"},{\"verse\":15,\"phrase\":\"brothers and sisters\",\"lemma\":\"ἀδελφός\",\"kind\":\"departure\",\"traditional\":\"the brethren / the brothers (KJV, following a different text: the disciples)\",\"note\":\"The plural of the Greek word for \\\"brother\\\" was the ordinary way to refer to a mixed group of community members, and verse 14 has just said that women were part of this gathering. Many recent translations render it \\\"believers\\\" or \\\"brothers and sisters\\\" for this reason. In verse 16 Peter uses a formal address that is explicitly masculine, and it is translated \\\"Brothers.\\\" In verse 14 the same word means Jesus's actual siblings.\"},{\"verse\":17,\"phrase\":\"service\",\"lemma\":\"διακονία\",\"kind\":\"departure\",\"traditional\":\"ministry\",\"note\":\"The Greek word was an everyday term for service or an assigned task carried out on someone's behalf. \\\"Ministry\\\" is the usual rendering, but it now suggests a clerical profession, which the word did not convey in the first century. The same word recurs in verse 25.\"},{\"verse\":18,\"phrase\":\"Now this man acquired a field\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"Verses 18–19 are generally read as an aside by the narrator rather than part of Peter's speech. The phrase \\\"in their own language\\\" and the translation of the Aramaic name are addressed to Luke's readers, not to an audience in Jerusalem. Matthew 27:3–10 gives a different account, in which Judas hangs himself and the chief priests buy the field. How the two accounts relate is debated.\"},{\"verse\":18,\"phrase\":\"falling headlong\",\"lemma\":\"πρηνής\",\"kind\":\"ambiguity\",\"traditional\":\"falling headlong\",\"note\":\"The word normally means \\\"face down\\\" or \\\"headfirst,\\\" and that is the rendering of most translations. Some scholars have proposed that it here carries a medical sense, \\\"swollen up,\\\" which is how some ancient versions and later traditions about Judas understood the verse. The evidence for that sense is thin, so the usual meaning is kept.\"},{\"verse\":20,\"phrase\":\"the book of Psalms\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"The two quotations are from Psalm 69:25 and Psalm 109:8, in the wording of the Greek version. The first is adapted from the plural (\\\"their homestead\\\") to the singular so that it applies to Judas. \\\"Position of oversight\\\" translates the psalm's word for an assigned charge or office, which older versions rendered \\\"bishoprick\\\" and most modern ones render \\\"office.\\\"\"},{\"verse\":26,\"phrase\":\"they cast lots for them\",\"lemma\":\"κλῆρος\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"In Israel's scriptures, casting lots was a recognised way of leaving a decision to God, used for dividing land and assigning priestly duties (compare Proverbs 16:33). The same Greek word lies behind \\\"was allotted his share\\\" in verse 17, so the replacement is chosen by the same means the language of that verse evokes. This is the last time the New Testament reports the practice among Jesus's followers.\"}],\"candidates\":[{\"lemma\":\"ἀδελφός\",\"rendering\":\"brothers and sisters\",\"verse\":15,\"reason\":\"The plural for community members recurs throughout Acts and the letters, and translators split between 'brothers', 'brothers and sisters' and 'believers'; readers will be confused if it varies by chapter.\"},{\"lemma\":\"διακονία\",\"rendering\":\"service\",\"verse\":17,\"reason\":\"'Ministry' versus 'service' is a recurring choice across Acts and Paul, and the word group (with διάκονος, διακονέω) needs one policy.\"},{\"lemma\":\"καιρός\",\"rendering\":\"seasons\",\"verse\":7,\"reason\":\"It is rendered variously as 'time', 'season', 'appointed time' or 'opportunity' across the New Testament, and the contrast with χρόνος needs a consistent treatment.\"},{\"lemma\":\"ἀδικία\",\"rendering\":\"wrongdoing\",\"verse\":18,\"reason\":\"Translations vary among 'unrighteousness', 'wickedness', 'injustice' and 'wrongdoing', and the word's link to the δικαιοσύνη group makes consistency important.\"},{\"lemma\":\"βασιλεία\",\"rendering\":\"kingdom\",\"verse\":3,\"reason\":\"'Kingdom' versus 'reign' or 'rule' is a pervasive decision for 'the kingdom of God' and should be made once for the whole New Testament.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "I wrote my first account, Theophilus, about everything that Jesus began both to do and to teach"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "until the day he was taken up, after giving instructions through the Holy Spirit to the apostles he had chosen."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "To them he also presented himself alive after his suffering by many convincing proofs, appearing to them over forty days and speaking about the kingdom of God."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And while eating with them, he ordered them not to leave Jerusalem but to wait for what the Father had promised,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“which you heard about from me;"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "for John baptized with water, but you will be baptized with the Holy Spirit not many days from now.”"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So when they had come together, they began asking him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Lord, is it at this time that you are restoring the kingdom to Israel?”"
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“It is not for you to know times or seasons that the Father has set by his own authority,"
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "but you will receive power when the Holy Spirit has come upon you, and you will be my witnesses in Jerusalem, and in all Judea and Samaria, and to the end of the earth.”"
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "After saying this, he was lifted up while they were watching, and a cloud took him up out of their sight."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And as they were gazing into heaven while he was going, suddenly two men in white clothes were standing beside them,"
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and they said,"
+     },
+     {
+      "speaker": "angel",
+      "text": "“Men of Galilee, why do you stand looking into heaven? This Jesus, who has been taken up from you into heaven, will come in the same way as you saw him going into heaven.”"
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then they returned to Jerusalem from what is called the Mount of Olives, which is near Jerusalem, a sabbath day’s journey away."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When they had entered the city, they went up to the upstairs room where they were staying: Peter and John and James and Andrew, Philip and Thomas, Bartholomew and Matthew, James son of Alphaeus and Simon the Zealot and Judas son of James."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "All these were devoting themselves with one mind to prayer, together with the women and Mary the mother of Jesus, and with his brothers."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "In those days Peter stood up among the brothers and sisters (the crowd gathered there numbered about a hundred and twenty people) and said,"
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "“Brothers, the scripture had to be fulfilled which the Holy Spirit spoke beforehand through the mouth of David about Judas, who became a guide to those who arrested Jesus,"
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "for he was numbered among us and was allotted his share in this service.”"
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now this man acquired a field with the wages of his wrongdoing, and falling headlong he burst open in the middle, and all his intestines spilled out."
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "This became known to all who live in Jerusalem, so that the field was called in their own language Akeldama, that is, Field of Blood."
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "“For it is written in the book of Psalms, ‘Let his homestead become desolate, and let there be no one living in it,’ and, ‘Let another take his position of oversight.’"
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "So then, of the men who accompanied us during all the time that the Lord Jesus went in and out among us,"
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "beginning from John’s baptism until the day he was taken up from us, one of these must become a witness with us to his resurrection.”"
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So they put forward two: Joseph called Barsabbas, who was also known as Justus, and Matthias."
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And they prayed and said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“You, Lord, who know the hearts of all, show which one of these two you have chosen"
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "to take the place in this service and apostleship from which Judas turned aside to go to his own place.”"
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And they cast lots for them, and the lot fell on Matthias, and he was counted with the eleven apostles."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 2,
+    "phrase": "through the Holy Spirit",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "after he had given commands through the Holy Spirit to the apostles whom he had chosen",
+    "note": "In the Greek this phrase stands between \"giving instructions to the apostles\" and \"whom he had chosen\" and could modify either. Most translations, as here, attach it to the giving of instructions. A minority of interpreters read \"the apostles whom he had chosen through the Holy Spirit.\""
+   },
+   {
+    "verse": 4,
+    "phrase": "while eating with them",
+    "lemma": "συναλίζω",
+    "kind": "ambiguity",
+    "traditional": "being assembled together with them / while staying with them",
+    "note": "The verb is rare and its meaning here is disputed. It may mean \"eat together,\" \"gather together,\" or be a variant spelling of a verb meaning \"stay with.\" The sense \"eat with\" is how ancient translations such as the Latin took it, and it fits Luke's emphasis on the risen Jesus eating with his disciples (Luke 24:41–43; Acts 10:41). Certainty is not possible."
+   },
+   {
+    "verse": 10,
+    "phrase": "two men in white clothes",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "Luke regularly describes angels as men in bright or white clothing. The two \"men\" at the tomb in Luke 24:4 are called angels in 24:23, and the angel of Acts 10:3 is described as \"a man in bright clothing\" in 10:30. Readers would have understood these figures as heavenly messengers, though Luke does not use the word here."
+   },
+   {
+    "verse": 12,
+    "phrase": "a sabbath day’s journey",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "This is a measure of distance: the farthest one was permitted to walk on the sabbath under Jewish custom. It was about two thousand cubits, roughly a kilometre or a little over half a mile. The phrase does not imply that the events took place on a sabbath."
+   },
+   {
+    "verse": 13,
+    "phrase": "the Zealot",
+    "lemma": "ζηλωτής",
+    "kind": "ambiguity",
+    "traditional": "the Zealot (older versions: Zelotes)",
+    "note": "The word means someone zealous or ardently devoted, and Luke uses it elsewhere of zeal for the Law or for God (Acts 21:20; 22:3). Whether it marks Simon as belonging to a revolutionary movement is disputed, since an organised party called the Zealots is clearly attested only from the Jewish war of AD 66–70. The traditional rendering is kept, but it may mean no more than \"the zealous one.\""
+   },
+   {
+    "verse": 15,
+    "phrase": "brothers and sisters",
+    "lemma": "ἀδελφός",
+    "kind": "departure",
+    "traditional": "the brethren / the brothers (KJV, following a different text: the disciples)",
+    "note": "The plural of the Greek word for \"brother\" was the ordinary way to refer to a mixed group of community members, and verse 14 has just said that women were part of this gathering. Many recent translations render it \"believers\" or \"brothers and sisters\" for this reason. In verse 16 Peter uses a formal address that is explicitly masculine, and it is translated \"Brothers.\" In verse 14 the same word means Jesus's actual siblings."
+   },
+   {
+    "verse": 17,
+    "phrase": "service",
+    "lemma": "διακονία",
+    "kind": "departure",
+    "traditional": "ministry",
+    "note": "The Greek word was an everyday term for service or an assigned task carried out on someone's behalf. \"Ministry\" is the usual rendering, but it now suggests a clerical profession, which the word did not convey in the first century. The same word recurs in verse 25."
+   },
+   {
+    "verse": 18,
+    "phrase": "Now this man acquired a field",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "Verses 18–19 are generally read as an aside by the narrator rather than part of Peter's speech. The phrase \"in their own language\" and the translation of the Aramaic name are addressed to Luke's readers, not to an audience in Jerusalem. Matthew 27:3–10 gives a different account, in which Judas hangs himself and the chief priests buy the field. How the two accounts relate is debated."
+   },
+   {
+    "verse": 18,
+    "phrase": "falling headlong",
+    "lemma": "πρηνής",
+    "kind": "ambiguity",
+    "traditional": "falling headlong",
+    "note": "The word normally means \"face down\" or \"headfirst,\" and that is the rendering of most translations. Some scholars have proposed that it here carries a medical sense, \"swollen up,\" which is how some ancient versions and later traditions about Judas understood the verse. The evidence for that sense is thin, so the usual meaning is kept."
+   },
+   {
+    "verse": 20,
+    "phrase": "the book of Psalms",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "The two quotations are from Psalm 69:25 and Psalm 109:8, in the wording of the Greek version. The first is adapted from the plural (\"their homestead\") to the singular so that it applies to Judas. \"Position of oversight\" translates the psalm's word for an assigned charge or office, which older versions rendered \"bishoprick\" and most modern ones render \"office.\""
+   },
+   {
+    "verse": 26,
+    "phrase": "they cast lots for them",
+    "lemma": "κλῆρος",
+    "kind": "background",
+    "traditional": "",
+    "note": "In Israel's scriptures, casting lots was a recognised way of leaving a decision to God, used for dividing land and assigning priestly duties (compare Proverbs 16:33). The same Greek word lies behind \"was allotted his share\" in verse 17, so the replacement is chosen by the same means the language of that verse evokes. This is the last time the New Testament reports the practice among Jesus's followers."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "ἀδελφός",
+    "rendering": "brothers and sisters",
+    "verse": 15,
+    "reason": "The plural for community members recurs throughout Acts and the letters, and translators split between 'brothers', 'brothers and sisters' and 'believers'; readers will be confused if it varies by chapter."
+   },
+   {
+    "lemma": "διακονία",
+    "rendering": "service",
+    "verse": 17,
+    "reason": "'Ministry' versus 'service' is a recurring choice across Acts and Paul, and the word group (with διάκονος, διακονέω) needs one policy."
+   },
+   {
+    "lemma": "καιρός",
+    "rendering": "seasons",
+    "verse": 7,
+    "reason": "It is rendered variously as 'time', 'season', 'appointed time' or 'opportunity' across the New Testament, and the contrast with χρόνος needs a consistent treatment."
+   },
+   {
+    "lemma": "ἀδικία",
+    "rendering": "wrongdoing",
+    "verse": 18,
+    "reason": "Translations vary among 'unrighteousness', 'wickedness', 'injustice' and 'wrongdoing', and the word's link to the δικαιοσύνη group makes consistency important."
+   },
+   {
+    "lemma": "βασιλεία",
+    "rendering": "kingdom",
+    "verse": 3,
+    "reason": "'Kingdom' versus 'reign' or 'rule' is a pervasive decision for 'the kingdom of God' and should be made once for the whole New Testament."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}

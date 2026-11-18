@@ -1,0 +1,689 @@
+{
+ "id": "acts-010",
+ "book": "acts",
+ "chapter": 10,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZnquuEmmdWyLVgVC",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 10996,
+  "output_tokens": 22917
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"In Caesarea there was a man named Cornelius, a centurion of the cohort known as the Italian.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He was devout and feared God, as did all his household; he made many charitable gifts to the people and prayed to God continually.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"About the ninth hour of the day he saw clearly in a vision an angel of God come in to him and say,\"},{\"speaker\":\"angel\",\"text\":\"“Cornelius!”\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He stared at him, terrified, and said,\"},{\"speaker\":\"other\",\"text\":\"“What is it, Lord?”\"},{\"speaker\":\"narrator\",\"text\":\"The angel said to him,\"},{\"speaker\":\"angel\",\"text\":\"“Your prayers and your charitable gifts have gone up as a memorial before God.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"angel\",\"text\":\"Now send men to Joppa and send for a certain Simon, who is called Peter.\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"angel\",\"text\":\"He is lodging with a certain Simon, a tanner, whose house is by the sea.”\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When the angel who spoke to him had gone, he called two of his household slaves and a devout soldier from among his personal attendants,\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and after explaining everything to them, he sent them to Joppa.\"}]},{\"verse\":9,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The next day, as they were on their way and nearing the city, Peter went up on the roof to pray, about the sixth hour.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He became hungry and wanted something to eat; but while they were preparing it, a trance came over him,\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and he saw heaven opened and an object like a large linen sheet coming down, being lowered to the earth by its four corners.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"In it were all the four-footed animals and creeping things of the earth and birds of the sky.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And a voice came to him:\"},{\"speaker\":\"God\",\"text\":\"“Get up, Peter; slaughter and eat.”\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But Peter said,\"},{\"speaker\":\"other\",\"text\":\"“Certainly not, Lord! I have never eaten anything defiled or unclean.”\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And the voice came to him again, a second time:\"},{\"speaker\":\"God\",\"text\":\"“What God has made clean, you must not call defiled.”\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"This happened three times, and at once the object was taken up into heaven.\"}]},{\"verse\":17,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"While Peter was at a loss within himself as to what the vision he had seen might mean, just then the men sent by Cornelius, having asked the way to Simon’s house, stood at the gate.\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They called out and asked whether Simon who was called Peter was lodging there.\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"While Peter was still turning the vision over in his mind, the Spirit said to him,\"},{\"speaker\":\"God\",\"text\":\"“There are men here looking for you.\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"God\",\"text\":\"Get up now, go down, and go with them without hesitating at all, for I myself have sent them.”\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Peter went down to the men and said,\"},{\"speaker\":\"other\",\"text\":\"“Here I am, the one you are looking for. What is the reason you have come?”\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They said,\"},{\"speaker\":\"other\",\"text\":\"“Cornelius, a centurion, a righteous man who fears God and is well spoken of by the whole nation of the Jews, was directed by a holy angel to send for you to come to his house and to hear what you have to say.”\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So he invited them in and gave them lodging. The next day he got up and set out with them, and some of the brothers from Joppa went with him.\"}]},{\"verse\":24,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The day after that he entered Caesarea. Cornelius was expecting them and had called together his relatives and close friends.\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"As Peter was coming in, Cornelius met him, fell at his feet, and paid him homage.\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But Peter raised him up, saying,\"},{\"speaker\":\"other\",\"text\":\"“Stand up. I myself am a human being too.”\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Talking with him, he went in and found many people gathered,\"}]},{\"verse\":28,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and he said to them,\"},{\"speaker\":\"other\",\"text\":\"“You yourselves know that it is forbidden for a Jewish man to associate with or visit a foreigner. But God has shown me that I should call no person defiled or unclean.\"}]},{\"verse\":29,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"That is why I came without objection when I was sent for. So I ask, for what reason did you send for me?”\"}]},{\"verse\":30,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And Cornelius said,\"},{\"speaker\":\"other\",\"text\":\"“Four days ago at this very hour, the ninth, I was praying in my house, when a man in shining clothing stood before me\"}]},{\"verse\":31,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"and said, ‘Cornelius, your prayer has been heard and your charitable gifts have been remembered before God.\"}]},{\"verse\":32,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"So send to Joppa and summon Simon, who is called Peter. He is lodging in the house of Simon, a tanner, by the sea.’\"}]},{\"verse\":33,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"So I sent to you at once, and it was good of you to come. Now then, we are all here in the presence of God to hear everything the Lord has commanded you.”\"}]},{\"verse\":34,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then Peter opened his mouth and said,\"},{\"speaker\":\"other\",\"text\":\"“In truth I am coming to see that God shows no favoritism,\"}]},{\"verse\":35,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"but in every nation the one who fears him and practices righteousness is acceptable to him.\"}]},{\"verse\":36,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"As for the message he sent to the sons of Israel, announcing the good news of peace through Jesus Christ—he is Lord of all—\"}]},{\"verse\":37,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"you yourselves know what took place throughout all Judea, beginning from Galilee after the baptism that John proclaimed:\"}]},{\"verse\":38,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"how God anointed Jesus of Nazareth with the Holy Spirit and with power, and how he went about doing good and healing all who were oppressed by the devil, because God was with him.\"}]},{\"verse\":39,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"And we are witnesses of everything he did both in the country of the Jews and in Jerusalem. They put him to death by hanging him on a tree,\"}]},{\"verse\":40,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"but God raised him on the third day and granted that he be plainly seen,\"}]},{\"verse\":41,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"not by all the people but by witnesses God had chosen beforehand, by us, who ate and drank with him after he rose from the dead.\"}]},{\"verse\":42,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"He ordered us to proclaim to the people and to testify solemnly that he is the one appointed by God as judge of the living and the dead.\"}]},{\"verse\":43,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"To him all the prophets bear witness, that everyone who believes in him receives forgiveness of sins through his name.”\"}]},{\"verse\":44,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"While Peter was still speaking these words, the Holy Spirit fell on all who were listening to the message.\"}]},{\"verse\":45,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The circumcised believers who had come with Peter were astounded that the gift of the Holy Spirit had been poured out on the Gentiles too,\"}]},{\"verse\":46,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"for they heard them speaking in tongues and extolling God. Then Peter responded,\"}]},{\"verse\":47,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"“Surely no one can withhold the water and keep these people from being baptized, who have received the Holy Spirit just as we did?”\"}]},{\"verse\":48,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And he commanded that they be baptized in the name of Jesus Christ. Then they asked him to stay on for some days.\"}]}],\"notes\":[{\"verse\":2,\"phrase\":\"feared God\",\"lemma\":\"φοβέομαι\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"In Acts, 'one who fears God' is close to a set description for Gentiles who worshipped Israel's God and supported the Jewish community without becoming full converts through circumcision. Cornelius is such a person, which is why his gifts go to 'the people', meaning the Jewish people. How formal or fixed this category was is debated.\"},{\"verse\":3,\"phrase\":\"the ninth hour\",\"lemma\":\"ὥρα\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"Hours were counted from sunrise, so the ninth hour is about three in the afternoon and the sixth hour (verse 9) is about noon. The ninth hour was the time of the afternoon sacrifice in the temple and a customary hour of Jewish prayer (see Acts 3:1).\"},{\"verse\":14,\"phrase\":\"defiled\",\"lemma\":\"κοινός\",\"kind\":\"departure\",\"traditional\":\"common\",\"note\":\"The Greek word ordinarily means 'shared' or 'ordinary', but in Jewish usage it had become a term for what is ritually profane, the opposite of holy; 'common' no longer conveys that. Some scholars distinguish it from 'unclean': unclean animals are those the law forbids, while this word may cover permitted things contaminated by contact with them. Other translations use 'profane' or 'impure'. The related verb in verse 15 is rendered 'call defiled'.\"},{\"verse\":19,\"phrase\":\"men\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"three men\",\"note\":\"The manuscripts differ here: many read 'three men', one important manuscript reads 'two men', and others give no number. The SBLGNT prints the text without a number, and that is followed here. 'Three' would match the two slaves and one soldier of verse 7.\"},{\"verse\":20,\"phrase\":\"without hesitating at all\",\"lemma\":\"διακρίνω\",\"kind\":\"ambiguity\",\"traditional\":\"without hesitation\",\"note\":\"The verb can mean 'hesitate, doubt' or 'make a distinction, discriminate'. Most translations take it as hesitation here. Some scholars argue for 'without making any distinction', that is, between Jew and Gentile, which would fit the theme of the chapter and the parallel wording in 11:12.\"},{\"verse\":22,\"phrase\":\"righteous\",\"lemma\":\"δίκαιος\",\"kind\":\"background\",\"traditional\":\"righteous / just\",\"note\":\"Greek has one word-family where English has two: the same root lies behind 'righteous' and 'just', 'righteousness' and 'justice'. 'Righteous' here and 'righteousness' in verse 35 belong to that single family and describe a person who does what is right before God.\"},{\"verse\":22,\"phrase\":\"nation\",\"lemma\":\"ἔθνος\",\"kind\":\"background\",\"traditional\":\"nation\",\"note\":\"The same Greek word is rendered 'nation' here and in verse 35 and 'Gentiles' in verse 45. In the singular it means a people or nation, Israel included; in the plural it commonly means the non-Jewish peoples.\"},{\"verse\":25,\"phrase\":\"paid him homage\",\"lemma\":\"προσκυνέω\",\"kind\":\"departure\",\"traditional\":\"worshiped him\",\"note\":\"The verb describes bowing or prostrating oneself before a superior, and was used of homage to kings and dignitaries as well as to gods. 'Worshiped' is the traditional rendering, and Peter's reply shows he regarded the gesture as more than a human being should accept. The word itself does not say that Cornelius thought Peter divine.\"},{\"verse\":28,\"phrase\":\"forbidden\",\"lemma\":\"ἀθέμιτος\",\"kind\":\"departure\",\"traditional\":\"unlawful\",\"note\":\"The word means contrary to accepted custom or to what is religiously permitted; it is not the usual term for a breach of the written law. No command in the Torah forbids associating with Gentiles. Peter is describing a widely held purity practice, concerned especially with Gentile homes and food, and Jewish practice in fact varied. Most translations have 'unlawful' or 'against our law'.\"},{\"verse\":30,\"phrase\":\"Four days ago at this very hour\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"Four days ago, about this hour\",\"note\":\"The Greek is awkward, literally 'from the fourth day until this hour I was praying the ninth hour', and its exact sense is uncertain. Most translations take it as given here; counting inclusively, this is the fourth day since the vision. Many later manuscripts add that Cornelius was fasting.\"},{\"verse\":36,\"phrase\":\"As for the message\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"The word which God sent\",\"note\":\"The Greek of verses 36 to 38 is grammatically broken: 'the message' is left hanging and there is no main verb until 'you know' in verse 37. Some translations supply 'You know the message' in verse 36. Others follow manuscripts that omit the relative pronoun and read 'He sent the message to the sons of Israel'. The rendering here keeps the loose construction.\"},{\"verse\":39,\"phrase\":\"tree\",\"lemma\":\"ξύλον\",\"kind\":\"background\",\"traditional\":\"tree\",\"note\":\"The traditional 'tree' is kept because the phrase echoes Deuteronomy 21:22–23, where the body of an executed criminal hung up in public is said to be under God's curse. A Jewish hearer would have caught that echo. The Greek word covers wood and anything made of it, including a post or gallows, and here refers to the cross.\"}],\"candidates\":[{\"lemma\":\"προσκυνέω\",\"rendering\":\"paid him homage\",\"verse\":25,\"reason\":\"It ranges from bowing before a superior to worship of God, and the choice between 'worship' and 'homage' recurs across the Gospels, Acts and Revelation with theological weight.\"},{\"lemma\":\"κοινός\",\"rendering\":\"defiled\",\"verse\":14,\"reason\":\"The ritual sense ('common', 'profane', 'impure', 'defiled') recurs with its verb κοινόω in Mark 7, Acts 10–11, Romans 14 and Hebrews, and varying English would hide the link.\"},{\"lemma\":\"ἐλεημοσύνη\",\"rendering\":\"charitable gifts\",\"verse\":2,\"reason\":\"The traditional 'alms' is archaic, and modern versions vary between 'acts of charity', 'gifts to the poor' and 'giving to the needy' across Matthew 6, Luke and Acts.\"},{\"lemma\":\"γλῶσσα\",\"rendering\":\"tongues\",\"verse\":46,\"reason\":\"Whether to keep 'tongues' or use 'languages' for inspired speech affects Acts 2, 10, 19 and 1 Corinthians 12–14 and should be decided once.\"},{\"lemma\":\"ξύλον\",\"rendering\":\"tree\",\"verse\":39,\"reason\":\"When used of the cross (Acts 5:30, 10:39, 13:29; Galatians 3:13; 1 Peter 2:24), translators vary between 'tree', 'cross' and 'wood', and the Deuteronomy echo depends on consistency.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "In Caesarea there was a man named Cornelius, a centurion of the cohort known as the Italian."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He was devout and feared God, as did all his household; he made many charitable gifts to the people and prayed to God continually."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "About the ninth hour of the day he saw clearly in a vision an angel of God come in to him and say,"
+     },
+     {
+      "speaker": "angel",
+      "text": "“Cornelius!”"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He stared at him, terrified, and said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“What is it, Lord?”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "The angel said to him,"
+     },
+     {
+      "speaker": "angel",
+      "text": "“Your prayers and your charitable gifts have gone up as a memorial before God."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "angel",
+      "text": "Now send men to Joppa and send for a certain Simon, who is called Peter."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "angel",
+      "text": "He is lodging with a certain Simon, a tanner, whose house is by the sea.”"
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When the angel who spoke to him had gone, he called two of his household slaves and a devout soldier from among his personal attendants,"
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and after explaining everything to them, he sent them to Joppa."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The next day, as they were on their way and nearing the city, Peter went up on the roof to pray, about the sixth hour."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He became hungry and wanted something to eat; but while they were preparing it, a trance came over him,"
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and he saw heaven opened and an object like a large linen sheet coming down, being lowered to the earth by its four corners."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "In it were all the four-footed animals and creeping things of the earth and birds of the sky."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And a voice came to him:"
+     },
+     {
+      "speaker": "God",
+      "text": "“Get up, Peter; slaughter and eat.”"
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But Peter said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Certainly not, Lord! I have never eaten anything defiled or unclean.”"
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And the voice came to him again, a second time:"
+     },
+     {
+      "speaker": "God",
+      "text": "“What God has made clean, you must not call defiled.”"
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "This happened three times, and at once the object was taken up into heaven."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "While Peter was at a loss within himself as to what the vision he had seen might mean, just then the men sent by Cornelius, having asked the way to Simon’s house, stood at the gate."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They called out and asked whether Simon who was called Peter was lodging there."
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "While Peter was still turning the vision over in his mind, the Spirit said to him,"
+     },
+     {
+      "speaker": "God",
+      "text": "“There are men here looking for you."
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "God",
+      "text": "Get up now, go down, and go with them without hesitating at all, for I myself have sent them.”"
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Peter went down to the men and said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Here I am, the one you are looking for. What is the reason you have come?”"
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Cornelius, a centurion, a righteous man who fears God and is well spoken of by the whole nation of the Jews, was directed by a holy angel to send for you to come to his house and to hear what you have to say.”"
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So he invited them in and gave them lodging. The next day he got up and set out with them, and some of the brothers from Joppa went with him."
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The day after that he entered Caesarea. Cornelius was expecting them and had called together his relatives and close friends."
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "As Peter was coming in, Cornelius met him, fell at his feet, and paid him homage."
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But Peter raised him up, saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Stand up. I myself am a human being too.”"
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Talking with him, he went in and found many people gathered,"
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and he said to them,"
+     },
+     {
+      "speaker": "other",
+      "text": "“You yourselves know that it is forbidden for a Jewish man to associate with or visit a foreigner. But God has shown me that I should call no person defiled or unclean."
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "That is why I came without objection when I was sent for. So I ask, for what reason did you send for me?”"
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And Cornelius said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Four days ago at this very hour, the ninth, I was praying in my house, when a man in shining clothing stood before me"
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "and said, ‘Cornelius, your prayer has been heard and your charitable gifts have been remembered before God."
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "So send to Joppa and summon Simon, who is called Peter. He is lodging in the house of Simon, a tanner, by the sea.’"
+     }
+    ]
+   },
+   {
+    "verse": 33,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "So I sent to you at once, and it was good of you to come. Now then, we are all here in the presence of God to hear everything the Lord has commanded you.”"
+     }
+    ]
+   },
+   {
+    "verse": 34,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then Peter opened his mouth and said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“In truth I am coming to see that God shows no favoritism,"
+     }
+    ]
+   },
+   {
+    "verse": 35,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "but in every nation the one who fears him and practices righteousness is acceptable to him."
+     }
+    ]
+   },
+   {
+    "verse": 36,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "As for the message he sent to the sons of Israel, announcing the good news of peace through Jesus Christ—he is Lord of all—"
+     }
+    ]
+   },
+   {
+    "verse": 37,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "you yourselves know what took place throughout all Judea, beginning from Galilee after the baptism that John proclaimed:"
+     }
+    ]
+   },
+   {
+    "verse": 38,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "how God anointed Jesus of Nazareth with the Holy Spirit and with power, and how he went about doing good and healing all who were oppressed by the devil, because God was with him."
+     }
+    ]
+   },
+   {
+    "verse": 39,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "And we are witnesses of everything he did both in the country of the Jews and in Jerusalem. They put him to death by hanging him on a tree,"
+     }
+    ]
+   },
+   {
+    "verse": 40,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "but God raised him on the third day and granted that he be plainly seen,"
+     }
+    ]
+   },
+   {
+    "verse": 41,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "not by all the people but by witnesses God had chosen beforehand, by us, who ate and drank with him after he rose from the dead."
+     }
+    ]
+   },
+   {
+    "verse": 42,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "He ordered us to proclaim to the people and to testify solemnly that he is the one appointed by God as judge of the living and the dead."
+     }
+    ]
+   },
+   {
+    "verse": 43,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "To him all the prophets bear witness, that everyone who believes in him receives forgiveness of sins through his name.”"
+     }
+    ]
+   },
+   {
+    "verse": 44,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "While Peter was still speaking these words, the Holy Spirit fell on all who were listening to the message."
+     }
+    ]
+   },
+   {
+    "verse": 45,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The circumcised believers who had come with Peter were astounded that the gift of the Holy Spirit had been poured out on the Gentiles too,"
+     }
+    ]
+   },
+   {
+    "verse": 46,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "for they heard them speaking in tongues and extolling God. Then Peter responded,"
+     }
+    ]
+   },
+   {
+    "verse": 47,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "“Surely no one can withhold the water and keep these people from being baptized, who have received the Holy Spirit just as we did?”"
+     }
+    ]
+   },
+   {
+    "verse": 48,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And he commanded that they be baptized in the name of Jesus Christ. Then they asked him to stay on for some days."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 2,
+    "phrase": "feared God",
+    "lemma": "φοβέομαι",
+    "kind": "background",
+    "traditional": "",
+    "note": "In Acts, 'one who fears God' is close to a set description for Gentiles who worshipped Israel's God and supported the Jewish community without becoming full converts through circumcision. Cornelius is such a person, which is why his gifts go to 'the people', meaning the Jewish people. How formal or fixed this category was is debated."
+   },
+   {
+    "verse": 3,
+    "phrase": "the ninth hour",
+    "lemma": "ὥρα",
+    "kind": "background",
+    "traditional": "",
+    "note": "Hours were counted from sunrise, so the ninth hour is about three in the afternoon and the sixth hour (verse 9) is about noon. The ninth hour was the time of the afternoon sacrifice in the temple and a customary hour of Jewish prayer (see Acts 3:1)."
+   },
+   {
+    "verse": 14,
+    "phrase": "defiled",
+    "lemma": "κοινός",
+    "kind": "departure",
+    "traditional": "common",
+    "note": "The Greek word ordinarily means 'shared' or 'ordinary', but in Jewish usage it had become a term for what is ritually profane, the opposite of holy; 'common' no longer conveys that. Some scholars distinguish it from 'unclean': unclean animals are those the law forbids, while this word may cover permitted things contaminated by contact with them. Other translations use 'profane' or 'impure'. The related verb in verse 15 is rendered 'call defiled'."
+   },
+   {
+    "verse": 19,
+    "phrase": "men",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "three men",
+    "note": "The manuscripts differ here: many read 'three men', one important manuscript reads 'two men', and others give no number. The SBLGNT prints the text without a number, and that is followed here. 'Three' would match the two slaves and one soldier of verse 7."
+   },
+   {
+    "verse": 20,
+    "phrase": "without hesitating at all",
+    "lemma": "διακρίνω",
+    "kind": "ambiguity",
+    "traditional": "without hesitation",
+    "note": "The verb can mean 'hesitate, doubt' or 'make a distinction, discriminate'. Most translations take it as hesitation here. Some scholars argue for 'without making any distinction', that is, between Jew and Gentile, which would fit the theme of the chapter and the parallel wording in 11:12."
+   },
+   {
+    "verse": 22,
+    "phrase": "righteous",
+    "lemma": "δίκαιος",
+    "kind": "background",
+    "traditional": "righteous / just",
+    "note": "Greek has one word-family where English has two: the same root lies behind 'righteous' and 'just', 'righteousness' and 'justice'. 'Righteous' here and 'righteousness' in verse 35 belong to that single family and describe a person who does what is right before God."
+   },
+   {
+    "verse": 22,
+    "phrase": "nation",
+    "lemma": "ἔθνος",
+    "kind": "background",
+    "traditional": "nation",
+    "note": "The same Greek word is rendered 'nation' here and in verse 35 and 'Gentiles' in verse 45. In the singular it means a people or nation, Israel included; in the plural it commonly means the non-Jewish peoples."
+   },
+   {
+    "verse": 25,
+    "phrase": "paid him homage",
+    "lemma": "προσκυνέω",
+    "kind": "departure",
+    "traditional": "worshiped him",
+    "note": "The verb describes bowing or prostrating oneself before a superior, and was used of homage to kings and dignitaries as well as to gods. 'Worshiped' is the traditional rendering, and Peter's reply shows he regarded the gesture as more than a human being should accept. The word itself does not say that Cornelius thought Peter divine."
+   },
+   {
+    "verse": 28,
+    "phrase": "forbidden",
+    "lemma": "ἀθέμιτος",
+    "kind": "departure",
+    "traditional": "unlawful",
+    "note": "The word means contrary to accepted custom or to what is religiously permitted; it is not the usual term for a breach of the written law. No command in the Torah forbids associating with Gentiles. Peter is describing a widely held purity practice, concerned especially with Gentile homes and food, and Jewish practice in fact varied. Most translations have 'unlawful' or 'against our law'."
+   },
+   {
+    "verse": 30,
+    "phrase": "Four days ago at this very hour",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "Four days ago, about this hour",
+    "note": "The Greek is awkward, literally 'from the fourth day until this hour I was praying the ninth hour', and its exact sense is uncertain. Most translations take it as given here; counting inclusively, this is the fourth day since the vision. Many later manuscripts add that Cornelius was fasting."
+   },
+   {
+    "verse": 36,
+    "phrase": "As for the message",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "The word which God sent",
+    "note": "The Greek of verses 36 to 38 is grammatically broken: 'the message' is left hanging and there is no main verb until 'you know' in verse 37. Some translations supply 'You know the message' in verse 36. Others follow manuscripts that omit the relative pronoun and read 'He sent the message to the sons of Israel'. The rendering here keeps the loose construction."
+   },
+   {
+    "verse": 39,
+    "phrase": "tree",
+    "lemma": "ξύλον",
+    "kind": "background",
+    "traditional": "tree",
+    "note": "The traditional 'tree' is kept because the phrase echoes Deuteronomy 21:22–23, where the body of an executed criminal hung up in public is said to be under God's curse. A Jewish hearer would have caught that echo. The Greek word covers wood and anything made of it, including a post or gallows, and here refers to the cross."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "προσκυνέω",
+    "rendering": "paid him homage",
+    "verse": 25,
+    "reason": "It ranges from bowing before a superior to worship of God, and the choice between 'worship' and 'homage' recurs across the Gospels, Acts and Revelation with theological weight."
+   },
+   {
+    "lemma": "κοινός",
+    "rendering": "defiled",
+    "verse": 14,
+    "reason": "The ritual sense ('common', 'profane', 'impure', 'defiled') recurs with its verb κοινόω in Mark 7, Acts 10–11, Romans 14 and Hebrews, and varying English would hide the link."
+   },
+   {
+    "lemma": "ἐλεημοσύνη",
+    "rendering": "charitable gifts",
+    "verse": 2,
+    "reason": "The traditional 'alms' is archaic, and modern versions vary between 'acts of charity', 'gifts to the poor' and 'giving to the needy' across Matthew 6, Luke and Acts."
+   },
+   {
+    "lemma": "γλῶσσα",
+    "rendering": "tongues",
+    "verse": 46,
+    "reason": "Whether to keep 'tongues' or use 'languages' for inspired speech affects Acts 2, 10, 19 and 1 Corinthians 12–14 and should be decided once."
+   },
+   {
+    "lemma": "ξύλον",
+    "rendering": "tree",
+    "verse": 39,
+    "reason": "When used of the cross (Acts 5:30, 10:39, 13:29; Galatians 3:13; 1 Peter 2:24), translators vary between 'tree', 'cross' and 'wood', and the Deuteronomy echo depends on consistency."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [
+  "Verse 45: πιστός is not rendered with a register form (faithful / believing) and has no register-exception note."
+ ]
+}

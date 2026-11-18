@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ait version="1.0">
-  <book id="1john" name="1John">
+<ait version="2.0" run="20261118-162954-full-nt" model="claude-fable-5-2" register="0.4-draft">
+  <book id="1john" name="1 John">
     <chapter num="1">
       <verse num="1">
-        <text><p/>That which was from the beginning, what we have heard, what we have seen with our own eyes, what we gazed upon and our own hands handled—concerning the **Logos** of life—</text>
+        <text><p/>What was from the beginning, what we have heard, what we have seen with our eyes, what we looked upon and our hands touched, concerning the Logos of life—</text>
         <greek>
           <w lemma="ὅς">Ὃ</w>
           <w lemma="εἰμί">ἦν</w>
@@ -29,9 +29,11 @@
           <w lemma="ὁ">τῆς</w>
           <w lemma="ζωή">ζωῆς—</w>
         </greek>
+        <note term="from the beginning" kind="ambiguity" lemma="ἀρχή" traditional="from the beginning">The phrase can refer to the absolute beginning, echoing the opening of John&#x27;s Gospel, or to the beginning of the Christian message in the ministry of Jesus. Elsewhere in this letter it usually means the start of the readers&#x27; own hearing of the message (2:7, 2:24). The translation leaves both open, as the Greek does.</note>
+        <note term="the Logos of life" kind="departure" lemma="λόγος" traditional="the Word of life">Nearly all translations have &#x27;the Word of life&#x27;. This translation uses &#x27;Logos&#x27; where the term echoes the title of John 1:1, because &#x27;the Word&#x27; is now commonly heard as meaning the Bible. The sense here is disputed. The opening pronoun is neuter (&#x27;what&#x27;, not &#x27;who&#x27;), and many scholars take the phrase to mean the life-giving message about Jesus and not the personal Word himself; the wording may deliberately hold the two together.</note>
       </verse>
       <verse num="2">
-        <text>and this life was made visible, and we have seen it and testify to it, and we proclaim to you this eternal life—the life of the ages—which was with the Father and was made visible to us.</text>
+        <text>and the life was revealed, and we have seen it and testify to it and declare to you the eternal life that was with the Father and was revealed to us—</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="ὁ">ἡ</w>
@@ -57,16 +59,17 @@
           <w lemma="φανερόω">ἐφανερώθη</w>
           <w lemma="ἐγώ">ἡμῖν—</w>
         </greek>
+        <note term="eternal" kind="background" lemma="αἰώνιος" traditional="eternal, everlasting">The Greek adjective is formed from the word for &#x27;age&#x27;. In Jewish usage &#x27;eternal life&#x27; is the life of the age to come, so the phrase describes a kind of life as well as its unending length. Here that life is said to have already appeared in a person who could be seen and touched.</note>
       </verse>
       <verse num="3">
-        <text>What we have seen and heard we proclaim to you as well, so that you too may have a shared life with us; and indeed, our shared life is with the Father and with his Son, Jesus the Messiah.</text>
+        <text>what we have seen and heard we declare to you also, so that you too may have fellowship with us. And our fellowship is with the Father and with his Son Jesus Christ.</text>
         <greek>
           <w lemma="ὅς">ὃ</w>
           <w lemma="ὁράω">ἑωράκαμεν</w>
           <w lemma="καί">καὶ</w>
           <w lemma="ἀκούω">ἀκηκόαμεν</w>
           <w lemma="ἀπαγγέλλω">ἀπαγγέλλομεν</w>
-          <w lemma="καί">⸀καὶ</w>
+          <w lemma="καί">καὶ</w>
           <w lemma="σύ">ὑμῖν,</w>
           <w lemma="ἵνα">ἵνα</w>
           <w lemma="καί">καὶ</w>
@@ -92,14 +95,15 @@
           <w lemma="Ἰησοῦς">Ἰησοῦ</w>
           <w lemma="Χριστός">Χριστοῦ·</w>
         </greek>
+        <note term="fellowship" kind="background" lemma="κοινωνία" traditional="fellowship">The Greek word means having something in common: partnership, a shared stake, joint participation. It was used of business partnerships and of marriage as well as of friendship. It is a stronger term than the friendly sociability that &#x27;fellowship&#x27; can suggest in modern English.</note>
       </verse>
       <verse num="4">
-        <text>And we are writing these things so that our joy may be made complete.</text>
+        <text>And we are writing these things so that our joy may be complete.</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="οὗτος">ταῦτα</w>
           <w lemma="γράφω">γράφομεν</w>
-          <w lemma="ἐγώ">⸀ἡμεῖς</w>
+          <w lemma="ἐγώ">ἡμεῖς</w>
           <w lemma="ἵνα">ἵνα</w>
           <w lemma="ὁ">ἡ</w>
           <w lemma="χαρά">χαρὰ</w>
@@ -107,9 +111,10 @@
           <w lemma="εἰμί">ᾖ</w>
           <w lemma="πληρόω">πεπληρωμένη.</w>
         </greek>
+        <note term="we are writing these things so that our joy" kind="textual" lemma="" traditional="these things write we unto you, that your joy may be full">Many manuscripts read &#x27;we write to you&#x27; and &#x27;your joy&#x27;, and the King James tradition follows them. The earliest witnesses favour &#x27;we&#x27; and &#x27;our&#x27;, and copyists were more likely to change the unexpected &#x27;our joy&#x27; to &#x27;your joy&#x27; than the reverse. In Greek the two readings differ by a single letter in each word.</note>
       </verse>
       <verse num="5">
-        <text><p/>This is the message we have heard from him and report to you: God is light, and in him there is no darkness at all.</text>
+        <text><p/>And this is the message that we have heard from him and announce to you: that God is light, and in him there is no darkness at all.</text>
         <greek>
           <w lemma="καί">Καὶ</w>
           <w lemma="εἰμί">ἔστιν</w>
@@ -130,15 +135,15 @@
           <w lemma="εἰμί">ἐστιν</w>
           <w lemma="καί">καὶ</w>
           <w lemma="σκοτία">σκοτία</w>
-          <w lemma="ἐν">⸂ἐν</w>
+          <w lemma="ἐν">ἐν</w>
           <w lemma="αὐτός">αὐτῷ</w>
           <w lemma="οὐ">οὐκ</w>
-          <w lemma="εἰμί">ἔστιν⸃</w>
+          <w lemma="εἰμί">ἔστιν</w>
           <w lemma="οὐδείς">οὐδεμία.</w>
         </greek>
       </verse>
       <verse num="6">
-        <text>If we claim to have a shared life with him while we walk in the darkness, we are lying and not practicing the truth.</text>
+        <text>If we say that we have fellowship with him and yet walk in the darkness, we lie and do not do the truth.</text>
         <greek>
           <w lemma="ἐάν">ἐὰν</w>
           <w lemma="λέγω">εἴπωμεν</w>
@@ -159,9 +164,10 @@
           <w lemma="ὁ">τὴν</w>
           <w lemma="ἀλήθεια">ἀλήθειαν·</w>
         </greek>
+        <note term="do not do the truth" kind="background" lemma="ἀλήθεια" traditional="do not practice the truth">&#x27;Doing the truth&#x27; is a Semitic turn of phrase, found also at John 3:21, in which truth is something acted on and not only believed or spoken. The translation keeps the idiom; the sense is &#x27;our conduct is not true&#x27;.</note>
       </verse>
       <verse num="7">
-        <text>But if we walk in the light, as he himself is in the light, we have a shared life with one another, and the blood of Jesus his Son cleanses us from every sin.</text>
+        <text>But if we walk in the light as he himself is in the light, we have fellowship with one another, and the blood of Jesus his Son cleanses us from all sin.</text>
         <greek>
           <w lemma="ἐάν">ἐὰν</w>
           <w lemma="δέ">δὲ</w>
@@ -182,7 +188,7 @@
           <w lemma="καί">καὶ</w>
           <w lemma="ὁ">τὸ</w>
           <w lemma="αἷμα">αἷμα</w>
-          <w lemma="Ἰησοῦς">⸀Ἰησοῦ</w>
+          <w lemma="Ἰησοῦς">Ἰησοῦ</w>
           <w lemma="ὁ">τοῦ</w>
           <w lemma="υἱός">υἱοῦ</w>
           <w lemma="αὐτός">αὐτοῦ</w>
@@ -194,7 +200,7 @@
         </greek>
       </verse>
       <verse num="8">
-        <text>If we claim to have no sin, we are deceiving ourselves and the truth is not in us.</text>
+        <text>If we say that we have no sin, we deceive ourselves, and the truth is not in us.</text>
         <greek>
           <w lemma="ἐάν">ἐὰν</w>
           <w lemma="λέγω">εἴπωμεν</w>
@@ -207,14 +213,14 @@
           <w lemma="καί">καὶ</w>
           <w lemma="ὁ">ἡ</w>
           <w lemma="ἀλήθεια">ἀλήθεια</w>
-          <w lemma="οὐ">⸂οὐκ</w>
+          <w lemma="οὐ">οὐκ</w>
           <w lemma="εἰμί">ἔστιν</w>
           <w lemma="ἐν">ἐν</w>
-          <w lemma="ἐγώ">ἡμῖν⸃.</w>
+          <w lemma="ἐγώ">ἡμῖν.</w>
         </greek>
       </verse>
       <verse num="9">
-        <text>If we acknowledge our sins, he is faithful and just to forgive us our sins and to cleanse us from every injustice.</text>
+        <text>If we confess our sins, he is faithful and righteous to forgive us our sins and cleanse us from all unrighteousness.</text>
         <greek>
           <w lemma="ἐάν">ἐὰν</w>
           <w lemma="ὁμολογέω">ὁμολογῶμεν</w>
@@ -237,9 +243,10 @@
           <w lemma="πᾶς">πάσης</w>
           <w lemma="ἀδικία">ἀδικίας.</w>
         </greek>
+        <note term="righteous" kind="departure" lemma="δίκαιος" traditional="just">Most English versions read &#x27;faithful and just&#x27;. Greek has a single word-family where English has two (righteous/just, righteousness/justice), and &#x27;unrighteousness&#x27; at the end of the verse is the negative of the same word. &#x27;Righteous&#x27; keeps that link audible: the one who is in the right cleanses from all that is not right.</note>
       </verse>
       <verse num="10">
-        <text>If we claim we have not sinned, we make him out to be a liar, and his **Logos** is not in us.</text>
+        <text>If we say that we have not sinned, we make him a liar, and his word is not in us.</text>
         <greek>
           <w lemma="ἐάν">ἐὰν</w>
           <w lemma="λέγω">εἴπωμεν</w>
@@ -258,11 +265,12 @@
           <w lemma="ἐν">ἐν</w>
           <w lemma="ἐγώ">ἡμῖν.</w>
         </greek>
+        <note term="his word" kind="register-exception" lemma="λόγος" traditional="his word">The Greek noun is the one rendered &#x27;Logos&#x27; in verse 1, but here it has its ordinary sense of God&#x27;s spoken message, parallel to &#x27;the truth is not in us&#x27; in verse 8. It is therefore translated &#x27;word&#x27;, as in all standard versions.</note>
       </verse>
     </chapter>
     <chapter num="2">
       <verse num="1">
-        <text><p/>My dear children, I am writing these things to you so that you do not sin. But if anyone does sin, we have an Advocate with the Father: Jesus Christ, the Just One.</text>
+        <text><p/>My little children, I am writing these things to you so that you may not sin. But if anyone does sin, we have an Advocate with the Father, Jesus Christ, the righteous one,</text>
         <greek>
           <w lemma="τεκνίον">Τεκνία</w>
           <w lemma="ἐγώ">μου,</w>
@@ -285,9 +293,10 @@
           <w lemma="Χριστός">Χριστὸν</w>
           <w lemma="δίκαιος">δίκαιον,</w>
         </greek>
+        <note term="Advocate" kind="background" lemma="παράκλητος" traditional="advocate">The word was used of someone who speaks up on another&#x27;s behalf, as a supporter might before a judge. In John&#x27;s Gospel the same word is used of the Spirit, where older English versions have &#x27;Comforter&#x27;. Here it is Jesus who speaks for believers before the Father, and English versions have long used &#x27;advocate&#x27; in this verse.</note>
       </verse>
       <verse num="2">
-        <text>He himself is the atoning sacrifice for our sins—and not for ours only, but also for the whole world.</text>
+        <text>and he himself is the atoning sacrifice for our sins, and not for ours only but also for the whole world.</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="αὐτός">αὐτὸς</w>
@@ -310,9 +319,10 @@
           <w lemma="ὁ">τοῦ</w>
           <w lemma="κόσμος">κόσμου.</w>
         </greek>
+        <note term="atoning sacrifice" kind="departure" lemma="ἱλασμός" traditional="propitiation">The word belongs to the Septuagint&#x27;s vocabulary of atonement and the forgiveness it brings. &#x27;Propitiation&#x27; (turning away wrath) and &#x27;expiation&#x27; (removing sin) each take one side of a long-running dispute. &#x27;Atoning sacrifice&#x27;, used by several modern versions, leaves that question open. The noun occurs in the New Testament only here and at 4:10.</note>
       </verse>
       <verse num="3">
-        <text><p/>This is how we know that we have come to know him: if we keep his commands.</text>
+        <text><p/>And by this we know that we have come to know him: if we keep his commandments.</text>
         <greek>
           <w lemma="καί">Καὶ</w>
           <w lemma="ἐν">ἐν</w>
@@ -329,11 +339,11 @@
         </greek>
       </verse>
       <verse num="4">
-        <text>The one who says, <q who="The Claimant">"I have come to know him,"</q> yet does not keep his commands, is a liar, and the truth is not in this person.</text>
+        <text>The one who says,<q who="other"> “I have come to know him,”</q> and does not keep his commandments is a liar, and the truth is not in that person;</text>
         <greek>
           <w lemma="ὁ">ὁ</w>
           <w lemma="λέγω">λέγων</w>
-          <w lemma="ὅτι">⸀ὅτι</w>
+          <w lemma="ὅτι">ὅτι</w>
           <w lemma="γινώσκω">Ἔγνωκα</w>
           <w lemma="αὐτός">αὐτὸν</w>
           <w lemma="καί">καὶ</w>
@@ -354,7 +364,7 @@
         </greek>
       </verse>
       <verse num="5">
-        <text>But whoever keeps his word, in this person the love of God has truly reached its goal. This is how we know we are in him:</text>
+        <text>but whoever keeps his word, in that person the love of God has truly been made complete. By this we know that we are in him:</text>
         <greek>
           <w lemma="ὅς">ὃς</w>
           <w lemma="δέ">δ’</w>
@@ -379,9 +389,10 @@
           <w lemma="αὐτός">αὐτῷ</w>
           <w lemma="εἰμί">ἐσμεν·</w>
         </greek>
+        <note term="the love of God" kind="ambiguity" lemma="ἀγάπη" traditional="the love of God">The Greek can mean a person&#x27;s love for God, God&#x27;s love for that person, or the kind of love that comes from God. The translation keeps the open phrase. The same question arises with &#x27;the love of the Father&#x27; in verse 15, where love for the Father is the more likely sense because it is set against loving the world.</note>
       </verse>
       <verse num="6">
-        <text>the one who claims <q who="The Claimant">"to remain in him"</q> is obligated to walk in the same way that he walked.</text>
+        <text>the one who says he remains in him ought himself to walk just as he walked.</text>
         <greek>
           <w lemma="ὁ">ὁ</w>
           <w lemma="λέγω">λέγων</w>
@@ -393,14 +404,16 @@
           <w lemma="ἐκεῖνος">ἐκεῖνος</w>
           <w lemma="περιπατέω">περιεπάτησεν</w>
           <w lemma="καί">καὶ</w>
-          <w lemma="αὐτός">⸀αὐτὸς</w>
+          <w lemma="αὐτός">αὐτὸς</w>
           <w lemma="περιπατέω">περιπατεῖν.</w>
         </greek>
+        <note term="remains" kind="departure" lemma="μένω" traditional="abides">The traditional &#x27;abide&#x27; has dropped out of ordinary English. The Greek verb is the everyday word for staying or remaining, and the letter uses it repeatedly, of people remaining in God, of God&#x27;s word remaining in them, and in verse 19 of those who did not remain with the community. One English verb is used throughout so that the repetition can be heard.</note>
+        <note term="just as he walked" kind="background" lemma="ἐκεῖνος" traditional="even as he walked">The Greek here switches to a distinct pronoun, literally &#x27;that one&#x27;, which in this letter regularly points to Jesus. &#x27;Walk&#x27; is the common Jewish idiom for how a person conducts their life.</note>
       </verse>
       <verse num="7">
-        <text><p/>Beloved, I am not writing a new command to you, but an old command that you have had from the beginning. This old command is the word you have heard.</text>
+        <text><p/>Beloved, I am not writing you a new commandment, but an old commandment that you have had from the beginning. The old commandment is the word that you heard.</text>
         <greek>
-          <w lemma="ἀγαπητός">⸀Ἀγαπητοί,</w>
+          <w lemma="ἀγαπητός">Ἀγαπητοί,</w>
           <w lemma="οὐ">οὐκ</w>
           <w lemma="ἐντολή">ἐντολὴν</w>
           <w lemma="καινός">καινὴν</w>
@@ -421,11 +434,11 @@
           <w lemma="ὁ">ὁ</w>
           <w lemma="λόγος">λόγος</w>
           <w lemma="ὅς">ὃν</w>
-          <w lemma="ἀκούω">⸀ἠκούσατε.</w>
+          <w lemma="ἀκούω">ἠκούσατε.</w>
         </greek>
       </verse>
       <verse num="8">
-        <text>On the other hand, I am writing a new command to you—something that is true in him and in you—because the darkness is passing away and the true light is already shining.</text>
+        <text>On the other hand, I am writing you a new commandment, which is true in him and in you, because the darkness is passing away and the true light is already shining.</text>
         <greek>
           <w lemma="πάλιν">πάλιν</w>
           <w lemma="ἐντολή">ἐντολὴν</w>
@@ -454,7 +467,7 @@
         </greek>
       </verse>
       <verse num="9">
-        <text>The one who claims <q who="The Claimant">"to be in the light"</q> but hates their brother or sister is in the darkness until now.</text>
+        <text>The one who says he is in the light and hates his brother is in the darkness even now.</text>
         <greek>
           <w lemma="ὁ">ὁ</w>
           <w lemma="λέγω">λέγων</w>
@@ -474,9 +487,10 @@
           <w lemma="ἕως">ἕως</w>
           <w lemma="ἄρτι">ἄρτι.</w>
         </greek>
+        <note term="his brother" kind="background" lemma="ἀδελφός" traditional="his brother">In this letter &#x27;brother&#x27; means a fellow member of the believing community, whether a man or a woman, not a sibling. Some modern versions render &#x27;brother or sister&#x27; or &#x27;fellow believer&#x27;. The masculine singular here and in the following verses is generic.</note>
       </verse>
       <verse num="10">
-        <text>The one who loves their brother remains in the light, and there is no cause for stumbling in them.</text>
+        <text>The one who loves his brother remains in the light, and in him there is no cause for stumbling;</text>
         <greek>
           <w lemma="ὁ">ὁ</w>
           <w lemma="ἀγαπάω">ἀγαπῶν</w>
@@ -494,9 +508,10 @@
           <w lemma="οὐ">οὐκ</w>
           <w lemma="εἰμί">ἔστιν·</w>
         </greek>
+        <note term="in him there is no cause for stumbling" kind="ambiguity" lemma="σκάνδαλον" traditional="there is none occasion of stumbling in him">The word refers to a trap or obstacle that makes someone fall. The Greek may mean that there is nothing in such a person to trip him up, or nothing in him that makes others fall. The pronoun could also be read as &#x27;in it&#x27;, meaning that in the light there is nothing to stumble over.</note>
       </verse>
       <verse num="11">
-        <text>But the one who hates their brother is in the darkness; they walk in the darkness and do not know where they are going, because the darkness has blinded their eyes.</text>
+        <text>but the one who hates his brother is in the darkness and walks in the darkness, and does not know where he is going, because the darkness has blinded his eyes.</text>
         <greek>
           <w lemma="ὁ">ὁ</w>
           <w lemma="δέ">δὲ</w>
@@ -528,7 +543,7 @@
         </greek>
       </verse>
       <verse num="12">
-        <text><p/>I am writing to you, dear children, because your sins have been forgiven through his name.</text>
+        <text><p/>I am writing to you, little children, because your sins have been forgiven on account of his name.</text>
         <greek>
           <w lemma="γράφω">Γράφω</w>
           <w lemma="σύ">ὑμῖν,</w>
@@ -543,9 +558,10 @@
           <w lemma="ὄνομα">ὄνομα</w>
           <w lemma="αὐτός">αὐτοῦ·</w>
         </greek>
+        <note term="because" kind="ambiguity" lemma="ὅτι" traditional="because">Throughout verses 12 to 14 the Greek conjunction can mean either &#x27;because&#x27; (giving the reason for writing) or &#x27;that&#x27; (giving the content of what is written, as in &#x27;I write to tell you that your sins have been forgiven&#x27;). Most translations choose &#x27;because&#x27;, but the other reading is well supported.</note>
       </verse>
       <verse num="13">
-        <text>I am writing to you, fathers, because you have known the One who is from the beginning. I am writing to you, young men, because you have conquered the evil one.</text>
+        <text>I am writing to you, fathers, because you have come to know the one who is from the beginning. I am writing to you, young men, because you have overcome the evil one.</text>
         <greek>
           <w lemma="γράφω">γράφω</w>
           <w lemma="σύ">ὑμῖν,</w>
@@ -565,9 +581,9 @@
         </greek>
       </verse>
       <verse num="14">
-        <text>I have written to you, little children, because you have known the Father. I have written to you, fathers, because you have known the One who is from the beginning. I have written to you, young men, because you are strong, and the word of God remains in you, and you have conquered the evil one.</text>
+        <text>I have written to you, children, because you have come to know the Father. I have written to you, fathers, because you have come to know the one who is from the beginning. I have written to you, young men, because you are strong, and the word of God remains in you, and you have overcome the evil one.</text>
         <greek>
-          <w lemma="γράφω">⸀ἔγραψα</w>
+          <w lemma="γράφω">ἔγραψα</w>
           <w lemma="σύ">ὑμῖν,</w>
           <w lemma="παιδίον">παιδία,</w>
           <w lemma="ὅτι">ὅτι</w>
@@ -601,9 +617,10 @@
           <w lemma="ὁ">τὸν</w>
           <w lemma="πονηρός">πονηρόν.</w>
         </greek>
+        <note term="I have written" kind="ambiguity" lemma="γράφω" traditional="I have written">The verb shifts from the present tense in verses 12 and 13 to a past tense here. Most interpreters take this as a stylistic variation that still refers to the present letter, since Greek letter-writers often used a past tense from the reader&#x27;s point of view. Some think an earlier writing is meant. Some editions and translations number the first sentence of this verse as the end of verse 13.</note>
       </verse>
       <verse num="15">
-        <text><p/>Do not love the world or the things in the world. If anyone loves the world, the love of the Father is not in him.</text>
+        <text><p/>Do not love the world or the things in the world. If anyone loves the world, the love of the Father is not in him;</text>
         <greek>
           <w lemma="μή">Μὴ</w>
           <w lemma="ἀγαπάω">ἀγαπᾶτε</w>
@@ -630,7 +647,7 @@
         </greek>
       </verse>
       <verse num="16">
-        <text>For everything in the world—the desire of the flesh, the desire of the eyes, and the arrogance of one's status—does not come from the Father but comes from the world.</text>
+        <text>because everything in the world, the desire of the flesh and the desire of the eyes and the boastful pride in possessions, is not from the Father but is from the world.</text>
         <greek>
           <w lemma="ὅτι">ὅτι</w>
           <w lemma="πᾶς">πᾶν</w>
@@ -663,9 +680,10 @@
           <w lemma="κόσμος">κόσμου</w>
           <w lemma="εἰμί">ἐστίν·</w>
         </greek>
+        <note term="the boastful pride in possessions" kind="departure" lemma="ἀλαζονεία" traditional="the pride of life">The first noun means showy boasting or pretension. The word for &#x27;life&#x27; here is not the one used for eternal life but the one for livelihood or material means, as at 3:17. The traditional &#x27;pride of life&#x27; suggests pride in being alive or in life generally, whereas the Greek points to showing off what one has. Several modern versions render it similarly (&#x27;pride in riches&#x27;, &#x27;pride in one&#x27;s possessions&#x27;).</note>
       </verse>
       <verse num="17">
-        <text>And the world is passing away, along with its desire, but the one who does the will of God remains forever.</text>
+        <text>And the world is passing away, and its desire with it, but the one who does the will of God remains forever.</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="ὁ">ὁ</w>
@@ -689,7 +707,7 @@
         </greek>
       </verse>
       <verse num="18">
-        <text><p/>Children, it is the last hour. Just as you heard that <q who="scripture">"Antichrist is coming,"</q> even now many antichrists have appeared. From this, we know it is the last hour.</text>
+        <text><p/>Children, it is the last hour, and just as you heard that antichrist is coming, so now many antichrists have appeared. From this we know that it is the last hour.</text>
         <greek>
           <w lemma="παιδίον">Παιδία,</w>
           <w lemma="ἔσχατος">ἐσχάτη</w>
@@ -698,7 +716,7 @@
           <w lemma="καί">καὶ</w>
           <w lemma="καθώς">καθὼς</w>
           <w lemma="ἀκούω">ἠκούσατε</w>
-          <w lemma="ὅτι">⸀ὅτι</w>
+          <w lemma="ὅτι">ὅτι</w>
           <w lemma="ἀντίχριστος">ἀντίχριστος</w>
           <w lemma="ἔρχομαι">ἔρχεται,</w>
           <w lemma="καί">καὶ</w>
@@ -713,9 +731,10 @@
           <w lemma="ὥρα">ὥρα</w>
           <w lemma="εἰμί">ἐστίν.</w>
         </greek>
+        <note term="antichrist" kind="background" lemma="ἀντίχριστος" traditional="antichrist">The word occurs in the New Testament only in 1 and 2 John. Its prefix can mean both &#x27;against&#x27; and &#x27;in place of&#x27;, so it names an opponent of Christ or a rival claimant to his place. The author assumes that his readers already expect such a figure and applies the term to those who have left the community and deny that Jesus is the Christ (verses 19 and 22).</note>
       </verse>
       <verse num="19">
-        <text>They went out from us, but they did not belong to us. For if they had belonged to us, they would have remained with us. But they went out so it would be made clear that not all of them belong to us.</text>
+        <text>They went out from us, but they were not of us; for if they had been of us, they would have remained with us. But they went out so that it might be revealed that none of them is of us.</text>
         <greek>
           <w lemma="ἐκ">ἐξ</w>
           <w lemma="ἐγώ">ἡμῶν</w>
@@ -727,9 +746,9 @@
           <w lemma="ἐγώ">ἡμῶν·</w>
           <w lemma="εἰ">εἰ</w>
           <w lemma="γάρ">γὰρ</w>
-          <w lemma="ἐκ">⸂ἐξ</w>
+          <w lemma="ἐκ">ἐξ</w>
           <w lemma="ἐγώ">ἡμῶν</w>
-          <w lemma="εἰμί">ἦσαν⸃,</w>
+          <w lemma="εἰμί">ἦσαν,</w>
           <w lemma="μένω">μεμενήκεισαν</w>
           <w lemma="ἄν">ἂν</w>
           <w lemma="μετά">μεθ’</w>
@@ -746,7 +765,7 @@
         </greek>
       </verse>
       <verse num="20">
-        <text><p/>You, however, have a *chrism* from the Holy One, and you all know the truth.</text>
+        <text>And you have an anointing from the Holy One, and you all know.</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="σύ">ὑμεῖς</w>
@@ -755,13 +774,15 @@
           <w lemma="ἀπό">ἀπὸ</w>
           <w lemma="ὁ">τοῦ</w>
           <w lemma="ἅγιος">ἁγίου</w>
-          <w lemma="καί">⸀καὶ</w>
+          <w lemma="καί">καὶ</w>
           <w lemma="οἶδα">οἴδατε</w>
-          <w lemma="πᾶς">⸀πάντες·</w>
+          <w lemma="πᾶς">πάντες·</w>
         </greek>
+        <note term="an anointing" kind="background" lemma="χρῖσμα" traditional="an unction">The Greek word is closely related to &#x27;Christ&#x27; (the anointed one) and so also to &#x27;antichrist&#x27;: the readers have an anointing where the opponents are anti-anointed. Most interpreters take the anointing to be the Holy Spirit given to believers. Some take it as the teaching they received at the beginning, or both together.</note>
+        <note term="you all know" kind="textual" lemma="" traditional="ye know all things">Many later manuscripts read &#x27;you know all things&#x27;, which the King James Version follows. The reading translated here, &#x27;you all know&#x27;, is found in important early manuscripts and is preferred by most modern editors. It fits the argument that knowledge belongs to every member of the community and not to a select few.</note>
       </verse>
       <verse num="21">
-        <text>I have not written to you because you do not know the truth, but because you do know it, and because no lie comes from the truth.</text>
+        <text>I have not written to you because you do not know the truth, but because you know it, and because no lie is from the truth.</text>
         <greek>
           <w lemma="οὐ">οὐκ</w>
           <w lemma="γράφω">ἔγραψα</w>
@@ -787,7 +808,7 @@
         </greek>
       </verse>
       <verse num="22">
-        <text>Who is the liar if not the one who denies that Jesus is the Christ? This is the antichrist: the one who denies the Father and the Son.</text>
+        <text>Who is the liar, if not the one who denies that Jesus is the Christ? This is the antichrist: the one who denies the Father and the Son.</text>
         <greek>
           <w lemma="τίς">τίς</w>
           <w lemma="εἰμί">ἐστιν</w>
@@ -817,7 +838,7 @@
         </greek>
       </verse>
       <verse num="23">
-        <text>No one who denies the Son has the Father; the one who acknowledges the Son has the Father as well.</text>
+        <text>Everyone who denies the Son does not have the Father either; the one who acknowledges the Son has the Father also.</text>
         <greek>
           <w lemma="πᾶς">πᾶς</w>
           <w lemma="ὁ">ὁ</w>
@@ -828,20 +849,20 @@
           <w lemma="ὁ">τὸν</w>
           <w lemma="πατήρ">πατέρα</w>
           <w lemma="ἔχω">ἔχει·</w>
-          <w lemma="ὁ">⸂ὁ</w>
+          <w lemma="ὁ">ὁ</w>
           <w lemma="ὁμολογέω">ὁμολογῶν</w>
           <w lemma="ὁ">τὸν</w>
           <w lemma="υἱός">υἱὸν</w>
           <w lemma="καί">καὶ</w>
           <w lemma="ὁ">τὸν</w>
           <w lemma="πατήρ">πατέρα</w>
-          <w lemma="ἔχω">ἔχει⸃.</w>
+          <w lemma="ἔχω">ἔχει.</w>
         </greek>
       </verse>
       <verse num="24">
-        <text><p/>As for you, let what you heard from the beginning remain in you. If what you heard from the beginning remains in you, you also will remain in the Son and in the Father.</text>
+        <text>As for you, let what you heard from the beginning remain in you. If what you heard from the beginning remains in you, you also will remain in the Son and in the Father.</text>
         <greek>
-          <w lemma="σύ">⸀ὑμεῖς</w>
+          <w lemma="σύ">ὑμεῖς</w>
           <w lemma="ὅς">ὃ</w>
           <w lemma="ἀκούω">ἠκούσατε</w>
           <w lemma="ἀπό">ἀπ’</w>
@@ -870,7 +891,7 @@
         </greek>
       </verse>
       <verse num="25">
-        <text>And this is the promise he himself made to us: eternal life.</text>
+        <text>And this is the promise that he himself promised us: eternal life.</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="οὗτος">αὕτη</w>
@@ -888,7 +909,7 @@
         </greek>
       </verse>
       <verse num="26">
-        <text>I have written these things to you about those who are trying to lead you astray.</text>
+        <text><p/>I have written these things to you about those who are trying to lead you astray.</text>
         <greek>
           <w lemma="οὗτος">Ταῦτα</w>
           <w lemma="γράφω">ἔγραψα</w>
@@ -900,7 +921,7 @@
         </greek>
       </verse>
       <verse num="27">
-        <text>As for you, the *chrism* you received from him remains in you, and you have no need for anyone to teach you. Instead, as his *chrism* teaches you about all things—and it is true and not a lie—and just as it has taught you, remain in him.</text>
+        <text>As for you, the anointing that you received from him remains in you, and you have no need for anyone to teach you. But as his anointing teaches you about all things, and is true and is no lie, and just as it has taught you, remain in him.</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="σύ">ὑμεῖς</w>
@@ -910,9 +931,9 @@
           <w lemma="λαμβάνω">ἐλάβετε</w>
           <w lemma="ἀπό">ἀπ’</w>
           <w lemma="αὐτός">αὐτοῦ</w>
-          <w lemma="μένω">⸂μένει</w>
+          <w lemma="μένω">μένει</w>
           <w lemma="ἐν">ἐν</w>
-          <w lemma="σύ">ὑμῖν⸃,</w>
+          <w lemma="σύ">ὑμῖν,</w>
           <w lemma="καί">καὶ</w>
           <w lemma="οὐ">οὐ</w>
           <w lemma="χρεία">χρείαν</w>
@@ -924,7 +945,7 @@
           <w lemma="ἀλλά">ἀλλ’</w>
           <w lemma="ὡς">ὡς</w>
           <w lemma="ὁ">τὸ</w>
-          <w lemma="αὐτός">⸀αὐτοῦ</w>
+          <w lemma="αὐτός">αὐτοῦ</w>
           <w lemma="χρῖσμα">χρῖσμα</w>
           <w lemma="διδάσκω">διδάσκει</w>
           <w lemma="σύ">ὑμᾶς</w>
@@ -941,13 +962,14 @@
           <w lemma="καθώς">καθὼς</w>
           <w lemma="διδάσκω">ἐδίδαξεν</w>
           <w lemma="σύ">ὑμᾶς,</w>
-          <w lemma="μένω">⸀μένετε</w>
+          <w lemma="μένω">μένετε</w>
           <w lemma="ἐν">ἐν</w>
           <w lemma="αὐτός">αὐτῷ.</w>
         </greek>
+        <note term="remain in him" kind="ambiguity" lemma="μένω" traditional="ye shall abide in him">The Greek verb form can be either a command (&#x27;remain&#x27;) or a statement (&#x27;you remain&#x27;), and the pronoun can mean &#x27;in him&#x27; or &#x27;in it&#x27;, that is, in the anointing or its teaching. The command reading is chosen because the next verse repeats the same words as an unmistakable command. The long sentence leading up to it can also be punctuated in more than one way.</note>
       </verse>
       <verse num="28">
-        <text><p/>And now, dear children, remain in him, so that if he is revealed, we may have confidence and not be put to shame before him at his *parousia*.</text>
+        <text><p/>And now, little children, remain in him, so that when he is revealed we may have confidence and not shrink from him in shame at his coming.</text>
         <greek>
           <w lemma="καί">Καὶ</w>
           <w lemma="νῦν">νῦν,</w>
@@ -956,9 +978,9 @@
           <w lemma="ἐν">ἐν</w>
           <w lemma="αὐτός">αὐτῷ,</w>
           <w lemma="ἵνα">ἵνα</w>
-          <w lemma="ἐάν">⸀ἐὰν</w>
+          <w lemma="ἐάν">ἐὰν</w>
           <w lemma="φανερόω">φανερωθῇ</w>
-          <w lemma="ἔχω">⸀σχῶμεν</w>
+          <w lemma="ἔχω">σχῶμεν</w>
           <w lemma="παρρησία">παρρησίαν</w>
           <w lemma="καί">καὶ</w>
           <w lemma="μή">μὴ</w>
@@ -970,10 +992,10 @@
           <w lemma="παρουσία">παρουσίᾳ</w>
           <w lemma="αὐτός">αὐτοῦ.</w>
         </greek>
-        <note term="Parousia">Retained as a loanword. In the first century, it denoted the official visit or arrival of a high-ranking official or king. Using &quot;presence&quot; or &quot;coming&quot; flattens the technical, royal weight the term carried for the original audience.</note>
+        <note term="coming" kind="background" lemma="παρουσία" traditional="coming">The word means arrival and the presence that follows. It was the regular term for the state visit of a king or high official, an occasion for which a city prepared itself. This is its only occurrence in the letters and Gospel of John.</note>
       </verse>
       <verse num="29">
-        <text>If you know that he is just, you realize that everyone who practices justice has been fathered by him.</text>
+        <text>If you know that he is righteous, you know that everyone who practices righteousness has been born of him.</text>
         <greek>
           <w lemma="ἐάν">ἐὰν</w>
           <w lemma="οἶδα">εἰδῆτε</w>
@@ -981,7 +1003,7 @@
           <w lemma="δίκαιος">δίκαιός</w>
           <w lemma="εἰμί">ἐστιν,</w>
           <w lemma="γινώσκω">γινώσκετε</w>
-          <w lemma="ὅτι">⸀ὅτι</w>
+          <w lemma="ὅτι">ὅτι</w>
           <w lemma="πᾶς">πᾶς</w>
           <w lemma="ὁ">ὁ</w>
           <w lemma="ποιέω">ποιῶν</w>
@@ -995,7 +1017,7 @@
     </chapter>
     <chapter num="3">
       <verse num="1">
-        <text><p/>See what an otherworldly kind of love the Father has given to us: that we should be called children of God—and we are! This is why the world-system does not recognize us: because it did not know him.</text>
+        <text><p/>See what kind of love the Father has given us: that we should be called children of God—and so we are. This is why the world does not know us: it did not know him.</text>
         <greek>
           <w lemma="ὁράω">ἴδετε</w>
           <w lemma="ποταπός">ποταπὴν</w>
@@ -1008,15 +1030,15 @@
           <w lemma="τέκνον">τέκνα</w>
           <w lemma="θεός">θεοῦ</w>
           <w lemma="καλέω">κληθῶμεν,</w>
-          <w lemma="καί">⸂καὶ</w>
-          <w lemma="εἰμί">ἐσμέν⸃.</w>
+          <w lemma="καί">καὶ</w>
+          <w lemma="εἰμί">ἐσμέν.</w>
           <w lemma="διά">διὰ</w>
           <w lemma="οὗτος">τοῦτο</w>
           <w lemma="ὁ">ὁ</w>
           <w lemma="κόσμος">κόσμος</w>
           <w lemma="οὐ">οὐ</w>
           <w lemma="γινώσκω">γινώσκει</w>
-          <w lemma="ἐγώ">⸀ἡμᾶς</w>
+          <w lemma="ἐγώ">ἡμᾶς</w>
           <w lemma="ὅτι">ὅτι</w>
           <w lemma="οὐ">οὐκ</w>
           <w lemma="γινώσκω">ἔγνω</w>
@@ -1024,7 +1046,7 @@
         </greek>
       </verse>
       <verse num="2">
-        <text>Beloved, we are God’s children now, and what we will be has not yet been fully revealed. We know that when it is revealed, we will be like him, because we will see him as he truly is.</text>
+        <text>Beloved, now we are children of God, and what we will be has not yet been revealed. We know that when he is revealed we will be like him, because we will see him as he is.</text>
         <greek>
           <w lemma="ἀγαπητός">ἀγαπητοί,</w>
           <w lemma="νῦν">νῦν</w>
@@ -1036,7 +1058,7 @@
           <w lemma="φανερόω">ἐφανερώθη</w>
           <w lemma="τίς">τί</w>
           <w lemma="εἰμί">ἐσόμεθα.</w>
-          <w lemma="οἶδα">⸀οἴδαμεν</w>
+          <w lemma="οἶδα">οἴδαμεν</w>
           <w lemma="ὅτι">ὅτι</w>
           <w lemma="ἐάν">ἐὰν</w>
           <w lemma="φανερόω">φανερωθῇ</w>
@@ -1049,9 +1071,10 @@
           <w lemma="καθώς">καθώς</w>
           <w lemma="εἰμί">ἐστιν.</w>
         </greek>
+        <note term="when he is revealed" kind="ambiguity" lemma="φανερόω" traditional="when he shall appear">The Greek verb has no expressed subject, so it can also be read &#x27;when it is revealed&#x27;, that is, when what we will be is made known. The rendering follows 2:28, where the same expression clearly refers to Christ&#x27;s coming, and most translations do likewise. The word translated &#x27;when&#x27; does not imply doubt about the event.</note>
       </verse>
       <verse num="3">
-        <text>And everyone who has this hope set on him purifies themselves, just as that one is pure.</text>
+        <text>And everyone who has this hope set on him purifies themselves, just as he is pure.</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="πᾶς">πᾶς</w>
@@ -1069,9 +1092,10 @@
           <w lemma="ἁγνός">ἁγνός</w>
           <w lemma="εἰμί">ἐστιν.</w>
         </greek>
+        <note term="just as he is pure" kind="background" lemma="ἐκεῖνος" traditional="even as he is pure">Here and in verses 5, 7 and 16 the Greek says &#x27;that one&#x27;, a pronoun this letter uses to point to Jesus without naming him. English &#x27;he&#x27; cannot show the distinction, but in each case the reference is to Christ.</note>
       </verse>
       <verse num="4">
-        <text><p/>Everyone who practices sin also practices lawlessness; indeed, sin is lawlessness.</text>
+        <text><p/>Everyone who practices sin also practices lawlessness, and sin is lawlessness.</text>
         <greek>
           <w lemma="πᾶς">Πᾶς</w>
           <w lemma="ὁ">ὁ</w>
@@ -1091,7 +1115,7 @@
         </greek>
       </verse>
       <verse num="5">
-        <text>You know that he was revealed in order to take away sins, and in him there is no sin.</text>
+        <text>And you know that he was revealed in order to take away sins, and in him there is no sin.</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="οἶδα">οἴδατε</w>
@@ -1100,7 +1124,7 @@
           <w lemma="φανερόω">ἐφανερώθη</w>
           <w lemma="ἵνα">ἵνα</w>
           <w lemma="ὁ">τὰς</w>
-          <w lemma="ἁμαρτία">⸀ἁμαρτίας</w>
+          <w lemma="ἁμαρτία">ἁμαρτίας</w>
           <w lemma="αἴρω">ἄρῃ,</w>
           <w lemma="καί">καὶ</w>
           <w lemma="ἁμαρτία">ἁμαρτία</w>
@@ -1111,7 +1135,7 @@
         </greek>
       </verse>
       <verse num="6">
-        <text>No one who remains in him persists in sin; no one who persists in sin has seen him or known him.</text>
+        <text>No one who remains in him sins; no one who sins has seen him or known him.</text>
         <greek>
           <w lemma="πᾶς">πᾶς</w>
           <w lemma="ὁ">ὁ</w>
@@ -1130,9 +1154,11 @@
           <w lemma="γινώσκω">ἔγνωκεν</w>
           <w lemma="αὐτός">αὐτόν.</w>
         </greek>
+        <note term="sins" kind="ambiguity" lemma="ἁμαρτάνω" traditional="sinneth not / does not keep on sinning">The Greek is a plain present tense, as in verse 9 (&#x27;cannot sin&#x27;). Many modern translations render &#x27;keeps on sinning&#x27; or &#x27;makes a practice of sinning&#x27;, taking the tense to describe a habit, which eases the tension with 1:8–2:1, where believers are said to sin. Whether the tense alone can carry that weight is disputed, so the text leaves the statement as stark as the Greek. &#x27;Practices sin&#x27; in verses 4, 8 and 9 renders a different expression, literally &#x27;does sin&#x27;, the counterpart of &#x27;does righteousness&#x27;.</note>
+        <note term="remains" kind="departure" lemma="μένω" traditional="abides">The traditional &#x27;abide&#x27; is now archaic. The Greek is the ordinary word for staying or remaining somewhere, and the letter uses it repeatedly (verses 6, 9, 14, 15, 17, 24). &#x27;Remains&#x27; is used throughout so that the repetition is visible.</note>
       </verse>
       <verse num="7">
-        <text>Little children, let no one deceive you: the one who practices justice is just, exactly as that one is just.</text>
+        <text>Little children, let no one deceive you. Whoever practices righteousness is righteous, just as he is righteous.</text>
         <greek>
           <w lemma="τεκνίον">τεκνία,</w>
           <w lemma="μηδείς">μηδεὶς</w>
@@ -1149,9 +1175,10 @@
           <w lemma="δίκαιος">δίκαιός</w>
           <w lemma="εἰμί">ἐστιν·</w>
         </greek>
+        <note term="righteousness" kind="background" lemma="δικαιοσύνη" traditional="righteousness">Greek has a single word-family where English has two: &#x27;righteous&#x27; and &#x27;just&#x27;, &#x27;righteousness&#x27; and &#x27;justice&#x27;. In this chapter the sense is doing what is right, and &#x27;righteous&#x27; in verses 7 and 12 is the matching adjective.</note>
       </verse>
       <verse num="8">
-        <text>The one who practices sin is of the devil, because the devil has been sinning from the beginning. The Son of God was revealed for this purpose: to undo the works of the devil.</text>
+        <text>Whoever practices sin is of the devil, because the devil has been sinning from the beginning. The Son of God was revealed for this: to destroy the works of the devil.</text>
         <greek>
           <w lemma="ὁ">ὁ</w>
           <w lemma="ποιέω">ποιῶν</w>
@@ -1183,7 +1210,7 @@
         </greek>
       </verse>
       <verse num="9">
-        <text>No one born of God practices sin, because God’s seed remains in them; they are not able to persist in sin because they have been born of God.</text>
+        <text>No one who has been born of God practices sin, because God&#x27;s seed remains in them; and they cannot sin, because they have been born of God.</text>
         <greek>
           <w lemma="πᾶς">πᾶς</w>
           <w lemma="ὁ">ὁ</w>
@@ -1210,9 +1237,10 @@
           <w lemma="θεός">θεοῦ</w>
           <w lemma="γεννάω">γεγέννηται.</w>
         </greek>
+        <note term="God&#x27;s seed remains in them" kind="ambiguity" lemma="σπέρμα" traditional="his seed remaineth in him">The Greek is literally &#x27;his seed remains in him&#x27;. Most interpreters take it as God&#x27;s seed remaining in the believer, an image of divine life implanted at birth from God, variously identified with the Spirit or the word. Since &#x27;seed&#x27; can also mean offspring, a minority read &#x27;God&#x27;s offspring remain in him&#x27;, that is, in God.</note>
       </verse>
       <verse num="10">
-        <text>This is how the children of God and the children of the devil are made evident: anyone who does not practice justice is not from God, nor is the one who does not love their brother or sister.</text>
+        <text>By this the children of God and the children of the devil are revealed: anyone who does not practice righteousness is not of God, nor is anyone who does not love their brother or sister.</text>
         <greek>
           <w lemma="ἐν">ἐν</w>
           <w lemma="οὗτος">τούτῳ</w>
@@ -1245,9 +1273,10 @@
           <w lemma="ἀδελφός">ἀδελφὸν</w>
           <w lemma="αὐτός">αὐτοῦ.</w>
         </greek>
+        <note term="their brother or sister" kind="departure" lemma="ἀδελφός" traditional="his brother">The Greek word is grammatically masculine but was the ordinary way of referring to fellow members of the community, women included. It is rendered &#x27;brother or sister&#x27;, and in the plural &#x27;brothers and sisters&#x27;, as several recent translations do. In verse 12 it is Cain&#x27;s literal brother Abel, and the Greek reader would hear the same word throughout.</note>
       </verse>
       <verse num="11">
-        <text><p/>For this is the message you have heard from the beginning: that we should love one another.</text>
+        <text><p/>For this is the message you heard from the beginning: that we should love one another,</text>
         <greek>
           <w lemma="ὅτι">Ὅτι</w>
           <w lemma="οὗτος">αὕτη</w>
@@ -1264,7 +1293,7 @@
         </greek>
       </verse>
       <verse num="12">
-        <text>We must not be like Cain, who was of the evil one and slaughtered his brother. And why did he slaughter him? Because his own deeds were evil and his brother’s were just.</text>
+        <text>not like Cain, who was of the evil one and slaughtered his brother. And why did he slaughter him? Because his own works were evil and his brother&#x27;s were righteous.</text>
         <greek>
           <w lemma="οὐ">οὐ</w>
           <w lemma="καθώς">καθὼς</w>
@@ -1296,13 +1325,14 @@
           <w lemma="αὐτός">αὐτοῦ</w>
           <w lemma="δίκαιος">δίκαια.</w>
         </greek>
+        <note term="slaughtered" kind="departure" lemma="σφάζω" traditional="slew / murdered">The verb is not the usual word for killing. It is used of butchering animals and of violent, bloody killing; outside this verse the New Testament uses it only in Revelation. Most translations have &#x27;murdered&#x27; or &#x27;killed&#x27;; &#x27;slaughtered&#x27; keeps the brutality of the word.</note>
       </verse>
       <verse num="13">
-        <text>Do not be surprised, brothers and sisters, if the world-system hates you.</text>
+        <text>Do not be surprised, brothers and sisters, if the world hates you.</text>
         <greek>
-          <w lemma="μή">⸀μὴ</w>
+          <w lemma="μή">μὴ</w>
           <w lemma="θαυμάζω">θαυμάζετε,</w>
-          <w lemma="ἀδελφός">⸀ἀδελφοί,</w>
+          <w lemma="ἀδελφός">ἀδελφοί,</w>
           <w lemma="εἰ">εἰ</w>
           <w lemma="μισέω">μισεῖ</w>
           <w lemma="σύ">ὑμᾶς</w>
@@ -1311,7 +1341,7 @@
         </greek>
       </verse>
       <verse num="14">
-        <text>We know that we have passed over from death into life because we love our brothers and sisters. The one who does not love remains in death.</text>
+        <text>We know that we have crossed over from death into life, because we love the brothers and sisters. Whoever does not love remains in death.</text>
         <greek>
           <w lemma="ἐγώ">ἡμεῖς</w>
           <w lemma="οἶδα">οἴδαμεν</w>
@@ -1329,7 +1359,7 @@
           <w lemma="ἀδελφός">ἀδελφούς·</w>
           <w lemma="ὁ">ὁ</w>
           <w lemma="μή">μὴ</w>
-          <w lemma="ἀγαπάω">⸀ἀγαπῶν</w>
+          <w lemma="ἀγαπάω">ἀγαπῶν</w>
           <w lemma="μένω">μένει</w>
           <w lemma="ἐν">ἐν</w>
           <w lemma="ὁ">τῷ</w>
@@ -1337,7 +1367,7 @@
         </greek>
       </verse>
       <verse num="15">
-        <text>Everyone who hates a brother or sister is a murderer, and you know that no murderer has eternal life remaining in them.</text>
+        <text>Everyone who hates their brother or sister is a murderer, and you know that no murderer has eternal life remaining in them.</text>
         <greek>
           <w lemma="πᾶς">πᾶς</w>
           <w lemma="ὁ">ὁ</w>
@@ -1357,12 +1387,13 @@
           <w lemma="ζωή">ζωὴν</w>
           <w lemma="αἰώνιος">αἰώνιον</w>
           <w lemma="ἐν">ἐν</w>
-          <w lemma="αὐτός">⸀αὐτῷ</w>
+          <w lemma="αὐτός">αὐτῷ</w>
           <w lemma="μένω">μένουσαν.</w>
         </greek>
+        <note term="eternal life" kind="background" lemma="αἰώνιος" traditional="eternal life">In Jewish usage &#x27;eternal life&#x27; is the life of the age to come, so the phrase speaks of a kind of life as well as its unending length. In this letter that life is something believers already have, as verse 14 says.</note>
       </verse>
       <verse num="16">
-        <text><p/>We have come to know love by this: that he laid down his life for us. We, too, are deeply obligated to lay down our lives for our brothers and sisters.</text>
+        <text>By this we have come to know love: he laid down his life for us. And we ought to lay down our lives for the brothers and sisters.</text>
         <greek>
           <w lemma="ἐν">ἐν</w>
           <w lemma="οὗτος">τούτῳ</w>
@@ -1385,11 +1416,11 @@
           <w lemma="ἀδελφός">ἀδελφῶν</w>
           <w lemma="ὁ">τὰς</w>
           <w lemma="ψυχή">ψυχὰς</w>
-          <w lemma="τίθημι">⸀θεῖναι.</w>
+          <w lemma="τίθημι">θεῖναι.</w>
         </greek>
       </verse>
       <verse num="17">
-        <text>If someone has the world’s means of subsistence and sees a brother or sister in need, yet closes off their inner heart from them, how does the love of God remain in that person?</text>
+        <text>But whoever has the world&#x27;s goods and sees their brother or sister in need, yet closes off compassion toward them—how does the love of God remain in such a person?</text>
         <greek>
           <w lemma="ὅς">ὃς</w>
           <w lemma="δέ">δ’</w>
@@ -1422,11 +1453,12 @@
           <w lemma="ἐν">ἐν</w>
           <w lemma="αὐτός">αὐτῷ;</w>
         </greek>
+        <note term="closes off compassion" kind="departure" lemma="σπλάγχνον" traditional="shutteth up his bowels of compassion / closes his heart">The Greek word means the inward parts, regarded as the seat of pity and tender feeling. Modern translations often say &#x27;heart&#x27;, but a different Greek word for &#x27;heart&#x27; follows in verses 19–21, so &#x27;compassion&#x27; is used here to keep the two apart.</note>
       </verse>
       <verse num="18">
-        <text>Little children, let us not love in word or with the tongue, but in work and in truth.</text>
+        <text><p/>Little children, let us not love with word or with tongue, but in deed and truth.</text>
         <greek>
-          <w lemma="τεκνίον">⸀Τεκνία,</w>
+          <w lemma="τεκνίον">Τεκνία,</w>
           <w lemma="μή">μὴ</w>
           <w lemma="ἀγαπάω">ἀγαπῶμεν</w>
           <w lemma="λόγος">λόγῳ</w>
@@ -1441,11 +1473,11 @@
         </greek>
       </verse>
       <verse num="19">
-        <text><p/>By this we will know that we are of the truth and will assure our hearts before him</text>
+        <text>By this we will know that we are of the truth, and in his presence we will set our hearts at rest</text>
         <greek>
-          <w lemma="ἐν">⸀ἐν</w>
+          <w lemma="ἐν">ἐν</w>
           <w lemma="οὗτος">τούτῳ</w>
-          <w lemma="γινώσκω">⸀γνωσόμεθα</w>
+          <w lemma="γινώσκω">γνωσόμεθα</w>
           <w lemma="ὅτι">ὅτι</w>
           <w lemma="ἐκ">ἐκ</w>
           <w lemma="ὁ">τῆς</w>
@@ -1455,13 +1487,14 @@
           <w lemma="ἔμπροσθεν">ἔμπροσθεν</w>
           <w lemma="αὐτός">αὐτοῦ</w>
           <w lemma="πείθω">πείσομεν</w>
-          <w lemma="ὁ">⸂τὴν</w>
-          <w lemma="καρδία">καρδίαν⸃</w>
+          <w lemma="ὁ">τὴν</w>
+          <w lemma="καρδία">καρδίαν</w>
           <w lemma="ἐγώ">ἡμῶν</w>
         </greek>
+        <note term="set our hearts at rest" kind="ambiguity" lemma="πείθω" traditional="shall assure our hearts">The grammar of verses 19–20 is among the most difficult in the letter. The verb normally means &#x27;persuade&#x27;, and the Greek of verse 20 has two connecting words that can each be read as &#x27;that&#x27;, &#x27;because&#x27; or, in the first case, &#x27;whenever&#x27;. The rendering follows the common view that God&#x27;s greater knowledge is a comfort to a self-accusing conscience. Others read &#x27;we will convince our hearts that God is greater&#x27;, and a few take God&#x27;s greatness as a warning, not a reassurance.</note>
       </verse>
       <verse num="20">
-        <text>whenever our heart condemns us; for God is greater than our heart and knows everything.</text>
+        <text>whenever our hearts condemn us; for God is greater than our hearts, and he knows everything.</text>
         <greek>
           <w lemma="ὅτι">ὅτι</w>
           <w lemma="ἐάν">ἐὰν</w>
@@ -1483,15 +1516,15 @@
         </greek>
       </verse>
       <verse num="21">
-        <text>Beloved, if our heart does not condemn us, we have fearless confidence before God;</text>
+        <text>Beloved, if our hearts do not condemn us, we have confidence before God,</text>
         <greek>
           <w lemma="ἀγαπητός">ἀγαπητοί,</w>
           <w lemma="ἐάν">ἐὰν</w>
           <w lemma="ὁ">ἡ</w>
           <w lemma="καρδία">καρδία</w>
-          <w lemma="μή">⸂μὴ</w>
+          <w lemma="μή">μὴ</w>
           <w lemma="καταγινώσκω">καταγινώσκῃ</w>
-          <w lemma="ἐγώ">ἡμῶν⸃,</w>
+          <w lemma="ἐγώ">ἡμῶν,</w>
           <w lemma="παρρησία">παρρησίαν</w>
           <w lemma="ἔχω">ἔχομεν</w>
           <w lemma="πρός">πρὸς</w>
@@ -1504,10 +1537,10 @@
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="ὅς">ὃ</w>
-          <w lemma="ἐάν">⸀ἐὰν</w>
+          <w lemma="ἐάν">ἐὰν</w>
           <w lemma="αἰτέω">αἰτῶμεν</w>
           <w lemma="λαμβάνω">λαμβάνομεν</w>
-          <w lemma="ἀπό">⸀ἀπ’</w>
+          <w lemma="ἀπό">ἀπ’</w>
           <w lemma="αὐτός">αὐτοῦ,</w>
           <w lemma="ὅτι">ὅτι</w>
           <w lemma="ὁ">τὰς</w>
@@ -1523,7 +1556,7 @@
         </greek>
       </verse>
       <verse num="23">
-        <text>And this is his commandment: that we should place our trust in the name of his Son, Jesus Christ, and love one another, just as he gave us the commandment.</text>
+        <text>And this is his commandment: that we believe in the name of his Son Jesus Christ and love one another, just as he commanded us.</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="οὗτος">αὕτη</w>
@@ -1532,7 +1565,7 @@
           <w lemma="ἐντολή">ἐντολὴ</w>
           <w lemma="αὐτός">αὐτοῦ,</w>
           <w lemma="ἵνα">ἵνα</w>
-          <w lemma="πιστεύω">⸀πιστεύσωμεν</w>
+          <w lemma="πιστεύω">πιστεύσωμεν</w>
           <w lemma="ὁ">τῷ</w>
           <w lemma="ὄνομα">ὀνόματι</w>
           <w lemma="ὁ">τοῦ</w>
@@ -1546,11 +1579,11 @@
           <w lemma="καθώς">καθὼς</w>
           <w lemma="δίδωμι">ἔδωκεν</w>
           <w lemma="ἐντολή">ἐντολὴν</w>
-          <w lemma="ἐγώ">⸀ἡμῖν.</w>
+          <w lemma="ἐγώ">ἡμῖν.</w>
         </greek>
       </verse>
       <verse num="24">
-        <text>The one who keeps his commandments remains in God, and God in them. And by this we know that he remains in us: by the Spirit whom he gave to us.</text>
+        <text>And whoever keeps his commandments remains in him, and he in that person. And by this we know that he remains in us: by the Spirit he gave us.</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="ὁ">ὁ</w>
@@ -1584,7 +1617,7 @@
     </chapter>
     <chapter num="4">
       <verse num="1">
-        <text><p/>Dearly loved friends, do not trust every spirit. Instead, test these spirits to see if they are from God, because many false prophets have gone out into the world.</text>
+        <text><p/>Beloved, do not believe every spirit, but test the spirits to see whether they are from God, because many false prophets have gone out into the world.</text>
         <greek>
           <w lemma="ἀγαπητός">Ἀγαπητοί,</w>
           <w lemma="μή">μὴ</w>
@@ -1610,11 +1643,11 @@
         </greek>
       </verse>
       <verse num="2">
-        <text>This is how you can recognize the Spirit of God: every spirit that confesses Jesus Christ as having come in the flesh is from God,</text>
+        <text>By this you know the Spirit of God: every spirit that acknowledges Jesus Christ as having come in the flesh is from God,</text>
         <greek>
           <w lemma="ἐν">ἐν</w>
           <w lemma="οὗτος">τούτῳ</w>
-          <w lemma="γινώσκω">⸀γινώσκετε</w>
+          <w lemma="γινώσκω">γινώσκετε</w>
           <w lemma="ὁ">τὸ</w>
           <w lemma="πνεῦμα">πνεῦμα</w>
           <w lemma="ὁ">τοῦ</w>
@@ -1633,9 +1666,11 @@
           <w lemma="θεός">θεοῦ</w>
           <w lemma="εἰμί">ἐστιν,</w>
         </greek>
+        <note term="acknowledges" kind="departure" lemma="ὁμολογέω" traditional="confesses">The Greek verb means to declare openly or agree publicly to something. ‘Confess’ is the traditional rendering, but in modern English it mainly suggests admitting wrongdoing, which is not the sense here. Several modern translations also use ‘acknowledge’.</note>
+        <note term="Jesus Christ as having come in the flesh" kind="ambiguity" lemma="" traditional="that Jesus Christ is come in the flesh">The Greek can be construed in three ways: acknowledging ‘Jesus Christ, come in the flesh’ (the person so described), acknowledging ‘that Jesus Christ has come in the flesh’ (the fact), or acknowledging ‘Jesus as the Christ come in the flesh’. The rendering here follows the first, which stays closest to the grammar. All three are aimed at teachers who denied that the Son of God was a real human being. The verb ‘you know’ could also be read as a command, ‘know’.</note>
       </verse>
       <verse num="3">
-        <text>and every spirit that does not confess this Jesus is not from God. This is the spirit of the antichrist, which you heard was coming and is already here in the world.</text>
+        <text>and every spirit that does not acknowledge Jesus is not from God. This is the spirit of the antichrist, which you have heard is coming, and now it is already in the world.</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="πᾶς">πᾶν</w>
@@ -1643,8 +1678,8 @@
           <w lemma="ὅς">ὃ</w>
           <w lemma="μή">μὴ</w>
           <w lemma="ὁμολογέω">ὁμολογεῖ</w>
-          <w lemma="ὁ">⸀τὸν</w>
-          <w lemma="Ἰησοῦς">⸀Ἰησοῦν</w>
+          <w lemma="ὁ">τὸν</w>
+          <w lemma="Ἰησοῦς">Ἰησοῦν</w>
           <w lemma="ἐκ">ἐκ</w>
           <w lemma="ὁ">τοῦ</w>
           <w lemma="θεός">θεοῦ</w>
@@ -1668,9 +1703,10 @@
           <w lemma="εἰμί">ἐστὶν</w>
           <w lemma="ἤδη">ἤδη.</w>
         </greek>
+        <note term="does not acknowledge Jesus" kind="textual" lemma="" traditional="confesseth not that Jesus Christ is come in the flesh">Many later manuscripts expand this to match verse 2 (‘does not confess that Jesus Christ has come in the flesh’), which is the reading behind the King James Version. A few ancient witnesses, mostly Latin and patristic, read ‘annuls Jesus’ or ‘separates Jesus’ instead of ‘does not acknowledge’. Most editors judge the short reading translated here to be original.</note>
       </verse>
       <verse num="4">
-        <text><p/>You are from God, little children, and you have overcome these people, because the one who is in you is greater than the one who is in the world.</text>
+        <text>You are from God, little children, and you have overcome them, because the one who is in you is greater than the one who is in the world.</text>
         <greek>
           <w lemma="σύ">ὑμεῖς</w>
           <w lemma="ἐκ">ἐκ</w>
@@ -1695,7 +1731,7 @@
         </greek>
       </verse>
       <verse num="5">
-        <text>They are from the world; that is why they speak from the world’s perspective, and the world listens to them.</text>
+        <text>They are from the world; that is why they speak from the world, and the world listens to them.</text>
         <greek>
           <w lemma="αὐτός">αὐτοὶ</w>
           <w lemma="ἐκ">ἐκ</w>
@@ -1716,7 +1752,7 @@
         </greek>
       </verse>
       <verse num="6">
-        <text>We are from God. The person who knows God listens to us; the person who is not from God does not listen to us. From this, we recognize the spirit of truth and the spirit of deception.</text>
+        <text>We are from God. Whoever knows God listens to us; whoever is not from God does not listen to us. From this we know the Spirit of truth and the spirit of error.</text>
         <greek>
           <w lemma="ἐγώ">ἡμεῖς</w>
           <w lemma="ἐκ">ἐκ</w>
@@ -1751,9 +1787,10 @@
           <w lemma="ὁ">τῆς</w>
           <w lemma="πλάνη">πλάνης.</w>
         </greek>
+        <note term="the Spirit of truth and the spirit of error" kind="ambiguity" lemma="πνεῦμα" traditional="the spirit of truth, and the spirit of error">Greek manuscripts do not distinguish capital from lower-case letters, so whether ‘Spirit of truth’ means the Holy Spirit (as in John 14:17) or more generally a spirit that inspires true teaching is an interpreter&#x27;s decision. The capital here follows verse 2, where the Spirit of God is the standard for the test. The word rendered ‘error’ can also mean ‘deception’, a going or leading astray.</note>
       </verse>
       <verse num="7">
-        <text><p/>Dearly loved friends, let us love one another, because love is from God, and everyone who loves has been born of God and knows God.</text>
+        <text><p/>Beloved, let us love one another, because love is from God, and everyone who loves has been born of God and knows God.</text>
         <greek>
           <w lemma="ἀγαπητός">Ἀγαπητοί,</w>
           <w lemma="ἀγαπάω">ἀγαπῶμεν</w>
@@ -1780,7 +1817,7 @@
         </greek>
       </verse>
       <verse num="8">
-        <text>The one who does not love has not known God, because God is love.</text>
+        <text>Whoever does not love has not come to know God, because God is love.</text>
         <greek>
           <w lemma="ὁ">ὁ</w>
           <w lemma="μή">μὴ</w>
@@ -1797,7 +1834,7 @@
         </greek>
       </verse>
       <verse num="9">
-        <text>This is how God’s love was revealed among us: God sent his unique Son into the world so that we might live through him.</text>
+        <text>In this the love of God was revealed among us: that God has sent his one and only Son into the world so that we might live through him.</text>
         <greek>
           <w lemma="ἐν">ἐν</w>
           <w lemma="οὗτος">τούτῳ</w>
@@ -1825,9 +1862,11 @@
           <w lemma="διά">δι’</w>
           <w lemma="αὐτός">αὐτοῦ.</w>
         </greek>
+        <note term="one and only" kind="departure" lemma="μονογενής" traditional="only begotten">The word describes someone who is the only one of a kind, and was the ordinary term for an only child. Its second element is related to ‘kind’ rather than ‘beget’, so ‘one and only’ is now the usual rendering. A minority of scholars have recently defended ‘only begotten’.</note>
+        <note term="among us" kind="ambiguity" lemma="" traditional="toward us">The Greek phrase is literally ‘in us’, and can mean ‘among us’, ‘within us’ or ‘in our case’. The same phrase occurs in verse 16, where it is rendered ‘for us’ because the love is something God ‘has’. In verse 12 it is rendered ‘in us’ because it follows the verb ‘remains’.</note>
       </verse>
       <verse num="10">
-        <text>Love consists in this: not that we loved God, but that he loved us and sent his Son to be the atoning sacrifice for our sins.</text>
+        <text>In this is love: not that we have loved God, but that he loved us and sent his Son as the atoning sacrifice for our sins.</text>
         <greek>
           <w lemma="ἐν">ἐν</w>
           <w lemma="οὗτος">τούτῳ</w>
@@ -1837,7 +1876,7 @@
           <w lemma="οὐ">οὐχ</w>
           <w lemma="ὅτι">ὅτι</w>
           <w lemma="ἐγώ">ἡμεῖς</w>
-          <w lemma="ἀγαπάω">⸀ἠγαπήκαμεν</w>
+          <w lemma="ἀγαπάω">ἠγαπήκαμεν</w>
           <w lemma="ὁ">τὸν</w>
           <w lemma="θεός">θεόν,</w>
           <w lemma="ἀλλά">ἀλλ’</w>
@@ -1856,9 +1895,10 @@
           <w lemma="ἁμαρτία">ἁμαρτιῶν</w>
           <w lemma="ἐγώ">ἡμῶν.</w>
         </greek>
+        <note term="atoning sacrifice" kind="departure" lemma="ἱλασμός" traditional="propitiation">In the Greek Old Testament this word and its relatives are used for atonement and for offerings that deal with sin. The traditional ‘propitiation’ stresses the turning away of divine wrath, while others prefer ‘expiation’, the removal of sin. The dispute is long-running, and ‘atoning sacrifice’ leaves room for both senses in plain English.</note>
       </verse>
       <verse num="11">
-        <text><p/>Dearly loved friends, if God loved us in this way, we also ought to love one another.</text>
+        <text>Beloved, if God loved us in this way, we also ought to love one another.</text>
         <greek>
           <w lemma="ἀγαπητός">ἀγαπητοί,</w>
           <w lemma="εἰ">εἰ</w>
@@ -1875,7 +1915,7 @@
         </greek>
       </verse>
       <verse num="12">
-        <text>No one has ever seen God; yet if we love one another, God dwells in us and his love reaches its intended goal in us.</text>
+        <text>No one has ever seen God. If we love one another, God remains in us, and his love has been perfected in us.</text>
         <greek>
           <w lemma="θεός">θεὸν</w>
           <w lemma="οὐδείς">οὐδεὶς</w>
@@ -1893,14 +1933,16 @@
           <w lemma="ὁ">ἡ</w>
           <w lemma="ἀγάπη">ἀγάπη</w>
           <w lemma="αὐτός">αὐτοῦ</w>
-          <w lemma="ἐν">⸂ἐν</w>
+          <w lemma="ἐν">ἐν</w>
           <w lemma="ἐγώ">ἡμῖν</w>
           <w lemma="τελειόω">τετελειωμένη</w>
-          <w lemma="εἰμί">ἐστιν⸃.</w>
+          <w lemma="εἰμί">ἐστιν.</w>
         </greek>
+        <note term="remains" kind="departure" lemma="μένω" traditional="abides (KJV: dwelleth)">This is the everyday Greek verb for staying or remaining somewhere, and a favourite of this author for a lasting relationship with God. ‘Abide’ is the traditional rendering but is now archaic. ‘Remain’ is used for it throughout the chapter so that the repetition stays visible.</note>
+        <note term="his love has been perfected in us" kind="ambiguity" lemma="τελειόω" traditional="his love is perfected in us">‘His love’ may mean God&#x27;s love for us, our love for God, or the kind of love that is God&#x27;s; most interpreters take it as God&#x27;s love reaching its intended goal when believers love one another. ‘Perfected’ here means brought to its full end or completion. It does not mean made flawless.</note>
       </verse>
       <verse num="13">
-        <text>We know that we dwell in him and he in us by this: he has shared his own Spirit with us.</text>
+        <text><p/>By this we know that we remain in him and he in us: that he has given us of his Spirit.</text>
         <greek>
           <w lemma="ἐν">Ἐν</w>
           <w lemma="οὗτος">τούτῳ</w>
@@ -1923,7 +1965,7 @@
         </greek>
       </verse>
       <verse num="14">
-        <text>And we have seen and we testify that the Father has sent the Son to be the Savior of the world.</text>
+        <text>And we have seen and testify that the Father has sent the Son as Savior of the world.</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="ἐγώ">ἡμεῖς</w>
@@ -1942,13 +1984,13 @@
         </greek>
       </verse>
       <verse num="15">
-        <text>Whoever confesses that Jesus is the Son of God, God dwells in him and he dwells in God.</text>
+        <text>Whoever acknowledges that Jesus is the Son of God, God remains in them and they in God.</text>
         <greek>
           <w lemma="ὅς">ὃς</w>
-          <w lemma="ἐάν">⸀ἐὰν</w>
+          <w lemma="ἐάν">ἐὰν</w>
           <w lemma="ὁμολογέω">ὁμολογήσῃ</w>
           <w lemma="ὅτι">ὅτι</w>
-          <w lemma="Ἰησοῦς">⸀Ἰησοῦς</w>
+          <w lemma="Ἰησοῦς">Ἰησοῦς</w>
           <w lemma="εἰμί">ἐστιν</w>
           <w lemma="ὁ">ὁ</w>
           <w lemma="υἱός">υἱὸς</w>
@@ -1967,7 +2009,7 @@
         </greek>
       </verse>
       <verse num="16">
-        <text>We have come to know and to believe the love that God has for us. God is love, and the one who dwells in love dwells in God, and God dwells in him.</text>
+        <text>And we have come to know and have believed the love that God has for us. God is love, and whoever remains in love remains in God, and God remains in them.</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="ἐγώ">ἡμεῖς</w>
@@ -2001,11 +2043,11 @@
           <w lemma="θεός">θεὸς</w>
           <w lemma="ἐν">ἐν</w>
           <w lemma="αὐτός">αὐτῷ</w>
-          <w lemma="μένω">⸀μένει.</w>
+          <w lemma="μένω">μένει.</w>
         </greek>
       </verse>
       <verse num="17">
-        <text>In this way, love reaches its goal among us, so that we may have unreserved confidence on the day of judgment, because just as he is, so also are we in this world.</text>
+        <text>In this love has been perfected with us, so that we may have confidence on the day of judgment: because just as he is, so also are we in this world.</text>
         <greek>
           <w lemma="ἐν">ἐν</w>
           <w lemma="οὗτος">τούτῳ</w>
@@ -2034,9 +2076,10 @@
           <w lemma="κόσμος">κόσμῳ</w>
           <w lemma="οὗτος">τούτῳ.</w>
         </greek>
+        <note term="In this" kind="ambiguity" lemma="" traditional="Herein">‘In this’ may point back to the mutual remaining of verse 16 or forward to the confidence and likeness described in the rest of the verse; the translation leaves both open. ‘He’ in ‘just as he is’ translates a pronoun (‘that one’) which this letter regularly uses for Jesus.</note>
       </verse>
       <verse num="18">
-        <text>Fear does not exist in love. On the contrary, love that has reached its goal drives out fear, because fear carries its own punishment. The one who is afraid has not reached the goal of love.</text>
+        <text>There is no fear in love; rather, perfect love drives out fear, because fear has to do with punishment, and the one who fears has not been perfected in love.</text>
         <greek>
           <w lemma="φόβος">φόβος</w>
           <w lemma="οὐ">οὐκ</w>
@@ -2071,16 +2114,17 @@
         <text>We love because he first loved us.</text>
         <greek>
           <w lemma="ἐγώ">ἡμεῖς</w>
-          <w lemma="ἀγαπάω">⸀ἀγαπῶμεν,</w>
+          <w lemma="ἀγαπάω">ἀγαπῶμεν,</w>
           <w lemma="ὅτι">ὅτι</w>
           <w lemma="αὐτός">αὐτὸς</w>
           <w lemma="πρῶτος">πρῶτος</w>
           <w lemma="ἀγαπάω">ἠγάπησεν</w>
           <w lemma="ἐγώ">ἡμᾶς.</w>
         </greek>
+        <note term="We love" kind="textual" lemma="ἀγαπάω" traditional="We love him">Many later manuscripts add an object, ‘him’ or ‘God’, and the King James Version follows them. The earliest witnesses have no object, which leaves the statement general. The verb form could also be read as an exhortation, ‘let us love’.</note>
       </verse>
       <verse num="20">
-        <text>If someone says, <q who="Anyone">“I love God,”</q> and yet hates his brother, he is a liar. For the person who does not love his brother, whom he has seen, cannot love God, whom he has not seen.</text>
+        <text>If anyone says,<q who="other"> “I love God,”</q> and hates their brother or sister, that person is a liar; for whoever does not love their brother or sister, whom they have seen, cannot love God, whom they have not seen.</text>
         <greek>
           <w lemma="ἐάν">ἐάν</w>
           <w lemma="τις">τις</w>
@@ -2110,13 +2154,14 @@
           <w lemma="ὅς">ὃν</w>
           <w lemma="οὐ">οὐχ</w>
           <w lemma="ὁράω">ἑώρακεν</w>
-          <w lemma="οὐ">⸀οὐ</w>
+          <w lemma="οὐ">οὐ</w>
           <w lemma="δύναμαι">δύναται</w>
           <w lemma="ἀγαπάω">ἀγαπᾶν.</w>
         </greek>
+        <note term="brother or sister" kind="departure" lemma="ἀδελφός" traditional="brother">The Greek word is the masculine ‘brother’, but in early Christian usage it regularly meant a fellow member of the community, man or woman. ‘Brother or sister’ conveys that range; several modern translations do the same. Some manuscripts make the last clause a question: ‘how can he love God, whom he has not seen?’</note>
       </verse>
       <verse num="21">
-        <text>And we have this commandment from him: the one who loves God must love his brother as well.</text>
+        <text>And this command we have from him: that whoever loves God must also love their brother or sister.</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="οὗτος">ταύτην</w>
@@ -2140,7 +2185,7 @@
     </chapter>
     <chapter num="5">
       <verse num="1">
-        <text><p/>Everyone who believes that Jesus is the Christ has been fathered by God, and everyone who loves the Father loves the one fathered by him.</text>
+        <text><p/>Everyone who believes that Jesus is the Christ has been born of God, and everyone who loves the father loves also the one born of him.</text>
         <greek>
           <w lemma="πᾶς">Πᾶς</w>
           <w lemma="ὁ">ὁ</w>
@@ -2161,7 +2206,7 @@
           <w lemma="ὁ">τὸν</w>
           <w lemma="γεννάω">γεννήσαντα</w>
           <w lemma="ἀγαπάω">ἀγαπᾷ</w>
-          <w lemma="καί">⸀καὶ</w>
+          <w lemma="καί">καὶ</w>
           <w lemma="ὁ">τὸν</w>
           <w lemma="γεννάω">γεγεννημένον</w>
           <w lemma="ἐκ">ἐξ</w>
@@ -2169,7 +2214,7 @@
         </greek>
       </verse>
       <verse num="2">
-        <text>By this we know that we love the children of God: whenever we love God and carry out his commandments.</text>
+        <text>By this we know that we love the children of God: when we love God and carry out his commandments.</text>
         <greek>
           <w lemma="ἐν">ἐν</w>
           <w lemma="οὗτος">τούτῳ</w>
@@ -2188,11 +2233,11 @@
           <w lemma="ὁ">τὰς</w>
           <w lemma="ἐντολή">ἐντολὰς</w>
           <w lemma="αὐτός">αὐτοῦ</w>
-          <w lemma="ποιέω">⸀ποιῶμεν·</w>
+          <w lemma="ποιέω">ποιῶμεν·</w>
         </greek>
       </verse>
       <verse num="3">
-        <text>For this is the love of God: that we keep his commandments. And his commandments are not a heavy burden,</text>
+        <text>For this is love for God: that we keep his commandments. And his commandments are not burdensome,</text>
         <greek>
           <w lemma="οὗτος">αὕτη</w>
           <w lemma="γάρ">γάρ</w>
@@ -2214,9 +2259,10 @@
           <w lemma="οὐ">οὐκ</w>
           <w lemma="εἰμί">εἰσίν,</w>
         </greek>
+        <note term="love for God" kind="ambiguity" lemma="ἀγάπη" traditional="the love of God">The Greek is literally ‘the love of God’, which could mean either God’s love for us or our love for God. The definition that follows, keeping his commandments, shows that love directed toward God is meant here, and most modern translations agree.</note>
       </verse>
       <verse num="4">
-        <text>because everything fathered by God conquers the world. And this is the victory that has conquered the world: our faith.</text>
+        <text>because everything born of God conquers the world. And this is the victory that has conquered the world: our faith.</text>
         <greek>
           <w lemma="ὅτι">ὅτι</w>
           <w lemma="πᾶς">πᾶν</w>
@@ -2243,11 +2289,11 @@
         </greek>
       </verse>
       <verse num="5">
-        <text>Who is the one conquering the world if not the one who believes that Jesus is the Son of God?</text>
+        <text>And who is it that conquers the world, if not the one who believes that Jesus is the Son of God?</text>
         <greek>
           <w lemma="τίς">τίς</w>
-          <w lemma="δέ">⸂δέ</w>
-          <w lemma="εἰμί">ἐστιν⸃</w>
+          <w lemma="δέ">δέ</w>
+          <w lemma="εἰμί">ἐστιν</w>
           <w lemma="ὁ">ὁ</w>
           <w lemma="νικάω">νικῶν</w>
           <w lemma="ὁ">τὸν</w>
@@ -2266,7 +2312,7 @@
         </greek>
       </verse>
       <verse num="6">
-        <text><p/>This is the one who came through water and blood—Jesus Christ. Not by the water only, but by the water and by the blood. And the Spirit is the one who bears witness, because the Spirit is the truth.</text>
+        <text><p/>This is the one who came through water and blood, Jesus Christ: not with the water only, but with the water and with the blood. And the Spirit is the one who testifies, because the Spirit is the truth.</text>
         <greek>
           <w lemma="οὗτος">Οὗτός</w>
           <w lemma="εἰμί">ἐστιν</w>
@@ -2288,7 +2334,7 @@
           <w lemma="ὁ">τῷ</w>
           <w lemma="ὕδωρ">ὕδατι</w>
           <w lemma="καί">καὶ</w>
-          <w lemma="ἐν">⸀ἐν</w>
+          <w lemma="ἐν">ἐν</w>
           <w lemma="ὁ">τῷ</w>
           <w lemma="αἷμα">αἵματι·</w>
           <w lemma="καί">καὶ</w>
@@ -2304,9 +2350,10 @@
           <w lemma="ὁ">ἡ</w>
           <w lemma="ἀλήθεια">ἀλήθεια.</w>
         </greek>
+        <note term="through water and blood" kind="background" lemma="" traditional="by water and blood">The first readers evidently knew what this referred to; modern readers must infer it. The most widely held view is that the water is Jesus’ baptism and the blood his death, and that ‘not with the water only’ answers people who accepted the first but denied the significance of the second. Other proposals include the water and blood that flowed from Jesus’ side at the crucifixion (John 19:34), or baptism and the Lord’s Supper. The matter is disputed.</note>
       </verse>
       <verse num="7">
-        <text>For there are three who bear witness:</text>
+        <text>For there are three that testify:</text>
         <greek>
           <w lemma="ὅτι">ὅτι</w>
           <w lemma="τρεῖς">τρεῖς</w>
@@ -2314,9 +2361,10 @@
           <w lemma="ὁ">οἱ</w>
           <w lemma="μαρτυρέω">μαρτυροῦντες,</w>
         </greek>
+        <note term="For there are three that testify:" kind="textual" lemma="" traditional="For there are three that bear record in heaven, the Father, the Word, and the Holy Ghost: and these three are one. And there are three that bear witness in earth">The King James Version has a longer text here naming the Father, the Word and the Holy Spirit as three witnesses in heaven. These words are absent from every early Greek manuscript and from the early translations. They appear in the Latin tradition and in only a handful of very late Greek manuscripts. Scholars are virtually unanimous that they are not original, and the SBLGNT omits them.</note>
       </verse>
       <verse num="8">
-        <text>the Spirit, the water, and the blood; and these three are in agreement.</text>
+        <text>the Spirit and the water and the blood, and the three are in agreement.</text>
         <greek>
           <w lemma="ὁ">τὸ</w>
           <w lemma="πνεῦμα">πνεῦμα</w>
@@ -2336,7 +2384,7 @@
         </greek>
       </verse>
       <verse num="9">
-        <text>If we accept human witness, the witness of God is greater, because this is the witness of God: that he has witnessed concerning his Son.</text>
+        <text>If we accept the testimony of people, the testimony of God is greater, for this is the testimony of God: that he has testified about his Son.</text>
         <greek>
           <w lemma="εἰ">εἰ</w>
           <w lemma="ὁ">τὴν</w>
@@ -2357,7 +2405,7 @@
           <w lemma="μαρτυρία">μαρτυρία</w>
           <w lemma="ὁ">τοῦ</w>
           <w lemma="θεός">θεοῦ</w>
-          <w lemma="ὅτι">⸀ὅτι</w>
+          <w lemma="ὅτι">ὅτι</w>
           <w lemma="μαρτυρέω">μεμαρτύρηκεν</w>
           <w lemma="περί">περὶ</w>
           <w lemma="ὁ">τοῦ</w>
@@ -2366,7 +2414,7 @@
         </greek>
       </verse>
       <verse num="10">
-        <text>The one believing in the Son of God has the witness within himself. The one who does not believe God has made him out to be a liar, because he has not believed in the witness that God has witnessed concerning his Son.</text>
+        <text>Whoever believes in the Son of God has the testimony within himself. Whoever does not believe God has made him a liar, because he has not believed in the testimony that God has borne about his Son.</text>
         <greek>
           <w lemma="ὁ">ὁ</w>
           <w lemma="πιστεύω">πιστεύων</w>
@@ -2379,7 +2427,7 @@
           <w lemma="ὁ">τὴν</w>
           <w lemma="μαρτυρία">μαρτυρίαν</w>
           <w lemma="ἐν">ἐν</w>
-          <w lemma="ἑαυτοῦ">⸀αὑτῷ·</w>
+          <w lemma="ἑαυτοῦ">αὑτῷ·</w>
           <w lemma="ὁ">ὁ</w>
           <w lemma="μή">μὴ</w>
           <w lemma="πιστεύω">πιστεύων</w>
@@ -2405,7 +2453,7 @@
         </greek>
       </verse>
       <verse num="11">
-        <text>And this is the witness: that God gave us eternal life, and this life is in his Son.</text>
+        <text>And this is the testimony: that God gave us eternal life, and this life is in his Son.</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="οὗτος">αὕτη</w>
@@ -2416,9 +2464,9 @@
           <w lemma="ζωή">ζωὴν</w>
           <w lemma="αἰώνιος">αἰώνιον</w>
           <w lemma="δίδωμι">ἔδωκεν</w>
-          <w lemma="ὁ">⸂ὁ</w>
+          <w lemma="ὁ">ὁ</w>
           <w lemma="θεός">θεὸς</w>
-          <w lemma="ἐγώ">ἡμῖν⸃,</w>
+          <w lemma="ἐγώ">ἡμῖν,</w>
           <w lemma="καί">καὶ</w>
           <w lemma="οὗτος">αὕτη</w>
           <w lemma="ὁ">ἡ</w>
@@ -2429,9 +2477,10 @@
           <w lemma="αὐτός">αὐτοῦ</w>
           <w lemma="εἰμί">ἐστιν.</w>
         </greek>
+        <note term="eternal life" kind="background" lemma="αἰώνιος" traditional="eternal life, everlasting life">In Jewish usage of the period, ‘eternal life’ is the life of the age to come, so the phrase describes a kind of life as well as its unending length. In this letter that life is already possessed by those who have the Son. ‘Eternal’ is the standard rendering; a minority of translators prefer ‘life of the age to come’.</note>
       </verse>
       <verse num="12">
-        <text>The one who has the Son has the life; the one who does not have the Son of God does not have the life.</text>
+        <text>Whoever has the Son has life; whoever does not have the Son of God does not have life.</text>
         <greek>
           <w lemma="ὁ">ὁ</w>
           <w lemma="ἔχω">ἔχων</w>
@@ -2454,19 +2503,19 @@
         </greek>
       </verse>
       <verse num="13">
-        <text><p/>I have written these things to you—to those who believe in the name of the Son of God—so that you may know that you have eternal life.</text>
+        <text><p/>I have written these things to you so that you may know that you have eternal life, you who believe in the name of the Son of God.</text>
         <greek>
           <w lemma="οὗτος">Ταῦτα</w>
           <w lemma="γράφω">ἔγραψα</w>
-          <w lemma="σύ">⸀ὑμῖν</w>
+          <w lemma="σύ">ὑμῖν</w>
           <w lemma="ἵνα">ἵνα</w>
           <w lemma="οἶδα">εἰδῆτε</w>
           <w lemma="ὅτι">ὅτι</w>
           <w lemma="ζωή">ζωὴν</w>
-          <w lemma="ἔχω">⸂ἔχετε</w>
-          <w lemma="αἰώνιος">αἰώνιον⸃,</w>
-          <w lemma="ὁ">⸂τοῖς</w>
-          <w lemma="πιστεύω">πιστεύουσιν⸃</w>
+          <w lemma="ἔχω">ἔχετε</w>
+          <w lemma="αἰώνιος">αἰώνιον,</w>
+          <w lemma="ὁ">τοῖς</w>
+          <w lemma="πιστεύω">πιστεύουσιν</w>
           <w lemma="εἰς">εἰς</w>
           <w lemma="ὁ">τὸ</w>
           <w lemma="ὄνομα">ὄνομα</w>
@@ -2477,7 +2526,7 @@
         </greek>
       </verse>
       <verse num="14">
-        <text>And this is the boldness we have toward him: that if we ask anything according to his will, he hears us.</text>
+        <text>And this is the confidence we have before him: that if we ask for anything according to his will, he hears us.</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="οὗτος">αὕτη</w>
@@ -2501,7 +2550,7 @@
         </greek>
       </verse>
       <verse num="15">
-        <text>And if we know that he hears us in whatever we ask, we know that we possess the requests we have asked of him.</text>
+        <text>And if we know that he hears us, whatever we ask, we know that we have the requests we have asked of him.</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="ἐάν">ἐὰν</w>
@@ -2510,7 +2559,7 @@
           <w lemma="ἀκούω">ἀκούει</w>
           <w lemma="ἐγώ">ἡμῶν</w>
           <w lemma="ὅς">ὃ</w>
-          <w lemma="ἐάν">⸀ἐὰν</w>
+          <w lemma="ἐάν">ἐὰν</w>
           <w lemma="αἰτέω">αἰτώμεθα,</w>
           <w lemma="οἶδα">οἴδαμεν</w>
           <w lemma="ὅτι">ὅτι</w>
@@ -2519,12 +2568,12 @@
           <w lemma="αἴτημα">αἰτήματα</w>
           <w lemma="ὅς">ἃ</w>
           <w lemma="αἰτέω">ᾐτήκαμεν</w>
-          <w lemma="ἀπό">⸀ἀπ’</w>
+          <w lemma="ἀπό">ἀπ’</w>
           <w lemma="αὐτός">αὐτοῦ.</w>
         </greek>
       </verse>
       <verse num="16">
-        <text>If anyone sees his brother committing a sin that does not lead toward death, he will ask, and he will give him life—for those whose sin does not lead toward death. There is a sin that leads toward death; I am not saying that he should make a request concerning that.</text>
+        <text>If anyone sees his brother committing a sin that does not lead to death, he shall ask, and he will give him life—to those whose sin does not lead to death. There is sin that leads to death; I do not say that he should make request about that.</text>
         <greek>
           <w lemma="ἐάν">ἐάν</w>
           <w lemma="τις">τις</w>
@@ -2558,9 +2607,11 @@
           <w lemma="ἵνα">ἵνα</w>
           <w lemma="ἐρωτάω">ἐρωτήσῃ.</w>
         </greek>
+        <note term="a sin that does not lead to death" kind="ambiguity" lemma="" traditional="a sin not unto death">The letter does not say what the ‘sin that leads to death’ is, and it remains uncertain. Leading proposals are the deliberate rejection of Christ by those who had left the community (2:19, 22), the Old Testament distinction between inadvertent and defiant sin, and sin punished by physical death. ‘Death’ most likely means spiritual death, the opposite of the ‘life’ the chapter has been describing.</note>
+        <note term="he will give him life" kind="ambiguity" lemma="" traditional="he shall give him life">The Greek does not say who gives life. Many translations supply ‘God’ as the subject. Grammatically the simplest reading is that the one who prays is the giver, in the sense that his prayer obtains life for the sinner. The translation leaves the pronoun as open as the Greek.</note>
       </verse>
       <verse num="17">
-        <text>All injustice is sin, and there is sin that does not lead toward death.</text>
+        <text>All wrongdoing is sin, and there is sin that does not lead to death.</text>
         <greek>
           <w lemma="πᾶς">πᾶσα</w>
           <w lemma="ἀδικία">ἀδικία</w>
@@ -2575,7 +2626,7 @@
         </greek>
       </verse>
       <verse num="18">
-        <text><p/>We know that everyone fathered by God does not continue to sin, but the one who was fathered by God keeps him safe, and the evil one does not touch him.</text>
+        <text><p/>We know that everyone who has been born of God does not sin; rather, the one who was born of God keeps him safe, and the evil one does not touch him.</text>
         <greek>
           <w lemma="οἶδα">Οἴδαμεν</w>
           <w lemma="ὅτι">ὅτι</w>
@@ -2594,7 +2645,7 @@
           <w lemma="ὁ">τοῦ</w>
           <w lemma="θεός">θεοῦ</w>
           <w lemma="τηρέω">τηρεῖ</w>
-          <w lemma="αὐτός">⸀αὐτόν,</w>
+          <w lemma="αὐτός">αὐτόν,</w>
           <w lemma="καί">καὶ</w>
           <w lemma="ὁ">ὁ</w>
           <w lemma="πονηρός">πονηρὸς</w>
@@ -2602,6 +2653,8 @@
           <w lemma="ἅπτω">ἅπτεται</w>
           <w lemma="αὐτός">αὐτοῦ.</w>
         </greek>
+        <note term="does not sin" kind="ambiguity" lemma="ἁμαρτάνω" traditional="sinneth not">The verb is in the present tense, and some translations render ‘does not keep on sinning’ to ease the tension with 1:8–10 and 5:16, which assume that believers do sin. Whether the tense alone can carry that weight is debated. Others take the statement as describing what is true of the believer in principle, or as an ideal stated absolutely.</note>
+        <note term="the one who was born of God keeps him safe" kind="ambiguity" lemma="γεννάω" traditional="he that is begotten of God keepeth himself">The Greek shifts from ‘everyone who has been born of God’ (the believer) to a different verb form, ‘the one who was born of God’, which most scholars take to be Jesus, the Son, who protects the believer. Some manuscripts read ‘himself’ instead of ‘him’, giving the King James Version’s sense that the believer guards himself. The SBLGNT reads ‘him’.</note>
       </verse>
       <verse num="19">
         <text>We know that we are from God, and the whole world lies in the power of the evil one.</text>
@@ -2621,9 +2674,10 @@
           <w lemma="πονηρός">πονηρῷ</w>
           <w lemma="κεῖμαι">κεῖται.</w>
         </greek>
+        <note term="lies in the power of the evil one" kind="ambiguity" lemma="πονηρός" traditional="lieth in wickedness">The Greek is literally ‘lies in the evil’, and the form could be neuter (‘in evil’, as in the King James Version) or masculine (‘in the evil one’). Since verse 18 has just spoken of ‘the evil one’ as a person, nearly all modern translations take it as masculine. ‘To lie in’ someone is a Greek idiom for being dependent on them or under their control. The phrase is set against ‘we are in the true one’ in verse 20.</note>
       </verse>
       <verse num="20">
-        <text>And we know that the Son of God has come and has given us an understanding so that we may know the True One; and we are in the True One, in his Son Jesus Christ. This is the true God and eternal life.</text>
+        <text>And we know that the Son of God has come and has given us understanding, so that we may know the true one; and we are in the true one, in his Son Jesus Christ. This is the true God and eternal life.</text>
         <greek>
           <w lemma="οἶδα">οἴδαμεν</w>
           <w lemma="δέ">δὲ</w>
@@ -2638,7 +2692,7 @@
           <w lemma="ἐγώ">ἡμῖν</w>
           <w lemma="διάνοια">διάνοιαν</w>
           <w lemma="ἵνα">ἵνα</w>
-          <w lemma="γινώσκω">⸀γινώσκωμεν</w>
+          <w lemma="γινώσκω">γινώσκωμεν</w>
           <w lemma="ὁ">τὸν</w>
           <w lemma="ἀληθινός">ἀληθινόν·</w>
           <w lemma="καί">καὶ</w>
@@ -2661,17 +2715,19 @@
           <w lemma="ζωή">ζωὴ</w>
           <w lemma="αἰώνιος">αἰώνιος.</w>
         </greek>
+        <note term="This is the true God and eternal life" kind="ambiguity" lemma="οὗτος" traditional="This is the true God, and eternal life">‘This’ may refer to Jesus Christ, the nearest name, which would make the sentence one of the New Testament’s most direct statements that Jesus is God. It may instead refer back to ‘the true one’, the Father, whom the verse has just distinguished from his Son. Scholars are divided, and the Greek does not settle it.</note>
       </verse>
       <verse num="21">
-        <text>Little children, guard yourselves from the idols.</text>
+        <text><p/>Little children, guard yourselves from idols.</text>
         <greek>
           <w lemma="τεκνίον">Τεκνία,</w>
           <w lemma="φυλάσσω">φυλάξατε</w>
           <w lemma="ἑαυτοῦ">ἑαυτὰ</w>
           <w lemma="ἀπό">ἀπὸ</w>
           <w lemma="ὁ">τῶν</w>
-          <w lemma="εἴδωλον">⸀εἰδώλων.</w>
+          <w lemma="εἴδωλον">εἰδώλων.</w>
         </greek>
+        <note term="idols" kind="ambiguity" lemma="εἴδωλον" traditional="idols">The letter ends abruptly with a warning it has not prepared for. It may be meant literally, of the images of pagan worship that surrounded the readers. It may instead be figurative, of the false conceptions of God taught by the letter’s opponents, in contrast to ‘the true God’ just named. Both readings have scholarly support.</note>
       </verse>
     </chapter>
   </book>

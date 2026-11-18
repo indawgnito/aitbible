@@ -1,0 +1,331 @@
+{
+ "id": "galatians-006",
+ "book": "galatians",
+ "chapter": 6,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBBhZvHPZkyfaxPPNXBN",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 6171,
+  "output_tokens": 9739
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Brothers and sisters, even if a person is caught in some wrongdoing, you who are spiritual should restore such a person in a spirit of gentleness, each of you watching yourself, so that you too are not tempted.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Carry one another’s burdens, and in this way you will fulfill the law of Christ.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For if anyone thinks they are something when they are nothing, they are deceiving themselves.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But each person must examine their own work, and then their reason to boast will be in themselves alone and not in someone else,\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"for each will carry their own load.\"}]},{\"verse\":6,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The one who is taught the word must share all good things with the one who teaches.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Do not be misled: God is not mocked. For whatever a person sows, that is what they will also reap,\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"because whoever sows to their own flesh will reap decay from the flesh, but whoever sows to the Spirit will reap eternal life from the Spirit.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Let us not grow tired of doing what is right, for at the proper time we will reap, if we do not give up.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So then, while we have the time, let us do good to everyone, and especially to the members of the household of faith.\"}]},{\"verse\":11,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"See what large letters I am using as I write to you with my own hand.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Those who want to make a good showing in the flesh are the ones trying to force you to be circumcised, only so that they will not be persecuted for the cross of Christ.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For not even those who are circumcised keep the law themselves, but they want you to be circumcised so that they can boast in your flesh.\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But as for me, may I never boast except in the cross of our Lord Jesus Christ, through which the world has been crucified to me, and I to the world.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For neither circumcision nor uncircumcision is anything—only a new creation.\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And all who walk in line with this rule—peace be upon them, and mercy, and upon the Israel of God.\"}]},{\"verse\":17,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"From now on let no one cause me trouble, for I carry the marks of Jesus on my body.\"}]},{\"verse\":18,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The grace of our Lord Jesus Christ be with your spirit, brothers and sisters. Amen.\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"Brothers and sisters\",\"lemma\":\"ἀδελφός\",\"kind\":\"departure\",\"traditional\":\"brethren; brothers\",\"note\":\"The Greek plural is grammatically masculine but was the ordinary way to address a mixed group of men and women, as Paul's congregations were. 'Brothers and sisters' says in English what the original hearers understood. Many recent translations do the same, while others keep 'brothers' with a footnote.\"},{\"verse\":1,\"phrase\":\"is caught\",\"lemma\":\"προλαμβάνω\",\"kind\":\"ambiguity\",\"traditional\":\"overtaken; caught\",\"note\":\"The verb can mean that the person is discovered by others in the act, or that the person is overtaken by the wrongdoing, taken by surprise by it. 'Caught' leaves both possibilities open. Commentators are divided, and the instruction to restore gently suits either.\"},{\"verse\":1,\"phrase\":\"gentleness\",\"lemma\":\"πραΰτης\",\"kind\":\"departure\",\"traditional\":\"meekness\",\"note\":\"Older versions have 'a spirit of meekness'. 'Meek' now suggests weakness or timidity, which the Greek word does not; it describes a considerate, unassertive way of dealing with others. 'Gentleness' is the usual modern rendering.\"},{\"verse\":5,\"phrase\":\"load\",\"lemma\":\"φορτίον\",\"kind\":\"background\",\"traditional\":\"burden\",\"note\":\"Verse 2 says to carry one another's burdens and verse 5 that each will carry their own load; the Greek uses two different nouns, and the translation keeps them distinct. The word here was used of a pack or a cargo, and the future tense may point to each person's answerability before God. How sharply the two words differ in meaning is debated, but the two sentences address different situations: mutual help in verse 2, and self-assessment in verses 4–5.\"},{\"verse\":6,\"phrase\":\"share all good things\",\"lemma\":\"κοινωνέω\",\"kind\":\"background\",\"traditional\":\"communicate unto him that teacheth in all good things\",\"note\":\"Most interpreters take this as an instruction that those being instructed should support their teachers materially, a practice Paul defends elsewhere. 'Good things' was a common expression for material goods, though some take it more broadly as sharing in everything good.\"},{\"verse\":8,\"phrase\":\"decay\",\"lemma\":\"φθορά\",\"kind\":\"departure\",\"traditional\":\"corruption\",\"note\":\"The traditional 'corruption' now suggests bribery or moral dishonesty. The Greek word means rotting, ruin or destruction, which fits the farming image of a crop that spoils and stands in contrast to lasting life.\"},{\"verse\":8,\"phrase\":\"eternal life\",\"lemma\":\"αἰώνιος\",\"kind\":\"background\",\"traditional\":\"eternal life; life everlasting\",\"note\":\"In Jewish usage this phrase meant the life of the age to come, the life God gives at the final harvest. It describes a kind of life as well as an unending one. 'Eternal' is the standard rendering and is kept here.\"},{\"verse\":11,\"phrase\":\"large letters\",\"lemma\":\"γράμμα\",\"kind\":\"background\",\"traditional\":\"how large a letter\",\"note\":\"Letters were normally dictated to a secretary, with the sender adding a closing note in his own handwriting. Here Paul takes the pen himself and points out the size of his writing. It may be for emphasis, though other explanations (an unpractised hand, poor eyesight) have been suggested, and none is certain. The Greek refers to the characters, not to the length of the letter as the King James Version suggests.\"},{\"verse\":13,\"phrase\":\"those who are circumcised\",\"lemma\":\"περιτέμνω\",\"kind\":\"ambiguity\",\"traditional\":\"they who are circumcised\",\"note\":\"The Greek present participle could mean the group pressing circumcision on the Galatians, or people now accepting circumcision under their influence. Most interpreters take it as the former. Some manuscripts have a perfect participle ('those who have been circumcised'), which points more clearly to the former.\"},{\"verse\":14,\"phrase\":\"through which\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"by whom; by which\",\"note\":\"The Greek pronoun can refer either to the cross ('through which') or to Jesus Christ ('through whom'). Both are grammatically possible. Most modern translations choose the cross, since it is the subject of the boasting and the crucifixion language follows immediately.\"},{\"verse\":16,\"phrase\":\"and upon the Israel of God\",\"lemma\":\"Ἰσραήλ\",\"kind\":\"ambiguity\",\"traditional\":\"and upon the Israel of God\",\"note\":\"This phrase is much disputed. The 'and' may introduce a second group (Jewish people, or Jewish believers in Jesus), or it may be explanatory: 'that is, the Israel of God', describing all who follow this rule, Jew and Gentile alike. The translation keeps the plain 'and', which leaves the question open as the Greek does.\"},{\"verse\":17,\"phrase\":\"marks\",\"lemma\":\"στίγμα\",\"kind\":\"background\",\"traditional\":\"marks\",\"note\":\"The Greek word was used for a tattoo or brand that marked a slave, and sometimes a soldier or a devotee of a god, as belonging to a master. Paul most likely means the scars from beatings and stonings suffered in his work, which show whose slave he is. The later idea of 'stigmata' as wounds matching those of the crucifixion is not in view.\"}],\"candidates\":[{\"lemma\":\"ἀδελφός\",\"rendering\":\"brothers and sisters\",\"verse\":1,\"reason\":\"The plural address to mixed congregations recurs throughout the letters and Acts, and translations split between 'brothers' and 'brothers and sisters'; it needs one policy.\"},{\"lemma\":\"σάρξ\",\"rendering\":\"flesh\",\"verse\":8,\"reason\":\"Paul's use ranges from the physical body to human nature opposed to the Spirit, and translations vary between 'flesh', 'sinful nature' and 'human nature'; the reader should see one word.\"},{\"lemma\":\"παράπτωμα\",\"rendering\":\"wrongdoing\",\"verse\":1,\"reason\":\"Traditional 'trespass' is archaic, and the word needs to be kept distinct from ἁμαρτία (sin) and παράβασις (transgression) across Paul and the Gospels.\"},{\"lemma\":\"καυχάομαι\",\"rendering\":\"boast\",\"verse\":13,\"reason\":\"Frequent in Paul with both negative and positive force ('boast', 'glory', 'take pride', 'exult'), and the related nouns καύχημα and καύχησις should be rendered in step with it.\"},{\"lemma\":\"πειράζω\",\"rendering\":\"tempt\",\"verse\":1,\"reason\":\"The verb covers both 'tempt' and 'test', and the choice in each context across the Gospels, Paul, James and Hebrews should follow a stated rule.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Brothers and sisters, even if a person is caught in some wrongdoing, you who are spiritual should restore such a person in a spirit of gentleness, each of you watching yourself, so that you too are not tempted."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Carry one another’s burdens, and in this way you will fulfill the law of Christ."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For if anyone thinks they are something when they are nothing, they are deceiving themselves."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But each person must examine their own work, and then their reason to boast will be in themselves alone and not in someone else,"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "for each will carry their own load."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The one who is taught the word must share all good things with the one who teaches."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Do not be misled: God is not mocked. For whatever a person sows, that is what they will also reap,"
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "because whoever sows to their own flesh will reap decay from the flesh, but whoever sows to the Spirit will reap eternal life from the Spirit."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Let us not grow tired of doing what is right, for at the proper time we will reap, if we do not give up."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So then, while we have the time, let us do good to everyone, and especially to the members of the household of faith."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "See what large letters I am using as I write to you with my own hand."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Those who want to make a good showing in the flesh are the ones trying to force you to be circumcised, only so that they will not be persecuted for the cross of Christ."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For not even those who are circumcised keep the law themselves, but they want you to be circumcised so that they can boast in your flesh."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But as for me, may I never boast except in the cross of our Lord Jesus Christ, through which the world has been crucified to me, and I to the world."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For neither circumcision nor uncircumcision is anything—only a new creation."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And all who walk in line with this rule—peace be upon them, and mercy, and upon the Israel of God."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "From now on let no one cause me trouble, for I carry the marks of Jesus on my body."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The grace of our Lord Jesus Christ be with your spirit, brothers and sisters. Amen."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "Brothers and sisters",
+    "lemma": "ἀδελφός",
+    "kind": "departure",
+    "traditional": "brethren; brothers",
+    "note": "The Greek plural is grammatically masculine but was the ordinary way to address a mixed group of men and women, as Paul's congregations were. 'Brothers and sisters' says in English what the original hearers understood. Many recent translations do the same, while others keep 'brothers' with a footnote."
+   },
+   {
+    "verse": 1,
+    "phrase": "is caught",
+    "lemma": "προλαμβάνω",
+    "kind": "ambiguity",
+    "traditional": "overtaken; caught",
+    "note": "The verb can mean that the person is discovered by others in the act, or that the person is overtaken by the wrongdoing, taken by surprise by it. 'Caught' leaves both possibilities open. Commentators are divided, and the instruction to restore gently suits either."
+   },
+   {
+    "verse": 1,
+    "phrase": "gentleness",
+    "lemma": "πραΰτης",
+    "kind": "departure",
+    "traditional": "meekness",
+    "note": "Older versions have 'a spirit of meekness'. 'Meek' now suggests weakness or timidity, which the Greek word does not; it describes a considerate, unassertive way of dealing with others. 'Gentleness' is the usual modern rendering."
+   },
+   {
+    "verse": 5,
+    "phrase": "load",
+    "lemma": "φορτίον",
+    "kind": "background",
+    "traditional": "burden",
+    "note": "Verse 2 says to carry one another's burdens and verse 5 that each will carry their own load; the Greek uses two different nouns, and the translation keeps them distinct. The word here was used of a pack or a cargo, and the future tense may point to each person's answerability before God. How sharply the two words differ in meaning is debated, but the two sentences address different situations: mutual help in verse 2, and self-assessment in verses 4–5."
+   },
+   {
+    "verse": 6,
+    "phrase": "share all good things",
+    "lemma": "κοινωνέω",
+    "kind": "background",
+    "traditional": "communicate unto him that teacheth in all good things",
+    "note": "Most interpreters take this as an instruction that those being instructed should support their teachers materially, a practice Paul defends elsewhere. 'Good things' was a common expression for material goods, though some take it more broadly as sharing in everything good."
+   },
+   {
+    "verse": 8,
+    "phrase": "decay",
+    "lemma": "φθορά",
+    "kind": "departure",
+    "traditional": "corruption",
+    "note": "The traditional 'corruption' now suggests bribery or moral dishonesty. The Greek word means rotting, ruin or destruction, which fits the farming image of a crop that spoils and stands in contrast to lasting life."
+   },
+   {
+    "verse": 8,
+    "phrase": "eternal life",
+    "lemma": "αἰώνιος",
+    "kind": "background",
+    "traditional": "eternal life; life everlasting",
+    "note": "In Jewish usage this phrase meant the life of the age to come, the life God gives at the final harvest. It describes a kind of life as well as an unending one. 'Eternal' is the standard rendering and is kept here."
+   },
+   {
+    "verse": 11,
+    "phrase": "large letters",
+    "lemma": "γράμμα",
+    "kind": "background",
+    "traditional": "how large a letter",
+    "note": "Letters were normally dictated to a secretary, with the sender adding a closing note in his own handwriting. Here Paul takes the pen himself and points out the size of his writing. It may be for emphasis, though other explanations (an unpractised hand, poor eyesight) have been suggested, and none is certain. The Greek refers to the characters, not to the length of the letter as the King James Version suggests."
+   },
+   {
+    "verse": 13,
+    "phrase": "those who are circumcised",
+    "lemma": "περιτέμνω",
+    "kind": "ambiguity",
+    "traditional": "they who are circumcised",
+    "note": "The Greek present participle could mean the group pressing circumcision on the Galatians, or people now accepting circumcision under their influence. Most interpreters take it as the former. Some manuscripts have a perfect participle ('those who have been circumcised'), which points more clearly to the former."
+   },
+   {
+    "verse": 14,
+    "phrase": "through which",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "by whom; by which",
+    "note": "The Greek pronoun can refer either to the cross ('through which') or to Jesus Christ ('through whom'). Both are grammatically possible. Most modern translations choose the cross, since it is the subject of the boasting and the crucifixion language follows immediately."
+   },
+   {
+    "verse": 16,
+    "phrase": "and upon the Israel of God",
+    "lemma": "Ἰσραήλ",
+    "kind": "ambiguity",
+    "traditional": "and upon the Israel of God",
+    "note": "This phrase is much disputed. The 'and' may introduce a second group (Jewish people, or Jewish believers in Jesus), or it may be explanatory: 'that is, the Israel of God', describing all who follow this rule, Jew and Gentile alike. The translation keeps the plain 'and', which leaves the question open as the Greek does."
+   },
+   {
+    "verse": 17,
+    "phrase": "marks",
+    "lemma": "στίγμα",
+    "kind": "background",
+    "traditional": "marks",
+    "note": "The Greek word was used for a tattoo or brand that marked a slave, and sometimes a soldier or a devotee of a god, as belonging to a master. Paul most likely means the scars from beatings and stonings suffered in his work, which show whose slave he is. The later idea of 'stigmata' as wounds matching those of the crucifixion is not in view."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "ἀδελφός",
+    "rendering": "brothers and sisters",
+    "verse": 1,
+    "reason": "The plural address to mixed congregations recurs throughout the letters and Acts, and translations split between 'brothers' and 'brothers and sisters'; it needs one policy."
+   },
+   {
+    "lemma": "σάρξ",
+    "rendering": "flesh",
+    "verse": 8,
+    "reason": "Paul's use ranges from the physical body to human nature opposed to the Spirit, and translations vary between 'flesh', 'sinful nature' and 'human nature'; the reader should see one word."
+   },
+   {
+    "lemma": "παράπτωμα",
+    "rendering": "wrongdoing",
+    "verse": 1,
+    "reason": "Traditional 'trespass' is archaic, and the word needs to be kept distinct from ἁμαρτία (sin) and παράβασις (transgression) across Paul and the Gospels."
+   },
+   {
+    "lemma": "καυχάομαι",
+    "rendering": "boast",
+    "verse": 13,
+    "reason": "Frequent in Paul with both negative and positive force ('boast', 'glory', 'take pride', 'exult'), and the related nouns καύχημα and καύχησις should be rendered in step with it."
+   },
+   {
+    "lemma": "πειράζω",
+    "rendering": "tempt",
+    "verse": 1,
+    "reason": "The verb covers both 'tempt' and 'test', and the choice in each context across the Gospels, Paul, James and Hebrews should follow a stated rule."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": []
+}
