@@ -113,26 +113,24 @@ def main():
 
 # ---------------------------------------------------------------- homepage examples
 
-# The verses shown on the homepage. Only the reference, the words to
-# highlight and the explanation are written by hand; both texts are read from
-# the data at build time, so the examples cannot quote wording that is not served.
+# The verses shown on the homepage: (book, chapter, verse, KJV words to mark,
+# AIT words to mark). Everything else is read from the data at build time:
+# both texts, and the translation's own note on the marked words. Nothing a
+# visitor reads here is written by hand, so it cannot say more than the
+# translation does.
 EXAMPLES = [
-    ("matthew", 16, 18, "church", "assembly",
-     "The Greek *ekklēsia* was the word for a gathering of citizens, and in the Greek Old Testament for Israel assembled before God. \"Church\" now suggests a building or an institution. The same verse keeps *Hades*, the realm of the dead, where older versions have \"hell\"."),
-    ("matthew", 6, 2, "hypocrites", "performers",
-     "In Matthew 6 the charge is religion staged for an audience, and the Greek word began as the term for a stage actor. Elsewhere, where the charge is pretense, this translation keeps \"hypocrites\": by the first century the word already meant that too. \"Paid in full\" is the wording of receipts from the period."),
-    ("matthew", 6, 22, "single", "generous",
-     "The saying sits between treasure in heaven and serving wealth, and the \"evil eye\" that follows was a Jewish idiom for stinginess. Most translations keep the physical image with \"healthy\" or \"sound\"; this one follows the idiom and says so in the note."),
-    ("mark", 1, 15, "repent", "Turn back",
-     "\"Repent\" now centres on feeling sorry. The Greek carries the prophets' call to return to God: a change of direction. Most translations keep \"repent\" as an established term."),
-    ("john", 1, 1, "Word", "Logos",
-     "Left untranslated because \"the Word\" is now commonly heard as meaning the Bible. The note at this verse gives both backgrounds: God's creating speech in Genesis, which most scholars see as primary and which \"Word\" reflects, and the Greek sense of reason and order."),
+    ("matthew", 16, 18, "church", "assembly"),
+    ("matthew", 6, 2, "hypocrites", "performers"),
+    ("matthew", 6, 22, "single", "generous"),
+    ("matthew", 3, 2, "Repent", "Turn back"),
+    ("john", 1, 1, "Word", "Logos"),
 ]
 
 
 def build_examples(run: str) -> list:
     out = []
-    for book, chapter, verse, trad_hl, ait_hl, explanation in EXAMPLES:
+    for book, chapter, verse, trad_hl, ait_hl in EXAMPLES:
+        ref = f"{BOOK_TITLES[book]} {chapter}:{verse}"
         rec = load_record(run, f"{book}-{chapter:03d}")
         ait = next(segments_text(v["segments"]) for v in rec["parsed"]["verses"] if v["verse"] == verse)
         kjv = json.loads((WEB_DATA / "kjv" / f"{BOOK_TITLES[book].replace(' ', '')}.json").read_text(encoding="utf-8"))
@@ -140,11 +138,17 @@ def build_examples(run: str) -> list:
                     for v in c["verses"] if int(v["verse"]) == verse)
         for text, hl, name in ((trad, trad_hl, "KJV"), (ait, ait_hl, "AIT")):
             if hl.lower() not in text.lower():
-                raise SystemExit(f"{book} {chapter}:{verse}: '{hl}' is not in the {name} text; fix EXAMPLES.")
-        out.append({"reference": f"{BOOK_TITLES[book]} {chapter}:{verse}",
+                raise SystemExit(f"{ref}: '{hl}' is not in the {name} text; fix EXAMPLES.")
+        note = next((n for n in rec["parsed"]["notes"]
+                     if n["verse"] == verse and ait_hl.lower() in n["phrase"].lower()), None)
+        if note is None:
+            raise SystemExit(f"{ref}: the translation has no note on '{ait_hl}'; pick another verse.")
+        out.append({"reference": ref,
+                    "href": f"/{book}/{chapter}#{verse}",
+                    "chapterLabel": f"{BOOK_TITLES[book]} {chapter}",
                     "traditional": {"text": trad, "highlight": trad_hl},
                     "ait": {"text": ait, "highlight": ait_hl},
-                    "explanation": explanation})
+                    "note": {"term": note["phrase"], "text": note["note"]}})
     return out
 
 

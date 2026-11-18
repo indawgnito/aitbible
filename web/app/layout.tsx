@@ -23,7 +23,7 @@ export default function RootLayout({
           <main>{children}</main>
           <footer className="container-reading py-12 text-center text-sm text-neutral-500 dark:text-neutral-400">
             <p className="mb-2">
-              © 2025 AIT Bible Project
+              © 2026 AIT Bible Project
             </p>
             <p className="text-xs">
               Translation licensed under{" "}

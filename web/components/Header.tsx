@@ -58,7 +58,7 @@ export function Header() {
       <div className="container-reading py-4 flex items-center justify-between">
         <Link
           href="/"
-          className="font-sans font-semibold text-xl text-neutral-900 dark:text-neutral-100 hover:text-amber-700 dark:hover:text-amber-500 transition-colors"
+          className="font-sans font-semibold text-xl whitespace-nowrap shrink-0 text-neutral-900 dark:text-neutral-100 hover:text-amber-700 dark:hover:text-amber-500 transition-colors"
         >
           AIT Bible
         </Link>

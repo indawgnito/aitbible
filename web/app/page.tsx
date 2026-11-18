@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="container-reading py-16">
       {/* Hero */}
-      <div className="text-center mb-16">
+      <div className="text-center mb-10">
         <h1 className="text-4xl md:text-5xl font-bold text-neutral-900 dark:text-neutral-100 mb-6">
           AIT Bible
         </h1>
@@ -18,46 +18,38 @@ export default function Home() {
         </p>
       </div>
 
-      {/* Translation Example */}
-      <TranslationCarousel />
-
       {/* About */}
-      <div className="card p-8 mb-12">
-        <h2 className="font-sans font-semibold text-lg text-neutral-900 dark:text-neutral-100 mb-4">
-          What This Is
-        </h2>
-        <div className="space-y-4 text-neutral-700 dark:text-neutral-300">
-          <p>
-            The AIT Bible is a translation of the Greek New Testament made by
-            an AI model, with one aim: to say in plain modern English what a
-            first-century reader would have understood.
-          </p>
-          <p>
-            Where the traditional English word now misleads, the text departs
-            from it. Where the traditional word is still the best one, the
-            text keeps it. Departures come with a note that gives the
-            traditional wording, the reason for the change, and what most
-            scholars think, so you can disagree with it.
-          </p>
-          <p>
-            The decisions that shape the translation are public: the prompt,
-            the list of word choices, and the raw output of every chapter are
-            in the repository. Each word on that list is rendered the same
-            way from Matthew to Revelation, and an audit checks it.
-          </p>
-          <p className="text-sm text-neutral-600 dark:text-neutral-400">
-            This is a machine translation that has not been reviewed by
-            scholars. Treat it as a study aid beside an established
-            translation, not as a replacement for one.{" "}
-            <Link
-              href="/vision"
-              className="text-amber-700 dark:text-amber-500 hover:underline font-medium font-sans"
-            >
-              How it was made →
-            </Link>
-          </p>
+      <div className="mb-12 space-y-4 text-neutral-700 dark:text-neutral-300">
+        <p>
+          The AIT Bible is a translation of the Greek New Testament made by
+          an AI model. It aims to say in plain modern English what a
+          first-century reader would have understood, and it explains itself:
+          where the text departs from the traditional wording, a note gives
+          the reason and what most scholars think.
+        </p>
+        <p className="text-sm text-neutral-600 dark:text-neutral-400">
+          This is a machine translation that has not been reviewed by
+          scholars. Read it beside an established translation, not in place
+          of one.
+        </p>
+        <div className="flex flex-wrap items-center gap-4 pt-2 font-sans">
+          <Link
+            href="/matthew/1"
+            className="px-5 py-2.5 rounded-lg bg-amber-700 hover:bg-amber-800 text-white font-medium transition-colors"
+          >
+            Start reading
+          </Link>
+          <Link
+            href="/vision"
+            className="text-amber-700 dark:text-amber-500 hover:underline font-medium"
+          >
+            How it was made →
+          </Link>
         </div>
       </div>
+
+      {/* Translation Example */}
+      <TranslationCarousel />
 
       {/* Book List */}
       <div>
@@ -79,7 +71,7 @@ export default function Home() {
                     {book.name}
                   </span>
                   <span className="block text-sm text-neutral-500 dark:text-neutral-400 mt-1">
-                    {book.chapters} chapters
+                    {book.chapters} {book.chapters === 1 ? "chapter" : "chapters"}
                   </span>
                 </Link>
               );
