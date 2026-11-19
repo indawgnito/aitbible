@@ -1,0 +1,616 @@
+{
+ "id": "acts-015",
+ "book": "acts",
+ "chapter": 15,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14istqpcgdidBCsuq",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 16196,
+  "output_tokens": 18509
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Some men came down from Judea and were teaching the brothers,\"},{\"speaker\":\"other\",\"text\":\"“Unless you are circumcised according to the custom of Moses, you cannot be saved.”\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When this brought Paul and Barnabas into no small conflict and debate with them, they arranged for Paul and Barnabas and some others from among them to go up to Jerusalem, to the apostles and elders, about this question.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So, sent on their way by the assembly, they passed through both Phoenicia and Samaria, telling in detail of the conversion of the Gentiles, and they brought great joy to all the brothers.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When they arrived in Jerusalem, they were welcomed by the assembly and the apostles and the elders, and they reported all that God had done with them.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But some from the party of the Pharisees who had believed stood up and said,\"},{\"speaker\":\"other\",\"text\":\"“It is necessary to circumcise them and to command them to keep the Law of Moses.”\"}]},{\"verse\":6,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The apostles and the elders gathered to look into this matter.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"After much debate, Peter stood up and said to them,\"},{\"speaker\":\"other\",\"text\":\"“Brothers, you know that in the early days God made a choice among you, that through my mouth the Gentiles should hear the word of the good news and believe.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"And God, who knows the heart, bore witness to them by giving them the Holy Spirit, just as he did to us,\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"and he made no distinction between us and them, cleansing their hearts by faith.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"So now why are you putting God to the test by laying on the neck of the disciples a yoke that neither our ancestors nor we have had the strength to bear?\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"No, we believe that we are saved through the grace of the Lord Jesus, in the same way as they are.”\"}]},{\"verse\":12,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The whole community fell silent, and they listened to Barnabas and Paul recounting all the signs and wonders God had done among the Gentiles through them.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When they had fallen silent, James replied,\"},{\"speaker\":\"other\",\"text\":\"“Brothers, listen to me.\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Simeon has recounted how God first concerned himself to take from the Gentiles a people for his name.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"And with this the words of the prophets agree, as it is written:\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"‘After this I will return and rebuild the fallen tent of David; I will rebuild its ruins and set it upright again,\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"so that the rest of humankind may seek the Lord, and all the Gentiles over whom my name has been called, says the Lord, who makes these things\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"known from of old.’\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Therefore I judge that we should not make difficulties for those from the Gentiles who are turning to God,\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"but should write to them to abstain from things polluted by idols, from sexual immorality, from what has been strangled, and from blood.\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"For Moses from ancient generations has had in every city those who proclaim him, since he is read aloud in the synagogues every Sabbath.”\"}]},{\"verse\":22,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then the apostles and the elders, together with the whole assembly, resolved to choose men from among them and send them to Antioch with Paul and Barnabas: Judas called Barsabbas, and Silas, leading men among the brothers.\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They wrote this to be delivered by their hand:\"},{\"speaker\":\"other\",\"text\":\"“The apostles and the elders, your brothers, to the brothers from among the Gentiles in Antioch and Syria and Cilicia: Greetings.\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Since we have heard that some who went out from us have disturbed you with their words and unsettled your minds, though we gave them no instructions,\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"we have resolved, having come to one mind, to choose men and send them to you with our beloved Barnabas and Paul,\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"men who have risked their lives for the name of our Lord Jesus Christ.\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"So we have sent Judas and Silas, who will themselves tell you the same things by word of mouth.\"}]},{\"verse\":28,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"For the Holy Spirit and we have resolved to lay on you no further burden than these necessary things:\"}]},{\"verse\":29,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"to abstain from what has been sacrificed to idols, from blood, from what has been strangled, and from sexual immorality. If you keep yourselves from these, you will do well. Farewell.”\"}]},{\"verse\":30,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So they were sent off and went down to Antioch, and after gathering the community they delivered the letter.\"}]},{\"verse\":31,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When they read it, they rejoiced at the encouragement.\"}]},{\"verse\":32,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Judas and Silas, who were themselves also prophets, encouraged the brothers at length and strengthened them.\"}]},{\"verse\":33,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"After spending some time there, they were sent off in peace by the brothers to those who had sent them.\"}]},{\"verse\":35,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But Paul and Barnabas stayed on in Antioch, teaching and, along with many others, bringing the good news of the word of the Lord.\"}]},{\"verse\":36,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"After some days Paul said to Barnabas,\"},{\"speaker\":\"other\",\"text\":\"“Come, let us go back and visit the brothers in every city where we announced the word of the Lord, and see how they are doing.”\"}]},{\"verse\":37,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Barnabas wanted to take along John, called Mark, as well,\"}]},{\"verse\":38,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"but Paul thought it right not to take along this man, who had withdrawn from them in Pamphylia and had not gone on with them to the work.\"}]},{\"verse\":39,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The disagreement became so sharp that they parted from each other: Barnabas took Mark and sailed off to Cyprus,\"}]},{\"verse\":40,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"while Paul chose Silas and set out, entrusted by the brothers to the grace of the Lord.\"}]},{\"verse\":41,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He passed through Syria and Cilicia, strengthening the assemblies.\"}]}],\"notes\":[{\"verse\":3,\"phrase\":\"assembly\",\"lemma\":\"ἐκκλησία\",\"kind\":\"departure\",\"traditional\":\"church\",\"note\":\"The Greek word was the ordinary term for a civic gathering and the Septuagint’s word for Israel assembled, whereas “church” now suggests a building or an institution. “Church” remains the near-universal rendering, and readers should understand “assembly” here as the community of believers, not a single meeting.\"},{\"verse\":3,\"phrase\":\"Gentiles\",\"lemma\":\"ἔθνος\",\"kind\":\"background\",\"traditional\":\"Gentiles\",\"note\":\"The Greek word means “peoples” or “nations,” and in the plural in Jewish usage it means the non-Jewish peoples. This translation uses “Gentiles” for that sense and “nations” elsewhere, but it is one word. In verse 14 James plays on it: God takes from the “nations” a “people,” the term normally reserved for Israel.\"},{\"verse\":7,\"phrase\":\"good news\",\"lemma\":\"εὐαγγέλιον\",\"kind\":\"departure\",\"traditional\":\"gospel\",\"note\":\"“Gospel” is now a religious term or a book title; the Greek was an ordinary word for a public announcement of good news. Many modern translations alternate between the two.\"},{\"verse\":10,\"phrase\":\"putting God to the test\",\"lemma\":\"πειράζω\",\"kind\":\"departure\",\"traditional\":\"tempt God\",\"note\":\"The verb means to put to the test, and in the Greek Old Testament it is the regular word for Israel testing God in the wilderness. “Tempt” in modern English means to entice to sin, which is not the idea here; most recent versions also use “test.”\"},{\"verse\":14,\"phrase\":\"Simeon\",\"lemma\":\"Συμεών\",\"kind\":\"background\",\"traditional\":\"Simeon\",\"note\":\"This is a Semitic form of the name Simon and refers to Simon Peter, who has just spoken. The form suits a speaker from the Aramaic-speaking community in Jerusalem.\"},{\"verse\":14,\"phrase\":\"concerned himself\",\"lemma\":\"ἐπισκέπτομαι\",\"kind\":\"departure\",\"traditional\":\"visited\",\"note\":\"The verb is the Septuagint’s regular word for God “visiting” his people to act for them. Here it has no personal object and is completed by “to take a people,” so “visited” would require supplying words. English versions divide between “visited the Gentiles,” “concerned himself,” “looked favorably,” and “intervened.”\"},{\"verse\":16,\"phrase\":\"tent\",\"lemma\":\"σκηνή\",\"kind\":\"departure\",\"traditional\":\"tabernacle\",\"note\":\"The Greek is the ordinary word for a tent or hut. The image is of David’s royal house as a collapsed shelter that God will rebuild. Older versions have “tabernacle”; several modern ones already use “tent” or “dwelling.”\"},{\"verse\":17,\"phrase\":\"so that the rest of humankind may seek the Lord\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"that the residue of men might seek after the Lord\",\"note\":\"James quotes Amos 9:11–12 in a form close to the ancient Greek translation, with some wording that differs from it. The Hebrew text of Amos reads differently here: “that they may possess the remnant of Edom.” The Greek version, with all humanity seeking the Lord, is the one that carries James’s argument.\"},{\"verse\":17,\"phrase\":\"over whom my name has been called\",\"lemma\":\"ἐπικαλέω\",\"kind\":\"departure\",\"traditional\":\"who are called by my name\",\"note\":\"The Greek reproduces a Hebrew idiom in which calling one’s name over something marks it as one’s own property. The traditional rendering suggests only that the Gentiles bear God’s name; the idiom says they belong to him.\"},{\"verse\":18,\"phrase\":\"known from of old\",\"lemma\":\"αἰών\",\"kind\":\"ambiguity\",\"traditional\":\"Known unto God are all his works from the beginning of the world\",\"note\":\"The words can be read as “who makes these things known from of old” or as “who does these things, which have been known from of old”; the translation allows the first and the Greek permits either. Many later manuscripts expand the phrase into a separate sentence, which the King James Version follows; the shorter text is generally judged original.\"},{\"verse\":20,\"phrase\":\"what has been strangled\",\"lemma\":\"πνικτός\",\"kind\":\"background\",\"traditional\":\"things strangled\",\"note\":\"This refers to meat from animals killed without draining the blood. The four prohibitions are often thought to echo the rules that Leviticus 17–18 lays on foreigners living among Israel, though this is debated; others see them as matters associated with pagan worship. Some manuscripts of the Western tradition omit “what has been strangled” here and in verse 29 and add a negative form of the Golden Rule, turning the list into moral rules.\"},{\"verse\":22,\"phrase\":\"resolved\",\"lemma\":\"δοκέω\",\"kind\":\"departure\",\"traditional\":\"it seemed good to\",\"note\":\"The Greek expression, used here and in verses 25 and 28, is the standard formula with which Greek cities and councils recorded official decisions. “It seemed good to the Holy Spirit and to us” (verse 28) is the familiar rendering and is literal, but in English it sounds tentative where the Greek states a formal resolution.\"},{\"verse\":24,\"phrase\":\"minds\",\"lemma\":\"ψυχή\",\"kind\":\"departure\",\"traditional\":\"souls\",\"note\":\"The Greek word covers a person’s life and inner self. Here it is the seat of conviction that the visitors have unsettled, for which “minds” is the natural English; most modern versions agree. The same word is rendered “lives” in verse 26.\"},{\"verse\":26,\"phrase\":\"risked their lives\",\"lemma\":\"παραδίδωμι\",\"kind\":\"ambiguity\",\"traditional\":\"hazarded their lives\",\"note\":\"The verb ordinarily means “hand over.” With “their lives” as object, most translations understand it as exposing their lives to danger, but it can also be read as “devoted their lives.” The same verb appears in verse 40, where the brothers hand Paul over to the Lord’s grace, rendered there “entrusted.”\"},{\"verse\":33,\"phrase\":\"to those who had sent them\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"\",\"note\":\"Verse 34 (“But it seemed good to Silas to remain there”) is absent from the earliest and best manuscripts and is not part of the Greek text translated here. It was probably added by copyists to explain how Silas could be in Antioch in verse 40.\"}],\"candidates\":[{\"lemma\":\"ἀδελφός\",\"rendering\":\"brothers\",\"verse\":1,\"reason\":\"The plural for community members recurs throughout Acts and the letters, and translators divide between “brothers,” “brothers and sisters,” and “believers.”\"},{\"lemma\":\"πορνεία\",\"rendering\":\"sexual immorality\",\"verse\":20,\"reason\":\"Recurs across the Gospels, Acts, Paul, and Revelation, with versions varying between “fornication,” “sexual immorality,” “unchastity,” and “prostitution.”\"},{\"lemma\":\"πατήρ\",\"rendering\":\"ancestors\",\"verse\":10,\"reason\":\"The plural for Israel’s forebears is frequent in Acts, Paul, and Hebrews, and “fathers” versus “ancestors” should be settled once.\"},{\"lemma\":\"παράκλησις\",\"rendering\":\"encouragement\",\"verse\":31,\"reason\":\"The noun and its verb παρακαλέω range over encourage, comfort, exhort, and appeal, and need a governed split so the cognate link stays visible.\"},{\"lemma\":\"χάρις\",\"rendering\":\"grace\",\"verse\":11,\"reason\":\"A core term across the New Testament where “grace,” “favor,” and “gift” compete and a reader would be misled by unexplained variation.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Some men came down from Judea and were teaching the brothers,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Unless you are circumcised according to the custom of Moses, you cannot be saved.”"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When this brought Paul and Barnabas into no small conflict and debate with them, they arranged for Paul and Barnabas and some others from among them to go up to Jerusalem, to the apostles and elders, about this question."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So, sent on their way by the assembly, they passed through both Phoenicia and Samaria, telling in detail of the conversion of the Gentiles, and they brought great joy to all the brothers."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When they arrived in Jerusalem, they were welcomed by the assembly and the apostles and the elders, and they reported all that God had done with them."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But some from the party of the Pharisees who had believed stood up and said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“It is necessary to circumcise them and to command them to keep the Law of Moses.”"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The apostles and the elders gathered to look into this matter."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "After much debate, Peter stood up and said to them,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Brothers, you know that in the early days God made a choice among you, that through my mouth the Gentiles should hear the word of the good news and believe."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "And God, who knows the heart, bore witness to them by giving them the Holy Spirit, just as he did to us,"
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "and he made no distinction between us and them, cleansing their hearts by faith."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "So now why are you putting God to the test by laying on the neck of the disciples a yoke that neither our ancestors nor we have had the strength to bear?"
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "No, we believe that we are saved through the grace of the Lord Jesus, in the same way as they are.”"
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The whole community fell silent, and they listened to Barnabas and Paul recounting all the signs and wonders God had done among the Gentiles through them."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When they had fallen silent, James replied,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Brothers, listen to me."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Simeon has recounted how God first concerned himself to take from the Gentiles a people for his name."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "And with this the words of the prophets agree, as it is written:"
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "‘After this I will return and rebuild the fallen tent of David; I will rebuild its ruins and set it upright again,"
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "so that the rest of humankind may seek the Lord, and all the Gentiles over whom my name has been called, says the Lord, who makes these things"
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "known from of old.’"
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Therefore I judge that we should not make difficulties for those from the Gentiles who are turning to God,"
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "but should write to them to abstain from things polluted by idols, from sexual immorality, from what has been strangled, and from blood."
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "For Moses from ancient generations has had in every city those who proclaim him, since he is read aloud in the synagogues every Sabbath.”"
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then the apostles and the elders, together with the whole assembly, resolved to choose men from among them and send them to Antioch with Paul and Barnabas: Judas called Barsabbas, and Silas, leading men among the brothers."
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They wrote this to be delivered by their hand:"
+     },
+     {
+      "speaker": "other",
+      "text": "“The apostles and the elders, your brothers, to the brothers from among the Gentiles in Antioch and Syria and Cilicia: Greetings."
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Since we have heard that some who went out from us have disturbed you with their words and unsettled your minds, though we gave them no instructions,"
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "we have resolved, having come to one mind, to choose men and send them to you with our beloved Barnabas and Paul,"
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "men who have risked their lives for the name of our Lord Jesus Christ."
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "So we have sent Judas and Silas, who will themselves tell you the same things by word of mouth."
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "For the Holy Spirit and we have resolved to lay on you no further burden than these necessary things:"
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "to abstain from what has been sacrificed to idols, from blood, from what has been strangled, and from sexual immorality. If you keep yourselves from these, you will do well. Farewell.”"
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So they were sent off and went down to Antioch, and after gathering the community they delivered the letter."
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When they read it, they rejoiced at the encouragement."
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Judas and Silas, who were themselves also prophets, encouraged the brothers at length and strengthened them."
+     }
+    ]
+   },
+   {
+    "verse": 33,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "After spending some time there, they were sent off in peace by the brothers to those who had sent them."
+     }
+    ]
+   },
+   {
+    "verse": 35,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But Paul and Barnabas stayed on in Antioch, teaching and, along with many others, bringing the good news of the word of the Lord."
+     }
+    ]
+   },
+   {
+    "verse": 36,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "After some days Paul said to Barnabas,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Come, let us go back and visit the brothers in every city where we announced the word of the Lord, and see how they are doing.”"
+     }
+    ]
+   },
+   {
+    "verse": 37,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Barnabas wanted to take along John, called Mark, as well,"
+     }
+    ]
+   },
+   {
+    "verse": 38,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "but Paul thought it right not to take along this man, who had withdrawn from them in Pamphylia and had not gone on with them to the work."
+     }
+    ]
+   },
+   {
+    "verse": 39,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The disagreement became so sharp that they parted from each other: Barnabas took Mark and sailed off to Cyprus,"
+     }
+    ]
+   },
+   {
+    "verse": 40,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "while Paul chose Silas and set out, entrusted by the brothers to the grace of the Lord."
+     }
+    ]
+   },
+   {
+    "verse": 41,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He passed through Syria and Cilicia, strengthening the assemblies."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 3,
+    "phrase": "assembly",
+    "lemma": "ἐκκλησία",
+    "kind": "departure",
+    "traditional": "church",
+    "note": "The Greek word was the ordinary term for a civic gathering and the Septuagint’s word for Israel assembled, whereas “church” now suggests a building or an institution. “Church” remains the near-universal rendering, and readers should understand “assembly” here as the community of believers, not a single meeting."
+   },
+   {
+    "verse": 3,
+    "phrase": "Gentiles",
+    "lemma": "ἔθνος",
+    "kind": "background",
+    "traditional": "Gentiles",
+    "note": "The Greek word means “peoples” or “nations,” and in the plural in Jewish usage it means the non-Jewish peoples. This translation uses “Gentiles” for that sense and “nations” elsewhere, but it is one word. In verse 14 James plays on it: God takes from the “nations” a “people,” the term normally reserved for Israel."
+   },
+   {
+    "verse": 7,
+    "phrase": "good news",
+    "lemma": "εὐαγγέλιον",
+    "kind": "departure",
+    "traditional": "gospel",
+    "note": "“Gospel” is now a religious term or a book title; the Greek was an ordinary word for a public announcement of good news. Many modern translations alternate between the two."
+   },
+   {
+    "verse": 10,
+    "phrase": "putting God to the test",
+    "lemma": "πειράζω",
+    "kind": "departure",
+    "traditional": "tempt God",
+    "note": "The verb means to put to the test, and in the Greek Old Testament it is the regular word for Israel testing God in the wilderness. “Tempt” in modern English means to entice to sin, which is not the idea here; most recent versions also use “test.”"
+   },
+   {
+    "verse": 14,
+    "phrase": "Simeon",
+    "lemma": "Συμεών",
+    "kind": "background",
+    "traditional": "Simeon",
+    "note": "This is a Semitic form of the name Simon and refers to Simon Peter, who has just spoken. The form suits a speaker from the Aramaic-speaking community in Jerusalem."
+   },
+   {
+    "verse": 14,
+    "phrase": "concerned himself",
+    "lemma": "ἐπισκέπτομαι",
+    "kind": "departure",
+    "traditional": "visited",
+    "note": "The verb is the Septuagint’s regular word for God “visiting” his people to act for them. Here it has no personal object and is completed by “to take a people,” so “visited” would require supplying words. English versions divide between “visited the Gentiles,” “concerned himself,” “looked favorably,” and “intervened.”"
+   },
+   {
+    "verse": 16,
+    "phrase": "tent",
+    "lemma": "σκηνή",
+    "kind": "departure",
+    "traditional": "tabernacle",
+    "note": "The Greek is the ordinary word for a tent or hut. The image is of David’s royal house as a collapsed shelter that God will rebuild. Older versions have “tabernacle”; several modern ones already use “tent” or “dwelling.”"
+   },
+   {
+    "verse": 17,
+    "phrase": "so that the rest of humankind may seek the Lord",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "that the residue of men might seek after the Lord",
+    "note": "James quotes Amos 9:11–12 in a form close to the ancient Greek translation, with some wording that differs from it. The Hebrew text of Amos reads differently here: “that they may possess the remnant of Edom.” The Greek version, with all humanity seeking the Lord, is the one that carries James’s argument."
+   },
+   {
+    "verse": 17,
+    "phrase": "over whom my name has been called",
+    "lemma": "ἐπικαλέω",
+    "kind": "departure",
+    "traditional": "who are called by my name",
+    "note": "The Greek reproduces a Hebrew idiom in which calling one’s name over something marks it as one’s own property. The traditional rendering suggests only that the Gentiles bear God’s name; the idiom says they belong to him."
+   },
+   {
+    "verse": 18,
+    "phrase": "known from of old",
+    "lemma": "αἰών",
+    "kind": "ambiguity",
+    "traditional": "Known unto God are all his works from the beginning of the world",
+    "note": "The words can be read as “who makes these things known from of old” or as “who does these things, which have been known from of old”; the translation allows the first and the Greek permits either. Many later manuscripts expand the phrase into a separate sentence, which the King James Version follows; the shorter text is generally judged original."
+   },
+   {
+    "verse": 20,
+    "phrase": "what has been strangled",
+    "lemma": "πνικτός",
+    "kind": "background",
+    "traditional": "things strangled",
+    "note": "This refers to meat from animals killed without draining the blood. The four prohibitions are often thought to echo the rules that Leviticus 17–18 lays on foreigners living among Israel, though this is debated; others see them as matters associated with pagan worship. Some manuscripts of the Western tradition omit “what has been strangled” here and in verse 29 and add a negative form of the Golden Rule, turning the list into moral rules."
+   },
+   {
+    "verse": 22,
+    "phrase": "resolved",
+    "lemma": "δοκέω",
+    "kind": "departure",
+    "traditional": "it seemed good to",
+    "note": "The Greek expression, used here and in verses 25 and 28, is the standard formula with which Greek cities and councils recorded official decisions. “It seemed good to the Holy Spirit and to us” (verse 28) is the familiar rendering and is literal, but in English it sounds tentative where the Greek states a formal resolution."
+   },
+   {
+    "verse": 24,
+    "phrase": "minds",
+    "lemma": "ψυχή",
+    "kind": "departure",
+    "traditional": "souls",
+    "note": "The Greek word covers a person’s life and inner self. Here it is the seat of conviction that the visitors have unsettled, for which “minds” is the natural English; most modern versions agree. The same word is rendered “lives” in verse 26."
+   },
+   {
+    "verse": 26,
+    "phrase": "risked their lives",
+    "lemma": "παραδίδωμι",
+    "kind": "ambiguity",
+    "traditional": "hazarded their lives",
+    "note": "The verb ordinarily means “hand over.” With “their lives” as object, most translations understand it as exposing their lives to danger, but it can also be read as “devoted their lives.” The same verb appears in verse 40, where the brothers hand Paul over to the Lord’s grace, rendered there “entrusted.”"
+   },
+   {
+    "verse": 33,
+    "phrase": "to those who had sent them",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "",
+    "note": "Verse 34 (“But it seemed good to Silas to remain there”) is absent from the earliest and best manuscripts and is not part of the Greek text translated here. It was probably added by copyists to explain how Silas could be in Antioch in verse 40."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "ἀδελφός",
+    "rendering": "brothers",
+    "verse": 1,
+    "reason": "The plural for community members recurs throughout Acts and the letters, and translators divide between “brothers,” “brothers and sisters,” and “believers.”"
+   },
+   {
+    "lemma": "πορνεία",
+    "rendering": "sexual immorality",
+    "verse": 20,
+    "reason": "Recurs across the Gospels, Acts, Paul, and Revelation, with versions varying between “fornication,” “sexual immorality,” “unchastity,” and “prostitution.”"
+   },
+   {
+    "lemma": "πατήρ",
+    "rendering": "ancestors",
+    "verse": 10,
+    "reason": "The plural for Israel’s forebears is frequent in Acts, Paul, and Hebrews, and “fathers” versus “ancestors” should be settled once."
+   },
+   {
+    "lemma": "παράκλησις",
+    "rendering": "encouragement",
+    "verse": 31,
+    "reason": "The noun and its verb παρακαλέω range over encourage, comfort, exhort, and appeal, and need a governed split so the cognate link stays visible."
+   },
+   {
+    "lemma": "χάρις",
+    "rendering": "grace",
+    "verse": 11,
+    "reason": "A core term across the New Testament where “grace,” “favor,” and “gift” compete and a reader would be misled by unexplained variation."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [
+  "Verse 26: ψυχή is not rendered with a register form (life; soul; person / people / everyone / human being; living being / living creature; mind; wholeheartedly; keep in suspense) and has no register-exception note.",
+  "Verse 14: ἐπισκέπτομαι is not rendered with a register form (visit; look after; care for; concern oneself; look for / select / pick out) and has no register-exception note."
+ ],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 8355,
+   "output_tokens": 459
+  },
+  "findings": [],
+  "error": ""
+ }
+}

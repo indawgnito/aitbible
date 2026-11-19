@@ -1,0 +1,637 @@
+{
+ "id": "mark-004",
+ "book": "mark",
+ "chapter": 4,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14eQtWsDTdatYBNY5",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 13501,
+  "output_tokens": 16893
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Again he began to teach beside the sea. A very large crowd gathered around him, so that he got into a boat and sat in it on the sea, while the whole crowd was on the land, facing the sea.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He taught them many things in parables, and in his teaching he said to them:\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"“Listen! Look, a sower went out to sow.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And as he sowed, some seed fell along the path, and the birds came and ate it up.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Other seed fell on the rocky ground, where it did not have much soil, and it sprang up at once because it had no depth of soil.\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And when the sun rose it was scorched, and because it had no root it withered.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Other seed fell among the thorns, and the thorns came up and choked it, and it yielded no crop.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And other seeds fell into the good soil and yielded a crop, coming up and growing, and bore thirtyfold and sixtyfold and a hundredfold.”\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And he said,\"},{\"speaker\":\"Jesus\",\"text\":\"“Whoever has ears to hear, let them hear.”\"}]},{\"verse\":10,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When he was alone, those around him, together with the Twelve, asked him about the parables.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“To you the secret of the kingdom of God has been given, but to those outside everything comes in parables,\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"so that they may look and look yet not see, and hear and hear yet not understand; otherwise they might turn back and be forgiven.”\"}]},{\"verse\":13,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And he said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“You do not understand this parable? Then how will you understand all the parables?\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"The sower sows the word.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"These are the ones along the path, where the word is sown: when they hear it, Satan comes at once and takes away the word that was sown in them.\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And these, likewise, are the ones sown on the rocky ground: when they hear the word, they at once receive it with joy,\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"yet they have no root in themselves and last only for a time; then, when affliction or persecution comes because of the word, at once they fall away.\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Others are the ones sown among the thorns: these are the ones who have heard the word,\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"but the worries of the age, the deceitfulness of wealth, and the desires for everything else come in and choke the word, and it yields no crop.\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And those are the ones sown on the good soil: they hear the word and welcome it and yield a crop, thirtyfold and sixtyfold and a hundredfold.”\"}]},{\"verse\":21,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And he said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Does the lamp come to be put under the basket or under the bed? Does it not come to be put on the lampstand?\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For nothing is hidden except to be disclosed, nor has anything been concealed except to come into the open.\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"If anyone has ears to hear, let them hear.”\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And he said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Pay attention to what you hear. With the measure you measure with, it will be measured to you, and more will be added to you.\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For to the one who has, it will be given; and from the one who does not have, even what that person has will be taken away.”\"}]},{\"verse\":26,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And he said,\"},{\"speaker\":\"Jesus\",\"text\":\"“The kingdom of God is like this: it is as if someone scatters seed on the earth\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"and sleeps and rises, night and day, and the seed sprouts and grows, though he himself does not know how.\"}]},{\"verse\":28,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"On its own the earth yields a crop: first the blade, then the ear, then the full grain in the ear.\"}]},{\"verse\":29,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But when the crop is ripe, at once he sends in the sickle, because the harvest has come.”\"}]},{\"verse\":30,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And he said,\"},{\"speaker\":\"Jesus\",\"text\":\"“To what shall we compare the kingdom of God, or what parable shall we use for it?\"}]},{\"verse\":31,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"It is like a mustard seed, which, when it is sown on the earth, is smaller than all the seeds on the earth,\"}]},{\"verse\":32,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"yet when it is sown, it comes up and becomes larger than all the garden plants and puts out large branches, so that the birds of the sky can nest in its shade.”\"}]},{\"verse\":33,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"With many such parables he spoke the word to them, as far as they were able to hear it.\"}]},{\"verse\":34,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He did not speak to them without a parable, but in private he explained everything to his own disciples.\"}]},{\"verse\":35,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"On that day, when evening had come, he said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Let us cross over to the other side.”\"}]},{\"verse\":36,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Leaving the crowd, they took him along in the boat, just as he was; and other boats were with him.\"}]},{\"verse\":37,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"A great windstorm arose, and the waves were breaking into the boat, so that the boat was already filling.\"}]},{\"verse\":38,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But he was in the stern, asleep on the cushion. They woke him and said to him,\"},{\"speaker\":\"other\",\"text\":\"“Teacher, do you not care that we are perishing?”\"}]},{\"verse\":39,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He woke up, rebuked the wind, and said to the sea,\"},{\"speaker\":\"Jesus\",\"text\":\"“Quiet! Be silent!”\"},{\"speaker\":\"narrator\",\"text\":\"And the wind died down, and there was a great calm.\"}]},{\"verse\":40,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Why are you cowardly? Do you still have no faith?”\"}]},{\"verse\":41,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And they were filled with great fear and said to one another,\"},{\"speaker\":\"other\",\"text\":\"“Who then is this, that even the wind and the sea obey him?”\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"beside the sea\",\"lemma\":\"θάλασσα\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"Mark calls the freshwater Lake of Galilee a “sea,” following Semitic usage in which one word covers any large body of water. The rendering keeps “sea” because the storm scene that closes the chapter draws on Old Testament language about God mastering the sea.\"},{\"verse\":2,\"phrase\":\"in parables\",\"lemma\":\"παραβολή\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"In the Greek Old Testament this word translates a Hebrew term covering proverbs, riddles, taunts and extended comparisons. A first-century hearer would not have limited it to illustrative stories. The wider sense, including “riddle,” matters for verse 11, where everything comes “in parables” to outsiders.\"},{\"verse\":11,\"phrase\":\"secret\",\"lemma\":\"μυστήριον\",\"kind\":\"departure\",\"traditional\":\"mystery\",\"note\":\"In Jewish Greek of the period, notably the Greek book of Daniel, this word is the ordinary term for a secret, especially a plan of God that only he can disclose. English “mystery” now suggests a puzzle or something beyond understanding, which is not the point. Many versions keep “mystery” as an established term, though several (RSV, NRSV, NIV) also use “secret” in this saying.\"},{\"verse\":12,\"phrase\":\"so that\",\"lemma\":\"ἵνα\",\"kind\":\"ambiguity\",\"traditional\":\"\",\"note\":\"The words echo Isaiah 6:9–10, in a form closer to the Aramaic synagogue paraphrase (“be forgiven”) than to the Hebrew or the Greek version (“be healed”). The conjunction normally expresses purpose, and many scholars read it so here: the parables carry out the judgment Isaiah announced on unresponsive hearers. Others take it as result (“with the result that”) or as shorthand for “so that Scripture is fulfilled,” and some read the last clause as “unless perhaps they turn.” The rendering keeps the plain purpose sense and does not resolve the difficulty.\"},{\"verse\":17,\"phrase\":\"fall away\",\"lemma\":\"σκανδαλίζω\",\"kind\":\"departure\",\"traditional\":\"are offended\",\"note\":\"The verb comes from the Greek Old Testament’s word for a trap or obstacle and means to be tripped up in one’s loyalty to God. The King James Version’s “are offended” now suggests hurt feelings, which is too weak for people who abandon the word under persecution. Most modern versions also have “fall away” here.\"},{\"verse\":19,\"phrase\":\"the worries of the age\",\"lemma\":\"αἰών\",\"kind\":\"departure\",\"traditional\":\"the cares of this world\",\"note\":\"The Greek word is a time-word meaning an era, here the present age as contrasted with the age to come. “World” blurs this and suggests a different Greek word. Lexicons accept “age” here, though many versions keep “world.”\"},{\"verse\":21,\"phrase\":\"Does the lamp come\",\"lemma\":\"ἔρχομαι\",\"kind\":\"departure\",\"traditional\":\"Is a lamp brought\",\"note\":\"The Greek says literally that the lamp “comes,” with the definite article, and most versions smooth this to “is a lamp brought.” It may be no more than a loose idiom. Many interpreters, however, think the odd wording hints at the coming of Jesus or of the kingdom, hidden now but meant to be revealed, so the literal verb is kept.\"},{\"verse\":21,\"phrase\":\"basket\",\"lemma\":\"μόδιος\",\"kind\":\"background\",\"traditional\":\"bushel\",\"note\":\"The word names a household vessel for measuring grain, holding roughly two gallons (about nine liters). “Bushel,” the traditional rendering, is a much larger measure and now an unfamiliar one.\"},{\"verse\":29,\"phrase\":\"is ripe\",\"lemma\":\"παραδίδωμι\",\"kind\":\"ambiguity\",\"traditional\":\"is brought forth\",\"note\":\"The verb normally means “hand over.” Here alone in the New Testament it is used of a crop, with no object. Most scholars take it to mean “permits,” that is, the crop is ready for harvest, and nearly all modern versions have “is ripe”; a few suggest “yields itself.”\"},{\"verse\":29,\"phrase\":\"he sends in the sickle, because the harvest has come\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"The wording echoes Joel 3:13, where sending in the sickle at harvest is a picture of God’s final judgment. A hearer who knew the prophets would have caught the reference, which gives the quiet growth of the seed a decisive end.\"},{\"verse\":32,\"phrase\":\"the birds of the sky can nest in its shade\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"The picture recalls the great tree of Ezekiel 17:23 and 31:6 and Daniel 4:12, in whose branches or shade the birds lodge. That tree is an image of a kingdom sheltering many peoples. Applying it to a garden shrub grown from a tiny seed is part of the parable’s point.\"},{\"verse\":39,\"phrase\":\"Be silent!\",\"lemma\":\"φιμόω\",\"kind\":\"departure\",\"traditional\":\"Peace! Be still!\",\"note\":\"The second command uses a verb meaning literally “muzzle” and commonly “silence.” Jesus uses the same verb to silence an unclean spirit at Mark 1:25, and the narrator’s word “rebuked” appears in both scenes. The traditional “Peace! Be still!” is gentler than the Greek, which addresses the sea as a hostile power being shut up.\"},{\"verse\":40,\"phrase\":\"cowardly\",\"lemma\":\"δειλός\",\"kind\":\"departure\",\"traditional\":\"Why are you so afraid?\",\"note\":\"The Greek adjective means timid or cowardly and is a reproach. It is a different word from the “fear” of the next verse, which is closer to awe. Most versions use “afraid” or “fearful” for both, which hides the contrast between the cowardice Jesus rebukes and the great fear that follows the calm.\"}],\"candidates\":[{\"lemma\":\"εὐθύς\",\"rendering\":\"at once\",\"verse\":5,\"reason\":\"Mark’s signature adverb occurs some forty times, and versions vary among “immediately,” “at once” and “straightway”; one rendering lets the reader hear the refrain.\"},{\"lemma\":\"καρπός\",\"rendering\":\"crop\",\"verse\":7,\"reason\":\"“Fruit,” “grain” and “crop” are all defensible for a harvest; the choice affects whether the parable and its interpretation, and the wider “bear fruit” language, stay visibly linked.\"},{\"lemma\":\"ἐπιτιμάω\",\"rendering\":\"rebuke\",\"verse\":39,\"reason\":\"Used of Jesus commanding demons, wind and disciples; a uniform rendering preserves the link between exorcisms and the stilling of the storm.\"},{\"lemma\":\"ἐπιστρέφω\",\"rendering\":\"turn back\",\"verse\":12,\"reason\":\"Versions vary among “turn,” “return,” “be converted” and “repent” for turning to God; it needs to be kept distinct from μετανοέω across the New Testament.\"},{\"lemma\":\"θάλασσα\",\"rendering\":\"sea\",\"verse\":1,\"reason\":\"For the Lake of Galilee, versions alternate between “sea” and “lake”; a single decision is needed because Old Testament sea imagery depends on it.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Again he began to teach beside the sea. A very large crowd gathered around him, so that he got into a boat and sat in it on the sea, while the whole crowd was on the land, facing the sea."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He taught them many things in parables, and in his teaching he said to them:"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "“Listen! Look, a sower went out to sow."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And as he sowed, some seed fell along the path, and the birds came and ate it up."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Other seed fell on the rocky ground, where it did not have much soil, and it sprang up at once because it had no depth of soil."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And when the sun rose it was scorched, and because it had no root it withered."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Other seed fell among the thorns, and the thorns came up and choked it, and it yielded no crop."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And other seeds fell into the good soil and yielded a crop, coming up and growing, and bore thirtyfold and sixtyfold and a hundredfold.”"
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And he said,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Whoever has ears to hear, let them hear.”"
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When he was alone, those around him, together with the Twelve, asked him about the parables."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“To you the secret of the kingdom of God has been given, but to those outside everything comes in parables,"
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "so that they may look and look yet not see, and hear and hear yet not understand; otherwise they might turn back and be forgiven.”"
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And he said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“You do not understand this parable? Then how will you understand all the parables?"
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "The sower sows the word."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "These are the ones along the path, where the word is sown: when they hear it, Satan comes at once and takes away the word that was sown in them."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And these, likewise, are the ones sown on the rocky ground: when they hear the word, they at once receive it with joy,"
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "yet they have no root in themselves and last only for a time; then, when affliction or persecution comes because of the word, at once they fall away."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Others are the ones sown among the thorns: these are the ones who have heard the word,"
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "but the worries of the age, the deceitfulness of wealth, and the desires for everything else come in and choke the word, and it yields no crop."
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And those are the ones sown on the good soil: they hear the word and welcome it and yield a crop, thirtyfold and sixtyfold and a hundredfold.”"
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And he said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Does the lamp come to be put under the basket or under the bed? Does it not come to be put on the lampstand?"
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For nothing is hidden except to be disclosed, nor has anything been concealed except to come into the open."
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "If anyone has ears to hear, let them hear.”"
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And he said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Pay attention to what you hear. With the measure you measure with, it will be measured to you, and more will be added to you."
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For to the one who has, it will be given; and from the one who does not have, even what that person has will be taken away.”"
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And he said,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“The kingdom of God is like this: it is as if someone scatters seed on the earth"
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "and sleeps and rises, night and day, and the seed sprouts and grows, though he himself does not know how."
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "On its own the earth yields a crop: first the blade, then the ear, then the full grain in the ear."
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But when the crop is ripe, at once he sends in the sickle, because the harvest has come.”"
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And he said,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“To what shall we compare the kingdom of God, or what parable shall we use for it?"
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "It is like a mustard seed, which, when it is sown on the earth, is smaller than all the seeds on the earth,"
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "yet when it is sown, it comes up and becomes larger than all the garden plants and puts out large branches, so that the birds of the sky can nest in its shade.”"
+     }
+    ]
+   },
+   {
+    "verse": 33,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "With many such parables he spoke the word to them, as far as they were able to hear it."
+     }
+    ]
+   },
+   {
+    "verse": 34,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He did not speak to them without a parable, but in private he explained everything to his own disciples."
+     }
+    ]
+   },
+   {
+    "verse": 35,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "On that day, when evening had come, he said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Let us cross over to the other side.”"
+     }
+    ]
+   },
+   {
+    "verse": 36,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Leaving the crowd, they took him along in the boat, just as he was; and other boats were with him."
+     }
+    ]
+   },
+   {
+    "verse": 37,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "A great windstorm arose, and the waves were breaking into the boat, so that the boat was already filling."
+     }
+    ]
+   },
+   {
+    "verse": 38,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But he was in the stern, asleep on the cushion. They woke him and said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Teacher, do you not care that we are perishing?”"
+     }
+    ]
+   },
+   {
+    "verse": 39,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He woke up, rebuked the wind, and said to the sea,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Quiet! Be silent!”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "And the wind died down, and there was a great calm."
+     }
+    ]
+   },
+   {
+    "verse": 40,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Why are you cowardly? Do you still have no faith?”"
+     }
+    ]
+   },
+   {
+    "verse": 41,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And they were filled with great fear and said to one another,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Who then is this, that even the wind and the sea obey him?”"
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "beside the sea",
+    "lemma": "θάλασσα",
+    "kind": "background",
+    "traditional": "",
+    "note": "Mark calls the freshwater Lake of Galilee a “sea,” following Semitic usage in which one word covers any large body of water. The rendering keeps “sea” because the storm scene that closes the chapter draws on Old Testament language about God mastering the sea."
+   },
+   {
+    "verse": 2,
+    "phrase": "in parables",
+    "lemma": "παραβολή",
+    "kind": "background",
+    "traditional": "",
+    "note": "In the Greek Old Testament this word translates a Hebrew term covering proverbs, riddles, taunts and extended comparisons. A first-century hearer would not have limited it to illustrative stories. The wider sense, including “riddle,” matters for verse 11, where everything comes “in parables” to outsiders."
+   },
+   {
+    "verse": 11,
+    "phrase": "secret",
+    "lemma": "μυστήριον",
+    "kind": "departure",
+    "traditional": "mystery",
+    "note": "In Jewish Greek of the period, notably the Greek book of Daniel, this word is the ordinary term for a secret, especially a plan of God that only he can disclose. English “mystery” now suggests a puzzle or something beyond understanding, which is not the point. Many versions keep “mystery” as an established term, though several (RSV, NRSV, NIV) also use “secret” in this saying."
+   },
+   {
+    "verse": 12,
+    "phrase": "so that",
+    "lemma": "ἵνα",
+    "kind": "ambiguity",
+    "traditional": "",
+    "note": "The words echo Isaiah 6:9–10, in a form closer to the Aramaic synagogue paraphrase (“be forgiven”) than to the Hebrew or the Greek version (“be healed”). The conjunction normally expresses purpose, and many scholars read it so here: the parables carry out the judgment Isaiah announced on unresponsive hearers. Others take it as result (“with the result that”) or as shorthand for “so that Scripture is fulfilled,” and some read the last clause as “unless perhaps they turn.” The rendering keeps the plain purpose sense and does not resolve the difficulty."
+   },
+   {
+    "verse": 17,
+    "phrase": "fall away",
+    "lemma": "σκανδαλίζω",
+    "kind": "departure",
+    "traditional": "are offended",
+    "note": "The verb comes from the Greek Old Testament’s word for a trap or obstacle and means to be tripped up in one’s loyalty to God. The King James Version’s “are offended” now suggests hurt feelings, which is too weak for people who abandon the word under persecution. Most modern versions also have “fall away” here."
+   },
+   {
+    "verse": 19,
+    "phrase": "the worries of the age",
+    "lemma": "αἰών",
+    "kind": "departure",
+    "traditional": "the cares of this world",
+    "note": "The Greek word is a time-word meaning an era, here the present age as contrasted with the age to come. “World” blurs this and suggests a different Greek word. Lexicons accept “age” here, though many versions keep “world.”"
+   },
+   {
+    "verse": 21,
+    "phrase": "Does the lamp come",
+    "lemma": "ἔρχομαι",
+    "kind": "departure",
+    "traditional": "Is a lamp brought",
+    "note": "The Greek says literally that the lamp “comes,” with the definite article, and most versions smooth this to “is a lamp brought.” It may be no more than a loose idiom. Many interpreters, however, think the odd wording hints at the coming of Jesus or of the kingdom, hidden now but meant to be revealed, so the literal verb is kept."
+   },
+   {
+    "verse": 21,
+    "phrase": "basket",
+    "lemma": "μόδιος",
+    "kind": "background",
+    "traditional": "bushel",
+    "note": "The word names a household vessel for measuring grain, holding roughly two gallons (about nine liters). “Bushel,” the traditional rendering, is a much larger measure and now an unfamiliar one."
+   },
+   {
+    "verse": 29,
+    "phrase": "is ripe",
+    "lemma": "παραδίδωμι",
+    "kind": "ambiguity",
+    "traditional": "is brought forth",
+    "note": "The verb normally means “hand over.” Here alone in the New Testament it is used of a crop, with no object. Most scholars take it to mean “permits,” that is, the crop is ready for harvest, and nearly all modern versions have “is ripe”; a few suggest “yields itself.”"
+   },
+   {
+    "verse": 29,
+    "phrase": "he sends in the sickle, because the harvest has come",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "The wording echoes Joel 3:13, where sending in the sickle at harvest is a picture of God’s final judgment. A hearer who knew the prophets would have caught the reference, which gives the quiet growth of the seed a decisive end."
+   },
+   {
+    "verse": 32,
+    "phrase": "the birds of the sky can nest in its shade",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "The picture recalls the great tree of Ezekiel 17:23 and 31:6 and Daniel 4:12, in whose branches or shade the birds lodge. That tree is an image of a kingdom sheltering many peoples. Applying it to a garden shrub grown from a tiny seed is part of the parable’s point."
+   },
+   {
+    "verse": 39,
+    "phrase": "Be silent!",
+    "lemma": "φιμόω",
+    "kind": "departure",
+    "traditional": "Peace! Be still!",
+    "note": "The second command uses a verb meaning literally “muzzle” and commonly “silence.” Jesus uses the same verb to silence an unclean spirit at Mark 1:25, and the narrator’s word “rebuked” appears in both scenes. The traditional “Peace! Be still!” is gentler than the Greek, which addresses the sea as a hostile power being shut up."
+   },
+   {
+    "verse": 40,
+    "phrase": "cowardly",
+    "lemma": "δειλός",
+    "kind": "departure",
+    "traditional": "Why are you so afraid?",
+    "note": "The Greek adjective means timid or cowardly and is a reproach. It is a different word from the “fear” of the next verse, which is closer to awe. Most versions use “afraid” or “fearful” for both, which hides the contrast between the cowardice Jesus rebukes and the great fear that follows the calm."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "εὐθύς",
+    "rendering": "at once",
+    "verse": 5,
+    "reason": "Mark’s signature adverb occurs some forty times, and versions vary among “immediately,” “at once” and “straightway”; one rendering lets the reader hear the refrain."
+   },
+   {
+    "lemma": "καρπός",
+    "rendering": "crop",
+    "verse": 7,
+    "reason": "“Fruit,” “grain” and “crop” are all defensible for a harvest; the choice affects whether the parable and its interpretation, and the wider “bear fruit” language, stay visibly linked."
+   },
+   {
+    "lemma": "ἐπιτιμάω",
+    "rendering": "rebuke",
+    "verse": 39,
+    "reason": "Used of Jesus commanding demons, wind and disciples; a uniform rendering preserves the link between exorcisms and the stilling of the storm."
+   },
+   {
+    "lemma": "ἐπιστρέφω",
+    "rendering": "turn back",
+    "verse": 12,
+    "reason": "Versions vary among “turn,” “return,” “be converted” and “repent” for turning to God; it needs to be kept distinct from μετανοέω across the New Testament."
+   },
+   {
+    "lemma": "θάλασσα",
+    "rendering": "sea",
+    "verse": 1,
+    "reason": "For the Lake of Galilee, versions alternate between “sea” and “lake”; a single decision is needed because Old Testament sea imagery depends on it."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [
+  "Verse 29: παραδίδωμι is not rendered with a register form (hand over; hand on; hand down; give up; give over; entrust; risk; be ripe) and has no register-exception note."
+ ],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 7563,
+   "output_tokens": 160
+  },
+  "findings": [],
+  "error": ""
+ }
+}

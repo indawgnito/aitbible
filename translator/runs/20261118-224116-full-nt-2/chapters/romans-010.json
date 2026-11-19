@@ -1,0 +1,435 @@
+{
+ "id": "romans-010",
+ "book": "romans",
+ "chapter": 10,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14g9SJ1nAoAt5mcTg",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 8057,
+  "output_tokens": 18230
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Brothers and sisters, my heart’s desire and my prayer to God for them is for their salvation.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For I testify on their behalf that they have zeal for God, but not in accordance with knowledge.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For, not knowing God’s righteousness and seeking to establish their own, they did not submit to the righteousness of God.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For Christ is the end of the law, leading to righteousness for everyone who believes.\"}]},{\"verse\":5,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For Moses writes that\"},{\"speaker\":\"scripture\",\"text\":\"“the person who does the righteousness that comes from the law will live by it.”\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But the righteousness that comes from faith speaks this way:\"},{\"speaker\":\"scripture\",\"text\":\"“Do not say in your heart, ‘Who will go up into heaven?’”\"},{\"speaker\":\"narrator\",\"text\":\"(that is, to bring Christ down)\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"or,\"},{\"speaker\":\"scripture\",\"text\":\"“Who will go down into the abyss?”\"},{\"speaker\":\"narrator\",\"text\":\"(that is, to bring Christ up from the dead).\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But what does it say?\"},{\"speaker\":\"scripture\",\"text\":\"“The word is near you, in your mouth and in your heart”\"},{\"speaker\":\"narrator\",\"text\":\"(that is, the word of faith that we proclaim);\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"because if you declare with your mouth that Jesus is Lord and believe in your heart that God raised him from the dead, you will be saved.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For with the heart one believes, leading to righteousness, and with the mouth one declares, leading to salvation.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For the Scripture says,\"},{\"speaker\":\"scripture\",\"text\":\"“Everyone who believes in him will not be put to shame.”\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For there is no distinction between Jew and Greek, for the same Lord is Lord of all, rich toward all who call on him.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For\"},{\"speaker\":\"scripture\",\"text\":\"“everyone who calls on the name of the Lord will be saved.”\"}]},{\"verse\":14,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"How then are they to call on one in whom they have not believed? And how are they to believe in one whom they have not heard? And how are they to hear without someone proclaiming?\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And how are they to proclaim unless they are sent? As it is written,\"},{\"speaker\":\"scripture\",\"text\":\"“How beautiful are the feet of those who bring good news of good things!”\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But not all have heeded the good news. For Isaiah says,\"},{\"speaker\":\"scripture\",\"text\":\"“Lord, who has believed what they heard from us?”\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So faith comes from what is heard, and what is heard comes through the word of Christ.\"}]},{\"verse\":18,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But I ask, have they not heard? Indeed they have:\"},{\"speaker\":\"scripture\",\"text\":\"“Their voice has gone out into all the earth, and their words to the ends of the inhabited world.”\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But I ask, did Israel not know? First, Moses says,\"},{\"speaker\":\"scripture\",\"text\":\"“I will make you jealous over those who are not a nation; over a nation without understanding I will make you angry.”\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And Isaiah is so bold as to say,\"},{\"speaker\":\"scripture\",\"text\":\"“I was found among those who were not seeking me; I showed myself to those who were not asking for me.”\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But about Israel he says,\"},{\"speaker\":\"scripture\",\"text\":\"“All day long I have stretched out my hands to a disobedient and contrary people.”\"}]}],\"notes\":[{\"verse\":3,\"phrase\":\"righteousness\",\"lemma\":\"δικαιοσύνη\",\"kind\":\"background\",\"traditional\":\"righteousness\",\"note\":\"Greek has a single word-family where English has two: “righteous” and “just,” “righteousness” and “justice,” and “justify” all translate related forms of one Greek word. “The righteousness of God” here can mean God’s own action to set things right or the right standing that God gives; scholars are divided, and Paul may intend both. “Righteousness” is kept because “the justice of God” would suggest punishment to a modern reader.\"},{\"verse\":4,\"phrase\":\"end\",\"lemma\":\"τέλος\",\"kind\":\"ambiguity\",\"traditional\":\"end\",\"note\":\"The Greek word can mean a termination, a goal, or an outcome, and each has been defended here. On one reading Christ brings the law’s role to a close; on another he is the goal toward which the law was always heading; many interpreters combine the two. “End” is kept because the English word can carry both senses.\"},{\"verse\":5,\"phrase\":\"will live by it\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"Moses writes about the righteousness that is from the law: “The person who does these things will live by them.”\",\"note\":\"Manuscripts differ on the wording of this verse. The text translated here makes “the righteousness that comes from the law” the thing a person does and lives by. Other manuscripts, followed by many translations, have the wording shown as the traditional rendering, which stands closer to Leviticus 18:5, the passage Paul is drawing on.\"},{\"verse\":6,\"phrase\":\"Do not say in your heart\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"In verses 6–8 Paul lets the righteousness that comes from faith speak in the words of Deuteronomy 30:12–14, where Moses says that God’s commandment is not far off in heaven or across the sea but near at hand. The opening words echo Deuteronomy 9:4. Paul adds a comment after each line applying it to Christ, and in verse 7 “the abyss,” the deep or the realm of the dead, stands where Deuteronomy speaks of crossing the sea.\"},{\"verse\":9,\"phrase\":\"because\",\"lemma\":\"ὅτι\",\"kind\":\"ambiguity\",\"traditional\":\"that\",\"note\":\"The Greek conjunction can mean “because” or “that.” With “that,” verse 9 states the content of the word of faith; with “because,” it explains why the word is near, in mouth and heart. Translations are divided.\"},{\"verse\":9,\"phrase\":\"declare\",\"lemma\":\"ὁμολογέω\",\"kind\":\"departure\",\"traditional\":\"confess\",\"note\":\"The Greek verb means to state openly or acknowledge publicly. “Confess” is the traditional rendering, but in modern English it mainly suggests admitting guilt, which is not in view here. Some modern translations likewise use “declare.” The words declared could also be rendered “Jesus as Lord.”\"},{\"verse\":13,\"phrase\":\"the name of the Lord\",\"lemma\":\"κύριος\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"The quotation is Joel 2:32 (3:5 in the Greek version), where “the Lord” stands for the name of Israel’s God. Coming directly after “Jesus is Lord” in verse 9 and “the same Lord is Lord of all” in verse 12, the line is most likely applied by Paul to Jesus, though some interpreters take “Lord” here as God the Father.\"},{\"verse\":14,\"phrase\":\"one whom they have not heard\",\"lemma\":\"ἀκούω\",\"kind\":\"departure\",\"traditional\":\"him of whom they have not heard\",\"note\":\"Most translations read “of whom they have not heard,” that is, heard about. In Greek, however, this verb with its object in this grammatical case normally means hearing a person speak, not hearing about them, so the sense is probably that Christ himself is heard in the message of those who proclaim him. A number of commentators accept this reading; the traditional one remains possible.\"},{\"verse\":15,\"phrase\":\"bring good news\",\"lemma\":\"εὐαγγελίζω\",\"kind\":\"departure\",\"traditional\":\"preach the gospel\",\"note\":\"The verb here and the noun in verse 16, traditionally “gospel,” were ordinary Greek words for announcing good news, including public and imperial announcements. “Gospel” now sounds like a religious term or a book title, so “good news” is used; many modern translations do the same in places. The quotation is from Isaiah 52:7, where a messenger announces to Jerusalem that God reigns.\"},{\"verse\":16,\"phrase\":\"what they heard from us\",\"lemma\":\"ἀκοή\",\"kind\":\"departure\",\"traditional\":\"our report; our message\",\"note\":\"The Greek word, quoted from Isaiah 53:1, can mean both the act of hearing and the thing heard, a report or message. Paul uses it twice more in verse 17, and it belongs with “heard” in verses 14 and 18 and with “heeded” in this verse, a compound of the same verb. Rendering it “what is heard” keeps that chain visible; most translations have “our message” or “our report” here and “hearing” in verse 17.\"},{\"verse\":17,\"phrase\":\"the word of Christ\",\"lemma\":\"ῥῆμα\",\"kind\":\"textual\",\"traditional\":\"the word of God\",\"note\":\"Many later manuscripts read “the word of God,” which older English versions follow; the earliest witnesses have “the word of Christ.” The phrase can mean the message about Christ or the word Christ himself speaks through his messengers; the Greek does not decide.\"},{\"verse\":19,\"phrase\":\"nation\",\"lemma\":\"ἔθνος\",\"kind\":\"background\",\"traditional\":\"nation\",\"note\":\"This is the singular of the word that in the plural is usually translated “Gentiles,” the non-Jewish peoples. Paul reads the line from Deuteronomy 32:21 as pointing to them: God will stir Israel to jealousy through people who had no standing as his nation. The theme returns in chapter 11.\"}],\"candidates\":[{\"lemma\":\"ἀδελφός\",\"rendering\":\"brothers and sisters\",\"verse\":1,\"reason\":\"The plural address recurs throughout the letters and Acts, and translators split between “brothers,” “brothers and sisters,” and “friends,” so one policy is needed for mixed-audience address.\"},{\"lemma\":\"νόμος\",\"rendering\":\"law\",\"verse\":4,\"reason\":\"It occurs constantly in Paul with shifting reference (Torah, the Pentateuch, a principle), and capitalization and rendering will drift between chapters without a ruling on each sense.\"},{\"lemma\":\"ὁμολογέω\",\"rendering\":\"declare\",\"verse\":9,\"reason\":\"The traditional “confess” now suggests admitting guilt; the word recurs in the Gospels, the letters, Hebrews and 1 John, and “declare,” “acknowledge,” and “confess” would otherwise vary.\"},{\"lemma\":\"κηρύσσω\",\"rendering\":\"proclaim\",\"verse\":8,\"reason\":\"It is frequent across the Gospels, Acts and the letters, and the choice between “preach” and “proclaim” should be uniform, since “preach” now implies a sermon.\"},{\"lemma\":\"οἰκουμένη\",\"rendering\":\"inhabited world\",\"verse\":18,\"reason\":\"It recurs in Luke–Acts, Hebrews and Revelation and is variously rendered “world,” “inhabited world,” or “empire,” which obscures its difference from κόσμος and γῆ.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Brothers and sisters, my heart’s desire and my prayer to God for them is for their salvation."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For I testify on their behalf that they have zeal for God, but not in accordance with knowledge."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For, not knowing God’s righteousness and seeking to establish their own, they did not submit to the righteousness of God."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For Christ is the end of the law, leading to righteousness for everyone who believes."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For Moses writes that"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“the person who does the righteousness that comes from the law will live by it.”"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But the righteousness that comes from faith speaks this way:"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“Do not say in your heart, ‘Who will go up into heaven?’”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "(that is, to bring Christ down)"
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "or,"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“Who will go down into the abyss?”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "(that is, to bring Christ up from the dead)."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But what does it say?"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“The word is near you, in your mouth and in your heart”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "(that is, the word of faith that we proclaim);"
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "because if you declare with your mouth that Jesus is Lord and believe in your heart that God raised him from the dead, you will be saved."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For with the heart one believes, leading to righteousness, and with the mouth one declares, leading to salvation."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For the Scripture says,"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“Everyone who believes in him will not be put to shame.”"
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For there is no distinction between Jew and Greek, for the same Lord is Lord of all, rich toward all who call on him."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“everyone who calls on the name of the Lord will be saved.”"
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "How then are they to call on one in whom they have not believed? And how are they to believe in one whom they have not heard? And how are they to hear without someone proclaiming?"
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And how are they to proclaim unless they are sent? As it is written,"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“How beautiful are the feet of those who bring good news of good things!”"
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But not all have heeded the good news. For Isaiah says,"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“Lord, who has believed what they heard from us?”"
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So faith comes from what is heard, and what is heard comes through the word of Christ."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But I ask, have they not heard? Indeed they have:"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“Their voice has gone out into all the earth, and their words to the ends of the inhabited world.”"
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But I ask, did Israel not know? First, Moses says,"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“I will make you jealous over those who are not a nation; over a nation without understanding I will make you angry.”"
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And Isaiah is so bold as to say,"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“I was found among those who were not seeking me; I showed myself to those who were not asking for me.”"
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But about Israel he says,"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“All day long I have stretched out my hands to a disobedient and contrary people.”"
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 3,
+    "phrase": "righteousness",
+    "lemma": "δικαιοσύνη",
+    "kind": "background",
+    "traditional": "righteousness",
+    "note": "Greek has a single word-family where English has two: “righteous” and “just,” “righteousness” and “justice,” and “justify” all translate related forms of one Greek word. “The righteousness of God” here can mean God’s own action to set things right or the right standing that God gives; scholars are divided, and Paul may intend both. “Righteousness” is kept because “the justice of God” would suggest punishment to a modern reader."
+   },
+   {
+    "verse": 4,
+    "phrase": "end",
+    "lemma": "τέλος",
+    "kind": "ambiguity",
+    "traditional": "end",
+    "note": "The Greek word can mean a termination, a goal, or an outcome, and each has been defended here. On one reading Christ brings the law’s role to a close; on another he is the goal toward which the law was always heading; many interpreters combine the two. “End” is kept because the English word can carry both senses."
+   },
+   {
+    "verse": 5,
+    "phrase": "will live by it",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "Moses writes about the righteousness that is from the law: “The person who does these things will live by them.”",
+    "note": "Manuscripts differ on the wording of this verse. The text translated here makes “the righteousness that comes from the law” the thing a person does and lives by. Other manuscripts, followed by many translations, have the wording shown as the traditional rendering, which stands closer to Leviticus 18:5, the passage Paul is drawing on."
+   },
+   {
+    "verse": 6,
+    "phrase": "Do not say in your heart",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "In verses 6–8 Paul lets the righteousness that comes from faith speak in the words of Deuteronomy 30:12–14, where Moses says that God’s commandment is not far off in heaven or across the sea but near at hand. The opening words echo Deuteronomy 9:4. Paul adds a comment after each line applying it to Christ, and in verse 7 “the abyss,” the deep or the realm of the dead, stands where Deuteronomy speaks of crossing the sea."
+   },
+   {
+    "verse": 9,
+    "phrase": "because",
+    "lemma": "ὅτι",
+    "kind": "ambiguity",
+    "traditional": "that",
+    "note": "The Greek conjunction can mean “because” or “that.” With “that,” verse 9 states the content of the word of faith; with “because,” it explains why the word is near, in mouth and heart. Translations are divided."
+   },
+   {
+    "verse": 9,
+    "phrase": "declare",
+    "lemma": "ὁμολογέω",
+    "kind": "departure",
+    "traditional": "confess",
+    "note": "The Greek verb means to state openly or acknowledge publicly. “Confess” is the traditional rendering, but in modern English it mainly suggests admitting guilt, which is not in view here. Some modern translations likewise use “declare.” The words declared could also be rendered “Jesus as Lord.”"
+   },
+   {
+    "verse": 13,
+    "phrase": "the name of the Lord",
+    "lemma": "κύριος",
+    "kind": "background",
+    "traditional": "",
+    "note": "The quotation is Joel 2:32 (3:5 in the Greek version), where “the Lord” stands for the name of Israel’s God. Coming directly after “Jesus is Lord” in verse 9 and “the same Lord is Lord of all” in verse 12, the line is most likely applied by Paul to Jesus, though some interpreters take “Lord” here as God the Father."
+   },
+   {
+    "verse": 14,
+    "phrase": "one whom they have not heard",
+    "lemma": "ἀκούω",
+    "kind": "departure",
+    "traditional": "him of whom they have not heard",
+    "note": "Most translations read “of whom they have not heard,” that is, heard about. In Greek, however, this verb with its object in this grammatical case normally means hearing a person speak, not hearing about them, so the sense is probably that Christ himself is heard in the message of those who proclaim him. A number of commentators accept this reading; the traditional one remains possible."
+   },
+   {
+    "verse": 15,
+    "phrase": "bring good news",
+    "lemma": "εὐαγγελίζω",
+    "kind": "departure",
+    "traditional": "preach the gospel",
+    "note": "The verb here and the noun in verse 16, traditionally “gospel,” were ordinary Greek words for announcing good news, including public and imperial announcements. “Gospel” now sounds like a religious term or a book title, so “good news” is used; many modern translations do the same in places. The quotation is from Isaiah 52:7, where a messenger announces to Jerusalem that God reigns."
+   },
+   {
+    "verse": 16,
+    "phrase": "what they heard from us",
+    "lemma": "ἀκοή",
+    "kind": "departure",
+    "traditional": "our report; our message",
+    "note": "The Greek word, quoted from Isaiah 53:1, can mean both the act of hearing and the thing heard, a report or message. Paul uses it twice more in verse 17, and it belongs with “heard” in verses 14 and 18 and with “heeded” in this verse, a compound of the same verb. Rendering it “what is heard” keeps that chain visible; most translations have “our message” or “our report” here and “hearing” in verse 17."
+   },
+   {
+    "verse": 17,
+    "phrase": "the word of Christ",
+    "lemma": "ῥῆμα",
+    "kind": "textual",
+    "traditional": "the word of God",
+    "note": "Many later manuscripts read “the word of God,” which older English versions follow; the earliest witnesses have “the word of Christ.” The phrase can mean the message about Christ or the word Christ himself speaks through his messengers; the Greek does not decide."
+   },
+   {
+    "verse": 19,
+    "phrase": "nation",
+    "lemma": "ἔθνος",
+    "kind": "background",
+    "traditional": "nation",
+    "note": "This is the singular of the word that in the plural is usually translated “Gentiles,” the non-Jewish peoples. Paul reads the line from Deuteronomy 32:21 as pointing to them: God will stir Israel to jealousy through people who had no standing as his nation. The theme returns in chapter 11."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "ἀδελφός",
+    "rendering": "brothers and sisters",
+    "verse": 1,
+    "reason": "The plural address recurs throughout the letters and Acts, and translators split between “brothers,” “brothers and sisters,” and “friends,” so one policy is needed for mixed-audience address."
+   },
+   {
+    "lemma": "νόμος",
+    "rendering": "law",
+    "verse": 4,
+    "reason": "It occurs constantly in Paul with shifting reference (Torah, the Pentateuch, a principle), and capitalization and rendering will drift between chapters without a ruling on each sense."
+   },
+   {
+    "lemma": "ὁμολογέω",
+    "rendering": "declare",
+    "verse": 9,
+    "reason": "The traditional “confess” now suggests admitting guilt; the word recurs in the Gospels, the letters, Hebrews and 1 John, and “declare,” “acknowledge,” and “confess” would otherwise vary."
+   },
+   {
+    "lemma": "κηρύσσω",
+    "rendering": "proclaim",
+    "verse": 8,
+    "reason": "It is frequent across the Gospels, Acts and the letters, and the choice between “preach” and “proclaim” should be uniform, since “preach” now implies a sermon."
+   },
+   {
+    "lemma": "οἰκουμένη",
+    "rendering": "inhabited world",
+    "verse": 18,
+    "reason": "It recurs in Luke–Acts, Hebrews and Revelation and is variously rendered “world,” “inhabited world,” or “empire,” which obscures its difference from κόσμος and γῆ."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 4600,
+   "output_tokens": 202
+  },
+  "findings": [],
+  "error": ""
+ }
+}

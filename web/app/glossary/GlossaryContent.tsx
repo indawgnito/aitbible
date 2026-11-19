@@ -57,7 +57,7 @@ export function GlossaryContent({
       {/* Header */}
       <div className="mb-6">
         <h1 className="text-3xl font-semibold text-neutral-900 dark:text-neutral-100 mb-4">
-          Translation Glossary
+          Word Choices
         </h1>
         <p className="text-lg text-neutral-600 dark:text-neutral-400 leading-relaxed">
           These are the words where the AIT Bible uses a different English

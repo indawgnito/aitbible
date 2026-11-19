@@ -62,6 +62,13 @@ export default function VisionPage() {
             are translated again.
           </p>
           <p>
+            A second, different AI model then reads every chapter against
+            the Greek and reports anything left out, added, or given the
+            wrong meaning. Flagged verses are rewritten and checked again.
+            Before this reviewer was trusted, it was tested on chapters with
+            errors planted in them.
+          </p>
+          <p>
             The register, the prompt, and the model&rsquo;s raw output for
             every chapter are in the{" "}
             <a href="https://github.com/indawgnito/aitbible" target="_blank" rel="noopener noreferrer" className="text-amber-700 dark:text-amber-500 hover:underline font-medium">
@@ -95,7 +102,8 @@ export default function VisionPage() {
           <p>
             This is a machine translation. No scholar has reviewed it, and
             the decisions in the register have not been checked against a
-            lexicon. The model learned Greek from the same scholarship that
+            lexicon. The AI reviewer reliably catches obvious errors; how
+            well it catches subtle ones has not been measured. The model learned Greek from the same scholarship that
             produced existing translations, so it is not an independent
             authority, and it can be confidently wrong.
           </p>

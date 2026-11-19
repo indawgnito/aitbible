@@ -1,0 +1,837 @@
+{
+ "id": "john-004",
+ "book": "john",
+ "chapter": 4,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14fR3x397WtbeQ7DL",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 14894,
+  "output_tokens": 17460
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now when Jesus learned that the Pharisees had heard that Jesus was making and baptizing more disciples than John—\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"though Jesus himself was not baptizing; his disciples were—\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"he left Judea and set off again for Galilee.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He had to pass through Samaria.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So he came to a town of Samaria called Sychar, near the plot of land that Jacob had given to his son Joseph.\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jacob’s spring was there. So Jesus, tired from the journey, sat down just as he was by the spring. It was about the sixth hour.\"}]},{\"verse\":7,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"A woman of Samaria came to draw water. Jesus said to her,\"},{\"speaker\":\"Jesus\",\"text\":\"“Give me a drink.”\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For his disciples had gone off into the town to buy food.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So the Samaritan woman said to him,\"},{\"speaker\":\"other\",\"text\":\"“How is it that you, a Jew, ask for a drink from me, a Samaritan woman?”\"},{\"speaker\":\"narrator\",\"text\":\"For Jews do not associate with Samaritans.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus answered her,\"},{\"speaker\":\"Jesus\",\"text\":\"“If you knew the gift of God, and who it is that is saying to you, ‘Give me a drink,’ you would have asked him, and he would have given you living water.”\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The woman said to him,\"},{\"speaker\":\"other\",\"text\":\"“Sir, you have no bucket, and the well is deep. So where do you get this living water?\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Surely you are not greater than our father Jacob, who gave us the well and drank from it himself, along with his sons and his livestock?”\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus answered her,\"},{\"speaker\":\"Jesus\",\"text\":\"“Everyone who drinks of this water will be thirsty again,\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"but whoever drinks of the water that I will give them will never be thirsty. Rather, the water that I will give them will become in them a spring of water welling up to eternal life.”\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The woman said to him,\"},{\"speaker\":\"other\",\"text\":\"“Sir, give me this water, so that I will not be thirsty or have to keep coming all the way here to draw.”\"}]},{\"verse\":16,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He said to her,\"},{\"speaker\":\"Jesus\",\"text\":\"“Go, call your husband, and come back here.”\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The woman answered him,\"},{\"speaker\":\"other\",\"text\":\"“I have no husband.”\"},{\"speaker\":\"narrator\",\"text\":\"Jesus said to her,\"},{\"speaker\":\"Jesus\",\"text\":\"“You are right to say, ‘I have no husband,’\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"for you have had five husbands, and the one you have now is not your husband. In this you have spoken the truth.”\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The woman said to him,\"},{\"speaker\":\"other\",\"text\":\"“Sir, I see that you are a prophet.\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Our fathers worshiped on this mountain, but you people say that the place where one must worship is in Jerusalem.”\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus said to her,\"},{\"speaker\":\"Jesus\",\"text\":\"“Believe me, woman, an hour is coming when you will worship the Father neither on this mountain nor in Jerusalem.\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"You worship what you do not know; we worship what we know, because salvation is from the Jews.\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But an hour is coming, and is now here, when the true worshipers will worship the Father in spirit and truth, for indeed the Father is seeking such people to worship him.\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"God is spirit, and those who worship him must worship in spirit and truth.”\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The woman said to him,\"},{\"speaker\":\"other\",\"text\":\"“I know that Messiah is coming, the one called Christ. When he comes, he will tell us everything.”\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus said to her,\"},{\"speaker\":\"Jesus\",\"text\":\"“I am he, the one speaking to you.”\"}]},{\"verse\":27,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Just then his disciples came, and they were amazed that he was talking with a woman. Yet no one said,\"},{\"speaker\":\"other\",\"text\":\"“What do you want?”\"},{\"speaker\":\"narrator\",\"text\":\"or\"},{\"speaker\":\"other\",\"text\":\"“Why are you talking with her?”\"}]},{\"verse\":28,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So the woman left her water jar, went off into the town, and said to the people,\"}]},{\"verse\":29,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"“Come, see a man who told me everything I ever did! Could this be the Messiah?”\"}]},{\"verse\":30,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They went out of the town and were making their way to him.\"}]},{\"verse\":31,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Meanwhile the disciples kept urging him,\"},{\"speaker\":\"other\",\"text\":\"“Rabbi, eat.”\"}]},{\"verse\":32,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But he said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“I have food to eat that you do not know about.”\"}]},{\"verse\":33,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So the disciples said to one another,\"},{\"speaker\":\"other\",\"text\":\"“Surely no one has brought him something to eat?”\"}]},{\"verse\":34,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“My food is to do the will of the one who sent me and to complete his work.\"}]},{\"verse\":35,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Do you not say, ‘Four months more, and then the harvest comes’? Look, I tell you, lift up your eyes and see the fields: they are white for harvest. Already\"}]},{\"verse\":36,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"the reaper is receiving wages and gathering fruit for eternal life, so that the sower and the reaper may rejoice together.\"}]},{\"verse\":37,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For in this the saying is true: ‘One sows and another reaps.’\"}]},{\"verse\":38,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"I sent you to reap what you have not labored for. Others have labored, and you have entered into their labor.”\"}]},{\"verse\":39,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Many of the Samaritans from that town believed in him because of the word of the woman, who testified,\"},{\"speaker\":\"other\",\"text\":\"“He told me everything I did.”\"}]},{\"verse\":40,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So when the Samaritans came to him, they asked him to stay with them, and he stayed there two days.\"}]},{\"verse\":41,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And many more believed because of his word,\"}]},{\"verse\":42,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and they said to the woman,\"},{\"speaker\":\"other\",\"text\":\"“We no longer believe because of what you said, for we have heard for ourselves, and we know that this truly is the Savior of the world.”\"}]},{\"verse\":43,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"After the two days he left there for Galilee,\"}]},{\"verse\":44,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"for Jesus himself had testified that a prophet has no honor in his own homeland.\"}]},{\"verse\":45,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So when he came to Galilee, the Galileans welcomed him, having seen all that he had done in Jerusalem at the festival, for they too had gone to the festival.\"}]},{\"verse\":46,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So he came again to Cana in Galilee, where he had turned the water into wine. Now there was a certain royal official whose son was sick in Capernaum.\"}]},{\"verse\":47,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When this man heard that Jesus had come from Judea to Galilee, he went to him and asked him to come down and heal his son, for the boy was about to die.\"}]},{\"verse\":48,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So Jesus said to him,\"},{\"speaker\":\"Jesus\",\"text\":\"“Unless you people see signs and wonders, you will never believe.”\"}]},{\"verse\":49,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The royal official said to him,\"},{\"speaker\":\"other\",\"text\":\"“Sir, come down before my child dies.”\"}]},{\"verse\":50,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus said to him,\"},{\"speaker\":\"Jesus\",\"text\":\"“Go; your son lives.”\"},{\"speaker\":\"narrator\",\"text\":\"The man believed the word that Jesus spoke to him and set off.\"}]},{\"verse\":51,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"While he was still on his way down, his slaves met him and told him that his boy was alive.\"}]},{\"verse\":52,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So he asked them the hour at which the boy had begun to get better, and they told him,\"},{\"speaker\":\"other\",\"text\":\"“Yesterday at the seventh hour the fever left him.”\"}]},{\"verse\":53,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So the father realized that it was at that very hour that Jesus had said to him,\"},{\"speaker\":\"Jesus\",\"text\":\"“Your son lives.”\"},{\"speaker\":\"narrator\",\"text\":\"And he himself believed, and his whole household.\"}]},{\"verse\":54,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"This was now the second sign that Jesus did, after he had come from Judea to Galilee.\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"Jesus learned\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"the Lord knew\",\"note\":\"The Greek text followed here reads “Jesus”; many manuscripts, including some early ones, read “the Lord” instead. Editors are divided over which is original. The meaning of the sentence is unaffected.\"},{\"verse\":6,\"phrase\":\"Jacob’s spring\",\"lemma\":\"πηγή\",\"kind\":\"departure\",\"traditional\":\"Jacob’s well\",\"note\":\"The Greek word here and in verse 14 means a spring or source of flowing water. The woman in verses 11–12 uses a different word that means a dug well. Most translations have “well” throughout, but keeping the two words apart shows that Jesus’s “spring of water” in verse 14 picks up the narrator’s word, not the woman’s.\"},{\"verse\":6,\"phrase\":\"the sixth hour\",\"lemma\":\"ὥρα\",\"kind\":\"background\",\"traditional\":\"the sixth hour\",\"note\":\"Hours were normally counted from sunrise, so the sixth hour is about noon, the hottest part of the day. A minority of scholars think John counts from midnight or noon, which would make it about six in the evening; most do not. The “seventh hour” in verse 52 is, on the usual reckoning, about one in the afternoon.\"},{\"verse\":9,\"phrase\":\"do not associate with\",\"lemma\":\"συγχράομαι\",\"kind\":\"ambiguity\",\"traditional\":\"have no dealings with\",\"note\":\"The verb can mean to associate with someone, which is the traditional reading. It can also mean to use something together with someone, in which case the point is that Jews would not share a drinking vessel with Samaritans for reasons of purity. Scholars are divided, and the second reading suits the scene well. The sentence is the narrator’s aside and is absent from a few early manuscripts.\"},{\"verse\":10,\"phrase\":\"living water\",\"lemma\":\"ζάω\",\"kind\":\"background\",\"traditional\":\"living water\",\"note\":\"“Living water” was the ordinary expression for fresh, flowing water from a spring or stream, as opposed to still water in a cistern. The woman takes it in that everyday sense, which is why she asks where he will get it. Jesus means water that gives life, and in the Scriptures God himself is called a fountain of living water.\"},{\"verse\":20,\"phrase\":\"this mountain\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"this mountain\",\"note\":\"The mountain is Gerizim, which rises above the site of the conversation. Samaritans held that it, not Jerusalem, was the place God had chosen for worship. A Samaritan temple had stood there until the Judean ruler John Hyrcanus destroyed it in the late second century BC.\"},{\"verse\":23,\"phrase\":\"in spirit and truth\",\"lemma\":\"πνεῦμα\",\"kind\":\"ambiguity\",\"traditional\":\"in spirit and in truth\",\"note\":\"Greek manuscripts do not distinguish capital letters, so “spirit” here could be the human spirit, or a spiritual mode of worship, or God’s own Spirit. The lowercase matches “God is spirit” in verse 24. Many interpreters think John means worship made possible by the Spirit that Jesus gives, and that “spirit and truth” form a single idea.\"},{\"verse\":25,\"phrase\":\"the one called Christ\",\"lemma\":\"Χριστός\",\"kind\":\"background\",\"traditional\":\"which is called Christ\",\"note\":\"“Messiah” is a Semitic word meaning “anointed one” and “Christ” is its Greek translation. The explanation is probably the evangelist’s gloss for Greek readers, as at 1:41, though the Greek does not mark it off from the woman’s words. “Christ” is kept here because the verse is giving the Greek equivalent of the term.\"},{\"verse\":26,\"phrase\":\"I am he\",\"lemma\":\"εἰμί\",\"kind\":\"ambiguity\",\"traditional\":\"I that speak unto thee am he\",\"note\":\"The Greek is simply “I am, the one speaking to you.” In context it means “I am he,” that is, the Messiah she has just mentioned. The same two words are used for God’s self-declaration in the Greek version of Isaiah and are used pointedly by Jesus later in John (8:58). Many scholars hear that overtone here; others take it as plain self-identification.\"},{\"verse\":29,\"phrase\":\"the Messiah\",\"lemma\":\"Χριστός\",\"kind\":\"departure\",\"traditional\":\"the Christ\",\"note\":\"The Greek is “the Christ,” used here as a title for the expected anointed figure and not as a name. “Messiah” conveys that to a modern reader, and several modern translations make the same choice in the Gospels. The form of the woman’s question in Greek is tentative; it does not assert that he is.\"},{\"verse\":35,\"phrase\":\"Already\",\"lemma\":\"ἤδη\",\"kind\":\"ambiguity\",\"traditional\":\"white already to harvest\",\"note\":\"Ancient manuscripts had no punctuation, so “already” can end this sentence (“white for harvest already”) or begin the next (“Already the reaper is receiving wages”). The Greek edition followed here takes it with what follows, though the word stands at the end of verse 35. Both readings have support among translators and commentators.\"},{\"verse\":44,\"phrase\":\"his own homeland\",\"lemma\":\"πατρίς\",\"kind\":\"ambiguity\",\"traditional\":\"his own country\",\"note\":\"It is disputed which place John means. In the other Gospels the saying refers to Nazareth in Galilee, but here the Galileans welcome Jesus in the next verse. For that reason some take the homeland to be Judea or Jerusalem, which he has just left. Others think the Galilean welcome, based only on signs, is itself the lack of honor.\"},{\"verse\":51,\"phrase\":\"slaves\",\"lemma\":\"δοῦλος\",\"kind\":\"departure\",\"traditional\":\"servants\",\"note\":\"The Greek word denotes people who were owned, not hired staff. “Servants” is the traditional English, and it softens this. A royal official’s household would ordinarily have included slaves.\"}],\"candidates\":[{\"lemma\":\"δοῦλος\",\"rendering\":\"slaves\",\"verse\":51,\"reason\":\"Recurs across the whole New Testament, literally and figuratively, and translators split between “slave” and “servant”; readers would be misled by variation.\"},{\"lemma\":\"κύριος\",\"rendering\":\"Sir\",\"verse\":11,\"reason\":\"As a form of address it ranges from polite “Sir” to confessional “Lord”, and the line between them needs one policy, especially in John.\"},{\"lemma\":\"σημεῖον\",\"rendering\":\"sign\",\"verse\":48,\"reason\":\"A structural term in John and common elsewhere; older versions vary between “sign” and “miracle”, which hides the thread.\"},{\"lemma\":\"μαρτυρέω\",\"rendering\":\"testify\",\"verse\":39,\"reason\":\"A key Johannine word family rendered variously as “testify”, “bear witness” and “witness”; it needs a uniform choice with the related nouns.\"},{\"lemma\":\"ὥρα\",\"rendering\":\"hour\",\"verse\":21,\"reason\":\"John’s “an hour is coming” and “my hour” form a theme that is lost if some verses read “time” and others “hour”, and clock-hours need a policy on conversion.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now when Jesus learned that the Pharisees had heard that Jesus was making and baptizing more disciples than John—"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "though Jesus himself was not baptizing; his disciples were—"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "he left Judea and set off again for Galilee."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He had to pass through Samaria."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So he came to a town of Samaria called Sychar, near the plot of land that Jacob had given to his son Joseph."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jacob’s spring was there. So Jesus, tired from the journey, sat down just as he was by the spring. It was about the sixth hour."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "A woman of Samaria came to draw water. Jesus said to her,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Give me a drink.”"
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For his disciples had gone off into the town to buy food."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So the Samaritan woman said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“How is it that you, a Jew, ask for a drink from me, a Samaritan woman?”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "For Jews do not associate with Samaritans."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus answered her,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“If you knew the gift of God, and who it is that is saying to you, ‘Give me a drink,’ you would have asked him, and he would have given you living water.”"
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The woman said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Sir, you have no bucket, and the well is deep. So where do you get this living water?"
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Surely you are not greater than our father Jacob, who gave us the well and drank from it himself, along with his sons and his livestock?”"
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus answered her,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Everyone who drinks of this water will be thirsty again,"
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "but whoever drinks of the water that I will give them will never be thirsty. Rather, the water that I will give them will become in them a spring of water welling up to eternal life.”"
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The woman said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Sir, give me this water, so that I will not be thirsty or have to keep coming all the way here to draw.”"
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He said to her,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Go, call your husband, and come back here.”"
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The woman answered him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“I have no husband.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "Jesus said to her,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“You are right to say, ‘I have no husband,’"
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "for you have had five husbands, and the one you have now is not your husband. In this you have spoken the truth.”"
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The woman said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Sir, I see that you are a prophet."
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Our fathers worshiped on this mountain, but you people say that the place where one must worship is in Jerusalem.”"
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus said to her,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Believe me, woman, an hour is coming when you will worship the Father neither on this mountain nor in Jerusalem."
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "You worship what you do not know; we worship what we know, because salvation is from the Jews."
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But an hour is coming, and is now here, when the true worshipers will worship the Father in spirit and truth, for indeed the Father is seeking such people to worship him."
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "God is spirit, and those who worship him must worship in spirit and truth.”"
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The woman said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“I know that Messiah is coming, the one called Christ. When he comes, he will tell us everything.”"
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus said to her,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“I am he, the one speaking to you.”"
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Just then his disciples came, and they were amazed that he was talking with a woman. Yet no one said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“What do you want?”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "or"
+     },
+     {
+      "speaker": "other",
+      "text": "“Why are you talking with her?”"
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So the woman left her water jar, went off into the town, and said to the people,"
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "“Come, see a man who told me everything I ever did! Could this be the Messiah?”"
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They went out of the town and were making their way to him."
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Meanwhile the disciples kept urging him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Rabbi, eat.”"
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But he said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“I have food to eat that you do not know about.”"
+     }
+    ]
+   },
+   {
+    "verse": 33,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So the disciples said to one another,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Surely no one has brought him something to eat?”"
+     }
+    ]
+   },
+   {
+    "verse": 34,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“My food is to do the will of the one who sent me and to complete his work."
+     }
+    ]
+   },
+   {
+    "verse": 35,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Do you not say, ‘Four months more, and then the harvest comes’? Look, I tell you, lift up your eyes and see the fields: they are white for harvest. Already"
+     }
+    ]
+   },
+   {
+    "verse": 36,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "the reaper is receiving wages and gathering fruit for eternal life, so that the sower and the reaper may rejoice together."
+     }
+    ]
+   },
+   {
+    "verse": 37,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For in this the saying is true: ‘One sows and another reaps.’"
+     }
+    ]
+   },
+   {
+    "verse": 38,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "I sent you to reap what you have not labored for. Others have labored, and you have entered into their labor.”"
+     }
+    ]
+   },
+   {
+    "verse": 39,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Many of the Samaritans from that town believed in him because of the word of the woman, who testified,"
+     },
+     {
+      "speaker": "other",
+      "text": "“He told me everything I did.”"
+     }
+    ]
+   },
+   {
+    "verse": 40,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So when the Samaritans came to him, they asked him to stay with them, and he stayed there two days."
+     }
+    ]
+   },
+   {
+    "verse": 41,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And many more believed because of his word,"
+     }
+    ]
+   },
+   {
+    "verse": 42,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and they said to the woman,"
+     },
+     {
+      "speaker": "other",
+      "text": "“We no longer believe because of what you said, for we have heard for ourselves, and we know that this truly is the Savior of the world.”"
+     }
+    ]
+   },
+   {
+    "verse": 43,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "After the two days he left there for Galilee,"
+     }
+    ]
+   },
+   {
+    "verse": 44,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "for Jesus himself had testified that a prophet has no honor in his own homeland."
+     }
+    ]
+   },
+   {
+    "verse": 45,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So when he came to Galilee, the Galileans welcomed him, having seen all that he had done in Jerusalem at the festival, for they too had gone to the festival."
+     }
+    ]
+   },
+   {
+    "verse": 46,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So he came again to Cana in Galilee, where he had turned the water into wine. Now there was a certain royal official whose son was sick in Capernaum."
+     }
+    ]
+   },
+   {
+    "verse": 47,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When this man heard that Jesus had come from Judea to Galilee, he went to him and asked him to come down and heal his son, for the boy was about to die."
+     }
+    ]
+   },
+   {
+    "verse": 48,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So Jesus said to him,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Unless you people see signs and wonders, you will never believe.”"
+     }
+    ]
+   },
+   {
+    "verse": 49,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The royal official said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Sir, come down before my child dies.”"
+     }
+    ]
+   },
+   {
+    "verse": 50,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus said to him,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Go; your son lives.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "The man believed the word that Jesus spoke to him and set off."
+     }
+    ]
+   },
+   {
+    "verse": 51,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "While he was still on his way down, his slaves met him and told him that his boy was alive."
+     }
+    ]
+   },
+   {
+    "verse": 52,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So he asked them the hour at which the boy had begun to get better, and they told him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Yesterday at the seventh hour the fever left him.”"
+     }
+    ]
+   },
+   {
+    "verse": 53,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So the father realized that it was at that very hour that Jesus had said to him,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Your son lives.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "And he himself believed, and his whole household."
+     }
+    ]
+   },
+   {
+    "verse": 54,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "This was now the second sign that Jesus did, after he had come from Judea to Galilee."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "Jesus learned",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "the Lord knew",
+    "note": "The Greek text followed here reads “Jesus”; many manuscripts, including some early ones, read “the Lord” instead. Editors are divided over which is original. The meaning of the sentence is unaffected."
+   },
+   {
+    "verse": 6,
+    "phrase": "Jacob’s spring",
+    "lemma": "πηγή",
+    "kind": "departure",
+    "traditional": "Jacob’s well",
+    "note": "The Greek word here and in verse 14 means a spring or source of flowing water. The woman in verses 11–12 uses a different word that means a dug well. Most translations have “well” throughout, but keeping the two words apart shows that Jesus’s “spring of water” in verse 14 picks up the narrator’s word, not the woman’s."
+   },
+   {
+    "verse": 6,
+    "phrase": "the sixth hour",
+    "lemma": "ὥρα",
+    "kind": "background",
+    "traditional": "the sixth hour",
+    "note": "Hours were normally counted from sunrise, so the sixth hour is about noon, the hottest part of the day. A minority of scholars think John counts from midnight or noon, which would make it about six in the evening; most do not. The “seventh hour” in verse 52 is, on the usual reckoning, about one in the afternoon."
+   },
+   {
+    "verse": 9,
+    "phrase": "do not associate with",
+    "lemma": "συγχράομαι",
+    "kind": "ambiguity",
+    "traditional": "have no dealings with",
+    "note": "The verb can mean to associate with someone, which is the traditional reading. It can also mean to use something together with someone, in which case the point is that Jews would not share a drinking vessel with Samaritans for reasons of purity. Scholars are divided, and the second reading suits the scene well. The sentence is the narrator’s aside and is absent from a few early manuscripts."
+   },
+   {
+    "verse": 10,
+    "phrase": "living water",
+    "lemma": "ζάω",
+    "kind": "background",
+    "traditional": "living water",
+    "note": "“Living water” was the ordinary expression for fresh, flowing water from a spring or stream, as opposed to still water in a cistern. The woman takes it in that everyday sense, which is why she asks where he will get it. Jesus means water that gives life, and in the Scriptures God himself is called a fountain of living water."
+   },
+   {
+    "verse": 20,
+    "phrase": "this mountain",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "this mountain",
+    "note": "The mountain is Gerizim, which rises above the site of the conversation. Samaritans held that it, not Jerusalem, was the place God had chosen for worship. A Samaritan temple had stood there until the Judean ruler John Hyrcanus destroyed it in the late second century BC."
+   },
+   {
+    "verse": 23,
+    "phrase": "in spirit and truth",
+    "lemma": "πνεῦμα",
+    "kind": "ambiguity",
+    "traditional": "in spirit and in truth",
+    "note": "Greek manuscripts do not distinguish capital letters, so “spirit” here could be the human spirit, or a spiritual mode of worship, or God’s own Spirit. The lowercase matches “God is spirit” in verse 24. Many interpreters think John means worship made possible by the Spirit that Jesus gives, and that “spirit and truth” form a single idea."
+   },
+   {
+    "verse": 25,
+    "phrase": "the one called Christ",
+    "lemma": "Χριστός",
+    "kind": "background",
+    "traditional": "which is called Christ",
+    "note": "“Messiah” is a Semitic word meaning “anointed one” and “Christ” is its Greek translation. The explanation is probably the evangelist’s gloss for Greek readers, as at 1:41, though the Greek does not mark it off from the woman’s words. “Christ” is kept here because the verse is giving the Greek equivalent of the term."
+   },
+   {
+    "verse": 26,
+    "phrase": "I am he",
+    "lemma": "εἰμί",
+    "kind": "ambiguity",
+    "traditional": "I that speak unto thee am he",
+    "note": "The Greek is simply “I am, the one speaking to you.” In context it means “I am he,” that is, the Messiah she has just mentioned. The same two words are used for God’s self-declaration in the Greek version of Isaiah and are used pointedly by Jesus later in John (8:58). Many scholars hear that overtone here; others take it as plain self-identification."
+   },
+   {
+    "verse": 29,
+    "phrase": "the Messiah",
+    "lemma": "Χριστός",
+    "kind": "departure",
+    "traditional": "the Christ",
+    "note": "The Greek is “the Christ,” used here as a title for the expected anointed figure and not as a name. “Messiah” conveys that to a modern reader, and several modern translations make the same choice in the Gospels. The form of the woman’s question in Greek is tentative; it does not assert that he is."
+   },
+   {
+    "verse": 35,
+    "phrase": "Already",
+    "lemma": "ἤδη",
+    "kind": "ambiguity",
+    "traditional": "white already to harvest",
+    "note": "Ancient manuscripts had no punctuation, so “already” can end this sentence (“white for harvest already”) or begin the next (“Already the reaper is receiving wages”). The Greek edition followed here takes it with what follows, though the word stands at the end of verse 35. Both readings have support among translators and commentators."
+   },
+   {
+    "verse": 44,
+    "phrase": "his own homeland",
+    "lemma": "πατρίς",
+    "kind": "ambiguity",
+    "traditional": "his own country",
+    "note": "It is disputed which place John means. In the other Gospels the saying refers to Nazareth in Galilee, but here the Galileans welcome Jesus in the next verse. For that reason some take the homeland to be Judea or Jerusalem, which he has just left. Others think the Galilean welcome, based only on signs, is itself the lack of honor."
+   },
+   {
+    "verse": 51,
+    "phrase": "slaves",
+    "lemma": "δοῦλος",
+    "kind": "departure",
+    "traditional": "servants",
+    "note": "The Greek word denotes people who were owned, not hired staff. “Servants” is the traditional English, and it softens this. A royal official’s household would ordinarily have included slaves."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "δοῦλος",
+    "rendering": "slaves",
+    "verse": 51,
+    "reason": "Recurs across the whole New Testament, literally and figuratively, and translators split between “slave” and “servant”; readers would be misled by variation."
+   },
+   {
+    "lemma": "κύριος",
+    "rendering": "Sir",
+    "verse": 11,
+    "reason": "As a form of address it ranges from polite “Sir” to confessional “Lord”, and the line between them needs one policy, especially in John."
+   },
+   {
+    "lemma": "σημεῖον",
+    "rendering": "sign",
+    "verse": 48,
+    "reason": "A structural term in John and common elsewhere; older versions vary between “sign” and “miracle”, which hides the thread."
+   },
+   {
+    "lemma": "μαρτυρέω",
+    "rendering": "testify",
+    "verse": 39,
+    "reason": "A key Johannine word family rendered variously as “testify”, “bear witness” and “witness”; it needs a uniform choice with the related nouns."
+   },
+   {
+    "lemma": "ὥρα",
+    "rendering": "hour",
+    "verse": 21,
+    "reason": "John’s “an hour is coming” and “my hour” form a theme that is lost if some verses read “time” and others “hour”, and clock-hours need a policy on conversion."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 9837,
+   "output_tokens": 194
+  },
+  "findings": [],
+  "error": ""
+ }
+}

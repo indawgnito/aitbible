@@ -1,0 +1,295 @@
+{
+ "id": "acts-006",
+ "book": "acts",
+ "chapter": 6,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14efHKF86eX3TP4c7",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 9604,
+  "output_tokens": 9192
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now in these days, as the disciples were multiplying, there arose a grumbling of the Hellenists against the Hebrews, because their widows were being overlooked in the daily serving.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So the Twelve called together the community of the disciples and said,\"},{\"speaker\":\"other\",\"text\":\"“It is not acceptable for us to abandon the word of God and serve at tables.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Instead, brothers, pick out from among yourselves seven men who are well spoken of, full of the Spirit and of wisdom, whom we will put in charge of this task.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"But we will devote ourselves to prayer and to the service of the word.”\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The proposal was acceptable to the whole community, and they chose Stephen, a man full of faith and of the Holy Spirit, and Philip, Prochorus, Nicanor, Timon, Parmenas, and Nicolaus, a proselyte from Antioch.\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They set these men before the apostles, and after praying they laid their hands on them.\"}]},{\"verse\":7,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And the word of God kept growing, and the number of the disciples in Jerusalem multiplied greatly, and a large crowd of the priests were becoming obedient to the faith.\"}]},{\"verse\":8,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now Stephen, full of grace and power, was performing great wonders and signs among the people.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But some of those from the synagogue called the Synagogue of the Freedmen, Cyrenians, and Alexandrians, and some of those from Cilicia and Asia, stood up and began to dispute with Stephen,\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"but they were not strong enough to stand against the wisdom and the Spirit with which he was speaking.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then they secretly put men up to say,\"},{\"speaker\":\"other\",\"text\":\"“We have heard him speaking blasphemous words against Moses and God.”\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They stirred up the people, the elders, and the scribes, and coming upon him they seized him and brought him to the council.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They also set up false witnesses, who said,\"},{\"speaker\":\"other\",\"text\":\"“This man never stops speaking words against the holy place and the Law,\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"for we have heard him say that this Jesus of Nazareth will tear down this place and change the customs that Moses handed down to us.”\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And all who were sitting in the council looked intently at him and saw that his face was like the face of an angel.\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"Hellenists\",\"lemma\":\"Ἑλληνιστής\",\"kind\":\"background\",\"traditional\":\"Hellenists; Grecians (KJV); Hellenistic Jews (NIV)\",\"note\":\"Both groups here are Jewish followers of Jesus in Jerusalem. The usual view is that the “Hellenists” were Jews whose main language was Greek, many of them from the diaspora, while the “Hebrews” spoke Aramaic or Hebrew. The word is rare and its exact scope is debated, but the distinction is one of language and culture, not of ethnicity.\"},{\"verse\":1,\"phrase\":\"the daily serving\",\"lemma\":\"διακονία\",\"kind\":\"departure\",\"traditional\":\"the daily distribution; the daily ministration (KJV)\",\"note\":\"The Greek word is the everyday term for service, including waiting on people at a meal. Most versions say “distribution” here and “ministry of the word” in verse 4, which hides the fact that Luke uses the same noun in both places and the related verb in verse 2 (“serve at tables”). The rendering keeps that thread visible: the Twelve contrast one kind of service with another. What was provided to the widows, whether food or money, is not stated.\"},{\"verse\":2,\"phrase\":\"It is not acceptable\",\"lemma\":\"ἀρεστός\",\"kind\":\"departure\",\"traditional\":\"It is not right; It is not desirable\",\"note\":\"The adjective means “pleasing” or “acceptable”, and its related verb returns in verse 5, where the proposal “was acceptable” to the community. Most versions have “not right” or “not desirable”, which loses the echo. The Greek does not say to whom it would be unacceptable; God is probably implied.\"},{\"verse\":2,\"phrase\":\"serve at tables\",\"lemma\":\"τράπεζα\",\"kind\":\"ambiguity\",\"traditional\":\"serve tables; wait on tables\",\"note\":\"“Tables” most naturally means tables for meals, so the phrase refers to overseeing the provision of food. The same word was also used for a money-changer’s or banker’s table, and some scholars think the handling of funds is in view. The rendering leaves both possibilities open.\"},{\"verse\":5,\"phrase\":\"proselyte\",\"lemma\":\"προσήλυτος\",\"kind\":\"background\",\"traditional\":\"proselyte; convert to Judaism\",\"note\":\"A proselyte was a Gentile who had fully converted to Judaism, which for men included circumcision. Nicolaus is the only one of the seven identified this way, implying the others were Jews by birth. All seven have Greek names, which many take as a sign that they were drawn from the Hellenist group, though Greek names were also common among Jews of Judea.\"},{\"verse\":6,\"phrase\":\"after praying they laid their hands on them\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"\",\"note\":\"Grammatically the subject of “prayed” and “laid their hands” is the same as that of “set”, which is the community. Most interpreters and many translations take the apostles to be the ones who prayed and laid on hands, and that is probably what Luke means. The rendering keeps the Greek’s openness.\"},{\"verse\":9,\"phrase\":\"the Synagogue of the Freedmen, Cyrenians, and Alexandrians\",\"lemma\":\"Λιβερτῖνος\",\"kind\":\"ambiguity\",\"traditional\":\"the synagogue of the Libertines (KJV); the Synagogue of the Freedmen\",\"note\":\"“Freedmen” translates a Latin loanword for former slaves or their descendants, probably Jews once taken captive to Rome and later freed. The Greek sentence can be read as naming one synagogue, two groups, or as many as five separate synagogues; the rendering takes it as one synagogue with members from Cyrene and Alexandria, plus a further group from Cilicia and Asia. “Asia” is the Roman province in what is now western Turkey.\"},{\"verse\":12,\"phrase\":\"the council\",\"lemma\":\"συνέδριον\",\"kind\":\"background\",\"traditional\":\"the council; the Sanhedrin\",\"note\":\"This is the high council in Jerusalem, often called the Sanhedrin, presided over by the high priest and made up of chief priests, elders, and scribes. It is the same body before which the apostles were brought in the preceding chapters.\"}],\"candidates\":[{\"lemma\":\"συνέδριον\",\"rendering\":\"council\",\"verse\":12,\"reason\":\"Versions split between “council” and “Sanhedrin” across the Gospels and Acts, and readers should see one term for the same body.\"},{\"lemma\":\"ἀδελφός\",\"rendering\":\"brothers\",\"verse\":3,\"reason\":\"The plural address to mixed communities is rendered “brothers”, “brothers and sisters”, or “friends” by different translators and needs one policy for the whole New Testament.\"},{\"lemma\":\"προσήλυτος\",\"rendering\":\"proselyte\",\"verse\":5,\"reason\":\"It recurs in Matthew and Acts, and the choice between “proselyte” and “convert to Judaism” should be uniform.\"},{\"lemma\":\"Ναζωραῖος\",\"rendering\":\"of Nazareth\",\"verse\":14,\"reason\":\"The form differs from Ναζαρηνός and is rendered “of Nazareth”, “the Nazarene”, or “the Nazorean”; it recurs in the Gospels and Acts, including as a name for the movement in Acts 24:5.\"},{\"lemma\":\"γραμματεύς\",\"rendering\":\"scribes\",\"verse\":12,\"reason\":\"“Scribe” suggests a copyist to modern readers, where the word denotes a recognized expert in the Law; alternatives such as “teachers of the law” or “legal experts” would need to be applied consistently.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now in these days, as the disciples were multiplying, there arose a grumbling of the Hellenists against the Hebrews, because their widows were being overlooked in the daily serving."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So the Twelve called together the community of the disciples and said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“It is not acceptable for us to abandon the word of God and serve at tables."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Instead, brothers, pick out from among yourselves seven men who are well spoken of, full of the Spirit and of wisdom, whom we will put in charge of this task."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "But we will devote ourselves to prayer and to the service of the word.”"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The proposal was acceptable to the whole community, and they chose Stephen, a man full of faith and of the Holy Spirit, and Philip, Prochorus, Nicanor, Timon, Parmenas, and Nicolaus, a proselyte from Antioch."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They set these men before the apostles, and after praying they laid their hands on them."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And the word of God kept growing, and the number of the disciples in Jerusalem multiplied greatly, and a large crowd of the priests were becoming obedient to the faith."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now Stephen, full of grace and power, was performing great wonders and signs among the people."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But some of those from the synagogue called the Synagogue of the Freedmen, Cyrenians, and Alexandrians, and some of those from Cilicia and Asia, stood up and began to dispute with Stephen,"
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "but they were not strong enough to stand against the wisdom and the Spirit with which he was speaking."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then they secretly put men up to say,"
+     },
+     {
+      "speaker": "other",
+      "text": "“We have heard him speaking blasphemous words against Moses and God.”"
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They stirred up the people, the elders, and the scribes, and coming upon him they seized him and brought him to the council."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They also set up false witnesses, who said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“This man never stops speaking words against the holy place and the Law,"
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "for we have heard him say that this Jesus of Nazareth will tear down this place and change the customs that Moses handed down to us.”"
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And all who were sitting in the council looked intently at him and saw that his face was like the face of an angel."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "Hellenists",
+    "lemma": "Ἑλληνιστής",
+    "kind": "background",
+    "traditional": "Hellenists; Grecians (KJV); Hellenistic Jews (NIV)",
+    "note": "Both groups here are Jewish followers of Jesus in Jerusalem. The usual view is that the “Hellenists” were Jews whose main language was Greek, many of them from the diaspora, while the “Hebrews” spoke Aramaic or Hebrew. The word is rare and its exact scope is debated, but the distinction is one of language and culture, not of ethnicity."
+   },
+   {
+    "verse": 1,
+    "phrase": "the daily serving",
+    "lemma": "διακονία",
+    "kind": "departure",
+    "traditional": "the daily distribution; the daily ministration (KJV)",
+    "note": "The Greek word is the everyday term for service, including waiting on people at a meal. Most versions say “distribution” here and “ministry of the word” in verse 4, which hides the fact that Luke uses the same noun in both places and the related verb in verse 2 (“serve at tables”). The rendering keeps that thread visible: the Twelve contrast one kind of service with another. What was provided to the widows, whether food or money, is not stated."
+   },
+   {
+    "verse": 2,
+    "phrase": "It is not acceptable",
+    "lemma": "ἀρεστός",
+    "kind": "departure",
+    "traditional": "It is not right; It is not desirable",
+    "note": "The adjective means “pleasing” or “acceptable”, and its related verb returns in verse 5, where the proposal “was acceptable” to the community. Most versions have “not right” or “not desirable”, which loses the echo. The Greek does not say to whom it would be unacceptable; God is probably implied."
+   },
+   {
+    "verse": 2,
+    "phrase": "serve at tables",
+    "lemma": "τράπεζα",
+    "kind": "ambiguity",
+    "traditional": "serve tables; wait on tables",
+    "note": "“Tables” most naturally means tables for meals, so the phrase refers to overseeing the provision of food. The same word was also used for a money-changer’s or banker’s table, and some scholars think the handling of funds is in view. The rendering leaves both possibilities open."
+   },
+   {
+    "verse": 5,
+    "phrase": "proselyte",
+    "lemma": "προσήλυτος",
+    "kind": "background",
+    "traditional": "proselyte; convert to Judaism",
+    "note": "A proselyte was a Gentile who had fully converted to Judaism, which for men included circumcision. Nicolaus is the only one of the seven identified this way, implying the others were Jews by birth. All seven have Greek names, which many take as a sign that they were drawn from the Hellenist group, though Greek names were also common among Jews of Judea."
+   },
+   {
+    "verse": 6,
+    "phrase": "after praying they laid their hands on them",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "",
+    "note": "Grammatically the subject of “prayed” and “laid their hands” is the same as that of “set”, which is the community. Most interpreters and many translations take the apostles to be the ones who prayed and laid on hands, and that is probably what Luke means. The rendering keeps the Greek’s openness."
+   },
+   {
+    "verse": 9,
+    "phrase": "the Synagogue of the Freedmen, Cyrenians, and Alexandrians",
+    "lemma": "Λιβερτῖνος",
+    "kind": "ambiguity",
+    "traditional": "the synagogue of the Libertines (KJV); the Synagogue of the Freedmen",
+    "note": "“Freedmen” translates a Latin loanword for former slaves or their descendants, probably Jews once taken captive to Rome and later freed. The Greek sentence can be read as naming one synagogue, two groups, or as many as five separate synagogues; the rendering takes it as one synagogue with members from Cyrene and Alexandria, plus a further group from Cilicia and Asia. “Asia” is the Roman province in what is now western Turkey."
+   },
+   {
+    "verse": 12,
+    "phrase": "the council",
+    "lemma": "συνέδριον",
+    "kind": "background",
+    "traditional": "the council; the Sanhedrin",
+    "note": "This is the high council in Jerusalem, often called the Sanhedrin, presided over by the high priest and made up of chief priests, elders, and scribes. It is the same body before which the apostles were brought in the preceding chapters."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "συνέδριον",
+    "rendering": "council",
+    "verse": 12,
+    "reason": "Versions split between “council” and “Sanhedrin” across the Gospels and Acts, and readers should see one term for the same body."
+   },
+   {
+    "lemma": "ἀδελφός",
+    "rendering": "brothers",
+    "verse": 3,
+    "reason": "The plural address to mixed communities is rendered “brothers”, “brothers and sisters”, or “friends” by different translators and needs one policy for the whole New Testament."
+   },
+   {
+    "lemma": "προσήλυτος",
+    "rendering": "proselyte",
+    "verse": 5,
+    "reason": "It recurs in Matthew and Acts, and the choice between “proselyte” and “convert to Judaism” should be uniform."
+   },
+   {
+    "lemma": "Ναζωραῖος",
+    "rendering": "of Nazareth",
+    "verse": 14,
+    "reason": "The form differs from Ναζαρηνός and is rendered “of Nazareth”, “the Nazarene”, or “the Nazorean”; it recurs in the Gospels and Acts, including as a name for the movement in Acts 24:5."
+   },
+   {
+    "lemma": "γραμματεύς",
+    "rendering": "scribes",
+    "verse": 12,
+    "reason": "“Scribe” suggests a copyist to modern readers, where the word denotes a recognized expert in the Law; alternatives such as “teachers of the law” or “legal experts” would need to be applied consistently."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 4045,
+   "output_tokens": 154
+  },
+  "findings": [],
+  "error": ""
+ }
+}

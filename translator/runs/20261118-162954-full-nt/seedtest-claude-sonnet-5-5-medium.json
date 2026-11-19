@@ -1,0 +1,550 @@
+[
+ {
+  "book": "mark",
+  "chapter": 5,
+  "planted": [
+   {
+    "verse": 43,
+    "type": "omission",
+    "detail": "and he said that she should be given something to eat"
+   },
+   {
+    "verse": 15,
+    "type": "addition",
+    "detail": ", just as he had promised long before"
+   },
+   {
+    "verse": 42,
+    "type": "mistranslation",
+    "detail": "twelve -> ten"
+   }
+  ],
+  "findings": [
+   {
+    "verse": 15,
+    "type": "addition",
+    "severity": "major",
+    "greek": "καὶ ἐφοβήθησαν.",
+    "english": "and they were afraid, just as he had promised long before.",
+    "problem": "The clause \"just as he had promised long before\" has no counterpart in the Greek and invents a claim."
+   },
+   {
+    "verse": 42,
+    "type": "mistranslation",
+    "severity": "major",
+    "greek": "ἦν γὰρ ἐτῶν δώδεκα",
+    "english": "for she was ten years old",
+    "problem": "δώδεκα means twelve, not ten."
+   },
+   {
+    "verse": 43,
+    "type": "omission",
+    "severity": "major",
+    "greek": "καὶ εἶπεν δοθῆναι αὐτῇ φαγεῖν.",
+    "english": "He gave them strict orders that no one should know about this.",
+    "problem": "The final clause, that he told them to give her something to eat, is missing."
+   },
+   {
+    "verse": 3,
+    "type": "mistranslation",
+    "severity": "minor",
+    "greek": "οὐδὲ ἁλύσει οὐκέτι οὐδεὶς ἐδύνατο αὐτὸν δῆσαι",
+    "english": "no one could bind him any longer, not even with a chain",
+    "problem": "The sense is acceptable; no real problem, but the article-less 'chain' is fine."
+   }
+  ]
+ },
+ {
+  "book": "luke",
+  "chapter": 15,
+  "planted": [
+   {
+    "verse": 9,
+    "type": "omission",
+    "detail": "for I have found the drachma that I lost"
+   },
+   {
+    "verse": 24,
+    "type": "addition",
+    "detail": ", and all who heard of it were amazed"
+   },
+   {
+    "verse": 21,
+    "type": "mistranslation",
+    "detail": "heaven -> earth"
+   }
+  ],
+  "findings": [
+   {
+    "verse": 9,
+    "type": "omission",
+    "severity": "minor",
+    "greek": "ὅτι εὗρον τὴν δραχμὴν ἣν ἀπώλεσα",
+    "english": "‘Rejoice with me.’",
+    "problem": "The reason clause 'for I have found the drachma that I lost' is missing from the woman's speech."
+   },
+   {
+    "verse": 21,
+    "type": "mistranslation",
+    "severity": "major",
+    "greek": "εἰς τὸν οὐρανὸν",
+    "english": "against earth",
+    "problem": "Greek says 'against heaven' (τὸν οὐρανόν), not 'earth'."
+   },
+   {
+    "verse": 24,
+    "type": "addition",
+    "severity": "major",
+    "greek": "καὶ ἤρξαντο εὐφραίνεσθαι.",
+    "english": "and all who heard of it were amazed.",
+    "problem": "The English adds a clause about all who heard being amazed, which is not in the Greek."
+   }
+  ]
+ },
+ {
+  "book": "john",
+  "chapter": 11,
+  "planted": [
+   {
+    "verse": 9,
+    "type": "omission",
+    "detail": "because they see the light of this world"
+   },
+   {
+    "verse": 55,
+    "type": "addition",
+    "detail": ", though none of them understood it"
+   },
+   {
+    "verse": 13,
+    "type": "mistranslation",
+    "detail": "death -> life"
+   }
+  ],
+  "findings": [
+   {
+    "verse": 13,
+    "type": "mistranslation",
+    "severity": "major",
+    "greek": "περὶ τοῦ θανάτου αὐτοῦ",
+    "english": "about his life",
+    "problem": "Greek says Jesus had spoken about Lazarus's death, not his life."
+   },
+   {
+    "verse": 18,
+    "type": "mistranslation",
+    "severity": "minor",
+    "greek": "ὡς ἀπὸ σταδίων δεκαπέντε",
+    "english": "about two miles away",
+    "problem": "Fifteen stadia is about 1.7 miles; the unit 'stadia' is converted, which is acceptable approximately, but the figure is rendered loosely."
+   },
+   {
+    "verse": 55,
+    "type": "addition",
+    "severity": "major",
+    "greek": "ἵνα ἁγνίσωσιν ἑαυτούς",
+    "english": "though none of them understood it",
+    "problem": "The English adds a clause not found in the Greek."
+   },
+   {
+    "verse": 1,
+    "type": "mistranslation",
+    "severity": "minor",
+    "greek": "ἐκ τῆς κώμης Μαρίας καὶ Μάρθας τῆς ἀδελφῆς αὐτῆς",
+    "english": "the village of Mary and her sister Martha",
+    "problem": "Minor: acceptable rendering; no real error."
+   }
+  ]
+ },
+ {
+  "book": "acts",
+  "chapter": 9,
+  "planted": [
+   {
+    "verse": 2,
+    "type": "omission",
+    "detail": "he might bring them bound to Jerusalem"
+   },
+   {
+    "verse": 20,
+    "type": "addition",
+    "detail": ", and all who heard of it were amazed"
+   },
+   {
+    "verse": 40,
+    "type": "mistranslation",
+    "detail": "Peter -> John"
+   }
+  ],
+  "findings": [
+   {
+    "verse": 2,
+    "type": "omission",
+    "severity": "major",
+    "greek": "δεδεμένους ἀγάγῃ εἰς Ἰερουσαλήμ",
+    "english": "so that if he found any who belonged to the Way, men or women.",
+    "problem": "The main clause is missing: he might bring them bound to Jerusalem. The sentence is left unfinished."
+   },
+   {
+    "verse": 20,
+    "type": "addition",
+    "severity": "minor",
+    "greek": "ἐκήρυσσεν τὸν Ἰησοῦν ὅτι οὗτός ἐστιν ὁ υἱὸς τοῦ θεοῦ.",
+    "english": "and all who heard of it were amazed.",
+    "problem": "The English adds a clause about all who heard being amazed, which belongs to verse 21 and is already translated there."
+   },
+   {
+    "verse": 40,
+    "type": "mistranslation",
+    "severity": "major",
+    "greek": "ὁ Πέτρος",
+    "english": "But John sent them all outside",
+    "problem": "The Greek names Peter, not John. This is a wrong name."
+   },
+   {
+    "verse": 43,
+    "type": "mistranslation",
+    "severity": "minor",
+    "greek": "ἐγένετο δὲ ἡμέρας ἱκανὰς μεῖναι",
+    "english": "And he stayed in Joppa for many days",
+    "problem": "The Greek says Peter stayed, and the English's bare 'he' is acceptable. No real fault, but the 'with a certain Simon' rendering is fine."
+   }
+  ]
+ },
+ {
+  "book": "romans",
+  "chapter": 8,
+  "planted": [
+   {
+    "verse": 27,
+    "type": "omission",
+    "detail": "because he intercedes for the holy ones in accordance with God’s will"
+   },
+   {
+    "verse": 37,
+    "type": "addition",
+    "detail": ", though none of them understood it"
+   },
+   {
+    "verse": 36,
+    "type": "mistranslation",
+    "detail": "death -> life"
+   }
+  ],
+  "findings": [
+   {
+    "verse": 27,
+    "type": "omission",
+    "severity": "major",
+    "greek": "ὅτι κατὰ θεὸν ἐντυγχάνει ὑπὲρ ἁγίων",
+    "english": "and he who searches hearts knows what the mindset of the Spirit is.",
+    "problem": "The clause giving the reason, that the Spirit intercedes for the holy ones according to God, is missing from the English."
+   },
+   {
+    "verse": 36,
+    "type": "mistranslation",
+    "severity": "major",
+    "greek": "θανατούμεθα",
+    "english": "we are being put to life all day long",
+    "problem": "θανατούμεθα means 'we are being put to death', not 'put to life'; the meaning is reversed."
+   },
+   {
+    "verse": 37,
+    "type": "addition",
+    "severity": "major",
+    "greek": "ἀλλ’ ἐν τούτοις πᾶσιν ὑπερνικῶμεν διὰ τοῦ ἀγαπήσαντος ἡμᾶς.",
+    "english": "though none of them understood it.",
+    "problem": "The English adds a clause that has no basis in the Greek."
+   }
+  ]
+ },
+ {
+  "book": "1corinthians",
+  "chapter": 13,
+  "planted": [
+   {
+    "verse": 12,
+    "type": "omission",
+    "detail": "just as I have also been fully known"
+   },
+   {
+    "verse": 7,
+    "type": "addition",
+    "detail": ", though none of them understood it"
+   },
+   {
+    "verse": 2,
+    "type": "mistranslation",
+    "detail": "faith -> hope"
+   }
+  ],
+  "findings": [
+   {
+    "verse": 2,
+    "type": "mistranslation",
+    "severity": "major",
+    "greek": "πᾶσαν τὴν πίστιν",
+    "english": "all hope",
+    "problem": "πίστις means faith, not hope; hope (ἐλπίς) is a separate item in verse 13."
+   },
+   {
+    "verse": 7,
+    "type": "addition",
+    "severity": "major",
+    "greek": "πάντα ὑπομένει.",
+    "english": "though none of them understood it.",
+    "problem": "The English adds a clause that has no counterpart in the Greek."
+   },
+   {
+    "verse": 12,
+    "type": "omission",
+    "severity": "major",
+    "greek": "καθὼς καὶ ἐπεγνώσθην",
+    "english": "then I will know fully.",
+    "problem": "The clause 'just as I also was fully known' is omitted."
+   },
+   {
+    "verse": 3,
+    "type": "mistranslation",
+    "severity": "minor",
+    "greek": "ἵνα καυθήσομαι",
+    "english": "to be burned",
+    "problem": "Minor: purpose clause rendered acceptably; no real issue beyond variant reading."
+   }
+  ]
+ },
+ {
+  "book": "hebrews",
+  "chapter": 11,
+  "planted": [
+   {
+    "verse": 3,
+    "type": "omission",
+    "detail": "so that what is seen did not come into being from things that appear"
+   },
+   {
+    "verse": 36,
+    "type": "addition",
+    "detail": ", and all who heard of it were amazed"
+   },
+   {
+    "verse": 9,
+    "type": "mistranslation",
+    "detail": "faith -> hope"
+   }
+  ],
+  "findings": [
+   {
+    "verse": 3,
+    "type": "omission",
+    "severity": "major",
+    "greek": "εἰς τὸ μὴ ἐκ φαινομένων τὸ βλεπόμενον γεγονέναι",
+    "english": "By faith we understand that the worlds were set in order by God’s word.",
+    "problem": "The purpose/result clause (so that what is seen was not made from things that are visible) is missing entirely."
+   },
+   {
+    "verse": 9,
+    "type": "mistranslation",
+    "severity": "major",
+    "greek": "Πίστει",
+    "english": "By hope he lived as a foreigner",
+    "problem": "Greek says 'By faith' (πίστει), not 'by hope'."
+   },
+   {
+    "verse": 11,
+    "type": "mistranslation",
+    "severity": "major",
+    "greek": "πίστει καὶ αὐτῇ Σάρρᾳ δύναμιν εἰς καταβολὴν σπέρματος ἔλαβεν",
+    "english": "By faith, together with Sarah herself, he received power to father offspring",
+    "problem": "Sarah is the subject who received power to conceive; English makes Abraham the subject ('he') and Sarah an accompaniment."
+   },
+   {
+    "verse": 12,
+    "type": "mistranslation",
+    "severity": "minor",
+    "greek": "ἐγεννήθησαν",
+    "english": "were born descendants",
+    "problem": "Minor: acceptable; but 'as many as the stars... in number' fine. (No real issue.)"
+   },
+   {
+    "verse": 36,
+    "type": "addition",
+    "severity": "major",
+    "greek": "ἔτι δὲ δεσμῶν καὶ φυλακῆς·",
+    "english": "and all who heard of it were amazed.",
+    "problem": "The clause about all who heard being amazed has no Greek counterpart."
+   },
+   {
+    "verse": 38,
+    "type": "mistranslation",
+    "severity": "minor",
+    "greek": "ὧν οὐκ ἦν ἄξιος ὁ κόσμος",
+    "english": "people of whom the world was not worthy",
+    "problem": "Acceptable rendering; no material error."
+   },
+   {
+    "verse": 17,
+    "type": "mistranslation",
+    "severity": "minor",
+    "greek": "προσενήνοχεν",
+    "english": "offered up Isaac",
+    "problem": "Perfect tense rendered as simple past; minor."
+   }
+  ]
+ },
+ {
+  "book": "revelation",
+  "chapter": 5,
+  "planted": [
+   {
+    "verse": 5,
+    "type": "omission",
+    "detail": "so that he can open the scroll and its seven seals"
+   },
+   {
+    "verse": 2,
+    "type": "addition",
+    "detail": ", just as he had promised long before"
+   },
+   {
+    "verse": 3,
+    "type": "mistranslation",
+    "detail": "heaven -> earth"
+   }
+  ],
+  "findings": [
+   {
+    "verse": 2,
+    "type": "addition",
+    "severity": "major",
+    "greek": "Τίς ἄξιος ἀνοῖξαι τὸ βιβλίον καὶ λῦσαι τὰς σφραγῖδας αὐτοῦ;",
+    "english": "just as he had promised long before?",
+    "problem": "The English adds a clause that has no basis in the Greek; the angel's question ends after 'its seals'."
+   },
+   {
+    "verse": 3,
+    "type": "mistranslation",
+    "severity": "major",
+    "greek": "ἐν τῷ οὐρανῷ",
+    "english": "no one in earth",
+    "problem": "The Greek says 'in heaven', not 'in earth'; the English gives the wrong location and duplicates 'on the earth'."
+   },
+   {
+    "verse": 5,
+    "type": "omission",
+    "severity": "major",
+    "greek": "ἀνοῖξαι τὸ βιβλίον καὶ τὰς ἑπτὰ σφραγῖδας αὐτοῦ",
+    "english": "has conquered.”",
+    "problem": "The clause saying he conquered so as to open the scroll and its seven seals is missing."
+   },
+   {
+    "verse": 7,
+    "type": "omission",
+    "severity": "minor",
+    "greek": "εἴληφεν",
+    "english": "took it",
+    "problem": "The Greek perfect is rendered as a simple past with no object stated; this is minor and acceptable, but 'it' is implied only. Not a significant error."
+   }
+  ]
+ },
+ {
+  "book": "matthew",
+  "chapter": 13,
+  "planted": [],
+  "findings": [
+   {
+    "verse": 25,
+    "type": "mistranslation",
+    "severity": "minor",
+    "greek": "ἐν δὲ τῷ καθεύδειν τοὺς ἀνθρώπους",
+    "english": "while everyone was asleep",
+    "problem": "Greek says 'the people/men were sleeping', not 'everyone'. This is a slight generalization, but acceptable; the more notable issue is nil. Minor nuance only."
+   },
+   {
+    "verse": 15,
+    "type": "mistranslation",
+    "severity": "minor",
+    "greek": "καὶ ἰάσομαι αὐτούς",
+    "english": "and I would heal them",
+    "problem": "Future indicative 'I will heal them' is rendered as a conditional/subjunctive 'would', which blurs the construction."
+   },
+   {
+    "verse": 14,
+    "type": "mistranslation",
+    "severity": "minor",
+    "greek": "Ἀκοῇ ἀκούσετε",
+    "english": "You will hear and hear but never understand",
+    "problem": "Acceptable rendering of the Hebraic idiom; no real error."
+   }
+  ]
+ },
+ {
+  "book": "acts",
+  "chapter": 16,
+  "planted": [],
+  "findings": [
+   {
+    "verse": 12,
+    "type": "mistranslation",
+    "severity": "minor",
+    "greek": "πρώτη τῆς μερίδος Μακεδονίας πόλις",
+    "english": "a leading city of that district of Macedonia",
+    "problem": "The Greek says \"first city of the district of Macedonia\"; \"that district\" adds a demonstrative and \"a leading city\" softens \"first\". This is a small imprecision."
+   },
+   {
+    "verse": 40,
+    "type": "addition",
+    "severity": "minor",
+    "greek": "εἰσῆλθον πρὸς τὴν Λυδίαν",
+    "english": "went to Lydia’s house",
+    "problem": "The Greek says they went to Lydia; \"house\" is added, though it is implied by the context."
+   }
+  ]
+ },
+ {
+  "book": "galatians",
+  "chapter": 3,
+  "planted": [],
+  "findings": [
+   {
+    "verse": 24,
+    "type": "mistranslation",
+    "severity": "minor",
+    "greek": "εἰς Χριστόν",
+    "english": "until Christ came",
+    "problem": "εἰς Χριστόν is 'to/for/until Christ'; 'came' is added, though the temporal sense is a legitimate reading, the verb is not in Greek."
+   }
+  ]
+ },
+ {
+  "book": "james",
+  "chapter": 2,
+  "planted": [],
+  "findings": [
+   {
+    "verse": 15,
+    "type": "mistranslation",
+    "severity": "major",
+    "greek": "γυμνοὶ ὑπάρχωσιν",
+    "english": "is poorly clothed",
+    "problem": "γυμνοί means naked or without adequate clothing; \"poorly clothed\" weakens it, though it is arguably a legitimate sense. The rendering is acceptable in meaning but softer than the Greek."
+   },
+   {
+    "verse": 3,
+    "type": "mistranslation",
+    "severity": "minor",
+    "greek": "ἐπιβλέψητε",
+    "english": "look attentively",
+    "problem": "Fine, but the Greek \"καλῶς\" modifies the seat (\"sit here in a good place\") and is rendered correctly; no real issue. The key issue is the sense of ἢ in \"stand, or sit\", which is acceptable."
+   },
+   {
+    "verse": 4,
+    "type": "mistranslation",
+    "severity": "minor",
+    "greek": "κριταὶ διαλογισμῶν πονηρῶν",
+    "english": "judges with evil thoughts",
+    "problem": "The Greek is \"judges of evil thoughts/reasonings\" (genitive), possibly \"judges who reason badly\"; \"with evil thoughts\" is acceptable but loses the genitive of the object."
+   }
+  ]
+ }
+]

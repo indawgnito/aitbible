@@ -1,0 +1,271 @@
+{
+ "id": "2john-001",
+ "book": "2john",
+ "chapter": 1,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14wXbocHxTRQtv5ZJ",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 7340,
+  "output_tokens": 6330
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The elder, to the chosen lady and her children, whom I love in truth, and not I alone but also all who have come to know the truth,\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"because of the truth that remains in us and will be with us forever.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Grace, mercy, and peace will be with us from God the Father and from Jesus Christ, the Father’s Son, in truth and love.\"}]},{\"verse\":4,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"I was overjoyed to find some of your children walking in truth, in keeping with the commandment we received from the Father.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And now I ask you, lady—not as though I were writing you a new commandment, but the one we have had from the beginning—that we love one another.\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And this is love: that we walk according to his commandments. This is the commandment, just as you heard from the beginning, that you walk in it.\"}]},{\"verse\":7,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For many deceivers have gone out into the world, those who do not confess Jesus Christ as coming in the flesh. Such a person is the deceiver and the antichrist.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Watch yourselves, so that you do not lose what we have worked for, but receive a full reward.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Everyone who runs ahead and does not remain in the teaching of Christ does not have God. The one who remains in the teaching has both the Father and the Son.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"If anyone comes to you and does not bring this teaching, do not receive him into your home, and do not give him a greeting;\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"for whoever gives him a greeting shares in his evil deeds.\"}]},{\"verse\":12,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Though I have much to write to you, I did not want to do it with paper and ink. Instead I hope to come to you and speak face to face, so that your joy may be complete.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The children of your chosen sister greet you.\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"The elder\",\"lemma\":\"πρεσβύτερος\",\"kind\":\"background\",\"traditional\":\"The elder\",\"note\":\"The writer gives no name, only this title, which can mean an older man or a recognized leader in a congregation. Church tradition identifies him with John; many scholars leave the question open, noting only that the letter shares its vocabulary and concerns with 1 John and 3 John.\"},{\"verse\":1,\"phrase\":\"the chosen lady\",\"lemma\":\"κυρία\",\"kind\":\"ambiguity\",\"traditional\":\"the elect lady\",\"note\":\"The addressee may be an individual woman and her family, but most scholars take “the chosen lady and her children” as a figure for a congregation and its members. The switch to plural “you” in verses 8, 10 and 12 and the greeting from the “chosen sister” in verse 13 fit that reading. “Chosen” replaces “elect”, which now suggests voting. A few have read the Greek as a personal name (Kyria or Electa), a view not widely held.\"},{\"verse\":1,\"phrase\":\"in truth\",\"lemma\":\"ἀλήθεια\",\"kind\":\"ambiguity\",\"traditional\":\"in the truth\",\"note\":\"The Greek has no article here and could simply mean “truly, sincerely”. Because the next clauses speak of “the truth” as something known and remaining in believers, many translations render it “in the truth”, meaning within the sphere of the Christian message. The text keeps the Greek's wording and leaves both senses available.\"},{\"verse\":6,\"phrase\":\"that you walk in it\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"that you should walk in it\",\"note\":\"“It” could refer to love or to the commandment; both Greek nouns are feminine. Most interpreters take it as love, giving a deliberate circle: love means keeping the commandments, and the commandment is to live in love. Others take it as the commandment itself.\"},{\"verse\":7,\"phrase\":\"as coming in the flesh\",\"lemma\":\"ἔρχομαι\",\"kind\":\"ambiguity\",\"traditional\":\"is come in the flesh\",\"note\":\"The Greek uses a present participle (“coming”), not the past form found in the parallel at 1 John 4:2 (“has come”). Most scholars take it as a timeless statement of the incarnation, that Jesus Christ is one who came as a real human being. A minority see a reference to his future return in bodily form. The rendering keeps the present form and does not decide the question.\"},{\"verse\":8,\"phrase\":\"what we have worked for\",\"lemma\":\"ἐργάζομαι\",\"kind\":\"textual\",\"traditional\":\"what we have worked for\",\"note\":\"Manuscripts differ between “what we have worked for” and “what you have worked for”; the Greek forms differ by only a few letters. The edition translated here reads “we”, referring to the labor of the elder and his fellow workers; several modern translations follow the reading “you”.\"},{\"verse\":9,\"phrase\":\"the teaching of Christ\",\"lemma\":\"διδαχή\",\"kind\":\"ambiguity\",\"traditional\":\"the doctrine of Christ\",\"note\":\"The phrase can mean the teaching that Christ himself gave or the teaching about Christ. Verse 7, which concerns what is confessed about Jesus, favors the second; the letter's stress on the love commandment received “from the beginning” favors the first. Scholars are divided, and the English phrase leaves both open as the Greek does.\"},{\"verse\":10,\"phrase\":\"do not give him a greeting\",\"lemma\":\"χαίρω\",\"kind\":\"background\",\"traditional\":\"neither bid him God speed\",\"note\":\"Traveling teachers depended on believers for lodging, and congregations met in homes, so receiving a teacher into the house meant giving him a base and a hearing. The greeting in question is the ordinary Greek salutation, literally “rejoice”, used on meeting and parting. The instruction concerns public welcome and support for those spreading the teaching of verse 7, not ordinary courtesy to strangers.\"},{\"verse\":12,\"phrase\":\"your joy\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"our joy\",\"note\":\"Manuscripts are divided between “your joy” and “our joy”, which differ by a single letter in Greek and were pronounced alike. The edition translated here reads “your”; many translations follow the reading “our”, as in the similar sentence at 1 John 1:4.\"}],\"candidates\":[{\"lemma\":\"μένω\",\"rendering\":\"remain\",\"verse\":2,\"reason\":\"A key Johannine term rendered variously as “abide”, “remain”, “continue”, “stay” or “live”, and the theological thread across John and 1–2 John disappears if the English varies.\"},{\"lemma\":\"ὁμολογέω\",\"rendering\":\"confess\",\"verse\":7,\"reason\":\"Translators split between “confess”, “acknowledge” and “declare”, and “confess” now suggests admitting guilt; the choice should be uniform across the Gospels, Paul, Hebrews and the Johannine letters.\"},{\"lemma\":\"ἐκλεκτός\",\"rendering\":\"chosen\",\"verse\":1,\"reason\":\"“Elect” versus “chosen” recurs across the Gospels, Paul, 1 Peter and Revelation, and readers should not see the two alternate for the same word.\"},{\"lemma\":\"ἐντολή\",\"rendering\":\"commandment\",\"verse\":4,\"reason\":\"Versions vary between “command” and “commandment”, and the word links John's Gospel, the Johannine letters, Paul and the Synoptics.\"},{\"lemma\":\"περιπατέω\",\"rendering\":\"walk\",\"verse\":4,\"reason\":\"The figurative sense (“conduct one's life”) is rendered “walk” by some and “live” by others; one policy is needed for Paul and the Johannine letters.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The elder, to the chosen lady and her children, whom I love in truth, and not I alone but also all who have come to know the truth,"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "because of the truth that remains in us and will be with us forever."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Grace, mercy, and peace will be with us from God the Father and from Jesus Christ, the Father’s Son, in truth and love."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "I was overjoyed to find some of your children walking in truth, in keeping with the commandment we received from the Father."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And now I ask you, lady—not as though I were writing you a new commandment, but the one we have had from the beginning—that we love one another."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And this is love: that we walk according to his commandments. This is the commandment, just as you heard from the beginning, that you walk in it."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For many deceivers have gone out into the world, those who do not confess Jesus Christ as coming in the flesh. Such a person is the deceiver and the antichrist."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Watch yourselves, so that you do not lose what we have worked for, but receive a full reward."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Everyone who runs ahead and does not remain in the teaching of Christ does not have God. The one who remains in the teaching has both the Father and the Son."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "If anyone comes to you and does not bring this teaching, do not receive him into your home, and do not give him a greeting;"
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "for whoever gives him a greeting shares in his evil deeds."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Though I have much to write to you, I did not want to do it with paper and ink. Instead I hope to come to you and speak face to face, so that your joy may be complete."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The children of your chosen sister greet you."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "The elder",
+    "lemma": "πρεσβύτερος",
+    "kind": "background",
+    "traditional": "The elder",
+    "note": "The writer gives no name, only this title, which can mean an older man or a recognized leader in a congregation. Church tradition identifies him with John; many scholars leave the question open, noting only that the letter shares its vocabulary and concerns with 1 John and 3 John."
+   },
+   {
+    "verse": 1,
+    "phrase": "the chosen lady",
+    "lemma": "κυρία",
+    "kind": "ambiguity",
+    "traditional": "the elect lady",
+    "note": "The addressee may be an individual woman and her family, but most scholars take “the chosen lady and her children” as a figure for a congregation and its members. The switch to plural “you” in verses 8, 10 and 12 and the greeting from the “chosen sister” in verse 13 fit that reading. “Chosen” replaces “elect”, which now suggests voting. A few have read the Greek as a personal name (Kyria or Electa), a view not widely held."
+   },
+   {
+    "verse": 1,
+    "phrase": "in truth",
+    "lemma": "ἀλήθεια",
+    "kind": "ambiguity",
+    "traditional": "in the truth",
+    "note": "The Greek has no article here and could simply mean “truly, sincerely”. Because the next clauses speak of “the truth” as something known and remaining in believers, many translations render it “in the truth”, meaning within the sphere of the Christian message. The text keeps the Greek's wording and leaves both senses available."
+   },
+   {
+    "verse": 6,
+    "phrase": "that you walk in it",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "that you should walk in it",
+    "note": "“It” could refer to love or to the commandment; both Greek nouns are feminine. Most interpreters take it as love, giving a deliberate circle: love means keeping the commandments, and the commandment is to live in love. Others take it as the commandment itself."
+   },
+   {
+    "verse": 7,
+    "phrase": "as coming in the flesh",
+    "lemma": "ἔρχομαι",
+    "kind": "ambiguity",
+    "traditional": "is come in the flesh",
+    "note": "The Greek uses a present participle (“coming”), not the past form found in the parallel at 1 John 4:2 (“has come”). Most scholars take it as a timeless statement of the incarnation, that Jesus Christ is one who came as a real human being. A minority see a reference to his future return in bodily form. The rendering keeps the present form and does not decide the question."
+   },
+   {
+    "verse": 8,
+    "phrase": "what we have worked for",
+    "lemma": "ἐργάζομαι",
+    "kind": "textual",
+    "traditional": "what we have worked for",
+    "note": "Manuscripts differ between “what we have worked for” and “what you have worked for”; the Greek forms differ by only a few letters. The edition translated here reads “we”, referring to the labor of the elder and his fellow workers; several modern translations follow the reading “you”."
+   },
+   {
+    "verse": 9,
+    "phrase": "the teaching of Christ",
+    "lemma": "διδαχή",
+    "kind": "ambiguity",
+    "traditional": "the doctrine of Christ",
+    "note": "The phrase can mean the teaching that Christ himself gave or the teaching about Christ. Verse 7, which concerns what is confessed about Jesus, favors the second; the letter's stress on the love commandment received “from the beginning” favors the first. Scholars are divided, and the English phrase leaves both open as the Greek does."
+   },
+   {
+    "verse": 10,
+    "phrase": "do not give him a greeting",
+    "lemma": "χαίρω",
+    "kind": "background",
+    "traditional": "neither bid him God speed",
+    "note": "Traveling teachers depended on believers for lodging, and congregations met in homes, so receiving a teacher into the house meant giving him a base and a hearing. The greeting in question is the ordinary Greek salutation, literally “rejoice”, used on meeting and parting. The instruction concerns public welcome and support for those spreading the teaching of verse 7, not ordinary courtesy to strangers."
+   },
+   {
+    "verse": 12,
+    "phrase": "your joy",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "our joy",
+    "note": "Manuscripts are divided between “your joy” and “our joy”, which differ by a single letter in Greek and were pronounced alike. The edition translated here reads “your”; many translations follow the reading “our”, as in the similar sentence at 1 John 1:4."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "μένω",
+    "rendering": "remain",
+    "verse": 2,
+    "reason": "A key Johannine term rendered variously as “abide”, “remain”, “continue”, “stay” or “live”, and the theological thread across John and 1–2 John disappears if the English varies."
+   },
+   {
+    "lemma": "ὁμολογέω",
+    "rendering": "confess",
+    "verse": 7,
+    "reason": "Translators split between “confess”, “acknowledge” and “declare”, and “confess” now suggests admitting guilt; the choice should be uniform across the Gospels, Paul, Hebrews and the Johannine letters."
+   },
+   {
+    "lemma": "ἐκλεκτός",
+    "rendering": "chosen",
+    "verse": 1,
+    "reason": "“Elect” versus “chosen” recurs across the Gospels, Paul, 1 Peter and Revelation, and readers should not see the two alternate for the same word."
+   },
+   {
+    "lemma": "ἐντολή",
+    "rendering": "commandment",
+    "verse": 4,
+    "reason": "Versions vary between “command” and “commandment”, and the word links John's Gospel, the Johannine letters, Paul and the Synoptics."
+   },
+   {
+    "lemma": "περιπατέω",
+    "rendering": "walk",
+    "verse": 4,
+    "reason": "The figurative sense (“conduct one's life”) is rendered “walk” by some and “live” by others; one policy is needed for Paul and the Johannine letters."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 3556,
+   "output_tokens": 166
+  },
+  "findings": [],
+  "error": ""
+ }
+}

@@ -1,0 +1,41 @@
+{
+  "needs_entry": true,
+  "reason": "The run renders the same sense two ways: 'with a skin disease' in Matthew 8:2, 10:8, Mark 1:40, Luke 4:27 and 7:22, but 'lepers' in Matthew 11:5 and 'men with leprosy' in Luke 17:12. Matthew 11:5 and Luke 7:22 are parallel sayings with identical Greek and now disagree. The translator's notes show the wording was chosen chapter by chapter, so a single decision is needed.",
+  "sense": "person afflicted with the ritually defiling scaly skin condition of Leviticus 13-14 (the only sense in the New Testament)",
+  "default": "person with a skin disease",
+  "alternates": [
+    {
+      "renderings": [
+        "man with a skin disease",
+        "men with a skin disease"
+      ],
+      "when": "The context identifies the sufferer as a man or men, as with the individual in Matthew 8:2 and Mark 1:40 and the ten men of Luke 17:12, where the Greek adds the word for men."
+    },
+    {
+      "renderings": [
+        "those with skin disease",
+        "people with skin disease",
+        "those with a skin disease",
+        "people with a skin disease"
+      ],
+      "when": "Plural used of the afflicted as a class, as in Matthew 10:8, 11:5, Luke 4:27 and 7:22."
+    },
+    {
+      "renderings": [
+        "leper"
+      ],
+      "when": "Only in the fixed byname Simon the leper at Matthew 26:6 and Mark 14:3, where the word works as an identifying nickname and not as a description of his present condition. A note should explain the term."
+    }
+  ],
+  "traditional": "leper",
+  "status": "contested",
+  "rationale": "In the Septuagint and in first-century Jewish usage this word names someone with the condition regulated in Leviticus 13-14: a range of scaly skin conditions that made a person ritually unclean, which is why they are 'cleansed' and not simply healed. 'Leper' and 'leprosy' today mean Hansen's disease, which is narrower than the Greek term and may not even be included in it, so the traditional word misleads a modern reader about what is described. 'Skin disease' is the description standard lexicons give, and the run already favours it. The familiar byname of Simon is kept because it identifies him rather than diagnoses him.",
+  "standard_view": "Most major translations (KJV, ESV, NRSV, NET) keep 'leper', and NIV and CSB use 'person with leprosy', usually with a footnote saying the term covers various skin diseases. A minority, such as the CEB and the HCSB ('serious skin disease'), put that in the text. Scholars widely agree the biblical term is broader than modern leprosy. The disagreement is whether to keep the familiar word with a note, since 'skin disease' can understate the severity and social exclusion involved.",
+  "watch": [
+    "leper",
+    "man with leprosy",
+    "person with leprosy",
+    "leprous"
+  ],
+  "lemma": "λεπρός"
+}

@@ -1,0 +1,551 @@
+{
+ "id": "matthew-023",
+ "book": "matthew",
+ "chapter": 23,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14gQSXfS3dbCwTYU1",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 11496,
+  "output_tokens": 15941
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then Jesus spoke to the crowds and to his disciples,\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"saying,\"},{\"speaker\":\"Jesus\",\"text\":\"“The scribes and the Pharisees have taken their seat on the chair of Moses.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"So do and keep whatever they tell you, but do not do what they do, for they say and do not do.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"They tie up heavy loads and lay them on people’s shoulders, but they themselves are not willing to lift a finger to move them.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Everything they do, they do to be seen by people: they make their phylacteries broad and their tassels long,\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"and they love the place of honor at banquets and the foremost seats in the synagogues\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"and the greetings in the marketplaces, and to be called ‘Rabbi’ by people.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But you are not to be called ‘Rabbi,’ for you have one teacher, and you are all brothers.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And do not call anyone on earth your father, for you have one Father, the heavenly one.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Nor are you to be called instructors, for you have one instructor, the Messiah.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"The greatest among you will be your servant.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Whoever exalts himself will be humbled, and whoever humbles himself will be exalted.\"}]},{\"verse\":13,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But woe to you, scribes and Pharisees, hypocrites, because you shut the kingdom of the heavens in people’s faces. For you yourselves do not enter, and you do not let those who are entering go in.\"}]},{\"verse\":15,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Woe to you, scribes and Pharisees, hypocrites, because you travel over sea and dry land to make a single convert, and when he becomes one, you make him twice as much a son of Gehenna as yourselves.\"}]},{\"verse\":16,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Woe to you, blind guides, who say, ‘Whoever swears by the sanctuary, it is nothing; but whoever swears by the gold of the sanctuary is bound.’\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"You blind fools! Which is greater, the gold or the sanctuary that made the gold holy?\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And, ‘Whoever swears by the altar, it is nothing; but whoever swears by the gift that is on it is bound.’\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"How blind you are! Which is greater, the gift or the altar that makes the gift holy?\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"So whoever swears by the altar swears by it and by everything on it;\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"and whoever swears by the sanctuary swears by it and by the one who dwells in it;\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"and whoever swears by heaven swears by the throne of God and by the one who sits on it.\"}]},{\"verse\":23,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Woe to you, scribes and Pharisees, hypocrites, because you tithe mint and dill and cumin, and have neglected the weightier matters of the Law: justice and mercy and faithfulness. These you ought to have done, without neglecting the others.\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Blind guides, straining out the gnat but swallowing the camel!\"}]},{\"verse\":25,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Woe to you, scribes and Pharisees, hypocrites, because you clean the outside of the cup and the dish, but inside they are full of plunder and self-indulgence.\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Blind Pharisee! First clean the inside of the cup and the dish, so that the outside of it may become clean as well.\"}]},{\"verse\":27,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Woe to you, scribes and Pharisees, hypocrites, because you are like whitewashed tombs, which on the outside look beautiful but inside are full of the bones of the dead and of every kind of uncleanness.\"}]},{\"verse\":28,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"So you too on the outside appear righteous to people, but inside you are full of hypocrisy and lawlessness.\"}]},{\"verse\":29,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Woe to you, scribes and Pharisees, hypocrites, because you build the tombs of the prophets and decorate the memorials of the righteous,\"}]},{\"verse\":30,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"and you say, ‘If we had lived in the days of our fathers, we would not have been their partners in the blood of the prophets.’\"}]},{\"verse\":31,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"So you testify against yourselves that you are sons of those who murdered the prophets.\"}]},{\"verse\":32,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"You, then, fill up the measure of your fathers!\"}]},{\"verse\":33,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Snakes! Brood of vipers! How can you escape the judgment of Gehenna?\"}]},{\"verse\":34,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Therefore, look, I am sending you prophets and sages and scribes. Some of them you will kill and crucify, and some of them you will flog in your synagogues and pursue from town to town,\"}]},{\"verse\":35,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"so that all the righteous blood shed on the earth may come upon you, from the blood of Abel the righteous to the blood of Zechariah son of Barachiah, whom you murdered between the sanctuary and the altar.\"}]},{\"verse\":36,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Truly I tell you, all these things will come upon this generation.\"}]},{\"verse\":37,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Jerusalem, Jerusalem, who kills the prophets and stones those sent to her—how often I wanted to gather your children the way a hen gathers her chicks under her wings, and you did not want it!\"}]},{\"verse\":38,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Look, your house is left to you desolate.\"}]},{\"verse\":39,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For I tell you, you will not see me from now on until you say, ‘Blessed is the one who comes in the name of the Lord.’”\"}]}],\"notes\":[{\"verse\":2,\"phrase\":\"the chair of Moses\",\"lemma\":\"καθέδρα\",\"kind\":\"background\",\"traditional\":\"Moses’ seat\",\"note\":\"A first-century hearer would have understood this as a claim to teach with Moses’ authority as interpreters of the Law. Whether an actual seat of honor in the synagogue is meant or the phrase is purely figurative is debated. Stone seats of this kind have been found in some ancient synagogues, though they may be later than Jesus’ time.\"},{\"verse\":5,\"phrase\":\"phylacteries\",\"lemma\":\"φυλακτήριον\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"Phylacteries (Hebrew tefillin) are small leather cases containing passages of Scripture, strapped to the forehead and arm in obedience to Deuteronomy 6:8. The tassels are those the Law commands Israelites to wear on the corners of their garments (Numbers 15:38–39). Both were ordinary marks of piety, and Jesus himself wore tassels (Matthew 9:20, the same Greek word). The criticism is of enlarging them for show.\"},{\"verse\":10,\"phrase\":\"instructors\",\"lemma\":\"καθηγητής\",\"kind\":\"ambiguity\",\"traditional\":\"masters\",\"note\":\"The Greek word occurs only here in the New Testament. In the usage of the period it meant a teacher or private tutor, so “instructor” fits. Older versions have “master,” and some modern ones have “leader” or “guide,” which leans on the word’s derivation more than on its attested use.\"},{\"verse\":10,\"phrase\":\"the Messiah\",\"lemma\":\"Χριστός\",\"kind\":\"departure\",\"traditional\":\"Christ\",\"note\":\"The Greek word is the title of the anointed king Israel expected, and here it carries the article and functions as a title, not a name. “Messiah” conveys that to a modern reader, and several modern translations make the same choice in the Gospels. Elsewhere, where the word works as a name alongside “Jesus,” this translation keeps “Christ.”\"},{\"verse\":13,\"phrase\":\"the kingdom of the heavens\",\"lemma\":\"οὐρανός\",\"kind\":\"departure\",\"traditional\":\"the kingdom of heaven\",\"note\":\"The Greek is plural, a Semitic turn of phrase characteristic of Matthew that a first-century hearer would have noticed. Most translations flatten it to “heaven.” The meaning is the same.\"},{\"verse\":13,\"phrase\":\"But woe to you\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"\",\"note\":\"Many later manuscripts add a further woe here, numbered verse 14: “Woe to you, scribes and Pharisees, hypocrites, because you devour widows’ houses and for a pretense make long prayers; therefore you will receive greater condemnation.” It is absent from the earliest witnesses, and its position varies among those that have it. It is generally judged to have been imported from Mark 12:40 and Luke 20:47. The SBLGNT omits it, so the numbering passes from 13 to 15.\"},{\"verse\":15,\"phrase\":\"son of Gehenna\",\"lemma\":\"γέεννα\",\"kind\":\"departure\",\"traditional\":\"child of hell\",\"note\":\"Gehenna is a place name, the Valley of Hinnom outside Jerusalem, which had become the name for the place of final judgment. Many translations use “hell,” usually with a footnote, but that merges it with Hades and with later imagery. “Son of” is a Semitic idiom for someone who belongs to or is destined for something.\"},{\"verse\":16,\"phrase\":\"sanctuary\",\"lemma\":\"ναός\",\"kind\":\"departure\",\"traditional\":\"temple\",\"note\":\"Greek has two words that English Bibles usually both render “temple”: one for the whole complex with its courts, and this one for the building proper, where God was understood to dwell (see verse 21). Most versions use “temple” here; some, such as the NRSV, use “sanctuary” in this chapter. The distinction matters in verse 35, where a murder takes place between the sanctuary building and the altar that stood in front of it.\"},{\"verse\":17,\"phrase\":\"made the gold holy\",\"lemma\":\"ἁγιάζω\",\"kind\":\"departure\",\"traditional\":\"sanctified the gold\",\"note\":\"The Greek verb is built directly on the ordinary word for “holy,” and “make holy” keeps that link visible. Most traditional versions use “sanctify,” and some modern ones use “make sacred” or “make holy.” The meaning is not in dispute: the gold and the gift belong to God because of the sanctuary and altar they are attached to.\"},{\"verse\":23,\"phrase\":\"faithfulness\",\"lemma\":\"πίστις\",\"kind\":\"ambiguity\",\"traditional\":\"faith\",\"note\":\"The Greek word covers both “faith” and “faithfulness.” Set beside justice and mercy as things to be done, it most naturally means loyalty and reliability, echoing prophetic summaries such as Micah 6:8. Older versions have “faith,” and most modern translations have “faithfulness.”\"},{\"verse\":27,\"phrase\":\"whitewashed tombs\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"Tombs were marked with white lime so that passersby would not touch them by accident and contract ritual impurity from the dead (Numbers 19:16). Later rabbinic sources describe this being done before festivals. The whitewash made a tomb look bright while marking the uncleanness within.\"},{\"verse\":35,\"phrase\":\"Zechariah son of Barachiah\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"Abel is the first person murdered in Scripture (Genesis 4). The Zechariah meant is most often identified with the priest stoned in the temple court in 2 Chronicles 24:20–22, which is the last such murder in the Hebrew Bible if Chronicles is read as its final book. That Zechariah, however, is called son of Jehoiada, while “son of Barachiah” fits the prophet Zechariah (Zechariah 1:1). How the two are related here is disputed, and no explanation is certain.\"}],\"candidates\":[{\"lemma\":\"γραμματεύς\",\"rendering\":\"scribes\",\"verse\":2,\"reason\":\"Occurs throughout the Gospels and Acts; “scribe” suggests a copyist to modern readers, where the role is a trained expert in the Law, so translators vary between “scribes,” “teachers of the law” and “legal experts.”\"},{\"lemma\":\"οὐαί\",\"rendering\":\"woe to\",\"verse\":13,\"reason\":\"Recurs in the Gospels and Revelation; “woe to you” is archaic, and alternatives such as “how terrible for you” or “alas for you” differ in whether they sound like a curse or a lament.\"},{\"lemma\":\"ἀδελφός\",\"rendering\":\"brothers\",\"verse\":8,\"reason\":\"Very frequent across the New Testament; whether the plural for a mixed group is “brothers” or “brothers and sisters” needs one policy.\"},{\"lemma\":\"προσήλυτος\",\"rendering\":\"convert\",\"verse\":15,\"reason\":\"Occurs here and in Acts; “proselyte” is traditional but obscure, and “convert” should be used consistently for a Gentile who has fully joined Judaism.\"},{\"lemma\":\"ἰδού\",\"rendering\":\"look\",\"verse\":34,\"reason\":\"Extremely frequent attention-marker; “behold,” “look,” “see” or leaving it untranslated should be decided once for uniformity.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then Jesus spoke to the crowds and to his disciples,"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "saying,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“The scribes and the Pharisees have taken their seat on the chair of Moses."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "So do and keep whatever they tell you, but do not do what they do, for they say and do not do."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "They tie up heavy loads and lay them on people’s shoulders, but they themselves are not willing to lift a finger to move them."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Everything they do, they do to be seen by people: they make their phylacteries broad and their tassels long,"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "and they love the place of honor at banquets and the foremost seats in the synagogues"
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "and the greetings in the marketplaces, and to be called ‘Rabbi’ by people."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But you are not to be called ‘Rabbi,’ for you have one teacher, and you are all brothers."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And do not call anyone on earth your father, for you have one Father, the heavenly one."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Nor are you to be called instructors, for you have one instructor, the Messiah."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "The greatest among you will be your servant."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Whoever exalts himself will be humbled, and whoever humbles himself will be exalted."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But woe to you, scribes and Pharisees, hypocrites, because you shut the kingdom of the heavens in people’s faces. For you yourselves do not enter, and you do not let those who are entering go in."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Woe to you, scribes and Pharisees, hypocrites, because you travel over sea and dry land to make a single convert, and when he becomes one, you make him twice as much a son of Gehenna as yourselves."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Woe to you, blind guides, who say, ‘Whoever swears by the sanctuary, it is nothing; but whoever swears by the gold of the sanctuary is bound.’"
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "You blind fools! Which is greater, the gold or the sanctuary that made the gold holy?"
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And, ‘Whoever swears by the altar, it is nothing; but whoever swears by the gift that is on it is bound.’"
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "How blind you are! Which is greater, the gift or the altar that makes the gift holy?"
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "So whoever swears by the altar swears by it and by everything on it;"
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "and whoever swears by the sanctuary swears by it and by the one who dwells in it;"
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "and whoever swears by heaven swears by the throne of God and by the one who sits on it."
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Woe to you, scribes and Pharisees, hypocrites, because you tithe mint and dill and cumin, and have neglected the weightier matters of the Law: justice and mercy and faithfulness. These you ought to have done, without neglecting the others."
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Blind guides, straining out the gnat but swallowing the camel!"
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Woe to you, scribes and Pharisees, hypocrites, because you clean the outside of the cup and the dish, but inside they are full of plunder and self-indulgence."
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Blind Pharisee! First clean the inside of the cup and the dish, so that the outside of it may become clean as well."
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Woe to you, scribes and Pharisees, hypocrites, because you are like whitewashed tombs, which on the outside look beautiful but inside are full of the bones of the dead and of every kind of uncleanness."
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "So you too on the outside appear righteous to people, but inside you are full of hypocrisy and lawlessness."
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Woe to you, scribes and Pharisees, hypocrites, because you build the tombs of the prophets and decorate the memorials of the righteous,"
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "and you say, ‘If we had lived in the days of our fathers, we would not have been their partners in the blood of the prophets.’"
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "So you testify against yourselves that you are sons of those who murdered the prophets."
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "You, then, fill up the measure of your fathers!"
+     }
+    ]
+   },
+   {
+    "verse": 33,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Snakes! Brood of vipers! How can you escape the judgment of Gehenna?"
+     }
+    ]
+   },
+   {
+    "verse": 34,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Therefore, look, I am sending you prophets and sages and scribes. Some of them you will kill and crucify, and some of them you will flog in your synagogues and pursue from town to town,"
+     }
+    ]
+   },
+   {
+    "verse": 35,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "so that all the righteous blood shed on the earth may come upon you, from the blood of Abel the righteous to the blood of Zechariah son of Barachiah, whom you murdered between the sanctuary and the altar."
+     }
+    ]
+   },
+   {
+    "verse": 36,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Truly I tell you, all these things will come upon this generation."
+     }
+    ]
+   },
+   {
+    "verse": 37,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Jerusalem, Jerusalem, who kills the prophets and stones those sent to her—how often I wanted to gather your children the way a hen gathers her chicks under her wings, and you did not want it!"
+     }
+    ]
+   },
+   {
+    "verse": 38,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Look, your house is left to you desolate."
+     }
+    ]
+   },
+   {
+    "verse": 39,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For I tell you, you will not see me from now on until you say, ‘Blessed is the one who comes in the name of the Lord.’”"
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 2,
+    "phrase": "the chair of Moses",
+    "lemma": "καθέδρα",
+    "kind": "background",
+    "traditional": "Moses’ seat",
+    "note": "A first-century hearer would have understood this as a claim to teach with Moses’ authority as interpreters of the Law. Whether an actual seat of honor in the synagogue is meant or the phrase is purely figurative is debated. Stone seats of this kind have been found in some ancient synagogues, though they may be later than Jesus’ time."
+   },
+   {
+    "verse": 5,
+    "phrase": "phylacteries",
+    "lemma": "φυλακτήριον",
+    "kind": "background",
+    "traditional": "",
+    "note": "Phylacteries (Hebrew tefillin) are small leather cases containing passages of Scripture, strapped to the forehead and arm in obedience to Deuteronomy 6:8. The tassels are those the Law commands Israelites to wear on the corners of their garments (Numbers 15:38–39). Both were ordinary marks of piety, and Jesus himself wore tassels (Matthew 9:20, the same Greek word). The criticism is of enlarging them for show."
+   },
+   {
+    "verse": 10,
+    "phrase": "instructors",
+    "lemma": "καθηγητής",
+    "kind": "ambiguity",
+    "traditional": "masters",
+    "note": "The Greek word occurs only here in the New Testament. In the usage of the period it meant a teacher or private tutor, so “instructor” fits. Older versions have “master,” and some modern ones have “leader” or “guide,” which leans on the word’s derivation more than on its attested use."
+   },
+   {
+    "verse": 10,
+    "phrase": "the Messiah",
+    "lemma": "Χριστός",
+    "kind": "departure",
+    "traditional": "Christ",
+    "note": "The Greek word is the title of the anointed king Israel expected, and here it carries the article and functions as a title, not a name. “Messiah” conveys that to a modern reader, and several modern translations make the same choice in the Gospels. Elsewhere, where the word works as a name alongside “Jesus,” this translation keeps “Christ.”"
+   },
+   {
+    "verse": 13,
+    "phrase": "the kingdom of the heavens",
+    "lemma": "οὐρανός",
+    "kind": "departure",
+    "traditional": "the kingdom of heaven",
+    "note": "The Greek is plural, a Semitic turn of phrase characteristic of Matthew that a first-century hearer would have noticed. Most translations flatten it to “heaven.” The meaning is the same."
+   },
+   {
+    "verse": 13,
+    "phrase": "But woe to you",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "",
+    "note": "Many later manuscripts add a further woe here, numbered verse 14: “Woe to you, scribes and Pharisees, hypocrites, because you devour widows’ houses and for a pretense make long prayers; therefore you will receive greater condemnation.” It is absent from the earliest witnesses, and its position varies among those that have it. It is generally judged to have been imported from Mark 12:40 and Luke 20:47. The SBLGNT omits it, so the numbering passes from 13 to 15."
+   },
+   {
+    "verse": 15,
+    "phrase": "son of Gehenna",
+    "lemma": "γέεννα",
+    "kind": "departure",
+    "traditional": "child of hell",
+    "note": "Gehenna is a place name, the Valley of Hinnom outside Jerusalem, which had become the name for the place of final judgment. Many translations use “hell,” usually with a footnote, but that merges it with Hades and with later imagery. “Son of” is a Semitic idiom for someone who belongs to or is destined for something."
+   },
+   {
+    "verse": 16,
+    "phrase": "sanctuary",
+    "lemma": "ναός",
+    "kind": "departure",
+    "traditional": "temple",
+    "note": "Greek has two words that English Bibles usually both render “temple”: one for the whole complex with its courts, and this one for the building proper, where God was understood to dwell (see verse 21). Most versions use “temple” here; some, such as the NRSV, use “sanctuary” in this chapter. The distinction matters in verse 35, where a murder takes place between the sanctuary building and the altar that stood in front of it."
+   },
+   {
+    "verse": 17,
+    "phrase": "made the gold holy",
+    "lemma": "ἁγιάζω",
+    "kind": "departure",
+    "traditional": "sanctified the gold",
+    "note": "The Greek verb is built directly on the ordinary word for “holy,” and “make holy” keeps that link visible. Most traditional versions use “sanctify,” and some modern ones use “make sacred” or “make holy.” The meaning is not in dispute: the gold and the gift belong to God because of the sanctuary and altar they are attached to."
+   },
+   {
+    "verse": 23,
+    "phrase": "faithfulness",
+    "lemma": "πίστις",
+    "kind": "ambiguity",
+    "traditional": "faith",
+    "note": "The Greek word covers both “faith” and “faithfulness.” Set beside justice and mercy as things to be done, it most naturally means loyalty and reliability, echoing prophetic summaries such as Micah 6:8. Older versions have “faith,” and most modern translations have “faithfulness.”"
+   },
+   {
+    "verse": 27,
+    "phrase": "whitewashed tombs",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "Tombs were marked with white lime so that passersby would not touch them by accident and contract ritual impurity from the dead (Numbers 19:16). Later rabbinic sources describe this being done before festivals. The whitewash made a tomb look bright while marking the uncleanness within."
+   },
+   {
+    "verse": 35,
+    "phrase": "Zechariah son of Barachiah",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "Abel is the first person murdered in Scripture (Genesis 4). The Zechariah meant is most often identified with the priest stoned in the temple court in 2 Chronicles 24:20–22, which is the last such murder in the Hebrew Bible if Chronicles is read as its final book. That Zechariah, however, is called son of Jehoiada, while “son of Barachiah” fits the prophet Zechariah (Zechariah 1:1). How the two are related here is disputed, and no explanation is certain."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "γραμματεύς",
+    "rendering": "scribes",
+    "verse": 2,
+    "reason": "Occurs throughout the Gospels and Acts; “scribe” suggests a copyist to modern readers, where the role is a trained expert in the Law, so translators vary between “scribes,” “teachers of the law” and “legal experts.”"
+   },
+   {
+    "lemma": "οὐαί",
+    "rendering": "woe to",
+    "verse": 13,
+    "reason": "Recurs in the Gospels and Revelation; “woe to you” is archaic, and alternatives such as “how terrible for you” or “alas for you” differ in whether they sound like a curse or a lament."
+   },
+   {
+    "lemma": "ἀδελφός",
+    "rendering": "brothers",
+    "verse": 8,
+    "reason": "Very frequent across the New Testament; whether the plural for a mixed group is “brothers” or “brothers and sisters” needs one policy."
+   },
+   {
+    "lemma": "προσήλυτος",
+    "rendering": "convert",
+    "verse": 15,
+    "reason": "Occurs here and in Acts; “proselyte” is traditional but obscure, and “convert” should be used consistently for a Gentile who has fully joined Judaism."
+   },
+   {
+    "lemma": "ἰδού",
+    "rendering": "look",
+    "verse": 34,
+    "reason": "Extremely frequent attention-marker; “behold,” “look,” “see” or leaving it untranslated should be decided once for uniformity."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [
+  "Verse 17: ἁγιάζω is not rendered with a register form (make holy; consecrate; hold holy / honor as holy; be holy) and has no register-exception note."
+ ],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 7569,
+   "output_tokens": 305
+  },
+  "findings": [],
+  "error": ""
+ }
+}

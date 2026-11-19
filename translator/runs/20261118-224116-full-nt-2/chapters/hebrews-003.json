@@ -1,0 +1,355 @@
+{
+ "id": "hebrews-003",
+ "book": "hebrews",
+ "chapter": 3,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14fQkrbqfUQ6bbs4S",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 10070,
+  "output_tokens": 10271
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Therefore, holy brothers and sisters, you who share in a heavenly calling, consider Jesus, the apostle and high priest of our confession,\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"who was faithful to the one who appointed him, just as Moses also was in his house.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For he has been counted worthy of more glory than Moses, by as much as the builder of a house has more honor than the house itself.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For every house is built by someone, but the one who built all things is God.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now Moses was faithful in all his house as a servant, to bear witness to the things that would be spoken later,\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"but Christ is faithful as a Son over his house. And we are that house, if we hold fast our confidence and the hope in which we boast.\"}]},{\"verse\":7,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Therefore, as the Holy Spirit says:\"},{\"speaker\":\"scripture\",\"text\":\"“Today, if you hear his voice,\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"scripture\",\"text\":\"do not harden your hearts as in the rebellion, on the day of testing in the wilderness,\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"scripture\",\"text\":\"where your ancestors put me to the test and tried me, and saw my works\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"scripture\",\"text\":\"for forty years. Therefore I was provoked with this generation and said, ‘They always go astray in their heart, and they have not known my ways.’\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"scripture\",\"text\":\"As I swore in my anger, ‘They shall never enter my rest.’”\"}]},{\"verse\":12,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"See to it, brothers and sisters, that none of you has an evil, unbelieving heart that turns away from the living God.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Instead, encourage one another every day, as long as it is called “Today,” so that none of you may be hardened by the deceitfulness of sin.\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For we have come to share in Christ, if indeed we hold fast our original resolve, firm to the end.\"}]},{\"verse\":15,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"As it is said:\"},{\"speaker\":\"scripture\",\"text\":\"“Today, if you hear his voice, do not harden your hearts as in the rebellion.”\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For who were those who heard and rebelled? Was it not all those who came out of Egypt led by Moses?\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And with whom was he provoked for forty years? Was it not with those who sinned, whose corpses fell in the wilderness?\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And to whom did he swear that they would not enter his rest, if not to those who disobeyed?\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So we see that they were unable to enter because of unbelief.\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"brothers and sisters\",\"lemma\":\"ἀδελφός\",\"kind\":\"departure\",\"traditional\":\"brothers / brethren\",\"note\":\"The Greek plural was the ordinary way to address a mixed group of men and women as fellow members of a family or community. “Brothers” alone now suggests to English readers that only men are addressed. Several modern translations make the same choice, while others keep “brothers.”\"},{\"verse\":2,\"phrase\":\"appointed\",\"lemma\":\"ποιέω\",\"kind\":\"ambiguity\",\"traditional\":\"appointed\",\"note\":\"The Greek verb is the ordinary word for “make,” so the phrase can be read “the one who made him.” Most translators and commentators take it here in the sense “appoint to an office,” a use found in the Greek Old Testament, since the context concerns Jesus’ role as apostle and high priest. The other reading was debated in antiquity and remains grammatically possible.\"},{\"verse\":2,\"phrase\":\"in his house\",\"lemma\":\"οἶκος\",\"kind\":\"background\",\"traditional\":\"in his house\",\"note\":\"The wording echoes Numbers 12:7, where God says of Moses, “he is faithful in all my house.” “His house” is therefore God’s house, meaning God’s household or people and not a building. The same word carries both senses, “house” and “household,” throughout verses 2–6.\"},{\"verse\":6,\"phrase\":\"the hope in which we boast\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"the rejoicing of the hope firm unto the end\",\"note\":\"Many manuscripts add “firm to the end” after “hope,” and older English versions include it. Some early witnesses lack the words, and they are widely thought to have been copied in from verse 14, where the same phrase appears. The edition translated here omits them.\"},{\"verse\":8,\"phrase\":\"rebellion\",\"lemma\":\"παραπικρασμός\",\"kind\":\"background\",\"traditional\":\"provocation\",\"note\":\"The quotation in verses 7–11 is Psalm 95:7–11 in its Greek form. The Hebrew psalm names two places, Meribah and Massah (Exodus 17:1–7), but the Greek version translates the names as common nouns: “rebellion” (or “embittering”) and “testing.” Readers of the Greek heard a description of what Israel did, not place names.\"},{\"verse\":8,\"phrase\":\"testing\",\"lemma\":\"πειρασμός\",\"kind\":\"departure\",\"traditional\":\"temptation\",\"note\":\"Older versions have “the day of temptation” here and “tempted me” in verse 9. The Greek noun and its related verb mean putting someone to the proof, and here it is Israel that tries God’s patience, which “temptation” in its modern sense of enticement to sin does not convey. Most modern translations also use “testing” in this passage.\"},{\"verse\":10,\"phrase\":\"for forty years\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"In the psalm, “forty years” goes with what follows: God was provoked with that generation for forty years. As quoted here, with “therefore” added after it, the phrase goes with what precedes: the ancestors saw God’s works for forty years. In verse 17 the author also connects the forty years with God’s being provoked, so he appears to hold both together.\"},{\"verse\":11,\"phrase\":\"They shall never enter my rest\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"They shall not enter into my rest\",\"note\":\"The Greek reads literally “if they shall enter my rest,” reproducing a Hebrew oath formula in which the penalty clause is left unspoken (“may such-and-such happen to me if…”). The effect is an emphatic denial. The oath itself is recounted in Numbers 14:20–35, after Israel refused to enter the land.\"},{\"verse\":14,\"phrase\":\"come to share in Christ\",\"lemma\":\"μέτοχος\",\"kind\":\"ambiguity\",\"traditional\":\"partakers of Christ\",\"note\":\"The Greek noun can mean one who shares in something or a partner alongside someone. The phrase can therefore mean “we share in Christ” or “we have become Christ’s partners.” The rendering here matches verse 1, where the same word is used of sharing in a heavenly calling, but both readings have scholarly support.\"},{\"verse\":14,\"phrase\":\"resolve\",\"lemma\":\"ὑπόστασις\",\"kind\":\"departure\",\"traditional\":\"confidence\",\"note\":\"Most English versions render “our original confidence” or “conviction.” In the usage of the period, however, the word normally names something objective, such as a firm stand or a course one has committed to, and lexicographers have questioned whether the sense of an inner feeling of confidence is securely attested. “Resolve” reflects the firm-stand sense and suits the call to hold fast to the end. Scholarship is divided and “confidence” remains defensible.\"},{\"verse\":16,\"phrase\":\"For who were those who heard and rebelled?\",\"lemma\":\"τίς\",\"kind\":\"ambiguity\",\"traditional\":\"For some, when they had heard, did provoke: howbeit not all that came out of Egypt by Moses\",\"note\":\"The earliest manuscripts had no accents, and the first word can be read either as “who?” or as “some.” Older versions took it as a statement: “some rebelled, but not all.” Nearly all modern editors and translators read a question, which matches the two parallel questions in verses 17 and 18.\"}],\"candidates\":[{\"lemma\":\"ἀδελφός\",\"rendering\":\"brothers and sisters\",\"verse\":1,\"reason\":\"The plural address to mixed congregations recurs across the letters and Acts, and translators divide between “brothers” and “brothers and sisters.”\"},{\"lemma\":\"παρακαλέω\",\"rendering\":\"encourage\",\"verse\":13,\"reason\":\"Recurs widely with the senses encourage, exhort, urge, comfort and appeal, and the choice of English varies in ways that need a fixed sense map.\"},{\"lemma\":\"ἀπιστία\",\"rendering\":\"unbelief\",\"verse\":12,\"reason\":\"Could be “unbelief,” “faithlessness” or “unfaithfulness,” and should be coordinated with the πίστις entry across the Gospels, Romans and Hebrews.\"},{\"lemma\":\"ἀπειθέω\",\"rendering\":\"disobey\",\"verse\":18,\"reason\":\"Older versions often render “believe not” while modern ones use “disobey,” and it is closely paired with ἀπιστία in Hebrews, Romans and John 3:36.\"},{\"lemma\":\"ὁμολογία\",\"rendering\":\"confession\",\"verse\":1,\"reason\":\"Recurs in Hebrews, 2 Corinthians and 1 Timothy, where “confession” may suggest admitting sins; “profession” or “what we profess” are live alternatives.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Therefore, holy brothers and sisters, you who share in a heavenly calling, consider Jesus, the apostle and high priest of our confession,"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "who was faithful to the one who appointed him, just as Moses also was in his house."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For he has been counted worthy of more glory than Moses, by as much as the builder of a house has more honor than the house itself."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For every house is built by someone, but the one who built all things is God."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now Moses was faithful in all his house as a servant, to bear witness to the things that would be spoken later,"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "but Christ is faithful as a Son over his house. And we are that house, if we hold fast our confidence and the hope in which we boast."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Therefore, as the Holy Spirit says:"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“Today, if you hear his voice,"
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "scripture",
+      "text": "do not harden your hearts as in the rebellion, on the day of testing in the wilderness,"
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "scripture",
+      "text": "where your ancestors put me to the test and tried me, and saw my works"
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "scripture",
+      "text": "for forty years. Therefore I was provoked with this generation and said, ‘They always go astray in their heart, and they have not known my ways.’"
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "scripture",
+      "text": "As I swore in my anger, ‘They shall never enter my rest.’”"
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "See to it, brothers and sisters, that none of you has an evil, unbelieving heart that turns away from the living God."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Instead, encourage one another every day, as long as it is called “Today,” so that none of you may be hardened by the deceitfulness of sin."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For we have come to share in Christ, if indeed we hold fast our original resolve, firm to the end."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "As it is said:"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“Today, if you hear his voice, do not harden your hearts as in the rebellion.”"
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For who were those who heard and rebelled? Was it not all those who came out of Egypt led by Moses?"
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And with whom was he provoked for forty years? Was it not with those who sinned, whose corpses fell in the wilderness?"
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And to whom did he swear that they would not enter his rest, if not to those who disobeyed?"
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So we see that they were unable to enter because of unbelief."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "brothers and sisters",
+    "lemma": "ἀδελφός",
+    "kind": "departure",
+    "traditional": "brothers / brethren",
+    "note": "The Greek plural was the ordinary way to address a mixed group of men and women as fellow members of a family or community. “Brothers” alone now suggests to English readers that only men are addressed. Several modern translations make the same choice, while others keep “brothers.”"
+   },
+   {
+    "verse": 2,
+    "phrase": "appointed",
+    "lemma": "ποιέω",
+    "kind": "ambiguity",
+    "traditional": "appointed",
+    "note": "The Greek verb is the ordinary word for “make,” so the phrase can be read “the one who made him.” Most translators and commentators take it here in the sense “appoint to an office,” a use found in the Greek Old Testament, since the context concerns Jesus’ role as apostle and high priest. The other reading was debated in antiquity and remains grammatically possible."
+   },
+   {
+    "verse": 2,
+    "phrase": "in his house",
+    "lemma": "οἶκος",
+    "kind": "background",
+    "traditional": "in his house",
+    "note": "The wording echoes Numbers 12:7, where God says of Moses, “he is faithful in all my house.” “His house” is therefore God’s house, meaning God’s household or people and not a building. The same word carries both senses, “house” and “household,” throughout verses 2–6."
+   },
+   {
+    "verse": 6,
+    "phrase": "the hope in which we boast",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "the rejoicing of the hope firm unto the end",
+    "note": "Many manuscripts add “firm to the end” after “hope,” and older English versions include it. Some early witnesses lack the words, and they are widely thought to have been copied in from verse 14, where the same phrase appears. The edition translated here omits them."
+   },
+   {
+    "verse": 8,
+    "phrase": "rebellion",
+    "lemma": "παραπικρασμός",
+    "kind": "background",
+    "traditional": "provocation",
+    "note": "The quotation in verses 7–11 is Psalm 95:7–11 in its Greek form. The Hebrew psalm names two places, Meribah and Massah (Exodus 17:1–7), but the Greek version translates the names as common nouns: “rebellion” (or “embittering”) and “testing.” Readers of the Greek heard a description of what Israel did, not place names."
+   },
+   {
+    "verse": 8,
+    "phrase": "testing",
+    "lemma": "πειρασμός",
+    "kind": "departure",
+    "traditional": "temptation",
+    "note": "Older versions have “the day of temptation” here and “tempted me” in verse 9. The Greek noun and its related verb mean putting someone to the proof, and here it is Israel that tries God’s patience, which “temptation” in its modern sense of enticement to sin does not convey. Most modern translations also use “testing” in this passage."
+   },
+   {
+    "verse": 10,
+    "phrase": "for forty years",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "In the psalm, “forty years” goes with what follows: God was provoked with that generation for forty years. As quoted here, with “therefore” added after it, the phrase goes with what precedes: the ancestors saw God’s works for forty years. In verse 17 the author also connects the forty years with God’s being provoked, so he appears to hold both together."
+   },
+   {
+    "verse": 11,
+    "phrase": "They shall never enter my rest",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "They shall not enter into my rest",
+    "note": "The Greek reads literally “if they shall enter my rest,” reproducing a Hebrew oath formula in which the penalty clause is left unspoken (“may such-and-such happen to me if…”). The effect is an emphatic denial. The oath itself is recounted in Numbers 14:20–35, after Israel refused to enter the land."
+   },
+   {
+    "verse": 14,
+    "phrase": "come to share in Christ",
+    "lemma": "μέτοχος",
+    "kind": "ambiguity",
+    "traditional": "partakers of Christ",
+    "note": "The Greek noun can mean one who shares in something or a partner alongside someone. The phrase can therefore mean “we share in Christ” or “we have become Christ’s partners.” The rendering here matches verse 1, where the same word is used of sharing in a heavenly calling, but both readings have scholarly support."
+   },
+   {
+    "verse": 14,
+    "phrase": "resolve",
+    "lemma": "ὑπόστασις",
+    "kind": "departure",
+    "traditional": "confidence",
+    "note": "Most English versions render “our original confidence” or “conviction.” In the usage of the period, however, the word normally names something objective, such as a firm stand or a course one has committed to, and lexicographers have questioned whether the sense of an inner feeling of confidence is securely attested. “Resolve” reflects the firm-stand sense and suits the call to hold fast to the end. Scholarship is divided and “confidence” remains defensible."
+   },
+   {
+    "verse": 16,
+    "phrase": "For who were those who heard and rebelled?",
+    "lemma": "τίς",
+    "kind": "ambiguity",
+    "traditional": "For some, when they had heard, did provoke: howbeit not all that came out of Egypt by Moses",
+    "note": "The earliest manuscripts had no accents, and the first word can be read either as “who?” or as “some.” Older versions took it as a statement: “some rebelled, but not all.” Nearly all modern editors and translators read a question, which matches the two parallel questions in verses 17 and 18."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "ἀδελφός",
+    "rendering": "brothers and sisters",
+    "verse": 1,
+    "reason": "The plural address to mixed congregations recurs across the letters and Acts, and translators divide between “brothers” and “brothers and sisters.”"
+   },
+   {
+    "lemma": "παρακαλέω",
+    "rendering": "encourage",
+    "verse": 13,
+    "reason": "Recurs widely with the senses encourage, exhort, urge, comfort and appeal, and the choice of English varies in ways that need a fixed sense map."
+   },
+   {
+    "lemma": "ἀπιστία",
+    "rendering": "unbelief",
+    "verse": 12,
+    "reason": "Could be “unbelief,” “faithlessness” or “unfaithfulness,” and should be coordinated with the πίστις entry across the Gospels, Romans and Hebrews."
+   },
+   {
+    "lemma": "ἀπειθέω",
+    "rendering": "disobey",
+    "verse": 18,
+    "reason": "Older versions often render “believe not” while modern ones use “disobey,” and it is closely paired with ἀπιστία in Hebrews, Romans and John 3:36."
+   },
+   {
+    "lemma": "ὁμολογία",
+    "rendering": "confession",
+    "verse": 1,
+    "reason": "Recurs in Hebrews, 2 Corinthians and 1 Timothy, where “confession” may suggest admitting sins; “profession” or “what we profess” are live alternatives."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 4061,
+   "output_tokens": 334
+  },
+  "findings": [],
+  "error": ""
+ }
+}

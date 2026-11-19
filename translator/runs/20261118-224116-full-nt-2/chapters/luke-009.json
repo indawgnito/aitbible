@@ -1,0 +1,921 @@
+{
+ "id": "luke-009",
+ "book": "luke",
+ "chapter": 9,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14cwGHice7S6Lv4zN",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 16222,
+  "output_tokens": 18981
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus called the Twelve together and gave them power and authority over all the demons and to cure diseases,\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and he sent them out to proclaim the kingdom of God and to heal the sick.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Take nothing for the road—no staff, no bag, no bread, no money—and do not have two tunics each.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Whatever house you enter, stay there, and leave from there.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And wherever people do not welcome you, as you leave that town shake the dust off your feet as a testimony against them.”\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So they set out and went from village to village, proclaiming the good news and curing people everywhere.\"}]},{\"verse\":7,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now Herod the tetrarch heard about everything that was happening, and he was greatly perplexed, because it was being said by some that John had been raised from the dead,\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"by some that Elijah had appeared, and by others that one of the ancient prophets had risen.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But Herod said,\"},{\"speaker\":\"other\",\"text\":\"“John I beheaded. So who is this about whom I hear such things?”\"},{\"speaker\":\"narrator\",\"text\":\"And he kept trying to see him.\"}]},{\"verse\":10,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When the apostles returned, they recounted to Jesus all they had done. Taking them along, he withdrew privately to a town called Bethsaida.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But the crowds found out and followed him. He welcomed them and spoke to them about the kingdom of God, and healed those who needed a cure.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now the day began to decline, and the Twelve came and said to him,\"},{\"speaker\":\"other\",\"text\":\"“Send the crowd away, so that they can go to the surrounding villages and farms to find lodging and get provisions, because we are in a deserted place here.”\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But he said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“You give them something to eat.”\"},{\"speaker\":\"narrator\",\"text\":\"They said,\"},{\"speaker\":\"other\",\"text\":\"“We have no more than five loaves and two fish—unless we ourselves are to go and buy food for all these people.”\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For there were about five thousand men. He said to his disciples,\"},{\"speaker\":\"Jesus\",\"text\":\"“Have them recline in groups of about fifty each.”\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They did so and had everyone recline.\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Taking the five loaves and the two fish, he looked up to heaven, blessed them, broke them, and kept giving them to the disciples to set before the crowd.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They all ate and were filled, and what they had left over was picked up: twelve baskets of broken pieces.\"}]},{\"verse\":18,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Once, when he was praying in private and the disciples were with him, he asked them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Who do the crowds say I am?”\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They answered,\"},{\"speaker\":\"other\",\"text\":\"“John the Baptist; but others, Elijah; and others, that one of the ancient prophets has risen.”\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“But you—who do you say I am?”\"},{\"speaker\":\"narrator\",\"text\":\"Peter answered,\"},{\"speaker\":\"other\",\"text\":\"“The Messiah of God.”\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But he sternly warned them and ordered them to tell this to no one,\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"saying,\"},{\"speaker\":\"Jesus\",\"text\":\"“The Son of Man must suffer many things and be rejected by the elders, chief priests, and scribes, and be killed, and on the third day be raised.”\"}]},{\"verse\":23,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then he said to them all,\"},{\"speaker\":\"Jesus\",\"text\":\"“If anyone wants to come after me, let them deny themselves, take up their cross daily, and follow me.\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For whoever wants to save their life will lose it, but whoever loses their life for my sake—that one will save it.\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For what good does it do a person to gain the whole world and yet lose or forfeit their own self?\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For whoever is ashamed of me and of my words, the Son of Man will be ashamed of that person when he comes in his glory and that of the Father and of the holy angels.\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But I tell you truly, there are some standing here who will certainly not taste death until they see the kingdom of God.”\"}]},{\"verse\":28,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"About eight days after these words, he took along Peter, John, and James and went up the mountain to pray.\"}]},{\"verse\":29,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And as he was praying, the appearance of his face became different, and his clothing became white, flashing like lightning.\"}]},{\"verse\":30,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And look, two men were talking with him—they were Moses and Elijah,\"}]},{\"verse\":31,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"who appeared in glory and were speaking of his departure, which he was about to fulfill in Jerusalem.\"}]},{\"verse\":32,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now Peter and those with him were weighed down with sleep; but when they became fully awake, they saw his glory and the two men standing with him.\"}]},{\"verse\":33,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"As the men were parting from him, Peter said to Jesus,\"},{\"speaker\":\"other\",\"text\":\"“Master, it is good that we are here. Let us make three tents: one for you, one for Moses, and one for Elijah.”\"},{\"speaker\":\"narrator\",\"text\":\"He did not know what he was saying.\"}]},{\"verse\":34,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"While he was saying this, a cloud came and began to overshadow them, and they were afraid as they entered the cloud.\"}]},{\"verse\":35,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And a voice came from the cloud, saying,\"},{\"speaker\":\"God\",\"text\":\"“This is my Son, the Chosen One; listen to him!”\"}]},{\"verse\":36,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When the voice had spoken, Jesus was found alone. They kept silent, and in those days they told no one anything of what they had seen.\"}]},{\"verse\":37,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"On the next day, when they had come down from the mountain, a large crowd met him.\"}]},{\"verse\":38,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And a man from the crowd shouted,\"},{\"speaker\":\"other\",\"text\":\"“Teacher, I beg you to look at my son, because he is my only child.\"}]},{\"verse\":39,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Look, a spirit seizes him, and suddenly he screams; it convulses him until he foams at the mouth, and only with a struggle does it leave him, battering him as it goes.\"}]},{\"verse\":40,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"I begged your disciples to drive it out, but they could not.”\"}]},{\"verse\":41,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus answered,\"},{\"speaker\":\"Jesus\",\"text\":\"“You faithless and perverse generation! How long will I be with you and put up with you? Bring your son here.”\"}]},{\"verse\":42,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"While the boy was still approaching, the demon threw him to the ground and convulsed him violently. But Jesus rebuked the unclean spirit, healed the boy, and gave him back to his father.\"}]},{\"verse\":43,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And all were astounded at the majesty of God. While everyone was marveling at everything he was doing, he said to his disciples,\"}]},{\"verse\":44,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"“Let these words sink into your ears: the Son of Man is about to be handed over into human hands.”\"}]},{\"verse\":45,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But they did not understand this saying; it was veiled from them so that they would not perceive it, and they were afraid to ask him about this saying.\"}]},{\"verse\":46,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"A dispute arose among them as to which of them was the greatest.\"}]},{\"verse\":47,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But Jesus, knowing the reasoning of their hearts, took a little child, stood the child beside him,\"}]},{\"verse\":48,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Whoever welcomes this little child in my name welcomes me, and whoever welcomes me welcomes the one who sent me. For the one who is least among all of you—that is the one who is great.”\"}]},{\"verse\":49,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"John responded,\"},{\"speaker\":\"other\",\"text\":\"“Master, we saw someone driving out demons in your name, and we tried to stop him, because he does not follow along with us.”\"}]},{\"verse\":50,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But Jesus said to him,\"},{\"speaker\":\"Jesus\",\"text\":\"“Do not stop him, for whoever is not against you is for you.”\"}]},{\"verse\":51,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"As the days drew to their completion for him to be taken up, he set his face to go to Jerusalem,\"}]},{\"verse\":52,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and he sent messengers ahead of him. They went and entered a Samaritan village to make preparations for him;\"}]},{\"verse\":53,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"but the people did not welcome him, because his face was set toward Jerusalem.\"}]},{\"verse\":54,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When the disciples James and John saw this, they said,\"},{\"speaker\":\"other\",\"text\":\"“Lord, do you want us to tell fire to come down from heaven and consume them?”\"}]},{\"verse\":55,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But he turned and rebuked them.\"}]},{\"verse\":56,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And they went on to another village.\"}]},{\"verse\":57,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"As they were going along the road, someone said to him,\"},{\"speaker\":\"other\",\"text\":\"“I will follow you wherever you go.”\"}]},{\"verse\":58,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus said to him,\"},{\"speaker\":\"Jesus\",\"text\":\"“Foxes have dens and the birds of the sky have nests, but the Son of Man has nowhere to lay his head.”\"}]},{\"verse\":59,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"To another he said,\"},{\"speaker\":\"Jesus\",\"text\":\"“Follow me.”\"},{\"speaker\":\"narrator\",\"text\":\"But he said,\"},{\"speaker\":\"other\",\"text\":\"“Lord, let me first go and bury my father.”\"}]},{\"verse\":60,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But Jesus said to him,\"},{\"speaker\":\"Jesus\",\"text\":\"“Leave the dead to bury their own dead; but you, go and announce the kingdom of God everywhere.”\"}]},{\"verse\":61,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Yet another said,\"},{\"speaker\":\"other\",\"text\":\"“I will follow you, Lord; but first let me say goodbye to those at my home.”\"}]},{\"verse\":62,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But Jesus said,\"},{\"speaker\":\"Jesus\",\"text\":\"“No one who puts a hand to the plow and keeps looking back is fit for the kingdom of God.”\"}]}],\"notes\":[{\"verse\":6,\"phrase\":\"proclaiming the good news\",\"lemma\":\"εὐαγγελίζω\",\"kind\":\"departure\",\"traditional\":\"preaching the gospel\",\"note\":\"The Greek verb was an ordinary word for announcing good news, used also of public and imperial proclamations. “Gospel” now sounds like a religious term or a book title, so the plain sense is given here. Many modern translations alternate between “good news” and “gospel”.\"},{\"verse\":14,\"phrase\":\"recline\",\"lemma\":\"κατακλίνω\",\"kind\":\"departure\",\"traditional\":\"sit down\",\"note\":\"The verb means to recline for a meal, the normal posture at a formal dinner or banquet in the period. Most English versions say “sit down”, which is natural English but loses the suggestion that the crowd is being arranged as guests for a meal.\"},{\"verse\":20,\"phrase\":\"The Messiah of God\",\"lemma\":\"Χριστός\",\"kind\":\"departure\",\"traditional\":\"The Christ of God\",\"note\":\"Peter is identifying Jesus with a title, the anointed king Israel was waiting for, not using a name. “Messiah” conveys that title to a modern reader, where “Christ” tends to be heard as a surname. Several modern translations use “Messiah” in the Gospels for the same reason.\"},{\"verse\":31,\"phrase\":\"departure\",\"lemma\":\"ἔξοδος\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"The Greek word is exodos. It was an ordinary word for a going out and a recognized euphemism for death, but it was also the name of Israel’s deliverance from Egypt. With Moses standing there, many scholars think Luke intends the echo: Jesus’ death, resurrection and ascension in Jerusalem as a new act of deliverance.\"},{\"verse\":32,\"phrase\":\"when they became fully awake\",\"lemma\":\"διαγρηγορέω\",\"kind\":\"ambiguity\",\"traditional\":\"\",\"note\":\"The verb is rare and can mean either “to wake up fully” or “to stay awake throughout”. On the second reading the disciples fought off sleep and so saw the glory. Translations and commentators are divided, and the context does not settle it.\"},{\"verse\":33,\"phrase\":\"tents\",\"lemma\":\"σκηνή\",\"kind\":\"departure\",\"traditional\":\"tabernacles\",\"note\":\"The Greek is the ordinary word for a tent or hut. The Greek Old Testament uses it for Israel’s wilderness sanctuary and for the shelters of the Feast of Booths. “Tabernacles” (KJV) now sounds like a special religious object; other versions have “tents”, “shelters” or “dwellings”.\"},{\"verse\":35,\"phrase\":\"the Chosen One\",\"lemma\":\"ἐκλέγομαι\",\"kind\":\"textual\",\"traditional\":\"my beloved Son\",\"note\":\"The earliest manuscripts read “the Chosen One” here. Many later manuscripts read “my beloved Son”, which matches the parallel accounts in Matthew and Mark and the voice at Jesus’ baptism. Most scholars think copyists adjusted Luke’s wording to the more familiar form.\"},{\"verse\":44,\"phrase\":\"handed over\",\"lemma\":\"παραδίδωμι\",\"kind\":\"departure\",\"traditional\":\"delivered (or betrayed)\",\"note\":\"The verb is the ordinary word for transferring someone into another’s custody or power. The Gospels use the same word for what Judas, the priests and Pilate each do to Jesus, so one rendering is kept throughout to let that chain be seen. Most versions have “delivered” or “betrayed” here.\"},{\"verse\":46,\"phrase\":\"A dispute arose among them\",\"lemma\":\"διαλογισμός\",\"kind\":\"ambiguity\",\"traditional\":\"\",\"note\":\"The same Greek word appears in the next verse as “reasoning”. It can mean an open argument or an inward thought, and the phrase could also be read as “a thought entered them”. On that reading the disciples never voiced the question, and Jesus answered what they were privately thinking.\"},{\"verse\":51,\"phrase\":\"for him to be taken up\",\"lemma\":\"ἀνάλημψις\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"The noun occurs only here in the New Testament. The related verb is used of Jesus’ ascension in Acts and of Elijah’s being taken up in the Greek Old Testament. Most scholars take it to refer to the ascension, probably as the end point of the whole sequence of death, resurrection and exaltation; a few take it simply as a term for his death. This verse begins the long journey to Jerusalem that occupies the next ten chapters of Luke.\"},{\"verse\":53,\"phrase\":\"because his face was set toward Jerusalem\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"Samaritans worshiped on Mount Gerizim and rejected the Jerusalem temple, and relations with Jews were hostile. Jewish pilgrims passing through Samaria on the way to Jerusalem could expect a cold or even violent reception. The request of James and John in the next verse recalls Elijah calling down fire in 2 Kings 1.\"},{\"verse\":55,\"phrase\":\"But he turned and rebuked them.\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"\",\"note\":\"Many later manuscripts add to verse 54 “as Elijah did”, and expand verses 55–56 with “and said, ‘You do not know what kind of spirit you belong to; for the Son of Man did not come to destroy people’s lives but to save them.’” These words are absent from the earliest and best manuscripts, and most scholars regard them as later additions.\"},{\"verse\":60,\"phrase\":\"Leave the dead to bury their own dead\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"Burying a parent was among the most sacred duties in Jewish life and took precedence over almost every other religious obligation. The saying would have sounded shocking, and that is its point: the claim of the kingdom outranks even this. The first “dead” is usually taken figuratively, of those who do not respond to the kingdom, though the exact sense is debated.\"}],\"candidates\":[{\"lemma\":\"ἐπιστάτης\",\"rendering\":\"Master\",\"verse\":33,\"reason\":\"Used only in Luke as an address to Jesus, where the other Gospels have “Teacher” or “Rabbi”; translators vary between “Master”, “Teacher” and “Chief”, and the reader should see that it differs from διδάσκαλος and κύριος.\"},{\"lemma\":\"ἐπιτιμάω\",\"rendering\":\"rebuke (v. 42, 55); sternly warn (v. 21)\",\"verse\":21,\"reason\":\"Recurs across the Gospels both for rebuking demons, winds and people and for strict commands to silence, and the line between “rebuke” and “warn” needs to be drawn consistently.\"},{\"lemma\":\"θεραπεύω\",\"rendering\":\"cure\",\"verse\":1,\"reason\":\"Appears alongside ἰάομαι throughout the Gospels and Acts; a fixed choice on whether to distinguish the two (“cure” versus “heal”) would keep the parallels aligned.\"},{\"lemma\":\"δέχομαι\",\"rendering\":\"welcome\",\"verse\":5,\"reason\":\"Used across the New Testament for receiving messengers, children, the word and the kingdom; versions vary between “receive”, “welcome” and “accept”, which obscures linked sayings.\"},{\"lemma\":\"ἔρημος\",\"rendering\":\"deserted\",\"verse\":12,\"reason\":\"As adjective and noun it is rendered “desert”, “wilderness”, “deserted”, “desolate” or “remote” across versions, and the wilderness echoes of the Exodus depend on a consistent choice.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus called the Twelve together and gave them power and authority over all the demons and to cure diseases,"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and he sent them out to proclaim the kingdom of God and to heal the sick."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Take nothing for the road—no staff, no bag, no bread, no money—and do not have two tunics each."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Whatever house you enter, stay there, and leave from there."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And wherever people do not welcome you, as you leave that town shake the dust off your feet as a testimony against them.”"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So they set out and went from village to village, proclaiming the good news and curing people everywhere."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now Herod the tetrarch heard about everything that was happening, and he was greatly perplexed, because it was being said by some that John had been raised from the dead,"
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "by some that Elijah had appeared, and by others that one of the ancient prophets had risen."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But Herod said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“John I beheaded. So who is this about whom I hear such things?”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "And he kept trying to see him."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When the apostles returned, they recounted to Jesus all they had done. Taking them along, he withdrew privately to a town called Bethsaida."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But the crowds found out and followed him. He welcomed them and spoke to them about the kingdom of God, and healed those who needed a cure."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now the day began to decline, and the Twelve came and said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Send the crowd away, so that they can go to the surrounding villages and farms to find lodging and get provisions, because we are in a deserted place here.”"
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But he said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“You give them something to eat.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "They said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“We have no more than five loaves and two fish—unless we ourselves are to go and buy food for all these people.”"
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For there were about five thousand men. He said to his disciples,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Have them recline in groups of about fifty each.”"
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They did so and had everyone recline."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Taking the five loaves and the two fish, he looked up to heaven, blessed them, broke them, and kept giving them to the disciples to set before the crowd."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They all ate and were filled, and what they had left over was picked up: twelve baskets of broken pieces."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Once, when he was praying in private and the disciples were with him, he asked them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Who do the crowds say I am?”"
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They answered,"
+     },
+     {
+      "speaker": "other",
+      "text": "“John the Baptist; but others, Elijah; and others, that one of the ancient prophets has risen.”"
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“But you—who do you say I am?”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "Peter answered,"
+     },
+     {
+      "speaker": "other",
+      "text": "“The Messiah of God.”"
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But he sternly warned them and ordered them to tell this to no one,"
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "saying,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“The Son of Man must suffer many things and be rejected by the elders, chief priests, and scribes, and be killed, and on the third day be raised.”"
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then he said to them all,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“If anyone wants to come after me, let them deny themselves, take up their cross daily, and follow me."
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For whoever wants to save their life will lose it, but whoever loses their life for my sake—that one will save it."
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For what good does it do a person to gain the whole world and yet lose or forfeit their own self?"
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For whoever is ashamed of me and of my words, the Son of Man will be ashamed of that person when he comes in his glory and that of the Father and of the holy angels."
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But I tell you truly, there are some standing here who will certainly not taste death until they see the kingdom of God.”"
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "About eight days after these words, he took along Peter, John, and James and went up the mountain to pray."
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And as he was praying, the appearance of his face became different, and his clothing became white, flashing like lightning."
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And look, two men were talking with him—they were Moses and Elijah,"
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "who appeared in glory and were speaking of his departure, which he was about to fulfill in Jerusalem."
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now Peter and those with him were weighed down with sleep; but when they became fully awake, they saw his glory and the two men standing with him."
+     }
+    ]
+   },
+   {
+    "verse": 33,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "As the men were parting from him, Peter said to Jesus,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Master, it is good that we are here. Let us make three tents: one for you, one for Moses, and one for Elijah.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "He did not know what he was saying."
+     }
+    ]
+   },
+   {
+    "verse": 34,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "While he was saying this, a cloud came and began to overshadow them, and they were afraid as they entered the cloud."
+     }
+    ]
+   },
+   {
+    "verse": 35,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And a voice came from the cloud, saying,"
+     },
+     {
+      "speaker": "God",
+      "text": "“This is my Son, the Chosen One; listen to him!”"
+     }
+    ]
+   },
+   {
+    "verse": 36,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When the voice had spoken, Jesus was found alone. They kept silent, and in those days they told no one anything of what they had seen."
+     }
+    ]
+   },
+   {
+    "verse": 37,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "On the next day, when they had come down from the mountain, a large crowd met him."
+     }
+    ]
+   },
+   {
+    "verse": 38,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And a man from the crowd shouted,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Teacher, I beg you to look at my son, because he is my only child."
+     }
+    ]
+   },
+   {
+    "verse": 39,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Look, a spirit seizes him, and suddenly he screams; it convulses him until he foams at the mouth, and only with a struggle does it leave him, battering him as it goes."
+     }
+    ]
+   },
+   {
+    "verse": 40,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "I begged your disciples to drive it out, but they could not.”"
+     }
+    ]
+   },
+   {
+    "verse": 41,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus answered,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“You faithless and perverse generation! How long will I be with you and put up with you? Bring your son here.”"
+     }
+    ]
+   },
+   {
+    "verse": 42,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "While the boy was still approaching, the demon threw him to the ground and convulsed him violently. But Jesus rebuked the unclean spirit, healed the boy, and gave him back to his father."
+     }
+    ]
+   },
+   {
+    "verse": 43,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And all were astounded at the majesty of God. While everyone was marveling at everything he was doing, he said to his disciples,"
+     }
+    ]
+   },
+   {
+    "verse": 44,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "“Let these words sink into your ears: the Son of Man is about to be handed over into human hands.”"
+     }
+    ]
+   },
+   {
+    "verse": 45,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But they did not understand this saying; it was veiled from them so that they would not perceive it, and they were afraid to ask him about this saying."
+     }
+    ]
+   },
+   {
+    "verse": 46,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "A dispute arose among them as to which of them was the greatest."
+     }
+    ]
+   },
+   {
+    "verse": 47,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But Jesus, knowing the reasoning of their hearts, took a little child, stood the child beside him,"
+     }
+    ]
+   },
+   {
+    "verse": 48,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Whoever welcomes this little child in my name welcomes me, and whoever welcomes me welcomes the one who sent me. For the one who is least among all of you—that is the one who is great.”"
+     }
+    ]
+   },
+   {
+    "verse": 49,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "John responded,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Master, we saw someone driving out demons in your name, and we tried to stop him, because he does not follow along with us.”"
+     }
+    ]
+   },
+   {
+    "verse": 50,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But Jesus said to him,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Do not stop him, for whoever is not against you is for you.”"
+     }
+    ]
+   },
+   {
+    "verse": 51,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "As the days drew to their completion for him to be taken up, he set his face to go to Jerusalem,"
+     }
+    ]
+   },
+   {
+    "verse": 52,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and he sent messengers ahead of him. They went and entered a Samaritan village to make preparations for him;"
+     }
+    ]
+   },
+   {
+    "verse": 53,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "but the people did not welcome him, because his face was set toward Jerusalem."
+     }
+    ]
+   },
+   {
+    "verse": 54,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When the disciples James and John saw this, they said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Lord, do you want us to tell fire to come down from heaven and consume them?”"
+     }
+    ]
+   },
+   {
+    "verse": 55,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But he turned and rebuked them."
+     }
+    ]
+   },
+   {
+    "verse": 56,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And they went on to another village."
+     }
+    ]
+   },
+   {
+    "verse": 57,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "As they were going along the road, someone said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“I will follow you wherever you go.”"
+     }
+    ]
+   },
+   {
+    "verse": 58,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus said to him,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Foxes have dens and the birds of the sky have nests, but the Son of Man has nowhere to lay his head.”"
+     }
+    ]
+   },
+   {
+    "verse": 59,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "To another he said,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Follow me.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "But he said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Lord, let me first go and bury my father.”"
+     }
+    ]
+   },
+   {
+    "verse": 60,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But Jesus said to him,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Leave the dead to bury their own dead; but you, go and announce the kingdom of God everywhere.”"
+     }
+    ]
+   },
+   {
+    "verse": 61,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Yet another said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“I will follow you, Lord; but first let me say goodbye to those at my home.”"
+     }
+    ]
+   },
+   {
+    "verse": 62,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But Jesus said,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“No one who puts a hand to the plow and keeps looking back is fit for the kingdom of God.”"
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 6,
+    "phrase": "proclaiming the good news",
+    "lemma": "εὐαγγελίζω",
+    "kind": "departure",
+    "traditional": "preaching the gospel",
+    "note": "The Greek verb was an ordinary word for announcing good news, used also of public and imperial proclamations. “Gospel” now sounds like a religious term or a book title, so the plain sense is given here. Many modern translations alternate between “good news” and “gospel”."
+   },
+   {
+    "verse": 14,
+    "phrase": "recline",
+    "lemma": "κατακλίνω",
+    "kind": "departure",
+    "traditional": "sit down",
+    "note": "The verb means to recline for a meal, the normal posture at a formal dinner or banquet in the period. Most English versions say “sit down”, which is natural English but loses the suggestion that the crowd is being arranged as guests for a meal."
+   },
+   {
+    "verse": 20,
+    "phrase": "The Messiah of God",
+    "lemma": "Χριστός",
+    "kind": "departure",
+    "traditional": "The Christ of God",
+    "note": "Peter is identifying Jesus with a title, the anointed king Israel was waiting for, not using a name. “Messiah” conveys that title to a modern reader, where “Christ” tends to be heard as a surname. Several modern translations use “Messiah” in the Gospels for the same reason."
+   },
+   {
+    "verse": 31,
+    "phrase": "departure",
+    "lemma": "ἔξοδος",
+    "kind": "background",
+    "traditional": "",
+    "note": "The Greek word is exodos. It was an ordinary word for a going out and a recognized euphemism for death, but it was also the name of Israel’s deliverance from Egypt. With Moses standing there, many scholars think Luke intends the echo: Jesus’ death, resurrection and ascension in Jerusalem as a new act of deliverance."
+   },
+   {
+    "verse": 32,
+    "phrase": "when they became fully awake",
+    "lemma": "διαγρηγορέω",
+    "kind": "ambiguity",
+    "traditional": "",
+    "note": "The verb is rare and can mean either “to wake up fully” or “to stay awake throughout”. On the second reading the disciples fought off sleep and so saw the glory. Translations and commentators are divided, and the context does not settle it."
+   },
+   {
+    "verse": 33,
+    "phrase": "tents",
+    "lemma": "σκηνή",
+    "kind": "departure",
+    "traditional": "tabernacles",
+    "note": "The Greek is the ordinary word for a tent or hut. The Greek Old Testament uses it for Israel’s wilderness sanctuary and for the shelters of the Feast of Booths. “Tabernacles” (KJV) now sounds like a special religious object; other versions have “tents”, “shelters” or “dwellings”."
+   },
+   {
+    "verse": 35,
+    "phrase": "the Chosen One",
+    "lemma": "ἐκλέγομαι",
+    "kind": "textual",
+    "traditional": "my beloved Son",
+    "note": "The earliest manuscripts read “the Chosen One” here. Many later manuscripts read “my beloved Son”, which matches the parallel accounts in Matthew and Mark and the voice at Jesus’ baptism. Most scholars think copyists adjusted Luke’s wording to the more familiar form."
+   },
+   {
+    "verse": 44,
+    "phrase": "handed over",
+    "lemma": "παραδίδωμι",
+    "kind": "departure",
+    "traditional": "delivered (or betrayed)",
+    "note": "The verb is the ordinary word for transferring someone into another’s custody or power. The Gospels use the same word for what Judas, the priests and Pilate each do to Jesus, so one rendering is kept throughout to let that chain be seen. Most versions have “delivered” or “betrayed” here."
+   },
+   {
+    "verse": 46,
+    "phrase": "A dispute arose among them",
+    "lemma": "διαλογισμός",
+    "kind": "ambiguity",
+    "traditional": "",
+    "note": "The same Greek word appears in the next verse as “reasoning”. It can mean an open argument or an inward thought, and the phrase could also be read as “a thought entered them”. On that reading the disciples never voiced the question, and Jesus answered what they were privately thinking."
+   },
+   {
+    "verse": 51,
+    "phrase": "for him to be taken up",
+    "lemma": "ἀνάλημψις",
+    "kind": "background",
+    "traditional": "",
+    "note": "The noun occurs only here in the New Testament. The related verb is used of Jesus’ ascension in Acts and of Elijah’s being taken up in the Greek Old Testament. Most scholars take it to refer to the ascension, probably as the end point of the whole sequence of death, resurrection and exaltation; a few take it simply as a term for his death. This verse begins the long journey to Jerusalem that occupies the next ten chapters of Luke."
+   },
+   {
+    "verse": 53,
+    "phrase": "because his face was set toward Jerusalem",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "Samaritans worshiped on Mount Gerizim and rejected the Jerusalem temple, and relations with Jews were hostile. Jewish pilgrims passing through Samaria on the way to Jerusalem could expect a cold or even violent reception. The request of James and John in the next verse recalls Elijah calling down fire in 2 Kings 1."
+   },
+   {
+    "verse": 55,
+    "phrase": "But he turned and rebuked them.",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "",
+    "note": "Many later manuscripts add to verse 54 “as Elijah did”, and expand verses 55–56 with “and said, ‘You do not know what kind of spirit you belong to; for the Son of Man did not come to destroy people’s lives but to save them.’” These words are absent from the earliest and best manuscripts, and most scholars regard them as later additions."
+   },
+   {
+    "verse": 60,
+    "phrase": "Leave the dead to bury their own dead",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "Burying a parent was among the most sacred duties in Jewish life and took precedence over almost every other religious obligation. The saying would have sounded shocking, and that is its point: the claim of the kingdom outranks even this. The first “dead” is usually taken figuratively, of those who do not respond to the kingdom, though the exact sense is debated."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "ἐπιστάτης",
+    "rendering": "Master",
+    "verse": 33,
+    "reason": "Used only in Luke as an address to Jesus, where the other Gospels have “Teacher” or “Rabbi”; translators vary between “Master”, “Teacher” and “Chief”, and the reader should see that it differs from διδάσκαλος and κύριος."
+   },
+   {
+    "lemma": "ἐπιτιμάω",
+    "rendering": "rebuke (v. 42, 55); sternly warn (v. 21)",
+    "verse": 21,
+    "reason": "Recurs across the Gospels both for rebuking demons, winds and people and for strict commands to silence, and the line between “rebuke” and “warn” needs to be drawn consistently."
+   },
+   {
+    "lemma": "θεραπεύω",
+    "rendering": "cure",
+    "verse": 1,
+    "reason": "Appears alongside ἰάομαι throughout the Gospels and Acts; a fixed choice on whether to distinguish the two (“cure” versus “heal”) would keep the parallels aligned."
+   },
+   {
+    "lemma": "δέχομαι",
+    "rendering": "welcome",
+    "verse": 5,
+    "reason": "Used across the New Testament for receiving messengers, children, the word and the kingdom; versions vary between “receive”, “welcome” and “accept”, which obscures linked sayings."
+   },
+   {
+    "lemma": "ἔρημος",
+    "rendering": "deserted",
+    "verse": 12,
+    "reason": "As adjective and noun it is rendered “desert”, “wilderness”, “deserted”, “desolate” or “remote” across versions, and the wilderness echoes of the Exodus depend on a consistent choice."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 12013,
+   "output_tokens": 484
+  },
+  "findings": [],
+  "error": ""
+ }
+}

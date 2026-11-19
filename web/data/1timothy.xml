@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ait version="2.0" run="20261118-162954-full-nt" model="claude-fable-5-2" register="0.4-draft">
+<ait version="2.0" run="20261118-224116-full-nt-2" model="claude-fable-5-2" register="0.5-draft">
   <book id="1timothy" name="1 Timothy">
     <chapter num="1">
       <verse num="1">
-        <text><p/>Paul, an apostle of Christ Jesus by command of God our Savior and of Christ Jesus our hope,</text>
+        <text><p/>Paul, an apostle of Christ Jesus by the command of God our Savior and of Christ Jesus our hope,</text>
         <greek>
           <w lemma="Παῦλος">Παῦλος</w>
           <w lemma="ἀπόστολος">ἀπόστολος</w>
@@ -23,7 +23,7 @@
         </greek>
       </verse>
       <verse num="2">
-        <text>to Timothy, a true child in faith: Grace, mercy, peace from God the Father and Christ Jesus our Lord.</text>
+        <text>to Timothy, my true child in faith: Grace, mercy, and peace from God the Father and Christ Jesus our Lord.</text>
         <greek>
           <w lemma="Τιμόθεος">Τιμοθέῳ</w>
           <w lemma="γνήσιος">γνησίῳ</w>
@@ -45,7 +45,7 @@
         </greek>
       </verse>
       <verse num="3">
-        <text><p/>As I urged you when I was setting out for Macedonia, stay on in Ephesus so that you may command certain people not to teach anything different</text>
+        <text><p/>Just as I urged you when I was leaving for Macedonia, stay on in Ephesus, so that you may instruct certain people not to teach anything different</text>
         <greek>
           <w lemma="καθώς">Καθὼς</w>
           <w lemma="παρακαλέω">παρεκάλεσά</w>
@@ -62,10 +62,10 @@
           <w lemma="μή">μὴ</w>
           <w lemma="ἑτεροδιδασκαλέω">ἑτεροδιδασκαλεῖν</w>
         </greek>
-        <note term="stay on in Ephesus" kind="ambiguity" lemma="" traditional="">The Greek sentence begins ‘Just as I urged you to stay on in Ephesus…’ and breaks off without a main clause. Like most translations, this one completes the thought by turning the urging into a direct instruction. Some instead take the sentence to be left hanging, with the conclusion (‘so I urge you now’) understood.</note>
+        <note term="stay on in Ephesus" kind="ambiguity" lemma="" traditional="As I besought thee to abide still at Ephesus … so do">The Greek sentence opens “Just as I urged you to stay on in Ephesus…” and is never grammatically completed. Like most modern translations, this one turns the earlier request into a present instruction; older versions instead supplied “so do” at the end of verse 4. The sense is the same either way.</note>
       </verse>
       <verse num="4">
-        <text>or to occupy themselves with myths and endless genealogies. These give rise to speculations rather than to God&#x27;s stewardship, which is in faith.</text>
+        <text>nor to occupy themselves with myths and endless genealogies, which promote speculations rather than God’s plan, which works by faith.</text>
         <greek>
           <w lemma="μηδέ">μηδὲ</w>
           <w lemma="προσέχω">προσέχειν</w>
@@ -84,10 +84,10 @@
           <w lemma="ἐν">ἐν</w>
           <w lemma="πίστις">πίστει—</w>
         </greek>
-        <note term="God&#x27;s stewardship" kind="ambiguity" lemma="οἰκονομία" traditional="godly edifying (KJV, from a different reading); God&#x27;s work; the divine training">The word means the management of a household or the task of a household manager, and by extension an arrangement or plan. Here it may mean the responsibility God has entrusted to his servants, carried out in faith, or God&#x27;s own ordering of salvation, received by faith. The rendering keeps the household image, which recurs in this letter, but both readings have strong support. A few manuscripts read ‘edification’ instead.</note>
+        <note term="God’s plan" kind="ambiguity" lemma="οἰκονομία" traditional="godly edifying (KJV); the stewardship from God">The word means the management of a household and, by extension, an administration or arrangement. Here it may be God’s own ordering of salvation (“plan”) or the responsibility God entrusts to those who serve him (“stewardship”); both readings have wide support. The KJV’s “godly edifying” follows a different Greek word found in a few manuscripts.</note>
       </verse>
       <verse num="5">
-        <text>But the goal of the command is love from a pure heart, a good conscience, and a sincere faith.</text>
+        <text>But the goal of this instruction is love from a pure heart, a good conscience, and a sincere faith.</text>
         <greek>
           <w lemma="ὁ">τὸ</w>
           <w lemma="δέ">δὲ</w>
@@ -108,7 +108,7 @@
         </greek>
       </verse>
       <verse num="6">
-        <text>Some have strayed from these and turned aside to empty talk,</text>
+        <text>Some have strayed from these and turned aside into empty talk,</text>
         <greek>
           <w lemma="ὅς">ὧν</w>
           <w lemma="τις">τινες</w>
@@ -119,7 +119,7 @@
         </greek>
       </verse>
       <verse num="7">
-        <text>wanting to be teachers of the law, though they understand neither what they are saying nor the things they so confidently assert.</text>
+        <text>wanting to be teachers of the law, though they understand neither what they are saying nor the things about which they are so insistent.</text>
         <greek>
           <w lemma="θέλω">θέλοντες</w>
           <w lemma="εἰμί">εἶναι</w>
@@ -136,7 +136,7 @@
         </greek>
       </verse>
       <verse num="8">
-        <text><p/>Now we know that the law is good if one uses it lawfully,</text>
+        <text><p/>Now we know that the law is good, if one uses it lawfully,</text>
         <greek>
           <w lemma="οἶδα">Οἴδαμεν</w>
           <w lemma="δέ">δὲ</w>
@@ -152,7 +152,7 @@
         </greek>
       </verse>
       <verse num="9">
-        <text>knowing this: law is not laid down for a righteous person but for the lawless and rebellious, the ungodly and sinners, the unholy and profane, those who strike their fathers and those who strike their mothers, murderers,</text>
+        <text>understanding this: law is not laid down for a righteous person but for the lawless and rebellious, the ungodly and sinners, the unholy and profane, those who kill their fathers or mothers, murderers,</text>
         <greek>
           <w lemma="ὁράω">εἰδὼς</w>
           <w lemma="οὗτος">τοῦτο,</w>
@@ -176,10 +176,10 @@
           <w lemma="μητρολῴας">μητρολῴαις,</w>
           <w lemma="ἀνδροφόνος">ἀνδροφόνοις,</w>
         </greek>
-        <note term="those who strike their fathers and those who strike their mothers" kind="ambiguity" lemma="πατρολῴας" traditional="murderers of fathers and murderers of mothers">These two rare words can mean someone who kills a parent or someone who beats one; in earlier Greek the sense of assault is well attested. Most English versions have ‘kill’, but ‘murderers’ follows as a separate item. The list also appears to track the Ten Commandments, where honoring parents precedes the ban on murder (compare Exodus 21:15 on striking a parent). ‘Strike’ covers both senses; the narrower meaning ‘parricide’ remains possible.</note>
+        <note term="righteous" kind="background" lemma="δίκαιος" traditional="righteous">Greek has one word-family where English has two: “righteous” and “just,” “righteousness” and “justice” all translate the same root. Here the word describes a person who already does what is right, and so is not the target of a code of prohibitions.</note>
       </verse>
       <verse num="10">
-        <text>the sexually immoral, men who lie with males, enslavers, liars, perjurers, and whatever else is opposed to healthy teaching,</text>
+        <text>the sexually immoral, men who lie with males, slave traders, liars, perjurers, and whatever else is opposed to sound teaching,</text>
         <greek>
           <w lemma="πόρνος">πόρνοις,</w>
           <w lemma="ἀρσενοκοίτης">ἀρσενοκοίταις,</w>
@@ -195,12 +195,10 @@
           <w lemma="διδασκαλία">διδασκαλίᾳ</w>
           <w lemma="ἀντίκειμαι">ἀντίκειται,</w>
         </greek>
-        <note term="men who lie with males" kind="departure" lemma="ἀρσενοκοίτης" traditional="sodomites; homosexuals; men who practice homosexuality">This compound of ‘male’ and ‘bed’ is not found before Paul (also 1 Corinthians 6:9) and was almost certainly formed from the Greek wording of Leviticus 18:22 and 20:13. Most scholars take it to refer to men who have sexual intercourse with males. Some argue for a narrower reference to exploitative relations such as pederasty or prostitution, but the evidence is thin because the word is so rare. The rendering keeps the echo of Leviticus and avoids modern categories of orientation, which the word does not express.</note>
-        <note term="enslavers" kind="background" lemma="ἀνδραποδιστής" traditional="menstealers; kidnappers; slave traders">The word refers to someone who seizes free people, or steals other people&#x27;s slaves, in order to sell them. Kidnapping for sale was a recognized crime in both Greek and Roman law and is condemned in Exodus 21:16. The word does not by itself condemn the legal ownership of slaves, which was a normal institution of the time.</note>
-        <note term="healthy teaching" kind="departure" lemma="ὑγιαίνω" traditional="sound doctrine">The Greek word is the ordinary verb for being in good health, and the letters to Timothy and Titus repeatedly contrast ‘healthy’ teaching with teaching described as diseased. ‘Sound’ once conveyed this but is now a faded metaphor. Philosophers of the period used the same image for right thinking, so the sense ‘correct, wholesome’ is not in dispute.</note>
+        <note term="men who lie with males" kind="departure" lemma="ἀρσενοκοίτης" traditional="sodomites; homosexuals; men who practice homosexuality">The word is a transparent compound of “male” and “bed” (a common euphemism for intercourse) and is not attested before Paul; most scholars think it was formed from the wording of Leviticus 18:22 and 20:13 in the Greek Old Testament. It refers to males who have sex with males, and the rendering keeps to that description of an act instead of using “homosexual,” a modern category of orientation. Whether it covers all male same-sex intercourse or particular forms of it is disputed.</note>
       </verse>
       <verse num="11">
-        <text>according to the good news of the glory of the blessed God, with which I was entrusted.</text>
+        <text>in accordance with the good news of the glory of the blessed God, with which I was entrusted.</text>
         <greek>
           <w lemma="κατά">κατὰ</w>
           <w lemma="ὁ">τὸ</w>
@@ -214,10 +212,10 @@
           <w lemma="πιστεύω">ἐπιστεύθην</w>
           <w lemma="ἐγώ">ἐγώ.</w>
         </greek>
-        <note term="good news" kind="departure" lemma="εὐαγγέλιον" traditional="gospel">The Greek was an everyday word for the announcement of good news, used also of public and imperial proclamations. ‘Gospel’ has become a purely religious term or the name of a kind of book. Many modern translations already alternate between the two renderings.</note>
+        <note term="good news" kind="departure" lemma="εὐαγγέλιον" traditional="gospel">The traditional rendering is “gospel,” which today sounds like a religious term or the title of a book. The Greek was an ordinary word for a public announcement of good news, used also of imperial proclamations. Many modern translations alternate between “good news” and “gospel.”</note>
       </verse>
       <verse num="12">
-        <text><p/>I am grateful to the one who has strengthened me, Christ Jesus our Lord, because he considered me faithful and appointed me to service,</text>
+        <text><p/>I am thankful to the one who gave me strength, Christ Jesus our Lord, because he considered me faithful and appointed me to service,</text>
         <greek>
           <w lemma="χάρις">Χάριν</w>
           <w lemma="ἔχω">ἔχω</w>
@@ -237,9 +235,10 @@
           <w lemma="εἰς">εἰς</w>
           <w lemma="διακονία">διακονίαν,</w>
         </greek>
+        <note term="service" kind="departure" lemma="διακονία" traditional="ministry">Most translations have “ministry” here. The Greek was an everyday word for service or for a task carried out on someone’s behalf, and did not denote a religious office; “ministry” now suggests clergy or a church profession. Some scholars stress the idea of a commissioned agent over that of humble service, and “service” is compatible with either.</note>
       </verse>
       <verse num="13">
-        <text>though I was formerly a blasphemer, a persecutor, and a man of insolent violence. But I was shown mercy, because I acted in ignorance, in unbelief,</text>
+        <text>though I was formerly a blasphemer, a persecutor, and a man of arrogant violence. But I was shown mercy, because I acted in ignorance, in unbelief,</text>
         <greek>
           <w lemma="ὁ">τὸ</w>
           <w lemma="πρότερος">πρότερον</w>
@@ -259,7 +258,7 @@
         </greek>
       </verse>
       <verse num="14">
-        <text>and the grace of our Lord overflowed beyond measure, together with the faith and love that are in Christ Jesus.</text>
+        <text>and the grace of our Lord overflowed beyond measure, along with the faith and love that are in Christ Jesus.</text>
         <greek>
           <w lemma="ὑπερπλεονάζω">ὑπερεπλεόνασεν</w>
           <w lemma="δέ">δὲ</w>
@@ -279,7 +278,7 @@
         </greek>
       </verse>
       <verse num="15">
-        <text>The saying is trustworthy and worthy of full acceptance: Christ Jesus came into the world to save sinners, of whom I am the foremost.</text>
+        <text>The saying is trustworthy and deserves full acceptance: Christ Jesus came into the world to save sinners—and I am the foremost of them.</text>
         <greek>
           <w lemma="πιστός">πιστὸς</w>
           <w lemma="ὁ">ὁ</w>
@@ -302,10 +301,10 @@
           <w lemma="εἰμί">εἰμι</w>
           <w lemma="ἐγώ">ἐγώ,</w>
         </greek>
-        <note term="trustworthy" kind="register-exception" lemma="πιστός" traditional="faithful saying; trustworthy saying">The same adjective is rendered ‘faithful’ in verse 12, where it describes a person. Applied to a statement it means reliable, and ‘a faithful saying’ is no longer natural English. The Greek plays on one word-family throughout this passage: Paul is ‘entrusted’ (v. 11), counted ‘faithful’ (v. 12), once acted in ‘unbelief’ (v. 13), and cites a ‘trustworthy’ saying for those who will ‘believe’ (v. 16).</note>
+        <note term="trustworthy" kind="register-exception" lemma="πιστός" traditional="This is a faithful saying (KJV); the saying is trustworthy">The adjective is the same one rendered “faithful” in verse 12, and this translation normally renders it “faithful” or “believing.” Applied to a saying it means one that can be relied on, and since modern English does not call a statement “faithful,” “trustworthy” is used. The formula recurs in the letters to Timothy and Titus and appears to mark established Christian sayings.</note>
       </verse>
       <verse num="16">
-        <text>But for this reason I was shown mercy: so that in me, the foremost, Christ Jesus might display all his patience, as a pattern for those who were going to believe in him for eternal life.</text>
+        <text>But for this very reason I was shown mercy: so that in me, the foremost, Christ Jesus might display all his patience, as a pattern for those who were going to believe in him for eternal life.</text>
         <greek>
           <w lemma="ἀλλά">ἀλλὰ</w>
           <w lemma="διά">διὰ</w>
@@ -332,9 +331,10 @@
           <w lemma="ζωή">ζωὴν</w>
           <w lemma="αἰώνιος">αἰώνιον.</w>
         </greek>
+        <note term="eternal life" kind="background" lemma="αἰώνιος" traditional="eternal life; life everlasting">The adjective is formed from the word for “age,” the same word that appears twice in the next verse. In Jewish usage “eternal life” is the life of the age to come, so the phrase speaks of a kind of life as well as its unending length. “Eternal” is the standard rendering; a minority of translators prefer “life of the age to come.”</note>
       </verse>
       <verse num="17">
-        <text>Now to the King of the ages, imperishable, invisible, the only God, be honor and glory to the ages of the ages. Amen.</text>
+        <text>Now to the King of the ages, immortal, invisible, the only God, be honor and glory forever and ever. Amen.</text>
         <greek>
           <w lemma="ὁ">τῷ</w>
           <w lemma="δέ">δὲ</w>
@@ -355,10 +355,10 @@
           <w lemma="αἰών">αἰώνων·</w>
           <w lemma="ἀμήν">ἀμήν.</w>
         </greek>
-        <note term="to the ages of the ages" kind="departure" lemma="αἰών" traditional="forever and ever">The Greek idiom, modelled on Hebrew, means ‘for all time’, and ‘forever and ever’ is an accurate paraphrase. The literal form is kept here because Paul is playing on the word: God is ‘King of the ages’, and ‘eternal’ life in verse 16 is from the same root. In Jewish usage ‘eternal life’ is the life of the age to come, a matter of kind as well as of length.</note>
+        <note term="King of the ages" kind="departure" lemma="αἰών" traditional="King eternal">Many versions paraphrase as “the King eternal”; the Greek says “King of the ages,” meaning the one who rules over every era of history, and some versions render it so. The closing “forever and ever” is literally “to the ages of the ages,” an ordinary idiom for endless time that echoes the title.</note>
       </verse>
       <verse num="18">
-        <text><p/>This command I commit to you, Timothy, my child, in keeping with the prophecies once made about you, so that with them you may wage the good campaign,</text>
+        <text><p/>This instruction I entrust to you, Timothy, my child, in keeping with the prophecies made earlier about you, so that by them you may wage the good warfare,</text>
         <greek>
           <w lemma="οὗτος">Ταύτην</w>
           <w lemma="ὁ">τὴν</w>
@@ -381,11 +381,10 @@
           <w lemma="καλός">καλὴν</w>
           <w lemma="στρατεία">στρατείαν,</w>
         </greek>
-        <note term="the prophecies once made about you" kind="ambiguity" lemma="προάγω" traditional="the prophecies which went before on thee">The Greek can mean prophecies spoken earlier about Timothy, probably at his commissioning (compare 4:14). It can also mean prophecies that ‘led the way to’ him, that is, pointed him out for this work. The first reading is the more common and is followed here.</note>
-        <note term="wage the good campaign" kind="departure" lemma="στρατεία" traditional="war a good warfare; fight the good fight">The verb and noun are both military, describing a soldier serving on campaign. ‘Fight the good fight’ is better kept for 6:12, where the Greek uses a different image, drawn from athletic contests.</note>
+        <note term="the prophecies made earlier about you" kind="ambiguity" lemma="προάγω" traditional="the prophecies which went before on thee">The Greek participle can mean “going before” in time or “leading the way.” The rendering takes it of prophetic words spoken about Timothy on an earlier occasion, perhaps at his commissioning (compare 4:14). The alternative is “the prophecies that led the way to you,” that is, that first pointed Paul to Timothy.</note>
       </verse>
       <verse num="19">
-        <text>holding on to faith and a good conscience. Some have thrust this aside and suffered shipwreck in regard to the faith.</text>
+        <text>holding on to faith and a good conscience. By thrusting conscience aside, some have suffered shipwreck in regard to the faith;</text>
         <greek>
           <w lemma="ἔχω">ἔχων</w>
           <w lemma="πίστις">πίστιν</w>
@@ -402,7 +401,7 @@
         </greek>
       </verse>
       <verse num="20">
-        <text>Among them are Hymenaeus and Alexander, whom I have handed over to Satan so that they may be taught not to blaspheme.</text>
+        <text>among them are Hymenaeus and Alexander, whom I have handed over to Satan so that they may be taught by discipline not to blaspheme.</text>
         <greek>
           <w lemma="ὅς">ὧν</w>
           <w lemma="εἰμί">ἐστιν</w>
@@ -418,7 +417,7 @@
           <w lemma="μή">μὴ</w>
           <w lemma="βλασφημέω">βλασφημεῖν.</w>
         </greek>
-        <note term="handed over to Satan" kind="background" lemma="" traditional="">The same expression appears in 1 Corinthians 5:5 and is generally understood as exclusion from the community, putting the person back into the sphere outside the church where Satan holds sway. The stated purpose is corrective: the verb rendered ‘be taught’ is used of training and disciplining a child. Exactly what the act involved is not known.</note>
+        <note term="handed over to Satan" kind="background" lemma="παραδίδωμι" traditional="delivered unto Satan">The same expression occurs in 1 Corinthians 5:5, where it accompanies the removal of a man from the congregation. Most interpreters understand it here as exclusion from the community, the world outside being seen as the sphere of Satan’s power. The stated purpose is corrective: that the two men learn not to blaspheme. Exactly what the procedure involved is not known.</note>
       </verse>
     </chapter>
     <chapter num="2">
@@ -440,7 +439,7 @@
         </greek>
       </verse>
       <verse num="2">
-        <text>for kings and all who hold high position, so that we may lead a tranquil and quiet life in all godliness and dignity.</text>
+        <text>for kings and all who are in high positions, so that we may lead a tranquil and quiet life in all godliness and dignity.</text>
         <greek>
           <w lemma="ὑπέρ">ὑπὲρ</w>
           <w lemma="βασιλεύς">βασιλέων</w>
@@ -462,7 +461,6 @@
           <w lemma="καί">καὶ</w>
           <w lemma="σεμνότης">σεμνότητι.</w>
         </greek>
-        <note term="kings" kind="background" lemma="βασιλεύς" traditional="kings">In the Greek-speaking East the Roman emperor was commonly called by this word, alongside local client kings. A first-century reader would have understood the prayer to include the emperor and his officials.</note>
       </verse>
       <verse num="3">
         <text>This is good and acceptable in the sight of God our Savior,</text>
@@ -479,7 +477,7 @@
         </greek>
       </verse>
       <verse num="4">
-        <text>who wants all people to be saved and to come to knowledge of the truth.</text>
+        <text>who wants all people to be saved and to come to a knowledge of the truth.</text>
         <greek>
           <w lemma="ὅς">ὃς</w>
           <w lemma="πᾶς">πάντας</w>
@@ -494,7 +492,7 @@
         </greek>
       </verse>
       <verse num="5">
-        <text>For there is one God, and one mediator between God and human beings, Christ Jesus, himself human,</text>
+        <text>For there is one God, and one mediator between God and human beings, himself a human being, Christ Jesus,</text>
         <greek>
           <w lemma="εἷς">εἷς</w>
           <w lemma="γάρ">γὰρ</w>
@@ -509,10 +507,10 @@
           <w lemma="Χριστός">Χριστὸς</w>
           <w lemma="Ἰησοῦς">Ἰησοῦς,</w>
         </greek>
-        <note term="himself human" kind="departure" lemma="ἄνθρωπος" traditional="the man Christ Jesus">The Greek uses the same word twice in a row: a mediator between God and &#x27;humans&#x27; who is a &#x27;human&#x27;. The word means a human being, not specifically a male, and the point is that the mediator shares the nature of those he represents. The traditional &#x27;the man&#x27; hides the repetition and can suggest that maleness is in view.</note>
+        <note term="himself a human being" kind="departure" lemma="ἄνθρωπος" traditional="the man Christ Jesus">The Greek word here is the general term for a human being, not the word for a male, and it repeats the word just used for “human beings.” The point is that the mediator shares the nature of those he represents. The traditional “the man Christ Jesus” is not wrong, but it hides the echo and can be heard as a statement about maleness.</note>
       </verse>
       <verse num="6">
-        <text>who gave himself as a ransom for all, the testimony given at its proper time.</text>
+        <text>who gave himself as a ransom for all, the testimony given at the proper time.</text>
         <greek>
           <w lemma="ὁ">ὁ</w>
           <w lemma="δίδωμι">δοὺς</w>
@@ -525,10 +523,10 @@
           <w lemma="καιρός">καιροῖς</w>
           <w lemma="ἴδιος">ἰδίοις·</w>
         </greek>
-        <note term="the testimony given at its proper time" kind="ambiguity" lemma="μαρτύριον" traditional="to be testified in due time">The Greek is very compressed, literally &#x27;the testimony in its own times&#x27;, with no verb. It is most often taken to mean that Christ&#x27;s self-giving was itself God&#x27;s witness, delivered at the time God chose. Others take it as the testimony now to be proclaimed, which verse 7 then picks up.</note>
+        <note term="the testimony given at the proper time" kind="ambiguity" lemma="μαρτύριον" traditional="to be testified in due time">The Greek is very compressed, literally “the testimony in its own times,” and “given” is supplied. Most interpreters take it to mean that Christ’s self-giving is itself the witness to God’s saving purpose, borne at the time God appointed. It can also be read as pointing forward to the message that the writer was appointed to proclaim (verse 7).</note>
       </verse>
       <verse num="7">
-        <text>For this I was appointed a herald and an apostle (I am telling the truth; I am not lying), a teacher of the Gentiles in faith and truth.</text>
+        <text>For this I was appointed a herald and an apostle—I am telling the truth; I am not lying—a teacher of the Gentiles in faith and truth.</text>
         <greek>
           <w lemma="εἰς">εἰς</w>
           <w lemma="ὅς">ὃ</w>
@@ -548,7 +546,7 @@
           <w lemma="καί">καὶ</w>
           <w lemma="ἀλήθεια">ἀληθείᾳ.</w>
         </greek>
-        <note term="Gentiles" kind="background" lemma="ἔθνος" traditional="Gentiles">The Greek word means &#x27;peoples&#x27; or &#x27;nations&#x27;, and in the plural it is the ordinary Jewish term for the non-Jewish peoples. This translation renders the one word as &#x27;Gentiles&#x27; or &#x27;nations&#x27; according to sense. Here it echoes the &#x27;all people&#x27; of verses 1, 4 and 6.</note>
+        <note term="Gentiles" kind="background" lemma="ἔθνος" traditional="Gentiles">The Greek word means “peoples” or “nations”; in Jewish usage the plural names the non-Jewish peoples. This translation renders the same word “nations” where peoples as such are in view and “Gentiles” where, as here, the contrast with Israel is the point.</note>
       </verse>
       <verse num="8">
         <text><p/>So I want the men in every place to pray, lifting up holy hands without anger or argument.</text>
@@ -569,11 +567,11 @@
           <w lemma="καί">καὶ</w>
           <w lemma="διαλογισμός">διαλογισμοῦ.</w>
         </greek>
-        <note term="lifting up holy hands" kind="background" lemma="" traditional="lifting up holy hands">Standing with hands raised and palms open was the normal posture of prayer among both Jews and Greeks. The emphasis falls on the character of those praying, not on the gesture.</note>
-        <note term="argument" kind="ambiguity" lemma="διαλογισμός" traditional="doubting">The word means reasoning or deliberation, and can refer either to inward doubt or to outward dispute. Older versions chose &#x27;doubting&#x27;. Most modern translations choose &#x27;quarreling&#x27; or &#x27;argument&#x27;, which pairs more naturally with &#x27;anger&#x27;.</note>
+        <note term="lifting up holy hands" kind="background" lemma="" traditional="lifting up holy hands">Standing with hands raised and palms open was the ordinary posture of prayer among both Jews and Greeks. The emphasis falls not on the gesture, which is assumed, but on the hands being “holy” and the prayer being free of anger.</note>
+        <note term="argument" kind="ambiguity" lemma="διαλογισμός" traditional="doubting; quarreling">The word can mean inner reasoning or doubt, or an outward dispute. Paired with “anger” and addressed to men praying together, it is usually taken as disputing, and that reading is followed here. Older versions have “doubting,” which remains possible.</note>
       </verse>
       <verse num="9">
-        <text>Likewise, I want women to adorn themselves in respectable dress, with modesty and self-control, not with braided hair and gold or pearls or costly clothing,</text>
+        <text>Likewise, I want women to adorn themselves in respectable attire, with modesty and self-control, not with braided hair and gold or pearls or expensive clothing,</text>
         <greek>
           <w lemma="ὡσαύτως">ὡσαύτως</w>
           <w lemma="καί">καὶ</w>
@@ -598,6 +596,7 @@
           <w lemma="ἱματισμός">ἱματισμῷ</w>
           <w lemma="πολυτελής">πολυτελεῖ,</w>
         </greek>
+        <note term="braided hair and gold or pearls" kind="background" lemma="" traditional="braided hair, or gold, or pearls">Elaborate hairstyles interwoven with gold and jewels were a conspicuous display of wealth among well-to-do women of the period, and Greek and Roman moralists made similar criticisms. The concern is ostentation in the assembly, not braiding as such.</note>
       </verse>
       <verse num="10">
         <text>but, as is fitting for women who profess reverence for God, with good works.</text>
@@ -614,7 +613,7 @@
         </greek>
       </verse>
       <verse num="11">
-        <text>A woman should learn in quietness, in all submission.</text>
+        <text>A woman is to learn in quietness, in all submission.</text>
         <greek>
           <w lemma="γυνή">γυνὴ</w>
           <w lemma="ἐν">ἐν</w>
@@ -624,7 +623,7 @@
           <w lemma="πᾶς">πάσῃ</w>
           <w lemma="ὑποταγή">ὑποταγῇ·</w>
         </greek>
-        <note term="quietness" kind="ambiguity" lemma="ἡσυχία" traditional="silence">Older versions have &#x27;silence&#x27;, and the word can mean that. More often it means calm, a settled and undisruptive manner, and its adjective is the &#x27;quiet&#x27; life of verse 2 that all believers are to lead. Many modern translations therefore render &#x27;quietness&#x27; or &#x27;quietly&#x27;. Whether complete silence in the assembly is meant is disputed.</note>
+        <note term="quietness" kind="departure" lemma="ἡσυχία" traditional="silence">Older versions have “silence.” The word more often describes a calm, settled, undisruptive manner than the absence of speech; its adjective is used in verse 2 for the “quiet” life believers hope to lead. Many modern translations accordingly have “quietly” or “quietness,” though some scholars still argue for “silence” here.</note>
       </verse>
       <verse num="12">
         <text>I do not permit a woman to teach or to exercise authority over a man; she is to be in quietness.</text>
@@ -642,8 +641,8 @@
           <w lemma="ἐν">ἐν</w>
           <w lemma="ἡσυχία">ἡσυχίᾳ.</w>
         </greek>
-        <note term="a woman" kind="ambiguity" lemma="γυνή" traditional="a woman">The Greek words for &#x27;woman&#x27; and &#x27;man&#x27; are also the ordinary words for &#x27;wife&#x27; and &#x27;husband&#x27;. Most interpreters take the general sense here because the surrounding instructions concern the assembly. A minority read verses 11–15 of wife and husband, pointing to the appeal to Adam and Eve and to childbearing.</note>
-        <note term="exercise authority over" kind="ambiguity" lemma="αὐθεντέω" traditional="usurp authority over (KJV); exercise authority over, have authority over (most modern versions)">This verb occurs only here in the New Testament and is rare in surviving Greek of the period. It is not the usual word for holding authority. Many scholars take it neutrally, as &#x27;exercise authority&#x27;. Others argue for a negative or assertive sense such as &#x27;domineer&#x27;, &#x27;dictate to&#x27; or &#x27;assume authority&#x27;. The evidence is too thin to settle the question, and the rendering here follows the majority of modern translations.</note>
+        <note term="exercise authority over" kind="ambiguity" lemma="αὐθεντέω" traditional="usurp authority over; have authority over">This verb occurs only here in the New Testament and is rare in Greek of the period, so its exact force is disputed. Some scholars take it neutrally (“have” or “exercise authority”), others negatively (“domineer over”) or as “assume authority” on one’s own initiative. The evidence does not settle the question; the rendering here follows the neutral reading found in most modern translations.</note>
+        <note term="a woman" kind="ambiguity" lemma="γυνή" traditional="a woman">The Greek words for “woman” and “man” are also the ordinary words for “wife” and “husband,” and the appeal to Adam and Eve that follows concerns a married pair. Most translations take verses 8–15 to be about men and women in the gathered community; a minority of scholars read verses 11–15 as concerning wives and husbands.</note>
       </verse>
       <verse num="13">
         <text>For Adam was formed first, then Eve;</text>
@@ -657,7 +656,7 @@
         </greek>
       </verse>
       <verse num="14">
-        <text>and Adam was not deceived, but the woman was deceived and has come into transgression.</text>
+        <text>and Adam was not deceived, but the woman was deceived and fell into transgression.</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="Ἀδάμ">Ἀδὰμ</w>
@@ -691,12 +690,13 @@
           <w lemma="μετά">μετὰ</w>
           <w lemma="σωφροσύνη">σωφροσύνης.</w>
         </greek>
-        <note term="she will be saved through childbearing" kind="ambiguity" lemma="τεκνογονία" traditional="she shall be saved in childbearing">This is one of the most disputed sentences in the letters. The Greek has &#x27;the childbearing&#x27;, which some take as the birth of the Messiah, reversing Eve&#x27;s transgression. Others read &#x27;kept safe through childbirth&#x27;. Others again think women will come to salvation in the ordinary course of motherhood and faithful life, not by abandoning it. The verb shifts from &#x27;she&#x27; to &#x27;they&#x27; without explanation, probably moving from Eve, or woman as a type, to women generally.</note>
+        <note term="through childbearing" kind="ambiguity" lemma="τεκνογονία" traditional="in childbearing; through childbearing">This is one of the most debated phrases in the letter. The Greek has the article (“the childbearing”), and the main proposals are: saved through the role of bearing and raising children; brought safely through childbirth; or saved through the birth of the child, meaning the Messiah born of a woman. The rendering here leaves the phrase as open as the Greek does.</note>
+        <note term="if they remain" kind="ambiguity" lemma="μένω" traditional="if they continue">The Greek shifts without explanation from the singular “she will be saved” to the plural “they remain.” “She” most naturally picks up “the woman” of verse 14, Eve as representing women, and “they” is usually taken as women generally. Others suggest it means the woman and her husband, or her children.</note>
       </verse>
     </chapter>
     <chapter num="3">
       <verse num="1">
-        <text><p/>The saying is trustworthy. If anyone aspires to the position of overseer, it is a good work he desires.</text>
+        <text><p/>The saying is trustworthy: if anyone aspires to the role of overseer, he desires a good work.</text>
         <greek>
           <w lemma="πιστός">Πιστὸς</w>
           <w lemma="ὁ">ὁ</w>
@@ -709,8 +709,7 @@
           <w lemma="ἔργον">ἔργου</w>
           <w lemma="ἐπιθυμέω">ἐπιθυμεῖ.</w>
         </greek>
-        <note term="The saying is trustworthy" kind="register-exception" lemma="πιστός" traditional="This is a faithful saying / The saying is trustworthy">The adjective is normally rendered &#x27;faithful&#x27; in this translation, but applied to a statement it means &#x27;reliable, deserving trust&#x27;, and &#x27;a faithful saying&#x27; no longer says that in English. The formula recurs in the letters to Timothy and Titus. It is disputed whether it here endorses what follows about overseers or looks back to the end of chapter 2; the punctuation leaves this open.</note>
-        <note term="the position of overseer" kind="departure" lemma="ἐπισκοπή" traditional="the office of a bishop">The Greek noun means &#x27;oversight&#x27;, and the related word in verse 2 means &#x27;overseer&#x27;, a term used for supervisors and officials of many kinds. &#x27;Bishop&#x27; derives from this word but now suggests a single leader over many congregations, an arrangement that developed later. Many modern translations also use &#x27;overseer&#x27;; others keep &#x27;bishop&#x27; for continuity with later usage.</note>
+        <note term="The saying is trustworthy" kind="register-exception" lemma="πιστός" traditional="This is a faithful saying">This adjective is normally rendered “faithful” or “believing” in this translation, but modern English does not call a statement “faithful”; “trustworthy” expresses the same idea of reliability. The formula recurs in the letters to Timothy and Titus. Most interpreters take it here as introducing the saying about overseers, though some attach it to the end of the previous chapter.</note>
       </verse>
       <verse num="2">
         <text>So the overseer must be above reproach, the husband of one wife, clear-headed, self-controlled, respectable, hospitable, able to teach,</text>
@@ -730,7 +729,8 @@
           <w lemma="φιλόξενος">φιλόξενον,</w>
           <w lemma="διδακτικός">διδακτικόν,</w>
         </greek>
-        <note term="the husband of one wife" kind="ambiguity" lemma="" traditional="the husband of one wife">Literally &#x27;a man of one woman&#x27;. The phrase may mean faithful to his wife, married only once (excluding remarriage after death or divorce), or not polygamous; all three have serious defenders. The literal rendering is kept because the Greek does not decide between them. The same phrase recurs in verse 12.</note>
+        <note term="the overseer" kind="departure" lemma="ἐπίσκοπος" traditional="bishop">In ordinary Greek the word meant a supervisor or guardian and was used of officials of various kinds. “Bishop” descends from it but now suggests a single cleric governing a diocese, an arrangement that developed later; most modern translations also use “overseer”. The related noun in verse 1 is rendered “the role of overseer”.</note>
+        <note term="the husband of one wife" kind="ambiguity" lemma="" traditional="the husband of one wife">The Greek is literally “a man of one woman”. It may mean faithful to his wife, married only once (excluding remarriage after a death or divorce), or not having more than one wife at a time. The traditional wording is kept because it leaves the question open; many recent interpreters favor marital faithfulness, but the matter is disputed. The same phrase is used of deacons in verse 12.</note>
       </verse>
       <verse num="3">
         <text>not a drunkard, not violent, but gentle, peaceable, not a lover of money,</text>
@@ -746,7 +746,7 @@
         </greek>
       </verse>
       <verse num="4">
-        <text>managing his own household well, keeping his children in submission with all dignity</text>
+        <text>managing his own household well, keeping his children in submission with all dignity.</text>
         <greek>
           <w lemma="ὁ">τοῦ</w>
           <w lemma="ἴδιος">ἰδίου</w>
@@ -763,7 +763,7 @@
         </greek>
       </verse>
       <verse num="5">
-        <text>(but if someone does not know how to manage his own household, how will he care for God&#x27;s assembly?),</text>
+        <text>(If someone does not know how to manage his own household, how will he care for God’s assembly?)</text>
         <greek>
           <w lemma="εἰ">(εἰ</w>
           <w lemma="δέ">δέ</w>
@@ -779,10 +779,10 @@
           <w lemma="θεός">θεοῦ</w>
           <w lemma="ἐπιμελέομαι">ἐπιμελήσεται;)</w>
         </greek>
-        <note term="God&#x27;s assembly" kind="departure" lemma="ἐκκλησία" traditional="the church of God">The Greek word was the ordinary term for a civic gathering and, in the Greek Old Testament, for Israel assembled before God. &#x27;Church&#x27; is the near-universal rendering and is clear enough in reference, but it now suggests a building or institution. This translation uses &#x27;assembly&#x27; throughout so that the reader can see it is one word.</note>
+        <note term="God’s assembly" kind="departure" lemma="ἐκκλησία" traditional="the church of God">The Greek word was the ordinary term for a civic gathering and, in the Greek Scriptures, for Israel assembled before God. “Church” is the near-universal rendering and readers know what it refers to, but it now suggests a building or an institution. This translation uses “assembly” throughout so that the reader can see it is one Greek word.</note>
       </verse>
       <verse num="6">
-        <text>not a recent convert, so that he does not become conceited and fall into the judgment of the devil.</text>
+        <text>He must not be a new convert, so that he does not become conceited and fall into the judgment passed on the devil.</text>
         <greek>
           <w lemma="μή">μὴ</w>
           <w lemma="νεόφυτος">νεόφυτον,</w>
@@ -795,10 +795,10 @@
           <w lemma="ὁ">τοῦ</w>
           <w lemma="διάβολος">διαβόλου.</w>
         </greek>
-        <note term="the judgment of the devil" kind="ambiguity" lemma="κρίμα" traditional="the condemnation of the devil">The Greek can mean the judgment that was passed on the devil, which the conceited person would share, or a judgment the devil brings about as accuser. Most interpreters prefer the first. In verse 7 &#x27;the snare of the devil&#x27; is clearly a snare the devil sets, which leads some to read this verse the same way.</note>
+        <note term="the judgment passed on the devil" kind="ambiguity" lemma="κρίμα" traditional="the condemnation of the devil">The Greek is simply “the judgment of the devil”. Most interpreters understand it as the judgment the devil himself incurred, with pride as the link, and the text follows that reading. It could also mean a judgment the devil brings about, as accuser, which would parallel “the devil’s snare” in the next verse.</note>
       </verse>
       <verse num="7">
-        <text>He must also have a good reputation with those outside, so that he does not fall into disgrace and the snare of the devil.</text>
+        <text>He must also be well spoken of by those outside, so that he does not fall into disgrace and the devil’s snare.</text>
         <greek>
           <w lemma="δέω">δεῖ</w>
           <w lemma="δέ">δὲ</w>
@@ -821,7 +821,7 @@
         </greek>
       </verse>
       <verse num="8">
-        <text><p/>Deacons likewise must be dignified, not double-tongued, not given to much wine, not greedy for shameful gain,</text>
+        <text><p/>Deacons likewise must be dignified, not double-tongued, not given to much wine, not greedy for dishonest gain,</text>
         <greek>
           <w lemma="διάκονος">Διακόνους</w>
           <w lemma="ὡσαύτως">ὡσαύτως</w>
@@ -835,10 +835,9 @@
           <w lemma="μή">μὴ</w>
           <w lemma="αἰσχροκερδής">αἰσχροκερδεῖς,</w>
         </greek>
-        <note term="Deacons" kind="background" lemma="διάκονος" traditional="deacons">The word is the ordinary Greek term for a servant or someone who carries out a task for another, and is translated &#x27;servant&#x27; elsewhere. Here it names a recognised role in the assembly alongside the overseer, so the traditional &#x27;deacon&#x27; is kept. The verb &#x27;serve&#x27; in verses 10 and 13 is from the same root.</note>
       </verse>
       <verse num="9">
-        <text>holding the mystery of the faith with a clean conscience.</text>
+        <text>holding the revealed secret of the faith with a clean conscience.</text>
         <greek>
           <w lemma="ἔχω">ἔχοντας</w>
           <w lemma="ὁ">τὸ</w>
@@ -849,9 +848,10 @@
           <w lemma="καθαρός">καθαρᾷ</w>
           <w lemma="συνείδησις">συνειδήσει.</w>
         </greek>
+        <note term="the revealed secret of the faith" kind="departure" lemma="μυστήριον" traditional="the mystery of the faith">In Jewish Greek of the period this word was the ordinary term for a secret, especially a plan of God that only he can disclose. Most English versions keep “mystery” as a technical term, but that word now suggests a puzzle or something beyond understanding, whereas the point here is that the thing has been made known. “Revealed” is added because a bare “secret of the faith” would be heard as “the key to faith”; the same wording is used in verse 16.</note>
       </verse>
       <verse num="10">
-        <text>And these too must first be tested; then let them serve, if they are blameless.</text>
+        <text>And these too must first be tested; then let them serve as deacons, if they prove blameless.</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="οὗτος">οὗτοι</w>
@@ -877,11 +877,10 @@
           <w lemma="ἐν">ἐν</w>
           <w lemma="πᾶς">πᾶσιν.</w>
         </greek>
-        <note term="Women" kind="ambiguity" lemma="γυνή" traditional="their wives / women">The Greek word means both &#x27;woman&#x27; and &#x27;wife&#x27;, and there is no &#x27;their&#x27; in the text. The verse may refer to women who serve as deacons or to the wives of deacons; both views are widely held. &#x27;Women&#x27; is used because it leaves the question as open as the Greek does.</note>
-        <note term="slanderers" kind="background" lemma="διάβολος" traditional="slanderers">This is the same Greek word translated &#x27;devil&#x27; in verses 6 and 7. As an ordinary adjective it means &#x27;slanderous&#x27; or &#x27;given to false accusation&#x27;; with the article it had become the standard title for the adversary.</note>
+        <note term="Women" kind="ambiguity" lemma="γυνή" traditional="their wives">The Greek word means both “woman” and “wife”, and there is no “their” in the text. The verse may refer to women who serve as deacons or to the wives of deacons; the parallel “likewise” and the list of qualifications favor the first, while the position of the verse in the middle of the instructions for deacons is taken by some to favor the second. The rendering leaves the question open.</note>
       </verse>
       <verse num="12">
-        <text>Deacons must be husbands of one wife, managing their children and their own households well.</text>
+        <text>Deacons must each be the husband of one wife, managing their children and their own households well.</text>
         <greek>
           <w lemma="διάκονος">διάκονοι</w>
           <w lemma="εἰμί">ἔστωσαν</w>
@@ -898,7 +897,7 @@
         </greek>
       </verse>
       <verse num="13">
-        <text>For those who have served well gain a good standing for themselves and great confidence in the faith that is in Christ Jesus.</text>
+        <text>For those who have served well as deacons gain a good standing for themselves and great confidence in the faith that is in Christ Jesus.</text>
         <greek>
           <w lemma="ὁ">οἱ</w>
           <w lemma="γάρ">γὰρ</w>
@@ -918,6 +917,7 @@
           <w lemma="Χριστός">Χριστῷ</w>
           <w lemma="Ἰησοῦς">Ἰησοῦ.</w>
         </greek>
+        <note term="confidence" kind="departure" lemma="παρρησία" traditional="boldness">The word originally meant freedom to speak one’s mind and by this period also the assurance of someone who can stand before a superior without fear or shame. “Boldness” can suggest nerve or audacity, which is not the point here; many modern versions likewise have “confidence” or “assurance”. The difference is one of English nuance, not a dispute about meaning.</note>
       </verse>
       <verse num="14">
         <text><p/>I am writing these things to you, though I hope to come to you soon,</text>
@@ -934,7 +934,7 @@
         </greek>
       </verse>
       <verse num="15">
-        <text>but if I am delayed, so that you may know how one must behave in God&#x27;s household, which is the assembly of the living God, a pillar and support of the truth.</text>
+        <text>so that, if I am delayed, you may know how one must behave in God’s household, which is the assembly of the living God, a pillar and support of the truth.</text>
         <greek>
           <w lemma="ἐάν">ἐὰν</w>
           <w lemma="δέ">δὲ</w>
@@ -958,10 +958,10 @@
           <w lemma="ὁ">τῆς</w>
           <w lemma="ἀλήθεια">ἀληθείας·</w>
         </greek>
-        <note term="God&#x27;s household" kind="departure" lemma="οἶκος" traditional="the house of God">The word can mean a building or the family and dependants who make up a household. It is the same word used in verses 4, 5 and 12 for the households overseers and deacons must manage, and the argument depends on that link, so &#x27;household&#x27; is used here too. &#x27;House of God&#x27; is the older rendering and may carry an echo of the temple.</note>
+        <note term="God’s household" kind="departure" lemma="οἶκος" traditional="the house of God">The same Greek word is used in verses 4, 5 and 12 for the household an overseer or deacon must manage, and the argument depends on that link: the assembly is God’s family and establishment, not a building. “House of God” is the traditional rendering and could also evoke the temple, an image the following “pillar” may continue. Several modern versions also have “household”.</note>
       </verse>
       <verse num="16">
-        <text>And beyond dispute, great is the mystery of godliness: He was revealed in flesh, vindicated in spirit, seen by angels, proclaimed among the nations, believed in throughout the world, taken up in glory.</text>
+        <text>And undeniably great is the revealed secret of godliness: He appeared in flesh, was vindicated in spirit, was seen by angels, was proclaimed among the Gentiles, was believed in throughout the world, was taken up in glory.</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="ὁμολογουμένως">ὁμολογουμένως</w>
@@ -990,14 +990,14 @@
           <w lemma="ἐν">ἐν</w>
           <w lemma="δόξα">δόξῃ.</w>
         </greek>
-        <note term="He was revealed" kind="textual" lemma="ὅς" traditional="God was manifest">The earliest manuscripts read &#x27;who&#x27; (rendered here as &#x27;He&#x27;), which begins what is widely thought to be a fragment of an early hymn or confession about Christ. Many later manuscripts read &#x27;God&#x27;, the basis of the King James rendering &#x27;God was manifest in the flesh&#x27;; in ancient script the two readings differ by only a couple of strokes. Nearly all modern editions and translations follow the earlier reading.</note>
-        <note term="vindicated in spirit" kind="ambiguity" lemma="δικαιόω" traditional="justified in the Spirit">The verb is the one translated &#x27;justify&#x27; elsewhere, from the same word-family as &#x27;righteousness&#x27;; here it means shown or declared to be in the right, probably with reference to the resurrection. The phrase may be &#x27;in spirit&#x27;, in contrast with &#x27;in flesh&#x27; in the previous line, or &#x27;by the Spirit&#x27;, meaning the Holy Spirit. The Greek allows both and interpreters are divided.</note>
-        <note term="among the nations" kind="ambiguity" lemma="ἔθνος" traditional="unto the Gentiles / among the nations">The Greek plural means both &#x27;nations&#x27; and, from a Jewish standpoint, &#x27;Gentiles&#x27;, the non-Jewish peoples; it is one word. &#x27;Nations&#x27; is used here because the parallel line &#x27;in the world&#x27; suggests the whole world is in view. &#x27;Among Gentiles&#x27; is equally possible and fits Paul&#x27;s description of himself as a teacher of the Gentiles in 2:7.</note>
+        <note term="He appeared in flesh" kind="textual" lemma="ὅς" traditional="God was manifest in the flesh">The earliest manuscripts read “who” (rendered here “He”), and this is the reading of nearly all modern editions. Later manuscripts read “God”, which in abbreviated Greek script differs from “who” by only two small strokes; this is the source of the traditional rendering. The six short, balanced lines that follow are widely thought to be an early hymn or confession about Christ that the letter quotes.</note>
+        <note term="was vindicated in spirit" kind="departure" lemma="δικαιόω" traditional="justified in the Spirit">The verb belongs to the word family elsewhere rendered “righteousness” and “justify”; here the sense is that he was shown to be in the right, most likely by the resurrection, so “vindicated” is used, as in many modern versions. “In spirit” is taken as the counterpart of “in flesh”, the spiritual realm set against the human one. It may also be read “by the Spirit”, meaning God’s Spirit, and versions are divided.</note>
+        <note term="among the Gentiles" kind="ambiguity" lemma="ἔθνος" traditional="unto the Gentiles">The same Greek plural means both “nations” and “Gentiles”, the non-Jewish peoples. “Among the nations” is equally possible here and is preferred by many versions, since the line is paired with “angels” and followed by “the world”. “Gentiles” is kept because proclamation to the non-Jewish peoples is a stated concern of this letter.</note>
       </verse>
     </chapter>
     <chapter num="4">
       <verse num="1">
-        <text><p/>Now the Spirit says explicitly that in later times some will turn away from the faith, devoting themselves to deceiving spirits and teachings of demons</text>
+        <text><p/>Now the Spirit says explicitly that in later times some will fall away from the faith, devoting themselves to deceiving spirits and teachings of demons</text>
         <greek>
           <w lemma="ὁ">Τὸ</w>
           <w lemma="δέ">δὲ</w>
@@ -1031,7 +1031,7 @@
           <w lemma="ἴδιος">ἰδίαν</w>
           <w lemma="συνείδησις">συνείδησιν,</w>
         </greek>
-        <note term="seared" kind="ambiguity" lemma="καυστηριάζω" traditional="seared with a hot iron">The verb means to burn with a hot iron. It may picture a conscience cauterized into numbness, or one branded with a mark of ownership, as slaves and criminals were, here implying ownership by the deceiving powers of verse 1. Most translations and commentators take the first sense, but the second is a serious possibility and cannot be excluded.</note>
+        <note term="seared" kind="ambiguity" lemma="καυστηριάζω" traditional="seared with a hot iron">The verb means to burn with a hot iron. It can picture a conscience cauterized into numbness, as rendered here, or a conscience “branded,” as slaves and criminals were, with a mark of ownership (here, by the demonic powers of verse 1). Both readings have scholarly support, and the Greek does not decide between them.</note>
       </verse>
       <verse num="3">
         <text>who forbid marriage and demand abstinence from foods that God created to be received with thanksgiving by those who believe and have come to know the truth.</text>
@@ -1057,7 +1057,7 @@
         </greek>
       </verse>
       <verse num="4">
-        <text>For everything created by God is good, and nothing is to be rejected when it is received with thanksgiving,</text>
+        <text>For everything God created is good, and nothing is to be rejected when it is received with thanksgiving,</text>
         <greek>
           <w lemma="ὅτι">ὅτι</w>
           <w lemma="πᾶς">πᾶν</w>
@@ -1073,7 +1073,7 @@
         </greek>
       </verse>
       <verse num="5">
-        <text>for it is made holy through God’s word and prayer.</text>
+        <text>for it is made holy through the word of God and prayer.</text>
         <greek>
           <w lemma="ἁγιάζω">ἁγιάζεται</w>
           <w lemma="γάρ">γὰρ</w>
@@ -1083,10 +1083,11 @@
           <w lemma="καί">καὶ</w>
           <w lemma="ἔντευξις">ἐντεύξεως.</w>
         </greek>
-        <note term="God’s word and prayer" kind="ambiguity" lemma="" traditional="the word of God and prayer">It is unclear what &#x27;God&#x27;s word&#x27; refers to. It may be God&#x27;s own declaration in Genesis that what he made is good, or scriptural words spoken in a grace at table, or the gospel message. The translation leaves the phrase as open as the Greek.</note>
+        <note term="made holy" kind="departure" lemma="ἁγιάζω" traditional="sanctified">Most translations have “sanctified” or “consecrated.” The Greek verb is built on the ordinary word for “holy,” and “made holy” keeps that link audible. The meaning is not in dispute; the point is that food received with thanks belongs within the sphere of what is God’s, against those who declare it off limits.</note>
+        <note term="the word of God and prayer" kind="ambiguity" lemma="" traditional="the word of God and prayer">What “the word of God” refers to is debated. It may be God’s declaration in Genesis that what he made is good, scriptural phrases used in thanksgiving at meals, or the gospel message. The second noun is a word for petition or prayer addressed to God, here evidently the thanksgiving said over food.</note>
       </verse>
       <verse num="6">
-        <text><p/>If you lay these things before the brothers and sisters, you will be a good servant of Christ Jesus, nourished on the words of the faith and of the good teaching that you have followed closely.</text>
+        <text><p/>If you put these things before the brothers and sisters, you will be a good servant of Christ Jesus, nourished on the words of the faith and of the good teaching that you have followed.</text>
         <greek>
           <w lemma="οὗτος">Ταῦτα</w>
           <w lemma="ὑποτίθημι">ὑποτιθέμενος</w>
@@ -1109,6 +1110,7 @@
           <w lemma="ὅς">ᾗ</w>
           <w lemma="παρακολουθέω">παρηκολούθηκας,</w>
         </greek>
+        <note term="brothers and sisters" kind="departure" lemma="ἀδελφός" traditional="the brothers / the brethren">The Greek plural is grammatically masculine but was the normal way to address a mixed group of men and women, here the whole community of believers. “Brothers” alone would suggest to a modern reader that only men are meant. Many recent translations make the same choice.</note>
       </verse>
       <verse num="7">
         <text>But have nothing to do with profane old wives’ tales. Train yourself instead for godliness;</text>
@@ -1126,10 +1128,10 @@
           <w lemma="πρός">πρὸς</w>
           <w lemma="εὐσέβεια">εὐσέβειαν·</w>
         </greek>
-        <note term="old wives’ tales" kind="background" lemma="γραώδης" traditional="old wives&#x27; fables">The Greek calls the stories &#x27;profane and old-womanish&#x27;. The second word was a stock put-down in philosophical polemic for stories thought unworthy of belief. It is conventional sarcasm aimed at the content of the rival teaching, not a comment on who was spreading it.</note>
+        <note term="old wives’ tales" kind="background" lemma="γραώδης" traditional="old wives’ fables">Literally “myths of the kind old women tell.” This was a stock expression of contempt in ancient philosophical debate for stories considered unworthy of serious attention. It dismisses the opponents’ teaching and is not a comment on older women as such.</note>
       </verse>
       <verse num="8">
-        <text>for training the body is useful for a little, but godliness is useful for everything, holding a promise of life, the present life and the life to come.</text>
+        <text>for physical training is beneficial to a small extent, but godliness is beneficial in every way, since it holds a promise of life, both the present life and the life to come.</text>
         <greek>
           <w lemma="ὁ">ἡ</w>
           <w lemma="γάρ">γὰρ</w>
@@ -1155,10 +1157,10 @@
           <w lemma="ὁ">τῆς</w>
           <w lemma="μέλλω">μελλούσης.</w>
         </greek>
-        <note term="for a little" kind="ambiguity" lemma="ὀλίγος" traditional="profiteth little / of some value">The Greek phrase can mean &#x27;to a small extent&#x27; or &#x27;for a short time&#x27;. The contrast with &#x27;for everything&#x27; favours extent, but the following mention of the present life and the life to come gives the time sense some support. The rendering keeps the Greek&#x27;s deliberate parallel between &#x27;a little&#x27; and &#x27;everything&#x27;.</note>
+        <note term="to a small extent" kind="ambiguity" lemma="ὀλίγος" traditional="profiteth little / of some value">The Greek phrase is literally “for a little” and can mean either “to a limited degree” or “for a short time.” The contrast with “in every way” favors the first, but the reference to the present life and the life to come gives the second some support.</note>
       </verse>
       <verse num="9">
-        <text>The saying is trustworthy and deserves full acceptance.</text>
+        <text>The saying is trustworthy and deserves full acceptance,</text>
         <greek>
           <w lemma="πιστός">πιστὸς</w>
           <w lemma="ὁ">ὁ</w>
@@ -1168,11 +1170,11 @@
           <w lemma="ἀποδοχή">ἀποδοχῆς</w>
           <w lemma="ἄξιος">ἄξιος,</w>
         </greek>
-        <note term="trustworthy" kind="register-exception" lemma="πιστός" traditional="faithful saying">This translation normally renders the adjective &#x27;faithful&#x27; or &#x27;believing&#x27;. Here it describes a statement, not a person, and means that the saying can be relied on. &#x27;A faithful saying&#x27; is no longer natural English, so &#x27;trustworthy&#x27; is used for this formula.</note>
-        <note term="The saying" kind="ambiguity" lemma="λόγος" traditional="">This formula recurs in the letters to Timothy and Titus to mark a statement as established teaching. Here it is disputed whether it points back to the saying about godliness in verse 8 or forward to verse 10. Most interpreters take it as pointing back.</note>
+        <note term="trustworthy" kind="register-exception" lemma="πιστός" traditional="faithful">This adjective is normally rendered “faithful” or “believing” in this translation. Applied to a saying it means reliable or worthy of trust, and “a faithful saying” would now suggest a statement that accurately reproduces some original, so “trustworthy” is used for this formula.</note>
+        <note term="The saying" kind="ambiguity" lemma="" traditional="This is a faithful saying">This formula occurs five times in the letters to Timothy and Titus. Here it is unclear whether it points back to the statement about godliness in verse 8 or forward to verse 10. Most interpreters take it with verse 8, but the question is open.</note>
       </verse>
       <verse num="10">
-        <text>For this is why we toil and are reviled: because we have set our hope on the living God, who is the Savior of all people, especially of those who believe.</text>
+        <text>for this is why we labor and are insulted: because we have set our hope on the living God, who is the Savior of all people, especially of those who believe.</text>
         <greek>
           <w lemma="εἰς">εἰς</w>
           <w lemma="οὗτος">τοῦτο</w>
@@ -1193,8 +1195,8 @@
           <w lemma="μάλιστα">μάλιστα</w>
           <w lemma="πιστός">πιστῶν.</w>
         </greek>
-        <note term="are reviled" kind="textual" lemma="ὀνειδίζω" traditional="suffer reproach">Manuscripts are divided between &#x27;we are reviled&#x27; (the SBLGNT reading, followed here and by the King James tradition) and &#x27;we struggle&#x27;, which many modern editions and translations prefer. The two Greek words look and sound similar, and either could have given rise to the other.</note>
-        <note term="especially" kind="ambiguity" lemma="μάλιστα" traditional="specially / especially">The usual sense of the word is &#x27;especially&#x27;, which makes God the Savior of all people and of believers in a particular way. A minority of scholars argue it can mean &#x27;that is to say&#x27;, which would make &#x27;those who believe&#x27; a definition of &#x27;all people&#x27;. That sense is disputed, and the ordinary meaning is kept.</note>
+        <note term="are insulted" kind="textual" lemma="ὀνειδίζω" traditional="suffer reproach / strive">Manuscripts are divided between “we are insulted” (the reading of the Greek text translated here, and of the King James tradition) and “we struggle,” which differs by a few letters and is followed by many modern translations. Both readings are ancient and editors disagree about which is original.</note>
+        <note term="especially" kind="ambiguity" lemma="μάλιστα" traditional="specially / especially">The usual meaning of the word is “especially,” which makes God the Savior of all people in some sense and of believers in a fuller one. Some scholars argue that it can mean “that is to say,” which would limit the statement to believers. That sense is disputed and is not adopted here.</note>
       </verse>
       <verse num="11">
         <text><p/>Command these things and teach them.</text>
@@ -1206,7 +1208,7 @@
         </greek>
       </verse>
       <verse num="12">
-        <text>Let no one look down on you because you are young, but set the believers an example in speech, in conduct, in love, in faith, in purity.</text>
+        <text>Let no one look down on you for being young, but become an example for the believers in speech, in conduct, in love, in faith, in purity.</text>
         <greek>
           <w lemma="μηδείς">μηδείς</w>
           <w lemma="σύ">σου</w>
@@ -1229,7 +1231,6 @@
           <w lemma="ἐν">ἐν</w>
           <w lemma="ἁγνεία">ἁγνείᾳ.</w>
         </greek>
-        <note term="in faith" kind="ambiguity" lemma="πίστις" traditional="in faith">In a list of observable qualities the word could equally mean &#x27;faithfulness&#x27;, that is, reliability. Most translations keep &#x27;faith&#x27;, and the Greek does not settle the question.</note>
       </verse>
       <verse num="13">
         <text>Until I come, devote yourself to the public reading, to exhortation, to teaching.</text>
@@ -1244,10 +1245,10 @@
           <w lemma="ὁ">τῇ</w>
           <w lemma="διδασκαλία">διδασκαλίᾳ.</w>
         </greek>
-        <note term="the public reading" kind="background" lemma="ἀνάγνωσις" traditional="reading">The word means reading aloud to a gathering, as the Scriptures were read in the synagogue, not private study. Few people owned books, and most heard the Scriptures only when they were read aloud. The three activities named together look like the elements of a meeting: reading, exhortation based on it, and instruction.</note>
+        <note term="the public reading" kind="background" lemma="ἀνάγνωσις" traditional="reading">The noun refers to reading aloud to a gathering, not private study. In synagogue and church the Scriptures were read out to the assembled community, most of whom did not own or could not read books, and the reading was followed by exhortation and teaching, the two activities named next.</note>
       </verse>
       <verse num="14">
-        <text>Do not neglect the gift that is in you, which was given to you through prophecy, with the laying on of hands by the council of elders.</text>
+        <text>Do not neglect the gift that is in you, which was given to you through prophecy with the laying on of hands by the council of elders.</text>
         <greek>
           <w lemma="μή">μὴ</w>
           <w lemma="ἀμελέω">ἀμέλει</w>
@@ -1267,10 +1268,9 @@
           <w lemma="ὁ">τοῦ</w>
           <w lemma="πρεσβυτέριον">πρεσβυτερίου.</w>
         </greek>
-        <note term="council of elders" kind="background" lemma="πρεσβυτέριον" traditional="presbytery">The word names the elders of a community as a body. It is also used of the Jewish council in Jerusalem. Laying on of hands was the recognised gesture for commissioning someone to a task. 2 Timothy 1:6 speaks of Paul&#x27;s own hands in connection with Timothy&#x27;s gift, and how the two statements relate is not certain.</note>
       </verse>
       <verse num="15">
-        <text>Practice these things; be absorbed in them, so that your progress may be plain to all.</text>
+        <text>Practice these things; be immersed in them, so that your progress may be plain to everyone.</text>
         <greek>
           <w lemma="οὗτος">ταῦτα</w>
           <w lemma="μελετάω">μελέτα,</w>
@@ -1287,7 +1287,7 @@
         </greek>
       </verse>
       <verse num="16">
-        <text>Keep watch on yourself and on the teaching. Persist in these things, for by doing so you will save both yourself and those who hear you.</text>
+        <text>Keep watch on yourself and on the teaching. Persist in these things, for by doing this you will save both yourself and those who hear you.</text>
         <greek>
           <w lemma="ἐπέχω">ἔπεχε</w>
           <w lemma="σεαυτοῦ">σεαυτῷ</w>
@@ -1324,7 +1324,7 @@
           <w lemma="ὡς">ὡς</w>
           <w lemma="ἀδελφός">ἀδελφούς,</w>
         </greek>
-        <note term="older man" kind="ambiguity" lemma="πρεσβύτερος" traditional="an elder (KJV); an older man (most modern versions)">The Greek word means both an older man and an elder who holds office in the community. Here it is paired with younger men, older women and younger women, so age is meant. In verses 17 and 19 the same word refers to the office and is rendered &#x27;elder&#x27;.</note>
+        <note term="an older man" kind="ambiguity" lemma="πρεσβύτερος" traditional="an elder">The Greek word is the same one translated “elders” in verses 17 and 19, where it names a leadership role. Here it is set alongside younger men, older women and younger women, so nearly all interpreters take it as a matter of age. Older versions have “an elder.”</note>
       </verse>
       <verse num="2">
         <text>to older women as mothers, to younger women as sisters, in all purity.</text>
@@ -1341,7 +1341,7 @@
         </greek>
       </verse>
       <verse num="3">
-        <text><p/>Honor widows who are truly widows.</text>
+        <text><p/>Honor widows who are really widows.</text>
         <greek>
           <w lemma="χήρα">Χήρας</w>
           <w lemma="τιμάω">τίμα</w>
@@ -1349,10 +1349,10 @@
           <w lemma="ὄντως">ὄντως</w>
           <w lemma="χήρα">χήρας.</w>
         </greek>
-        <note term="Honor" kind="background" lemma="τιμάω" traditional="Honor">In this passage &#x27;honor&#x27; includes material support, not only respect. The following verses concern who should provide for widows, and the related noun in verse 17 is connected with a worker&#x27;s wages. The word echoes the commandment to honor father and mother, which was understood to include caring for them in old age.</note>
+        <note term="Honor" kind="background" lemma="τιμάω" traditional="honor">The Greek verb covers both showing respect and providing material support, as the related noun does in verse 17. The discussion that follows, about who should provide for widows and who should be enrolled, shows that practical support is in view as well as esteem.</note>
       </verse>
       <verse num="4">
-        <text>But if any widow has children or grandchildren, let them first learn to show devotion to their own household and to repay their parents and grandparents, for this is acceptable before God.</text>
+        <text>But if any widow has children or grandchildren, they should first learn to show piety toward their own household and to repay their parents and grandparents, for this is acceptable before God.</text>
         <greek>
           <w lemma="εἰ">εἰ</w>
           <w lemma="δέ">δέ</w>
@@ -1381,10 +1381,10 @@
           <w lemma="ὁ">τοῦ</w>
           <w lemma="θεός">θεοῦ.</w>
         </greek>
-        <note term="show devotion to" kind="departure" lemma="εὐσεβέω" traditional="show piety / show godliness">The verb describes fulfilling one&#x27;s sacred duty, and was used of dutiful conduct toward parents and family as well as toward the gods. &#x27;Godliness&#x27; now suggests private religious feeling, whereas the point here is a religious obligation discharged by caring for one&#x27;s own family.</note>
+        <note term="they should first learn" kind="ambiguity" lemma="μανθάνω" traditional="let them learn first">The Greek does not state who “they” are. Most interpreters take the subject to be the children and grandchildren, who owe care to the widow who raised them. A minority take it to be the widows, who should first attend to their own households.</note>
       </verse>
       <verse num="5">
-        <text>The one who is truly a widow, left all alone, has set her hope on God and continues in petitions and prayers night and day;</text>
+        <text>The one who is really a widow, left all alone, has set her hope on God and continues in petitions and prayers night and day;</text>
         <greek>
           <w lemma="ὁ">ἡ</w>
           <w lemma="δέ">δὲ</w>
@@ -1429,7 +1429,7 @@
         </greek>
       </verse>
       <verse num="8">
-        <text>But if anyone does not provide for their own people, and especially for members of their household, they have denied the faith and are worse than an unbeliever.</text>
+        <text>But if anyone does not provide for their own people, and especially for members of their household, that person has denied the faith and is worse than an unbeliever.</text>
         <greek>
           <w lemma="εἰ">εἰ</w>
           <w lemma="δέ">δέ</w>
@@ -1451,7 +1451,7 @@
         </greek>
       </verse>
       <verse num="9">
-        <text><p/>Let a widow be enrolled if she is not less than sixty years old, the wife of one husband,</text>
+        <text><p/>A widow should be enrolled if she is not less than sixty years old, the wife of one husband,</text>
         <greek>
           <w lemma="χήρα">Χήρα</w>
           <w lemma="καταλέγω">καταλεγέσθω</w>
@@ -1464,11 +1464,10 @@
           <w lemma="ἀνήρ">ἀνδρὸς</w>
           <w lemma="γυνή">γυνή,</w>
         </greek>
-        <note term="be enrolled" kind="background" lemma="καταλέγω" traditional="be enrolled / be put on the list">The verb means to enter someone on an official list. The community evidently kept a register of widows. It is debated whether this was simply a list of those entitled to support or a recognised group who also had duties of prayer and service; verses 11–12 suggest that enrollment involved some kind of commitment.</note>
-        <note term="the wife of one husband" kind="ambiguity" lemma="" traditional="the wife of one husband">Literally &#x27;a woman of one man&#x27;. It may mean she was married only once, an ideal praised in ancient epitaphs, or that she was faithful to her husband during the marriage. Since verse 14 urges younger widows to remarry, many interpreters prefer the second reading, but the question is not settled.</note>
+        <note term="the wife of one husband" kind="ambiguity" lemma="" traditional="the wife of one man">Literally “a woman of one man,” mirroring the requirement for overseers in 3:2. It may mean a woman who was married only once, or one who was faithful to her husband. Because verse 14 urges younger widows to remarry, many scholars favor the second reading, but the question is disputed.</note>
       </verse>
       <verse num="10">
-        <text>well attested for good works: if she has raised children, if she has shown hospitality to strangers, if she has washed the feet of holy ones, if she has helped those in distress, if she has devoted herself to every good work.</text>
+        <text>well attested for good works: if she has brought up children, if she has shown hospitality to strangers, if she has washed the feet of the holy ones, if she has helped those in distress, if she has devoted herself to every good work.</text>
         <greek>
           <w lemma="ἐν">ἐν</w>
           <w lemma="ἔργον">ἔργοις</w>
@@ -1491,10 +1490,10 @@
           <w lemma="ἀγαθός">ἀγαθῷ</w>
           <w lemma="ἐπακολουθέω">ἐπηκολούθησεν.</w>
         </greek>
-        <note term="holy ones" kind="departure" lemma="ἅγιος" traditional="saints">The word refers to all members of the believing community as people set apart for God, echoing the Septuagint&#x27;s language for Israel. &#x27;Saints&#x27; now suggests canonised individuals or people of exceptional virtue, which is not meant here. Many translations keep &#x27;saints&#x27;; others use &#x27;God&#x27;s people&#x27;.</note>
+        <note term="holy ones" kind="departure" lemma="ἅγιος" traditional="saints">The traditional rendering is “saints,” which now suggests canonized individuals or people of exceptional virtue. The Greek term is used of all members of the community as people set apart for God, echoing the Septuagint&#x27;s language for Israel. Many translations keep “saints”; others use “God&#x27;s people.”</note>
       </verse>
       <verse num="11">
-        <text>But decline younger widows; for when their desires draw them away from Christ, they want to marry,</text>
+        <text>But refuse younger widows; for when their desires draw them away from Christ, they want to marry,</text>
         <greek>
           <w lemma="νέος">νεωτέρας</w>
           <w lemma="δέ">δὲ</w>
@@ -1508,10 +1507,10 @@
           <w lemma="γαμέω">γαμεῖν</w>
           <w lemma="θέλω">θέλουσιν,</w>
         </greek>
-        <note term="their desires draw them away from Christ" kind="ambiguity" lemma="καταστρηνιάω" traditional="wax wanton against Christ / their passions draw them away from Christ">The verb occurs only here in the New Testament and is very rare elsewhere. The simpler related verb means to live in sensual indulgence, and the compound adds the idea of doing so against someone. The sense appears to be that strong desires, probably sexual, set them at odds with their commitment to Christ; the precise nuance is uncertain.</note>
+        <note term="their desires draw them away from Christ" kind="ambiguity" lemma="καταστρηνιάω" traditional="they have begun to wax wanton against Christ">The verb occurs only here in the New Testament and is very rare elsewhere. A related word describes unrestrained, luxurious living, and the compound here suggests strong impulses, probably sexual, that run against Christ. Its exact nuance is uncertain.</note>
       </verse>
       <verse num="12">
-        <text>and so they incur judgment, because they have set aside their first pledge.</text>
+        <text>and so incur judgment, because they have set aside their first pledge.</text>
         <greek>
           <w lemma="ἔχω">ἔχουσαι</w>
           <w lemma="κρίμα">κρίμα</w>
@@ -1521,10 +1520,10 @@
           <w lemma="πίστις">πίστιν</w>
           <w lemma="ἀθετέω">ἠθέτησαν·</w>
         </greek>
-        <note term="pledge" kind="register-exception" lemma="πίστις" traditional="their first faith">The word usually rendered &#x27;faith&#x27; also meant a pledge or solemn promise, and with the verb used here (&#x27;set aside, annul&#x27;) it formed a recognised idiom for breaking one&#x27;s word. The reference is probably to a commitment made on enrollment, perhaps to remain unmarried in Christ&#x27;s service. The traditional rendering &#x27;their first faith&#x27; is possible, but it would imply that remarriage is itself an abandonment of the faith, which verse 14 contradicts.</note>
+        <note term="pledge" kind="register-exception" lemma="πίστις" traditional="faith">This is the word normally rendered “faith,” but here it is the object of a verb meaning to annul or break, a combination found in Greek writers for going back on one&#x27;s word. Most modern translations therefore have “pledge,” understood as a commitment to remain unmarried in Christ&#x27;s service made when a widow was enrolled. The older rendering “their first faith” takes it as abandoning their original Christian faith, and remains possible.</note>
       </verse>
       <verse num="13">
-        <text>At the same time they also learn to be idle, going around from house to house, and not only idle but also gossips and busybodies, saying things they should not.</text>
+        <text>At the same time they also learn to be idle, going around from house to house—and not only idle, but also gossips and busybodies, saying what they should not.</text>
         <greek>
           <w lemma="ἅμα">ἅμα</w>
           <w lemma="δέ">δὲ</w>
@@ -1550,7 +1549,7 @@
         </greek>
       </verse>
       <verse num="14">
-        <text>So I want the younger ones to marry, bear children, manage their households, and give the adversary no opening for abuse.</text>
+        <text>So I want younger women to marry, bear children, manage their households, and give the adversary no opening for abuse.</text>
         <greek>
           <w lemma="βούλομαι">βούλομαι</w>
           <w lemma="οὖν">οὖν</w>
@@ -1580,7 +1579,7 @@
         </greek>
       </verse>
       <verse num="16">
-        <text>If any believing woman has widows in her family, let her help them, and let the assembly not be burdened, so that it can help those who are truly widows.</text>
+        <text>If any believing woman has widows in her care, let her help them, and let the assembly not be burdened, so that it may help those who are really widows.</text>
         <greek>
           <w lemma="εἰ">εἴ</w>
           <w lemma="τις">τις</w>
@@ -1600,11 +1599,11 @@
           <w lemma="χήρα">χήραις</w>
           <w lemma="ἐπαρκέω">ἐπαρκέσῃ.</w>
         </greek>
-        <note term="believing woman" kind="textual" lemma="πιστός" traditional="any man or woman that believeth (KJV)">The earliest manuscripts read &#x27;any believing woman&#x27;. Many later manuscripts read &#x27;any believing man or woman&#x27;, and that longer form lies behind the King James Version. It is generally thought that scribes expanded the text because it seemed odd to limit the duty to women. The shorter reading is followed here.</note>
-        <note term="assembly" kind="departure" lemma="ἐκκλησία" traditional="church">The Greek word was the ordinary term for a civic gathering and the Septuagint&#x27;s word for Israel assembled. &#x27;Church&#x27; now suggests a building or an institution, so this translation uses &#x27;assembly&#x27; throughout. &#x27;Church&#x27; is the near-universal rendering, and readers will recognise that the same community is meant.</note>
+        <note term="believing woman" kind="textual" lemma="πιστός" traditional="any man or woman that believeth">Many later manuscripts read “believing man or woman.” The earliest witnesses have only the feminine, which is the reading translated here. It probably envisages a woman of some means with widows in her household or among her dependents.</note>
+        <note term="assembly" kind="departure" lemma="ἐκκλησία" traditional="church">The traditional rendering is “church,” which is near-universal and which readers readily understand. A first-century hearer knew the word as a civic gathering and as the Septuagint&#x27;s term for Israel assembled, whereas “church” now suggests a building or an institution. This translation uses “assembly” throughout so that the reader can see it is one Greek word.</note>
       </verse>
       <verse num="17">
-        <text><p/>Let the elders who lead well be considered worthy of double honor, especially those who labor in preaching and teaching;</text>
+        <text><p/>The elders who lead well should be considered worthy of double honor, especially those who labor in speaking and teaching.</text>
         <greek>
           <w lemma="ὁ">Οἱ</w>
           <w lemma="καλῶς">καλῶς</w>
@@ -1621,10 +1620,10 @@
           <w lemma="καί">καὶ</w>
           <w lemma="διδασκαλία">διδασκαλίᾳ·</w>
         </greek>
-        <note term="double honor" kind="ambiguity" lemma="τιμή" traditional="double honor">The Greek word means both honor and a price or payment, and could be used of an honorarium. The quotations about the ox and the worker&#x27;s wages in the next verse show that material support is at least included. Whether &#x27;double&#x27; means twice the pay of others, or respect together with pay, or simply generous provision, is disputed.</note>
+        <note term="double honor" kind="ambiguity" lemma="τιμή" traditional="double honor">The Greek noun means both respect and payment, and the two quotations in verse 18 about feeding the ox and paying the worker show that material support is included. Whether “double” means twice what the enrolled widows received, respect plus pay, or simply generous provision is uncertain.</note>
       </verse>
       <verse num="18">
-        <text>for the Scripture says,<q who="scripture"> “You shall not muzzle an ox while it is threshing,”</q> and,<q who="scripture"> “The worker is worthy of his wages.”</q></text>
+        <text>For the Scripture says,<q who="scripture"> “You shall not muzzle an ox while it is threshing,”</q> and,<q who="scripture"> “The worker is worthy of his wages.”</q></text>
         <greek>
           <w lemma="λέγω">λέγει</w>
           <w lemma="γάρ">γὰρ</w>
@@ -1642,10 +1641,10 @@
           <w lemma="μισθός">μισθοῦ</w>
           <w lemma="αὐτός">αὐτοῦ.</w>
         </greek>
-        <note term="“The worker is worthy of his wages.”" kind="background" lemma="" traditional="The labourer is worthy of his reward / deserves his wages">The first quotation is Deuteronomy 25:4. The second is not found in the Jewish Scriptures; it matches word for word a saying of Jesus in Luke 10:7. Whether the author cites a written Gospel as Scripture, or the phrase &#x27;the Scripture says&#x27; strictly covers only the first quotation with a well-known saying added, is debated.</note>
+        <note term="“The worker is worthy of his wages.”" kind="background" lemma="" traditional="">The first quotation is from Deuteronomy 25:4. The second matches a saying of Jesus recorded in Luke 10:7. It is debated whether “the Scripture says” is meant to cover both, or only the first, with the second added as a familiar saying.</note>
       </verse>
       <verse num="19">
-        <text>Do not accept an accusation against an elder unless it rests on two or three witnesses.</text>
+        <text>Do not accept an accusation against an elder except on the evidence of two or three witnesses.</text>
         <greek>
           <w lemma="κατά">κατὰ</w>
           <w lemma="πρεσβύτερος">πρεσβυτέρου</w>
@@ -1663,7 +1662,7 @@
         </greek>
       </verse>
       <verse num="20">
-        <text>Those who persist in sinning, reprove in front of everyone, so that the rest also may be afraid.</text>
+        <text>Those who are sinning, rebuke before everyone, so that the rest also may be afraid.</text>
         <greek>
           <w lemma="ὁ">τοὺς</w>
           <w lemma="ἁμαρτάνω">ἁμαρτάνοντας</w>
@@ -1679,7 +1678,7 @@
         </greek>
       </verse>
       <verse num="21">
-        <text>I solemnly charge you before God and Christ Jesus and the chosen angels to keep these things without prejudgment, doing nothing out of partiality.</text>
+        <text>I solemnly charge you before God and Christ Jesus and the chosen angels to keep these things without prejudging, doing nothing out of favoritism.</text>
         <greek>
           <w lemma="διαμαρτύρομαι">διαμαρτύρομαι</w>
           <w lemma="ἐνώπιον">ἐνώπιον</w>
@@ -1718,10 +1717,10 @@
           <w lemma="ἁγνός">ἁγνὸν</w>
           <w lemma="τηρέω">τήρει.</w>
         </greek>
-        <note term="lay hands on" kind="background" lemma="" traditional="lay hands on">Laying on of hands was the gesture by which someone was commissioned for a role in the community (see 4:14). In this context about elders, the warning is most likely against appointing someone to office too hastily and so sharing responsibility for that person&#x27;s later failings. A minority view takes it as the readmission of a disciplined offender.</note>
+        <note term="lay hands on anyone" kind="background" lemma="" traditional="">Laying on of hands was the gesture by which a person was appointed to a role in the community, as in 4:14. Most interpreters take this as a warning against appointing elders hastily. A minority see it as the readmission of those who had sinned.</note>
       </verse>
       <verse num="23">
-        <text>Stop drinking only water, and use a little wine for the sake of your stomach and your frequent illnesses.</text>
+        <text>No longer drink only water, but use a little wine for the sake of your stomach and your frequent illnesses.</text>
         <greek>
           <w lemma="μηκέτι">μηκέτι</w>
           <w lemma="ὑδροποτέω">ὑδροπότει,</w>
@@ -1738,9 +1737,10 @@
           <w lemma="σύ">σου</w>
           <w lemma="ἀσθένεια">ἀσθενείας.</w>
         </greek>
+        <note term="No longer drink only water" kind="background" lemma="ὑδροποτέω" traditional="Drink no longer water">The Greek verb describes someone who drinks water and abstains from wine as a practice. The point is that Timothy should stop abstaining, not stop drinking water. Wine was widely regarded as beneficial for digestion in the ancient world.</note>
       </verse>
       <verse num="24">
-        <text><p/>The sins of some people are plain to see, going ahead of them to judgment; but those of others follow after them.</text>
+        <text><p/>The sins of some people are plain to see, going ahead of them to judgment; but the sins of others follow after them.</text>
         <greek>
           <w lemma="τις">Τινῶν</w>
           <w lemma="ἄνθρωπος">ἀνθρώπων</w>
@@ -1758,7 +1758,7 @@
         </greek>
       </verse>
       <verse num="25">
-        <text>In the same way good works too are plain to see, and even those that are not cannot stay hidden.</text>
+        <text>In the same way good works too are plain to see, and those that are not cannot stay hidden.</text>
         <greek>
           <w lemma="ὡσαύτως">ὡσαύτως</w>
           <w lemma="καί">καὶ</w>
@@ -1779,7 +1779,7 @@
     </chapter>
     <chapter num="6">
       <verse num="1">
-        <text><p/>All who are under the yoke as slaves must regard their own masters as worthy of all honor, so that the name of God and the teaching may not be slandered.</text>
+        <text><p/>All who are under the yoke as slaves must regard their own masters as worthy of all honor, so that the name of God and the teaching may not be blasphemed.</text>
         <greek>
           <w lemma="ὅσος">Ὅσοι</w>
           <w lemma="εἰμί">εἰσὶν</w>
@@ -1806,7 +1806,7 @@
         </greek>
       </verse>
       <verse num="2">
-        <text>Those whose masters are believers must not look down on them because they are brothers; rather, they must serve them all the more, because those who benefit from their good service are believers and beloved. Teach these things and urge them.</text>
+        <text>Those who have believing masters must not look down on them because they are brothers; instead they must serve them all the more, because those who benefit from their good service are believers and beloved. Teach these things and urge them.</text>
         <greek>
           <w lemma="ὁ">οἱ</w>
           <w lemma="δέ">δὲ</w>
@@ -1835,10 +1835,10 @@
           <w lemma="καί">καὶ</w>
           <w lemma="παρακαλέω">παρακάλει.</w>
         </greek>
-        <note term="those who benefit from their good service" kind="ambiguity" lemma="ἀντιλαμβάνομαι" traditional="those who benefit by their good service">The Greek is literally &#x27;those who take hold of the good deed&#x27;. Most interpreters take this as the masters who receive the slaves&#x27; service, which strikingly casts the slave as the benefactor. The phrase can also mean &#x27;those who devote themselves to doing good&#x27;, describing the masters as benefactors; the grammar allows either.</note>
+        <note term="those who benefit from their good service" kind="ambiguity" lemma="ἀντιλαμβάνομαι" traditional="partakers of the benefit">The Greek can be read two ways. On the reading adopted here, which most modern translations share, the masters are the ones who receive the benefit of the slaves’ service. The verb can also mean “devote oneself to”, which would give “those who devote themselves to doing good are believers and beloved”. The word for “good service” normally described the benefaction of a superior, so applying it to a slave’s work is striking.</note>
       </verse>
       <verse num="3">
-        <text><p/>If anyone teaches otherwise and does not hold to healthy words, those of our Lord Jesus Christ, and to the teaching that accords with godliness,</text>
+        <text><p/>If anyone teaches something different and does not agree with the sound words, those of our Lord Jesus Christ, and with the teaching that accords with godliness,</text>
         <greek>
           <w lemma="εἰ">εἴ</w>
           <w lemma="τις">τις</w>
@@ -1860,10 +1860,9 @@
           <w lemma="εὐσέβεια">εὐσέβειαν</w>
           <w lemma="διδασκαλία">διδασκαλίᾳ,</w>
         </greek>
-        <note term="healthy words" kind="departure" lemma="ὑγιαίνω" traditional="sound words">The traditional &#x27;sound&#x27; hides a medical metaphor. The Greek word means &#x27;to be in good health&#x27;, and the next verse sets it against a teacher who is &#x27;sick&#x27; with a craving for disputes. &#x27;Healthy&#x27; keeps the contrast the author built.</note>
       </verse>
       <verse num="4">
-        <text>he is puffed up with conceit and understands nothing, but is sick with a craving for disputes and battles over words. From these come envy, strife, slander, evil suspicions,</text>
+        <text>that person is puffed up with conceit and understands nothing, but is sick with a craving for controversies and battles over words. From these come envy, strife, slander, evil suspicions,</text>
         <greek>
           <w lemma="τυφόομαι">τετύφωται,</w>
           <w lemma="μηδείς">μηδὲν</w>
@@ -1883,9 +1882,10 @@
           <w lemma="ὑπόνοια">ὑπόνοιαι</w>
           <w lemma="πονηρός">πονηραί,</w>
         </greek>
+        <note term="is sick with a craving" kind="background" lemma="νοσέω" traditional="doting about; has an unhealthy craving">The verb means to be ill, and it is set against the “sound” (literally “healthy”) words of verse 3. The letter pictures correct teaching as health and the opponents’ obsession with disputes as a disease. Scholars differ on how strongly the medical image was felt, but the pairing here suggests it is deliberate.</note>
       </verse>
       <verse num="5">
-        <text>and constant wrangling among people corrupted in mind and deprived of the truth, who suppose that godliness is a way to profit.</text>
+        <text>and constant friction among people who are corrupted in mind and deprived of the truth, who suppose that godliness is a means of gain.</text>
         <greek>
           <w lemma="διαπαρατριβή">διαπαρατριβαὶ</w>
           <w lemma="διαφθείρω">διεφθαρμένων</w>
@@ -1904,7 +1904,7 @@
         </greek>
       </verse>
       <verse num="6">
-        <text>Godliness with contentment is in fact a way to great profit;</text>
+        <text>And godliness with contentment is indeed a great means of gain;</text>
         <greek>
           <w lemma="εἰμί">ἔστιν</w>
           <w lemma="δέ">δὲ</w>
@@ -1915,7 +1915,7 @@
           <w lemma="μετά">μετὰ</w>
           <w lemma="αὐτάρκεια">αὐταρκείας·</w>
         </greek>
-        <note term="contentment" kind="background" lemma="αὐτάρκεια" traditional="contentment">The word was a favourite of Stoic and Cynic philosophers, for whom it meant self-sufficiency: needing nothing beyond what one has. Here it is given a religious setting, and the related verb appears in verse 8 (&#x27;we will be content&#x27;). The same Greek word for &#x27;a way to profit&#x27; is used in verses 5 and 6, so the author is turning the opponents&#x27; own claim back on them.</note>
+        <note term="contentment" kind="background" lemma="αὐτάρκεια" traditional="contentment">The Greek word was a prized term in popular philosophy, especially among Stoics and Cynics, for self-sufficiency: needing nothing beyond what one has. The related verb appears in verse 8 (“we will be content”). The sentence also plays on verse 5: the opponents think godliness is a “means of gain”, and the writer agrees, in a sense they did not intend.</note>
       </verse>
       <verse num="7">
         <text>for we brought nothing into the world, and neither can we carry anything out of it;</text>
@@ -1932,10 +1932,10 @@
           <w lemma="τις">τι</w>
           <w lemma="δύναμαι">δυνάμεθα·</w>
         </greek>
-        <note term="and neither" kind="textual" lemma="ὅτι" traditional="and we cannot take anything out">The earliest manuscripts join the two clauses with a word that normally means &#x27;because&#x27; or &#x27;that&#x27;, which is awkward here. Later copyists smoothed it by adding &#x27;it is clear that&#x27; or &#x27;it is true that&#x27;. Most translations, like this one, treat the connection as loose; some take it as &#x27;so that&#x27; or &#x27;just as&#x27;.</note>
+        <note term="and neither can we carry anything out of it" kind="textual" lemma="ὅτι" traditional="and it is certain we can carry nothing out">The connecting word in the earliest manuscripts normally means “because” or “that”, which gives an awkward logic (“we brought nothing in because we can take nothing out”). Later manuscripts smooth this by adding “it is clear that” or “it is true that”, which lies behind the King James rendering. Most modern translations, as here, treat the connection as a loose “and” or “so”.</note>
       </verse>
       <verse num="8">
-        <text>but if we have food and clothing, with these we will be content.</text>
+        <text>but having food and clothing, we will be content with these.</text>
         <greek>
           <w lemma="ἔχω">ἔχοντες</w>
           <w lemma="δέ">δὲ</w>
@@ -1975,7 +1975,7 @@
         </greek>
       </verse>
       <verse num="10">
-        <text>for the love of money is the root of all evils, and some, in reaching for it, have been led astray from the faith and have pierced themselves with many pains.</text>
+        <text>for the love of money is a root of all evils. Some, reaching for it, have been led astray from the faith and have pierced themselves with many pains.</text>
         <greek>
           <w lemma="ῥίζα">ῥίζα</w>
           <w lemma="γάρ">γὰρ</w>
@@ -1998,10 +1998,10 @@
           <w lemma="ὀδύνη">ὀδύναις</w>
           <w lemma="πολύς">πολλαῖς.</w>
         </greek>
-        <note term="the root of all evils" kind="ambiguity" lemma="ῥίζα" traditional="a root of all kinds of evil">The Greek has no article before &#x27;root&#x27;, so it can be read as &#x27;a root&#x27; or &#x27;the root&#x27;; a predicate noun placed before the verb often lacks the article even when definite. The following phrase is plainly &#x27;all evils&#x27;, which most modern versions soften to &#x27;all kinds of evil&#x27;. The sentence has the form of a proverb, and Greek moralists had similar sayings; such maxims state things absolutely without claiming there are no exceptions.</note>
+        <note term="a root of all evils" kind="ambiguity" lemma="ῥίζα" traditional="the root of all evil; a root of all kinds of evil">The Greek has no article with “root”, and it can be read as “a root” or, in a proverbial saying like this, “the root”. The following phrase is literally “of all the evils”; many modern versions soften it to “all kinds of evil”, but the Greek does not say “kinds”. The saying resembles proverbs about greed current in the period and is best heard as a sweeping maxim, not a precise claim about the cause of every wrong.</note>
       </verse>
       <verse num="11">
-        <text><p/>But you, O man of God, flee these things, and pursue righteousness, godliness, faith, love, endurance, gentleness.</text>
+        <text><p/>But you, man of God, flee these things; pursue righteousness, godliness, faith, love, endurance, gentleness.</text>
         <greek>
           <w lemma="σύ">Σὺ</w>
           <w lemma="δέ">δέ,</w>
@@ -2019,9 +2019,10 @@
           <w lemma="ὑπομονή">ὑπομονήν,</w>
           <w lemma="πραϋπαθία">πραϋπαθίαν.</w>
         </greek>
+        <note term="righteousness" kind="background" lemma="δικαιοσύνη" traditional="righteousness">Greek has a single word-family where English has two: righteous and just, righteousness and justice. Here, in a list of qualities to pursue, the word means upright conduct, doing what is right. “Righteousness” is the standard rendering; some translators prefer “justice”.</note>
       </verse>
       <verse num="12">
-        <text>Contend in the good contest of the faith; take hold of the eternal life to which you were called, and for which you made the good confession in the presence of many witnesses.</text>
+        <text>Fight the good fight of the faith; take hold of the eternal life to which you were called and for which you made the good confession in the presence of many witnesses.</text>
         <greek>
           <w lemma="ἀγωνίζομαι">ἀγωνίζου</w>
           <w lemma="ὁ">τὸν</w>
@@ -2045,11 +2046,11 @@
           <w lemma="πολύς">πολλῶν</w>
           <w lemma="μάρτυς">μαρτύρων.</w>
         </greek>
-        <note term="Contend in the good contest" kind="departure" lemma="ἀγών" traditional="Fight the good fight">The noun and its verb ordinarily refer to an athletic contest, such as a race or a wrestling or boxing match, and by extension to any strenuous struggle. &#x27;Fight the good fight&#x27; suggests warfare to a modern reader, which is not the usual picture. &#x27;Contend&#x27; and &#x27;contest&#x27; also preserve the Greek&#x27;s repetition of one word-family.</note>
-        <note term="eternal life" kind="background" lemma="αἰώνιος" traditional="eternal life">The adjective is formed from the word for &#x27;age&#x27;. In Jewish usage &#x27;eternal life&#x27; is the life of the age to come, different in kind as well as unending. The chapter plays on this: the rich are rich &#x27;in the present age&#x27; (verse 17) and are urged to take hold of &#x27;the life that is truly life&#x27; (verse 19).</note>
+        <note term="Fight the good fight" kind="background" lemma="ἀγωνίζομαι" traditional="Fight the good fight">The verb and its noun come from the world of athletic contests, where competitors struggled for a prize, and were widely used for any strenuous effort. The picture is of a contest in the arena as much as of warfare; “compete in the good contest” would also be a fair rendering.</note>
+        <note term="eternal life" kind="background" lemma="αἰώνιος" traditional="eternal life">The adjective is formed from the word for “age”. In Jewish usage “eternal life” is the life of the age to come, a matter of its kind as well as its unending length. Verse 19 calls the same thing “the life that is truly life”, and verse 17 contrasts it with “the present age”.</note>
       </verse>
       <verse num="13">
-        <text>I charge you in the presence of God, who gives life to all things, and of Christ Jesus, who in his witness before Pontius Pilate made the good confession,</text>
+        <text>I charge you in the presence of God, who gives life to all things, and of Christ Jesus, who testified to the good confession before Pontius Pilate,</text>
         <greek>
           <w lemma="παραγγέλλω">παραγγέλλω</w>
           <w lemma="σύ">σοι</w>
@@ -2072,10 +2073,10 @@
           <w lemma="καλός">καλὴν</w>
           <w lemma="ὁμολογία">ὁμολογίαν,</w>
         </greek>
-        <note term="before Pontius Pilate" kind="ambiguity" lemma="ἐπί" traditional="before Pontius Pilate">The preposition can mean &#x27;in the presence of&#x27;, as of someone appearing before a magistrate, or &#x27;in the time of&#x27;. The first is chosen because it parallels Timothy&#x27;s own confession &#x27;in the presence of many witnesses&#x27;. On the second reading the phrase would refer to Jesus&#x27; whole witness, including his death, under Pilate&#x27;s governorship.</note>
+        <note term="before Pontius Pilate" kind="ambiguity" lemma="ἐπί" traditional="before Pontius Pilate">The preposition can mean “in the presence of”, pointing to Jesus’ testimony at his trial, or “in the time of”, as in the creeds’ “under Pontius Pilate”, which would point to his whole witness culminating in his death. Most translations take it as “before”, and that reading is followed here.</note>
       </verse>
       <verse num="14">
-        <text>to keep the commandment spotless and beyond reproach until the appearing of our Lord Jesus Christ,</text>
+        <text>to keep the commandment unstained and beyond reproach until the appearing of our Lord Jesus Christ,</text>
         <greek>
           <w lemma="τηρέω">τηρῆσαί</w>
           <w lemma="σύ">σε</w>
@@ -2094,7 +2095,7 @@
         </greek>
       </verse>
       <verse num="15">
-        <text>which the blessed and only Sovereign will display in its own time—the King of those who reign as kings and Lord of those who rule as lords,</text>
+        <text>which the blessed and only Sovereign will display at the right time—the King of kings and Lord of lords,</text>
         <greek>
           <w lemma="ὅς">ἣν</w>
           <w lemma="καιρός">καιροῖς</w>
@@ -2114,10 +2115,9 @@
           <w lemma="ὁ">τῶν</w>
           <w lemma="κυριεύω">κυριευόντων,</w>
         </greek>
-        <note term="the King of those who reign as kings and Lord of those who rule as lords" kind="departure" lemma="βασιλεύω" traditional="the King of kings and Lord of lords">The Greek here does not use the nouns &#x27;kings&#x27; and &#x27;lords&#x27;, as Revelation does, but participles: those who are reigning and those who are ruling. The traditional wording assimilates this verse to the more familiar title. The meaning is much the same, with the emphasis on those who currently hold power.</note>
       </verse>
       <verse num="16">
-        <text>who alone has immortality, who dwells in unapproachable light, whom no human being has seen or can see. To him be honor and eternal might. Amen.</text>
+        <text>who alone has immortality, who dwells in unapproachable light, whom no human being has seen or can see. To him be honor and eternal power. Amen.</text>
         <greek>
           <w lemma="ὁ">ὁ</w>
           <w lemma="μόνος">μόνος</w>
@@ -2142,7 +2142,7 @@
         </greek>
       </verse>
       <verse num="17">
-        <text><p/>Charge those who are rich in the present age not to be haughty, nor to set their hope on the uncertainty of riches, but on God, who richly provides us with everything for our enjoyment;</text>
+        <text><p/>Charge those who are rich in the present age not to be arrogant or to set their hope on the uncertainty of riches, but on God, who richly provides us with everything for our enjoyment;</text>
         <greek>
           <w lemma="ὁ">Τοῖς</w>
           <w lemma="πλούσιος">πλουσίοις</w>
@@ -2169,9 +2169,10 @@
           <w lemma="εἰς">εἰς</w>
           <w lemma="ἀπόλαυσις">ἀπόλαυσιν,</w>
         </greek>
+        <note term="in the present age" kind="departure" lemma="αἰών" traditional="in this world">The Greek word is a time-word meaning an era, not the word for “world” used in verse 7. New Testament writers share the Jewish contrast between the present age and the age to come, and that contrast is the point here: wealth belongs to this age, while verse 19 looks to “the future”. Several modern versions also render “present age”.</note>
       </verse>
       <verse num="18">
-        <text>they are to do good, to be rich in good works, to be generous and ready to share,</text>
+        <text>charge them to do good, to be rich in good works, to be generous and ready to share,</text>
         <greek>
           <w lemma="ἀγαθοεργέω">ἀγαθοεργεῖν,</w>
           <w lemma="πλουτέω">πλουτεῖν</w>
@@ -2201,7 +2202,7 @@
         </greek>
       </verse>
       <verse num="20">
-        <text><p/>O Timothy, guard what has been entrusted to you, turning away from the profane empty talk and contradictions of what is falsely called knowledge,</text>
+        <text><p/>Timothy, guard what has been entrusted to you, turning away from the profane empty talk and the contradictions of what is falsely called knowledge;</text>
         <greek>
           <w lemma="ὦ">Ὦ</w>
           <w lemma="Τιμόθεος">Τιμόθεε,</w>
@@ -2218,11 +2219,10 @@
           <w lemma="ψευδώνυμος">ψευδωνύμου</w>
           <w lemma="γνῶσις">γνώσεως,</w>
         </greek>
-        <note term="what has been entrusted to you" kind="background" lemma="παραθήκη" traditional="that which is committed to thy trust; the deposit">The word is a legal and commercial term for property left in another person&#x27;s keeping, which the keeper was bound to return intact. Here it stands for the teaching Timothy has received and must preserve unaltered.</note>
-        <note term="what is falsely called knowledge" kind="background" lemma="γνῶσις" traditional="knowledge falsely so called">The opponents evidently claimed a special &#x27;knowledge&#x27; (Greek gnosis). The word later gave its name to the movements called Gnostic, but the letter does not give enough detail to identify these teachers with any known later system, and scholars disagree about how far the connection goes. &#x27;Contradictions&#x27; may mean their counter-arguments or the self-contradictions of their teaching.</note>
+        <note term="what is falsely called knowledge" kind="background" lemma="γνῶσις" traditional="science falsely so called; what is falsely called knowledge">The opponents evidently claimed a special “knowledge” (Greek gnosis), and the word for “contradictions” may refer to their debating propositions or counter-arguments. Whether this is connected with the Gnostic movements known from the second century is disputed; the letter gives too little detail to be sure. The King James “science” meant “knowledge” in older English.</note>
       </verse>
       <verse num="21">
-        <text>which some have professed and so have missed the mark regarding the faith. Grace be with you.</text>
+        <text>by professing it, some have missed the mark concerning the faith. Grace be with you.</text>
         <greek>
           <w lemma="ὅς">ἥν</w>
           <w lemma="τις">τινες</w>
@@ -2236,7 +2236,7 @@
           <w lemma="μετά">μεθ’</w>
           <w lemma="σύ">ὑμῶν.</w>
         </greek>
-        <note term="you" kind="textual" lemma="" traditional="Grace be with thee">The &#x27;you&#x27; is plural in the earliest manuscripts, so a letter addressed to one person closes with a blessing on a wider group, presumably the congregation that would hear it read. Many later manuscripts have the singular, and some add &#x27;Amen&#x27;.</note>
+        <note term="Grace be with you." kind="textual" lemma="" traditional="Grace be with thee. Amen.">In the earliest manuscripts “you” is plural, which suggests the letter, though addressed to Timothy, was expected to be heard by the congregation. Many later manuscripts have the singular “you” and add “Amen”, readings reflected in the King James Version.</note>
       </verse>
     </chapter>
   </book>

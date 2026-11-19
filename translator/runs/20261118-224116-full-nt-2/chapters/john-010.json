@@ -1,0 +1,690 @@
+{
+ "id": "john-010",
+ "book": "john",
+ "chapter": 10,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14bwABJThnMCJWrbU",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 15249,
+  "output_tokens": 15621
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"“Truly, truly, I tell you, whoever does not enter the sheepfold through the gate but climbs in some other way—that one is a thief and a bandit.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But the one who enters through the gate is the shepherd of the sheep.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"The gatekeeper opens for him, and the sheep listen to his voice. He calls his own sheep by name and leads them out.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"When he has brought out all his own, he goes ahead of them, and the sheep follow him, because they know his voice.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"A stranger they will never follow; they will run away from him, because they do not know the voice of strangers.”\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus told them this figure of speech, but they did not understand what it was that he was saying to them.\"}]},{\"verse\":7,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So Jesus said to them again,\"},{\"speaker\":\"Jesus\",\"text\":\"“Truly, truly, I tell you, I am the gate for the sheep.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"All who came before me are thieves and bandits, but the sheep did not listen to them.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"I am the gate. Whoever enters through me will be saved, and will come in and go out and find pasture.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"The thief comes only to steal and slaughter and destroy. I came so that they may have life, and have it in abundance.\"}]},{\"verse\":11,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"I am the good shepherd. The good shepherd lays down his life for the sheep.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"The hired hand, who is not a shepherd and does not own the sheep, sees the wolf coming, leaves the sheep, and runs away, and the wolf snatches them and scatters them.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"He runs away because he is a hired hand and does not care about the sheep.\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"I am the good shepherd. I know my own and my own know me,\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"just as the Father knows me and I know the Father; and I lay down my life for the sheep.\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"I have other sheep too, which are not of this fold. I must bring them also, and they will listen to my voice, and there will be one flock, one shepherd.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"This is why the Father loves me: I lay down my life so that I may take it up again.\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"No one takes it from me; I lay it down of my own accord. I have authority to lay it down, and I have authority to take it up again. This command I received from my Father.”\"}]},{\"verse\":19,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Again there was a division among the Jews because of these words.\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Many of them were saying,\"},{\"speaker\":\"other\",\"text\":\"“He has a demon and is out of his mind! Why listen to him?”\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Others were saying,\"},{\"speaker\":\"other\",\"text\":\"“These are not the words of someone possessed by a demon. Can a demon open the eyes of the blind?”\"}]},{\"verse\":22,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then came the Festival of Dedication in Jerusalem. It was winter,\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and Jesus was walking in the temple, in Solomon’s Colonnade.\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So the Jews surrounded him and said to him,\"},{\"speaker\":\"other\",\"text\":\"“How long will you keep us in suspense? If you are the Messiah, tell us plainly.”\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus answered them,\"},{\"speaker\":\"Jesus\",\"text\":\"“I told you, and you do not believe. The works that I do in my Father’s name—these testify about me;\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"but you do not believe, because you do not belong to my sheep.\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"My sheep listen to my voice; I know them, and they follow me.\"}]},{\"verse\":28,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"I give them eternal life, and they will never perish, and no one will snatch them out of my hand.\"}]},{\"verse\":29,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"My Father, who has given them to me, is greater than all, and no one can snatch them out of the Father’s hand.\"}]},{\"verse\":30,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"I and the Father are one.”\"}]},{\"verse\":31,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Again the Jews picked up stones to stone him.\"}]},{\"verse\":32,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus answered them,\"},{\"speaker\":\"Jesus\",\"text\":\"“I have shown you many good works from the Father. For which of these works are you stoning me?”\"}]},{\"verse\":33,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The Jews answered him,\"},{\"speaker\":\"other\",\"text\":\"“We are not stoning you for a good work but for blasphemy, because you, a human being, make yourself God.”\"}]},{\"verse\":34,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus answered them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Is it not written in your Law, ‘I said, you are gods’?\"}]},{\"verse\":35,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"If he called them ‘gods’ to whom the word of God came, and the Scripture cannot be broken,\"}]},{\"verse\":36,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"do you say to the one whom the Father consecrated and sent into the world, ‘You are blaspheming,’ because I said, ‘I am God’s Son’?\"}]},{\"verse\":37,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"If I am not doing the works of my Father, do not believe me.\"}]},{\"verse\":38,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But if I am doing them, then even if you do not believe me, believe the works, so that you may come to know and keep on knowing that the Father is in me and I am in the Father.”\"}]},{\"verse\":39,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So they were again trying to seize him, but he escaped from their hands.\"}]},{\"verse\":40,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He went away again across the Jordan to the place where John had first been baptizing, and he stayed there.\"}]},{\"verse\":41,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Many came to him and were saying,\"},{\"speaker\":\"other\",\"text\":\"“John performed no sign, but everything John said about this man was true.”\"}]},{\"verse\":42,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And many believed in him there.\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"bandit\",\"lemma\":\"λῃστής\",\"kind\":\"departure\",\"traditional\":\"robber\",\"note\":\"Greek distinguishes the thief, who steals by stealth, from this word, which names an armed and violent plunderer such as a highwayman or brigand. “Robber” is the usual rendering and is not wrong, but in modern English it can suggest a burglar; “bandit” keeps the violence and outlawry. Standard lexicons give robber, highwayman or bandit, and note that the word was also applied to insurrectionists.\"},{\"verse\":1,\"phrase\":\"gate\",\"lemma\":\"θύρα\",\"kind\":\"departure\",\"traditional\":\"door\",\"note\":\"The Greek word covers any entrance that opens and shuts. The older English tradition has “door,” as in “I am the door” (verses 7 and 9); because the picture here is the entrance to a walled sheep enclosure, “gate” is the natural English word, and several modern translations use it. The meaning is not in dispute.\"},{\"verse\":6,\"phrase\":\"figure of speech\",\"lemma\":\"παροιμία\",\"kind\":\"departure\",\"traditional\":\"parable\",\"note\":\"John does not use the word for “parable” found in the other Gospels. His word means a proverb or a veiled, figurative saying, and he later contrasts it with speaking “plainly” (16:25, 29). Older versions have “parable” here; most modern ones have “figure of speech.”\"},{\"verse\":19,\"phrase\":\"the Jews\",\"lemma\":\"Ἰουδαῖος\",\"kind\":\"ambiguity\",\"traditional\":\"the Jews\",\"note\":\"John often uses this term for a particular group in Jerusalem that disputes with Jesus, not for the Jewish people as a whole; Jesus, his disciples and those who defend him in verse 21 are also Jews. Here and in verses 24–33 the group is not clearly identified as the authorities, so the general term is kept. Some scholars prefer “Judeans” or “the Jewish leaders” in such passages.\"},{\"verse\":22,\"phrase\":\"the Festival of Dedication\",\"lemma\":\"ἐγκαίνια\",\"kind\":\"background\",\"traditional\":\"the feast of the dedication\",\"note\":\"This is the festival now known as Hanukkah. It commemorates the rededication of the Jerusalem temple in 164 BC, after its desecration under the Seleucid king Antiochus IV. It lasts eight days and falls in December, hence “it was winter.”\"},{\"verse\":24,\"phrase\":\"keep us in suspense\",\"lemma\":\"ψυχή\",\"kind\":\"ambiguity\",\"traditional\":\"make us to doubt; keep us in suspense\",\"note\":\"The Greek idiom is literally “How long are you lifting up our life?” Nearly all modern translations understand it as holding someone in suspense. Evidence for the idiom outside this verse is thin, and some interpreters take it instead as “How long will you annoy us?”\"},{\"verse\":24,\"phrase\":\"Messiah\",\"lemma\":\"Χριστός\",\"kind\":\"departure\",\"traditional\":\"Christ\",\"note\":\"The Greek word translates the Hebrew title for the anointed king Israel expected. Here the questioners are asking about that title, not using a name, so “Messiah” conveys what they meant. Several modern translations use “Messiah” in such places in the Gospels and keep “Christ” where it functions as a name.\"},{\"verse\":29,\"phrase\":\"who has given them to me\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"My Father, which gave them me, is greater than all\",\"note\":\"The manuscripts differ here in two small words, giving either “My Father, who has given them to me, is greater than all” or “What my Father has given me is greater than all.” The Greek text followed here combines a neuter “what” with a masculine “greater,” which is grammatically rough. The rendering takes “greater” as describing the Father, as most English versions do; some critical editions and translations adopt the second reading.\"},{\"verse\":30,\"phrase\":\"one\",\"lemma\":\"εἷς\",\"kind\":\"ambiguity\",\"traditional\":\"one\",\"note\":\"The Greek word for “one” is neuter: “one thing,” not “one person.” In context the claim concerns unity in keeping the sheep, since no one can snatch them from either hand, and the hearers take it as a claim to divine status (verse 33). How far the statement reaches beyond unity of action and purpose toward unity of being has been debated since antiquity.\"},{\"verse\":33,\"phrase\":\"make yourself God\",\"lemma\":\"θεός\",\"kind\":\"ambiguity\",\"traditional\":\"makest thyself God\",\"note\":\"The Greek has no article, so the phrase can be read “make yourself God” or “make yourself a god.” Most translations choose “God,” which fits the charge of blasphemy. Jesus’s reply in verses 34–36 turns on the plural “gods,” which suggests the looser sense is also in view.\"},{\"verse\":34,\"phrase\":\"your Law\",\"lemma\":\"νόμος\",\"kind\":\"background\",\"traditional\":\"your law\",\"note\":\"The quotation is from Psalm 82:6, so “Law” here stands for the Scriptures as a whole, not only the books of Moses. In the psalm God addresses a group as “gods”; ancient and modern interpreters have identified them variously as Israel’s judges, members of a heavenly council, or Israel receiving the Law at Sinai. The argument runs from the lesser to the greater: if Scripture can use the word of them, it is not blasphemy for the one the Father sent to call himself God’s Son.\"},{\"verse\":36,\"phrase\":\"consecrated\",\"lemma\":\"ἁγιάζω\",\"kind\":\"departure\",\"traditional\":\"sanctified\",\"note\":\"The verb is built on the ordinary word for “holy” and means to bring someone or something into the sphere of what belongs to God. Here the point is that the Father set Jesus apart for a mission, not that he changed his moral state, so “consecrated” is used in place of the traditional “sanctified.” Several modern translations render it “consecrated” or “set apart” in this verse; the meaning is not disputed.\"},{\"verse\":38,\"phrase\":\"come to know and keep on knowing\",\"lemma\":\"γινώσκω\",\"kind\":\"departure\",\"traditional\":\"know and understand\",\"note\":\"The Greek uses the same verb twice in two different forms, the first pointing to the moment of coming to know and the second to knowing as a continuing state. Most translations vary the English (“know and understand”); this rendering keeps the repetition. Some manuscripts replace the second verb with “believe.”\"}],\"candidates\":[{\"lemma\":\"παροιμία\",\"rendering\":\"figure of speech\",\"verse\":6,\"reason\":\"John’s term for veiled speech recurs at 16:25 and 16:29 (and as “proverb” in 2 Peter 2:22) and must be kept distinct from the Synoptic παραβολή, “parable.”\"},{\"lemma\":\"ἐξουσία\",\"rendering\":\"authority\",\"verse\":18,\"reason\":\"Occurs across the whole New Testament, and translations vary between “authority,” “power” and “right,” which blurs the distinction from δύναμις.\"},{\"lemma\":\"σημεῖον\",\"rendering\":\"sign\",\"verse\":41,\"reason\":\"Central to John and frequent elsewhere; older versions often have “miracle,” and readers need one consistent word to follow John’s theme of signs.\"},{\"lemma\":\"δαιμονίζομαι\",\"rendering\":\"possessed by a demon\",\"verse\":21,\"reason\":\"Recurs through the Gospels, where translators differ between “demon-possessed,” “demonized” and “having a demon”; it should match the handling of δαιμόνιον ἔχειν.\"},{\"lemma\":\"ἱερόν\",\"rendering\":\"temple\",\"verse\":23,\"reason\":\"Names the whole temple complex with its courts, as distinct from ναός, the sanctuary building; a fixed policy on whether to distinguish them in English is needed across the Gospels and Acts.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "“Truly, truly, I tell you, whoever does not enter the sheepfold through the gate but climbs in some other way—that one is a thief and a bandit."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But the one who enters through the gate is the shepherd of the sheep."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "The gatekeeper opens for him, and the sheep listen to his voice. He calls his own sheep by name and leads them out."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "When he has brought out all his own, he goes ahead of them, and the sheep follow him, because they know his voice."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "A stranger they will never follow; they will run away from him, because they do not know the voice of strangers.”"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus told them this figure of speech, but they did not understand what it was that he was saying to them."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So Jesus said to them again,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Truly, truly, I tell you, I am the gate for the sheep."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "All who came before me are thieves and bandits, but the sheep did not listen to them."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "I am the gate. Whoever enters through me will be saved, and will come in and go out and find pasture."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "The thief comes only to steal and slaughter and destroy. I came so that they may have life, and have it in abundance."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "I am the good shepherd. The good shepherd lays down his life for the sheep."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "The hired hand, who is not a shepherd and does not own the sheep, sees the wolf coming, leaves the sheep, and runs away, and the wolf snatches them and scatters them."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "He runs away because he is a hired hand and does not care about the sheep."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "I am the good shepherd. I know my own and my own know me,"
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "just as the Father knows me and I know the Father; and I lay down my life for the sheep."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "I have other sheep too, which are not of this fold. I must bring them also, and they will listen to my voice, and there will be one flock, one shepherd."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "This is why the Father loves me: I lay down my life so that I may take it up again."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "No one takes it from me; I lay it down of my own accord. I have authority to lay it down, and I have authority to take it up again. This command I received from my Father.”"
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Again there was a division among the Jews because of these words."
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Many of them were saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“He has a demon and is out of his mind! Why listen to him?”"
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Others were saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“These are not the words of someone possessed by a demon. Can a demon open the eyes of the blind?”"
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then came the Festival of Dedication in Jerusalem. It was winter,"
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and Jesus was walking in the temple, in Solomon’s Colonnade."
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So the Jews surrounded him and said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“How long will you keep us in suspense? If you are the Messiah, tell us plainly.”"
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus answered them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“I told you, and you do not believe. The works that I do in my Father’s name—these testify about me;"
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "but you do not believe, because you do not belong to my sheep."
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "My sheep listen to my voice; I know them, and they follow me."
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "I give them eternal life, and they will never perish, and no one will snatch them out of my hand."
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "As for what my Father has given me, he is greater than all, and no one can snatch it out of the Father’s hand."
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "I and the Father are one.”"
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Again the Jews picked up stones to stone him."
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus answered them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“I have shown you many good works from the Father. For which of these works are you stoning me?”"
+     }
+    ]
+   },
+   {
+    "verse": 33,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The Jews answered him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“We are not stoning you for a good work but for blasphemy, because you, a human being, make yourself God.”"
+     }
+    ]
+   },
+   {
+    "verse": 34,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus answered them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Is it not written in your Law, ‘I said, you are gods’?"
+     }
+    ]
+   },
+   {
+    "verse": 35,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "If he called them ‘gods’ to whom the word of God came, and the Scripture cannot be broken,"
+     }
+    ]
+   },
+   {
+    "verse": 36,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "do you say to the one whom the Father consecrated and sent into the world, ‘You are blaspheming,’ because I said, ‘I am God’s Son’?"
+     }
+    ]
+   },
+   {
+    "verse": 37,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "If I am not doing the works of my Father, do not believe me."
+     }
+    ]
+   },
+   {
+    "verse": 38,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But if I am doing them, then even if you do not believe me, believe the works, so that you may come to know and keep on knowing that the Father is in me and I am in the Father.”"
+     }
+    ]
+   },
+   {
+    "verse": 39,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So they were again trying to seize him, but he escaped from their hands."
+     }
+    ]
+   },
+   {
+    "verse": 40,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He went away again across the Jordan to the place where John had first been baptizing, and he stayed there."
+     }
+    ]
+   },
+   {
+    "verse": 41,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Many came to him and were saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“John performed no sign, but everything John said about this man was true.”"
+     }
+    ]
+   },
+   {
+    "verse": 42,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And many believed in him there."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "bandit",
+    "lemma": "λῃστής",
+    "kind": "departure",
+    "traditional": "robber",
+    "note": "Greek distinguishes the thief, who steals by stealth, from this word, which names an armed and violent plunderer such as a highwayman or brigand. “Robber” is the usual rendering and is not wrong, but in modern English it can suggest a burglar; “bandit” keeps the violence and outlawry. Standard lexicons give robber, highwayman or bandit, and note that the word was also applied to insurrectionists."
+   },
+   {
+    "verse": 1,
+    "phrase": "gate",
+    "lemma": "θύρα",
+    "kind": "departure",
+    "traditional": "door",
+    "note": "The Greek word covers any entrance that opens and shuts. The older English tradition has “door,” as in “I am the door” (verses 7 and 9); because the picture here is the entrance to a walled sheep enclosure, “gate” is the natural English word, and several modern translations use it. The meaning is not in dispute."
+   },
+   {
+    "verse": 6,
+    "phrase": "figure of speech",
+    "lemma": "παροιμία",
+    "kind": "departure",
+    "traditional": "parable",
+    "note": "John does not use the word for “parable” found in the other Gospels. His word means a proverb or a veiled, figurative saying, and he later contrasts it with speaking “plainly” (16:25, 29). Older versions have “parable” here; most modern ones have “figure of speech.”"
+   },
+   {
+    "verse": 19,
+    "phrase": "the Jews",
+    "lemma": "Ἰουδαῖος",
+    "kind": "ambiguity",
+    "traditional": "the Jews",
+    "note": "John often uses this term for a particular group in Jerusalem that disputes with Jesus, not for the Jewish people as a whole; Jesus, his disciples and those who defend him in verse 21 are also Jews. Here and in verses 24–33 the group is not clearly identified as the authorities, so the general term is kept. Some scholars prefer “Judeans” or “the Jewish leaders” in such passages."
+   },
+   {
+    "verse": 22,
+    "phrase": "the Festival of Dedication",
+    "lemma": "ἐγκαίνια",
+    "kind": "background",
+    "traditional": "the feast of the dedication",
+    "note": "This is the festival now known as Hanukkah. It commemorates the rededication of the Jerusalem temple in 164 BC, after its desecration under the Seleucid king Antiochus IV. It lasts eight days and falls in December, hence “it was winter.”"
+   },
+   {
+    "verse": 24,
+    "phrase": "keep us in suspense",
+    "lemma": "ψυχή",
+    "kind": "ambiguity",
+    "traditional": "make us to doubt; keep us in suspense",
+    "note": "The Greek idiom is literally “How long are you lifting up our life?” Nearly all modern translations understand it as holding someone in suspense. Evidence for the idiom outside this verse is thin, and some interpreters take it instead as “How long will you annoy us?”"
+   },
+   {
+    "verse": 24,
+    "phrase": "Messiah",
+    "lemma": "Χριστός",
+    "kind": "departure",
+    "traditional": "Christ",
+    "note": "The Greek word translates the Hebrew title for the anointed king Israel expected. Here the questioners are asking about that title, not using a name, so “Messiah” conveys what they meant. Several modern translations use “Messiah” in such places in the Gospels and keep “Christ” where it functions as a name."
+   },
+   {
+    "verse": 29,
+    "phrase": "As for what my Father has given me, he is greater than all",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "My Father, who has given them to me, is greater than all",
+    "note": "The manuscripts differ here in two small words, giving either “My Father, who has given them to me, is greater than all” (the reading most English versions follow) or “What my Father has given me is greater than all.” The Greek text followed here combines a neuter “what” with a masculine “greater,” which is grammatically rough. The rendering keeps both: “what my Father has given me” is set out in front as the topic, and “greater” is taken as describing the Father. The Greek gives no object for “snatch”; the “it” is supplied and refers back to what the Father has given."
+   },
+   {
+    "verse": 30,
+    "phrase": "one",
+    "lemma": "εἷς",
+    "kind": "ambiguity",
+    "traditional": "one",
+    "note": "The Greek word for “one” is neuter: “one thing,” not “one person.” In context the claim concerns unity in keeping the sheep, since no one can snatch them from either hand, and the hearers take it as a claim to divine status (verse 33). How far the statement reaches beyond unity of action and purpose toward unity of being has been debated since antiquity."
+   },
+   {
+    "verse": 33,
+    "phrase": "make yourself God",
+    "lemma": "θεός",
+    "kind": "ambiguity",
+    "traditional": "makest thyself God",
+    "note": "The Greek has no article, so the phrase can be read “make yourself God” or “make yourself a god.” Most translations choose “God,” which fits the charge of blasphemy. Jesus’s reply in verses 34–36 turns on the plural “gods,” which suggests the looser sense is also in view."
+   },
+   {
+    "verse": 34,
+    "phrase": "your Law",
+    "lemma": "νόμος",
+    "kind": "background",
+    "traditional": "your law",
+    "note": "The quotation is from Psalm 82:6, so “Law” here stands for the Scriptures as a whole, not only the books of Moses. In the psalm God addresses a group as “gods”; ancient and modern interpreters have identified them variously as Israel’s judges, members of a heavenly council, or Israel receiving the Law at Sinai. The argument runs from the lesser to the greater: if Scripture can use the word of them, it is not blasphemy for the one the Father sent to call himself God’s Son."
+   },
+   {
+    "verse": 36,
+    "phrase": "consecrated",
+    "lemma": "ἁγιάζω",
+    "kind": "departure",
+    "traditional": "sanctified",
+    "note": "The verb is built on the ordinary word for “holy” and means to bring someone or something into the sphere of what belongs to God. Here the point is that the Father set Jesus apart for a mission, not that he changed his moral state, so “consecrated” is used in place of the traditional “sanctified.” Several modern translations render it “consecrated” or “set apart” in this verse; the meaning is not disputed."
+   },
+   {
+    "verse": 38,
+    "phrase": "come to know and keep on knowing",
+    "lemma": "γινώσκω",
+    "kind": "departure",
+    "traditional": "know and understand",
+    "note": "The Greek uses the same verb twice in two different forms, the first pointing to the moment of coming to know and the second to knowing as a continuing state. Most translations vary the English (“know and understand”); this rendering keeps the repetition. Some manuscripts replace the second verb with “believe.”"
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "παροιμία",
+    "rendering": "figure of speech",
+    "verse": 6,
+    "reason": "John’s term for veiled speech recurs at 16:25 and 16:29 (and as “proverb” in 2 Peter 2:22) and must be kept distinct from the Synoptic παραβολή, “parable.”"
+   },
+   {
+    "lemma": "ἐξουσία",
+    "rendering": "authority",
+    "verse": 18,
+    "reason": "Occurs across the whole New Testament, and translations vary between “authority,” “power” and “right,” which blurs the distinction from δύναμις."
+   },
+   {
+    "lemma": "σημεῖον",
+    "rendering": "sign",
+    "verse": 41,
+    "reason": "Central to John and frequent elsewhere; older versions often have “miracle,” and readers need one consistent word to follow John’s theme of signs."
+   },
+   {
+    "lemma": "δαιμονίζομαι",
+    "rendering": "possessed by a demon",
+    "verse": 21,
+    "reason": "Recurs through the Gospels, where translators differ between “demon-possessed,” “demonized” and “having a demon”; it should match the handling of δαιμόνιον ἔχειν."
+   },
+   {
+    "lemma": "ἱερόν",
+    "rendering": "temple",
+    "verse": 23,
+    "reason": "Names the whole temple complex with its courts, as distinct from ναός, the sanctuary building; a fixed policy on whether to distinguish them in English is needed across the Gospels and Acts."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [
+  "Verse 36: βλασφημέω is not rendered with a register form (slander; blaspheme; insult / hurl insults at / hurl insults) and has no register-exception note."
+ ],
+ "review_history": [
+  {
+   "model": "claude-opus-5-5",
+   "effort": "medium",
+   "prompt_hash": "1d997c9b4af2",
+   "round": 1,
+   "batch": true,
+   "usage": {
+    "input_tokens": 7738,
+    "output_tokens": 694
+   },
+   "findings": [
+    {
+     "verse": 29,
+     "type": "mistranslation",
+     "severity": "major",
+     "greek": "ὁ πατήρ μου ὃ δέδωκέν μοι πάντων μεῖζων ἐστίν",
+     "english": "My Father, who has given them to me, is greater than all",
+     "problem": "The relative pronoun ὃ is neuter ('what/that which'), not masculine ὅς ('who'). The Greek says that what the Father has given to Jesus is greater than all. The English makes the Father the subject of 'is greater' and supplies 'them', which follows a different reading."
+    }
+   ],
+   "error": ""
+  }
+ ],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 2,
+  "batch": false,
+  "usage": {
+   "input_tokens": 7738,
+   "output_tokens": 705
+  },
+  "findings": [
+   {
+    "verse": 29,
+    "type": "mistranslation",
+    "severity": "minor",
+    "greek": "ὁ πατήρ μου ὃ δέδωκέν μοι πάντων μεῖζων ἐστίν",
+    "english": "As for what my Father has given me, he is greater than all",
+    "problem": "In the SBLGNT reading, the neuter relative ὃ (what the Father has given) is the subject of 'is greater than all'. The English makes the Father ('he') the one who is greater, which follows the variant reading ὃς instead."
+   }
+  ],
+  "error": ""
+ },
+ "fixes": [
+  {
+   "round": 1,
+   "model": "claude-fable-5-2",
+   "usage": {
+    "input_tokens": 15214,
+    "output_tokens": 1083
+   },
+   "changed": [
+    {
+     "verse": 29,
+     "before": "My Father, who has given them to me, is greater than all, and no one can snatch them out of the Father’s hand.",
+     "after": "As for what my Father has given me, he is greater than all, and no one can snatch it out of the Father’s hand."
+    }
+   ]
+  },
+  {
+   "round": 2,
+   "model": "claude-fable-5-2",
+   "usage": {
+    "input_tokens": 15151,
+    "output_tokens": 745
+   },
+   "changed": [],
+   "note": "notes on verse 29 rewritten to match the corrected verse"
+  }
+ ]
+}

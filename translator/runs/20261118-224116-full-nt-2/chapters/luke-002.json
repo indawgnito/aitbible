@@ -1,0 +1,723 @@
+{
+ "id": "luke-002",
+ "book": "luke",
+ "chapter": 2,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14qLC6kuzyBTEDhub",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 13712,
+  "output_tokens": 16876
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"In those days a decree went out from Caesar Augustus that the whole world should be registered.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"(This was the first registration, made when Quirinius was governor of Syria.)\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And everyone went to be registered, each to his own town.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Joseph also went up from Galilee, from the town of Nazareth, to Judea, to the town of David, which is called Bethlehem, because he was of the house and lineage of David,\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"to be registered with Mary, who was betrothed to him and was pregnant.\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"While they were there, the days were completed for her to give birth,\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and she gave birth to her firstborn son. She wrapped him in swaddling cloths and laid him in a manger, because there was no space for them in the guest room.\"}]},{\"verse\":8,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"In that same region there were shepherds living out in the fields and keeping watch over their flock by night.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"An angel of the Lord stood before them, and the glory of the Lord shone around them, and they were filled with great fear.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And the angel said to them,\"},{\"speaker\":\"angel\",\"text\":\"“Do not be afraid, for look, I bring you good news of great joy that will be for all the people:\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"angel\",\"text\":\"today in the town of David a Savior has been born for you, who is the Messiah, the Lord.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"angel\",\"text\":\"And this will be the sign for you: you will find a baby wrapped in swaddling cloths and lying in a manger.”\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And suddenly there was with the angel a multitude of the heavenly army, praising God and saying,\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"angel\",\"text\":\"“Glory to God in the highest, and on earth peace among people he favors.”\"}]},{\"verse\":15,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When the angels had gone away from them into heaven, the shepherds began saying to one another,\"},{\"speaker\":\"other\",\"text\":\"“Let us go over to Bethlehem, then, and see this thing that has happened, which the Lord has made known to us.”\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So they went in haste and found Mary and Joseph, and the baby lying in the manger.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When they had seen it, they made known what had been told them about this child.\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And all who heard were amazed at what the shepherds told them,\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"but Mary treasured up all these things, pondering them in her heart.\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And the shepherds returned, glorifying and praising God for all that they had heard and seen, just as it had been told them.\"}]},{\"verse\":21,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When eight days were completed and it was time to circumcise him, he was given the name Jesus, the name the angel had given him before he was conceived in the womb.\"}]},{\"verse\":22,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And when the days of their purification were completed according to the Law of Moses, they brought him up to Jerusalem to present him to the Lord,\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"as it is written in the Law of the Lord,\"},{\"speaker\":\"scripture\",\"text\":\"“Every male that opens the womb shall be called holy to the Lord,”\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and to offer a sacrifice according to what is said in the Law of the Lord:\"},{\"speaker\":\"scripture\",\"text\":\"“a pair of turtledoves or two young pigeons.”\"}]},{\"verse\":25,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now there was a man in Jerusalem whose name was Simeon. This man was righteous and devout, waiting for the consolation of Israel, and the Holy Spirit was upon him.\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"It had been revealed to him by the Holy Spirit that he would not see death before he had seen the Lord’s Messiah.\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Led by the Spirit, he came into the temple. And when the parents brought in the child Jesus to do for him what the custom of the Law required,\"}]},{\"verse\":28,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Simeon himself took him in his arms and blessed God and said,\"}]},{\"verse\":29,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"“Now you are releasing your slave, Master, in peace, according to your word;\"}]},{\"verse\":30,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"for my eyes have seen your salvation,\"}]},{\"verse\":31,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"which you have prepared in the sight of all the peoples,\"}]},{\"verse\":32,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"a light for revelation to the Gentiles and for glory to your people Israel.”\"}]},{\"verse\":33,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And his father and mother were amazed at what was being said about him.\"}]},{\"verse\":34,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then Simeon blessed them and said to Mary his mother,\"},{\"speaker\":\"other\",\"text\":\"“Look, this child is appointed for the fall and rising of many in Israel, and to be a sign that is spoken against—\"}]},{\"verse\":35,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"and a sword will pass through your own soul as well—so that the thoughts of many hearts may be revealed.”\"}]},{\"verse\":36,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"There was also a prophetess, Anna, daughter of Phanuel, of the tribe of Asher. She was very advanced in years, having lived with her husband seven years after her marriage,\"}]},{\"verse\":37,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and then as a widow to the age of eighty-four. She never left the temple, worshiping with fasting and prayers night and day.\"}]},{\"verse\":38,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Coming up at that very hour, she began giving thanks to God and speaking about the child to all who were waiting for the redemption of Jerusalem.\"}]},{\"verse\":39,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When they had finished everything required by the Law of the Lord, they returned to Galilee, to their own town of Nazareth.\"}]},{\"verse\":40,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And the child grew and became strong, being filled with wisdom, and the favor of God was upon him.\"}]},{\"verse\":41,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Every year his parents went to Jerusalem for the festival of Passover.\"}]},{\"verse\":42,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When he was twelve years old, they went up as was the custom of the festival,\"}]},{\"verse\":43,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and when the days were over and they were returning, the boy Jesus stayed behind in Jerusalem, and his parents did not know it.\"}]},{\"verse\":44,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Supposing that he was in the traveling party, they went a day’s journey and then began searching for him among their relatives and acquaintances,\"}]},{\"verse\":45,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and when they did not find him, they returned to Jerusalem, searching for him.\"}]},{\"verse\":46,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"After three days they found him in the temple, sitting among the teachers, listening to them and asking them questions.\"}]},{\"verse\":47,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And all who heard him were astounded at his understanding and his answers.\"}]},{\"verse\":48,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When his parents saw him, they were astonished, and his mother said to him,\"},{\"speaker\":\"other\",\"text\":\"“Child, why have you treated us like this? See, your father and I have been looking for you in anguish.”\"}]},{\"verse\":49,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And he said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Why were you looking for me? Did you not know that I must be in my Father’s house?”\"}]},{\"verse\":50,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But they did not understand what he said to them.\"}]},{\"verse\":51,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then he went down with them and came to Nazareth, and he was subject to them. And his mother kept all these things carefully in her heart.\"}]},{\"verse\":52,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And Jesus advanced in wisdom and stature, and in favor with God and people.\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"the whole world\",\"lemma\":\"οἰκουμένη\",\"kind\":\"background\",\"traditional\":\"all the world\",\"note\":\"The Greek word means “the inhabited world” and in this period was commonly used, with some exaggeration, for the lands under Roman rule. The registration was an enrollment of the population for tax purposes, which is why older versions have “taxed”.\"},{\"verse\":2,\"phrase\":\"the first registration\",\"lemma\":\"πρῶτος\",\"kind\":\"ambiguity\",\"traditional\":\"this was the first registration when Quirinius was governor of Syria\",\"note\":\"The dating is a well-known historical difficulty. Josephus places a census under Quirinius in AD 6, about a decade after the death of Herod the Great, in whose reign Luke sets the birth. Some scholars therefore take the Greek to mean “this registration took place before Quirinius was governor of Syria”, which is possible but strained; most take it as translated here and leave the historical question open.\"},{\"verse\":7,\"phrase\":\"guest room\",\"lemma\":\"κατάλυμα\",\"kind\":\"departure\",\"traditional\":\"inn\",\"note\":\"The traditional “inn” suggests a commercial lodging house, but the Greek word means a place to stay and is the word Luke uses for the “guest room” of the last supper (22:11). For a commercial inn he uses a different word (10:34). Many scholars think the guest quarters of a family home are meant, with the manger in the part of the house where animals were kept, though a public lodging place cannot be ruled out.\"},{\"verse\":11,\"phrase\":\"the Messiah, the Lord\",\"lemma\":\"Χριστός\",\"kind\":\"departure\",\"traditional\":\"Christ the Lord\",\"note\":\"The Greek word is a title meaning the anointed king Israel was waiting for, not a surname, and “Messiah” conveys that to a modern reader where the title is the point. Several modern translations make the same choice in the Gospels. The Greek here places the two titles side by side without articles, an unusual combination that could also be read as “an anointed Lord”.\"},{\"verse\":13,\"phrase\":\"army\",\"lemma\":\"στρατιά\",\"kind\":\"departure\",\"traditional\":\"host\",\"note\":\"“Host” is an old English word for an army, and that is what the Greek means: the troops of heaven, a Septuagint expression for the angels or the stars. Most translations keep “host”, which modern readers no longer hear as military. The image of an army announcing peace is part of the scene’s effect.\"},{\"verse\":14,\"phrase\":\"among people he favors\",\"lemma\":\"εὐδοκία\",\"kind\":\"textual\",\"traditional\":\"good will toward men\",\"note\":\"The earliest manuscripts read a genitive, literally “among people of good pleasure”, and this is the text translated. Later manuscripts have a nominative, giving the familiar “peace, good will toward men”. The good pleasure is God’s, as comparable Hebrew expressions in the Dead Sea Scrolls show: peace is for those on whom his favor rests, not for people who show goodwill.\"},{\"verse\":22,\"phrase\":\"their purification\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"their purification\",\"note\":\"Leviticus 12 prescribes purification only for the mother, forty days after the birth of a son, so the plural “their” is unexpected. It may loosely include Joseph or the child, or may simply mean the purification as the family’s occasion. Some later manuscripts changed it to “her”.\"},{\"verse\":24,\"phrase\":\"“a pair of turtledoves or two young pigeons.”\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"Leviticus 12:8 allows this offering for a mother who cannot afford a lamb. A reader who knew the Law would have understood that the family was poor. The presentation of the firstborn (Exodus 13) and the mother’s purification were separate obligations, which Luke narrates together.\"},{\"verse\":29,\"phrase\":\"you are releasing your slave\",\"lemma\":\"δοῦλος\",\"kind\":\"departure\",\"traditional\":\"now lettest thou thy servant depart\",\"note\":\"The Greek word means a slave, and “Master” translates the ordinary word for a slave’s owner; the verb is one used for releasing or discharging someone, and also as a gentle expression for dying. Most translations have “servant” and many turn the sentence into a request, but the Greek is a statement: the owner is now letting his slave go. “Servant” remains the mainstream rendering, with “slave” sometimes given in footnotes.\"},{\"verse\":32,\"phrase\":\"the Gentiles\",\"lemma\":\"ἔθνος\",\"kind\":\"ambiguity\",\"traditional\":\"the Gentiles\",\"note\":\"One Greek word means both “nations” and, in the plural, the non-Jewish peoples; here it stands in contrast to “your people Israel”, so “Gentiles” is used. The grammar also allows “a light for revelation to the Gentiles, and the glory of your people Israel”, with “glory” parallel to “light” and not to “revelation”.\"},{\"verse\":37,\"phrase\":\"to the age of eighty-four\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"a widow of about fourscore and four years\",\"note\":\"The Greek can mean either that Anna was a widow until she reached the age of eighty-four, or that she had been a widow for eighty-four years, which would make her over a hundred. Most translations take the first reading, as here. The phrase rendered “after her marriage” in the previous verse is literally “from her virginity”.\"},{\"verse\":49,\"phrase\":\"in my Father’s house\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"about my Father's business\",\"note\":\"The Greek is literally “in the things of my Father”, with no noun. The idiom was regularly used for someone’s house or household, and since the question is where Jesus was to be found, most modern translations and scholars take it that way. The older rendering “about my Father’s business” is also possible.\"},{\"verse\":52,\"phrase\":\"stature\",\"lemma\":\"ἡλικία\",\"kind\":\"ambiguity\",\"traditional\":\"stature\",\"note\":\"The Greek word can mean either bodily height or age and maturity, so the phrase may also be read “in wisdom and in years”. Translations are divided between the two. The verse echoes what is said of the boy Samuel in 1 Samuel 2:26.\"}],\"candidates\":[{\"lemma\":\"δοῦλος\",\"rendering\":\"slave\",\"verse\":29,\"reason\":\"Recurs throughout the New Testament, and translations split between “servant”, “slave” and “bondservant”, so readers would be misled if it varied chapter by chapter.\"},{\"lemma\":\"χάρις\",\"rendering\":\"favor\",\"verse\":40,\"reason\":\"A central term rendered “grace” in the letters but “favor” in narrative contexts like this one; the line between the two needs a single policy.\"},{\"lemma\":\"λύτρωσις\",\"rendering\":\"redemption\",\"verse\":38,\"reason\":\"The λύτρον word family (redemption, ransom, liberation) recurs in Luke, Paul and Hebrews, and “redemption” is now religious jargon that may obscure the sense of setting free.\"},{\"lemma\":\"ὑποτάσσω\",\"rendering\":\"be subject to\",\"verse\":51,\"reason\":\"Used of children, wives, slaves, citizens and Christ himself; translations vary between “submit”, “be subject” and “obey”, and the choice is sensitive enough to need one decision.\"},{\"lemma\":\"πόλις\",\"rendering\":\"town\",\"verse\":3,\"reason\":\"Luke applies it to villages like Nazareth and Bethlehem as well as to real cities, and “city of David” versus “town of David” will vary across chapters without a rule.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "In those days a decree went out from Caesar Augustus that the whole world should be registered."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "(This was the first registration, made when Quirinius was governor of Syria.)"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And everyone went to be registered, each to his own town."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Joseph also went up from Galilee, from the town of Nazareth, to Judea, to the town of David, which is called Bethlehem, because he was of the house and lineage of David,"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "to be registered with Mary, who was betrothed to him and was pregnant."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "While they were there, the days were completed for her to give birth,"
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and she gave birth to her firstborn son. She wrapped him in swaddling cloths and laid him in a manger, because there was no space for them in the guest room."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "In that same region there were shepherds living out in the fields and keeping watch over their flock by night."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "An angel of the Lord stood before them, and the glory of the Lord shone around them, and they were filled with great fear."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And the angel said to them,"
+     },
+     {
+      "speaker": "angel",
+      "text": "“Do not be afraid, for look, I bring you good news of great joy that will be for all the people:"
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "angel",
+      "text": "today in the town of David a Savior has been born for you, who is the Messiah, the Lord."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "angel",
+      "text": "And this will be the sign for you: you will find a baby wrapped in swaddling cloths and lying in a manger.”"
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And suddenly there was with the angel a multitude of the heavenly army, praising God and saying,"
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "angel",
+      "text": "“Glory to God in the highest, and on earth peace among people he favors.”"
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When the angels had gone away from them into heaven, the shepherds began saying to one another,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Let us go over to Bethlehem, then, and see this thing that has happened, which the Lord has made known to us.”"
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So they went in haste and found Mary and Joseph, and the baby lying in the manger."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When they had seen it, they made known what had been told them about this child."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And all who heard were amazed at what the shepherds told them,"
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "but Mary treasured up all these things, pondering them in her heart."
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And the shepherds returned, glorifying and praising God for all that they had heard and seen, just as it had been told them."
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When eight days were completed and it was time to circumcise him, he was given the name Jesus, the name the angel had given him before he was conceived in the womb."
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And when the days of their purification were completed according to the Law of Moses, they brought him up to Jerusalem to present him to the Lord,"
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "as it is written in the Law of the Lord,"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“Every male that opens the womb shall be called holy to the Lord,”"
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and to offer a sacrifice according to what is said in the Law of the Lord:"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“a pair of turtledoves or two young pigeons.”"
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now there was a man in Jerusalem whose name was Simeon. This man was righteous and devout, waiting for the consolation of Israel, and the Holy Spirit was upon him."
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "It had been revealed to him by the Holy Spirit that he would not see death before he had seen the Lord’s Messiah."
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Led by the Spirit, he came into the temple. And when the parents brought in the child Jesus to do for him what the custom of the Law required,"
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Simeon himself took him in his arms and blessed God and said,"
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "“Now you are releasing your slave, Master, in peace, according to your word;"
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "for my eyes have seen your salvation,"
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "which you have prepared in the sight of all the peoples,"
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "a light for revelation to the Gentiles and for glory to your people Israel.”"
+     }
+    ]
+   },
+   {
+    "verse": 33,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And his father and mother were amazed at what was being said about him."
+     }
+    ]
+   },
+   {
+    "verse": 34,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then Simeon blessed them and said to Mary his mother,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Look, this child is appointed for the fall and rising of many in Israel, and to be a sign that is spoken against—"
+     }
+    ]
+   },
+   {
+    "verse": 35,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "and a sword will pass through your own soul as well—so that the thoughts of many hearts may be revealed.”"
+     }
+    ]
+   },
+   {
+    "verse": 36,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "There was also a prophetess, Anna, daughter of Phanuel, of the tribe of Asher. She was very advanced in years, having lived with her husband seven years after her marriage,"
+     }
+    ]
+   },
+   {
+    "verse": 37,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and then as a widow to the age of eighty-four. She never left the temple, worshiping with fasting and prayers night and day."
+     }
+    ]
+   },
+   {
+    "verse": 38,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Coming up at that very hour, she began giving thanks to God and speaking about the child to all who were waiting for the redemption of Jerusalem."
+     }
+    ]
+   },
+   {
+    "verse": 39,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When they had finished everything required by the Law of the Lord, they returned to Galilee, to their own town of Nazareth."
+     }
+    ]
+   },
+   {
+    "verse": 40,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And the child grew and became strong, being filled with wisdom, and the favor of God was upon him."
+     }
+    ]
+   },
+   {
+    "verse": 41,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Every year his parents went to Jerusalem for the festival of Passover."
+     }
+    ]
+   },
+   {
+    "verse": 42,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When he was twelve years old, they went up as was the custom of the festival,"
+     }
+    ]
+   },
+   {
+    "verse": 43,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and when the days were over and they were returning, the boy Jesus stayed behind in Jerusalem, and his parents did not know it."
+     }
+    ]
+   },
+   {
+    "verse": 44,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Supposing that he was in the traveling party, they went a day’s journey and then began searching for him among their relatives and acquaintances,"
+     }
+    ]
+   },
+   {
+    "verse": 45,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and when they did not find him, they returned to Jerusalem, searching for him."
+     }
+    ]
+   },
+   {
+    "verse": 46,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "After three days they found him in the temple, sitting among the teachers, listening to them and asking them questions."
+     }
+    ]
+   },
+   {
+    "verse": 47,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And all who heard him were astounded at his understanding and his answers."
+     }
+    ]
+   },
+   {
+    "verse": 48,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When his parents saw him, they were astonished, and his mother said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Child, why have you treated us like this? See, your father and I have been looking for you in anguish.”"
+     }
+    ]
+   },
+   {
+    "verse": 49,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And he said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Why were you looking for me? Did you not know that I must be in my Father’s house?”"
+     }
+    ]
+   },
+   {
+    "verse": 50,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But they did not understand what he said to them."
+     }
+    ]
+   },
+   {
+    "verse": 51,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then he went down with them and came to Nazareth, and he was subject to them. And his mother kept all these things carefully in her heart."
+     }
+    ]
+   },
+   {
+    "verse": 52,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And Jesus advanced in wisdom and stature, and in favor with God and people."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "the whole world",
+    "lemma": "οἰκουμένη",
+    "kind": "background",
+    "traditional": "all the world",
+    "note": "The Greek word means “the inhabited world” and in this period was commonly used, with some exaggeration, for the lands under Roman rule. The registration was an enrollment of the population for tax purposes, which is why older versions have “taxed”."
+   },
+   {
+    "verse": 2,
+    "phrase": "the first registration",
+    "lemma": "πρῶτος",
+    "kind": "ambiguity",
+    "traditional": "this was the first registration when Quirinius was governor of Syria",
+    "note": "The dating is a well-known historical difficulty. Josephus places a census under Quirinius in AD 6, about a decade after the death of Herod the Great, in whose reign Luke sets the birth. Some scholars therefore take the Greek to mean “this registration took place before Quirinius was governor of Syria”, which is possible but strained; most take it as translated here and leave the historical question open."
+   },
+   {
+    "verse": 7,
+    "phrase": "guest room",
+    "lemma": "κατάλυμα",
+    "kind": "departure",
+    "traditional": "inn",
+    "note": "The traditional “inn” suggests a commercial lodging house, but the Greek word means a place to stay and is the word Luke uses for the “guest room” of the last supper (22:11). For a commercial inn he uses a different word (10:34). Many scholars think the guest quarters of a family home are meant, with the manger in the part of the house where animals were kept, though a public lodging place cannot be ruled out."
+   },
+   {
+    "verse": 11,
+    "phrase": "the Messiah, the Lord",
+    "lemma": "Χριστός",
+    "kind": "departure",
+    "traditional": "Christ the Lord",
+    "note": "The Greek word is a title meaning the anointed king Israel was waiting for, not a surname, and “Messiah” conveys that to a modern reader where the title is the point. Several modern translations make the same choice in the Gospels. The Greek here places the two titles side by side without articles, an unusual combination that could also be read as “an anointed Lord”."
+   },
+   {
+    "verse": 13,
+    "phrase": "army",
+    "lemma": "στρατιά",
+    "kind": "departure",
+    "traditional": "host",
+    "note": "“Host” is an old English word for an army, and that is what the Greek means: the troops of heaven, a Septuagint expression for the angels or the stars. Most translations keep “host”, which modern readers no longer hear as military. The image of an army announcing peace is part of the scene’s effect."
+   },
+   {
+    "verse": 14,
+    "phrase": "among people he favors",
+    "lemma": "εὐδοκία",
+    "kind": "textual",
+    "traditional": "good will toward men",
+    "note": "The earliest manuscripts read a genitive, literally “among people of good pleasure”, and this is the text translated. Later manuscripts have a nominative, giving the familiar “peace, good will toward men”. The good pleasure is God’s, as comparable Hebrew expressions in the Dead Sea Scrolls show: peace is for those on whom his favor rests, not for people who show goodwill."
+   },
+   {
+    "verse": 22,
+    "phrase": "their purification",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "their purification",
+    "note": "Leviticus 12 prescribes purification only for the mother, forty days after the birth of a son, so the plural “their” is unexpected. It may loosely include Joseph or the child, or may simply mean the purification as the family’s occasion. Some later manuscripts changed it to “her”."
+   },
+   {
+    "verse": 24,
+    "phrase": "“a pair of turtledoves or two young pigeons.”",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "Leviticus 12:8 allows this offering for a mother who cannot afford a lamb. A reader who knew the Law would have understood that the family was poor. The presentation of the firstborn (Exodus 13) and the mother’s purification were separate obligations, which Luke narrates together."
+   },
+   {
+    "verse": 29,
+    "phrase": "you are releasing your slave",
+    "lemma": "δοῦλος",
+    "kind": "departure",
+    "traditional": "now lettest thou thy servant depart",
+    "note": "The Greek word means a slave, and “Master” translates the ordinary word for a slave’s owner; the verb is one used for releasing or discharging someone, and also as a gentle expression for dying. Most translations have “servant” and many turn the sentence into a request, but the Greek is a statement: the owner is now letting his slave go. “Servant” remains the mainstream rendering, with “slave” sometimes given in footnotes."
+   },
+   {
+    "verse": 32,
+    "phrase": "the Gentiles",
+    "lemma": "ἔθνος",
+    "kind": "ambiguity",
+    "traditional": "the Gentiles",
+    "note": "One Greek word means both “nations” and, in the plural, the non-Jewish peoples; here it stands in contrast to “your people Israel”, so “Gentiles” is used. The grammar also allows “a light for revelation to the Gentiles, and the glory of your people Israel”, with “glory” parallel to “light” and not to “revelation”."
+   },
+   {
+    "verse": 37,
+    "phrase": "to the age of eighty-four",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "a widow of about fourscore and four years",
+    "note": "The Greek can mean either that Anna was a widow until she reached the age of eighty-four, or that she had been a widow for eighty-four years, which would make her over a hundred. Most translations take the first reading, as here. The phrase rendered “after her marriage” in the previous verse is literally “from her virginity”."
+   },
+   {
+    "verse": 49,
+    "phrase": "in my Father’s house",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "about my Father's business",
+    "note": "The Greek is literally “in the things of my Father”, with no noun. The idiom was regularly used for someone’s house or household, and since the question is where Jesus was to be found, most modern translations and scholars take it that way. The older rendering “about my Father’s business” is also possible."
+   },
+   {
+    "verse": 52,
+    "phrase": "stature",
+    "lemma": "ἡλικία",
+    "kind": "ambiguity",
+    "traditional": "stature",
+    "note": "The Greek word can mean either bodily height or age and maturity, so the phrase may also be read “in wisdom and in years”. Translations are divided between the two. The verse echoes what is said of the boy Samuel in 1 Samuel 2:26."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "δοῦλος",
+    "rendering": "slave",
+    "verse": 29,
+    "reason": "Recurs throughout the New Testament, and translations split between “servant”, “slave” and “bondservant”, so readers would be misled if it varied chapter by chapter."
+   },
+   {
+    "lemma": "χάρις",
+    "rendering": "favor",
+    "verse": 40,
+    "reason": "A central term rendered “grace” in the letters but “favor” in narrative contexts like this one; the line between the two needs a single policy."
+   },
+   {
+    "lemma": "λύτρωσις",
+    "rendering": "redemption",
+    "verse": 38,
+    "reason": "The λύτρον word family (redemption, ransom, liberation) recurs in Luke, Paul and Hebrews, and “redemption” is now religious jargon that may obscure the sense of setting free."
+   },
+   {
+    "lemma": "ὑποτάσσω",
+    "rendering": "be subject to",
+    "verse": 51,
+    "reason": "Used of children, wives, slaves, citizens and Christ himself; translations vary between “submit”, “be subject” and “obey”, and the choice is sensitive enough to need one decision."
+   },
+   {
+    "lemma": "πόλις",
+    "rendering": "town",
+    "verse": 3,
+    "reason": "Luke applies it to villages like Nazareth and Bethlehem as well as to real cities, and “city of David” versus “town of David” will vary across chapters without a rule."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [
+  "Verse 43: τελειόω is not rendered with a register form (make perfect; perfect / perfected; complete / finish / accomplish; be over / end / complete; reach my goal; made completely one / completely one) and has no register-exception note."
+ ],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 9338,
+   "output_tokens": 368
+  },
+  "findings": [],
+  "error": ""
+ }
+}

@@ -1,0 +1,493 @@
+{
+ "id": "acts-018",
+ "book": "acts",
+ "chapter": 18,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14isqmEDFVqTrkKP1",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 9657,
+  "output_tokens": 13681
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"After this Paul left Athens and went to Corinth.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"There he found a Jew named Aquila, a native of Pontus, who had recently come from Italy with his wife Priscilla because Claudius had ordered all the Jews to leave Rome. Paul went to see them,\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and because he was of the same trade he stayed with them and worked, for they were tentmakers by trade.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Every Sabbath he reasoned in the synagogue, trying to persuade both Jews and Greeks.\"}]},{\"verse\":5,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When Silas and Timothy came down from Macedonia, Paul gave himself wholly to the word, testifying solemnly to the Jews that the Messiah was Jesus.\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But when they opposed him and hurled insults, he shook out his clothes and said to them,\"},{\"speaker\":\"other\",\"text\":\"“Your blood be on your own heads! I am innocent. From now on I will go to the Gentiles.”\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then he moved on from there and went into the house of a man named Titius Justus, a worshiper of God, whose house was next door to the synagogue.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Crispus, the synagogue leader, believed in the Lord together with his whole household, and many of the Corinthians, as they heard, believed and were baptized.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"One night the Lord said to Paul in a vision,\"},{\"speaker\":\"Jesus\",\"text\":\"“Do not be afraid, but go on speaking and do not be silent,\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"for I am with you, and no one will attack you to harm you, for there are many in this city who are my people.”\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So he settled there for a year and six months, teaching the word of God among them.\"}]},{\"verse\":12,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But while Gallio was proconsul of Achaia, the Jews made a united attack on Paul and brought him before the tribunal,\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"saying,\"},{\"speaker\":\"other\",\"text\":\"“This man is persuading people to worship God contrary to the law.”\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Paul was about to open his mouth when Gallio said to the Jews,\"},{\"speaker\":\"other\",\"text\":\"“If this were some crime or serious wrongdoing, Jews, it would be reasonable for me to bear with you.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"But if these are questions about words and names and your own law, see to it yourselves. I am not willing to be a judge of such things.”\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And he drove them away from the tribunal.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then they all seized Sosthenes, the synagogue leader, and beat him in front of the tribunal; and none of this mattered to Gallio.\"}]},{\"verse\":18,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Paul stayed on for a good many days more, then took leave of the brothers and sisters and sailed for Syria, and Priscilla and Aquila went with him. At Cenchreae he had his hair cut off, for he was under a vow.\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They arrived at Ephesus, and there he left them. He himself went into the synagogue and reasoned with the Jews.\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When they asked him to stay longer, he did not consent,\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"but took his leave, saying,\"},{\"speaker\":\"other\",\"text\":\"“I will come back to you again, God willing.”\"},{\"speaker\":\"narrator\",\"text\":\"Then he set sail from Ephesus,\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and after landing at Caesarea he went up and greeted the assembly, and then went down to Antioch.\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"After spending some time there he set out and traveled from place to place through the Galatian region and Phrygia, strengthening all the disciples.\"}]},{\"verse\":24,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now a Jew named Apollos, a native of Alexandria, arrived in Ephesus. He was an eloquent man, powerful in the Scriptures.\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He had been instructed in the way of the Lord, and being fervent in spirit he spoke and taught accurately the things concerning Jesus, though he knew only the baptism of John.\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He began to speak boldly in the synagogue. When Priscilla and Aquila heard him, they took him aside and explained the way of God to him more accurately.\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When he wanted to cross over to Achaia, the brothers and sisters encouraged him and wrote to the disciples to welcome him. On arriving, he was a great help to those who had believed through grace,\"}]},{\"verse\":28,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"for he vigorously refuted the Jews in public, showing through the Scriptures that the Messiah was Jesus.\"}]}],\"notes\":[{\"verse\":3,\"phrase\":\"tentmakers\",\"lemma\":\"σκηνοποιός\",\"kind\":\"ambiguity\",\"traditional\":\"tentmakers\",\"note\":\"The word is rare, and its exact scope is uncertain. Many scholars think it covered leatherworking more broadly, since tents were often made of leather; others think of weaving tent-cloth. “Tentmakers” is kept as the plain sense of the word.\"},{\"verse\":5,\"phrase\":\"the Messiah\",\"lemma\":\"Χριστός\",\"kind\":\"departure\",\"traditional\":\"Christ\",\"note\":\"The Greek word is the one traditionally rendered “Christ.” Here and in verse 28 it is a title under debate in the synagogue—the anointed king Israel expected—so “Messiah” is used, as several modern translations do in such places. The word order suggests the question was who the Messiah is, with “Jesus” as the answer, though “that Jesus was the Messiah” is also possible.\"},{\"verse\":6,\"phrase\":\"hurled insults\",\"lemma\":\"βλασφημέω\",\"kind\":\"departure\",\"traditional\":\"blasphemed\",\"note\":\"In first-century Greek this verb meant abusive speech against anyone, not only against God, whereas English “blaspheme” is now limited to irreverence toward the divine. With no object stated, the natural sense is abuse directed at Paul. Some interpreters, however, understand the abuse as aimed at Christ, and so as blasphemy in the stricter sense.\"},{\"verse\":6,\"phrase\":\"shook out his clothes\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"Shaking out one’s garments was a gesture of breaking off and disowning responsibility. Paul’s words echo the watchman of Ezekiel 33, who is clear of guilt once he has given warning; “your blood be on your own heads” means that the responsibility for what follows is theirs.\"},{\"verse\":6,\"phrase\":\"Gentiles\",\"lemma\":\"ἔθνος\",\"kind\":\"background\",\"traditional\":\"Gentiles\",\"note\":\"The Greek word means “peoples” or “nations.” In the plural it was the ordinary Jewish way of referring to the non-Jewish peoples, and it is rendered “Gentiles” in that sense. It is the same word translated “nations” elsewhere in the New Testament.\"},{\"verse\":7,\"phrase\":\"a worshiper of God\",\"lemma\":\"σέβομαι\",\"kind\":\"background\",\"traditional\":\"one that worshipped God\",\"note\":\"In Acts this expression regularly describes a non-Jew who attached himself to the synagogue and honored Israel’s God without becoming a full convert. Paul’s move next door, into a Gentile’s house, puts into action his words in verse 6.\"},{\"verse\":12,\"phrase\":\"Gallio was proconsul of Achaia\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"Gallio, brother of the philosopher Seneca, governed the Roman province of Achaia, whose capital was Corinth. An inscription found at Delphi places his term of office in about AD 51–52, which makes this episode one of the most securely dated points in Paul’s life. The “tribunal” was the raised platform from which a Roman magistrate heard cases.\"},{\"verse\":13,\"phrase\":\"contrary to the law\",\"lemma\":\"νόμος\",\"kind\":\"ambiguity\",\"traditional\":\"contrary to the law\",\"note\":\"The accusers do not say whether they mean Roman law or the Jewish Law, and the vagueness may be deliberate. Gallio takes it as the latter (“your own law,” verse 15) and so dismisses the case as an internal religious dispute.\"},{\"verse\":17,\"phrase\":\"they all\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"all the Greeks\",\"note\":\"The earliest manuscripts say only “all” and do not identify the attackers. Many later manuscripts, followed by the King James Version, add “the Greeks,” making this a bystanders’ assault on a Jewish leader; a few others read “the Jews,” as if the accusers turned on their own spokesman. Either is possible, and the text leaves it open.\"},{\"verse\":18,\"phrase\":\"the brothers and sisters\",\"lemma\":\"ἀδελφός\",\"kind\":\"departure\",\"traditional\":\"the brethren / the brothers\",\"note\":\"The Greek plural, grammatically masculine, was the ordinary way of addressing or naming a mixed group of men and women. Here it refers to the whole community of believers at Corinth, so “brothers and sisters” is used, as in several recent translations. Others keep “brothers.”\"},{\"verse\":18,\"phrase\":\"he had his hair cut off\",\"lemma\":\"κείρω\",\"kind\":\"ambiguity\",\"traditional\":\"having shorn his head\",\"note\":\"In the Greek the phrase follows directly after the name Aquila, and grammatically it could refer to him. Most interpreters take it of Paul, the subject of the sentence. The vow is not explained; cutting the hair recalls the Nazirite vow of Numbers 6, though there the hair was cut at the temple, so the exact practice here is uncertain. Cenchreae was Corinth’s eastern port.\"},{\"verse\":21,\"phrase\":\"“I will come back to you again, God willing.”\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"I must by all means keep this feast that cometh in Jerusalem: but I will return again unto you, if God will\",\"note\":\"Many later manuscripts, followed by the King James Version, have Paul first say that he must by all means keep the coming feast in Jerusalem. The earliest manuscripts lack these words. Most scholars regard them as a later addition, perhaps made to explain his haste.\"},{\"verse\":22,\"phrase\":\"the assembly\",\"lemma\":\"ἐκκλησία\",\"kind\":\"departure\",\"traditional\":\"the church\",\"note\":\"The traditional rendering is “church,” which is near-universal and familiar. A first-century hearer knew the word as a civic gathering and as the Greek Scriptures’ term for Israel assembled, whereas “church” now suggests a building or an institution. This translation uses “assembly” everywhere, so that the reader can see it is one Greek word.\"},{\"verse\":22,\"phrase\":\"he went up\",\"lemma\":\"ἀναβαίνω\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"The Greek does not name the place. “Going up” and “going down” were the standard expressions for traveling to and from Jerusalem, and most interpreters understand that Paul went up from the port of Caesarea to greet the assembly in Jerusalem before going on to Antioch. A minority take it to mean only that he went up from the harbor to the assembly in Caesarea.\"},{\"verse\":24,\"phrase\":\"eloquent\",\"lemma\":\"λόγιος\",\"kind\":\"ambiguity\",\"traditional\":\"eloquent\",\"note\":\"The word can mean either “eloquent” or “learned,” and translations are divided. Alexandria was famous for both rhetoric and scholarship, and the two senses overlap, since ancient education centered on skill in speech. “Eloquent” is chosen because his knowledge of the Scriptures is mentioned separately.\"}],\"candidates\":[{\"lemma\":\"ἀδελφός\",\"rendering\":\"brothers and sisters\",\"verse\":18,\"reason\":\"The plural for the believing community recurs throughout Acts and the letters, and translations split between “brothers” and “brothers and sisters”; it should not vary from chapter to chapter.\"},{\"lemma\":\"βῆμα\",\"rendering\":\"tribunal\",\"verse\":12,\"reason\":\"It recurs in the Gospels, Acts, Romans 14:10 and 2 Corinthians 5:10, where “judgment seat,” “tribunal” and “court” compete, and readers should see that it is one word.\"},{\"lemma\":\"ἀρχισυνάγωγος\",\"rendering\":\"synagogue leader\",\"verse\":8,\"reason\":\"It occurs in Mark, Luke and Acts and is rendered variously as “ruler of the synagogue,” “synagogue official” and “synagogue leader.”\"},{\"lemma\":\"σέβομαι\",\"rendering\":\"worshiper of God\",\"verse\":7,\"reason\":\"The participle is a semi-technical term in Acts for Gentile adherents of the synagogue, and “God-fearer,” “devout” and “worshiper of God” would otherwise vary across chapters 13–18.\"},{\"lemma\":\"διαλέγομαι\",\"rendering\":\"reason\",\"verse\":4,\"reason\":\"It is Luke’s recurring verb for Paul’s synagogue activity in Acts 17–24, rendered variously as “reason,” “argue,” “discuss” and “dispute,” which differ noticeably in tone.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "After this Paul left Athens and went to Corinth."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "There he found a Jew named Aquila, a native of Pontus, who had recently come from Italy with his wife Priscilla because Claudius had ordered all the Jews to leave Rome. Paul went to see them,"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and because he was of the same trade he stayed with them and worked, for they were tentmakers by trade."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Every Sabbath he reasoned in the synagogue, trying to persuade both Jews and Greeks."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When Silas and Timothy came down from Macedonia, Paul gave himself wholly to the word, testifying solemnly to the Jews that the Messiah was Jesus."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But when they opposed him and hurled insults, he shook out his clothes and said to them,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Your blood be on your own heads! I am innocent. From now on I will go to the Gentiles.”"
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then he moved on from there and went into the house of a man named Titius Justus, a worshiper of God, whose house was next door to the synagogue."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Crispus, the synagogue leader, believed in the Lord together with his whole household, and many of the Corinthians, as they heard, believed and were baptized."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "One night the Lord said to Paul in a vision,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Do not be afraid, but go on speaking and do not be silent,"
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "for I am with you, and no one will attack you to harm you, for there are many in this city who are my people.”"
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So he settled there for a year and six months, teaching the word of God among them."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But while Gallio was proconsul of Achaia, the Jews made a united attack on Paul and brought him before the tribunal,"
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“This man is persuading people to worship God contrary to the law.”"
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Paul was about to open his mouth when Gallio said to the Jews,"
+     },
+     {
+      "speaker": "other",
+      "text": "“If this were some crime or serious wrongdoing, Jews, it would be reasonable for me to bear with you."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "But if these are questions about words and names and your own law, see to it yourselves. I am not willing to be a judge of such things.”"
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And he drove them away from the tribunal."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then they all seized Sosthenes, the synagogue leader, and beat him in front of the tribunal; and none of this mattered to Gallio."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Paul stayed on for a good many days more, then took leave of the brothers and sisters and sailed for Syria, and Priscilla and Aquila went with him. At Cenchreae he had his hair cut off, for he was under a vow."
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They arrived at Ephesus, and there he left them. He himself went into the synagogue and reasoned with the Jews."
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When they asked him to stay longer, he did not consent,"
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "but took his leave, saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“I will come back to you again, God willing.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "Then he set sail from Ephesus,"
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and after landing at Caesarea he went up and greeted the assembly, and then went down to Antioch."
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "After spending some time there he set out and traveled from place to place through the Galatian region and Phrygia, strengthening all the disciples."
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now a Jew named Apollos, a native of Alexandria, arrived in Ephesus. He was an eloquent man, powerful in the Scriptures."
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He had been instructed in the way of the Lord, and being fervent in spirit he spoke and taught accurately the things concerning Jesus, though he knew only the baptism of John."
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He began to speak boldly in the synagogue. When Priscilla and Aquila heard him, they took him aside and explained the way of God to him more accurately."
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When he wanted to cross over to Achaia, the brothers and sisters encouraged him and wrote to the disciples to welcome him. On arriving, he was a great help to those who had believed through grace,"
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "for he vigorously refuted the Jews in public, showing through the Scriptures that the Messiah was Jesus."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 3,
+    "phrase": "tentmakers",
+    "lemma": "σκηνοποιός",
+    "kind": "ambiguity",
+    "traditional": "tentmakers",
+    "note": "The word is rare, and its exact scope is uncertain. Many scholars think it covered leatherworking more broadly, since tents were often made of leather; others think of weaving tent-cloth. “Tentmakers” is kept as the plain sense of the word."
+   },
+   {
+    "verse": 5,
+    "phrase": "the Messiah",
+    "lemma": "Χριστός",
+    "kind": "departure",
+    "traditional": "Christ",
+    "note": "The Greek word is the one traditionally rendered “Christ.” Here and in verse 28 it is a title under debate in the synagogue—the anointed king Israel expected—so “Messiah” is used, as several modern translations do in such places. The word order suggests the question was who the Messiah is, with “Jesus” as the answer, though “that Jesus was the Messiah” is also possible."
+   },
+   {
+    "verse": 6,
+    "phrase": "hurled insults",
+    "lemma": "βλασφημέω",
+    "kind": "departure",
+    "traditional": "blasphemed",
+    "note": "In first-century Greek this verb meant abusive speech against anyone, not only against God, whereas English “blaspheme” is now limited to irreverence toward the divine. With no object stated, the natural sense is abuse directed at Paul. Some interpreters, however, understand the abuse as aimed at Christ, and so as blasphemy in the stricter sense."
+   },
+   {
+    "verse": 6,
+    "phrase": "shook out his clothes",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "Shaking out one’s garments was a gesture of breaking off and disowning responsibility. Paul’s words echo the watchman of Ezekiel 33, who is clear of guilt once he has given warning; “your blood be on your own heads” means that the responsibility for what follows is theirs."
+   },
+   {
+    "verse": 6,
+    "phrase": "Gentiles",
+    "lemma": "ἔθνος",
+    "kind": "background",
+    "traditional": "Gentiles",
+    "note": "The Greek word means “peoples” or “nations.” In the plural it was the ordinary Jewish way of referring to the non-Jewish peoples, and it is rendered “Gentiles” in that sense. It is the same word translated “nations” elsewhere in the New Testament."
+   },
+   {
+    "verse": 7,
+    "phrase": "a worshiper of God",
+    "lemma": "σέβομαι",
+    "kind": "background",
+    "traditional": "one that worshipped God",
+    "note": "In Acts this expression regularly describes a non-Jew who attached himself to the synagogue and honored Israel’s God without becoming a full convert. Paul’s move next door, into a Gentile’s house, puts into action his words in verse 6."
+   },
+   {
+    "verse": 12,
+    "phrase": "Gallio was proconsul of Achaia",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "Gallio, brother of the philosopher Seneca, governed the Roman province of Achaia, whose capital was Corinth. An inscription found at Delphi places his term of office in about AD 51–52, which makes this episode one of the most securely dated points in Paul’s life. The “tribunal” was the raised platform from which a Roman magistrate heard cases."
+   },
+   {
+    "verse": 13,
+    "phrase": "contrary to the law",
+    "lemma": "νόμος",
+    "kind": "ambiguity",
+    "traditional": "contrary to the law",
+    "note": "The accusers do not say whether they mean Roman law or the Jewish Law, and the vagueness may be deliberate. Gallio takes it as the latter (“your own law,” verse 15) and so dismisses the case as an internal religious dispute."
+   },
+   {
+    "verse": 17,
+    "phrase": "they all",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "all the Greeks",
+    "note": "The earliest manuscripts say only “all” and do not identify the attackers. Many later manuscripts, followed by the King James Version, add “the Greeks,” making this a bystanders’ assault on a Jewish leader; a few others read “the Jews,” as if the accusers turned on their own spokesman. Either is possible, and the text leaves it open."
+   },
+   {
+    "verse": 18,
+    "phrase": "the brothers and sisters",
+    "lemma": "ἀδελφός",
+    "kind": "departure",
+    "traditional": "the brethren / the brothers",
+    "note": "The Greek plural, grammatically masculine, was the ordinary way of addressing or naming a mixed group of men and women. Here it refers to the whole community of believers at Corinth, so “brothers and sisters” is used, as in several recent translations. Others keep “brothers.”"
+   },
+   {
+    "verse": 18,
+    "phrase": "he had his hair cut off",
+    "lemma": "κείρω",
+    "kind": "ambiguity",
+    "traditional": "having shorn his head",
+    "note": "In the Greek the phrase follows directly after the name Aquila, and grammatically it could refer to him. Most interpreters take it of Paul, the subject of the sentence. The vow is not explained; cutting the hair recalls the Nazirite vow of Numbers 6, though there the hair was cut at the temple, so the exact practice here is uncertain. Cenchreae was Corinth’s eastern port."
+   },
+   {
+    "verse": 21,
+    "phrase": "“I will come back to you again, God willing.”",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "I must by all means keep this feast that cometh in Jerusalem: but I will return again unto you, if God will",
+    "note": "Many later manuscripts, followed by the King James Version, have Paul first say that he must by all means keep the coming feast in Jerusalem. The earliest manuscripts lack these words. Most scholars regard them as a later addition, perhaps made to explain his haste."
+   },
+   {
+    "verse": 22,
+    "phrase": "the assembly",
+    "lemma": "ἐκκλησία",
+    "kind": "departure",
+    "traditional": "the church",
+    "note": "The traditional rendering is “church,” which is near-universal and familiar. A first-century hearer knew the word as a civic gathering and as the Greek Scriptures’ term for Israel assembled, whereas “church” now suggests a building or an institution. This translation uses “assembly” everywhere, so that the reader can see it is one Greek word."
+   },
+   {
+    "verse": 22,
+    "phrase": "he went up",
+    "lemma": "ἀναβαίνω",
+    "kind": "background",
+    "traditional": "",
+    "note": "The Greek does not name the place. “Going up” and “going down” were the standard expressions for traveling to and from Jerusalem, and most interpreters understand that Paul went up from the port of Caesarea to greet the assembly in Jerusalem before going on to Antioch. A minority take it to mean only that he went up from the harbor to the assembly in Caesarea."
+   },
+   {
+    "verse": 24,
+    "phrase": "eloquent",
+    "lemma": "λόγιος",
+    "kind": "ambiguity",
+    "traditional": "eloquent",
+    "note": "The word can mean either “eloquent” or “learned,” and translations are divided. Alexandria was famous for both rhetoric and scholarship, and the two senses overlap, since ancient education centered on skill in speech. “Eloquent” is chosen because his knowledge of the Scriptures is mentioned separately."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "ἀδελφός",
+    "rendering": "brothers and sisters",
+    "verse": 18,
+    "reason": "The plural for the believing community recurs throughout Acts and the letters, and translations split between “brothers” and “brothers and sisters”; it should not vary from chapter to chapter."
+   },
+   {
+    "lemma": "βῆμα",
+    "rendering": "tribunal",
+    "verse": 12,
+    "reason": "It recurs in the Gospels, Acts, Romans 14:10 and 2 Corinthians 5:10, where “judgment seat,” “tribunal” and “court” compete, and readers should see that it is one word."
+   },
+   {
+    "lemma": "ἀρχισυνάγωγος",
+    "rendering": "synagogue leader",
+    "verse": 8,
+    "reason": "It occurs in Mark, Luke and Acts and is rendered variously as “ruler of the synagogue,” “synagogue official” and “synagogue leader.”"
+   },
+   {
+    "lemma": "σέβομαι",
+    "rendering": "worshiper of God",
+    "verse": 7,
+    "reason": "The participle is a semi-technical term in Acts for Gentile adherents of the synagogue, and “God-fearer,” “devout” and “worshiper of God” would otherwise vary across chapters 13–18."
+   },
+   {
+    "lemma": "διαλέγομαι",
+    "rendering": "reason",
+    "verse": 4,
+    "reason": "It is Luke’s recurring verb for Paul’s synagogue activity in Acts 17–24, rendered variously as “reason,” “argue,” “discuss” and “dispute,” which differ noticeably in tone."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 6294,
+   "output_tokens": 316
+  },
+  "findings": [],
+  "error": ""
+ }
+}

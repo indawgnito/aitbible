@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ait version="2.0" run="20261118-162954-full-nt" model="claude-fable-5-2" register="0.4-draft">
+<ait version="2.0" run="20261118-224116-full-nt-2" model="claude-fable-5-2" register="0.5-draft">
   <book id="1thessalonians" name="1 Thessalonians">
     <chapter num="1">
       <verse num="1">
-        <text><p/>Paul, Silvanus, and Timothy, to the assembly of the Thessalonians in God the Father and the Lord Jesus Christ: Grace to you and peace.</text>
+        <text><p/>Paul, Silvanus, and Timothy, to the assembly of the Thessalonians in God the Father and the Lord Jesus Christ: grace to you and peace.</text>
         <greek>
           <w lemma="Παῦλος">Παῦλος</w>
           <w lemma="καί">καὶ</w>
@@ -25,11 +25,12 @@
           <w lemma="καί">καὶ</w>
           <w lemma="εἰρήνη">εἰρήνη.</w>
         </greek>
-        <note term="assembly" kind="departure" lemma="ἐκκλησία" traditional="church">The Greek word was the ordinary term for a civic gathering and, in the Greek Old Testament, for Israel assembled before God. &#x27;Church&#x27; is the near-universal rendering and readers know what it refers to, but it now suggests a building or an institution. &#x27;Assembly&#x27; is used throughout this translation so that the one Greek word is visible as one word.</note>
-        <note term="Grace to you and peace." kind="textual" lemma="" traditional="Grace be unto you, and peace, from God our Father, and the Lord Jesus Christ.">Many later manuscripts add &#x27;from God our Father and the Lord Jesus Christ&#x27;, matching the greeting in Paul&#x27;s other letters. The earliest witnesses have the short form, and the longer one is generally regarded as a scribal harmonisation.</note>
+        <note term="assembly" kind="departure" lemma="ἐκκλησία" traditional="church">The Greek word was the ordinary term for a civic gathering and the Septuagint’s word for Israel assembled before God. “Church” is the near-universal rendering and readers know what it refers to, but it now suggests a building or an institution. “Assembly” is used throughout this translation so that the reader can see it is one Greek word.</note>
+        <note term="Silvanus" kind="background" lemma="Σιλουανός" traditional="Silvanus">Silvanus is generally identified with the Silas of Acts, who with Paul and Timothy first brought the message to Thessalonica, the chief city of the Roman province of Macedonia. The three are named as joint senders, which is why the letter speaks as “we.”</note>
+        <note term="grace to you and peace." kind="textual" lemma="" traditional="Grace be unto you, and peace, from God our Father, and the Lord Jesus Christ.">Many later manuscripts add “from God our Father and the Lord Jesus Christ,” matching Paul’s usual greeting in other letters. The shorter form is found in important early witnesses and is generally judged original; the longer is most likely a scribal assimilation.</note>
       </verse>
       <verse num="2">
-        <text><p/>We always give thanks to God for all of you, making mention of you in our prayers, constantly</text>
+        <text><p/>We always give thanks to God for all of you, mentioning you in our prayers, constantly</text>
         <greek>
           <w lemma="εὐχαριστέω">Εὐχαριστοῦμεν</w>
           <w lemma="ὁ">τῷ</w>
@@ -46,10 +47,9 @@
           <w lemma="ἐγώ">ἡμῶν,</w>
           <w lemma="ἀδιαλείπτως">ἀδιαλείπτως</w>
         </greek>
-        <note term="constantly" kind="ambiguity" lemma="ἀδιαλείπτως" traditional="without ceasing">The adverb stands at the boundary between two clauses and can be read with either: &#x27;mentioning you constantly in our prayers&#x27; or &#x27;constantly remembering your work&#x27;. The edition translated here punctuates it with what follows, and the translation does the same; the sense differs little.</note>
       </verse>
       <verse num="3">
-        <text>remembering your work of faith, your labor of love, and your endurance of hope in our Lord Jesus Christ, in the presence of our God and Father,</text>
+        <text>remembering before our God and Father your work of faith, your labor of love, and your endurance of hope in our Lord Jesus Christ.</text>
         <greek>
           <w lemma="μνημονεύω">μνημονεύοντες</w>
           <w lemma="σύ">ὑμῶν</w>
@@ -79,10 +79,11 @@
           <w lemma="πατήρ">πατρὸς</w>
           <w lemma="ἐγώ">ἡμῶν,</w>
         </greek>
-        <note term="in the presence of our God and Father" kind="ambiguity" lemma="ἔμπροσθεν" traditional="in the sight of God and our Father">The phrase comes at the end of the Greek sentence and may describe where Paul does his remembering (in prayer before God) or where the Thessalonians&#x27; faith, love and hope are lived out. The translation leaves it at the end so that either reading remains possible. The three paired nouns are most often understood as work that springs from faith, labor prompted by love, and endurance sustained by hope.</note>
+        <note term="your work of faith, your labor of love, and your endurance of hope" kind="ambiguity" lemma="" traditional="your work of faith and labor of love and steadfastness of hope">The three Greek genitives are left as plain “of” phrases. Most interpreters take them as naming the source: work that springs from faith, labor prompted by love, endurance sustained by hope. The hope is “of our Lord Jesus Christ,” understood here as hope directed toward him.</note>
+        <note term="before our God and Father" kind="ambiguity" lemma="" traditional="in the sight of God and our Father">In the Greek this phrase comes at the end of the verse. It is taken here with “remembering,” that is, remembering in prayer before God. It could instead describe the Thessalonians’ faith, love, and hope as lived out in God’s presence.</note>
       </verse>
       <verse num="4">
-        <text>knowing, brothers and sisters loved by God, that he has chosen you,</text>
+        <text>We know, brothers and sisters loved by God, that he has chosen you,</text>
         <greek>
           <w lemma="οἶδα">εἰδότες,</w>
           <w lemma="ἀδελφός">ἀδελφοὶ</w>
@@ -93,10 +94,11 @@
           <w lemma="ἐκλογή">ἐκλογὴν</w>
           <w lemma="σύ">ὑμῶν,</w>
         </greek>
-        <note term="brothers and sisters" kind="departure" lemma="ἀδελφός" traditional="brethren / brothers">The Greek plural was the normal way to address a mixed group of men and women as siblings, and the letter is written to the whole community. Older translations have &#x27;brethren&#x27; or &#x27;brothers&#x27;; many recent ones use &#x27;brothers and sisters&#x27;, as here.</note>
+        <note term="brothers and sisters" kind="departure" lemma="ἀδελφός" traditional="brethren / brothers">The Greek plural was regularly used for a mixed group of siblings, and here it addresses the whole community, women as well as men. “Brothers” alone would now suggest that only men are addressed. Many recent translations make the same choice; others keep “brothers” with a footnote.</note>
+        <note term="that he has chosen you" kind="departure" lemma="ἐκλογή" traditional="your election">The Greek is a noun phrase, literally “your choosing” or “your election.” “Election” is the traditional rendering and remains a standard theological term, but in ordinary English it now suggests voting. The word means God’s act of choosing, which the verbal phrase conveys directly.</note>
       </verse>
       <verse num="5">
-        <text>because our good news did not come to you in word alone, but also in power and in the Holy Spirit and with great conviction, just as you know what kind of people we were among you for your sake.</text>
+        <text>because our good news did not come to you in word only, but also in power and in the Holy Spirit and with full conviction—just as you know what kind of people we proved to be among you for your sake.</text>
         <greek>
           <w lemma="ὅτι">ὅτι</w>
           <w lemma="ὁ">τὸ</w>
@@ -129,12 +131,11 @@
           <w lemma="διά">δι’</w>
           <w lemma="σύ">ὑμᾶς·</w>
         </greek>
-        <note term="because" kind="ambiguity" lemma="ὅτι" traditional="for">The Greek conjunction can mean &#x27;because&#x27;, giving the grounds on which Paul knows God has chosen them, or &#x27;that&#x27;, spelling out what the choosing consisted of. Most interpreters take it as &#x27;because&#x27;, and the translation follows them.</note>
-        <note term="good news" kind="departure" lemma="εὐαγγέλιον" traditional="gospel">The word meant an announcement of good news, used in the period for public tidings such as a victory or a ruler&#x27;s accession, and in the Greek Old Testament for news of God&#x27;s deliverance. &#x27;Gospel&#x27; is the traditional rendering and remains common, but it now suggests a book or a body of doctrine. Several modern translations also use &#x27;good news&#x27;.</note>
-        <note term="with great conviction" kind="ambiguity" lemma="πληροφορία" traditional="in much assurance">The noun can mean full assurance or certainty, and some take it as &#x27;fullness&#x27;. It probably describes the confidence with which the missionaries preached, since the sentence goes on to speak of their conduct, though some refer it to the conviction produced in the hearers.</note>
+        <note term="good news" kind="departure" lemma="εὐαγγέλιον" traditional="gospel">The Greek was an ordinary word for an announcement of good news, used also of public and imperial proclamations. “Gospel” is the traditional rendering, but it now sounds like a religious term or the title of a book. Many modern translations already alternate between the two.</note>
+        <note term="full conviction" kind="ambiguity" lemma="πληροφορία" traditional="much assurance">The word can mean complete certainty or, less likely here, fullness. It is not stated whose conviction is meant. The following clause about the missionaries’ conduct suggests the assurance with which they preached, though some take it of the certainty produced in the hearers.</note>
       </verse>
       <verse num="6">
-        <text>And you became imitators of us and of the Lord, receiving the word in great affliction with joy from the Holy Spirit,</text>
+        <text>And you became imitators of us and of the Lord, for you received the word in much affliction with joy from the Holy Spirit,</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="σύ">ὑμεῖς</w>
@@ -157,7 +158,7 @@
         </greek>
       </verse>
       <verse num="7">
-        <text>so that you became an example to all who believe in Macedonia and in Achaia.</text>
+        <text>so that you became an example to all the believers in Macedonia and in Achaia.</text>
         <greek>
           <w lemma="ὥστε">ὥστε</w>
           <w lemma="γίνομαι">γενέσθαι</w>
@@ -174,10 +175,10 @@
           <w lemma="ὁ">τῇ</w>
           <w lemma="Ἀχαΐα">Ἀχαΐᾳ.</w>
         </greek>
-        <note term="Macedonia and in Achaia" kind="background" lemma="" traditional="">These were the two Roman provinces that together covered most of Greece: Macedonia in the north, with Thessalonica as its chief city, and Achaia in the south, including Corinth and Athens. Paul is most likely writing from Corinth, in Achaia.</note>
+        <note term="in Macedonia and in Achaia" kind="background" lemma="" traditional="in Macedonia and Achaia">These were the two Roman provinces that together covered Greece: Macedonia in the north, with Thessalonica as its chief city, and Achaia in the south, which included Corinth and Athens. Thessalonica lay on a major road and had a busy port, which helps explain how news from there traveled quickly.</note>
       </verse>
       <verse num="8">
-        <text>For from you the word of the Lord has rung out, not only in Macedonia and Achaia, but in every place your faith toward God has gone out, so that we have no need to say anything.</text>
+        <text>For from you the word of the Lord has rung out, not only in Macedonia and Achaia—in every place your faith in God has gone out, so that we have no need to say anything.</text>
         <greek>
           <w lemma="ἀπό">ἀφ’</w>
           <w lemma="σύ">ὑμῶν</w>
@@ -216,7 +217,7 @@
         </greek>
       </verse>
       <verse num="9">
-        <text>For they themselves report about us what kind of entrance we had among you, and how you turned to God from idols, to serve a living and true God</text>
+        <text>For they themselves report about us what kind of reception we had among you, and how you turned to God from idols, to serve a living and true God</text>
         <greek>
           <w lemma="αὐτός">αὐτοὶ</w>
           <w lemma="γάρ">γὰρ</w>
@@ -243,10 +244,10 @@
           <w lemma="καί">καὶ</w>
           <w lemma="ἀληθινός">ἀληθινῷ,</w>
         </greek>
-        <note term="what kind of entrance we had among you" kind="ambiguity" lemma="εἴσοδος" traditional="what manner of entering in we had unto you">The noun means an entering or arrival. Many translations render it &#x27;welcome&#x27; or &#x27;reception&#x27;, focusing on how the Thessalonians received the missionaries; others take it as the character of the visit itself, which is how the word is used again at the start of the next chapter. &#x27;Entrance&#x27; leaves both open.</note>
+        <note term="a living and true God" kind="ambiguity" lemma="" traditional="the living and true God">The Greek has no article here, and most translations supply “the.” The rendering “a living and true God” keeps the stress on the contrast with idols, which in Jewish polemic were lifeless and false. It does not imply that there are other such gods.</note>
       </verse>
       <verse num="10">
-        <text>and to wait for his Son from the heavens, whom he raised from the dead: Jesus, who rescues us from the coming wrath.</text>
+        <text>and to wait for his Son from the heavens, whom he raised from the dead—Jesus, who rescues us from the coming wrath.</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="ἀναμένω">ἀναμένειν</w>
@@ -271,12 +272,13 @@
           <w lemma="ὁ">τῆς</w>
           <w lemma="ἔρχομαι">ἐρχομένης.</w>
         </greek>
-        <note term="from the heavens" kind="departure" lemma="οὐρανός" traditional="from heaven">The Greek is plural, a Semitic turn of phrase carried over from Hebrew through the Greek Old Testament. Most translations flatten it to &#x27;heaven&#x27;; the plural is kept here wherever the Greek has it and God&#x27;s dwelling is meant.</note>
+        <note term="the heavens" kind="departure" lemma="οὐρανός" traditional="heaven">The Greek is plural, a Semitic turn of phrase carried over from the Hebrew Scriptures. Most translations flatten it to “heaven.” The plural is kept wherever the Greek has it and God’s dwelling is meant.</note>
+        <note term="who rescues us" kind="ambiguity" lemma="ῥύομαι" traditional="which delivered us">The Greek is a present participle, which can describe Jesus timelessly as “our rescuer.” Older versions rendered it as past (“delivered”), while many modern ones use the present. Since the wrath is described as “coming,” the rescue in view is chiefly a future one.</note>
       </verse>
     </chapter>
     <chapter num="2">
       <verse num="1">
-        <text><p/>For you yourselves know, brothers and sisters, that our visit to you has not proved empty,</text>
+        <text><p/>For you yourselves know, brothers and sisters, that our visit to you was not in vain,</text>
         <greek>
           <w lemma="αὐτός">Αὐτοὶ</w>
           <w lemma="γάρ">γὰρ</w>
@@ -293,8 +295,8 @@
           <w lemma="κενός">κενὴ</w>
           <w lemma="γίνομαι">γέγονεν,</w>
         </greek>
-        <note term="brothers and sisters" kind="departure" lemma="ἀδελφός" traditional="brethren; brothers">The Greek plural was the ordinary way to address a mixed group of men and women as siblings, and Paul is writing to the whole community. &#x27;Brothers&#x27; alone now suggests to English readers that only men are addressed. Many recent translations make the same choice.</note>
-        <note term="empty" kind="ambiguity" lemma="κενός" traditional="in vain">The word can mean &#x27;without result&#x27; (the traditional &#x27;in vain&#x27;) or &#x27;without substance&#x27;, that is, hollow or insincere. Because the verses that follow defend the missionaries&#x27; character and motives and not their success, many scholars prefer the second sense. &#x27;Empty&#x27; leaves both open, as the Greek does.</note>
+        <note term="brothers and sisters" kind="departure" lemma="ἀδελφός" traditional="brothers; brethren">The Greek plural was the ordinary way to address a mixed group of men and women, and Paul is writing to the whole community. “Brothers” alone now suggests to many readers that only men are addressed. Several modern translations make the same choice; others keep “brothers” and explain it in a footnote.</note>
+        <note term="in vain" kind="ambiguity" lemma="κενός" traditional="in vain">The Greek word means “empty.” It may mean the visit was not fruitless, or that it was not hollow—lacking in substance, sincerity, or power. The following verses, which defend the character of the mission, give some support to the second reading; the rendering here follows the more common first one.</note>
       </verse>
       <verse num="2">
         <text>but though we had already suffered and been shamefully treated in Philippi, as you know, we found boldness in our God to speak to you the good news of God amid a great struggle.</text>
@@ -323,10 +325,10 @@
           <w lemma="πολύς">πολλῷ</w>
           <w lemma="ἀγών">ἀγῶνι.</w>
         </greek>
-        <note term="good news" kind="departure" lemma="εὐαγγέλιον" traditional="gospel">The Greek was an ordinary word for an announcement of good news, used also of public and imperial proclamations. &#x27;Gospel&#x27; has become a purely religious term and a book title, so the plain meaning is given here. Many modern translations alternate between the two.</note>
+        <note term="good news" kind="departure" lemma="εὐαγγέλιον" traditional="gospel">The Greek was an ordinary word for a public announcement of good news, used among other things for imperial proclamations. “Gospel” has since become a religious term or the name of a kind of book. Many modern translations already alternate between “good news” and “gospel.”</note>
       </verse>
       <verse num="3">
-        <text>For our appeal does not come from error or from impurity, nor is it made with deceit,</text>
+        <text>For our appeal does not come from error or from impure motives, nor is it made with deceit,</text>
         <greek>
           <w lemma="ὁ">ἡ</w>
           <w lemma="γάρ">γὰρ</w>
@@ -371,7 +373,7 @@
         </greek>
       </verse>
       <verse num="5">
-        <text>For we never came with flattering speech, as you know, nor with a pretext for greed—God is witness—</text>
+        <text>For we never came with flattering words, as you know, nor with a cover for greed, God is our witness,</text>
         <greek>
           <w lemma="οὔτε">οὔτε</w>
           <w lemma="γάρ">γάρ</w>
@@ -391,7 +393,7 @@
         </greek>
       </verse>
       <verse num="6">
-        <text>nor did we seek glory from people, whether from you or from others,</text>
+        <text>nor were we seeking glory from people, whether from you or from others,</text>
         <greek>
           <w lemma="οὔτε">οὔτε</w>
           <w lemma="ζητέω">ζητοῦντες</w>
@@ -407,7 +409,7 @@
         </greek>
       </verse>
       <verse num="7">
-        <text>though as apostles of Christ we could have made our weight felt. But we were gentle among you, like a nurse cherishing her own children.</text>
+        <text>though as apostles of Christ we could have made our weight felt. Instead we were gentle among you, like a nursing mother cherishing her own children.</text>
         <greek>
           <w lemma="δύναμαι">δυνάμενοι</w>
           <w lemma="ἐν">ἐν</w>
@@ -430,12 +432,12 @@
           <w lemma="ἑαυτοῦ">ἑαυτῆς</w>
           <w lemma="τέκνον">τέκνα·</w>
         </greek>
-        <note term="made our weight felt" kind="ambiguity" lemma="βάρος" traditional="been burdensome; made demands">The Greek says literally &#x27;to be in weight&#x27;. It may mean being a financial burden, as the related verb in verse 9 does, or carrying weight in the sense of insisting on one&#x27;s authority and importance. Scholars are divided, and Paul may intend both. The rendering keeps &#x27;weight&#x27; so that the link with verse 9 remains visible.</note>
-        <note term="gentle" kind="textual" lemma="ἤπιος" traditional="gentle">Manuscripts are split between &#x27;gentle&#x27; (ēpioi) and &#x27;infants&#x27; (nēpioi), which differ by a single letter. The edition translated here reads &#x27;gentle&#x27;, as do most English versions. Many of the earliest manuscripts read &#x27;infants&#x27;, and some critical editions and scholars prefer that reading as the harder one.</note>
-        <note term="nurse" kind="background" lemma="τροφός" traditional="nurse; nursing mother">The word usually denotes a wet nurse, a woman employed to suckle and raise another family&#x27;s children, and a familiar figure of affection in ancient households. The point of &#x27;her own children&#x27; is probably that even a professional nurse shows a special tenderness when the children are hers. Some translations simplify to &#x27;nursing mother&#x27;.</note>
+        <note term="made our weight felt" kind="ambiguity" lemma="βάρος" traditional="been burdensome; made demands">Literally “been in weight.” The phrase can mean being a financial burden (compare verse 9, where a related verb means “to burden”) or carrying weight in the sense of insisting on one’s importance and authority. The context, which speaks of seeking glory in verse 6 and of gentleness in what follows, slightly favors the second, but both may be in view.</note>
+        <note term="gentle" kind="textual" lemma="ἤπιος" traditional="gentle">Manuscripts are divided between “gentle” (ēpioi) and “infants” (nēpioi), which differ by a single letter that could easily be doubled or dropped after the preceding word. The earliest manuscripts mostly read “infants,” and some critical editions print it; the edition translated here reads “gentle,” as do most English versions, because it fits the image that follows. The question remains disputed.</note>
+        <note term="nursing mother" kind="background" lemma="τροφός" traditional="nurse; nursing mother">The Greek word usually denotes a nurse, often a wet nurse hired to care for another family’s children. Paul specifies “her own children,” so the picture is either of a mother nursing or of a professional nurse giving her own children the tenderest care of all.</note>
       </verse>
       <verse num="8">
-        <text>Longing for you so, we were glad to share with you not only the good news of God but our own lives as well, because you had become dear to us.</text>
+        <text>So, yearning for you, we were glad to share with you not only the good news of God but also our own lives, because you had become so dear to us.</text>
         <greek>
           <w lemma="οὕτω(ς)">οὕτως</w>
           <w lemma="ὁμείρομαι">ὁμειρόμενοι</w>
@@ -461,7 +463,7 @@
         </greek>
       </verse>
       <verse num="9">
-        <text><p/>For you remember, brothers and sisters, our labor and toil: working night and day so as not to weigh on any of you, we proclaimed to you the good news of God.</text>
+        <text><p/>For you remember, brothers and sisters, our labor and toil: working night and day so as not to burden any of you, we proclaimed to you the good news of God.</text>
         <greek>
           <w lemma="μνημονεύω">Μνημονεύετε</w>
           <w lemma="γάρ">γάρ,</w>
@@ -492,7 +494,7 @@
         </greek>
       </verse>
       <verse num="10">
-        <text>You are witnesses, and so is God, how devoutly and justly and blamelessly we behaved toward you who believe,</text>
+        <text>You are witnesses, and so is God, of how devoutly and justly and blamelessly we behaved toward you who believe,</text>
         <greek>
           <w lemma="σύ">ὑμεῖς</w>
           <w lemma="μάρτυς">μάρτυρες</w>
@@ -510,10 +512,9 @@
           <w lemma="πιστεύω">πιστεύουσιν</w>
           <w lemma="γίνομαι">ἐγενήθημεν,</w>
         </greek>
-        <note term="justly" kind="background" lemma="δικαίως" traditional="justly; righteously; uprightly">Greek has a single word-family where English has two: righteous and just, righteousness and justice. The adverb here belongs to that family and describes conduct that is in the right before God and fair toward others.</note>
       </verse>
       <verse num="11">
-        <text>just as you know how we treated each one of you as a father treats his own children,</text>
+        <text>just as you know how we dealt with each one of you like a father with his own children,</text>
         <greek>
           <w lemma="καθάπερ">καθάπερ</w>
           <w lemma="οἶδα">οἴδατε</w>
@@ -528,7 +529,7 @@
         </greek>
       </verse>
       <verse num="12">
-        <text>appealing to you, encouraging you, and solemnly charging you to walk in a way worthy of God, who calls you into his own kingdom and glory.</text>
+        <text>appealing to you and encouraging you and solemnly charging you to walk in a manner worthy of God, who calls you into his own kingdom and glory.</text>
         <greek>
           <w lemma="παρακαλέω">παρακαλοῦντες</w>
           <w lemma="σύ">ὑμᾶς</w>
@@ -630,8 +631,8 @@
           <w lemma="ὁ">τῶν</w>
           <w lemma="Ἰουδαῖος">Ἰουδαίων</w>
         </greek>
-        <note term="assemblies" kind="departure" lemma="ἐκκλησία" traditional="churches">The Greek word meant a gathering of citizens and, in the Greek Scriptures, the assembled people of Israel. &#x27;Church&#x27; now suggests a building or an institution, neither of which existed yet. &#x27;Church&#x27; is the near-universal rendering, and readers should understand the same communities by &#x27;assembly&#x27;.</note>
-        <note term="from the Jews" kind="ambiguity" lemma="Ἰουδαῖος" traditional="the Jews, who killed the Lord Jesus">Greek manuscripts have no punctuation here. Most translations place a comma after &#x27;Jews&#x27;, making what follows a description of the Jewish people as a whole. The Greek construction more naturally identifies a particular group, those who did these things, and the text is rendered that way without a comma. Paul and the Judean assemblies were themselves Jews, and since the setting is Judea some scholars translate &#x27;Judeans&#x27;.</note>
+        <note term="assemblies" kind="departure" lemma="ἐκκλησία" traditional="churches">The Greek word meant a gathering of people—a city’s citizen assembly, or in the Greek Old Testament Israel gathered before God. “Church” now suggests a building or an institution, so this translation uses “assembly” throughout. “Church” is the near-universal rendering, and readers know what it refers to.</note>
+        <note term="the Jews" kind="ambiguity" lemma="Ἰουδαῖος" traditional="the Jews, who killed">The Greek can be read as limiting (“those Jews who killed…”) or as a description of the whole people (“the Jews, who killed…”); the translation leaves out the comma, taking it as the former. Paul, himself a Jew, is comparing persecution in Thessalonica with what the assemblies in Judea suffered from their own people, and some would translate “Judeans” here. A minority of scholars regard verses 14–16 as a later insertion, though no manuscript lacks them.</note>
       </verse>
       <verse num="15">
         <text>who killed both the Lord Jesus and the prophets and drove us out, who do not please God and are opposed to all people,</text>
@@ -684,11 +685,11 @@
           <w lemma="εἰς">εἰς</w>
           <w lemma="τέλος">τέλος.</w>
         </greek>
-        <note term="Gentiles" kind="background" lemma="ἔθνος" traditional="Gentiles">The Greek word means &#x27;peoples&#x27; or &#x27;nations&#x27;. In the plural, Jewish writers used it for all the non-Jewish peoples. English uses &#x27;Gentiles&#x27; for that sense and &#x27;nations&#x27; elsewhere, but it is one word in Greek.</note>
-        <note term="at last" kind="ambiguity" lemma="τέλος" traditional="to the uttermost; at last">The phrase can mean &#x27;at last&#x27;, &#x27;completely&#x27; or &#x27;to the end, forever&#x27;, and translations differ. It is also uncertain what event Paul has in mind, or whether he speaks of a future judgment as so certain that it is already present. A minority of scholars regard verses 13–16 as a later addition, though all manuscripts contain them.</note>
+        <note term="Gentiles" kind="background" lemma="ἔθνος" traditional="Gentiles">The Greek word means “peoples” or “nations.” In the plural, in Jewish usage, it refers to the non-Jewish peoples, and it is translated “Gentiles” in that sense and “nations” elsewhere. It is one word in Greek.</note>
+        <note term="at last" kind="ambiguity" lemma="τέλος" traditional="to the uttermost; at last">The Greek phrase can mean “at last,” “completely,” “to the end,” or “forever,” and translations differ. It is also unclear what Paul has in mind by wrath having come: a recent calamity, or a future judgment spoken of as certain. Scholars have proposed several events from the late 40s, but none can be confirmed.</note>
       </verse>
       <verse num="17">
-        <text><p/>But we, brothers and sisters, orphaned from you for a short time—in person, not in heart—tried all the harder, with great desire, to see you face to face.</text>
+        <text><p/>But we, brothers and sisters, orphaned from you for a short time—in person, not in heart—made all the greater effort, with great desire, to see your face.</text>
         <greek>
           <w lemma="ἐγώ">Ἡμεῖς</w>
           <w lemma="δέ">δέ,</w>
@@ -712,9 +713,10 @@
           <w lemma="πολύς">πολλῇ</w>
           <w lemma="ἐπιθυμία">ἐπιθυμίᾳ.</w>
         </greek>
+        <note term="orphaned" kind="background" lemma="ἀπορφανίζω" traditional="taken from you; torn away from you">The Greek verb means to be made an orphan, and it could be used more loosely of any painful bereavement, including parents separated from children. It continues the family imagery of the chapter, where Paul has compared himself to a nursing mother and a father.</note>
       </verse>
       <verse num="18">
-        <text>For we wanted to come to you—I, Paul, more than once—but Satan blocked us.</text>
+        <text>For we wanted to come to you—I, Paul, more than once—but Satan blocked our way.</text>
         <greek>
           <w lemma="διότι">διότι</w>
           <w lemma="θέλω">ἠθελήσαμεν</w>
@@ -736,7 +738,7 @@
         </greek>
       </verse>
       <verse num="19">
-        <text>For what is our hope or joy or crown to boast of before our Lord Jesus at his coming? Is it not you?</text>
+        <text>For what is our hope or joy or the crown we will boast of before our Lord Jesus at his coming—is it not indeed you?</text>
         <greek>
           <w lemma="τίς">τίς</w>
           <w lemma="γάρ">γὰρ</w>
@@ -761,7 +763,7 @@
           <w lemma="αὐτός">αὐτοῦ</w>
           <w lemma="παρουσία">παρουσίᾳ;</w>
         </greek>
-        <note term="coming" kind="background" lemma="παρουσία" traditional="coming">The word means arrival and the presence that follows. In Paul&#x27;s day it was a standard term for the state visit of a king or emperor to a city, an occasion for celebration and for honours such as crowns. That association fits the crown imagery in this verse.</note>
+        <note term="coming" kind="background" lemma="παρουσία" traditional="coming">The Greek word means “arrival” or “presence,” and it was a standard term for the official visit of a king or emperor to a city, an occasion marked by public welcome and honors. Paul uses it for the expected arrival of Jesus as Lord. The “crown” in the same verse is the wreath awarded to a victor or an honored person.</note>
       </verse>
       <verse num="20">
         <text>Yes, you are our glory and our joy.</text>
@@ -780,7 +782,7 @@
     </chapter>
     <chapter num="3">
       <verse num="1">
-        <text><p/>So when we could bear it no longer, we decided to be left behind in Athens alone,</text>
+        <text><p/>So when we could bear it no longer, we thought it best to be left behind in Athens alone,</text>
         <greek>
           <w lemma="διό">Διὸ</w>
           <w lemma="μηκέτι">μηκέτι</w>
@@ -791,10 +793,10 @@
           <w lemma="Ἀθῆναι">Ἀθήναις</w>
           <w lemma="μόνος">μόνοι,</w>
         </greek>
-        <note term="alone" kind="ambiguity" lemma="μόνος" traditional="alone">The Greek &#x27;we&#x27; and &#x27;alone&#x27; are plural. This may be a literary plural meaning Paul by himself (compare &#x27;I sent&#x27; in verse 5), or it may include Silvanus, who is named with Paul as a sender of the letter. Scholars are divided, and the translation keeps the plural without deciding.</note>
+        <note term="we thought it best to be left behind in Athens alone" kind="ambiguity" lemma="" traditional="">The letter is sent by Paul, Silvanus and Timothy, and it is unclear whether “we” here means Paul and Silvanus together or is Paul’s way of speaking of himself. Verse 5 repeats the same statement in the singular (“I sent”), which leads many interpreters to think Paul mainly means himself. The translation keeps the Greek’s plural and singular as they stand.</note>
       </verse>
       <verse num="2">
-        <text>and we sent Timothy, our brother and God&#x27;s coworker in the good news of Christ, to strengthen and encourage you for the sake of your faith,</text>
+        <text>and we sent Timothy, our brother and God’s coworker in the good news of Christ, to strengthen and encourage you for the sake of your faith,</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="πέμπω">ἐπέμψαμεν</w>
@@ -822,11 +824,11 @@
           <w lemma="πίστις">πίστεως</w>
           <w lemma="σύ">ὑμῶν</w>
         </greek>
-        <note term="God&#x27;s coworker" kind="textual" lemma="συνεργός" traditional="minister of God / our fellow labourer">Manuscripts differ here: some read &#x27;God&#x27;s servant&#x27;, some simply &#x27;coworker&#x27;, and some combine the two. Most scholars think &#x27;God&#x27;s coworker&#x27; is original and that copyists softened a phrase that seemed too bold. It can mean one who works alongside God or a colleague of Paul&#x27;s in God&#x27;s service; 1 Corinthians 3:9 uses the same expression.</note>
-        <note term="good news" kind="departure" lemma="εὐαγγέλιον" traditional="gospel">The traditional &#x27;gospel&#x27; has become a religious term, but the Greek word was the ordinary one for an announcement of good news, such as a victory. Rendering it this way also preserves a link with verse 6, where Paul uses the related verb, elsewhere his word for proclaiming the message about Christ, for Timothy&#x27;s good report about the Thessalonians. Many modern translations alternate between &#x27;gospel&#x27; and &#x27;good news&#x27;.</note>
+        <note term="God’s coworker" kind="textual" lemma="συνεργός" traditional="minister of God">Manuscripts differ here: some read “God’s servant” (or “minister”), some “God’s coworker,” and some combine the two. Most scholars think “God’s coworker” is original and that scribes softened so bold a description. The phrase could also be taken as “our coworker for God,” but the plainer sense is that Timothy works alongside God.</note>
+        <note term="good news" kind="departure" lemma="εὐαγγέλιον" traditional="gospel">The traditional rendering is “gospel,” which today is heard as a religious term or the name of a book. The Greek was an ordinary word for an announcement of good news, used also of public and imperial proclamations. Many modern translations alternate between “gospel” and “good news.”</note>
       </verse>
       <verse num="3">
-        <text>so that no one would be shaken amid these afflictions. For you yourselves know that this is what we are appointed for.</text>
+        <text>so that no one would be shaken by these afflictions. For you yourselves know that this is what we are appointed for.</text>
         <greek>
           <w lemma="ὁ">τὸ</w>
           <w lemma="μηδείς">μηδένα</w>
@@ -843,10 +845,11 @@
           <w lemma="οὗτος">τοῦτο</w>
           <w lemma="κεῖμαι">κείμεθα·</w>
         </greek>
-        <note term="shaken" kind="ambiguity" lemma="σαίνω" traditional="moved / shaken">This verb occurs only here in the New Testament. Its older sense is of a dog wagging its tail, and from that &#x27;to fawn on&#x27; or &#x27;to beguile&#x27;, so some take the meaning to be &#x27;so that no one would be lured away&#x27;. Most translators and the ancient versions understand it as &#x27;shaken&#x27; or &#x27;unsettled&#x27;, which is followed here.</note>
+        <note term="shaken" kind="ambiguity" lemma="σαίνω" traditional="moved">This verb occurs only here in the New Testament. Its earlier use was of a dog wagging its tail, and from that of fawning or flattering, so some interpreters take the sense to be “beguiled” or “talked out of their faith” by smooth words. Most translators and lexicons take the meaning here to be “disturbed” or “unsettled,” which is followed in the text.</note>
+        <note term="afflictions" kind="departure" lemma="θλῖψις" traditional="tribulations">The word is often rendered “tribulation,” which many readers now hear as the name of a specific end-time period. In the period it was an ordinary word for hardship or oppression pressing on someone, here the hostility the Thessalonians met from their neighbors. “Affliction” is itself a long-established rendering, and the related verb in verse 4 is translated “suffer affliction” to keep the link visible.</note>
       </verse>
       <verse num="4">
-        <text>Indeed, when we were with you, we kept telling you in advance that we were going to suffer affliction, and so it happened, as you know.</text>
+        <text>Indeed, when we were with you, we kept telling you in advance that we were going to suffer affliction—and so it happened, as you know.</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="γάρ">γὰρ</w>
@@ -867,7 +870,7 @@
         </greek>
       </verse>
       <verse num="5">
-        <text>That is why, when I too could bear it no longer, I sent to find out about your faith, for fear that the tempter had somehow tempted you and our labor would turn out to be for nothing.</text>
+        <text>That is why, when I could bear it no longer, I sent to find out about your faith, for fear that the tempter had somehow tempted you and our labor would turn out to be for nothing.</text>
         <greek>
           <w lemma="διά">διὰ</w>
           <w lemma="οὗτος">τοῦτο</w>
@@ -895,10 +898,9 @@
           <w lemma="κόπος">κόπος</w>
           <w lemma="ἐγώ">ἡμῶν.</w>
         </greek>
-        <note term="the tempter had somehow tempted you" kind="ambiguity" lemma="πειράζω" traditional="the tempter had tempted you">The Greek verb covers both &#x27;tempt&#x27; and &#x27;put to the test&#x27;, and the title and the verb are the same word. Here the testing is the pressure of persecution, which might lead the Thessalonians to abandon their faith. &#x27;The tempter&#x27; is Satan, named in 2:18.</note>
       </verse>
       <verse num="6">
-        <text><p/>But just now Timothy has come to us from you and brought us the good news of your faith and love. He has told us that you always remember us fondly and long to see us, just as we long to see you.</text>
+        <text><p/>But now Timothy has come to us from you and has brought us the good news of your faith and love. He has told us that you always remember us kindly and long to see us, just as we long to see you.</text>
         <greek>
           <w lemma="ἄρτι">Ἄρτι</w>
           <w lemma="δέ">δὲ</w>
@@ -932,9 +934,10 @@
           <w lemma="ἐγώ">ἡμεῖς</w>
           <w lemma="σύ">ὑμᾶς,</w>
         </greek>
+        <note term="brought us the good news" kind="background" lemma="εὐαγγελίζω" traditional="brought us good tidings">Paul uses the same verb he normally reserves for announcing the message about Christ. This is the only place in his letters where it refers to other good news, and the choice of word shows how much Timothy’s report meant to him.</note>
       </verse>
       <verse num="7">
-        <text>Because of this, brothers and sisters, in all our distress and affliction we were encouraged about you through your faith,</text>
+        <text>For this reason, brothers and sisters, in all our distress and affliction we were encouraged about you through your faith,</text>
         <greek>
           <w lemma="διά">διὰ</w>
           <w lemma="οὗτος">τοῦτο</w>
@@ -954,7 +957,7 @@
           <w lemma="σύ">ὑμῶν</w>
           <w lemma="πίστις">πίστεως,</w>
         </greek>
-        <note term="brothers and sisters" kind="departure" lemma="ἀδελφός" traditional="brothers / brethren">The Greek plural was the normal way to address a mixed group of men and women as siblings, and Paul is writing to the whole congregation. &#x27;Brothers&#x27; alone would suggest to a modern reader that only men are addressed. Many recent translations make the same choice.</note>
+        <note term="brothers and sisters" kind="departure" lemma="ἀδελφός" traditional="brothers / brethren">The Greek plural, traditionally “brothers” or “brethren,” was the normal way to address a mixed group of men and women as members of one family. Since Paul is addressing the whole congregation, “brothers and sisters” conveys what the first hearers understood. Several modern translations do the same; others keep “brothers” with a footnote.</note>
       </verse>
       <verse num="8">
         <text>for now we live, if you are standing firm in the Lord.</text>
@@ -996,7 +999,7 @@
         </greek>
       </verse>
       <verse num="10">
-        <text>as night and day we pray with the utmost earnestness to see your face and to make good what is lacking in your faith?</text>
+        <text>as night and day we pray with the utmost earnestness to see you face to face and to supply what is lacking in your faith?</text>
         <greek>
           <w lemma="νύξ">νυκτὸς</w>
           <w lemma="καί">καὶ</w>
@@ -1040,10 +1043,10 @@
           <w lemma="πρός">πρὸς</w>
           <w lemma="σύ">ὑμᾶς·</w>
         </greek>
-        <note term="direct" kind="background" lemma="κατευθύνω" traditional="direct">The verb is singular in Greek although it has two subjects, God the Father and the Lord Jesus. Greek sometimes lets a verb agree with only one of a pair of subjects, so the grammar alone proves little. Many interpreters nonetheless note how closely Paul joins the two in a single prayer. The verb means to make a road straight, answering the obstruction mentioned in 2:18.</note>
+        <note term="direct" kind="background" lemma="κατευθύνω" traditional="">The prayer has two subjects, “our God and Father” and “our Lord Jesus,” but the Greek verb is singular. Greek can use a singular verb with a compound subject, so the grammar alone proves little, but many interpreters note how closely Paul joins God and Jesus as the one to whom prayer is addressed. The word “himself” could grammatically cover both subjects or the Father alone.</note>
       </verse>
       <verse num="12">
-        <text>And as for you, may the Lord make you increase and overflow in love for one another and for everyone, just as we do for you,</text>
+        <text>And may the Lord make you increase and overflow in love for one another and for everyone, just as we do for you,</text>
         <greek>
           <w lemma="σύ">ὑμᾶς</w>
           <w lemma="δέ">δὲ</w>
@@ -1097,14 +1100,13 @@
           <w lemma="ἅγιος">ἁγίων</w>
           <w lemma="αὐτός">αὐτοῦ.</w>
         </greek>
-        <note term="coming" kind="background" lemma="παρουσία" traditional="coming">The Greek word means arrival and the presence that follows. It was the regular term for the official visit of a king or emperor to a city. Paul uses it for the expected arrival of Jesus as Lord.</note>
-        <note term="holy ones" kind="departure" lemma="ἅγιος" traditional="saints">&#x27;Saints&#x27; now suggests canonised individuals or people of exceptional virtue, whereas the Greek simply means those who are holy, set apart for God. Paul normally uses it of believers, but here many scholars think he means angels accompanying the Lord, echoing Zechariah 14:5 (&#x27;the Lord my God will come, and all the holy ones with him&#x27;). &#x27;Holy ones&#x27; leaves both readings open.</note>
-        <note term="with all his holy ones" kind="textual" lemma="" traditional="with all his saints. Amen.">Some important manuscripts add &#x27;Amen&#x27; at the end of this verse. The edition translated here omits it, judging it more likely that copyists added the word to a prayer than that they removed it. The question remains open.</note>
+        <note term="coming" kind="background" lemma="παρουσία" traditional="coming">The Greek word means arrival and the presence that follows. It was commonly used for the official visit of a king or emperor to a city, an occasion that involved public preparation and welcome. Paul uses it in this letter for the expected arrival of Jesus as Lord.</note>
+        <note term="holy ones" kind="departure" lemma="ἅγιος" traditional="saints">The traditional rendering is “saints,” which now suggests canonized individuals or people of exceptional virtue. Paul normally uses the word for all believers, but here many scholars think it refers to angels accompanying the Lord, echoing Zechariah 14:5 (“the Lord my God will come, and all the holy ones with him”). Others take it as believers who have died, or as both together; “holy ones” leaves the question open, as the Greek does. Some manuscripts add “Amen” at the end of the verse.</note>
       </verse>
     </chapter>
     <chapter num="4">
       <verse num="1">
-        <text><p/>Finally then, brothers and sisters, we ask and urge you in the Lord Jesus that, just as you received from us how you must walk and please God—as indeed you are walking—you do so more and more.</text>
+        <text><p/>Finally then, brothers and sisters, we ask and urge you in the Lord Jesus: just as you received from us how you ought to walk and please God—as indeed you are walking—do so more and more.</text>
         <greek>
           <w lemma="λοιπός">Λοιπὸν</w>
           <w lemma="οὖν">οὖν,</w>
@@ -1136,7 +1138,7 @@
           <w lemma="περισσεύω">περισσεύητε</w>
           <w lemma="μᾶλλον">μᾶλλον.</w>
         </greek>
-        <note term="brothers and sisters" kind="departure" lemma="ἀδελφός" traditional="brethren / brothers">The Greek masculine plural was the ordinary way to address a mixed group, and Paul is writing to the whole congregation. Many recent translations render it this way; others keep “brothers” and explain in a footnote. The singular in verse 6 is rendered “a brother or sister” on the same basis, though some interpreters think a male fellow believer is specifically in view there.</note>
+        <note term="brothers and sisters" kind="departure" lemma="ἀδελφός" traditional="brothers (older versions: brethren)">The Greek plural was the ordinary way to address a mixed group of men and women, and Paul is writing to the whole congregation. “Brothers” alone now suggests men only, so the fuller phrase is used; several modern translations do the same. The singular in verse 6 is rendered “a brother or sister” on the same principle.</note>
       </verse>
       <verse num="2">
         <text>For you know what instructions we gave you through the Lord Jesus.</text>
@@ -1154,7 +1156,7 @@
         </greek>
       </verse>
       <verse num="3">
-        <text>For this is God&#x27;s will, your holiness: that you keep away from sexual immorality;</text>
+        <text>For this is the will of God, your holiness: that you keep away from sexual immorality;</text>
         <greek>
           <w lemma="οὗτος">τοῦτο</w>
           <w lemma="γάρ">γάρ</w>
@@ -1171,7 +1173,7 @@
           <w lemma="ὁ">τῆς</w>
           <w lemma="πορνεία">πορνείας,</w>
         </greek>
-        <note term="holiness" kind="departure" lemma="ἁγιασμός" traditional="sanctification">The word denotes being set apart for God and the way of life that follows from it. “Sanctification” has since become a technical term of theology, which the first readers would not have heard. “Holiness” also keeps visible the link Paul draws with the “Holy” Spirit in verse 8. Modern translations vary between the two.</note>
+        <note term="holiness" kind="departure" lemma="ἁγιασμός" traditional="sanctification">The Greek noun, used three times in verses 3–7, means the state or process of being set apart for God. “Sanctification” is the traditional rendering but has become a technical theological term; “holiness” is plainer and lets the reader hear the link with the “Holy” Spirit in verse 8, which is the same word family.</note>
       </verse>
       <verse num="4">
         <text>that each of you know how to gain control of your own body in holiness and honor,</text>
@@ -1188,7 +1190,7 @@
           <w lemma="καί">καὶ</w>
           <w lemma="τιμή">τιμῇ,</w>
         </greek>
-        <note term="gain control of your own body" kind="ambiguity" lemma="σκεῦος" traditional="possess his vessel">The Greek is literally “acquire (or possess) his own vessel.” “Vessel” is a metaphor, and interpreters ancient and modern are divided on whether it means one&#x27;s own body or one&#x27;s wife. On the second reading the sense is “take a wife for himself in holiness and honor.” The verb normally means “acquire,” which favours “wife”; “vessel” as an image for the body is the better-attested usage. Most recent translations choose “body,” but the question remains open.</note>
+        <note term="gain control of your own body" kind="ambiguity" lemma="σκεῦος" traditional="possess his vessel">Literally “to acquire (or possess) his own vessel.” “Vessel” is a metaphor that can mean one’s own body (possibly with a specifically sexual reference) or one’s wife, giving “to take a wife for himself.” The verb more often means “acquire,” which favors the second reading, but most recent translations take it of mastering one’s body. Scholars remain divided.</note>
       </verse>
       <verse num="5">
         <text>not in lustful passion like the Gentiles who do not know God;</text>
@@ -1207,10 +1209,10 @@
           <w lemma="ὁ">τὸν</w>
           <w lemma="θεός">θεόν,</w>
         </greek>
-        <note term="Gentiles" kind="background" lemma="ἔθνος" traditional="Gentiles / heathen">The same Greek word means “nations” or “peoples” and, in Jewish usage, the non-Jewish peoples in particular; this translation renders it by sense. Most of the Thessalonian believers were themselves non-Jews by birth. Paul nevertheless uses the word for outsiders who do not know God, placing his readers on the other side of that line.</note>
+        <note term="Gentiles" kind="background" lemma="ἔθνος" traditional="Gentiles">The Greek word means “nations” or “peoples”; in the plural it is the standard Jewish term for the non-Jewish peoples, and is rendered “nations” or “Gentiles” in this translation according to sense. Most of the Thessalonian believers were themselves non-Jews by birth, so Paul is using the word for those outside the community who do not know Israel’s God.</note>
       </verse>
       <verse num="6">
-        <text>that no one overstep the bounds and take advantage of a brother or sister in this matter, because the Lord is an avenger in all these things, just as we told you before and solemnly warned you.</text>
+        <text>that no one overstep and take advantage of a brother or sister in this matter, because the Lord is an avenger in all these things, just as we told you before and solemnly warned you.</text>
         <greek>
           <w lemma="ὁ">τὸ</w>
           <w lemma="μή">μὴ</w>
@@ -1236,10 +1238,10 @@
           <w lemma="καί">καὶ</w>
           <w lemma="διαμαρτύρομαι">διεμαρτυράμεθα.</w>
         </greek>
-        <note term="in this matter" kind="ambiguity" lemma="πρᾶγμα" traditional="in any matter / in this matter">The word can mean a business dealing, and some read the verse as a new topic: not cheating a fellow believer in commerce. The definite article and the surrounding verses on sexual conduct lead most scholars to take it as “the matter” under discussion, so that the wrong in view is sexual, such as adultery that violates another person&#x27;s household.</note>
+        <note term="in this matter" kind="ambiguity" lemma="πρᾶγμα" traditional="in any matter / in this matter">The Greek is literally “in the matter.” Most interpreters take it as the sexual conduct just discussed, so that the wrong is done to another person through sexual misconduct. The word can also mean a business dealing, and some read the verse as a new topic, fraud in commerce.</note>
       </verse>
       <verse num="7">
-        <text>For God did not call us to impurity but in holiness.</text>
+        <text>For God did not call us for impurity but in holiness.</text>
         <greek>
           <w lemma="οὐ">οὐ</w>
           <w lemma="γάρ">γὰρ</w>
@@ -1255,7 +1257,7 @@
         </greek>
       </verse>
       <verse num="8">
-        <text>So then, whoever rejects this is rejecting not a human being but God, who indeed gives his Holy Spirit to you.</text>
+        <text>Therefore whoever rejects this is rejecting not a human being but God, who also gives his Holy Spirit to you.</text>
         <greek>
           <w lemma="τοιγαροῦν">τοιγαροῦν</w>
           <w lemma="ὁ">ὁ</w>
@@ -1279,7 +1281,7 @@
         </greek>
       </verse>
       <verse num="9">
-        <text><p/>Now about love for your brothers and sisters, you do not need anyone to write to you, for you yourselves are taught by God to love one another;</text>
+        <text><p/>Now about love for the brothers and sisters, you have no need for anyone to write to you, for you yourselves are taught by God to love one another;</text>
         <greek>
           <w lemma="περί">Περὶ</w>
           <w lemma="δέ">δὲ</w>
@@ -1300,10 +1302,9 @@
           <w lemma="ἀγαπάω">ἀγαπᾶν</w>
           <w lemma="ἀλλήλων">ἀλλήλους·</w>
         </greek>
-        <note term="love for your brothers and sisters" kind="background" lemma="φιλαδελφία" traditional="brotherly love">In ordinary Greek this word normally meant affection between actual siblings. Paul applies it to the members of the congregation, treating them as a family. The phrase “taught by God” translates a single compound word that is not found before Paul and may be his own coinage.</note>
       </verse>
       <verse num="10">
-        <text>and indeed you are doing this toward all the brothers and sisters throughout Macedonia. But we urge you, brothers and sisters, to do so more and more,</text>
+        <text>and indeed you do this toward all the brothers and sisters throughout Macedonia. But we urge you, brothers and sisters, to do so more and more,</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="γάρ">γὰρ</w>
@@ -1347,7 +1348,7 @@
         </greek>
       </verse>
       <verse num="12">
-        <text>so that you may walk decently toward outsiders and have need of no one.</text>
+        <text>so that you may walk properly toward outsiders and have need of no one.</text>
         <greek>
           <w lemma="ἵνα">ἵνα</w>
           <w lemma="περιπατέω">περιπατῆτε</w>
@@ -1360,9 +1361,10 @@
           <w lemma="χρεία">χρείαν</w>
           <w lemma="ἔχω">ἔχητε.</w>
         </greek>
+        <note term="have need of no one" kind="ambiguity" lemma="" traditional="have lack of nothing / be dependent on no one">The Greek form can be masculine (“no one”) or neuter (“nothing”). The first gives the sense of not depending on others for support; the second, of lacking nothing. Either fits the instruction to work with one’s own hands.</note>
       </verse>
       <verse num="13">
-        <text><p/>We do not want you to be uninformed, brothers and sisters, about those who are asleep, so that you will not grieve as the rest do, who have no hope.</text>
+        <text><p/>But we do not want you to be uninformed, brothers and sisters, about those who are asleep, so that you will not grieve like the rest, who have no hope.</text>
         <greek>
           <w lemma="οὐ">Οὐ</w>
           <w lemma="θέλω">θέλομεν</w>
@@ -1385,10 +1387,10 @@
           <w lemma="ἔχω">ἔχοντες</w>
           <w lemma="ἐλπίς">ἐλπίδα.</w>
         </greek>
-        <note term="those who are asleep" kind="background" lemma="κοιμάομαι" traditional="them which are asleep">Sleep was a common euphemism for death in both Greek and Jewish usage, and the word alone does not settle any question about the state of the dead. Some translations render it plainly as “those who have died.” The metaphor is kept here because Paul uses the plain word “the dead” separately in verse 16.</note>
+        <note term="those who are asleep" kind="background" lemma="κοιμάομαι" traditional="those who are asleep">Sleep was a common euphemism for death in both Greek and Jewish usage, and the readers would have understood at once that Paul means members of the community who have died. The image is kept because Paul uses it deliberately alongside the language of rising.</note>
       </verse>
       <verse num="14">
-        <text>For if we believe that Jesus died and rose, then in the same way through Jesus God will bring with him those who have fallen asleep.</text>
+        <text>For if we believe that Jesus died and rose, so also, through Jesus, God will bring with him those who have fallen asleep.</text>
         <greek>
           <w lemma="εἰ">εἰ</w>
           <w lemma="γάρ">γὰρ</w>
@@ -1411,7 +1413,7 @@
           <w lemma="σύν">σὺν</w>
           <w lemma="αὐτός">αὐτῷ.</w>
         </greek>
-        <note term="through Jesus" kind="ambiguity" lemma="" traditional="them also which sleep in Jesus">In the Greek, “through Jesus” stands between “those who have fallen asleep” and “will bring,” and can attach to either. The older tradition reads “those who have fallen asleep through Jesus,” meaning those who died as his people. Many recent translations, as here, take it with the verb: God will bring them through Jesus&#x27; agency. Both readings have scholarly support.</note>
+        <note term="through Jesus" kind="ambiguity" lemma="" traditional="them also which sleep in Jesus">The phrase “through Jesus” can attach to “will bring” (God will bring them through Jesus), as here, or to “fallen asleep” (those who have fallen asleep through Jesus, that is, who died as his people). The traditional rendering “asleep in Jesus” follows the second reading. The Greek word order allows either.</note>
       </verse>
       <verse num="15">
         <text>For this we tell you by a word of the Lord: we who are alive, who are left until the coming of the Lord, will certainly not go ahead of those who have fallen asleep.</text>
@@ -1440,11 +1442,11 @@
           <w lemma="ὁ">τοὺς</w>
           <w lemma="κοιμάομαι">κοιμηθέντας·</w>
         </greek>
-        <note term="by a word of the Lord" kind="ambiguity" lemma="λόγος" traditional="by the word of the Lord">Paul claims the Lord&#x27;s authority for what follows, but it is disputed what he means. He may mean a saying of Jesus handed down in the tradition, whether or not it is preserved in the Gospels. Or he may mean a revelation given through a Christian prophet, possibly Paul himself. The phrase echoes the Septuagint&#x27;s language for prophetic messages.</note>
-        <note term="coming" kind="background" lemma="παρουσία" traditional="coming">The word means arrival and the presence that follows. In the period it was a regular term for the official visit of a king, emperor or high official to a city. Readers in a provincial city such as Thessalonica would have known that usage. Its sense is therefore fuller than the plain English “coming” suggests.</note>
+        <note term="by a word of the Lord" kind="ambiguity" lemma="λόγος" traditional="by the word of the Lord">Paul claims the Lord’s authority for what follows. This may refer to a saying of Jesus handed down in the tradition (whether or not it is recorded in the Gospels) or to a revelation given through a Christian prophet, possibly Paul himself. The Greek does not settle the question.</note>
+        <note term="coming" kind="background" lemma="παρουσία" traditional="coming">The Greek word means “arrival” or “presence,” and was the regular term for the official visit of a king or emperor to a city. A first-century reader would likely have heard that royal overtone in “the coming of the Lord.”</note>
       </verse>
       <verse num="16">
-        <text>For the Lord himself, with a shout of command, with an archangel&#x27;s voice and with God&#x27;s trumpet, will come down from heaven, and the dead in Christ will rise first.</text>
+        <text>For the Lord himself, with a shout of command, with an archangel’s voice and with God’s trumpet, will come down from heaven, and the dead in Christ will rise first;</text>
         <greek>
           <w lemma="ὅτι">ὅτι</w>
           <w lemma="αὐτός">αὐτὸς</w>
@@ -1472,7 +1474,7 @@
         </greek>
       </verse>
       <verse num="17">
-        <text>Then we who are alive, who are left, will be snatched up together with them in clouds to meet the Lord in the air; and so we will always be with the Lord.</text>
+        <text>then we who are alive, who are left, will be snatched up together with them in clouds to meet the Lord in the air; and so we will always be with the Lord.</text>
         <greek>
           <w lemma="ἔπειτα">ἔπειτα</w>
           <w lemma="ἐγώ">ἡμεῖς</w>
@@ -1499,8 +1501,8 @@
           <w lemma="κύριος">κυρίῳ</w>
           <w lemma="εἰμί">ἐσόμεθα.</w>
         </greek>
-        <note term="snatched up" kind="departure" lemma="ἁρπάζω" traditional="caught up">The verb means to seize or carry off suddenly and by force; it is used of robbers, wild animals and abductions. “Caught up” is accurate but has become mild with familiarity. The Latin translation of this word is the source of the English term “rapture.”</note>
-        <note term="to meet the Lord" kind="background" lemma="ἀπάντησις" traditional="to meet the Lord">The Greek noun was often used for a city&#x27;s delegation going out to welcome an arriving dignitary and escort him back in. Many scholars think Paul draws on that picture here, which would imply that those who meet the Lord accompany him on his arrival and are not taken away. Others doubt that the word is a technical term, and the text does not say what happens after the meeting.</note>
+        <note term="snatched up" kind="departure" lemma="ἁρπάζω" traditional="caught up">The verb means to seize or carry off suddenly and forcefully; “snatched” conveys this more directly than the traditional “caught up.” The Latin translation of this word is the source of the later term “rapture.”</note>
+        <note term="to meet the Lord" kind="background" lemma="ἀπάντησις" traditional="to meet the Lord">The Greek noun was often used for the custom of a city’s residents going out to welcome an arriving dignitary and escort him in. Many scholars think Paul’s picture draws on that custom, with believers going out to meet the arriving Lord; others doubt that the word carries this technical sense here. The text itself says only that from then on they will always be with the Lord.</note>
       </verse>
       <verse num="18">
         <text>So then, encourage one another with these words.</text>
@@ -1533,7 +1535,7 @@
           <w lemma="σύ">ὑμῖν</w>
           <w lemma="γράφω">γράφεσθαι,</w>
         </greek>
-        <note term="brothers and sisters" kind="departure" lemma="ἀδελφός" traditional="brothers / brethren">The Greek plural was the ordinary way to address a mixed group of men and women, and the letter is plainly meant for the whole congregation (see verse 27). &#x27;Brothers&#x27; alone now suggests to an English reader that only men are addressed. Several modern translations make the same choice; others keep &#x27;brothers&#x27; with a footnote.</note>
+        <note term="brothers and sisters" kind="departure" lemma="ἀδελφός" traditional="brothers / brethren">The Greek plural is grammatically masculine, but it was the ordinary way to address a mixed group of siblings or fellow members of a community. Since the letter is addressed to the whole assembly, “brothers and sisters” conveys what the first hearers understood. Several modern translations do the same; others keep “brothers” with a footnote.</note>
       </verse>
       <verse num="2">
         <text>for you yourselves know very well that the day of the Lord comes just like a thief in the night.</text>
@@ -1552,7 +1554,7 @@
           <w lemma="οὕτω(ς)">οὕτως</w>
           <w lemma="ἔρχομαι">ἔρχεται.</w>
         </greek>
-        <note term="the day of the Lord" kind="background" lemma="" traditional="">The phrase comes from Israel&#x27;s prophets (for example Amos 5 and Joel 2), where it names the day God acts decisively in judgment and rescue. Paul uses it for the coming of Jesus as Lord, which he has just described at the end of the previous chapter.</note>
+        <note term="the day of the Lord" kind="background" lemma="ἡμέρα" traditional="">The phrase comes from Israel’s prophets, where it names the day when God intervenes to judge and to rescue. Paul applies it to the coming of the Lord Jesus described at the end of the previous chapter.</note>
       </verse>
       <verse num="3">
         <text>When people are saying,<q who="other"> “Peace and security,”</q> then sudden destruction comes upon them, like labor pains upon a pregnant woman, and they will certainly not escape.</text>
@@ -1579,7 +1581,7 @@
           <w lemma="μή">μὴ</w>
           <w lemma="ἐκφεύγω">ἐκφύγωσιν.</w>
         </greek>
-        <note term="“Peace and security,”" kind="background" lemma="" traditional="">Many scholars hear an echo of Roman imperial propaganda, which advertised peace and security as the benefits of Roman rule; Thessalonica was a city that prized its ties to Rome. Others see only an allusion to the false prophets who cried &#x27;Peace&#x27; when there was no peace (Jeremiah 6:14). The two are not mutually exclusive, and the question remains debated.</note>
+        <note term="Peace and security" kind="background" lemma="ἀσφάλεια" traditional="Peace and safety">Many scholars hear in this an echo of Roman imperial propaganda, which advertised peace and security as the benefits of Roman rule. Others think Paul is echoing the prophets’ charge against those who cry “Peace” when there is no peace. The two are not exclusive, and the allusion is not certain.</note>
       </verse>
       <verse num="4">
         <text>But you, brothers and sisters, are not in darkness, so that the day should overtake you like a thief,</text>
@@ -1601,7 +1603,7 @@
         </greek>
       </verse>
       <verse num="5">
-        <text>for you are all children of light and children of the day. We do not belong to night or to darkness.</text>
+        <text>for you are all children of light and children of the day. We do not belong to the night or to darkness.</text>
         <greek>
           <w lemma="πᾶς">πάντες</w>
           <w lemma="γάρ">γὰρ</w>
@@ -1618,7 +1620,6 @@
           <w lemma="οὐδέ">οὐδὲ</w>
           <w lemma="σκότος">σκότους·</w>
         </greek>
-        <note term="children of light" kind="background" lemma="υἱός" traditional="children of light / sons of light">The Greek is literally &#x27;sons of light and sons of day&#x27;, a Semitic idiom in which &#x27;son of X&#x27; means a person who belongs to X or is characterized by it. The expression &#x27;sons of light&#x27; is known from Jewish writings of the period, including the Dead Sea Scrolls. &#x27;Children&#x27; is used because the whole congregation is addressed.</note>
       </verse>
       <verse num="6">
         <text>So then, let us not sleep as the rest do, but let us stay awake and be sober.</text>
@@ -1652,7 +1653,7 @@
         </greek>
       </verse>
       <verse num="8">
-        <text>But since we belong to the day, let us be sober, having put on the breastplate of faith and love, and as a helmet the hope of salvation.</text>
+        <text>But since we belong to the day, let us be sober, putting on the breastplate of faith and love, and as a helmet the hope of salvation.</text>
         <greek>
           <w lemma="ἐγώ">ἡμεῖς</w>
           <w lemma="δέ">δὲ</w>
@@ -1669,7 +1670,6 @@
           <w lemma="ἐλπίς">ἐλπίδα</w>
           <w lemma="σωτηρία">σωτηρίας·</w>
         </greek>
-        <note term="the breastplate of faith and love" kind="background" lemma="" traditional="">The image draws on Isaiah 59:17, where God himself puts on righteousness as a breastplate and a helmet of salvation. Paul applies the armor to believers and attaches to it his familiar triad of faith, love and hope.</note>
       </verse>
       <verse num="9">
         <text>For God did not appoint us for wrath but to obtain salvation through our Lord Jesus Christ,</text>
@@ -1711,7 +1711,7 @@
           <w lemma="αὐτός">αὐτῷ</w>
           <w lemma="ζάω">ζήσωμεν.</w>
         </greek>
-        <note term="whether we are awake or asleep" kind="ambiguity" lemma="καθεύδω" traditional="whether we wake or sleep">These are the same two verbs used in verses 6–7 for moral alertness and moral stupor, but most interpreters take them here to mean &#x27;alive or dead&#x27; at the Lord&#x27;s coming, picking up the concern of 4:13–18 about believers who have died. A minority reads the words in the same moral sense as in verse 6, which sits awkwardly with the exhortation there. The translation keeps the same English words so the reader can see the echo.</note>
+        <note term="whether we are awake or asleep" kind="ambiguity" lemma="γρηγορέω" traditional="">The verbs are the same ones used in verse 6 for moral alertness and moral slumber. Most interpreters take them here to mean being alive or dead when the Lord comes, picking up the concern of 4:13–18. A minority reads them as still meaning watchful or unwatchful.</note>
       </verse>
       <verse num="11">
         <text>Therefore encourage one another and build each other up, just as you are in fact doing.</text>
@@ -1750,10 +1750,10 @@
           <w lemma="νουθετέω">νουθετοῦντας</w>
           <w lemma="σύ">ὑμᾶς,</w>
         </greek>
-        <note term="lead you" kind="ambiguity" lemma="προΐστημι" traditional="are over you">The Greek verb can mean either &#x27;stand at the head of, lead&#x27; or &#x27;care for, give aid to&#x27;, and both senses are well attested in the period. Standing between &#x27;labor&#x27; and &#x27;admonish&#x27;, it may describe practical care and patronage as much as authority; some translations render it &#x27;care for you&#x27;. No formal office is named.</note>
+        <note term="lead you" kind="ambiguity" lemma="προΐστημι" traditional="are over you">The Greek verb can mean to preside over or lead, and also to care for or give aid to. Both senses were current, and translations divide between “are over you” or “have charge of you” and “care for you.” The three descriptions in this verse share one article in Greek and describe a single group of people.</note>
       </verse>
       <verse num="13">
-        <text>and to hold them in the very highest regard in love because of their work. Be at peace among yourselves.</text>
+        <text>and to esteem them most highly in love because of their work. Be at peace among yourselves.</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="ἡγέομαι">ἡγεῖσθαι</w>
@@ -1771,7 +1771,7 @@
         </greek>
       </verse>
       <verse num="14">
-        <text>And we urge you, brothers and sisters: admonish the disorderly, comfort the fainthearted, help the weak, be patient with everyone.</text>
+        <text>And we urge you, brothers and sisters: admonish the disorderly, comfort the fainthearted, support the weak, be patient with everyone.</text>
         <greek>
           <w lemma="παρακαλέω">παρακαλοῦμεν</w>
           <w lemma="δέ">δὲ</w>
@@ -1790,7 +1790,7 @@
           <w lemma="πρός">πρὸς</w>
           <w lemma="πᾶς">πάντας.</w>
         </greek>
-        <note term="the disorderly" kind="departure" lemma="ἄτακτος" traditional="the idle / the unruly">The word means &#x27;out of order, undisciplined&#x27;, used for example of soldiers who break ranks. Many modern versions translate &#x27;idle&#x27; because 2 Thessalonians 3:6–11 uses related words of people who refuse to work, and some papyri use the word group for absence from work. The word itself is broader than laziness, however, so the general sense is kept here; older English versions had &#x27;unruly&#x27;.</note>
+        <note term="the disorderly" kind="departure" lemma="ἄτακτος" traditional="the idle (many modern versions); the unruly (KJV)">The word describes someone out of line or undisciplined, originally of soldiers who break rank. Many modern versions have “idle” because the related words in 2 Thessalonians 3:6–11 are used of people who refuse to work, and papyri use them of shirking duties. The word itself is broader than laziness, so “disorderly” is used here.</note>
       </verse>
       <verse num="15">
         <text>See that no one repays anyone evil for evil, but always pursue what is good, both for one another and for everyone.</text>
@@ -1816,7 +1816,7 @@
         </greek>
       </verse>
       <verse num="16">
-        <text>Rejoice always,</text>
+        <text><p/>Rejoice always,</text>
         <greek>
           <w lemma="πάντοτε">πάντοτε</w>
           <w lemma="χαίρω">χαίρετε,</w>
@@ -1864,7 +1864,7 @@
         </greek>
       </verse>
       <verse num="21">
-        <text>but test everything; hold on to what is good,</text>
+        <text>but test everything; keep hold of what is good,</text>
         <greek>
           <w lemma="πᾶς">πάντα</w>
           <w lemma="δέ">δὲ</w>
@@ -1875,7 +1875,7 @@
         </greek>
       </verse>
       <verse num="22">
-        <text>hold back from every kind of evil.</text>
+        <text>keep away from every kind of evil.</text>
         <greek>
           <w lemma="ἀπό">ἀπὸ</w>
           <w lemma="πᾶς">παντὸς</w>
@@ -1883,10 +1883,10 @@
           <w lemma="πονηρός">πονηροῦ</w>
           <w lemma="ἀπέχω">ἀπέχεσθε.</w>
         </greek>
-        <note term="every kind of evil" kind="ambiguity" lemma="εἶδος" traditional="all appearance of evil">The Greek noun can mean either &#x27;outward appearance&#x27; or &#x27;kind, sort&#x27;. The King James Version took the first sense (&#x27;abstain from all appearance of evil&#x27;), which has often been understood as avoiding anything that merely looks wrong. Most scholars and modern translations take it as &#x27;kind&#x27; or &#x27;form&#x27;, which fits the contrast with &#x27;what is good&#x27; in the previous verse. The two commands use related verbs in Greek, reflected here in &#x27;hold on to&#x27; and &#x27;hold back from&#x27;.</note>
+        <note term="every kind of evil" kind="ambiguity" lemma="εἶδος" traditional="all appearance of evil (KJV); every form of evil">The Greek noun can mean outward appearance or kind, sort. The KJV’s “appearance of evil” has been widely taken to mean avoiding whatever merely looks wrong, but most scholars and modern versions take the sense here to be “every kind” or “every form” of evil. The verb echoes the one in verse 21, a play the translation keeps with “keep hold of” and “keep away from.”</note>
       </verse>
       <verse num="23">
-        <text><p/>Now may the God of peace himself make you holy through and through, and may your spirit and soul and body be kept whole and without blame at the coming of our Lord Jesus Christ.</text>
+        <text><p/>Now may the God of peace himself make you holy through and through, and may your spirit and soul and body be kept whole and blameless at the coming of our Lord Jesus Christ.</text>
         <greek>
           <w lemma="αὐτός">Αὐτὸς</w>
           <w lemma="δέ">δὲ</w>
@@ -1919,7 +1919,9 @@
           <w lemma="Χριστός">Χριστοῦ</w>
           <w lemma="τηρέω">τηρηθείη.</w>
         </greek>
-        <note term="coming" kind="background" lemma="παρουσία" traditional="coming">The Greek word means both arrival and presence, and in the period it was a standard term for the official visit of a king or emperor to a city. Readers in Thessalonica would have heard that overtone when it was used of the Lord Jesus.</note>
+        <note term="make you holy" kind="departure" lemma="ἁγιάζω" traditional="sanctify">The Greek verb is built directly on the ordinary word for “holy,” and “make holy” keeps that link visible. Most traditional versions have “sanctify,” which means the same thing but now suggests a technical doctrine to many readers. The meaning is not disputed; the choice is one of clarity.</note>
+        <note term="spirit and soul and body" kind="background" lemma="ψυχή" traditional="">Some have read this as a formal statement that a human being has three parts. Most scholars take it as a piling up of terms for the whole person, in keeping with the stress on “through and through” and “whole” in the same sentence.</note>
+        <note term="coming" kind="background" lemma="παρουσία" traditional="coming">The Greek word means arrival or presence, and it was commonly used for the official visit of a ruler or high dignitary to a city. Paul uses it for the arrival of Jesus as Lord.</note>
       </verse>
       <verse num="24">
         <text>The one who calls you is faithful, and he will do it.</text>
@@ -1955,7 +1957,7 @@
         </greek>
       </verse>
       <verse num="27">
-        <text>I put you under oath before the Lord to have this letter read to all the brothers and sisters.</text>
+        <text>I put you under oath by the Lord that this letter be read to all the brothers and sisters.</text>
         <greek>
           <w lemma="ἐνορκίζω">ἐνορκίζω</w>
           <w lemma="σύ">ὑμᾶς</w>
@@ -1968,7 +1970,7 @@
           <w lemma="ὁ">τοῖς</w>
           <w lemma="ἀδελφός">ἀδελφοῖς.</w>
         </greek>
-        <note term="I put you under oath before the Lord" kind="background" lemma="ἐνορκίζω" traditional="I charge you by the Lord / I adjure you by the Lord">The letter shifts here from &#x27;we&#x27; to &#x27;I&#x27;, which suggests Paul adding a closing line in his own person. The verb is a strong one, binding the recipients by oath with the Lord as witness. Letters were read aloud to the gathered congregation, and Paul insists that no one be left out.</note>
+        <note term="I put you under oath by the Lord" kind="background" lemma="ἐνορκίζω" traditional="I charge you by the Lord">The verb is strong: it binds the recipients by oath, with the Lord as the one sworn by. The letter shifts here from “we” to “I,” probably Paul speaking for himself. Letters were read aloud to the gathered community, and Paul insists that no one be left out.</note>
       </verse>
       <verse num="28">
         <text>The grace of our Lord Jesus Christ be with you.</text>

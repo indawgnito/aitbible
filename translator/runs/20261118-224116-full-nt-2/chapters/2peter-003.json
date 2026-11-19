@@ -1,0 +1,357 @@
+{
+ "id": "2peter-003",
+ "book": "2peter",
+ "chapter": 3,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14hPQvagQAZMXtD4v",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 8992,
+  "output_tokens": 9965
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"This is now the second letter I am writing to you, dear friends. In both of them I am stirring up your sincere minds by way of reminder,\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"so that you remember the words spoken beforehand by the holy prophets and the command of the Lord and Savior given through your apostles.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"First of all, know this: in the last days mockers will come with their mockery, following their own desires\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and saying,\"},{\"speaker\":\"other\",\"text\":\"“Where is the promise of his coming? For from the day the fathers fell asleep, everything continues just as it has from the beginning of creation.”\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For they deliberately let this escape them: that heavens existed long ago, and an earth formed out of water and through water by the word of God,\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and by these the world of that time was deluged with water and perished.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But the present heavens and earth, by the same word, have been stored up for fire, kept for the day of judgment and destruction of ungodly people.\"}]},{\"verse\":8,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But do not let this one thing escape you, dear friends: with the Lord one day is like a thousand years, and a thousand years like one day.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The Lord is not slow about his promise, as some consider slowness, but is patient toward you, not wanting any to perish but all to come to turning back.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But the day of the Lord will come like a thief. On that day the heavens will pass away with a roar, the elements will be dissolved in the heat, and the earth and the works done on it will be found out.\"}]},{\"verse\":11,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Since all these things are to be dissolved in this way, what kind of people you ought to be, living in holy conduct and godliness,\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"waiting for and hastening the coming of the day of God, because of which the heavens will be set on fire and dissolved, and the elements will melt in the heat!\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But according to his promise we wait for new heavens and a new earth, in which righteousness dwells.\"}]},{\"verse\":14,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Therefore, dear friends, since you are waiting for these things, make every effort to be found by him spotless and blameless, in peace,\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and consider our Lord’s patience to be salvation, just as our dear brother Paul also wrote to you according to the wisdom given to him,\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"as he does in all his letters when he speaks in them about these things. In them are some things hard to understand, which the untaught and unstable twist, as they do the rest of the Scriptures, to their own destruction.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"You therefore, dear friends, knowing this beforehand, be on your guard, so that you are not carried away by the error of the lawless and fall from your own stability.\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But grow in the grace and knowledge of our Lord and Savior Jesus Christ. To him be the glory both now and to the day of eternity. Amen.\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"dear friends\",\"lemma\":\"ἀγαπητός\",\"kind\":\"departure\",\"traditional\":\"beloved\",\"note\":\"The Greek word means “loved ones” and was an ordinary warm form of address. “Beloved” is the traditional rendering and is still used by several modern versions, but as a form of address it now sounds archaic. The same word is rendered “dear” of Paul in verse 15.\"},{\"verse\":4,\"phrase\":\"coming\",\"lemma\":\"παρουσία\",\"kind\":\"background\",\"traditional\":\"coming\",\"note\":\"The Greek word means both arrival and presence, and was the regular term for the official visit of a king or emperor to a city. Christians used it for the expected return of Jesus. The same word is used in verse 12 of the arrival of “the day of God.”\"},{\"verse\":4,\"phrase\":\"the fathers\",\"lemma\":\"πατήρ\",\"kind\":\"ambiguity\",\"traditional\":\"the fathers\",\"note\":\"This may mean the ancestors of Israel, as “the fathers” usually does in the New Testament, or the first generation of Christians, who had died without seeing the promised coming. Scholars are divided. The mockers’ appeal to “the beginning of creation” fits the first; the complaint about a delayed promise fits the second.\"},{\"verse\":5,\"phrase\":\"they deliberately let this escape them\",\"lemma\":\"θέλω\",\"kind\":\"ambiguity\",\"traditional\":\"they willingly are ignorant of / they deliberately overlook this fact\",\"note\":\"The Greek can also be read “for in maintaining this, it escapes them that…,” where “this” is the mockers’ claim in verse 4. Most translations take it as deliberate ignorance, as here. The same verb “escape” returns in verse 8, where the readers are told not to make the mockers’ mistake.\"},{\"verse\":5,\"phrase\":\"heavens\",\"lemma\":\"οὐρανός\",\"kind\":\"register-exception\",\"traditional\":\"the heavens\",\"note\":\"The Greek is plural throughout this chapter and refers to the created heavens paired with the earth, not specifically to God’s dwelling. The plural is kept, as most English versions do here, because “heaven” would suggest God’s dwelling and “sky” would be too narrow for a passage about the whole created order. The phrase echoes “the heavens and the earth” of Genesis 1.\"},{\"verse\":6,\"phrase\":\"by these\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"whereby / through which\",\"note\":\"The Greek pronoun is plural, and what it refers to is disputed. It may mean the waters (the earth was formed “out of water and through water” in verse 5, recalling Genesis 1), or water and God’s word together, or the heavens and the earth. In any case the allusion is to the flood of Genesis 6–8.\"},{\"verse\":8,\"phrase\":\"one day is like a thousand years\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"This draws on Psalm 90:4, “a thousand years in your sight are like yesterday when it is past.” The point is that God’s timescale is not the human one, so what looks like delay is not delay.\"},{\"verse\":9,\"phrase\":\"turning back\",\"lemma\":\"μετάνοια\",\"kind\":\"departure\",\"traditional\":\"repentance\",\"note\":\"“Repentance” now suggests mainly feeling sorry. The Greek word, shaped by the prophets’ call to “return” to God, means a change of direction in mind and conduct. Most translations keep “repentance” as an established term that readers understand to include a change of life.\"},{\"verse\":10,\"phrase\":\"the elements\",\"lemma\":\"στοιχεῖον\",\"kind\":\"ambiguity\",\"traditional\":\"the elements\",\"note\":\"The Greek word could mean the basic materials of the physical world (earth, air, fire, water) or the heavenly bodies (sun, moon, and stars). Both senses are attested in the period, and scholars are divided. Because the word stands between “the heavens” and “the earth,” many favor the heavenly bodies.\"},{\"verse\":10,\"phrase\":\"will be found out\",\"lemma\":\"εὑρίσκω\",\"kind\":\"textual\",\"traditional\":\"shall be burned up\",\"note\":\"The earliest manuscripts read “will be found,” which is difficult and is replaced in later manuscripts by “will be burned up” (so the King James Version), “will vanish,” and other readings. Most editors accept “will be found” as original and take it to mean exposed to God’s judgment; modern versions render it “laid bare,” “exposed,” or “disclosed.” The same verb recurs in verse 14, “to be found by him spotless.”\"},{\"verse\":12,\"phrase\":\"hastening\",\"lemma\":\"σπεύδω\",\"kind\":\"ambiguity\",\"traditional\":\"hasting unto / hastening\",\"note\":\"The verb can mean “to hurry something along” or “to be eager for, strive toward.” The first, adopted here and by most modern translations, implies that the readers’ way of life can bring the day nearer, an idea found in Jewish writings of the period. The second would give “waiting for and eagerly desiring the coming.”\"},{\"verse\":16,\"phrase\":\"the rest of the Scriptures\",\"lemma\":\"γραφή\",\"kind\":\"background\",\"traditional\":\"the other scriptures\",\"note\":\"The Greek word can mean simply “writings,” but in the New Testament it regularly means the sacred Scriptures. The phrase places Paul’s letters alongside them. It is one of the earliest indications that a collection of Paul’s letters was circulating and being read as authoritative.\"},{\"verse\":18,\"phrase\":\"to the day of eternity\",\"lemma\":\"αἰών\",\"kind\":\"ambiguity\",\"traditional\":\"for ever\",\"note\":\"The Greek phrase, literally “to the day of the age,” occurs only here in the New Testament. It is not the usual idiom for “forever.” It probably means the day on which the age to come dawns, picking up the chapter’s theme of “the day of the Lord,” though some take it as eternity itself pictured as a single unending day.\"}],\"candidates\":[{\"lemma\":\"ἀγαπητός\",\"rendering\":\"dear friends (address) / dear\",\"verse\":1,\"reason\":\"Very frequent address in the letters; “beloved,” “dear friends,” and “loved ones” would otherwise vary from chapter to chapter.\"},{\"lemma\":\"στοιχεῖον\",\"rendering\":\"elements\",\"verse\":10,\"reason\":\"Recurs in Galatians 4, Colossians 2, and Hebrews 5 with disputed senses (physical elements, heavenly bodies, elemental powers, basic principles), and needs a coordinated policy.\"},{\"lemma\":\"εὐσέβεια\",\"rendering\":\"godliness\",\"verse\":11,\"reason\":\"Common in the Pastoral Letters and 2 Peter; “godliness,” “devotion,” “piety,” and “reverence” are all defensible, and it should match the renderings of ἀσεβής (“ungodly”).\"},{\"lemma\":\"ἀπώλεια\",\"rendering\":\"destruction\",\"verse\":7,\"reason\":\"With the verb ἀπόλλυμι (“perish” here), it recurs across the New Testament, and the choice among “destruction,” “ruin,” and “perishing” carries theological weight.\"},{\"lemma\":\"μακροθυμία\",\"rendering\":\"patience\",\"verse\":15,\"reason\":\"With μακροθυμέω, it recurs widely and needs to be distinguished consistently from ὑπομονή (“endurance”), with which “patience” is often confused in the tradition.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "This is now the second letter I am writing to you, dear friends. In both of them I am stirring up your sincere minds by way of reminder,"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "so that you remember the words spoken beforehand by the holy prophets and the command of the Lord and Savior given through your apostles."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "First of all, know this: in the last days mockers will come with their mockery, following their own desires"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Where is the promise of his coming? For from the day the fathers fell asleep, everything continues just as it has from the beginning of creation.”"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For they deliberately let this escape them: that heavens existed long ago, and an earth formed out of water and through water by the word of God,"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and by these the world of that time was deluged with water and perished."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But the present heavens and earth, by the same word, have been stored up for fire, kept for the day of judgment and destruction of ungodly people."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But do not let this one thing escape you, dear friends: with the Lord one day is like a thousand years, and a thousand years like one day."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The Lord is not slow about his promise, as some consider slowness, but is patient toward you, not wanting any to perish but all to come to turning back."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But the day of the Lord will come like a thief. On that day the heavens will pass away with a roar, the elements will be dissolved in the heat, and the earth and the works done on it will be found out."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Since all these things are to be dissolved in this way, what kind of people you ought to be, living in holy conduct and godliness,"
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "waiting for and hastening the coming of the day of God, because of which the heavens will be set on fire and dissolved, and the elements will melt in the heat!"
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But according to his promise we wait for new heavens and a new earth, in which righteousness dwells."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Therefore, dear friends, since you are waiting for these things, make every effort to be found by him spotless and blameless, in peace,"
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and consider our Lord’s patience to be salvation, just as our dear brother Paul also wrote to you according to the wisdom given to him,"
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "as he does in all his letters when he speaks in them about these things. In them are some things hard to understand, which the untaught and unstable twist, as they do the rest of the Scriptures, to their own destruction."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "You therefore, dear friends, knowing this beforehand, be on your guard, so that you are not carried away by the error of the lawless and fall from your own stability."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But grow in the grace and knowledge of our Lord and Savior Jesus Christ. To him be the glory both now and to the day of eternity. Amen."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "dear friends",
+    "lemma": "ἀγαπητός",
+    "kind": "departure",
+    "traditional": "beloved",
+    "note": "The Greek word means “loved ones” and was an ordinary warm form of address. “Beloved” is the traditional rendering and is still used by several modern versions, but as a form of address it now sounds archaic. The same word is rendered “dear” of Paul in verse 15."
+   },
+   {
+    "verse": 4,
+    "phrase": "coming",
+    "lemma": "παρουσία",
+    "kind": "background",
+    "traditional": "coming",
+    "note": "The Greek word means both arrival and presence, and was the regular term for the official visit of a king or emperor to a city. Christians used it for the expected return of Jesus. The same word is used in verse 12 of the arrival of “the day of God.”"
+   },
+   {
+    "verse": 4,
+    "phrase": "the fathers",
+    "lemma": "πατήρ",
+    "kind": "ambiguity",
+    "traditional": "the fathers",
+    "note": "This may mean the ancestors of Israel, as “the fathers” usually does in the New Testament, or the first generation of Christians, who had died without seeing the promised coming. Scholars are divided. The mockers’ appeal to “the beginning of creation” fits the first; the complaint about a delayed promise fits the second."
+   },
+   {
+    "verse": 5,
+    "phrase": "they deliberately let this escape them",
+    "lemma": "θέλω",
+    "kind": "ambiguity",
+    "traditional": "they willingly are ignorant of / they deliberately overlook this fact",
+    "note": "The Greek can also be read “for in maintaining this, it escapes them that…,” where “this” is the mockers’ claim in verse 4. Most translations take it as deliberate ignorance, as here. The same verb “escape” returns in verse 8, where the readers are told not to make the mockers’ mistake."
+   },
+   {
+    "verse": 5,
+    "phrase": "heavens",
+    "lemma": "οὐρανός",
+    "kind": "register-exception",
+    "traditional": "the heavens",
+    "note": "The Greek is plural throughout this chapter and refers to the created heavens paired with the earth, not specifically to God’s dwelling. The plural is kept, as most English versions do here, because “heaven” would suggest God’s dwelling and “sky” would be too narrow for a passage about the whole created order. The phrase echoes “the heavens and the earth” of Genesis 1."
+   },
+   {
+    "verse": 6,
+    "phrase": "by these",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "whereby / through which",
+    "note": "The Greek pronoun is plural, and what it refers to is disputed. It may mean the waters (the earth was formed “out of water and through water” in verse 5, recalling Genesis 1), or water and God’s word together, or the heavens and the earth. In any case the allusion is to the flood of Genesis 6–8."
+   },
+   {
+    "verse": 8,
+    "phrase": "one day is like a thousand years",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "This draws on Psalm 90:4, “a thousand years in your sight are like yesterday when it is past.” The point is that God’s timescale is not the human one, so what looks like delay is not delay."
+   },
+   {
+    "verse": 9,
+    "phrase": "turning back",
+    "lemma": "μετάνοια",
+    "kind": "departure",
+    "traditional": "repentance",
+    "note": "“Repentance” now suggests mainly feeling sorry. The Greek word, shaped by the prophets’ call to “return” to God, means a change of direction in mind and conduct. Most translations keep “repentance” as an established term that readers understand to include a change of life."
+   },
+   {
+    "verse": 10,
+    "phrase": "the elements",
+    "lemma": "στοιχεῖον",
+    "kind": "ambiguity",
+    "traditional": "the elements",
+    "note": "The Greek word could mean the basic materials of the physical world (earth, air, fire, water) or the heavenly bodies (sun, moon, and stars). Both senses are attested in the period, and scholars are divided. Because the word stands between “the heavens” and “the earth,” many favor the heavenly bodies."
+   },
+   {
+    "verse": 10,
+    "phrase": "will be found out",
+    "lemma": "εὑρίσκω",
+    "kind": "textual",
+    "traditional": "shall be burned up",
+    "note": "The earliest manuscripts read “will be found,” which is difficult and is replaced in later manuscripts by “will be burned up” (so the King James Version), “will vanish,” and other readings. Most editors accept “will be found” as original and take it to mean exposed to God’s judgment; modern versions render it “laid bare,” “exposed,” or “disclosed.” The same verb recurs in verse 14, “to be found by him spotless.”"
+   },
+   {
+    "verse": 12,
+    "phrase": "hastening",
+    "lemma": "σπεύδω",
+    "kind": "ambiguity",
+    "traditional": "hasting unto / hastening",
+    "note": "The verb can mean “to hurry something along” or “to be eager for, strive toward.” The first, adopted here and by most modern translations, implies that the readers’ way of life can bring the day nearer, an idea found in Jewish writings of the period. The second would give “waiting for and eagerly desiring the coming.”"
+   },
+   {
+    "verse": 16,
+    "phrase": "the rest of the Scriptures",
+    "lemma": "γραφή",
+    "kind": "background",
+    "traditional": "the other scriptures",
+    "note": "The Greek word can mean simply “writings,” but in the New Testament it regularly means the sacred Scriptures. The phrase places Paul’s letters alongside them. It is one of the earliest indications that a collection of Paul’s letters was circulating and being read as authoritative."
+   },
+   {
+    "verse": 18,
+    "phrase": "to the day of eternity",
+    "lemma": "αἰών",
+    "kind": "ambiguity",
+    "traditional": "for ever",
+    "note": "The Greek phrase, literally “to the day of the age,” occurs only here in the New Testament. It is not the usual idiom for “forever.” It probably means the day on which the age to come dawns, picking up the chapter’s theme of “the day of the Lord,” though some take it as eternity itself pictured as a single unending day."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "ἀγαπητός",
+    "rendering": "dear friends (address) / dear",
+    "verse": 1,
+    "reason": "Very frequent address in the letters; “beloved,” “dear friends,” and “loved ones” would otherwise vary from chapter to chapter."
+   },
+   {
+    "lemma": "στοιχεῖον",
+    "rendering": "elements",
+    "verse": 10,
+    "reason": "Recurs in Galatians 4, Colossians 2, and Hebrews 5 with disputed senses (physical elements, heavenly bodies, elemental powers, basic principles), and needs a coordinated policy."
+   },
+   {
+    "lemma": "εὐσέβεια",
+    "rendering": "godliness",
+    "verse": 11,
+    "reason": "Common in the Pastoral Letters and 2 Peter; “godliness,” “devotion,” “piety,” and “reverence” are all defensible, and it should match the renderings of ἀσεβής (“ungodly”)."
+   },
+   {
+    "lemma": "ἀπώλεια",
+    "rendering": "destruction",
+    "verse": 7,
+    "reason": "With the verb ἀπόλλυμι (“perish” here), it recurs across the New Testament, and the choice among “destruction,” “ruin,” and “perishing” carries theological weight."
+   },
+   {
+    "lemma": "μακροθυμία",
+    "rendering": "patience",
+    "verse": 15,
+    "reason": "With μακροθυμέω, it recurs widely and needs to be distinguished consistently from ὑπομονή (“endurance”), with which “patience” is often confused in the tradition."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 4612,
+   "output_tokens": 245
+  },
+  "findings": [],
+  "error": ""
+ }
+}

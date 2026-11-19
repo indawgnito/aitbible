@@ -1,0 +1,345 @@
+{
+ "id": "2timothy-001",
+ "book": "2timothy",
+ "chapter": 1,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14ffEhzmSMrnkrAzE",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 10192,
+  "output_tokens": 8962
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Paul, an apostle of Christ Jesus by the will of God, in keeping with the promise of the life that is in Christ Jesus,\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"to Timothy, my beloved child: Grace, mercy, and peace from God the Father and Christ Jesus our Lord.\"}]},{\"verse\":3,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"I am grateful to God, whom I serve with a clear conscience as my ancestors did, as I constantly remember you in my prayers night and day.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Remembering your tears, I long to see you, so that I may be filled with joy.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"I have been reminded of the sincere faith that is in you, a faith that lived first in your grandmother Lois and your mother Eunice and, I am convinced, lives in you too.\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For this reason I remind you to fan into flame the gift of God that is in you through the laying on of my hands.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For God did not give us a spirit of cowardice, but of power and love and self-discipline.\"}]},{\"verse\":8,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So do not be ashamed of the testimony about our Lord, or of me, his prisoner. Instead, share in suffering for the good news by the power of God.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He saved us and called us with a holy calling, not according to our works but according to his own purpose and grace. This grace was given to us in Christ Jesus before long ages began,\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"but has now been revealed through the appearing of our Savior Jesus Christ, who abolished death and brought life and immortality to light through the good news.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For this good news I was appointed a herald and apostle and teacher.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For this reason I also suffer these things. But I am not ashamed, for I know whom I have trusted, and I am convinced that he is able to guard what I have deposited with him until that day.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Hold to the pattern of sound words that you heard from me, in the faith and love that are in Christ Jesus.\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Guard the good deposit through the Holy Spirit who lives in us.\"}]},{\"verse\":15,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"You know this: everyone in Asia turned away from me, among them Phygelus and Hermogenes.\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"May the Lord grant mercy to the household of Onesiphorus, because he often refreshed me and was not ashamed of my chain.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Instead, when he came to Rome, he searched hard for me and found me—\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"may the Lord grant him to find mercy from the Lord on that day—and you know very well how much service he gave in Ephesus.\"}]}],\"notes\":[{\"verse\":3,\"phrase\":\"night and day\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"\",\"note\":\"In the Greek, “night and day” stands between the mention of Paul's prayers and the words “longing to see you” in the next verse, and it can go with either. The text attaches it to the prayers; the alternative is “night and day I long to see you.”\"},{\"verse\":7,\"phrase\":\"a spirit\",\"lemma\":\"πνεῦμα\",\"kind\":\"ambiguity\",\"traditional\":\"\",\"note\":\"The Greek does not distinguish capital from lowercase, and the word can mean either a disposition (“a spirit of cowardice”) or God's Spirit (“the Spirit God gave us is not one of cowardice”). Many interpreters think the Holy Spirit is in view, since verse 14 speaks of the Spirit living in believers. The lowercase rendering is used because it fits both halves of the sentence.\"},{\"verse\":7,\"phrase\":\"cowardice\",\"lemma\":\"δειλία\",\"kind\":\"departure\",\"traditional\":\"fear\",\"note\":\"The traditional “spirit of fear” suggests fear in general, but this Greek word is not the ordinary word for fear. In the usage of the period it means cowardice, a failure of nerve regarded as a fault, and it leads directly to “do not be ashamed” in the next verse. Some modern versions have “timidity” and others already use “cowardice.”\"},{\"verse\":7,\"phrase\":\"self-discipline\",\"lemma\":\"σωφρονισμός\",\"kind\":\"ambiguity\",\"traditional\":\"a sound mind\",\"note\":\"This word occurs only here in the New Testament. It belongs to a word family for good sense and self-control, and can mean either the exercise of self-control or the act of bringing someone to their senses. “Self-discipline” and “self-control” are the usual modern renderings; the older “sound mind” takes it as a state of good judgment.\"},{\"verse\":8,\"phrase\":\"good news\",\"lemma\":\"εὐαγγέλιον\",\"kind\":\"departure\",\"traditional\":\"gospel\",\"note\":\"“Gospel” is now a religious term or the name of a kind of book. The Greek was an ordinary word for a public announcement of good news, also used of imperial proclamations. Many modern translations alternate between “gospel” and “good news.”\"},{\"verse\":9,\"phrase\":\"before long ages began\",\"lemma\":\"αἰώνιος\",\"kind\":\"departure\",\"traditional\":\"before the world began\",\"note\":\"The Greek is literally “before age-long times,” using the plural of the word for a period of time with the adjective usually rendered “eternal.” The phrase points back before the whole span of history; translations vary between “before the world began,” “before the ages began,” and “before the beginning of time.” The same expression occurs in Titus 1:2.\"},{\"verse\":10,\"phrase\":\"appearing\",\"lemma\":\"ἐπιφάνεια\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"This word was used in the Greek-speaking world for the visible manifestation of a god or the ceremonial arrival of a ruler, and “savior” was likewise a title given to gods and emperors. Elsewhere in these letters the word refers to Christ's future coming. Here it refers to his first coming.\"},{\"verse\":11,\"phrase\":\"herald\",\"lemma\":\"κῆρυξ\",\"kind\":\"departure\",\"traditional\":\"preacher\",\"note\":\"The word names the official who made public announcements on behalf of a ruler or city, which fits the “good news” as a proclamation. “Preacher” now suggests someone giving sermons in church. Several modern translations also use “herald.”\"},{\"verse\":11,\"phrase\":\"teacher\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"teacher of the Gentiles\",\"note\":\"Many manuscripts read “teacher of the Gentiles,” as in the King James Version. The shorter reading is found in a few early witnesses and is generally preferred by editors, on the view that the longer one was copied in from the parallel at 1 Timothy 2:7.\"},{\"verse\":12,\"phrase\":\"what I have deposited with him\",\"lemma\":\"παραθήκη\",\"kind\":\"ambiguity\",\"traditional\":\"that which I have committed unto him\",\"note\":\"The Greek is literally “my deposit,” a legal term for property left in someone's safekeeping. It can mean what Paul has entrusted to God (his life or his work) or what God has entrusted to Paul (the message), which is the sense the same word has in verse 14. The text follows the majority reading; the other has serious support.\"},{\"verse\":15,\"phrase\":\"Asia\",\"lemma\":\"Ἀσία\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"Asia here is the Roman province of that name in the west of what is now Turkey, with Ephesus as its chief city. It is not the continent. Nothing further is known of Phygelus and Hermogenes.\"},{\"verse\":16,\"phrase\":\"the household of Onesiphorus\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"Paul prays for the household of Onesiphorus here and greets it again at 4:19. For the man himself he asks mercy “on that day.” Some interpreters infer that Onesiphorus had died; others think he was simply away from home. The text does not settle it.\"}],\"candidates\":[{\"lemma\":\"χάρισμα\",\"rendering\":\"gift\",\"verse\":6,\"reason\":\"Recurs across Paul and 1 Peter, where translators vary between “gift,” “spiritual gift,” “grace-gift” and “charism,” and the link to χάρις is easily lost.\"},{\"lemma\":\"ἐπιφάνεια\",\"rendering\":\"appearing\",\"verse\":10,\"reason\":\"Used in the Pastorals and 2 Thessalonians of Christ's first and future coming; “appearing,” “manifestation” and “epiphany” are all in use and should not vary.\"},{\"lemma\":\"ἀφθαρσία\",\"rendering\":\"immortality\",\"verse\":10,\"reason\":\"In 1 Corinthians 15:53–54 it stands beside ἀθανασία and must be kept distinct (“imperishability”), so one decision is needed for Romans 2:7, 1 Corinthians 15, Ephesians 6:24 and here.\"},{\"lemma\":\"παραθήκη\",\"rendering\":\"deposit\",\"verse\":12,\"reason\":\"Occurs at 1 Timothy 6:20 and 2 Timothy 1:12, 14 as a deliberate repeated term; “deposit,” “what has been entrusted” and “trust” should not alternate.\"},{\"lemma\":\"δέησις\",\"rendering\":\"prayers\",\"verse\":3,\"reason\":\"Frequently paired with προσευχή (e.g. Ephesians 6:18; Philippians 4:6; 1 Timothy 2:1), so a fixed distinction between “prayer” and “petition” or “entreaty” is needed.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Paul, an apostle of Christ Jesus by the will of God, in keeping with the promise of the life that is in Christ Jesus,"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "to Timothy, my beloved child: Grace, mercy, and peace from God the Father and Christ Jesus our Lord."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "I am grateful to God, whom I serve with a clear conscience as my ancestors did, as I constantly remember you in my prayers night and day."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Remembering your tears, I long to see you, so that I may be filled with joy."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "I have been reminded of the sincere faith that is in you, a faith that lived first in your grandmother Lois and your mother Eunice and, I am convinced, lives in you too."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For this reason I remind you to fan into flame the gift of God that is in you through the laying on of my hands."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For God did not give us a spirit of cowardice, but of power and love and self-discipline."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So do not be ashamed of the testimony about our Lord, or of me, his prisoner. Instead, share in suffering for the good news by the power of God."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He saved us and called us with a holy calling, not according to our works but according to his own purpose and grace. This grace was given to us in Christ Jesus before long ages began,"
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "but has now been revealed through the appearing of our Savior Jesus Christ, who abolished death and brought life and immortality to light through the good news."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For this good news I was appointed a herald and apostle and teacher."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For this reason I also suffer these things. But I am not ashamed, for I know whom I have trusted, and I am convinced that he is able to guard what I have deposited with him until that day."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Hold to the pattern of sound words that you heard from me, in the faith and love that are in Christ Jesus."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Guard the good deposit through the Holy Spirit who lives in us."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "You know this: everyone in Asia turned away from me, among them Phygelus and Hermogenes."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "May the Lord grant mercy to the household of Onesiphorus, because he often refreshed me and was not ashamed of my chain."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Instead, when he came to Rome, he searched hard for me and found me—"
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "may the Lord grant him to find mercy from the Lord on that day—and you know very well how much service he gave in Ephesus."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 3,
+    "phrase": "night and day",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "",
+    "note": "In the Greek, “night and day” stands between the mention of Paul's prayers and the words “longing to see you” in the next verse, and it can go with either. The text attaches it to the prayers; the alternative is “night and day I long to see you.”"
+   },
+   {
+    "verse": 7,
+    "phrase": "a spirit",
+    "lemma": "πνεῦμα",
+    "kind": "ambiguity",
+    "traditional": "",
+    "note": "The Greek does not distinguish capital from lowercase, and the word can mean either a disposition (“a spirit of cowardice”) or God's Spirit (“the Spirit God gave us is not one of cowardice”). Many interpreters think the Holy Spirit is in view, since verse 14 speaks of the Spirit living in believers. The lowercase rendering is used because it fits both halves of the sentence."
+   },
+   {
+    "verse": 7,
+    "phrase": "cowardice",
+    "lemma": "δειλία",
+    "kind": "departure",
+    "traditional": "fear",
+    "note": "The traditional “spirit of fear” suggests fear in general, but this Greek word is not the ordinary word for fear. In the usage of the period it means cowardice, a failure of nerve regarded as a fault, and it leads directly to “do not be ashamed” in the next verse. Some modern versions have “timidity” and others already use “cowardice.”"
+   },
+   {
+    "verse": 7,
+    "phrase": "self-discipline",
+    "lemma": "σωφρονισμός",
+    "kind": "ambiguity",
+    "traditional": "a sound mind",
+    "note": "This word occurs only here in the New Testament. It belongs to a word family for good sense and self-control, and can mean either the exercise of self-control or the act of bringing someone to their senses. “Self-discipline” and “self-control” are the usual modern renderings; the older “sound mind” takes it as a state of good judgment."
+   },
+   {
+    "verse": 8,
+    "phrase": "good news",
+    "lemma": "εὐαγγέλιον",
+    "kind": "departure",
+    "traditional": "gospel",
+    "note": "“Gospel” is now a religious term or the name of a kind of book. The Greek was an ordinary word for a public announcement of good news, also used of imperial proclamations. Many modern translations alternate between “gospel” and “good news.”"
+   },
+   {
+    "verse": 9,
+    "phrase": "before long ages began",
+    "lemma": "αἰώνιος",
+    "kind": "departure",
+    "traditional": "before the world began",
+    "note": "The Greek is literally “before age-long times,” using the plural of the word for a period of time with the adjective usually rendered “eternal.” The phrase points back before the whole span of history; translations vary between “before the world began,” “before the ages began,” and “before the beginning of time.” The same expression occurs in Titus 1:2."
+   },
+   {
+    "verse": 10,
+    "phrase": "appearing",
+    "lemma": "ἐπιφάνεια",
+    "kind": "background",
+    "traditional": "",
+    "note": "This word was used in the Greek-speaking world for the visible manifestation of a god or the ceremonial arrival of a ruler, and “savior” was likewise a title given to gods and emperors. Elsewhere in these letters the word refers to Christ's future coming. Here it refers to his first coming."
+   },
+   {
+    "verse": 11,
+    "phrase": "herald",
+    "lemma": "κῆρυξ",
+    "kind": "departure",
+    "traditional": "preacher",
+    "note": "The word names the official who made public announcements on behalf of a ruler or city, which fits the “good news” as a proclamation. “Preacher” now suggests someone giving sermons in church. Several modern translations also use “herald.”"
+   },
+   {
+    "verse": 11,
+    "phrase": "teacher",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "teacher of the Gentiles",
+    "note": "Many manuscripts read “teacher of the Gentiles,” as in the King James Version. The shorter reading is found in a few early witnesses and is generally preferred by editors, on the view that the longer one was copied in from the parallel at 1 Timothy 2:7."
+   },
+   {
+    "verse": 12,
+    "phrase": "what I have deposited with him",
+    "lemma": "παραθήκη",
+    "kind": "ambiguity",
+    "traditional": "that which I have committed unto him",
+    "note": "The Greek is literally “my deposit,” a legal term for property left in someone's safekeeping. It can mean what Paul has entrusted to God (his life or his work) or what God has entrusted to Paul (the message), which is the sense the same word has in verse 14. The text follows the majority reading; the other has serious support."
+   },
+   {
+    "verse": 15,
+    "phrase": "Asia",
+    "lemma": "Ἀσία",
+    "kind": "background",
+    "traditional": "",
+    "note": "Asia here is the Roman province of that name in the west of what is now Turkey, with Ephesus as its chief city. It is not the continent. Nothing further is known of Phygelus and Hermogenes."
+   },
+   {
+    "verse": 16,
+    "phrase": "the household of Onesiphorus",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "Paul prays for the household of Onesiphorus here and greets it again at 4:19. For the man himself he asks mercy “on that day.” Some interpreters infer that Onesiphorus had died; others think he was simply away from home. The text does not settle it."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "χάρισμα",
+    "rendering": "gift",
+    "verse": 6,
+    "reason": "Recurs across Paul and 1 Peter, where translators vary between “gift,” “spiritual gift,” “grace-gift” and “charism,” and the link to χάρις is easily lost."
+   },
+   {
+    "lemma": "ἐπιφάνεια",
+    "rendering": "appearing",
+    "verse": 10,
+    "reason": "Used in the Pastorals and 2 Thessalonians of Christ's first and future coming; “appearing,” “manifestation” and “epiphany” are all in use and should not vary."
+   },
+   {
+    "lemma": "ἀφθαρσία",
+    "rendering": "immortality",
+    "verse": 10,
+    "reason": "In 1 Corinthians 15:53–54 it stands beside ἀθανασία and must be kept distinct (“imperishability”), so one decision is needed for Romans 2:7, 1 Corinthians 15, Ephesians 6:24 and here."
+   },
+   {
+    "lemma": "παραθήκη",
+    "rendering": "deposit",
+    "verse": 12,
+    "reason": "Occurs at 1 Timothy 6:20 and 2 Timothy 1:12, 14 as a deliberate repeated term; “deposit,” “what has been entrusted” and “trust” should not alternate."
+   },
+   {
+    "lemma": "δέησις",
+    "rendering": "prayers",
+    "verse": 3,
+    "reason": "Frequently paired with προσευχή (e.g. Ephesians 6:18; Philippians 4:6; 1 Timothy 2:1), so a fixed distinction between “prayer” and “petition” or “entreaty” is needed."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 4431,
+   "output_tokens": 207
+  },
+  "findings": [],
+  "error": ""
+ }
+}

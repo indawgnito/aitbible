@@ -1,0 +1,403 @@
+{
+ "id": "1corinthians-006",
+ "book": "1corinthians",
+ "chapter": 6,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg15Ag6n9wDEAV9hYnU",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 10539,
+  "output_tokens": 15718
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Does any of you who has a dispute with another dare to go to law before the unjust and not before the holy ones?\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Or do you not know that the holy ones will judge the world? And if the world is judged by you, are you unworthy to judge the most trivial cases?\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Do you not know that we will judge angels—to say nothing of everyday matters?\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So if you have cases about everyday matters, is it those who count for nothing in the assembly that you seat as judges?\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"I say this to shame you. Is it really so, that there is not one wise person among you who will be able to decide between one brother and another,\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"but brother goes to law against brother—and this before unbelievers?\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"In fact, it is already an utter defeat for you that you have lawsuits with one another. Why not rather suffer injustice? Why not rather be defrauded?\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Instead, you yourselves inflict injustice and defraud—and you do this to brothers and sisters!\"}]},{\"verse\":9,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Or do you not know that the unjust will not inherit the kingdom of God? Do not be deceived: neither the sexually immoral, nor idolaters, nor adulterers, nor men who take the passive role with men, nor men who bed males,\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"nor thieves, nor the greedy—no drunkards, no revilers, no robbers—will inherit the kingdom of God.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And that is what some of you were. But you were washed, but you were made holy, but you were justified in the name of the Lord Jesus and in the Spirit of our God.\"}]},{\"verse\":12,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"other\",\"text\":\"“Everything is permitted for me,”\"},{\"speaker\":\"narrator\",\"text\":\"but not everything is beneficial.\"},{\"speaker\":\"other\",\"text\":\"“Everything is permitted for me,”\"},{\"speaker\":\"narrator\",\"text\":\"but I will not be mastered by anything.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"“Food is for the stomach and the stomach for food,”\"},{\"speaker\":\"narrator\",\"text\":\"and God will do away with both the one and the other. But the body is not for sexual immorality but for the Lord, and the Lord for the body.\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And God both raised the Lord and will raise us up through his power.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Do you not know that your bodies are members of Christ? Shall I then take the members of Christ and make them members of a prostitute? By no means!\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Or do you not know that whoever is joined to a prostitute is one body with her? For it says,\"},{\"speaker\":\"scripture\",\"text\":\"“The two will become one flesh.”\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But whoever is joined to the Lord is one spirit with him.\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Flee from sexual immorality. Every sin that a person commits is outside the body, but the one who commits sexual immorality sins against his own body.\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Or do you not know that your body is a sanctuary of the Holy Spirit who is in you, whom you have from God? And you are not your own,\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"for you were bought at a price. So glorify God in your body.\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"the unjust\",\"lemma\":\"ἄδικος\",\"kind\":\"background\",\"traditional\":\"the unrighteous\",\"note\":\"Greek has one word family where English has two (“just” and “righteous,” “justice” and “righteousness,” “justify”). Paul plays on it through this passage: believers sue before “the unjust” (v. 1), should rather “suffer injustice” (v. 7), in fact “inflict injustice” (v. 8), are warned that “the unjust” will not inherit the kingdom (v. 9), and are reminded that they were “justified” (v. 11). Most translations vary the English (“unrighteous,” “wronged,” “do wrong”), which hides the thread. Here the term labels outsiders to the community, as “unbelievers” does in verse 6.\"},{\"verse\":1,\"phrase\":\"the holy ones\",\"lemma\":\"ἅγιος\",\"kind\":\"departure\",\"traditional\":\"the saints\",\"note\":\"The traditional “saints” now suggests canonized individuals or people of unusual virtue. Paul uses the word for all members of the community as people set apart for God, echoing the Greek Old Testament’s language for Israel. Many translations keep “saints”; others use “God’s people” or “the Lord’s people.”\"},{\"verse\":4,\"phrase\":\"assembly\",\"lemma\":\"ἐκκλησία\",\"kind\":\"departure\",\"traditional\":\"church\",\"note\":\"The Greek word was the ordinary term for a civic gathering and the Greek Old Testament’s term for Israel assembled. “Church” is the near-universal rendering and readers know what it refers to, but it now suggests a building or an institution. This translation uses “assembly” throughout.\"},{\"verse\":4,\"phrase\":\"is it those who count for nothing in the assembly that you seat as judges?\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"set them to judge who are least esteemed in the church\",\"note\":\"The Greek verb can be read as a question, a statement, or a command. As a question, it rebukes the Corinthians for taking cases to pagan judges, who have no standing in the community. As a command, as in the King James Version, it is ironic: even the least regarded believers would be fit to judge such trivial matters. Most recent translations and commentators take it as a question.\"},{\"verse\":9,\"phrase\":\"men who take the passive role with men\",\"lemma\":\"μαλακός\",\"kind\":\"departure\",\"traditional\":\"effeminate\",\"note\":\"The Greek word literally means “soft.” Used of men it was a common term of contempt for effeminacy, and in sexual contexts it was applied to the passive partner in sex between males, often a youth. Because it stands in a list of sexual offenses beside the following term, most scholars take the sexual sense here. Older versions have “effeminate,” some have “male prostitutes,” and several merge the two terms into one phrase; the exact scope is disputed.\"},{\"verse\":9,\"phrase\":\"men who bed males\",\"lemma\":\"ἀρσενοκοίτης\",\"kind\":\"departure\",\"traditional\":\"abusers of themselves with mankind; sodomites; homosexuals\",\"note\":\"This rare word is first attested here and may be Paul’s coinage. It joins the words for “male” and “bed,” which stand side by side in the Greek version of Leviticus 18:22 and 20:13, and most scholars think it was formed from those verses to mean a man who has sex with males. The rendering “homosexuals” brings in a modern category of orientation, whereas the Greek word names an act. Some scholars argue for a narrower reference, such as exploitative sex or pederasty, and the evidence from later usage is thin.\"},{\"verse\":11,\"phrase\":\"you were made holy\",\"lemma\":\"ἁγιάζω\",\"kind\":\"departure\",\"traditional\":\"you were sanctified\",\"note\":\"The Greek verb is built directly on the ordinary word for “holy,” the same word rendered “holy ones” in verses 1–2, and “made holy” keeps that link audible. “Sanctified,” used by most translations, now suggests to many readers a doctrine of gradual moral improvement, whereas Paul here speaks of a completed transfer into what belongs to God. The meaning itself is not in dispute.\"},{\"verse\":12,\"phrase\":\"Everything is permitted for me\",\"lemma\":\"ἔξεστιν\",\"kind\":\"background\",\"traditional\":\"All things are lawful unto me\",\"note\":\"Most scholars think Paul is here quoting a slogan current among the Corinthians and then qualifying it, and most modern translations use quotation marks. The Greek has no such marks, so this is an inference from the way the sayings are repeated and corrected (compare 10:23). The same applies to the saying about food in verse 13, where it is disputed whether the slogan ends at “food” or continues through “the one and the other.”\"},{\"verse\":13,\"phrase\":\"do away with\",\"lemma\":\"καταργέω\",\"kind\":\"departure\",\"traditional\":\"destroy\",\"note\":\"The verb means to put something out of operation or bring it to an end, and it is not the ordinary Greek word for destroying. Many translations have “destroy” here. The point is that food and the stomach belong to a temporary order that God will end, in contrast with the body, which God will raise (v. 14).\"},{\"verse\":13,\"phrase\":\"sexual immorality\",\"lemma\":\"πορνεία\",\"kind\":\"background\",\"traditional\":\"fornication\",\"note\":\"The Greek word covers unlawful sexual intercourse of any kind and is broader than the older English “fornication.” It shares a root with the word for “prostitute” in verses 15–16 and with “the sexually immoral” in verse 9, so a Greek reader heard one connected set of words through the whole passage.\"},{\"verse\":15,\"phrase\":\"members\",\"lemma\":\"μέλος\",\"kind\":\"background\",\"traditional\":\"members\",\"note\":\"The Greek word means a limb or organ of a body, and “members” is used here in that sense, not in the sense of belonging to a group. Paul’s argument depends on the physical image: a believer’s body is a body part of Christ and so cannot be made a body part of a prostitute.\"},{\"verse\":18,\"phrase\":\"Every sin that a person commits is outside the body\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"Every sin that a man doeth is without the body\",\"note\":\"The Greek says “every sin,” not “every other sin,” though many translations supply “other” so that the sentence states a general rule to which sexual sin is the exception. Some scholars instead take the sentence as another Corinthian slogan, claiming that sin does not touch the body, which Paul then contradicts. The rendering here leaves both readings open.\"},{\"verse\":19,\"phrase\":\"sanctuary\",\"lemma\":\"ναός\",\"kind\":\"departure\",\"traditional\":\"temple\",\"note\":\"Greek has two words that English Bibles usually both translate “temple”: one for the whole complex with its courts, and this one for the building where the deity dwells. “Sanctuary” keeps Paul’s image focused on the dwelling place of God’s Spirit. Most versions have “temple” here, and “your body is a temple of the Holy Spirit” is deeply established in English.\"},{\"verse\":20,\"phrase\":\"bought at a price\",\"lemma\":\"ἀγοράζω\",\"kind\":\"background\",\"traditional\":\"bought with a price\",\"note\":\"The language is that of a purchase in the marketplace, and in a city like Corinth a reader would naturally think of the buying of a slave, who then belonged to the new owner. Paul uses the same phrase in 7:23. He does not say here what the price was or to whom it was paid.\"}],\"candidates\":[{\"lemma\":\"πορνεία\",\"rendering\":\"sexual immorality\",\"verse\":13,\"reason\":\"Recurs across the Gospels, Acts, the letters and Revelation with renderings ranging from “fornication” to “sexual immorality” to “unchastity,” and its link to πόρνος and πόρνη needs one consistent policy.\"},{\"lemma\":\"ἀδελφός\",\"rendering\":\"brother (singular); brothers and sisters (generic plural)\",\"verse\":5,\"reason\":\"The plural used of the mixed community occurs in nearly every letter, and translators divide between “brothers,” “brothers and sisters” and “believers.”\"},{\"lemma\":\"μέλος\",\"rendering\":\"member\",\"verse\":15,\"reason\":\"The body-part sense underlies Romans 6, 7 and 12, 1 Corinthians 12 and Ephesians 4–5, and “member” now suggests group membership, so one decision between “member,” “limb” and “part” is needed.\"},{\"lemma\":\"ἄδικος\",\"rendering\":\"unjust\",\"verse\":1,\"reason\":\"The negative side of the δικαιοσύνη family (ἄδικος, ἀδικέω, ἀδικία) is not fixed by the register, and “unjust,” “unrighteous” and “wrongdoer” are all in common use.\"},{\"lemma\":\"ἀρσενοκοίτης\",\"rendering\":\"men who bed males\",\"verse\":9,\"reason\":\"Occurs again in 1 Timothy 1:10 and is highly contested, so the two occurrences should be rendered identically by a single decision.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Does any of you who has a dispute with another dare to go to law before the unjust and not before the holy ones?"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Or do you not know that the holy ones will judge the world? And if the world is judged by you, are you unworthy to judge the most trivial cases?"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Do you not know that we will judge angels—to say nothing of everyday matters?"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So if you have cases about everyday matters, is it those who count for nothing in the assembly that you seat as judges?"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "I say this to shame you. Is it really so, that there is not one wise person among you who will be able to decide between one brother and another,"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "but brother goes to law against brother—and this before unbelievers?"
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "In fact, it is already an utter defeat for you that you have lawsuits with one another. Why not rather suffer injustice? Why not rather be defrauded?"
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Instead, you yourselves inflict injustice and defraud—and you do this to brothers and sisters!"
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Or do you not know that the unjust will not inherit the kingdom of God? Do not be deceived: neither the sexually immoral, nor idolaters, nor adulterers, nor men who take the passive role with men, nor men who bed males,"
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "nor thieves, nor the greedy—no drunkards, no revilers, no robbers—will inherit the kingdom of God."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And that is what some of you were. But you were washed, but you were made holy, but you were justified in the name of the Lord Jesus and in the Spirit of our God."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "“Everything is permitted for me,”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "but not everything is beneficial."
+     },
+     {
+      "speaker": "other",
+      "text": "“Everything is permitted for me,”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "but I will not be mastered by anything."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "“Food is for the stomach and the stomach for food,”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "and God will do away with both the one and the other. But the body is not for sexual immorality but for the Lord, and the Lord for the body."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And God both raised the Lord and will raise us up through his power."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Do you not know that your bodies are members of Christ? Shall I then take the members of Christ and make them members of a prostitute? By no means!"
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Or do you not know that whoever is joined to a prostitute is one body with her? For it says,"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“The two will become one flesh.”"
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But whoever is joined to the Lord is one spirit with him."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Flee from sexual immorality. Every sin that a person commits is outside the body, but the one who commits sexual immorality sins against his own body."
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Or do you not know that your body is a sanctuary of the Holy Spirit who is in you, whom you have from God? And you are not your own,"
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "for you were bought at a price. So glorify God in your body."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "the unjust",
+    "lemma": "ἄδικος",
+    "kind": "background",
+    "traditional": "the unrighteous",
+    "note": "Greek has one word family where English has two (“just” and “righteous,” “justice” and “righteousness,” “justify”). Paul plays on it through this passage: believers sue before “the unjust” (v. 1), should rather “suffer injustice” (v. 7), in fact “inflict injustice” (v. 8), are warned that “the unjust” will not inherit the kingdom (v. 9), and are reminded that they were “justified” (v. 11). Most translations vary the English (“unrighteous,” “wronged,” “do wrong”), which hides the thread. Here the term labels outsiders to the community, as “unbelievers” does in verse 6."
+   },
+   {
+    "verse": 1,
+    "phrase": "the holy ones",
+    "lemma": "ἅγιος",
+    "kind": "departure",
+    "traditional": "the saints",
+    "note": "The traditional “saints” now suggests canonized individuals or people of unusual virtue. Paul uses the word for all members of the community as people set apart for God, echoing the Greek Old Testament’s language for Israel. Many translations keep “saints”; others use “God’s people” or “the Lord’s people.”"
+   },
+   {
+    "verse": 4,
+    "phrase": "assembly",
+    "lemma": "ἐκκλησία",
+    "kind": "departure",
+    "traditional": "church",
+    "note": "The Greek word was the ordinary term for a civic gathering and the Greek Old Testament’s term for Israel assembled. “Church” is the near-universal rendering and readers know what it refers to, but it now suggests a building or an institution. This translation uses “assembly” throughout."
+   },
+   {
+    "verse": 4,
+    "phrase": "is it those who count for nothing in the assembly that you seat as judges?",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "set them to judge who are least esteemed in the church",
+    "note": "The Greek verb can be read as a question, a statement, or a command. As a question, it rebukes the Corinthians for taking cases to pagan judges, who have no standing in the community. As a command, as in the King James Version, it is ironic: even the least regarded believers would be fit to judge such trivial matters. Most recent translations and commentators take it as a question."
+   },
+   {
+    "verse": 9,
+    "phrase": "men who take the passive role with men",
+    "lemma": "μαλακός",
+    "kind": "departure",
+    "traditional": "effeminate",
+    "note": "The Greek word literally means “soft.” Used of men it was a common term of contempt for effeminacy, and in sexual contexts it was applied to the passive partner in sex between males, often a youth. Because it stands in a list of sexual offenses beside the following term, most scholars take the sexual sense here. Older versions have “effeminate,” some have “male prostitutes,” and several merge the two terms into one phrase; the exact scope is disputed."
+   },
+   {
+    "verse": 9,
+    "phrase": "men who bed males",
+    "lemma": "ἀρσενοκοίτης",
+    "kind": "departure",
+    "traditional": "abusers of themselves with mankind; sodomites; homosexuals",
+    "note": "This rare word is first attested here and may be Paul’s coinage. It joins the words for “male” and “bed,” which stand side by side in the Greek version of Leviticus 18:22 and 20:13, and most scholars think it was formed from those verses to mean a man who has sex with males. The rendering “homosexuals” brings in a modern category of orientation, whereas the Greek word names an act. Some scholars argue for a narrower reference, such as exploitative sex or pederasty, and the evidence from later usage is thin."
+   },
+   {
+    "verse": 11,
+    "phrase": "you were made holy",
+    "lemma": "ἁγιάζω",
+    "kind": "departure",
+    "traditional": "you were sanctified",
+    "note": "The Greek verb is built directly on the ordinary word for “holy,” the same word rendered “holy ones” in verses 1–2, and “made holy” keeps that link audible. “Sanctified,” used by most translations, now suggests to many readers a doctrine of gradual moral improvement, whereas Paul here speaks of a completed transfer into what belongs to God. The meaning itself is not in dispute."
+   },
+   {
+    "verse": 12,
+    "phrase": "Everything is permitted for me",
+    "lemma": "ἔξεστιν",
+    "kind": "background",
+    "traditional": "All things are lawful unto me",
+    "note": "Most scholars think Paul is here quoting a slogan current among the Corinthians and then qualifying it, and most modern translations use quotation marks. The Greek has no such marks, so this is an inference from the way the sayings are repeated and corrected (compare 10:23). The same applies to the saying about food in verse 13, where it is disputed whether the slogan ends at “food” or continues through “the one and the other.”"
+   },
+   {
+    "verse": 13,
+    "phrase": "do away with",
+    "lemma": "καταργέω",
+    "kind": "departure",
+    "traditional": "destroy",
+    "note": "The verb means to put something out of operation or bring it to an end, and it is not the ordinary Greek word for destroying. Many translations have “destroy” here. The point is that food and the stomach belong to a temporary order that God will end, in contrast with the body, which God will raise (v. 14)."
+   },
+   {
+    "verse": 13,
+    "phrase": "sexual immorality",
+    "lemma": "πορνεία",
+    "kind": "background",
+    "traditional": "fornication",
+    "note": "The Greek word covers unlawful sexual intercourse of any kind and is broader than the older English “fornication.” It shares a root with the word for “prostitute” in verses 15–16 and with “the sexually immoral” in verse 9, so a Greek reader heard one connected set of words through the whole passage."
+   },
+   {
+    "verse": 15,
+    "phrase": "members",
+    "lemma": "μέλος",
+    "kind": "background",
+    "traditional": "members",
+    "note": "The Greek word means a limb or organ of a body, and “members” is used here in that sense, not in the sense of belonging to a group. Paul’s argument depends on the physical image: a believer’s body is a body part of Christ and so cannot be made a body part of a prostitute."
+   },
+   {
+    "verse": 18,
+    "phrase": "Every sin that a person commits is outside the body",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "Every sin that a man doeth is without the body",
+    "note": "The Greek says “every sin,” not “every other sin,” though many translations supply “other” so that the sentence states a general rule to which sexual sin is the exception. Some scholars instead take the sentence as another Corinthian slogan, claiming that sin does not touch the body, which Paul then contradicts. The rendering here leaves both readings open."
+   },
+   {
+    "verse": 19,
+    "phrase": "sanctuary",
+    "lemma": "ναός",
+    "kind": "departure",
+    "traditional": "temple",
+    "note": "Greek has two words that English Bibles usually both translate “temple”: one for the whole complex with its courts, and this one for the building where the deity dwells. “Sanctuary” keeps Paul’s image focused on the dwelling place of God’s Spirit. Most versions have “temple” here, and “your body is a temple of the Holy Spirit” is deeply established in English."
+   },
+   {
+    "verse": 20,
+    "phrase": "bought at a price",
+    "lemma": "ἀγοράζω",
+    "kind": "background",
+    "traditional": "bought with a price",
+    "note": "The language is that of a purchase in the marketplace, and in a city like Corinth a reader would naturally think of the buying of a slave, who then belonged to the new owner. Paul uses the same phrase in 7:23. He does not say here what the price was or to whom it was paid."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "πορνεία",
+    "rendering": "sexual immorality",
+    "verse": 13,
+    "reason": "Recurs across the Gospels, Acts, the letters and Revelation with renderings ranging from “fornication” to “sexual immorality” to “unchastity,” and its link to πόρνος and πόρνη needs one consistent policy."
+   },
+   {
+    "lemma": "ἀδελφός",
+    "rendering": "brother (singular); brothers and sisters (generic plural)",
+    "verse": 5,
+    "reason": "The plural used of the mixed community occurs in nearly every letter, and translators divide between “brothers,” “brothers and sisters” and “believers.”"
+   },
+   {
+    "lemma": "μέλος",
+    "rendering": "member",
+    "verse": 15,
+    "reason": "The body-part sense underlies Romans 6, 7 and 12, 1 Corinthians 12 and Ephesians 4–5, and “member” now suggests group membership, so one decision between “member,” “limb” and “part” is needed."
+   },
+   {
+    "lemma": "ἄδικος",
+    "rendering": "unjust",
+    "verse": 1,
+    "reason": "The negative side of the δικαιοσύνη family (ἄδικος, ἀδικέω, ἀδικία) is not fixed by the register, and “unjust,” “unrighteous” and “wrongdoer” are all in common use."
+   },
+   {
+    "lemma": "ἀρσενοκοίτης",
+    "rendering": "men who bed males",
+    "verse": 9,
+    "reason": "Occurs again in 1 Timothy 1:10 and is highly contested, so the two occurrences should be rendered identically by a single decision."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [
+  "Verse 11: ἁγιάζω is not rendered with a register form (make holy; consecrate; hold holy / honor as holy; be holy) and has no register-exception note."
+ ],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 4646,
+   "output_tokens": 163
+  },
+  "findings": [],
+  "error": ""
+ }
+}

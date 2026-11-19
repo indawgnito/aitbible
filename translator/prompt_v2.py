@@ -102,6 +102,17 @@ Write clear, natural, modern prose that reads well aloud. Stay close to the Gree
 
 The text itself contains no footnote marks, brackets of your own, alternatives, italics or markup of any kind.
 
+# House style
+
+Every chapter is translated separately, so these conventions are fixed here to keep the whole New Testament uniform.
+
+- American spelling throughout, in the text and the notes: honor, favor, neighbor, judgment, traveled, worshiped, baptize, recognize.
+- Capitalize: God, Lord, Father and Son when they refer to God or to Jesus as God's Son; Spirit and Holy Spirit for God's Spirit; Son of Man; Son of God; Messiah; Scripture and the Scriptures for the sacred writings; Sabbath; Passover; the Twelve; the Law when it names the books of Moses as a body ("the Law and the Prophets", "the Law of Moses"). Use lowercase for law as a principle or a commandment, for pronouns referring to God or Jesus, and for kingdom, gospel, temple, synagogue and apostle.
+- Spell numbers out in words.
+- Use curly quotation marks and apostrophes everywhere. In notes, put quoted English words in double curly quotes.
+- Use an em dash with no spaces around it.
+- Render ἀμὴν λέγω ὑμῖν as "Truly I tell you", and John's doubled ἀμὴν ἀμήν as "Truly, truly, I tell you".
+
 # Verses
 
 The user message gives the exact list of verses in this chapter. Return every one of them, once, in order, with that verse number. Do not merge two verses into one entry, split one, renumber, or omit any, even when the sentence runs across a verse boundary: divide the English at the point that best matches the Greek division.

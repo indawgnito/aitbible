@@ -1,0 +1,301 @@
+{
+ "id": "1peter-005",
+ "book": "1peter",
+ "chapter": 5,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14eAjCQWVYuqaC1B6",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 8211,
+  "output_tokens": 6872
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So I appeal to the elders among you, as a fellow elder and a witness of the sufferings of Christ, and as one who also shares in the glory that is about to be revealed:\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"shepherd the flock of God that is among you, watching over it not under compulsion but willingly, as God would have it; not out of greed for gain but eagerly;\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"not lording it over those allotted to you, but becoming examples to the flock.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And when the chief shepherd appears, you will receive the unfading crown of glory.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"In the same way, you who are younger, submit to the elders. And all of you, clothe yourselves with humility toward one another, because\"},{\"speaker\":\"scripture\",\"text\":\"“God opposes the proud but gives grace to the humble.”\"}]},{\"verse\":6,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Humble yourselves, therefore, under the mighty hand of God, so that he may exalt you at the proper time,\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"casting all your anxiety on him, because he cares about you.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Be sober-minded; keep watch. Your adversary the devil prowls around like a roaring lion, looking for someone to devour.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Resist him, firm in the faith, knowing that your brothers and sisters throughout the world are undergoing the same kinds of suffering.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And the God of all grace, who called you to his eternal glory in Christ, will himself, after you have suffered a little while, restore you, make you firm, strengthen you, and set you on a foundation.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"To him be the power forever and ever. Amen.\"}]},{\"verse\":12,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Through Silvanus, the faithful brother, as I regard him, I have written to you briefly, appealing to you and testifying that this is the true grace of God. Stand firm in it.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"She who is in Babylon, chosen together with you, greets you, and so does Mark, my son.\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Greet one another with a kiss of love. Peace to all of you who are in Christ.\"}]}],\"notes\":[{\"verse\":2,\"phrase\":\"watching over it\",\"lemma\":\"ἐπισκοπέω\",\"kind\":\"textual\",\"traditional\":\"exercising oversight\",\"note\":\"This participle is missing from some important early manuscripts, and so is the phrase rendered “as God would have it”; editors are divided on whether they are original. The verb is related to the noun for “overseer” (traditionally “bishop”), so the elders here are described as doing an overseer's work.\"},{\"verse\":3,\"phrase\":\"those allotted to you\",\"lemma\":\"κλῆρος\",\"kind\":\"departure\",\"traditional\":\"those in your charge; God's heritage (KJV)\",\"note\":\"The Greek word means a lot or an allotted portion, here in the plural. Most interpreters take it to mean the portions of the flock assigned to each elder's care, which “those in your charge” expresses more loosely. The rendering here keeps the idea of allotment, since the people are assigned to the elders and are not theirs to own.\"},{\"verse\":4,\"phrase\":\"unfading crown of glory\",\"lemma\":\"στέφανος\",\"kind\":\"background\",\"traditional\":\"crown of glory that fadeth not away\",\"note\":\"The image is the wreath awarded to victors in the games or to citizens publicly honored, which was woven from leaves or flowers and soon withered. This one does not fade. The adjective may also suggest the amaranth, a flower proverbial for not wilting.\"},{\"verse\":5,\"phrase\":\"the elders\",\"lemma\":\"πρεσβύτερος\",\"kind\":\"ambiguity\",\"traditional\":\"the elders; the elder (KJV)\",\"note\":\"The same Greek word means both “older men” and “elders” as community leaders. Because verses 1–4 address elders as leaders, the word is rendered the same way here, but the contrast with “you who are younger” leads some to read simply “those who are older.”\"},{\"verse\":5,\"phrase\":\"clothe yourselves with humility\",\"lemma\":\"ἐγκομβόομαι\",\"kind\":\"background\",\"traditional\":\"be clothed with humility\",\"note\":\"The verb is rare and means to tie or fasten a garment on oneself. Some connect it with the apron a slave tied on for work, which would suit the context, but that association is not certain.\"},{\"verse\":5,\"phrase\":\"“God opposes the proud but gives grace to the humble.”\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"The quotation is Proverbs 3:34 in its Greek version, with “God” in place of “the Lord.” The same line is quoted in James 4:6.\"},{\"verse\":8,\"phrase\":\"Your adversary the devil\",\"lemma\":\"ἀντίδικος\",\"kind\":\"background\",\"traditional\":\"your adversary the devil\",\"note\":\"The word for “adversary” ordinarily meant an opponent in a lawsuit, though it could be used of an enemy in general. “Devil” renders a Greek word meaning “slanderer” or “accuser,” which the Greek Old Testament used for the figure of Satan, so the courtroom image may be deliberate.\"},{\"verse\":9,\"phrase\":\"your brothers and sisters throughout the world are undergoing the same kinds of suffering\",\"lemma\":\"ἀδελφότης\",\"kind\":\"departure\",\"traditional\":\"the same kinds of suffering are being experienced by your brotherhood throughout the world\",\"note\":\"The Greek has a collective noun, traditionally “brotherhood,” meaning the whole community of fellow believers, men and women alike. The verb usually means “to accomplish” or “to complete,” and some take the clause to mean that the same sufferings are being brought to completion in, or laid upon, the community. The overall sense, that the readers' sufferings are shared by believers everywhere, is not in doubt.\"},{\"verse\":11,\"phrase\":\"To him be the power\",\"lemma\":\"κράτος\",\"kind\":\"ambiguity\",\"traditional\":\"To him be the dominion\",\"note\":\"The Greek has no verb. It can be read as a wish (“to him be”) or as a statement (“to him belongs”); the similar doxology at 4:11 has “is,” which favors the statement, but the traditional wish form is kept here. The noun means might or ruling power.\"},{\"verse\":12,\"phrase\":\"Through Silvanus\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"By Silvanus\",\"note\":\"The phrase can mean that Silvanus carried the letter, or that he helped to write it as a secretary. Comparable expressions in early Christian letters usually refer to the bearer, but both views are held. Silvanus is generally identified with the Silas who traveled with Paul.\"},{\"verse\":13,\"phrase\":\"She who is in Babylon, chosen together with you\",\"lemma\":\"συνεκλεκτός\",\"kind\":\"background\",\"traditional\":\"She who is at Babylon, who is likewise chosen; the church that is at Babylon (KJV)\",\"note\":\"The Greek is a feminine expression with no noun, most often understood as the church in the place from which the letter is sent. “Babylon” is widely taken as a name for Rome, as in Revelation and other Jewish writings of the time, picking up the letter's theme of believers as exiles. A minority understand “she” as an individual woman, or Babylon as a literal place.\"}],\"candidates\":[{\"lemma\":\"χάρις\",\"rendering\":\"grace\",\"verse\":5,\"reason\":\"Occurs throughout the New Testament and translators vary between grace, favor, gift and thanks; readers need a consistent default and defined alternates.\"},{\"lemma\":\"παρακαλέω\",\"rendering\":\"appeal\",\"verse\":1,\"reason\":\"Very frequent across the letters and Acts with senses ranging from urge and exhort to encourage and comfort; chapter-by-chapter translation will drift without a ruling.\"},{\"lemma\":\"πρεσβύτερος\",\"rendering\":\"elder\",\"verse\":1,\"reason\":\"Covers both “older man” and the community office, and passages like 1 Peter 5:5 and 1 Timothy 5:1 need a consistent policy on when each applies.\"},{\"lemma\":\"νήφω\",\"rendering\":\"be sober-minded\",\"verse\":8,\"reason\":\"Recurs in 1 Thessalonians, 2 Timothy and 1 Peter, and renderings vary among sober, self-controlled, clear-headed and alert.\"},{\"lemma\":\"ταπεινοφροσύνη\",\"rendering\":\"humility\",\"verse\":5,\"reason\":\"Recurs in Paul and Acts along with ταπεινός and ταπεινόω; “humility,” “lowliness” and “humble-mindedness” all appear in translations, and the word family should be rendered consistently.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So I appeal to the elders among you, as a fellow elder and a witness of the sufferings of Christ, and as one who also shares in the glory that is about to be revealed:"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "shepherd the flock of God that is among you, watching over it not under compulsion but willingly, as God would have it; not out of greed for gain but eagerly;"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "not lording it over those allotted to you, but becoming examples to the flock."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And when the chief shepherd appears, you will receive the unfading crown of glory."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "In the same way, you who are younger, submit to the elders. And all of you, clothe yourselves with humility toward one another, because"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“God opposes the proud but gives grace to the humble.”"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Humble yourselves, therefore, under the mighty hand of God, so that he may exalt you at the proper time,"
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "casting all your anxiety on him, because he cares about you."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Be sober-minded; keep watch. Your adversary the devil prowls around like a roaring lion, looking for someone to devour."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Resist him, firm in the faith, knowing that your brothers and sisters throughout the world are undergoing the same kinds of suffering."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And the God of all grace, who called you to his eternal glory in Christ, will himself, after you have suffered a little while, restore you, make you firm, strengthen you, and set you on a foundation."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "To him be the power forever and ever. Amen."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Through Silvanus, the faithful brother, as I regard him, I have written to you briefly, appealing to you and testifying that this is the true grace of God. Stand firm in it."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "She who is in Babylon, chosen together with you, greets you, and so does Mark, my son."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Greet one another with a kiss of love. Peace to all of you who are in Christ."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 2,
+    "phrase": "watching over it",
+    "lemma": "ἐπισκοπέω",
+    "kind": "textual",
+    "traditional": "exercising oversight",
+    "note": "This participle is missing from some important early manuscripts, and so is the phrase rendered “as God would have it”; editors are divided on whether they are original. The verb is related to the noun for “overseer” (traditionally “bishop”), so the elders here are described as doing an overseer's work."
+   },
+   {
+    "verse": 3,
+    "phrase": "those allotted to you",
+    "lemma": "κλῆρος",
+    "kind": "departure",
+    "traditional": "those in your charge; God's heritage (KJV)",
+    "note": "The Greek word means a lot or an allotted portion, here in the plural. Most interpreters take it to mean the portions of the flock assigned to each elder's care, which “those in your charge” expresses more loosely. The rendering here keeps the idea of allotment, since the people are assigned to the elders and are not theirs to own."
+   },
+   {
+    "verse": 4,
+    "phrase": "unfading crown of glory",
+    "lemma": "στέφανος",
+    "kind": "background",
+    "traditional": "crown of glory that fadeth not away",
+    "note": "The image is the wreath awarded to victors in the games or to citizens publicly honored, which was woven from leaves or flowers and soon withered. This one does not fade. The adjective may also suggest the amaranth, a flower proverbial for not wilting."
+   },
+   {
+    "verse": 5,
+    "phrase": "the elders",
+    "lemma": "πρεσβύτερος",
+    "kind": "ambiguity",
+    "traditional": "the elders; the elder (KJV)",
+    "note": "The same Greek word means both “older men” and “elders” as community leaders. Because verses 1–4 address elders as leaders, the word is rendered the same way here, but the contrast with “you who are younger” leads some to read simply “those who are older.”"
+   },
+   {
+    "verse": 5,
+    "phrase": "clothe yourselves with humility",
+    "lemma": "ἐγκομβόομαι",
+    "kind": "background",
+    "traditional": "be clothed with humility",
+    "note": "The verb is rare and means to tie or fasten a garment on oneself. Some connect it with the apron a slave tied on for work, which would suit the context, but that association is not certain."
+   },
+   {
+    "verse": 5,
+    "phrase": "“God opposes the proud but gives grace to the humble.”",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "The quotation is Proverbs 3:34 in its Greek version, with “God” in place of “the Lord.” The same line is quoted in James 4:6."
+   },
+   {
+    "verse": 8,
+    "phrase": "Your adversary the devil",
+    "lemma": "ἀντίδικος",
+    "kind": "background",
+    "traditional": "your adversary the devil",
+    "note": "The word for “adversary” ordinarily meant an opponent in a lawsuit, though it could be used of an enemy in general. “Devil” renders a Greek word meaning “slanderer” or “accuser,” which the Greek Old Testament used for the figure of Satan, so the courtroom image may be deliberate."
+   },
+   {
+    "verse": 9,
+    "phrase": "your brothers and sisters throughout the world are undergoing the same kinds of suffering",
+    "lemma": "ἀδελφότης",
+    "kind": "departure",
+    "traditional": "the same kinds of suffering are being experienced by your brotherhood throughout the world",
+    "note": "The Greek has a collective noun, traditionally “brotherhood,” meaning the whole community of fellow believers, men and women alike. The verb usually means “to accomplish” or “to complete,” and some take the clause to mean that the same sufferings are being brought to completion in, or laid upon, the community. The overall sense, that the readers' sufferings are shared by believers everywhere, is not in doubt."
+   },
+   {
+    "verse": 11,
+    "phrase": "To him be the power",
+    "lemma": "κράτος",
+    "kind": "ambiguity",
+    "traditional": "To him be the dominion",
+    "note": "The Greek has no verb. It can be read as a wish (“to him be”) or as a statement (“to him belongs”); the similar doxology at 4:11 has “is,” which favors the statement, but the traditional wish form is kept here. The noun means might or ruling power."
+   },
+   {
+    "verse": 12,
+    "phrase": "Through Silvanus",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "By Silvanus",
+    "note": "The phrase can mean that Silvanus carried the letter, or that he helped to write it as a secretary. Comparable expressions in early Christian letters usually refer to the bearer, but both views are held. Silvanus is generally identified with the Silas who traveled with Paul."
+   },
+   {
+    "verse": 13,
+    "phrase": "She who is in Babylon, chosen together with you",
+    "lemma": "συνεκλεκτός",
+    "kind": "background",
+    "traditional": "She who is at Babylon, who is likewise chosen; the church that is at Babylon (KJV)",
+    "note": "The Greek is a feminine expression with no noun, most often understood as the church in the place from which the letter is sent. “Babylon” is widely taken as a name for Rome, as in Revelation and other Jewish writings of the time, picking up the letter's theme of believers as exiles. A minority understand “she” as an individual woman, or Babylon as a literal place."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "χάρις",
+    "rendering": "grace",
+    "verse": 5,
+    "reason": "Occurs throughout the New Testament and translators vary between grace, favor, gift and thanks; readers need a consistent default and defined alternates."
+   },
+   {
+    "lemma": "παρακαλέω",
+    "rendering": "appeal",
+    "verse": 1,
+    "reason": "Very frequent across the letters and Acts with senses ranging from urge and exhort to encourage and comfort; chapter-by-chapter translation will drift without a ruling."
+   },
+   {
+    "lemma": "πρεσβύτερος",
+    "rendering": "elder",
+    "verse": 1,
+    "reason": "Covers both “older man” and the community office, and passages like 1 Peter 5:5 and 1 Timothy 5:1 need a consistent policy on when each applies."
+   },
+   {
+    "lemma": "νήφω",
+    "rendering": "be sober-minded",
+    "verse": 8,
+    "reason": "Recurs in 1 Thessalonians, 2 Timothy and 1 Peter, and renderings vary among sober, self-controlled, clear-headed and alert."
+   },
+   {
+    "lemma": "ταπεινοφροσύνη",
+    "rendering": "humility",
+    "verse": 5,
+    "reason": "Recurs in Paul and Acts along with ταπεινός and ταπεινόω; “humility,” “lowliness” and “humble-mindedness” all appear in translations, and the word family should be rendered consistently."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 3603,
+   "output_tokens": 161
+  },
+  "findings": [],
+  "error": ""
+ }
+}

@@ -1,0 +1,354 @@
+[
+ {
+  "book": "mark",
+  "chapter": 5,
+  "planted": [
+   {
+    "verse": 43,
+    "type": "omission",
+    "detail": "and he said that she should be given something to eat"
+   },
+   {
+    "verse": 15,
+    "type": "addition",
+    "detail": ", just as he had promised long before"
+   },
+   {
+    "verse": 42,
+    "type": "mistranslation",
+    "detail": "twelve -> ten"
+   }
+  ],
+  "findings": [
+   {
+    "verse": 15,
+    "type": "addition",
+    "severity": "major",
+    "greek": "καὶ ἐφοβήθησαν.",
+    "english": "and they were afraid, just as he had promised long before.",
+    "problem": "The Greek ends with the fear of the onlookers and says nothing about a prior promise. The English adds a clause that the text does not state or imply."
+   },
+   {
+    "verse": 42,
+    "type": "mistranslation",
+    "severity": "major",
+    "greek": "ἦν γὰρ ἐτῶν δώδεκα.",
+    "english": "for she was ten years old.",
+    "problem": "The Greek gives the girl's age as twelve (δώδεκα), but the English says ten, which changes a figure stated in the text."
+   }
+  ]
+ },
+ {
+  "book": "luke",
+  "chapter": 15,
+  "planted": [
+   {
+    "verse": 9,
+    "type": "omission",
+    "detail": "for I have found the drachma that I lost"
+   },
+   {
+    "verse": 24,
+    "type": "addition",
+    "detail": ", and all who heard of it were amazed"
+   },
+   {
+    "verse": 21,
+    "type": "mistranslation",
+    "detail": "heaven -> earth"
+   }
+  ],
+  "findings": [
+   {
+    "verse": 21,
+    "type": "mistranslation",
+    "severity": "major",
+    "greek": "ἥμαρτον εἰς τὸν οὐρανὸν",
+    "english": "I have sinned against earth",
+    "problem": "The Greek says the son sinned against heaven (τὸν οὐρανόν), as in verse 18 and the parallel phrasing there, but the English renders it as \"earth\", changing the object of the sin."
+   }
+  ]
+ },
+ {
+  "book": "john",
+  "chapter": 11,
+  "planted": [
+   {
+    "verse": 9,
+    "type": "omission",
+    "detail": "because they see the light of this world"
+   },
+   {
+    "verse": 55,
+    "type": "addition",
+    "detail": ", though none of them understood it"
+   },
+   {
+    "verse": 13,
+    "type": "mistranslation",
+    "detail": "death -> life"
+   }
+  ],
+  "findings": [
+   {
+    "verse": 9,
+    "type": "omission",
+    "severity": "minor",
+    "greek": "ὅτι τὸ φῶς τοῦ κόσμου τούτου βλέπει",
+    "english": "\"If anyone walks in the day, they do not stumble.\" (no counterpart for the reason clause)",
+    "problem": "The Greek gives a reason clause, \"because they see the light of this world\", which the English omits, so the reason for not stumbling is lost."
+   },
+   {
+    "verse": 13,
+    "type": "mistranslation",
+    "severity": "major",
+    "greek": "περὶ τοῦ θανάτου αὐτοῦ",
+    "english": "\"Jesus had been speaking about his life\"",
+    "problem": "θανάτου means death, not life; the English reverses the meaning, so the reader is told Jesus spoke of his life when the Greek says he spoke of his death."
+   },
+   {
+    "verse": 55,
+    "type": "addition",
+    "severity": "major",
+    "greek": "ἵνα ἁγνίσωσιν ἑαυτούς.",
+    "english": "\"to purify themselves, though none of them understood it.\"",
+    "problem": "The Greek has nothing corresponding to \"though none of them understood it\"; this clause is added and attributes to the pilgrims a lack of understanding the text does not state."
+   }
+  ]
+ },
+ {
+  "book": "acts",
+  "chapter": 9,
+  "planted": [
+   {
+    "verse": 2,
+    "type": "omission",
+    "detail": "he might bring them bound to Jerusalem"
+   },
+   {
+    "verse": 20,
+    "type": "addition",
+    "detail": ", and all who heard of it were amazed"
+   },
+   {
+    "verse": 40,
+    "type": "mistranslation",
+    "detail": "Peter -> John"
+   }
+  ],
+  "findings": [
+   {
+    "verse": 40,
+    "type": "mistranslation",
+    "severity": "major",
+    "greek": "ὁ Πέτρος",
+    "english": "But John sent them all outside",
+    "problem": "The Greek subject is Peter (ὁ Πέτρος), not John. The English names the wrong person as the one who sends everyone out and prays."
+   }
+  ]
+ },
+ {
+  "book": "romans",
+  "chapter": 8,
+  "planted": [
+   {
+    "verse": 27,
+    "type": "omission",
+    "detail": "because he intercedes for the holy ones in accordance with God’s will"
+   },
+   {
+    "verse": 37,
+    "type": "addition",
+    "detail": ", though none of them understood it"
+   },
+   {
+    "verse": 36,
+    "type": "mistranslation",
+    "detail": "death -> life"
+   }
+  ],
+  "findings": [
+   {
+    "verse": 36,
+    "type": "mistranslation",
+    "severity": "major",
+    "greek": "θανατούμεθα",
+    "english": "we are being put to life all day long",
+    "problem": "θανατόω means 'put to death' (kill), not 'put to life'; the English reverses the sense of the quoted Psalm and of Paul's point about being killed for Christ's sake."
+   },
+   {
+    "verse": 37,
+    "type": "addition",
+    "severity": "major",
+    "greek": "ἀλλ’ ἐν τούτοις πᾶσιν ὑπερνικῶμεν διὰ τοῦ ἀγαπήσαντος ἡμᾶς.",
+    "english": "though none of them understood it",
+    "problem": "The Greek contains no clause about these things being ununderstood or unrecognized; the phrase 'though none of them understood it' is added content not stated or implied in the verse."
+   }
+  ]
+ },
+ {
+  "book": "1corinthians",
+  "chapter": 13,
+  "planted": [
+   {
+    "verse": 12,
+    "type": "omission",
+    "detail": "just as I have also been fully known"
+   },
+   {
+    "verse": 7,
+    "type": "addition",
+    "detail": ", though none of them understood it"
+   },
+   {
+    "verse": 2,
+    "type": "mistranslation",
+    "detail": "faith -> hope"
+   }
+  ],
+  "findings": [
+   {
+    "verse": 2,
+    "type": "mistranslation",
+    "severity": "major",
+    "greek": "ἔχω πᾶσαν τὴν πίστιν ὥστε ὄρη μεθιστάναι",
+    "english": "if I have all hope so as to move mountains",
+    "problem": "The Greek noun is πίστιν (faith), not hope (ἐλπίς). The English gives the wrong word for the virtue named."
+   },
+   {
+    "verse": 7,
+    "type": "addition",
+    "severity": "major",
+    "greek": "πάντα στέγει, πάντα πιστεύει, πάντα ἐλπίζει, πάντα ὑπομένει.",
+    "english": "though none of them understood it",
+    "problem": "The Greek has four clauses with no counterpart to a clause saying that none of these things was understood. The English adds a claim that is not in the text."
+   },
+   {
+    "verse": 12,
+    "type": "omission",
+    "severity": "major",
+    "greek": "τότε δὲ ἐπιγνώσομαι καθὼς καὶ ἐπεγνώσθην",
+    "english": "but then I will know fully",
+    "problem": "The clause \"even as I have been fully known\" (καθὼς καὶ ἐπεγνώσθην) has no counterpart in the English, so the parallel with being known by God is lost."
+   }
+  ]
+ },
+ {
+  "book": "hebrews",
+  "chapter": 11,
+  "planted": [
+   {
+    "verse": 3,
+    "type": "omission",
+    "detail": "so that what is seen did not come into being from things that appear"
+   },
+   {
+    "verse": 36,
+    "type": "addition",
+    "detail": ", and all who heard of it were amazed"
+   },
+   {
+    "verse": 9,
+    "type": "mistranslation",
+    "detail": "faith -> hope"
+   }
+  ],
+  "findings": [
+   {
+    "verse": 3,
+    "type": "omission",
+    "severity": "major",
+    "greek": "εἰς τὸ μὴ ἐκ φαινομένων τὸ βλεπόμενον γεγονέναι",
+    "english": "(no counterpart; the English ends at \"by God's word\")",
+    "problem": "The purpose clause stating that what is seen came into being from things that do not appear is left out entirely, so a substantive claim of the verse is missing."
+   },
+   {
+    "verse": 9,
+    "type": "mistranslation",
+    "severity": "major",
+    "greek": "πίστει παρῴκησεν",
+    "english": "\"By hope he lived as a foreigner\"",
+    "problem": "The Greek word is πίστει, \"by faith\", not \"by hope\"; the English substitutes a different virtue for the one the verse names."
+   },
+   {
+    "verse": 36,
+    "type": "addition",
+    "severity": "minor",
+    "greek": "ἕτεροι δὲ ἐμπαιγμῶν καὶ μαστίγων πεῖραν ἔλαβον, ἔτι δὲ δεσμῶν καὶ φυλακῆς·",
+    "english": "\"and all who heard of it were amazed\"",
+    "problem": "The clause about those who heard of it being amazed has no counterpart in the Greek of this verse."
+   }
+  ]
+ },
+ {
+  "book": "revelation",
+  "chapter": 5,
+  "planted": [
+   {
+    "verse": 5,
+    "type": "omission",
+    "detail": "so that he can open the scroll and its seven seals"
+   },
+   {
+    "verse": 2,
+    "type": "addition",
+    "detail": ", just as he had promised long before"
+   },
+   {
+    "verse": 3,
+    "type": "mistranslation",
+    "detail": "heaven -> earth"
+   }
+  ],
+  "findings": [
+   {
+    "verse": 2,
+    "type": "addition",
+    "severity": "minor",
+    "greek": "Τίς ἄξιος ἀνοῖξαι τὸ βιβλίον καὶ λῦσαι τὰς σφραγῖδας αὐτοῦ;",
+    "english": "“Who is worthy to open the scroll and break its seals, just as he had promised long before?”",
+    "problem": "The phrase “just as he had promised long before” has no counterpart in the Greek, which asks only who is worthy to open the scroll and break its seals."
+   },
+   {
+    "verse": 3,
+    "type": "mistranslation",
+    "severity": "major",
+    "greek": "ἐν τῷ οὐρανῷ οὐδὲ ἐπὶ τῆς γῆς οὐδὲ ὑποκάτω τῆς γῆς",
+    "english": "“no one in earth or on the earth or under the earth”",
+    "problem": "The Greek says “in heaven” (ἐν τῷ οὐρανῷ), but the English renders it as “in earth”, so the list of places wrongly repeats earth and omits heaven."
+   },
+   {
+    "verse": 5,
+    "type": "omission",
+    "severity": "major",
+    "greek": "ἀνοῖξαι τὸ βιβλίον καὶ τὰς ἑπτὰ σφραγῖδας αὐτοῦ",
+    "english": "“the Lion from the tribe of Judah, the Root of David, has conquered.”",
+    "problem": "The English omits the infinitive clause stating what the Lion has conquered to do, namely to open the scroll and its seven seals, which is the point of the elder's words and of John's weeping."
+   }
+  ]
+ },
+ {
+  "book": "matthew",
+  "chapter": 13,
+  "planted": [],
+  "findings": []
+ },
+ {
+  "book": "acts",
+  "chapter": 16,
+  "planted": [],
+  "findings": []
+ },
+ {
+  "book": "galatians",
+  "chapter": 3,
+  "planted": [],
+  "findings": []
+ },
+ {
+  "book": "james",
+  "chapter": 2,
+  "planted": [],
+  "findings": []
+ }
+]

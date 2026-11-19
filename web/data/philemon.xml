@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ait version="2.0" run="20261118-162954-full-nt" model="claude-fable-5-2" register="0.4-draft">
+<ait version="2.0" run="20261118-224116-full-nt-2" model="claude-fable-5-2" register="0.5-draft">
   <book id="philemon" name="Philemon">
     <chapter num="1">
       <verse num="1">
@@ -22,7 +22,7 @@
         </greek>
       </verse>
       <verse num="2">
-        <text>to Apphia our sister, to Archippus our fellow soldier, and to the assembly that meets in your house:</text>
+        <text>and to Apphia our sister, and to Archippus our fellow soldier, and to the assembly in your house:</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="Ἀπφία">Ἀπφίᾳ</w>
@@ -40,7 +40,7 @@
           <w lemma="σύ">σου</w>
           <w lemma="ἐκκλησία">ἐκκλησίᾳ·</w>
         </greek>
-        <note term="assembly" kind="departure" lemma="ἐκκλησία" traditional="church">The Greek word was the ordinary term for a civic gathering and the Septuagint&#x27;s word for Israel assembled. &#x27;Church&#x27; is the near-universal rendering and readers know what it refers to, but it now suggests a building or an institution; here the group is small enough to meet in one household. &#x27;Assembly&#x27; is used throughout this translation so that the reader sees one Greek word.</note>
+        <note term="assembly" kind="departure" lemma="ἐκκλησία" traditional="church">The Greek word was the ordinary term for a civic gathering and the Septuagint’s word for Israel assembled; “church” now suggests a building or an institution. Here it is a group that meets in a private home. “Church” is the near-universal rendering and readers know what it refers to; “assembly” is used throughout this translation so that the one Greek word is recognizable everywhere.</note>
       </verse>
       <verse num="3">
         <text>Grace to you and peace from God our Father and the Lord Jesus Christ.</text>
@@ -60,7 +60,7 @@
         </greek>
       </verse>
       <verse num="4">
-        <text><p/>I always thank my God when I mention you in my prayers,</text>
+        <text><p/>I thank my God always when I mention you in my prayers,</text>
         <greek>
           <w lemma="εὐχαριστέω">Εὐχαριστῶ</w>
           <w lemma="ὁ">τῷ</w>
@@ -77,7 +77,7 @@
         </greek>
       </verse>
       <verse num="5">
-        <text>for I hear of your love and of the faith that you have toward the Lord Jesus and for all the holy ones.</text>
+        <text>because I hear of your love and the faith that you have toward the Lord Jesus and for all the holy ones.</text>
         <greek>
           <w lemma="ἀκούω">ἀκούων</w>
           <w lemma="σύ">σου</w>
@@ -98,8 +98,8 @@
           <w lemma="ὁ">τοὺς</w>
           <w lemma="ἅγιος">ἁγίους,</w>
         </greek>
-        <note term="holy ones" kind="departure" lemma="ἅγιος" traditional="saints">The word is used of all members of the community as people set apart for God, echoing the Septuagint&#x27;s language for Israel. &#x27;Saints&#x27; is traditional, but now suggests canonised individuals or people of exceptional virtue. Other translations use &#x27;God&#x27;s people&#x27; or &#x27;his holy people&#x27;.</note>
-        <note term="your love and of the faith that you have toward the Lord Jesus and for all the holy ones" kind="ambiguity" lemma="" traditional="">The translation keeps the Greek word order. Many interpreters read it as a crossed pattern: faith toward the Lord Jesus and love for all the holy ones, as in the parallel at Colossians 1:4. Others take both love and faith (in the sense of faithfulness) as directed to both the Lord and the holy ones.</note>
+        <note term="holy ones" kind="departure" lemma="ἅγιος" traditional="saints">The word is used of all members of the community as people set apart for God, echoing the Septuagint’s language for Israel. “Saints” now suggests canonized individuals or people of exceptional virtue. Many translations keep “saints”; others use “God’s people”.</note>
+        <note term="your love and the faith that you have toward the Lord Jesus and for all the holy ones" kind="ambiguity" lemma="" traditional="">The translation keeps the Greek word order. Many interpreters read it as a crossed pattern, with faith directed toward the Lord Jesus and love directed toward the holy ones, and some translations rearrange the sentence to say so. Others take both love and faith (or faithfulness) as directed to both.</note>
       </verse>
       <verse num="6">
         <text>I pray that the partnership of your faith may become effective in the knowledge of every good thing that is in us for Christ.</text>
@@ -122,7 +122,7 @@
           <w lemma="εἰς">εἰς</w>
           <w lemma="Χριστός">Χριστόν·</w>
         </greek>
-        <note term="the partnership of your faith" kind="ambiguity" lemma="κοινωνία" traditional="the sharing of your faith">The Greek word means partnership or shared participation, and the phrase is among the most disputed in the letter. It may mean Philemon&#x27;s participation in the faith alongside other believers, the generosity that flows from his faith, or the fellowship his faith creates; it probably does not mean telling others about one&#x27;s faith, as &#x27;sharing your faith&#x27; now suggests. &#x27;Partnership&#x27; is chosen partly because Paul returns to the same word group in verse 17 (&#x27;partner&#x27;). Some manuscripts read &#x27;in you&#x27; rather than &#x27;in us&#x27; at the end of the verse.</note>
+        <note term="the partnership of your faith" kind="ambiguity" lemma="κοινωνία" traditional="the fellowship of your faith; the sharing of your faith">This verse is widely regarded as obscure. The Greek noun means having something in common, and here may mean Philemon’s partnership with others that springs from his faith, his participation in the faith, or his generosity; “partnership” is chosen because Paul appeals to Philemon as a “partner” in verse 17. It does not mean telling others about one’s faith. The closing words, literally “in us into Christ”, are also uncertain and may mean “for Christ’s sake” or “leading us toward Christ”.</note>
       </verse>
       <verse num="7">
         <text>For I have had much joy and encouragement from your love, because the hearts of the holy ones have been refreshed through you, brother.</text>
@@ -147,10 +147,10 @@
           <w lemma="σύ">σοῦ,</w>
           <w lemma="ἀδελφός">ἀδελφέ.</w>
         </greek>
-        <note term="hearts" kind="background" lemma="σπλάγχνον" traditional="bowels (older versions); hearts">The Greek word literally refers to the inner organs, which were thought of as the seat of the deepest feelings. It is not the usual word for &#x27;heart&#x27; and is more visceral. Paul uses it three times in this short letter (verses 7, 12, 20), and the repetition is deliberate: Philemon, who has refreshed the hearts of others, is asked to refresh Paul&#x27;s, and Onesimus is called Paul&#x27;s very heart.</note>
+        <note term="hearts" kind="background" lemma="σπλάγχνον" traditional="bowels (KJV); hearts">The Greek word literally means the inner organs, regarded as the seat of the deepest feelings. Paul uses it three times in this short letter (verses 7, 12 and 20): Philemon has refreshed the hearts of others, Onesimus is Paul’s own heart, and Paul asks Philemon to refresh his heart.</note>
       </verse>
       <verse num="8">
-        <text><p/>Therefore, though I have great boldness in Christ to command you to do what is fitting,</text>
+        <text><p/>So although I have great boldness in Christ to command you to do what is proper,</text>
         <greek>
           <w lemma="διό">Διό,</w>
           <w lemma="πολύς">πολλὴν</w>
@@ -165,7 +165,7 @@
         </greek>
       </verse>
       <verse num="9">
-        <text>yet because of love I appeal to you instead—being who I am, Paul, an old man and now also a prisoner of Christ Jesus.</text>
+        <text>I appeal to you instead on the basis of love—being who I am: Paul, an old man and now also a prisoner of Christ Jesus—</text>
         <greek>
           <w lemma="διά">διὰ</w>
           <w lemma="ὁ">τὴν</w>
@@ -184,7 +184,7 @@
           <w lemma="Χριστός">Χριστοῦ</w>
           <w lemma="Ἰησοῦς">Ἰησοῦ—</w>
         </greek>
-        <note term="an old man" kind="ambiguity" lemma="πρεσβύτης" traditional="the aged; an old man">The word in the manuscripts means &#x27;old man&#x27;. A closely similar word means &#x27;ambassador&#x27;, and the two spellings were sometimes interchanged in the period, so some scholars and a few translations read &#x27;Paul, an ambassador and now also a prisoner&#x27;. Most translations keep &#x27;old man&#x27;, which suits an appeal that deliberately sets aside authority.</note>
+        <note term="an old man" kind="ambiguity" lemma="πρεσβύτης" traditional="the aged; an old man">The Greek word normally means “old man”, and most translations render it so. A nearly identical word means “ambassador”, the two were sometimes confused in spelling, and some scholars think Paul means “an ambassador and now also a prisoner of Christ Jesus”. “Old man” fits an appeal that sets aside authority in favor of love.</note>
       </verse>
       <verse num="10">
         <text>I appeal to you for my child, whose father I became in my chains—Onesimus,</text>
@@ -202,6 +202,7 @@
           <w lemma="δεσμός">δεσμοῖς</w>
           <w lemma="Ὀνήσιμος">Ὀνήσιμον,</w>
         </greek>
+        <note term="Onesimus" kind="background" lemma="Ὀνήσιμος" traditional="">Onesimus was a slave in Philemon’s household (verse 16) who had come to faith through Paul during Paul’s imprisonment. He is usually thought to have run away, though the letter never says how he came to be with Paul. His name, common for slaves, means “useful”, and Paul plays on it in verse 11 (“useless … useful”) and again in verse 20, where “benefit” translates a verb from the same root as the name.</note>
       </verse>
       <verse num="11">
         <text>who was once useless to you but is now useful both to you and to me.</text>
@@ -217,10 +218,9 @@
           <w lemma="ἐγώ">ἐμοὶ</w>
           <w lemma="εὔχρηστος">εὔχρηστον,</w>
         </greek>
-        <note term="useless to you but is now useful" kind="background" lemma="ἄχρηστος" traditional="unprofitable ... profitable">The name Onesimus means &#x27;useful&#x27; or &#x27;beneficial&#x27; and was a common name for slaves. Paul plays on it with a pair of related Greek words, &#x27;useless&#x27; and &#x27;useful&#x27;, which differ from the name itself but make the same point: the man has now become what his name says.</note>
       </verse>
       <verse num="12">
-        <text>I am sending him back to you—him who is my very heart.</text>
+        <text>I am sending him back to you—him, that is, my own heart.</text>
         <greek>
           <w lemma="ὅς">ὃν</w>
           <w lemma="ἀναπέμπω">ἀνέπεμψά</w>
@@ -234,7 +234,7 @@
         </greek>
       </verse>
       <verse num="13">
-        <text>I wanted to keep him with me, so that on your behalf he might serve me in my chains for the good news;</text>
+        <text>I would have liked to keep him with me, so that on your behalf he might serve me in my chains for the good news,</text>
         <greek>
           <w lemma="ὅς">ὃν</w>
           <w lemma="ἐγώ">ἐγὼ</w>
@@ -253,10 +253,10 @@
           <w lemma="ὁ">τοῦ</w>
           <w lemma="εὐαγγέλιον">εὐαγγελίου,</w>
         </greek>
-        <note term="good news" kind="departure" lemma="εὐαγγέλιον" traditional="gospel">The Greek was an ordinary word for a public announcement of good news, also used of imperial proclamations. &#x27;Gospel&#x27; is the traditional rendering, but is now a religious term or a book title; many modern translations already alternate between the two.</note>
+        <note term="good news" kind="departure" lemma="εὐαγγέλιον" traditional="gospel">The Greek was an ordinary word for a public announcement of good news, also used of imperial proclamations. “Gospel” has become a religious term or a book title, so “good news” is used throughout this translation. Many modern translations alternate between the two.</note>
       </verse>
       <verse num="14">
-        <text>but I did not want to do anything without your consent, so that the good you do would not be forced but of your own free will.</text>
+        <text>but I did not want to do anything without your consent, so that your good deed would not be forced but freely chosen.</text>
         <greek>
           <w lemma="χωρίς">χωρὶς</w>
           <w lemma="δέ">δὲ</w>
@@ -295,10 +295,11 @@
           <w lemma="αὐτός">αὐτὸν</w>
           <w lemma="ἀπέχω">ἀπέχῃς,</w>
         </greek>
-        <note term="forever" kind="register-exception" lemma="αἰώνιος" traditional="for ever">This translation normally renders the word &#x27;eternal&#x27;, but here it is not attached to a noun: it describes how Philemon will have Onesimus back and is set against &#x27;for a while&#x27; (literally &#x27;for an hour&#x27;). English needs an adverb, and &#x27;forever&#x27; is the traditional and natural one. The point is a relationship that, as between brothers in the Lord, outlasts this age, and not merely a slave returned for life.</note>
+        <note term="forever" kind="register-exception" lemma="αἰώνιος" traditional="for ever">This is the adjective elsewhere rendered “eternal”, used here in an adverbial way that English cannot reproduce with the adjective; “forever” gives the same sense. It contrasts with “for a while” (literally “for an hour”). The word can also carry the overtone of the age to come: the new bond between the two as brothers outlasts this life.</note>
+        <note term="he was separated from you" kind="ambiguity" lemma="χωρίζω" traditional="he departed">The verb is passive, and “from you” is supplied for English. Paul avoids saying that Onesimus left or ran away, and many interpreters see in the passive a hint that God’s purpose was at work in the separation, which the cautious “perhaps” supports. It can also be read simply as “he was parted from you”, with no agent implied.</note>
       </verse>
       <verse num="16">
-        <text>no longer as a slave but as more than a slave, a beloved brother—especially to me, but how much more to you, both in the flesh and in the Lord.</text>
+        <text>no longer as a slave but more than a slave, a beloved brother—especially to me, but how much more to you, both in the flesh and in the Lord.</text>
         <greek>
           <w lemma="οὐκέτι">οὐκέτι</w>
           <w lemma="ὡς">ὡς</w>
@@ -321,10 +322,9 @@
           <w lemma="ἐν">ἐν</w>
           <w lemma="κύριος">κυρίῳ.</w>
         </greek>
-        <note term="both in the flesh and in the Lord" kind="background" lemma="" traditional="">&#x27;In the flesh&#x27; refers to ordinary human and social relationships, and &#x27;in the Lord&#x27; to their shared belonging to Christ. Paul asks that Onesimus be treated as a brother in both spheres, not only in the assembly. Whether this amounts to a request to free him is disputed; Paul does not say so outright, though verse 21 hints that he expects more than he asks.</note>
       </verse>
       <verse num="17">
-        <text><p/>So if you regard me as a partner, welcome him as you would me.</text>
+        <text><p/>So if you consider me a partner, welcome him as you would me.</text>
         <greek>
           <w lemma="εἰ">Εἰ</w>
           <w lemma="οὖν">οὖν</w>
@@ -338,7 +338,7 @@
         </greek>
       </verse>
       <verse num="18">
-        <text>And if he has wronged you in any way or owes you anything, charge it to my account.</text>
+        <text>And if he has wronged you in any way or owes you anything, charge it to me.</text>
         <greek>
           <w lemma="εἰ">εἰ</w>
           <w lemma="δέ">δέ</w>
@@ -375,7 +375,7 @@
         </greek>
       </verse>
       <verse num="20">
-        <text>Yes, brother, let me have some benefit from you in the Lord; refresh my heart in Christ.</text>
+        <text>Yes, brother, let me have this benefit from you in the Lord; refresh my heart in Christ.</text>
         <greek>
           <w lemma="ναί">ναί,</w>
           <w lemma="ἀδελφός">ἀδελφέ,</w>
@@ -391,7 +391,6 @@
           <w lemma="ἐν">ἐν</w>
           <w lemma="Χριστός">Χριστῷ.</w>
         </greek>
-        <note term="let me have some benefit from you" kind="background" lemma="ὀνίνημι" traditional="let me have joy of thee; may I have this benefit from you">The verb is the one from which the name Onesimus is formed, and it occurs only here in the New Testament. Most interpreters see a deliberate play on the name: Paul asks Philemon himself to be &#x27;useful&#x27; to him.</note>
       </verse>
       <verse num="21">
         <text>Confident of your obedience, I write to you, knowing that you will do even more than I say.</text>
@@ -412,7 +411,7 @@
         </greek>
       </verse>
       <verse num="22">
-        <text>At the same time, prepare a guest room for me too, for I hope that through your prayers I will be granted to you.</text>
+        <text>At the same time, prepare a guest room for me as well, for I hope that through your prayers I will be granted to you.</text>
         <greek>
           <w lemma="ἅμα">ἅμα</w>
           <w lemma="δέ">δὲ</w>
@@ -430,9 +429,10 @@
           <w lemma="χαρίζομαι">χαρισθήσομαι</w>
           <w lemma="σύ">ὑμῖν.</w>
         </greek>
+        <note term="through your prayers I will be granted to you" kind="background" lemma="" traditional="">Almost the whole letter addresses Philemon alone, but “your” and “you” here are plural, as are “you” in verse 3 and “your” in verse 25. Paul has the whole household assembly in view, and the letter with its request would have been heard by all of them.</note>
       </verse>
       <verse num="23">
-        <text><p/>Epaphras, my fellow captive in Christ Jesus, greets you,</text>
+        <text><p/>Epaphras, my fellow prisoner in Christ Jesus, greets you,</text>
         <greek>
           <w lemma="ἀσπάζομαι">Ἀσπάζεταί</w>
           <w lemma="σύ">σε</w>
@@ -444,7 +444,6 @@
           <w lemma="Χριστός">Χριστῷ</w>
           <w lemma="Ἰησοῦς">Ἰησοῦ,</w>
         </greek>
-        <note term="fellow captive" kind="departure" lemma="συναιχμάλωτος" traditional="fellow prisoner">The word is different from the one Paul uses for himself as a &#x27;prisoner&#x27; in verses 1 and 9. It properly means a fellow prisoner of war, in keeping with the military image of &#x27;fellow soldier&#x27; in verse 2. Most translations render both words &#x27;prisoner&#x27;; whether Epaphras was literally confined with Paul or the term is figurative is not certain.</note>
       </verse>
       <verse num="24">
         <text>as do Mark, Aristarchus, Demas, and Luke, my coworkers.</text>

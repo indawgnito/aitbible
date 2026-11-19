@@ -1,0 +1,666 @@
+{
+ "id": "acts-009",
+ "book": "acts",
+ "chapter": 9,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14fu9Dt9GuyPBrko7",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 12033,
+  "output_tokens": 13617
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But Saul, still breathing threat and murder against the disciples of the Lord, went to the high priest\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and asked him for letters to the synagogues in Damascus, so that if he found any who belonged to the Way, men or women, he might bring them bound to Jerusalem.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"As he traveled, he was approaching Damascus when suddenly a light from heaven flashed around him.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He fell to the ground and heard a voice saying to him,\"},{\"speaker\":\"Jesus\",\"text\":\"“Saul, Saul, why are you persecuting me?”\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He said,\"},{\"speaker\":\"other\",\"text\":\"“Who are you, Lord?”\"},{\"speaker\":\"narrator\",\"text\":\"And he replied,\"},{\"speaker\":\"Jesus\",\"text\":\"“I am Jesus, whom you are persecuting.\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But get up and go into the city, and you will be told what you must do.”\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The men traveling with him stood speechless, hearing the voice but seeing no one.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Saul got up from the ground, but though his eyes were open he could see nothing. So they led him by the hand and brought him into Damascus.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For three days he was without sight, and he neither ate nor drank.\"}]},{\"verse\":10,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now there was a disciple in Damascus named Ananias, and the Lord said to him in a vision,\"},{\"speaker\":\"Jesus\",\"text\":\"“Ananias.”\"},{\"speaker\":\"narrator\",\"text\":\"He said,\"},{\"speaker\":\"other\",\"text\":\"“Here I am, Lord.”\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The Lord said to him,\"},{\"speaker\":\"Jesus\",\"text\":\"“Get up and go to the street called Straight, and at the house of Judas look for a man from Tarsus named Saul. For look, he is praying,\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"and in a vision he has seen a man named Ananias come in and lay hands on him so that he may see again.”\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Ananias answered,\"},{\"speaker\":\"other\",\"text\":\"“Lord, I have heard from many people about this man, how much harm he has done to your holy ones in Jerusalem.\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"And here he has authority from the chief priests to bind all who call on your name.”\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But the Lord said to him,\"},{\"speaker\":\"Jesus\",\"text\":\"“Go, because this man is my chosen instrument to carry my name before Gentiles and kings and the children of Israel.\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For I myself will show him how much he must suffer for the sake of my name.”\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So Ananias went and entered the house. Laying his hands on him, he said,\"},{\"speaker\":\"other\",\"text\":\"“Brother Saul, the Lord has sent me—Jesus, who appeared to you on the road as you were coming here—so that you may see again and be filled with the Holy Spirit.”\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And immediately something like scales fell from his eyes, and he could see again. He got up and was baptized,\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and after taking food he regained his strength. He was with the disciples in Damascus for some days.\"}]},{\"verse\":20,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And immediately he began proclaiming in the synagogues that Jesus is the Son of God.\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"All who heard him were astonished and said,\"},{\"speaker\":\"other\",\"text\":\"“Isn’t this the man who in Jerusalem ravaged those who call on this name? And didn’t he come here for this very purpose, to bring them bound before the chief priests?”\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But Saul grew more and more powerful and confounded the Jews living in Damascus, proving that Jesus is the Messiah.\"}]},{\"verse\":23,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When a good many days had passed, the Jews plotted together to kill him,\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"but their plot became known to Saul. They were even watching the gates day and night in order to kill him,\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"but his disciples took him by night and let him down through the wall, lowering him in a basket.\"}]},{\"verse\":26,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When he arrived in Jerusalem, he tried to join the disciples, but they were all afraid of him, not believing that he was a disciple.\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But Barnabas took hold of him and brought him to the apostles, and he related to them how on the road Saul had seen the Lord, and that the Lord had spoken to him, and how in Damascus he had spoken boldly in the name of Jesus.\"}]},{\"verse\":28,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So he stayed with them, going in and out in Jerusalem, speaking boldly in the name of the Lord.\"}]},{\"verse\":29,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He also spoke and debated with the Greek-speaking Jews, but they were trying to kill him.\"}]},{\"verse\":30,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When the brothers learned of this, they brought him down to Caesarea and sent him off to Tarsus.\"}]},{\"verse\":31,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So then the assembly throughout all Judea and Galilee and Samaria had peace and was being built up; and living in the fear of the Lord and in the encouragement of the Holy Spirit, it grew in number.\"}]},{\"verse\":32,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now as Peter was traveling through all those parts, he came down also to the holy ones living in Lydda.\"}]},{\"verse\":33,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"There he found a man named Aeneas, who had been lying on a mat for eight years, for he was paralyzed.\"}]},{\"verse\":34,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Peter said to him,\"},{\"speaker\":\"other\",\"text\":\"“Aeneas, Jesus Christ heals you. Get up and make your bed.”\"},{\"speaker\":\"narrator\",\"text\":\"And immediately he got up.\"}]},{\"verse\":35,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"All who lived in Lydda and Sharon saw him, and they turned to the Lord.\"}]},{\"verse\":36,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now in Joppa there was a disciple named Tabitha, which translated is Dorcas. She was full of good works and acts of charity, which she did continually.\"}]},{\"verse\":37,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"In those days she became sick and died, and after washing her they laid her in an upstairs room.\"}]},{\"verse\":38,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Since Lydda was near Joppa, the disciples, hearing that Peter was there, sent two men to him to urge him,\"},{\"speaker\":\"other\",\"text\":\"“Do not delay in coming over to us.”\"}]},{\"verse\":39,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So Peter got up and went with them. When he arrived, they took him up to the upstairs room, and all the widows stood beside him, weeping and showing the tunics and cloaks that Dorcas had made while she was with them.\"}]},{\"verse\":40,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But Peter sent them all outside, knelt down, and prayed. Then, turning to the body, he said,\"},{\"speaker\":\"other\",\"text\":\"“Tabitha, get up.”\"},{\"speaker\":\"narrator\",\"text\":\"She opened her eyes, and when she saw Peter she sat up.\"}]},{\"verse\":41,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He gave her his hand and raised her up. Then he called the holy ones and the widows and presented her alive.\"}]},{\"verse\":42,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"It became known throughout all Joppa, and many believed in the Lord.\"}]},{\"verse\":43,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And Peter stayed for a good many days in Joppa with a certain Simon, a tanner.\"}]}],\"notes\":[{\"verse\":2,\"phrase\":\"the Way\",\"lemma\":\"ὁδός\",\"kind\":\"background\",\"traditional\":\"the Way\",\"note\":\"In Acts “the Way” is an early name for the movement of Jesus’s followers, probably their own name for themselves. The Greek word is the ordinary one for a road or journey, and it is the same word translated “road” in verses 17 and 27.\"},{\"verse\":5,\"phrase\":\"Lord\",\"lemma\":\"κύριος\",\"kind\":\"ambiguity\",\"traditional\":\"Lord\",\"note\":\"The Greek form of address can mean anything from a polite “sir” to “Lord” as a divine title. Saul does not yet know who is speaking, so “sir” is possible, but the light from heaven makes clear to him that he is addressing a heavenly figure, and most translations keep “Lord.”\"},{\"verse\":7,\"phrase\":\"hearing the voice\",\"lemma\":\"φωνή\",\"kind\":\"ambiguity\",\"traditional\":\"hearing the voice\",\"note\":\"The Greek word can mean either “voice” or “sound.” In Acts 22:9 Paul says his companions “did not hear the voice” of the one speaking to him, so some translations render it “hearing the sound” here to suggest they heard a noise without making out words. That distinction cannot be proved from the grammar alone, and the same word is kept as in verse 4.\"},{\"verse\":13,\"phrase\":\"holy ones\",\"lemma\":\"ἅγιος\",\"kind\":\"departure\",\"traditional\":\"saints\",\"note\":\"The traditional rendering is “saints,” which many translations keep; others use “God’s people.” The word is used of all believers as people set apart for God, echoing the Greek Old Testament’s language for Israel. “Saints” now suggests canonized individuals or people of exceptional virtue, which is not the meaning here.\"},{\"verse\":15,\"phrase\":\"Gentiles\",\"lemma\":\"ἔθνος\",\"kind\":\"ambiguity\",\"traditional\":\"Gentiles\",\"note\":\"The Greek word means “peoples” or “nations,” and in the plural it regularly refers to the non-Jewish peoples. Here, set beside “the children of Israel,” it is rendered “Gentiles,” as in most translations, but “nations” is the same word and is equally possible.\"},{\"verse\":22,\"phrase\":\"the Messiah\",\"lemma\":\"Χριστός\",\"kind\":\"departure\",\"traditional\":\"the Christ\",\"note\":\"The traditional rendering is “the Christ.” Here the word is a title under debate in the synagogues—the anointed king Israel expected—and “Messiah” conveys that to a modern reader. Several modern translations make the same choice in the Gospels and Acts, while keeping “Christ” where it functions as a name, as in verse 34.\"},{\"verse\":25,\"phrase\":\"his disciples\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"the disciples took him\",\"note\":\"The earliest manuscripts read “his disciples,” implying that Saul already had followers of his own in Damascus. Many later manuscripts read “the disciples took him,” which is smoother and may be a correction. Paul’s own account in 2 Corinthians 11:33 says he was lowered through a window in the wall.\"},{\"verse\":29,\"phrase\":\"the Greek-speaking Jews\",\"lemma\":\"Ἑλληνιστής\",\"kind\":\"departure\",\"traditional\":\"the Hellenists\",\"note\":\"The traditional rendering is “Hellenists” (older versions: “Grecians”). The word is rare, and in Acts it most likely means Jews whose main language was Greek, as distinct from Aramaic-speaking Jews. In Acts 6:1 it refers to such Jews within the community of believers; here it refers to those outside it.\"},{\"verse\":31,\"phrase\":\"assembly\",\"lemma\":\"ἐκκλησία\",\"kind\":\"departure\",\"traditional\":\"church\",\"note\":\"The traditional rendering is “church,” which is near-universal, and some object that “assembly” can sound like a one-off meeting. A first-century hearer knew the word as a civic gathering and as the Greek Old Testament’s term for Israel assembled, whereas “church” now suggests a building or an institution. Many later manuscripts have the plural here, “the assemblies … had peace.”\"},{\"verse\":34,\"phrase\":\"make your bed\",\"lemma\":\"στρώννυμι\",\"kind\":\"ambiguity\",\"traditional\":\"make your bed\",\"note\":\"The Greek says literally “spread for yourself,” without naming what is to be spread. Most translators understand it of bedding: the man is to tidy the mat he has lain on. It could also mean spreading a couch for a meal, that is, “get yourself something to eat.”\"},{\"verse\":36,\"phrase\":\"Dorcas\",\"lemma\":\"Δορκάς\",\"kind\":\"background\",\"traditional\":\"Dorcas\",\"note\":\"Tabitha is Aramaic and Dorcas is Greek; both mean “gazelle.” Luke gives the Greek equivalent for his readers, as was common for people who moved between the two languages. The word for “disciple” here is a feminine form found nowhere else in the New Testament.\"},{\"verse\":43,\"phrase\":\"a tanner\",\"lemma\":\"βυρσεύς\",\"kind\":\"background\",\"traditional\":\"a tanner\",\"note\":\"Tanners worked with the hides of dead animals, and the trade was foul-smelling and commonly looked down on; later Jewish tradition treats it as a despised occupation. Peter’s lodging with a tanner may quietly prepare for the next chapter, where questions of clean and unclean come to the fore.\"}],\"candidates\":[{\"lemma\":\"ἀδελφός\",\"rendering\":\"brothers\",\"verse\":30,\"reason\":\"The plural for community members recurs throughout Acts and the letters, and translations split between “brothers,” “brothers and sisters,” and “believers.”\"},{\"lemma\":\"Ἑλληνιστής\",\"rendering\":\"Greek-speaking Jews\",\"verse\":29,\"reason\":\"It occurs in Acts 6:1, 9:29 and (as a variant) 11:20 with different referents, and needs one policy on “Hellenists” versus a descriptive rendering.\"},{\"lemma\":\"ἐλεημοσύνη\",\"rendering\":\"acts of charity\",\"verse\":36,\"reason\":\"It recurs in Matthew 6, Luke and Acts 10, and translators vary between “alms,” “gifts to the poor,” and “acts of charity/mercy.”\"},{\"lemma\":\"ὁδός\",\"rendering\":\"the Way\",\"verse\":2,\"reason\":\"The absolute use as a name for the movement recurs in Acts (19:9, 19:23, 22:4, 24:14, 24:22) and should be capitalized and rendered uniformly.\"},{\"lemma\":\"παράκλησις\",\"rendering\":\"encouragement\",\"verse\":31,\"reason\":\"It recurs across Acts and the letters, where translators vary between “comfort,” “encouragement,” “consolation,” and “exhortation,” and it is linked to the title Paraclete.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But Saul, still breathing threat and murder against the disciples of the Lord, went to the high priest"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and asked him for letters to the synagogues in Damascus, so that if he found any who belonged to the Way, men or women, he might bring them bound to Jerusalem."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "As he traveled, he was approaching Damascus when suddenly a light from heaven flashed around him."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He fell to the ground and heard a voice saying to him,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Saul, Saul, why are you persecuting me?”"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Who are you, Lord?”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "And he replied,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“I am Jesus, whom you are persecuting."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But get up and go into the city, and you will be told what you must do.”"
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The men traveling with him stood speechless, hearing the voice but seeing no one."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Saul got up from the ground, but though his eyes were open he could see nothing. So they led him by the hand and brought him into Damascus."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For three days he was without sight, and he neither ate nor drank."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now there was a disciple in Damascus named Ananias, and the Lord said to him in a vision,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Ananias.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "He said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Here I am, Lord.”"
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The Lord said to him,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Get up and go to the street called Straight, and at the house of Judas look for a man from Tarsus named Saul. For look, he is praying,"
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "and in a vision he has seen a man named Ananias come in and lay hands on him so that he may see again.”"
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Ananias answered,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Lord, I have heard from many people about this man, how much harm he has done to your holy ones in Jerusalem."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "And here he has authority from the chief priests to bind all who call on your name.”"
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But the Lord said to him,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Go, because this man is my chosen instrument to carry my name before Gentiles and kings and the children of Israel."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For I myself will show him how much he must suffer for the sake of my name.”"
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So Ananias went and entered the house. Laying his hands on him, he said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Brother Saul, the Lord has sent me—Jesus, who appeared to you on the road as you were coming here—so that you may see again and be filled with the Holy Spirit.”"
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And immediately something like scales fell from his eyes, and he could see again. He got up and was baptized,"
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and after taking food he regained his strength. He was with the disciples in Damascus for some days."
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And immediately he began proclaiming in the synagogues that Jesus is the Son of God."
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "All who heard him were astonished and said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Isn’t this the man who in Jerusalem ravaged those who call on this name? And didn’t he come here for this very purpose, to bring them bound before the chief priests?”"
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But Saul grew more and more powerful and confounded the Jews living in Damascus, proving that Jesus is the Messiah."
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When a good many days had passed, the Jews plotted together to kill him,"
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "but their plot became known to Saul. They were even watching the gates day and night in order to kill him,"
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "but his disciples took him by night and let him down through the wall, lowering him in a basket."
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When he arrived in Jerusalem, he tried to join the disciples, but they were all afraid of him, not believing that he was a disciple."
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But Barnabas took hold of him and brought him to the apostles, and he related to them how on the road Saul had seen the Lord, and that the Lord had spoken to him, and how in Damascus he had spoken boldly in the name of Jesus."
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So he stayed with them, going in and out in Jerusalem, speaking boldly in the name of the Lord."
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He also spoke and debated with the Greek-speaking Jews, but they were trying to kill him."
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When the brothers learned of this, they brought him down to Caesarea and sent him off to Tarsus."
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So then the assembly throughout all Judea and Galilee and Samaria had peace and was being built up; and living in the fear of the Lord and in the encouragement of the Holy Spirit, it grew in number."
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now as Peter was traveling through all those parts, he came down also to the holy ones living in Lydda."
+     }
+    ]
+   },
+   {
+    "verse": 33,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "There he found a man named Aeneas, who had been lying on a mat for eight years, for he was paralyzed."
+     }
+    ]
+   },
+   {
+    "verse": 34,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Peter said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Aeneas, Jesus Christ heals you. Get up and make your bed.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "And immediately he got up."
+     }
+    ]
+   },
+   {
+    "verse": 35,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "All who lived in Lydda and Sharon saw him, and they turned to the Lord."
+     }
+    ]
+   },
+   {
+    "verse": 36,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now in Joppa there was a disciple named Tabitha, which translated is Dorcas. She was full of good works and acts of charity, which she did continually."
+     }
+    ]
+   },
+   {
+    "verse": 37,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "In those days she became sick and died, and after washing her they laid her in an upstairs room."
+     }
+    ]
+   },
+   {
+    "verse": 38,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Since Lydda was near Joppa, the disciples, hearing that Peter was there, sent two men to him to urge him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Do not delay in coming over to us.”"
+     }
+    ]
+   },
+   {
+    "verse": 39,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So Peter got up and went with them. When he arrived, they took him up to the upstairs room, and all the widows stood beside him, weeping and showing the tunics and cloaks that Dorcas had made while she was with them."
+     }
+    ]
+   },
+   {
+    "verse": 40,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But Peter sent them all outside, knelt down, and prayed. Then, turning to the body, he said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Tabitha, get up.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "She opened her eyes, and when she saw Peter she sat up."
+     }
+    ]
+   },
+   {
+    "verse": 41,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He gave her his hand and raised her up. Then he called the holy ones and the widows and presented her alive."
+     }
+    ]
+   },
+   {
+    "verse": 42,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "It became known throughout all Joppa, and many believed in the Lord."
+     }
+    ]
+   },
+   {
+    "verse": 43,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And Peter stayed for a good many days in Joppa with a certain Simon, a tanner."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 2,
+    "phrase": "the Way",
+    "lemma": "ὁδός",
+    "kind": "background",
+    "traditional": "the Way",
+    "note": "In Acts “the Way” is an early name for the movement of Jesus’s followers, probably their own name for themselves. The Greek word is the ordinary one for a road or journey, and it is the same word translated “road” in verses 17 and 27."
+   },
+   {
+    "verse": 5,
+    "phrase": "Lord",
+    "lemma": "κύριος",
+    "kind": "ambiguity",
+    "traditional": "Lord",
+    "note": "The Greek form of address can mean anything from a polite “sir” to “Lord” as a divine title. Saul does not yet know who is speaking, so “sir” is possible, but the light from heaven makes clear to him that he is addressing a heavenly figure, and most translations keep “Lord.”"
+   },
+   {
+    "verse": 7,
+    "phrase": "hearing the voice",
+    "lemma": "φωνή",
+    "kind": "ambiguity",
+    "traditional": "hearing the voice",
+    "note": "The Greek word can mean either “voice” or “sound.” In Acts 22:9 Paul says his companions “did not hear the voice” of the one speaking to him, so some translations render it “hearing the sound” here to suggest they heard a noise without making out words. That distinction cannot be proved from the grammar alone, and the same word is kept as in verse 4."
+   },
+   {
+    "verse": 13,
+    "phrase": "holy ones",
+    "lemma": "ἅγιος",
+    "kind": "departure",
+    "traditional": "saints",
+    "note": "The traditional rendering is “saints,” which many translations keep; others use “God’s people.” The word is used of all believers as people set apart for God, echoing the Greek Old Testament’s language for Israel. “Saints” now suggests canonized individuals or people of exceptional virtue, which is not the meaning here."
+   },
+   {
+    "verse": 15,
+    "phrase": "Gentiles",
+    "lemma": "ἔθνος",
+    "kind": "ambiguity",
+    "traditional": "Gentiles",
+    "note": "The Greek word means “peoples” or “nations,” and in the plural it regularly refers to the non-Jewish peoples. Here, set beside “the children of Israel,” it is rendered “Gentiles,” as in most translations, but “nations” is the same word and is equally possible."
+   },
+   {
+    "verse": 22,
+    "phrase": "the Messiah",
+    "lemma": "Χριστός",
+    "kind": "departure",
+    "traditional": "the Christ",
+    "note": "The traditional rendering is “the Christ.” Here the word is a title under debate in the synagogues—the anointed king Israel expected—and “Messiah” conveys that to a modern reader. Several modern translations make the same choice in the Gospels and Acts, while keeping “Christ” where it functions as a name, as in verse 34."
+   },
+   {
+    "verse": 25,
+    "phrase": "his disciples",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "the disciples took him",
+    "note": "The earliest manuscripts read “his disciples,” implying that Saul already had followers of his own in Damascus. Many later manuscripts read “the disciples took him,” which is smoother and may be a correction. Paul’s own account in 2 Corinthians 11:33 says he was lowered through a window in the wall."
+   },
+   {
+    "verse": 29,
+    "phrase": "the Greek-speaking Jews",
+    "lemma": "Ἑλληνιστής",
+    "kind": "departure",
+    "traditional": "the Hellenists",
+    "note": "The traditional rendering is “Hellenists” (older versions: “Grecians”). The word is rare, and in Acts it most likely means Jews whose main language was Greek, as distinct from Aramaic-speaking Jews. In Acts 6:1 it refers to such Jews within the community of believers; here it refers to those outside it."
+   },
+   {
+    "verse": 31,
+    "phrase": "assembly",
+    "lemma": "ἐκκλησία",
+    "kind": "departure",
+    "traditional": "church",
+    "note": "The traditional rendering is “church,” which is near-universal, and some object that “assembly” can sound like a one-off meeting. A first-century hearer knew the word as a civic gathering and as the Greek Old Testament’s term for Israel assembled, whereas “church” now suggests a building or an institution. Many later manuscripts have the plural here, “the assemblies … had peace.”"
+   },
+   {
+    "verse": 34,
+    "phrase": "make your bed",
+    "lemma": "στρώννυμι",
+    "kind": "ambiguity",
+    "traditional": "make your bed",
+    "note": "The Greek says literally “spread for yourself,” without naming what is to be spread. Most translators understand it of bedding: the man is to tidy the mat he has lain on. It could also mean spreading a couch for a meal, that is, “get yourself something to eat.”"
+   },
+   {
+    "verse": 36,
+    "phrase": "Dorcas",
+    "lemma": "Δορκάς",
+    "kind": "background",
+    "traditional": "Dorcas",
+    "note": "Tabitha is Aramaic and Dorcas is Greek; both mean “gazelle.” Luke gives the Greek equivalent for his readers, as was common for people who moved between the two languages. The word for “disciple” here is a feminine form found nowhere else in the New Testament."
+   },
+   {
+    "verse": 43,
+    "phrase": "a tanner",
+    "lemma": "βυρσεύς",
+    "kind": "background",
+    "traditional": "a tanner",
+    "note": "Tanners worked with the hides of dead animals, and the trade was foul-smelling and commonly looked down on; later Jewish tradition treats it as a despised occupation. Peter’s lodging with a tanner may quietly prepare for the next chapter, where questions of clean and unclean come to the fore."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "ἀδελφός",
+    "rendering": "brothers",
+    "verse": 30,
+    "reason": "The plural for community members recurs throughout Acts and the letters, and translations split between “brothers,” “brothers and sisters,” and “believers.”"
+   },
+   {
+    "lemma": "Ἑλληνιστής",
+    "rendering": "Greek-speaking Jews",
+    "verse": 29,
+    "reason": "It occurs in Acts 6:1, 9:29 and (as a variant) 11:20 with different referents, and needs one policy on “Hellenists” versus a descriptive rendering."
+   },
+   {
+    "lemma": "ἐλεημοσύνη",
+    "rendering": "acts of charity",
+    "verse": 36,
+    "reason": "It recurs in Matthew 6, Luke and Acts 10, and translators vary between “alms,” “gifts to the poor,” and “acts of charity/mercy.”"
+   },
+   {
+    "lemma": "ὁδός",
+    "rendering": "the Way",
+    "verse": 2,
+    "reason": "The absolute use as a name for the movement recurs in Acts (19:9, 19:23, 22:4, 24:14, 24:22) and should be capitalized and rendered uniformly."
+   },
+   {
+    "lemma": "παράκλησις",
+    "rendering": "encouragement",
+    "verse": 31,
+    "reason": "It recurs across Acts and the letters, where translators vary between “comfort,” “encouragement,” “consolation,” and “exhortation,” and it is linked to the title Paraclete."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [
+  "Verse 26: πιστεύω is not rendered with a register form (believe / trust) and has no register-exception note.",
+  "Verse 26: πειράζω is not rendered with a register form (test; tempt; tempter; put to the test; examine; try / attempt) and has no register-exception note."
+ ],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 8823,
+   "output_tokens": 302
+  },
+  "findings": [],
+  "error": ""
+ }
+}

@@ -1,0 +1,807 @@
+{
+ "id": "luke-012",
+ "book": "luke",
+ "chapter": 12,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14eArwNXu8JNLCcfi",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 15815,
+  "output_tokens": 25659
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Meanwhile, when a crowd of many thousands had gathered, so that they were trampling one another, he began to speak to his disciples first:\"},{\"speaker\":\"Jesus\",\"text\":\"“Be on your guard against the leaven of the Pharisees, which is hypocrisy.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Nothing is covered up that will not be uncovered, and nothing hidden that will not be made known.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Therefore whatever you have said in the dark will be heard in the light, and what you have whispered in the inner rooms will be proclaimed on the housetops.\"}]},{\"verse\":4,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"I tell you, my friends, do not fear those who kill the body and after that have nothing more they can do.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But I will show you whom to fear: fear the one who, after killing, has authority to throw into Gehenna. Yes, I tell you, fear that one.\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Are not five sparrows sold for two pennies? Yet not one of them is forgotten in the sight of God.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But even the hairs of your head have all been counted. Do not fear; you are worth more than many sparrows.\"}]},{\"verse\":8,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"I tell you, everyone who acknowledges me before people, the Son of Man will also acknowledge before the angels of God;\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"but whoever denies me in the sight of people will be denied in the sight of the angels of God.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And everyone who speaks a word against the Son of Man will be forgiven, but the one who blasphemes against the Holy Spirit will not be forgiven.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"When they bring you before the synagogues and the rulers and the authorities, do not worry about how or what you will answer in your defense, or what you will say,\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"for the Holy Spirit will teach you in that very hour what you must say.”\"}]},{\"verse\":13,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Someone in the crowd said to him,\"},{\"speaker\":\"other\",\"text\":\"“Teacher, tell my brother to divide the inheritance with me.”\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But he said to him,\"},{\"speaker\":\"Jesus\",\"text\":\"“Man, who appointed me judge or divider over you?”\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then he said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Watch out, and guard yourselves against every kind of greed, because even when someone has more than enough, his life does not come from his possessions.”\"}]},{\"verse\":16,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And he told them a parable:\"},{\"speaker\":\"Jesus\",\"text\":\"“The land of a certain rich man produced a good crop.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And he reasoned to himself, ‘What shall I do, since I have nowhere to store my crops?’\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And he said, ‘This is what I will do: I will tear down my barns and build bigger ones, and there I will store all my grain and my goods,\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"and I will say to my soul, “Soul, you have many goods laid up for many years; rest, eat, drink, enjoy yourself.”’\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But God said to him, ‘Fool! This very night your soul is being demanded back from you. And the things you have prepared—whose will they be?’\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"So it is with the one who stores up treasure for himself and is not rich toward God.”\"}]},{\"verse\":22,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then he said to his disciples,\"},{\"speaker\":\"Jesus\",\"text\":\"“For this reason I tell you, do not worry about your life, what you will eat, or about your body, what you will wear.\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For life is more than food, and the body more than clothing.\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Consider the ravens: they neither sow nor reap, they have neither storeroom nor barn, and yet God feeds them. How much more you are worth than the birds!\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And which of you by worrying can add a cubit to the length of his life?\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"If then you cannot do even the smallest thing, why do you worry about the rest?\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Consider the lilies, how they grow: they neither toil nor spin. Yet I tell you, not even Solomon in all his glory was dressed like one of these.\"}]},{\"verse\":28,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But if God so clothes the grass, which is in the field today and tomorrow is thrown into the oven, how much more will he clothe you, you of little faith!\"}]},{\"verse\":29,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And you, do not seek what you will eat and what you will drink, and do not be anxious,\"}]},{\"verse\":30,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"for all the nations of the world seek after these things, and your Father knows that you need them.\"}]},{\"verse\":31,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Instead, seek his kingdom, and these things will be added to you.\"}]},{\"verse\":32,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Do not fear, little flock, for your Father has been pleased to give you the kingdom.\"}]},{\"verse\":33,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Sell your possessions and give alms. Make yourselves purses that do not wear out, an unfailing treasure in the heavens, where no thief comes near and no moth destroys.\"}]},{\"verse\":34,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For where your treasure is, there your heart will be also.\"}]},{\"verse\":35,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Keep your robes belted up and your lamps burning,\"}]},{\"verse\":36,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"and be like people waiting for their master to come back from the wedding feast, so that when he comes and knocks they can open the door for him at once.\"}]},{\"verse\":37,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Blessed are those slaves whom the master finds awake when he comes. Truly I tell you, he will belt up his own robe, have them recline at the table, and come and serve them.\"}]},{\"verse\":38,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Whether he comes in the second watch or in the third and finds them so, blessed are they.\"}]},{\"verse\":39,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But know this: if the owner of the house had known at what hour the thief was coming, he would not have let his house be broken into.\"}]},{\"verse\":40,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"You too must be ready, because the Son of Man is coming at an hour when you do not expect him.”\"}]},{\"verse\":41,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Peter said,\"},{\"speaker\":\"other\",\"text\":\"“Lord, are you telling this parable to us, or to everyone as well?”\"}]},{\"verse\":42,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And the Lord said,\"},{\"speaker\":\"Jesus\",\"text\":\"“Who then is the faithful, sensible manager whom the master will put in charge of his household staff, to give out the food ration at the proper time?\"}]},{\"verse\":43,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Blessed is that slave whom his master finds doing so when he comes.\"}]},{\"verse\":44,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"I tell you truly, he will put him in charge of all his possessions.\"}]},{\"verse\":45,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But if that slave says in his heart, ‘My master is taking a long time to come,’ and begins to beat the male and female servants, and to eat and drink and get drunk,\"}]},{\"verse\":46,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"the master of that slave will come on a day when he does not expect him and at an hour he does not know, and he will cut him in two and assign him his place with the unfaithful.\"}]},{\"verse\":47,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"That slave who knew his master’s will and did not get ready or act in accordance with it will be beaten with many blows;\"}]},{\"verse\":48,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"but the one who did not know, and did things deserving of blows, will be beaten with few. From everyone to whom much has been given, much will be required, and from the one to whom much has been entrusted, even more will be asked.\"}]},{\"verse\":49,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"I came to throw fire on the earth, and how I wish it were already kindled!\"}]},{\"verse\":50,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But I have a baptism to be baptized with, and how hard pressed I am until it is completed!\"}]},{\"verse\":51,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Do you think that I have come to give peace on the earth? No, I tell you, but rather division.\"}]},{\"verse\":52,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For from now on five in one house will be divided, three against two and two against three;\"}]},{\"verse\":53,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"they will be divided, father against son and son against father, mother against daughter and daughter against her mother, mother-in-law against her daughter-in-law and daughter-in-law against her mother-in-law.”\"}]},{\"verse\":54,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He also said to the crowds,\"},{\"speaker\":\"Jesus\",\"text\":\"“When you see a cloud rising in the west, you say at once, ‘A rainstorm is coming,’ and so it happens.\"}]},{\"verse\":55,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And when you see a south wind blowing, you say, ‘There will be scorching heat,’ and it happens.\"}]},{\"verse\":56,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Hypocrites! You know how to interpret the face of the earth and the sky, but how is it that you do not know how to interpret this present time?\"}]},{\"verse\":57,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And why do you not judge for yourselves what is just?\"}]},{\"verse\":58,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For as you are going with your opponent before a magistrate, make an effort on the way to settle with him, so that he does not drag you before the judge, and the judge hand you over to the bailiff, and the bailiff throw you into prison.\"}]},{\"verse\":59,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"I tell you, you will never get out of there until you have paid back even the last tiny coin.”\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"first\",\"lemma\":\"πρῶτον\",\"kind\":\"ambiguity\",\"traditional\":\"\",\"note\":\"The Greek word for “first” stands between the mention of the disciples and the opening of the speech, and can attach to either. Here it is taken with what precedes: Jesus speaks to his disciples first and to the crowd later (verses 15 and 54). The alternative, followed by some translations, is “First of all, be on your guard.”\"},{\"verse\":5,\"phrase\":\"Gehenna\",\"lemma\":\"γέεννα\",\"kind\":\"departure\",\"traditional\":\"hell\",\"note\":\"Gehenna is a place name: the Valley of Hinnom outside Jerusalem, which by the first century had become a name for the place of final punishment. Most English translations render it “hell,” often with a footnote giving the name. The name is kept here because “hell” merges Gehenna with Hades, the realm of the dead, and with much later imagery.\"},{\"verse\":6,\"phrase\":\"two pennies\",\"lemma\":\"ἀσσάριον\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"The coin is the assarion, a small copper coin worth one-sixteenth of a denarius, the usual day’s wage for a laborer. Small birds like these were sold cheaply as food. The “tiny coin” of verse 59 is the lepton, the smallest coin in circulation, worth one-eighth of an assarion.\"},{\"verse\":20,\"phrase\":\"your soul\",\"lemma\":\"ψυχή\",\"kind\":\"ambiguity\",\"traditional\":\"soul\",\"note\":\"The Greek word means both a person’s life and the inner self. It is rendered “soul” in verses 19–20, where the rich man addresses himself, and “life” in verses 22–23, but it is one word throughout, and “For this reason” in verse 22 builds on that link. Several modern translations have “your life is being demanded” here.\"},{\"verse\":25,\"phrase\":\"a cubit to the length of his life\",\"lemma\":\"ἡλικία\",\"kind\":\"ambiguity\",\"traditional\":\"add one cubit to his stature\",\"note\":\"The Greek noun can mean either age (length of life) or bodily height, and a cubit is a measure of length, about eighteen inches. The older tradition has “add a cubit to his stature”; most modern translations take it as a figure for adding a short stretch to one’s lifespan. That reading suits verse 26, which calls this “the smallest thing,” as an extra eighteen inches of height would not be.\"},{\"verse\":29,\"phrase\":\"do not be anxious\",\"lemma\":\"μετεωρίζομαι\",\"kind\":\"ambiguity\",\"traditional\":\"\",\"note\":\"This verb occurs only here in the New Testament, and it is a different word from the one rendered “worry” elsewhere in the passage. In the period it could mean to be lifted up and so arrogant, its usual sense in the Septuagint, or to be in suspense, unsettled, anxious. The context of concern over food and drink favors the second sense, which is the majority view.\"},{\"verse\":30,\"phrase\":\"nations\",\"lemma\":\"ἔθνος\",\"kind\":\"background\",\"traditional\":\"nations\",\"note\":\"The Greek word is the one this translation usually renders “Gentiles”; it means peoples or nations, and in the plural often the non-Jewish peoples in particular. “Nations” is used here because the phrase is “all the nations of the world.” The contrast is still between peoples who do not know God and disciples who know him as Father.\"},{\"verse\":35,\"phrase\":\"Keep your robes belted up\",\"lemma\":\"περιζώννυμι\",\"kind\":\"departure\",\"traditional\":\"Let your loins be girded\",\"note\":\"Literally “let your loins be girded.” A long robe was hitched up and tucked into the belt for work or travel, so the phrase means to be ready for action; many modern translations paraphrase as “be dressed for action.” The image is kept here because the same verb returns in verse 37, where the master belts up his own robe to serve.\"},{\"verse\":37,\"phrase\":\"slaves\",\"lemma\":\"δοῦλος\",\"kind\":\"departure\",\"traditional\":\"servants\",\"note\":\"The Greek word means a slave, a person owned by a master, not a hired servant; most English translations soften it to “servants,” though some recent ones have “slaves.” The status gives the saying its force: a master who dresses for work and waits on his own slaves at table reverses every expectation.\"},{\"verse\":46,\"phrase\":\"cut him in two\",\"lemma\":\"διχοτομέω\",\"kind\":\"ambiguity\",\"traditional\":\"\",\"note\":\"The verb literally means to cut in two, a form of execution known in the ancient world. Because the slave is afterward assigned a place, some take it as a figure for a severe flogging or for being cut off from the household. The translation keeps the literal sense and with it the harshness of the parable.\"},{\"verse\":46,\"phrase\":\"the unfaithful\",\"lemma\":\"ἄπιστος\",\"kind\":\"ambiguity\",\"traditional\":\"the unbelievers\",\"note\":\"The Greek word can mean “unfaithful” or “unbelieving,” and many translations have “unbelievers” here. “Unfaithful” is chosen because the parable began by asking who is the “faithful” manager (verse 42), and this is the opposite term from the same word-family. Hearers may well have caught both senses.\"},{\"verse\":49,\"phrase\":\"how I wish it were already kindled\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"\",\"note\":\"The Greek is compressed and its idiom is disputed. Most take it as a wish, as here; the alternative reads a question, “What do I want, if it is already kindled?”, meaning that the fire is already alight. What the fire stands for—judgment, purification, the Spirit, or the division described in verses 51–53—is also debated.\"},{\"verse\":53,\"phrase\":\"father against son and son against father\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"The list echoes Micah 7:6, where the breakdown of trust within a household marks a time of crisis before God acts. Some Jewish texts associate such family strife with the troubles expected before the end. The saying presents Jesus’ mission as bringing that crisis on.\"},{\"verse\":57,\"phrase\":\"what is just\",\"lemma\":\"δίκαιος\",\"kind\":\"departure\",\"traditional\":\"what is right\",\"note\":\"Most translations have “what is right.” Greek has a single word-family where English has two (righteous/just, righteousness/justice). “Just” is used here because the saying leads straight into an illustration from the law court, where the point is to settle a claim before the judge does.\"}],\"candidates\":[{\"lemma\":\"δοῦλος\",\"rendering\":\"slave\",\"verse\":37,\"reason\":\"Recurs throughout the Gospels and letters, and the choice between “slave” and the traditional “servant” changes how parables and Paul’s self-descriptions read.\"},{\"lemma\":\"ὁμολογέω\",\"rendering\":\"acknowledge\",\"verse\":8,\"reason\":\"Translators vary among “confess,” “acknowledge” and “declare” across the Gospels, Romans, Hebrews and 1 John, and “confess” now suggests admitting guilt.\"},{\"lemma\":\"μεριμνάω\",\"rendering\":\"worry\",\"verse\":11,\"reason\":\"“Worry,” “be anxious” and “care for” all appear in translations of Matthew 6, Luke 10 and 12, 1 Corinthians 7 and Philippians 4; parallel passages should match.\"},{\"lemma\":\"οἰκονόμος\",\"rendering\":\"manager\",\"verse\":42,\"reason\":\"“Steward,” “manager” and “administrator” compete across Luke 12 and 16, 1 Corinthians 4, Titus 1 and 1 Peter 4, and “steward” is fading from ordinary English.\"},{\"lemma\":\"ἐλεημοσύνη\",\"rendering\":\"alms\",\"verse\":33,\"reason\":\"“Alms” is archaic but compact; “giving to the poor” or “charitable gifts” are alternatives, and Matthew 6, Luke 11–12 and Acts need one decision.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Meanwhile, when a crowd of many thousands had gathered, so that they were trampling one another, he began to speak to his disciples first:"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Be on your guard against the leaven of the Pharisees, which is hypocrisy."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Nothing is covered up that will not be uncovered, and nothing hidden that will not be made known."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Therefore whatever you have said in the dark will be heard in the light, and what you have whispered in the inner rooms will be proclaimed on the housetops."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "I tell you, my friends, do not fear those who kill the body and after that have nothing more they can do."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But I will show you whom to fear: fear the one who, after killing, has authority to throw into Gehenna. Yes, I tell you, fear that one."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Are not five sparrows sold for two pennies? Yet not one of them is forgotten in the sight of God."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But even the hairs of your head have all been counted. Do not fear; you are worth more than many sparrows."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "I tell you, everyone who acknowledges me before people, the Son of Man will also acknowledge before the angels of God;"
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "but whoever denies me in the sight of people will be denied in the sight of the angels of God."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And everyone who speaks a word against the Son of Man will be forgiven, but the one who blasphemes against the Holy Spirit will not be forgiven."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "When they bring you before the synagogues and the rulers and the authorities, do not worry about how or what you will answer in your defense, or what you will say,"
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "for the Holy Spirit will teach you in that very hour what you must say.”"
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Someone in the crowd said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Teacher, tell my brother to divide the inheritance with me.”"
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But he said to him,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Man, who appointed me judge or divider over you?”"
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then he said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Watch out, and guard yourselves against every kind of greed, because even when someone has more than enough, his life does not come from his possessions.”"
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And he told them a parable:"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“The land of a certain rich man produced a good crop."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And he reasoned to himself, ‘What shall I do, since I have nowhere to store my crops?’"
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And he said, ‘This is what I will do: I will tear down my barns and build bigger ones, and there I will store all my grain and my goods,"
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "and I will say to my soul, “Soul, you have many goods laid up for many years; rest, eat, drink, enjoy yourself.”’"
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But God said to him, ‘Fool! This very night your soul is being demanded back from you. And the things you have prepared—whose will they be?’"
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "So it is with the one who stores up treasure for himself and is not rich toward God.”"
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then he said to his disciples,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“For this reason I tell you, do not worry about your life, what you will eat, or about your body, what you will wear."
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For life is more than food, and the body more than clothing."
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Consider the ravens: they neither sow nor reap, they have neither storeroom nor barn, and yet God feeds them. How much more you are worth than the birds!"
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And which of you by worrying can add a cubit to the length of his life?"
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "If then you cannot do even the smallest thing, why do you worry about the rest?"
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Consider the lilies, how they grow: they neither toil nor spin. Yet I tell you, not even Solomon in all his glory was dressed like one of these."
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But if God so clothes the grass, which is in the field today and tomorrow is thrown into the oven, how much more will he clothe you, you of little faith!"
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And you, do not seek what you will eat and what you will drink, and do not be anxious,"
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "for all the nations of the world seek after these things, and your Father knows that you need them."
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Instead, seek his kingdom, and these things will be added to you."
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Do not fear, little flock, for your Father has been pleased to give you the kingdom."
+     }
+    ]
+   },
+   {
+    "verse": 33,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Sell your possessions and give alms. Make yourselves purses that do not wear out, an unfailing treasure in the heavens, where no thief comes near and no moth destroys."
+     }
+    ]
+   },
+   {
+    "verse": 34,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For where your treasure is, there your heart will be also."
+     }
+    ]
+   },
+   {
+    "verse": 35,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Keep your robes belted up and your lamps burning,"
+     }
+    ]
+   },
+   {
+    "verse": 36,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "and be like people waiting for their master to come back from the wedding feast, so that when he comes and knocks they can open the door for him at once."
+     }
+    ]
+   },
+   {
+    "verse": 37,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Blessed are those slaves whom the master finds awake when he comes. Truly I tell you, he will belt up his own robe, have them recline at the table, and come and serve them."
+     }
+    ]
+   },
+   {
+    "verse": 38,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Whether he comes in the second watch or in the third and finds them so, blessed are they."
+     }
+    ]
+   },
+   {
+    "verse": 39,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But know this: if the owner of the house had known at what hour the thief was coming, he would not have let his house be broken into."
+     }
+    ]
+   },
+   {
+    "verse": 40,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "You too must be ready, because the Son of Man is coming at an hour when you do not expect him.”"
+     }
+    ]
+   },
+   {
+    "verse": 41,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Peter said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Lord, are you telling this parable to us, or to everyone as well?”"
+     }
+    ]
+   },
+   {
+    "verse": 42,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And the Lord said,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Who then is the faithful, sensible manager whom the master will put in charge of his household staff, to give out the food ration at the proper time?"
+     }
+    ]
+   },
+   {
+    "verse": 43,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Blessed is that slave whom his master finds doing so when he comes."
+     }
+    ]
+   },
+   {
+    "verse": 44,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "I tell you truly, he will put him in charge of all his possessions."
+     }
+    ]
+   },
+   {
+    "verse": 45,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But if that slave says in his heart, ‘My master is taking a long time to come,’ and begins to beat the male and female servants, and to eat and drink and get drunk,"
+     }
+    ]
+   },
+   {
+    "verse": 46,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "the master of that slave will come on a day when he does not expect him and at an hour he does not know, and he will cut him in two and assign him his place with the unfaithful."
+     }
+    ]
+   },
+   {
+    "verse": 47,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "That slave who knew his master’s will and did not get ready or act in accordance with it will be beaten with many blows;"
+     }
+    ]
+   },
+   {
+    "verse": 48,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "but the one who did not know, and did things deserving of blows, will be beaten with few. From everyone to whom much has been given, much will be required, and from the one to whom much has been entrusted, even more will be asked."
+     }
+    ]
+   },
+   {
+    "verse": 49,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "I came to throw fire on the earth, and how I wish it were already kindled!"
+     }
+    ]
+   },
+   {
+    "verse": 50,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But I have a baptism to be baptized with, and how hard pressed I am until it is completed!"
+     }
+    ]
+   },
+   {
+    "verse": 51,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Do you think that I have come to give peace on the earth? No, I tell you, but rather division."
+     }
+    ]
+   },
+   {
+    "verse": 52,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For from now on five in one house will be divided, three against two and two against three;"
+     }
+    ]
+   },
+   {
+    "verse": 53,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "they will be divided, father against son and son against father, mother against daughter and daughter against her mother, mother-in-law against her daughter-in-law and daughter-in-law against her mother-in-law.”"
+     }
+    ]
+   },
+   {
+    "verse": 54,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He also said to the crowds,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“When you see a cloud rising in the west, you say at once, ‘A rainstorm is coming,’ and so it happens."
+     }
+    ]
+   },
+   {
+    "verse": 55,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And when you see a south wind blowing, you say, ‘There will be scorching heat,’ and it happens."
+     }
+    ]
+   },
+   {
+    "verse": 56,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Hypocrites! You know how to interpret the face of the earth and the sky, but how is it that you do not know how to interpret this present time?"
+     }
+    ]
+   },
+   {
+    "verse": 57,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And why do you not judge for yourselves what is just?"
+     }
+    ]
+   },
+   {
+    "verse": 58,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For as you are going with your opponent before a magistrate, make an effort on the way to settle with him, so that he does not drag you before the judge, and the judge hand you over to the bailiff, and the bailiff throw you into prison."
+     }
+    ]
+   },
+   {
+    "verse": 59,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "I tell you, you will never get out of there until you have paid back even the last tiny coin.”"
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "first",
+    "lemma": "πρῶτον",
+    "kind": "ambiguity",
+    "traditional": "",
+    "note": "The Greek word for “first” stands between the mention of the disciples and the opening of the speech, and can attach to either. Here it is taken with what precedes: Jesus speaks to his disciples first and to the crowd later (verses 15 and 54). The alternative, followed by some translations, is “First of all, be on your guard.”"
+   },
+   {
+    "verse": 5,
+    "phrase": "Gehenna",
+    "lemma": "γέεννα",
+    "kind": "departure",
+    "traditional": "hell",
+    "note": "Gehenna is a place name: the Valley of Hinnom outside Jerusalem, which by the first century had become a name for the place of final punishment. Most English translations render it “hell,” often with a footnote giving the name. The name is kept here because “hell” merges Gehenna with Hades, the realm of the dead, and with much later imagery."
+   },
+   {
+    "verse": 6,
+    "phrase": "two pennies",
+    "lemma": "ἀσσάριον",
+    "kind": "background",
+    "traditional": "",
+    "note": "The coin is the assarion, a small copper coin worth one-sixteenth of a denarius, the usual day’s wage for a laborer. Small birds like these were sold cheaply as food. The “tiny coin” of verse 59 is the lepton, the smallest coin in circulation, worth one-eighth of an assarion."
+   },
+   {
+    "verse": 20,
+    "phrase": "your soul",
+    "lemma": "ψυχή",
+    "kind": "ambiguity",
+    "traditional": "soul",
+    "note": "The Greek word means both a person’s life and the inner self. It is rendered “soul” in verses 19–20, where the rich man addresses himself, and “life” in verses 22–23, but it is one word throughout, and “For this reason” in verse 22 builds on that link. Several modern translations have “your life is being demanded” here."
+   },
+   {
+    "verse": 25,
+    "phrase": "a cubit to the length of his life",
+    "lemma": "ἡλικία",
+    "kind": "ambiguity",
+    "traditional": "add one cubit to his stature",
+    "note": "The Greek noun can mean either age (length of life) or bodily height, and a cubit is a measure of length, about eighteen inches. The older tradition has “add a cubit to his stature”; most modern translations take it as a figure for adding a short stretch to one’s lifespan. That reading suits verse 26, which calls this “the smallest thing,” as an extra eighteen inches of height would not be."
+   },
+   {
+    "verse": 29,
+    "phrase": "do not be anxious",
+    "lemma": "μετεωρίζομαι",
+    "kind": "ambiguity",
+    "traditional": "",
+    "note": "This verb occurs only here in the New Testament, and it is a different word from the one rendered “worry” elsewhere in the passage. In the period it could mean to be lifted up and so arrogant, its usual sense in the Septuagint, or to be in suspense, unsettled, anxious. The context of concern over food and drink favors the second sense, which is the majority view."
+   },
+   {
+    "verse": 30,
+    "phrase": "nations",
+    "lemma": "ἔθνος",
+    "kind": "background",
+    "traditional": "nations",
+    "note": "The Greek word is the one this translation usually renders “Gentiles”; it means peoples or nations, and in the plural often the non-Jewish peoples in particular. “Nations” is used here because the phrase is “all the nations of the world.” The contrast is still between peoples who do not know God and disciples who know him as Father."
+   },
+   {
+    "verse": 35,
+    "phrase": "Keep your robes belted up",
+    "lemma": "περιζώννυμι",
+    "kind": "departure",
+    "traditional": "Let your loins be girded",
+    "note": "Literally “let your loins be girded.” A long robe was hitched up and tucked into the belt for work or travel, so the phrase means to be ready for action; many modern translations paraphrase as “be dressed for action.” The image is kept here because the same verb returns in verse 37, where the master belts up his own robe to serve."
+   },
+   {
+    "verse": 37,
+    "phrase": "slaves",
+    "lemma": "δοῦλος",
+    "kind": "departure",
+    "traditional": "servants",
+    "note": "The Greek word means a slave, a person owned by a master, not a hired servant; most English translations soften it to “servants,” though some recent ones have “slaves.” The status gives the saying its force: a master who dresses for work and waits on his own slaves at table reverses every expectation."
+   },
+   {
+    "verse": 46,
+    "phrase": "cut him in two",
+    "lemma": "διχοτομέω",
+    "kind": "ambiguity",
+    "traditional": "",
+    "note": "The verb literally means to cut in two, a form of execution known in the ancient world. Because the slave is afterward assigned a place, some take it as a figure for a severe flogging or for being cut off from the household. The translation keeps the literal sense and with it the harshness of the parable."
+   },
+   {
+    "verse": 46,
+    "phrase": "the unfaithful",
+    "lemma": "ἄπιστος",
+    "kind": "ambiguity",
+    "traditional": "the unbelievers",
+    "note": "The Greek word can mean “unfaithful” or “unbelieving,” and many translations have “unbelievers” here. “Unfaithful” is chosen because the parable began by asking who is the “faithful” manager (verse 42), and this is the opposite term from the same word-family. Hearers may well have caught both senses."
+   },
+   {
+    "verse": 49,
+    "phrase": "how I wish it were already kindled",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "",
+    "note": "The Greek is compressed and its idiom is disputed. Most take it as a wish, as here; the alternative reads a question, “What do I want, if it is already kindled?”, meaning that the fire is already alight. What the fire stands for—judgment, purification, the Spirit, or the division described in verses 51–53—is also debated."
+   },
+   {
+    "verse": 53,
+    "phrase": "father against son and son against father",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "The list echoes Micah 7:6, where the breakdown of trust within a household marks a time of crisis before God acts. Some Jewish texts associate such family strife with the troubles expected before the end. The saying presents Jesus’ mission as bringing that crisis on."
+   },
+   {
+    "verse": 57,
+    "phrase": "what is just",
+    "lemma": "δίκαιος",
+    "kind": "departure",
+    "traditional": "what is right",
+    "note": "Most translations have “what is right.” Greek has a single word-family where English has two (righteous/just, righteousness/justice). “Just” is used here because the saying leads straight into an illustration from the law court, where the point is to settle a claim before the judge does."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "δοῦλος",
+    "rendering": "slave",
+    "verse": 37,
+    "reason": "Recurs throughout the Gospels and letters, and the choice between “slave” and the traditional “servant” changes how parables and Paul’s self-descriptions read."
+   },
+   {
+    "lemma": "ὁμολογέω",
+    "rendering": "acknowledge",
+    "verse": 8,
+    "reason": "Translators vary among “confess,” “acknowledge” and “declare” across the Gospels, Romans, Hebrews and 1 John, and “confess” now suggests admitting guilt."
+   },
+   {
+    "lemma": "μεριμνάω",
+    "rendering": "worry",
+    "verse": 11,
+    "reason": "“Worry,” “be anxious” and “care for” all appear in translations of Matthew 6, Luke 10 and 12, 1 Corinthians 7 and Philippians 4; parallel passages should match."
+   },
+   {
+    "lemma": "οἰκονόμος",
+    "rendering": "manager",
+    "verse": 42,
+    "reason": "“Steward,” “manager” and “administrator” compete across Luke 12 and 16, 1 Corinthians 4, Titus 1 and 1 Peter 4, and “steward” is fading from ordinary English."
+   },
+   {
+    "lemma": "ἐλεημοσύνη",
+    "rendering": "alms",
+    "verse": 33,
+    "reason": "“Alms” is archaic but compact; “giving to the poor” or “charitable gifts” are alternatives, and Matthew 6, Luke 11–12 and Acts need one decision."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 11037,
+   "output_tokens": 714
+  },
+  "findings": [],
+  "error": ""
+ }
+}

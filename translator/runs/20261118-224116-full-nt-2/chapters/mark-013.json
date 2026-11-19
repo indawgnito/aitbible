@@ -1,0 +1,611 @@
+{
+ "id": "mark-013",
+ "book": "mark",
+ "chapter": 13,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14geCW7LdvsyDhyFJ",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 12020,
+  "output_tokens": 13769
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"As he was going out of the temple, one of his disciples said to him,\"},{\"speaker\":\"other\",\"text\":\"“Teacher, look—what stones and what buildings!”\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And Jesus said to him,\"},{\"speaker\":\"Jesus\",\"text\":\"“Do you see these great buildings? Not one stone will be left here on another that will not be thrown down.”\"}]},{\"verse\":3,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"As he was sitting on the Mount of Olives opposite the temple, Peter, James, John, and Andrew asked him privately,\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"“Tell us, when will these things be, and what will be the sign when all these things are about to be accomplished?”\"}]},{\"verse\":5,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus began to say to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Watch out that no one leads you astray.\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Many will come in my name, saying, ‘I am he,’ and they will lead many astray.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"When you hear of wars and rumors of wars, do not be alarmed. It must happen, but the end is not yet.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For nation will rise against nation and kingdom against kingdom; there will be earthquakes in various places; there will be famines. These things are the beginning of the birth pains.\"}]},{\"verse\":9,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But you, watch out for yourselves. They will hand you over to councils, and you will be beaten in synagogues, and you will stand before governors and kings because of me, as a testimony to them.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And the good news must first be proclaimed to all the nations.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And when they lead you away to hand you over, do not worry beforehand about what you will say, but say whatever is given to you in that hour, for it is not you who are speaking but the Holy Spirit.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Brother will hand over brother to death, and a father his child, and children will rise up against parents and have them put to death.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"You will be hated by everyone because of my name. But the one who endures to the end will be saved.\"}]},{\"verse\":14,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But when you see the abomination of desolation standing where he should not be\"},{\"speaker\":\"narrator\",\"text\":\"(let the reader understand),\"},{\"speaker\":\"Jesus\",\"text\":\"then those in Judea must flee to the mountains,\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"the one on the housetop must not come down or go inside to take anything out of his house,\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"and the one in the field must not turn back to get his cloak.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Woe to those who are pregnant and to those who are nursing in those days!\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Pray that it may not happen in winter.\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For those days will be an affliction such as has not happened from the beginning of the creation that God created until now, and never will happen.\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And if the Lord had not cut the days short, no flesh would be saved. But for the sake of the chosen ones, whom he chose, he has cut the days short.\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And then if anyone says to you, ‘Look, here is the Messiah!’ or ‘Look, there!’ do not believe it.\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"For false messiahs and false prophets will arise and will give signs and wonders, to lead astray, if possible, the chosen ones.\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But you, watch out. I have told you everything beforehand.\"}]},{\"verse\":24,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But in those days, after that affliction, the sun will be darkened, and the moon will not give its light,\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"and the stars will be falling from the sky, and the powers in the heavens will be shaken.\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And then they will see the Son of Man coming in clouds with great power and glory.\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And then he will send out the angels and gather the chosen ones from the four winds, from the end of the earth to the end of heaven.\"}]},{\"verse\":28,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Learn the parable from the fig tree: as soon as its branch becomes tender and puts out its leaves, you know that summer is near.\"}]},{\"verse\":29,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"So also you, when you see these things happening, know that he is near, right at the door.\"}]},{\"verse\":30,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Truly I tell you, this generation will not pass away until all these things have happened.\"}]},{\"verse\":31,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Heaven and earth will pass away, but my words will never pass away.\"}]},{\"verse\":32,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But about that day or hour no one knows, neither the angels in heaven nor the Son, but only the Father.\"}]},{\"verse\":33,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Watch out, stay alert, for you do not know when the time is.\"}]},{\"verse\":34,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"It is like a man away on a journey, who has left his house and given his slaves authority, to each his work, and has commanded the doorkeeper to stay awake.\"}]},{\"verse\":35,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"So stay awake—for you do not know when the master of the house is coming, whether in the evening or at midnight or at cockcrow or at dawn—\"}]},{\"verse\":36,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"so that he does not come suddenly and find you sleeping.\"}]},{\"verse\":37,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And what I say to you I say to everyone: Stay awake.”\"}]}],\"notes\":[{\"verse\":6,\"phrase\":\"I am he\",\"lemma\":\"εἰμί\",\"kind\":\"ambiguity\",\"traditional\":\"I am he\",\"note\":\"The Greek is simply “I am,” with no complement. In context it most naturally means “I am the one,” that is, the Messiah, which is how Matthew’s parallel spells it out. Some scholars also hear an echo of the divine self-declaration “I am” from the Greek Old Testament; the wording allows this, but it cannot be proved.\"},{\"verse\":8,\"phrase\":\"nation will rise against nation\",\"lemma\":\"ἔθνος\",\"kind\":\"background\",\"traditional\":\"nation\",\"note\":\"The Greek word here is the same one that in the plural is often translated “Gentiles,” the non-Jewish peoples. In this verse and in “all the nations” in verse 10 it means peoples as such, so “nation” is used. The reader should know that one Greek word lies behind both English words across the New Testament.\"},{\"verse\":8,\"phrase\":\"birth pains\",\"lemma\":\"ὠδίν\",\"kind\":\"background\",\"traditional\":\"sorrows\",\"note\":\"The word means the pains of a woman in labor. The prophets used labor as an image for the anguish that comes before God’s deliverance, and later Jewish writers spoke in similar terms of the suffering that would precede the age to come. The image implies that the pain leads to something and is not the end itself.\"},{\"verse\":9,\"phrase\":\"hand you over\",\"lemma\":\"παραδίδωμι\",\"kind\":\"departure\",\"traditional\":\"deliver you up\",\"note\":\"The verb is the ordinary Greek word for transferring someone into another’s custody. Mark uses the same word for what Judas, the chief priests, and Pilate do to Jesus, so one rendering is kept throughout to let the reader see that the disciples’ fate mirrors their teacher’s. Many versions vary it with “deliver up,” “arrest,” or “betray” (as in verse 12).\"},{\"verse\":10,\"phrase\":\"good news\",\"lemma\":\"εὐαγγέλιον\",\"kind\":\"departure\",\"traditional\":\"gospel\",\"note\":\"The Greek word was an ordinary term for a public announcement of good news, used also of imperial proclamations. “Gospel” is now a religious term or the name of a book, so the plainer rendering is used. Many modern translations alternate between the two.\"},{\"verse\":14,\"phrase\":\"the abomination of desolation\",\"lemma\":\"βδέλυγμα\",\"kind\":\"background\",\"traditional\":\"the abomination of desolation\",\"note\":\"The phrase comes from the book of Daniel (9:27; 11:31; 12:11), where it refers to a detestable object set up in the temple that leaves it defiled and deserted; Jewish readers connected it with the pagan altar erected by Antiochus IV in 167 BC. “Abomination” in the Greek Old Testament regularly means something idolatrous. What event Jesus’ saying points to is disputed: proposals include events of the Jewish war of AD 66–70 and a still-future figure.\"},{\"verse\":14,\"phrase\":\"standing where he should not be\",\"lemma\":\"ἵστημι\",\"kind\":\"ambiguity\",\"traditional\":\"standing where it ought not\",\"note\":\"The noun “abomination” is neuter in Greek, but the participle “standing” is masculine, which suggests that Mark thinks of a person. Most English versions smooth this over with “it”; the masculine is kept here because the grammatical mismatch appears deliberate. It is possible, though less likely, that the masculine is merely loose grammar.\"},{\"verse\":14,\"phrase\":\"(let the reader understand)\",\"lemma\":\"ἀναγινώσκω\",\"kind\":\"ambiguity\",\"traditional\":\"let the reader understand\",\"note\":\"This is usually taken as an aside by Mark to the person reading the Gospel aloud to a congregation, signaling that the cryptic phrase needs careful interpretation; it is labeled as the narrator’s words on that view. It could instead be part of Jesus’ speech, referring to the reader of Daniel. The Greek does not settle the question.\"},{\"verse\":19,\"phrase\":\"affliction\",\"lemma\":\"θλῖψις\",\"kind\":\"departure\",\"traditional\":\"tribulation\",\"note\":\"The Greek word was an ordinary term for oppressive hardship, not a technical name. “Tribulation” is now widely heard as the title of a specific end-time period, which says more than the Greek does. “Affliction” is itself a long-standing rendering of the word and is used for it throughout this translation. The sentence echoes Daniel 12:1.\"},{\"verse\":20,\"phrase\":\"no flesh\",\"lemma\":\"σάρξ\",\"kind\":\"background\",\"traditional\":\"no flesh\",\"note\":\"“All flesh” is a Hebrew idiom for all living people. “Saved” here refers in the first instance to physical survival: no one would come through alive. Many modern versions paraphrase as “no one would survive.”\"},{\"verse\":20,\"phrase\":\"the chosen ones, whom he chose\",\"lemma\":\"ἐκλεκτός\",\"kind\":\"departure\",\"traditional\":\"the elect, whom he chose\",\"note\":\"The noun and the verb share a root in Greek, and the repetition is deliberate. “The elect” hides that link and has become a term of later theological debate; “chosen ones” is what the word plainly means and echoes the Old Testament’s language for Israel as God’s chosen people. Many versions keep “the elect.”\"},{\"verse\":21,\"phrase\":\"the Messiah\",\"lemma\":\"Χριστός\",\"kind\":\"departure\",\"traditional\":\"Christ\",\"note\":\"The Greek word, traditionally rendered “Christ,” translates the Hebrew “Messiah,” the anointed king Israel expected. Here it is a title under discussion, not a name, so “Messiah” is used; “false messiahs” in verse 22 is a compound of the same word. Several modern translations make the same choice in the Gospels.\"},{\"verse\":25,\"phrase\":\"the powers in the heavens\",\"lemma\":\"δύναμις\",\"kind\":\"background\",\"traditional\":\"the powers that are in heaven\",\"note\":\"Verses 24–25 draw on prophetic imagery, especially Isaiah 13:10 and 34:4, where the darkening of sun, moon, and stars accompanies God’s judgment on nations. “The powers in the heavens” are the heavenly bodies, perhaps thought of as the spiritual forces associated with them. Interpreters differ on whether the language describes a literal cosmic collapse or is the prophets’ customary way of depicting world-shaking historical events. The Greek plural “heavens” is kept.\"},{\"verse\":26,\"phrase\":\"the Son of Man coming in clouds\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"the Son of man coming in the clouds\",\"note\":\"The wording comes from Daniel 7:13, where “one like a son of man” comes with the clouds of heaven and is given everlasting dominion. Most interpreters take the saying here to refer to Jesus’ return; a minority read it, with Daniel, as a coming to God for vindication and enthronement.\"},{\"verse\":29,\"phrase\":\"he is near\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"it is nigh\",\"note\":\"The Greek verb has no expressed subject and can mean “he is near” (the Son of Man) or “it is near” (the end, or the event just described). “He” is chosen because of the image of someone at the door and the returning master in verses 34–36. Translations are divided.\"},{\"verse\":30,\"phrase\":\"this generation\",\"lemma\":\"γενεά\",\"kind\":\"ambiguity\",\"traditional\":\"this generation\",\"note\":\"In ordinary usage the word means the people alive at one time, and elsewhere in Mark “this generation” refers to Jesus’ contemporaries. How this fits with what follows is one of the most debated questions in the chapter: some take “all these things” to be the events leading up to the temple’s destruction in AD 70, others take the saying to cover the end itself. Proposals that the word means “race” or “kind of people” have little support in usage of the period.\"},{\"verse\":33,\"phrase\":\"stay alert\",\"lemma\":\"ἀγρυπνέω\",\"kind\":\"textual\",\"traditional\":\"watch and pray\",\"note\":\"Many manuscripts read “stay alert and pray,” and older English versions follow them. The words “and pray” are absent from a few important early witnesses and may have been added under the influence of Mark 14:38. The edition translated here omits them.\"},{\"verse\":34,\"phrase\":\"slaves\",\"lemma\":\"δοῦλος\",\"kind\":\"departure\",\"traditional\":\"servants\",\"note\":\"The Greek word means a slave, a person owned by a master, not a hired employee. “Servants” softens the picture; the parable assumes a household in which the absent owner’s slaves run his affairs and answer to him on his return. A number of recent translations also use “slaves.”\"},{\"verse\":35,\"phrase\":\"in the evening or at midnight or at cockcrow or at dawn\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"at even, or at midnight, or at the cockcrowing, or in the morning\",\"note\":\"These are the popular names of the four watches into which the Roman reckoning divided the night, each about three hours long, from sunset to sunrise. The master may return in any of them.\"}],\"candidates\":[{\"lemma\":\"ἐκλεκτός\",\"rendering\":\"chosen ones\",\"verse\":20,\"reason\":\"Recurs across the Gospels, Paul, 1 Peter, and Revelation; versions split between “elect” and “chosen,” and the link to the verb ἐκλέγομαι is lost if the rendering varies.\"},{\"lemma\":\"δοῦλος\",\"rendering\":\"slave\",\"verse\":34,\"reason\":\"Very frequent across the New Testament; “servant,” “slave,” and “bondservant” all have defenders, and inconsistency would obscure both the parables and Paul’s self-descriptions.\"},{\"lemma\":\"γρηγορέω\",\"rendering\":\"stay awake\",\"verse\":34,\"reason\":\"Recurs in the Gospels, Paul, 1 Peter, and Revelation as “watch,” “keep awake,” or “be alert”; one rendering would keep the link between this discourse and Gethsemane visible.\"},{\"lemma\":\"πλανάω\",\"rendering\":\"lead astray\",\"verse\":5,\"reason\":\"Common across the Gospels, the letters, and Revelation as “deceive,” “lead astray,” or “mislead”; the wandering image and cross-references are lost if it varies.\"},{\"lemma\":\"γενεά\",\"rendering\":\"generation\",\"verse\":30,\"reason\":\"The phrase “this generation” recurs throughout the Synoptics and is exegetically contested, so the rendering should be fixed and not vary with interpretation.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "As he was going out of the temple, one of his disciples said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Teacher, look—what stones and what buildings!”"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And Jesus said to him,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Do you see these great buildings? Not one stone will be left here on another that will not be thrown down.”"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "As he was sitting on the Mount of Olives opposite the temple, Peter, James, John, and Andrew asked him privately,"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "“Tell us, when will these things be, and what will be the sign when all these things are about to be accomplished?”"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus began to say to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Watch out that no one leads you astray."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Many will come in my name, saying, ‘I am he,’ and they will lead many astray."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "When you hear of wars and rumors of wars, do not be alarmed. It must happen, but the end is not yet."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For nation will rise against nation and kingdom against kingdom; there will be earthquakes in various places; there will be famines. These things are the beginning of the birth pains."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But you, watch out for yourselves. They will hand you over to councils, and you will be beaten in synagogues, and you will stand before governors and kings because of me, as a testimony to them."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And the good news must first be proclaimed to all the nations."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And when they lead you away to hand you over, do not worry beforehand about what you will say, but say whatever is given to you in that hour, for it is not you who are speaking but the Holy Spirit."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Brother will hand over brother to death, and a father his child, and children will rise up against parents and have them put to death."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "You will be hated by everyone because of my name. But the one who endures to the end will be saved."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But when you see the abomination of desolation standing where he should not be"
+     },
+     {
+      "speaker": "narrator",
+      "text": "(let the reader understand),"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "then those in Judea must flee to the mountains,"
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "the one on the housetop must not come down or go inside to take anything out of his house,"
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "and the one in the field must not turn back to get his cloak."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Woe to those who are pregnant and to those who are nursing in those days!"
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Pray that it may not happen in winter."
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For those days will be an affliction such as has not happened from the beginning of the creation that God created until now, and never will happen."
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And if the Lord had not cut the days short, no flesh would be saved. But for the sake of the chosen ones, whom he chose, he has cut the days short."
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And then if anyone says to you, ‘Look, here is the Messiah!’ or ‘Look, there!’ do not believe it."
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "For false messiahs and false prophets will arise and will give signs and wonders, to lead astray, if possible, the chosen ones."
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But you, watch out. I have told you everything beforehand."
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But in those days, after that affliction, the sun will be darkened, and the moon will not give its light,"
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "and the stars will be falling from the sky, and the powers in the heavens will be shaken."
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And then they will see the Son of Man coming in clouds with great power and glory."
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And then he will send out the angels and gather the chosen ones from the four winds, from the end of the earth to the end of heaven."
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Learn the parable from the fig tree: as soon as its branch becomes tender and puts out its leaves, you know that summer is near."
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "So also you, when you see these things happening, know that he is near, right at the door."
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Truly I tell you, this generation will not pass away until all these things have happened."
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Heaven and earth will pass away, but my words will never pass away."
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But about that day or hour no one knows, neither the angels in heaven nor the Son, but only the Father."
+     }
+    ]
+   },
+   {
+    "verse": 33,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Watch out, stay alert, for you do not know when the time is."
+     }
+    ]
+   },
+   {
+    "verse": 34,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "It is like a man away on a journey, who has left his house and given his slaves authority, to each his work, and has commanded the doorkeeper to stay awake."
+     }
+    ]
+   },
+   {
+    "verse": 35,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "So stay awake—for you do not know when the master of the house is coming, whether in the evening or at midnight or at cockcrow or at dawn—"
+     }
+    ]
+   },
+   {
+    "verse": 36,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "so that he does not come suddenly and find you sleeping."
+     }
+    ]
+   },
+   {
+    "verse": 37,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And what I say to you I say to everyone: Stay awake.”"
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 6,
+    "phrase": "I am he",
+    "lemma": "εἰμί",
+    "kind": "ambiguity",
+    "traditional": "I am he",
+    "note": "The Greek is simply “I am,” with no complement. In context it most naturally means “I am the one,” that is, the Messiah, which is how Matthew’s parallel spells it out. Some scholars also hear an echo of the divine self-declaration “I am” from the Greek Old Testament; the wording allows this, but it cannot be proved."
+   },
+   {
+    "verse": 8,
+    "phrase": "nation will rise against nation",
+    "lemma": "ἔθνος",
+    "kind": "background",
+    "traditional": "nation",
+    "note": "The Greek word here is the same one that in the plural is often translated “Gentiles,” the non-Jewish peoples. In this verse and in “all the nations” in verse 10 it means peoples as such, so “nation” is used. The reader should know that one Greek word lies behind both English words across the New Testament."
+   },
+   {
+    "verse": 8,
+    "phrase": "birth pains",
+    "lemma": "ὠδίν",
+    "kind": "background",
+    "traditional": "sorrows",
+    "note": "The word means the pains of a woman in labor. The prophets used labor as an image for the anguish that comes before God’s deliverance, and later Jewish writers spoke in similar terms of the suffering that would precede the age to come. The image implies that the pain leads to something and is not the end itself."
+   },
+   {
+    "verse": 9,
+    "phrase": "hand you over",
+    "lemma": "παραδίδωμι",
+    "kind": "departure",
+    "traditional": "deliver you up",
+    "note": "The verb is the ordinary Greek word for transferring someone into another’s custody. Mark uses the same word for what Judas, the chief priests, and Pilate do to Jesus, so one rendering is kept throughout to let the reader see that the disciples’ fate mirrors their teacher’s. Many versions vary it with “deliver up,” “arrest,” or “betray” (as in verse 12)."
+   },
+   {
+    "verse": 10,
+    "phrase": "good news",
+    "lemma": "εὐαγγέλιον",
+    "kind": "departure",
+    "traditional": "gospel",
+    "note": "The Greek word was an ordinary term for a public announcement of good news, used also of imperial proclamations. “Gospel” is now a religious term or the name of a book, so the plainer rendering is used. Many modern translations alternate between the two."
+   },
+   {
+    "verse": 14,
+    "phrase": "the abomination of desolation",
+    "lemma": "βδέλυγμα",
+    "kind": "background",
+    "traditional": "the abomination of desolation",
+    "note": "The phrase comes from the book of Daniel (9:27; 11:31; 12:11), where it refers to a detestable object set up in the temple that leaves it defiled and deserted; Jewish readers connected it with the pagan altar erected by Antiochus IV in 167 BC. “Abomination” in the Greek Old Testament regularly means something idolatrous. What event Jesus’ saying points to is disputed: proposals include events of the Jewish war of AD 66–70 and a still-future figure."
+   },
+   {
+    "verse": 14,
+    "phrase": "standing where he should not be",
+    "lemma": "ἵστημι",
+    "kind": "ambiguity",
+    "traditional": "standing where it ought not",
+    "note": "The noun “abomination” is neuter in Greek, but the participle “standing” is masculine, which suggests that Mark thinks of a person. Most English versions smooth this over with “it”; the masculine is kept here because the grammatical mismatch appears deliberate. It is possible, though less likely, that the masculine is merely loose grammar."
+   },
+   {
+    "verse": 14,
+    "phrase": "(let the reader understand)",
+    "lemma": "ἀναγινώσκω",
+    "kind": "ambiguity",
+    "traditional": "let the reader understand",
+    "note": "This is usually taken as an aside by Mark to the person reading the Gospel aloud to a congregation, signaling that the cryptic phrase needs careful interpretation; it is labeled as the narrator’s words on that view. It could instead be part of Jesus’ speech, referring to the reader of Daniel. The Greek does not settle the question."
+   },
+   {
+    "verse": 19,
+    "phrase": "affliction",
+    "lemma": "θλῖψις",
+    "kind": "departure",
+    "traditional": "tribulation",
+    "note": "The Greek word was an ordinary term for oppressive hardship, not a technical name. “Tribulation” is now widely heard as the title of a specific end-time period, which says more than the Greek does. “Affliction” is itself a long-standing rendering of the word and is used for it throughout this translation. The sentence echoes Daniel 12:1."
+   },
+   {
+    "verse": 20,
+    "phrase": "no flesh",
+    "lemma": "σάρξ",
+    "kind": "background",
+    "traditional": "no flesh",
+    "note": "“All flesh” is a Hebrew idiom for all living people. “Saved” here refers in the first instance to physical survival: no one would come through alive. Many modern versions paraphrase as “no one would survive.”"
+   },
+   {
+    "verse": 20,
+    "phrase": "the chosen ones, whom he chose",
+    "lemma": "ἐκλεκτός",
+    "kind": "departure",
+    "traditional": "the elect, whom he chose",
+    "note": "The noun and the verb share a root in Greek, and the repetition is deliberate. “The elect” hides that link and has become a term of later theological debate; “chosen ones” is what the word plainly means and echoes the Old Testament’s language for Israel as God’s chosen people. Many versions keep “the elect.”"
+   },
+   {
+    "verse": 21,
+    "phrase": "the Messiah",
+    "lemma": "Χριστός",
+    "kind": "departure",
+    "traditional": "Christ",
+    "note": "The Greek word, traditionally rendered “Christ,” translates the Hebrew “Messiah,” the anointed king Israel expected. Here it is a title under discussion, not a name, so “Messiah” is used; “false messiahs” in verse 22 is a compound of the same word. Several modern translations make the same choice in the Gospels."
+   },
+   {
+    "verse": 25,
+    "phrase": "the powers in the heavens",
+    "lemma": "δύναμις",
+    "kind": "background",
+    "traditional": "the powers that are in heaven",
+    "note": "Verses 24–25 draw on prophetic imagery, especially Isaiah 13:10 and 34:4, where the darkening of sun, moon, and stars accompanies God’s judgment on nations. “The powers in the heavens” are the heavenly bodies, perhaps thought of as the spiritual forces associated with them. Interpreters differ on whether the language describes a literal cosmic collapse or is the prophets’ customary way of depicting world-shaking historical events. The Greek plural “heavens” is kept."
+   },
+   {
+    "verse": 26,
+    "phrase": "the Son of Man coming in clouds",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "the Son of man coming in the clouds",
+    "note": "The wording comes from Daniel 7:13, where “one like a son of man” comes with the clouds of heaven and is given everlasting dominion. Most interpreters take the saying here to refer to Jesus’ return; a minority read it, with Daniel, as a coming to God for vindication and enthronement."
+   },
+   {
+    "verse": 29,
+    "phrase": "he is near",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "it is nigh",
+    "note": "The Greek verb has no expressed subject and can mean “he is near” (the Son of Man) or “it is near” (the end, or the event just described). “He” is chosen because of the image of someone at the door and the returning master in verses 34–36. Translations are divided."
+   },
+   {
+    "verse": 30,
+    "phrase": "this generation",
+    "lemma": "γενεά",
+    "kind": "ambiguity",
+    "traditional": "this generation",
+    "note": "In ordinary usage the word means the people alive at one time, and elsewhere in Mark “this generation” refers to Jesus’ contemporaries. How this fits with what follows is one of the most debated questions in the chapter: some take “all these things” to be the events leading up to the temple’s destruction in AD 70, others take the saying to cover the end itself. Proposals that the word means “race” or “kind of people” have little support in usage of the period."
+   },
+   {
+    "verse": 33,
+    "phrase": "stay alert",
+    "lemma": "ἀγρυπνέω",
+    "kind": "textual",
+    "traditional": "watch and pray",
+    "note": "Many manuscripts read “stay alert and pray,” and older English versions follow them. The words “and pray” are absent from a few important early witnesses and may have been added under the influence of Mark 14:38. The edition translated here omits them."
+   },
+   {
+    "verse": 34,
+    "phrase": "slaves",
+    "lemma": "δοῦλος",
+    "kind": "departure",
+    "traditional": "servants",
+    "note": "The Greek word means a slave, a person owned by a master, not a hired employee. “Servants” softens the picture; the parable assumes a household in which the absent owner’s slaves run his affairs and answer to him on his return. A number of recent translations also use “slaves.”"
+   },
+   {
+    "verse": 35,
+    "phrase": "in the evening or at midnight or at cockcrow or at dawn",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "at even, or at midnight, or at the cockcrowing, or in the morning",
+    "note": "These are the popular names of the four watches into which the Roman reckoning divided the night, each about three hours long, from sunset to sunrise. The master may return in any of them."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "ἐκλεκτός",
+    "rendering": "chosen ones",
+    "verse": 20,
+    "reason": "Recurs across the Gospels, Paul, 1 Peter, and Revelation; versions split between “elect” and “chosen,” and the link to the verb ἐκλέγομαι is lost if the rendering varies."
+   },
+   {
+    "lemma": "δοῦλος",
+    "rendering": "slave",
+    "verse": 34,
+    "reason": "Very frequent across the New Testament; “servant,” “slave,” and “bondservant” all have defenders, and inconsistency would obscure both the parables and Paul’s self-descriptions."
+   },
+   {
+    "lemma": "γρηγορέω",
+    "rendering": "stay awake",
+    "verse": 34,
+    "reason": "Recurs in the Gospels, Paul, 1 Peter, and Revelation as “watch,” “keep awake,” or “be alert”; one rendering would keep the link between this discourse and Gethsemane visible."
+   },
+   {
+    "lemma": "πλανάω",
+    "rendering": "lead astray",
+    "verse": 5,
+    "reason": "Common across the Gospels, the letters, and Revelation as “deceive,” “lead astray,” or “mislead”; the wandering image and cross-references are lost if it varies."
+   },
+   {
+    "lemma": "γενεά",
+    "rendering": "generation",
+    "verse": 30,
+    "reason": "The phrase “this generation” recurs throughout the Synoptics and is exegetically contested, so the rendering should be fixed and not vary with interpretation."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 6998,
+   "output_tokens": 241
+  },
+  "findings": [],
+  "error": ""
+ }
+}

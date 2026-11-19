@@ -7,7 +7,7 @@ import {
 import { GlossaryContent } from "./GlossaryContent";
 
 export const metadata: Metadata = {
-  title: "Glossary | AIT Bible",
+  title: "Word Choices | AIT Bible",
   description:
     "The words where the AIT Bible departs from the traditional English rendering, with the reason and the standard scholarly view.",
 };

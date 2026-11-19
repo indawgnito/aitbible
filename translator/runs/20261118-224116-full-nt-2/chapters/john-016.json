@@ -1,0 +1,515 @@
+{
+ "id": "john-016",
+ "book": "john",
+ "chapter": 16,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14iPEAqC8sB33CQRf",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 11590,
+  "output_tokens": 14883
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"“I have said these things to you so that you will not fall away.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"They will put you out of the synagogue; indeed, an hour is coming when everyone who kills you will think they are offering worship to God.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And they will do these things because they have not known the Father or me.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But I have said these things to you so that when their hour comes you will remember that I told you about them. I did not tell you these things from the beginning, because I was with you.\"}]},{\"verse\":5,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"“But now I am going to the one who sent me, and none of you asks me, ‘Where are you going?’\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Instead, because I have said these things to you, pain has filled your hearts.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But I am telling you the truth: it is to your advantage that I go away. For if I do not go away, the Advocate will not come to you; but if I go, I will send him to you.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And when he comes, he will prove the world wrong about sin and about righteousness and about judgment:\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"about sin, because they do not believe in me;\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"about righteousness, because I am going to the Father and you will no longer see me;\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"and about judgment, because the ruler of this world has been judged.\"}]},{\"verse\":12,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"“I still have many things to say to you, but you cannot bear them now.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But when he comes, the Spirit of truth, he will guide you in all the truth; for he will not speak on his own, but will speak whatever he hears, and he will declare to you the things that are coming.\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"He will glorify me, because he will take from what is mine and declare it to you.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Everything the Father has is mine; that is why I said that he takes from what is mine and will declare it to you.\"}]},{\"verse\":16,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"“A little while, and you will no longer see me; and again a little while, and you will see me.”\"}]},{\"verse\":17,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So some of his disciples said to one another,\"},{\"speaker\":\"other\",\"text\":\"“What is this that he is telling us: ‘A little while, and you will not see me; and again a little while, and you will see me’? And, ‘Because I am going to the Father’?”\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So they kept saying,\"},{\"speaker\":\"other\",\"text\":\"“What is this ‘little while’ he speaks of? We do not know what he is talking about.”\"}]},{\"verse\":19,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus knew that they wanted to ask him, and he said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Are you questioning one another about this—that I said, ‘A little while, and you will not see me; and again a little while, and you will see me’?\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Truly, truly, I tell you, you will weep and lament, but the world will rejoice. You will have pain, but your pain will turn into joy.\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"When a woman is in labor she has pain, because her hour has come; but when she has given birth to the child, she no longer remembers the anguish, for joy that a human being has been born into the world.\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"So you too have pain now; but I will see you again, and your hearts will rejoice, and no one will take your joy away from you.\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And on that day you will ask me nothing. Truly, truly, I tell you, whatever you ask the Father for, he will give you in my name.\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Until now you have asked for nothing in my name. Ask, and you will receive, so that your joy may be complete.\"}]},{\"verse\":25,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"“I have said these things to you in figures of speech. An hour is coming when I will no longer speak to you in figures of speech but will tell you plainly about the Father.\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"On that day you will ask in my name, and I do not say to you that I will ask the Father on your behalf;\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"for the Father himself loves you, because you have loved me and have believed that I came from God.\"}]},{\"verse\":28,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"I came from the Father and have come into the world; again, I am leaving the world and going to the Father.”\"}]},{\"verse\":29,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"His disciples said,\"},{\"speaker\":\"other\",\"text\":\"“See, now you are speaking plainly and using no figure of speech.\"}]},{\"verse\":30,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Now we know that you know everything and have no need for anyone to ask you. By this we believe that you came from God.”\"}]},{\"verse\":31,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus answered them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Do you now believe?\"}]},{\"verse\":32,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Look, an hour is coming—indeed it has come—when you will be scattered, each to his own home, and will leave me alone. Yet I am not alone, because the Father is with me.\"}]},{\"verse\":33,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"I have said these things to you so that in me you may have peace. In the world you have affliction; but take courage: I have conquered the world.”\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"fall away\",\"lemma\":\"σκανδαλίζω\",\"kind\":\"departure\",\"traditional\":\"be offended\",\"note\":\"The verb pictures someone being tripped up so that they fall from loyalty to God. The older rendering “be offended” now suggests hurt feelings, which is too weak; here Jesus is warning against abandoning him under persecution. Most modern versions also have “fall away” or “stumble” in this verse.\"},{\"verse\":2,\"phrase\":\"put you out of the synagogue\",\"lemma\":\"ἀποσυνάγωγος\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"The Greek is a single adjective meaning “expelled from the synagogue,” found in the New Testament only in John. For a first-century Jew this meant exclusion from the community's worship and much of its social life, not merely from a building. What formal procedure, if any, lies behind the term is debated.\"},{\"verse\":6,\"phrase\":\"pain\",\"lemma\":\"λύπη\",\"kind\":\"departure\",\"traditional\":\"sorrow\",\"note\":\"The Greek word covers both grief and physical pain, and Jesus uses it of the disciples' grief (verses 6, 20, 22) and of a woman's labor (verse 21). “Pain” is used throughout so that the comparison rests on one word in English as it does in Greek. Most versions have “sorrow” or “grief” for the disciples, and some switch to “pain” for the woman.\"},{\"verse\":7,\"phrase\":\"Advocate\",\"lemma\":\"παράκλητος\",\"kind\":\"departure\",\"traditional\":\"Comforter\",\"note\":\"In the Greek of the period the word describes someone called in to help, especially one who speaks on another's behalf, and 1 John 2:1 uses it in that way of Jesus. “Comforter” comes from older English versions; “Advocate,” “Helper” and “Counselor” are all in current use. The courtroom tone suits what follows, where the Advocate proves the world wrong.\"},{\"verse\":8,\"phrase\":\"prove the world wrong about\",\"lemma\":\"ἐλέγχω\",\"kind\":\"ambiguity\",\"traditional\":\"reprove / convict\",\"note\":\"The verb means to expose, to show someone to be in the wrong, or to convict. Many versions have “convict the world concerning sin,” which could suggest bringing the world to feel its guilt; the rendering here takes it as demonstrating that the world's verdicts on sin, righteousness and judgment are mistaken. Both readings are widely held, and whether the world itself is persuaded is left open by the Greek.\"},{\"verse\":10,\"phrase\":\"righteousness\",\"lemma\":\"δικαιοσύνη\",\"kind\":\"ambiguity\",\"traditional\":\"righteousness\",\"note\":\"Whose righteousness is meant is not stated. The most common view is that it is Jesus' own: his return to the Father shows that he, condemned by the world as a wrongdoer, was in the right. Others take it as the righteousness the world falsely claims for itself, or the righteousness now made available to believers.\"},{\"verse\":13,\"phrase\":\"in all the truth\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"into all truth\",\"note\":\"Manuscripts are divided between “in all the truth” and “into all the truth.” The Greek text translated here reads “in”; the familiar “into all truth” follows the other reading. The difference in meaning is slight: guidance within the whole sphere of truth versus guidance toward it.\"},{\"verse\":23,\"phrase\":\"you will ask me nothing\",\"lemma\":\"ἐρωτάω\",\"kind\":\"ambiguity\",\"traditional\":\"ye shall ask me nothing\",\"note\":\"This verse uses two different Greek verbs that both come out as “ask” in English. The first usually means to ask a question in John, though it can also mean to make a request (as in verse 26); the second means to ask for something. The likely sense is that on that day the disciples will have no more puzzled questions for Jesus, as in verses 17–19, but some take it as “you will request nothing from me.”\"},{\"verse\":23,\"phrase\":\"he will give you in my name\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"whatever you ask the Father in my name, he will give you\",\"note\":\"Manuscripts differ in word order. In the Greek text translated here, “in my name” follows “he will give you” and so describes the giving; in many other manuscripts it follows “ask the Father” and describes the asking, as in verse 24. Most English versions follow the second order.\"},{\"verse\":31,\"phrase\":\"Do you now believe?\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"Do ye now believe?\",\"note\":\"Ancient Greek manuscripts had no punctuation, and the words can be read as a question or as a statement: “Now you believe.” Either way, the next verse shows that Jesus regards their belief as about to be tested and found wanting.\"},{\"verse\":33,\"phrase\":\"affliction\",\"lemma\":\"θλῖψις\",\"kind\":\"departure\",\"traditional\":\"tribulation\",\"note\":\"The Greek is an ordinary word for hardship or oppression that bears down on people. “Tribulation” is now heard by many readers as the name of a specific end-time period, which says more than the Greek does. The same word is rendered “anguish” in verse 21, where it describes the pain of childbirth, not hardship imposed from outside.\"},{\"verse\":33,\"phrase\":\"conquered\",\"lemma\":\"νικάω\",\"kind\":\"departure\",\"traditional\":\"overcome\",\"note\":\"The verb is the normal Greek word for winning a battle, a contest or a lawsuit, and is related to the word for “victory.” “Overcome” in modern English can suggest merely getting past a difficulty. The meaning is not disputed; several modern versions also use “conquered” here, and it shows the link with the victory language of 1 John and Revelation.\"}],\"candidates\":[{\"lemma\":\"ἐλέγχω\",\"rendering\":\"prove wrong\",\"verse\":8,\"reason\":\"Versions vary between convict, reprove, expose, rebuke and prove wrong across John, Paul, the Pastorals and Revelation, and the choice here shapes how the Spirit's work is understood.\"},{\"lemma\":\"λύπη\",\"rendering\":\"pain\",\"verse\":6,\"reason\":\"The noun and its verb λυπέω cover both grief and pain and recur in John, Paul (especially 2 Corinthians 2 and 7) and Hebrews, where sorrow, grief and pain compete.\"},{\"lemma\":\"παροιμία\",\"rendering\":\"figure of speech\",\"verse\":25,\"reason\":\"It occurs in John 10:6 and 16:25, 29 and in 2 Peter 2:22 and is rendered variously as proverb, parable, figure of speech or riddle; John's use needs one consistent word distinct from παραβολή.\"},{\"lemma\":\"ἐρωτάω\",\"rendering\":\"ask\",\"verse\":5,\"reason\":\"It stands beside αἰτέω in John 14–17 and 1 John 5:16 with a possible distinction between questioning, requesting and asking for, so a consistent policy on whether to distinguish the two verbs in English is needed.\"},{\"lemma\":\"ἀναγγέλλω\",\"rendering\":\"declare\",\"verse\":13,\"reason\":\"It recurs in John, Acts, Paul and 1 John alongside ἀπαγγέλλω and καταγγέλλω, and versions vary between declare, announce, report, tell and proclaim.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "“I have said these things to you so that you will not fall away."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "They will put you out of the synagogue; indeed, an hour is coming when everyone who kills you will think they are offering worship to God."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And they will do these things because they have not known the Father or me."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But I have said these things to you so that when their hour comes you will remember that I told you about them. I did not tell you these things from the beginning, because I was with you."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "“But now I am going to the one who sent me, and none of you asks me, ‘Where are you going?’"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Instead, because I have said these things to you, pain has filled your hearts."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But I am telling you the truth: it is to your advantage that I go away. For if I do not go away, the Advocate will not come to you; but if I go, I will send him to you."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And when he comes, he will prove the world wrong about sin and about righteousness and about judgment:"
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "about sin, because they do not believe in me;"
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "about righteousness, because I am going to the Father and you will no longer see me;"
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "and about judgment, because the ruler of this world has been judged."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "“I still have many things to say to you, but you cannot bear them now."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But when he comes, the Spirit of truth, he will guide you in all the truth; for he will not speak on his own, but will speak whatever he hears, and he will declare to you the things that are coming."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "He will glorify me, because he will take from what is mine and declare it to you."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Everything the Father has is mine; that is why I said that he takes from what is mine and will declare it to you."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "“A little while, and you will no longer see me; and again a little while, and you will see me.”"
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So some of his disciples said to one another,"
+     },
+     {
+      "speaker": "other",
+      "text": "“What is this that he is telling us: ‘A little while, and you will not see me; and again a little while, and you will see me’? And, ‘Because I am going to the Father’?”"
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So they kept saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“What is this ‘little while’ he speaks of? We do not know what he is talking about.”"
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus knew that they wanted to ask him, and he said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Are you questioning one another about this—that I said, ‘A little while, and you will not see me; and again a little while, and you will see me’?"
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Truly, truly, I tell you, you will weep and lament, but the world will rejoice. You will have pain, but your pain will turn into joy."
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "When a woman is in labor she has pain, because her hour has come; but when she has given birth to the child, she no longer remembers the anguish, for joy that a human being has been born into the world."
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "So you too have pain now; but I will see you again, and your hearts will rejoice, and no one will take your joy away from you."
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And on that day you will ask me nothing. Truly, truly, I tell you, whatever you ask the Father for, he will give you in my name."
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Until now you have asked for nothing in my name. Ask, and you will receive, so that your joy may be complete."
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "“I have said these things to you in figures of speech. An hour is coming when I will no longer speak to you in figures of speech but will tell you plainly about the Father."
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "On that day you will ask in my name, and I do not say to you that I will ask the Father on your behalf;"
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "for the Father himself loves you, because you have loved me and have believed that I came from God."
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "I came from the Father and have come into the world; again, I am leaving the world and going to the Father.”"
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "His disciples said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“See, now you are speaking plainly and using no figure of speech."
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Now we know that you know everything and have no need for anyone to ask you. By this we believe that you came from God.”"
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus answered them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Do you now believe?"
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Look, an hour is coming—indeed it has come—when you will be scattered, each to his own home, and will leave me alone. Yet I am not alone, because the Father is with me."
+     }
+    ]
+   },
+   {
+    "verse": 33,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "I have said these things to you so that in me you may have peace. In the world you have affliction; but take courage: I have conquered the world.”"
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "fall away",
+    "lemma": "σκανδαλίζω",
+    "kind": "departure",
+    "traditional": "be offended",
+    "note": "The verb pictures someone being tripped up so that they fall from loyalty to God. The older rendering “be offended” now suggests hurt feelings, which is too weak; here Jesus is warning against abandoning him under persecution. Most modern versions also have “fall away” or “stumble” in this verse."
+   },
+   {
+    "verse": 2,
+    "phrase": "put you out of the synagogue",
+    "lemma": "ἀποσυνάγωγος",
+    "kind": "background",
+    "traditional": "",
+    "note": "The Greek is a single adjective meaning “expelled from the synagogue,” found in the New Testament only in John. For a first-century Jew this meant exclusion from the community's worship and much of its social life, not merely from a building. What formal procedure, if any, lies behind the term is debated."
+   },
+   {
+    "verse": 6,
+    "phrase": "pain",
+    "lemma": "λύπη",
+    "kind": "departure",
+    "traditional": "sorrow",
+    "note": "The Greek word covers both grief and physical pain, and Jesus uses it of the disciples' grief (verses 6, 20, 22) and of a woman's labor (verse 21). “Pain” is used throughout so that the comparison rests on one word in English as it does in Greek. Most versions have “sorrow” or “grief” for the disciples, and some switch to “pain” for the woman."
+   },
+   {
+    "verse": 7,
+    "phrase": "Advocate",
+    "lemma": "παράκλητος",
+    "kind": "departure",
+    "traditional": "Comforter",
+    "note": "In the Greek of the period the word describes someone called in to help, especially one who speaks on another's behalf, and 1 John 2:1 uses it in that way of Jesus. “Comforter” comes from older English versions; “Advocate,” “Helper” and “Counselor” are all in current use. The courtroom tone suits what follows, where the Advocate proves the world wrong."
+   },
+   {
+    "verse": 8,
+    "phrase": "prove the world wrong about",
+    "lemma": "ἐλέγχω",
+    "kind": "ambiguity",
+    "traditional": "reprove / convict",
+    "note": "The verb means to expose, to show someone to be in the wrong, or to convict. Many versions have “convict the world concerning sin,” which could suggest bringing the world to feel its guilt; the rendering here takes it as demonstrating that the world's verdicts on sin, righteousness and judgment are mistaken. Both readings are widely held, and whether the world itself is persuaded is left open by the Greek."
+   },
+   {
+    "verse": 10,
+    "phrase": "righteousness",
+    "lemma": "δικαιοσύνη",
+    "kind": "ambiguity",
+    "traditional": "righteousness",
+    "note": "Whose righteousness is meant is not stated. The most common view is that it is Jesus' own: his return to the Father shows that he, condemned by the world as a wrongdoer, was in the right. Others take it as the righteousness the world falsely claims for itself, or the righteousness now made available to believers."
+   },
+   {
+    "verse": 13,
+    "phrase": "in all the truth",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "into all truth",
+    "note": "Manuscripts are divided between “in all the truth” and “into all the truth.” The Greek text translated here reads “in”; the familiar “into all truth” follows the other reading. The difference in meaning is slight: guidance within the whole sphere of truth versus guidance toward it."
+   },
+   {
+    "verse": 23,
+    "phrase": "you will ask me nothing",
+    "lemma": "ἐρωτάω",
+    "kind": "ambiguity",
+    "traditional": "ye shall ask me nothing",
+    "note": "This verse uses two different Greek verbs that both come out as “ask” in English. The first usually means to ask a question in John, though it can also mean to make a request (as in verse 26); the second means to ask for something. The likely sense is that on that day the disciples will have no more puzzled questions for Jesus, as in verses 17–19, but some take it as “you will request nothing from me.”"
+   },
+   {
+    "verse": 23,
+    "phrase": "he will give you in my name",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "whatever you ask the Father in my name, he will give you",
+    "note": "Manuscripts differ in word order. In the Greek text translated here, “in my name” follows “he will give you” and so describes the giving; in many other manuscripts it follows “ask the Father” and describes the asking, as in verse 24. Most English versions follow the second order."
+   },
+   {
+    "verse": 31,
+    "phrase": "Do you now believe?",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "Do ye now believe?",
+    "note": "Ancient Greek manuscripts had no punctuation, and the words can be read as a question or as a statement: “Now you believe.” Either way, the next verse shows that Jesus regards their belief as about to be tested and found wanting."
+   },
+   {
+    "verse": 33,
+    "phrase": "affliction",
+    "lemma": "θλῖψις",
+    "kind": "departure",
+    "traditional": "tribulation",
+    "note": "The Greek is an ordinary word for hardship or oppression that bears down on people. “Tribulation” is now heard by many readers as the name of a specific end-time period, which says more than the Greek does. The same word is rendered “anguish” in verse 21, where it describes the pain of childbirth, not hardship imposed from outside."
+   },
+   {
+    "verse": 33,
+    "phrase": "conquered",
+    "lemma": "νικάω",
+    "kind": "departure",
+    "traditional": "overcome",
+    "note": "The verb is the normal Greek word for winning a battle, a contest or a lawsuit, and is related to the word for “victory.” “Overcome” in modern English can suggest merely getting past a difficulty. The meaning is not disputed; several modern versions also use “conquered” here, and it shows the link with the victory language of 1 John and Revelation."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "ἐλέγχω",
+    "rendering": "prove wrong",
+    "verse": 8,
+    "reason": "Versions vary between convict, reprove, expose, rebuke and prove wrong across John, Paul, the Pastorals and Revelation, and the choice here shapes how the Spirit's work is understood."
+   },
+   {
+    "lemma": "λύπη",
+    "rendering": "pain",
+    "verse": 6,
+    "reason": "The noun and its verb λυπέω cover both grief and pain and recur in John, Paul (especially 2 Corinthians 2 and 7) and Hebrews, where sorrow, grief and pain compete."
+   },
+   {
+    "lemma": "παροιμία",
+    "rendering": "figure of speech",
+    "verse": 25,
+    "reason": "It occurs in John 10:6 and 16:25, 29 and in 2 Peter 2:22 and is rendered variously as proverb, parable, figure of speech or riddle; John's use needs one consistent word distinct from παραβολή."
+   },
+   {
+    "lemma": "ἐρωτάω",
+    "rendering": "ask",
+    "verse": 5,
+    "reason": "It stands beside αἰτέω in John 14–17 and 1 John 5:16 with a possible distinction between questioning, requesting and asking for, so a consistent policy on whether to distinguish the two verbs in English is needed."
+   },
+   {
+    "lemma": "ἀναγγέλλω",
+    "rendering": "declare",
+    "verse": 13,
+    "reason": "It recurs in John, Acts, Paul and 1 John alongside ἀπαγγέλλω and καταγγέλλω, and versions vary between declare, announce, report, tell and proclaim."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 6640,
+   "output_tokens": 277
+  },
+  "findings": [],
+  "error": ""
+ }
+}

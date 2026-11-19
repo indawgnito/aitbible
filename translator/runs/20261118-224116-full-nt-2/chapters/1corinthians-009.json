@@ -1,0 +1,461 @@
+{
+ "id": "1corinthians-009",
+ "book": "1corinthians",
+ "chapter": 9,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14hdtpCwZL7GjCrx9",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 9368,
+  "output_tokens": 12205
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Am I not free? Am I not an apostle? Have I not seen Jesus our Lord? Are you not my work in the Lord?\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"If to others I am not an apostle, to you at least I am, for you are the seal of my apostleship in the Lord.\"}]},{\"verse\":3,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"This is my defense to those who are examining me.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Do we have no right to eat and drink?\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Do we have no right to take along a believing wife, as the other apostles and the Lord’s brothers and Cephas do?\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Or is it only Barnabas and I who have no right not to work?\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Who ever serves as a soldier at his own expense? Who plants a vineyard and does not eat its fruit? Who shepherds a flock and does not have some of the flock’s milk?\"}]},{\"verse\":8,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Am I saying these things from a merely human point of view, or does the Law not say them too?\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For in the Law of Moses it is written:\"},{\"speaker\":\"scripture\",\"text\":\"“You shall not muzzle an ox while it is threshing.”\"},{\"speaker\":\"narrator\",\"text\":\"Is it oxen that God is concerned about,\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"or is it surely for our sake that he says it? Yes, it was written for our sake, because the one who plows ought to plow in hope, and the one who threshes to thresh in hope of a share.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"If we sowed spiritual things for you, is it too much if we reap material things from you?\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"If others share this right over you, do we not all the more? But we have not made use of this right. Instead we put up with everything, so that we may put no obstacle in the way of the good news of Christ.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Do you not know that those who perform the temple service eat what comes from the temple, and those who attend to the altar share in what is offered on the altar?\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"In the same way the Lord also directed that those who proclaim the good news should live from the good news.\"}]},{\"verse\":15,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But I have made use of none of these things. And I am not writing this so that it may be done that way in my case, for I would rather die than— No one will make my boast an empty one!\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For if I announce the good news, there is no boast in that for me, for necessity is laid upon me. Woe to me if I do not announce the good news!\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For if I do this willingly, I have a reward; but if unwillingly, I have been entrusted with a stewardship.\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"What then is my reward? That in announcing the good news I may offer the good news free of charge, and so not make full use of my right in the good news.\"}]},{\"verse\":19,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For though I am free from all, I made myself a slave to all, so that I might win more of them.\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"To the Jews I became like a Jew, to win Jews. To those under the law I became like one under the law—though I myself am not under the law—to win those under the law.\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"To those outside the law I became like one outside the law—though I am not outside God’s law but within Christ’s law—to win those outside the law.\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"To the weak I became weak, to win the weak. I have become all things to all people, so that by all means I might save some.\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"I do everything for the sake of the good news, so that I may share in it with others.\"}]},{\"verse\":24,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Do you not know that the runners in a stadium all run, but only one receives the prize? Run in such a way that you take hold of it.\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Everyone who competes exercises self-control in everything. They do it to receive a perishable wreath, but we an imperishable one.\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So this is how I run: not aimlessly; this is how I box: not beating the air.\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Rather, I pummel my body and make it my slave, so that after proclaiming to others I myself will not somehow be disqualified.\"}]}],\"notes\":[{\"verse\":3,\"phrase\":\"This is my defense\",\"lemma\":\"ἀπολογία\",\"kind\":\"ambiguity\",\"traditional\":\"\",\"note\":\"“Defense” and “examining” are courtroom words: a formal reply to a charge and a preliminary judicial inquiry. “This” most likely points forward to the argument of verses 4–27, though some take it as pointing back to verses 1–2, with the Corinthians themselves as Paul’s defense.\"},{\"verse\":4,\"phrase\":\"right\",\"lemma\":\"ἐξουσία\",\"kind\":\"background\",\"traditional\":\"power (KJV); right\",\"note\":\"The Greek word means authority or entitlement to do something. It is the same word used in 8:9 for the Corinthians’ “right” to eat food offered to idols. Paul’s whole chapter is an example of holding a real right and choosing not to use it.\"},{\"verse\":5,\"phrase\":\"a believing wife\",\"lemma\":\"ἀδελφή\",\"kind\":\"ambiguity\",\"traditional\":\"a believing wife; a sister, a wife (KJV)\",\"note\":\"The Greek is literally “a sister, a wife,” that is, a wife who is a fellow believer. Some ancient interpreters took it instead as “a sister as a woman,” a female assistant and not a spouse, but most scholars today read it as a wife who travels with her husband at the churches’ expense.\"},{\"verse\":9,\"phrase\":\"You shall not muzzle an ox while it is threshing.\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"The quotation is Deuteronomy 25:4. Oxen threshed grain by treading it or dragging a sledge over it, and the law let the working animal eat as it went. Paul argues from the lesser to the greater: if this holds for an ox, it holds for human workers.\"},{\"verse\":10,\"phrase\":\"surely\",\"lemma\":\"πάντως\",\"kind\":\"ambiguity\",\"traditional\":\"altogether; entirely\",\"note\":\"The adverb can mean “entirely,” which would have Paul deny that the law is about oxen at all. It can also mean “surely” or “certainly,” which says only that its application to people is beyond doubt. The second sense is the commoner one in the period and is followed here, but both are defended.\"},{\"verse\":12,\"phrase\":\"good news\",\"lemma\":\"εὐαγγέλιον\",\"kind\":\"departure\",\"traditional\":\"gospel\",\"note\":\"“Gospel” is now a religious term or the name of a book. The Greek was an ordinary word for the public announcement of good news, and the related verb in verses 16 and 18 is rendered “announce the good news.” Many modern translations alternate between “gospel” and “good news.”\"},{\"verse\":14,\"phrase\":\"the Lord also directed\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"Paul is referring to a teaching of Jesus preserved in the Gospels, that the worker deserves his pay or his food (Luke 10:7; Matthew 10:10). It is one of the few places where Paul explicitly appeals to a saying of Jesus.\"},{\"verse\":15,\"phrase\":\"than— No one will make my boast an empty one!\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"than that any man should make my glorying void\",\"note\":\"In the earliest manuscripts Paul’s sentence breaks off and restarts, which is reproduced here. Many later manuscripts smooth it into a single clause, “than that anyone should make my boast empty,” and most English versions translate that smoother sense.\"},{\"verse\":17,\"phrase\":\"I have been entrusted with a stewardship\",\"lemma\":\"οἰκονομία\",\"kind\":\"background\",\"traditional\":\"a stewardship; a commission; a dispensation (KJV)\",\"note\":\"A steward was a household manager, very often a slave, who carried out his master’s business as a duty and earned no wages for it. Paul’s point seems to be that, since he preaches under compulsion, he is in that position and cannot claim pay. The logic and punctuation of verses 17–18 are disputed, and some read this clause as leading into the question that follows.\"},{\"verse\":20,\"phrase\":\"though I myself am not under the law\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"\",\"note\":\"This clause is absent from many later manuscripts and so from the King James Version. It is present in the earliest and best witnesses, and was probably dropped by accident because of the repeated phrase “under the law.”\"},{\"verse\":21,\"phrase\":\"within Christ’s law\",\"lemma\":\"ἔννομος\",\"kind\":\"ambiguity\",\"traditional\":\"under the law of Christ; under law toward Christ\",\"note\":\"Paul plays on two adjectives built on the word for law: “lawless” or “outside law” and “within law.” The phrase can be read as “subject to the law of Christ” or more loosely as “bound by law to Christ.” What Paul means by Christ’s law is debated; compare Galatians 6:2.\"},{\"verse\":23,\"phrase\":\"share in it with others\",\"lemma\":\"συγκοινωνός\",\"kind\":\"ambiguity\",\"traditional\":\"share in its blessings; be partaker thereof with you\",\"note\":\"The Greek is literally “a fellow sharer of it.” Most translations take this as sharing in the blessings the good news brings. Others understand it as being a partner in the work of the good news itself. The rendering leaves both open.\"},{\"verse\":25,\"phrase\":\"wreath\",\"lemma\":\"στέφανος\",\"kind\":\"departure\",\"traditional\":\"crown\",\"note\":\"The prize at Greek athletic contests, including the Isthmian Games held near Corinth, was a wreath of foliage that soon withered. Elsewhere this translation renders the word “crown,” but here Paul’s contrast depends on the prize being literally perishable. Several modern versions make the same choice in this verse.\"},{\"verse\":27,\"phrase\":\"I pummel my body\",\"lemma\":\"ὑπωπιάζω\",\"kind\":\"departure\",\"traditional\":\"I discipline my body; I keep under my body (KJV)\",\"note\":\"The verb comes from boxing and means to strike someone under the eye, to give a black eye. It continues the image of verse 26: Paul’s punches land, and they land on his own body. “Discipline” gives the application but loses the picture. “Disqualified” likewise continues the athletic image, of a competitor who fails the test.\"}],\"candidates\":[{\"lemma\":\"ἐξουσία\",\"rendering\":\"right\",\"verse\":4,\"reason\":\"It shifts between “right,” “authority” and “power” across the New Testament, and the link between 1 Corinthians 8:9 and chapter 9 depends on a consistent rendering.\"},{\"lemma\":\"καύχημα\",\"rendering\":\"boast\",\"verse\":15,\"reason\":\"Paul’s boasting vocabulary (καύχημα, καύχησις, καυχάομαι) recurs across his letters and is variously rendered “boast,” “pride,” “glory” and “ground for boasting.”\"},{\"lemma\":\"οἰκονομία\",\"rendering\":\"stewardship\",\"verse\":17,\"reason\":\"It is rendered “stewardship,” “commission,” “administration,” “plan” or “dispensation” in different places (Luke 16, Ephesians 1 and 3, Colossians 1), and needs defined senses.\"},{\"lemma\":\"ἀνακρίνω\",\"rendering\":\"examine\",\"verse\":3,\"reason\":\"This judicial term is frequent in 1 Corinthians (2:14–15, 4:3–4, 9:3, 10:25–27, 14:24) and in Acts, and translations vary between “judge,” “examine,” “discern” and “question.”\"},{\"lemma\":\"κηρύσσω\",\"rendering\":\"proclaim\",\"verse\":27,\"reason\":\"“Preach” and “proclaim” alternate in most versions; a herald’s public announcement is the period sense, and it should be coordinated with the “good news” entry.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Am I not free? Am I not an apostle? Have I not seen Jesus our Lord? Are you not my work in the Lord?"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "If to others I am not an apostle, to you at least I am, for you are the seal of my apostleship in the Lord."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "This is my defense to those who are examining me."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Do we have no right to eat and drink?"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Do we have no right to take along a believing wife, as the other apostles and the Lord’s brothers and Cephas do?"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Or is it only Barnabas and I who have no right not to work?"
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Who ever serves as a soldier at his own expense? Who plants a vineyard and does not eat its fruit? Who shepherds a flock and does not have some of the flock’s milk?"
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Am I saying these things from a merely human point of view, or does the Law not say them too?"
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For in the Law of Moses it is written:"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“You shall not muzzle an ox while it is threshing.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "Is it oxen that God is concerned about,"
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "or is it surely for our sake that he says it? Yes, it was written for our sake, because the one who plows ought to plow in hope, and the one who threshes to thresh in hope of a share."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "If we sowed spiritual things for you, is it too much if we reap material things from you?"
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "If others share this right over you, do we not all the more? But we have not made use of this right. Instead we put up with everything, so that we may put no obstacle in the way of the good news of Christ."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Do you not know that those who perform the temple service eat what comes from the temple, and those who attend to the altar share in what is offered on the altar?"
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "In the same way the Lord also directed that those who proclaim the good news should live from the good news."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But I have made use of none of these things. And I am not writing this so that it may be done that way in my case, for I would rather die than— No one will make my boast an empty one!"
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For if I announce the good news, there is no boast in that for me, for necessity is laid upon me. Woe to me if I do not announce the good news!"
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For if I do this willingly, I have a reward; but if unwillingly, I have been entrusted with a stewardship."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "What then is my reward? That in announcing the good news I may offer the good news free of charge, and so not make full use of my right in the good news."
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For though I am free from all, I made myself a slave to all, so that I might win more of them."
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "To the Jews I became like a Jew, to win Jews. To those under the law I became like one under the law—though I myself am not under the law—to win those under the law."
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "To those outside the law I became like one outside the law—though I am not outside God’s law but within Christ’s law—to win those outside the law."
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "To the weak I became weak, to win the weak. I have become all things to all people, so that by all means I might save some."
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "I do everything for the sake of the good news, so that I may share in it with others."
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Do you not know that the runners in a stadium all run, but only one receives the prize? Run in such a way that you take hold of it."
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Everyone who competes exercises self-control in everything. They do it to receive a perishable wreath, but we an imperishable one."
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So this is how I run: not aimlessly; this is how I box: not beating the air."
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Rather, I pummel my body and make it my slave, so that after proclaiming to others I myself will not somehow be disqualified."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 3,
+    "phrase": "This is my defense",
+    "lemma": "ἀπολογία",
+    "kind": "ambiguity",
+    "traditional": "",
+    "note": "“Defense” and “examining” are courtroom words: a formal reply to a charge and a preliminary judicial inquiry. “This” most likely points forward to the argument of verses 4–27, though some take it as pointing back to verses 1–2, with the Corinthians themselves as Paul’s defense."
+   },
+   {
+    "verse": 4,
+    "phrase": "right",
+    "lemma": "ἐξουσία",
+    "kind": "background",
+    "traditional": "power (KJV); right",
+    "note": "The Greek word means authority or entitlement to do something. It is the same word used in 8:9 for the Corinthians’ “right” to eat food offered to idols. Paul’s whole chapter is an example of holding a real right and choosing not to use it."
+   },
+   {
+    "verse": 5,
+    "phrase": "a believing wife",
+    "lemma": "ἀδελφή",
+    "kind": "ambiguity",
+    "traditional": "a believing wife; a sister, a wife (KJV)",
+    "note": "The Greek is literally “a sister, a wife,” that is, a wife who is a fellow believer. Some ancient interpreters took it instead as “a sister as a woman,” a female assistant and not a spouse, but most scholars today read it as a wife who travels with her husband at the churches’ expense."
+   },
+   {
+    "verse": 9,
+    "phrase": "You shall not muzzle an ox while it is threshing.",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "The quotation is Deuteronomy 25:4. Oxen threshed grain by treading it or dragging a sledge over it, and the law let the working animal eat as it went. Paul argues from the lesser to the greater: if this holds for an ox, it holds for human workers."
+   },
+   {
+    "verse": 10,
+    "phrase": "surely",
+    "lemma": "πάντως",
+    "kind": "ambiguity",
+    "traditional": "altogether; entirely",
+    "note": "The adverb can mean “entirely,” which would have Paul deny that the law is about oxen at all. It can also mean “surely” or “certainly,” which says only that its application to people is beyond doubt. The second sense is the commoner one in the period and is followed here, but both are defended."
+   },
+   {
+    "verse": 12,
+    "phrase": "good news",
+    "lemma": "εὐαγγέλιον",
+    "kind": "departure",
+    "traditional": "gospel",
+    "note": "“Gospel” is now a religious term or the name of a book. The Greek was an ordinary word for the public announcement of good news, and the related verb in verses 16 and 18 is rendered “announce the good news.” Many modern translations alternate between “gospel” and “good news.”"
+   },
+   {
+    "verse": 14,
+    "phrase": "the Lord also directed",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "Paul is referring to a teaching of Jesus preserved in the Gospels, that the worker deserves his pay or his food (Luke 10:7; Matthew 10:10). It is one of the few places where Paul explicitly appeals to a saying of Jesus."
+   },
+   {
+    "verse": 15,
+    "phrase": "than— No one will make my boast an empty one!",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "than that any man should make my glorying void",
+    "note": "In the earliest manuscripts Paul’s sentence breaks off and restarts, which is reproduced here. Many later manuscripts smooth it into a single clause, “than that anyone should make my boast empty,” and most English versions translate that smoother sense."
+   },
+   {
+    "verse": 17,
+    "phrase": "I have been entrusted with a stewardship",
+    "lemma": "οἰκονομία",
+    "kind": "background",
+    "traditional": "a stewardship; a commission; a dispensation (KJV)",
+    "note": "A steward was a household manager, very often a slave, who carried out his master’s business as a duty and earned no wages for it. Paul’s point seems to be that, since he preaches under compulsion, he is in that position and cannot claim pay. The logic and punctuation of verses 17–18 are disputed, and some read this clause as leading into the question that follows."
+   },
+   {
+    "verse": 20,
+    "phrase": "though I myself am not under the law",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "",
+    "note": "This clause is absent from many later manuscripts and so from the King James Version. It is present in the earliest and best witnesses, and was probably dropped by accident because of the repeated phrase “under the law.”"
+   },
+   {
+    "verse": 21,
+    "phrase": "within Christ’s law",
+    "lemma": "ἔννομος",
+    "kind": "ambiguity",
+    "traditional": "under the law of Christ; under law toward Christ",
+    "note": "Paul plays on two adjectives built on the word for law: “lawless” or “outside law” and “within law.” The phrase can be read as “subject to the law of Christ” or more loosely as “bound by law to Christ.” What Paul means by Christ’s law is debated; compare Galatians 6:2."
+   },
+   {
+    "verse": 23,
+    "phrase": "share in it with others",
+    "lemma": "συγκοινωνός",
+    "kind": "ambiguity",
+    "traditional": "share in its blessings; be partaker thereof with you",
+    "note": "The Greek is literally “a fellow sharer of it.” Most translations take this as sharing in the blessings the good news brings. Others understand it as being a partner in the work of the good news itself. The rendering leaves both open."
+   },
+   {
+    "verse": 25,
+    "phrase": "wreath",
+    "lemma": "στέφανος",
+    "kind": "departure",
+    "traditional": "crown",
+    "note": "The prize at Greek athletic contests, including the Isthmian Games held near Corinth, was a wreath of foliage that soon withered. Elsewhere this translation renders the word “crown,” but here Paul’s contrast depends on the prize being literally perishable. Several modern versions make the same choice in this verse."
+   },
+   {
+    "verse": 27,
+    "phrase": "I pummel my body",
+    "lemma": "ὑπωπιάζω",
+    "kind": "departure",
+    "traditional": "I discipline my body; I keep under my body (KJV)",
+    "note": "The verb comes from boxing and means to strike someone under the eye, to give a black eye. It continues the image of verse 26: Paul’s punches land, and they land on his own body. “Discipline” gives the application but loses the picture. “Disqualified” likewise continues the athletic image, of a competitor who fails the test."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "ἐξουσία",
+    "rendering": "right",
+    "verse": 4,
+    "reason": "It shifts between “right,” “authority” and “power” across the New Testament, and the link between 1 Corinthians 8:9 and chapter 9 depends on a consistent rendering."
+   },
+   {
+    "lemma": "καύχημα",
+    "rendering": "boast",
+    "verse": 15,
+    "reason": "Paul’s boasting vocabulary (καύχημα, καύχησις, καυχάομαι) recurs across his letters and is variously rendered “boast,” “pride,” “glory” and “ground for boasting.”"
+   },
+   {
+    "lemma": "οἰκονομία",
+    "rendering": "stewardship",
+    "verse": 17,
+    "reason": "It is rendered “stewardship,” “commission,” “administration,” “plan” or “dispensation” in different places (Luke 16, Ephesians 1 and 3, Colossians 1), and needs defined senses."
+   },
+   {
+    "lemma": "ἀνακρίνω",
+    "rendering": "examine",
+    "verse": 3,
+    "reason": "This judicial term is frequent in 1 Corinthians (2:14–15, 4:3–4, 9:3, 10:25–27, 14:24) and in Acts, and translations vary between “judge,” “examine,” “discern” and “question.”"
+   },
+   {
+    "lemma": "κηρύσσω",
+    "rendering": "proclaim",
+    "verse": 27,
+    "reason": "“Preach” and “proclaim” alternate in most versions; a herald’s public announcement is the period sense, and it should be coordinated with the “good news” entry."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [
+  "Verse 17: πιστεύω is not rendered with a register form (believe / trust) and has no register-exception note."
+ ],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 5647,
+   "output_tokens": 410
+  },
+  "findings": [],
+  "error": ""
+ }
+}

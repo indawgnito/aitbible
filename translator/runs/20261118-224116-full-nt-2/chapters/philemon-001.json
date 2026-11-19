@@ -1,0 +1,407 @@
+{
+ "id": "philemon-001",
+ "book": "philemon",
+ "chapter": 1,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14g9WzPZFcT5mtmRh",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 9163,
+  "output_tokens": 9197
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Paul, a prisoner of Christ Jesus, and Timothy our brother, to Philemon, our beloved friend and coworker,\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and to Apphia our sister, and to Archippus our fellow soldier, and to the assembly in your house:\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Grace to you and peace from God our Father and the Lord Jesus Christ.\"}]},{\"verse\":4,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"I thank my God always when I mention you in my prayers,\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"because I hear of your love and the faith that you have toward the Lord Jesus and for all the holy ones.\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"I pray that the partnership of your faith may become effective in the knowledge of every good thing that is in us for Christ.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For I have had much joy and encouragement from your love, because the hearts of the holy ones have been refreshed through you, brother.\"}]},{\"verse\":8,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So although I have great boldness in Christ to command you to do what is proper,\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"I appeal to you instead on the basis of love—being who I am: Paul, an old man and now also a prisoner of Christ Jesus—\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"I appeal to you for my child, whose father I became in my chains—Onesimus,\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"who was once useless to you but is now useful both to you and to me.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"I am sending him back to you—him, that is, my own heart.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"I would have liked to keep him with me, so that on your behalf he might serve me in my chains for the good news,\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"but I did not want to do anything without your consent, so that your good deed would not be forced but freely chosen.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For perhaps this is why he was separated from you for a while: so that you might have him back forever,\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"no longer as a slave but more than a slave, a beloved brother—especially to me, but how much more to you, both in the flesh and in the Lord.\"}]},{\"verse\":17,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So if you consider me a partner, welcome him as you would me.\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And if he has wronged you in any way or owes you anything, charge it to me.\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"I, Paul, write this with my own hand: I will repay it—not to mention that you owe me your very self besides.\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Yes, brother, let me have this benefit from you in the Lord; refresh my heart in Christ.\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Confident of your obedience, I write to you, knowing that you will do even more than I say.\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"At the same time, prepare a guest room for me as well, for I hope that through your prayers I will be granted to you.\"}]},{\"verse\":23,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Epaphras, my fellow prisoner in Christ Jesus, greets you,\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"as do Mark, Aristarchus, Demas, and Luke, my coworkers.\"}]},{\"verse\":25,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The grace of the Lord Jesus Christ be with your spirit.\"}]}],\"notes\":[{\"verse\":2,\"phrase\":\"assembly\",\"lemma\":\"ἐκκλησία\",\"kind\":\"departure\",\"traditional\":\"church\",\"note\":\"The Greek word was the ordinary term for a civic gathering and the Septuagint’s word for Israel assembled; “church” now suggests a building or an institution. Here it is a group that meets in a private home. “Church” is the near-universal rendering and readers know what it refers to; “assembly” is used throughout this translation so that the one Greek word is recognizable everywhere.\"},{\"verse\":5,\"phrase\":\"holy ones\",\"lemma\":\"ἅγιος\",\"kind\":\"departure\",\"traditional\":\"saints\",\"note\":\"The word is used of all members of the community as people set apart for God, echoing the Septuagint’s language for Israel. “Saints” now suggests canonized individuals or people of exceptional virtue. Many translations keep “saints”; others use “God’s people”.\"},{\"verse\":5,\"phrase\":\"your love and the faith that you have toward the Lord Jesus and for all the holy ones\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"\",\"note\":\"The translation keeps the Greek word order. Many interpreters read it as a crossed pattern, with faith directed toward the Lord Jesus and love directed toward the holy ones, and some translations rearrange the sentence to say so. Others take both love and faith (or faithfulness) as directed to both.\"},{\"verse\":6,\"phrase\":\"the partnership of your faith\",\"lemma\":\"κοινωνία\",\"kind\":\"ambiguity\",\"traditional\":\"the fellowship of your faith; the sharing of your faith\",\"note\":\"This verse is widely regarded as obscure. The Greek noun means having something in common, and here may mean Philemon’s partnership with others that springs from his faith, his participation in the faith, or his generosity; “partnership” is chosen because Paul appeals to Philemon as a “partner” in verse 17. It does not mean telling others about one’s faith. The closing words, literally “in us into Christ”, are also uncertain and may mean “for Christ’s sake” or “leading us toward Christ”.\"},{\"verse\":7,\"phrase\":\"hearts\",\"lemma\":\"σπλάγχνον\",\"kind\":\"background\",\"traditional\":\"bowels (KJV); hearts\",\"note\":\"The Greek word literally means the inner organs, regarded as the seat of the deepest feelings. Paul uses it three times in this short letter (verses 7, 12 and 20): Philemon has refreshed the hearts of others, Onesimus is Paul’s own heart, and Paul asks Philemon to refresh his heart.\"},{\"verse\":9,\"phrase\":\"an old man\",\"lemma\":\"πρεσβύτης\",\"kind\":\"ambiguity\",\"traditional\":\"the aged; an old man\",\"note\":\"The Greek word normally means “old man”, and most translations render it so. A nearly identical word means “ambassador”, the two were sometimes confused in spelling, and some scholars think Paul means “an ambassador and now also a prisoner of Christ Jesus”. “Old man” fits an appeal that sets aside authority in favor of love.\"},{\"verse\":10,\"phrase\":\"Onesimus\",\"lemma\":\"Ὀνήσιμος\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"Onesimus was a slave in Philemon’s household (verse 16) who had come to faith through Paul during Paul’s imprisonment. He is usually thought to have run away, though the letter never says how he came to be with Paul. His name, common for slaves, means “useful”, and Paul plays on it in verse 11 (“useless … useful”) and again in verse 20, where “benefit” translates a verb from the same root as the name.\"},{\"verse\":13,\"phrase\":\"good news\",\"lemma\":\"εὐαγγέλιον\",\"kind\":\"departure\",\"traditional\":\"gospel\",\"note\":\"The Greek was an ordinary word for a public announcement of good news, also used of imperial proclamations. “Gospel” has become a religious term or a book title, so “good news” is used throughout this translation. Many modern translations alternate between the two.\"},{\"verse\":15,\"phrase\":\"forever\",\"lemma\":\"αἰώνιος\",\"kind\":\"register-exception\",\"traditional\":\"for ever\",\"note\":\"This is the adjective elsewhere rendered “eternal”, used here in an adverbial way that English cannot reproduce with the adjective; “forever” gives the same sense. It contrasts with “for a while” (literally “for an hour”). The word can also carry the overtone of the age to come: the new bond between the two as brothers outlasts this life.\"},{\"verse\":15,\"phrase\":\"he was separated from you\",\"lemma\":\"χωρίζω\",\"kind\":\"ambiguity\",\"traditional\":\"he departed\",\"note\":\"The verb is passive, and “from you” is supplied for English. Paul avoids saying that Onesimus left or ran away, and many interpreters see in the passive a hint that God’s purpose was at work in the separation, which the cautious “perhaps” supports. It can also be read simply as “he was parted from you”, with no agent implied.\"},{\"verse\":22,\"phrase\":\"through your prayers I will be granted to you\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"Almost the whole letter addresses Philemon alone, but “your” and “you” here are plural, as are “you” in verse 3 and “your” in verse 25. Paul has the whole household assembly in view, and the letter with its request would have been heard by all of them.\"}],\"candidates\":[{\"lemma\":\"σπλάγχνον\",\"rendering\":\"heart\",\"verse\":7,\"reason\":\"Recurs in Paul, Luke and 1 John for the seat of deep feeling; translators vary between “heart”, “affection”, “compassion” and “tender mercies”, and “heart” collides with καρδία.\"},{\"lemma\":\"παρακαλέω\",\"rendering\":\"appeal\",\"verse\":9,\"reason\":\"Very frequent across the New Testament with senses ranging from “appeal/urge” to “encourage” to “comfort”; the sense divisions and their English need to be fixed, together with the noun παράκλησις (verse 7, “encouragement”).\"},{\"lemma\":\"δοῦλος\",\"rendering\":\"slave\",\"verse\":16,\"reason\":\"Translations divide between “slave”, “servant” and “bondservant”; a single decision is needed, especially for its metaphorical use of believers and apostles.\"},{\"lemma\":\"ἀγαπητός\",\"rendering\":\"beloved\",\"verse\":1,\"reason\":\"Common in the letters as an address and description; versions vary between “beloved”, “dear friend” and “dearly loved”, and the variation hides the link with ἀγάπη.\"},{\"lemma\":\"συνεργός\",\"rendering\":\"coworker\",\"verse\":1,\"reason\":\"Paul’s regular term for his associates; “fellow worker”, “coworker” and “fellow laborer” all appear in translations and should be uniform.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Paul, a prisoner of Christ Jesus, and Timothy our brother, to Philemon, our beloved friend and coworker,"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and to Apphia our sister, and to Archippus our fellow soldier, and to the assembly in your house:"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Grace to you and peace from God our Father and the Lord Jesus Christ."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "I thank my God always when I mention you in my prayers,"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "because I hear of your love and the faith that you have toward the Lord Jesus and for all the holy ones."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "I pray that the partnership of your faith may become effective in the knowledge of every good thing that is in us for Christ."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For I have had much joy and encouragement from your love, because the hearts of the holy ones have been refreshed through you, brother."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So although I have great boldness in Christ to command you to do what is proper,"
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "I appeal to you instead on the basis of love—being who I am: Paul, an old man and now also a prisoner of Christ Jesus—"
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "I appeal to you for my child, whose father I became in my chains—Onesimus,"
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "who was once useless to you but is now useful both to you and to me."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "I am sending him back to you—him, that is, my own heart."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "I would have liked to keep him with me, so that on your behalf he might serve me in my chains for the good news,"
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "but I did not want to do anything without your consent, so that your good deed would not be forced but freely chosen."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For perhaps this is why he was separated from you for a while: so that you might have him back forever,"
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "no longer as a slave but more than a slave, a beloved brother—especially to me, but how much more to you, both in the flesh and in the Lord."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So if you consider me a partner, welcome him as you would me."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And if he has wronged you in any way or owes you anything, charge it to me."
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "I, Paul, write this with my own hand: I will repay it—not to mention that you owe me your very self besides."
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Yes, brother, let me have this benefit from you in the Lord; refresh my heart in Christ."
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Confident of your obedience, I write to you, knowing that you will do even more than I say."
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "At the same time, prepare a guest room for me as well, for I hope that through your prayers I will be granted to you."
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Epaphras, my fellow prisoner in Christ Jesus, greets you,"
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "as do Mark, Aristarchus, Demas, and Luke, my coworkers."
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The grace of the Lord Jesus Christ be with your spirit."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 2,
+    "phrase": "assembly",
+    "lemma": "ἐκκλησία",
+    "kind": "departure",
+    "traditional": "church",
+    "note": "The Greek word was the ordinary term for a civic gathering and the Septuagint’s word for Israel assembled; “church” now suggests a building or an institution. Here it is a group that meets in a private home. “Church” is the near-universal rendering and readers know what it refers to; “assembly” is used throughout this translation so that the one Greek word is recognizable everywhere."
+   },
+   {
+    "verse": 5,
+    "phrase": "holy ones",
+    "lemma": "ἅγιος",
+    "kind": "departure",
+    "traditional": "saints",
+    "note": "The word is used of all members of the community as people set apart for God, echoing the Septuagint’s language for Israel. “Saints” now suggests canonized individuals or people of exceptional virtue. Many translations keep “saints”; others use “God’s people”."
+   },
+   {
+    "verse": 5,
+    "phrase": "your love and the faith that you have toward the Lord Jesus and for all the holy ones",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "",
+    "note": "The translation keeps the Greek word order. Many interpreters read it as a crossed pattern, with faith directed toward the Lord Jesus and love directed toward the holy ones, and some translations rearrange the sentence to say so. Others take both love and faith (or faithfulness) as directed to both."
+   },
+   {
+    "verse": 6,
+    "phrase": "the partnership of your faith",
+    "lemma": "κοινωνία",
+    "kind": "ambiguity",
+    "traditional": "the fellowship of your faith; the sharing of your faith",
+    "note": "This verse is widely regarded as obscure. The Greek noun means having something in common, and here may mean Philemon’s partnership with others that springs from his faith, his participation in the faith, or his generosity; “partnership” is chosen because Paul appeals to Philemon as a “partner” in verse 17. It does not mean telling others about one’s faith. The closing words, literally “in us into Christ”, are also uncertain and may mean “for Christ’s sake” or “leading us toward Christ”."
+   },
+   {
+    "verse": 7,
+    "phrase": "hearts",
+    "lemma": "σπλάγχνον",
+    "kind": "background",
+    "traditional": "bowels (KJV); hearts",
+    "note": "The Greek word literally means the inner organs, regarded as the seat of the deepest feelings. Paul uses it three times in this short letter (verses 7, 12 and 20): Philemon has refreshed the hearts of others, Onesimus is Paul’s own heart, and Paul asks Philemon to refresh his heart."
+   },
+   {
+    "verse": 9,
+    "phrase": "an old man",
+    "lemma": "πρεσβύτης",
+    "kind": "ambiguity",
+    "traditional": "the aged; an old man",
+    "note": "The Greek word normally means “old man”, and most translations render it so. A nearly identical word means “ambassador”, the two were sometimes confused in spelling, and some scholars think Paul means “an ambassador and now also a prisoner of Christ Jesus”. “Old man” fits an appeal that sets aside authority in favor of love."
+   },
+   {
+    "verse": 10,
+    "phrase": "Onesimus",
+    "lemma": "Ὀνήσιμος",
+    "kind": "background",
+    "traditional": "",
+    "note": "Onesimus was a slave in Philemon’s household (verse 16) who had come to faith through Paul during Paul’s imprisonment. He is usually thought to have run away, though the letter never says how he came to be with Paul. His name, common for slaves, means “useful”, and Paul plays on it in verse 11 (“useless … useful”) and again in verse 20, where “benefit” translates a verb from the same root as the name."
+   },
+   {
+    "verse": 13,
+    "phrase": "good news",
+    "lemma": "εὐαγγέλιον",
+    "kind": "departure",
+    "traditional": "gospel",
+    "note": "The Greek was an ordinary word for a public announcement of good news, also used of imperial proclamations. “Gospel” has become a religious term or a book title, so “good news” is used throughout this translation. Many modern translations alternate between the two."
+   },
+   {
+    "verse": 15,
+    "phrase": "forever",
+    "lemma": "αἰώνιος",
+    "kind": "register-exception",
+    "traditional": "for ever",
+    "note": "This is the adjective elsewhere rendered “eternal”, used here in an adverbial way that English cannot reproduce with the adjective; “forever” gives the same sense. It contrasts with “for a while” (literally “for an hour”). The word can also carry the overtone of the age to come: the new bond between the two as brothers outlasts this life."
+   },
+   {
+    "verse": 15,
+    "phrase": "he was separated from you",
+    "lemma": "χωρίζω",
+    "kind": "ambiguity",
+    "traditional": "he departed",
+    "note": "The verb is passive, and “from you” is supplied for English. Paul avoids saying that Onesimus left or ran away, and many interpreters see in the passive a hint that God’s purpose was at work in the separation, which the cautious “perhaps” supports. It can also be read simply as “he was parted from you”, with no agent implied."
+   },
+   {
+    "verse": 22,
+    "phrase": "through your prayers I will be granted to you",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "Almost the whole letter addresses Philemon alone, but “your” and “you” here are plural, as are “you” in verse 3 and “your” in verse 25. Paul has the whole household assembly in view, and the letter with its request would have been heard by all of them."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "σπλάγχνον",
+    "rendering": "heart",
+    "verse": 7,
+    "reason": "Recurs in Paul, Luke and 1 John for the seat of deep feeling; translators vary between “heart”, “affection”, “compassion” and “tender mercies”, and “heart” collides with καρδία."
+   },
+   {
+    "lemma": "παρακαλέω",
+    "rendering": "appeal",
+    "verse": 9,
+    "reason": "Very frequent across the New Testament with senses ranging from “appeal/urge” to “encourage” to “comfort”; the sense divisions and their English need to be fixed, together with the noun παράκλησις (verse 7, “encouragement”)."
+   },
+   {
+    "lemma": "δοῦλος",
+    "rendering": "slave",
+    "verse": 16,
+    "reason": "Translations divide between “slave”, “servant” and “bondservant”; a single decision is needed, especially for its metaphorical use of believers and apostles."
+   },
+   {
+    "lemma": "ἀγαπητός",
+    "rendering": "beloved",
+    "verse": 1,
+    "reason": "Common in the letters as an address and description; versions vary between “beloved”, “dear friend” and “dearly loved”, and the variation hides the link with ἀγάπη."
+   },
+   {
+    "lemma": "συνεργός",
+    "rendering": "coworker",
+    "verse": 1,
+    "reason": "Paul’s regular term for his associates; “fellow worker”, “coworker” and “fellow laborer” all appear in translations and should be uniform."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 4700,
+   "output_tokens": 344
+  },
+  "findings": [],
+  "error": ""
+ }
+}

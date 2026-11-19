@@ -1,0 +1,663 @@
+{
+ "id": "mark-001",
+ "book": "mark",
+ "chapter": 1,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14cg7JD5Zuiyekn2H",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 12368,
+  "output_tokens": 16253
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The beginning of the good news of Jesus Christ.\"}]},{\"verse\":2,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Just as it is written in Isaiah the prophet,\"},{\"speaker\":\"scripture\",\"text\":\"“Look, I am sending my messenger before your face, who will prepare your way;\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"scripture\",\"text\":\"a voice of one crying out in the wilderness: ‘Prepare the way of the Lord; make his paths straight,’”\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"so John the Baptizer appeared in the wilderness, proclaiming a baptism of turning back for the forgiveness of sins.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The whole Judean countryside and all the people of Jerusalem were going out to him and were being baptized by him in the Jordan River, confessing their sins.\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"John was clothed in camel’s hair, with a leather belt around his waist, and he ate locusts and wild honey.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And he proclaimed,\"},{\"speaker\":\"other\",\"text\":\"“The one who is stronger than I am is coming after me; I am not worthy to stoop down and untie the strap of his sandals.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"I baptized you with water, but he will baptize you with the Holy Spirit.”\"}]},{\"verse\":9,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"In those days Jesus came from Nazareth in Galilee and was baptized in the Jordan by John.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And immediately, as he was coming up out of the water, he saw the heavens being torn open and the Spirit coming down on him like a dove.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And a voice came from the heavens:\"},{\"speaker\":\"God\",\"text\":\"“You are my Son, the beloved; with you I am well pleased.”\"}]},{\"verse\":12,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And immediately the Spirit drove him out into the wilderness.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He was in the wilderness forty days, being tested by Satan. He was with the wild animals, and the angels were serving him.\"}]},{\"verse\":14,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"After John was handed over, Jesus came into Galilee, proclaiming the good news of God\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and saying,\"},{\"speaker\":\"Jesus\",\"text\":\"“The time has been fulfilled, and the kingdom of God has come near. Turn back and believe in the good news.”\"}]},{\"verse\":16,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"As he was passing along beside the Sea of Galilee, he saw Simon and Andrew, Simon’s brother, casting nets in the sea, for they were fishermen.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Come after me, and I will make you become fishers of people.”\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And immediately they left their nets and followed him.\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Going on a little farther, he saw James the son of Zebedee and John his brother; they too were in a boat, mending the nets,\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and immediately he called them. They left their father Zebedee in the boat with the hired men and went off after him.\"}]},{\"verse\":21,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They went into Capernaum, and immediately, on the Sabbath, he began teaching in the synagogue.\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They were astonished at his teaching, for he was teaching them as one who had authority, and not as the scribes.\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And immediately there was in their synagogue a man with an unclean spirit, and he cried out,\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"“What do you have to do with us, Jesus of Nazareth? Have you come to destroy us? I know who you are—the Holy One of God!”\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But Jesus rebuked him, saying,\"},{\"speaker\":\"Jesus\",\"text\":\"“Be silent, and come out of him!”\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The unclean spirit convulsed him, cried out with a loud voice, and came out of him.\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They were all amazed, so that they began asking one another,\"},{\"speaker\":\"other\",\"text\":\"“What is this? A new teaching! With authority he commands even the unclean spirits, and they obey him.”\"}]},{\"verse\":28,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And the report about him immediately went out everywhere, into the whole surrounding region of Galilee.\"}]},{\"verse\":29,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And immediately, on leaving the synagogue, they went into the house of Simon and Andrew, with James and John.\"}]},{\"verse\":30,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Simon’s mother-in-law was lying down with a fever, and immediately they told him about her.\"}]},{\"verse\":31,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He went to her, took her by the hand, and raised her up. The fever left her, and she began to serve them.\"}]},{\"verse\":32,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When evening came, after the sun had set, people were bringing to him all who were sick and those possessed by demons.\"}]},{\"verse\":33,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The whole town was gathered at the door.\"}]},{\"verse\":34,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He healed many who were sick with various diseases and drove out many demons, and he would not let the demons speak, because they knew him.\"}]},{\"verse\":35,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Very early in the morning, while it was still dark, he got up, went out, and went away to a deserted place, and there he was praying.\"}]},{\"verse\":36,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Simon and those with him hunted for him,\"}]},{\"verse\":37,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and they found him and said to him,\"},{\"speaker\":\"other\",\"text\":\"“Everyone is looking for you.”\"}]},{\"verse\":38,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Let us go elsewhere, to the neighboring market towns, so that I may proclaim there too, for that is why I came out.”\"}]},{\"verse\":39,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And he went throughout all Galilee, proclaiming in their synagogues and driving out the demons.\"}]},{\"verse\":40,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"A man with a skin disease came to him, pleading with him and kneeling, and said to him,\"},{\"speaker\":\"other\",\"text\":\"“If you are willing, you can make me clean.”\"}]},{\"verse\":41,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Angered, Jesus stretched out his hand, touched him, and said to him,\"},{\"speaker\":\"Jesus\",\"text\":\"“I am willing. Be made clean.”\"}]},{\"verse\":42,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Immediately the skin disease left him, and he was made clean.\"}]},{\"verse\":43,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"With a stern warning Jesus immediately sent him away,\"}]},{\"verse\":44,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"saying to him,\"},{\"speaker\":\"Jesus\",\"text\":\"“See that you say nothing to anyone, but go, show yourself to the priest, and offer for your cleansing what Moses commanded, as a testimony to them.”\"}]},{\"verse\":45,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But the man went out and began to proclaim it widely and to spread the story, so that Jesus could no longer enter a town openly but stayed outside in deserted places; and people kept coming to him from everywhere.\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"Jesus Christ\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"Jesus Christ, the Son of God\",\"note\":\"Most manuscripts, and most English translations, continue with “the Son of God.” The words are absent from some early witnesses, and the Greek edition translated here omits them. Scholars are divided on whether a copyist dropped them by accident or added them as a natural expansion of the title.\"},{\"verse\":1,\"phrase\":\"good news\",\"lemma\":\"εὐαγγέλιον\",\"kind\":\"departure\",\"traditional\":\"gospel\",\"note\":\"The Greek word was an ordinary term for the public announcement of good news, such as a victory or a ruler’s accession. “Gospel” has become a religious term and a book title, which hides that sense. Many modern translations alternate between “gospel” and “good news.”\"},{\"verse\":2,\"phrase\":\"in Isaiah the prophet\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"The quotation is a composite. The words in verse 2 echo Exodus 23:20 and Malachi 3:1, and only verse 3 comes from Isaiah (40:3). Later manuscripts read “in the prophets,” probably to resolve the difficulty.\"},{\"verse\":4,\"phrase\":\"turning back\",\"lemma\":\"μετάνοια\",\"kind\":\"departure\",\"traditional\":\"repentance\",\"note\":\"“Repentance” now suggests mainly feeling sorry. The Greek word carries the prophets’ call to return to God, a change of direction in mind and conduct. Most translations keep “repentance” and “repent” as established terms that readers understand to include a change of life.\"},{\"verse\":10,\"phrase\":\"the heavens\",\"lemma\":\"οὐρανός\",\"kind\":\"departure\",\"traditional\":\"heaven\",\"note\":\"The Greek is plural in both this verse and the next, a Semitic turn of phrase for God’s dwelling. Most translations flatten the plural to “heaven,” at least in verse 11. It is kept here in both places.\"},{\"verse\":13,\"phrase\":\"tested\",\"lemma\":\"πειράζω\",\"kind\":\"departure\",\"traditional\":\"tempted\",\"note\":\"The verb means to put to the test. In the Greek Old Testament it is the usual word for God testing Israel in the wilderness, a background the forty days recall. Most translations use “tempted” here, and the lexicons recognize both senses; which fits this scene better is disputed.\"},{\"verse\":14,\"phrase\":\"handed over\",\"lemma\":\"παραδίδωμι\",\"kind\":\"departure\",\"traditional\":\"arrested / put in prison\",\"note\":\"Most translations say John was “arrested” or “put in prison,” which is what happened. The Greek verb is the ordinary word for handing someone into another’s power. Mark later uses the same verb for what is done to Jesus and what will be done to his followers, and this rendering lets that link show.\"},{\"verse\":15,\"phrase\":\"has come near\",\"lemma\":\"ἐγγίζω\",\"kind\":\"ambiguity\",\"traditional\":\"is at hand\",\"note\":\"The Greek perfect can mean that the kingdom has drawn close and is about to arrive, or that it has in effect arrived. “Has come near” leaves the same openness as the Greek. Scholars remain divided on which nuance Mark intends.\"},{\"verse\":40,\"phrase\":\"man with a skin disease\",\"lemma\":\"λεπρός\",\"kind\":\"departure\",\"traditional\":\"leper\",\"note\":\"The Greek term covers the range of scaly skin conditions regulated in Leviticus 13–14, which made a person ritually unclean; this is why the man asks to be made “clean.” “Leper” today means Hansen’s disease, which is narrower and may not even be included. Most translations keep “leper,” usually with a footnote, partly because “skin disease” can understate the social exclusion involved.\"},{\"verse\":41,\"phrase\":\"Angered\",\"lemma\":\"ὀργίζομαι\",\"kind\":\"textual\",\"traditional\":\"moved with compassion\",\"note\":\"Nearly all manuscripts read “moved with compassion,” and most translations follow them. A few witnesses read “angered,” and the Greek edition translated here adopts that reading as the one scribes were more likely to soften. If it is original, the object of the anger is not stated; suggestions include the disease and its effects on the man.\"},{\"verse\":43,\"phrase\":\"With a stern warning\",\"lemma\":\"ἐμβριμάομαι\",\"kind\":\"ambiguity\",\"traditional\":\"sternly charged / strictly warned\",\"note\":\"The Greek verb expresses strong emotion, often indignation, and elsewhere describes a harsh rebuke. Here it may mean a forceful warning, as translated, or a display of agitation. The verb rendered “sent him away” is also strong; it is the one used in this chapter for driving out demons.\"},{\"verse\":44,\"phrase\":\"as a testimony to them\",\"lemma\":\"μαρτύριον\",\"kind\":\"ambiguity\",\"traditional\":\"for a testimony unto them\",\"note\":\"The phrase may mean proof to the priests, or to people generally, that the man is clean and that the Law has been observed. It can also be read as “a testimony against them,” that is, evidence that will count against those who do not respond. The Greek allows either.\"}],\"candidates\":[{\"lemma\":\"κηρύσσω\",\"rendering\":\"proclaim\",\"verse\":4,\"reason\":\"Recurs throughout the Gospels, Acts and the letters, and translations split between “preach” and “proclaim”; the reader should see one word for the herald’s public announcement.\"},{\"lemma\":\"γραμματεύς\",\"rendering\":\"scribes\",\"verse\":22,\"reason\":\"Translations vary among “scribes,” “teachers of the law” and “legal experts”; “scribe” may suggest a mere copyist to modern readers, so one decision is needed across the Gospels and Acts.\"},{\"lemma\":\"ἔρημος\",\"rendering\":\"wilderness\",\"verse\":3,\"reason\":\"Varies between “wilderness,” “desert” and “deserted/lonely place” across versions, and the Exodus echo depends on consistent handling of the noun versus the adjectival use.\"},{\"lemma\":\"διακονέω\",\"rendering\":\"serve\",\"verse\":13,\"reason\":\"Rendered variously “minister to,” “serve,” “wait on” and “attend”; the word group (with διάκονος, διακονία) recurs across the New Testament and needs a coordinated policy.\"},{\"lemma\":\"δαιμονίζομαι\",\"rendering\":\"possessed by demons\",\"verse\":32,\"reason\":\"“Demon-possessed” imports the idea of ownership that the Greek verb does not state; alternatives like “demonized” or “afflicted by demons” should be weighed once for all occurrences.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The beginning of the good news of Jesus Christ."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Just as it is written in Isaiah the prophet,"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“Look, I am sending my messenger before your face, who will prepare your way;"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "scripture",
+      "text": "a voice of one crying out in the wilderness: ‘Prepare the way of the Lord; make his paths straight,’”"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "so John the Baptizer appeared in the wilderness, proclaiming a baptism of turning back for the forgiveness of sins."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The whole Judean countryside and all the people of Jerusalem were going out to him and were being baptized by him in the Jordan River, confessing their sins."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "John was clothed in camel’s hair, with a leather belt around his waist, and he ate locusts and wild honey."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And he proclaimed,"
+     },
+     {
+      "speaker": "other",
+      "text": "“The one who is stronger than I am is coming after me; I am not worthy to stoop down and untie the strap of his sandals."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "I baptized you with water, but he will baptize you with the Holy Spirit.”"
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "In those days Jesus came from Nazareth in Galilee and was baptized in the Jordan by John."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And immediately, as he was coming up out of the water, he saw the heavens being torn open and the Spirit coming down on him like a dove."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And a voice came from the heavens:"
+     },
+     {
+      "speaker": "God",
+      "text": "“You are my Son, the beloved; with you I am well pleased.”"
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And immediately the Spirit drove him out into the wilderness."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He was in the wilderness forty days, being tested by Satan. He was with the wild animals, and the angels were serving him."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "After John was handed over, Jesus came into Galilee, proclaiming the good news of God"
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and saying,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“The time has been fulfilled, and the kingdom of God has come near. Turn back and believe in the good news.”"
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "As he was passing along beside the Sea of Galilee, he saw Simon and Andrew, Simon’s brother, casting nets in the sea, for they were fishermen."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Come after me, and I will make you become fishers of people.”"
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And immediately they left their nets and followed him."
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Going on a little farther, he saw James the son of Zebedee and John his brother; they too were in a boat, mending the nets,"
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and immediately he called them. They left their father Zebedee in the boat with the hired men and went off after him."
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They went into Capernaum, and immediately, on the Sabbath, he began teaching in the synagogue."
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They were astonished at his teaching, for he was teaching them as one who had authority, and not as the scribes."
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And immediately there was in their synagogue a man with an unclean spirit, and he cried out,"
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "“What do you have to do with us, Jesus of Nazareth? Have you come to destroy us? I know who you are—the Holy One of God!”"
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But Jesus rebuked him, saying,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Be silent, and come out of him!”"
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The unclean spirit convulsed him, cried out with a loud voice, and came out of him."
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They were all amazed, so that they began asking one another,"
+     },
+     {
+      "speaker": "other",
+      "text": "“What is this? A new teaching! With authority he commands even the unclean spirits, and they obey him.”"
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And the report about him immediately went out everywhere, into the whole surrounding region of Galilee."
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And immediately, on leaving the synagogue, they went into the house of Simon and Andrew, with James and John."
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Simon’s mother-in-law was lying down with a fever, and immediately they told him about her."
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He went to her, took her by the hand, and raised her up. The fever left her, and she began to serve them."
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When evening came, after the sun had set, people were bringing to him all who were sick and those possessed by demons."
+     }
+    ]
+   },
+   {
+    "verse": 33,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The whole town was gathered at the door."
+     }
+    ]
+   },
+   {
+    "verse": 34,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He healed many who were sick with various diseases and drove out many demons, and he would not let the demons speak, because they knew him."
+     }
+    ]
+   },
+   {
+    "verse": 35,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Very early in the morning, while it was still dark, he got up, went out, and went away to a deserted place, and there he was praying."
+     }
+    ]
+   },
+   {
+    "verse": 36,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Simon and those with him hunted for him,"
+     }
+    ]
+   },
+   {
+    "verse": 37,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and they found him and said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Everyone is looking for you.”"
+     }
+    ]
+   },
+   {
+    "verse": 38,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Let us go elsewhere, to the neighboring market towns, so that I may proclaim there too, for that is why I came out.”"
+     }
+    ]
+   },
+   {
+    "verse": 39,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And he went throughout all Galilee, proclaiming in their synagogues and driving out the demons."
+     }
+    ]
+   },
+   {
+    "verse": 40,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "A man with a skin disease came to him, pleading with him and kneeling, and said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“If you are willing, you can make me clean.”"
+     }
+    ]
+   },
+   {
+    "verse": 41,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Angered, Jesus stretched out his hand, touched him, and said to him,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“I am willing. Be made clean.”"
+     }
+    ]
+   },
+   {
+    "verse": 42,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Immediately the skin disease left him, and he was made clean."
+     }
+    ]
+   },
+   {
+    "verse": 43,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "With a stern warning Jesus immediately sent him away,"
+     }
+    ]
+   },
+   {
+    "verse": 44,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "saying to him,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“See that you say nothing to anyone, but go, show yourself to the priest, and offer for your cleansing what Moses commanded, as a testimony to them.”"
+     }
+    ]
+   },
+   {
+    "verse": 45,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But the man went out and began to proclaim it widely and to spread the story, so that Jesus could no longer enter a town openly but stayed outside in deserted places; and people kept coming to him from everywhere."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "Jesus Christ",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "Jesus Christ, the Son of God",
+    "note": "Most manuscripts, and most English translations, continue with “the Son of God.” The words are absent from some early witnesses, and the Greek edition translated here omits them. Scholars are divided on whether a copyist dropped them by accident or added them as a natural expansion of the title."
+   },
+   {
+    "verse": 1,
+    "phrase": "good news",
+    "lemma": "εὐαγγέλιον",
+    "kind": "departure",
+    "traditional": "gospel",
+    "note": "The Greek word was an ordinary term for the public announcement of good news, such as a victory or a ruler’s accession. “Gospel” has become a religious term and a book title, which hides that sense. Many modern translations alternate between “gospel” and “good news.”"
+   },
+   {
+    "verse": 2,
+    "phrase": "in Isaiah the prophet",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "The quotation is a composite. The words in verse 2 echo Exodus 23:20 and Malachi 3:1, and only verse 3 comes from Isaiah (40:3). Later manuscripts read “in the prophets,” probably to resolve the difficulty."
+   },
+   {
+    "verse": 4,
+    "phrase": "turning back",
+    "lemma": "μετάνοια",
+    "kind": "departure",
+    "traditional": "repentance",
+    "note": "“Repentance” now suggests mainly feeling sorry. The Greek word carries the prophets’ call to return to God, a change of direction in mind and conduct. Most translations keep “repentance” and “repent” as established terms that readers understand to include a change of life."
+   },
+   {
+    "verse": 10,
+    "phrase": "the heavens",
+    "lemma": "οὐρανός",
+    "kind": "departure",
+    "traditional": "heaven",
+    "note": "The Greek is plural in both this verse and the next, a Semitic turn of phrase for God’s dwelling. Most translations flatten the plural to “heaven,” at least in verse 11. It is kept here in both places."
+   },
+   {
+    "verse": 13,
+    "phrase": "tested",
+    "lemma": "πειράζω",
+    "kind": "departure",
+    "traditional": "tempted",
+    "note": "The verb means to put to the test. In the Greek Old Testament it is the usual word for God testing Israel in the wilderness, a background the forty days recall. Most translations use “tempted” here, and the lexicons recognize both senses; which fits this scene better is disputed."
+   },
+   {
+    "verse": 14,
+    "phrase": "handed over",
+    "lemma": "παραδίδωμι",
+    "kind": "departure",
+    "traditional": "arrested / put in prison",
+    "note": "Most translations say John was “arrested” or “put in prison,” which is what happened. The Greek verb is the ordinary word for handing someone into another’s power. Mark later uses the same verb for what is done to Jesus and what will be done to his followers, and this rendering lets that link show."
+   },
+   {
+    "verse": 15,
+    "phrase": "has come near",
+    "lemma": "ἐγγίζω",
+    "kind": "ambiguity",
+    "traditional": "is at hand",
+    "note": "The Greek perfect can mean that the kingdom has drawn close and is about to arrive, or that it has in effect arrived. “Has come near” leaves the same openness as the Greek. Scholars remain divided on which nuance Mark intends."
+   },
+   {
+    "verse": 40,
+    "phrase": "man with a skin disease",
+    "lemma": "λεπρός",
+    "kind": "departure",
+    "traditional": "leper",
+    "note": "The Greek term covers the range of scaly skin conditions regulated in Leviticus 13–14, which made a person ritually unclean; this is why the man asks to be made “clean.” “Leper” today means Hansen’s disease, which is narrower and may not even be included. Most translations keep “leper,” usually with a footnote, partly because “skin disease” can understate the social exclusion involved."
+   },
+   {
+    "verse": 41,
+    "phrase": "Angered",
+    "lemma": "ὀργίζομαι",
+    "kind": "textual",
+    "traditional": "moved with compassion",
+    "note": "Nearly all manuscripts read “moved with compassion,” and most translations follow them. A few witnesses read “angered,” and the Greek edition translated here adopts that reading as the one scribes were more likely to soften. If it is original, the object of the anger is not stated; suggestions include the disease and its effects on the man."
+   },
+   {
+    "verse": 43,
+    "phrase": "With a stern warning",
+    "lemma": "ἐμβριμάομαι",
+    "kind": "ambiguity",
+    "traditional": "sternly charged / strictly warned",
+    "note": "The Greek verb expresses strong emotion, often indignation, and elsewhere describes a harsh rebuke. Here it may mean a forceful warning, as translated, or a display of agitation. The verb rendered “sent him away” is also strong; it is the one used in this chapter for driving out demons."
+   },
+   {
+    "verse": 44,
+    "phrase": "as a testimony to them",
+    "lemma": "μαρτύριον",
+    "kind": "ambiguity",
+    "traditional": "for a testimony unto them",
+    "note": "The phrase may mean proof to the priests, or to people generally, that the man is clean and that the Law has been observed. It can also be read as “a testimony against them,” that is, evidence that will count against those who do not respond. The Greek allows either."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "κηρύσσω",
+    "rendering": "proclaim",
+    "verse": 4,
+    "reason": "Recurs throughout the Gospels, Acts and the letters, and translations split between “preach” and “proclaim”; the reader should see one word for the herald’s public announcement."
+   },
+   {
+    "lemma": "γραμματεύς",
+    "rendering": "scribes",
+    "verse": 22,
+    "reason": "Translations vary among “scribes,” “teachers of the law” and “legal experts”; “scribe” may suggest a mere copyist to modern readers, so one decision is needed across the Gospels and Acts."
+   },
+   {
+    "lemma": "ἔρημος",
+    "rendering": "wilderness",
+    "verse": 3,
+    "reason": "Varies between “wilderness,” “desert” and “deserted/lonely place” across versions, and the Exodus echo depends on consistent handling of the noun versus the adjectival use."
+   },
+   {
+    "lemma": "διακονέω",
+    "rendering": "serve",
+    "verse": 13,
+    "reason": "Rendered variously “minister to,” “serve,” “wait on” and “attend”; the word group (with διάκονος, διακονία) recurs across the New Testament and needs a coordinated policy."
+   },
+   {
+    "lemma": "δαιμονίζομαι",
+    "rendering": "possessed by demons",
+    "verse": 32,
+    "reason": "“Demon-possessed” imports the idea of ownership that the Greek verb does not state; alternatives like “demonized” or “afflicted by demons” should be weighed once for all occurrences."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 8285,
+   "output_tokens": 294
+  },
+  "findings": [],
+  "error": ""
+ }
+}

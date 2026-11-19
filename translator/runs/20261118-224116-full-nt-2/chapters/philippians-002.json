@@ -1,0 +1,465 @@
+{
+ "id": "philippians-002",
+ "book": "philippians",
+ "chapter": 2,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14dgDHGx9mFgL81NK",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 10116,
+  "output_tokens": 15591
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So if there is any encouragement in Christ, any consolation of love, any fellowship of the Spirit, any affection and compassion,\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"make my joy complete by being of the same mind, having the same love, united in soul, of one mind,\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"doing nothing out of selfish ambition or empty conceit, but in humility considering one another superior to yourselves,\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"each of you looking not only to your own interests but also to the interests of others.\"}]},{\"verse\":5,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Have this mind among yourselves, which was also in Christ Jesus,\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"who, being in the form of God, did not consider equality with God something to be exploited,\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"but emptied himself, taking the form of a slave, coming to be in the likeness of human beings. And being found in appearance as a human being,\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"he humbled himself, becoming obedient to the point of death—even death on a cross.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Therefore God also highly exalted him and granted him the name that is above every name,\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"so that at the name of Jesus every knee should bend, of those in heaven and on earth and under the earth,\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and every tongue acknowledge that Jesus Christ is Lord, to the glory of God the Father.\"}]},{\"verse\":12,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So then, my beloved, just as you have always obeyed, not only as in my presence but now much more in my absence, work out your own salvation with fear and trembling,\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"for it is God who works in you both the willing and the working, for his good pleasure.\"}]},{\"verse\":14,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Do everything without grumbling or arguing,\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"so that you may become blameless and pure, children of God without blemish in the midst of a crooked and twisted generation, among whom you shine like lights in the world,\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"holding fast to the word of life, so that on the day of Christ I may boast that I did not run in vain or labor in vain.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But even if I am being poured out as a drink offering over the sacrifice and service of your faith, I rejoice, and I rejoice with all of you.\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"In the same way you also should rejoice, and rejoice with me.\"}]},{\"verse\":19,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"I hope in the Lord Jesus to send Timothy to you soon, so that I too may be heartened when I learn how things are with you.\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For I have no one of kindred soul who will genuinely care about how things are with you,\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"for they all seek their own interests, not those of Jesus Christ.\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But you know his proven character, how like a child with a father he has served with me as a slave for the good news.\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So I hope to send him at once, as soon as I see how things will go with me,\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and I am confident in the Lord that I myself will also come soon.\"}]},{\"verse\":25,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But I have considered it necessary to send Epaphroditus to you—my brother and coworker and fellow soldier, and your envoy and minister to my need—\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"since he has been longing for all of you and has been distressed because you heard that he was sick.\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Indeed he was sick, close to death. But God had mercy on him, and not on him only but on me also, so that I would not have sorrow upon sorrow.\"}]},{\"verse\":28,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So I am sending him all the more eagerly, so that you may rejoice at seeing him again and I may be less sorrowful.\"}]},{\"verse\":29,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So welcome him in the Lord with all joy, and hold such people in honor,\"}]},{\"verse\":30,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"because he came close to death for the work of Christ, risking his life to make up what was lacking in your service to me.\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"fellowship of the Spirit\",\"lemma\":\"κοινωνία\",\"kind\":\"ambiguity\",\"traditional\":\"fellowship of the Spirit\",\"note\":\"The Greek word means having something in common and is stronger than modern “fellowship” may suggest. The phrase can mean a bond among believers that the Spirit creates, or a shared participation in the Spirit; many recent versions and scholars prefer “sharing in the Spirit.” The rendering leaves both open and matches the same phrase in 2 Corinthians 13:13.\"},{\"verse\":5,\"phrase\":\"which was also in Christ Jesus\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"which was also in Christ Jesus\",\"note\":\"The Greek clause has no verb. The traditional reading supplies “was,” making Christ’s own attitude the model. Many scholars instead supply “you have,” giving “which you also have in Christ Jesus,” that is, the mindset that belongs to those who are in Christ. Both readings are well supported.\"},{\"verse\":6,\"phrase\":\"the form of God\",\"lemma\":\"μορφή\",\"kind\":\"background\",\"traditional\":\"the form of God\",\"note\":\"The word denotes the visible form by which something is recognized, not a disguise; it is repeated in “the form of a slave” in verse 7. Interpreters differ on whether it points here to divine nature, divine glory, or divine status. Verses 6–11 are widely thought to be an early hymn or a passage of elevated prose, whether Paul is quoting it or composed it himself.\"},{\"verse\":6,\"phrase\":\"something to be exploited\",\"lemma\":\"ἁρπαγμός\",\"kind\":\"ambiguity\",\"traditional\":\"a thing to be grasped\",\"note\":\"This rare noun has been read as something seized (older versions have “robbery”), something to be seized, or something to be clung to. Studies of the idiom with verbs of considering indicate that it means something to take advantage of, and several modern versions follow this. On that reading Christ already had equality with God and did not use it for his own gain; “a thing to be grasped” leaves open that he did not yet have it.\"},{\"verse\":7,\"phrase\":\"slave\",\"lemma\":\"δοῦλος\",\"kind\":\"departure\",\"traditional\":\"servant\",\"note\":\"The Greek word is the ordinary term for a slave, a person owned by another, and the contrast with “Lord” in verse 11 depends on it. Most English versions soften it to “servant,” though some have “slave.” The related verb in verse 22 is rendered “served with me as a slave.”\"},{\"verse\":11,\"phrase\":\"Jesus Christ is Lord\",\"lemma\":\"κύριος\",\"kind\":\"background\",\"traditional\":\"Jesus Christ is Lord\",\"note\":\"Verses 10–11 echo Isaiah 45:23, where God declares that every knee will bend to him and every tongue swear allegiance. In the Greek Scriptures “Lord” regularly stands in for the divine name, so many interpreters take “the name that is above every name” to be “Lord.” Language used there of Israel’s God alone is here applied to Jesus, to the Father’s glory.\"},{\"verse\":16,\"phrase\":\"holding fast to the word of life\",\"lemma\":\"ἐπέχω\",\"kind\":\"ambiguity\",\"traditional\":\"holding forth the word of life\",\"note\":\"The verb can mean either “hold fast” or “hold out, offer.” Most recent versions and commentators prefer “hold fast,” which suits the call to stay blameless amid opposition. The older rendering “holding forth” would make the phrase describe the Philippians offering the message to others, which the image of shining lights could also support.\"},{\"verse\":17,\"phrase\":\"poured out as a drink offering\",\"lemma\":\"σπένδω\",\"kind\":\"background\",\"traditional\":\"poured out as a drink offering\",\"note\":\"In both Jewish and Greek worship, wine was poured out beside or over a sacrifice to complete it. Paul pictures the Philippians’ faith as the main offering and his own possible death as the libation added to it. The word rendered “service” was used in the Greek Scriptures for priestly ministry.\"},{\"verse\":20,\"phrase\":\"of kindred soul\",\"lemma\":\"ἰσόψυχος\",\"kind\":\"ambiguity\",\"traditional\":\"like-minded\",\"note\":\"The rare adjective means “of equal soul.” It may mean that no one else shares Paul’s own outlook as Timothy does, or that Paul has no one else like Timothy; English versions divide between the two. It is one of several compounds of the word for “soul” in this chapter (also in verses 2 and 19).\"},{\"verse\":22,\"phrase\":\"good news\",\"lemma\":\"εὐαγγέλιον\",\"kind\":\"departure\",\"traditional\":\"gospel\",\"note\":\"“Gospel” is now a religious term or the title of a book. The Greek was an ordinary word for a public announcement of good news, also used of imperial proclamations. Many modern translations already alternate between “good news” and “gospel.”\"},{\"verse\":25,\"phrase\":\"envoy\",\"lemma\":\"ἀπόστολος\",\"kind\":\"departure\",\"traditional\":\"messenger\",\"note\":\"The Greek word is the one elsewhere rendered “apostle.” Here it has its ordinary sense of a delegate sent by others: the Philippian church sent Epaphroditus to Paul with their gift (4:18). Most versions have “messenger”; “envoy” is used because he was sent to act on the church’s behalf, not only to carry a message.\"},{\"verse\":28,\"phrase\":\"I am sending\",\"lemma\":\"πέμπω\",\"kind\":\"background\",\"traditional\":\"I sent him\",\"note\":\"The Greek verbs here and in verse 25 are past tenses, written from the standpoint of the readers when they receive the letter, a common convention in ancient letters. Epaphroditus was most likely the one carrying this letter, so English uses the present. Older versions have “I sent.”\"}],\"candidates\":[{\"lemma\":\"δοῦλος\",\"rendering\":\"slave\",\"verse\":7,\"reason\":\"Occurs throughout the New Testament and versions split between “servant” and “slave,” which changes how readers hear both social relations and self-descriptions like “slave of Christ.”\"},{\"lemma\":\"φρονέω\",\"rendering\":\"be of … mind / have this mind\",\"verse\":2,\"reason\":\"A key Pauline verb (Romans 8, 12; Philippians throughout) rendered variously as “think,” “set the mind on,” “have an attitude,” so its repetition is easily lost.\"},{\"lemma\":\"ἀγαπητός\",\"rendering\":\"beloved\",\"verse\":12,\"reason\":\"Recurs as an address in nearly every letter and versions vary between “beloved,” “dear friends,” and “dearly loved,” which affects tone and the link to the word for love.\"},{\"lemma\":\"λειτουργία\",\"rendering\":\"service\",\"verse\":17,\"reason\":\"The word group (with λειτουργός, λειτουργέω) carries a priestly or public-service sense across Luke, Paul, and Hebrews, and needs one rendering distinct from the words for slave service and table service.\"},{\"lemma\":\"ἀπόστολος\",\"rendering\":\"envoy\",\"verse\":25,\"reason\":\"The non-technical sense of a church’s delegate (here and 2 Corinthians 8:23) needs a fixed rendering distinct from “apostle” and from “messenger” used for ἄγγελος.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So if there is any encouragement in Christ, any consolation of love, any fellowship of the Spirit, any affection and compassion,"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "make my joy complete by being of the same mind, having the same love, united in soul, of one mind,"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "doing nothing out of selfish ambition or empty conceit, but in humility considering one another superior to yourselves,"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "each of you looking not only to your own interests but also to the interests of others."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Have this mind among yourselves, which was also in Christ Jesus,"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "who, being in the form of God, did not consider equality with God something to be exploited,"
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "but emptied himself, taking the form of a slave, coming to be in the likeness of human beings. And being found in appearance as a human being,"
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "he humbled himself, becoming obedient to the point of death—even death on a cross."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Therefore God also highly exalted him and granted him the name that is above every name,"
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "so that at the name of Jesus every knee should bend, of those in heaven and on earth and under the earth,"
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and every tongue acknowledge that Jesus Christ is Lord, to the glory of God the Father."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So then, my beloved, just as you have always obeyed, not only as in my presence but now much more in my absence, work out your own salvation with fear and trembling,"
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "for it is God who works in you both the willing and the working, for his good pleasure."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Do everything without grumbling or arguing,"
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "so that you may become blameless and pure, children of God without blemish in the midst of a crooked and twisted generation, among whom you shine like lights in the world,"
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "holding fast to the word of life, so that on the day of Christ I may boast that I did not run in vain or labor in vain."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But even if I am being poured out as a drink offering over the sacrifice and service of your faith, I rejoice, and I rejoice with all of you."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "In the same way you also should rejoice, and rejoice with me."
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "I hope in the Lord Jesus to send Timothy to you soon, so that I too may be heartened when I learn how things are with you."
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For I have no one of kindred soul who will genuinely care about how things are with you,"
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "for they all seek their own interests, not those of Jesus Christ."
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But you know his proven character, how like a child with a father he has served with me as a slave for the good news."
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So I hope to send him at once, as soon as I see how things will go with me,"
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and I am confident in the Lord that I myself will also come soon."
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But I have considered it necessary to send Epaphroditus to you—my brother and coworker and fellow soldier, and your envoy and minister to my need—"
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "since he has been longing for all of you and has been distressed because you heard that he was sick."
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Indeed he was sick, close to death. But God had mercy on him, and not on him only but on me also, so that I would not have sorrow upon sorrow."
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So I am sending him all the more eagerly, so that you may rejoice at seeing him again and I may be less sorrowful."
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So welcome him in the Lord with all joy, and hold such people in honor,"
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "because he came close to death for the work of Christ, risking his life to make up what was lacking in your service to me."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "fellowship of the Spirit",
+    "lemma": "κοινωνία",
+    "kind": "ambiguity",
+    "traditional": "fellowship of the Spirit",
+    "note": "The Greek word means having something in common and is stronger than modern “fellowship” may suggest. The phrase can mean a bond among believers that the Spirit creates, or a shared participation in the Spirit; many recent versions and scholars prefer “sharing in the Spirit.” The rendering leaves both open and matches the same phrase in 2 Corinthians 13:13."
+   },
+   {
+    "verse": 5,
+    "phrase": "which was also in Christ Jesus",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "which was also in Christ Jesus",
+    "note": "The Greek clause has no verb. The traditional reading supplies “was,” making Christ’s own attitude the model. Many scholars instead supply “you have,” giving “which you also have in Christ Jesus,” that is, the mindset that belongs to those who are in Christ. Both readings are well supported."
+   },
+   {
+    "verse": 6,
+    "phrase": "the form of God",
+    "lemma": "μορφή",
+    "kind": "background",
+    "traditional": "the form of God",
+    "note": "The word denotes the visible form by which something is recognized, not a disguise; it is repeated in “the form of a slave” in verse 7. Interpreters differ on whether it points here to divine nature, divine glory, or divine status. Verses 6–11 are widely thought to be an early hymn or a passage of elevated prose, whether Paul is quoting it or composed it himself."
+   },
+   {
+    "verse": 6,
+    "phrase": "something to be exploited",
+    "lemma": "ἁρπαγμός",
+    "kind": "ambiguity",
+    "traditional": "a thing to be grasped",
+    "note": "This rare noun has been read as something seized (older versions have “robbery”), something to be seized, or something to be clung to. Studies of the idiom with verbs of considering indicate that it means something to take advantage of, and several modern versions follow this. On that reading Christ already had equality with God and did not use it for his own gain; “a thing to be grasped” leaves open that he did not yet have it."
+   },
+   {
+    "verse": 7,
+    "phrase": "slave",
+    "lemma": "δοῦλος",
+    "kind": "departure",
+    "traditional": "servant",
+    "note": "The Greek word is the ordinary term for a slave, a person owned by another, and the contrast with “Lord” in verse 11 depends on it. Most English versions soften it to “servant,” though some have “slave.” The related verb in verse 22 is rendered “served with me as a slave.”"
+   },
+   {
+    "verse": 11,
+    "phrase": "Jesus Christ is Lord",
+    "lemma": "κύριος",
+    "kind": "background",
+    "traditional": "Jesus Christ is Lord",
+    "note": "Verses 10–11 echo Isaiah 45:23, where God declares that every knee will bend to him and every tongue swear allegiance. In the Greek Scriptures “Lord” regularly stands in for the divine name, so many interpreters take “the name that is above every name” to be “Lord.” Language used there of Israel’s God alone is here applied to Jesus, to the Father’s glory."
+   },
+   {
+    "verse": 16,
+    "phrase": "holding fast to the word of life",
+    "lemma": "ἐπέχω",
+    "kind": "ambiguity",
+    "traditional": "holding forth the word of life",
+    "note": "The verb can mean either “hold fast” or “hold out, offer.” Most recent versions and commentators prefer “hold fast,” which suits the call to stay blameless amid opposition. The older rendering “holding forth” would make the phrase describe the Philippians offering the message to others, which the image of shining lights could also support."
+   },
+   {
+    "verse": 17,
+    "phrase": "poured out as a drink offering",
+    "lemma": "σπένδω",
+    "kind": "background",
+    "traditional": "poured out as a drink offering",
+    "note": "In both Jewish and Greek worship, wine was poured out beside or over a sacrifice to complete it. Paul pictures the Philippians’ faith as the main offering and his own possible death as the libation added to it. The word rendered “service” was used in the Greek Scriptures for priestly ministry."
+   },
+   {
+    "verse": 20,
+    "phrase": "of kindred soul",
+    "lemma": "ἰσόψυχος",
+    "kind": "ambiguity",
+    "traditional": "like-minded",
+    "note": "The rare adjective means “of equal soul.” It may mean that no one else shares Paul’s own outlook as Timothy does, or that Paul has no one else like Timothy; English versions divide between the two. It is one of several compounds of the word for “soul” in this chapter (also in verses 2 and 19)."
+   },
+   {
+    "verse": 22,
+    "phrase": "good news",
+    "lemma": "εὐαγγέλιον",
+    "kind": "departure",
+    "traditional": "gospel",
+    "note": "“Gospel” is now a religious term or the title of a book. The Greek was an ordinary word for a public announcement of good news, also used of imperial proclamations. Many modern translations already alternate between “good news” and “gospel.”"
+   },
+   {
+    "verse": 25,
+    "phrase": "envoy",
+    "lemma": "ἀπόστολος",
+    "kind": "departure",
+    "traditional": "messenger",
+    "note": "The Greek word is the one elsewhere rendered “apostle.” Here it has its ordinary sense of a delegate sent by others: the Philippian church sent Epaphroditus to Paul with their gift (4:18). Most versions have “messenger”; “envoy” is used because he was sent to act on the church’s behalf, not only to carry a message."
+   },
+   {
+    "verse": 28,
+    "phrase": "I am sending",
+    "lemma": "πέμπω",
+    "kind": "background",
+    "traditional": "I sent him",
+    "note": "The Greek verbs here and in verse 25 are past tenses, written from the standpoint of the readers when they receive the letter, a common convention in ancient letters. Epaphroditus was most likely the one carrying this letter, so English uses the present. Older versions have “I sent.”"
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "δοῦλος",
+    "rendering": "slave",
+    "verse": 7,
+    "reason": "Occurs throughout the New Testament and versions split between “servant” and “slave,” which changes how readers hear both social relations and self-descriptions like “slave of Christ.”"
+   },
+   {
+    "lemma": "φρονέω",
+    "rendering": "be of … mind / have this mind",
+    "verse": 2,
+    "reason": "A key Pauline verb (Romans 8, 12; Philippians throughout) rendered variously as “think,” “set the mind on,” “have an attitude,” so its repetition is easily lost."
+   },
+   {
+    "lemma": "ἀγαπητός",
+    "rendering": "beloved",
+    "verse": 12,
+    "reason": "Recurs as an address in nearly every letter and versions vary between “beloved,” “dear friends,” and “dearly loved,” which affects tone and the link to the word for love."
+   },
+   {
+    "lemma": "λειτουργία",
+    "rendering": "service",
+    "verse": 17,
+    "reason": "The word group (with λειτουργός, λειτουργέω) carries a priestly or public-service sense across Luke, Paul, and Hebrews, and needs one rendering distinct from the words for slave service and table service."
+   },
+   {
+    "lemma": "ἀπόστολος",
+    "rendering": "envoy",
+    "verse": 25,
+    "reason": "The non-technical sense of a church’s delegate (here and 2 Corinthians 8:23) needs a fixed rendering distinct from “apostle” and from “messenger” used for ἄγγελος."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 5562,
+   "output_tokens": 286
+  },
+  "findings": [],
+  "error": ""
+ }
+}

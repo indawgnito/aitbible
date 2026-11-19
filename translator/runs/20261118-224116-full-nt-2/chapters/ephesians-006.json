@@ -1,0 +1,409 @@
+{
+ "id": "ephesians-006",
+ "book": "ephesians",
+ "chapter": 6,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14gtvdEJ47TMDJxoz",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 11149,
+  "output_tokens": 11400
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Children, obey your parents in the Lord, for this is right.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"scripture\",\"text\":\"“Honor your father and mother,”\"},{\"speaker\":\"narrator\",\"text\":\"which is the first commandment with a promise,\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"scripture\",\"text\":\"“so that it may go well with you and you may live long on the earth.”\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And fathers, do not provoke your children to anger, but bring them up in the training and instruction of the Lord.\"}]},{\"verse\":5,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Slaves, obey your earthly masters with fear and trembling, in sincerity of heart, as you would Christ,\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"not only while being watched, as people-pleasers, but as slaves of Christ doing the will of God, wholeheartedly\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and with goodwill serving as slaves, as to the Lord and not to people,\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"knowing that each person, whatever good they do, will receive this back from the Lord, whether slave or free.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And masters, do the same to them, giving up threats, knowing that the Master of both them and you is in the heavens, and there is no favoritism with him.\"}]},{\"verse\":10,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Finally, be made strong in the Lord and in the power of his might.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Put on the full armor of God, so that you may be able to stand against the schemes of the devil,\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"because our struggle is not against flesh and blood, but against the rulers, against the authorities, against the world-rulers of this darkness, against the spiritual forces of evil in the heavenly places.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For this reason take up the full armor of God, so that you may be able to withstand on the evil day and, having done everything, to stand.\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Stand, then, having belted your waist with truth, and having put on the breastplate of righteousness,\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and having shod your feet with the readiness of the good news of peace,\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"in all circumstances taking up the shield of faith, with which you will be able to extinguish all the flaming arrows of the evil one.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And take the helmet of salvation, and the sword of the Spirit, which is the word of God,\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"with every prayer and petition, praying at all times in the Spirit, and to this end staying alert with all perseverance and petition for all the holy ones,\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and for me, that words may be given to me when I open my mouth, to make known with boldness the secret of the good news,\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"for which I am an ambassador in chains, so that in proclaiming it I may speak boldly, as I must speak.\"}]},{\"verse\":21,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So that you also may know how things are with me and what I am doing, Tychicus, the beloved brother and faithful servant in the Lord, will make everything known to you.\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"I am sending him to you for this very purpose, so that you may know how we are and he may encourage your hearts.\"}]},{\"verse\":23,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Peace to the brothers and sisters, and love with faith, from God the Father and the Lord Jesus Christ.\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Grace be with all who love our Lord Jesus Christ with an undying love.\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"right\",\"lemma\":\"δίκαιος\",\"kind\":\"register-exception\",\"traditional\":\"right\",\"note\":\"The Greek adjective is the one this translation normally renders “righteous” or “just.” Here it is a neuter predicate meaning “the right thing to do,” and “this is righteous” would be unnatural English, so the traditional “right” is kept.\"},{\"verse\":1,\"phrase\":\"in the Lord\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"in the Lord\",\"note\":\"Some important early manuscripts lack “in the Lord.” Most editors, including the SBLGNT, regard the words as original, and they are translated here.\"},{\"verse\":3,\"phrase\":\"on the earth\",\"lemma\":\"γῆ\",\"kind\":\"ambiguity\",\"traditional\":\"on the earth\",\"note\":\"The quotation is the commandment from Exodus 20:12 and Deuteronomy 5:16, where the promise concerns “the land” God is giving Israel. The Greek word means both “land” and “earth,” and the letter leaves out the clause about God’s gift of the land, so most translators take the promise here in the wider sense. “In the land” remains possible.\"},{\"verse\":5,\"phrase\":\"earthly masters\",\"lemma\":\"κύριος\",\"kind\":\"background\",\"traditional\":\"masters according to the flesh\",\"note\":\"The Greek word for a slave’s “master” is the same word translated “Lord” when used of Christ, and the passage plays on this throughout. Verse 9 makes the point explicit by telling masters that they themselves have a Master in the heavens. “Earthly” renders a phrase that is literally “according to the flesh,” marking these masters as human ones only.\"},{\"verse\":6,\"phrase\":\"wholeheartedly\",\"lemma\":\"ψυχή\",\"kind\":\"ambiguity\",\"traditional\":\"from the heart\",\"note\":\"The Greek phrase is literally “from the soul,” an idiom for doing something with one’s whole self. It can be attached either to “doing the will of God” or to “serving” in the next verse. The Greek edition translated here punctuates it with what follows, and the English is arranged to match, but many translations take it with what precedes.\"},{\"verse\":9,\"phrase\":\"the heavens\",\"lemma\":\"οὐρανός\",\"kind\":\"departure\",\"traditional\":\"heaven\",\"note\":\"The Greek is plural, a Semitic turn of phrase for God’s dwelling that a first-century hearer would have noticed. Most English translations flatten it to “heaven.” This translation keeps the plural where the Greek has it.\"},{\"verse\":12,\"phrase\":\"the rulers\",\"lemma\":\"ἀρχή\",\"kind\":\"background\",\"traditional\":\"principalities\",\"note\":\"“Rulers” and “authorities” were ordinary words for human officials, but here, as elsewhere in this letter, they name unseen spiritual powers. The explicit contrast with “flesh and blood” makes this clear. “World-rulers” translates a rare word used in the period of cosmic powers, including the planets thought to govern human fate.\"},{\"verse\":15,\"phrase\":\"good news\",\"lemma\":\"εὐαγγέλιον\",\"kind\":\"departure\",\"traditional\":\"gospel\",\"note\":\"“Gospel” is now a religious term or the name of a book. The Greek was an ordinary word for a public announcement of good news, and it is translated that way here. Many modern translations alternate between “good news” and “gospel.”\"},{\"verse\":15,\"phrase\":\"the readiness of the good news of peace\",\"lemma\":\"ἑτοιμασία\",\"kind\":\"ambiguity\",\"traditional\":\"the preparation of the gospel of peace\",\"note\":\"The phrase can mean a readiness to announce the good news of peace, or a readiness (some say a firm footing) that the good news of peace gives the one who wears it. The Greek does not decide between these, and the translation leaves the relationship open as the Greek does.\"},{\"verse\":18,\"phrase\":\"holy ones\",\"lemma\":\"ἅγιος\",\"kind\":\"departure\",\"traditional\":\"saints\",\"note\":\"“Saints” now suggests canonized individuals or people of exceptional virtue. The word is used of all believers as people set apart for God, echoing the Septuagint’s language for Israel. Many translations keep “saints”; others use “God’s people.”\"},{\"verse\":19,\"phrase\":\"secret\",\"lemma\":\"μυστήριον\",\"kind\":\"departure\",\"traditional\":\"mystery\",\"note\":\"In Jewish Greek of the period this was the ordinary word for a secret, especially a plan of God that only he can disclose. English “mystery” suggests a puzzle or something beyond understanding, whereas the point here is that the secret is being made known. Most English versions keep “mystery” as an established term, explained as a truth once hidden and now revealed.\"},{\"verse\":24,\"phrase\":\"with an undying love\",\"lemma\":\"ἀφθαρσία\",\"kind\":\"ambiguity\",\"traditional\":\"in sincerity\",\"note\":\"The closing words are literally “in imperishability,” and what they attach to is disputed. They may describe the love of those who love Christ, as translated here and in most modern versions. They may instead go with “grace,” giving “grace and immortality be with all,” or describe Christ as the one who lives in immortality.\"}],\"candidates\":[{\"lemma\":\"δοῦλος\",\"rendering\":\"slave\",\"verse\":5,\"reason\":\"Translations vary between “slave,” “servant” and “bondservant,” and the choice must stay distinct from διάκονος and consistent in phrases such as “slaves of Christ.”\"},{\"lemma\":\"ἀδελφός\",\"rendering\":\"brothers and sisters\",\"verse\":23,\"reason\":\"The plural addressed to mixed communities recurs throughout the letters, and translators differ between “brothers,” “brothers and sisters” and “believers.”\"},{\"lemma\":\"σάρξ\",\"rendering\":\"earthly (κατὰ σάρκα); flesh (in “flesh and blood”)\",\"verse\":5,\"reason\":\"The word ranges from physical body to human limitation to sinful nature, and κατὰ σάρκα in particular needs a consistent policy across Paul’s letters.\"},{\"lemma\":\"ἐξουσία\",\"rendering\":\"authorities\",\"verse\":12,\"reason\":\"The pairing of ἀρχαί and ἐξουσίαι for spiritual powers recurs in Ephesians, Colossians, 1 Corinthians and 1 Peter and is rendered variously as “principalities and powers” or “rulers and authorities.”\"},{\"lemma\":\"ἐπουράνιος\",\"rendering\":\"the heavenly places\",\"verse\":12,\"reason\":\"The phrase ἐν τοῖς ἐπουρανίοις occurs five times in Ephesians and is rendered “heavenly places,” “heavenly realms” or “the heavenlies,” so it needs one rendering coordinated with οὐρανός.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Children, obey your parents in the Lord, for this is right."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "scripture",
+      "text": "“Honor your father and mother,”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "which is the first commandment with a promise,"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "scripture",
+      "text": "“so that it may go well with you and you may live long on the earth.”"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And fathers, do not provoke your children to anger, but bring them up in the training and instruction of the Lord."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Slaves, obey your earthly masters with fear and trembling, in sincerity of heart, as you would Christ,"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "not only while being watched, as people-pleasers, but as slaves of Christ doing the will of God, wholeheartedly"
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and with goodwill serving as slaves, as to the Lord and not to people,"
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "knowing that each person, whatever good they do, will receive this back from the Lord, whether slave or free."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And masters, do the same to them, giving up threats, knowing that the Master of both them and you is in the heavens, and there is no favoritism with him."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Finally, be made strong in the Lord and in the power of his might."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Put on the full armor of God, so that you may be able to stand against the schemes of the devil,"
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "because our struggle is not against flesh and blood, but against the rulers, against the authorities, against the world-rulers of this darkness, against the spiritual forces of evil in the heavenly places."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For this reason take up the full armor of God, so that you may be able to withstand on the evil day and, having done everything, to stand."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Stand, then, having belted your waist with truth, and having put on the breastplate of righteousness,"
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and having shod your feet with the readiness of the good news of peace,"
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "in all circumstances taking up the shield of faith, with which you will be able to extinguish all the flaming arrows of the evil one."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And take the helmet of salvation, and the sword of the Spirit, which is the word of God,"
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "with every prayer and petition, praying at all times in the Spirit, and to this end staying alert with all perseverance and petition for all the holy ones,"
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and for me, that words may be given to me when I open my mouth, to make known with boldness the secret of the good news,"
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "for which I am an ambassador in chains, so that in proclaiming it I may speak boldly, as I must speak."
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So that you also may know how things are with me and what I am doing, Tychicus, the beloved brother and faithful servant in the Lord, will make everything known to you."
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "I am sending him to you for this very purpose, so that you may know how we are and he may encourage your hearts."
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Peace to the brothers and sisters, and love with faith, from God the Father and the Lord Jesus Christ."
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Grace be with all who love our Lord Jesus Christ with an undying love."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "right",
+    "lemma": "δίκαιος",
+    "kind": "register-exception",
+    "traditional": "right",
+    "note": "The Greek adjective is the one this translation normally renders “righteous” or “just.” Here it is a neuter predicate meaning “the right thing to do,” and “this is righteous” would be unnatural English, so the traditional “right” is kept."
+   },
+   {
+    "verse": 1,
+    "phrase": "in the Lord",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "in the Lord",
+    "note": "Some important early manuscripts lack “in the Lord.” Most editors, including the SBLGNT, regard the words as original, and they are translated here."
+   },
+   {
+    "verse": 3,
+    "phrase": "on the earth",
+    "lemma": "γῆ",
+    "kind": "ambiguity",
+    "traditional": "on the earth",
+    "note": "The quotation is the commandment from Exodus 20:12 and Deuteronomy 5:16, where the promise concerns “the land” God is giving Israel. The Greek word means both “land” and “earth,” and the letter leaves out the clause about God’s gift of the land, so most translators take the promise here in the wider sense. “In the land” remains possible."
+   },
+   {
+    "verse": 5,
+    "phrase": "earthly masters",
+    "lemma": "κύριος",
+    "kind": "background",
+    "traditional": "masters according to the flesh",
+    "note": "The Greek word for a slave’s “master” is the same word translated “Lord” when used of Christ, and the passage plays on this throughout. Verse 9 makes the point explicit by telling masters that they themselves have a Master in the heavens. “Earthly” renders a phrase that is literally “according to the flesh,” marking these masters as human ones only."
+   },
+   {
+    "verse": 6,
+    "phrase": "wholeheartedly",
+    "lemma": "ψυχή",
+    "kind": "ambiguity",
+    "traditional": "from the heart",
+    "note": "The Greek phrase is literally “from the soul,” an idiom for doing something with one’s whole self. It can be attached either to “doing the will of God” or to “serving” in the next verse. The Greek edition translated here punctuates it with what follows, and the English is arranged to match, but many translations take it with what precedes."
+   },
+   {
+    "verse": 9,
+    "phrase": "the heavens",
+    "lemma": "οὐρανός",
+    "kind": "departure",
+    "traditional": "heaven",
+    "note": "The Greek is plural, a Semitic turn of phrase for God’s dwelling that a first-century hearer would have noticed. Most English translations flatten it to “heaven.” This translation keeps the plural where the Greek has it."
+   },
+   {
+    "verse": 12,
+    "phrase": "the rulers",
+    "lemma": "ἀρχή",
+    "kind": "background",
+    "traditional": "principalities",
+    "note": "“Rulers” and “authorities” were ordinary words for human officials, but here, as elsewhere in this letter, they name unseen spiritual powers. The explicit contrast with “flesh and blood” makes this clear. “World-rulers” translates a rare word used in the period of cosmic powers, including the planets thought to govern human fate."
+   },
+   {
+    "verse": 15,
+    "phrase": "good news",
+    "lemma": "εὐαγγέλιον",
+    "kind": "departure",
+    "traditional": "gospel",
+    "note": "“Gospel” is now a religious term or the name of a book. The Greek was an ordinary word for a public announcement of good news, and it is translated that way here. Many modern translations alternate between “good news” and “gospel.”"
+   },
+   {
+    "verse": 15,
+    "phrase": "the readiness of the good news of peace",
+    "lemma": "ἑτοιμασία",
+    "kind": "ambiguity",
+    "traditional": "the preparation of the gospel of peace",
+    "note": "The phrase can mean a readiness to announce the good news of peace, or a readiness (some say a firm footing) that the good news of peace gives the one who wears it. The Greek does not decide between these, and the translation leaves the relationship open as the Greek does."
+   },
+   {
+    "verse": 18,
+    "phrase": "holy ones",
+    "lemma": "ἅγιος",
+    "kind": "departure",
+    "traditional": "saints",
+    "note": "“Saints” now suggests canonized individuals or people of exceptional virtue. The word is used of all believers as people set apart for God, echoing the Septuagint’s language for Israel. Many translations keep “saints”; others use “God’s people.”"
+   },
+   {
+    "verse": 19,
+    "phrase": "secret",
+    "lemma": "μυστήριον",
+    "kind": "departure",
+    "traditional": "mystery",
+    "note": "In Jewish Greek of the period this was the ordinary word for a secret, especially a plan of God that only he can disclose. English “mystery” suggests a puzzle or something beyond understanding, whereas the point here is that the secret is being made known. Most English versions keep “mystery” as an established term, explained as a truth once hidden and now revealed."
+   },
+   {
+    "verse": 24,
+    "phrase": "with an undying love",
+    "lemma": "ἀφθαρσία",
+    "kind": "ambiguity",
+    "traditional": "in sincerity",
+    "note": "The closing words are literally “in imperishability,” and what they attach to is disputed. They may describe the love of those who love Christ, as translated here and in most modern versions. They may instead go with “grace,” giving “grace and immortality be with all,” or describe Christ as the one who lives in immortality."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "δοῦλος",
+    "rendering": "slave",
+    "verse": 5,
+    "reason": "Translations vary between “slave,” “servant” and “bondservant,” and the choice must stay distinct from διάκονος and consistent in phrases such as “slaves of Christ.”"
+   },
+   {
+    "lemma": "ἀδελφός",
+    "rendering": "brothers and sisters",
+    "verse": 23,
+    "reason": "The plural addressed to mixed communities recurs throughout the letters, and translators differ between “brothers,” “brothers and sisters” and “believers.”"
+   },
+   {
+    "lemma": "σάρξ",
+    "rendering": "earthly (κατὰ σάρκα); flesh (in “flesh and blood”)",
+    "verse": 5,
+    "reason": "The word ranges from physical body to human limitation to sinful nature, and κατὰ σάρκα in particular needs a consistent policy across Paul’s letters."
+   },
+   {
+    "lemma": "ἐξουσία",
+    "rendering": "authorities",
+    "verse": 12,
+    "reason": "The pairing of ἀρχαί and ἐξουσίαι for spiritual powers recurs in Ephesians, Colossians, 1 Corinthians and 1 Peter and is rendered variously as “principalities and powers” or “rulers and authorities.”"
+   },
+   {
+    "lemma": "ἐπουράνιος",
+    "rendering": "the heavenly places",
+    "verse": 12,
+    "reason": "The phrase ἐν τοῖς ἐπουρανίοις occurs five times in Ephesians and is rendered “heavenly places,” “heavenly realms” or “the heavenlies,” so it needs one rendering coordinated with οὐρανός."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 5257,
+   "output_tokens": 373
+  },
+  "findings": [],
+  "error": ""
+ }
+}

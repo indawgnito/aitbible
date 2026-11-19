@@ -15,6 +15,7 @@ used, "greekAppearsIn" verses where the Greek word occurs and it is not.
 
 import argparse
 import json
+import re
 from pathlib import Path
 
 from pipeline import (BOOK_TITLES, WEB_DATA, _patterns, load_manifest, load_record,
@@ -49,8 +50,23 @@ def refs(pairs):
             for (b, c), vs in sorted(grouped.items(), key=lambda kv: (BOOKS.index(kv[0][0]), kv[0][1]))]
 
 
-def build(run: str) -> dict:
-    register = json.loads((run_dir(run) / "register.json").read_text(encoding="utf-8"))
+def brief_of(sense: str) -> str:
+    """First sentence of the entry's sense, without the maintainer's scoping preamble."""
+    s = re.sub(r"^(?:[A-Za-z]+ sense only|Only the sense of|As a noun|Figurative sense only|figurative)\s*:?\s*", "", sense.strip())
+    s = re.split(r"(?<=\.)\s", s)[0].rstrip(".")
+    return s[0].upper() + s[1:] + "."
+
+
+def short_traditional(trad: str) -> str:
+    """The traditional rendering as a word or two; the full statement stays in the register."""
+    t = re.split(r";| \(| in general| at \d| for the | where | when | in the K| in many| in most|, with ", trad)[0].strip(" ,")
+    return t
+
+
+def build(run: str, register_path: Path = None) -> dict:
+    # Renderings and verse references come from the run. Wording comes from the
+    # live register when it is given, so a wording-only cleanup reaches the site.
+    register = json.loads((register_path or run_dir(run) / "register.json").read_text(encoding="utf-8"))
     manifest = load_manifest(run)
     src = Source()
     texts = {}
@@ -66,6 +82,7 @@ def build(run: str) -> dict:
         if not departs(e):
             continue
         pats = _patterns([e["default"]])
+        all_pats = _patterns([e["default"]] + [x["rendering"] for x in e.get("alternates", [])])
         scope = e.get("scope")
         used, other = [], []
         for (book, chapter, verse), text in texts.items():
@@ -74,6 +91,14 @@ def build(run: str) -> dict:
             sv = next(v for v in src.chapter(book, chapter) if v.verse == verse)
             if e["lemma"] in sv.lemmas:
                 (used if any(p.search(text) for p in pats) else other).append((book, chapter, verse))
+        if not used:
+            # The default is a phrase that inflects past the matcher ("person with a
+            # skin disease" / "men with a skin disease"): count the entry's own alternates.
+            used = [k for k in other if any(p.search(texts[k]) for p in all_pats)]
+            other = [k for k in other if k not in used]
+        # Where the word's other senses outnumber the governed one, listing them all
+        # under "Greek also in" would bury the entry; show only where it applies.
+        hide_other = e.get("one_sense_only") or len(other) > len(used)
         context = e["rationale"] + "\n\n" + "**The standard view.** " + e["standard_view"]
         if e["status"] == "contested":
             context += "\n\nScholars disagree on this word, and this rendering is an editorial choice."
@@ -82,14 +107,14 @@ def build(run: str) -> dict:
             "greek": e["lemma"],
             "lemma": e["lemma"],
             "aitRendering": e["default"],
-            "traditional": e["traditional"],
+            "traditional": short_traditional(e["traditional"]),
             "category": "loanword" if e["id"] in LOANWORD_IDS else "departure",
-            "brief": e["sense"][0].upper() + e["sense"][1:] + ".",
+            "brief": brief_of(e["sense"]),
             "context": context,
             "appearsIn": refs(used),
             # An entry that governs only one sense of a common word (ἅγιος as
             # "holy ones", ἀπέχω on receipts) would list every other use here.
-            "greekAppearsIn": [] if e.get("one_sense_only") else refs(other),
+            "greekAppearsIn": [] if hide_other else refs(other),
         })
     return {
         "generated_from": {"run": run, "register": register["version"], "model": manifest["model"]},
@@ -102,8 +127,9 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--run", required=True)
     ap.add_argument("--out", type=Path, default=WEB_DATA / "glossary.json")
+    ap.add_argument("--register", type=Path, help="register file for the wording (default: the run's snapshot)")
     args = ap.parse_args()
-    glossary = build(args.run)
+    glossary = build(args.run, args.register)
     args.out.write_text(json.dumps(glossary, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(f"Wrote {len(glossary['terms'])} terms to {args.out}")
     examples = build_examples(args.run)

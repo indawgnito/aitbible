@@ -1,0 +1,291 @@
+{
+ "id": "1corinthians-005",
+ "book": "1corinthians",
+ "chapter": 5,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14hPW19pgcqjhY99J",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 7660,
+  "output_tokens": 8702
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"It is actually reported that there is sexual immorality among you, and sexual immorality of a kind not found even among the Gentiles: a man has his father’s wife.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And you are puffed up! Should you not rather have mourned, so that the one who did this deed would be removed from among you?\"}]},{\"verse\":3,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For I, absent in body but present in spirit, have already passed judgment, as if present, on the one who has done this in such a way:\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"in the name of our Lord Jesus, when you are gathered together, and my spirit with you, along with the power of our Lord Jesus,\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"you are to hand such a person over to Satan for the destruction of the flesh, so that the spirit may be saved on the day of the Lord.\"}]},{\"verse\":6,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Your boasting is not good. Do you not know that a little leaven leavens the whole batch of dough?\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Clean out the old leaven so that you may be a new batch, just as you are in fact unleavened. For Christ, our Passover lamb, has been sacrificed.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So let us keep the festival, not with old leaven, nor with the leaven of malice and wickedness, but with the unleavened bread of sincerity and truth.\"}]},{\"verse\":9,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"I wrote to you in my letter not to associate with sexually immoral people—\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"not at all meaning the sexually immoral of this world, or the greedy and robbers, or idolaters, since then you would have to leave the world.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But now I am writing to you not to associate with anyone who is called a brother if he is sexually immoral or greedy, or an idolater, a reviler, a drunkard, or a robber—not even to eat with such a person.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For what business is it of mine to judge those outside? Do you not judge those inside,\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"while God judges those outside?\"},{\"speaker\":\"scripture\",\"text\":\"“Remove the wicked person from among yourselves.”\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"Gentiles\",\"lemma\":\"ἔθνος\",\"kind\":\"background\",\"traditional\":\"Gentiles\",\"note\":\"The Greek word means “peoples” or “nations” and is the same word rendered “nations” elsewhere in this translation; in the plural it regularly means the non-Jewish peoples. Paul is writing to a largely non-Jewish congregation, yet he uses the word for outsiders who do not know God.\"},{\"verse\":1,\"phrase\":\"has his father’s wife\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"has his father’s wife\",\"note\":\"“Father’s wife” is the wording of Leviticus 18:8 for a stepmother, as distinct from one’s own mother. “Has” indicates a continuing sexual relationship, whether marriage or cohabitation. Such a union was forbidden by Jewish law and by Roman law as well, which is the point of “not found even among the Gentiles.”\"},{\"verse\":4,\"phrase\":\"in the name of our Lord Jesus\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"in the name of our Lord Jesus\",\"note\":\"The sentence running through verses 3–5 is tangled in Greek, and it is unclear what this phrase attaches to. It may go with “I have passed judgment,” with “when you are gathered together,” or with “hand over”; a few scholars even attach it to “the one who has done this.” Likewise “with the power of our Lord Jesus” may describe the gathering or the handing over. The translation keeps the Greek order and leaves the connection open.\"},{\"verse\":5,\"phrase\":\"the destruction of the flesh\",\"lemma\":\"σάρξ\",\"kind\":\"ambiguity\",\"traditional\":\"the destruction of the flesh\",\"note\":\"Handing over to Satan means putting the man out of the community, into the realm where Satan holds sway. What “the destruction of the flesh” means is disputed: some take it as physical suffering or even death, others as the destruction of the man’s sinful orientation, “flesh” in Paul’s moral sense. The Greek says simply “the flesh” and “the spirit,” without “his,” and the translation keeps that.\"},{\"verse\":5,\"phrase\":\"the day of the Lord\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"the day of the Lord Jesus\",\"note\":\"Many manuscripts read “the day of the Lord Jesus” or “the day of our Lord Jesus Christ,” and older English versions follow them. The shorter reading, found in some of the earliest witnesses, is the one printed in the Greek text translated here.\"},{\"verse\":7,\"phrase\":\"Clean out the old leaven\",\"lemma\":\"ζύμη\",\"kind\":\"background\",\"traditional\":\"Purge out the old leaven\",\"note\":\"Leaven was a lump of fermented dough kept back from an earlier batch to raise the next one. Before Passover every Jewish household removed all leaven from the home, and for the seven days of the festival only unleavened bread was eaten (Exodus 12:15–20). Paul builds the whole image of verses 6–8 on this practice.\"},{\"verse\":7,\"phrase\":\"our Passover lamb\",\"lemma\":\"πάσχα\",\"kind\":\"background\",\"traditional\":\"our passover\",\"note\":\"The Greek has only “our Passover.” The word can mean the festival, the meal, or the animal slaughtered for it; with the verb “sacrificed” it means the lamb, and most modern translations add the word for clarity.\"},{\"verse\":9,\"phrase\":\"in my letter\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"in an epistle\",\"note\":\"Paul refers to an earlier letter to Corinth, written before 1 Corinthians, which has not survived. The Corinthians had evidently taken its instruction to mean avoiding all immoral people, which Paul now corrects.\"},{\"verse\":11,\"phrase\":\"But now I am writing\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"But now I have written\",\"note\":\"The Greek verb is a past tense, which letter writers often used of the letter in hand. The phrase can also be read “But as it is, what I wrote was,” making this a clarification of what the earlier letter meant, not a fresh instruction. Either way the point is the same: the ban concerns members of the community, not outsiders.\"},{\"verse\":13,\"phrase\":\"judges\",\"lemma\":\"κρίνω\",\"kind\":\"textual\",\"traditional\":\"judgeth\",\"note\":\"The earliest manuscripts were written without accents, and the same letters can be read as a present (“judges”) or a future (“will judge”). The Greek text translated here prints the present; many translations and commentators prefer the future.\"},{\"verse\":13,\"phrase\":\"“Remove the wicked person from among yourselves.”\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"Therefore put away from among yourselves that wicked person.\",\"note\":\"Paul closes with words from a refrain that recurs in Deuteronomy (for example 17:7; 22:21, 24), quoted from the Greek version with the verb changed to the plural. He gives no introductory formula, but the wording is recognizably scriptural. In Deuteronomy the refrain follows capital offenses; here Paul applies it to exclusion from the community.\"}],\"candidates\":[{\"lemma\":\"πορνεία\",\"rendering\":\"sexual immorality\",\"verse\":1,\"reason\":\"Recurs across Gospels, Acts, letters and Revelation, and versions vary between fornication, sexual immorality, unchastity and prostitution; the cognate πόρνος should be fixed with it.\"},{\"lemma\":\"σάρξ\",\"rendering\":\"flesh\",\"verse\":5,\"reason\":\"Paul’s uses range from the physical body to the sinful orientation, and translations split between “flesh” and “sinful nature”; readers need one policy.\"},{\"lemma\":\"ἀδελφός\",\"rendering\":\"brother\",\"verse\":11,\"reason\":\"Whether the singular and plural for fellow believers become “brother,” “brother or sister” or “believer” needs one decision for the whole New Testament.\"},{\"lemma\":\"ζύμη\",\"rendering\":\"leaven\",\"verse\":6,\"reason\":\"Occurs in the Gospels, here and in Galatians 5:9; versions differ between “leaven” and “yeast,” and the link with “unleavened” should stay visible.\"},{\"lemma\":\"φυσιόω\",\"rendering\":\"puffed up\",\"verse\":2,\"reason\":\"A key term through 1 Corinthians (4:6, 18, 19; 5:2; 8:1; 13:4) and Colossians 2:18, rendered variously as puffed up, arrogant, proud or inflated.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "It is actually reported that there is sexual immorality among you, and sexual immorality of a kind not found even among the Gentiles: a man has his father’s wife."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And you are puffed up! Should you not rather have mourned, so that the one who did this deed would be removed from among you?"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For I, absent in body but present in spirit, have already passed judgment, as if present, on the one who has done this in such a way:"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "in the name of our Lord Jesus, when you are gathered together, and my spirit with you, along with the power of our Lord Jesus,"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "you are to hand such a person over to Satan for the destruction of the flesh, so that the spirit may be saved on the day of the Lord."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Your boasting is not good. Do you not know that a little leaven leavens the whole batch of dough?"
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Clean out the old leaven so that you may be a new batch, just as you are in fact unleavened. For Christ, our Passover lamb, has been sacrificed."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So let us keep the festival, not with old leaven, nor with the leaven of malice and wickedness, but with the unleavened bread of sincerity and truth."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "I wrote to you in my letter not to associate with sexually immoral people—"
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "not at all meaning the sexually immoral of this world, or the greedy and robbers, or idolaters, since then you would have to leave the world."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But now I am writing to you not to associate with anyone who is called a brother if he is sexually immoral or greedy, or an idolater, a reviler, a drunkard, or a robber—not even to eat with such a person."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For what business is it of mine to judge those outside? Do you not judge those inside,"
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "while God judges those outside?"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“Remove the wicked person from among yourselves.”"
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "Gentiles",
+    "lemma": "ἔθνος",
+    "kind": "background",
+    "traditional": "Gentiles",
+    "note": "The Greek word means “peoples” or “nations” and is the same word rendered “nations” elsewhere in this translation; in the plural it regularly means the non-Jewish peoples. Paul is writing to a largely non-Jewish congregation, yet he uses the word for outsiders who do not know God."
+   },
+   {
+    "verse": 1,
+    "phrase": "has his father’s wife",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "has his father’s wife",
+    "note": "“Father’s wife” is the wording of Leviticus 18:8 for a stepmother, as distinct from one’s own mother. “Has” indicates a continuing sexual relationship, whether marriage or cohabitation. Such a union was forbidden by Jewish law and by Roman law as well, which is the point of “not found even among the Gentiles.”"
+   },
+   {
+    "verse": 4,
+    "phrase": "in the name of our Lord Jesus",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "in the name of our Lord Jesus",
+    "note": "The sentence running through verses 3–5 is tangled in Greek, and it is unclear what this phrase attaches to. It may go with “I have passed judgment,” with “when you are gathered together,” or with “hand over”; a few scholars even attach it to “the one who has done this.” Likewise “with the power of our Lord Jesus” may describe the gathering or the handing over. The translation keeps the Greek order and leaves the connection open."
+   },
+   {
+    "verse": 5,
+    "phrase": "the destruction of the flesh",
+    "lemma": "σάρξ",
+    "kind": "ambiguity",
+    "traditional": "the destruction of the flesh",
+    "note": "Handing over to Satan means putting the man out of the community, into the realm where Satan holds sway. What “the destruction of the flesh” means is disputed: some take it as physical suffering or even death, others as the destruction of the man’s sinful orientation, “flesh” in Paul’s moral sense. The Greek says simply “the flesh” and “the spirit,” without “his,” and the translation keeps that."
+   },
+   {
+    "verse": 5,
+    "phrase": "the day of the Lord",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "the day of the Lord Jesus",
+    "note": "Many manuscripts read “the day of the Lord Jesus” or “the day of our Lord Jesus Christ,” and older English versions follow them. The shorter reading, found in some of the earliest witnesses, is the one printed in the Greek text translated here."
+   },
+   {
+    "verse": 7,
+    "phrase": "Clean out the old leaven",
+    "lemma": "ζύμη",
+    "kind": "background",
+    "traditional": "Purge out the old leaven",
+    "note": "Leaven was a lump of fermented dough kept back from an earlier batch to raise the next one. Before Passover every Jewish household removed all leaven from the home, and for the seven days of the festival only unleavened bread was eaten (Exodus 12:15–20). Paul builds the whole image of verses 6–8 on this practice."
+   },
+   {
+    "verse": 7,
+    "phrase": "our Passover lamb",
+    "lemma": "πάσχα",
+    "kind": "background",
+    "traditional": "our passover",
+    "note": "The Greek has only “our Passover.” The word can mean the festival, the meal, or the animal slaughtered for it; with the verb “sacrificed” it means the lamb, and most modern translations add the word for clarity."
+   },
+   {
+    "verse": 9,
+    "phrase": "in my letter",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "in an epistle",
+    "note": "Paul refers to an earlier letter to Corinth, written before 1 Corinthians, which has not survived. The Corinthians had evidently taken its instruction to mean avoiding all immoral people, which Paul now corrects."
+   },
+   {
+    "verse": 11,
+    "phrase": "But now I am writing",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "But now I have written",
+    "note": "The Greek verb is a past tense, which letter writers often used of the letter in hand. The phrase can also be read “But as it is, what I wrote was,” making this a clarification of what the earlier letter meant, not a fresh instruction. Either way the point is the same: the ban concerns members of the community, not outsiders."
+   },
+   {
+    "verse": 13,
+    "phrase": "judges",
+    "lemma": "κρίνω",
+    "kind": "textual",
+    "traditional": "judgeth",
+    "note": "The earliest manuscripts were written without accents, and the same letters can be read as a present (“judges”) or a future (“will judge”). The Greek text translated here prints the present; many translations and commentators prefer the future."
+   },
+   {
+    "verse": 13,
+    "phrase": "“Remove the wicked person from among yourselves.”",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "Therefore put away from among yourselves that wicked person.",
+    "note": "Paul closes with words from a refrain that recurs in Deuteronomy (for example 17:7; 22:21, 24), quoted from the Greek version with the verb changed to the plural. He gives no introductory formula, but the wording is recognizably scriptural. In Deuteronomy the refrain follows capital offenses; here Paul applies it to exclusion from the community."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "πορνεία",
+    "rendering": "sexual immorality",
+    "verse": 1,
+    "reason": "Recurs across Gospels, Acts, letters and Revelation, and versions vary between fornication, sexual immorality, unchastity and prostitution; the cognate πόρνος should be fixed with it."
+   },
+   {
+    "lemma": "σάρξ",
+    "rendering": "flesh",
+    "verse": 5,
+    "reason": "Paul’s uses range from the physical body to the sinful orientation, and translations split between “flesh” and “sinful nature”; readers need one policy."
+   },
+   {
+    "lemma": "ἀδελφός",
+    "rendering": "brother",
+    "verse": 11,
+    "reason": "Whether the singular and plural for fellow believers become “brother,” “brother or sister” or “believer” needs one decision for the whole New Testament."
+   },
+   {
+    "lemma": "ζύμη",
+    "rendering": "leaven",
+    "verse": 6,
+    "reason": "Occurs in the Gospels, here and in Galatians 5:9; versions differ between “leaven” and “yeast,” and the link with “unleavened” should stay visible."
+   },
+   {
+    "lemma": "φυσιόω",
+    "rendering": "puffed up",
+    "verse": 2,
+    "reason": "A key term through 1 Corinthians (4:6, 18, 19; 5:2; 8:1; 13:4) and Colossians 2:18, rendered variously as puffed up, arrogant, proud or inflated."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 3478,
+   "output_tokens": 204
+  },
+  "findings": [],
+  "error": ""
+ }
+}

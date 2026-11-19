@@ -1,0 +1,279 @@
+{
+ "id": "1corinthians-008",
+ "book": "1corinthians",
+ "chapter": 8,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14j8oBiz7izDWxUyh",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 8029,
+  "output_tokens": 8665
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now concerning food sacrificed to idols: we know that “we all have knowledge.” Knowledge puffs up, but love builds up.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"If anyone thinks they have come to know something, they do not yet know as they ought to know;\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"but if anyone loves God, that person is known by him.\"}]},{\"verse\":4,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So then, concerning the eating of food sacrificed to idols: we know that “no idol in the world really exists,” and that “there is no God but one.”\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For even if there are so-called gods, whether in heaven or on earth—as indeed there are many gods and many lords—\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"yet for us there is one God, the Father, from whom all things come and for whom we exist, and one Lord, Jesus Christ, through whom all things come and through whom we exist.\"}]},{\"verse\":7,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But not everyone has this knowledge. Some, having been accustomed to idols until now, eat it as food sacrificed to an idol, and their conscience, being weak, is defiled.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But food will not bring us near to God: we are no better off if we eat, and no worse off if we do not.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But take care that this right of yours does not somehow become a stumbling block to the weak.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For if someone sees you, the one with knowledge, reclining at a meal in an idol’s temple, will not the conscience of that person, who is weak, be built up to eat food sacrificed to idols?\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For the weak person is being destroyed by your knowledge—the brother or sister for whom Christ died.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And so, by sinning against your brothers and sisters and striking their conscience when it is weak, you sin against Christ.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Therefore, if food causes my brother or sister to stumble, I will never eat meat again, so that I do not cause my brother or sister to stumble.\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"food sacrificed to idols\",\"lemma\":\"εἰδωλόθυτος\",\"kind\":\"background\",\"traditional\":\"things offered unto idols\",\"note\":\"In a Greek city most animals were slaughtered as sacrifices at temples. Part of the meat was eaten at meals in temple dining rooms, and part could be sold in the market. Sharing such meals was an ordinary part of social life, so the question touched family, business and civic ties. The Greek term is a Jewish and Christian one; pagans themselves spoke of “sacred” meat.\"},{\"verse\":1,\"phrase\":\"we all have knowledge\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"we know that we all have knowledge\",\"note\":\"Greek manuscripts have no quotation marks. Most scholars think Paul is here quoting a slogan of some Corinthians, perhaps from their letter to him, and then qualifying it; the same applies to the statements in verse 4. It is also possible to read these words as Paul’s own statement.\"},{\"verse\":3,\"phrase\":\"that person is known by him\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"the same is known of him\",\"note\":\"A few early witnesses, including the oldest papyrus of Paul’s letters, lack “God” and “by him”, giving “if anyone loves, that person is known” or possibly “has come to know”. Most manuscripts and editions have the longer text translated here.\"},{\"verse\":4,\"phrase\":\"no idol in the world really exists\",\"lemma\":\"εἴδωλον\",\"kind\":\"ambiguity\",\"traditional\":\"an idol is nothing in the world\",\"note\":\"The Greek can be read either as “there is no idol in the world”, meaning that the god an image represents has no real existence, or as “an idol is nothing in the world”. The first reading matches the parallel clause that follows (“there is no God but one”) and is followed here; the second is the traditional rendering and is also defensible.\"},{\"verse\":6,\"phrase\":\"one God, the Father\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"one God, the Father\",\"note\":\"The language of “one God” and “one Lord” echoes Israel’s daily confession, “Hear, O Israel: the Lord our God, the Lord is one” (Deuteronomy 6:4), where the Greek version has both “God” and “Lord”. Many scholars think Paul is deliberately restating that confession so that it includes Jesus Christ.\"},{\"verse\":7,\"phrase\":\"accustomed to idols until now\",\"lemma\":\"συνήθεια\",\"kind\":\"textual\",\"traditional\":\"with conscience of the idol\",\"note\":\"Many later manuscripts read a similar-looking Greek word meaning “conscience” instead of “custom”, which is the source of the King James wording. The earliest witnesses read “custom” or “habit”, and modern editions and translations follow them.\"},{\"verse\":8,\"phrase\":\"bring us near to God\",\"lemma\":\"παρίστημι\",\"kind\":\"ambiguity\",\"traditional\":\"commend us to God\",\"note\":\"The verb means to present or place someone before another. It may mean here that food does not bring a person close to God or win his approval, or, in a courtroom sense, that food will not bring a person before God for judgment. Either way the point is that eating or not eating makes no difference to one’s standing with God.\"},{\"verse\":10,\"phrase\":\"be built up\",\"lemma\":\"οἰκοδομέω\",\"kind\":\"departure\",\"traditional\":\"be emboldened\",\"note\":\"Most translations have “emboldened” or “encouraged”. The Greek verb is the same one used in verse 1, “love builds up”, and Paul’s reuse of it is ironic: the knowledgeable person’s example does “build up” the weak person, but toward ruin. The rendering keeps that echo.\"},{\"verse\":11,\"phrase\":\"brother or sister\",\"lemma\":\"ἀδελφός\",\"kind\":\"departure\",\"traditional\":\"brother\",\"note\":\"The Greek word is the masculine “brother”, which in early Christian usage referred to any fellow believer, male or female. Many recent translations render it inclusively, as here, while others keep “brother”.\"},{\"verse\":13,\"phrase\":\"causes my brother or sister to stumble\",\"lemma\":\"σκανδαλίζω\",\"kind\":\"departure\",\"traditional\":\"make my brother to offend\",\"note\":\"The King James Version has “offend”, which now suggests hurt feelings. The verb means to trip someone up so that they fall in their loyalty to God. Modern versions divide between “cause to stumble” and “cause to sin” or “cause to fall”; the first keeps both the picture and the breadth of the Greek.\"}],\"candidates\":[{\"lemma\":\"εἰδωλόθυτος\",\"rendering\":\"food sacrificed to idols\",\"verse\":1,\"reason\":\"Recurs in 1 Corinthians 8–10, Acts 15 and 21, and Revelation 2, and translations vary between “food”, “meat” and “things” that are “offered” or “sacrificed” to idols.\"},{\"lemma\":\"συνείδησις\",\"rendering\":\"conscience\",\"verse\":7,\"reason\":\"Frequent in Paul, Hebrews and 1 Peter; some scholars argue for “consciousness” or “moral awareness” in places, so one policy is needed.\"},{\"lemma\":\"ἀδελφός\",\"rendering\":\"brother or sister (singular); brothers and sisters (plural)\",\"verse\":11,\"reason\":\"Occurs hundreds of times for fellow believers, and whether to render it inclusively must be decided once for the whole New Testament.\"},{\"lemma\":\"ἐξουσία\",\"rendering\":\"right\",\"verse\":9,\"reason\":\"Ranges across “authority”, “right”, “power” and “liberty” in different books, and the “right” sense recurs in 1 Corinthians 9, where it should match this verse.\"},{\"lemma\":\"οἰκοδομέω\",\"rendering\":\"build up\",\"verse\":1,\"reason\":\"Paul’s figurative use (“build up”, traditionally “edify”) recurs across his letters, and wordplay such as that at 8:10 depends on a consistent rendering.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now concerning food sacrificed to idols: we know that “we all have knowledge.” Knowledge puffs up, but love builds up."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "If anyone thinks they have come to know something, they do not yet know as they ought to know;"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "but if anyone loves God, that person is known by him."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So then, concerning the eating of food sacrificed to idols: we know that “no idol in the world really exists,” and that “there is no God but one.”"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For even if there are so-called gods, whether in heaven or on earth—as indeed there are many gods and many lords—"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "yet for us there is one God, the Father, from whom all things come and for whom we exist, and one Lord, Jesus Christ, through whom all things come and through whom we exist."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But not everyone has this knowledge. Some, having been accustomed to idols until now, eat it as food sacrificed to an idol, and their conscience, being weak, is defiled."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But food will not bring us near to God: we are no better off if we eat, and no worse off if we do not."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But take care that this right of yours does not somehow become a stumbling block to the weak."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For if someone sees you, the one with knowledge, reclining at a meal in an idol’s temple, will not the conscience of that person, who is weak, be built up to eat food sacrificed to idols?"
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For the weak person is being destroyed by your knowledge—the brother or sister for whom Christ died."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And so, by sinning against your brothers and sisters and striking their conscience when it is weak, you sin against Christ."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Therefore, if food causes my brother or sister to stumble, I will never eat meat again, so that I do not cause my brother or sister to stumble."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "food sacrificed to idols",
+    "lemma": "εἰδωλόθυτος",
+    "kind": "background",
+    "traditional": "things offered unto idols",
+    "note": "In a Greek city most animals were slaughtered as sacrifices at temples. Part of the meat was eaten at meals in temple dining rooms, and part could be sold in the market. Sharing such meals was an ordinary part of social life, so the question touched family, business and civic ties. The Greek term is a Jewish and Christian one; pagans themselves spoke of “sacred” meat."
+   },
+   {
+    "verse": 1,
+    "phrase": "we all have knowledge",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "we know that we all have knowledge",
+    "note": "Greek manuscripts have no quotation marks. Most scholars think Paul is here quoting a slogan of some Corinthians, perhaps from their letter to him, and then qualifying it; the same applies to the statements in verse 4. It is also possible to read these words as Paul’s own statement."
+   },
+   {
+    "verse": 3,
+    "phrase": "that person is known by him",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "the same is known of him",
+    "note": "A few early witnesses, including the oldest papyrus of Paul’s letters, lack “God” and “by him”, giving “if anyone loves, that person is known” or possibly “has come to know”. Most manuscripts and editions have the longer text translated here."
+   },
+   {
+    "verse": 4,
+    "phrase": "no idol in the world really exists",
+    "lemma": "εἴδωλον",
+    "kind": "ambiguity",
+    "traditional": "an idol is nothing in the world",
+    "note": "The Greek can be read either as “there is no idol in the world”, meaning that the god an image represents has no real existence, or as “an idol is nothing in the world”. The first reading matches the parallel clause that follows (“there is no God but one”) and is followed here; the second is the traditional rendering and is also defensible."
+   },
+   {
+    "verse": 6,
+    "phrase": "one God, the Father",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "one God, the Father",
+    "note": "The language of “one God” and “one Lord” echoes Israel’s daily confession, “Hear, O Israel: the Lord our God, the Lord is one” (Deuteronomy 6:4), where the Greek version has both “God” and “Lord”. Many scholars think Paul is deliberately restating that confession so that it includes Jesus Christ."
+   },
+   {
+    "verse": 7,
+    "phrase": "accustomed to idols until now",
+    "lemma": "συνήθεια",
+    "kind": "textual",
+    "traditional": "with conscience of the idol",
+    "note": "Many later manuscripts read a similar-looking Greek word meaning “conscience” instead of “custom”, which is the source of the King James wording. The earliest witnesses read “custom” or “habit”, and modern editions and translations follow them."
+   },
+   {
+    "verse": 8,
+    "phrase": "bring us near to God",
+    "lemma": "παρίστημι",
+    "kind": "ambiguity",
+    "traditional": "commend us to God",
+    "note": "The verb means to present or place someone before another. It may mean here that food does not bring a person close to God or win his approval, or, in a courtroom sense, that food will not bring a person before God for judgment. Either way the point is that eating or not eating makes no difference to one’s standing with God."
+   },
+   {
+    "verse": 10,
+    "phrase": "be built up",
+    "lemma": "οἰκοδομέω",
+    "kind": "departure",
+    "traditional": "be emboldened",
+    "note": "Most translations have “emboldened” or “encouraged”. The Greek verb is the same one used in verse 1, “love builds up”, and Paul’s reuse of it is ironic: the knowledgeable person’s example does “build up” the weak person, but toward ruin. The rendering keeps that echo."
+   },
+   {
+    "verse": 11,
+    "phrase": "brother or sister",
+    "lemma": "ἀδελφός",
+    "kind": "departure",
+    "traditional": "brother",
+    "note": "The Greek word is the masculine “brother”, which in early Christian usage referred to any fellow believer, male or female. Many recent translations render it inclusively, as here, while others keep “brother”."
+   },
+   {
+    "verse": 13,
+    "phrase": "causes my brother or sister to stumble",
+    "lemma": "σκανδαλίζω",
+    "kind": "departure",
+    "traditional": "make my brother to offend",
+    "note": "The King James Version has “offend”, which now suggests hurt feelings. The verb means to trip someone up so that they fall in their loyalty to God. Modern versions divide between “cause to stumble” and “cause to sin” or “cause to fall”; the first keeps both the picture and the breadth of the Greek."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "εἰδωλόθυτος",
+    "rendering": "food sacrificed to idols",
+    "verse": 1,
+    "reason": "Recurs in 1 Corinthians 8–10, Acts 15 and 21, and Revelation 2, and translations vary between “food”, “meat” and “things” that are “offered” or “sacrificed” to idols."
+   },
+   {
+    "lemma": "συνείδησις",
+    "rendering": "conscience",
+    "verse": 7,
+    "reason": "Frequent in Paul, Hebrews and 1 Peter; some scholars argue for “consciousness” or “moral awareness” in places, so one policy is needed."
+   },
+   {
+    "lemma": "ἀδελφός",
+    "rendering": "brother or sister (singular); brothers and sisters (plural)",
+    "verse": 11,
+    "reason": "Occurs hundreds of times for fellow believers, and whether to render it inclusively must be decided once for the whole New Testament."
+   },
+   {
+    "lemma": "ἐξουσία",
+    "rendering": "right",
+    "verse": 9,
+    "reason": "Ranges across “authority”, “right”, “power” and “liberty” in different books, and the “right” sense recurs in 1 Corinthians 9, where it should match this verse."
+   },
+   {
+    "lemma": "οἰκοδομέω",
+    "rendering": "build up",
+    "verse": 1,
+    "reason": "Paul’s figurative use (“build up”, traditionally “edify”) recurs across his letters, and wordplay such as that at 8:10 depends on a consistent rendering."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 3456,
+   "output_tokens": 298
+  },
+  "findings": [],
+  "error": ""
+ }
+}

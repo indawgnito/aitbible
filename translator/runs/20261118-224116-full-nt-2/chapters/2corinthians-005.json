@@ -1,0 +1,383 @@
+{
+ "id": "2corinthians-005",
+ "book": "2corinthians",
+ "chapter": 5,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14or4wWYJ1myM44Jm",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 8727,
+  "output_tokens": 11550
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For we know that if our earthly house, this tent, is taken down, we have a building from God, a house not made with hands, eternal, in the heavens.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For indeed in this tent we groan, longing to put on over it our dwelling from heaven,\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"if indeed, having put it on, we will not be found naked.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For indeed we who are in this tent groan, weighed down, because we do not want to take it off but to put the other on over it, so that what is mortal may be swallowed up by life.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now the one who prepared us for this very thing is God, who gave us the Spirit as a down payment.\"}]},{\"verse\":6,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So we are always confident, and we know that while we are at home in the body we are away from the Lord;\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"for we walk by faith, not by sight.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"We are confident, I say, and would rather be away from the body and at home with the Lord.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So we also make it our ambition, whether at home or away, to be pleasing to him.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For we must all stand revealed before the judgment seat of Christ, so that each may be repaid for what was done through the body, according to what each has done, whether good or bad.\"}]},{\"verse\":11,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Knowing, then, the fear of the Lord, we try to persuade people; but to God we stand revealed, and I hope that we stand revealed in your consciences as well.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"We are not commending ourselves to you again but giving you an opportunity to boast about us, so that you may have an answer for those who boast in outward appearance and not in the heart.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For if we were out of our mind, it was for God; if we are in our right mind, it is for you.\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For the love of Christ holds us in its grip, because we have reached this judgment: one died for all, and so all died.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And he died for all so that those who live might no longer live for themselves but for the one who died for them and was raised.\"}]},{\"verse\":16,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So from now on we know no one according to the flesh. Even if we once knew Christ according to the flesh, we now know him that way no longer.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So if anyone is in Christ, there is a new creation: the old things have passed away; look, new things have come!\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And all of this is from God, who reconciled us to himself through Christ and gave us the service of reconciliation:\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"that God was in Christ reconciling the world to himself, not counting their offenses against them, and entrusting to us the message of reconciliation.\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So we are ambassadors on Christ’s behalf, with God making his appeal through us. We beg on Christ’s behalf: be reconciled to God.\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The one who knew no sin he made to be sin for us, so that in him we might become the righteousness of God.\"}]}],\"notes\":[{\"verse\":2,\"phrase\":\"put on over it\",\"lemma\":\"ἐπενδύομαι\",\"kind\":\"departure\",\"traditional\":\"to be clothed upon; to be further clothed\",\"note\":\"The verb means to put one garment on over another. Paul shifts from the image of a tent to that of clothing: he longs not to be stripped of the present body but to have the heavenly one put on over it. The rendering keeps this “over” sense, which “be clothed” alone loses.\"},{\"verse\":3,\"phrase\":\"having put it on\",\"lemma\":\"ἐνδύω\",\"kind\":\"textual\",\"traditional\":\"being clothed\",\"note\":\"Most manuscripts read “having put it on,” which is followed here. A few witnesses read “having taken it off,” giving “even when we have taken it off we will not be found naked”; some modern editions prefer that reading because it avoids an apparent tautology. The two Greek words differ by a single letter.\"},{\"verse\":5,\"phrase\":\"down payment\",\"lemma\":\"ἀρραβών\",\"kind\":\"departure\",\"traditional\":\"earnest; guarantee; pledge\",\"note\":\"This was a commercial term for the first installment paid on a purchase, which bound the buyer to pay the rest. Older versions have “earnest” and many modern ones “guarantee” or “deposit.” “Down payment” keeps the point that the Spirit is itself a first part of what is promised, not only an assurance of it.\"},{\"verse\":10,\"phrase\":\"stand revealed\",\"lemma\":\"φανερόω\",\"kind\":\"departure\",\"traditional\":\"appear\",\"note\":\"The verb means to be made visible or shown openly, which is more than turning up in court. Paul uses the same verb twice in the next verse of his own openness to God and to the Corinthians, and the rendering keeps that link. Most translations have “appear” here and “be made manifest” or “be known” in verse 11.\"},{\"verse\":13,\"phrase\":\"out of our mind\",\"lemma\":\"ἐξίστημι\",\"kind\":\"ambiguity\",\"traditional\":\"beside ourselves\",\"note\":\"The verb can describe madness or a state of religious ecstasy. Paul may be answering a charge that he was unbalanced, or referring to visionary experiences that he treats as a matter between himself and God. The Greek does not settle which, and scholars are divided.\"},{\"verse\":14,\"phrase\":\"the love of Christ\",\"lemma\":\"ἀγάπη\",\"kind\":\"ambiguity\",\"traditional\":\"the love of Christ\",\"note\":\"The Greek can mean Christ’s love for us or our love for Christ. Most interpreters take it as Christ’s love, shown in his death described in the next clause. The verb rendered “holds us in its grip” means to hem in or hold fast, and is variously translated “constrains,” “controls” or “compels.”\"},{\"verse\":16,\"phrase\":\"according to the flesh\",\"lemma\":\"σάρξ\",\"kind\":\"background\",\"traditional\":\"according to the flesh; from a human point of view\",\"note\":\"“Flesh” in Paul often means human life and its standards apart from God, not the body or sensuality. Most scholars take the phrase here with the verb: it describes a merely human way of assessing people, which Paul once applied even to Christ. A minority connect it with “Christ,” as a reference to knowing Jesus in his earthly life.\"},{\"verse\":17,\"phrase\":\"there is a new creation\",\"lemma\":\"κτίσις\",\"kind\":\"ambiguity\",\"traditional\":\"he is a new creature; he is a new creation\",\"note\":\"The Greek has no verb: literally, “if anyone in Christ, new creation.” The traditional rendering supplies “he is,” making the person the new creation. The rendering here supplies “there is,” on the view that Paul means the new world God promised has arrived for anyone in Christ. Both are grammatically possible and both have scholarly support.\"},{\"verse\":18,\"phrase\":\"service\",\"lemma\":\"διακονία\",\"kind\":\"departure\",\"traditional\":\"ministry\",\"note\":\"Most English translations have “ministry of reconciliation.” The Greek word was an everyday term for service or for a task carried out on someone’s behalf, and did not denote a religious office. “Ministry” now suggests clergy or a church profession. “Service” is a recognized lexical gloss and keeps the link with the related words for “servant” and “serve.”\"},{\"verse\":19,\"phrase\":\"God was in Christ reconciling the world to himself\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"God was in Christ, reconciling the world unto himself; in Christ God was reconciling the world to himself\",\"note\":\"The Greek can be read as a statement that God was in Christ, with the reconciling as a further description, or as “in Christ God was reconciling the world,” where “in Christ” names the means. The rendering follows the Greek word order and leaves both readings open. Many scholars favor the second.\"},{\"verse\":19,\"phrase\":\"offenses\",\"lemma\":\"παράπτωμα\",\"kind\":\"departure\",\"traditional\":\"trespasses\",\"note\":\"The word means a wrongful act against God or another person. “Trespass,” the traditional rendering, now chiefly suggests entering property without permission. “Offense” is a standard lexical gloss; other versions use “transgressions” or “sins.” The meaning itself is not disputed.\"},{\"verse\":21,\"phrase\":\"made to be sin\",\"lemma\":\"ἁμαρτία\",\"kind\":\"ambiguity\",\"traditional\":\"made him to be sin\",\"note\":\"Paul’s compressed phrase is usually taken to mean that God treated the sinless Christ as identified with human sin. Some interpreters note that in the Greek Old Testament the same word can mean “sin offering,” and read “made him a sin offering for us.” The rendering keeps Paul’s starker wording, which sets “sin” against “righteousness” in the same sentence.\"},{\"verse\":21,\"phrase\":\"the righteousness of God\",\"lemma\":\"δικαιοσύνη\",\"kind\":\"background\",\"traditional\":\"the righteousness of God\",\"note\":\"Greek has one word-family where English has two: righteous and just, righteousness and justice, justify. The phrase can mean a right standing that comes from God or God’s own action in setting things right. Some scholars prefer “justice” or “covenant faithfulness.” The traditional word is kept because “justice of God” would suggest punishment to many modern readers.\"}],\"candidates\":[{\"lemma\":\"σάρξ\",\"rendering\":\"flesh\",\"verse\":16,\"reason\":\"Paul’s κατὰ σάρκα and related uses recur across the letters, and translations split between “flesh” and paraphrases such as “human point of view” or “sinful nature.”\"},{\"lemma\":\"φανερόω\",\"rendering\":\"stand revealed\",\"verse\":10,\"reason\":\"It is frequent in Paul and John, and it is rendered variously as “appear,” “manifest,” “reveal” or “make known,” which obscures links such as the one between verses 10 and 11 here.\"},{\"lemma\":\"ἀρραβών\",\"rendering\":\"down payment\",\"verse\":5,\"reason\":\"It occurs in 2 Corinthians 1:22 and 5:5 and in Ephesians 1:14, always of the Spirit, and versions vary between “earnest,” “pledge,” “guarantee,” “deposit” and “down payment.”\"},{\"lemma\":\"παρακαλέω\",\"rendering\":\"make an appeal\",\"verse\":20,\"reason\":\"It is very common, with senses ranging from “urge” and “appeal” to “comfort” and “encourage,” and it needs sense-by-sense defaults, especially across 2 Corinthians.\"},{\"lemma\":\"καυχάομαι\",\"rendering\":\"boast\",\"verse\":12,\"reason\":\"This word and its cognates run through Paul’s letters in both good and bad senses, and versions alternate between “boast,” “glory,” “take pride” and “rejoice.”\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For we know that if our earthly house, this tent, is taken down, we have a building from God, a house not made with hands, eternal, in the heavens."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For indeed in this tent we groan, longing to put on over it our dwelling from heaven,"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "if indeed, having put it on, we will not be found naked."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For indeed we who are in this tent groan, weighed down, because we do not want to take it off but to put the other on over it, so that what is mortal may be swallowed up by life."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now the one who prepared us for this very thing is God, who gave us the Spirit as a down payment."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So we are always confident, and we know that while we are at home in the body we are away from the Lord;"
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "for we walk by faith, not by sight."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "We are confident, I say, and would rather be away from the body and at home with the Lord."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So we also make it our ambition, whether at home or away, to be pleasing to him."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For we must all stand revealed before the judgment seat of Christ, so that each may be repaid for what was done through the body, according to what each has done, whether good or bad."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Knowing, then, the fear of the Lord, we try to persuade people; but to God we stand revealed, and I hope that we stand revealed in your consciences as well."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "We are not commending ourselves to you again but giving you an opportunity to boast about us, so that you may have an answer for those who boast in outward appearance and not in the heart."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For if we were out of our mind, it was for God; if we are in our right mind, it is for you."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For the love of Christ holds us in its grip, because we have reached this judgment: one died for all, and so all died."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And he died for all so that those who live might no longer live for themselves but for the one who died for them and was raised."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So from now on we know no one according to the flesh. Even if we once knew Christ according to the flesh, we now know him that way no longer."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So if anyone is in Christ, there is a new creation: the old things have passed away; look, new things have come!"
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And all of this is from God, who reconciled us to himself through Christ and gave us the service of reconciliation:"
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "that God was in Christ reconciling the world to himself, not counting their offenses against them, and entrusting to us the message of reconciliation."
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So we are ambassadors on Christ’s behalf, with God making his appeal through us. We beg on Christ’s behalf: be reconciled to God."
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The one who knew no sin he made to be sin for us, so that in him we might become the righteousness of God."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 2,
+    "phrase": "put on over it",
+    "lemma": "ἐπενδύομαι",
+    "kind": "departure",
+    "traditional": "to be clothed upon; to be further clothed",
+    "note": "The verb means to put one garment on over another. Paul shifts from the image of a tent to that of clothing: he longs not to be stripped of the present body but to have the heavenly one put on over it. The rendering keeps this “over” sense, which “be clothed” alone loses."
+   },
+   {
+    "verse": 3,
+    "phrase": "having put it on",
+    "lemma": "ἐνδύω",
+    "kind": "textual",
+    "traditional": "being clothed",
+    "note": "Most manuscripts read “having put it on,” which is followed here. A few witnesses read “having taken it off,” giving “even when we have taken it off we will not be found naked”; some modern editions prefer that reading because it avoids an apparent tautology. The two Greek words differ by a single letter."
+   },
+   {
+    "verse": 5,
+    "phrase": "down payment",
+    "lemma": "ἀρραβών",
+    "kind": "departure",
+    "traditional": "earnest; guarantee; pledge",
+    "note": "This was a commercial term for the first installment paid on a purchase, which bound the buyer to pay the rest. Older versions have “earnest” and many modern ones “guarantee” or “deposit.” “Down payment” keeps the point that the Spirit is itself a first part of what is promised, not only an assurance of it."
+   },
+   {
+    "verse": 10,
+    "phrase": "stand revealed",
+    "lemma": "φανερόω",
+    "kind": "departure",
+    "traditional": "appear",
+    "note": "The verb means to be made visible or shown openly, which is more than turning up in court. Paul uses the same verb twice in the next verse of his own openness to God and to the Corinthians, and the rendering keeps that link. Most translations have “appear” here and “be made manifest” or “be known” in verse 11."
+   },
+   {
+    "verse": 13,
+    "phrase": "out of our mind",
+    "lemma": "ἐξίστημι",
+    "kind": "ambiguity",
+    "traditional": "beside ourselves",
+    "note": "The verb can describe madness or a state of religious ecstasy. Paul may be answering a charge that he was unbalanced, or referring to visionary experiences that he treats as a matter between himself and God. The Greek does not settle which, and scholars are divided."
+   },
+   {
+    "verse": 14,
+    "phrase": "the love of Christ",
+    "lemma": "ἀγάπη",
+    "kind": "ambiguity",
+    "traditional": "the love of Christ",
+    "note": "The Greek can mean Christ’s love for us or our love for Christ. Most interpreters take it as Christ’s love, shown in his death described in the next clause. The verb rendered “holds us in its grip” means to hem in or hold fast, and is variously translated “constrains,” “controls” or “compels.”"
+   },
+   {
+    "verse": 16,
+    "phrase": "according to the flesh",
+    "lemma": "σάρξ",
+    "kind": "background",
+    "traditional": "according to the flesh; from a human point of view",
+    "note": "“Flesh” in Paul often means human life and its standards apart from God, not the body or sensuality. Most scholars take the phrase here with the verb: it describes a merely human way of assessing people, which Paul once applied even to Christ. A minority connect it with “Christ,” as a reference to knowing Jesus in his earthly life."
+   },
+   {
+    "verse": 17,
+    "phrase": "there is a new creation",
+    "lemma": "κτίσις",
+    "kind": "ambiguity",
+    "traditional": "he is a new creature; he is a new creation",
+    "note": "The Greek has no verb: literally, “if anyone in Christ, new creation.” The traditional rendering supplies “he is,” making the person the new creation. The rendering here supplies “there is,” on the view that Paul means the new world God promised has arrived for anyone in Christ. Both are grammatically possible and both have scholarly support."
+   },
+   {
+    "verse": 18,
+    "phrase": "service",
+    "lemma": "διακονία",
+    "kind": "departure",
+    "traditional": "ministry",
+    "note": "Most English translations have “ministry of reconciliation.” The Greek word was an everyday term for service or for a task carried out on someone’s behalf, and did not denote a religious office. “Ministry” now suggests clergy or a church profession. “Service” is a recognized lexical gloss and keeps the link with the related words for “servant” and “serve.”"
+   },
+   {
+    "verse": 19,
+    "phrase": "God was in Christ reconciling the world to himself",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "God was in Christ, reconciling the world unto himself; in Christ God was reconciling the world to himself",
+    "note": "The Greek can be read as a statement that God was in Christ, with the reconciling as a further description, or as “in Christ God was reconciling the world,” where “in Christ” names the means. The rendering follows the Greek word order and leaves both readings open. Many scholars favor the second."
+   },
+   {
+    "verse": 19,
+    "phrase": "offenses",
+    "lemma": "παράπτωμα",
+    "kind": "departure",
+    "traditional": "trespasses",
+    "note": "The word means a wrongful act against God or another person. “Trespass,” the traditional rendering, now chiefly suggests entering property without permission. “Offense” is a standard lexical gloss; other versions use “transgressions” or “sins.” The meaning itself is not disputed."
+   },
+   {
+    "verse": 21,
+    "phrase": "made to be sin",
+    "lemma": "ἁμαρτία",
+    "kind": "ambiguity",
+    "traditional": "made him to be sin",
+    "note": "Paul’s compressed phrase is usually taken to mean that God treated the sinless Christ as identified with human sin. Some interpreters note that in the Greek Old Testament the same word can mean “sin offering,” and read “made him a sin offering for us.” The rendering keeps Paul’s starker wording, which sets “sin” against “righteousness” in the same sentence."
+   },
+   {
+    "verse": 21,
+    "phrase": "the righteousness of God",
+    "lemma": "δικαιοσύνη",
+    "kind": "background",
+    "traditional": "the righteousness of God",
+    "note": "Greek has one word-family where English has two: righteous and just, righteousness and justice, justify. The phrase can mean a right standing that comes from God or God’s own action in setting things right. Some scholars prefer “justice” or “covenant faithfulness.” The traditional word is kept because “justice of God” would suggest punishment to many modern readers."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "σάρξ",
+    "rendering": "flesh",
+    "verse": 16,
+    "reason": "Paul’s κατὰ σάρκα and related uses recur across the letters, and translations split between “flesh” and paraphrases such as “human point of view” or “sinful nature.”"
+   },
+   {
+    "lemma": "φανερόω",
+    "rendering": "stand revealed",
+    "verse": 10,
+    "reason": "It is frequent in Paul and John, and it is rendered variously as “appear,” “manifest,” “reveal” or “make known,” which obscures links such as the one between verses 10 and 11 here."
+   },
+   {
+    "lemma": "ἀρραβών",
+    "rendering": "down payment",
+    "verse": 5,
+    "reason": "It occurs in 2 Corinthians 1:22 and 5:5 and in Ephesians 1:14, always of the Spirit, and versions vary between “earnest,” “pledge,” “guarantee,” “deposit” and “down payment.”"
+   },
+   {
+    "lemma": "παρακαλέω",
+    "rendering": "make an appeal",
+    "verse": 20,
+    "reason": "It is very common, with senses ranging from “urge” and “appeal” to “comfort” and “encourage,” and it needs sense-by-sense defaults, especially across 2 Corinthians."
+   },
+   {
+    "lemma": "καυχάομαι",
+    "rendering": "boast",
+    "verse": 12,
+    "reason": "This word and its cognates run through Paul’s letters in both good and bad senses, and versions alternate between “boast,” “glory,” “take pride” and “rejoice.”"
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 4672,
+   "output_tokens": 378
+  },
+  "findings": [],
+  "error": ""
+ }
+}

@@ -1,0 +1,283 @@
+{
+ "id": "2corinthians-013",
+ "book": "2corinthians",
+ "chapter": 13,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14dgJZ41z381GRLBd",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 9390,
+  "output_tokens": 7652
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"This is the third time I am coming to you.\"},{\"speaker\":\"scripture\",\"text\":\"“By the mouth of two witnesses or three every matter will be established.”\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"I gave warning when I was present the second time, and now while absent I give warning again, to those who sinned before and to all the rest: if I come again, I will not spare anyone,\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"since you are seeking proof that Christ is speaking in me. He is not weak in dealing with you, but is powerful among you.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For indeed he was crucified in weakness, but he lives by the power of God. For we too are weak in him, but we will live with him by the power of God in dealing with you.\"}]},{\"verse\":5,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Examine yourselves to see whether you are in the faith; test yourselves. Or do you not recognize this about yourselves, that Jesus Christ is in you—unless, of course, you fail the test?\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But I hope you will come to know that we do not fail the test.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now we pray to God that you do nothing wrong—not so that we may be seen to have passed the test, but so that you may do what is right, even if we seem to have failed it.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For we cannot do anything against the truth, but only for the truth.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For we rejoice whenever we are weak and you are strong. This is also what we pray for: your restoration.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"This is why I write these things while absent, so that when I am present I may not have to deal severely with you, in keeping with the authority the Lord gave me for building up and not for tearing down.\"}]},{\"verse\":11,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Finally, brothers and sisters, rejoice, be restored, be encouraged, be of one mind, live in peace, and the God of love and peace will be with you.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Greet one another with a holy kiss. All the holy ones greet you.\"}]},{\"verse\":13,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The grace of the Lord Jesus Christ and the love of God and the fellowship of the Holy Spirit be with you all.\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"By the mouth of two witnesses or three\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"Paul quotes the rule of evidence from Deuteronomy 19:15 without an introductory formula. He may mean that his three visits (the founding visit, the painful second visit of 2:1, and the one now planned) count as the required witnesses, or that he will hold a formal hearing when he arrives. Interpreters are divided between the two.\"},{\"verse\":3,\"phrase\":\"among you\",\"lemma\":\"ἐν\",\"kind\":\"ambiguity\",\"traditional\":\"in you\",\"note\":\"The Greek phrase can mean “in you” (within each person) or “among you” (in the community). Here, where Christ’s power at work in the Corinthian church is in view, “among you” is used. The same phrase in verse 5 is rendered “in you,” though “among you” is possible there as well.\"},{\"verse\":5,\"phrase\":\"fail the test\",\"lemma\":\"ἀδόκιμος\",\"kind\":\"departure\",\"traditional\":\"reprobates; disqualified\",\"note\":\"Verses 3–7 play on a single Greek word family: “proof” (v. 3), “test yourselves” (v. 5), and the adjectives for failing or passing a test (vv. 5–7). The traditional “reprobates” and the common modern “disqualified” hide the link, so the adjectives are rendered “fail the test” and “passed the test.” Several modern translations do the same.\"},{\"verse\":9,\"phrase\":\"your restoration\",\"lemma\":\"κατάρτισις\",\"kind\":\"departure\",\"traditional\":\"your perfection\",\"note\":\"The noun and its related verb in verse 11 were used for putting something back in order: mending nets, setting a bone, equipping or completing. Older versions have “perfection,” which now suggests flawlessness. In a letter addressing a damaged relationship “restoration” fits the context, and a number of modern translations agree, though “being made complete” is also defensible.\"},{\"verse\":11,\"phrase\":\"brothers and sisters\",\"lemma\":\"ἀδελφός\",\"kind\":\"departure\",\"traditional\":\"brothers; brethren\",\"note\":\"The Greek plural was the ordinary way to address a mixed group of men and women as siblings. Paul is addressing the whole congregation, so “brothers and sisters” conveys what the first hearers understood. Many recent translations render it this way, while others keep “brothers.”\"},{\"verse\":11,\"phrase\":\"rejoice\",\"lemma\":\"χαίρω\",\"kind\":\"ambiguity\",\"traditional\":\"farewell\",\"note\":\"The Greek imperative was also a standard word of greeting and parting, so it can be translated “farewell” or “goodbye,” as some versions do. Because Paul has just used the same verb for “we rejoice” in verse 9 and a series of exhortations follows, “rejoice” is preferred here. The two passive-looking verbs that follow can also be read as “mend your ways” and “encourage one another.”\"},{\"verse\":12,\"phrase\":\"a holy kiss\",\"lemma\":\"φίλημα\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"A kiss was a normal greeting among family members and close friends in the ancient Mediterranean world. Exchanging it within the congregation expressed that believers regarded one another as kin, and “holy” marks it as belonging to that shared life.\"},{\"verse\":12,\"phrase\":\"holy ones\",\"lemma\":\"ἅγιος\",\"kind\":\"departure\",\"traditional\":\"saints\",\"note\":\"The traditional “saints” now suggests canonized individuals or people of exceptional virtue. The Greek word is used of all believers as people set apart for God, echoing the Septuagint’s language for Israel. Many translations keep “saints”; others use “God’s people” or “his holy people.”\"},{\"verse\":13,\"phrase\":\"the fellowship of the Holy Spirit\",\"lemma\":\"κοινωνία\",\"kind\":\"ambiguity\",\"traditional\":\"the communion of the Holy Ghost; the fellowship of the Holy Spirit\",\"note\":\"The Greek word means a bond of shared life and is stronger than modern “fellowship” may suggest. The phrase can mean the fellowship the Holy Spirit creates among believers or a sharing in the Holy Spirit himself. Many scholars favor the second reading. The rendering keeps the open “of” so that both remain possible.\"},{\"verse\":13,\"phrase\":\"The grace of the Lord Jesus Christ\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"Many English Bibles divide verse 12 into two verses and number this blessing as verse 14. The wording is the same; only the numbering differs.\"}],\"candidates\":[{\"lemma\":\"ἀδελφός\",\"rendering\":\"brothers and sisters\",\"verse\":11,\"reason\":\"The plural address to mixed congregations recurs across all the letters, and translators split between “brothers” and “brothers and sisters.”\"},{\"lemma\":\"ἀδόκιμος\",\"rendering\":\"fail the test\",\"verse\":5,\"reason\":\"Rendered variously as “reprobate,” “disqualified,” “unfit,” or “failing the test” across Romans, 1–2 Corinthians, the Pastorals and Hebrews, which hides the link to δοκιμάζω and δόκιμος.\"},{\"lemma\":\"δοκιμάζω\",\"rendering\":\"test\",\"verse\":5,\"reason\":\"It overlaps with πειράζω and is rendered “test,” “examine,” “prove,” “approve” or “discern” across the letters, so it needs a decision coordinated with the πειράζω entry.\"},{\"lemma\":\"καταρτίζω\",\"rendering\":\"be restored\",\"verse\":11,\"reason\":\"The verb and its noun κατάρτισις range over “restore,” “mend,” “equip,” “complete” and the older “perfect,” and they recur in the Gospels, Paul, Hebrews and 1 Peter.\"},{\"lemma\":\"οἰκοδομή\",\"rendering\":\"building up\",\"verse\":10,\"reason\":\"Paul’s metaphor is rendered “edification,” “building up” or “strengthening” in different places, and it should stay recognizable across Romans, 1–2 Corinthians and Ephesians.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "This is the third time I am coming to you."
+     },
+     {
+      "speaker": "scripture",
+      "text": "“By the mouth of two witnesses or three every matter will be established.”"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "I gave warning when I was present the second time, and now while absent I give warning again, to those who sinned before and to all the rest: if I come again, I will not spare anyone,"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "since you are seeking proof that Christ is speaking in me. He is not weak in dealing with you, but is powerful among you."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For indeed he was crucified in weakness, but he lives by the power of God. For we too are weak in him, but we will live with him by the power of God in dealing with you."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Examine yourselves to see whether you are in the faith; test yourselves. Or do you not recognize this about yourselves, that Jesus Christ is in you—unless, of course, you fail the test?"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But I hope you will come to know that we do not fail the test."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now we pray to God that you do nothing wrong—not so that we may be seen to have passed the test, but so that you may do what is right, even if we seem to have failed it."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For we cannot do anything against the truth, but only for the truth."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For we rejoice whenever we are weak and you are strong. This is also what we pray for: your restoration."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "This is why I write these things while absent, so that when I am present I may not have to deal severely with you, in keeping with the authority the Lord gave me for building up and not for tearing down."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Finally, brothers and sisters, rejoice, be restored, be encouraged, be of one mind, live in peace, and the God of love and peace will be with you."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Greet one another with a holy kiss. All the holy ones greet you."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The grace of the Lord Jesus Christ and the love of God and the fellowship of the Holy Spirit be with you all."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "By the mouth of two witnesses or three",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "Paul quotes the rule of evidence from Deuteronomy 19:15 without an introductory formula. He may mean that his three visits (the founding visit, the painful second visit of 2:1, and the one now planned) count as the required witnesses, or that he will hold a formal hearing when he arrives. Interpreters are divided between the two."
+   },
+   {
+    "verse": 3,
+    "phrase": "among you",
+    "lemma": "ἐν",
+    "kind": "ambiguity",
+    "traditional": "in you",
+    "note": "The Greek phrase can mean “in you” (within each person) or “among you” (in the community). Here, where Christ’s power at work in the Corinthian church is in view, “among you” is used. The same phrase in verse 5 is rendered “in you,” though “among you” is possible there as well."
+   },
+   {
+    "verse": 5,
+    "phrase": "fail the test",
+    "lemma": "ἀδόκιμος",
+    "kind": "departure",
+    "traditional": "reprobates; disqualified",
+    "note": "Verses 3–7 play on a single Greek word family: “proof” (v. 3), “test yourselves” (v. 5), and the adjectives for failing or passing a test (vv. 5–7). The traditional “reprobates” and the common modern “disqualified” hide the link, so the adjectives are rendered “fail the test” and “passed the test.” Several modern translations do the same."
+   },
+   {
+    "verse": 9,
+    "phrase": "your restoration",
+    "lemma": "κατάρτισις",
+    "kind": "departure",
+    "traditional": "your perfection",
+    "note": "The noun and its related verb in verse 11 were used for putting something back in order: mending nets, setting a bone, equipping or completing. Older versions have “perfection,” which now suggests flawlessness. In a letter addressing a damaged relationship “restoration” fits the context, and a number of modern translations agree, though “being made complete” is also defensible."
+   },
+   {
+    "verse": 11,
+    "phrase": "brothers and sisters",
+    "lemma": "ἀδελφός",
+    "kind": "departure",
+    "traditional": "brothers; brethren",
+    "note": "The Greek plural was the ordinary way to address a mixed group of men and women as siblings. Paul is addressing the whole congregation, so “brothers and sisters” conveys what the first hearers understood. Many recent translations render it this way, while others keep “brothers.”"
+   },
+   {
+    "verse": 11,
+    "phrase": "rejoice",
+    "lemma": "χαίρω",
+    "kind": "ambiguity",
+    "traditional": "farewell",
+    "note": "The Greek imperative was also a standard word of greeting and parting, so it can be translated “farewell” or “goodbye,” as some versions do. Because Paul has just used the same verb for “we rejoice” in verse 9 and a series of exhortations follows, “rejoice” is preferred here. The two passive-looking verbs that follow can also be read as “mend your ways” and “encourage one another.”"
+   },
+   {
+    "verse": 12,
+    "phrase": "a holy kiss",
+    "lemma": "φίλημα",
+    "kind": "background",
+    "traditional": "",
+    "note": "A kiss was a normal greeting among family members and close friends in the ancient Mediterranean world. Exchanging it within the congregation expressed that believers regarded one another as kin, and “holy” marks it as belonging to that shared life."
+   },
+   {
+    "verse": 12,
+    "phrase": "holy ones",
+    "lemma": "ἅγιος",
+    "kind": "departure",
+    "traditional": "saints",
+    "note": "The traditional “saints” now suggests canonized individuals or people of exceptional virtue. The Greek word is used of all believers as people set apart for God, echoing the Septuagint’s language for Israel. Many translations keep “saints”; others use “God’s people” or “his holy people.”"
+   },
+   {
+    "verse": 13,
+    "phrase": "the fellowship of the Holy Spirit",
+    "lemma": "κοινωνία",
+    "kind": "ambiguity",
+    "traditional": "the communion of the Holy Ghost; the fellowship of the Holy Spirit",
+    "note": "The Greek word means a bond of shared life and is stronger than modern “fellowship” may suggest. The phrase can mean the fellowship the Holy Spirit creates among believers or a sharing in the Holy Spirit himself. Many scholars favor the second reading. The rendering keeps the open “of” so that both remain possible."
+   },
+   {
+    "verse": 13,
+    "phrase": "The grace of the Lord Jesus Christ",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "Many English Bibles divide verse 12 into two verses and number this blessing as verse 14. The wording is the same; only the numbering differs."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "ἀδελφός",
+    "rendering": "brothers and sisters",
+    "verse": 11,
+    "reason": "The plural address to mixed congregations recurs across all the letters, and translators split between “brothers” and “brothers and sisters.”"
+   },
+   {
+    "lemma": "ἀδόκιμος",
+    "rendering": "fail the test",
+    "verse": 5,
+    "reason": "Rendered variously as “reprobate,” “disqualified,” “unfit,” or “failing the test” across Romans, 1–2 Corinthians, the Pastorals and Hebrews, which hides the link to δοκιμάζω and δόκιμος."
+   },
+   {
+    "lemma": "δοκιμάζω",
+    "rendering": "test",
+    "verse": 5,
+    "reason": "It overlaps with πειράζω and is rendered “test,” “examine,” “prove,” “approve” or “discern” across the letters, so it needs a decision coordinated with the πειράζω entry."
+   },
+   {
+    "lemma": "καταρτίζω",
+    "rendering": "be restored",
+    "verse": 11,
+    "reason": "The verb and its noun κατάρτισις range over “restore,” “mend,” “equip,” “complete” and the older “perfect,” and they recur in the Gospels, Paul, Hebrews and 1 Peter."
+   },
+   {
+    "lemma": "οἰκοδομή",
+    "rendering": "building up",
+    "verse": 10,
+    "reason": "Paul’s metaphor is rendered “edification,” “building up” or “strengthening” in different places, and it should stay recognizable across Romans, 1–2 Corinthians and Ephesians."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 3722,
+   "output_tokens": 300
+  },
+  "findings": [],
+  "error": ""
+ }
+}
