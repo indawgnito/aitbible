@@ -103,16 +103,6 @@
   @apply underline decoration-dotted decoration-amber-600 dark:decoration-amber-400;
 }
 
-/* Glossary term styling - subtle underline, clickable */
-.glossary-term {
-  @apply underline decoration-dotted decoration-neutral-400 dark:decoration-neutral-500;
-  @apply underline-offset-2 decoration-1;
-  @apply hover:decoration-amber-600 dark:hover:decoration-amber-400;
-  @apply hover:bg-amber-50 dark:hover:bg-amber-900/20;
-  @apply rounded px-0.5 -mx-0.5;
-  @apply transition-colors duration-150;
-}
-
 /* Greek font for glossary terms */
 .font-greek {
   font-family: "Times New Roman", Georgia, serif;

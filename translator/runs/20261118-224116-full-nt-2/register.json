@@ -1,0 +1,2323 @@
+{
+  "version": "0.5-draft",
+  "status_note": "Entries up to 0.4 were written by the model from general knowledge; entries added in 0.5 were drafted by the model from every occurrence of the word in a full run. No entry has been checked against a lexicon (verified=false throughout). 'contested' means scholars genuinely disagree and the default is an editorial choice.",
+  "stance": "Render what a competent first-century reader of Koine Greek would have understood, judged by usage in the period (including the Septuagint), not by a word's origin. Depart from the traditional English word only where it now misleads; where the traditional word is still the best one, keep it.",
+  "entries": [
+    {
+      "id": "dikaiosyne",
+      "lemma": "δικαιοσύνη",
+      "also": [
+        "δίκαιος",
+        "δικαιόω",
+        "δικαίωσις",
+        "δικαίωμα",
+        "δικαίως"
+      ],
+      "sense": "being in the right, doing what is right; God's saving action that sets things right",
+      "default": "righteousness",
+      "alternates": [
+        {
+          "rendering": "justice",
+          "when": "Where fair judging or ruling is meant (e.g. Acts 17:31; Hebrews 11:33; Revelation 19:11)."
+        }
+      ],
+      "family": {
+        "δίκαιος": "righteous / just / innocent",
+        "δικαιόω": "justify / vindicate",
+        "δικαίωσις": "justification",
+        "δικαίωμα": "righteous requirement / righteous act",
+        "δικαίως": "justly / rightly"
+      },
+      "traditional": "righteousness, righteous, justify",
+      "status": "contested",
+      "rationale": "'Righteousness' is kept because the alternative misleads more: 'the justice of God' suggests to a modern reader God's punishing justice, where Paul means God's action to put things right. The note at first occurrence tells the reader that Greek has one word-family where English has two (righteous/just, righteousness/justice, justify).",
+      "standard_view": "Same as the default. Translations from Latin and most other languages use their single word for 'justice' throughout, and some scholars prefer 'justice' or 'covenant faithfulness' in English.",
+      "watch": [
+        "uprightness",
+        "made just",
+        "set right",
+        "covenant faithfulness"
+      ],
+      "verified": false,
+      "history": "The 2025 prompt mandated 'justice' everywhere, arguing from Plato's usage; reversed in 0.2 on the merits.",
+      "role": "active"
+    },
+    {
+      "id": "hypokrites",
+      "lemma": "ὑποκριτής",
+      "also": [
+        "ὑπόκρισις",
+        "ὑποκρίνομαι"
+      ],
+      "sense": "one whose piety is a show; a pretender",
+      "default": "hypocrites",
+      "alternates": [
+        {
+          "rendering": "performers",
+          "when": "Where the passage itself is about doing religion to be seen by an audience (Matthew 6:2, 6:5, 6:16)."
+        }
+      ],
+      "traditional": "hypocrites",
+      "status": "contested",
+      "rationale": "In Matthew 6 the theatrical image is alive in the context (trumpets, street corners, being seen), so 'performers' is defensible there. Elsewhere the charge is pretense or inconsistency, which 'hypocrite' still says well.",
+      "standard_view": "The word did originally mean a stage actor, but in Jewish Greek before the New Testament (Septuagint, e.g. Job) it already meant a godless or insincere person. Arguing from the stage origin everywhere is an argument from etymology.",
+      "watch": [
+        "performer",
+        "actor",
+        "pretender"
+      ],
+      "verified": false,
+      "history": "The previous draft used 'performers' in all 17 places.",
+      "family": {
+        "ὑπόκρισις": "pretense / hypocrisy",
+        "ὑποκρίνομαι": "pretend"
+      },
+      "role": "active"
+    },
+    {
+      "id": "logos-prologue",
+      "lemma": "λόγος",
+      "also": [],
+      "sense": "the personal, pre-existent Word (John 1:1, 1:14; Revelation 19:13; 1 John 1:1)",
+      "default": "Logos",
+      "alternates": [],
+      "traditional": "Word",
+      "status": "contested",
+      "rationale": "Kept as a loanword under the three-part test: it is a title, it occurs in four verses, and the English candidate actively misleads. In current usage 'the Word' commonly means the Bible, so 'the Word was God' gives many readers a false meaning, and 'word' alone conveys nothing of what a Greek-speaking reader heard (reason, the ordering principle of the world) or of God's creating speech in Genesis 1. A note is required at John 1:1 covering both backgrounds.",
+      "standard_view": "Nearly all translations use 'Word'. Most scholars see John's main background as the Hebrew Bible's 'word of the Lord' and Wisdom traditions, which 'Word' reflects and 'Logos' does not; the note must say so.",
+      "watch": [
+        "word",
+        "message"
+      ],
+      "verified": false,
+      "scope": [
+        "john 1",
+        "1john 1",
+        "revelation 19"
+      ],
+      "history": "The 2025 draft used 'Logos' because the prompt told it to. Version 0.2 briefly reversed it to 'Word'; restored the same day on the argument that 'Word' misinforms modern readers, which is the register's own test for a departure.",
+      "role": "active"
+    },
+    {
+      "id": "praus",
+      "lemma": "πραΰς",
+      "also": [
+        "πραΰτης"
+      ],
+      "sense": "gentle, humble, not self-assertive",
+      "default": "gentle",
+      "alternates": [],
+      "traditional": "meek",
+      "status": "contested",
+      "rationale": "'Meek' now suggests weakness, which the Greek does not. 'Gentle' is accurate and plain. Matthew 5:5 echoes Psalm 37:11 (Septuagint 36:11), where the word renders the Hebrew for the humble poor.",
+      "standard_view": "That illustration is widespread in sermons, but I do not know of lexical evidence that it defines the word; it needs checking before it is used. 'Gentle' or 'humble' is the mainstream modern rendering.",
+      "watch": [
+        "gentle in",
+        "meek",
+        "humble"
+      ],
+      "verified": false,
+      "history": "The previous draft used 'gentle in their strength', resting on the claim that the word described a trained war horse.",
+      "family": {
+        "πραΰτης": "gentleness"
+      },
+      "role": "active"
+    },
+    {
+      "id": "ekklesia",
+      "lemma": "ἐκκλησία",
+      "also": [],
+      "sense": "the gathered community of believers, local or as a whole",
+      "default": "assembly",
+      "alternates": [
+        {
+          "rendering": "assembly",
+          "when": "Also for the civic assembly in Acts 19 and Israel's assembly in Acts 7:38 and Hebrews 2:12; the same word is deliberate."
+        }
+      ],
+      "traditional": "church",
+      "status": "contested",
+      "rationale": "A first-century hearer knew the word as a civic gathering and as the Septuagint's term for Israel assembled. 'Church' now means a building or an institution. One English word everywhere shows the reader it is one Greek word.",
+      "standard_view": "'Church' is near-universal and readers know what it refers to. 'Assembly' can sound like a one-off meeting.",
+      "watch": [
+        "ekklesia",
+        "church",
+        "congregation",
+        "community",
+        "gathering"
+      ],
+      "verified": false,
+      "history": "The previous draft mixed assembly (53), ekklesia (23) and church (18).",
+      "role": "active"
+    },
+    {
+      "id": "diabolos",
+      "lemma": "διάβολος",
+      "also": [],
+      "sense": "the devil, as a title for Satan",
+      "default": "the devil",
+      "alternates": [
+        {
+          "rendering": "slanderers / slanderous",
+          "when": "Where it is an adjective describing people (1 Timothy 3:11; 2 Timothy 3:3; Titus 2:3)."
+        }
+      ],
+      "traditional": "the devil",
+      "status": "settled",
+      "rationale": "With the article it functions as a name, and 'the devil' is itself the Greek word carried into English. The literal sense 'slanderer' belongs in the note, not the text.",
+      "standard_view": "Same as the default.",
+      "watch": [
+        "slanderer",
+        "accuser"
+      ],
+      "verified": false,
+      "history": "The previous draft split between slanderer, devil and accuser.",
+      "role": "watch"
+    },
+    {
+      "id": "metanoia",
+      "lemma": "μετανοέω",
+      "also": [
+        "μετάνοια"
+      ],
+      "sense": "to turn around in mind and conduct, toward God",
+      "default": "turn back",
+      "alternates": [],
+      "traditional": "repent, repentance",
+      "status": "contested",
+      "rationale": "'Repent' now centres on feeling sorry. In the Gospels the word carries the prophets' call to 'return' to God, a change of direction. 'Change your mind' is too thin and too mental.",
+      "standard_view": "Most translations keep 'repent' as an established term that readers understand as including a change of life.",
+      "watch": [
+        "repent",
+        "change your",
+        "change of",
+        "changed their",
+        "turn"
+      ],
+      "verified": false,
+      "history": "The previous draft used change, turn and repent interchangeably.",
+      "options": [
+        {
+          "rendering": "repent / repentance",
+          "when": "Reader's choice if the project keeps the traditional word; do not mix within one run."
+        }
+      ],
+      "family": {
+        "μετάνοια": "turning back"
+      },
+      "role": "active"
+    },
+    {
+      "id": "christos",
+      "lemma": "Χριστός",
+      "also": [],
+      "sense": "the anointed king Israel expected; in the letters, close to a name for Jesus",
+      "default": "Christ",
+      "alternates": [
+        {
+          "rendering": "Messiah",
+          "when": "Gospels and Acts, where it is a title under discussion ('Are you the Messiah?', 'the Messiah must suffer'), normally with the article and not attached to 'Jesus'."
+        }
+      ],
+      "traditional": "Christ",
+      "status": "settled",
+      "rationale": "A first-century Jewish hearer heard a title, which 'Messiah' conveys where the title is the point. In 'Jesus Christ' and throughout the letters it works as a name and 'Christ' is kept. 'Anointed' is not used in the text.",
+      "standard_view": "Several modern translations make the same split (Messiah as title in the Gospels, Christ elsewhere).",
+      "watch": [
+        "messiah",
+        "anointed"
+      ],
+      "verified": false,
+      "role": "active"
+    },
+    {
+      "id": "ioudaios",
+      "lemma": "Ἰουδαῖος",
+      "also": [],
+      "sense": "member of the Jewish people; in places, specifically people of Judea or the Jerusalem leadership",
+      "default": "Jews",
+      "alternates": [
+        {
+          "rendering": "Judeans",
+          "when": "Where the contrast is geographic: Judea as against Galilee or Samaria (e.g. John 7:1, 11:7-8)."
+        },
+        {
+          "rendering": "the Jewish leaders",
+          "when": "In John, where the group in view is clearly the authorities in Jerusalem and not the people as a whole (e.g. John 5:10-18, 9:22, 18-19)."
+        }
+      ],
+      "traditional": "Jews",
+      "status": "contested",
+      "rationale": "The word names a people with a religion and a homeland; no single English word covers it. Using 'Jews' by default keeps the plain meaning; the two alternates mark the places where John's usage is narrower, which matters because a blanket 'the Jews' as Jesus's opponents has a long history of harm.",
+      "standard_view": "Scholars are divided. Some argue for 'Judeans' throughout as the ancient ethnic-geographic sense; others object that this erases Jews from the New Testament.",
+      "watch": [
+        "judean",
+        "jewish"
+      ],
+      "verified": false,
+      "history": "The previous draft used 'Judeans' almost throughout John and 'Jews' almost everywhere else.",
+      "role": "active"
+    },
+    {
+      "id": "gehenna",
+      "lemma": "γέεννα",
+      "also": [],
+      "sense": "the Valley of Hinnom as the place of final judgment",
+      "default": "Gehenna",
+      "alternates": [],
+      "traditional": "hell",
+      "status": "settled",
+      "rationale": "It is a place name. 'Hell' merges it with Hades and with later imagery. Several modern translations keep the name.",
+      "standard_view": "Many translations still use 'hell', usually with a footnote giving Gehenna.",
+      "watch": [
+        "hell"
+      ],
+      "verified": false,
+      "role": "active"
+    },
+    {
+      "id": "hades",
+      "lemma": "ᾅδης",
+      "also": [],
+      "sense": "the realm of the dead",
+      "default": "Hades",
+      "alternates": [],
+      "traditional": "hell (KJV); Hades (most modern)",
+      "status": "settled",
+      "rationale": "Keeps the realm of the dead distinct from Gehenna. This is already the mainstream modern rendering.",
+      "standard_view": "Same as the default.",
+      "watch": [
+        "hell",
+        "grave"
+      ],
+      "verified": false,
+      "role": "active"
+    },
+    {
+      "id": "aionios",
+      "lemma": "αἰώνιος",
+      "also": [],
+      "sense": "belonging to the age to come; lasting, unending",
+      "default": "eternal",
+      "alternates": [
+        {
+          "rendering": "long ages",
+          "when": "With χρόνος in the plural (Romans 16:25; 2 Timothy 1:9; Titus 1:2)."
+        }
+      ],
+      "traditional": "eternal, everlasting",
+      "status": "contested",
+      "rationale": "The word comes from 'age' and in Jewish usage 'eternal life' is the life of the coming age, a matter of kind as well as length. 'Eternal' is kept as the default because it is accurate about duration and readable; the note carries the 'age to come' sense.",
+      "standard_view": "'Eternal' is standard. A minority of translators render 'of the age (to come)' throughout.",
+      "watch": [
+        "everlasting",
+        "age to come",
+        "of the age",
+        "age-long"
+      ],
+      "verified": false,
+      "history": "The previous draft used eternal (48) and age-based phrases (18) without a rule.",
+      "options": [
+        {
+          "rendering": "the life of the age to come",
+          "when": "Optional stance choice for ζωὴ αἰώνιος; if chosen, use it for every occurrence of that phrase."
+        }
+      ],
+      "role": "active"
+    },
+    {
+      "id": "doulos",
+      "lemma": "δοῦλος",
+      "also": [
+        "δούλη",
+        "σύνδουλος",
+        "δουλεύω",
+        "δουλόω",
+        "δουλεία"
+      ],
+      "sense": "a person owned by another",
+      "default": "slave",
+      "alternates": [],
+      "family": {
+        "σύνδουλος": "fellow slave",
+        "δουλεύω": "serve as a slave / be enslaved to",
+        "δουλεία": "slavery"
+      },
+      "traditional": "servant",
+      "status": "settled",
+      "rationale": "The word meant a slave, and hearers knew it. 'Servant' softens it and blurs the difference from διάκονος and παῖς.",
+      "standard_view": "Several modern translations now use 'slave'; others keep 'servant' or 'bondservant' to avoid association with race-based chattel slavery.",
+      "watch": [
+        "servant",
+        "bondservant",
+        "bond-servant"
+      ],
+      "verified": false,
+      "role": "watch"
+    },
+    {
+      "id": "diakonos",
+      "lemma": "διάκονος",
+      "also": [],
+      "sense": "one who serves or carries out a task for another",
+      "default": "servant",
+      "alternates": [
+        {
+          "rendering": "deacon",
+          "when": "Where it names a recognised role in an assembly (Philippians 1:1; 1 Timothy 3:8, 3:12; arguably Romans 16:1)."
+        }
+      ],
+      "traditional": "minister, servant, deacon",
+      "status": "settled",
+      "rationale": "Kept distinct from δοῦλος (slave) so the two never share an English word.",
+      "standard_view": "Whether Romans 16:1 is 'deacon' or 'servant' is disputed.",
+      "watch": [
+        "minister",
+        "slave"
+      ],
+      "verified": false,
+      "role": "active"
+    },
+    {
+      "id": "pistis",
+      "lemma": "πίστις",
+      "also": [
+        "πιστεύω",
+        "πιστός"
+      ],
+      "sense": "trust, faith; also faithfulness, reliability",
+      "default": "faith",
+      "alternates": [
+        {
+          "rendering": "faithfulness",
+          "when": "Where the quality of being reliable is meant (e.g. Romans 3:3 of God; Galatians 5:22; Matthew 23:23)."
+        },
+        {
+          "rendering": "faith in Jesus Christ",
+          "when": "For the phrase πίστις (Ἰησοῦ) Χριστοῦ (Romans 3:22, 3:26; Galatians 2:16, 2:20, 3:22; Philippians 3:9). The alternative 'the faithfulness of Jesus Christ' goes in the note, every time."
+        }
+      ],
+      "family": {
+        "πιστεύω": "believe / trust",
+        "πιστός": "faithful / believing"
+      },
+      "traditional": "faith, believe",
+      "status": "contested",
+      "rationale": "'Faith' with 'faithfulness' where reliability is meant covers the range. For the disputed phrase the grammar allows both readings; the default follows the majority reading and the note always states the other.",
+      "standard_view": "'Faith in Christ' is the traditional and still majority reading; 'faithfulness of Christ' has substantial scholarly support.",
+      "watch": [
+        "trust",
+        "allegiance",
+        "loyalty",
+        "faithfulness of"
+      ],
+      "verified": false,
+      "history": "The previous draft chose 'faithfulness of Jesus Christ' in Romans 3 without flagging that it was a choice.",
+      "role": "active"
+    },
+    {
+      "id": "euangelion",
+      "lemma": "εὐαγγέλιον",
+      "also": [
+        "εὐαγγελίζω"
+      ],
+      "sense": "the announcement of good news",
+      "default": "good news",
+      "alternates": [],
+      "family": {
+        "εὐαγγελίζω": "good news"
+      },
+      "traditional": "gospel",
+      "status": "settled",
+      "rationale": "'Gospel' is now a religious term or a book title. The Greek was an ordinary word for a public announcement of good news, also used of imperial proclamations.",
+      "standard_view": "Many modern translations already alternate between 'good news' and 'gospel'.",
+      "watch": [
+        "gospel",
+        "glad tidings",
+        "proclamation"
+      ],
+      "verified": false,
+      "role": "active",
+      "history": " Demoted to watch in 0.3 after a ten-chapter sample showed 9 of 9 unaided. The full run then split 37 'good news' to 35 'gospel', with 'gospel' in 18 chapters of Paul's letters. Promoted back to active in 0.4 and those chapters re-translated."
+    },
+    {
+      "id": "sarx",
+      "lemma": "σάρξ",
+      "also": [
+        "σαρκικός",
+        "σάρκινος"
+      ],
+      "sense": "flesh: the body, human nature, and in Paul human nature as opposed to God's Spirit",
+      "default": "flesh",
+      "alternates": [
+        {
+          "rendering": "human being / humanity",
+          "when": "In the idiom 'all flesh' / 'no flesh' (πᾶσα σάρξ) meaning everyone or no one."
+        }
+      ],
+      "traditional": "flesh",
+      "status": "settled",
+      "rationale": "Paul uses one word across its senses on purpose, and the reader should be able to see that. Interpretive substitutes ('sinful nature') decide the question for the reader. The loanword 'sarx' is not used.",
+      "standard_view": "Formal translations keep 'flesh'; some dynamic ones use 'sinful nature' or similar.",
+      "watch": [
+        "sarx",
+        "sinful nature",
+        "human nature",
+        "mortal"
+      ],
+      "verified": false,
+      "family": {
+        "σαρκικός": "fleshly / of the flesh",
+        "σάρκινος": "made of flesh / fleshly"
+      },
+      "role": "watch"
+    },
+    {
+      "id": "pneuma",
+      "lemma": "πνεῦμα",
+      "also": [],
+      "sense": "spirit; the Spirit of God",
+      "default": "spirit / Spirit",
+      "alternates": [
+        {
+          "rendering": "wind / breath",
+          "when": "Only where the physical sense is required (John 3:8a; 2 Thessalonians 2:8; Hebrews 1:7)."
+        }
+      ],
+      "traditional": "spirit, Spirit, ghost",
+      "status": "settled",
+      "rationale": "No English word joins breath, wind and spirit, so wordplay is explained in a note.",
+      "standard_view": "Same as the default.",
+      "watch": [
+        "pneuma",
+        "ghost"
+      ],
+      "verified": false,
+      "history": "The loanword 'pneuma' is not used in the text; the previous draft used it in 14 verses.",
+      "role": "watch"
+    },
+    {
+      "id": "makarios",
+      "lemma": "μακάριος",
+      "also": [],
+      "sense": "in an enviable, favoured state",
+      "default": "blessed",
+      "alternates": [],
+      "traditional": "blessed",
+      "status": "contested",
+      "rationale": "'Blessed' still carries the sense of divine favour that the beatitude form has in the Septuagint Psalms. 'Happy' is too much about mood and 'flourishing' is a modern philosophical gloss.",
+      "standard_view": "'Blessed' is standard; 'happy', 'fortunate' and 'flourishing' each have advocates.",
+      "watch": [
+        "happy",
+        "fortunate",
+        "flourish",
+        "favored"
+      ],
+      "verified": false,
+      "history": "The previous draft mostly used 'blessed' with scattered 'flourishing' and 'fortunate'.",
+      "role": "active"
+    },
+    {
+      "id": "haplous",
+      "lemma": "ἁπλοῦς",
+      "also": [],
+      "sense": "single, sound; in the 'good eye' idiom, generous (Matthew 6:22; Luke 11:34)",
+      "default": "generous",
+      "alternates": [],
+      "traditional": "single (KJV); healthy, sound (modern)",
+      "status": "contested",
+      "rationale": "In Matthew the saying sits between treasure in heaven and serving Mammon, and the 'evil eye' that follows is a known Jewish idiom for stinginess, so 'generous' fits the context.",
+      "standard_view": "Most translations use 'healthy' or 'sound', keeping the physical image of the eye, and mention generosity in a footnote. The physical image is lost with 'generous'.",
+      "watch": [
+        "clear",
+        "healthy",
+        "sound",
+        "single"
+      ],
+      "verified": false,
+      "history": "This is the homepage example; the previous draft's served text said 'clear'.",
+      "role": "active"
+    },
+    {
+      "id": "parousia",
+      "lemma": "παρουσία",
+      "also": [],
+      "sense": "arrival and presence, especially the arrival of a ruler",
+      "default": "coming",
+      "alternates": [
+        {
+          "rendering": "arrival / presence",
+          "when": "Of ordinary people (1 Corinthians 16:17; 2 Corinthians 7:6-7, 10:10; Philippians 1:26, 2:12)."
+        }
+      ],
+      "traditional": "coming",
+      "status": "settled",
+      "rationale": "'Coming' is accurate and plain. The royal-visit sense belongs in the note. The loanword 'Parousia' is not used in the text.",
+      "standard_view": "Same as the default.",
+      "watch": [
+        "parousia",
+        "arrival",
+        "presence"
+      ],
+      "verified": false,
+      "role": "active"
+    },
+    {
+      "id": "kosmos",
+      "lemma": "κόσμος",
+      "also": [],
+      "sense": "the world: creation, humanity, or human society organised apart from God",
+      "default": "world",
+      "alternates": [
+        {
+          "rendering": "adornment",
+          "when": "1 Peter 3:3 only."
+        }
+      ],
+      "traditional": "world",
+      "status": "settled",
+      "rationale": "John and Paul shift between senses of one word, and the reader should see the same word.",
+      "standard_view": "Same as the default.",
+      "watch": [
+        "world-system",
+        "world order",
+        "cosmos",
+        "universe"
+      ],
+      "verified": false,
+      "history": "Glosses such as 'world-system', which the previous draft used in places, are interpretation and belong in notes.",
+      "role": "watch"
+    },
+    {
+      "id": "basileia",
+      "lemma": "βασιλεία",
+      "also": [],
+      "sense": "kingship, reign; the realm ruled",
+      "default": "kingdom",
+      "alternates": [
+        {
+          "rendering": "kingdom of the heavens",
+          "when": "Matthew's βασιλεία τῶν οὐρανῶν, always, keeping his plural."
+        }
+      ],
+      "traditional": "kingdom",
+      "status": "settled",
+      "rationale": "The Greek leans toward the activity of reigning more than a territory, which a note can say once; 'kingdom' is kept so the phrase stays recognisable and consistent.",
+      "standard_view": "Same as the default; some render 'reign' or 'rule'.",
+      "watch": [
+        "reign",
+        "empire",
+        "kingship"
+      ],
+      "verified": false,
+      "role": "watch"
+    },
+    {
+      "id": "monogenes",
+      "lemma": "μονογενής",
+      "also": [],
+      "sense": "only one of its kind; an only child",
+      "default": "one and only",
+      "alternates": [
+        {
+          "rendering": "only",
+          "when": "Of an ordinary only child (Luke 7:12, 8:42, 9:38)."
+        }
+      ],
+      "traditional": "only begotten",
+      "status": "settled",
+      "rationale": "The second half of the word comes from 'kind', not 'beget'. 'One and only' is the mainstream modern rendering.",
+      "standard_view": "A minority of scholars have recently defended 'only begotten'.",
+      "watch": [
+        "unique",
+        "only begotten",
+        "one-of-a-kind"
+      ],
+      "verified": false,
+      "role": "active"
+    },
+    {
+      "id": "hilasterion",
+      "lemma": "ἱλαστήριον",
+      "also": [
+        "ἱλασμός",
+        "ἱλάσκομαι"
+      ],
+      "sense": "the cover of the ark where atonement was made; a means of atonement",
+      "default": "place of atonement",
+      "alternates": [],
+      "traditional": "propitiation; mercy seat (Hebrews 9:5)",
+      "status": "contested",
+      "rationale": "In the Septuagint the word is the name of the ark's cover, which is how Hebrews 9:5 uses it; using the same phrase in Romans 3:25 lets the reader see the allusion.",
+      "standard_view": "Whether Romans 3:25 means 'mercy seat', 'propitiation' (turning away wrath) or 'expiation' (removing sin) is a long-running dispute.",
+      "watch": [
+        "propitiation",
+        "expiation",
+        "mercy seat",
+        "sacrifice of atonement"
+      ],
+      "verified": false,
+      "family": {
+        "ἱλασμός": "atoning sacrifice",
+        "ἱλάσκομαι": "make atonement / be merciful"
+      },
+      "role": "active"
+    },
+    {
+      "id": "epiousios",
+      "lemma": "ἐπιούσιος",
+      "also": [],
+      "sense": "uncertain: 'for the coming day', 'necessary for existence', or 'for today'",
+      "default": "daily",
+      "alternates": [],
+      "traditional": "daily",
+      "status": "contested",
+      "rationale": "The word is almost unknown outside the Lord's Prayer and its meaning is genuinely uncertain. With no secure alternative, the traditional word stays and the note says plainly that the meaning is unknown and lists the options.",
+      "standard_view": "'Daily' is traditional; 'for tomorrow' and 'that we need' appear in footnotes of most translations.",
+      "watch": [
+        "we need",
+        "tomorrow",
+        "necessary"
+      ],
+      "verified": false,
+      "role": "active"
+    },
+    {
+      "id": "parakletos",
+      "lemma": "παράκλητος",
+      "also": [],
+      "sense": "one called alongside to help, especially an advocate",
+      "default": "Advocate",
+      "alternates": [],
+      "traditional": "Comforter",
+      "status": "settled",
+      "rationale": "Outside the New Testament the word is used of someone who speaks on another's behalf, and 1 John 2:1 clearly uses it that way. The loanword 'Paraclete' is not used.",
+      "standard_view": "'Advocate', 'Helper' and 'Counselor' are all in current use.",
+      "watch": [
+        "paraclete",
+        "helper",
+        "comforter",
+        "counselor"
+      ],
+      "verified": false,
+      "role": "active"
+    },
+    {
+      "id": "porneia",
+      "lemma": "πορνεία",
+      "also": [
+        "πορνεύω",
+        "πόρνος"
+      ],
+      "sense": "sexual relations outside what the law permits",
+      "default": "sexual immorality",
+      "alternates": [
+        {
+          "rendering": "prostitution",
+          "when": "In Revelation's image of the prostitute (Revelation 17-19), where the commercial sense is the picture."
+        }
+      ],
+      "traditional": "fornication",
+      "status": "settled",
+      "rationale": "A broad term; 'fornication' is obsolete and narrower.",
+      "standard_view": "Same as the default.",
+      "watch": [
+        "fornication",
+        "unchastity",
+        "porneia"
+      ],
+      "verified": false,
+      "family": {
+        "πορνεύω": "commit sexual immorality",
+        "πόρνος": "sexually immoral"
+      },
+      "role": "watch"
+    },
+    {
+      "id": "ouranos",
+      "lemma": "οὐρανός",
+      "also": [],
+      "sense": "the sky; the dwelling of God",
+      "default": "heaven",
+      "alternates": [
+        {
+          "rendering": "the heavens",
+          "when": "Where the Greek is plural and the reference is to God's dwelling, including Matthew's 'kingdom of the heavens' and 'Father in the heavens'."
+        },
+        {
+          "rendering": "sky",
+          "when": "Where the visible sky is meant (birds, weather, stars)."
+        }
+      ],
+      "traditional": "heaven",
+      "status": "settled",
+      "rationale": "Keeping the plural where the Greek has it preserves a Semitic turn of phrase that a first-century hearer would have noticed.",
+      "standard_view": "Most translations flatten the plural to 'heaven'.",
+      "watch": [],
+      "verified": false,
+      "role": "active"
+    },
+    {
+      "id": "apecho-receipt",
+      "lemma": "ἀπέχω",
+      "also": [],
+      "sense": "to have received in full (the wording of a receipt), in Matthew 6:2, 6:5, 6:16 and Luke 6:24",
+      "default": "paid in full",
+      "alternates": [
+        {
+          "rendering": "be far from / abstain from",
+          "when": "The word's other, unrelated uses (distance; abstaining), translated by context."
+        }
+      ],
+      "traditional": "have their reward",
+      "status": "settled",
+      "rationale": "The verb is the standard term on surviving receipts from the period, so hearers would have caught the commercial tone.",
+      "standard_view": "Modern translations commonly render 'have received their reward in full'.",
+      "watch": [
+        "received their reward"
+      ],
+      "verified": false,
+      "scope": [
+        "matthew 6",
+        "luke 6"
+      ],
+      "role": "active",
+      "one_sense_only": true
+    },
+    {
+      "id": "adelphos",
+      "lemma": "ἀδελφός",
+      "also": [
+        "ἀδελφή"
+      ],
+      "sense": "sibling; in the plural, fellow members of the community",
+      "default": "brothers and sisters",
+      "alternates": [
+        {
+          "rendering": "brothers",
+          "when": "Where the group is literally male siblings (James and John; Jesus's brothers) or the context shows only men are meant."
+        },
+        {
+          "rendering": "brother",
+          "when": "The singular, of one man, whether a literal brother or a fellow believer."
+        },
+        {
+          "rendering": "brother or sister",
+          "when": "The generic singular in rules about how members treat one another (e.g. Matthew 18:15; Romans 14:10; 1 John 2:9-11)."
+        }
+      ],
+      "family": {
+        "ἀδελφή": "sister"
+      },
+      "traditional": "brothers, brethren",
+      "status": "contested",
+      "rationale": "In Greek the masculine plural was the ordinary way to address a mixed group of siblings, so the first hearers in a mixed assembly understood the women to be included. English 'brothers' now reads as men only.",
+      "standard_view": "Several modern translations use 'brothers and sisters'; more formal ones keep 'brothers' with a footnote saying the word can include women.",
+      "watch": [
+        "brethren",
+        "siblings",
+        "believers",
+        "friends"
+      ],
+      "verified": false,
+      "role": "watch",
+      "one_sense_only": true
+    },
+    {
+      "id": "hagioi",
+      "lemma": "ἅγιος",
+      "also": [],
+      "role": "active",
+      "sense": "used as a noun in the plural for the members of the community (οἱ ἅγιοι)",
+      "default": "holy ones",
+      "alternates": [
+        {
+          "rendering": "holy",
+          "when": "Every other use: the ordinary adjective (Holy Spirit, holy city, holy place) is translated normally."
+        }
+      ],
+      "traditional": "saints",
+      "status": "settled",
+      "rationale": "'Saints' now suggests canonised individuals or people of exceptional virtue. The word is used of all believers as people set apart for God, echoing the Septuagint's language for Israel.",
+      "standard_view": "Many translations keep 'saints'; others use 'God's people' or 'his holy people'.",
+      "watch": [
+        "saints",
+        "holy people",
+        "god's people"
+      ],
+      "verified": false,
+      "history": "Added in 0.3: the pilot rendered it 'holy ones' in Philemon and 'holy people' elsewhere, surfaced by the candidates list.",
+      "one_sense_only": true
+    },
+    {
+      "id": "ethnos",
+      "lemma": "ἔθνος",
+      "also": [],
+      "role": "active",
+      "sense": "a people or nation; in the plural, the non-Jewish peoples",
+      "default": "Gentiles",
+      "alternates": [
+        {
+          "rendering": "nation / nations",
+          "when": "Where a people or peoples as political or ethnic units are meant, including Israel itself, and in 'all the nations' where the scope is the whole world (e.g. Matthew 24:14, 28:19; Revelation)."
+        }
+      ],
+      "traditional": "Gentiles, nations, heathen",
+      "status": "settled",
+      "rationale": "One Greek word covers both; the split by sense is the standard practice. The entry exists because the pilot chapters wavered, and the note at first occurrence should tell the reader it is one word.",
+      "standard_view": "Same as the default.",
+      "watch": [
+        "pagans",
+        "heathen",
+        "peoples",
+        "foreigners"
+      ],
+      "verified": false,
+      "history": "Added in 0.3 from the candidates list (nominated in five pilot chapters)."
+    },
+    {
+      "id": "charis",
+      "lemma": "χάρις",
+      "also": [],
+      "role": "watch",
+      "sense": "God's or Christ's freely given favor and generosity toward people, including the gift or commission that flows from it. This is the main theological sense; the word's other senses are covered by the alternates.",
+      "default": "grace",
+      "alternates": [
+        {
+          "rendering": "favor / favour",
+          "when": "Ordinary goodwill or standing with someone, or a favor asked or done: the idiom of finding or having favor with God or people in narrative (Luke 1:30; 2:40; 2:52; Acts 2:47; 7:10; 7:46), a political favor (Acts 24:27; 25:3; 25:9), a kindness or privilege (2 Cor 1:15; 8:4), and conduct that finds favor with God (1 Pet 2:19-20). Use one spelling throughout, following the project's convention. Keep \"grace\" at Heb 4:16, where it echoes \"throne of grace\", and in the Prov 3:34 quotation at Jas 4:6 and 1 Pet 5:5."
+        },
+        {
+          "rendering": "thanks / thank / grateful / thankful / gratitude",
+          "when": "The response of gratitude: the exclamation with the dative, thanks be to God (Rom 6:17; 7:25; 1 Cor 15:57; 2 Cor 2:14; 8:16; 9:15); the idiom of having charis toward someone, meaning to thank or be grateful (Luke 17:9; 1 Tim 1:12; 2 Tim 1:3; Heb 12:28); partaking with thanks (1 Cor 10:30); and singing with gratitude (Col 3:16)."
+        },
+        {
+          "rendering": "credit",
+          "when": "The rhetorical question \"what credit is that to you?\" at Luke 6:32-34, where the word means the thanks or credit that conduct earns."
+        },
+        {
+          "rendering": "gift / act of grace",
+          "when": "The Jerusalem collection as a concrete expression of generosity: \"gift\" at 1 Cor 16:3; \"act of grace\" at 2 Cor 8:6, 7, 19, where the play on the word across the chapter should stay audible."
+        },
+        {
+          "rendering": "gracious",
+          "when": "Winning or pleasant quality of speech where a noun phrase would be awkward (Col 4:6). \"Words of grace\" at Luke 4:22 and \"give grace to those who hear\" at Eph 4:29 keep the default."
+        }
+      ],
+      "traditional": "grace",
+      "status": "settled",
+      "rationale": "In ordinary Greek the word meant a favor freely done, the goodwill behind it, or the thanks it called forth. \"Grace\" is a church word, but it remains the term English readers recognise for God's unearned generosity, and no single replacement such as \"favor\", \"gift\" or \"kindness\" carries Paul's argument as well, so it does not mislead more than the alternatives would. Where the word has its everyday senses of goodwill, a favor, thanks or credit, plain English is used instead, because \"grace\" there would read a theological meaning into ordinary speech.",
+      "standard_view": "Virtually all mainstream translations (KJV, RSV, NRSV, ESV, NIV, NASB) use \"grace\" for the theological sense. They also use \"favor\" for the find-favor idiom and for human goodwill, \"thanks\" for the gratitude sense, and \"credit\" or \"benefit\" at Luke 6:32-34. They vary at the margins, for example between \"grace\" and \"favor\" at Luke 2:40, between \"gracious thing\", \"commendable\" and \"credit\" at 1 Pet 2:19-20, and between \"gift\", \"generous act\" and \"act of grace\" for the collection. Recent scholarship stresses that the word belongs to the ancient vocabulary of gift and benefaction, but this has not displaced \"grace\" in translation.",
+      "watch": [
+        "favor",
+        "favour",
+        "gift",
+        "act of grace"
+      ],
+      "verified": false,
+      "history": "Added in 0.5. Drafted by claude-fable-5-2 from all 147 occurrences in run 20261118-162954-full-nt, which had no entry for this word. In that run: default form 117, listed alternates 30, other renderings 0."
+    },
+    {
+      "id": "paradidomi",
+      "lemma": "παραδίδωμι",
+      "also": [],
+      "role": "active",
+      "sense": "To transfer a person or thing into another's custody, power or control. This is the main sense and covers Judas, the authorities, Pilate, God, and the handing over of property or authority.",
+      "default": "hand over",
+      "alternates": [
+        {
+          "rendering": "hand on",
+          "when": "A teacher or messenger passes teaching, tradition or instructions directly to his own hearers: Acts 16:4; 1 Cor 11:2; 11:23 (first occurrence); 15:3; 2 Pet 2:21."
+        },
+        {
+          "rendering": "hand down",
+          "when": "Teaching, custom or testimony is received from predecessors or an earlier generation: Mark 7:13; Luke 1:2; Acts 6:14; Jude 3."
+        },
+        {
+          "rendering": "give up",
+          "when": "Christ gives himself, or God gives his Son, on behalf of others, in an active construction with 'for us', 'for me' or 'for her': Rom 8:32; Gal 2:20; Eph 5:2; 5:25. The passive in Rom 4:25 and 1 Cor 11:23 stays 'hand over'."
+        },
+        {
+          "rendering": "give over",
+          "when": "Reflexive, of people surrendering themselves to vice: Eph 4:19. Where God is the subject in Rom 1:24, 26, 28 and Acts 7:42, keep 'hand over'."
+        },
+        {
+          "rendering": "entrust",
+          "when": "Someone is committed to the care of God or God's grace: Acts 14:26; 15:40; 1 Pet 2:23."
+        },
+        {
+          "rendering": "risk",
+          "when": "With 'their lives' as object in Acts 15:26."
+        },
+        {
+          "rendering": "be ripe",
+          "when": "Intransitive, of a crop permitting harvest: Mark 4:29 only."
+        }
+      ],
+      "traditional": "deliver or deliver up in general; betray when Judas is the subject; give up for Christ's self-giving; commit or commend for Acts 14:26 and 15:40",
+      "status": "contested",
+      "rationale": "The verb is the ordinary Greek word for handing a person or thing into someone else's control. The Gospels use the same word for what Judas does, what the priests do to Jesus before Pilate, what Pilate does, and what will happen to the disciples. Greek has a separate word for betrayal, used of Judas in Luke 6:16. \"Betray\" names the treachery that the context supplies, but it hides that chain of handings-over, so one rendering lets the reader see what the Greek reader saw. The self-giving formulas keep the familiar \"give up\" because \"hand himself over for me\" is awkward English and adds no clarity.",
+      "standard_view": "Most English versions (KJV, RSV, ESV, NIV, NRSV) render \"betray\" when Judas is the subject and \"deliver\", \"hand over\" or \"give up\" elsewhere. They usually say \"arrested\" or \"put in prison\" for John in Matt 4:12 and Mark 1:14, and \"gave up his spirit\" in John 19:30. The standard lexicons give \"hand over, deliver up\" as the basic sense. Many scholars hold that \"betray\" is a contextual inference and not the word's meaning, while others defend it as a legitimate contextual sense for Judas. The NABRE and several recent commentators use \"hand over\" more widely, as here.",
+      "watch": [
+        "betray",
+        "deliver",
+        "deliver up",
+        "deliver over",
+        "arrest",
+        "put in prison",
+        "turn over",
+        "commit",
+        "commend",
+        "pass on"
+      ],
+      "verified": false,
+      "history": "Added in 0.5. Drafted by claude-fable-5-2 from all 117 occurrences in run 20261118-162954-full-nt, which had no entry for this word. In that run: default form 98, listed alternates 12, other renderings 7."
+    },
+    {
+      "id": "dynamis",
+      "lemma": "δύναμις",
+      "also": [],
+      "role": "active",
+      "sense": "Countable sense only: a deed that displays supernatural power, a miracle. Usually plural, as something done, worked, seen, or listed beside signs and wonders; singular in Mark 6:5 and 9:39.",
+      "default": "deed of power",
+      "alternates": [
+        {
+          "rendering": "power",
+          "when": "The general, non-countable sense: might or capability, of God, Christ, the Spirit, persons or things. Also the plural for forces at work in someone (Matt 14:2; Mark 6:14; Heb 6:5), for heavenly or cosmic powers (Matt 24:29; Mark 13:25; Luke 21:26; Rom 8:38; 1 Cor 15:24; Eph 1:21; 1 Pet 3:22), and, capitalised, as a title for God or a divine being (Matt 26:64; Mark 14:62; Acts 8:10)."
+        },
+        {
+          "rendering": "ability / strength / means",
+          "when": "A person's or thing's own capacity or resources: Matt 25:15 (ability), 2 Cor 1:8 (strength), 2 Cor 8:3 (means), Rev 1:16 (the sun in its strength). Rev 3:8 may be either \"power\" or \"strength\"."
+        },
+        {
+          "rendering": "meaning",
+          "when": "The force or sense of a word or language (1 Cor 14:11)."
+        },
+        {
+          "rendering": "powerful",
+          "when": "A descriptive genitive that English turns more naturally with an adjective (Heb 1:3 \"his powerful word\"; optionally 2 Thess 1:7)."
+        }
+      ],
+      "traditional": "mighty work or miracle (the KJV uses both for this sense)",
+      "status": "settled",
+      "rationale": "The Greek word is simply the ordinary word for power used of a concrete act, and a first-century reader would have heard that connection. \"Deed of power\" keeps the connection visible where the same word appears nearby as \"power\" (Mark 6:2 with 6:14; Acts 8:10 with 8:13; 1 Cor 12), which \"miracle\" hides. It also keeps the word distinct from \"sign\" and \"wonder\" in the triads at Acts 2:22, 2 Cor 12:12 and Heb 2:4. It is a standard lexicon gloss and is already the commonest non-traditional choice in the run.",
+      "standard_view": "There is no dispute about the meaning, only about the English. The KJV alternates \"mighty works\" and \"miracles\"; RSV and ESV favour \"mighty works\" in the Gospels and \"miracles\" in the letters; NIV and many others use \"miracles\" throughout; NRSV largely uses \"deeds of power\". Standard lexica gloss this sense as deed of power, miracle, or wonder. \"Miracle\" is a fully acceptable rendering, and the default here is a choice for consistency and transparency, not a correction.",
+      "watch": [
+        "mighty work",
+        "miracle",
+        "work of power",
+        "act of power"
+      ],
+      "verified": false,
+      "history": "Added in 0.5. Drafted by claude-fable-5-2 from all 115 occurrences in run 20261118-162954-full-nt, which had no entry for this word. In that run: default form 6, listed alternates 99, other renderings 10."
+    },
+    {
+      "id": "meno",
+      "lemma": "μένω",
+      "also": [],
+      "role": "watch",
+      "sense": "to continue in a place, state or relationship and not leave or cease; includes the Johannine use of persons, God, word or love remaining in someone or something",
+      "default": "remain",
+      "alternates": [
+        {
+          "rendering": "stay / stay behind",
+          "when": "Physical lodging or stopping in a place or with a host for a time, as in the Gospel and Acts travel narratives and John 1:38-39. Either \"stay\" or \"remain\" is acceptable for \"stay here\" commands such as Matthew 26:38."
+        },
+        {
+          "rendering": "live",
+          "when": "Habitual dwelling place, as in Luke 8:27."
+        },
+        {
+          "rendering": "wait for / await",
+          "when": "Transitive use with an accusative object, as in Acts 20:5 and Acts 20:23."
+        },
+        {
+          "rendering": "endure / last / stand",
+          "when": "Permanence of a thing, such as a word, righteousness, a possession or a purpose, where \"remain\" would be unidiomatic or suggest something merely left over. Examples are Old Testament quotations with \"forever\" such as 2 Corinthians 9:9 and 1 Peter 1:25, also 1 Peter 1:23, Hebrews 10:34 and Romans 9:11. Prefer \"remain\" where it reads naturally, especially of persons, as in John 8:35, John 12:34 and Hebrews 7:24."
+        }
+      ],
+      "traditional": "abide",
+      "status": "settled",
+      "rationale": "The Greek verb is the everyday word for staying or remaining, with no special religious tone. \"Abide\" is now archaic and carries a devotional colouring the Greek lacks. \"Remain\" also works for both people and things, so the reader can hear John's deliberate repetition of one verb, for example the branch remaining in the vine, words remaining in the disciples, and fruit that remains.",
+      "standard_view": "KJV, ESV and NRSV keep \"abide\" in John 15 and 1 John. NIV, CSB, NET and NAB use \"remain\", and some use \"live in\" or \"continue in\" in places. Lexicons gloss the verb as remain, stay, continue, and transitively as await. For lodging, all modern versions use \"stay\". For permanence, \"endure\", \"last\" and \"remain\" are all common, with \"endures forever\" usual in the Old Testament quotations.",
+      "watch": [
+        "abide",
+        "dwell",
+        "continue"
+      ],
+      "verified": false,
+      "history": "Added in 0.5. Drafted by claude-fable-5-2 from all 102 occurrences in run 20261118-162954-full-nt, which had no entry for this word. In that run: default form 70, listed alternates 31, other renderings 1."
+    },
+    {
+      "id": "sozo",
+      "lemma": "σῴζω",
+      "also": [],
+      "role": "watch",
+      "sense": "to rescue from danger, death, judgment or sin, covering both physical rescue and salvation in the religious sense; the entry also fixes how the healing uses are handled",
+      "default": "save",
+      "alternates": [
+        {
+          "rendering": "make well",
+          "when": "A sick or disabled person is the one affected and the plain sense is simply recovery from the condition, with no saying about faith: Matthew 9:21, the narrator's clause at the end of Matthew 9:22, Mark 5:23, Mark 5:28, Mark 6:56, Luke 8:36, Acts 4:9, Acts 14:9. This does NOT apply to the sentence \"your faith has saved you\" (Matthew 9:22, Mark 5:34, Mark 10:52, Luke 7:50, Luke 8:48, Luke 17:19, Luke 18:42), which is always rendered with \"save\" and footnoted in healing scenes. It also does not apply to Luke 8:50, where the girl is already dead, or to James 5:15, where forgiveness follows; both keep \"save\"."
+        },
+        {
+          "rendering": "get well / recover",
+          "when": "Active-sense English is needed for a sick person recovering on their own, as in John 11:12, where the disciples mean only that sleep is a good sign."
+        },
+        {
+          "rendering": "bring safely",
+          "when": "The verb is construed with εἰς and a destination, meaning to bring someone safely into a place: 2 Timothy 4:18."
+        }
+      ],
+      "traditional": "save; in healing scenes \"make whole\" in the KJV and \"make well\" or \"heal\" in most modern versions",
+      "status": "contested",
+      "rationale": "\"Save\" is the ordinary English word for both rescue from danger and religious salvation, and it matches the Greek verb's range across shipwreck, death, sin and judgment. Where a sick person simply recovers, a first-century reader understood a cure, and \"saved\" would now suggest religious conversion, so \"make well\" is used there. The sentence \"your faith has saved you\" is kept identical everywhere because Luke uses the same words to a forgiven woman with no illness (7:50), and the Gospels use other verbs when they mean only \"heal\"; a footnote marks the healing sense.",
+      "standard_view": "All major translations use \"save\" for rescue and salvation. In healing scenes most modern versions render \"made well\" or \"healed\", including in \"your faith has made you well\", while keeping \"your faith has saved you\" at Luke 7:50. A minority of modern versions keep \"saved you\" in the healing scenes too, and the KJV varies between \"made thee whole\" and \"saved thee\". Lexicons list recovery from disease as a recognised use of the verb, and many commentators think the evangelists intend a double sense in the faith formula, so the default here for that formula is an editorial choice, not a consensus.",
+      "watch": [
+        "made well",
+        "make well",
+        "healed",
+        "restored",
+        "made whole",
+        "cured"
+      ],
+      "verified": false,
+      "history": "Added in 0.5. Drafted by claude-fable-5-2 from all 99 occurrences in run 20261118-162954-full-nt, which had no entry for this word. In that run: default form 92, listed alternates 2, other renderings 5."
+    },
+    {
+      "id": "aion",
+      "lemma": "αἰών",
+      "also": [],
+      "role": "active",
+      "sense": "a period of time, an era; especially the present age contrasted with the age to come, and the plural 'ages' as spans of history",
+      "default": "age",
+      "alternates": [
+        {
+          "rendering": "forever",
+          "when": "The idiom εἰς τὸν αἰῶνα or εἰς τοὺς αἰῶνας in a positive statement (e.g. John 6:51, Rom 11:36, Heb 5:6, Heb 13:8, Jude 13)."
+        },
+        {
+          "rendering": "never / ever",
+          "when": "The idiom εἰς τὸν αἰῶνα with a negative, meaning 'not ever' (e.g. Matt 21:19, Mark 3:29, John 4:14, John 8:51, John 13:8, 1 Cor 8:13)."
+        },
+        {
+          "rendering": "forever and ever",
+          "when": "The doubled formula εἰς τοὺς αἰῶνας τῶν αἰώνων, εἰς τὸν αἰῶνα τοῦ αἰῶνος or εἰς αἰῶνας αἰώνων, in every book (Gal 1:5, Phil 4:20, 1 Tim 1:17, 2 Tim 4:18, Heb 1:8, 1 Peter, Revelation). At Eph 3:21 render the closing phrase 'to all generations, forever and ever'. Do not use 'to the ages of the ages'; a footnote may give the literal form where a wordplay with 'age' is nearby."
+        },
+        {
+          "rendering": "from of old / from long ago / since time began",
+          "when": "The idioms ἀπ' αἰῶνος (Luke 1:70, Acts 3:21, Acts 15:18) and ἐκ τοῦ αἰῶνος (John 9:32), meaning from the distant past or since the beginning of time."
+        },
+        {
+          "rendering": "universe / world",
+          "when": "The plural as object of making or ordering, meaning the whole created order (Heb 1:2, Heb 11:3 only). Prefer 'universe' in both verses so they match; a note may say the Greek is literally 'the ages'."
+        },
+        {
+          "rendering": "eternity",
+          "when": "The unique phrase εἰς ἡμέραν αἰῶνος at 2 Pet 3:18, rendered 'to the day of eternity'."
+        }
+      ],
+      "traditional": "world for the era sense in many verses (KJV 'this world', 'the end of the world', 'the god of this world'), age in others; for ever and for ever and ever in the idioms",
+      "status": "settled",
+      "rationale": "The word is a time-word. Where it stands alone it means an era, and New Testament writers share the Jewish contrast between the present age and the age to come; 'world' blurs this and confuses it with a different Greek word (kosmos) that really does mean 'world'. In the fixed phrases 'into the age' and 'into the ages of the ages' a first-century reader simply heard 'forever' or, with a negative, 'never', so those are translated as the idioms they are. A word-for-word 'to the ages of the ages' sounds exotic in English where the Greek sounded ordinary.",
+      "standard_view": "Standard lexicons give the same senses: a long time or eternity in the idioms, a segment of time or age, and the world as a created order in Heb 1:2 and 11:3. Modern translations (ESV, NRSV, NIV, CSB) use 'age' in 'end of the age', 'this age' and 'the age to come', but several keep 'world' at places like Matt 13:22, Mark 4:19, Rom 12:2 and 2 Cor 4:4; the default here uses 'age' there too, which lexicographers accept and some versions (CSB, NET in places) already do. Nearly all render the doubled formula 'forever and ever'; a few literal versions (Young's, and Orthodox liturgical English, 'unto the ages of ages') keep the word-for-word form. At Eph 3:11 and 1 Tim 1:17 many versions paraphrase as 'eternal purpose' and 'King eternal'; 'purpose of the ages' and 'King of the ages' follow the default and are also widely used.",
+      "watch": [
+        "world",
+        "worlds",
+        "to the ages of the ages",
+        "the age of the ages",
+        "for all the ages",
+        "course",
+        "life"
+      ],
+      "verified": false,
+      "history": "Added in 0.5. Drafted by claude-fable-5-2 from all 97 occurrences in run 20261118-162954-full-nt, which had no entry for this word. In that run: default form 40, listed alternates 57, other renderings 0."
+    },
+    {
+      "id": "exoysia",
+      "lemma": "ἐξουσία",
+      "also": [],
+      "role": "watch",
+      "sense": "Authority: the conferred or inherent right to command, act, or rule, including the concrete use for those who hold it. Related senses (entitlement, sphere of rule, capacity) are covered by the alternates.",
+      "default": "authority",
+      "alternates": [
+        {
+          "rendering": "right",
+          "when": "The word means an entitlement or liberty to do or have something, not command over others: John 1:12; Romans 9:21; 1 Corinthians 8:9; 9:4, 9:5, 9:6, 9:12, 9:18; 2 Thessalonians 3:9; Hebrews 13:10; Revelation 22:14."
+        },
+        {
+          "rendering": "power",
+          "when": "Only where the word describes a creature's physical capacity to do harm, located in its body: Revelation 9:3, 9:10, 9:19. Do not use 'power' elsewhere, since it is needed for δύναμις, which often stands beside this word."
+        },
+        {
+          "rendering": "jurisdiction",
+          "when": "The territory or legal competence of a ruler: Luke 23:7."
+        },
+        {
+          "rendering": "domain",
+          "when": "The sphere or realm in which rule is exercised: Ephesians 2:2 and Colossians 1:13, where it is set against 'kingdom'. Luke 22:53 and Acts 26:18 keep 'authority'."
+        },
+        {
+          "rendering": "disposal / at your disposal / control",
+          "when": "Free control over one's own property: Acts 5:4."
+        },
+        {
+          "rendering": "authorities",
+          "when": "Plural used concretely for holders of authority, whether human officials (Luke 12:11; Romans 13:1; Titus 3:1) or supernatural powers (Ephesians 3:10; 6:12; Colossians 1:16; 2:15; 1 Peter 3:22). The singular paired with ἀρχή (1 Corinthians 15:24; Ephesians 1:21; Colossians 2:10) stays 'authority'."
+        }
+      ],
+      "traditional": "power in the King James tradition for many occurrences; authority in most modern versions",
+      "status": "settled",
+      "rationale": "In the period the word meant the right or authorisation to act or command, as distinct from δύναμις, which meant strength or ability. 'Power' blurs that distinction and collides with δύναμις where the two stand side by side (Luke 4:36; 9:1; Revelation 13:2; 17:13). 'Authority' is already the run's near-universal choice and the standard modern rendering. At 1 Corinthians 11:10 keep the bare 'authority' without supplying 'a symbol of'.",
+      "standard_view": "The standard lexicons distinguish the senses of right or freedom of choice, capability, authority to command, ruling power, holders of authority, and sphere of rule. Modern versions such as ESV, NRSV, NIV and NASB mostly use 'authority', with 'right' in John 1:12 and 1 Corinthians 9. They often keep 'power' in fixed phrases such as 'power of darkness', 'power of Satan' and 'the second death has no power', and in Revelation 9. They commonly use 'domain' or 'dominion' at Colossians 1:13, and most add 'a symbol of' at 1 Corinthians 11:10. The default here is stricter than those versions about 'power'.",
+      "watch": [
+        "power",
+        "domain",
+        "dominion",
+        "control"
+      ],
+      "verified": false,
+      "history": "Added in 0.5. Drafted by claude-fable-5-2 from all 93 occurrences in run 20261118-162954-full-nt, which had no entry for this word. In that run: default form 76, listed alternates 17, other renderings 0."
+    },
+    {
+      "id": "psyche",
+      "lemma": "ψυχή",
+      "also": [],
+      "role": "active",
+      "sense": "A person's life, as what is saved, lost, found, sought, risked, given, laid down or worried over; this includes the Gospel sayings about saving and losing one's ψυχή. The alternates cover the word's other senses: inner self or soul, individual person, and living creature.",
+      "default": "life",
+      "alternates": [
+        {
+          "rendering": "soul",
+          "when": "The inner self as seat of feeling, desire, devotion or delight, including God's (Matt 11:29; 12:18; 22:37; 26:38; Mark 12:30; 14:34; Luke 1:46; 2:35; 10:27; John 12:27; Acts 14:22; Heb 10:38; 12:3; 2 Pet 2:8, 14; 3 John 2; Rev 18:14). The ψυχή set against the body as what killing cannot reach, or listed beside spirit (Matt 10:28; 1 Thess 5:23; Heb 4:12). The dead (Acts 2:27; Rev 6:9; 20:4). Unity phrases (Acts 4:32; Phil 1:27). The rich man's self-address and God's reply to it (Luke 12:19-20). In the letters, the ψυχή as object of spiritual care, purification, safekeeping with God or final salvation (2 Cor 12:15; Heb 6:19; 10:39; 13:17; Jas 1:21; 5:20; 1 Pet 1:9, 22; 2:11, 25; 4:19)."
+        },
+        {
+          "rendering": "person / people / everyone / human being",
+          "when": "The Septuagint idiom in which ψυχή counts or designates individuals: with numbers, or with 'every' (Acts 2:41, 43; 3:23; 7:14; 27:37; Rom 2:9; 13:1; 1 Pet 3:20)."
+        },
+        {
+          "rendering": "living being / living creature",
+          "when": "ψυχὴ ζῶσα or ψυχὴ ζωῆς, echoing Genesis, for an animate creature (1 Cor 15:45; Rev 16:3)."
+        },
+        {
+          "rendering": "mind",
+          "when": "The ψυχή as the seat of attitude or conviction that outsiders stir up or unsettle (Acts 14:2; 15:24)."
+        },
+        {
+          "rendering": "wholeheartedly",
+          "when": "The adverbial phrase ἐκ ψυχῆς (Eph 6:6; Col 3:23)."
+        },
+        {
+          "rendering": "keep in suspense",
+          "when": "The idiom τὴν ψυχὴν αἴρειν at John 10:24."
+        }
+      ],
+      "traditional": "soul, with life where physical life is plainly meant",
+      "status": "contested",
+      "rationale": "In first-century usage ψυχή most often means a person's life or living self, not an immaterial part of them, so 'life' is the default wherever it is saved, lost, risked or given. That includes Matt 16:26 and Mark 8:36-37, where the argument depends on the word being the same as in the preceding verse. 'Soul' is kept where English still uses it naturally and without misleading: for the inner self that grieves, rejoices and loves, for the ψυχή contrasted with the body or surviving death, and in the letters' language of saving, guarding and shepherding souls. In that last group 'life' would wrongly suggest mere physical rescue.",
+      "standard_view": "All major translations split the word between 'life', 'soul' and 'person' by context; the disagreement is over where the lines fall. KJV, ESV and NIV have 'soul' at Matt 16:26 and Mark 8:36-37, while NRSV and some others have 'life'. In the letters ('salvation of your souls', 'save your souls') most versions keep 'soul', though many scholars hold that the whole person is meant, and some versions paraphrase as 'you' or 'yourselves' (2 Cor 12:15; 1 Pet 4:19; Heb 10:39). At Luke 12:20 ESV keeps 'soul' while NRSV and NIV have 'life'. At Phil 1:27 many versions have 'one mind'.",
+      "watch": [
+        "soul",
+        "with your whole being"
+      ],
+      "verified": false,
+      "history": "Added in 0.5. Drafted by claude-fable-5-2 from all 92 occurrences in run 20261118-162954-full-nt, which had no entry for this word. In that run: default form 35, listed alternates 50, other renderings 7."
+    },
+    {
+      "id": "peripateo",
+      "lemma": "περιπατέω",
+      "also": [],
+      "role": "watch",
+      "sense": "Figurative sense only: to conduct one's life, to behave in a given manner, usually with an adverb, a κατά or ἐν phrase, or a dative.",
+      "default": "walk",
+      "alternates": [
+        {
+          "rendering": "walk / walk around / walk about / walk by / walk over",
+          "when": "Literal sense: physical walking, as in the healing narratives, walking on the sea, walking in the temple or in robes, and the visions of Revelation."
+        },
+        {
+          "rendering": "go about / walk about",
+          "when": "Literal sense extended to moving around or spending one's time in a region or with someone, as in John 6:66, 7:1 and 11:54."
+        },
+        {
+          "rendering": "prowl around",
+          "when": "Of the devil pictured as a lion on the move, 1 Peter 5:8."
+        },
+        {
+          "rendering": "live by",
+          "when": "Figurative sense, only where 'walk' with the Greek construction gives unnatural English, namely Hebrews 13:9 of foods. Wherever 'walk in', 'walk by' or 'walk according to' reads naturally, use the default."
+        }
+      ],
+      "traditional": "walk",
+      "status": "settled",
+      "rationale": "Greek-speaking Jews used 'walk' for how a person conducts their life, an idiom taken over from Hebrew through the Septuagint. A first-century reader would still have heard the picture of walking. English 'walk' remains intelligible in this sense ('walk by faith', 'walk in the light'), and it keeps the imagery that many passages build on, such as light and darkness, stumbling, and footsteps, so the traditional word is kept and the run already favours it.",
+      "standard_view": "The meaning 'conduct one's life, behave' is undisputed in the lexicons. Translations divide on the English: KJV, ESV and NASB keep 'walk', while NIV, NRSV and NLT usually paraphrase as 'live', 'behave' or 'conduct oneself'. Either is lexically acceptable, so the choice here is one of consistency and of keeping the metaphor.",
+      "watch": [
+        "live",
+        "live by",
+        "conduct oneself",
+        "conduct yourselves",
+        "behave"
+      ],
+      "verified": false,
+      "history": "Added in 0.5. Drafted by claude-fable-5-2 from all 88 occurrences in run 20261118-162954-full-nt, which had no entry for this word. In that run: default form 79, listed alternates 4, other renderings 5."
+    },
+    {
+      "id": "grammateys",
+      "lemma": "γραμματεύς",
+      "also": [],
+      "role": "watch",
+      "sense": "Jewish expert in the Law of Moses and the Scriptures, who taught and interpreted them",
+      "default": "scribe",
+      "alternates": [
+        {
+          "rendering": "city clerk",
+          "when": "The chief civic official of a Greek city, a different sense of the word. Only at Acts 19:35 (Ephesus)."
+        }
+      ],
+      "traditional": "scribe",
+      "status": "settled",
+      "rationale": "\"Scribe\" can suggest a mere copyist to a modern reader, but it is still the recognised English term for this Jewish class of Scripture experts, and no replacement is clearly better. \"Teacher of the law\" is a gloss rather than a title, and \"scholar\" or \"lawyer\" brings in modern associations. A background note can explain the role, so the traditional word is kept everywhere the Jewish expert is meant. That includes 1 Corinthians 1:20, where Paul most likely sets the Jewish Scripture expert beside the sage and the debater.",
+      "standard_view": "KJV, RSV, NRSV, ESV, NASB and most scholarly literature use \"scribe\" in the Gospels and Acts. NIV has \"teacher of the law\", CEB \"legal expert\", and NET \"expert in the law\". At 1 Corinthians 1:20 most keep \"scribe\", though NIV has \"teacher of the law\" and some recent versions have \"scholar\"; a minority of interpreters take the word there more generally as a learned person. At Acts 19:35 virtually all versions have \"town clerk\" or \"city clerk\".",
+      "watch": [
+        "scholar"
+      ],
+      "verified": false,
+      "history": "Added in 0.5. Drafted by claude-fable-5-2 from all 62 occurrences in run 20261118-162954-full-nt, which had no entry for this word. In that run: default form 60, listed alternates 1, other renderings 1."
+    },
+    {
+      "id": "proskyneo",
+      "lemma": "προσκυνέω",
+      "also": [],
+      "role": "active",
+      "sense": "to prostrate oneself in reverence before someone; the entry governs the whole range, from religious worship of a deity to bowing before a human superior",
+      "default": "worship",
+      "alternates": [
+        {
+          "rendering": "bow down before",
+          "when": "The gesture is made to a human being, or to Jesus by a petitioner or subordinate during his ministry, and the scene contains no confession of divine status: Matt 8:2; 9:18; 15:25; 18:26; 20:20; Mark 5:6; Rev 3:9. Also acceptable at Mark 15:19."
+        },
+        {
+          "rendering": "pay homage",
+          "when": "The recipient is honoured as a king or dignitary, sincerely or in mockery, especially where falling or kneeling is already stated separately: Matt 2:2, 8, 11; Mark 15:19; Acts 10:25."
+        },
+        {
+          "rendering": "bow in worship",
+          "when": "Only at Heb 11:21, where worship of God is tied to a physical posture over the staff and plain \"worship\" would read awkwardly."
+        }
+      ],
+      "traditional": "worship",
+      "status": "contested",
+      "rationale": "The Greek verb names prostration in reverence, and what it signifies depends on who receives it. Before God, gods, idols, the beast, or an angel who refuses it, \"worship\" is exact; it must stay the same word in Rev 19:10 and 22:8-9 so the rebuke \"Worship God\" answers the act. \"Worship\" is also kept where Jesus is confessed as God's Son or Lord, is risen, or is the object in a scriptural citation (Matt 14:33; 28:9, 17; Luke 24:52; John 9:38; Heb 1:6), because the context marks the homage as the highest kind. Where a petitioner, slave, or visitor to a king prostrates himself, modern \"worship\" claims more than the word says, so the physical gesture is rendered instead.",
+      "standard_view": "The KJV has \"worship\" almost throughout. Modern versions (NRSV, NIV, ESV, NET) generally keep \"worship\" for God, idols, the beast, and for Jesus at Matt 14:33; 28:9, 17; Luke 24:52; John 9:38; Heb 1:6. They use \"knelt before\" or \"bowed down\" for petitioners and for Matt 18:26 and Mark 5:6. They split on Matt 2, where NRSV has \"pay homage\" and NIV and ESV have \"worship\". Scholars disagree on how much divine recognition Matthew intends in the petitioner scenes, and some would use the physical-gesture rendering even at Matt 14:33 and 28:17, as the run did.",
+      "watch": [
+        "bow low before",
+        "bow down to",
+        "bow in worship",
+        "kneel before"
+      ],
+      "verified": false,
+      "history": "Added in 0.5. Drafted by claude-fable-5-2 from all 54 occurrences in run 20261118-162954-full-nt, which had no entry for this word. In that run: default form 37, listed alternates 13, other renderings 4."
+    },
+    {
+      "id": "thlipsis",
+      "lemma": "θλῖψις",
+      "also": [],
+      "role": "active",
+      "sense": "Pressure in the figurative sense: hardship, oppression or trouble that bears down on a person or people, usually from outside circumstances or hostile parties. This includes the end-time passages (Matthew 24, Mark 13, Revelation 7:14).",
+      "default": "affliction",
+      "alternates": [
+        {
+          "rendering": "distress / anguish",
+          "when": "Only where the word names inward or bodily anguish rather than hardship imposed by circumstances or opponents: the woman's pain in childbirth (John 16:21) and Paul's anguish of heart when writing (2 Corinthians 2:4). Do not use 'distress' where στενοχωρία or ἀνάγκη stands alongside and needs that word (Romans 2:9; 8:35; 1 Thessalonians 3:7)."
+        }
+      ],
+      "traditional": "tribulation",
+      "status": "settled",
+      "rationale": "In the period, including the Septuagint, θλῖψις was an ordinary word for oppressive hardship, not a technical term. 'Tribulation' is now heard by many readers as the name of a specific end-time period, which says more than the Greek does. 'Affliction' is an established traditional rendering alongside it (the King James Version uses both), carries the idea of hardship pressing on someone, and is already the run's majority choice. Using it in the Gospels, Paul and Revelation alike lets the reader see the same word in 'great affliction' at Matthew 24:21, Acts 7:11 and Revelation 7:14, and it leaves 'distress' free for στενοχωρία and ἀνάγκη when they are paired with it.",
+      "standard_view": "Lexicons agree on the sense: oppression, affliction, distress, with an occasional inward sense of anguish. English versions split. KJV and ESV alternate between 'tribulation' and 'affliction'; NRSV often has 'suffering', 'affliction', 'distress' or 'ordeal'; NIV uses 'trouble', 'distress', 'suffering', 'hardships' and 'persecution' (Acts 11:19), keeping 'tribulation' only at Revelation 7:14. Many versions retain 'great tribulation' in Matthew 24:21 and Revelation 7:14. Whether Revelation 7:14 refers to a single final crisis or to the whole course of the church's suffering is debated, but that is a question of reference, not of the word's meaning.",
+      "watch": [
+        "suffering",
+        "distress",
+        "trouble",
+        "hardship",
+        "tribulation",
+        "persecution"
+      ],
+      "verified": false,
+      "history": "Added in 0.5. Drafted by claude-fable-5-2 from all 43 occurrences in run 20261118-162954-full-nt, which had no entry for this word. In that run: default form 30, listed alternates 7, other renderings 6."
+    },
+    {
+      "id": "naos",
+      "lemma": "ναός",
+      "also": [],
+      "role": "active",
+      "sense": "the sanctuary building proper, the dwelling place of the God of Israel, as distinct from the whole temple complex with its courts (ἱερόν); this includes the Jerusalem sanctuary, its heavenly counterpart in Revelation, and figurative uses for Jesus' body, the believer's body and the community",
+      "default": "sanctuary",
+      "alternates": [
+        {
+          "rendering": "temple",
+          "when": "Pagan temples, or temples of gods spoken of generically, where no contrast with the Jerusalem temple complex is in play, as in Acts 17:24."
+        },
+        {
+          "rendering": "shrine",
+          "when": "Small model or votive replicas of a temple, as with the silver objects made by Demetrius in Acts 19:24."
+        }
+      ],
+      "traditional": "temple",
+      "status": "contested",
+      "rationale": "Greek has two words that English Bibles usually both render 'temple': ἱερόν for the whole complex with its courts, and ναός for the building where the deity dwells. Using 'temple' for both blurs passages where the difference matters: Zechariah enters the ναός while the people wait outside, a murder happens between the ναός and the altar, and the outer court lies outside the ναός that is measured. 'Sanctuary' is an accepted rendering used by some mainstream versions. Applying it uniformly, including to the figurative uses, keeps linked sayings such as the destroy-and-rebuild charge and the torn curtain identical across the Gospels, and keeps Paul's image focused on the place where God dwells.",
+      "standard_view": "Most English versions (KJV, ESV, NIV, NASB) render ναός as 'temple' throughout and do not distinguish it from ἱερόν. The NRSV uses 'sanctuary' in some places (for example Matthew 23 and Luke 1) but 'temple' elsewhere, and the HCSB used 'sanctuary' widely. Standard lexicons gloss the word as 'temple' while noting that it refers particularly to the sanctuary building or inner shrine. Scholars differ on how strictly New Testament writers observe the distinction; Matthew 27:5 and John 2:20 are often cited as looser uses. 'You are God's temple' in Paul is deeply established in English.",
+      "watch": [
+        "temple"
+      ],
+      "verified": false,
+      "history": "Added in 0.5. Drafted by claude-fable-5-2 from all 39 occurrences in run 20261118-162954-full-nt, which had no entry for this word. In that run: default form 14, listed alternates 25, other renderings 0."
+    },
+    {
+      "id": "blasphemeo",
+      "lemma": "βλασφημέω",
+      "also": [],
+      "role": "active",
+      "sense": "To speak defamatory or demeaning words about people, their conduct, or things such as a message, a teaching or angelic beings; the non-divine sense of the verb.",
+      "default": "slander",
+      "alternates": [
+        {
+          "rendering": "blaspheme",
+          "when": "The object is God, God's name, the Holy Spirit or a deity, or the verb stands alone as a charge or act of religious offence. This covers Matthew 9:3 and 26:65, Mark 2:7 and 3:28-29, Luke 12:10, John 10:36, Acts 19:37 and 26:11, Romans 2:24, 1 Timothy 1:20, James 2:7, and Revelation 13:6, 16:9, 16:11 and 16:21. It also covers 1 Timothy 6:1, where the name of God is the first object."
+        },
+        {
+          "rendering": "insult / hurl insults at / hurl insults",
+          "when": "Abuse is thrown directly at someone present, with taunting rather than false report. Use \"hurl insults at\" in both Matthew 27:39 and Mark 15:29, which are parallel and must match. Use \"insult\" in Luke 23:39 and \"insulting things\" in Luke 22:65. Use \"hurl insults\" for the objectless hostile speech of Paul's opponents in Acts 13:45 and 18:6."
+        }
+      ],
+      "traditional": "blaspheme",
+      "status": "settled",
+      "rationale": "In first-century Greek this verb meant abusive or defamatory speech against anyone, not only against God. Modern English \"blaspheme\" is confined to irreverence toward God or the sacred, so it misleads when the target is a person, a practice or a teaching. \"Slander\" is a standard dictionary gloss for those cases and is what the run already favours. \"Blaspheme\" is kept where God or the divine is the target, and \"insult\" serves for jeering to someone's face, where \"slander\" would wrongly suggest a false report to third parties.",
+      "standard_view": "The lexicons distinguish speech against humans (slander, revile, defame) from speech against God or transcendent beings (blaspheme, speak irreverently of). The KJV uses \"blaspheme\" widely, alongside \"revile\", \"rail on\" and \"speak evil of\". Modern versions such as the ESV, NRSV and NIV keep \"blaspheme\" for God-directed uses and vary among revile, slander, malign, insult and heap abuse elsewhere. They differ on boundary cases: several keep \"blaspheme\" for the word of God, the way of truth or the glorious ones (Titus 2:5, 2 Peter 2:2, 2 Peter 2:10, Jude 8), where this entry uses \"slander\". In Acts 13:45 and 18:6 some read blasphemy against Christ rather than abuse of Paul.",
+      "watch": [
+        "revile",
+        "denounce",
+        "hurl abuse at",
+        "speak abusively",
+        "become abusive",
+        "malign",
+        "defame",
+        "speak evil of"
+      ],
+      "verified": false,
+      "history": "Added in 0.5. Drafted by claude-fable-5-2 from all 34 occurrences in run 20261118-162954-full-nt, which had no entry for this word. In that run: default form 10, listed alternates 14, other renderings 10."
+    },
+    {
+      "id": "peirazo",
+      "lemma": "πειράζω",
+      "also": [],
+      "role": "active",
+      "sense": "to put a person or God to the test, whether to prove character, to trap, or by pressure that could make someone fail; this entry also fixes where 'tempt' is used instead",
+      "default": "test",
+      "alternates": [
+        {
+          "rendering": "tempt",
+          "when": "The context makes inward enticement to sin the point rather than trial or proving: James 1:13-14 (desire, evil, luring), 1 Corinthians 7:5 (lack of self-control), Galatians 6:1. Also allowed for the finite verb in 1 Thessalonians 3:5 to keep the wordplay with 'the tempter'."
+        },
+        {
+          "rendering": "tempter",
+          "when": "The substantive participle ὁ πειράζων is used as a title for the devil (Matthew 4:3; 1 Thessalonians 3:5). Use 'the tempter' in both places, not 'the tester'."
+        },
+        {
+          "rendering": "put to the test",
+          "when": "Phrasal variant of the default, where people presume on or provoke God, Christ or the Spirit (Acts 5:9; 15:10; 1 Corinthians 10:9; Hebrews 3:9), or wherever plain 'test' reads awkwardly."
+        },
+        {
+          "rendering": "examine",
+          "when": "2 Corinthians 13:5 only, where the verb is paired with δοκιμάζω and English needs two different verbs for self-scrutiny."
+        },
+        {
+          "rendering": "try / attempt",
+          "when": "A separate sense: with an infinitive, meaning to attempt to do something (Acts 9:26; 16:7; 24:6)."
+        }
+      ],
+      "traditional": "tempt",
+      "status": "contested",
+      "rationale": "The Greek verb means to put to the test. In the Greek Old Testament it is the ordinary word for God testing Israel and Israel testing God, and Jesus' forty days and the argument of Hebrews both draw on that background. Modern English 'tempt' has narrowed to 'entice to sin', which hides this link and sits badly with suffering and persecution contexts, so 'test' is the default. 'Tempt' is kept where enticement to sin is plainly the point, and 'the tempter' is kept as the title because 'the tester' is not natural English for the devil.",
+      "standard_view": "Most translations use 'tempt' for the devil's approach to Jesus, for Hebrews 2:18 and 4:15, 1 Corinthians 10:13 and James 1:13-14, and 'test' for the Pharisees' questions, the testing of God, Abraham, and Revelation. Some recent versions and many commentators prefer 'test' in the wilderness narratives and in Hebrews. Standard lexicons recognise both 'test' and 'tempt' as contextual senses of the one verb, and it is disputed which fits the wilderness narrative and Hebrews 4:15 ('yet without sin'). 'The tempter' is the near-universal rendering of the title.",
+      "watch": [
+        "tester",
+        "tempt",
+        "trap",
+        "prove"
+      ],
+      "verified": false,
+      "history": "Added in 0.5. Drafted by claude-fable-5-2 from all 33 occurrences in run 20261118-162954-full-nt, which had no entry for this word. In that run: default form 25, listed alternates 5, other renderings 3."
+    },
+    {
+      "id": "diakonia",
+      "lemma": "διακονία",
+      "also": [],
+      "role": "active",
+      "sense": "service rendered or an assigned task carried out on behalf of another, including apostolic and congregational work and the collection for Jerusalem",
+      "default": "service",
+      "alternates": [
+        {
+          "rendering": "serving",
+          "when": "The act of waiting on people or providing for them at table or in daily provision is in view (Luke 10:40; Acts 6:1), or English needs the verbal noun to avoid repetition, as in the second occurrence in Romans 12:7."
+        },
+        {
+          "rendering": "aid / relief",
+          "when": "The word denotes the material help itself that is sent to those in need, as the object of a verb of sending (Acts 11:29)."
+        },
+        {
+          "rendering": "serve",
+          "when": "English idiom requires recasting the noun phrase as a verb, as in 2 Corinthians 11:8, \"so as to serve you\"."
+        }
+      ],
+      "traditional": "ministry",
+      "status": "contested",
+      "rationale": "In the first century this was an everyday word for service or for carrying out a task for someone, from waiting at table to delivering a commission. It did not denote a religious office. \"Ministry\" now suggests clergy or a church profession, and it hides the link with the related words rendered \"servant\" and \"serve\". \"Service\" is a recognised lexical gloss, and it works in every context where the word occurs, including Paul's apostolic task and the collection for Jerusalem.",
+      "standard_view": "Most English translations use \"ministry\" for apostolic and church work, and vary by context elsewhere: \"service\", \"serving\" or \"preparations\" in Luke 10:40, \"distribution\" in Acts 6:1, \"relief\" in Acts 11:29, and \"mission\" or \"service\" in Acts 12:25 and for the collection. Standard lexicons list service, aid, and office or ministry as glosses. Some scholarship stresses the idea of commissioned agency over humble service; \"service\" is compatible with either view.",
+      "watch": [
+        "ministry"
+      ],
+      "verified": false,
+      "history": "Added in 0.5. Drafted by claude-fable-5-2 from all 32 occurrences in run 20261118-162954-full-nt, which had no entry for this word. In that run: default form 25, listed alternates 4, other renderings 3."
+    },
+    {
+      "id": "parresia",
+      "lemma": "παρρησία",
+      "also": [],
+      "role": "active",
+      "sense": "Only the sense of assurance and freedom from fear before God or at judgment, including approach to him in prayer or worship (Hebrews, 1 John, 1 Timothy 3:13). The speech senses are covered by the alternates.",
+      "default": "confidence",
+      "alternates": [
+        {
+          "rendering": "boldness / boldly / bold",
+          "when": "Fearless outspokenness before other people, especially in proclaiming under threat or in exercising the right to speak with authority: Acts 4:13, 4:29, 4:31, 28:31; Ephesians 6:19; Philippians 1:20; Philemon 8. Also Ephesians 3:12, where \"confidence\" is needed for the separate Greek word πεποίθησις in the same clause."
+        },
+        {
+          "rendering": "plainly",
+          "when": "Speaking directly, without figures of speech, hints or reserve: Mark 8:32; John 10:24, 11:14, 16:25, 16:29; Acts 2:29."
+        },
+        {
+          "rendering": "openly / in the open / publicly / public",
+          "when": "Acting or speaking in public view, as opposed to in secret: John 7:4, 7:13, 7:26, 11:54, 18:20; Colossians 2:15."
+        },
+        {
+          "rendering": "openness / frankness",
+          "when": "Paul's unreserved, unconcealed dealing with his readers, where the point is that nothing is hidden or held back rather than courage: 2 Corinthians 3:12, 7:4."
+        }
+      ],
+      "traditional": "boldness",
+      "status": "settled",
+      "rationale": "In ordinary Greek the word meant freedom to speak one's mind, and by this period it also meant the assurance of someone who can stand before a superior without fear or shame. For that sense \"confidence\" is the more accurate modern word, because \"boldness\" can suggest nerve or audacity, which is not the point when approaching God or facing judgment. \"Boldness\" is kept where the context is courageous public speech, and \"plainly\" and \"openly\" where the word describes the manner of speaking or acting.",
+      "standard_view": "The standard lexicons distinguish plainness or frankness of speech, openness to public view, and courage or confidence, the last especially before God or persons of high rank. The KJV mostly has \"boldness\" or \"boldly\" in Acts and the letters; modern versions such as the ESV and NIV largely use \"confidence\" in Hebrews and 1 John and \"boldness\" for the preaching in Acts, while the NRSV keeps \"boldness\" in some of the approach-to-God passages, such as Hebrews 4:16. The choice between the two is a matter of English nuance and not a real dispute about meaning.",
+      "watch": [
+        "boldness",
+        "boldly",
+        "assurance",
+        "freedom"
+      ],
+      "verified": false,
+      "history": "Added in 0.5. Drafted by claude-fable-5-2 from all 31 occurrences in run 20261118-162954-full-nt, which had no entry for this word. In that run: default form 9, listed alternates 22, other renderings 0."
+    },
+    {
+      "id": "ypomone",
+      "lemma": "ὑπομονή",
+      "also": [],
+      "role": "watch",
+      "sense": "holding out under hardship, opposition or delay; steadfast staying power",
+      "default": "endurance",
+      "alternates": [
+        {
+          "rendering": "perseverance",
+          "when": "The word governs a genitive naming an activity one keeps on doing rather than a hardship one bears, as in Romans 2:7 (perseverance in good work), where \"endurance of good work\" would be unnatural English."
+        }
+      ],
+      "traditional": "patience",
+      "status": "settled",
+      "rationale": "In period usage, including the Septuagint, the word means active staying power under pressure: standing one's ground, not giving up. Modern English \"patience\" suggests calm waiting or an even temper, which misleads; James 5:11 shows the problem, since Job protests loudly yet holds out. \"Endurance\" conveys the sense, keeps the word distinct from μακροθυμία (rendered \"patience\", and paired with it in Colossians 1:11 and 2 Timothy 3:10), and matches the verb ὑπομένω, \"endure\".",
+      "standard_view": "The KJV has \"patience\" almost throughout. Modern versions abandon it but divide: NRSV and CSB mostly use \"endurance\", NIV and NASB often \"perseverance\", ESV often \"steadfastness\", and some use \"patient endurance\" in Revelation. The standard lexicons gloss it as endurance, perseverance, fortitude or steadfastness, so the default is within the mainstream.",
+      "watch": [
+        "perseverance",
+        "patience",
+        "steadfastness",
+        "patient endurance",
+        "persistence",
+        "fortitude"
+      ],
+      "verified": false,
+      "history": "Added in 0.5. Drafted by claude-fable-5-2 from all 31 occurrences in run 20261118-162954-full-nt, which had no entry for this word. In that run: default form 30, listed alternates 1, other renderings 0."
+    },
+    {
+      "id": "skandalizo",
+      "lemma": "σκανδαλίζω",
+      "also": [],
+      "role": "active",
+      "sense": "to trip someone up, bringing about their fall in faith or loyalty to God, whether into sin, desertion or rejection; in the passive, to be so tripped up",
+      "default": "cause to stumble",
+      "alternates": [
+        {
+          "rendering": "stumble / be made to stumble",
+          "when": "Passive where the person is tripped up or put off from trust without outright desertion being stated: Matt 11:6 and Luke 7:23 (\"stumble because of me\"), and 2 Cor 11:29 (\"is made to stumble\")."
+        },
+        {
+          "rendering": "fall away",
+          "when": "Passive where giving up allegiance under pressure is in view: the rootless hearer under persecution (Matt 13:21, Mark 4:17), the many in the last days (Matt 24:10), the disciples deserting on the night of the arrest (Matt 26:31, Matt 26:33, Mark 14:27, Mark 14:29; with the Greek preposition, \"fall away because of me\"), and John 16:1."
+        },
+        {
+          "rendering": "take offense / give offense",
+          "when": "Where the sense is to be affronted, shocked or repelled by a person or saying. Passive \"take offense\": the Nazareth townspeople at Jesus (Matt 13:57, Mark 6:3) and the Pharisees at his saying (Matt 15:12). Active \"give offense\": the temple-tax collectors (Matt 17:27)."
+        },
+        {
+          "rendering": "be made to fall",
+          "when": "Romans 14:21 only, where the verb stands beside a different Greek verb that must itself be rendered \"stumble\", so the two need distinct English."
+        }
+      ],
+      "traditional": "offend",
+      "status": "settled",
+      "rationale": "The verb comes from the Septuagint's word for a trap or obstacle and means to bring about someone's fall in loyalty to God. \"Offend\" now suggests hurt feelings, which is too weak, and \"cause to sin\" is narrower than the Greek. \"Cause to stumble\" keeps the picture and the breadth, and the run already favours it. In the passive, \"fall away\" is the clearest English where desertion is meant, and \"take offense\" remains accurate where people are affronted by Jesus or his words.",
+      "standard_view": "The KJV has \"offend\" throughout. Modern versions divide the active between \"cause to sin\" (ESV, older NIV) and \"cause to stumble\" (NASB, NIV 2011, NRSV in places). For the passive they commonly use \"fall away\" for desertion and \"take offense\" for Nazareth and the Pharisees. Matt 11:6 is split between \"take offense at me\" and \"stumble on account of me\", and John 6:61 between \"offend\" and \"cause to stumble\". Standard lexicons distinguish causing a fall or sin, with its passive of falling away or being repelled by someone, from the weaker sense of shocking or giving offense.",
+      "watch": [
+        "cause to fall",
+        "make stumble",
+        "stumble over",
+        "offend",
+        "cause to sin"
+      ],
+      "verified": false,
+      "history": "Added in 0.5. Drafted by claude-fable-5-2 from all 28 occurrences in run 20261118-162954-full-nt, which had no entry for this word. In that run: default form 7, listed alternates 18, other renderings 3."
+    },
+    {
+      "id": "misthos",
+      "lemma": "μισθός",
+      "also": [],
+      "role": "active",
+      "sense": "Recompense from God for conduct or service, usually at the judgment; the figurative sense of a word whose basic meaning is a worker's pay.",
+      "default": "reward",
+      "alternates": [
+        {
+          "rendering": "wages",
+          "when": "Pay owed by an employer to a hired worker, whether literal or inside a parable, proverb or illustration whose surface story is hired labour: Matthew 20:8, Luke 10:7, John 4:36, Romans 4:4, 1 Timothy 5:18, James 5:4. This does not extend to 1 Corinthians 3:8, 3:14, 9:17, 9:18 or 2 John 8, where the payer is God and the default applies."
+        },
+        {
+          "rendering": "wages",
+          "when": "The phrase μισθὸς ἀδικίας, gain or requital that comes from wrongdoing: Acts 1:18, 2 Peter 2:13, 2 Peter 2:15."
+        },
+        {
+          "rendering": "pay",
+          "when": "The bare genitive of price meaning for money or for gain: Jude 1:11."
+        }
+      ],
+      "traditional": "reward",
+      "status": "settled",
+      "rationale": "The Greek word is the ordinary term for a worker's pay, and it was also used, already in the Septuagint, for what God gives in return for what people do. \"Reward\" is the established English for that second use and does not mislead, so the stance of keeping the traditional word where it is still the best one applies. Using \"reward\" in both 1 Corinthians 3:8 and 3:14 keeps the link between those verses visible, and \"wages\" is kept for real or story-level employment and for the fixed phrase \"wages of wrongdoing\".",
+      "standard_view": "Standard lexicons distinguish pay for work from recompense given mostly by God, and mainstream translations follow this with \"wages\" or \"pay\" for the first and \"reward\" for the second. They divide at 1 Corinthians 3:8, where some have \"wages\" and others \"reward\", and at Acts 1:18 and 2 Peter 2:13-15, where \"reward\", \"wages\", \"payment\" and \"gain\" are all found. At 1 Corinthians 3:14, 9:17-18 and 2 John 8 \"reward\" is nearly universal, though commentators often note that the image of earned pay is present.",
+      "watch": [
+        "wages",
+        "wage",
+        "recompense",
+        "payment"
+      ],
+      "verified": false,
+      "history": "Added in 0.5. Drafted by claude-fable-5-2 from all 28 occurrences in run 20261118-162954-full-nt, which had no entry for this word. In that run: default form 13, listed alternates 15, other renderings 0."
+    },
+    {
+      "id": "mysterion",
+      "lemma": "μυστήριον",
+      "also": [],
+      "role": "active",
+      "sense": "a secret, especially a purpose or plan of God kept hidden and now disclosed by him",
+      "default": "secret",
+      "alternates": [
+        {
+          "rendering": "mystery / hidden meaning / secret meaning",
+          "when": "The word refers to the concealed significance of a symbol, vision, name or scriptural text that is then interpreted: Rev 1:20; 17:5; 17:7; and Eph 5:32, where it is the deeper meaning of the 'one flesh' saying."
+        },
+        {
+          "rendering": "revealed secret",
+          "when": "A bare 'secret of X' would be heard as 'the key to achieving X' rather than a secret that has been disclosed, as with 'of godliness' in 1 Tim 3:16 and possibly 'of the faith' in 1 Tim 3:9."
+        },
+        {
+          "rendering": "secret power",
+          "when": "2 Thess 2:7 only, where the secret is the subject of 'is already at work' and means lawlessness operating out of sight before it is revealed."
+        }
+      ],
+      "traditional": "mystery",
+      "status": "contested",
+      "rationale": "In Jewish Greek of the period, notably the Greek Daniel and books such as Tobit and Sirach, this word is the ordinary term for a secret, often God's secret plan that only he can disclose. English 'mystery' now suggests a puzzle or something beyond understanding, whereas the New Testament writers usually stress that the thing has been made known and can be stated plainly. 'Secret' conveys that without the misleading overtone, and the run already uses it in about a third of the occurrences. In 1 Cor 2:7 the phrase may be recast with 'secret' as a modifier, for example 'God's secret wisdom'.",
+      "standard_view": "Most English versions (KJV, ESV, NASB, NIV 2011) keep 'mystery' throughout, treating it as an established technical term and explaining it as a truth once hidden and now revealed. Many scholars defend that practice. Some versions use 'secret' in places: RSV, NRSV and NIV have 'secret' or 'secrets' in the Gospel sayings, and NIV has 'secret power' at 2 Thess 2:7. Lexicons give 'secret' as a primary gloss, so the default is lexically sound, but it is an editorial choice against the majority tradition.",
+      "watch": [
+        "mystery"
+      ],
+      "verified": false,
+      "history": "Added in 0.5. Drafted by claude-fable-5-2 from all 26 occurrences in run 20261118-162954-full-nt, which had no entry for this word. In that run: default form 9, listed alternates 17, other renderings 0."
+    },
+    {
+      "id": "katargeo",
+      "lemma": "καταργέω",
+      "also": [],
+      "role": "active",
+      "sense": "to deprive something of force or effect, put it out of operation or bring it to an end; the default governs cases where the object is a law, promise, covenant commitment or the like whose validity is at stake",
+      "default": "nullify",
+      "alternates": [
+        {
+          "rendering": "abolish",
+          "when": "The object is death, or rule, authority and power as such, brought to an end outright: 1 Corinthians 15:24, 15:26; 2 Timothy 1:10. Use the same word in all three; do not use 'destroy'."
+        },
+        {
+          "rendering": "bring to nothing",
+          "when": "The object is persons or personal beings, or 'the things that are', whose standing is overthrown: 1 Corinthians 1:28, 2:6; 2 Thessalonians 2:8."
+        },
+        {
+          "rendering": "do away with",
+          "when": "Something temporary or provisional is ended or put out of use: 1 Corinthians 6:13; 13:8, 13:10, 13:11; Galatians 5:11. Keep the one rendering for all four occurrences in 1 Corinthians 13:8-11 so the repetition is heard."
+        },
+        {
+          "rendering": "set aside",
+          "when": "2 Corinthians 3:7, 3:11, 3:13, 3:14, of the glory and ministry of the Mosaic covenant and of the veil. Use the same rendering all four times; do not use 'fade'."
+        },
+        {
+          "rendering": "render powerless",
+          "when": "The object continues to exist but loses its hold or power: Romans 6:6 (the body of sin) and Hebrews 2:14 (the devil)."
+        },
+        {
+          "rendering": "release / sever",
+          "when": "Passive with ἀπό, meaning to be discharged or cut off from something: 'released from' the law in Romans 7:2 and 7:6; 'severed from' Christ in Galatians 5:4."
+        },
+        {
+          "rendering": "use up",
+          "when": "Luke 13:7 only: the barren fig tree making the ground unproductive, the older literal sense of the verb."
+        }
+      ],
+      "traditional": "abolish, make void, destroy, do away",
+      "status": "settled",
+      "rationale": "In the usage of the period, and above all in Paul, this verb means to make something idle or inoperative: to take away its force, or to bring it to an end. It is not the ordinary word for destroying, and it does not mean to fade. English has no single word that fits a law, a promise, death, hostile rulers and childish ways alike, so the register fixes one rendering for each kind of object. 'Nullify' is the default for laws and promises, where the question is whether they still hold.",
+      "standard_view": "The standard lexicons give the senses as: use up or waste (Luke 13:7); make ineffective or nullify; abolish, set aside or bring to an end; and, in the passive with 'from', be released or estranged. Mainstream translations vary the English freely, with 'nullify', 'make void', 'abolish', 'destroy', 'bring to nothing', 'pass away', 'release' and 'sever' all in use. Many have 'destroy' at 1 Corinthians 15:24-26 and Hebrews 2:14. Several have 'fading' for the glory in 2 Corinthians 3; some scholars defend that as a contextual sense, but others reject it as lacking lexical support. Romans 6:6 is divided between 'destroyed', 'done away with' and 'rendered powerless'.",
+      "watch": [
+        "do away with",
+        "abolish",
+        "bring to nothing",
+        "set aside",
+        "render powerless",
+        "destroy",
+        "fade",
+        "make void",
+        "invalidate",
+        "cancel"
+      ],
+      "verified": false,
+      "history": "Added in 0.5. Drafted by claude-fable-5-2 from all 26 occurrences in run 20261118-162954-full-nt, which had no entry for this word. In that run: default form 5, listed alternates 19, other renderings 2."
+    },
+    {
+      "id": "agiazo",
+      "lemma": "ἁγιάζω",
+      "also": [],
+      "role": "active",
+      "sense": "to make holy: to bring a person or thing into the sphere of what belongs to God, whether by cultic contact, by Christ's offering, or by the Spirit",
+      "default": "make holy",
+      "alternates": [
+        {
+          "rendering": "consecrate",
+          "when": "The stress is on dedicating someone to a mission or as an offering rather than on a change of state, especially where the object is Jesus himself: John 10:36 and John 17:19. Use it also in John 17:17 to keep the link with 17:19."
+        },
+        {
+          "rendering": "hold holy / honor as holy",
+          "when": "The object is God, his name, or Christ, who cannot be made holy, and the sense is to treat or acknowledge as holy. Use 'may your name be held holy' in Matthew 6:9 and Luke 11:2, and 'honor as holy' in 1 Peter 3:15."
+        },
+        {
+          "rendering": "be holy",
+          "when": "Revelation 22:11 only, where the passive imperative with 'still' is said of one who is already holy and means continuing in that state."
+        }
+      ],
+      "traditional": "sanctify",
+      "status": "settled",
+      "rationale": "The Greek verb is built directly on the ordinary word for 'holy', and a first-century reader would have heard that link every time. 'Make holy' keeps it visible, for example in 1 Corinthians 7:14 and Hebrews 2:11, where 'sanctify' hides it. 'Sanctify' also now suggests to many readers a technical doctrine of gradual moral improvement, which is not the point in most occurrences. Where the object is already holy (God's name, Christ) or is being dedicated to a task, 'make holy' would mislead, so the alternates apply.",
+      "standard_view": "Most mainstream translations (KJV, ESV, NRSV, NASB) use 'sanctify' for most occurrences and 'hallowed' in the Lord's Prayer. Several (NIV, NLT, NJB and others) use 'make holy' in many places, and 'consecrate' or 'set apart' in John 10:36 and 17:17-19. The standard lexicons gloss the verb as 'make holy, consecrate, sanctify' and, with God or his name as object, 'treat as holy, reverence'. The meaning itself is not in dispute; the choice among these English words is one of register and clarity.",
+      "watch": [
+        "sanctify",
+        "consecrate",
+        "set apart",
+        "hallow",
+        "make sacred",
+        "dedicate",
+        "regard as holy",
+        "treat as holy"
+      ],
+      "verified": false,
+      "history": "Added in 0.5. Drafted by claude-fable-5-2 from all 25 occurrences in run 20261118-162954-full-nt, which had no entry for this word. In that run: default form 6, listed alternates 13, other renderings 6."
+    },
+    {
+      "id": "nikao",
+      "lemma": "νικάω",
+      "also": [],
+      "role": "active",
+      "sense": "to win a victory over an opponent or hostile power; to be the victor (used with an object or absolutely)",
+      "default": "conquer",
+      "alternates": [
+        {
+          "rendering": "prevail / win",
+          "when": "Forensic setting, of winning one's case or being proved right in a legal contest: Romans 3:4, quoting the Greek Psalm."
+        },
+        {
+          "rendering": "overpower / defeat",
+          "when": "A physical fight between individuals where 'conquer' would sound odd in English: Luke 11:22, the stronger man attacking the armed man."
+        }
+      ],
+      "traditional": "overcome",
+      "status": "settled",
+      "rationale": "The Greek verb is the ordinary word for winning in battle, in the games or in court, and is cognate with the noun for 'victory'. 'Conquer' keeps that note of victory. 'Overcome' in modern English tends to suggest merely getting past a difficulty, and it hides the link between Jesus' victory in John 16:33, the believers' victory in 1 John, and the victor promises in Revelation. The run already favours 'conquer' in most places, and it works in Romans 12:21 too ('Do not be conquered by evil, but conquer evil with good').",
+      "standard_view": "The KJV uses 'overcome' almost everywhere, and the NIV and NASB largely keep it. The ESV and NRSV use 'conquer' in Revelation, and the NRSV also in John 16:33 and 1 John, though both keep 'overcome' in Romans 12:21; in 1 John the ESV keeps 'overcome'. Lexica give 'be victor, conquer, overcome, prevail', and agree that Romans 3:4 is the legal sense of winning a case. The meaning is not in dispute; the choice between 'conquer' and 'overcome' is one of English register and consistency.",
+      "watch": [
+        "overcome",
+        "be victorious",
+        "triumph",
+        "gain the victory"
+      ],
+      "verified": false,
+      "history": "Added in 0.5. Drafted by claude-fable-5-2 from all 24 occurrences in run 20261118-162954-full-nt, which had no entry for this word. In that run: default form 18, listed alternates 1, other renderings 5."
+    },
+    {
+      "id": "teleioo",
+      "lemma": "τελειόω",
+      "also": [],
+      "role": "active",
+      "sense": "To bring a person or a quality such as love or faith to its intended goal or full state. This entry governs that sense only, not the sense of completing a task or a period of time.",
+      "default": "make perfect",
+      "alternates": [
+        {
+          "rendering": "perfect / perfected",
+          "when": "The same rendering in simple verb form, where 'make perfect' is awkward: active with an object (Heb 2:10; 7:19), the participle 'perfected forever' (Heb 7:28), or love as the subject in 1 John (2:5; 4:12, 17, 18). Use it uniformly within 1 John so the link with 'perfect love' at 4:18 is kept."
+        },
+        {
+          "rendering": "complete / finish / accomplish",
+          "when": "Different sense: the object is a work, task, course or ministry carried through to its end (John 4:34; 5:36; 17:4; Acts 20:24). Also for scripture at John 19:28, where 'complete' keeps the verb distinct from John's usual word for 'fulfil'."
+        },
+        {
+          "rendering": "be over / end / complete",
+          "when": "Different sense: a span of time running its full length (Luke 2:43)."
+        },
+        {
+          "rendering": "reach my goal",
+          "when": "Luke 13:32 only, where Jesus speaks of himself reaching the end of his course on the third day."
+        },
+        {
+          "rendering": "made completely one / completely one",
+          "when": "John 17:23 only, where the participle is joined with 'into one' and describes unity brought to its full state."
+        }
+      ],
+      "traditional": "make perfect",
+      "status": "contested",
+      "rationale": "The verb means to bring something to its goal or finished state, and 'perfect' in its older sense of 'complete, fully realised' still conveys that. No single alternative works across Hebrews, where the verb belongs to a connected family of 'perfect' and 'perfection' words (for example 7:11 and 12:2), and 1 John 4:18 sets it beside 'perfect love'. 'Make complete' and 'bring to completion' are defensible, but they break those links and read poorly in places such as Hebrews 9:9 and 10:14, so the traditional word is kept and the risk of hearing 'flawless' is left to notes.",
+      "standard_view": "Most major translations keep 'make perfect' or 'perfect' throughout Hebrews and at Philippians 3:12, though some have 'reached the goal' there. For love in 1 John and faith in James 2:22 they divide between 'perfected' and 'made complete' or 'brought to completion'. Scholars agree the word denotes arrival at a goal rather than removal of moral fault. They disagree on how far Hebrews carries an overtone of priestly consecration from the Greek Old Testament or refers to vocational fitting or final salvation.",
+      "watch": [
+        "make complete",
+        "made complete",
+        "bring to completion",
+        "brought to completion",
+        "be brought to completion"
+      ],
+      "verified": false,
+      "history": "Added in 0.5. Drafted by claude-fable-5-2 from all 23 occurrences in run 20261118-162954-full-nt, which had no entry for this word. In that run: default form 2, listed alternates 18, other renderings 3."
+    },
+    {
+      "id": "latreyo",
+      "lemma": "λατρεύω",
+      "also": [],
+      "role": "active",
+      "sense": "to render religious service or devotion to a deity, whether by cultic rites or by a life of devotion; never used of service to human beings",
+      "default": "serve",
+      "alternates": [
+        {
+          "rendering": "worship",
+          "when": "When the verb is used absolutely, with no dative object, for carrying out acts of devotion (Luke 2:37; Acts 26:7; Philippians 3:3). Also when \"serve\" is already used in the same sentence for δουλεύω and the two must be kept apart (Acts 7:7)."
+        },
+        {
+          "rendering": "worshipper",
+          "when": "When the participle stands as a noun for the person who performs the rites, with no object (Hebrews 9:9; 10:2)."
+        }
+      ],
+      "traditional": "serve",
+      "status": "settled",
+      "rationale": "In the Septuagint and the New Testament this verb means service given to a god, covering both ritual acts and a whole life of devotion; it is distinct from the verb for bowing in homage (προσκυνέω), which is the word properly rendered \"worship\". \"Serve\" keeps the two apart where they stand side by side (Matthew 4:10; Luke 4:8; Romans 1:25) and is the traditional rendering. English \"serve\" needs an object, so where the Greek has none, \"worship\" or \"worshipper\" is the natural equivalent.",
+      "standard_view": "Standard lexicons define the word as serving in the sense of carrying out religious duties, especially cultic ones. The KJV mostly has \"serve\", with \"worship\" in a few places (for example Acts 7:42; 24:14; Philippians 3:3). Modern versions such as the NRSV, ESV and NIV mix \"serve\" and \"worship\" by context, usually with \"worship\" in Acts 24:14, Philippians 3:3 and Hebrews 9:9, 10:2 and 12:28, and \"serve\" in Matthew 4:10, Romans 1:9 and Hebrews 9:14. The default here is more consistent than most versions but within the range they use.",
+      "watch": [
+        "worship",
+        "worshipper",
+        "worshiper",
+        "minister",
+        "offer worship",
+        "offer service"
+      ],
+      "verified": false,
+      "history": "Added in 0.5. Drafted by claude-fable-5-2 from all 21 occurrences in run 20261118-162954-full-nt, which had no entry for this word. In that run: default form 13, listed alternates 8, other renderings 0."
+    },
+    {
+      "id": "skene",
+      "lemma": "σκηνή",
+      "also": [],
+      "role": "active",
+      "sense": "tent: a portable or temporary structure, including Israel's wilderness tent-sanctuary and its heavenly counterpart",
+      "default": "tent",
+      "alternates": [
+        {
+          "rendering": "dwelling",
+          "when": "Only in Revelation 13:6 and 21:3, where the noun is paired with the cognate verb σκηνόω in the same verse and English 'dwelling' with 'dwell' preserves the wordplay. A note should say the word means tent and recalls the wilderness sanctuary."
+        }
+      ],
+      "traditional": "tabernacle",
+      "status": "settled",
+      "rationale": "The Greek word is the ordinary one for a tent, and the Greek Old Testament uses the same plain word for Israel's portable sanctuary and for the huts of the Feast of Booths. 'Tabernacle' is a Latin-derived word that now sounds like a special religious object and hides the plain image, while 'tent' lets the reader hear what a first-century reader heard. Using 'tent' in all three transfiguration accounts, and in Luke 16:9 and Acts 15:16, keeps the parallels aligned and the Old Testament echoes audible.",
+      "standard_view": "Older versions (KJV, NASB) use 'tabernacle' for the sanctuary and often for the transfiguration. ESV and NRSV use 'tent' widely, including in Hebrews, while NIV keeps 'tabernacle' for the sanctuary and uses 'shelters' at the transfiguration. For Luke 16:9 most modern versions generalise to 'dwellings' or 'homes'. In Revelation 21:3 versions divide among 'tabernacle', 'dwelling' and 'home'. Lexicons agree the word means tent, hut or temporary lodging, and by extension a dwelling.",
+      "watch": [
+        "shelter",
+        "tabernacle"
+      ],
+      "verified": false,
+      "history": "Added in 0.5. Drafted by claude-fable-5-2 from all 20 occurrences in run 20261118-162954-full-nt, which had no entry for this word. In that run: default form 16, listed alternates 2, other renderings 2."
+    },
+    {
+      "id": "peirasmos",
+      "lemma": "πειρασμός",
+      "also": [],
+      "role": "active",
+      "sense": "a putting to the proof: an experience or ordeal that tests a person's faithfulness; less often, enticement to do wrong",
+      "default": "testing",
+      "alternates": [
+        {
+          "rendering": "trial",
+          "when": "When the word denotes concrete hardships or afflictions that are undergone or endured, especially in the plural or with a verb of enduring, falling into or being rescued from: Acts 20:19; Gal 4:14; Jas 1:2, 12; 1 Pet 1:6; 2 Pet 2:9."
+        },
+        {
+          "rendering": "test / to test",
+          "when": "When a single countable act of testing is meant, or English needs a purpose phrase: Luke 4:13 'every test'; 1 Pet 4:12 'to test you'."
+        },
+        {
+          "rendering": "time of testing",
+          "when": "Luke 22:28, where the plural refers to periods Jesus has been through; also acceptable where the Greek itself says 'time of' or 'hour of' or 'day of' testing (Luke 8:13; Heb 3:8; Rev 3:10)."
+        },
+        {
+          "rendering": "temptation",
+          "when": "Only where the context is plainly enticement to sin through one's own desires and not an ordeal that proves loyalty: 1 Tim 6:9, where it is paired with 'snare' and 'harmful desires'."
+        }
+      ],
+      "traditional": "temptation",
+      "status": "contested",
+      "rationale": "In the usage of the period, including the Greek Old Testament, this word mainly means a putting to the proof, an experience that shows whether someone will stay faithful. English 'temptation' has narrowed to enticement to sin, so in most passages it now misleads; in the Lord's Prayer, for instance, it suggests God might lure people into wrongdoing. 'Testing' keeps the link with the related verb 'to test', while 'trial' is kept for hardships endured and 'temptation' for the one passage about enticement by desire.",
+      "standard_view": "Most English versions keep 'temptation' in the Lord's Prayer, the Gethsemane sayings, 1 Cor 10:13 and 1 Tim 6:9, and use 'trial' or 'testing' in Luke 8:13, Acts 20:19, Hebrews, James, 1 and 2 Peter and Rev 3:10. Some, such as the NRSV, have 'time of trial' in the Lord's Prayer and Gethsemane. Lexicons recognise both senses, test or trial and enticement to sin, and scholars disagree on which is in view in the Lord's Prayer and in 1 Cor 10:13, where the two overlap, so the default there is an editorial choice and should carry a note.",
+      "watch": [
+        "temptation",
+        "trial",
+        "test",
+        "time of trial",
+        "ordeal",
+        "time of testing"
+      ],
+      "verified": false,
+      "history": "Added in 0.5. Drafted by claude-fable-5-2 from all 20 occurrences in run 20261118-162954-full-nt, which had no entry for this word. In that run: default form 11, listed alternates 9, other renderings 0."
+    },
+    {
+      "id": "stephanos",
+      "lemma": "στέφανος",
+      "also": [],
+      "role": "active",
+      "sense": "A circlet worn on the head as a prize, an honour or a mark of dignity: the victor's wreath, an honorific or golden crown, the mock-royal crown of thorns, and figuratively a reward or source of pride. The entry governs all New Testament occurrences.",
+      "default": "crown",
+      "alternates": [
+        {
+          "rendering": "wreath",
+          "when": "Only where the literal foliage prize of the athletic games is being described and its perishability is the point: 1 Corinthians 9:25, with the second half of the verse left elliptical as \"an imperishable one\". Do not extend this to 2 Timothy 4:8, 1 Peter 5:4, James 1:12 or Revelation, where \"crown\" stands and a note may explain the victor's-wreath image."
+        }
+      ],
+      "traditional": "crown",
+      "status": "contested",
+      "rationale": "The Greek word most often meant a wreath given to victors or to people publicly honoured. It was also used for golden crowns, and in the Septuagint for royal ones, so it is not confined to foliage. English \"crown\" still covers a victor's award, whereas \"wreath\" now suggests door decorations and funerals, and phrases like \"wreath of life\" would mislead more than \"crown of life\" does. \"Crown\" is therefore kept throughout, except in 1 Corinthians 9:25, where Paul is describing the actual withering prize of the games and \"wreath\" is clearer.",
+      "standard_view": "Almost all major English versions use \"crown\" throughout, including for the crown of thorns, the crown of life and the golden crowns of Revelation. Several, such as the ESV and NRSV, switch to \"wreath\" at 1 Corinthians 9:25. Lexicons give \"wreath, crown\" and note that the victor's or honorific wreath is the primary image, distinct from διάδημα, the royal diadem, in Revelation 12:3 and 19:12. Some scholars and a few translations prefer \"wreath\" more widely, especially for the reward passages and Revelation 6:2.",
+      "watch": [
+        "wreath",
+        "garland",
+        "victor's wreath",
+        "victor's crown",
+        "laurel",
+        "diadem",
+        "prize"
+      ],
+      "verified": false,
+      "history": "Added in 0.5. Drafted by claude-fable-5-2 from all 18 occurrences in run 20261118-162954-full-nt, which had no entry for this word. In that run: default form 14, listed alternates 4, other renderings 0."
+    },
+    {
+      "id": "paraptoma",
+      "lemma": "παράπτωμα",
+      "also": [],
+      "role": "active",
+      "sense": "a wrongful act, a violation of what is right, committed against God or another person",
+      "default": "offense",
+      "alternates": [
+        {
+          "rendering": "misstep",
+          "when": "Only in Romans 11:11-12, where Paul sets the word directly beside 'stumble' and 'fall' and the image of a false step is active in the context. 'Offense' is also acceptable there."
+        }
+      ],
+      "traditional": "trespass",
+      "status": "settled",
+      "rationale": "In this period the word means a wrong or moral failure, and an act of wrongdoing is what a first-century reader would have heard in it. 'Trespass' in current English chiefly suggests entering property without permission, so it now misleads more than 'offense', which standard lexicons give as a gloss and which the King James Version itself uses in Romans 5. 'Offense' also keeps the word distinct from 'sin' (ἁμαρτία) and 'transgression' (παράβασις), which stand beside it in Romans 5 and Ephesians 2:1.",
+      "standard_view": "The meaning is not disputed, but English versions differ on the word. The Tyndale and KJV tradition, the ESV and the NRSV mostly have 'trespass'; the NASB and NET favour 'transgression'; the NIV often has 'sin' and keeps 'trespass' in Romans 5; the KJV in Romans 5 and the CSB in several places have 'offense'. In Romans 11:11-12 versions vary between 'trespass', 'transgression' and 'stumbling'.",
+      "watch": [
+        "trespass",
+        "wrongdoing",
+        "transgression",
+        "sin",
+        "false step"
+      ],
+      "verified": false,
+      "history": "Added in 0.5. Drafted by claude-fable-5-2 from all 17 occurrences in run 20261118-162954-full-nt, which had no entry for this word. In that run: default form 6, listed alternates 2, other renderings 9."
+    },
+    {
+      "id": "koinonia",
+      "lemma": "κοινωνία",
+      "also": [],
+      "role": "active",
+      "sense": "Bond of shared life and close association between persons, whether among believers or between believers and God, Christ or the Spirit. This is the relational sense only; participation in a thing and concrete generosity are covered by alternates.",
+      "default": "fellowship",
+      "alternates": [
+        {
+          "rendering": "partnership",
+          "when": "The word denotes joint engagement in a shared undertaking or working agreement, not the relationship as such: Gal 2:9 (right hand of partnership), Phil 1:5 (partnership in the good news), Phlm 6 (partnership of your faith, linked to 'partner' in v. 17)."
+        },
+        {
+          "rendering": "sharing in / a sharing in / participation in",
+          "when": "The word is followed by a genitive of the thing shared in and the sense is taking part in it: 1 Cor 10:16 (blood and body of Christ), Phil 3:10 (his sufferings), 2 Cor 8:4 (the service to the holy ones). This does not apply to the genitive 'of the Spirit' in 2 Cor 13:13 and Phil 2:1, which take the default 'fellowship of the Spirit' so that the open genitive is kept and the two verses match."
+        },
+        {
+          "rendering": "sharing / contribution / share / to share / share something",
+          "when": "The word denotes concrete generosity, the act of sharing goods or money with others: Rom 15:26, 2 Cor 9:13, Heb 13:16. A verbal recast such as 'to share' is acceptable where English needs it."
+        }
+      ],
+      "traditional": "fellowship (also 'communion' in 1 Cor 10:16 and 2 Cor 13:13; 'contribution' in Rom 15:26)",
+      "status": "contested",
+      "rationale": "The Greek word means having something in common, and it covered business partnerships and marriage as well as friendship. For the bond between persons, 'fellowship' is still the English word that best holds both the relationship and the shared life, and a lexicographer would list it. 'Partnership' sounds commercial and implies equals when used of the Father or the Son, so it is kept for the passages where a joint undertaking is in view. A note can warn that the word is stronger than modern 'fellowship' may suggest.",
+      "standard_view": "Most translations (KJV, NASB, ESV, NIV, NRSV) use 'fellowship' for the relational sense in Acts 2:42, 1 Cor 1:9, 2 Cor 6:14, Gal 2:9 and 1 John 1. They use 'participation', 'sharing' or 'communion' in 1 Cor 10:16 and Phil 3:10, 'contribution' or 'sharing' in Rom 15:26, 2 Cor 9:13 and Heb 13:16, and often 'partnership' in Phil 1:5. They divide over the Spirit phrases: 2 Cor 13:13 is usually 'fellowship' or 'communion of the Holy Spirit', while Phil 2:1 is often 'participation in' or 'sharing in the Spirit', and many scholars favour the participation reading in both. Acts 2:42 is disputed between the community's bond in general and the sharing of goods specifically, and Phlm 6 is widely regarded as obscure. Most versions keep 'fellowship' in Gal 2:9, so 'partnership' there is an editorial departure, though lexically well supported.",
+      "watch": [
+        "common life",
+        "partnership",
+        "sharing in",
+        "communion",
+        "participation",
+        "community"
+      ],
+      "verified": false,
+      "history": "Added in 0.5. Drafted by claude-fable-5-2 from all 17 occurrences in run 20261118-162954-full-nt, which had no entry for this word. In that run: default form 5, listed alternates 11, other renderings 1."
+    },
+    {
+      "id": "lestes",
+      "lemma": "λῃστής",
+      "also": [],
+      "role": "active",
+      "sense": "one who robs with violence, typically armed and often in a gang; a brigand or highwayman, as distinct from a thief who steals by stealth",
+      "default": "bandit",
+      "alternates": [],
+      "traditional": "robber, with thief in the KJV in several places",
+      "status": "settled",
+      "rationale": "Greek distinguishes this word from the one for a thief who steals by stealth; this one denotes an armed, violent plunderer such as a highwayman or brigand. 'Robber' is not wrong, but in modern English it can suggest a burglar or mugger, and the KJV's 'thief' blurs the distinction altogether. 'Bandit' keeps the element of violence and outlawry, fits every New Testament occurrence, and leaves room for the insurgent overtone some see in the Passion narratives without asserting it. A single rendering also keeps the word recognisably the same across the temple saying, the arrest, the crucifixion and Barabbas.",
+      "standard_view": "Standard lexicons gloss the word as robber, highwayman or bandit, and note that it was also applied to insurrectionists, as in Josephus. Most modern translations (ESV, NASB, NIV in most places) use 'robber'; the NRSV uses 'bandit' in many of these verses. Some versions render it 'rebel', 'revolutionary' or 'insurrectionist' for the men crucified with Jesus, at the arrest scene, or for Barabbas; that reading is possible but not certain. The KJV's 'thieves' in the temple saying and the crucifixion is generally regarded as imprecise.",
+      "watch": [
+        "robber"
+      ],
+      "verified": false,
+      "history": "Added in 0.5. Drafted by claude-fable-5-2 from all 15 occurrences in run 20261118-162954-full-nt, which had no entry for this word. In that run: default form 14, listed alternates 0, other renderings 1."
+    },
+    {
+      "id": "skandalon",
+      "lemma": "σκάνδαλον",
+      "also": [],
+      "role": "active",
+      "sense": "figurative: something that trips a person up or ensnares them, causing a fall into sin, unbelief or ruin; also a person or thing that acts as such an obstacle",
+      "default": "stumbling block",
+      "alternates": [
+        {
+          "rendering": "that makes people fall / rock that makes people fall",
+          "when": "In the quoted phrase πέτρα σκανδάλου from Isaiah 8:14 (Romans 9:33; 1 Peter 2:8), where the paired λίθος προσκόμματος already takes the stumbling wording. Use the same rendering in both places."
+        },
+        {
+          "rendering": "trap",
+          "when": "Where σκάνδαλον stands beside πρόσκομμα and πρόσκομμα has already been rendered \"stumbling block\" (Romans 14:13). Not in Romans 11:9, where \"snare\" and \"trap\" are taken by παγίς and θήρα and σκάνδαλον keeps the default."
+        },
+        {
+          "rendering": "cause for stumbling / that causes stumbling / everything that causes stumbling",
+          "when": "Where \"stumbling block\" is awkward in English: the collective πάντα τὰ σκάνδαλα in Matthew 13:41, which may include persons, and the abstract \"there is no σκάνδαλον in him\" in 1 John 2:10."
+        }
+      ],
+      "traditional": "offence (KJV); stumbling block in most modern versions",
+      "status": "settled",
+      "rationale": "In the Septuagint and the New Testament the word means a trap or an obstacle that makes someone fall, and figuratively whatever leads a person into sin or ruin. The older \"offence\" now suggests hurt feelings, and \"hindrance\" is too mild. \"Stumbling block\" is established English, conveys the image accurately, and is already what the run uses most often.",
+      "standard_view": "Most modern translations (NIV, NRSV, ESV, NASB) use \"stumbling block\" in the majority of occurrences. They vary it with \"cause of stumbling\", \"causes of sin\", \"temptations to sin\", \"hindrance\", \"obstacle\" or \"offense\" in particular verses. In the Isaiah 8:14 quotation they have \"rock of offense\" (ESV, NASB) or \"a rock that makes them fall\" (NIV, NRSV). Lexicons give \"trap\", \"temptation to sin or enticement\", and \"that which causes offense or revulsion\"; the last is often applied to 1 Corinthians 1:23 and Galatians 5:11, where most versions nonetheless keep \"stumbling block\".",
+      "watch": [
+        "rock to trip over",
+        "to trip over",
+        "offense",
+        "offence",
+        "hindrance",
+        "obstacle"
+      ],
+      "verified": false,
+      "history": "Added in 0.5. Drafted by claude-fable-5-2 from all 13 occurrences in run 20261118-162954-full-nt, which had no entry for this word. In that run: default form 9, listed alternates 3, other renderings 1."
+    },
+    {
+      "id": "ygiaino",
+      "lemma": "ὑγιαίνω",
+      "also": [],
+      "role": "active",
+      "sense": "Figurative sense only: of teaching, words, or a person's faith being sound, that is correct and uncorrupted (1-2 Timothy, Titus).",
+      "default": "sound",
+      "alternates": [
+        {
+          "rendering": "be sound",
+          "when": "Figurative sense where the verb is finite or the English needs a verb, as in Titus 1:13 'so that they may be sound in the faith'."
+        },
+        {
+          "rendering": "be healthy / be well / be in good health / healthy / in good health / safe and sound",
+          "when": "Literal sense of bodily health or well-being: Luke 5:31; 7:10; 15:27; 3 John 1:2. 'Safe and sound' fits only the returned son in Luke 15:27."
+        }
+      ],
+      "traditional": "sound, as in sound doctrine, sound words, sound in the faith",
+      "status": "contested",
+      "rationale": "The Greek verb ordinarily means to be in good health, but it was also an established way of calling opinions or speech correct and sensible. English 'sound' has the same range, from 'sound in body' and 'safe and sound' to 'sound advice', so it matches the Greek closely and does not mislead. 'Healthy teaching' is defensible but can suggest teaching that is good for you rather than teaching that is itself uncorrupted, and 'healthy words' is awkward English. 'Sound' still lets the contrast with 'sick' teachers (1 Tim 6:4) and talk that spreads like gangrene (2 Tim 2:17) come through, and a note can point out the image where it is live.",
+      "standard_view": "Most major English versions keep 'sound' for the teaching phrases. Some use 'healthy' or 'wholesome' in places, especially of persons in Titus 1:13 and 2:2. Standard lexicons gloss the figurative use as 'be sound, be correct'. Scholars disagree on how live the medical metaphor is: some read it as a conventional term for reasonable, correct teaching, while others stress a deliberate medical polemic against opponents pictured as diseased. The default sides with tradition but does not deny the image.",
+      "watch": [
+        "healthy teaching",
+        "healthy words",
+        "healthy in the faith",
+        "healthy in faith",
+        "wholesome teaching",
+        "wholesome words"
+      ],
+      "verified": false,
+      "history": "Added in 0.5. Drafted by claude-fable-5-2 from all 12 occurrences in run 20261118-162954-full-nt, which had no entry for this word. In that run: default form 3, listed alternates 9, other renderings 0."
+    },
+    {
+      "id": "episkeptomai",
+      "lemma": "ἐπισκέπτομαι",
+      "also": [],
+      "role": "active",
+      "sense": "to come or go to see someone out of concern for their welfare; chiefly God coming to his people to act for them, and also people going to see how others are doing",
+      "default": "visit",
+      "alternates": [
+        {
+          "rendering": "look after",
+          "when": "The object is people in need (the sick, prisoners, orphans, widows) and the point is practical care rather than the act of going to see them: Matthew 25:36, 25:43; James 1:27."
+        },
+        {
+          "rendering": "care for",
+          "when": "Hebrews 2:6, the quotation of Psalm 8, where the verb is parallel to 'remember' and describes God's standing concern for humankind rather than a coming."
+        },
+        {
+          "rendering": "concern oneself",
+          "when": "Acts 15:14, where the verb has no personal object and is completed by an infinitive ('to take a people'), so 'visit' cannot be used without adding words."
+        },
+        {
+          "rendering": "look for / select / pick out",
+          "when": "The separate sense of looking over a group in order to choose someone: Acts 6:3."
+        }
+      ],
+      "traditional": "visit",
+      "status": "contested",
+      "rationale": "In the Greek Old Testament this verb is the regular word for God 'visiting' his people to rescue or provide for them (for example Ruth 1:6), and Luke's songs echo that language. With God as subject, 'visit' still conveys a purposeful coming, the context states the help ('and worked redemption'), and the word keeps the link with the related noun 'visitation'. 'Come to help' spells out more than the verb says and cannot be used in Luke 1:78 or Acts 15:14. Where the object is the sick or destitute, 'visit' now suggests a mere call, so 'look after' is used there.",
+      "standard_view": "KJV, ESV, NASB and CSB keep 'visit' for God's action in Luke 1:68, 1:78 and 7:16; NIV has 'come to' or 'come to help', and NRSV has 'looked favorably on'. In Acts 15:14 versions divide between 'visited' with a supplied object, 'concerned himself', 'looked favorably' and 'intervened'. In Hebrews 2:6 most modern versions have 'care for' and some 'are concerned about'. In Matthew 25 and James 1:27 most keep 'visit', while NIV has 'look after' and NRSV 'care for' in James. Lexicons gloss the divine sense as a gracious visitation to bring help, so both 'visit' and 'come to help' are defensible and the default is an editorial choice.",
+      "watch": [
+        "come to help",
+        "intervene"
+      ],
+      "verified": false,
+      "history": "Added in 0.5. Drafted by claude-fable-5-2 from all 11 occurrences in run 20261118-162954-full-nt, which had no entry for this word. In that run: default form 4, listed alternates 5, other renderings 2."
+    },
+    {
+      "id": "poimaino",
+      "lemma": "ποιμαίνω",
+      "also": [],
+      "role": "watch",
+      "sense": "to act as shepherd: literally to tend a flock, and figuratively to lead, care for or govern people as a shepherd does, including the royal and iron-rod uses",
+      "default": "shepherd",
+      "alternates": [
+        {
+          "rendering": "tend sheep",
+          "when": "Literal herding with no object expressed, where English needs the object supplied, as in Luke 17:7."
+        }
+      ],
+      "traditional": "feed or rule in the King James tradition; shepherd or tend in most modern versions, but still rule in the iron-rod verses of Revelation",
+      "status": "contested",
+      "rationale": "The Greek verb is built on the ordinary word for a shepherd and means to do a shepherd's work. A first-century reader heard that image even where the subject is a king or church leader, because shepherd was a standing picture for a ruler in the Greek Old Testament. \"Feed\" is too narrow and \"rule\" drops the image, while \"shepherd\" is still clear English. Using it throughout also lets the reader see that Revelation uses the same verb for the Lamb's care in 7:17 and for the iron rod in 2:27, 12:5 and 19:15.",
+      "standard_view": "Most modern translations use \"shepherd\" or \"tend\" for the pastoral passages (John 21:16, Acts 20:28, 1 Peter 5:2) and \"shepherd\" in Matthew 2:6 and Revelation 7:17. In Revelation 2:27, 12:5 and 19:15 nearly all have \"rule\", and standard lexicons list these verses under a sense of ruling with destructive effect. Some scholars argue that there, following the Greek form of Psalm 2:9, the verb is closer to \"crush\" or \"devastate\". A minority of literal versions keep \"shepherd\" in those verses. In Jude 1:12 many versions have \"feeding themselves\" or \"caring only for themselves\".",
+      "watch": [
+        "rule",
+        "tend",
+        "feed",
+        "tending sheep"
+      ],
+      "verified": false,
+      "history": "Added in 0.5. Drafted by claude-fable-5-2 from all 11 occurrences in run 20261118-162954-full-nt, which had no entry for this word. In that run: default form 10, listed alternates 1, other renderings 0."
+    },
+    {
+      "id": "sphazo",
+      "lemma": "σφάζω",
+      "also": [],
+      "role": "watch",
+      "sense": "to slaughter: to butcher an animal, especially for sacrifice, and by extension to kill a person violently and bloodily",
+      "default": "slaughter",
+      "alternates": [],
+      "traditional": "slay",
+      "status": "settled",
+      "rationale": "The Greek verb is the ordinary word for butchering an animal, used in the Septuagint for sacrificial slaughter and also for brutal killing of people; it is not the common word for 'kill'. 'Slain' is now archaic and solemn and loses that bluntness, while 'kill' or 'murder' loses the butchery image that ties the Lamb, the martyrs and Cain's victim together. Using 'slaughter' everywhere, including Revelation 13:3, also lets the reader see that the beast's wounded head is described with the same word as the Lamb.",
+      "standard_view": "Standard lexicons gloss the verb as 'slaughter', and also 'murder' for violent killing of persons. Most English versions use 'slain' for the Lamb and the martyrs in Revelation, though some modern versions use 'slaughtered' there. In 1 John 3:12 most have 'murdered', 'killed' or 'slew'. In Revelation 13:3 most paraphrase as 'a mortal wound', 'wounded to death' or 'fatal wound' rather than keeping the verb.",
+      "watch": [
+        "slay",
+        "slain",
+        "kill",
+        "murder",
+        "butcher",
+        "wound",
+        "mortally wounded",
+        "put to death"
+      ],
+      "verified": false,
+      "history": "Added in 0.5. Drafted by claude-fable-5-2 from all 9 occurrences in run 20261118-162954-full-nt, which had no entry for this word. In that run: default form 9, listed alternates 0, other renderings 0."
+    },
+    {
+      "id": "nomikos",
+      "lemma": "νομικός",
+      "also": [],
+      "role": "active",
+      "sense": "As a noun: a specialist in interpreting the Jewish Law (the Gospel occurrences). The adjective use in Titus 3:9 and the reference to Zenas in Titus 3:13 are covered by alternates.",
+      "default": "expert in the law",
+      "alternates": [
+        {
+          "rendering": "lawyer",
+          "when": "Titus 3:13, of Zenas. He has a Greek name and appears outside a Palestinian setting, so he may be a jurist in Roman or Greek law rather than a Torah specialist. The text does not settle which, and the general word 'lawyer' leaves it open."
+        },
+        {
+          "rendering": "over the law / about the law / legal",
+          "when": "Adjective use in Titus 3:9 (μάχας νομικάς), describing disputes concerned with the law."
+        }
+      ],
+      "traditional": "lawyer",
+      "status": "settled",
+      "rationale": "In the Gospels the word names men learned in the Law of Moses and its interpretation, a group overlapping with those called scribes. To a modern reader 'lawyer' suggests an attorney representing clients in court, which misleads. 'Expert in the law' says what a first-century reader would have understood, and the run already uses it throughout the Gospels. The lowercase 'law' is fixed here only for consistency within the phrase.",
+      "standard_view": "Lexicons gloss the noun as one learned in the law, a legal expert, and in the Gospels specifically an expert in the Mosaic law. The KJV, RSV, NRSV, ESV and NASB keep 'lawyer'. The NIV, NET and CSB use 'expert in the law' or something close to it. For Zenas in Titus 3:13 nearly all versions have 'lawyer', and commentators are divided on whether he was a Roman jurist or a Jewish legal expert.",
+      "watch": [
+        "expert in the Law",
+        "lawyer"
+      ],
+      "verified": false,
+      "history": "Added in 0.5. Drafted by claude-fable-5-2 from all 9 occurrences in run 20261118-162954-full-nt, which had no entry for this word. In that run: default form 7, listed alternates 2, other renderings 0."
+    },
+    {
+      "id": "lepros",
+      "lemma": "λεπρός",
+      "also": [],
+      "role": "active",
+      "sense": "person afflicted with the ritually defiling scaly skin condition of Leviticus 13-14 (the only sense in the New Testament)",
+      "default": "person with a skin disease",
+      "alternates": [
+        {
+          "rendering": "man with a skin disease / men with a skin disease",
+          "when": "The context identifies the sufferer as a man or men, as with the individual in Matthew 8:2 and Mark 1:40 and the ten men of Luke 17:12, where the Greek adds the word for men."
+        },
+        {
+          "rendering": "those with skin disease / people with skin disease / those with a skin disease / people with a skin disease",
+          "when": "Plural used of the afflicted as a class, as in Matthew 10:8, 11:5, Luke 4:27 and 7:22."
+        },
+        {
+          "rendering": "leper",
+          "when": "Only in the fixed byname Simon the leper at Matthew 26:6 and Mark 14:3, where the word works as an identifying nickname and not as a description of his present condition. A note should explain the term."
+        }
+      ],
+      "traditional": "leper",
+      "status": "contested",
+      "rationale": "In the Septuagint and in first-century Jewish usage this word names someone with the condition regulated in Leviticus 13-14: a range of scaly skin conditions that made a person ritually unclean, which is why they are 'cleansed' and not simply healed. 'Leper' and 'leprosy' today mean Hansen's disease, which is narrower than the Greek term and may not even be included in it, so the traditional word misleads a modern reader about what is described. 'Skin disease' is the description standard lexicons give, and the run already favours it. The familiar byname of Simon is kept because it identifies him rather than diagnoses him.",
+      "standard_view": "Most major translations (KJV, ESV, NRSV, NET) keep 'leper', and NIV and CSB use 'person with leprosy', usually with a footnote saying the term covers various skin diseases. A minority, such as the CEB and the HCSB ('serious skin disease'), put that in the text. Scholars widely agree the biblical term is broader than modern leprosy. The disagreement is whether to keep the familiar word with a note, since 'skin disease' can understate the severity and social exclusion involved.",
+      "watch": [
+        "leper",
+        "man with leprosy",
+        "person with leprosy",
+        "leprous"
+      ],
+      "verified": false,
+      "history": "Added in 0.5. Drafted by claude-fable-5-2 from all 9 occurrences in run 20261118-162954-full-nt, which had no entry for this word. In that run: default form 0, listed alternates 8, other renderings 1."
+    },
+    {
+      "id": "ypostasis",
+      "lemma": "ὑπόστασις",
+      "also": [],
+      "role": "active",
+      "sense": "A course of action one has committed to, such as a plan, project or firm stand. This is the sense at 2 Corinthians 9:4, 11:17 and Hebrews 3:14, where tradition has 'confidence'. It is not the 'underlying reality' sense of Hebrews 1:3 and 11:1.",
+      "default": "undertaking",
+      "alternates": [
+        {
+          "rendering": "resolve",
+          "when": "Hebrews 3:14, where the word names the commitment the readers began with and must hold firm to the end; 'undertaking' is too project-like there."
+        },
+        {
+          "rendering": "being",
+          "when": "Hebrews 1:3, where the word means God's essential nature or actual being, of which the Son is the exact imprint."
+        },
+        {
+          "rendering": "reality",
+          "when": "Hebrews 11:1, where faith is called the ὑπόστασις of things hoped for. This is the objective sense of underlying reality or what gives something substance, paired with 'proof' for ἔλεγχος."
+        }
+      ],
+      "traditional": "confidence at 2 Corinthians 9:4, 11:17 and Hebrews 3:14; substance or assurance at Hebrews 11:1; person, nature or being at Hebrews 1:3",
+      "status": "contested",
+      "rationale": "In the usage of the period the word normally refers to something objective: what underlies or stands firm, an underlying reality, or a plan or project one has taken on. Lexicographers have questioned whether the inner feeling 'confidence' is securely attested for it. 'Undertaking' suits Paul's collection project and his project of boasting. At Hebrews 3:14 the related use for a firm stand gives 'resolve', which fits the call to hold fast. This is an editorial choice in a disputed area, and 'confidence' remains defensible.",
+      "standard_view": "Most English versions (KJV, ESV, NIV and others) render 'confidence', 'confident' or 'conviction' at 2 Corinthians 9:4, 11:17 and Hebrews 3:14. The NRSV has 'undertaking' at 2 Corinthians 9:4 but 'confidence' at the other two. At Hebrews 11:1 most modern versions have 'assurance' or 'confidence' (KJV 'substance'), though some have 'reality', and many commentators favour an objective sense. At Hebrews 1:3 'being' or 'nature' is standard (KJV 'person'). The standard modern lexicon and specialist word studies argue against 'confidence' and for 'plan, undertaking', 'situation' or 'reality'. Scholarship is divided, and the traditional rendering is still widely defended.",
+      "watch": [
+        "confidence",
+        "assurance",
+        "conviction",
+        "situation"
+      ],
+      "verified": false,
+      "history": "Added in 0.5. Drafted by claude-fable-5-2 from all 5 occurrences in run 20261118-162954-full-nt, which had no entry for this word. In that run: default form 2, listed alternates 3, other renderings 0."
+    },
+    {
+      "id": "arrabon",
+      "lemma": "ἀρραβών",
+      "also": [],
+      "role": "watch",
+      "sense": "a first payment that secures a transaction and commits the payer to the rest; used figuratively of the Spirit given to believers",
+      "default": "down payment",
+      "alternates": [],
+      "traditional": "earnest",
+      "status": "settled",
+      "rationale": "In the commercial Greek of the period the word meant money paid in advance that both forms part of the full payment and binds the payer to complete it. \"Earnest\" in this sense is no longer understood by modern readers, and \"guarantee\" or \"pledge\" conveys the assurance but loses the idea that part of the thing itself has already been handed over. \"Down payment\" is ordinary modern English that keeps both ideas, and standard lexicons list it among the glosses.",
+      "standard_view": "The KJV has \"earnest\". Modern versions divide: ESV and NKJV use \"guarantee\", NASB \"pledge\", NIV \"deposit\" with \"guaranteeing\" added, NRSV \"first installment\" in 2 Corinthians and \"pledge\" in Ephesians, and CSB and NET \"down payment\". Scholars agree it is a commercial loanword from Semitic for earnest money or a deposit; in the Septuagint of Genesis 38 it is a pledge that is later returned, so some prefer \"pledge\", but the part-payment sense is the common commercial one and fits Paul's use of the Spirit as a first share of what is to come.",
+      "watch": [
+        "guarantee",
+        "pledge",
+        "deposit",
+        "earnest",
+        "first installment",
+        "first instalment"
+      ],
+      "verified": false,
+      "history": "Added in 0.5. Drafted by claude-fable-5-2 from all 3 occurrences in run 20261118-162954-full-nt, which had no entry for this word. In that run: default form 3, listed alternates 0, other renderings 0."
+    }
+  ],
+  "field_notes": {
+    "history": "What the December 2025 / January 2026 draft did. For maintainers; never sent to the model.",
+    "scope": "If present, the entry governs only these chapters.",
+    "watch": "Other renderings the audit counts, to expose drift.",
+    "verified": "True once a human has checked the entry against a lexicon.",
+    "options": "Alternative project-wide choices a human could switch to. Never sent to the model and never accepted by the validator.",
+    "family": "Renderings for related lemmas; sent to the model and checked by the validator and audit.",
+    "role": "'active': sent to the model, because it changes what the model would do or settles a word it wavers on. 'watch': not sent; the model already renders it this way unaided, so the entry only tells the audit what to count. Promote a watch entry to active if a run shows drift. An entry is only demoted to watch on evidence: at least five unaided occurrences in a register-off run, all matching.",
+    "one_sense_only": "The entry governs one sense of a common word; the glossary does not list the word's other occurrences."
+  },
+  "loanword_test": "A Greek term is left untranslated only if all three hold: it functions as a title or proper name; every English candidate actively misleads a modern reader, rather than merely falling short; and it occurs in few enough places that the text stays English. Logos (John 1), Gehenna and Hades pass. Ordinary vocabulary such as pneuma and sarx does not.",
+  "considered_and_declined": {
+    "ἀμήν": "The drafter judged that no entry is needed: the run was already consistent or the variation follows the word's senses.",
+    "διαθήκη": "The drafter judged that no entry is needed: the run was already consistent or the variation follows the word's senses.",
+    "πρόθεσις": "The drafter judged that no entry is needed: the run was already consistent or the variation follows the word's senses.",
+    "παρακαλέω": "highly polysemous verb; the drafted entry left 10 of 105 occurrences unmatched and 14 on watch forms",
+    "ἀποδίδωμι": "highly polysemous verb; the drafted entry left 8 of 46 occurrences unmatched",
+    "κύριος": "varies correctly by sense (Lord, master, sir); not drafted",
+    "ἄνθρωπος": "varies correctly by sense; not drafted",
+    "γινώσκω": "varies correctly by sense; not drafted"
+  }
+}

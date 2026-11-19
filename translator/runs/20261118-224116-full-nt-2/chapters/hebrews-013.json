@@ -1,0 +1,423 @@
+{
+ "id": "hebrews-013",
+ "book": "hebrews",
+ "chapter": 13,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14hdkrnXUjXGoPjkJ",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 13159,
+  "output_tokens": 12909
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Let brotherly love endure.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Do not forget to show hospitality, for through it some have hosted angels without knowing it.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Remember the prisoners as though imprisoned with them, and those who are mistreated, since you yourselves are also in a body.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Let marriage be held in honor by all, and let the marriage bed be undefiled, for God will judge the sexually immoral and adulterers.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Let your way of life be free from the love of money, and be content with what you have, for he himself has said,\"},{\"speaker\":\"scripture\",\"text\":\"“I will never leave you, and I will never abandon you.”\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So we can say with confidence,\"},{\"speaker\":\"scripture\",\"text\":\"“The Lord is my helper; I will not be afraid. What can a human being do to me?”\"}]},{\"verse\":7,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Remember your leaders, who spoke the word of God to you. Look closely at the outcome of their conduct, and imitate their faith.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus Christ is the same yesterday and today, and forever.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Do not be carried away by varied and strange teachings, for it is good for the heart to be made firm by grace, not by foods, which have been of no benefit to those who live by them.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"We have an altar from which those who serve the tent have no right to eat.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For the bodies of the animals whose blood is brought into the holy place by the high priest as an offering for sin are burned outside the camp.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"That is why Jesus also suffered outside the gate, to make the people holy through his own blood.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So then, let us go out to him outside the camp, bearing the disgrace he bore.\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For here we have no enduring city, but we are seeking the one that is to come.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Through him, then, let us continually offer up to God a sacrifice of praise—that is, the fruit of lips that confess his name.\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And do not forget to do good and to share, for God is pleased with such sacrifices.\"}]},{\"verse\":17,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Obey your leaders and yield to them, for they keep watch over your souls as those who will give an account, so that they may do this with joy and not with groaning—for that would be of no advantage to you.\"}]},{\"verse\":18,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Pray for us, for we are convinced that we have a good conscience, wanting to conduct ourselves well in every way.\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"I urge you all the more to do this, so that I may be restored to you sooner.\"}]},{\"verse\":20,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now may the God of peace, who brought up from the dead our Lord Jesus, the great shepherd of the sheep, by the blood of an eternal covenant,\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"equip you with every good thing to do his will, working in us what is pleasing in his sight through Jesus Christ, to whom be the glory forever. Amen.\"}]},{\"verse\":22,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"I urge you, brothers and sisters, bear with this word of exhortation, for in fact I have written to you briefly.\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Know that our brother Timothy has been released. If he comes soon, I will see you together with him.\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Greet all your leaders and all the holy ones. Those from Italy send you greetings.\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Grace be with you all.\"}]}],\"notes\":[{\"verse\":4,\"phrase\":\"Let marriage be held in honor by all\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"\",\"note\":\"The Greek has no verb here. Most translations supply a command, which fits the surrounding instructions, but a statement (“Marriage is honorable”) is also grammatically possible. The phrase rendered “by all” could instead mean “in every respect.”\"},{\"verse\":7,\"phrase\":\"the outcome of their conduct\",\"lemma\":\"ἔκβασις\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"The past tense “spoke” and the word “outcome” suggest that these are the community's earlier leaders, who have since died. The “outcome” is most likely how their lives ended, faithful to the last. Whether martyrdom is implied is not stated.\"},{\"verse\":9,\"phrase\":\"foods\",\"lemma\":\"βρῶμα\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"The author is opposing a teaching that treated certain foods or sacred meals as spiritually strengthening. The following verses, about an altar and eating from sacrifices, suggest a connection with Jewish food rules or sacrificial meals. The exact practice in view is debated.\"},{\"verse\":10,\"phrase\":\"tent\",\"lemma\":\"σκηνή\",\"kind\":\"departure\",\"traditional\":\"tabernacle\",\"note\":\"The Greek word is the ordinary word for a tent, and the Greek Old Testament uses it for Israel's portable wilderness sanctuary. “Tabernacle” is the traditional rendering and is kept by some modern versions, while others also use “tent” in Hebrews. The plain word lets the reader hear what a first-century reader heard.\"},{\"verse\":11,\"phrase\":\"outside the camp\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"On the Day of Atonement the blood of the sin offerings was carried into the inner sanctuary, and the carcasses were not eaten by the priests but burned outside Israel's camp (Leviticus 16). The author sees the same pattern in Jesus' death outside the city gate. Most interpreters take the “altar” of verse 10 as a figure for his sacrifice, though some see a reference to the Lord's Supper.\"},{\"verse\":12,\"phrase\":\"make the people holy\",\"lemma\":\"ἁγιάζω\",\"kind\":\"departure\",\"traditional\":\"sanctify\",\"note\":\"The Greek verb is built directly on the ordinary word for “holy” and means to bring someone into the sphere of what belongs to God. Most traditional versions use “sanctify,” which hides that link and now suggests to many readers a doctrine of gradual moral improvement. Several modern translations also use “make holy,” and the meaning itself is not in dispute.\"},{\"verse\":15,\"phrase\":\"confess his name\",\"lemma\":\"ὁμολογέω\",\"kind\":\"ambiguity\",\"traditional\":\"\",\"note\":\"The verb can mean to acknowledge or profess openly, and in language shaped by the Greek Old Testament it can also mean to give thanks or praise. Older versions have “giving thanks to his name,” and either sense fits a “sacrifice of praise.” “The fruit of lips” echoes the Greek version of Hosea 14.\"},{\"verse\":17,\"phrase\":\"Obey\",\"lemma\":\"πείθω\",\"kind\":\"ambiguity\",\"traditional\":\"\",\"note\":\"In this form the verb ranges from “be persuaded by” and “trust” to “heed” and “obey.” With a person as its object, “obey” or “follow” is the usual sense, and most translations render it so. Some prefer “have confidence in.” The same verb is translated “we are convinced” in verse 18.\"},{\"verse\":21,\"phrase\":\"in us\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"\",\"note\":\"Many manuscripts read “in you” instead of “in us.” Manuscripts also vary elsewhere in this verse: some read “every good work” for “every good thing,” and many end with “forever and ever.” The translation follows the SBLGNT text.\"},{\"verse\":22,\"phrase\":\"word of exhortation\",\"lemma\":\"παράκλησις\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"The same phrase is used in Acts 13:15 for an address given in a synagogue after the Scripture readings, which suggests that Hebrews is a sermon put into writing. The noun is related to the verb translated “I urge” at the start of the verse. The claim to have written “briefly” is a conventional courtesy.\"},{\"verse\":24,\"phrase\":\"holy ones\",\"lemma\":\"ἅγιος\",\"kind\":\"departure\",\"traditional\":\"saints\",\"note\":\"The word refers to all members of the community as people set apart for God, echoing the Greek Old Testament's language for Israel. “Saints,” the traditional rendering, now suggests canonized individuals or people of exceptional virtue. Many translations keep “saints,” and others use “God's people.”\"},{\"verse\":24,\"phrase\":\"Those from Italy\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"\",\"note\":\"The Greek can mean people in Italy sending greetings abroad, or Italians living elsewhere sending greetings home. The second reading is one reason many scholars think the letter was sent to Rome. The question remains open.\"}],\"candidates\":[{\"lemma\":\"ἀδελφός\",\"rendering\":\"brothers and sisters (plural address); brother (of a named individual)\",\"verse\":22,\"reason\":\"The plural address occurs throughout the letters, and translators divide between “brothers” and “brothers and sisters”; this also affects compounds such as φιλαδελφία (v. 1).\"},{\"lemma\":\"παρακαλέω\",\"rendering\":\"urge\",\"verse\":19,\"reason\":\"The verb and its noun παράκλησις range over urge, exhort, encourage, appeal and comfort across the New Testament, and inconsistent choices hide wordplay such as that in v. 22.\"},{\"lemma\":\"ὀνειδισμός\",\"rendering\":\"disgrace\",\"verse\":13,\"reason\":\"Versions vary among reproach, abuse, insult and disgrace, and the link with Hebrews 10:33, 11:26 and Romans 15:3 is lost unless one rendering is fixed.\"},{\"lemma\":\"διαθήκη\",\"rendering\":\"covenant\",\"verse\":20,\"reason\":\"It is central to Hebrews and Paul, where the choice between “covenant” and “will” or “testament” (Heb 9:16–17; Gal 3:15) needs a single policy.\"},{\"lemma\":\"ἡγέομαι\",\"rendering\":\"leaders\",\"verse\":7,\"reason\":\"The participle used for community leaders (also Luke 22:26; Acts 15:22) is rendered variously as leaders, rulers or those who rule over you, which affects how church authority is heard.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Let brotherly love endure."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Do not forget to show hospitality, for through it some have hosted angels without knowing it."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Remember the prisoners as though imprisoned with them, and those who are mistreated, since you yourselves are also in a body."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Let marriage be held in honor by all, and let the marriage bed be undefiled, for God will judge the sexually immoral and adulterers."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Let your way of life be free from the love of money, and be content with what you have, for he himself has said,"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“I will never leave you, and I will never abandon you.”"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So we can say with confidence,"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“The Lord is my helper; I will not be afraid. What can a human being do to me?”"
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Remember your leaders, who spoke the word of God to you. Look closely at the outcome of their conduct, and imitate their faith."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus Christ is the same yesterday and today, and forever."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Do not be carried away by varied and strange teachings, for it is good for the heart to be made firm by grace, not by foods, which have been of no benefit to those who live by them."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "We have an altar from which those who serve the tent have no right to eat."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For the bodies of the animals whose blood is brought into the holy place by the high priest as an offering for sin are burned outside the camp."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "That is why Jesus also suffered outside the gate, to make the people holy through his own blood."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So then, let us go out to him outside the camp, bearing the disgrace he bore."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For here we have no enduring city, but we are seeking the one that is to come."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Through him, then, let us continually offer up to God a sacrifice of praise—that is, the fruit of lips that confess his name."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And do not forget to do good and to share, for God is pleased with such sacrifices."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Obey your leaders and yield to them, for they keep watch over your souls as those who will give an account, so that they may do this with joy and not with groaning—for that would be of no advantage to you."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Pray for us, for we are convinced that we have a good conscience, wanting to conduct ourselves well in every way."
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "I urge you all the more to do this, so that I may be restored to you sooner."
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now may the God of peace, who brought up from the dead our Lord Jesus, the great shepherd of the sheep, by the blood of an eternal covenant,"
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "equip you with every good thing to do his will, working in us what is pleasing in his sight through Jesus Christ, to whom be the glory forever. Amen."
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "I urge you, brothers and sisters, bear with this word of exhortation, for in fact I have written to you briefly."
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Know that our brother Timothy has been released. If he comes soon, I will see you together with him."
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Greet all your leaders and all the holy ones. Those from Italy send you greetings."
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Grace be with you all."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 4,
+    "phrase": "Let marriage be held in honor by all",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "",
+    "note": "The Greek has no verb here. Most translations supply a command, which fits the surrounding instructions, but a statement (“Marriage is honorable”) is also grammatically possible. The phrase rendered “by all” could instead mean “in every respect.”"
+   },
+   {
+    "verse": 7,
+    "phrase": "the outcome of their conduct",
+    "lemma": "ἔκβασις",
+    "kind": "background",
+    "traditional": "",
+    "note": "The past tense “spoke” and the word “outcome” suggest that these are the community's earlier leaders, who have since died. The “outcome” is most likely how their lives ended, faithful to the last. Whether martyrdom is implied is not stated."
+   },
+   {
+    "verse": 9,
+    "phrase": "foods",
+    "lemma": "βρῶμα",
+    "kind": "background",
+    "traditional": "",
+    "note": "The author is opposing a teaching that treated certain foods or sacred meals as spiritually strengthening. The following verses, about an altar and eating from sacrifices, suggest a connection with Jewish food rules or sacrificial meals. The exact practice in view is debated."
+   },
+   {
+    "verse": 10,
+    "phrase": "tent",
+    "lemma": "σκηνή",
+    "kind": "departure",
+    "traditional": "tabernacle",
+    "note": "The Greek word is the ordinary word for a tent, and the Greek Old Testament uses it for Israel's portable wilderness sanctuary. “Tabernacle” is the traditional rendering and is kept by some modern versions, while others also use “tent” in Hebrews. The plain word lets the reader hear what a first-century reader heard."
+   },
+   {
+    "verse": 11,
+    "phrase": "outside the camp",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "On the Day of Atonement the blood of the sin offerings was carried into the inner sanctuary, and the carcasses were not eaten by the priests but burned outside Israel's camp (Leviticus 16). The author sees the same pattern in Jesus' death outside the city gate. Most interpreters take the “altar” of verse 10 as a figure for his sacrifice, though some see a reference to the Lord's Supper."
+   },
+   {
+    "verse": 12,
+    "phrase": "make the people holy",
+    "lemma": "ἁγιάζω",
+    "kind": "departure",
+    "traditional": "sanctify",
+    "note": "The Greek verb is built directly on the ordinary word for “holy” and means to bring someone into the sphere of what belongs to God. Most traditional versions use “sanctify,” which hides that link and now suggests to many readers a doctrine of gradual moral improvement. Several modern translations also use “make holy,” and the meaning itself is not in dispute."
+   },
+   {
+    "verse": 15,
+    "phrase": "confess his name",
+    "lemma": "ὁμολογέω",
+    "kind": "ambiguity",
+    "traditional": "",
+    "note": "The verb can mean to acknowledge or profess openly, and in language shaped by the Greek Old Testament it can also mean to give thanks or praise. Older versions have “giving thanks to his name,” and either sense fits a “sacrifice of praise.” “The fruit of lips” echoes the Greek version of Hosea 14."
+   },
+   {
+    "verse": 17,
+    "phrase": "Obey",
+    "lemma": "πείθω",
+    "kind": "ambiguity",
+    "traditional": "",
+    "note": "In this form the verb ranges from “be persuaded by” and “trust” to “heed” and “obey.” With a person as its object, “obey” or “follow” is the usual sense, and most translations render it so. Some prefer “have confidence in.” The same verb is translated “we are convinced” in verse 18."
+   },
+   {
+    "verse": 21,
+    "phrase": "in us",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "",
+    "note": "Many manuscripts read “in you” instead of “in us.” Manuscripts also vary elsewhere in this verse: some read “every good work” for “every good thing,” and many end with “forever and ever.” The translation follows the SBLGNT text."
+   },
+   {
+    "verse": 22,
+    "phrase": "word of exhortation",
+    "lemma": "παράκλησις",
+    "kind": "background",
+    "traditional": "",
+    "note": "The same phrase is used in Acts 13:15 for an address given in a synagogue after the Scripture readings, which suggests that Hebrews is a sermon put into writing. The noun is related to the verb translated “I urge” at the start of the verse. The claim to have written “briefly” is a conventional courtesy."
+   },
+   {
+    "verse": 24,
+    "phrase": "holy ones",
+    "lemma": "ἅγιος",
+    "kind": "departure",
+    "traditional": "saints",
+    "note": "The word refers to all members of the community as people set apart for God, echoing the Greek Old Testament's language for Israel. “Saints,” the traditional rendering, now suggests canonized individuals or people of exceptional virtue. Many translations keep “saints,” and others use “God's people.”"
+   },
+   {
+    "verse": 24,
+    "phrase": "Those from Italy",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "",
+    "note": "The Greek can mean people in Italy sending greetings abroad, or Italians living elsewhere sending greetings home. The second reading is one reason many scholars think the letter was sent to Rome. The question remains open."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "ἀδελφός",
+    "rendering": "brothers and sisters (plural address); brother (of a named individual)",
+    "verse": 22,
+    "reason": "The plural address occurs throughout the letters, and translators divide between “brothers” and “brothers and sisters”; this also affects compounds such as φιλαδελφία (v. 1)."
+   },
+   {
+    "lemma": "παρακαλέω",
+    "rendering": "urge",
+    "verse": 19,
+    "reason": "The verb and its noun παράκλησις range over urge, exhort, encourage, appeal and comfort across the New Testament, and inconsistent choices hide wordplay such as that in v. 22."
+   },
+   {
+    "lemma": "ὀνειδισμός",
+    "rendering": "disgrace",
+    "verse": 13,
+    "reason": "Versions vary among reproach, abuse, insult and disgrace, and the link with Hebrews 10:33, 11:26 and Romans 15:3 is lost unless one rendering is fixed."
+   },
+   {
+    "lemma": "διαθήκη",
+    "rendering": "covenant",
+    "verse": 20,
+    "reason": "It is central to Hebrews and Paul, where the choice between “covenant” and “will” or “testament” (Heb 9:16–17; Gal 3:15) needs a single policy."
+   },
+   {
+    "lemma": "ἡγέομαι",
+    "rendering": "leaders",
+    "verse": 7,
+    "reason": "The participle used for community leaders (also Luke 22:26; Acts 15:22) is rendered variously as leaders, rulers or those who rule over you, which affects how church authority is heard."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 5301,
+   "output_tokens": 279
+  },
+  "findings": [],
+  "error": ""
+ }
+}

@@ -1,0 +1,365 @@
+{
+ "id": "james-005",
+ "book": "james",
+ "chapter": 5,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14mMWuYoTPmn3nG9Q",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 9519,
+  "output_tokens": 12994
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Come now, you rich people: weep and wail over the miseries that are coming upon you.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Your wealth has rotted, and your clothes have become moth-eaten.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Your gold and silver have corroded, and their corrosion will be evidence against you and will eat your flesh like fire. You have stored up treasure in the last days.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Look! The wages of the workers who mowed your fields, the wages you held back, are crying out, and the cries of the harvesters have reached the ears of the Lord of Hosts.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"You have lived on the earth in luxury and self-indulgence. You have fattened your hearts in a day of slaughter.\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"You have condemned, you have murdered the righteous one. Does he not oppose you?\"}]},{\"verse\":7,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Be patient, then, brothers and sisters, until the coming of the Lord. Look: the farmer waits for the precious fruit of the earth, patient over it until it receives the early and the late rains.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"You too, be patient. Strengthen your hearts, because the coming of the Lord has drawn near.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Do not grumble against one another, brothers and sisters, so that you may not be judged. Look, the judge is standing at the doors.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Brothers and sisters, take as an example of suffering hardship and of patience the prophets who spoke in the name of the Lord.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Look, we call blessed those who endured. You have heard of the endurance of Job, and you have seen the outcome the Lord brought about: the Lord is full of compassion and merciful.\"}]},{\"verse\":12,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But above all, my brothers and sisters, do not swear—not by heaven, not by earth, not by any other oath. Let your “Yes” be yes and your “No” be no, so that you do not fall under judgment.\"}]},{\"verse\":13,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Is anyone among you suffering hardship? Let them pray. Is anyone cheerful? Let them sing praise.\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Is anyone among you sick? Let them call for the elders of the assembly, and let the elders pray over them, anointing them with oil in the name of the Lord.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And the prayer of faith will save the one who is sick, and the Lord will raise them up; and if they have committed sins, they will be forgiven.\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So confess your sins to one another and pray for one another, so that you may be healed. The petition of a righteous person has great power as it works.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Elijah was a human being just like us, and he prayed earnestly that it would not rain, and it did not rain on the land for three years and six months.\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then he prayed again, and the sky gave rain and the land produced its fruit.\"}]},{\"verse\":19,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"My brothers and sisters, if anyone among you strays from the truth and someone turns them back,\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"that person should know that whoever turns a sinner back from their straying path will save that sinner’s soul from death and will cover a multitude of sins.\"}]}],\"notes\":[{\"verse\":3,\"phrase\":\"like fire\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"will eat your flesh like fire\",\"note\":\"Ancient manuscripts had no punctuation, and “like fire” can go with what precedes or what follows. The SBLGNT edition punctuates it with the next clause, giving roughly “It is fire, as it were, that you have stored up in the last days.” This translation follows the reading of most English versions and commentators.\"},{\"verse\":4,\"phrase\":\"the Lord of Hosts\",\"lemma\":\"Σαβαώθ\",\"kind\":\"background\",\"traditional\":\"Lord of hosts / Lord of Sabaoth / Lord Almighty\",\"note\":\"James keeps the Hebrew word Sabaoth (“armies”) untranslated in his Greek, as the Greek version of Isaiah regularly does. The title pictures God as commander of the heavenly armies. The phrasing echoes Isaiah 5:9, where the same title appears in a denunciation of wealthy landowners.\"},{\"verse\":5,\"phrase\":\"in a day of slaughter\",\"lemma\":\"σφαγή\",\"kind\":\"background\",\"traditional\":\"in a day of slaughter\",\"note\":\"The image is of animals that go on feeding on the very day they are to be butchered. The phrase recalls Jeremiah 12:3 and points to the day of God’s judgment, which the rich are approaching without knowing it.\"},{\"verse\":6,\"phrase\":\"Does he not oppose you?\",\"lemma\":\"ἀντιτάσσω\",\"kind\":\"ambiguity\",\"traditional\":\"He does not resist you.\",\"note\":\"Most English versions read this as a statement about the defenseless victim: “he does not resist you.” The SBLGNT punctuates it as a question expecting the answer yes, and this translation follows that. On that reading “he” may be the murdered righteous one, now an accuser, or God, who “opposes the proud” (the same verb, in 4:6). “The righteous one” is most likely generic for the innocent poor, though some see a reference to Jesus.\"},{\"verse\":7,\"phrase\":\"brothers and sisters\",\"lemma\":\"ἀδελφός\",\"kind\":\"departure\",\"traditional\":\"brothers / brethren\",\"note\":\"The Greek plural was the ordinary way to address a mixed group of men and women, and James is writing to whole communities. “Brothers” alone would now suggest that only men are addressed. Several recent versions make the same choice; others keep “brothers” with a footnote.\"},{\"verse\":7,\"phrase\":\"coming\",\"lemma\":\"παρουσία\",\"kind\":\"background\",\"traditional\":\"coming\",\"note\":\"The Greek word means arrival and presence. It was the regular term for the official visit of a king or emperor to a city. Early Christians used it for the expected arrival of Jesus as Lord and judge.\"},{\"verse\":11,\"phrase\":\"endurance\",\"lemma\":\"ὑπομονή\",\"kind\":\"departure\",\"traditional\":\"the patience of Job\",\"note\":\"The familiar phrase “the patience of Job” comes from the King James Version. The Greek word means holding out under pressure, not calm waiting, and Job in the biblical book is anything but calm. James uses a different word for “patience” in verses 7–10; “endurance” keeps the two apart and matches “those who endured” earlier in the verse. Most modern versions likewise use “endurance,” “steadfastness” or “perseverance.”\"},{\"verse\":11,\"phrase\":\"the outcome the Lord brought about\",\"lemma\":\"τέλος\",\"kind\":\"ambiguity\",\"traditional\":\"the end of the Lord / the purpose of the Lord\",\"note\":\"Literally “the end of the Lord.” Most interpreters take this as the happy ending God gave to Job’s story (Job 42). Others take it as “the Lord’s purpose.” A few older interpreters saw a reference to the end of Jesus’ own life, which is now a minority view.\"},{\"verse\":14,\"phrase\":\"assembly\",\"lemma\":\"ἐκκλησία\",\"kind\":\"departure\",\"traditional\":\"church\",\"note\":\"Nearly all English versions have “church,” and readers know what that refers to. To a first-century hearer the word meant a gathering of people: it was the term for a city’s civic assembly, and the Greek Scriptures use it for Israel assembled. “Church” now suggests a building or an institution, so this translation uses “assembly” throughout the New Testament.\"},{\"verse\":15,\"phrase\":\"save\",\"lemma\":\"σῴζω\",\"kind\":\"ambiguity\",\"traditional\":\"save the sick / make the sick person well\",\"note\":\"The Greek verb covers both rescue from illness and salvation in the fuller sense, and “raise up” can likewise mean getting up from a sickbed or resurrection. Physical recovery is the primary sense in context, and some versions translate “make well.” “Save” is kept because James goes straight on to speak of sins forgiven and may intend both.\"},{\"verse\":16,\"phrase\":\"as it works\",\"lemma\":\"ἐνεργέω\",\"kind\":\"ambiguity\",\"traditional\":\"the effectual fervent prayer of a righteous man availeth much\",\"note\":\"The final Greek word is a participle meaning “working” or “being made to work,” and its force is disputed. It may describe the prayer as active and effective, as rendered here. It may mean “when it is put into effect,” that is, when it is actually prayed. Or it may mean “when it is made effective” by God. English versions vary accordingly.\"},{\"verse\":20,\"phrase\":\"that sinner’s soul\",\"lemma\":\"ψυχή\",\"kind\":\"ambiguity\",\"traditional\":\"save his soul from death\",\"note\":\"The Greek says only “his soul,” which could be the soul of the sinner who is brought back or of the person who brings him back. Most interpreters take it as the sinner’s, and the translation makes that explicit. Whose sins are “covered” is similarly open. The phrase echoes Proverbs 10:12 and appears also in 1 Peter 4:8.\"}],\"candidates\":[{\"lemma\":\"ἀδελφός\",\"rendering\":\"brothers and sisters\",\"verse\":7,\"reason\":\"The plural address to mixed congregations occurs throughout the letters and Acts, and versions split between “brothers” and “brothers and sisters”; it needs one policy.\"},{\"lemma\":\"ὑπομονή\",\"rendering\":\"endurance\",\"verse\":11,\"reason\":\"It recurs across Paul, Hebrews, James and Revelation and is rendered patience, endurance, perseverance or steadfastness; it must be kept distinct from μακροθυμία (“patience”).\"},{\"lemma\":\"σῴζω\",\"rendering\":\"save\",\"verse\":15,\"reason\":\"In healing contexts in the Gospels, Acts and James versions alternate between “save,” “heal” and “make well,” which hides a deliberate double sense.\"},{\"lemma\":\"Σαβαώθ\",\"rendering\":\"of Hosts\",\"verse\":4,\"reason\":\"A transliterated Hebrew divine title that occurs only here and in Romans 9:29; the choice between “of Hosts,” “of Armies,” “Almighty” and the loanword “Sabaoth” should be made once.\"},{\"lemma\":\"πρεσβύτερος\",\"rendering\":\"elders\",\"verse\":14,\"reason\":\"It is used for Jewish elders, Christian community leaders and simply older people across the Gospels, Acts, the letters and Revelation; “elder,” “presbyter” and “older man” need consistent boundaries.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Come now, you rich people: weep and wail over the miseries that are coming upon you."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Your wealth has rotted, and your clothes have become moth-eaten."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Your gold and silver have corroded, and their corrosion will be evidence against you and will eat your flesh like fire. You have stored up treasure in the last days."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Look! The wages of the workers who mowed your fields, the wages you held back, are crying out, and the cries of the harvesters have reached the ears of the Lord of Hosts."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "You have lived on the earth in luxury and self-indulgence. You have fattened your hearts in a day of slaughter."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "You have condemned, you have murdered the righteous one. Does he not oppose you?"
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Be patient, then, brothers and sisters, until the coming of the Lord. Look: the farmer waits for the precious fruit of the earth, patient over it until it receives the early and the late rains."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "You too, be patient. Strengthen your hearts, because the coming of the Lord has drawn near."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Do not grumble against one another, brothers and sisters, so that you may not be judged. Look, the judge is standing at the doors."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Brothers and sisters, take as an example of suffering hardship and of patience the prophets who spoke in the name of the Lord."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Look, we call blessed those who endured. You have heard of the endurance of Job, and you have seen the outcome the Lord brought about: the Lord is full of compassion and merciful."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But above all, my brothers and sisters, do not swear—not by heaven, not by earth, not by any other oath. Let your “Yes” be yes and your “No” be no, so that you do not fall under judgment."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Is anyone among you suffering hardship? Let them pray. Is anyone cheerful? Let them sing praise."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Is anyone among you sick? Let them call for the elders of the assembly, and let the elders pray over them, anointing them with oil in the name of the Lord."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And the prayer of faith will save the one who is sick, and the Lord will raise them up; and if they have committed sins, they will be forgiven."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So confess your sins to one another and pray for one another, so that you may be healed. The petition of a righteous person has great power as it works."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Elijah was a human being just like us, and he prayed earnestly that it would not rain, and it did not rain on the land for three years and six months."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then he prayed again, and the sky gave rain and the land produced its fruit."
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "My brothers and sisters, if anyone among you strays from the truth and someone turns them back,"
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "that person should know that whoever turns a sinner back from their straying path will save that sinner’s soul from death and will cover a multitude of sins."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 3,
+    "phrase": "like fire",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "will eat your flesh like fire",
+    "note": "Ancient manuscripts had no punctuation, and “like fire” can go with what precedes or what follows. The SBLGNT edition punctuates it with the next clause, giving roughly “It is fire, as it were, that you have stored up in the last days.” This translation follows the reading of most English versions and commentators."
+   },
+   {
+    "verse": 4,
+    "phrase": "the Lord of Hosts",
+    "lemma": "Σαβαώθ",
+    "kind": "background",
+    "traditional": "Lord of hosts / Lord of Sabaoth / Lord Almighty",
+    "note": "James keeps the Hebrew word Sabaoth (“armies”) untranslated in his Greek, as the Greek version of Isaiah regularly does. The title pictures God as commander of the heavenly armies. The phrasing echoes Isaiah 5:9, where the same title appears in a denunciation of wealthy landowners."
+   },
+   {
+    "verse": 5,
+    "phrase": "in a day of slaughter",
+    "lemma": "σφαγή",
+    "kind": "background",
+    "traditional": "in a day of slaughter",
+    "note": "The image is of animals that go on feeding on the very day they are to be butchered. The phrase recalls Jeremiah 12:3 and points to the day of God’s judgment, which the rich are approaching without knowing it."
+   },
+   {
+    "verse": 6,
+    "phrase": "Does he not oppose you?",
+    "lemma": "ἀντιτάσσω",
+    "kind": "ambiguity",
+    "traditional": "He does not resist you.",
+    "note": "Most English versions read this as a statement about the defenseless victim: “he does not resist you.” The SBLGNT punctuates it as a question expecting the answer yes, and this translation follows that. On that reading “he” may be the murdered righteous one, now an accuser, or God, who “opposes the proud” (the same verb, in 4:6). “The righteous one” is most likely generic for the innocent poor, though some see a reference to Jesus."
+   },
+   {
+    "verse": 7,
+    "phrase": "brothers and sisters",
+    "lemma": "ἀδελφός",
+    "kind": "departure",
+    "traditional": "brothers / brethren",
+    "note": "The Greek plural was the ordinary way to address a mixed group of men and women, and James is writing to whole communities. “Brothers” alone would now suggest that only men are addressed. Several recent versions make the same choice; others keep “brothers” with a footnote."
+   },
+   {
+    "verse": 7,
+    "phrase": "coming",
+    "lemma": "παρουσία",
+    "kind": "background",
+    "traditional": "coming",
+    "note": "The Greek word means arrival and presence. It was the regular term for the official visit of a king or emperor to a city. Early Christians used it for the expected arrival of Jesus as Lord and judge."
+   },
+   {
+    "verse": 11,
+    "phrase": "endurance",
+    "lemma": "ὑπομονή",
+    "kind": "departure",
+    "traditional": "the patience of Job",
+    "note": "The familiar phrase “the patience of Job” comes from the King James Version. The Greek word means holding out under pressure, not calm waiting, and Job in the biblical book is anything but calm. James uses a different word for “patience” in verses 7–10; “endurance” keeps the two apart and matches “those who endured” earlier in the verse. Most modern versions likewise use “endurance,” “steadfastness” or “perseverance.”"
+   },
+   {
+    "verse": 11,
+    "phrase": "the outcome the Lord brought about",
+    "lemma": "τέλος",
+    "kind": "ambiguity",
+    "traditional": "the end of the Lord / the purpose of the Lord",
+    "note": "Literally “the end of the Lord.” Most interpreters take this as the happy ending God gave to Job’s story (Job 42). Others take it as “the Lord’s purpose.” A few older interpreters saw a reference to the end of Jesus’ own life, which is now a minority view."
+   },
+   {
+    "verse": 14,
+    "phrase": "assembly",
+    "lemma": "ἐκκλησία",
+    "kind": "departure",
+    "traditional": "church",
+    "note": "Nearly all English versions have “church,” and readers know what that refers to. To a first-century hearer the word meant a gathering of people: it was the term for a city’s civic assembly, and the Greek Scriptures use it for Israel assembled. “Church” now suggests a building or an institution, so this translation uses “assembly” throughout the New Testament."
+   },
+   {
+    "verse": 15,
+    "phrase": "save",
+    "lemma": "σῴζω",
+    "kind": "ambiguity",
+    "traditional": "save the sick / make the sick person well",
+    "note": "The Greek verb covers both rescue from illness and salvation in the fuller sense, and “raise up” can likewise mean getting up from a sickbed or resurrection. Physical recovery is the primary sense in context, and some versions translate “make well.” “Save” is kept because James goes straight on to speak of sins forgiven and may intend both."
+   },
+   {
+    "verse": 16,
+    "phrase": "as it works",
+    "lemma": "ἐνεργέω",
+    "kind": "ambiguity",
+    "traditional": "the effectual fervent prayer of a righteous man availeth much",
+    "note": "The final Greek word is a participle meaning “working” or “being made to work,” and its force is disputed. It may describe the prayer as active and effective, as rendered here. It may mean “when it is put into effect,” that is, when it is actually prayed. Or it may mean “when it is made effective” by God. English versions vary accordingly."
+   },
+   {
+    "verse": 20,
+    "phrase": "that sinner’s soul",
+    "lemma": "ψυχή",
+    "kind": "ambiguity",
+    "traditional": "save his soul from death",
+    "note": "The Greek says only “his soul,” which could be the soul of the sinner who is brought back or of the person who brings him back. Most interpreters take it as the sinner’s, and the translation makes that explicit. Whose sins are “covered” is similarly open. The phrase echoes Proverbs 10:12 and appears also in 1 Peter 4:8."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "ἀδελφός",
+    "rendering": "brothers and sisters",
+    "verse": 7,
+    "reason": "The plural address to mixed congregations occurs throughout the letters and Acts, and versions split between “brothers” and “brothers and sisters”; it needs one policy."
+   },
+   {
+    "lemma": "ὑπομονή",
+    "rendering": "endurance",
+    "verse": 11,
+    "reason": "It recurs across Paul, Hebrews, James and Revelation and is rendered patience, endurance, perseverance or steadfastness; it must be kept distinct from μακροθυμία (“patience”)."
+   },
+   {
+    "lemma": "σῴζω",
+    "rendering": "save",
+    "verse": 15,
+    "reason": "In healing contexts in the Gospels, Acts and James versions alternate between “save,” “heal” and “make well,” which hides a deliberate double sense."
+   },
+   {
+    "lemma": "Σαβαώθ",
+    "rendering": "of Hosts",
+    "verse": 4,
+    "reason": "A transliterated Hebrew divine title that occurs only here and in Romans 9:29; the choice between “of Hosts,” “of Armies,” “Almighty” and the loanword “Sabaoth” should be made once."
+   },
+   {
+    "lemma": "πρεσβύτερος",
+    "rendering": "elders",
+    "verse": 14,
+    "reason": "It is used for Jewish elders, Christian community leaders and simply older people across the Gospels, Acts, the letters and Revelation; “elder,” “presbyter” and “older man” need consistent boundaries."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 4785,
+   "output_tokens": 564
+  },
+  "findings": [],
+  "error": ""
+ }
+}

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ait version="2.0" run="20261118-162954-full-nt" model="claude-fable-5-2" register="0.4-draft">
+<ait version="2.0" run="20261118-224116-full-nt-2" model="claude-fable-5-2" register="0.5-draft">
   <book id="3john" name="3 John">
     <chapter num="1">
       <verse num="1">
@@ -16,9 +16,10 @@
           <w lemma="ἐν">ἐν</w>
           <w lemma="ἀλήθεια">ἀληθείᾳ.</w>
         </greek>
+        <note term="The elder" kind="background" lemma="πρεσβύτερος" traditional="the elder">The writer gives a title and no name. The word can mean simply an older man or the holder of a recognized leadership role in a community; here it works as a title the recipient would know. Early tradition identifies the writer with John, but the letter itself does not say so, and scholars disagree about his identity.</note>
       </verse>
       <verse num="2">
-        <text><p/>Beloved, I pray that in every respect it may go well with you and that you may be in good health, just as it goes well with your soul.</text>
+        <text><p/>Beloved, I pray that you may do well in every respect and be in good health, just as your soul is doing well.</text>
         <greek>
           <w lemma="ἀγαπητός">Ἀγαπητέ,</w>
           <w lemma="περί">περὶ</w>
@@ -34,10 +35,10 @@
           <w lemma="ὁ">ἡ</w>
           <w lemma="ψυχή">ψυχή.</w>
         </greek>
-        <note term="I pray" kind="ambiguity" lemma="εὔχομαι" traditional="I pray / I wish">The verb can mean either &#x27;pray&#x27; or simply &#x27;wish&#x27;. A wish for the recipient&#x27;s health was a standard opening in Greek letters of the period, so a first-century reader would hear a familiar courtesy here, given a Christian turn by the reference to the soul. The verse is a conventional greeting, not a promise of prosperity.</note>
+        <note term="do well in every respect and be in good health" kind="background" lemma="εὐοδόω" traditional="prosper and be in health">A wish for the recipient’s health and well-being was a standard opening in ancient letters, and this is that convention. The verb, traditionally “prosper,” means for things to go well in general and does not specifically refer to wealth. The same verb is repeated of Gaius’s soul, which the translation keeps with “do well … is doing well.”</note>
       </verse>
       <verse num="3">
-        <text>For I rejoiced greatly when brothers came and testified to your truth, to how you are walking in truth.</text>
+        <text>For I rejoiced greatly when brothers came and testified to your truth—how you are walking in truth.</text>
         <greek>
           <w lemma="χαίρω">ἐχάρην</w>
           <w lemma="γάρ">γὰρ</w>
@@ -57,7 +58,7 @@
         </greek>
       </verse>
       <verse num="4">
-        <text>I have no greater joy than this, to hear that my children are walking in the truth.</text>
+        <text>I have no greater joy than this: to hear that my children are walking in the truth.</text>
         <greek>
           <w lemma="μειζότερος">μειζοτέραν</w>
           <w lemma="οὗτος">τούτων</w>
@@ -110,11 +111,11 @@
           <w lemma="ὁ">τοῦ</w>
           <w lemma="θεός">θεοῦ·</w>
         </greek>
-        <note term="assembly" kind="departure" lemma="ἐκκλησία" traditional="church">The Greek word meant a gathering of people: a city&#x27;s citizen assembly, or in the Greek Old Testament Israel assembled before God. &#x27;Church&#x27; is the near-universal rendering and readers know what it refers to, but it now suggests a building or an institution. This translation uses &#x27;assembly&#x27; throughout so that the reader sees one word for one Greek word, though it can sound like a one-off meeting.</note>
-        <note term="send them on their way" kind="background" lemma="προπέμπω" traditional="send them on their journey / bring forward on their journey">In early Christian usage this verb was close to a technical term for equipping travellers for the next stage of a journey with food, money and sometimes companions. Gaius is being asked for practical support, not merely a farewell.</note>
+        <note term="assembly" kind="departure" lemma="ἐκκλησία" traditional="church">The traditional rendering is “church,” which is near-universal and familiar. A first-century hearer knew this word as the ordinary term for a civic gathering and as the Greek Old Testament’s word for Israel assembled. “Church” now suggests a building or an institution, so this translation uses “assembly” throughout, though the word can sound like a single meeting where an ongoing community is meant.</note>
+        <note term="send them on their way" kind="background" lemma="προπέμπω" traditional="send them on their journey">The verb is more than saying goodbye. In the period it regularly meant equipping travelers for the next stage of a journey with food, money, or companions. Gaius is being asked to provide for these traveling workers materially.</note>
       </verse>
       <verse num="7">
-        <text>for they set out for the sake of the Name, taking nothing from the pagans.</text>
+        <text>for they set out for the sake of the Name, taking nothing from the Gentiles.</text>
         <greek>
           <w lemma="ὑπέρ">ὑπὲρ</w>
           <w lemma="γάρ">γὰρ</w>
@@ -127,11 +128,11 @@
           <w lemma="ὁ">τῶν</w>
           <w lemma="ἐθνικός">ἐθνικῶν.</w>
         </greek>
-        <note term="the Name" kind="ambiguity" lemma="ὄνομα" traditional="his name&#x27;s sake / the sake of the Name">The Greek says only &#x27;the name&#x27; without saying whose. Most interpreters take it as the name of Jesus, as elsewhere in early Christian speech about missionaries; others hear the Jewish reverential use of &#x27;the Name&#x27; for God. The Greek does not decide between them.</note>
-        <note term="pagans" kind="departure" lemma="ἐθνικός" traditional="Gentiles">The word means &#x27;people of the nations&#x27;, that is, those outside God&#x27;s people. Many versions translate &#x27;Gentiles&#x27;, but Gaius and his circle bear Greek names and were probably non-Jews themselves, so the contrast is with unbelievers, not with an ethnic group. The point is that the travelling brothers did not take support from those they were evangelising. Some versions accordingly have &#x27;pagans&#x27; or &#x27;non-believers&#x27;.</note>
+        <note term="the Name" kind="background" lemma="ὄνομα" traditional="his name’s sake">The Greek says simply “the name,” with no further qualifier. Most interpreters take it to mean the name of Jesus, as in similar expressions in Acts, though Jewish usage also spoke of “the Name” as a reverent way of referring to God. Some translations supply “his” or “Christ’s.”</note>
+        <note term="Gentiles" kind="background" lemma="ἐθνικός" traditional="Gentiles">The word literally means people of the nations, that is, non-Jews. Since many believers were themselves non-Jews, here it means outsiders to the believing community, and some versions translate “pagans” or “unbelievers.” The point is that these travelers took no support from those they were trying to reach, so fellow believers needed to provide it.</note>
       </verse>
       <verse num="8">
-        <text>So we ought to take such people in, so that we may become co-workers with the truth.</text>
+        <text>So we ought to take in such people, so that we may become fellow workers with the truth.</text>
         <greek>
           <w lemma="ἐγώ">ἡμεῖς</w>
           <w lemma="οὖν">οὖν</w>
@@ -145,10 +146,10 @@
           <w lemma="ὁ">τῇ</w>
           <w lemma="ἀλήθεια">ἀληθείᾳ.</w>
         </greek>
-        <note term="co-workers with the truth" kind="ambiguity" lemma="συνεργός" traditional="fellow workers for the truth">The Greek can mean working together with the truth, the truth being pictured as itself active (as in verse 12, where it testifies), or working together with the missionaries for the truth. Translations and commentators are divided, and either reading fits the context.</note>
+        <note term="fellow workers with the truth" kind="ambiguity" lemma="συνεργός" traditional="fellow workers for the truth">The Greek can mean either working alongside the truth, with truth pictured as an active partner, or working together with the travelers on behalf of the truth. This translation takes the first reading, which fits verse 12, where the truth itself is said to testify. Many versions take the second.</note>
       </verse>
       <verse num="9">
-        <text><p/>I wrote something to the assembly, but Diotrephes, who loves to be first among them, does not receive us.</text>
+        <text><p/>I wrote something to the assembly, but Diotrephes, who loves to be first among them, does not welcome us.</text>
         <greek>
           <w lemma="γράφω">Ἔγραψά</w>
           <w lemma="τις">τι</w>
@@ -163,10 +164,10 @@
           <w lemma="ἐπιδέχομαι">ἐπιδέχεται</w>
           <w lemma="ἐγώ">ἡμᾶς.</w>
         </greek>
-        <note term="does not receive us" kind="ambiguity" lemma="ἐπιδέχομαι" traditional="receiveth us not / does not acknowledge our authority">The same verb is used in verse 10 for refusing hospitality to the travelling brothers, and it is rendered the same way in both places. Here it may mean that Diotrephes refuses to welcome the elder&#x27;s emissaries, or more broadly that he does not accept the elder&#x27;s authority; many versions choose the second. &#x27;Us&#x27; may refer to the elder alone or to him and his associates.</note>
+        <note term="does not welcome us" kind="ambiguity" lemma="ἐπιδέχομαι" traditional="does not receive us">The same verb in verse 10 means refusing hospitality to the traveling brothers. Here, where the elder is not physically present, it may mean that Diotrephes refuses to recognize the elder’s authority or to accept what he wrote, and some versions translate it that way. The earlier letter mentioned here has not survived, unless it is one of the other letters of John, which is uncertain.</note>
       </verse>
       <verse num="10">
-        <text>For this reason, if I come, I will bring up the things he is doing, spouting malicious nonsense about us. And not content with that, he does not receive the brothers himself, and those who want to he stops and throws out of the assembly.</text>
+        <text>For this reason, if I come, I will bring up the things he is doing, babbling against us with malicious words. And not content with that, he not only refuses to welcome the brothers himself but also stops those who want to and throws them out of the assembly.</text>
         <greek>
           <w lemma="διά">διὰ</w>
           <w lemma="οὗτος">τοῦτο,</w>
@@ -229,7 +230,7 @@
         </greek>
       </verse>
       <verse num="12">
-        <text><p/>Everyone testifies in Demetrius’s favor, and so does the truth itself. We testify too, and you know that our testimony is true.</text>
+        <text><p/>Everyone has testified in Demetrius’s favor, and so has the truth itself. We also testify, and you know that our testimony is true.</text>
         <greek>
           <w lemma="Δημήτριος">Δημητρίῳ</w>
           <w lemma="μαρτυρέω">μεμαρτύρηται</w>
@@ -253,10 +254,9 @@
           <w lemma="ἀληθής">ἀληθής</w>
           <w lemma="εἰμί">ἐστιν.</w>
         </greek>
-        <note term="Everyone testifies in Demetrius’s favor" kind="background" lemma="μαρτυρέω" traditional="Demetrius hath good report of all men">This verse follows the form of an ancient letter of recommendation. Demetrius was probably the bearer of the letter and one of the travelling brothers whom Gaius is being asked to welcome, though the letter does not say so explicitly.</note>
       </verse>
       <verse num="13">
-        <text><p/>I had many things to write to you, but I do not want to write to you with ink and pen.</text>
+        <text><p/>I had many things to write to you, but I do not want to write to you with ink and pen;</text>
         <greek>
           <w lemma="πολύς">Πολλὰ</w>
           <w lemma="ἔχω">εἶχον</w>
@@ -274,7 +274,7 @@
         </greek>
       </verse>
       <verse num="14">
-        <text>I hope to see you soon, and we will speak face to face.</text>
+        <text>rather, I hope to see you soon, and we will speak face to face.</text>
         <greek>
           <w lemma="ἐλπίζω">ἐλπίζω</w>
           <w lemma="δέ">δὲ</w>
@@ -287,7 +287,6 @@
           <w lemma="στόμα">στόμα</w>
           <w lemma="λαλέω">λαλήσομεν.</w>
         </greek>
-        <note term="face to face" kind="background" lemma="στόμα" traditional="face to face">The Greek is literally &#x27;mouth to mouth&#x27;, a Semitic idiom found in the Greek Old Testament for direct personal speech. &#x27;Face to face&#x27; is the English equivalent; the literal phrase would mislead a modern reader.</note>
       </verse>
       <verse num="15">
         <text><p/>Peace to you. The friends greet you. Greet the friends by name.</text>
@@ -304,7 +303,7 @@
           <w lemma="κατά">κατ’</w>
           <w lemma="ὄνομα">ὄνομα.</w>
         </greek>
-        <note term="Peace to you." kind="textual" lemma="" traditional="">Verse numbering differs between editions here. Some English Bibles, including the King James Version, print these closing greetings as the end of verse 14 and have no verse 15. The wording is not affected.</note>
+        <note term="Peace to you." kind="background" lemma="" traditional="">Some English Bibles, including the King James Version, count this closing greeting as part of verse 14, giving the letter fourteen verses. Modern Greek editions and most recent translations number it as verse 15. The wording is the same either way.</note>
       </verse>
     </chapter>
   </book>

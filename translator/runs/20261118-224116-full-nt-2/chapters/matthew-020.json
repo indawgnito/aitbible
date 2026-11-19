@@ -1,0 +1,553 @@
+{
+ "id": "matthew-020",
+ "book": "matthew",
+ "chapter": 20,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14evAdDKkzBnKJG5g",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 12566,
+  "output_tokens": 14470
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"“For the kingdom of the heavens is like a landowner who went out early in the morning to hire workers for his vineyard.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"After agreeing with the workers on a denarius for the day, he sent them into his vineyard.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And going out about the third hour, he saw others standing idle in the marketplace,\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"and to them he said, ‘You go into the vineyard too, and I will give you whatever is just.’\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"So they went. Going out again about the sixth hour and the ninth hour, he did the same.\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And about the eleventh hour he went out and found others standing there, and he said to them, ‘Why have you been standing here idle all day?’\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"They said to him, ‘Because no one hired us.’ He said to them, ‘You go into the vineyard too.’\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"When evening came, the owner of the vineyard said to his manager, ‘Call the workers and pay them their wages, beginning with the last and going on to the first.’\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And when those hired about the eleventh hour came, they each received a denarius.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"So when the first came, they thought they would receive more; but they too each received a denarius.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"When they received it, they began grumbling against the landowner,\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"saying, ‘These last ones worked one hour, and you have made them equal to us who have borne the burden of the day and the scorching heat.’\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But he answered one of them, ‘Friend, I am doing you no injustice. Did you not agree with me on a denarius?\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Take what is yours and go. I want to give this last one the same as I gave you.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Am I not allowed to do what I want with what is mine? Or is your eye evil because I am good?’\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"So the last will be first, and the first last.”\"}]},{\"verse\":17,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"As Jesus was going up to Jerusalem, he took the twelve disciples aside by themselves, and on the way he said to them,\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"“Look, we are going up to Jerusalem, and the Son of Man will be handed over to the chief priests and scribes, and they will condemn him to death,\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"and they will hand him over to the Gentiles to be mocked and flogged and crucified, and on the third day he will be raised.”\"}]},{\"verse\":20,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then the mother of Zebedee’s sons came to him with her sons, bowing down before him and asking something of him.\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He said to her,\"},{\"speaker\":\"Jesus\",\"text\":\"“What do you want?”\"},{\"speaker\":\"narrator\",\"text\":\"She said to him,\"},{\"speaker\":\"other\",\"text\":\"“Say that these two sons of mine are to sit, one at your right and one at your left, in your kingdom.”\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But Jesus answered,\"},{\"speaker\":\"Jesus\",\"text\":\"“You do not know what you are asking. Can you drink the cup that I am about to drink?”\"},{\"speaker\":\"narrator\",\"text\":\"They said to him,\"},{\"speaker\":\"other\",\"text\":\"“We can.”\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“My cup you will drink, but to sit at my right and at my left is not mine to give; it is for those for whom it has been prepared by my Father.”\"}]},{\"verse\":24,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When the ten heard this, they were indignant at the two brothers.\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But Jesus called them to him and said,\"},{\"speaker\":\"Jesus\",\"text\":\"“You know that the rulers of the Gentiles lord it over them, and their great ones wield authority over them.\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"It is not to be so among you. Rather, whoever wants to become great among you must be your servant,\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"and whoever wants to be first among you must be your slave—\"}]},{\"verse\":28,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"just as the Son of Man did not come to be served but to serve, and to give his life as a ransom for many.”\"}]},{\"verse\":29,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"As they were leaving Jericho, a large crowd followed him.\"}]},{\"verse\":30,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And look, two blind men were sitting beside the road; when they heard that Jesus was passing by, they cried out,\"},{\"speaker\":\"other\",\"text\":\"“Lord, have mercy on us, Son of David!”\"}]},{\"verse\":31,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The crowd rebuked them, telling them to be silent, but they cried out all the louder,\"},{\"speaker\":\"other\",\"text\":\"“Lord, have mercy on us, Son of David!”\"}]},{\"verse\":32,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus stopped and called them and said,\"},{\"speaker\":\"Jesus\",\"text\":\"“What do you want me to do for you?”\"}]},{\"verse\":33,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They said to him,\"},{\"speaker\":\"other\",\"text\":\"“Lord, let our eyes be opened.”\"}]},{\"verse\":34,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Moved with compassion, Jesus touched their eyes, and at once they regained their sight and followed him.\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"the kingdom of the heavens\",\"lemma\":\"οὐρανός\",\"kind\":\"departure\",\"traditional\":\"the kingdom of heaven\",\"note\":\"Matthew’s Greek has the plural, “the heavens,” reflecting the Hebrew and Aramaic way of speaking, in which the word for heaven is plural in form. Most English translations flatten it to “the kingdom of heaven.” The plural is kept here because a first-century hearer would have noticed the Semitic turn of phrase.\"},{\"verse\":2,\"phrase\":\"a denarius\",\"lemma\":\"δηνάριον\",\"kind\":\"background\",\"traditional\":\"a penny (KJV); a denarius\",\"note\":\"A denarius was a Roman silver coin and, as the parable itself assumes, an ordinary day’s pay for a laborer. The agreed rate is therefore fair, neither stingy nor generous.\"},{\"verse\":3,\"phrase\":\"the third hour\",\"lemma\":\"ὥρα\",\"kind\":\"background\",\"traditional\":\"the third hour; nine o’clock\",\"note\":\"Hours were counted from sunrise, so the third hour is mid-morning (about nine o’clock), the sixth is noon, the ninth is mid-afternoon, and the eleventh is roughly an hour before the working day ends at sunset. The ancient hour-counts are kept because the story turns on them.\"},{\"verse\":4,\"phrase\":\"whatever is just\",\"lemma\":\"δίκαιος\",\"kind\":\"departure\",\"traditional\":\"whatever is right\",\"note\":\"The Greek adjective belongs to a single word-family that English splits in two: righteous and just, righteousness and justice. “Just” is used here so that the reader hears the link with verse 13, where the landowner uses the matching verb to say he is doing no injustice. Most translations have “whatever is right” here and “I am not wronging you” there.\"},{\"verse\":15,\"phrase\":\"is your eye evil because I am good\",\"lemma\":\"ὀφθalμός\",\"kind\":\"background\",\"traditional\":\"Is thine eye evil, because I am good? (KJV); are you envious because I am generous? (most modern versions)\",\"note\":\"An “evil eye” was a common Jewish idiom for a grudging, envious or stingy attitude toward others, the opposite of generosity (compare Matthew 6:23). Most modern translations paraphrase: “Are you envious because I am generous?” The literal wording is kept so that the idiom and the contrast of “evil” with “good” stay visible; “good” here has the sense of kind or generous.\"},{\"verse\":16,\"phrase\":\"the first last\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"the first last: for many be called, but few chosen (KJV)\",\"note\":\"Many later manuscripts add “for many are called, but few are chosen,” and the King James Version includes it. The earliest manuscripts lack the words, which were probably brought in from Matthew 22:14. They are not in the Greek text translated here.\"},{\"verse\":18,\"phrase\":\"handed over\",\"lemma\":\"παραδίδωμι\",\"kind\":\"departure\",\"traditional\":\"betrayed (KJV); delivered\",\"note\":\"The Greek verb is the ordinary word for transferring a person into someone else’s custody or power, and it is used both here and in verse 19. Translations often have “betrayed” where Judas’s act is in view and “delivered” elsewhere, though the lexicons give “hand over” as the basic sense. One rendering is used throughout so the reader can see the chain of handings-over—to the priests, then to the Gentiles—as a Greek reader did.\"},{\"verse\":19,\"phrase\":\"the Gentiles\",\"lemma\":\"ἔθνος\",\"kind\":\"background\",\"traditional\":\"the Gentiles\",\"note\":\"The Greek word means “nations” or “peoples”; in the plural it regularly refers to the non-Jewish peoples, here in practice the Roman authorities. The same word recurs in verse 25. English uses “Gentiles” or “nations” according to context, but in Greek it is one word.\"},{\"verse\":20,\"phrase\":\"bowing down before him\",\"lemma\":\"προσκυνέω\",\"kind\":\"departure\",\"traditional\":\"worshipping him (KJV); kneeling before him\",\"note\":\"The verb names the act of prostrating oneself in reverence, and what it signifies depends on who receives it: it is used of worship offered to God and also of bowing before a king or superior. Here a petitioner approaches with a request and the scene contains no confession of divine status, so the gesture itself is translated, as most modern versions also do. Scholars differ on how much recognition of Jesus’s status Matthew intends in such scenes.\"},{\"verse\":22,\"phrase\":\"the cup\",\"lemma\":\"ποτήριον\",\"kind\":\"background\",\"traditional\":\"the cup\",\"note\":\"In Israel’s Scriptures a cup is a common image for the lot God gives a person to drink, very often suffering or judgment. Jesus uses it here of his coming death (compare Matthew 26:39). The “you” in his reply is plural: he is answering the two sons, not only their mother.\"},{\"verse\":22,\"phrase\":\"Can you drink the cup that I am about to drink?\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"…and to be baptized with the baptism that I am baptized with? (KJV)\",\"note\":\"Many later manuscripts add here, and again in verse 23, a clause about being baptized with the baptism Jesus is baptized with, as in the King James Version. The words are absent from the earliest manuscripts and were probably added from the parallel in Mark 10:38–39.\"},{\"verse\":28,\"phrase\":\"a ransom for many\",\"lemma\":\"λύτρον\",\"kind\":\"background\",\"traditional\":\"a ransom for many\",\"note\":\"The Greek noun was the ordinary term for the price paid to free a slave, a captive or something held in pledge. The preposition translated “for” commonly means “in place of” or “in exchange for.” “Many” is a Semitic way of setting the one over against the large number who benefit and need not mean “not all”; many scholars hear an echo of Isaiah 53:11–12.\"}],\"candidates\":[{\"lemma\":\"ἰδού\",\"rendering\":\"look\",\"verse\":18,\"reason\":\"Extremely frequent across the New Testament in both speech and narration, and translators vary between “behold,” “look,” “see,” restructuring and omission.\"},{\"lemma\":\"οἰκοδεσπότης\",\"rendering\":\"landowner\",\"verse\":1,\"reason\":\"Recurs in several parables in Matthew, Mark and Luke, where “landowner,” “householder,” “master of the house” and “owner of the house” are all plausible and would otherwise vary by chapter.\"},{\"lemma\":\"γραμματεύς\",\"rendering\":\"scribe\",\"verse\":18,\"reason\":\"Occurs throughout the Gospels and Acts; “scribe” suggests a mere copyist to modern readers and versions vary with “teacher of the law” or “legal expert,” so one decision is needed.\"},{\"lemma\":\"σπλαγχνίζομαι\",\"rendering\":\"moved with compassion\",\"verse\":34,\"reason\":\"Recurs in the Synoptic Gospels of Jesus and in parables; renderings range over “had compassion,” “felt pity,” “was moved with compassion” and should be uniform.\"},{\"lemma\":\"ἑταῖρος\",\"rendering\":\"friend\",\"verse\":13,\"reason\":\"Used three times in Matthew, each time addressing someone in the wrong, and sharing “friend” with φίλος hides the cooler tone; a consistent choice is needed.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "“For the kingdom of the heavens is like a landowner who went out early in the morning to hire workers for his vineyard."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "After agreeing with the workers on a denarius for the day, he sent them into his vineyard."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And going out about the third hour, he saw others standing idle in the marketplace,"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "and to them he said, ‘You go into the vineyard too, and I will give you whatever is just.’"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "So they went. Going out again about the sixth hour and the ninth hour, he did the same."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And about the eleventh hour he went out and found others standing there, and he said to them, ‘Why have you been standing here idle all day?’"
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "They said to him, ‘Because no one hired us.’ He said to them, ‘You go into the vineyard too.’"
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "When evening came, the owner of the vineyard said to his manager, ‘Call the workers and pay them their wages, beginning with the last and going on to the first.’"
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And when those hired about the eleventh hour came, they each received a denarius."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "So when the first came, they thought they would receive more; but they too each received a denarius."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "When they received it, they began grumbling against the landowner,"
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "saying, ‘These last ones worked one hour, and you have made them equal to us who have borne the burden of the day and the scorching heat.’"
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But he answered one of them, ‘Friend, I am doing you no injustice. Did you not agree with me on a denarius?"
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Take what is yours and go. I want to give this last one the same as I gave you."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Am I not allowed to do what I want with what is mine? Or is your eye evil because I am good?’"
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "So the last will be first, and the first last.”"
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "As Jesus was going up to Jerusalem, he took the twelve disciples aside by themselves, and on the way he said to them,"
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "“Look, we are going up to Jerusalem, and the Son of Man will be handed over to the chief priests and scribes, and they will condemn him to death,"
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "and they will hand him over to the Gentiles to be mocked and flogged and crucified, and on the third day he will be raised.”"
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then the mother of Zebedee’s sons came to him with her sons, bowing down before him and asking something of him."
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He said to her,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“What do you want?”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "She said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Say that these two sons of mine are to sit, one at your right and one at your left, in your kingdom.”"
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But Jesus answered,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“You do not know what you are asking. Can you drink the cup that I am about to drink?”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "They said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“We can.”"
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“My cup you will drink, but to sit at my right and at my left is not mine to give; it is for those for whom it has been prepared by my Father.”"
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When the ten heard this, they were indignant at the two brothers."
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But Jesus called them to him and said,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“You know that the rulers of the Gentiles lord it over them, and their great ones wield authority over them."
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "It is not to be so among you. Rather, whoever wants to become great among you must be your servant,"
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "and whoever wants to be first among you must be your slave—"
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "just as the Son of Man did not come to be served but to serve, and to give his life as a ransom for many.”"
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "As they were leaving Jericho, a large crowd followed him."
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And look, two blind men were sitting beside the road; when they heard that Jesus was passing by, they cried out,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Lord, have mercy on us, Son of David!”"
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The crowd rebuked them, telling them to be silent, but they cried out all the louder,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Lord, have mercy on us, Son of David!”"
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus stopped and called them and said,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“What do you want me to do for you?”"
+     }
+    ]
+   },
+   {
+    "verse": 33,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Lord, let our eyes be opened.”"
+     }
+    ]
+   },
+   {
+    "verse": 34,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Moved with compassion, Jesus touched their eyes, and at once they regained their sight and followed him."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "the kingdom of the heavens",
+    "lemma": "οὐρανός",
+    "kind": "departure",
+    "traditional": "the kingdom of heaven",
+    "note": "Matthew’s Greek has the plural, “the heavens,” reflecting the Hebrew and Aramaic way of speaking, in which the word for heaven is plural in form. Most English translations flatten it to “the kingdom of heaven.” The plural is kept here because a first-century hearer would have noticed the Semitic turn of phrase."
+   },
+   {
+    "verse": 2,
+    "phrase": "a denarius",
+    "lemma": "δηνάριον",
+    "kind": "background",
+    "traditional": "a penny (KJV); a denarius",
+    "note": "A denarius was a Roman silver coin and, as the parable itself assumes, an ordinary day’s pay for a laborer. The agreed rate is therefore fair, neither stingy nor generous."
+   },
+   {
+    "verse": 3,
+    "phrase": "the third hour",
+    "lemma": "ὥρα",
+    "kind": "background",
+    "traditional": "the third hour; nine o’clock",
+    "note": "Hours were counted from sunrise, so the third hour is mid-morning (about nine o’clock), the sixth is noon, the ninth is mid-afternoon, and the eleventh is roughly an hour before the working day ends at sunset. The ancient hour-counts are kept because the story turns on them."
+   },
+   {
+    "verse": 4,
+    "phrase": "whatever is just",
+    "lemma": "δίκαιος",
+    "kind": "departure",
+    "traditional": "whatever is right",
+    "note": "The Greek adjective belongs to a single word-family that English splits in two: righteous and just, righteousness and justice. “Just” is used here so that the reader hears the link with verse 13, where the landowner uses the matching verb to say he is doing no injustice. Most translations have “whatever is right” here and “I am not wronging you” there."
+   },
+   {
+    "verse": 15,
+    "phrase": "is your eye evil because I am good",
+    "lemma": "ὀφθalμός",
+    "kind": "background",
+    "traditional": "Is thine eye evil, because I am good? (KJV); are you envious because I am generous? (most modern versions)",
+    "note": "An “evil eye” was a common Jewish idiom for a grudging, envious or stingy attitude toward others, the opposite of generosity (compare Matthew 6:23). Most modern translations paraphrase: “Are you envious because I am generous?” The literal wording is kept so that the idiom and the contrast of “evil” with “good” stay visible; “good” here has the sense of kind or generous."
+   },
+   {
+    "verse": 16,
+    "phrase": "the first last",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "the first last: for many be called, but few chosen (KJV)",
+    "note": "Many later manuscripts add “for many are called, but few are chosen,” and the King James Version includes it. The earliest manuscripts lack the words, which were probably brought in from Matthew 22:14. They are not in the Greek text translated here."
+   },
+   {
+    "verse": 18,
+    "phrase": "handed over",
+    "lemma": "παραδίδωμι",
+    "kind": "departure",
+    "traditional": "betrayed (KJV); delivered",
+    "note": "The Greek verb is the ordinary word for transferring a person into someone else’s custody or power, and it is used both here and in verse 19. Translations often have “betrayed” where Judas’s act is in view and “delivered” elsewhere, though the lexicons give “hand over” as the basic sense. One rendering is used throughout so the reader can see the chain of handings-over—to the priests, then to the Gentiles—as a Greek reader did."
+   },
+   {
+    "verse": 19,
+    "phrase": "the Gentiles",
+    "lemma": "ἔθνος",
+    "kind": "background",
+    "traditional": "the Gentiles",
+    "note": "The Greek word means “nations” or “peoples”; in the plural it regularly refers to the non-Jewish peoples, here in practice the Roman authorities. The same word recurs in verse 25. English uses “Gentiles” or “nations” according to context, but in Greek it is one word."
+   },
+   {
+    "verse": 20,
+    "phrase": "bowing down before him",
+    "lemma": "προσκυνέω",
+    "kind": "departure",
+    "traditional": "worshipping him (KJV); kneeling before him",
+    "note": "The verb names the act of prostrating oneself in reverence, and what it signifies depends on who receives it: it is used of worship offered to God and also of bowing before a king or superior. Here a petitioner approaches with a request and the scene contains no confession of divine status, so the gesture itself is translated, as most modern versions also do. Scholars differ on how much recognition of Jesus’s status Matthew intends in such scenes."
+   },
+   {
+    "verse": 22,
+    "phrase": "the cup",
+    "lemma": "ποτήριον",
+    "kind": "background",
+    "traditional": "the cup",
+    "note": "In Israel’s Scriptures a cup is a common image for the lot God gives a person to drink, very often suffering or judgment. Jesus uses it here of his coming death (compare Matthew 26:39). The “you” in his reply is plural: he is answering the two sons, not only their mother."
+   },
+   {
+    "verse": 22,
+    "phrase": "Can you drink the cup that I am about to drink?",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "…and to be baptized with the baptism that I am baptized with? (KJV)",
+    "note": "Many later manuscripts add here, and again in verse 23, a clause about being baptized with the baptism Jesus is baptized with, as in the King James Version. The words are absent from the earliest manuscripts and were probably added from the parallel in Mark 10:38–39."
+   },
+   {
+    "verse": 28,
+    "phrase": "a ransom for many",
+    "lemma": "λύτρον",
+    "kind": "background",
+    "traditional": "a ransom for many",
+    "note": "The Greek noun was the ordinary term for the price paid to free a slave, a captive or something held in pledge. The preposition translated “for” commonly means “in place of” or “in exchange for.” “Many” is a Semitic way of setting the one over against the large number who benefit and need not mean “not all”; many scholars hear an echo of Isaiah 53:11–12."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "ἰδού",
+    "rendering": "look",
+    "verse": 18,
+    "reason": "Extremely frequent across the New Testament in both speech and narration, and translators vary between “behold,” “look,” “see,” restructuring and omission."
+   },
+   {
+    "lemma": "οἰκοδεσπότης",
+    "rendering": "landowner",
+    "verse": 1,
+    "reason": "Recurs in several parables in Matthew, Mark and Luke, where “landowner,” “householder,” “master of the house” and “owner of the house” are all plausible and would otherwise vary by chapter."
+   },
+   {
+    "lemma": "γραμματεύς",
+    "rendering": "scribe",
+    "verse": 18,
+    "reason": "Occurs throughout the Gospels and Acts; “scribe” suggests a mere copyist to modern readers and versions vary with “teacher of the law” or “legal expert,” so one decision is needed."
+   },
+   {
+    "lemma": "σπλαγχνίζομαι",
+    "rendering": "moved with compassion",
+    "verse": 34,
+    "reason": "Recurs in the Synoptic Gospels of Jesus and in parables; renderings range over “had compassion,” “felt pity,” “was moved with compassion” and should be uniform."
+   },
+   {
+    "lemma": "ἑταῖρος",
+    "rendering": "friend",
+    "verse": 13,
+    "reason": "Used three times in Matthew, each time addressing someone in the wrong, and sharing “friend” with φίλος hides the cooler tone; a consistent choice is needed."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 6567,
+   "output_tokens": 167
+  },
+  "findings": [],
+  "error": ""
+ }
+}

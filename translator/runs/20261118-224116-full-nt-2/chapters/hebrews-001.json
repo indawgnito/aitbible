@@ -1,0 +1,329 @@
+{
+ "id": "hebrews-001",
+ "book": "hebrews",
+ "chapter": 1,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14ra3Ze5qnCLh7xKh",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 10194,
+  "output_tokens": 9943
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"In many parts and in many ways God spoke long ago to our ancestors by the prophets,\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"but in these last days he has spoken to us by a Son, whom he appointed heir of all things, and through whom he also made the universe.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He is the radiance of God’s glory and the exact imprint of his being, and he sustains all things by his powerful word. Having made purification for sins through himself, he sat down at the right hand of the Majesty on high,\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"having become as far superior to the angels as the name he has inherited is more excellent than theirs.\"}]},{\"verse\":5,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For to which of the angels did God ever say,\"},{\"speaker\":\"scripture\",\"text\":\"“You are my Son; today I have become your Father”?\"},{\"speaker\":\"narrator\",\"text\":\"Or again,\"},{\"speaker\":\"scripture\",\"text\":\"“I will be a Father to him, and he will be a Son to me”?\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And again, when he brings the firstborn into the world, he says,\"},{\"speaker\":\"scripture\",\"text\":\"“Let all God’s angels worship him.”\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Of the angels he says,\"},{\"speaker\":\"scripture\",\"text\":\"“He makes his angels winds, and his ministers a flame of fire.”\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But of the Son he says,\"},{\"speaker\":\"scripture\",\"text\":\"“Your throne, O God, is forever and ever, and the scepter of uprightness is the scepter of your kingdom.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"scripture\",\"text\":\"You have loved righteousness and hated lawlessness; therefore God, your God, has anointed you with the oil of gladness beyond your companions.”\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And,\"},{\"speaker\":\"scripture\",\"text\":\"“In the beginning, Lord, you laid the foundation of the earth, and the heavens are the works of your hands.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"scripture\",\"text\":\"They will perish, but you remain; they will all wear out like a garment,\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"scripture\",\"text\":\"and like a cloak you will roll them up, and like a garment they will be changed. But you are the same, and your years will never end.”\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And to which of the angels has he ever said,\"},{\"speaker\":\"scripture\",\"text\":\"“Sit at my right hand until I make your enemies a footstool for your feet”?\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Are they not all ministering spirits, sent out for service for the sake of those who are going to inherit salvation?\"}]}],\"notes\":[{\"verse\":2,\"phrase\":\"the universe\",\"lemma\":\"αἰών\",\"kind\":\"departure\",\"traditional\":\"the worlds\",\"note\":\"The Greek is literally “the ages”. The word is normally a time-word, but as the object of God’s making it denotes the whole created order through all its eras. Standard lexicons recognize this sense here and at Hebrews 11:3, and many modern versions also have “universe” or “world”.\"},{\"verse\":3,\"phrase\":\"radiance\",\"lemma\":\"ἀπαύγασμα\",\"kind\":\"ambiguity\",\"traditional\":\"brightness\",\"note\":\"The Greek word can mean light shining out from a source (“radiance”) or light thrown back from a surface (“reflection”). Most interpreters, ancient and modern, take it in the active sense of radiance, but “reflection” is possible and some versions use it.\"},{\"verse\":3,\"phrase\":\"exact imprint\",\"lemma\":\"χαρακτήρ\",\"kind\":\"background\",\"traditional\":\"express image\",\"note\":\"The word was used for the impression stamped by a die or seal, as on a coin, which reproduces the original exactly. The Son is said to correspond to God’s actual being as a stamped impression corresponds to its die.\"},{\"verse\":3,\"phrase\":\"his powerful word\",\"lemma\":\"δύναμις\",\"kind\":\"departure\",\"traditional\":\"the word of his power\",\"note\":\"The Greek is literally “the word of power”, a Semitic-style construction in which the second noun describes the first. English expresses this more naturally with an adjective. The meaning is not in dispute.\"},{\"verse\":3,\"phrase\":\"through himself\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"\",\"note\":\"Manuscripts differ here. Some have only “his” attached to “word of power”. Others have “through himself” with the purification, in addition to “his” or in place of it. The edition translated here reads “through himself”, and the sense of “his powerful word” is the same either way.\"},{\"verse\":5,\"phrase\":\"today I have become your Father\",\"lemma\":\"γεννάω\",\"kind\":\"departure\",\"traditional\":\"today I have begotten you\",\"note\":\"The verb is the ordinary word for a father producing a child. “Begotten” is exact but no longer current English, so the clause is recast. Most formal translations still have “begotten”. The line quotes Psalm 2:7, where it is spoken to Israel’s king at his enthronement. The second quotation is from 2 Samuel 7:14.\"},{\"verse\":6,\"phrase\":\"And again, when he brings\",\"lemma\":\"πάλιν\",\"kind\":\"ambiguity\",\"traditional\":\"\",\"note\":\"“Again” may simply introduce a further quotation, as in verse 5, or it may modify the verb: “when he again brings the firstborn into the world”. On the second reading the reference would be to Christ’s return or his exaltation, not his first coming. The Greek word order slightly favors the second reading, but the author’s habit of using “again” to link quotations favors the first, and interpreters are divided.\"},{\"verse\":6,\"phrase\":\"Let all God’s angels worship him.\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"This line does not appear in the standard Hebrew text of the Old Testament. It comes from the Greek version of Deuteronomy 32:43, and a similar line stands in Psalm 97:7. The author regularly quotes Scripture in its Greek form.\"},{\"verse\":7,\"phrase\":\"winds\",\"lemma\":\"πνεῦμα\",\"kind\":\"ambiguity\",\"traditional\":\"spirits\",\"note\":\"The same Greek word means both “wind” and “spirit”. In Psalm 104:4, quoted here, the pairing with “flame of fire” points to winds, and most modern versions translate it so. The author then plays on the other sense in verse 14, where the angels are “ministering spirits”.\"},{\"verse\":8,\"phrase\":\"Your throne, O God\",\"lemma\":\"θεός\",\"kind\":\"ambiguity\",\"traditional\":\"Thy throne, O God\",\"note\":\"The Greek can also be read “God is your throne” or “Your throne is God”. Most translators and commentators take “God” as an address to the Son, which fits the author’s argument and the address “Lord” in verse 10. The alternative is grammatically possible, and a minority defends it. The quotation is Psalm 45:6–7.\"},{\"verse\":8,\"phrase\":\"your kingdom\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"\",\"note\":\"A few early and important manuscripts read “his kingdom”. That reading would fit better with “God is your throne” in the first line. Most manuscripts read “your”, as does the Greek text translated here.\"}],\"candidates\":[{\"lemma\":\"γεννάω\",\"rendering\":\"become the father of\",\"verse\":5,\"reason\":\"“Beget” is archaic, but the verb recurs in genealogies, the Psalm 2:7 citations (Acts 13:33; Heb 1:5; 5:5) and Johannine “born of God”, so the English needs coordinating.\"},{\"lemma\":\"λειτουργός\",\"rendering\":\"minister\",\"verse\":7,\"reason\":\"The λειτουργ- family (Rom 13:6; 15:16; Phil 2:25; Heb 8:2, 6; 10:11) carries a public or priestly-service nuance and must be kept distinct from διακον- “service” without suggesting modern clergy.\"},{\"lemma\":\"οἰκουμένη\",\"rendering\":\"world\",\"verse\":6,\"reason\":\"It overlaps with κόσμος and αἰών in English “world”; a decision is needed on whether to mark it as “inhabited world” (Luke 2:1; Acts 17:31; Heb 2:5).\"},{\"lemma\":\"ἀνομία\",\"rendering\":\"lawlessness\",\"verse\":9,\"reason\":\"Versions vary between “lawlessness”, “wickedness” and “iniquity” across Matthew, Paul, Hebrews and 1 John, obscuring a recurring term.\"},{\"lemma\":\"καθαρισμός\",\"rendering\":\"purification\",\"verse\":3,\"reason\":\"“Purification” and “cleansing” alternate across the Gospels, Hebrews and 2 Peter, and the noun should match the rendering of καθαρίζω.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "In many parts and in many ways God spoke long ago to our ancestors by the prophets,"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "but in these last days he has spoken to us by a Son, whom he appointed heir of all things, and through whom he also made the universe."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He is the radiance of God’s glory and the exact imprint of his being, and he sustains all things by his powerful word. Having made purification for sins through himself, he sat down at the right hand of the Majesty on high,"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "having become as far superior to the angels as the name he has inherited is more excellent than theirs."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For to which of the angels did God ever say,"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“You are my Son; today I have become your Father”?"
+     },
+     {
+      "speaker": "narrator",
+      "text": "Or again,"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“I will be a Father to him, and he will be a Son to me”?"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And again, when he brings the firstborn into the world, he says,"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“Let all God’s angels worship him.”"
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Of the angels he says,"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“He makes his angels winds, and his ministers a flame of fire.”"
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But of the Son he says,"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“Your throne, O God, is forever and ever, and the scepter of uprightness is the scepter of your kingdom."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "scripture",
+      "text": "You have loved righteousness and hated lawlessness; therefore God, your God, has anointed you with the oil of gladness beyond your companions.”"
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And,"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“In the beginning, Lord, you laid the foundation of the earth, and the heavens are the works of your hands."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "scripture",
+      "text": "They will perish, but you remain; they will all wear out like a garment,"
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "scripture",
+      "text": "and like a cloak you will roll them up, and like a garment they will be changed. But you are the same, and your years will never end.”"
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And to which of the angels has he ever said,"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“Sit at my right hand until I make your enemies a footstool for your feet”?"
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Are they not all ministering spirits, sent out for service for the sake of those who are going to inherit salvation?"
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 2,
+    "phrase": "the universe",
+    "lemma": "αἰών",
+    "kind": "departure",
+    "traditional": "the worlds",
+    "note": "The Greek is literally “the ages”. The word is normally a time-word, but as the object of God’s making it denotes the whole created order through all its eras. Standard lexicons recognize this sense here and at Hebrews 11:3, and many modern versions also have “universe” or “world”."
+   },
+   {
+    "verse": 3,
+    "phrase": "radiance",
+    "lemma": "ἀπαύγασμα",
+    "kind": "ambiguity",
+    "traditional": "brightness",
+    "note": "The Greek word can mean light shining out from a source (“radiance”) or light thrown back from a surface (“reflection”). Most interpreters, ancient and modern, take it in the active sense of radiance, but “reflection” is possible and some versions use it."
+   },
+   {
+    "verse": 3,
+    "phrase": "exact imprint",
+    "lemma": "χαρακτήρ",
+    "kind": "background",
+    "traditional": "express image",
+    "note": "The word was used for the impression stamped by a die or seal, as on a coin, which reproduces the original exactly. The Son is said to correspond to God’s actual being as a stamped impression corresponds to its die."
+   },
+   {
+    "verse": 3,
+    "phrase": "his powerful word",
+    "lemma": "δύναμις",
+    "kind": "departure",
+    "traditional": "the word of his power",
+    "note": "The Greek is literally “the word of power”, a Semitic-style construction in which the second noun describes the first. English expresses this more naturally with an adjective. The meaning is not in dispute."
+   },
+   {
+    "verse": 3,
+    "phrase": "through himself",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "",
+    "note": "Manuscripts differ here. Some have only “his” attached to “word of power”. Others have “through himself” with the purification, in addition to “his” or in place of it. The edition translated here reads “through himself”, and the sense of “his powerful word” is the same either way."
+   },
+   {
+    "verse": 5,
+    "phrase": "today I have become your Father",
+    "lemma": "γεννάω",
+    "kind": "departure",
+    "traditional": "today I have begotten you",
+    "note": "The verb is the ordinary word for a father producing a child. “Begotten” is exact but no longer current English, so the clause is recast. Most formal translations still have “begotten”. The line quotes Psalm 2:7, where it is spoken to Israel’s king at his enthronement. The second quotation is from 2 Samuel 7:14."
+   },
+   {
+    "verse": 6,
+    "phrase": "And again, when he brings",
+    "lemma": "πάλιν",
+    "kind": "ambiguity",
+    "traditional": "",
+    "note": "“Again” may simply introduce a further quotation, as in verse 5, or it may modify the verb: “when he again brings the firstborn into the world”. On the second reading the reference would be to Christ’s return or his exaltation, not his first coming. The Greek word order slightly favors the second reading, but the author’s habit of using “again” to link quotations favors the first, and interpreters are divided."
+   },
+   {
+    "verse": 6,
+    "phrase": "Let all God’s angels worship him.",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "This line does not appear in the standard Hebrew text of the Old Testament. It comes from the Greek version of Deuteronomy 32:43, and a similar line stands in Psalm 97:7. The author regularly quotes Scripture in its Greek form."
+   },
+   {
+    "verse": 7,
+    "phrase": "winds",
+    "lemma": "πνεῦμα",
+    "kind": "ambiguity",
+    "traditional": "spirits",
+    "note": "The same Greek word means both “wind” and “spirit”. In Psalm 104:4, quoted here, the pairing with “flame of fire” points to winds, and most modern versions translate it so. The author then plays on the other sense in verse 14, where the angels are “ministering spirits”."
+   },
+   {
+    "verse": 8,
+    "phrase": "Your throne, O God",
+    "lemma": "θεός",
+    "kind": "ambiguity",
+    "traditional": "Thy throne, O God",
+    "note": "The Greek can also be read “God is your throne” or “Your throne is God”. Most translators and commentators take “God” as an address to the Son, which fits the author’s argument and the address “Lord” in verse 10. The alternative is grammatically possible, and a minority defends it. The quotation is Psalm 45:6–7."
+   },
+   {
+    "verse": 8,
+    "phrase": "your kingdom",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "",
+    "note": "A few early and important manuscripts read “his kingdom”. That reading would fit better with “God is your throne” in the first line. Most manuscripts read “your”, as does the Greek text translated here."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "γεννάω",
+    "rendering": "become the father of",
+    "verse": 5,
+    "reason": "“Beget” is archaic, but the verb recurs in genealogies, the Psalm 2:7 citations (Acts 13:33; Heb 1:5; 5:5) and Johannine “born of God”, so the English needs coordinating."
+   },
+   {
+    "lemma": "λειτουργός",
+    "rendering": "minister",
+    "verse": 7,
+    "reason": "The λειτουργ- family (Rom 13:6; 15:16; Phil 2:25; Heb 8:2, 6; 10:11) carries a public or priestly-service nuance and must be kept distinct from διακον- “service” without suggesting modern clergy."
+   },
+   {
+    "lemma": "οἰκουμένη",
+    "rendering": "world",
+    "verse": 6,
+    "reason": "It overlaps with κόσμος and αἰών in English “world”; a decision is needed on whether to mark it as “inhabited world” (Luke 2:1; Acts 17:31; Heb 2:5)."
+   },
+   {
+    "lemma": "ἀνομία",
+    "rendering": "lawlessness",
+    "verse": 9,
+    "reason": "Versions vary between “lawlessness”, “wickedness” and “iniquity” across Matthew, Paul, Hebrews and 1 John, obscuring a recurring term."
+   },
+   {
+    "lemma": "καθαρισμός",
+    "rendering": "purification",
+    "verse": 3,
+    "reason": "“Purification” and “cleansing” alternate across the Gospels, Hebrews and 2 Peter, and the noun should match the rendering of καθαρίζω."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 3678,
+   "output_tokens": 328
+  },
+  "findings": [],
+  "error": ""
+ }
+}

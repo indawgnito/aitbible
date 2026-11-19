@@ -1,0 +1,741 @@
+{
+ "id": "john-018",
+ "book": "john",
+ "chapter": 18,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14rpgQv4gKDdDqikC",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 12057,
+  "output_tokens": 15945
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"After saying these things, Jesus went out with his disciples across the Kidron Valley, where there was a garden, which he and his disciples entered.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now Judas, who was handing him over, also knew the place, because Jesus had often met there with his disciples.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So Judas took the cohort, along with officers from the chief priests and from the Pharisees, and came there with lanterns and torches and weapons.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then Jesus, knowing everything that was coming upon him, went out and said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Who are you looking for?”\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They answered him,\"},{\"speaker\":\"other\",\"text\":\"“Jesus the Nazarene.”\"},{\"speaker\":\"narrator\",\"text\":\"He said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“I am he.”\"},{\"speaker\":\"narrator\",\"text\":\"And Judas, who was handing him over, was standing with them.\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So when he said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“I am he,”\"},{\"speaker\":\"narrator\",\"text\":\"they drew back and fell to the ground.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So he asked them again,\"},{\"speaker\":\"Jesus\",\"text\":\"“Who are you looking for?”\"},{\"speaker\":\"narrator\",\"text\":\"And they said,\"},{\"speaker\":\"other\",\"text\":\"“Jesus the Nazarene.”\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus answered,\"},{\"speaker\":\"Jesus\",\"text\":\"“I told you that I am he. So if you are looking for me, let these men go.”\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"This was to fulfill the word he had spoken:\"},{\"speaker\":\"Jesus\",\"text\":\"“Of those you have given me, I have not lost a single one.”\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then Simon Peter, who had a sword, drew it and struck the high priest’s slave and cut off his right ear. The slave’s name was Malchus.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So Jesus said to Peter,\"},{\"speaker\":\"Jesus\",\"text\":\"“Put the sword into its sheath. The cup the Father has given me—am I not to drink it?”\"}]},{\"verse\":12,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So the cohort and its commander and the officers of the Jewish leaders arrested Jesus and bound him\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and led him first to Annas, for he was the father-in-law of Caiaphas, who was high priest that year.\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Caiaphas was the one who had advised the Jewish leaders that it was better for one man to die for the people.\"}]},{\"verse\":15,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Simon Peter was following Jesus, and so was another disciple. That disciple was known to the high priest, and he went with Jesus into the high priest’s courtyard,\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"but Peter stood outside at the door. So the other disciple, the one known to the high priest, went out and spoke to the woman who kept the door, and brought Peter in.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then the slave girl who kept the door said to Peter,\"},{\"speaker\":\"other\",\"text\":\"“You aren’t also one of this man’s disciples, are you?”\"},{\"speaker\":\"narrator\",\"text\":\"He said,\"},{\"speaker\":\"other\",\"text\":\"“I am not.”\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now the slaves and the officers had made a charcoal fire, because it was cold, and they were standing there warming themselves. Peter too was with them, standing and warming himself.\"}]},{\"verse\":19,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then the high priest questioned Jesus about his disciples and about his teaching.\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus answered him,\"},{\"speaker\":\"Jesus\",\"text\":\"“I have spoken openly to the world. I always taught in synagogue and in the temple, where all the Jews come together, and I said nothing in secret.\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Why do you question me? Question those who heard what I said to them. Look, they know what I said.”\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When he said this, one of the officers standing by gave Jesus a slap, saying,\"},{\"speaker\":\"other\",\"text\":\"“Is that how you answer the high priest?”\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus answered him,\"},{\"speaker\":\"Jesus\",\"text\":\"“If I spoke wrongly, testify about the wrong; but if rightly, why do you strike me?”\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then Annas sent him, still bound, to Caiaphas the high priest.\"}]},{\"verse\":25,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now Simon Peter was standing and warming himself. So they said to him,\"},{\"speaker\":\"other\",\"text\":\"“You aren’t also one of his disciples, are you?”\"},{\"speaker\":\"narrator\",\"text\":\"He denied it and said,\"},{\"speaker\":\"other\",\"text\":\"“I am not.”\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"One of the high priest’s slaves, a relative of the man whose ear Peter had cut off, said,\"},{\"speaker\":\"other\",\"text\":\"“Didn’t I see you in the garden with him?”\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So Peter denied it again, and at once a rooster crowed.\"}]},{\"verse\":28,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then they led Jesus from Caiaphas to the governor’s headquarters. It was early morning. They themselves did not enter the headquarters, so that they would not be defiled but could eat the Passover.\"}]},{\"verse\":29,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So Pilate went out to them and said,\"},{\"speaker\":\"other\",\"text\":\"“What charge do you bring against this man?”\"}]},{\"verse\":30,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They answered him,\"},{\"speaker\":\"other\",\"text\":\"“If this man were not doing wrong, we would not have handed him over to you.”\"}]},{\"verse\":31,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So Pilate said to them,\"},{\"speaker\":\"other\",\"text\":\"“Take him yourselves and judge him by your own law.”\"},{\"speaker\":\"narrator\",\"text\":\"The Jewish leaders said to him,\"},{\"speaker\":\"other\",\"text\":\"“We are not permitted to put anyone to death.”\"}]},{\"verse\":32,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"This was to fulfill the word Jesus had spoken, indicating what kind of death he was going to die.\"}]},{\"verse\":33,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So Pilate went back into the headquarters, summoned Jesus, and said to him,\"},{\"speaker\":\"other\",\"text\":\"“Are you the king of the Jews?”\"}]},{\"verse\":34,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus answered,\"},{\"speaker\":\"Jesus\",\"text\":\"“Are you saying this on your own, or did others tell you about me?”\"}]},{\"verse\":35,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Pilate answered,\"},{\"speaker\":\"other\",\"text\":\"“I am not a Jew, am I? Your own nation and the chief priests handed you over to me. What have you done?”\"}]},{\"verse\":36,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus answered,\"},{\"speaker\":\"Jesus\",\"text\":\"“My kingdom is not from this world. If my kingdom were from this world, my officers would be fighting so that I would not be handed over to the Jewish leaders. But as it is, my kingdom is not from here.”\"}]},{\"verse\":37,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So Pilate said to him,\"},{\"speaker\":\"other\",\"text\":\"“So then, you are a king?”\"},{\"speaker\":\"narrator\",\"text\":\"Jesus answered,\"},{\"speaker\":\"Jesus\",\"text\":\"“You say that I am a king. For this I was born, and for this I have come into the world: to testify to the truth. Everyone who is of the truth listens to my voice.”\"}]},{\"verse\":38,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Pilate said to him,\"},{\"speaker\":\"other\",\"text\":\"“What is truth?”\"},{\"speaker\":\"narrator\",\"text\":\"Having said this, he went out again to the Jewish leaders and said to them,\"},{\"speaker\":\"other\",\"text\":\"“I find no basis for a charge against him.\"}]},{\"verse\":39,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"But you have a custom that I release one person to you at the Passover. So do you want me to release to you the king of the Jews?”\"}]},{\"verse\":40,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then they shouted back,\"},{\"speaker\":\"other\",\"text\":\"“Not this man, but Barabbas!”\"},{\"speaker\":\"narrator\",\"text\":\"Now Barabbas was a bandit.\"}]}],\"notes\":[{\"verse\":2,\"phrase\":\"who was handing him over\",\"lemma\":\"παραδίδωμι\",\"kind\":\"departure\",\"traditional\":\"who betrayed him\",\"note\":\"The Greek verb is the ordinary word for transferring someone into another’s custody, and John uses the same word in this chapter for what the leaders do to Jesus before Pilate (verses 30, 35, 36). Most English versions say “betray” when Judas is the subject, which names the treachery the context supplies but hides the chain of handings-over. Some scholars defend “betray” as a legitimate contextual sense; the standard lexicons give “hand over” as the basic meaning.\"},{\"verse\":3,\"phrase\":\"the cohort\",\"lemma\":\"σπεῖρα\",\"kind\":\"background\",\"traditional\":\"a band of men; a detachment of soldiers\",\"note\":\"The word is the regular Greek term for a Roman cohort, on paper about six hundred men, though it could be used of a smaller unit, and its commander in verse 12 bears the title of a Roman tribune. John thus pictures Roman troops from the Jerusalem garrison alongside the temple officers. How many soldiers were actually present is not stated.\"},{\"verse\":5,\"phrase\":\"I am he\",\"lemma\":\"εἰμί\",\"kind\":\"ambiguity\",\"traditional\":\"I am he\",\"note\":\"The Greek is simply “I am,” which is the normal way to say “That’s me” but is also the phrase John’s Jesus uses in an absolute sense that echoes God’s self-declaration in the Greek Scriptures (as at John 8:58). The arresting party’s falling to the ground in verse 6 suggests John intends the second meaning to be heard behind the first. English cannot carry both at once; the ordinary sense is given in the text.\"},{\"verse\":10,\"phrase\":\"slave\",\"lemma\":\"δοῦλος\",\"kind\":\"departure\",\"traditional\":\"servant\",\"note\":\"The Greek word denotes a person owned by another, not a hired employee, and first-century readers would have understood Malchus as part of the high priest’s household property. Older English versions soften this to “servant”; several modern versions use “slave” here.\"},{\"verse\":12,\"phrase\":\"the Jewish leaders\",\"lemma\":\"Ἰουδαῖος\",\"kind\":\"departure\",\"traditional\":\"the Jews\",\"note\":\"The Greek word is the ordinary one for “Jews,” and it is rendered that way in verses 20, 33, 35 and 39. In verses 12, 14, 31, 36 and 38, however, John uses it for the Jerusalem authorities who arrest and accuse Jesus, not for the Jewish people as a whole—Jesus, his disciples and the crowds are all Jews. Scholars are divided on how best to render John’s usage; some prefer “Judeans” throughout, others keep “Jews” everywhere.\"},{\"verse\":19,\"phrase\":\"the high priest\",\"lemma\":\"ἀρχιερεύς\",\"kind\":\"background\",\"traditional\":\"the high priest\",\"note\":\"The questioner here is Annas, since Jesus is sent on to Caiaphas only in verse 24. Annas had held the office earlier and had been deposed by the Romans, but he remained the head of the leading priestly family and evidently kept the title in common usage. Caiaphas, his son-in-law, was the officiating high priest.\"},{\"verse\":28,\"phrase\":\"the governor’s headquarters\",\"lemma\":\"πραιτώριον\",\"kind\":\"departure\",\"traditional\":\"the Praetorium; the judgment hall\",\"note\":\"The Greek borrows the Latin word praetorium, the official residence of a Roman governor, here Pilate’s base while in Jerusalem. Many versions keep the Latin term; it is translated here because the word means nothing to most modern readers. Its exact location in Jerusalem is disputed.\"},{\"verse\":28,\"phrase\":\"eat the Passover\",\"lemma\":\"πάσχα\",\"kind\":\"background\",\"traditional\":\"eat the Passover\",\"note\":\"Entering a Gentile’s residence was held to make a person ritually unclean and so unable to share in the festival meal. In John’s account the Passover meal still lies ahead on the morning of the trial, whereas the other three Gospels present the Last Supper as a Passover meal. How the two chronologies relate is a long-standing and unresolved question.\"},{\"verse\":31,\"phrase\":\"We are not permitted to put anyone to death\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"It is not lawful for us to put any man to death\",\"note\":\"Under Roman rule in Judea the power to execute appears to have been reserved to the governor, though the extent of this restriction is debated by historians. John sees a deeper point in verse 32: a Roman execution meant crucifixion, which matches Jesus’s earlier saying about being “lifted up” (John 12:32–33).\"},{\"verse\":35,\"phrase\":\"nation\",\"lemma\":\"ἔθνος\",\"kind\":\"background\",\"traditional\":\"nation\",\"note\":\"The same Greek word in the plural is usually translated “Gentiles,” meaning the non-Jewish peoples. Here, in the singular, it refers to the Jewish people as a nation, and Pilate uses it to distance himself from what he treats as an internal affair.\"},{\"verse\":36,\"phrase\":\"from this world\",\"lemma\":\"ἐκ\",\"kind\":\"departure\",\"traditional\":\"of this world\",\"note\":\"The Greek preposition expresses source or origin, and the closing clause of the verse restates the point as “not from here.” The traditional “of this world” can suggest that the kingdom has nothing to do with the world; the Greek says that its origin and authority do not come from the world. Several modern versions also read “from.”\"},{\"verse\":36,\"phrase\":\"my officers\",\"lemma\":\"ὑπηρέτης\",\"kind\":\"departure\",\"traditional\":\"my servants\",\"note\":\"Jesus uses the same word that John has used throughout the chapter for the officers of the chief priests who arrested him (verses 3, 12, 18, 22). Most versions switch to “servants” or “followers” here, which hides the echo: the leaders have their officers, and if Jesus’s kingship were of the same kind, his would be fighting too.\"},{\"verse\":37,\"phrase\":\"You say that I am a king\",\"lemma\":\"λέγω\",\"kind\":\"ambiguity\",\"traditional\":\"Thou sayest that I am a king\",\"note\":\"The reply can be taken as a noncommittal “That is your word for it,” as an affirmation (“You are right to say that I am a king”), or, with different punctuation, as “You say so; because I am a king, for this I was born.” The text keeps the literal wording, which neither denies the title nor accepts it on Pilate’s terms. Most commentators see a qualified affirmation.\"},{\"verse\":40,\"phrase\":\"bandit\",\"lemma\":\"λῃστής\",\"kind\":\"departure\",\"traditional\":\"robber\",\"note\":\"The Greek word denotes an armed, violent outlaw such as a brigand or highwayman, not a thief who steals by stealth. It was also applied to insurgents, and Mark and Luke connect Barabbas with an uprising, so some versions render it “rebel” or “revolutionary” here; that reading is possible but not certain. “Bandit” keeps the violence and outlawry without deciding the question.\"}],\"candidates\":[{\"lemma\":\"ὑπηρέτης\",\"rendering\":\"officers\",\"verse\":3,\"reason\":\"Used for temple police, court attendants, synagogue attendants and ministers of the word across the Gospels, Acts and Paul; versions vary between officer, guard, attendant, servant and minister, and John 18:36 plays on the repetition.\"},{\"lemma\":\"δοῦλος\",\"rendering\":\"slave\",\"verse\":10,\"reason\":\"The slave/servant choice recurs throughout the New Testament and affects parables, household scenes and Paul’s self-descriptions; it needs one policy.\"},{\"lemma\":\"πραιτώριον\",\"rendering\":\"the governor’s headquarters\",\"verse\":28,\"reason\":\"Occurs in all the Passion narratives, Acts 23:35 and Philippians 1:13, where versions vary between Praetorium, headquarters, palace and imperial guard.\"},{\"lemma\":\"Ναζωραῖος\",\"rendering\":\"the Nazarene\",\"verse\":5,\"reason\":\"Appears across the Gospels and Acts alongside Ναζαρηνός; translators vary between “of Nazareth,” “the Nazarene” and “the Nazorean,” and the choice should be uniform.\"},{\"lemma\":\"σπεῖρα\",\"rendering\":\"cohort\",\"verse\":3,\"reason\":\"The Roman military unit recurs in the Passion narratives and Acts (10:1, 21:31, 27:1), rendered variously as cohort, band, detachment, regiment or battalion.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "After saying these things, Jesus went out with his disciples across the Kidron Valley, where there was a garden, which he and his disciples entered."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now Judas, who was handing him over, also knew the place, because Jesus had often met there with his disciples."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So Judas took the cohort, along with officers from the chief priests and from the Pharisees, and came there with lanterns and torches and weapons."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then Jesus, knowing everything that was coming upon him, went out and said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Who are you looking for?”"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They answered him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Jesus the Nazarene.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "He said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“I am he.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "And Judas, who was handing him over, was standing with them."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So when he said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“I am he,”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "they drew back and fell to the ground."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So he asked them again,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Who are you looking for?”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "And they said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Jesus the Nazarene.”"
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus answered,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“I told you that I am he. So if you are looking for me, let these men go.”"
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "This was to fulfill the word he had spoken:"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Of those you have given me, I have not lost a single one.”"
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then Simon Peter, who had a sword, drew it and struck the high priest’s slave and cut off his right ear. The slave’s name was Malchus."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So Jesus said to Peter,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Put the sword into its sheath. The cup the Father has given me—am I not to drink it?”"
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So the cohort and its commander and the officers of the Jewish leaders arrested Jesus and bound him"
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and led him first to Annas, for he was the father-in-law of Caiaphas, who was high priest that year."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Caiaphas was the one who had advised the Jewish leaders that it was better for one man to die for the people."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Simon Peter was following Jesus, and so was another disciple. That disciple was known to the high priest, and he went with Jesus into the high priest’s courtyard,"
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "but Peter stood outside at the door. So the other disciple, the one known to the high priest, went out and spoke to the woman who kept the door, and brought Peter in."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then the slave girl who kept the door said to Peter,"
+     },
+     {
+      "speaker": "other",
+      "text": "“You aren’t also one of this man’s disciples, are you?”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "He said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“I am not.”"
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now the slaves and the officers had made a charcoal fire, because it was cold, and they were standing there warming themselves. Peter too was with them, standing and warming himself."
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then the high priest questioned Jesus about his disciples and about his teaching."
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus answered him,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“I have spoken openly to the world. I always taught in synagogue and in the temple, where all the Jews come together, and I said nothing in secret."
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Why do you question me? Question those who heard what I said to them. Look, they know what I said.”"
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When he said this, one of the officers standing by gave Jesus a slap, saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Is that how you answer the high priest?”"
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus answered him,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“If I spoke wrongly, testify about the wrong; but if rightly, why do you strike me?”"
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then Annas sent him, still bound, to Caiaphas the high priest."
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now Simon Peter was standing and warming himself. So they said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“You aren’t also one of his disciples, are you?”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "He denied it and said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“I am not.”"
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "One of the high priest’s slaves, a relative of the man whose ear Peter had cut off, said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Didn’t I see you in the garden with him?”"
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So Peter denied it again, and at once a rooster crowed."
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then they led Jesus from Caiaphas to the governor’s headquarters. It was early morning. They themselves did not enter the headquarters, so that they would not be defiled but could eat the Passover."
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So Pilate went out to them and said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“What charge do you bring against this man?”"
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They answered him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“If this man were not doing wrong, we would not have handed him over to you.”"
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So Pilate said to them,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Take him yourselves and judge him by your own law.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "The Jewish leaders said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“We are not permitted to put anyone to death.”"
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "This was to fulfill the word Jesus had spoken, indicating what kind of death he was going to die."
+     }
+    ]
+   },
+   {
+    "verse": 33,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So Pilate went back into the headquarters, summoned Jesus, and said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Are you the king of the Jews?”"
+     }
+    ]
+   },
+   {
+    "verse": 34,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus answered,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Are you saying this on your own, or did others tell you about me?”"
+     }
+    ]
+   },
+   {
+    "verse": 35,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Pilate answered,"
+     },
+     {
+      "speaker": "other",
+      "text": "“I am not a Jew, am I? Your own nation and the chief priests handed you over to me. What have you done?”"
+     }
+    ]
+   },
+   {
+    "verse": 36,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus answered,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“My kingdom is not from this world. If my kingdom were from this world, my officers would be fighting so that I would not be handed over to the Jewish leaders. But as it is, my kingdom is not from here.”"
+     }
+    ]
+   },
+   {
+    "verse": 37,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So Pilate said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“So then, you are a king?”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "Jesus answered,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“You say that I am a king. For this I was born, and for this I have come into the world: to testify to the truth. Everyone who is of the truth listens to my voice.”"
+     }
+    ]
+   },
+   {
+    "verse": 38,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Pilate said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“What is truth?”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "Having said this, he went out again to the Jewish leaders and said to them,"
+     },
+     {
+      "speaker": "other",
+      "text": "“I find no basis for a charge against him."
+     }
+    ]
+   },
+   {
+    "verse": 39,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "But you have a custom that I release one person to you at the Passover. So do you want me to release to you the king of the Jews?”"
+     }
+    ]
+   },
+   {
+    "verse": 40,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then they shouted back,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Not this man, but Barabbas!”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "Now Barabbas was a bandit."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 2,
+    "phrase": "who was handing him over",
+    "lemma": "παραδίδωμι",
+    "kind": "departure",
+    "traditional": "who betrayed him",
+    "note": "The Greek verb is the ordinary word for transferring someone into another’s custody, and John uses the same word in this chapter for what the leaders do to Jesus before Pilate (verses 30, 35, 36). Most English versions say “betray” when Judas is the subject, which names the treachery the context supplies but hides the chain of handings-over. Some scholars defend “betray” as a legitimate contextual sense; the standard lexicons give “hand over” as the basic meaning."
+   },
+   {
+    "verse": 3,
+    "phrase": "the cohort",
+    "lemma": "σπεῖρα",
+    "kind": "background",
+    "traditional": "a band of men; a detachment of soldiers",
+    "note": "The word is the regular Greek term for a Roman cohort, on paper about six hundred men, though it could be used of a smaller unit, and its commander in verse 12 bears the title of a Roman tribune. John thus pictures Roman troops from the Jerusalem garrison alongside the temple officers. How many soldiers were actually present is not stated."
+   },
+   {
+    "verse": 5,
+    "phrase": "I am he",
+    "lemma": "εἰμί",
+    "kind": "ambiguity",
+    "traditional": "I am he",
+    "note": "The Greek is simply “I am,” which is the normal way to say “That’s me” but is also the phrase John’s Jesus uses in an absolute sense that echoes God’s self-declaration in the Greek Scriptures (as at John 8:58). The arresting party’s falling to the ground in verse 6 suggests John intends the second meaning to be heard behind the first. English cannot carry both at once; the ordinary sense is given in the text."
+   },
+   {
+    "verse": 10,
+    "phrase": "slave",
+    "lemma": "δοῦλος",
+    "kind": "departure",
+    "traditional": "servant",
+    "note": "The Greek word denotes a person owned by another, not a hired employee, and first-century readers would have understood Malchus as part of the high priest’s household property. Older English versions soften this to “servant”; several modern versions use “slave” here."
+   },
+   {
+    "verse": 12,
+    "phrase": "the Jewish leaders",
+    "lemma": "Ἰουδαῖος",
+    "kind": "departure",
+    "traditional": "the Jews",
+    "note": "The Greek word is the ordinary one for “Jews,” and it is rendered that way in verses 20, 33, 35 and 39. In verses 12, 14, 31, 36 and 38, however, John uses it for the Jerusalem authorities who arrest and accuse Jesus, not for the Jewish people as a whole—Jesus, his disciples and the crowds are all Jews. Scholars are divided on how best to render John’s usage; some prefer “Judeans” throughout, others keep “Jews” everywhere."
+   },
+   {
+    "verse": 19,
+    "phrase": "the high priest",
+    "lemma": "ἀρχιερεύς",
+    "kind": "background",
+    "traditional": "the high priest",
+    "note": "The questioner here is Annas, since Jesus is sent on to Caiaphas only in verse 24. Annas had held the office earlier and had been deposed by the Romans, but he remained the head of the leading priestly family and evidently kept the title in common usage. Caiaphas, his son-in-law, was the officiating high priest."
+   },
+   {
+    "verse": 28,
+    "phrase": "the governor’s headquarters",
+    "lemma": "πραιτώριον",
+    "kind": "departure",
+    "traditional": "the Praetorium; the judgment hall",
+    "note": "The Greek borrows the Latin word praetorium, the official residence of a Roman governor, here Pilate’s base while in Jerusalem. Many versions keep the Latin term; it is translated here because the word means nothing to most modern readers. Its exact location in Jerusalem is disputed."
+   },
+   {
+    "verse": 28,
+    "phrase": "eat the Passover",
+    "lemma": "πάσχα",
+    "kind": "background",
+    "traditional": "eat the Passover",
+    "note": "Entering a Gentile’s residence was held to make a person ritually unclean and so unable to share in the festival meal. In John’s account the Passover meal still lies ahead on the morning of the trial, whereas the other three Gospels present the Last Supper as a Passover meal. How the two chronologies relate is a long-standing and unresolved question."
+   },
+   {
+    "verse": 31,
+    "phrase": "We are not permitted to put anyone to death",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "It is not lawful for us to put any man to death",
+    "note": "Under Roman rule in Judea the power to execute appears to have been reserved to the governor, though the extent of this restriction is debated by historians. John sees a deeper point in verse 32: a Roman execution meant crucifixion, which matches Jesus’s earlier saying about being “lifted up” (John 12:32–33)."
+   },
+   {
+    "verse": 35,
+    "phrase": "nation",
+    "lemma": "ἔθνος",
+    "kind": "background",
+    "traditional": "nation",
+    "note": "The same Greek word in the plural is usually translated “Gentiles,” meaning the non-Jewish peoples. Here, in the singular, it refers to the Jewish people as a nation, and Pilate uses it to distance himself from what he treats as an internal affair."
+   },
+   {
+    "verse": 36,
+    "phrase": "from this world",
+    "lemma": "ἐκ",
+    "kind": "departure",
+    "traditional": "of this world",
+    "note": "The Greek preposition expresses source or origin, and the closing clause of the verse restates the point as “not from here.” The traditional “of this world” can suggest that the kingdom has nothing to do with the world; the Greek says that its origin and authority do not come from the world. Several modern versions also read “from.”"
+   },
+   {
+    "verse": 36,
+    "phrase": "my officers",
+    "lemma": "ὑπηρέτης",
+    "kind": "departure",
+    "traditional": "my servants",
+    "note": "Jesus uses the same word that John has used throughout the chapter for the officers of the chief priests who arrested him (verses 3, 12, 18, 22). Most versions switch to “servants” or “followers” here, which hides the echo: the leaders have their officers, and if Jesus’s kingship were of the same kind, his would be fighting too."
+   },
+   {
+    "verse": 37,
+    "phrase": "You say that I am a king",
+    "lemma": "λέγω",
+    "kind": "ambiguity",
+    "traditional": "Thou sayest that I am a king",
+    "note": "The reply can be taken as a noncommittal “That is your word for it,” as an affirmation (“You are right to say that I am a king”), or, with different punctuation, as “You say so; because I am a king, for this I was born.” The text keeps the literal wording, which neither denies the title nor accepts it on Pilate’s terms. Most commentators see a qualified affirmation."
+   },
+   {
+    "verse": 40,
+    "phrase": "bandit",
+    "lemma": "λῃστής",
+    "kind": "departure",
+    "traditional": "robber",
+    "note": "The Greek word denotes an armed, violent outlaw such as a brigand or highwayman, not a thief who steals by stealth. It was also applied to insurgents, and Mark and Luke connect Barabbas with an uprising, so some versions render it “rebel” or “revolutionary” here; that reading is possible but not certain. “Bandit” keeps the violence and outlawry without deciding the question."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "ὑπηρέτης",
+    "rendering": "officers",
+    "verse": 3,
+    "reason": "Used for temple police, court attendants, synagogue attendants and ministers of the word across the Gospels, Acts and Paul; versions vary between officer, guard, attendant, servant and minister, and John 18:36 plays on the repetition."
+   },
+   {
+    "lemma": "δοῦλος",
+    "rendering": "slave",
+    "verse": 10,
+    "reason": "The slave/servant choice recurs throughout the New Testament and affects parables, household scenes and Paul’s self-descriptions; it needs one policy."
+   },
+   {
+    "lemma": "πραιτώριον",
+    "rendering": "the governor’s headquarters",
+    "verse": 28,
+    "reason": "Occurs in all the Passion narratives, Acts 23:35 and Philippians 1:13, where versions vary between Praetorium, headquarters, palace and imperial guard."
+   },
+   {
+    "lemma": "Ναζωραῖος",
+    "rendering": "the Nazarene",
+    "verse": 5,
+    "reason": "Appears across the Gospels and Acts alongside Ναζαρηνός; translators vary between “of Nazareth,” “the Nazarene” and “the Nazorean,” and the choice should be uniform."
+   },
+   {
+    "lemma": "σπεῖρα",
+    "rendering": "cohort",
+    "verse": 3,
+    "reason": "The Roman military unit recurs in the Passion narratives and Acts (10:1, 21:31, 27:1), rendered variously as cohort, band, detachment, regiment or battalion."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 8539,
+   "output_tokens": 353
+  },
+  "findings": [],
+  "error": ""
+ }
+}

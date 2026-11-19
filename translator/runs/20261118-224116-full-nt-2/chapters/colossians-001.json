@@ -1,0 +1,471 @@
+{
+ "id": "colossians-001",
+ "book": "colossians",
+ "chapter": 1,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14o67wktAHdDYVwpm",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 12796,
+  "output_tokens": 13796
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Paul, an apostle of Christ Jesus through the will of God, and Timothy our brother,\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"to the holy ones and faithful brothers and sisters in Christ at Colossae: Grace to you and peace from God our Father.\"}]},{\"verse\":3,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"We always give thanks to God, the Father of our Lord Jesus Christ, when we pray for you,\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"since we have heard of your faith in Christ Jesus and of the love you have for all the holy ones\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"because of the hope stored up for you in the heavens. You heard of this hope before in the word of truth, the good news\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"that has come to you. Just as it is bearing fruit and growing in all the world, so it has been doing among you too, from the day you heard it and came to know the grace of God in truth.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"This is what you learned from Epaphras, our beloved fellow slave, who is a faithful servant of Christ on our behalf\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and who has also told us of your love in the Spirit.\"}]},{\"verse\":9,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For this reason we too, from the day we heard it, have not stopped praying for you and asking that you may be filled with the knowledge of his will in all spiritual wisdom and understanding,\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"so that you walk in a way worthy of the Lord, pleasing him in everything: bearing fruit in every good work and growing in the knowledge of God,\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"being empowered with all power according to the might of his glory, for all endurance and patience, with joy\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"giving thanks to the Father, who has qualified you to share the lot of the holy ones in the light.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He rescued us from the authority of darkness and transferred us into the kingdom of the Son of his love,\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"in whom we have redemption, the forgiveness of sins.\"}]},{\"verse\":15,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He is the image of the invisible God, the firstborn of all creation,\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"because in him all things were created, in the heavens and on the earth, the visible and the invisible, whether thrones or dominions or rulers or authorities. All things have been created through him and for him.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He himself is before all things, and in him all things hold together.\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And he himself is the head of the body, the assembly. He is the beginning, the firstborn from the dead, so that in everything he himself might come to hold first place,\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"because in him all the fullness was pleased to dwell\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and through him to reconcile all things to himself, making peace through the blood of his cross, [through him] whether the things on the earth or the things in the heavens.\"}]},{\"verse\":21,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And you, who were once alienated and hostile in mind, in your evil deeds—\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"but now you have been reconciled in his body of flesh through his death—to present you holy and unblemished and beyond accusation before him,\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"if indeed you remain in the faith, founded and firm, and not shifting from the hope of the good news that you heard, which has been proclaimed in all creation under heaven, and of which I, Paul, became a servant.\"}]},{\"verse\":24,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now I rejoice in my sufferings for you, and in my flesh I am filling up what is lacking in the afflictions of Christ for the sake of his body, which is the assembly.\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"I became its servant according to the stewardship God gave me for you, to make the word of God fully known,\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"the secret that was hidden for ages and generations—but now it has been revealed to his holy ones.\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"To them God chose to make known how rich among the Gentiles is the glory of this secret, which is Christ in you, the hope of glory.\"}]},{\"verse\":28,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Him we proclaim, admonishing every person and teaching every person in all wisdom, so that we may present every person mature in Christ.\"}]},{\"verse\":29,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For this I also labor, struggling according to his working that is at work in me with power.\"}]}],\"notes\":[{\"verse\":2,\"phrase\":\"holy ones\",\"lemma\":\"ἅγιος\",\"kind\":\"departure\",\"traditional\":\"saints\",\"note\":\"The traditional “saints” now suggests canonized individuals or people of unusual virtue, whereas the Greek word is used of all believers as people set apart for God, echoing the Septuagint's language for Israel. Many translations keep “saints”; others use “God's people.” In this verse the word could also be read as an adjective (“to the holy and faithful brothers and sisters”).\"},{\"verse\":5,\"phrase\":\"good news\",\"lemma\":\"εὐαγγέλιον\",\"kind\":\"departure\",\"traditional\":\"gospel\",\"note\":\"The Greek was an ordinary word for a public announcement of good news, used also of imperial proclamations. “Gospel” is now a religious term or the name of a book, so the plain meaning is given here. Many modern translations alternate between the two.\"},{\"verse\":7,\"phrase\":\"fellow slave\",\"lemma\":\"σύνδουλος\",\"kind\":\"departure\",\"traditional\":\"fellow servant\",\"note\":\"The word is built on the ordinary Greek term for a slave, someone owned by a master, and Paul uses it for a co-worker who belongs, as he does, to Christ. Most translations soften it to “fellow servant.” This translation keeps “servant” for a different Greek word, which appears later in this same verse.\"},{\"verse\":7,\"phrase\":\"on our behalf\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"on your behalf\",\"note\":\"Manuscripts are divided between “on our behalf” and “on your behalf”; the two Greek words differ by a single letter and were pronounced alike. The earliest witnesses favor “our,” which presents Epaphras as Paul's representative at Colossae, and the edition translated here adopts it. Many English versions read “your.”\"},{\"verse\":12,\"phrase\":\"share the lot\",\"lemma\":\"κλῆρος\",\"kind\":\"departure\",\"traditional\":\"partakers of the inheritance\",\"note\":\"The Greek is literally “the share of the lot,” the Septuagint's language for the portions of the promised land assigned to Israel's tribes by lot. Most translations render it “inheritance,” which is the usual English for a related but different Greek word. “Lot” keeps the image of an allotted portion.\"},{\"verse\":15,\"phrase\":\"the firstborn of all creation\",\"lemma\":\"πρωτότοκος\",\"kind\":\"ambiguity\",\"traditional\":\"the firstborn of all creation\",\"note\":\"“Firstborn” can mean first in time or first in rank; in the Septuagint it is used of Israel and of the Davidic king as the one holding the heir's supreme status. Most interpreters take it here as preeminence over creation (hence “firstborn over all creation” in some versions), since the next verse says all things were created in him. Grammatically the phrase could instead place him within creation as its first member, a reading that was at the center of fourth-century controversy.\"},{\"verse\":18,\"phrase\":\"assembly\",\"lemma\":\"ἐκκλησία\",\"kind\":\"departure\",\"traditional\":\"church\",\"note\":\"A first-century hearer knew this word as a civic gathering and as the Septuagint's term for Israel assembled before God. “Church” is near-universal in English and readers know what it refers to, but it now suggests a building or an institution. This translation uses “assembly” throughout so that the one Greek word is visible.\"},{\"verse\":19,\"phrase\":\"all the fullness was pleased to dwell\",\"lemma\":\"πλήρωμα\",\"kind\":\"ambiguity\",\"traditional\":\"it pleased the Father that in him should all fullness dwell\",\"note\":\"The Greek does not state who was pleased. Either “all the fullness” is the subject, as rendered here, or God is the unstated subject (“God was pleased to have all the fullness dwell in him”). On either reading the fullness is God's own, as 2:9 makes explicit, which is why the sentence continues with “himself” and a masculine “making peace.”\"},{\"verse\":20,\"phrase\":\"[through him]\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"by him, I say\",\"note\":\"The brackets mark words whose place in the original text is doubtful. Some important early manuscripts lack this second “through him”; it may have been dropped as redundant or added by accidental repetition.\"},{\"verse\":22,\"phrase\":\"you have been reconciled\",\"lemma\":\"ἀποκαταλλάσσω\",\"kind\":\"textual\",\"traditional\":\"he has now reconciled\",\"note\":\"Most manuscripts and most English versions read “he has now reconciled,” which gives a smooth sentence. The edition translated here follows a few very early witnesses that read “you have been reconciled,” which breaks the grammar and leaves the sentence begun in verse 21 interrupted. The roughness is itself an argument that this is the older reading, since scribes tended to smooth awkward texts, but the question remains disputed.\"},{\"verse\":24,\"phrase\":\"what is lacking in the afflictions of Christ\",\"lemma\":\"ὑστέρημα\",\"kind\":\"ambiguity\",\"traditional\":\"that which is behind of the afflictions of Christ\",\"note\":\"The phrase is much debated. Few interpreters think Paul means Christ's death was insufficient, since the chapter has just said it reconciles all things. Common explanations are that “the afflictions of Christ” are the sufferings Christ's people undergo in union with him, or a measure of hardship expected before the end, of which Paul takes his share in carrying the message to the Gentiles.\"},{\"verse\":26,\"phrase\":\"secret\",\"lemma\":\"μυστήριον\",\"kind\":\"departure\",\"traditional\":\"mystery\",\"note\":\"In Jewish Greek of the period this was the ordinary word for a secret, often God's hidden plan that only he can disclose. Most English versions keep “mystery” as an established term, but that word now suggests a puzzle or something beyond understanding, whereas Paul's point is that the secret has been made known. Lexicons give “secret” as a primary gloss.\"},{\"verse\":27,\"phrase\":\"Gentiles\",\"lemma\":\"ἔθνος\",\"kind\":\"background\",\"traditional\":\"Gentiles\",\"note\":\"The Greek word means “peoples” or “nations” and in the plural regularly refers to the non-Jewish peoples. This translation renders it “Gentiles” in that sense and “nations” where peoples as such are in view; it is one word in Greek.\"},{\"verse\":27,\"phrase\":\"Christ in you\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"Christ in you\",\"note\":\"The Greek phrase can mean “in you,” Christ indwelling believers, or “among you,” Christ present and proclaimed among the Gentiles, matching “among the Gentiles” just before, where the Greek uses the same preposition. The traditional “in you” is kept, but many interpreters prefer “among you.”\"}],\"candidates\":[{\"lemma\":\"ἀδελφός\",\"rendering\":\"brother / brothers and sisters\",\"verse\":1,\"reason\":\"The plural addressed to mixed communities recurs in every letter, and translations split between “brothers,” “brothers and sisters” and “believers.”\"},{\"lemma\":\"περιπατέω\",\"rendering\":\"walk\",\"verse\":10,\"reason\":\"The figurative sense of conduct recurs across Paul and John, and versions vary between “walk” and “live”; keeping the Semitic idiom or not should be decided once.\"},{\"lemma\":\"ἐξουσία\",\"rendering\":\"authority / authorities\",\"verse\":13,\"reason\":\"Used both for a domain of rule and for cosmic powers alongside ἀρχή, and it is rendered variously as “power,” “authority,” “dominion” and “domain.”\"},{\"lemma\":\"τέλειος\",\"rendering\":\"mature\",\"verse\":28,\"reason\":\"Translations alternate between “perfect,” “mature” and “complete” across Matthew, Paul, Hebrews and James, with real theological consequences.\"},{\"lemma\":\"οἰκονομία\",\"rendering\":\"stewardship\",\"verse\":25,\"reason\":\"It covers a steward's office, a commission and God's plan or administration (Ephesians 1:10; 3:2, 9), and versions render it inconsistently.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Paul, an apostle of Christ Jesus through the will of God, and Timothy our brother,"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "to the holy ones and faithful brothers and sisters in Christ at Colossae: Grace to you and peace from God our Father."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "We always give thanks to God, the Father of our Lord Jesus Christ, when we pray for you,"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "since we have heard of your faith in Christ Jesus and of the love you have for all the holy ones"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "because of the hope stored up for you in the heavens. You heard of this hope before in the word of truth, the good news"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "that has come to you. Just as it is bearing fruit and growing in all the world, so it has been doing among you too, from the day you heard it and came to know the grace of God in truth."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "This is what you learned from Epaphras, our beloved fellow slave, who is a faithful servant of Christ on our behalf"
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and who has also told us of your love in the Spirit."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For this reason we too, from the day we heard it, have not stopped praying for you and asking that you may be filled with the knowledge of his will in all spiritual wisdom and understanding,"
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "so that you walk in a way worthy of the Lord, pleasing him in everything: bearing fruit in every good work and growing in the knowledge of God,"
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "being empowered with all power according to the might of his glory, for all endurance and patience, with joy"
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "giving thanks to the Father, who has qualified you to share the lot of the holy ones in the light."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He rescued us from the authority of darkness and transferred us into the kingdom of the Son of his love,"
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "in whom we have redemption, the forgiveness of sins."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He is the image of the invisible God, the firstborn of all creation,"
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "because in him all things were created, in the heavens and on the earth, the visible and the invisible, whether thrones or dominions or rulers or authorities. All things have been created through him and for him."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He himself is before all things, and in him all things hold together."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And he himself is the head of the body, the assembly. He is the beginning, the firstborn from the dead, so that in everything he himself might come to hold first place,"
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "because in him all the fullness was pleased to dwell"
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and through him to reconcile all things to himself, making peace through the blood of his cross, [through him] whether the things on the earth or the things in the heavens."
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And you, who were once alienated and hostile in mind, in your evil deeds—"
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "but now you have been reconciled in his body of flesh through his death—to present you holy and unblemished and beyond accusation before him,"
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "if indeed you remain in the faith, founded and firm, and not shifting from the hope of the good news that you heard, which has been proclaimed in all creation under heaven, and of which I, Paul, became a servant."
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now I rejoice in my sufferings for you, and in my flesh I am filling up what is lacking in the afflictions of Christ for the sake of his body, which is the assembly."
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "I became its servant according to the stewardship God gave me for you, to make the word of God fully known,"
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "the secret that was hidden for ages and generations—but now it has been revealed to his holy ones."
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "To them God chose to make known how rich among the Gentiles is the glory of this secret, which is Christ in you, the hope of glory."
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Him we proclaim, admonishing every person and teaching every person in all wisdom, so that we may present every person mature in Christ."
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For this I also labor, struggling according to his working that is at work in me with power."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 2,
+    "phrase": "holy ones",
+    "lemma": "ἅγιος",
+    "kind": "departure",
+    "traditional": "saints",
+    "note": "The traditional “saints” now suggests canonized individuals or people of unusual virtue, whereas the Greek word is used of all believers as people set apart for God, echoing the Septuagint's language for Israel. Many translations keep “saints”; others use “God's people.” In this verse the word could also be read as an adjective (“to the holy and faithful brothers and sisters”)."
+   },
+   {
+    "verse": 5,
+    "phrase": "good news",
+    "lemma": "εὐαγγέλιον",
+    "kind": "departure",
+    "traditional": "gospel",
+    "note": "The Greek was an ordinary word for a public announcement of good news, used also of imperial proclamations. “Gospel” is now a religious term or the name of a book, so the plain meaning is given here. Many modern translations alternate between the two."
+   },
+   {
+    "verse": 7,
+    "phrase": "fellow slave",
+    "lemma": "σύνδουλος",
+    "kind": "departure",
+    "traditional": "fellow servant",
+    "note": "The word is built on the ordinary Greek term for a slave, someone owned by a master, and Paul uses it for a co-worker who belongs, as he does, to Christ. Most translations soften it to “fellow servant.” This translation keeps “servant” for a different Greek word, which appears later in this same verse."
+   },
+   {
+    "verse": 7,
+    "phrase": "on our behalf",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "on your behalf",
+    "note": "Manuscripts are divided between “on our behalf” and “on your behalf”; the two Greek words differ by a single letter and were pronounced alike. The earliest witnesses favor “our,” which presents Epaphras as Paul's representative at Colossae, and the edition translated here adopts it. Many English versions read “your.”"
+   },
+   {
+    "verse": 12,
+    "phrase": "share the lot",
+    "lemma": "κλῆρος",
+    "kind": "departure",
+    "traditional": "partakers of the inheritance",
+    "note": "The Greek is literally “the share of the lot,” the Septuagint's language for the portions of the promised land assigned to Israel's tribes by lot. Most translations render it “inheritance,” which is the usual English for a related but different Greek word. “Lot” keeps the image of an allotted portion."
+   },
+   {
+    "verse": 15,
+    "phrase": "the firstborn of all creation",
+    "lemma": "πρωτότοκος",
+    "kind": "ambiguity",
+    "traditional": "the firstborn of all creation",
+    "note": "“Firstborn” can mean first in time or first in rank; in the Septuagint it is used of Israel and of the Davidic king as the one holding the heir's supreme status. Most interpreters take it here as preeminence over creation (hence “firstborn over all creation” in some versions), since the next verse says all things were created in him. Grammatically the phrase could instead place him within creation as its first member, a reading that was at the center of fourth-century controversy."
+   },
+   {
+    "verse": 18,
+    "phrase": "assembly",
+    "lemma": "ἐκκλησία",
+    "kind": "departure",
+    "traditional": "church",
+    "note": "A first-century hearer knew this word as a civic gathering and as the Septuagint's term for Israel assembled before God. “Church” is near-universal in English and readers know what it refers to, but it now suggests a building or an institution. This translation uses “assembly” throughout so that the one Greek word is visible."
+   },
+   {
+    "verse": 19,
+    "phrase": "all the fullness was pleased to dwell",
+    "lemma": "πλήρωμα",
+    "kind": "ambiguity",
+    "traditional": "it pleased the Father that in him should all fullness dwell",
+    "note": "The Greek does not state who was pleased. Either “all the fullness” is the subject, as rendered here, or God is the unstated subject (“God was pleased to have all the fullness dwell in him”). On either reading the fullness is God's own, as 2:9 makes explicit, which is why the sentence continues with “himself” and a masculine “making peace.”"
+   },
+   {
+    "verse": 20,
+    "phrase": "[through him]",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "by him, I say",
+    "note": "The brackets mark words whose place in the original text is doubtful. Some important early manuscripts lack this second “through him”; it may have been dropped as redundant or added by accidental repetition."
+   },
+   {
+    "verse": 22,
+    "phrase": "you have been reconciled",
+    "lemma": "ἀποκαταλλάσσω",
+    "kind": "textual",
+    "traditional": "he has now reconciled",
+    "note": "Most manuscripts and most English versions read “he has now reconciled,” which gives a smooth sentence. The edition translated here follows a few very early witnesses that read “you have been reconciled,” which breaks the grammar and leaves the sentence begun in verse 21 interrupted. The roughness is itself an argument that this is the older reading, since scribes tended to smooth awkward texts, but the question remains disputed."
+   },
+   {
+    "verse": 24,
+    "phrase": "what is lacking in the afflictions of Christ",
+    "lemma": "ὑστέρημα",
+    "kind": "ambiguity",
+    "traditional": "that which is behind of the afflictions of Christ",
+    "note": "The phrase is much debated. Few interpreters think Paul means Christ's death was insufficient, since the chapter has just said it reconciles all things. Common explanations are that “the afflictions of Christ” are the sufferings Christ's people undergo in union with him, or a measure of hardship expected before the end, of which Paul takes his share in carrying the message to the Gentiles."
+   },
+   {
+    "verse": 26,
+    "phrase": "secret",
+    "lemma": "μυστήριον",
+    "kind": "departure",
+    "traditional": "mystery",
+    "note": "In Jewish Greek of the period this was the ordinary word for a secret, often God's hidden plan that only he can disclose. Most English versions keep “mystery” as an established term, but that word now suggests a puzzle or something beyond understanding, whereas Paul's point is that the secret has been made known. Lexicons give “secret” as a primary gloss."
+   },
+   {
+    "verse": 27,
+    "phrase": "Gentiles",
+    "lemma": "ἔθνος",
+    "kind": "background",
+    "traditional": "Gentiles",
+    "note": "The Greek word means “peoples” or “nations” and in the plural regularly refers to the non-Jewish peoples. This translation renders it “Gentiles” in that sense and “nations” where peoples as such are in view; it is one word in Greek."
+   },
+   {
+    "verse": 27,
+    "phrase": "Christ in you",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "Christ in you",
+    "note": "The Greek phrase can mean “in you,” Christ indwelling believers, or “among you,” Christ present and proclaimed among the Gentiles, matching “among the Gentiles” just before, where the Greek uses the same preposition. The traditional “in you” is kept, but many interpreters prefer “among you.”"
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "ἀδελφός",
+    "rendering": "brother / brothers and sisters",
+    "verse": 1,
+    "reason": "The plural addressed to mixed communities recurs in every letter, and translations split between “brothers,” “brothers and sisters” and “believers.”"
+   },
+   {
+    "lemma": "περιπατέω",
+    "rendering": "walk",
+    "verse": 10,
+    "reason": "The figurative sense of conduct recurs across Paul and John, and versions vary between “walk” and “live”; keeping the Semitic idiom or not should be decided once."
+   },
+   {
+    "lemma": "ἐξουσία",
+    "rendering": "authority / authorities",
+    "verse": 13,
+    "reason": "Used both for a domain of rule and for cosmic powers alongside ἀρχή, and it is rendered variously as “power,” “authority,” “dominion” and “domain.”"
+   },
+   {
+    "lemma": "τέλειος",
+    "rendering": "mature",
+    "verse": 28,
+    "reason": "Translations alternate between “perfect,” “mature” and “complete” across Matthew, Paul, Hebrews and James, with real theological consequences."
+   },
+   {
+    "lemma": "οἰκονομία",
+    "rendering": "stewardship",
+    "verse": 25,
+    "reason": "It covers a steward's office, a commission and God's plan or administration (Ephesians 1:10; 3:2, 9), and versions render it inconsistently."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 6558,
+   "output_tokens": 285
+  },
+  "findings": [],
+  "error": ""
+ }
+}

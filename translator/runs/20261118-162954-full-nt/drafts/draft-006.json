@@ -1,0 +1,40 @@
+{
+  "needs_entry": true,
+  "reason": "The run is consistent on \"save\" for rescue and salvation, but splits on the healing passages. The identical sentence ἡ πίστις σου σέσωκέν σε is \"your faith has made you well\" in Matthew 9:22 but \"your faith has saved you\" in Mark 5:34, Mark 10:52, Luke 8:48, Luke 17:19 and Luke 18:42. The woman's thought is \"I will be made well\" in Matthew 9:21 but \"I will be saved\" in Mark 5:28, and plain healing reports are \"made well\" in Mark 6:56, Acts 4:9 and Acts 14:9 but \"saved\" in Luke 8:36. Chapters translated separately need one rule.",
+  "sense": "to rescue from danger, death, judgment or sin, covering both physical rescue and salvation in the religious sense; the entry also fixes how the healing uses are handled",
+  "default": "save",
+  "alternates": [
+    {
+      "renderings": [
+        "make well"
+      ],
+      "when": "A sick or disabled person is the one affected and the plain sense is simply recovery from the condition, with no saying about faith: Matthew 9:21, the narrator's clause at the end of Matthew 9:22, Mark 5:23, Mark 5:28, Mark 6:56, Luke 8:36, Acts 4:9, Acts 14:9. This does NOT apply to the sentence \"your faith has saved you\" (Matthew 9:22, Mark 5:34, Mark 10:52, Luke 7:50, Luke 8:48, Luke 17:19, Luke 18:42), which is always rendered with \"save\" and footnoted in healing scenes. It also does not apply to Luke 8:50, where the girl is already dead, or to James 5:15, where forgiveness follows; both keep \"save\"."
+    },
+    {
+      "renderings": [
+        "get well",
+        "recover"
+      ],
+      "when": "Active-sense English is needed for a sick person recovering on their own, as in John 11:12, where the disciples mean only that sleep is a good sign."
+    },
+    {
+      "renderings": [
+        "bring safely"
+      ],
+      "when": "The verb is construed with εἰς and a destination, meaning to bring someone safely into a place: 2 Timothy 4:18."
+    }
+  ],
+  "traditional": "save; in healing scenes \"make whole\" in the KJV and \"make well\" or \"heal\" in most modern versions",
+  "status": "contested",
+  "rationale": "\"Save\" is the ordinary English word for both rescue from danger and religious salvation, and it matches the Greek verb's range across shipwreck, death, sin and judgment. Where a sick person simply recovers, a first-century reader understood a cure, and \"saved\" would now suggest religious conversion, so \"make well\" is used there. The sentence \"your faith has saved you\" is kept identical everywhere because Luke uses the same words to a forgiven woman with no illness (7:50), and the Gospels use other verbs when they mean only \"heal\"; a footnote marks the healing sense.",
+  "standard_view": "All major translations use \"save\" for rescue and salvation. In healing scenes most modern versions render \"made well\" or \"healed\", including in \"your faith has made you well\", while keeping \"your faith has saved you\" at Luke 7:50. A minority of modern versions keep \"saved you\" in the healing scenes too, and the KJV varies between \"made thee whole\" and \"saved thee\". Lexicons list recovery from disease as a recognised use of the verb, and many commentators think the evangelists intend a double sense in the faith formula, so the default here for that formula is an editorial choice, not a consensus.",
+  "watch": [
+    "made well",
+    "make well",
+    "healed",
+    "restored",
+    "made whole",
+    "cured"
+  ],
+  "lemma": "σῴζω"
+}

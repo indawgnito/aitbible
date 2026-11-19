@@ -15,7 +15,7 @@ Open [http://localhost:3000](http://localhost:3000). For a production build, `np
 
 - **Chapter pages** with paragraphed text. Words of Jesus are red, God's purple, angels' blue.
 - **Verse panel.** Click a verse number for its notes, the Greek with dictionary forms, and the King James Version for comparison.
-- **Glossary.** The words where the text departs from the traditional English rendering, with the reason and the standard view. Those words are underlined in the text and open the same entry.
+- **Word choices** (at `/glossary`). The words where the text departs from the traditional English rendering, with the reason, the standard view and every verse where each is used.
 - **Search** across the AIT text and the KJV.
 - **Homepage examples** comparing a KJV verse with the AIT rendering.
 - Dark mode, and a layout that works on a phone.
@@ -39,20 +39,19 @@ To update the site after a new run, run those two commands from `translator/` an
 app/
   page.tsx                 home: examples, summary, book list
   vision/page.tsx          "How It Was Made"
-  glossary/                glossary page
+  glossary/                the "Word choices" page
   search/, api/search/     search page and endpoint
   [book]/page.tsx          chapter grid for a book
   [book]/[chapter]/page.tsx  chapter text and notes
 components/
-  ChapterContent.tsx       text rendering, speaker colors, glossary links
+  ChapterContent.tsx       text rendering and speaker colors
   VerseModal.tsx           notes, Greek and KJV for one verse
-  WordModal.tsx            glossary entry for a clicked word
   TranslationNotes.tsx     collapsible notes under a chapter
   TranslationCarousel.tsx  homepage examples
 lib/
   data.ts                  loads books and KJV
   xml-parser.ts            parses the AIT XML format
-  glossary.ts              glossary lookup and in-text matching
+  glossary.ts              data for the "Word choices" page
   search.ts                verse search
   books.ts                 book names and chapter counts
 ```

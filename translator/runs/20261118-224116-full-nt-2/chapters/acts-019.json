@@ -1,0 +1,649 @@
+{
+ "id": "acts-019",
+ "book": "acts",
+ "chapter": 19,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14n6shbS9vKPH6b6y",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 12878,
+  "output_tokens": 15325
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"While Apollos was in Corinth, Paul traveled through the inland regions and came to Ephesus. There he found some disciples\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and said to them,\"},{\"speaker\":\"other\",\"text\":\"“Did you receive the Holy Spirit when you believed?”\"},{\"speaker\":\"narrator\",\"text\":\"They answered him,\"},{\"speaker\":\"other\",\"text\":\"“No, we have not even heard that there is a Holy Spirit.”\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He said,\"},{\"speaker\":\"other\",\"text\":\"“Into what, then, were you baptized?”\"},{\"speaker\":\"narrator\",\"text\":\"They said,\"},{\"speaker\":\"other\",\"text\":\"“Into John’s baptism.”\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Paul said,\"},{\"speaker\":\"other\",\"text\":\"“John baptized with a baptism of turning back, telling the people to believe in the one coming after him—that is, in Jesus.”\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"On hearing this, they were baptized into the name of the Lord Jesus.\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And when Paul laid his hands on them, the Holy Spirit came upon them, and they began speaking in tongues and prophesying.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"There were about twelve men in all.\"}]},{\"verse\":8,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He went into the synagogue and for three months spoke boldly, reasoning and persuading people about the kingdom of God.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But when some became hardened and would not be persuaded, speaking evil of the Way in front of the congregation, he withdrew from them and took the disciples aside, reasoning daily in the lecture hall of Tyrannus.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"This went on for two years, so that all who lived in Asia heard the word of the Lord, both Jews and Greeks.\"}]},{\"verse\":11,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"God was doing no ordinary deeds of power through the hands of Paul,\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"so that even face cloths or work aprons that had touched his skin were carried off to the sick, and their diseases left them and the evil spirits went out.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then some of the Jewish exorcists who traveled from place to place also tried to invoke the name of the Lord Jesus over those who had evil spirits, saying,\"},{\"speaker\":\"other\",\"text\":\"“I adjure you by the Jesus whom Paul proclaims.”\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Seven sons of a certain Sceva, a Jewish chief priest, were doing this.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But the evil spirit answered them,\"},{\"speaker\":\"other\",\"text\":\"“Jesus I know, and Paul I know about; but you—who are you?”\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And the man in whom the evil spirit was leaped on them, overpowered them all, and prevailed against them, so that they fled out of that house naked and wounded.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"This became known to all who lived in Ephesus, both Jews and Greeks. Fear fell on them all, and the name of the Lord Jesus was held in high honor.\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Many of those who had come to believe kept coming, confessing and disclosing their practices.\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"A good number of those who had practiced magic brought their scrolls together and burned them in front of everyone. They added up their value and found it came to fifty thousand silver coins.\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So the word of the Lord kept growing mightily and prevailing.\"}]},{\"verse\":21,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When these things had been completed, Paul resolved in the Spirit to pass through Macedonia and Achaia and go on to Jerusalem, saying,\"},{\"speaker\":\"other\",\"text\":\"“After I have been there, I must also see Rome.”\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He sent two of his assistants, Timothy and Erastus, to Macedonia, while he himself stayed on for a time in Asia.\"}]},{\"verse\":23,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"About that time no small disturbance arose concerning the Way.\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"A man named Demetrius, a silversmith who made silver shrines of Artemis, brought the craftsmen no small amount of business.\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He gathered them together, along with the workers in related trades, and said,\"},{\"speaker\":\"other\",\"text\":\"“Men, you know that our prosperity comes from this business.\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"And you see and hear that not only in Ephesus but in almost all of Asia this Paul has persuaded and turned away a considerable crowd, saying that gods made by hands are not gods.\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"The danger is not only that this trade of ours will come into disrepute, but also that the temple of the great goddess Artemis will be counted as nothing, and that she whom all Asia and the world worship will even be stripped of her majesty.”\"}]},{\"verse\":28,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When they heard this they were filled with rage and began shouting,\"},{\"speaker\":\"other\",\"text\":\"“Great is Artemis of the Ephesians!”\"}]},{\"verse\":29,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The city was filled with confusion, and they rushed as one into the theater, dragging with them Gaius and Aristarchus, Macedonians who were Paul’s traveling companions.\"}]},{\"verse\":30,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Paul wanted to go in before the people, but the disciples would not let him.\"}]},{\"verse\":31,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Even some of the leading officials of Asia, who were his friends, sent word to him and urged him not to venture into the theater.\"}]},{\"verse\":32,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Some were shouting one thing and some another, for the assembly was in confusion, and most of them did not know why they had come together.\"}]},{\"verse\":33,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Some of the crowd prompted Alexander, whom the Jews had pushed forward, and Alexander motioned with his hand, wanting to make a defense before the people.\"}]},{\"verse\":34,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But when they recognized that he was a Jew, a single cry went up from them all, and for about two hours they shouted,\"},{\"speaker\":\"other\",\"text\":\"“Great is Artemis of the Ephesians!”\"}]},{\"verse\":35,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When the city clerk had calmed the crowd, he said,\"},{\"speaker\":\"other\",\"text\":\"“Men of Ephesus, what person is there who does not know that the city of the Ephesians is temple guardian of the great Artemis and of the image that fell from the sky?\"}]},{\"verse\":36,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Since these things are undeniable, you ought to stay calm and do nothing rash.\"}]},{\"verse\":37,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"For you have brought these men here, though they are neither temple robbers nor blasphemers of our goddess.\"}]},{\"verse\":38,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"So then, if Demetrius and the craftsmen with him have a case against anyone, the courts are in session and there are proconsuls; let them bring charges against one another.\"}]},{\"verse\":39,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"But if you are seeking anything beyond this, it will be settled in the lawful assembly.\"}]},{\"verse\":40,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"For we are in danger of being charged with rioting over today’s events, since there is no cause for it, and we will not be able to give an account of this disorderly gathering.”\"},{\"speaker\":\"narrator\",\"text\":\"And having said this, he dismissed the assembly.\"}]}],\"notes\":[{\"verse\":2,\"phrase\":\"that there is a Holy Spirit\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"whether there be any Holy Ghost\",\"note\":\"The Greek says literally “whether there is a Holy Spirit.” Since disciples of John the Baptist would have known of God’s Spirit from Scripture and from John’s own preaching, many interpreters take the sense to be “whether the Holy Spirit has been given” (compare John 7:39, where similar wording has that meaning). The translation keeps the plain wording and leaves the question open.\"},{\"verse\":4,\"phrase\":\"turning back\",\"lemma\":\"μετάνοια\",\"kind\":\"departure\",\"traditional\":\"repentance\",\"note\":\"Most translations have “a baptism of repentance.” In modern English “repent” centers on feeling sorry, whereas the Greek word carries the prophets’ call to return to God, a change of direction in mind and conduct. Most versions keep “repentance” as an established term that readers understand to include a change of life.\"},{\"verse\":9,\"phrase\":\"the Way\",\"lemma\":\"ὁδός\",\"kind\":\"background\",\"traditional\":\"the Way\",\"note\":\"The ordinary word for “road” or “way” is used in Acts as a name for the movement of Jesus’s followers (also 9:2; 19:23; 22:4; 24:14, 22). It is capitalized here because it functions as a name.\"},{\"verse\":11,\"phrase\":\"deeds of power\",\"lemma\":\"δύναμις\",\"kind\":\"departure\",\"traditional\":\"miracles\",\"note\":\"The Greek is the plural of the ordinary word for “power,” used of concrete acts that display it. “Miracles” is a fully acceptable rendering and is used by most versions; “deeds of power” is chosen so that the link with “power” elsewhere stays visible. The phrase “no ordinary” reproduces Luke’s deliberate understatement.\"},{\"verse\":14,\"phrase\":\"a Jewish chief priest\",\"lemma\":\"ἀρχιερεύς\",\"kind\":\"background\",\"traditional\":\"a Jewish high priest\",\"note\":\"No high priest named Sceva is known from other sources. The title may mean that he belonged to one of the high-priestly families, or it may be a title he or his sons claimed in order to impress clients; exorcists valued any link to the Jerusalem temple and its sacred names. Luke reports the title without comment.\"},{\"verse\":16,\"phrase\":\"them all\",\"lemma\":\"ἀμφότεροι\",\"kind\":\"ambiguity\",\"traditional\":\"them\",\"note\":\"The Greek word normally means “both,” which sits awkwardly with the seven sons of verse 14. In later everyday Greek it could be used loosely for “all,” and most translators take it that way here. The alternative is that only two of the seven were involved in this incident.\"},{\"verse\":19,\"phrase\":\"fifty thousand silver coins\",\"lemma\":\"ἀργύριον\",\"kind\":\"background\",\"traditional\":\"fifty thousand pieces of silver\",\"note\":\"The coin is not named, but it is probably the drachma, roughly a laborer’s daily wage. The sum is therefore very large. Ephesus was well known in antiquity for written spells and magical formulas, and the scrolls burned were presumably collections of these.\"},{\"verse\":20,\"phrase\":\"the word of the Lord kept growing mightily\",\"lemma\":\"κράτος\",\"kind\":\"ambiguity\",\"traditional\":\"So mightily grew the word of God and prevailed\",\"note\":\"The Greek word order is unusual and can be read two ways: “the word of the Lord grew mightily” or “by the might of the Lord the word grew.” The translation follows the first, the reading of most versions, taking the phrase as the common idiom for “with force.” The verb “prevailing” echoes verse 16, where the possessed man “prevailed against” the exorcists.\"},{\"verse\":21,\"phrase\":\"resolved in the Spirit\",\"lemma\":\"πνεῦμα\",\"kind\":\"ambiguity\",\"traditional\":\"purposed in the spirit\",\"note\":\"The phrase can mean that Paul made up his own mind (“resolved in his spirit”) or that he decided under the guidance of the Holy Spirit. Translations are divided. The following “I must,” and the later statement that he goes to Jerusalem “bound by the Spirit” (20:22), favor the second reading, but the first is entirely possible.\"},{\"verse\":31,\"phrase\":\"the leading officials of Asia\",\"lemma\":\"Ἀσιάρχης\",\"kind\":\"background\",\"traditional\":\"Asiarchs\",\"note\":\"The Greek title is “Asiarchs,” which some translations simply carry over; others have “the chief of Asia” or “officials of the province.” Asiarchs were wealthy, prominent men of the province of Asia who held or had held high public office; their exact duties and their connection with the provincial council and the imperial cult are debated. Luke’s point is that Paul had friends at the highest level of local society.\"},{\"verse\":32,\"phrase\":\"assembly\",\"lemma\":\"ἐκκλησία\",\"kind\":\"background\",\"traditional\":\"assembly\",\"note\":\"This is the same Greek word that elsewhere in the New Testament names the community of believers, traditionally translated “church.” Here it has its ordinary civic meaning, a gathering of citizens, and in verse 39 it refers to the city’s regular, legally constituted meeting. This translation uses “assembly” for the word everywhere so that the reader can see it is one word.\"},{\"verse\":33,\"phrase\":\"prompted Alexander\",\"lemma\":\"συμβιβάζω\",\"kind\":\"ambiguity\",\"traditional\":\"they drew Alexander out of the multitude\",\"note\":\"The meaning of the verb here is uncertain, and manuscripts vary. It may mean that some of the crowd instructed or prompted Alexander, or that they concluded Alexander was the cause of the trouble; other manuscripts read that he was pushed forward or brought down out of the crowd. It is also unclear whether the Jews put him forward to distance themselves from Paul.\"},{\"verse\":35,\"phrase\":\"city clerk\",\"lemma\":\"γραμματεύς\",\"kind\":\"background\",\"traditional\":\"townclerk\",\"note\":\"Elsewhere in the New Testament this word means a scribe, an expert in the Jewish Law. In a Greek city of Asia it was the title of the chief civic official, who drafted decrees, presided at the citizens’ assembly, and answered to the Roman authorities for public order. That explains his alarm in verse 40.\"},{\"verse\":35,\"phrase\":\"the image that fell from the sky\",\"lemma\":\"διοπετής\",\"kind\":\"background\",\"traditional\":\"the image which fell down from Jupiter\",\"note\":\"The Greek has a single adjective meaning “fallen from Zeus” or “fallen from the sky,” with no noun; “image” or “sacred stone” is supplied. It probably refers to a sacred object, possibly a meteorite, kept in the temple and believed to be of heavenly origin. “Temple guardian” was an honorific title that cities claimed, attested for Ephesus on inscriptions and coins.\"},{\"verse\":40,\"phrase\":\"And having said this, he dismissed the assembly.\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"\",\"note\":\"Some editions and translations number this final sentence as verse 41; the Greek edition followed here includes it in verse 40. The Greek of the clerk’s last sentence is also tangled, and manuscripts differ over whether a “not” belongs in it, though the general sense is clear: the city could give no justification for the commotion if called to account.\"}],\"candidates\":[{\"lemma\":\"γλῶσσα\",\"rendering\":\"tongues\",\"verse\":6,\"reason\":\"For Spirit-prompted speech (Acts 2, 10, 19; 1 Corinthians 12–14) translators divide between “tongues” and “languages,” and the choice should be uniform across books.\"},{\"lemma\":\"ὁδός\",\"rendering\":\"the Way\",\"verse\":9,\"reason\":\"As a name for the Jesus movement in Acts (9:2; 19:9, 23; 22:4; 24:14, 22) it needs a fixed rendering and capitalization.\"},{\"lemma\":\"Ἀσιάρχης\",\"rendering\":\"leading officials of Asia\",\"verse\":31,\"reason\":\"A title occurring once, whose English equivalents are all approximate; the maintainers should decide whether the loanword “Asiarchs” is allowed.\"},{\"lemma\":\"διαλέγομαι\",\"rendering\":\"reasoning\",\"verse\":8,\"reason\":\"Recurs through Acts 17–24 and elsewhere, with versions varying among “reason,” “argue,” “discuss” and “lecture,” so Paul’s method reads differently from chapter to chapter.\"},{\"lemma\":\"οἰκουμένη\",\"rendering\":\"the world\",\"verse\":27,\"reason\":\"Recurs in Luke, Acts, Romans, Hebrews and Revelation, with “world,” “inhabited world” and “empire” all in use, and should be distinguished consistently from κόσμος.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "While Apollos was in Corinth, Paul traveled through the inland regions and came to Ephesus. There he found some disciples"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and said to them,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Did you receive the Holy Spirit when you believed?”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "They answered him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“No, we have not even heard that there is a Holy Spirit.”"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Into what, then, were you baptized?”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "They said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Into John’s baptism.”"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Paul said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“John baptized with a baptism of turning back, telling the people to believe in the one coming after him—that is, in Jesus.”"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "On hearing this, they were baptized into the name of the Lord Jesus."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And when Paul laid his hands on them, the Holy Spirit came upon them, and they began speaking in tongues and prophesying."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "There were about twelve men in all."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He went into the synagogue and for three months spoke boldly, reasoning and persuading people about the kingdom of God."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But when some became hardened and would not be persuaded, speaking evil of the Way in front of the congregation, he withdrew from them and took the disciples aside, reasoning daily in the lecture hall of Tyrannus."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "This went on for two years, so that all who lived in Asia heard the word of the Lord, both Jews and Greeks."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "God was doing no ordinary deeds of power through the hands of Paul,"
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "so that even face cloths or work aprons that had touched his skin were carried off to the sick, and their diseases left them and the evil spirits went out."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then some of the Jewish exorcists who traveled from place to place also tried to invoke the name of the Lord Jesus over those who had evil spirits, saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“I adjure you by the Jesus whom Paul proclaims.”"
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Seven sons of a certain Sceva, a Jewish chief priest, were doing this."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But the evil spirit answered them,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Jesus I know, and Paul I know about; but you—who are you?”"
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And the man in whom the evil spirit was leaped on them, overpowered them all, and prevailed against them, so that they fled out of that house naked and wounded."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "This became known to all who lived in Ephesus, both Jews and Greeks. Fear fell on them all, and the name of the Lord Jesus was held in high honor."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Many of those who had come to believe kept coming, confessing and disclosing their practices."
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "A good number of those who had practiced magic brought their scrolls together and burned them in front of everyone. They added up their value and found it came to fifty thousand silver coins."
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So the word of the Lord kept growing mightily and prevailing."
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When these things had been completed, Paul resolved in the Spirit to pass through Macedonia and Achaia and go on to Jerusalem, saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“After I have been there, I must also see Rome.”"
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He sent two of his assistants, Timothy and Erastus, to Macedonia, while he himself stayed on for a time in Asia."
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "About that time no small disturbance arose concerning the Way."
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "A man named Demetrius, a silversmith who made silver shrines of Artemis, brought the craftsmen no small amount of business."
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He gathered them together, along with the workers in related trades, and said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Men, you know that our prosperity comes from this business."
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "And you see and hear that not only in Ephesus but in almost all of Asia this Paul has persuaded and turned away a considerable crowd, saying that gods made by hands are not gods."
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "The danger is not only that this trade of ours will come into disrepute, but also that the temple of the great goddess Artemis will be counted as nothing, and that she whom all Asia and the world worship will even be stripped of her majesty.”"
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When they heard this they were filled with rage and began shouting,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Great is Artemis of the Ephesians!”"
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The city was filled with confusion, and they rushed as one into the theater, dragging with them Gaius and Aristarchus, Macedonians who were Paul’s traveling companions."
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Paul wanted to go in before the people, but the disciples would not let him."
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Even some of the leading officials of Asia, who were his friends, sent word to him and urged him not to venture into the theater."
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Some were shouting one thing and some another, for the assembly was in confusion, and most of them did not know why they had come together."
+     }
+    ]
+   },
+   {
+    "verse": 33,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Some of the crowd prompted Alexander, whom the Jews had pushed forward, and Alexander motioned with his hand, wanting to make a defense before the people."
+     }
+    ]
+   },
+   {
+    "verse": 34,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But when they recognized that he was a Jew, a single cry went up from them all, and for about two hours they shouted,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Great is Artemis of the Ephesians!”"
+     }
+    ]
+   },
+   {
+    "verse": 35,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When the city clerk had calmed the crowd, he said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Men of Ephesus, what person is there who does not know that the city of the Ephesians is temple guardian of the great Artemis and of the image that fell from the sky?"
+     }
+    ]
+   },
+   {
+    "verse": 36,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Since these things are undeniable, you ought to stay calm and do nothing rash."
+     }
+    ]
+   },
+   {
+    "verse": 37,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "For you have brought these men here, though they are neither temple robbers nor blasphemers of our goddess."
+     }
+    ]
+   },
+   {
+    "verse": 38,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "So then, if Demetrius and the craftsmen with him have a case against anyone, the courts are in session and there are proconsuls; let them bring charges against one another."
+     }
+    ]
+   },
+   {
+    "verse": 39,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "But if you are seeking anything beyond this, it will be settled in the lawful assembly."
+     }
+    ]
+   },
+   {
+    "verse": 40,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "For we are in danger of being charged with rioting over today’s events, since there is no cause for it, and we will not be able to give an account of this disorderly gathering.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "And having said this, he dismissed the assembly."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 2,
+    "phrase": "that there is a Holy Spirit",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "whether there be any Holy Ghost",
+    "note": "The Greek says literally “whether there is a Holy Spirit.” Since disciples of John the Baptist would have known of God’s Spirit from Scripture and from John’s own preaching, many interpreters take the sense to be “whether the Holy Spirit has been given” (compare John 7:39, where similar wording has that meaning). The translation keeps the plain wording and leaves the question open."
+   },
+   {
+    "verse": 4,
+    "phrase": "turning back",
+    "lemma": "μετάνοια",
+    "kind": "departure",
+    "traditional": "repentance",
+    "note": "Most translations have “a baptism of repentance.” In modern English “repent” centers on feeling sorry, whereas the Greek word carries the prophets’ call to return to God, a change of direction in mind and conduct. Most versions keep “repentance” as an established term that readers understand to include a change of life."
+   },
+   {
+    "verse": 9,
+    "phrase": "the Way",
+    "lemma": "ὁδός",
+    "kind": "background",
+    "traditional": "the Way",
+    "note": "The ordinary word for “road” or “way” is used in Acts as a name for the movement of Jesus’s followers (also 9:2; 19:23; 22:4; 24:14, 22). It is capitalized here because it functions as a name."
+   },
+   {
+    "verse": 11,
+    "phrase": "deeds of power",
+    "lemma": "δύναμις",
+    "kind": "departure",
+    "traditional": "miracles",
+    "note": "The Greek is the plural of the ordinary word for “power,” used of concrete acts that display it. “Miracles” is a fully acceptable rendering and is used by most versions; “deeds of power” is chosen so that the link with “power” elsewhere stays visible. The phrase “no ordinary” reproduces Luke’s deliberate understatement."
+   },
+   {
+    "verse": 14,
+    "phrase": "a Jewish chief priest",
+    "lemma": "ἀρχιερεύς",
+    "kind": "background",
+    "traditional": "a Jewish high priest",
+    "note": "No high priest named Sceva is known from other sources. The title may mean that he belonged to one of the high-priestly families, or it may be a title he or his sons claimed in order to impress clients; exorcists valued any link to the Jerusalem temple and its sacred names. Luke reports the title without comment."
+   },
+   {
+    "verse": 16,
+    "phrase": "them all",
+    "lemma": "ἀμφότεροι",
+    "kind": "ambiguity",
+    "traditional": "them",
+    "note": "The Greek word normally means “both,” which sits awkwardly with the seven sons of verse 14. In later everyday Greek it could be used loosely for “all,” and most translators take it that way here. The alternative is that only two of the seven were involved in this incident."
+   },
+   {
+    "verse": 19,
+    "phrase": "fifty thousand silver coins",
+    "lemma": "ἀργύριον",
+    "kind": "background",
+    "traditional": "fifty thousand pieces of silver",
+    "note": "The coin is not named, but it is probably the drachma, roughly a laborer’s daily wage. The sum is therefore very large. Ephesus was well known in antiquity for written spells and magical formulas, and the scrolls burned were presumably collections of these."
+   },
+   {
+    "verse": 20,
+    "phrase": "the word of the Lord kept growing mightily",
+    "lemma": "κράτος",
+    "kind": "ambiguity",
+    "traditional": "So mightily grew the word of God and prevailed",
+    "note": "The Greek word order is unusual and can be read two ways: “the word of the Lord grew mightily” or “by the might of the Lord the word grew.” The translation follows the first, the reading of most versions, taking the phrase as the common idiom for “with force.” The verb “prevailing” echoes verse 16, where the possessed man “prevailed against” the exorcists."
+   },
+   {
+    "verse": 21,
+    "phrase": "resolved in the Spirit",
+    "lemma": "πνεῦμα",
+    "kind": "ambiguity",
+    "traditional": "purposed in the spirit",
+    "note": "The phrase can mean that Paul made up his own mind (“resolved in his spirit”) or that he decided under the guidance of the Holy Spirit. Translations are divided. The following “I must,” and the later statement that he goes to Jerusalem “bound by the Spirit” (20:22), favor the second reading, but the first is entirely possible."
+   },
+   {
+    "verse": 31,
+    "phrase": "the leading officials of Asia",
+    "lemma": "Ἀσιάρχης",
+    "kind": "background",
+    "traditional": "Asiarchs",
+    "note": "The Greek title is “Asiarchs,” which some translations simply carry over; others have “the chief of Asia” or “officials of the province.” Asiarchs were wealthy, prominent men of the province of Asia who held or had held high public office; their exact duties and their connection with the provincial council and the imperial cult are debated. Luke’s point is that Paul had friends at the highest level of local society."
+   },
+   {
+    "verse": 32,
+    "phrase": "assembly",
+    "lemma": "ἐκκλησία",
+    "kind": "background",
+    "traditional": "assembly",
+    "note": "This is the same Greek word that elsewhere in the New Testament names the community of believers, traditionally translated “church.” Here it has its ordinary civic meaning, a gathering of citizens, and in verse 39 it refers to the city’s regular, legally constituted meeting. This translation uses “assembly” for the word everywhere so that the reader can see it is one word."
+   },
+   {
+    "verse": 33,
+    "phrase": "prompted Alexander",
+    "lemma": "συμβιβάζω",
+    "kind": "ambiguity",
+    "traditional": "they drew Alexander out of the multitude",
+    "note": "The meaning of the verb here is uncertain, and manuscripts vary. It may mean that some of the crowd instructed or prompted Alexander, or that they concluded Alexander was the cause of the trouble; other manuscripts read that he was pushed forward or brought down out of the crowd. It is also unclear whether the Jews put him forward to distance themselves from Paul."
+   },
+   {
+    "verse": 35,
+    "phrase": "city clerk",
+    "lemma": "γραμματεύς",
+    "kind": "background",
+    "traditional": "townclerk",
+    "note": "Elsewhere in the New Testament this word means a scribe, an expert in the Jewish Law. In a Greek city of Asia it was the title of the chief civic official, who drafted decrees, presided at the citizens’ assembly, and answered to the Roman authorities for public order. That explains his alarm in verse 40."
+   },
+   {
+    "verse": 35,
+    "phrase": "the image that fell from the sky",
+    "lemma": "διοπετής",
+    "kind": "background",
+    "traditional": "the image which fell down from Jupiter",
+    "note": "The Greek has a single adjective meaning “fallen from Zeus” or “fallen from the sky,” with no noun; “image” or “sacred stone” is supplied. It probably refers to a sacred object, possibly a meteorite, kept in the temple and believed to be of heavenly origin. “Temple guardian” was an honorific title that cities claimed, attested for Ephesus on inscriptions and coins."
+   },
+   {
+    "verse": 40,
+    "phrase": "And having said this, he dismissed the assembly.",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "",
+    "note": "Some editions and translations number this final sentence as verse 41; the Greek edition followed here includes it in verse 40. The Greek of the clerk’s last sentence is also tangled, and manuscripts differ over whether a “not” belongs in it, though the general sense is clear: the city could give no justification for the commotion if called to account."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "γλῶσσα",
+    "rendering": "tongues",
+    "verse": 6,
+    "reason": "For Spirit-prompted speech (Acts 2, 10, 19; 1 Corinthians 12–14) translators divide between “tongues” and “languages,” and the choice should be uniform across books."
+   },
+   {
+    "lemma": "ὁδός",
+    "rendering": "the Way",
+    "verse": 9,
+    "reason": "As a name for the Jesus movement in Acts (9:2; 19:9, 23; 22:4; 24:14, 22) it needs a fixed rendering and capitalization."
+   },
+   {
+    "lemma": "Ἀσιάρχης",
+    "rendering": "leading officials of Asia",
+    "verse": 31,
+    "reason": "A title occurring once, whose English equivalents are all approximate; the maintainers should decide whether the loanword “Asiarchs” is allowed."
+   },
+   {
+    "lemma": "διαλέγομαι",
+    "rendering": "reasoning",
+    "verse": 8,
+    "reason": "Recurs through Acts 17–24 and elsewhere, with versions varying among “reason,” “argue,” “discuss” and “lecture,” so Paul’s method reads differently from chapter to chapter."
+   },
+   {
+    "lemma": "οἰκουμένη",
+    "rendering": "the world",
+    "verse": 27,
+    "reason": "Recurs in Luke, Acts, Romans, Hebrews and Revelation, with “world,” “inhabited world” and “empire” all in use, and should be distinguished consistently from κόσμος."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 8456,
+   "output_tokens": 399
+  },
+  "findings": [],
+  "error": ""
+ }
+}

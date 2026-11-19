@@ -1,0 +1,345 @@
+{
+ "id": "2corinthians-003",
+ "book": "2corinthians",
+ "chapter": 3,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14rpEkaQPABBM589T",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 9139,
+  "output_tokens": 12384
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Are we beginning to commend ourselves again? Or do we, like some, need letters of commendation to you or from you?\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"You yourselves are our letter, written on our hearts, known and read by all people.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"You show plainly that you are a letter from Christ, delivered by us, written not with ink but with the Spirit of the living God, not on tablets of stone but on tablets that are hearts of flesh.\"}]},{\"verse\":4,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Such is the confidence we have through Christ toward God.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Not that we are competent of ourselves to reckon anything as coming from ourselves; rather, our competence is from God,\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"who has also made us competent to be servants of a new covenant, not of the letter but of the Spirit; for the letter kills, but the Spirit gives life.\"}]},{\"verse\":7,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now if the service of death, engraved in letters on stones, came in glory, so that the children of Israel could not gaze at the face of Moses because of the glory of his face, a glory that was being set aside,\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"how will the service of the Spirit not be in glory all the more?\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For if there was glory in the service of condemnation, much more does the service of righteousness abound in glory.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For in fact, what has been glorified has in this respect not been glorified at all, because of the glory that surpasses it.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For if what was being set aside came with glory, what remains is much more in glory.\"}]},{\"verse\":12,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Since, then, we have such a hope, we act with great openness,\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and not like Moses, who used to put a veil over his face so that the children of Israel would not gaze at the end of what was being set aside.\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But their minds were hardened. For to this very day the same veil remains at the reading of the old covenant, not lifted, because it is in Christ that it is set aside.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Indeed, to this day, whenever Moses is read, a veil lies over their hearts;\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"but whenever someone turns to the Lord, the veil is taken away.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now the Lord is the Spirit, and where the Spirit of the Lord is, there is freedom.\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And we all, with unveiled face, beholding as in a mirror the glory of the Lord, are being transformed into the same image, from glory to glory, as from the Lord, the Spirit.\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"letters of commendation\",\"lemma\":\"συστατικός\",\"kind\":\"background\",\"traditional\":\"letters of recommendation\",\"note\":\"Travelers in the ancient world commonly carried letters of introduction from a known person vouching for them to a host or community. Paul's rivals at Corinth apparently arrived with such letters. The rendering “commendation” keeps the Greek link with “commend ourselves” in the same verse.\"},{\"verse\":2,\"phrase\":\"our hearts\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"\",\"note\":\"A few manuscripts read “your hearts,” and some translations follow them. The great majority of witnesses read “our hearts,” which is the text translated here. The two Greek words differ by a single letter and were pronounced alike.\"},{\"verse\":6,\"phrase\":\"the letter\",\"lemma\":\"γράμμα\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"This is a different Greek word from the “letter” (epistle) of verses 1–3. It means a written character or a written text, and here refers to the law as something written, as verse 7 makes explicit with “letters on stones.” The contrast is between a covenant inscribed externally and one in which God's Spirit works within, echoing Jeremiah 31 and Ezekiel 36.\"},{\"verse\":7,\"phrase\":\"service\",\"lemma\":\"διακονία\",\"kind\":\"departure\",\"traditional\":\"ministry\",\"note\":\"Most translations have “ministry” (older ones “ministration”) here and “ministers” in verse 6. The Greek words were everyday terms for carrying out a task on someone's behalf and did not denote a religious office. “Service” and “servants” keep that ordinary sense and show that the two words are related.\"},{\"verse\":7,\"phrase\":\"set aside\",\"lemma\":\"καταργέω\",\"kind\":\"departure\",\"traditional\":\"fading\",\"note\":\"Many modern translations speak of a “fading” glory here and in verses 11 and 13. Elsewhere the verb means to put out of operation or bring to an end, not to grow dim, and Exodus 34 says nothing of the radiance fading. Some scholars defend “fading” as a sense suggested by the context; others reject it as lacking support in Greek usage. The same rendering is kept all four times the verb occurs in this chapter.\"},{\"verse\":12,\"phrase\":\"openness\",\"lemma\":\"παρρησία\",\"kind\":\"departure\",\"traditional\":\"boldness\",\"note\":\"The usual rendering is “boldness” or “plainness of speech.” The word meant the freedom to speak without reserve. Here the contrast is with Moses veiling his face, so the point is that nothing is concealed or held back, more than that Paul is courageous.\"},{\"verse\":13,\"phrase\":\"the end\",\"lemma\":\"τέλος\",\"kind\":\"ambiguity\",\"traditional\":\"\",\"note\":\"The Greek word can mean either the termination of something or its goal and outcome. On the first reading Moses kept Israel from seeing the glory come to its end; on the second, from seeing what the passing arrangement was pointing toward. “End” is kept because English allows both senses.\"},{\"verse\":14,\"phrase\":\"old covenant\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"This is the only place in the New Testament where the phrase “old covenant” occurs. It refers to the covenant made at Sinai as read aloud from the books of Moses in the synagogue (compare “whenever Moses is read” in verse 15). It is not yet a title for a collection of books, as “Old Testament” later became.\"},{\"verse\":14,\"phrase\":\"it is in Christ that it is set aside\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"\",\"note\":\"The Greek can also be read “it not being revealed that in Christ it is set aside,” in which case what is set aside is the old covenant, not the veil. The verb translated “lifted” is the same one rendered “unveiled” in verse 18. Translations and commentators are divided; the rendering here follows the more common reading, in which the veil stays in place because only in Christ is it removed.\"},{\"verse\":16,\"phrase\":\"someone turns\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"\",\"note\":\"The Greek verb has no stated subject. It could be “their heart” from verse 15, Israel, or anyone at all. The wording adapts Exodus 34:34, where Moses removed the veil whenever he went in before the Lord, so Moses is the pattern for whoever turns.\"},{\"verse\":17,\"phrase\":\"the Lord is the Spirit\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"\",\"note\":\"Many interpreters take this as a comment on the Exodus passage just echoed: “the Lord” to whom one turns in that text corresponds, in present experience, to the Spirit. Others read it as a more direct statement about the risen Christ and the Spirit. The next clause, “the Spirit of the Lord,” shows that Paul still distinguishes the two.\"},{\"verse\":18,\"phrase\":\"beholding as in a mirror\",\"lemma\":\"κατοπτρίζω\",\"kind\":\"ambiguity\",\"traditional\":\"\",\"note\":\"The verb is formed from the word for “mirror” and in this form normally means to look at something in a mirror. Some translations render it “reflecting,” which would suit the comparison with Moses' shining face, but that sense is poorly attested. Most scholars prefer “beholding,” though the question remains open.\"}],\"candidates\":[{\"lemma\":\"συνίστημι\",\"rendering\":\"commend\",\"verse\":1,\"reason\":\"Recurs throughout 2 Corinthians and Romans as “commend,” “recommend,” “demonstrate” or “prove,” and the self-commendation theme is lost if the English varies.\"},{\"lemma\":\"γράμμα\",\"rendering\":\"letter\",\"verse\":6,\"reason\":\"The letter/Spirit contrast recurs in Romans 2 and 7, and “letter” collides in English with ἐπιστολή; translators vary between “letter,” “written code” and “writing.”\"},{\"lemma\":\"ἱκανός\",\"rendering\":\"competent\",\"verse\":5,\"reason\":\"The ἱκανός/ἱκανότης/ἱκανόω word-group links 2 Corinthians 2:16 and 3:5–6 and is variously rendered “sufficient,” “adequate,” “competent” and “qualified.”\"},{\"lemma\":\"πωρόω\",\"rendering\":\"harden\",\"verse\":14,\"reason\":\"Used of hearts and minds in Mark, John, Romans and here; versions vary between “harden,” “blind” and “dull,” and it should be kept distinct from σκληρύνω.\"},{\"lemma\":\"μεταμορφόω\",\"rendering\":\"transform\",\"verse\":18,\"reason\":\"The same verb is traditionally “transfigured” in Mark 9:2 and Matthew 17:2 but “transformed” in Romans 12:2 and here, which hides the connection.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Are we beginning to commend ourselves again? Or do we, like some, need letters of commendation to you or from you?"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "You yourselves are our letter, written on our hearts, known and read by all people."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "You show plainly that you are a letter from Christ, delivered by us, written not with ink but with the Spirit of the living God, not on tablets of stone but on tablets that are hearts of flesh."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Such is the confidence we have through Christ toward God."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Not that we are competent of ourselves to reckon anything as coming from ourselves; rather, our competence is from God,"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "who has also made us competent to be servants of a new covenant, not of the letter but of the Spirit; for the letter kills, but the Spirit gives life."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now if the service of death, engraved in letters on stones, came in glory, so that the children of Israel could not gaze at the face of Moses because of the glory of his face, a glory that was being set aside,"
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "how will the service of the Spirit not be in glory all the more?"
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For if there was glory in the service of condemnation, much more does the service of righteousness abound in glory."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For in fact, what has been glorified has in this respect not been glorified at all, because of the glory that surpasses it."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For if what was being set aside came with glory, what remains is much more in glory."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Since, then, we have such a hope, we act with great openness,"
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and not like Moses, who used to put a veil over his face so that the children of Israel would not gaze at the end of what was being set aside."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But their minds were hardened. For to this very day the same veil remains at the reading of the old covenant, not lifted, because it is in Christ that it is set aside."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Indeed, to this day, whenever Moses is read, a veil lies over their hearts;"
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "but whenever someone turns to the Lord, the veil is taken away."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now the Lord is the Spirit, and where the Spirit of the Lord is, there is freedom."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And we all, with unveiled face, beholding as in a mirror the glory of the Lord, are being transformed into the same image, from glory to glory, as from the Lord, the Spirit."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "letters of commendation",
+    "lemma": "συστατικός",
+    "kind": "background",
+    "traditional": "letters of recommendation",
+    "note": "Travelers in the ancient world commonly carried letters of introduction from a known person vouching for them to a host or community. Paul's rivals at Corinth apparently arrived with such letters. The rendering “commendation” keeps the Greek link with “commend ourselves” in the same verse."
+   },
+   {
+    "verse": 2,
+    "phrase": "our hearts",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "",
+    "note": "A few manuscripts read “your hearts,” and some translations follow them. The great majority of witnesses read “our hearts,” which is the text translated here. The two Greek words differ by a single letter and were pronounced alike."
+   },
+   {
+    "verse": 6,
+    "phrase": "the letter",
+    "lemma": "γράμμα",
+    "kind": "background",
+    "traditional": "",
+    "note": "This is a different Greek word from the “letter” (epistle) of verses 1–3. It means a written character or a written text, and here refers to the law as something written, as verse 7 makes explicit with “letters on stones.” The contrast is between a covenant inscribed externally and one in which God's Spirit works within, echoing Jeremiah 31 and Ezekiel 36."
+   },
+   {
+    "verse": 7,
+    "phrase": "service",
+    "lemma": "διακονία",
+    "kind": "departure",
+    "traditional": "ministry",
+    "note": "Most translations have “ministry” (older ones “ministration”) here and “ministers” in verse 6. The Greek words were everyday terms for carrying out a task on someone's behalf and did not denote a religious office. “Service” and “servants” keep that ordinary sense and show that the two words are related."
+   },
+   {
+    "verse": 7,
+    "phrase": "set aside",
+    "lemma": "καταργέω",
+    "kind": "departure",
+    "traditional": "fading",
+    "note": "Many modern translations speak of a “fading” glory here and in verses 11 and 13. Elsewhere the verb means to put out of operation or bring to an end, not to grow dim, and Exodus 34 says nothing of the radiance fading. Some scholars defend “fading” as a sense suggested by the context; others reject it as lacking support in Greek usage. The same rendering is kept all four times the verb occurs in this chapter."
+   },
+   {
+    "verse": 12,
+    "phrase": "openness",
+    "lemma": "παρρησία",
+    "kind": "departure",
+    "traditional": "boldness",
+    "note": "The usual rendering is “boldness” or “plainness of speech.” The word meant the freedom to speak without reserve. Here the contrast is with Moses veiling his face, so the point is that nothing is concealed or held back, more than that Paul is courageous."
+   },
+   {
+    "verse": 13,
+    "phrase": "the end",
+    "lemma": "τέλος",
+    "kind": "ambiguity",
+    "traditional": "",
+    "note": "The Greek word can mean either the termination of something or its goal and outcome. On the first reading Moses kept Israel from seeing the glory come to its end; on the second, from seeing what the passing arrangement was pointing toward. “End” is kept because English allows both senses."
+   },
+   {
+    "verse": 14,
+    "phrase": "old covenant",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "This is the only place in the New Testament where the phrase “old covenant” occurs. It refers to the covenant made at Sinai as read aloud from the books of Moses in the synagogue (compare “whenever Moses is read” in verse 15). It is not yet a title for a collection of books, as “Old Testament” later became."
+   },
+   {
+    "verse": 14,
+    "phrase": "it is in Christ that it is set aside",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "",
+    "note": "The Greek can also be read “it not being revealed that in Christ it is set aside,” in which case what is set aside is the old covenant, not the veil. The verb translated “lifted” is the same one rendered “unveiled” in verse 18. Translations and commentators are divided; the rendering here follows the more common reading, in which the veil stays in place because only in Christ is it removed."
+   },
+   {
+    "verse": 16,
+    "phrase": "someone turns",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "",
+    "note": "The Greek verb has no stated subject. It could be “their heart” from verse 15, Israel, or anyone at all. The wording adapts Exodus 34:34, where Moses removed the veil whenever he went in before the Lord, so Moses is the pattern for whoever turns."
+   },
+   {
+    "verse": 17,
+    "phrase": "the Lord is the Spirit",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "",
+    "note": "Many interpreters take this as a comment on the Exodus passage just echoed: “the Lord” to whom one turns in that text corresponds, in present experience, to the Spirit. Others read it as a more direct statement about the risen Christ and the Spirit. The next clause, “the Spirit of the Lord,” shows that Paul still distinguishes the two."
+   },
+   {
+    "verse": 18,
+    "phrase": "beholding as in a mirror",
+    "lemma": "κατοπτρίζω",
+    "kind": "ambiguity",
+    "traditional": "",
+    "note": "The verb is formed from the word for “mirror” and in this form normally means to look at something in a mirror. Some translations render it “reflecting,” which would suit the comparison with Moses' shining face, but that sense is poorly attested. Most scholars prefer “beholding,” though the question remains open."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "συνίστημι",
+    "rendering": "commend",
+    "verse": 1,
+    "reason": "Recurs throughout 2 Corinthians and Romans as “commend,” “recommend,” “demonstrate” or “prove,” and the self-commendation theme is lost if the English varies."
+   },
+   {
+    "lemma": "γράμμα",
+    "rendering": "letter",
+    "verse": 6,
+    "reason": "The letter/Spirit contrast recurs in Romans 2 and 7, and “letter” collides in English with ἐπιστολή; translators vary between “letter,” “written code” and “writing.”"
+   },
+   {
+    "lemma": "ἱκανός",
+    "rendering": "competent",
+    "verse": 5,
+    "reason": "The ἱκανός/ἱκανότης/ἱκανόω word-group links 2 Corinthians 2:16 and 3:5–6 and is variously rendered “sufficient,” “adequate,” “competent” and “qualified.”"
+   },
+   {
+    "lemma": "πωρόω",
+    "rendering": "harden",
+    "verse": 14,
+    "reason": "Used of hearts and minds in Mark, John, Romans and here; versions vary between “harden,” “blind” and “dull,” and it should be kept distinct from σκληρύνω."
+   },
+   {
+    "lemma": "μεταμορφόω",
+    "rendering": "transform",
+    "verse": 18,
+    "reason": "The same verb is traditionally “transfigured” in Mark 9:2 and Matthew 17:2 but “transformed” in Romans 12:2 and here, which hides the connection."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 4196,
+   "output_tokens": 268
+  },
+  "findings": [],
+  "error": ""
+ }
+}

@@ -1,0 +1,863 @@
+{
+ "id": "john-001",
+ "book": "john",
+ "chapter": 1,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14bhJw8Hiy1HbA5Mq",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 10844,
+  "output_tokens": 19885
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"In the beginning was the Logos, and the Logos was with God, and the Logos was God.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He was in the beginning with God.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"All things came into being through him, and apart from him not one thing came into being. What has come into being\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"in him was life, and the life was the light of humanity.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The light shines in the darkness, and the darkness did not overcome it.\"}]},{\"verse\":6,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"There came a man sent from God; his name was John.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He came to give testimony, to testify about the light, so that all might believe through him.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He was not the light, but came to testify about the light.\"}]},{\"verse\":9,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The true light, which gives light to every person, was coming into the world.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He was in the world, and the world came into being through him, and the world did not know him.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He came to what was his own, and his own people did not receive him.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But to all who did receive him he gave the right to become children of God—to those who believe in his name,\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"who were born not of blood, nor of the will of the flesh, nor of the will of a man, but of God.\"}]},{\"verse\":14,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And the Logos became flesh and made his dwelling among us, and we saw his glory, glory as of the one and only Son from the Father, full of grace and truth.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"(John testifies about him and cries out, saying,\"},{\"speaker\":\"other\",\"text\":\"“This was the one of whom I said, ‘The one coming after me has come to be ahead of me, because he was before me.’”)\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For from his fullness we have all received—grace in place of grace.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For the Law was given through Moses; grace and truth came through Jesus Christ.\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"No one has ever seen God. The one and only, himself God, who is at the Father’s side—he has made him known.\"}]},{\"verse\":19,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And this is the testimony of John, when the Jewish leaders sent priests and Levites from Jerusalem to ask him,\"},{\"speaker\":\"other\",\"text\":\"“Who are you?”\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He confessed and did not deny it; he confessed,\"},{\"speaker\":\"other\",\"text\":\"“I am not the Messiah.”\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And they asked him,\"},{\"speaker\":\"other\",\"text\":\"“What then? Are you Elijah?”\"},{\"speaker\":\"narrator\",\"text\":\"He said,\"},{\"speaker\":\"other\",\"text\":\"“I am not.”\"},{\"speaker\":\"other\",\"text\":\"“Are you the Prophet?”\"},{\"speaker\":\"narrator\",\"text\":\"And he answered,\"},{\"speaker\":\"other\",\"text\":\"“No.”\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So they said to him,\"},{\"speaker\":\"other\",\"text\":\"“Who are you? We must give an answer to those who sent us. What do you say about yourself?”\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He said,\"},{\"speaker\":\"other\",\"text\":\"“I am a voice of one crying out in the wilderness, ‘Make straight the way of the Lord,’ as the prophet Isaiah said.”\"}]},{\"verse\":24,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now they had been sent from the Pharisees.\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They questioned him and said to him,\"},{\"speaker\":\"other\",\"text\":\"“Why then do you baptize, if you are not the Messiah, nor Elijah, nor the Prophet?”\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"John answered them,\"},{\"speaker\":\"other\",\"text\":\"“I baptize with water. Among you stands one you do not know,\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"the one coming after me, the strap of whose sandal I am not worthy to untie.”\"}]},{\"verse\":28,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"These things took place in Bethany beyond the Jordan, where John was baptizing.\"}]},{\"verse\":29,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The next day he saw Jesus coming toward him and said,\"},{\"speaker\":\"other\",\"text\":\"“Look, the Lamb of God, who takes away the sin of the world!\"}]},{\"verse\":30,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"This is the one about whom I said, ‘After me comes a man who has come to be ahead of me, because he was before me.’\"}]},{\"verse\":31,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"I myself did not know him, but I came baptizing with water for this reason: that he might be revealed to Israel.”\"}]},{\"verse\":32,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And John testified,\"},{\"speaker\":\"other\",\"text\":\"“I have seen the Spirit coming down like a dove from heaven, and it stayed on him.\"}]},{\"verse\":33,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"I myself did not know him, but the one who sent me to baptize with water said to me, ‘The one on whom you see the Spirit coming down and staying—this is the one who baptizes with the Holy Spirit.’\"}]},{\"verse\":34,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"And I have seen, and I have testified that this is the Chosen One of God.”\"}]},{\"verse\":35,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The next day John was again standing there with two of his disciples,\"}]},{\"verse\":36,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and looking at Jesus as he walked by, he said,\"},{\"speaker\":\"other\",\"text\":\"“Look, the Lamb of God!”\"}]},{\"verse\":37,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The two disciples heard him say this, and they followed Jesus.\"}]},{\"verse\":38,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus turned and saw them following, and said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“What are you looking for?”\"},{\"speaker\":\"narrator\",\"text\":\"They said to him,\"},{\"speaker\":\"other\",\"text\":\"“Rabbi”\"},{\"speaker\":\"narrator\",\"text\":\"(which, translated, means Teacher),\"},{\"speaker\":\"other\",\"text\":\"“where are you staying?”\"}]},{\"verse\":39,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Come, and you will see.”\"},{\"speaker\":\"narrator\",\"text\":\"So they came and saw where he was staying, and they stayed with him that day. It was about the tenth hour.\"}]},{\"verse\":40,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Andrew, the brother of Simon Peter, was one of the two who had heard John and followed Jesus.\"}]},{\"verse\":41,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He first found his own brother Simon and said to him,\"},{\"speaker\":\"other\",\"text\":\"“We have found the Messiah”\"},{\"speaker\":\"narrator\",\"text\":\"(which, translated, is Christ).\"}]},{\"verse\":42,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He brought him to Jesus. Jesus looked at him and said,\"},{\"speaker\":\"Jesus\",\"text\":\"“You are Simon, son of John. You will be called Cephas”\"},{\"speaker\":\"narrator\",\"text\":\"(which is translated Peter).\"}]},{\"verse\":43,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The next day he decided to leave for Galilee. He found Philip, and Jesus said to him,\"},{\"speaker\":\"Jesus\",\"text\":\"“Follow me.”\"}]},{\"verse\":44,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now Philip was from Bethsaida, the town of Andrew and Peter.\"}]},{\"verse\":45,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Philip found Nathanael and said to him,\"},{\"speaker\":\"other\",\"text\":\"“We have found the one Moses wrote about in the Law, and the prophets also wrote about—Jesus, son of Joseph, from Nazareth.”\"}]},{\"verse\":46,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Nathanael said to him,\"},{\"speaker\":\"other\",\"text\":\"“Can anything good come from Nazareth?”\"},{\"speaker\":\"narrator\",\"text\":\"Philip said to him,\"},{\"speaker\":\"other\",\"text\":\"“Come and see.”\"}]},{\"verse\":47,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus saw Nathanael coming toward him and said of him,\"},{\"speaker\":\"Jesus\",\"text\":\"“Look, truly an Israelite, in whom there is no deceit!”\"}]},{\"verse\":48,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Nathanael said to him,\"},{\"speaker\":\"other\",\"text\":\"“How do you know me?”\"},{\"speaker\":\"narrator\",\"text\":\"Jesus answered him,\"},{\"speaker\":\"Jesus\",\"text\":\"“Before Philip called you, while you were under the fig tree, I saw you.”\"}]},{\"verse\":49,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Nathanael answered him,\"},{\"speaker\":\"other\",\"text\":\"“Rabbi, you are the Son of God! You are the King of Israel!”\"}]},{\"verse\":50,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus answered him,\"},{\"speaker\":\"Jesus\",\"text\":\"“Do you believe because I told you that I saw you under the fig tree? You will see greater things than these.”\"}]},{\"verse\":51,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And he said to him,\"},{\"speaker\":\"Jesus\",\"text\":\"“Truly, truly, I tell you, you will see heaven opened and the angels of God ascending and descending on the Son of Man.”\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"Logos\",\"lemma\":\"λόγος\",\"kind\":\"departure\",\"traditional\":\"Word\",\"note\":\"Nearly all translations render this “Word.” The Greek term covered speech, message, account and reason, and to many Greek-speaking readers it also suggested the rational principle that orders the world. Most scholars think John’s main background is the Hebrew Bible: God’s creating speech in Genesis 1, the “word of the Lord,” and the figure of Wisdom, which “Word” reflects and “Logos” does not. The Greek term is kept here as a title because “the Word” in current English usually means the Bible, which would give “the Word was God” a false sense.\"},{\"verse\":3,\"phrase\":\"What has come into being\",\"lemma\":\"γίνομαι\",\"kind\":\"ambiguity\",\"traditional\":\"without him was not any thing made that was made. In him was life\",\"note\":\"The earliest manuscripts have no punctuation, and these words can close the sentence of verse 3 (“not one thing came into being that has come into being. In him was life”) or open the next one. Most English versions take the first option. The Greek edition translated here, like many early Christian readers, takes the second, and the translation follows it; scholars remain divided.\"},{\"verse\":5,\"phrase\":\"overcome\",\"lemma\":\"καταλαμβάνω\",\"kind\":\"ambiguity\",\"traditional\":\"comprehended\",\"note\":\"The verb means to seize or overtake, and by extension to grasp with the mind. Older versions chose “comprehended”; most modern ones choose “overcome,” which fits John’s later use of the same verb for darkness overtaking a person (12:35). John may intend both senses.\"},{\"verse\":9,\"phrase\":\"was coming into the world\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"which lighteth every man that cometh into the world\",\"note\":\"The words “coming into the world” can describe the light, as translated here, or “every person” (“which gives light to every person who comes into the world”). Most modern translations and scholars prefer the first, since John repeatedly speaks of Jesus as the one who comes into the world.\"},{\"verse\":14,\"phrase\":\"made his dwelling\",\"lemma\":\"σκηνόω\",\"kind\":\"background\",\"traditional\":\"dwelt\",\"note\":\"The verb is related to the ordinary word for a tent, which in the Greek Old Testament is also the word for the tabernacle, where God’s glory was present among Israel in the wilderness. Coming just before “we saw his glory,” the verb very probably carried that association for a reader who knew the Scriptures in Greek.\"},{\"verse\":14,\"phrase\":\"the one and only Son\",\"lemma\":\"μονογενής\",\"kind\":\"departure\",\"traditional\":\"the only begotten\",\"note\":\"The traditional “only begotten” assumes the word is built on “beget,” but in period usage it means the only one of its kind, and especially an only child. “One and only” is the mainstream modern rendering, though a minority of scholars have recently defended “only begotten.” The word “Son” is supplied in English; the Greek could also be read as a general comparison, “as of a father’s only son.”\"},{\"verse\":16,\"phrase\":\"grace in place of grace\",\"lemma\":\"ἀντί\",\"kind\":\"departure\",\"traditional\":\"grace upon grace\",\"note\":\"Most translations have “grace upon grace” or “grace for grace,” picturing gifts piled one on another. In the Greek of the period, however, the preposition normally means “in place of” or “in exchange for,” and a sense of accumulation is hard to document. On this reading one gift of grace succeeds another, which may be explained by the next verse: the Law through Moses, then grace and truth through Jesus Christ. Many scholars still prefer the traditional sense.\"},{\"verse\":18,\"phrase\":\"himself God\",\"lemma\":\"θεός\",\"kind\":\"textual\",\"traditional\":\"the only begotten Son\",\"note\":\"The earliest manuscripts read “one and only God”; most later manuscripts read “the one and only Son,” which is what the traditional English versions translate. Most editors judge “God” original because it is the harder reading and has the oldest support. The Greek can be taken as “the one and only God” or, as here, as “the one and only” with “God” added in apposition.\"},{\"verse\":19,\"phrase\":\"the Jewish leaders\",\"lemma\":\"Ἰουδαῖος\",\"kind\":\"departure\",\"traditional\":\"the Jews\",\"note\":\"The Greek says simply “the Jews,” and most translations keep that. Here the group is one with authority to send priests and Levites from Jerusalem, so John means the authorities there and not the Jewish people as a whole, to which John the Baptist, Jesus and the disciples all belonged. Scholars are divided on how best to render the word in John; some prefer “Judeans” throughout.\"},{\"verse\":20,\"phrase\":\"the Messiah\",\"lemma\":\"Χριστός\",\"kind\":\"departure\",\"traditional\":\"the Christ\",\"note\":\"The Greek word means “anointed” and translates the Hebrew term behind “Messiah,” the anointed king Israel expected. Where it is a title under discussion, as here, “Messiah” conveys what a first-century Jewish hearer understood; “Christ” is kept where it functions as part of Jesus’s name, as in verse 17. Several modern translations make the same distinction. In verse 41 John gives the Semitic word itself and then its Greek equivalent, which is rendered “Christ.”\"},{\"verse\":21,\"phrase\":\"the Prophet\",\"lemma\":\"προφήτης\",\"kind\":\"background\",\"traditional\":\"that prophet\",\"note\":\"The questions name figures expected at the end of the age. Elijah was to return before the day of the Lord (Malachi 4:5), and “the Prophet” is the prophet like Moses promised in Deuteronomy 18:15–18. The word is capitalized here to show that a specific expected figure is meant.\"},{\"verse\":24,\"phrase\":\"they had been sent from the Pharisees\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"they which were sent were of the Pharisees\",\"note\":\"The Greek can mean that the delegation had been sent by the Pharisees, that the delegates themselves belonged to the Pharisees, or that some Pharisees had also been sent. The rendering here leaves the first two possibilities open.\"},{\"verse\":34,\"phrase\":\"the Chosen One of God\",\"lemma\":\"ἐκλεκτός\",\"kind\":\"textual\",\"traditional\":\"the Son of God\",\"note\":\"The great majority of manuscripts, including very early ones, read “the Son of God,” and most translations follow them. A small number of early witnesses, including the original hand of Codex Sinaiticus, read “the Chosen One of God.” The Greek edition translated here adopts that reading on the ground that scribes were more likely to change it to the familiar title than the reverse. The question remains disputed.\"},{\"verse\":39,\"phrase\":\"the tenth hour\",\"lemma\":\"ὥρα\",\"kind\":\"background\",\"traditional\":\"the tenth hour\",\"note\":\"Hours were counted from sunrise, so the tenth hour is about four in the afternoon. A minority of scholars have argued that John counts from midnight, which would make it ten in the morning.\"},{\"verse\":42,\"phrase\":\"Cephas\",\"lemma\":\"Κηφᾶς\",\"kind\":\"background\",\"traditional\":\"Cephas\",\"note\":\"Cephas represents the Aramaic word for “rock,” and Peter is the Greek equivalent. Neither seems to have been a usual personal name at the time, so a first-century hearer would have heard a nickname meaning something like “Rock.”\"},{\"verse\":51,\"phrase\":\"ascending and descending on the Son of Man\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"Although Jesus is speaking to Nathanael, “you” is plural in Greek in this verse, so the promise extends to the other disciples. The image recalls Jacob’s dream in Genesis 28:12 of a stairway between earth and heaven with God’s angels ascending and descending on it; here the Son of Man takes the place of the stairway.\"}],\"candidates\":[{\"lemma\":\"μένω\",\"rendering\":\"stay\",\"verse\":32,\"reason\":\"A thematic word in John and 1 John (“abide,” “remain,” “stay,” “dwell”) whose echoes, such as the Spirit staying on Jesus and the disciples staying with him, disappear if the English varies.\"},{\"lemma\":\"μαρτυρέω\",\"rendering\":\"testify\",\"verse\":7,\"reason\":\"With μαρτυρία it recurs across John, Acts, the letters and Revelation, and translators vary between “testify,” “bear witness” and “witness,” which obscures a major Johannine theme.\"},{\"lemma\":\"σάρξ\",\"rendering\":\"flesh\",\"verse\":13,\"reason\":\"Its range (body, humanity, human descent, human nature opposed to the Spirit) leads translations to vary widely between “flesh,” “human nature” and “sinful nature,” especially in Paul.\"},{\"lemma\":\"χάρις\",\"rendering\":\"grace\",\"verse\":14,\"reason\":\"“Grace” is now a largely theological word, whereas the Greek meant favor or a generous gift within relationships of benefaction; a single policy is needed across the Gospels and the letters.\"},{\"lemma\":\"ὁμολογέω\",\"rendering\":\"confess\",\"verse\":20,\"reason\":\"“Confess” now suggests admitting guilt, while the Greek usually means to declare or acknowledge openly; translators vary between “confess,” “acknowledge” and “declare.”\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "In the beginning was the Logos, and the Logos was with God, and the Logos was God."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He was in the beginning with God."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "All things came into being through him, and apart from him not one thing came into being. What has come into being"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "in him was life, and the life was the light of humanity."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The light shines in the darkness, and the darkness did not overcome it."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "There came a man sent from God; his name was John."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He came to give testimony, to testify about the light, so that all might believe through him."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He was not the light, but came to testify about the light."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The true light, which gives light to every person, was coming into the world."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He was in the world, and the world came into being through him, and the world did not know him."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He came to what was his own, and his own people did not receive him."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But to all who did receive him he gave the right to become children of God—to those who believe in his name,"
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "who were born not of blood, nor of the will of the flesh, nor of the will of a man, but of God."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And the Logos became flesh and made his dwelling among us, and we saw his glory, glory as of the one and only Son from the Father, full of grace and truth."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "(John testifies about him and cries out, saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“This was the one of whom I said, ‘The one coming after me has come to be ahead of me, because he was before me.’”)"
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For from his fullness we have all received—grace in place of grace."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For the Law was given through Moses; grace and truth came through Jesus Christ."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "No one has ever seen God. The one and only, himself God, who is at the Father’s side—he has made him known."
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And this is the testimony of John, when the Jewish leaders sent priests and Levites from Jerusalem to ask him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Who are you?”"
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He confessed and did not deny it; he confessed,"
+     },
+     {
+      "speaker": "other",
+      "text": "“I am not the Messiah.”"
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And they asked him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“What then? Are you Elijah?”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "He said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“I am not.”"
+     },
+     {
+      "speaker": "other",
+      "text": "“Are you the Prophet?”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "And he answered,"
+     },
+     {
+      "speaker": "other",
+      "text": "“No.”"
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So they said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Who are you? We must give an answer to those who sent us. What do you say about yourself?”"
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“I am a voice of one crying out in the wilderness, ‘Make straight the way of the Lord,’ as the prophet Isaiah said.”"
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now they had been sent from the Pharisees."
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They questioned him and said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Why then do you baptize, if you are not the Messiah, nor Elijah, nor the Prophet?”"
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "John answered them,"
+     },
+     {
+      "speaker": "other",
+      "text": "“I baptize with water. Among you stands one you do not know,"
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "the one coming after me, the strap of whose sandal I am not worthy to untie.”"
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "These things took place in Bethany beyond the Jordan, where John was baptizing."
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The next day he saw Jesus coming toward him and said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Look, the Lamb of God, who takes away the sin of the world!"
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "This is the one about whom I said, ‘After me comes a man who has come to be ahead of me, because he was before me.’"
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "I myself did not know him, but I came baptizing with water for this reason: that he might be revealed to Israel.”"
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And John testified,"
+     },
+     {
+      "speaker": "other",
+      "text": "“I have seen the Spirit coming down like a dove from heaven, and it stayed on him."
+     }
+    ]
+   },
+   {
+    "verse": 33,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "I myself did not know him, but the one who sent me to baptize with water said to me, ‘The one on whom you see the Spirit coming down and staying—this is the one who baptizes with the Holy Spirit.’"
+     }
+    ]
+   },
+   {
+    "verse": 34,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "And I have seen, and I have testified that this is the Chosen One of God.”"
+     }
+    ]
+   },
+   {
+    "verse": 35,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The next day John was again standing there with two of his disciples,"
+     }
+    ]
+   },
+   {
+    "verse": 36,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and looking at Jesus as he walked by, he said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Look, the Lamb of God!”"
+     }
+    ]
+   },
+   {
+    "verse": 37,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The two disciples heard him say this, and they followed Jesus."
+     }
+    ]
+   },
+   {
+    "verse": 38,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus turned and saw them following, and said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“What are you looking for?”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "They said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Rabbi”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "(which, translated, means Teacher),"
+     },
+     {
+      "speaker": "other",
+      "text": "“where are you staying?”"
+     }
+    ]
+   },
+   {
+    "verse": 39,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Come, and you will see.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "So they came and saw where he was staying, and they stayed with him that day. It was about the tenth hour."
+     }
+    ]
+   },
+   {
+    "verse": 40,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Andrew, the brother of Simon Peter, was one of the two who had heard John and followed Jesus."
+     }
+    ]
+   },
+   {
+    "verse": 41,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He first found his own brother Simon and said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“We have found the Messiah”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "(which, translated, is Christ)."
+     }
+    ]
+   },
+   {
+    "verse": 42,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He brought him to Jesus. Jesus looked at him and said,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“You are Simon, son of John. You will be called Cephas”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "(which is translated Peter)."
+     }
+    ]
+   },
+   {
+    "verse": 43,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The next day he decided to leave for Galilee. He found Philip, and Jesus said to him,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Follow me.”"
+     }
+    ]
+   },
+   {
+    "verse": 44,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now Philip was from Bethsaida, the town of Andrew and Peter."
+     }
+    ]
+   },
+   {
+    "verse": 45,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Philip found Nathanael and said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“We have found the one Moses wrote about in the Law, and the prophets also wrote about—Jesus, son of Joseph, from Nazareth.”"
+     }
+    ]
+   },
+   {
+    "verse": 46,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Nathanael said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Can anything good come from Nazareth?”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "Philip said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Come and see.”"
+     }
+    ]
+   },
+   {
+    "verse": 47,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus saw Nathanael coming toward him and said of him,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Look, truly an Israelite, in whom there is no deceit!”"
+     }
+    ]
+   },
+   {
+    "verse": 48,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Nathanael said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“How do you know me?”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "Jesus answered him,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Before Philip called you, while you were under the fig tree, I saw you.”"
+     }
+    ]
+   },
+   {
+    "verse": 49,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Nathanael answered him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Rabbi, you are the Son of God! You are the King of Israel!”"
+     }
+    ]
+   },
+   {
+    "verse": 50,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus answered him,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Do you believe because I told you that I saw you under the fig tree? You will see greater things than these.”"
+     }
+    ]
+   },
+   {
+    "verse": 51,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And he said to him,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Truly, truly, I tell you, you will see heaven opened and the angels of God ascending and descending on the Son of Man.”"
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "Logos",
+    "lemma": "λόγος",
+    "kind": "departure",
+    "traditional": "Word",
+    "note": "Nearly all translations render this “Word.” The Greek term covered speech, message, account and reason, and to many Greek-speaking readers it also suggested the rational principle that orders the world. Most scholars think John’s main background is the Hebrew Bible: God’s creating speech in Genesis 1, the “word of the Lord,” and the figure of Wisdom, which “Word” reflects and “Logos” does not. The Greek term is kept here as a title because “the Word” in current English usually means the Bible, which would give “the Word was God” a false sense."
+   },
+   {
+    "verse": 3,
+    "phrase": "What has come into being",
+    "lemma": "γίνομαι",
+    "kind": "ambiguity",
+    "traditional": "without him was not any thing made that was made. In him was life",
+    "note": "The earliest manuscripts have no punctuation, and these words can close the sentence of verse 3 (“not one thing came into being that has come into being. In him was life”) or open the next one. Most English versions take the first option. The Greek edition translated here, like many early Christian readers, takes the second, and the translation follows it; scholars remain divided."
+   },
+   {
+    "verse": 5,
+    "phrase": "overcome",
+    "lemma": "καταλαμβάνω",
+    "kind": "ambiguity",
+    "traditional": "comprehended",
+    "note": "The verb means to seize or overtake, and by extension to grasp with the mind. Older versions chose “comprehended”; most modern ones choose “overcome,” which fits John’s later use of the same verb for darkness overtaking a person (12:35). John may intend both senses."
+   },
+   {
+    "verse": 9,
+    "phrase": "was coming into the world",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "which lighteth every man that cometh into the world",
+    "note": "The words “coming into the world” can describe the light, as translated here, or “every person” (“which gives light to every person who comes into the world”). Most modern translations and scholars prefer the first, since John repeatedly speaks of Jesus as the one who comes into the world."
+   },
+   {
+    "verse": 14,
+    "phrase": "made his dwelling",
+    "lemma": "σκηνόω",
+    "kind": "background",
+    "traditional": "dwelt",
+    "note": "The verb is related to the ordinary word for a tent, which in the Greek Old Testament is also the word for the tabernacle, where God’s glory was present among Israel in the wilderness. Coming just before “we saw his glory,” the verb very probably carried that association for a reader who knew the Scriptures in Greek."
+   },
+   {
+    "verse": 14,
+    "phrase": "the one and only Son",
+    "lemma": "μονογενής",
+    "kind": "departure",
+    "traditional": "the only begotten",
+    "note": "The traditional “only begotten” assumes the word is built on “beget,” but in period usage it means the only one of its kind, and especially an only child. “One and only” is the mainstream modern rendering, though a minority of scholars have recently defended “only begotten.” The word “Son” is supplied in English; the Greek could also be read as a general comparison, “as of a father’s only son.”"
+   },
+   {
+    "verse": 16,
+    "phrase": "grace in place of grace",
+    "lemma": "ἀντί",
+    "kind": "departure",
+    "traditional": "grace upon grace",
+    "note": "Most translations have “grace upon grace” or “grace for grace,” picturing gifts piled one on another. In the Greek of the period, however, the preposition normally means “in place of” or “in exchange for,” and a sense of accumulation is hard to document. On this reading one gift of grace succeeds another, which may be explained by the next verse: the Law through Moses, then grace and truth through Jesus Christ. Many scholars still prefer the traditional sense."
+   },
+   {
+    "verse": 18,
+    "phrase": "himself God",
+    "lemma": "θεός",
+    "kind": "textual",
+    "traditional": "the only begotten Son",
+    "note": "The earliest manuscripts read “one and only God”; most later manuscripts read “the one and only Son,” which is what the traditional English versions translate. Most editors judge “God” original because it is the harder reading and has the oldest support. The Greek can be taken as “the one and only God” or, as here, as “the one and only” with “God” added in apposition."
+   },
+   {
+    "verse": 19,
+    "phrase": "the Jewish leaders",
+    "lemma": "Ἰουδαῖος",
+    "kind": "departure",
+    "traditional": "the Jews",
+    "note": "The Greek says simply “the Jews,” and most translations keep that. Here the group is one with authority to send priests and Levites from Jerusalem, so John means the authorities there and not the Jewish people as a whole, to which John the Baptist, Jesus and the disciples all belonged. Scholars are divided on how best to render the word in John; some prefer “Judeans” throughout."
+   },
+   {
+    "verse": 20,
+    "phrase": "the Messiah",
+    "lemma": "Χριστός",
+    "kind": "departure",
+    "traditional": "the Christ",
+    "note": "The Greek word means “anointed” and translates the Hebrew term behind “Messiah,” the anointed king Israel expected. Where it is a title under discussion, as here, “Messiah” conveys what a first-century Jewish hearer understood; “Christ” is kept where it functions as part of Jesus’s name, as in verse 17. Several modern translations make the same distinction. In verse 41 John gives the Semitic word itself and then its Greek equivalent, which is rendered “Christ.”"
+   },
+   {
+    "verse": 21,
+    "phrase": "the Prophet",
+    "lemma": "προφήτης",
+    "kind": "background",
+    "traditional": "that prophet",
+    "note": "The questions name figures expected at the end of the age. Elijah was to return before the day of the Lord (Malachi 4:5), and “the Prophet” is the prophet like Moses promised in Deuteronomy 18:15–18. The word is capitalized here to show that a specific expected figure is meant."
+   },
+   {
+    "verse": 24,
+    "phrase": "they had been sent from the Pharisees",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "they which were sent were of the Pharisees",
+    "note": "The Greek can mean that the delegation had been sent by the Pharisees, that the delegates themselves belonged to the Pharisees, or that some Pharisees had also been sent. The rendering here leaves the first two possibilities open."
+   },
+   {
+    "verse": 34,
+    "phrase": "the Chosen One of God",
+    "lemma": "ἐκλεκτός",
+    "kind": "textual",
+    "traditional": "the Son of God",
+    "note": "The great majority of manuscripts, including very early ones, read “the Son of God,” and most translations follow them. A small number of early witnesses, including the original hand of Codex Sinaiticus, read “the Chosen One of God.” The Greek edition translated here adopts that reading on the ground that scribes were more likely to change it to the familiar title than the reverse. The question remains disputed."
+   },
+   {
+    "verse": 39,
+    "phrase": "the tenth hour",
+    "lemma": "ὥρα",
+    "kind": "background",
+    "traditional": "the tenth hour",
+    "note": "Hours were counted from sunrise, so the tenth hour is about four in the afternoon. A minority of scholars have argued that John counts from midnight, which would make it ten in the morning."
+   },
+   {
+    "verse": 42,
+    "phrase": "Cephas",
+    "lemma": "Κηφᾶς",
+    "kind": "background",
+    "traditional": "Cephas",
+    "note": "Cephas represents the Aramaic word for “rock,” and Peter is the Greek equivalent. Neither seems to have been a usual personal name at the time, so a first-century hearer would have heard a nickname meaning something like “Rock.”"
+   },
+   {
+    "verse": 51,
+    "phrase": "ascending and descending on the Son of Man",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "Although Jesus is speaking to Nathanael, “you” is plural in Greek in this verse, so the promise extends to the other disciples. The image recalls Jacob’s dream in Genesis 28:12 of a stairway between earth and heaven with God’s angels ascending and descending on it; here the Son of Man takes the place of the stairway."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "μένω",
+    "rendering": "stay",
+    "verse": 32,
+    "reason": "A thematic word in John and 1 John (“abide,” “remain,” “stay,” “dwell”) whose echoes, such as the Spirit staying on Jesus and the disciples staying with him, disappear if the English varies."
+   },
+   {
+    "lemma": "μαρτυρέω",
+    "rendering": "testify",
+    "verse": 7,
+    "reason": "With μαρτυρία it recurs across John, Acts, the letters and Revelation, and translators vary between “testify,” “bear witness” and “witness,” which obscures a major Johannine theme."
+   },
+   {
+    "lemma": "σάρξ",
+    "rendering": "flesh",
+    "verse": 13,
+    "reason": "Its range (body, humanity, human descent, human nature opposed to the Spirit) leads translations to vary widely between “flesh,” “human nature” and “sinful nature,” especially in Paul."
+   },
+   {
+    "lemma": "χάρις",
+    "rendering": "grace",
+    "verse": 14,
+    "reason": "“Grace” is now a largely theological word, whereas the Greek meant favor or a generous gift within relationships of benefaction; a single policy is needed across the Gospels and the letters."
+   },
+   {
+    "lemma": "ὁμολογέω",
+    "rendering": "confess",
+    "verse": 20,
+    "reason": "“Confess” now suggests admitting guilt, while the Greek usually means to declare or acknowledge openly; translators vary between “confess,” “acknowledge” and “declare.”"
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 9167,
+   "output_tokens": 470
+  },
+  "findings": [],
+  "error": ""
+ }
+}

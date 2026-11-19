@@ -1,0 +1,319 @@
+{
+ "id": "2corinthians-009",
+ "book": "2corinthians",
+ "chapter": 9,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14iPaiL1eCcgUps68",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 10642,
+  "output_tokens": 11574
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For about the service to the holy ones it is superfluous for me to write to you,\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"for I know your eagerness, which I boast about on your behalf to the Macedonians, saying that Achaia has been ready since last year; and your zeal has stirred up most of them.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But I am sending the brothers so that our boast about you may not prove empty in this matter, so that you may be ready, just as I said you would be.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Otherwise, if Macedonians come with me and find you unprepared, we—to say nothing of you—would be put to shame in this undertaking.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So I considered it necessary to urge the brothers to go ahead to you and arrange ahead of time the bountiful gift you promised beforehand, so that it may be ready as a bountiful gift and not as something extorted.\"}]},{\"verse\":6,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The point is this: whoever sows sparingly will also reap sparingly, and whoever sows bountifully will also reap bountifully.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Each of you should give as you have decided in your heart, not reluctantly or under compulsion, for God loves a cheerful giver.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And God is able to make all grace abound to you, so that in all things, at all times, you may have all you need and abound in every good work.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"As it is written:\"},{\"speaker\":\"scripture\",\"text\":\"“He scattered freely, he gave to the poor; his righteousness endures forever.”\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now he who supplies seed to the sower and bread for food will supply and multiply your seed and increase the harvest of your righteousness.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"You will be enriched in every way for every kind of generosity, which through us produces thanksgiving to God.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For the service of this public benefaction not only supplies what the holy ones lack but also abounds through many thanksgivings to God.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Through the proof that this service provides, they will glorify God for the obedience that goes with your confession of the good news of Christ and for the generosity of your sharing with them and with all,\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and in their prayer for you they will long for you because of the surpassing grace of God upon you.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Thanks be to God for his indescribable gift!\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"service\",\"lemma\":\"διακονία\",\"kind\":\"departure\",\"traditional\":\"ministry / ministering\",\"note\":\"The Greek word was an everyday term for service or for a task carried out on someone's behalf, not for a religious office. Here it refers to the collection Paul was organizing for the believers in Jerusalem. Most English versions use “ministry” for this word in church contexts and vary it elsewhere.\"},{\"verse\":1,\"phrase\":\"holy ones\",\"lemma\":\"ἅγιος\",\"kind\":\"departure\",\"traditional\":\"saints\",\"note\":\"Paul uses this word for all believers as people set apart for God, echoing the Septuagint's language for Israel; here it means the community in Jerusalem. “Saints” now suggests canonized individuals or people of exceptional virtue. Many translations keep “saints”; others have “God's people.”\"},{\"verse\":4,\"phrase\":\"undertaking\",\"lemma\":\"ὑπόστασις\",\"kind\":\"departure\",\"traditional\":\"confidence\",\"note\":\"Most English versions render “in this confidence” or “for being so confident.” In the usage of the period the word normally names something objective, such as a plan or project one has taken on, and lexicographers have questioned whether the sense “confidence” is securely attested. The point is disputed, and the traditional rendering is still defended.\"},{\"verse\":5,\"phrase\":\"bountiful gift\",\"lemma\":\"εὐλογία\",\"kind\":\"background\",\"traditional\":\"bounty / generous gift / willing gift\",\"note\":\"The Greek word is the ordinary word for “blessing,” which the Septuagint also uses for a generous present. Paul plays on it in verse 6, where “bountifully” is literally “on the basis of blessings.”\"},{\"verse\":5,\"phrase\":\"something extorted\",\"lemma\":\"πλεονεξία\",\"kind\":\"ambiguity\",\"traditional\":\"covetousness / an exaction\",\"note\":\"The word normally means greed. Here it may describe a gift wrung out of the Corinthians by pressure, as rendered, or a gift spoiled by their own grasping reluctance (“as one grudgingly given”). Translations are divided between the two.\"},{\"verse\":7,\"phrase\":\"God loves a cheerful giver\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"Paul echoes a line found in the Greek version of Proverbs 22:8 but not in the Hebrew text: “God blesses a cheerful and giving man.” He does not mark it as a quotation.\"},{\"verse\":9,\"phrase\":\"his righteousness endures forever\",\"lemma\":\"δικαιοσύνη\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"The quotation is Psalm 112:9 (111:9 in the Greek numbering), where “he” is the person who fears the Lord and gives generously. Greek has a single word-family where English has both “righteousness” and “justice”; here it means right conduct, shown in generosity to the poor. Some interpreters take Paul to be applying the line to God.\"},{\"verse\":11,\"phrase\":\"generosity\",\"lemma\":\"ἁπλότης\",\"kind\":\"ambiguity\",\"traditional\":\"bountifulness / liberality / generosity\",\"note\":\"The word's basic meaning is singleness or sincerity, and in contexts of giving most translations take it as openhanded generosity, as here and in verse 13. Some lexicographers doubt that “generosity” is an established sense and prefer “sincere goodwill” or “wholeheartedness.”\"},{\"verse\":12,\"phrase\":\"public benefaction\",\"lemma\":\"λειτουργία\",\"kind\":\"departure\",\"traditional\":\"service / ministry\",\"note\":\"Traditional versions render the phrase “the administration of this service” or “the ministry of this service.” In Greek cities the word named a public service that a citizen funded at personal expense; the Septuagint uses it for priestly service in the temple. Paul's readers may have heard either or both, and “public benefaction” follows the civic sense, which suits a collection of money.\"},{\"verse\":13,\"phrase\":\"they will glorify God\",\"lemma\":\"δοξάζω\",\"kind\":\"ambiguity\",\"traditional\":\"\",\"note\":\"The Greek has a participle (“glorifying God”) with no stated subject. Most translations take it to be the believers in Jerusalem who receive the gift, as here; some take it to be the Corinthians (“you glorify God”).\"},{\"verse\":13,\"phrase\":\"good news\",\"lemma\":\"εὐαγγέλιον\",\"kind\":\"departure\",\"traditional\":\"gospel\",\"note\":\"The Greek was an ordinary word for a public announcement of good news, also used of imperial proclamations. “Gospel” has become a religious term or a book title. Many modern translations alternate between the two.\"},{\"verse\":15,\"phrase\":\"Thanks be to God\",\"lemma\":\"χάρις\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"“Thanks” here is the same Greek word translated “grace” in verses 8 and 14. Paul plays on its range throughout his appeal for the collection: God's grace, the gracious gift, and the gratitude that returns to God. The “indescribable gift” is not specified; most take it to be Christ or God's grace given in him.\"}],\"candidates\":[{\"lemma\":\"χάρις\",\"rendering\":\"grace (v. 8, 14); thanks (v. 15)\",\"verse\":8,\"reason\":\"In 2 Corinthians 8–9 and elsewhere the word shifts between grace, gracious gift, favor and thanks, and translators divide on how far to keep one English word.\"},{\"lemma\":\"ἁπλότης\",\"rendering\":\"generosity\",\"verse\":11,\"reason\":\"Translations vary between generosity, sincerity, simplicity and singleness across Romans 12:8, 2 Corinthians 1:12, 8:2, 9:11, 9:13, 11:3, Ephesians 6:5 and Colossians 3:22, and the “generosity” sense is lexically disputed.\"},{\"lemma\":\"λειτουργία\",\"rendering\":\"public benefaction\",\"verse\":12,\"reason\":\"The word and its cognates recur in Luke, Paul and Hebrews with civic and priestly overtones, and renderings vary among service, ministry, worship and offering.\"},{\"lemma\":\"καυχάομαι\",\"rendering\":\"boast\",\"verse\":2,\"reason\":\"This verb and its nouns are frequent in Paul, and versions vary among boast, glory, take pride and rejoice, which hides a connected theme.\"},{\"lemma\":\"περισσεύω\",\"rendering\":\"abound\",\"verse\":8,\"reason\":\"Common in Paul and the Gospels, with versions alternating among abound, overflow, excel and have plenty, which obscures deliberate repetition.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For about the service to the holy ones it is superfluous for me to write to you,"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "for I know your eagerness, which I boast about on your behalf to the Macedonians, saying that Achaia has been ready since last year; and your zeal has stirred up most of them."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But I am sending the brothers so that our boast about you may not prove empty in this matter, so that you may be ready, just as I said you would be."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Otherwise, if Macedonians come with me and find you unprepared, we—to say nothing of you—would be put to shame in this undertaking."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So I considered it necessary to urge the brothers to go ahead to you and arrange ahead of time the bountiful gift you promised beforehand, so that it may be ready as a bountiful gift and not as something extorted."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The point is this: whoever sows sparingly will also reap sparingly, and whoever sows bountifully will also reap bountifully."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Each of you should give as you have decided in your heart, not reluctantly or under compulsion, for God loves a cheerful giver."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And God is able to make all grace abound to you, so that in all things, at all times, you may have all you need and abound in every good work."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "As it is written:"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“He scattered freely, he gave to the poor; his righteousness endures forever.”"
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now he who supplies seed to the sower and bread for food will supply and multiply your seed and increase the harvest of your righteousness."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "You will be enriched in every way for every kind of generosity, which through us produces thanksgiving to God."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For the service of this public benefaction not only supplies what the holy ones lack but also abounds through many thanksgivings to God."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Through the proof that this service provides, they will glorify God for the obedience that goes with your confession of the good news of Christ and for the generosity of your sharing with them and with all,"
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and in their prayer for you they will long for you because of the surpassing grace of God upon you."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Thanks be to God for his indescribable gift!"
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "service",
+    "lemma": "διακονία",
+    "kind": "departure",
+    "traditional": "ministry / ministering",
+    "note": "The Greek word was an everyday term for service or for a task carried out on someone's behalf, not for a religious office. Here it refers to the collection Paul was organizing for the believers in Jerusalem. Most English versions use “ministry” for this word in church contexts and vary it elsewhere."
+   },
+   {
+    "verse": 1,
+    "phrase": "holy ones",
+    "lemma": "ἅγιος",
+    "kind": "departure",
+    "traditional": "saints",
+    "note": "Paul uses this word for all believers as people set apart for God, echoing the Septuagint's language for Israel; here it means the community in Jerusalem. “Saints” now suggests canonized individuals or people of exceptional virtue. Many translations keep “saints”; others have “God's people.”"
+   },
+   {
+    "verse": 4,
+    "phrase": "undertaking",
+    "lemma": "ὑπόστασις",
+    "kind": "departure",
+    "traditional": "confidence",
+    "note": "Most English versions render “in this confidence” or “for being so confident.” In the usage of the period the word normally names something objective, such as a plan or project one has taken on, and lexicographers have questioned whether the sense “confidence” is securely attested. The point is disputed, and the traditional rendering is still defended."
+   },
+   {
+    "verse": 5,
+    "phrase": "bountiful gift",
+    "lemma": "εὐλογία",
+    "kind": "background",
+    "traditional": "bounty / generous gift / willing gift",
+    "note": "The Greek word is the ordinary word for “blessing,” which the Septuagint also uses for a generous present. Paul plays on it in verse 6, where “bountifully” is literally “on the basis of blessings.”"
+   },
+   {
+    "verse": 5,
+    "phrase": "something extorted",
+    "lemma": "πλεονεξία",
+    "kind": "ambiguity",
+    "traditional": "covetousness / an exaction",
+    "note": "The word normally means greed. Here it may describe a gift wrung out of the Corinthians by pressure, as rendered, or a gift spoiled by their own grasping reluctance (“as one grudgingly given”). Translations are divided between the two."
+   },
+   {
+    "verse": 7,
+    "phrase": "God loves a cheerful giver",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "Paul echoes a line found in the Greek version of Proverbs 22:8 but not in the Hebrew text: “God blesses a cheerful and giving man.” He does not mark it as a quotation."
+   },
+   {
+    "verse": 9,
+    "phrase": "his righteousness endures forever",
+    "lemma": "δικαιοσύνη",
+    "kind": "background",
+    "traditional": "",
+    "note": "The quotation is Psalm 112:9 (111:9 in the Greek numbering), where “he” is the person who fears the Lord and gives generously. Greek has a single word-family where English has both “righteousness” and “justice”; here it means right conduct, shown in generosity to the poor. Some interpreters take Paul to be applying the line to God."
+   },
+   {
+    "verse": 11,
+    "phrase": "generosity",
+    "lemma": "ἁπλότης",
+    "kind": "ambiguity",
+    "traditional": "bountifulness / liberality / generosity",
+    "note": "The word's basic meaning is singleness or sincerity, and in contexts of giving most translations take it as openhanded generosity, as here and in verse 13. Some lexicographers doubt that “generosity” is an established sense and prefer “sincere goodwill” or “wholeheartedness.”"
+   },
+   {
+    "verse": 12,
+    "phrase": "public benefaction",
+    "lemma": "λειτουργία",
+    "kind": "departure",
+    "traditional": "service / ministry",
+    "note": "Traditional versions render the phrase “the administration of this service” or “the ministry of this service.” In Greek cities the word named a public service that a citizen funded at personal expense; the Septuagint uses it for priestly service in the temple. Paul's readers may have heard either or both, and “public benefaction” follows the civic sense, which suits a collection of money."
+   },
+   {
+    "verse": 13,
+    "phrase": "they will glorify God",
+    "lemma": "δοξάζω",
+    "kind": "ambiguity",
+    "traditional": "",
+    "note": "The Greek has a participle (“glorifying God”) with no stated subject. Most translations take it to be the believers in Jerusalem who receive the gift, as here; some take it to be the Corinthians (“you glorify God”)."
+   },
+   {
+    "verse": 13,
+    "phrase": "good news",
+    "lemma": "εὐαγγέλιον",
+    "kind": "departure",
+    "traditional": "gospel",
+    "note": "The Greek was an ordinary word for a public announcement of good news, also used of imperial proclamations. “Gospel” has become a religious term or a book title. Many modern translations alternate between the two."
+   },
+   {
+    "verse": 15,
+    "phrase": "Thanks be to God",
+    "lemma": "χάρις",
+    "kind": "background",
+    "traditional": "",
+    "note": "“Thanks” here is the same Greek word translated “grace” in verses 8 and 14. Paul plays on its range throughout his appeal for the collection: God's grace, the gracious gift, and the gratitude that returns to God. The “indescribable gift” is not specified; most take it to be Christ or God's grace given in him."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "χάρις",
+    "rendering": "grace (v. 8, 14); thanks (v. 15)",
+    "verse": 8,
+    "reason": "In 2 Corinthians 8–9 and elsewhere the word shifts between grace, gracious gift, favor and thanks, and translators divide on how far to keep one English word."
+   },
+   {
+    "lemma": "ἁπλότης",
+    "rendering": "generosity",
+    "verse": 11,
+    "reason": "Translations vary between generosity, sincerity, simplicity and singleness across Romans 12:8, 2 Corinthians 1:12, 8:2, 9:11, 9:13, 11:3, Ephesians 6:5 and Colossians 3:22, and the “generosity” sense is lexically disputed."
+   },
+   {
+    "lemma": "λειτουργία",
+    "rendering": "public benefaction",
+    "verse": 12,
+    "reason": "The word and its cognates recur in Luke, Paul and Hebrews with civic and priestly overtones, and renderings vary among service, ministry, worship and offering."
+   },
+   {
+    "lemma": "καυχάομαι",
+    "rendering": "boast",
+    "verse": 2,
+    "reason": "This verb and its nouns are frequent in Paul, and versions vary among boast, glory, take pride and rejoice, which hides a connected theme."
+   },
+   {
+    "lemma": "περισσεύω",
+    "rendering": "abound",
+    "verse": 8,
+    "reason": "Common in Paul and the Gospels, with versions alternating among abound, overflow, excel and have plenty, which obscures deliberate repetition."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 4076,
+   "output_tokens": 277
+  },
+  "findings": [],
+  "error": ""
+ }
+}

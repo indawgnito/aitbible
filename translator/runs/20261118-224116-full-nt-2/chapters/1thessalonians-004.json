@@ -1,0 +1,345 @@
+{
+ "id": "1thessalonians-004",
+ "book": "1thessalonians",
+ "chapter": 4,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14awr4A65d1maJ9nu",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 7539,
+  "output_tokens": 9058
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Finally then, brothers and sisters, we ask and urge you in the Lord Jesus: just as you received from us how you ought to walk and please God—as indeed you are walking—do so more and more.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For you know what instructions we gave you through the Lord Jesus.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For this is the will of God, your holiness: that you keep away from sexual immorality;\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"that each of you know how to gain control of your own body in holiness and honor,\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"not in lustful passion like the Gentiles who do not know God;\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"that no one overstep and take advantage of a brother or sister in this matter, because the Lord is an avenger in all these things, just as we told you before and solemnly warned you.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For God did not call us for impurity but in holiness.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Therefore whoever rejects this is rejecting not a human being but God, who also gives his Holy Spirit to you.\"}]},{\"verse\":9,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now about love for the brothers and sisters, you have no need for anyone to write to you, for you yourselves are taught by God to love one another;\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and indeed you do this toward all the brothers and sisters throughout Macedonia. But we urge you, brothers and sisters, to do so more and more,\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and to make it your ambition to live quietly, to mind your own affairs, and to work with your hands, just as we instructed you,\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"so that you may walk properly toward outsiders and have need of no one.\"}]},{\"verse\":13,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But we do not want you to be uninformed, brothers and sisters, about those who are asleep, so that you will not grieve like the rest, who have no hope.\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For if we believe that Jesus died and rose, so also, through Jesus, God will bring with him those who have fallen asleep.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For this we tell you by a word of the Lord: we who are alive, who are left until the coming of the Lord, will certainly not go ahead of those who have fallen asleep.\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For the Lord himself, with a shout of command, with an archangel’s voice and with God’s trumpet, will come down from heaven, and the dead in Christ will rise first;\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"then we who are alive, who are left, will be snatched up together with them in clouds to meet the Lord in the air; and so we will always be with the Lord.\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So then, encourage one another with these words.\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"brothers and sisters\",\"lemma\":\"ἀδελφός\",\"kind\":\"departure\",\"traditional\":\"brothers (older versions: brethren)\",\"note\":\"The Greek plural was the ordinary way to address a mixed group of men and women, and Paul is writing to the whole congregation. “Brothers” alone now suggests men only, so the fuller phrase is used; several modern translations do the same. The singular in verse 6 is rendered “a brother or sister” on the same principle.\"},{\"verse\":3,\"phrase\":\"holiness\",\"lemma\":\"ἁγιασμός\",\"kind\":\"departure\",\"traditional\":\"sanctification\",\"note\":\"The Greek noun, used three times in verses 3–7, means the state or process of being set apart for God. “Sanctification” is the traditional rendering but has become a technical theological term; “holiness” is plainer and lets the reader hear the link with the “Holy” Spirit in verse 8, which is the same word family.\"},{\"verse\":4,\"phrase\":\"gain control of your own body\",\"lemma\":\"σκεῦος\",\"kind\":\"ambiguity\",\"traditional\":\"possess his vessel\",\"note\":\"Literally “to acquire (or possess) his own vessel.” “Vessel” is a metaphor that can mean one’s own body (possibly with a specifically sexual reference) or one’s wife, giving “to take a wife for himself.” The verb more often means “acquire,” which favors the second reading, but most recent translations take it of mastering one’s body. Scholars remain divided.\"},{\"verse\":5,\"phrase\":\"Gentiles\",\"lemma\":\"ἔθνος\",\"kind\":\"background\",\"traditional\":\"Gentiles\",\"note\":\"The Greek word means “nations” or “peoples”; in the plural it is the standard Jewish term for the non-Jewish peoples, and is rendered “nations” or “Gentiles” in this translation according to sense. Most of the Thessalonian believers were themselves non-Jews by birth, so Paul is using the word for those outside the community who do not know Israel’s God.\"},{\"verse\":6,\"phrase\":\"in this matter\",\"lemma\":\"πρᾶγμα\",\"kind\":\"ambiguity\",\"traditional\":\"in any matter / in this matter\",\"note\":\"The Greek is literally “in the matter.” Most interpreters take it as the sexual conduct just discussed, so that the wrong is done to another person through sexual misconduct. The word can also mean a business dealing, and some read the verse as a new topic, fraud in commerce.\"},{\"verse\":12,\"phrase\":\"have need of no one\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"have lack of nothing / be dependent on no one\",\"note\":\"The Greek form can be masculine (“no one”) or neuter (“nothing”). The first gives the sense of not depending on others for support; the second, of lacking nothing. Either fits the instruction to work with one’s own hands.\"},{\"verse\":13,\"phrase\":\"those who are asleep\",\"lemma\":\"κοιμάομαι\",\"kind\":\"background\",\"traditional\":\"those who are asleep\",\"note\":\"Sleep was a common euphemism for death in both Greek and Jewish usage, and the readers would have understood at once that Paul means members of the community who have died. The image is kept because Paul uses it deliberately alongside the language of rising.\"},{\"verse\":14,\"phrase\":\"through Jesus\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"them also which sleep in Jesus\",\"note\":\"The phrase “through Jesus” can attach to “will bring” (God will bring them through Jesus), as here, or to “fallen asleep” (those who have fallen asleep through Jesus, that is, who died as his people). The traditional rendering “asleep in Jesus” follows the second reading. The Greek word order allows either.\"},{\"verse\":15,\"phrase\":\"by a word of the Lord\",\"lemma\":\"λόγος\",\"kind\":\"ambiguity\",\"traditional\":\"by the word of the Lord\",\"note\":\"Paul claims the Lord’s authority for what follows. This may refer to a saying of Jesus handed down in the tradition (whether or not it is recorded in the Gospels) or to a revelation given through a Christian prophet, possibly Paul himself. The Greek does not settle the question.\"},{\"verse\":15,\"phrase\":\"coming\",\"lemma\":\"παρουσία\",\"kind\":\"background\",\"traditional\":\"coming\",\"note\":\"The Greek word means “arrival” or “presence,” and was the regular term for the official visit of a king or emperor to a city. A first-century reader would likely have heard that royal overtone in “the coming of the Lord.”\"},{\"verse\":17,\"phrase\":\"snatched up\",\"lemma\":\"ἁρπάζω\",\"kind\":\"departure\",\"traditional\":\"caught up\",\"note\":\"The verb means to seize or carry off suddenly and forcefully; “snatched” conveys this more directly than the traditional “caught up.” The Latin translation of this word is the source of the later term “rapture.”\"},{\"verse\":17,\"phrase\":\"to meet the Lord\",\"lemma\":\"ἀπάντησις\",\"kind\":\"background\",\"traditional\":\"to meet the Lord\",\"note\":\"The Greek noun was often used for the custom of a city’s residents going out to welcome an arriving dignitary and escort him in. Many scholars think Paul’s picture draws on that custom, with believers going out to meet the arriving Lord; others doubt that the word carries this technical sense here. The text itself says only that from then on they will always be with the Lord.\"}],\"candidates\":[{\"lemma\":\"ἀδελφός\",\"rendering\":\"brothers and sisters (plural address); brother or sister (generic singular)\",\"verse\":1,\"reason\":\"Occurs throughout the letters and Acts as an address to mixed congregations, and translators split between “brothers” and “brothers and sisters,” so one policy is needed.\"},{\"lemma\":\"περιπατέω\",\"rendering\":\"walk\",\"verse\":1,\"reason\":\"The figurative sense (conduct one’s life) recurs across Paul and John, and translations vary between “walk,” “live,” and “behave”; the Semitic idiom should be kept or dropped consistently.\"},{\"lemma\":\"ἁγιασμός\",\"rendering\":\"holiness\",\"verse\":3,\"reason\":\"Rendered “sanctification” or “holiness” in different translations and needs to be coordinated with ἁγιωσύνη, ἁγιάζω, and the ἅγιος entry.\"},{\"lemma\":\"πορνεία\",\"rendering\":\"sexual immorality\",\"verse\":3,\"reason\":\"Recurs across the Gospels, Acts, the letters, and Revelation with renderings ranging from “fornication” to “sexual immorality” to “prostitution,” and readers would be misled by variation.\"},{\"lemma\":\"παρακαλέω\",\"rendering\":\"urge (exhortation); encourage (consolation)\",\"verse\":1,\"reason\":\"Very frequent, with senses ranging over urge, appeal, encourage, and comfort; a fixed split by sense is needed so chapters do not drift.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Finally then, brothers and sisters, we ask and urge you in the Lord Jesus: just as you received from us how you ought to walk and please God—as indeed you are walking—do so more and more."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For you know what instructions we gave you through the Lord Jesus."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For this is the will of God, your holiness: that you keep away from sexual immorality;"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "that each of you know how to gain control of your own body in holiness and honor,"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "not in lustful passion like the Gentiles who do not know God;"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "that no one overstep and take advantage of a brother or sister in this matter, because the Lord is an avenger in all these things, just as we told you before and solemnly warned you."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For God did not call us for impurity but in holiness."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Therefore whoever rejects this is rejecting not a human being but God, who also gives his Holy Spirit to you."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now about love for the brothers and sisters, you have no need for anyone to write to you, for you yourselves are taught by God to love one another;"
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and indeed you do this toward all the brothers and sisters throughout Macedonia. But we urge you, brothers and sisters, to do so more and more,"
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and to make it your ambition to live quietly, to mind your own affairs, and to work with your hands, just as we instructed you,"
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "so that you may walk properly toward outsiders and have need of no one."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But we do not want you to be uninformed, brothers and sisters, about those who are asleep, so that you will not grieve like the rest, who have no hope."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For if we believe that Jesus died and rose, so also, through Jesus, God will bring with him those who have fallen asleep."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For this we tell you by a word of the Lord: we who are alive, who are left until the coming of the Lord, will certainly not go ahead of those who have fallen asleep."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For the Lord himself, with a shout of command, with an archangel’s voice and with God’s trumpet, will come down from heaven, and the dead in Christ will rise first;"
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "then we who are alive, who are left, will be snatched up together with them in clouds to meet the Lord in the air; and so we will always be with the Lord."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So then, encourage one another with these words."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "brothers and sisters",
+    "lemma": "ἀδελφός",
+    "kind": "departure",
+    "traditional": "brothers (older versions: brethren)",
+    "note": "The Greek plural was the ordinary way to address a mixed group of men and women, and Paul is writing to the whole congregation. “Brothers” alone now suggests men only, so the fuller phrase is used; several modern translations do the same. The singular in verse 6 is rendered “a brother or sister” on the same principle."
+   },
+   {
+    "verse": 3,
+    "phrase": "holiness",
+    "lemma": "ἁγιασμός",
+    "kind": "departure",
+    "traditional": "sanctification",
+    "note": "The Greek noun, used three times in verses 3–7, means the state or process of being set apart for God. “Sanctification” is the traditional rendering but has become a technical theological term; “holiness” is plainer and lets the reader hear the link with the “Holy” Spirit in verse 8, which is the same word family."
+   },
+   {
+    "verse": 4,
+    "phrase": "gain control of your own body",
+    "lemma": "σκεῦος",
+    "kind": "ambiguity",
+    "traditional": "possess his vessel",
+    "note": "Literally “to acquire (or possess) his own vessel.” “Vessel” is a metaphor that can mean one’s own body (possibly with a specifically sexual reference) or one’s wife, giving “to take a wife for himself.” The verb more often means “acquire,” which favors the second reading, but most recent translations take it of mastering one’s body. Scholars remain divided."
+   },
+   {
+    "verse": 5,
+    "phrase": "Gentiles",
+    "lemma": "ἔθνος",
+    "kind": "background",
+    "traditional": "Gentiles",
+    "note": "The Greek word means “nations” or “peoples”; in the plural it is the standard Jewish term for the non-Jewish peoples, and is rendered “nations” or “Gentiles” in this translation according to sense. Most of the Thessalonian believers were themselves non-Jews by birth, so Paul is using the word for those outside the community who do not know Israel’s God."
+   },
+   {
+    "verse": 6,
+    "phrase": "in this matter",
+    "lemma": "πρᾶγμα",
+    "kind": "ambiguity",
+    "traditional": "in any matter / in this matter",
+    "note": "The Greek is literally “in the matter.” Most interpreters take it as the sexual conduct just discussed, so that the wrong is done to another person through sexual misconduct. The word can also mean a business dealing, and some read the verse as a new topic, fraud in commerce."
+   },
+   {
+    "verse": 12,
+    "phrase": "have need of no one",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "have lack of nothing / be dependent on no one",
+    "note": "The Greek form can be masculine (“no one”) or neuter (“nothing”). The first gives the sense of not depending on others for support; the second, of lacking nothing. Either fits the instruction to work with one’s own hands."
+   },
+   {
+    "verse": 13,
+    "phrase": "those who are asleep",
+    "lemma": "κοιμάομαι",
+    "kind": "background",
+    "traditional": "those who are asleep",
+    "note": "Sleep was a common euphemism for death in both Greek and Jewish usage, and the readers would have understood at once that Paul means members of the community who have died. The image is kept because Paul uses it deliberately alongside the language of rising."
+   },
+   {
+    "verse": 14,
+    "phrase": "through Jesus",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "them also which sleep in Jesus",
+    "note": "The phrase “through Jesus” can attach to “will bring” (God will bring them through Jesus), as here, or to “fallen asleep” (those who have fallen asleep through Jesus, that is, who died as his people). The traditional rendering “asleep in Jesus” follows the second reading. The Greek word order allows either."
+   },
+   {
+    "verse": 15,
+    "phrase": "by a word of the Lord",
+    "lemma": "λόγος",
+    "kind": "ambiguity",
+    "traditional": "by the word of the Lord",
+    "note": "Paul claims the Lord’s authority for what follows. This may refer to a saying of Jesus handed down in the tradition (whether or not it is recorded in the Gospels) or to a revelation given through a Christian prophet, possibly Paul himself. The Greek does not settle the question."
+   },
+   {
+    "verse": 15,
+    "phrase": "coming",
+    "lemma": "παρουσία",
+    "kind": "background",
+    "traditional": "coming",
+    "note": "The Greek word means “arrival” or “presence,” and was the regular term for the official visit of a king or emperor to a city. A first-century reader would likely have heard that royal overtone in “the coming of the Lord.”"
+   },
+   {
+    "verse": 17,
+    "phrase": "snatched up",
+    "lemma": "ἁρπάζω",
+    "kind": "departure",
+    "traditional": "caught up",
+    "note": "The verb means to seize or carry off suddenly and forcefully; “snatched” conveys this more directly than the traditional “caught up.” The Latin translation of this word is the source of the later term “rapture.”"
+   },
+   {
+    "verse": 17,
+    "phrase": "to meet the Lord",
+    "lemma": "ἀπάντησις",
+    "kind": "background",
+    "traditional": "to meet the Lord",
+    "note": "The Greek noun was often used for the custom of a city’s residents going out to welcome an arriving dignitary and escort him in. Many scholars think Paul’s picture draws on that custom, with believers going out to meet the arriving Lord; others doubt that the word carries this technical sense here. The text itself says only that from then on they will always be with the Lord."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "ἀδελφός",
+    "rendering": "brothers and sisters (plural address); brother or sister (generic singular)",
+    "verse": 1,
+    "reason": "Occurs throughout the letters and Acts as an address to mixed congregations, and translators split between “brothers” and “brothers and sisters,” so one policy is needed."
+   },
+   {
+    "lemma": "περιπατέω",
+    "rendering": "walk",
+    "verse": 1,
+    "reason": "The figurative sense (conduct one’s life) recurs across Paul and John, and translations vary between “walk,” “live,” and “behave”; the Semitic idiom should be kept or dropped consistently."
+   },
+   {
+    "lemma": "ἁγιασμός",
+    "rendering": "holiness",
+    "verse": 3,
+    "reason": "Rendered “sanctification” or “holiness” in different translations and needs to be coordinated with ἁγιωσύνη, ἁγιάζω, and the ἅγιος entry."
+   },
+   {
+    "lemma": "πορνεία",
+    "rendering": "sexual immorality",
+    "verse": 3,
+    "reason": "Recurs across the Gospels, Acts, the letters, and Revelation with renderings ranging from “fornication” to “sexual immorality” to “prostitution,” and readers would be misled by variation."
+   },
+   {
+    "lemma": "παρακαλέω",
+    "rendering": "urge (exhortation); encourage (consolation)",
+    "verse": 1,
+    "reason": "Very frequent, with senses ranging over urge, appeal, encourage, and comfort; a fixed split by sense is needed so chapters do not drift."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 4303,
+   "output_tokens": 305
+  },
+  "findings": [],
+  "error": ""
+ }
+}

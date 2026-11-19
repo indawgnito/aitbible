@@ -1,0 +1,557 @@
+{
+ "id": "acts-017",
+ "book": "acts",
+ "chapter": 17,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14dfknE744KDC3npB",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 11111,
+  "output_tokens": 21424
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"After traveling through Amphipolis and Apollonia, they came to Thessalonica, where there was a synagogue of the Jews.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"As was his custom, Paul went in to them, and on three Sabbaths he reasoned with them from the Scriptures,\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"explaining and setting out that the Messiah had to suffer and rise from the dead, and saying,\"},{\"speaker\":\"other\",\"text\":\"“This Jesus, whom I am proclaiming to you, is the Messiah.”\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Some of them were persuaded and joined Paul and Silas, as did a large number of the Greeks who worshiped God and not a few of the leading women.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But the Jews grew jealous, and taking along some bad characters from among the marketplace loafers, they formed a mob and set the city in an uproar. They descended on Jason’s house, seeking to bring them out before the people’s assembly.\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When they did not find them, they dragged Jason and some brothers before the city magistrates, shouting,\"},{\"speaker\":\"other\",\"text\":\"“These men who have stirred up unrest across the world are now here as well,\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"and Jason has taken them in. They are all acting against the decrees of Caesar, saying that there is another king, Jesus.”\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They agitated the crowd and the city magistrates as they heard these things,\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and after taking a bond from Jason and the others, the magistrates released them.\"}]},{\"verse\":10,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The brothers immediately sent Paul and Silas away by night to Berea. When they arrived, they went into the synagogue of the Jews.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"These were more noble-minded than those in Thessalonica; they received the word with all eagerness, examining the Scriptures every day to see whether these things were so.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Many of them therefore believed, as did not a few of the Greeks—women of high standing as well as men.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But when the Jews from Thessalonica learned that the word of God had been proclaimed by Paul in Berea as well, they came there too, stirring up and agitating the crowds.\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then the brothers immediately sent Paul away to go as far as the sea, but Silas and Timothy both stayed there.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Those who escorted Paul brought him as far as Athens, and after receiving instructions for Silas and Timothy to come to him as quickly as possible, they left.\"}]},{\"verse\":16,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"While Paul was waiting for them in Athens, his spirit was provoked within him as he saw that the city was full of idols.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So he reasoned in the synagogue with the Jews and those who worshiped God, and in the marketplace every day with those who happened to be there.\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Some of the Epicurean and Stoic philosophers also debated with him. Some said,\"},{\"speaker\":\"other\",\"text\":\"“What is this scavenger of scraps trying to say?”\"},{\"speaker\":\"narrator\",\"text\":\"Others said,\"},{\"speaker\":\"other\",\"text\":\"“He seems to be a proclaimer of foreign deities.”\"},{\"speaker\":\"narrator\",\"text\":\"This was because he was announcing the good news about Jesus and the resurrection.\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They took hold of him and brought him to the Areopagus, saying,\"},{\"speaker\":\"other\",\"text\":\"“May we know what this new teaching is that you are presenting?\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"For you are bringing some strange things to our ears, so we want to know what these things mean.”\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now all the Athenians and the foreigners staying there used to spend their time on nothing other than telling or hearing the latest thing.\"}]},{\"verse\":22,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then Paul stood in the midst of the Areopagus and said,\"},{\"speaker\":\"other\",\"text\":\"“Men of Athens, I see that in every way you are very religious.\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"For as I walked around and looked carefully at your objects of worship, I even found an altar with the inscription ‘To an unknown god.’ So what you worship without knowing it, this I proclaim to you.\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"The God who made the world and everything in it, being Lord of heaven and earth, does not live in temples made by hands,\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"nor is he served by human hands as if he needed anything, since he himself gives to all life and breath and everything.\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"From one he made every nation of humankind to live on the whole face of the earth, having determined prescribed times and the boundaries of where they would live,\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"so that they would seek God, if perhaps they might grope for him and find him—though he is in fact not far from each one of us.\"}]},{\"verse\":28,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"For in him we live and move and exist, as even some of your own poets have said, ‘For we too are his offspring.’\"}]},{\"verse\":29,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Since then we are God’s offspring, we ought not to think that the divine is like gold or silver or stone, something carved by human skill and imagination.\"}]},{\"verse\":30,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"God has overlooked the times of ignorance, but now he commands all people everywhere to turn back,\"}]},{\"verse\":31,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"because he has set a day on which he is going to judge the world with justice by a man he has appointed, giving proof to all by raising him from the dead.”\"}]},{\"verse\":32,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When they heard of a resurrection of the dead, some began to scoff, but others said,\"},{\"speaker\":\"other\",\"text\":\"“We will hear you about this again.”\"}]},{\"verse\":33,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So Paul went out from their midst.\"}]},{\"verse\":34,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But some men attached themselves to him and believed, among them Dionysius the Areopagite, and also a woman named Damaris, and others with them.\"}]}],\"notes\":[{\"verse\":3,\"phrase\":\"the Messiah\",\"lemma\":\"Χριστός\",\"kind\":\"departure\",\"traditional\":\"Christ\",\"note\":\"The Greek word is the title of the anointed king Israel expected. Where that title is itself the point under discussion, as in Paul’s synagogue argument here, this translation uses “Messiah”; where the word works as a name alongside “Jesus,” it keeps “Christ.” Several modern translations make the same split.\"},{\"verse\":4,\"phrase\":\"the Greeks who worshiped God\",\"lemma\":\"σέβω\",\"kind\":\"background\",\"traditional\":\"devout Greeks\",\"note\":\"Luke uses “those who worship” almost as a label for non-Jews who attended the synagogue and honored Israel’s God without becoming full converts. The same group appears in verse 17. They were often among the first to respond to Paul’s message.\"},{\"verse\":6,\"phrase\":\"stirred up unrest across the world\",\"lemma\":\"ἀναστατόω\",\"kind\":\"departure\",\"traditional\":\"turned the world upside down\",\"note\":\"The verb is used of political agitation and revolt; Luke uses it again of a rebel leader in Acts 21:38. The traditional phrase has become almost a compliment in English, but in the accusers’ mouths it is a charge of sedition, which fits the accusation about Caesar that follows. “World” here is the inhabited world, in practice the Roman empire.\"},{\"verse\":6,\"phrase\":\"city magistrates\",\"lemma\":\"πολιτάρχης\",\"kind\":\"background\",\"traditional\":\"rulers of the city\",\"note\":\"Luke uses the specific title “politarchs.” It is attested in inscriptions as the title of the chief magistrates in Macedonian cities, including Thessalonica.\"},{\"verse\":18,\"phrase\":\"scavenger of scraps\",\"lemma\":\"σπερμολόγος\",\"kind\":\"departure\",\"traditional\":\"babbler\",\"note\":\"The word was used of birds that pick up seed, and then as an insult for someone who picks up scraps of other people’s ideas and passes them off as learning. “Babbler” suggests mere chatter; the sneer is rather that Paul is a second-hand dabbler with no real philosophy. Standard lexicons offer glosses such as “scrapmonger.”\"},{\"verse\":18,\"phrase\":\"foreign deities\",\"lemma\":\"δαιμόνιον\",\"kind\":\"background\",\"traditional\":\"strange gods\",\"note\":\"On Greek lips this word means divine beings in general, not “demons” as elsewhere in the New Testament. The charge recalls the famous accusation against Socrates of introducing new divinities to Athens. Some interpreters think the hearers took “Jesus and Resurrection” (Anastasis in Greek) for a pair of deities; this is possible but uncertain.\"},{\"verse\":18,\"phrase\":\"announcing the good news\",\"lemma\":\"εὐαγγελίζω\",\"kind\":\"departure\",\"traditional\":\"preached / preaching the gospel\",\"note\":\"The Greek verb was an ordinary word for publicly announcing good news. “Gospel” has become a religious term in English, so this translation uses “good news,” as many modern versions do.\"},{\"verse\":19,\"phrase\":\"the Areopagus\",\"lemma\":\"Ἄρειος Πάγος\",\"kind\":\"ambiguity\",\"traditional\":\"Areopagus / Mars’ Hill\",\"note\":\"The name means “Hill of Ares,” a rocky rise below the Acropolis, and it also names the ancient Athenian council that originally met there and that still had standing in religious and civic matters in Roman times. It is disputed whether Paul was taken to the hill for an informal hearing or brought before the council. “In the midst of the Areopagus” (verse 22) and the mention of Dionysius “the Areopagite,” a council member (verse 34), favor the council, though Luke does not describe a formal trial.\"},{\"verse\":22,\"phrase\":\"very religious\",\"lemma\":\"δεισιδαίμων\",\"kind\":\"ambiguity\",\"traditional\":\"very religious (KJV: too superstitious)\",\"note\":\"The Greek word can be approving (“devout toward the gods”) or disparaging (“superstitious”). At the opening of a speech seeking a hearing, the neutral or complimentary sense is the more likely, and most modern translations take it so. Luke’s readers, having been told of Paul’s distress at the idols, may also have heard the double edge.\"},{\"verse\":26,\"phrase\":\"From one\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"of one blood\",\"note\":\"Many later manuscripts read “from one blood,” which the King James Version follows. The earliest witnesses have simply “from one,” and SBLGNT prints that. The phrase most naturally refers to one man, Adam, though the Greek does not say so explicitly.\"},{\"verse\":28,\"phrase\":\"his offspring\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"The quoted line comes from the Phaenomena of Aratus, a poet from Cilicia, Paul’s home region; in the poem “his” refers to Zeus. A very similar line occurs in Cleanthes’ Hymn to Zeus, which may explain the plural “poets.” The preceding words, “in him we live and move and exist,” are sometimes attributed to the Cretan poet Epimenides, but that attribution is uncertain.\"},{\"verse\":30,\"phrase\":\"turn back\",\"lemma\":\"μετανοέω\",\"kind\":\"departure\",\"traditional\":\"repent\",\"note\":\"“Repent” in modern English centers on feeling sorry. The Greek word, shaped by the prophets’ call to “return” to God, means a change of direction in mind and conduct; here it means turning from idols to the living God. Most translations keep “repent” as an established term.\"},{\"verse\":31,\"phrase\":\"with justice\",\"lemma\":\"δικαιοσύνη\",\"kind\":\"departure\",\"traditional\":\"in righteousness\",\"note\":\"Greek has one word family where English has two (righteous/just, righteousness/justice). This translation normally uses “righteousness,” but here the subject is fair judging, so “justice” is used. The phrase echoes the Psalms, where God “will judge the world in righteousness” (for example Psalm 96:13; 98:9).\"},{\"verse\":31,\"phrase\":\"proof\",\"lemma\":\"πίστις\",\"kind\":\"register-exception\",\"traditional\":\"assurance\",\"note\":\"The Greek noun is the one this translation normally renders “faith.” Here it stands in a set expression, “to furnish pistis,” which in the Greek of the period meant to supply a pledge or proof, and “faith” would not make sense in English. A minority of interpreters read “offering faith to all,” but the idiom is well established and most translations render “proof” or “assurance.”\"}],\"candidates\":[{\"lemma\":\"ἀδελφός\",\"rendering\":\"brothers\",\"verse\":6,\"reason\":\"The plural for fellow believers recurs throughout Acts and the letters, and translations split between “brothers,” “brothers and sisters” and “believers.”\"},{\"lemma\":\"οἰκουμένη\",\"rendering\":\"world\",\"verse\":6,\"reason\":\"It means the inhabited world, often in effect the Roman empire, and is easily confused with κόσμος if both are simply “world.”\"},{\"lemma\":\"σέβω\",\"rendering\":\"who worshiped God\",\"verse\":4,\"reason\":\"The participle is Luke’s semi-technical label for Gentile synagogue adherents across Acts and should match the rendering of φοβούμενοι τὸν θεόν.\"},{\"lemma\":\"διαλέγομαι\",\"rendering\":\"reasoned\",\"verse\":2,\"reason\":\"It recurs through Acts 17–24 for Paul’s synagogue and public discourse, and translations vary between “reasoned,” “argued,” “discussed” and “preached.”\"},{\"lemma\":\"καταγγέλλω\",\"rendering\":\"proclaim\",\"verse\":3,\"reason\":\"It needs to be kept distinct from κηρύσσω and εὐαγγελίζομαι across Acts and Paul, since all three are often rendered “preach.”\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "After traveling through Amphipolis and Apollonia, they came to Thessalonica, where there was a synagogue of the Jews."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "As was his custom, Paul went in to them, and on three Sabbaths he reasoned with them from the Scriptures,"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "explaining and setting out that the Messiah had to suffer and rise from the dead, and saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“This Jesus, whom I am proclaiming to you, is the Messiah.”"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Some of them were persuaded and joined Paul and Silas, as did a large number of the Greeks who worshiped God and not a few of the leading women."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But the Jews grew jealous, and taking along some bad characters from among the marketplace loafers, they formed a mob and set the city in an uproar. They descended on Jason’s house, seeking to bring them out before the people’s assembly."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When they did not find them, they dragged Jason and some brothers before the city magistrates, shouting,"
+     },
+     {
+      "speaker": "other",
+      "text": "“These men who have stirred up unrest across the world are now here as well,"
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "and Jason has taken them in. They are all acting against the decrees of Caesar, saying that there is another king, Jesus.”"
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They agitated the crowd and the city magistrates as they heard these things,"
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and after taking a bond from Jason and the others, the magistrates released them."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The brothers immediately sent Paul and Silas away by night to Berea. When they arrived, they went into the synagogue of the Jews."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "These were more noble-minded than those in Thessalonica; they received the word with all eagerness, examining the Scriptures every day to see whether these things were so."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Many of them therefore believed, as did not a few of the Greeks—women of high standing as well as men."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But when the Jews from Thessalonica learned that the word of God had been proclaimed by Paul in Berea as well, they came there too, stirring up and agitating the crowds."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then the brothers immediately sent Paul away to go as far as the sea, but Silas and Timothy both stayed there."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Those who escorted Paul brought him as far as Athens, and after receiving instructions for Silas and Timothy to come to him as quickly as possible, they left."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "While Paul was waiting for them in Athens, his spirit was provoked within him as he saw that the city was full of idols."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So he reasoned in the synagogue with the Jews and those who worshiped God, and in the marketplace every day with those who happened to be there."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Some of the Epicurean and Stoic philosophers also debated with him. Some said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“What is this scavenger of scraps trying to say?”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "Others said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“He seems to be a proclaimer of foreign deities.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "This was because he was announcing the good news about Jesus and the resurrection."
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They took hold of him and brought him to the Areopagus, saying,"
+     },
+     {
+      "speaker": "other",
+      "text": "“May we know what this new teaching is that you are presenting?"
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "For you are bringing some strange things to our ears, so we want to know what these things mean.”"
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now all the Athenians and the foreigners staying there used to spend their time on nothing other than telling or hearing the latest thing."
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then Paul stood in the midst of the Areopagus and said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Men of Athens, I see that in every way you are very religious."
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "For as I walked around and looked carefully at your objects of worship, I even found an altar with the inscription ‘To an unknown god.’ So what you worship without knowing it, this I proclaim to you."
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "The God who made the world and everything in it, being Lord of heaven and earth, does not live in temples made by hands,"
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "nor is he served by human hands as if he needed anything, since he himself gives to all life and breath and everything."
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "From one he made every nation of humankind to live on the whole face of the earth, having determined prescribed times and the boundaries of where they would live,"
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "so that they would seek God, if perhaps they might grope for him and find him—though he is in fact not far from each one of us."
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "For in him we live and move and exist, as even some of your own poets have said, ‘For we too are his offspring.’"
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Since then we are God’s offspring, we ought not to think that the divine is like gold or silver or stone, something carved by human skill and imagination."
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "God has overlooked the times of ignorance, but now he commands all people everywhere to turn back,"
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "because he has set a day on which he is going to judge the world with justice by a man he has appointed, giving proof to all by raising him from the dead.”"
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When they heard of a resurrection of the dead, some began to scoff, but others said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“We will hear you about this again.”"
+     }
+    ]
+   },
+   {
+    "verse": 33,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So Paul went out from their midst."
+     }
+    ]
+   },
+   {
+    "verse": 34,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But some men attached themselves to him and believed, among them Dionysius the Areopagite, and also a woman named Damaris, and others with them."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 3,
+    "phrase": "the Messiah",
+    "lemma": "Χριστός",
+    "kind": "departure",
+    "traditional": "Christ",
+    "note": "The Greek word is the title of the anointed king Israel expected. Where that title is itself the point under discussion, as in Paul’s synagogue argument here, this translation uses “Messiah”; where the word works as a name alongside “Jesus,” it keeps “Christ.” Several modern translations make the same split."
+   },
+   {
+    "verse": 4,
+    "phrase": "the Greeks who worshiped God",
+    "lemma": "σέβω",
+    "kind": "background",
+    "traditional": "devout Greeks",
+    "note": "Luke uses “those who worship” almost as a label for non-Jews who attended the synagogue and honored Israel’s God without becoming full converts. The same group appears in verse 17. They were often among the first to respond to Paul’s message."
+   },
+   {
+    "verse": 6,
+    "phrase": "stirred up unrest across the world",
+    "lemma": "ἀναστατόω",
+    "kind": "departure",
+    "traditional": "turned the world upside down",
+    "note": "The verb is used of political agitation and revolt; Luke uses it again of a rebel leader in Acts 21:38. The traditional phrase has become almost a compliment in English, but in the accusers’ mouths it is a charge of sedition, which fits the accusation about Caesar that follows. “World” here is the inhabited world, in practice the Roman empire."
+   },
+   {
+    "verse": 6,
+    "phrase": "city magistrates",
+    "lemma": "πολιτάρχης",
+    "kind": "background",
+    "traditional": "rulers of the city",
+    "note": "Luke uses the specific title “politarchs.” It is attested in inscriptions as the title of the chief magistrates in Macedonian cities, including Thessalonica."
+   },
+   {
+    "verse": 18,
+    "phrase": "scavenger of scraps",
+    "lemma": "σπερμολόγος",
+    "kind": "departure",
+    "traditional": "babbler",
+    "note": "The word was used of birds that pick up seed, and then as an insult for someone who picks up scraps of other people’s ideas and passes them off as learning. “Babbler” suggests mere chatter; the sneer is rather that Paul is a second-hand dabbler with no real philosophy. Standard lexicons offer glosses such as “scrapmonger.”"
+   },
+   {
+    "verse": 18,
+    "phrase": "foreign deities",
+    "lemma": "δαιμόνιον",
+    "kind": "background",
+    "traditional": "strange gods",
+    "note": "On Greek lips this word means divine beings in general, not “demons” as elsewhere in the New Testament. The charge recalls the famous accusation against Socrates of introducing new divinities to Athens. Some interpreters think the hearers took “Jesus and Resurrection” (Anastasis in Greek) for a pair of deities; this is possible but uncertain."
+   },
+   {
+    "verse": 18,
+    "phrase": "announcing the good news",
+    "lemma": "εὐαγγελίζω",
+    "kind": "departure",
+    "traditional": "preached / preaching the gospel",
+    "note": "The Greek verb was an ordinary word for publicly announcing good news. “Gospel” has become a religious term in English, so this translation uses “good news,” as many modern versions do."
+   },
+   {
+    "verse": 19,
+    "phrase": "the Areopagus",
+    "lemma": "Ἄρειος Πάγος",
+    "kind": "ambiguity",
+    "traditional": "Areopagus / Mars’ Hill",
+    "note": "The name means “Hill of Ares,” a rocky rise below the Acropolis, and it also names the ancient Athenian council that originally met there and that still had standing in religious and civic matters in Roman times. It is disputed whether Paul was taken to the hill for an informal hearing or brought before the council. “In the midst of the Areopagus” (verse 22) and the mention of Dionysius “the Areopagite,” a council member (verse 34), favor the council, though Luke does not describe a formal trial."
+   },
+   {
+    "verse": 22,
+    "phrase": "very religious",
+    "lemma": "δεισιδαίμων",
+    "kind": "ambiguity",
+    "traditional": "very religious (KJV: too superstitious)",
+    "note": "The Greek word can be approving (“devout toward the gods”) or disparaging (“superstitious”). At the opening of a speech seeking a hearing, the neutral or complimentary sense is the more likely, and most modern translations take it so. Luke’s readers, having been told of Paul’s distress at the idols, may also have heard the double edge."
+   },
+   {
+    "verse": 26,
+    "phrase": "From one",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "of one blood",
+    "note": "Many later manuscripts read “from one blood,” which the King James Version follows. The earliest witnesses have simply “from one,” and SBLGNT prints that. The phrase most naturally refers to one man, Adam, though the Greek does not say so explicitly."
+   },
+   {
+    "verse": 28,
+    "phrase": "his offspring",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "The quoted line comes from the Phaenomena of Aratus, a poet from Cilicia, Paul’s home region; in the poem “his” refers to Zeus. A very similar line occurs in Cleanthes’ Hymn to Zeus, which may explain the plural “poets.” The preceding words, “in him we live and move and exist,” are sometimes attributed to the Cretan poet Epimenides, but that attribution is uncertain."
+   },
+   {
+    "verse": 30,
+    "phrase": "turn back",
+    "lemma": "μετανοέω",
+    "kind": "departure",
+    "traditional": "repent",
+    "note": "“Repent” in modern English centers on feeling sorry. The Greek word, shaped by the prophets’ call to “return” to God, means a change of direction in mind and conduct; here it means turning from idols to the living God. Most translations keep “repent” as an established term."
+   },
+   {
+    "verse": 31,
+    "phrase": "with justice",
+    "lemma": "δικαιοσύνη",
+    "kind": "departure",
+    "traditional": "in righteousness",
+    "note": "Greek has one word family where English has two (righteous/just, righteousness/justice). This translation normally uses “righteousness,” but here the subject is fair judging, so “justice” is used. The phrase echoes the Psalms, where God “will judge the world in righteousness” (for example Psalm 96:13; 98:9)."
+   },
+   {
+    "verse": 31,
+    "phrase": "proof",
+    "lemma": "πίστις",
+    "kind": "register-exception",
+    "traditional": "assurance",
+    "note": "The Greek noun is the one this translation normally renders “faith.” Here it stands in a set expression, “to furnish pistis,” which in the Greek of the period meant to supply a pledge or proof, and “faith” would not make sense in English. A minority of interpreters read “offering faith to all,” but the idiom is well established and most translations render “proof” or “assurance.”"
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "ἀδελφός",
+    "rendering": "brothers",
+    "verse": 6,
+    "reason": "The plural for fellow believers recurs throughout Acts and the letters, and translations split between “brothers,” “brothers and sisters” and “believers.”"
+   },
+   {
+    "lemma": "οἰκουμένη",
+    "rendering": "world",
+    "verse": 6,
+    "reason": "It means the inhabited world, often in effect the Roman empire, and is easily confused with κόσμος if both are simply “world.”"
+   },
+   {
+    "lemma": "σέβω",
+    "rendering": "who worshiped God",
+    "verse": 4,
+    "reason": "The participle is Luke’s semi-technical label for Gentile synagogue adherents across Acts and should match the rendering of φοβούμενοι τὸν θεόν."
+   },
+   {
+    "lemma": "διαλέγομαι",
+    "rendering": "reasoned",
+    "verse": 2,
+    "reason": "It recurs through Acts 17–24 for Paul’s synagogue and public discourse, and translations vary between “reasoned,” “argued,” “discussed” and “preached.”"
+   },
+   {
+    "lemma": "καταγγέλλω",
+    "rendering": "proclaim",
+    "verse": 3,
+    "reason": "It needs to be kept distinct from κηρύσσω and εὐαγγελίζομαι across Acts and Paul, since all three are often rendered “preach.”"
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 7579,
+   "output_tokens": 242
+  },
+  "findings": [],
+  "error": ""
+ }
+}

@@ -1,0 +1,387 @@
+{
+ "id": "2peter-001",
+ "book": "2peter",
+ "chapter": 1,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14dfaaxrnHqFhHaEy",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 8904,
+  "output_tokens": 18718
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Simeon Peter, a slave and apostle of Jesus Christ, to those who have been allotted a faith of equal standing with ours through the righteousness of our God and Savior Jesus Christ:\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"May grace and peace be multiplied to you in the knowledge of God and of Jesus our Lord.\"}]},{\"verse\":3,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"His divine power has granted us everything needed for life and godliness, through the knowledge of the one who called us by his own glory and virtue.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Through these he has granted us his precious and very great promises, so that through them you may become sharers in the divine nature, having escaped the corruption that is in the world because of desire.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For this very reason, make every effort to supply your faith with virtue, virtue with knowledge,\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"knowledge with self-control, self-control with endurance, endurance with godliness,\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"godliness with brotherly affection, and brotherly affection with love.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For when these things are yours and are increasing, they make you neither idle nor unfruitful in the knowledge of our Lord Jesus Christ.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For whoever lacks these things is blind, nearsighted, having forgotten the cleansing of their past sins.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Therefore, brothers and sisters, put all the more effort into making your calling and choosing sure; for if you do these things, you will never stumble.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For in this way entry into the eternal kingdom of our Lord and Savior Jesus Christ will be richly supplied to you.\"}]},{\"verse\":12,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Therefore I intend to keep reminding you of these things, even though you know them and are firmly established in the truth you now have.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"I consider it right, as long as I am in this tent, to stir you up with a reminder,\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"since I know that I will soon put off my tent, as indeed our Lord Jesus Christ made clear to me.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And I will make every effort so that after my departure you will be able at any time to call these things to mind.\"}]},{\"verse\":16,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For we were not following cleverly devised myths when we made known to you the power and coming of our Lord Jesus Christ; rather, we had been eyewitnesses of his majesty.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For he received honor and glory from God the Father when a voice like this was carried to him by the Majestic Glory:\"},{\"speaker\":\"God\",\"text\":\"“This is my Son, my Beloved, with whom I myself am well pleased.”\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"We ourselves heard this voice carried from heaven when we were with him on the holy mountain.\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So we have the prophetic word made more sure. You do well to pay attention to it, as to a lamp shining in a dark place, until the day dawns and the morning star rises in your hearts,\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"knowing this first of all, that no prophecy of Scripture comes from one’s own interpretation,\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"for no prophecy was ever carried by human will; rather, carried along by the Holy Spirit, people spoke from God.\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"Simeon Peter\",\"lemma\":\"Συμεών\",\"kind\":\"textual\",\"traditional\":\"Simon Peter\",\"note\":\"The Greek text followed here has “Simeon,” the Semitic form of the name, which is used of Peter elsewhere only in Acts 15:14. Many manuscripts have the common Greek form “Simon,” which older English versions follow. Most editors judge “Simeon” original because scribes would more readily change the rare form to the familiar one.\"},{\"verse\":1,\"phrase\":\"slave\",\"lemma\":\"δοῦλος\",\"kind\":\"departure\",\"traditional\":\"servant\",\"note\":\"The Greek word is the ordinary term for a slave, a person owned by a master, not a hired servant. Most English versions soften it to “servant,” partly because of the associations of modern slavery. In the Septuagint “slave of the Lord” is also a title of honor for figures such as Moses and David, and both notes are probably heard here.\"},{\"verse\":1,\"phrase\":\"righteousness\",\"lemma\":\"δικαιοσύνη\",\"kind\":\"ambiguity\",\"traditional\":\"righteousness\",\"note\":\"Greek has one word-family where English has two (righteous/just, righteousness/justice). Most translations have “righteousness” here. A number of scholars think the point in this verse is fairness: Christ shows no favoritism in giving later believers a faith of equal standing with that of the apostles, and they would translate “justice.”\"},{\"verse\":1,\"phrase\":\"our God and Savior Jesus Christ\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"our God and Savior Jesus Christ\",\"note\":\"The Greek has one article governing both “God” and “Savior,” which most naturally makes both titles refer to Jesus Christ, just as “our Lord and Savior Jesus Christ” does in verse 11. This is the majority view. The phrase can also be read as naming two persons, “our God, and the Savior Jesus Christ,” as verse 2 distinguishes God from Jesus.\"},{\"verse\":3,\"phrase\":\"virtue\",\"lemma\":\"ἀρετή\",\"kind\":\"departure\",\"traditional\":\"excellence (of God, verse 3); virtue (of believers, verse 5)\",\"note\":\"Many versions use two English words, “excellence” here and “virtue” in verse 5, or “goodness” in both. The Greek uses the same word in both places, the standard Greek term for moral excellence, and the echo seems deliberate: believers are to supply what the one who called them displays. Used of a deity the word could also suggest a display of divine power.\"},{\"verse\":10,\"phrase\":\"choosing\",\"lemma\":\"ἐκλογή\",\"kind\":\"departure\",\"traditional\":\"election\",\"note\":\"The traditional “calling and election” uses a word that now suggests voting. The Greek means a choice or selection, here God’s choosing of the readers, just as “calling” means God’s calling of them. To make it “sure” is to confirm it by the way of life described in verses 5 to 7.\"},{\"verse\":13,\"phrase\":\"right\",\"lemma\":\"δίκαιος\",\"kind\":\"register-exception\",\"traditional\":\"right, meet\",\"note\":\"This is the adjective usually rendered “righteous” or “just.” Here it stands in a common Greek idiom, “to consider it right,” meaning proper or fitting, where neither of those words is natural English. Nearly all translations render it “right.”\"},{\"verse\":13,\"phrase\":\"this tent\",\"lemma\":\"σκήνωμα\",\"kind\":\"background\",\"traditional\":\"tabernacle, body\",\"note\":\"“Tent” is a figure for the mortal body as a temporary dwelling, an image familiar in both Jewish and Greek writing. Some translations replace it with “body.” Verse 14 mixes this image with that of taking off a garment, and “departure” in verse 15 translates the Greek word exodos, a common euphemism for death.\"},{\"verse\":16,\"phrase\":\"coming\",\"lemma\":\"παρουσία\",\"kind\":\"background\",\"traditional\":\"coming\",\"note\":\"The Greek word means arrival and presence, and was the regular term for the official visit of a king or emperor to a city. Early Christians used it for the future arrival of Jesus in glory. Most interpreters take that future coming to be meant here, with the transfiguration (verses 17 and 18) offered as a foretaste of it.\"},{\"verse\":17,\"phrase\":\"carried\",\"lemma\":\"φέρω\",\"kind\":\"departure\",\"traditional\":\"came (of the voice and of prophecy); moved (by the Holy Spirit)\",\"note\":\"The same Greek verb, “carry” or “bring,” is used four times: of the voice carried to Jesus (verse 17) and from heaven (verse 18), of prophecy not carried by human will, and of the prophets carried along by the Spirit (verse 21). Most translations vary the English (“came,” “borne,” “moved”). The repetition is kept here because it links the heavenly voice and prophecy as having the same source.\"},{\"verse\":19,\"phrase\":\"made more sure\",\"lemma\":\"βέβαιος\",\"kind\":\"ambiguity\",\"traditional\":\"a more sure word of prophecy\",\"note\":\"The Greek says literally “we have the prophetic word more sure.” This can mean that what the apostles saw confirms the prophetic word, as rendered here and in many modern versions. It can also mean that the prophetic word is something even more sure than the eyewitness experience, or simply that it is “very sure.” Scholars are divided.\"},{\"verse\":20,\"phrase\":\"one’s own interpretation\",\"lemma\":\"ἐπίλυσις\",\"kind\":\"ambiguity\",\"traditional\":\"private interpretation\",\"note\":\"The Greek does not say whose interpretation is meant. On one reading, favored by many scholars because of verse 21, the point is that prophecy did not originate in the prophet’s own interpretation of things. On the other, which is the traditional one, it is that readers may not interpret prophecy as they please. The rendering leaves both open.\"},{\"verse\":21,\"phrase\":\"people spoke from God\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"holy men of God spake\",\"note\":\"Many later manuscripts read “holy people of God spoke” in place of “people spoke from God,” and the King James Version follows them. The two readings differ by only a few letters in Greek. Most editors judge “from God” to be original.\"}],\"candidates\":[{\"lemma\":\"δοῦλος\",\"rendering\":\"slave\",\"verse\":1,\"reason\":\"Recurs throughout the New Testament in self-designations and parables, and translations split between “slave,” “servant” and “bondservant.”\"},{\"lemma\":\"ἀδελφός\",\"rendering\":\"brothers and sisters\",\"verse\":10,\"reason\":\"The plural address to mixed congregations occurs in nearly every letter, and inclusive versus literal rendering should be uniform, along with the cognate φιλαδελφία (“brotherly affection” here).\"},{\"lemma\":\"εὐσέβεια\",\"rendering\":\"godliness\",\"verse\":3,\"reason\":\"A key term in 2 Peter and the Pastoral Letters where “godliness,” “piety,” “devotion” and “reverence” are all defensible, and variation would hide the repeated term.\"},{\"lemma\":\"ἐπιθυμία\",\"rendering\":\"desire\",\"verse\":4,\"reason\":\"Occurs across the letters and Gospels with translators alternating “lust,” “desire,” “passion” and “craving,” which changes how sexual or general the word sounds.\"},{\"lemma\":\"ἐπίγνωσις\",\"rendering\":\"knowledge\",\"verse\":2,\"reason\":\"Used alongside γνῶσις in several letters; a decision is needed on whether to distinguish it (“full knowledge,” “recognition”) or render both as “knowledge.”\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Simeon Peter, a slave and apostle of Jesus Christ, to those who have been allotted a faith of equal standing with ours through the righteousness of our God and Savior Jesus Christ:"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "May grace and peace be multiplied to you in the knowledge of God and of Jesus our Lord."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "His divine power has granted us everything needed for life and godliness, through the knowledge of the one who called us by his own glory and virtue."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Through these he has granted us his precious and very great promises, so that through them you may become sharers in the divine nature, having escaped the corruption that is in the world because of desire."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For this very reason, make every effort to supply your faith with virtue, virtue with knowledge,"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "knowledge with self-control, self-control with endurance, endurance with godliness,"
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "godliness with brotherly affection, and brotherly affection with love."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For when these things are yours and are increasing, they make you neither idle nor unfruitful in the knowledge of our Lord Jesus Christ."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For whoever lacks these things is blind, nearsighted, having forgotten the cleansing of their past sins."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Therefore, brothers and sisters, put all the more effort into making your calling and choosing sure; for if you do these things, you will never stumble."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For in this way entry into the eternal kingdom of our Lord and Savior Jesus Christ will be richly supplied to you."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Therefore I intend to keep reminding you of these things, even though you know them and are firmly established in the truth you now have."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "I consider it right, as long as I am in this tent, to stir you up with a reminder,"
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "since I know that I will soon put off my tent, as indeed our Lord Jesus Christ made clear to me."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And I will make every effort so that after my departure you will be able at any time to call these things to mind."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For we were not following cleverly devised myths when we made known to you the power and coming of our Lord Jesus Christ; rather, we had been eyewitnesses of his majesty."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For he received honor and glory from God the Father when a voice like this was carried to him by the Majestic Glory:"
+     },
+     {
+      "speaker": "God",
+      "text": "“This is my Son, my Beloved, with whom I myself am well pleased.”"
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "We ourselves heard this voice carried from heaven when we were with him on the holy mountain."
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So we have the prophetic word made more sure. You do well to pay attention to it, as to a lamp shining in a dark place, until the day dawns and the morning star rises in your hearts,"
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "knowing this first of all, that no prophecy of Scripture comes from one’s own interpretation,"
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "for no prophecy was ever carried by human will; rather, carried along by the Holy Spirit, people spoke from God."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "Simeon Peter",
+    "lemma": "Συμεών",
+    "kind": "textual",
+    "traditional": "Simon Peter",
+    "note": "The Greek text followed here has “Simeon,” the Semitic form of the name, which is used of Peter elsewhere only in Acts 15:14. Many manuscripts have the common Greek form “Simon,” which older English versions follow. Most editors judge “Simeon” original because scribes would more readily change the rare form to the familiar one."
+   },
+   {
+    "verse": 1,
+    "phrase": "slave",
+    "lemma": "δοῦλος",
+    "kind": "departure",
+    "traditional": "servant",
+    "note": "The Greek word is the ordinary term for a slave, a person owned by a master, not a hired servant. Most English versions soften it to “servant,” partly because of the associations of modern slavery. In the Septuagint “slave of the Lord” is also a title of honor for figures such as Moses and David, and both notes are probably heard here."
+   },
+   {
+    "verse": 1,
+    "phrase": "righteousness",
+    "lemma": "δικαιοσύνη",
+    "kind": "ambiguity",
+    "traditional": "righteousness",
+    "note": "Greek has one word-family where English has two (righteous/just, righteousness/justice). Most translations have “righteousness” here. A number of scholars think the point in this verse is fairness: Christ shows no favoritism in giving later believers a faith of equal standing with that of the apostles, and they would translate “justice.”"
+   },
+   {
+    "verse": 1,
+    "phrase": "our God and Savior Jesus Christ",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "our God and Savior Jesus Christ",
+    "note": "The Greek has one article governing both “God” and “Savior,” which most naturally makes both titles refer to Jesus Christ, just as “our Lord and Savior Jesus Christ” does in verse 11. This is the majority view. The phrase can also be read as naming two persons, “our God, and the Savior Jesus Christ,” as verse 2 distinguishes God from Jesus."
+   },
+   {
+    "verse": 3,
+    "phrase": "virtue",
+    "lemma": "ἀρετή",
+    "kind": "departure",
+    "traditional": "excellence (of God, verse 3); virtue (of believers, verse 5)",
+    "note": "Many versions use two English words, “excellence” here and “virtue” in verse 5, or “goodness” in both. The Greek uses the same word in both places, the standard Greek term for moral excellence, and the echo seems deliberate: believers are to supply what the one who called them displays. Used of a deity the word could also suggest a display of divine power."
+   },
+   {
+    "verse": 10,
+    "phrase": "choosing",
+    "lemma": "ἐκλογή",
+    "kind": "departure",
+    "traditional": "election",
+    "note": "The traditional “calling and election” uses a word that now suggests voting. The Greek means a choice or selection, here God’s choosing of the readers, just as “calling” means God’s calling of them. To make it “sure” is to confirm it by the way of life described in verses 5 to 7."
+   },
+   {
+    "verse": 13,
+    "phrase": "right",
+    "lemma": "δίκαιος",
+    "kind": "register-exception",
+    "traditional": "right, meet",
+    "note": "This is the adjective usually rendered “righteous” or “just.” Here it stands in a common Greek idiom, “to consider it right,” meaning proper or fitting, where neither of those words is natural English. Nearly all translations render it “right.”"
+   },
+   {
+    "verse": 13,
+    "phrase": "this tent",
+    "lemma": "σκήνωμα",
+    "kind": "background",
+    "traditional": "tabernacle, body",
+    "note": "“Tent” is a figure for the mortal body as a temporary dwelling, an image familiar in both Jewish and Greek writing. Some translations replace it with “body.” Verse 14 mixes this image with that of taking off a garment, and “departure” in verse 15 translates the Greek word exodos, a common euphemism for death."
+   },
+   {
+    "verse": 16,
+    "phrase": "coming",
+    "lemma": "παρουσία",
+    "kind": "background",
+    "traditional": "coming",
+    "note": "The Greek word means arrival and presence, and was the regular term for the official visit of a king or emperor to a city. Early Christians used it for the future arrival of Jesus in glory. Most interpreters take that future coming to be meant here, with the transfiguration (verses 17 and 18) offered as a foretaste of it."
+   },
+   {
+    "verse": 17,
+    "phrase": "carried",
+    "lemma": "φέρω",
+    "kind": "departure",
+    "traditional": "came (of the voice and of prophecy); moved (by the Holy Spirit)",
+    "note": "The same Greek verb, “carry” or “bring,” is used four times: of the voice carried to Jesus (verse 17) and from heaven (verse 18), of prophecy not carried by human will, and of the prophets carried along by the Spirit (verse 21). Most translations vary the English (“came,” “borne,” “moved”). The repetition is kept here because it links the heavenly voice and prophecy as having the same source."
+   },
+   {
+    "verse": 19,
+    "phrase": "made more sure",
+    "lemma": "βέβαιος",
+    "kind": "ambiguity",
+    "traditional": "a more sure word of prophecy",
+    "note": "The Greek says literally “we have the prophetic word more sure.” This can mean that what the apostles saw confirms the prophetic word, as rendered here and in many modern versions. It can also mean that the prophetic word is something even more sure than the eyewitness experience, or simply that it is “very sure.” Scholars are divided."
+   },
+   {
+    "verse": 20,
+    "phrase": "one’s own interpretation",
+    "lemma": "ἐπίλυσις",
+    "kind": "ambiguity",
+    "traditional": "private interpretation",
+    "note": "The Greek does not say whose interpretation is meant. On one reading, favored by many scholars because of verse 21, the point is that prophecy did not originate in the prophet’s own interpretation of things. On the other, which is the traditional one, it is that readers may not interpret prophecy as they please. The rendering leaves both open."
+   },
+   {
+    "verse": 21,
+    "phrase": "people spoke from God",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "holy men of God spake",
+    "note": "Many later manuscripts read “holy people of God spoke” in place of “people spoke from God,” and the King James Version follows them. The two readings differ by only a few letters in Greek. Most editors judge “from God” to be original."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "δοῦλος",
+    "rendering": "slave",
+    "verse": 1,
+    "reason": "Recurs throughout the New Testament in self-designations and parables, and translations split between “slave,” “servant” and “bondservant.”"
+   },
+   {
+    "lemma": "ἀδελφός",
+    "rendering": "brothers and sisters",
+    "verse": 10,
+    "reason": "The plural address to mixed congregations occurs in nearly every letter, and inclusive versus literal rendering should be uniform, along with the cognate φιλαδελφία (“brotherly affection” here)."
+   },
+   {
+    "lemma": "εὐσέβεια",
+    "rendering": "godliness",
+    "verse": 3,
+    "reason": "A key term in 2 Peter and the Pastoral Letters where “godliness,” “piety,” “devotion” and “reverence” are all defensible, and variation would hide the repeated term."
+   },
+   {
+    "lemma": "ἐπιθυμία",
+    "rendering": "desire",
+    "verse": 4,
+    "reason": "Occurs across the letters and Gospels with translators alternating “lust,” “desire,” “passion” and “craving,” which changes how sexual or general the word sounds."
+   },
+   {
+    "lemma": "ἐπίγνωσις",
+    "rendering": "knowledge",
+    "verse": 2,
+    "reason": "Used alongside γνῶσις in several letters; a decision is needed on whether to distinguish it (“full knowledge,” “recognition”) or render both as “knowledge.”"
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 5141,
+   "output_tokens": 275
+  },
+  "findings": [],
+  "error": ""
+ }
+}

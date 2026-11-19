@@ -1,0 +1,419 @@
+{
+ "id": "ephesians-001",
+ "book": "ephesians",
+ "chapter": 1,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14jszAZ935cusA5dn",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 11191,
+  "output_tokens": 18013
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Paul, an apostle of Christ Jesus by the will of God, to the holy ones who are [in Ephesus] and faithful in Christ Jesus:\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Grace to you and peace from God our Father and the Lord Jesus Christ.\"}]},{\"verse\":3,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Blessed be the God and Father of our Lord Jesus Christ, who has blessed us with every spiritual blessing in the heavenly realms in Christ,\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"just as he chose us in him before the foundation of the world, to be holy and blameless before him in love.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He predestined us for adoption as his own sons through Jesus Christ, according to the good pleasure of his will,\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"to the praise of the glory of his grace, with which he graced us in the Beloved.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"In him we have redemption through his blood, the forgiveness of our offenses, according to the riches of his grace,\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"which he lavished on us with all wisdom and insight.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He made known to us the secret of his will, according to his good pleasure, which he purposed in him\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"as a plan for the fullness of the times: to sum up all things in Christ, the things in the heavens and the things on the earth—in him.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"In him we were also made God’s inheritance, having been predestined according to the purpose of the one who works all things according to the counsel of his will,\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"so that we who first hoped in Christ might be to the praise of his glory.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"In him you also, when you heard the word of truth, the good news of your salvation, and believed, were sealed in him with the promised Holy Spirit,\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"who is the down payment on our inheritance until the redemption of God’s own possession, to the praise of his glory.\"}]},{\"verse\":15,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For this reason I too, having heard of your faith in the Lord Jesus and your love for all the holy ones,\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"do not stop giving thanks for you as I remember you in my prayers,\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"asking that the God of our Lord Jesus Christ, the Father of glory, may give you a spirit of wisdom and revelation in the knowledge of him,\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"with the eyes of your heart enlightened, so that you may know what is the hope of his calling, what are the riches of the glory of his inheritance among the holy ones,\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and what is the surpassing greatness of his power toward us who believe, according to the working of the might of his strength,\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"which he worked in Christ when he raised him from the dead and seated him at his right hand in the heavenly realms,\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"far above every rule and authority and power and dominion, and every name that is named, not only in this age but also in the one to come.\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And he put all things in subjection under his feet and gave him as head over all things to the assembly,\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"which is his body, the fullness of the one who fills all things in every way.\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"[in Ephesus]\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"\",\"note\":\"The brackets mark words that are missing from the earliest surviving copies of the letter, including the oldest papyrus and the original hands of the two major fourth-century codices. Most later manuscripts have them. Many scholars think the letter first circulated among several congregations in the region and that the place name was attached early; others hold that the words are original.\"},{\"verse\":1,\"phrase\":\"holy ones\",\"lemma\":\"ἅγιος\",\"kind\":\"departure\",\"traditional\":\"saints\",\"note\":\"The Greek word is used of all members of the community as people set apart for God, echoing the Septuagint’s language for Israel. “Saints” now suggests canonized individuals or people of exceptional virtue, which is not the sense here. Many translations keep “saints”; others use “God’s people” or “his holy people.”\"},{\"verse\":4,\"phrase\":\"in love\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"\",\"note\":\"The phrase can be read with what precedes (“holy and blameless before him in love”) or with what follows (“in love he predestined us”). The earliest manuscripts have no punctuation, and translators and commentators are divided. The text takes it with what precedes.\"},{\"verse\":5,\"phrase\":\"adoption as his own sons\",\"lemma\":\"υἱοθεσία\",\"kind\":\"background\",\"traditional\":\"adoption as sons\",\"note\":\"The Greek is the legal term for adoption, which in the Roman world typically meant taking a son in order to make him an heir. It is applied here to all believers, women as well as men; the point is the status of heir, picked up by “inheritance” in verse 14. Some translations render “adoption as his children.”\"},{\"verse\":7,\"phrase\":\"offenses\",\"lemma\":\"παράπτωμα\",\"kind\":\"departure\",\"traditional\":\"trespasses\",\"note\":\"The word means a wrongful act against God or another person. “Trespass” in current English mainly suggests entering property without permission, so “offense” is used instead. The meaning is not disputed; versions vary among “trespasses,” “transgressions” and “sins.”\"},{\"verse\":9,\"phrase\":\"secret\",\"lemma\":\"μυστήριον\",\"kind\":\"departure\",\"traditional\":\"mystery\",\"note\":\"In Jewish Greek of the period this was the ordinary word for a secret, especially a plan of God that only he can disclose. English “mystery” suggests a puzzle or something beyond understanding, whereas the point here is that the plan has now been made known. Most versions keep “mystery” as an established technical term, so this rendering is an editorial choice against the majority tradition, though lexicons give “secret” as a primary gloss.\"},{\"verse\":10,\"phrase\":\"to sum up\",\"lemma\":\"ἀνακεφαλαιόω\",\"kind\":\"departure\",\"traditional\":\"gather together in one / unite\",\"note\":\"The verb was used for summing up the points of a speech or argument, and Romans 13:9 uses it of the commandments being summed up in one saying. English versions vary: “gather together in one,” “unite,” “gather up.” “Sum up” keeps the ordinary sense; the idea is that everything finds its coherence and its point in Christ.\"},{\"verse\":10,\"phrase\":\"the things in the heavens\",\"lemma\":\"οὐρανός\",\"kind\":\"departure\",\"traditional\":\"things in heaven\",\"note\":\"The Greek is plural, a Semitic turn of phrase that this translation keeps where the reference is to God’s realm. Most translations flatten it to “heaven.”\"},{\"verse\":11,\"phrase\":\"made God’s inheritance\",\"lemma\":\"κληρόω\",\"kind\":\"ambiguity\",\"traditional\":\"we have obtained an inheritance\",\"note\":\"The verb occurs only here in the New Testament and concerns assigning by lot or as an allotted share. It can mean “we were made God’s inheritance,” echoing the Old Testament picture of Israel as the Lord’s portion, or “we obtained an inheritance,” which is the more common English rendering, or simply “we were chosen.” The first suits the passive form and verse 18, but the question remains open.\"},{\"verse\":12,\"phrase\":\"we who first hoped in Christ\",\"lemma\":\"προελπίζω\",\"kind\":\"ambiguity\",\"traditional\":\"\",\"note\":\"The verb means to hope beforehand. “We” may be Jewish believers, who hoped in the Messiah before the Gentile readers addressed as “you also” in verse 13, or it may be all believers, who hope in Christ ahead of the final fulfillment. The rendering allows both but leans toward the first.\"},{\"verse\":13,\"phrase\":\"good news\",\"lemma\":\"εὐαγγέλιον\",\"kind\":\"departure\",\"traditional\":\"gospel\",\"note\":\"The Greek was an ordinary word for a public announcement of good news, used also of imperial proclamations. “Gospel” is now a religious term or a book title. Many modern translations already alternate between the two.\"},{\"verse\":14,\"phrase\":\"down payment\",\"lemma\":\"ἀρραβών\",\"kind\":\"departure\",\"traditional\":\"earnest / guarantee / pledge\",\"note\":\"This was a commercial term for a first installment that secures a transaction and obliges the payer to pay the rest. “Guarantee” and “pledge” lose the point that the Spirit is itself the first part of what is to come. “Deposit” and “down payment” are used by several modern versions.\"},{\"verse\":17,\"phrase\":\"a spirit of wisdom and revelation\",\"lemma\":\"πνεῦμα\",\"kind\":\"ambiguity\",\"traditional\":\"\",\"note\":\"The Greek has no article and can mean a disposition given by God (“a spirit of wisdom”) or the Holy Spirit as the giver of wisdom and revelation (“the Spirit of wisdom”). Translations are divided. Many scholars favor a reference to God’s Spirit, since revelation is not a human quality.\"},{\"verse\":22,\"phrase\":\"assembly\",\"lemma\":\"ἐκκλησία\",\"kind\":\"departure\",\"traditional\":\"church\",\"note\":\"A first-century hearer knew this word as a civic gathering and as the Septuagint’s term for Israel assembled before God. “Church” now suggests a building or an institution. “Church” is near-universal in English versions and readers know what it refers to; “assembly” is used here throughout so that one Greek word has one English word.\"},{\"verse\":23,\"phrase\":\"the fullness of the one who fills all things in every way\",\"lemma\":\"πλήρωμα\",\"kind\":\"ambiguity\",\"traditional\":\"the fullness of him who fills all in all\",\"note\":\"The participle can be read as “who fills” or as “who is being filled,” and “fullness” can mean what fills something or what is filled. Most translations take it as here: the assembly is filled by Christ, who himself fills all things. Minority readings are that the assembly completes Christ, or that Christ is being filled by God.\"}],\"candidates\":[{\"lemma\":\"προορίζω\",\"rendering\":\"predestine\",\"verse\":5,\"reason\":\"Recurs in Romans 8, 1 Corinthians 2 and Acts 4; versions vary between “predestine,” “destine,” “decide beforehand” and “foreordain,” and the choice carries theological weight.\"},{\"lemma\":\"ἀπολύτρωσις\",\"rendering\":\"redemption\",\"verse\":7,\"reason\":\"Recurs in Romans, 1 Corinthians, Colossians, Hebrews and Luke; “redemption” is now largely religious while the Greek suggested release by payment, so “release,” “liberation” or “redemption” needs one decision.\"},{\"lemma\":\"υἱοθεσία\",\"rendering\":\"adoption as sons\",\"verse\":5,\"reason\":\"Occurs in Romans 8–9, Galatians 4 and here; versions split between “adoption as sons,” “adoption as children” and “sonship,” and the gendered legal term needs a uniform policy.\"},{\"lemma\":\"ἀρραβών\",\"rendering\":\"down payment\",\"verse\":14,\"reason\":\"Also in 2 Corinthians 1:22 and 5:5; versions vary among “earnest,” “guarantee,” “pledge,” “deposit” and “down payment,” and the commercial image should be rendered the same way each time.\"},{\"lemma\":\"ἀρχή\",\"rendering\":\"rule\",\"verse\":21,\"reason\":\"In the lists of heavenly powers (Romans 8, 1 Corinthians 15, Ephesians 3 and 6, Colossians 1–2) versions vary among “principality,” “rule” and “ruler,” and the lists should match across letters.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Paul, an apostle of Christ Jesus by the will of God, to the holy ones who are [in Ephesus] and faithful in Christ Jesus:"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Grace to you and peace from God our Father and the Lord Jesus Christ."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Blessed be the God and Father of our Lord Jesus Christ, who has blessed us with every spiritual blessing in the heavenly realms in Christ,"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "just as he chose us in him before the foundation of the world, to be holy and blameless before him in love."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He predestined us for adoption as his own sons through Jesus Christ, according to the good pleasure of his will,"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "to the praise of the glory of his grace, with which he graced us in the Beloved."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "In him we have redemption through his blood, the forgiveness of our offenses, according to the riches of his grace,"
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "which he lavished on us with all wisdom and insight."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He made known to us the secret of his will, according to his good pleasure, which he purposed in him"
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "as a plan for the fullness of the times: to sum up all things in Christ, the things in the heavens and the things on the earth—in him."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "In him we were also made God’s inheritance, having been predestined according to the purpose of the one who works all things according to the counsel of his will,"
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "so that we who first hoped in Christ might be to the praise of his glory."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "In him you also, when you heard the word of truth, the good news of your salvation, and believed, were sealed in him with the promised Holy Spirit,"
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "who is the down payment on our inheritance until the redemption of God’s own possession, to the praise of his glory."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For this reason I too, having heard of your faith in the Lord Jesus and your love for all the holy ones,"
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "do not stop giving thanks for you as I remember you in my prayers,"
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "asking that the God of our Lord Jesus Christ, the Father of glory, may give you a spirit of wisdom and revelation in the knowledge of him,"
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "with the eyes of your heart enlightened, so that you may know what is the hope of his calling, what are the riches of the glory of his inheritance among the holy ones,"
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and what is the surpassing greatness of his power toward us who believe, according to the working of the might of his strength,"
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "which he worked in Christ when he raised him from the dead and seated him at his right hand in the heavenly realms,"
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "far above every rule and authority and power and dominion, and every name that is named, not only in this age but also in the one to come."
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And he put all things in subjection under his feet and gave him as head over all things to the assembly,"
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "which is his body, the fullness of the one who fills all things in every way."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "[in Ephesus]",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "",
+    "note": "The brackets mark words that are missing from the earliest surviving copies of the letter, including the oldest papyrus and the original hands of the two major fourth-century codices. Most later manuscripts have them. Many scholars think the letter first circulated among several congregations in the region and that the place name was attached early; others hold that the words are original."
+   },
+   {
+    "verse": 1,
+    "phrase": "holy ones",
+    "lemma": "ἅγιος",
+    "kind": "departure",
+    "traditional": "saints",
+    "note": "The Greek word is used of all members of the community as people set apart for God, echoing the Septuagint’s language for Israel. “Saints” now suggests canonized individuals or people of exceptional virtue, which is not the sense here. Many translations keep “saints”; others use “God’s people” or “his holy people.”"
+   },
+   {
+    "verse": 4,
+    "phrase": "in love",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "",
+    "note": "The phrase can be read with what precedes (“holy and blameless before him in love”) or with what follows (“in love he predestined us”). The earliest manuscripts have no punctuation, and translators and commentators are divided. The text takes it with what precedes."
+   },
+   {
+    "verse": 5,
+    "phrase": "adoption as his own sons",
+    "lemma": "υἱοθεσία",
+    "kind": "background",
+    "traditional": "adoption as sons",
+    "note": "The Greek is the legal term for adoption, which in the Roman world typically meant taking a son in order to make him an heir. It is applied here to all believers, women as well as men; the point is the status of heir, picked up by “inheritance” in verse 14. Some translations render “adoption as his children.”"
+   },
+   {
+    "verse": 7,
+    "phrase": "offenses",
+    "lemma": "παράπτωμα",
+    "kind": "departure",
+    "traditional": "trespasses",
+    "note": "The word means a wrongful act against God or another person. “Trespass” in current English mainly suggests entering property without permission, so “offense” is used instead. The meaning is not disputed; versions vary among “trespasses,” “transgressions” and “sins.”"
+   },
+   {
+    "verse": 9,
+    "phrase": "secret",
+    "lemma": "μυστήριον",
+    "kind": "departure",
+    "traditional": "mystery",
+    "note": "In Jewish Greek of the period this was the ordinary word for a secret, especially a plan of God that only he can disclose. English “mystery” suggests a puzzle or something beyond understanding, whereas the point here is that the plan has now been made known. Most versions keep “mystery” as an established technical term, so this rendering is an editorial choice against the majority tradition, though lexicons give “secret” as a primary gloss."
+   },
+   {
+    "verse": 10,
+    "phrase": "to sum up",
+    "lemma": "ἀνακεφαλαιόω",
+    "kind": "departure",
+    "traditional": "gather together in one / unite",
+    "note": "The verb was used for summing up the points of a speech or argument, and Romans 13:9 uses it of the commandments being summed up in one saying. English versions vary: “gather together in one,” “unite,” “gather up.” “Sum up” keeps the ordinary sense; the idea is that everything finds its coherence and its point in Christ."
+   },
+   {
+    "verse": 10,
+    "phrase": "the things in the heavens",
+    "lemma": "οὐρανός",
+    "kind": "departure",
+    "traditional": "things in heaven",
+    "note": "The Greek is plural, a Semitic turn of phrase that this translation keeps where the reference is to God’s realm. Most translations flatten it to “heaven.”"
+   },
+   {
+    "verse": 11,
+    "phrase": "made God’s inheritance",
+    "lemma": "κληρόω",
+    "kind": "ambiguity",
+    "traditional": "we have obtained an inheritance",
+    "note": "The verb occurs only here in the New Testament and concerns assigning by lot or as an allotted share. It can mean “we were made God’s inheritance,” echoing the Old Testament picture of Israel as the Lord’s portion, or “we obtained an inheritance,” which is the more common English rendering, or simply “we were chosen.” The first suits the passive form and verse 18, but the question remains open."
+   },
+   {
+    "verse": 12,
+    "phrase": "we who first hoped in Christ",
+    "lemma": "προελπίζω",
+    "kind": "ambiguity",
+    "traditional": "",
+    "note": "The verb means to hope beforehand. “We” may be Jewish believers, who hoped in the Messiah before the Gentile readers addressed as “you also” in verse 13, or it may be all believers, who hope in Christ ahead of the final fulfillment. The rendering allows both but leans toward the first."
+   },
+   {
+    "verse": 13,
+    "phrase": "good news",
+    "lemma": "εὐαγγέλιον",
+    "kind": "departure",
+    "traditional": "gospel",
+    "note": "The Greek was an ordinary word for a public announcement of good news, used also of imperial proclamations. “Gospel” is now a religious term or a book title. Many modern translations already alternate between the two."
+   },
+   {
+    "verse": 14,
+    "phrase": "down payment",
+    "lemma": "ἀρραβών",
+    "kind": "departure",
+    "traditional": "earnest / guarantee / pledge",
+    "note": "This was a commercial term for a first installment that secures a transaction and obliges the payer to pay the rest. “Guarantee” and “pledge” lose the point that the Spirit is itself the first part of what is to come. “Deposit” and “down payment” are used by several modern versions."
+   },
+   {
+    "verse": 17,
+    "phrase": "a spirit of wisdom and revelation",
+    "lemma": "πνεῦμα",
+    "kind": "ambiguity",
+    "traditional": "",
+    "note": "The Greek has no article and can mean a disposition given by God (“a spirit of wisdom”) or the Holy Spirit as the giver of wisdom and revelation (“the Spirit of wisdom”). Translations are divided. Many scholars favor a reference to God’s Spirit, since revelation is not a human quality."
+   },
+   {
+    "verse": 22,
+    "phrase": "assembly",
+    "lemma": "ἐκκλησία",
+    "kind": "departure",
+    "traditional": "church",
+    "note": "A first-century hearer knew this word as a civic gathering and as the Septuagint’s term for Israel assembled before God. “Church” now suggests a building or an institution. “Church” is near-universal in English versions and readers know what it refers to; “assembly” is used here throughout so that one Greek word has one English word."
+   },
+   {
+    "verse": 23,
+    "phrase": "the fullness of the one who fills all things in every way",
+    "lemma": "πλήρωμα",
+    "kind": "ambiguity",
+    "traditional": "the fullness of him who fills all in all",
+    "note": "The participle can be read as “who fills” or as “who is being filled,” and “fullness” can mean what fills something or what is filled. Most translations take it as here: the assembly is filled by Christ, who himself fills all things. Minority readings are that the assembly completes Christ, or that Christ is being filled by God."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "προορίζω",
+    "rendering": "predestine",
+    "verse": 5,
+    "reason": "Recurs in Romans 8, 1 Corinthians 2 and Acts 4; versions vary between “predestine,” “destine,” “decide beforehand” and “foreordain,” and the choice carries theological weight."
+   },
+   {
+    "lemma": "ἀπολύτρωσις",
+    "rendering": "redemption",
+    "verse": 7,
+    "reason": "Recurs in Romans, 1 Corinthians, Colossians, Hebrews and Luke; “redemption” is now largely religious while the Greek suggested release by payment, so “release,” “liberation” or “redemption” needs one decision."
+   },
+   {
+    "lemma": "υἱοθεσία",
+    "rendering": "adoption as sons",
+    "verse": 5,
+    "reason": "Occurs in Romans 8–9, Galatians 4 and here; versions split between “adoption as sons,” “adoption as children” and “sonship,” and the gendered legal term needs a uniform policy."
+   },
+   {
+    "lemma": "ἀρραβών",
+    "rendering": "down payment",
+    "verse": 14,
+    "reason": "Also in 2 Corinthians 1:22 and 5:5; versions vary among “earnest,” “guarantee,” “pledge,” “deposit” and “down payment,” and the commercial image should be rendered the same way each time."
+   },
+   {
+    "lemma": "ἀρχή",
+    "rendering": "rule",
+    "verse": 21,
+    "reason": "In the lists of heavenly powers (Romans 8, 1 Corinthians 15, Ephesians 3 and 6, Colossians 1–2) versions vary among “principality,” “rule” and “ruler,” and the lists should match across letters."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 5207,
+   "output_tokens": 380
+  },
+  "findings": [],
+  "error": ""
+ }
+}

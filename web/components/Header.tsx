@@ -67,8 +67,8 @@ export function Header() {
           <Link
             href="/glossary"
             className="p-2 rounded-lg hover:bg-neutral-200 dark:hover:bg-neutral-800 transition-colors"
-            aria-label="Glossary"
-            title="Translation Glossary"
+            aria-label="Word choices"
+            title="Word choices"
           >
             <svg
               className="w-5 h-5 text-neutral-600 dark:text-neutral-300"

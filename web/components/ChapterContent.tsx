@@ -3,8 +3,6 @@
 import { useState, useEffect } from "react";
 import type { ParsedVerse, ParsedChapter } from "@/lib/data";
 import { VerseModal } from "./VerseModal";
-import { WordModal } from "./WordModal";
-import { matchGlossaryTerm, type GlossaryTerm } from "@/lib/glossary";
 
 interface ChapterContentProps {
   chapter: ParsedChapter;
@@ -22,8 +20,6 @@ export function ChapterContent({
   const [selectedVerse, setSelectedVerse] = useState<ParsedVerse | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [highlightedVerse, setHighlightedVerse] = useState<number | null>(null);
-  const [selectedTerm, setSelectedTerm] = useState<GlossaryTerm | null>(null);
-  const [isWordModalOpen, setIsWordModalOpen] = useState(false);
 
   // Handle deep linking via URL hash (e.g., /matthew/5#3)
   useEffect(() => {
@@ -62,16 +58,6 @@ export function ChapterContent({
     setSelectedVerse(null);
   };
 
-  const handleTermClick = (term: GlossaryTerm) => {
-    setSelectedTerm(term);
-    setIsWordModalOpen(true);
-  };
-
-  const handleCloseWordModal = () => {
-    setIsWordModalOpen(false);
-    setSelectedTerm(null);
-  };
-
   // Group verses into paragraphs
   const paragraphs: ParsedVerse[][] = [];
   let currentParagraph: ParsedVerse[] = [];
@@ -97,7 +83,6 @@ export function ChapterContent({
                 key={verse.verse}
                 verse={verse}
                 onClick={() => handleVerseClick(verse)}
-                onTermClick={handleTermClick}
                 isHighlighted={highlightedVerse === verse.verse}
               />
             ))}
@@ -113,12 +98,6 @@ export function ChapterContent({
         chapterNum={chapterNum}
         kjvText={selectedVerse ? kjvVerses[selectedVerse.verse] : undefined}
       />
-
-      <WordModal
-        isOpen={isWordModalOpen}
-        onClose={handleCloseWordModal}
-        term={selectedTerm}
-      />
     </>
   );
 }
@@ -126,24 +105,26 @@ export function ChapterContent({
 interface VerseSpanProps {
   verse: ParsedVerse;
   onClick: () => void;
-  onTermClick: (term: GlossaryTerm) => void;
   isHighlighted?: boolean;
 }
 
-function VerseSpan({ verse, onClick, onTermClick, isHighlighted }: VerseSpanProps) {
+function VerseSpan({ verse, onClick, isHighlighted }: VerseSpanProps) {
   // Determine if we have notes or Greek (visual indicator)
   const hasExtras = verse.notes.length > 0 || verse.greek.length > 0;
 
-  // Get the set of Greek lemmas in this verse for glossary term validation
-  const verseLemmas = new Set(verse.greek.map(w => w.lemma.toLowerCase()));
-
-  // Render segments with proper speaker coloring and glossary term detection
-  const renderedSegments = renderSegments(verse.segments, onTermClick, verseLemmas);
-
-  // We need to insert the verse number before the first character
-  // Split the first segment to wrap verse number with first word
-  const firstSegment = renderedSegments[0];
-  const restSegments = renderedSegments.slice(1);
+  // Speaker segments get their color; everything else is plain text.
+  const renderedSegments = (verse.segments ?? []).map((segment, index) => (
+    <span
+      key={index}
+      className={
+        segment.type === "speaker" && segment.speaker
+          ? getSpeakerClass(segment.speaker)
+          : ""
+      }
+    >
+      {segment.content}
+    </span>
+  ));
 
   return (
     <>
@@ -166,8 +147,7 @@ function VerseSpan({ verse, onClick, onTermClick, isHighlighted }: VerseSpanProp
             {verse.verse}
           </sup>
         </span>
-        {firstSegment}
-        {restSegments}
+        {renderedSegments}
       </span>
       {" "}
     </>
@@ -189,116 +169,4 @@ function getSpeakerClass(speaker: string): string {
     default:
       return ""; // Normal text for all other speakers
   }
-}
-
-/**
- * Render text segments with proper speaker coloring and glossary term detection.
- * Only the actual quoted words get colored, not the surrounding narrative.
- */
-function renderSegments(
-  segments: { type: "text" | "speaker"; content: string; speaker?: string }[] | undefined,
-  onTermClick: (term: GlossaryTerm) => void,
-  verseLemmas: Set<string>
-): React.ReactNode[] {
-  if (!segments || segments.length === 0) {
-    return [];
-  }
-
-  return segments.map((segment, index) => {
-    const speakerClass = segment.type === "speaker" && segment.speaker
-      ? getSpeakerClass(segment.speaker)
-      : "";
-
-    // Render the content with glossary term detection
-    const contentWithTerms = renderTextWithGlossaryTerms(
-      segment.content,
-      onTermClick,
-      speakerClass,
-      verseLemmas
-    );
-
-    return <span key={index}>{contentWithTerms}</span>;
-  });
-}
-
-/**
- * Render text with glossary terms wrapped in clickable spans.
- */
-function renderTextWithGlossaryTerms(
-  text: string,
-  onTermClick: (term: GlossaryTerm) => void,
-  speakerClass: string,
-  verseLemmas: Set<string>
-): React.ReactNode[] {
-  const result: React.ReactNode[] = [];
-  let currentIndex = 0;
-  let keyIndex = 0;
-
-  while (currentIndex < text.length) {
-    // Try to match a glossary term at current position
-    const match = matchGlossaryTerm(text, currentIndex, verseLemmas);
-
-    if (match) {
-      // Add any text before the match
-      if (currentIndex < text.indexOf(match.matchedText, currentIndex)) {
-        const beforeText = text.slice(
-          currentIndex,
-          text.indexOf(match.matchedText, currentIndex)
-        );
-        result.push(
-          <span key={keyIndex++} className={speakerClass}>
-            {beforeText}
-          </span>
-        );
-      }
-
-      // Add the glossary term as a clickable element
-      result.push(
-        <span
-          key={keyIndex++}
-          className={`glossary-term cursor-pointer ${speakerClass}`}
-          onClick={(e) => {
-            e.stopPropagation();
-            onTermClick(match.term);
-          }}
-          title={match.term.brief}
-        >
-          {match.matchedText}
-        </span>
-      );
-
-      currentIndex =
-        text.indexOf(match.matchedText, currentIndex) + match.matchedText.length;
-    } else {
-      // No match at this position
-      // Check if current char is a non-word char (quote, paren, etc.)
-      // If so, advance by 1 so we can try matching the next word
-      const charAtPos = text[currentIndex];
-      const isWordChar = /[\w'-]/.test(charAtPos);
-
-      if (!isWordChar) {
-        // Non-word char (quote mark, punctuation, etc.) - emit it and advance by 1
-        result.push(
-          <span key={keyIndex++} className={speakerClass}>
-            {charAtPos}
-          </span>
-        );
-        currentIndex += 1;
-      } else {
-        // Word char but no glossary match - skip to next word boundary
-        const nextSpace = text.indexOf(" ", currentIndex + 1);
-        const endIndex = nextSpace === -1 ? text.length : nextSpace + 1;
-
-        result.push(
-          <span key={keyIndex++} className={speakerClass}>
-            {text.slice(currentIndex, endIndex)}
-          </span>
-        );
-
-        currentIndex = endIndex;
-      }
-    }
-  }
-
-  return result;
 }

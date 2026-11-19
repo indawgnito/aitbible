@@ -1,0 +1,797 @@
+{
+ "id": "acts-007",
+ "book": "acts",
+ "chapter": 7,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14fuEL3XRGQnYCdVC",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 18553,
+  "output_tokens": 24644
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then the high priest said,\"},{\"speaker\":\"other\",\"text\":\"“Are these things so?”\"}]},{\"verse\":2,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He replied,\"},{\"speaker\":\"other\",\"text\":\"“Brothers and fathers, listen. The God of glory appeared to our father Abraham when he was in Mesopotamia, before he settled in Haran,\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"and said to him, ‘Go out from your land and from your relatives, and come to the land that I will show you.’\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Then he went out from the land of the Chaldeans and settled in Haran. From there, after his father died, God resettled him in this land where you now live.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"He gave him no inheritance in it, not even a foot of ground, yet he promised to give it to him as a possession, and to his offspring after him, though he had no child.\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"And God spoke in this way: that his offspring would live as foreigners in a land belonging to others, who would enslave and mistreat them for four hundred years.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"‘And the nation they serve as slaves I myself will judge,’ God said, ‘and after that they will come out and worship me in this place.’\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"And he gave him a covenant of circumcision. So Abraham became the father of Isaac and circumcised him on the eighth day, and Isaac became the father of Jacob, and Jacob of the twelve patriarchs.\"}]},{\"verse\":9,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"other\",\"text\":\"The patriarchs, jealous of Joseph, sold him into Egypt. Yet God was with him,\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"and rescued him from all his afflictions, and gave him favor and wisdom before Pharaoh king of Egypt, who appointed him governor over Egypt and over his whole household.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Then a famine came over all Egypt and Canaan, and great affliction, and our fathers could find no food.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"But when Jacob heard that there was grain in Egypt, he sent our fathers there a first time.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"The second time, Joseph made himself known to his brothers, and Joseph’s family became known to Pharaoh.\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Then Joseph sent and summoned his father Jacob and all his relatives, seventy-five people in all,\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"and Jacob went down to Egypt. He died there, and so did our fathers,\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"and they were carried over to Shechem and laid in the tomb that Abraham had bought for a sum of silver from the sons of Hamor in Shechem.\"}]},{\"verse\":17,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"other\",\"text\":\"As the time drew near for the promise that God had declared to Abraham, the people grew and multiplied in Egypt,\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"until another king arose over Egypt, who did not know Joseph.\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"He dealt cunningly with our race and mistreated our fathers, making them expose their infants so that they would not survive.\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"At that time Moses was born, and he was beautiful in God’s sight. For three months he was raised in his father’s house,\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"and when he was exposed, Pharaoh’s daughter took him up and raised him as her own son.\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"So Moses was educated in all the wisdom of the Egyptians, and he was powerful in his words and deeds.\"}]},{\"verse\":23,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"other\",\"text\":\"When he was nearing forty years of age, it came into his heart to visit his brothers, the sons of Israel.\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Seeing one of them being wronged, he came to his defense and avenged the man who was being oppressed by striking down the Egyptian.\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"He supposed that his brothers would understand that God was giving them salvation through his hand, but they did not understand.\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"The next day he appeared to them as they were fighting and tried to reconcile them in peace, saying, ‘Men, you are brothers. Why are you wronging each other?’\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"But the one who was wronging his neighbor pushed him away, saying, ‘Who appointed you ruler and judge over us?\"}]},{\"verse\":28,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Do you want to kill me the way you killed the Egyptian yesterday?’\"}]},{\"verse\":29,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"At this word Moses fled and came to live as a foreigner in the land of Midian, where he became the father of two sons.\"}]},{\"verse\":30,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"other\",\"text\":\"When forty years had passed, an angel appeared to him in the wilderness of Mount Sinai, in the flame of a burning bush.\"}]},{\"verse\":31,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"When Moses saw it, he was amazed at the sight, and as he came near to look, the voice of the Lord came:\"}]},{\"verse\":32,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"‘I am the God of your fathers, the God of Abraham and Isaac and Jacob.’ Moses began to tremble and did not dare to look.\"}]},{\"verse\":33,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Then the Lord said to him, ‘Take off the sandals from your feet, for the place where you are standing is holy ground.\"}]},{\"verse\":34,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"I have surely seen the mistreatment of my people in Egypt, and I have heard their groaning, and I have come down to rescue them. And now come, I will send you to Egypt.’\"}]},{\"verse\":35,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"other\",\"text\":\"This Moses, whom they disowned, saying, ‘Who appointed you ruler and judge?’—this is the one God sent as both ruler and redeemer, by the hand of the angel who appeared to him in the bush.\"}]},{\"verse\":36,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"This man led them out, performing wonders and signs in the land of Egypt and at the Red Sea and in the wilderness for forty years.\"}]},{\"verse\":37,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"This is the Moses who said to the sons of Israel, ‘God will raise up for you a prophet like me from among your brothers.’\"}]},{\"verse\":38,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"This is the one who was in the assembly in the wilderness with the angel who spoke to him on Mount Sinai and with our fathers, and he received living oracles to give to us.\"}]},{\"verse\":39,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Our fathers were unwilling to obey him. Instead they pushed him away and in their hearts turned back to Egypt,\"}]},{\"verse\":40,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"saying to Aaron, ‘Make us gods who will go before us. As for this Moses, who led us out of the land of Egypt, we do not know what has happened to him.’\"}]},{\"verse\":41,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"In those days they made a calf and offered a sacrifice to the idol, and they rejoiced in the works of their hands.\"}]},{\"verse\":42,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"But God turned away and handed them over to serve the host of heaven, as it is written in the book of the prophets: ‘Did you bring me slaughtered animals and sacrifices for forty years in the wilderness, house of Israel?\"}]},{\"verse\":43,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"You took up the tent of Moloch and the star of the god Rephan, the images you made in order to worship them. And I will resettle you beyond Babylon.’\"}]},{\"verse\":44,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"other\",\"text\":\"Our fathers had the tent of testimony in the wilderness, just as the one who spoke to Moses directed him to make it, according to the pattern he had seen.\"}]},{\"verse\":45,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Our fathers received it in their turn and brought it in with Joshua when they took possession of the land of the nations that God drove out before our fathers, until the days of David,\"}]},{\"verse\":46,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"who found favor before God and asked to find a dwelling place for the God of Jacob.\"}]},{\"verse\":47,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"But it was Solomon who built him a house.\"}]},{\"verse\":48,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Yet the Most High does not live in what is made by hands, as the prophet says:\"}]},{\"verse\":49,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"‘Heaven is my throne, and the earth is the footstool of my feet. What kind of house will you build for me, says the Lord, or what is the place of my rest?\"}]},{\"verse\":50,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Did not my hand make all these things?’\"}]},{\"verse\":51,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"other\",\"text\":\"You stiff-necked people, uncircumcised in heart and ears, you always resist the Holy Spirit. As your fathers did, so do you.\"}]},{\"verse\":52,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Which of the prophets did your fathers not persecute? They killed those who announced beforehand the coming of the Righteous One, whose betrayers and murderers you have now become,\"}]},{\"verse\":53,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"you who received the Law by the direction of angels and did not keep it.”\"}]},{\"verse\":54,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"When they heard these things, they were enraged in their hearts and ground their teeth at him.\"}]},{\"verse\":55,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But he, full of the Holy Spirit, gazed into heaven and saw the glory of God, and Jesus standing at the right hand of God,\"}]},{\"verse\":56,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and he said,\"},{\"speaker\":\"other\",\"text\":\"“Look, I see the heavens opened and the Son of Man standing at the right hand of God.”\"}]},{\"verse\":57,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But they cried out with a loud voice, covered their ears, and rushed at him together.\"}]},{\"verse\":58,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They threw him out of the city and began to stone him. And the witnesses laid their cloaks at the feet of a young man named Saul.\"}]},{\"verse\":59,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They went on stoning Stephen as he called out,\"},{\"speaker\":\"other\",\"text\":\"“Lord Jesus, receive my spirit.”\"}]},{\"verse\":60,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then he knelt down and cried out with a loud voice,\"},{\"speaker\":\"other\",\"text\":\"“Lord, do not hold this sin against them.”\"},{\"speaker\":\"narrator\",\"text\":\"And when he had said this, he fell asleep.\"}]}],\"notes\":[{\"verse\":7,\"phrase\":\"worship\",\"lemma\":\"λατρεύω\",\"kind\":\"departure\",\"traditional\":\"serve\",\"note\":\"The Greek verb means religious service given to a deity, and this translation normally renders it “serve”, as in verse 42. Here “worship” is used because the same sentence already has “serve as slaves” for a different verb, and the two need to be kept apart. Most modern versions also have “worship” here; the King James Version has “serve”.\"},{\"verse\":14,\"phrase\":\"seventy-five people\",\"lemma\":\"ψυχή\",\"kind\":\"background\",\"traditional\":\"seventy-five souls\",\"note\":\"The Greek counts “souls”, a Septuagint idiom for individual persons. The figure seventy-five follows the Greek version of Genesis 46:27 and Exodus 1:5; the Hebrew text has seventy.\"},{\"verse\":16,\"phrase\":\"the tomb that Abraham had bought\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"In Genesis, Abraham buys a burial cave near Hebron from Ephron the Hittite, and it is Jacob who buys land at Shechem from the sons of Hamor, where Joseph is later buried. Stephen’s compressed summary combines the two purchases. Whether this is deliberate telescoping or reflects a different tradition is debated.\"},{\"verse\":20,\"phrase\":\"beautiful in God’s sight\",\"lemma\":\"ἀστεῖος\",\"kind\":\"ambiguity\",\"traditional\":\"exceeding fair\",\"note\":\"The Greek is literally “beautiful to God”. It may mean that God regarded the child as beautiful, or it may be a Semitic way of expressing a superlative, “exceedingly beautiful”, as when Jonah 3:3 calls Nineveh “a city great to God”. Translations are divided between the two.\"},{\"verse\":38,\"phrase\":\"assembly\",\"lemma\":\"ἐκκλησία\",\"kind\":\"departure\",\"traditional\":\"church\",\"note\":\"This is the Greek word usually translated “church”, and the King James Version has “the church in the wilderness” here. In the Greek Old Testament it is the term for Israel gathered as a people, and a first-century hearer also knew it as an ordinary word for a civic gathering. This translation uses “assembly” everywhere so the reader can see that it is one word; most modern versions have “congregation” or “assembly” in this verse.\"},{\"verse\":43,\"phrase\":\"tent\",\"lemma\":\"σκηνή\",\"kind\":\"departure\",\"traditional\":\"tabernacle\",\"note\":\"The Greek word is the ordinary one for a tent, used here for a portable shrine of Moloch and in the next verse for Israel’s wilderness sanctuary. “Tabernacle” is the traditional rendering, but it hides the plain image and the pointed contrast between the two tents. Several modern versions also use “tent”.\"},{\"verse\":43,\"phrase\":\"beyond Babylon\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"Verses 42–43 quote Amos 5:25–27 in its Greek version, which is where the names Moloch and Rephan come from; the Hebrew text is obscure at this point and reads differently. Amos has “beyond Damascus” in both Hebrew and Greek. Stephen’s “beyond Babylon” reflects the later exile of Judah.\"},{\"verse\":45,\"phrase\":\"Joshua\",\"lemma\":\"Ἰησοῦς\",\"kind\":\"background\",\"traditional\":\"Jesus\",\"note\":\"In Greek the name Joshua is identical to the name Jesus, and the King James Version prints “Jesus” here. The context makes clear that Moses’ successor is meant, but a Greek reader would have heard the same name.\"},{\"verse\":46,\"phrase\":\"the God of Jacob\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"\",\"note\":\"Several early and important manuscripts read “the house of Jacob” instead of “the God of Jacob”, and many scholars prefer that as the more difficult reading. The Greek text followed here reads “God”, which also matches the wording of Psalm 132:5.\"},{\"verse\":52,\"phrase\":\"the Righteous One\",\"lemma\":\"δίκαιος\",\"kind\":\"background\",\"traditional\":\"the Just One\",\"note\":\"This is a title for the Messiah, used also in Acts 3:14 and 22:14. Greek has a single word-family where English has two (righteous and just, righteousness and justice), so the title could equally be rendered “the Just One”, as in the King James Version. In a context of betrayal and murder it also carries the sense “the innocent one”.\"},{\"verse\":53,\"phrase\":\"by the direction of angels\",\"lemma\":\"διαταγή\",\"kind\":\"ambiguity\",\"traditional\":\"by the disposition of angels\",\"note\":\"The Greek phrase is compressed and could also be rendered “as ordinances of angels” or “as delivered by angels”. It reflects a Jewish tradition, not stated in Exodus, that angels were present and active when the Law was given at Sinai; Galatians 3:19 and Hebrews 2:2 refer to the same tradition. Here it is meant to honor the Law.\"},{\"verse\":54,\"phrase\":\"enraged in their hearts\",\"lemma\":\"διαπρίω\",\"kind\":\"departure\",\"traditional\":\"cut to the heart\",\"note\":\"The verb literally means “to be sawn through”, and the traditional rendering is “cut to the heart”. In modern English that phrase suggests grief or remorse, which is what a different verb expresses in Acts 2:37. Here, as in Acts 5:33, the word describes fury, as the grinding of teeth shows.\"},{\"verse\":56,\"phrase\":\"standing\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"Elsewhere the New Testament, echoing Psalm 110:1, speaks of Jesus as seated at God’s right hand. Why he is standing here is disputed: suggestions include rising to welcome Stephen, standing as his witness or advocate, or standing to judge. This is also the only place outside the Gospels where Jesus is called “the Son of Man”.\"}],\"candidates\":[{\"lemma\":\"σπέρμα\",\"rendering\":\"offspring\",\"verse\":5,\"reason\":\"In the Abraham promise texts across Acts, Romans, Galatians and Hebrews, versions vary between “seed”, “offspring” and “descendants”, and Paul’s argument in Galatians 3:16 depends on the singular.\"},{\"lemma\":\"πατήρ\",\"rendering\":\"fathers\",\"verse\":11,\"reason\":\"The plural for Israel’s forebears recurs across the New Testament, and translators split between “fathers” and “ancestors”; this chapter’s shift from “our fathers” to “your fathers” shows why it should be uniform.\"},{\"lemma\":\"σωτηρία\",\"rendering\":\"salvation\",\"verse\":25,\"reason\":\"The word covers both concrete rescue and salvation in the full religious sense, and whether to vary between “deliverance” and “salvation” affects echoes across Luke–Acts and the letters.\"},{\"lemma\":\"ἔρημος\",\"rendering\":\"wilderness\",\"verse\":30,\"reason\":\"Versions vary between “wilderness” and “desert” for the same word in the Gospels, Acts, Hebrews and Revelation, which obscures the exodus echoes.\"},{\"lemma\":\"ἀρνέομαι\",\"rendering\":\"disowned\",\"verse\":35,\"reason\":\"The verb is used of Peter’s denial, of Israel rejecting Moses and Jesus (Acts 3:13–14), and of denying Christ in the letters; “deny”, “disown”, “reject” and “refuse” are all in use, and the links are lost if it varies.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then the high priest said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Are these things so?”"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He replied,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Brothers and fathers, listen. The God of glory appeared to our father Abraham when he was in Mesopotamia, before he settled in Haran,"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "and said to him, ‘Go out from your land and from your relatives, and come to the land that I will show you.’"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Then he went out from the land of the Chaldeans and settled in Haran. From there, after his father died, God resettled him in this land where you now live."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "He gave him no inheritance in it, not even a foot of ground, yet he promised to give it to him as a possession, and to his offspring after him, though he had no child."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "And God spoke in this way: that his offspring would live as foreigners in a land belonging to others, who would enslave and mistreat them for four hundred years."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "‘And the nation they serve as slaves I myself will judge,’ God said, ‘and after that they will come out and worship me in this place.’"
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "And he gave him a covenant of circumcision. So Abraham became the father of Isaac and circumcised him on the eighth day, and Isaac became the father of Jacob, and Jacob of the twelve patriarchs."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "The patriarchs, jealous of Joseph, sold him into Egypt. Yet God was with him,"
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "and rescued him from all his afflictions, and gave him favor and wisdom before Pharaoh king of Egypt, who appointed him governor over Egypt and over his whole household."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Then a famine came over all Egypt and Canaan, and great affliction, and our fathers could find no food."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "But when Jacob heard that there was grain in Egypt, he sent our fathers there a first time."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "The second time, Joseph made himself known to his brothers, and Joseph’s family became known to Pharaoh."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Then Joseph sent and summoned his father Jacob and all his relatives, seventy-five people in all,"
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "and Jacob went down to Egypt. He died there, and so did our fathers,"
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "and they were carried over to Shechem and laid in the tomb that Abraham had bought for a sum of silver from the sons of Hamor in Shechem."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "As the time drew near for the promise that God had declared to Abraham, the people grew and multiplied in Egypt,"
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "until another king arose over Egypt, who did not know Joseph."
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "He dealt cunningly with our race and mistreated our fathers, making them expose their infants so that they would not survive."
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "At that time Moses was born, and he was beautiful in God’s sight. For three months he was raised in his father’s house,"
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "and when he was exposed, Pharaoh’s daughter took him up and raised him as her own son."
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "So Moses was educated in all the wisdom of the Egyptians, and he was powerful in his words and deeds."
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "When he was nearing forty years of age, it came into his heart to visit his brothers, the sons of Israel."
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Seeing one of them being wronged, he came to his defense and avenged the man who was being oppressed by striking down the Egyptian."
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "He supposed that his brothers would understand that God was giving them salvation through his hand, but they did not understand."
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "The next day he appeared to them as they were fighting and tried to reconcile them in peace, saying, ‘Men, you are brothers. Why are you wronging each other?’"
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "But the one who was wronging his neighbor pushed him away, saying, ‘Who appointed you ruler and judge over us?"
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Do you want to kill me the way you killed the Egyptian yesterday?’"
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "At this word Moses fled and came to live as a foreigner in the land of Midian, where he became the father of two sons."
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "When forty years had passed, an angel appeared to him in the wilderness of Mount Sinai, in the flame of a burning bush."
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "When Moses saw it, he was amazed at the sight, and as he came near to look, the voice of the Lord came:"
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "‘I am the God of your fathers, the God of Abraham and Isaac and Jacob.’ Moses began to tremble and did not dare to look."
+     }
+    ]
+   },
+   {
+    "verse": 33,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Then the Lord said to him, ‘Take off the sandals from your feet, for the place where you are standing is holy ground."
+     }
+    ]
+   },
+   {
+    "verse": 34,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "I have surely seen the mistreatment of my people in Egypt, and I have heard their groaning, and I have come down to rescue them. And now come, I will send you to Egypt.’"
+     }
+    ]
+   },
+   {
+    "verse": 35,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "This Moses, whom they disowned, saying, ‘Who appointed you ruler and judge?’—this is the one God sent as both ruler and redeemer, by the hand of the angel who appeared to him in the bush."
+     }
+    ]
+   },
+   {
+    "verse": 36,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "This man led them out, performing wonders and signs in the land of Egypt and at the Red Sea and in the wilderness for forty years."
+     }
+    ]
+   },
+   {
+    "verse": 37,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "This is the Moses who said to the sons of Israel, ‘God will raise up for you a prophet like me from among your brothers.’"
+     }
+    ]
+   },
+   {
+    "verse": 38,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "This is the one who was in the assembly in the wilderness with the angel who spoke to him on Mount Sinai and with our fathers, and he received living oracles to give to us."
+     }
+    ]
+   },
+   {
+    "verse": 39,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Our fathers were unwilling to obey him. Instead they pushed him away and in their hearts turned back to Egypt,"
+     }
+    ]
+   },
+   {
+    "verse": 40,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "saying to Aaron, ‘Make us gods who will go before us. As for this Moses, who led us out of the land of Egypt, we do not know what has happened to him.’"
+     }
+    ]
+   },
+   {
+    "verse": 41,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "In those days they made a calf and offered a sacrifice to the idol, and they rejoiced in the works of their hands."
+     }
+    ]
+   },
+   {
+    "verse": 42,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "But God turned away and handed them over to serve the host of heaven, as it is written in the book of the prophets: ‘Did you bring me slaughtered animals and sacrifices for forty years in the wilderness, house of Israel?"
+     }
+    ]
+   },
+   {
+    "verse": 43,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "You took up the tent of Moloch and the star of the god Rephan, the images you made in order to worship them. And I will resettle you beyond Babylon.’"
+     }
+    ]
+   },
+   {
+    "verse": 44,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Our fathers had the tent of testimony in the wilderness, just as the one who spoke to Moses directed him to make it, according to the pattern he had seen."
+     }
+    ]
+   },
+   {
+    "verse": 45,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Our fathers received it in their turn and brought it in with Joshua when they took possession of the land of the nations that God drove out before our fathers, until the days of David,"
+     }
+    ]
+   },
+   {
+    "verse": 46,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "who found favor before God and asked to find a dwelling place for the God of Jacob."
+     }
+    ]
+   },
+   {
+    "verse": 47,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "But it was Solomon who built him a house."
+     }
+    ]
+   },
+   {
+    "verse": 48,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Yet the Most High does not live in what is made by hands, as the prophet says:"
+     }
+    ]
+   },
+   {
+    "verse": 49,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "‘Heaven is my throne, and the earth is the footstool of my feet. What kind of house will you build for me, says the Lord, or what is the place of my rest?"
+     }
+    ]
+   },
+   {
+    "verse": 50,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Did not my hand make all these things?’"
+     }
+    ]
+   },
+   {
+    "verse": 51,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "You stiff-necked people, uncircumcised in heart and ears, you always resist the Holy Spirit. As your fathers did, so do you."
+     }
+    ]
+   },
+   {
+    "verse": 52,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Which of the prophets did your fathers not persecute? They killed those who announced beforehand the coming of the Righteous One, whose betrayers and murderers you have now become,"
+     }
+    ]
+   },
+   {
+    "verse": 53,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "you who received the Law by the direction of angels and did not keep it.”"
+     }
+    ]
+   },
+   {
+    "verse": 54,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "When they heard these things, they were enraged in their hearts and ground their teeth at him."
+     }
+    ]
+   },
+   {
+    "verse": 55,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But he, full of the Holy Spirit, gazed into heaven and saw the glory of God, and Jesus standing at the right hand of God,"
+     }
+    ]
+   },
+   {
+    "verse": 56,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and he said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Look, I see the heavens opened and the Son of Man standing at the right hand of God.”"
+     }
+    ]
+   },
+   {
+    "verse": 57,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But they cried out with a loud voice, covered their ears, and rushed at him together."
+     }
+    ]
+   },
+   {
+    "verse": 58,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They threw him out of the city and began to stone him. And the witnesses laid their cloaks at the feet of a young man named Saul."
+     }
+    ]
+   },
+   {
+    "verse": 59,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They went on stoning Stephen as he called out,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Lord Jesus, receive my spirit.”"
+     }
+    ]
+   },
+   {
+    "verse": 60,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then he knelt down and cried out with a loud voice,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Lord, do not hold this sin against them.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "And when he had said this, he fell asleep."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 7,
+    "phrase": "worship",
+    "lemma": "λατρεύω",
+    "kind": "departure",
+    "traditional": "serve",
+    "note": "The Greek verb means religious service given to a deity, and this translation normally renders it “serve”, as in verse 42. Here “worship” is used because the same sentence already has “serve as slaves” for a different verb, and the two need to be kept apart. Most modern versions also have “worship” here; the King James Version has “serve”."
+   },
+   {
+    "verse": 14,
+    "phrase": "seventy-five people",
+    "lemma": "ψυχή",
+    "kind": "background",
+    "traditional": "seventy-five souls",
+    "note": "The Greek counts “souls”, a Septuagint idiom for individual persons. The figure seventy-five follows the Greek version of Genesis 46:27 and Exodus 1:5; the Hebrew text has seventy."
+   },
+   {
+    "verse": 16,
+    "phrase": "the tomb that Abraham had bought",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "In Genesis, Abraham buys a burial cave near Hebron from Ephron the Hittite, and it is Jacob who buys land at Shechem from the sons of Hamor, where Joseph is later buried. Stephen’s compressed summary combines the two purchases. Whether this is deliberate telescoping or reflects a different tradition is debated."
+   },
+   {
+    "verse": 20,
+    "phrase": "beautiful in God’s sight",
+    "lemma": "ἀστεῖος",
+    "kind": "ambiguity",
+    "traditional": "exceeding fair",
+    "note": "The Greek is literally “beautiful to God”. It may mean that God regarded the child as beautiful, or it may be a Semitic way of expressing a superlative, “exceedingly beautiful”, as when Jonah 3:3 calls Nineveh “a city great to God”. Translations are divided between the two."
+   },
+   {
+    "verse": 38,
+    "phrase": "assembly",
+    "lemma": "ἐκκλησία",
+    "kind": "departure",
+    "traditional": "church",
+    "note": "This is the Greek word usually translated “church”, and the King James Version has “the church in the wilderness” here. In the Greek Old Testament it is the term for Israel gathered as a people, and a first-century hearer also knew it as an ordinary word for a civic gathering. This translation uses “assembly” everywhere so the reader can see that it is one word; most modern versions have “congregation” or “assembly” in this verse."
+   },
+   {
+    "verse": 43,
+    "phrase": "tent",
+    "lemma": "σκηνή",
+    "kind": "departure",
+    "traditional": "tabernacle",
+    "note": "The Greek word is the ordinary one for a tent, used here for a portable shrine of Moloch and in the next verse for Israel’s wilderness sanctuary. “Tabernacle” is the traditional rendering, but it hides the plain image and the pointed contrast between the two tents. Several modern versions also use “tent”."
+   },
+   {
+    "verse": 43,
+    "phrase": "beyond Babylon",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "Verses 42–43 quote Amos 5:25–27 in its Greek version, which is where the names Moloch and Rephan come from; the Hebrew text is obscure at this point and reads differently. Amos has “beyond Damascus” in both Hebrew and Greek. Stephen’s “beyond Babylon” reflects the later exile of Judah."
+   },
+   {
+    "verse": 45,
+    "phrase": "Joshua",
+    "lemma": "Ἰησοῦς",
+    "kind": "background",
+    "traditional": "Jesus",
+    "note": "In Greek the name Joshua is identical to the name Jesus, and the King James Version prints “Jesus” here. The context makes clear that Moses’ successor is meant, but a Greek reader would have heard the same name."
+   },
+   {
+    "verse": 46,
+    "phrase": "the God of Jacob",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "",
+    "note": "Several early and important manuscripts read “the house of Jacob” instead of “the God of Jacob”, and many scholars prefer that as the more difficult reading. The Greek text followed here reads “God”, which also matches the wording of Psalm 132:5."
+   },
+   {
+    "verse": 52,
+    "phrase": "the Righteous One",
+    "lemma": "δίκαιος",
+    "kind": "background",
+    "traditional": "the Just One",
+    "note": "This is a title for the Messiah, used also in Acts 3:14 and 22:14. Greek has a single word-family where English has two (righteous and just, righteousness and justice), so the title could equally be rendered “the Just One”, as in the King James Version. In a context of betrayal and murder it also carries the sense “the innocent one”."
+   },
+   {
+    "verse": 53,
+    "phrase": "by the direction of angels",
+    "lemma": "διαταγή",
+    "kind": "ambiguity",
+    "traditional": "by the disposition of angels",
+    "note": "The Greek phrase is compressed and could also be rendered “as ordinances of angels” or “as delivered by angels”. It reflects a Jewish tradition, not stated in Exodus, that angels were present and active when the Law was given at Sinai; Galatians 3:19 and Hebrews 2:2 refer to the same tradition. Here it is meant to honor the Law."
+   },
+   {
+    "verse": 54,
+    "phrase": "enraged in their hearts",
+    "lemma": "διαπρίω",
+    "kind": "departure",
+    "traditional": "cut to the heart",
+    "note": "The verb literally means “to be sawn through”, and the traditional rendering is “cut to the heart”. In modern English that phrase suggests grief or remorse, which is what a different verb expresses in Acts 2:37. Here, as in Acts 5:33, the word describes fury, as the grinding of teeth shows."
+   },
+   {
+    "verse": 56,
+    "phrase": "standing",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "Elsewhere the New Testament, echoing Psalm 110:1, speaks of Jesus as seated at God’s right hand. Why he is standing here is disputed: suggestions include rising to welcome Stephen, standing as his witness or advocate, or standing to judge. This is also the only place outside the Gospels where Jesus is called “the Son of Man”."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "σπέρμα",
+    "rendering": "offspring",
+    "verse": 5,
+    "reason": "In the Abraham promise texts across Acts, Romans, Galatians and Hebrews, versions vary between “seed”, “offspring” and “descendants”, and Paul’s argument in Galatians 3:16 depends on the singular."
+   },
+   {
+    "lemma": "πατήρ",
+    "rendering": "fathers",
+    "verse": 11,
+    "reason": "The plural for Israel’s forebears recurs across the New Testament, and translators split between “fathers” and “ancestors”; this chapter’s shift from “our fathers” to “your fathers” shows why it should be uniform."
+   },
+   {
+    "lemma": "σωτηρία",
+    "rendering": "salvation",
+    "verse": 25,
+    "reason": "The word covers both concrete rescue and salvation in the full religious sense, and whether to vary between “deliverance” and “salvation” affects echoes across Luke–Acts and the letters."
+   },
+   {
+    "lemma": "ἔρημος",
+    "rendering": "wilderness",
+    "verse": 30,
+    "reason": "Versions vary between “wilderness” and “desert” for the same word in the Gospels, Acts, Hebrews and Revelation, which obscures the exodus echoes."
+   },
+   {
+    "lemma": "ἀρνέομαι",
+    "rendering": "disowned",
+    "verse": 35,
+    "reason": "The verb is used of Peter’s denial, of Israel rejecting Moses and Jesus (Acts 3:13–14), and of denying Christ in the letters; “deny”, “disown”, “reject” and “refuse” are all in use, and the links are lost if it varies."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 11918,
+   "output_tokens": 462
+  },
+  "findings": [],
+  "error": ""
+ }
+}

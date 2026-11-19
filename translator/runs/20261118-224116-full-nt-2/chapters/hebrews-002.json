@@ -1,0 +1,385 @@
+{
+ "id": "hebrews-002",
+ "book": "hebrews",
+ "chapter": 2,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14fuRi4BB7yqoDi7j",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 12422,
+  "output_tokens": 12359
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Therefore we must pay all the more attention to what we have heard, so that we do not drift away.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For if the word spoken through angels proved firm, and every transgression and act of disobedience received a just penalty,\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"how will we escape if we neglect so great a salvation? It was first spoken through the Lord and was confirmed to us by those who heard him,\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"while God added his testimony by signs and wonders and various deeds of power, and by gifts of the Holy Spirit distributed according to his will.\"}]},{\"verse\":5,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For it was not to angels that he subjected the world to come, about which we are speaking.\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But someone has testified somewhere, saying,\"},{\"speaker\":\"scripture\",\"text\":\"“What is a human being that you remember him, or a son of man that you care for him?\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"scripture\",\"text\":\"You made him for a little while lower than the angels; you crowned him with glory and honor;\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"scripture\",\"text\":\"you subjected all things under his feet.”\"},{\"speaker\":\"narrator\",\"text\":\"For in subjecting all things, he left nothing unsubjected to him. As it is, we do not yet see all things subjected to him.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But we do see Jesus, who was made for a little while lower than the angels, crowned with glory and honor because of the suffering of death, so that apart from God he might taste death for everyone.\"}]},{\"verse\":10,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For it was fitting that he, for whom and through whom all things exist, in bringing many sons and daughters to glory, should perfect the pioneer of their salvation through sufferings.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For the one who makes holy and those who are made holy are all from one. That is why he is not ashamed to call them brothers and sisters,\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"saying,\"},{\"speaker\":\"scripture\",\"text\":\"“I will proclaim your name to my brothers and sisters; in the midst of the assembly I will sing your praise.”\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And again,\"},{\"speaker\":\"scripture\",\"text\":\"“I will put my trust in him.”\"},{\"speaker\":\"narrator\",\"text\":\"And again,\"},{\"speaker\":\"scripture\",\"text\":\"“Here am I, and the children God has given me.”\"}]},{\"verse\":14,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Since, then, the children share in flesh and blood, he himself likewise took part in the same things, so that through death he might render powerless the one who holds the power of death, that is, the devil,\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and set free those who all their lives were held in slavery by the fear of death.\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For surely it is not angels that he takes hold of; rather, he takes hold of the offspring of Abraham.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Therefore he had to be made like his brothers and sisters in every respect, so that he might become a merciful and faithful high priest in matters relating to God, to make atonement for the sins of the people.\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For because he himself has suffered when tested, he is able to help those who are being tested.\"}]}],\"notes\":[{\"verse\":4,\"phrase\":\"deeds of power\",\"lemma\":\"δύναμις\",\"kind\":\"departure\",\"traditional\":\"miracles\",\"note\":\"The Greek is the ordinary word for “power”, used in the plural for acts that display it. “Deeds of power” keeps that connection visible and keeps the word distinct from “signs” and “wonders” beside it. “Miracles” is the more common rendering and is equally accurate; the meaning is not in dispute.\"},{\"verse\":6,\"phrase\":\"a son of man\",\"lemma\":\"υἱός\",\"kind\":\"ambiguity\",\"traditional\":\"the son of man\",\"note\":\"The quotation is Psalm 8:4–6 in its Greek form, where “a son of man” is a Semitic way of saying “a human being” and stands parallel to the first line. It is left lowercase because the psalm speaks of humankind, though the author goes on to find its fulfillment in Jesus (verse 9). Whether “him” in verse 8 refers to humanity in general or already to Jesus is disputed, and the translation leaves both readings open.\"},{\"verse\":7,\"phrase\":\"for a little while\",\"lemma\":\"βραχύς\",\"kind\":\"ambiguity\",\"traditional\":\"a little\",\"note\":\"The Greek phrase can mean “a little” in degree or “for a little while” in time. The Hebrew psalm means the former, but the author’s argument in verse 9, where the lowering of Jesus is followed by his crowning, favors the temporal sense. Translations are divided.\"},{\"verse\":9,\"phrase\":\"apart from God\",\"lemma\":\"χωρίς\",\"kind\":\"textual\",\"traditional\":\"by the grace of God\",\"note\":\"The SBLGNT reads “apart from God” here. The great majority of manuscripts read “by the grace of God”, and nearly all English translations follow them. “Apart from God” survives in only a few manuscripts but was known to early Christian writers, Origen among them, and some scholars judge it the more difficult and therefore earlier reading. If original, it may mean that Jesus died abandoned by God, or that he died for everyone with God alone excepted.\"},{\"verse\":10,\"phrase\":\"many sons and daughters\",\"lemma\":\"υἱός\",\"kind\":\"departure\",\"traditional\":\"many sons\",\"note\":\"The Greek has simply “sons”, which echoes the title “Son” given to Jesus in chapter one. The plural was regularly used for children of both sexes, and the author plainly has the whole community in view. “Sons and daughters” makes that clear at the cost of the verbal echo.\"},{\"verse\":10,\"phrase\":\"perfect\",\"lemma\":\"τελειόω\",\"kind\":\"background\",\"traditional\":\"make perfect\",\"note\":\"The verb means to bring someone to an intended goal or completed state, not to remove a moral flaw. Scholars agree on that much, but they differ on whether Hebrews also intends an overtone of priestly consecration, a sense the word has in the Greek Old Testament, or is thinking of Jesus being fully fitted for his role as savior and high priest.\"},{\"verse\":11,\"phrase\":\"makes holy\",\"lemma\":\"ἁγιάζω\",\"kind\":\"departure\",\"traditional\":\"sanctifies\",\"note\":\"The Greek verb is built directly on the word “holy” and means to bring someone into the sphere of what belongs to God. “Sanctify” is the traditional rendering and is accurate, but it hides the link with “holy” and now suggests to many readers a doctrine of gradual moral improvement. Several modern translations also use “make holy” here.\"},{\"verse\":11,\"phrase\":\"all from one\",\"lemma\":\"εἷς\",\"kind\":\"ambiguity\",\"traditional\":\"all of one\",\"note\":\"The Greek says only “from one”, without saying one what. Most interpreters take it as one Father, that is, God; others take it as one human ancestor, such as Adam or Abraham, or as one common origin or family. The translation leaves the phrase as open as the Greek.\"},{\"verse\":11,\"phrase\":\"brothers and sisters\",\"lemma\":\"ἀδελφός\",\"kind\":\"departure\",\"traditional\":\"brethren, brothers\",\"note\":\"The Greek plural was the ordinary way to refer to siblings of both sexes, and by extension to all members of a community. “Brothers” alone now sounds exclusively male in English, so the fuller phrase is used here and in verses 12 and 17. Many translations keep “brothers”.\"},{\"verse\":12,\"phrase\":\"assembly\",\"lemma\":\"ἐκκλησία\",\"kind\":\"departure\",\"traditional\":\"church, congregation\",\"note\":\"The quotation is Psalm 22:22, where the Greek word denotes Israel gathered for worship. It is the same word the New Testament uses for the Christian community, usually translated “church”. “Assembly” is used throughout this translation so that the reader can see it is one word; “church” is the near-universal rendering elsewhere and is not wrong.\"},{\"verse\":14,\"phrase\":\"render powerless\",\"lemma\":\"καταργέω\",\"kind\":\"departure\",\"traditional\":\"destroy\",\"note\":\"The verb means to put something out of operation or strip it of force; it is not the ordinary Greek word for destroying. Many translations have “destroy” here, but the devil is not said to cease to exist, only to lose his hold. The rendering also echoes “the power of death” that follows, though the Greek uses two unrelated words.\"},{\"verse\":16,\"phrase\":\"takes hold of\",\"lemma\":\"ἐπιλαμβάνομαι\",\"kind\":\"ambiguity\",\"traditional\":\"took on him the nature of (KJV); helps (most modern versions)\",\"note\":\"The verb means to take hold of or grasp someone. Most modern translations understand this as taking hold in order to help, and render it “helps”. An older interpretation took it as taking on a nature, that is, becoming human rather than angelic. The literal rendering is kept because the same verb is used in 8:9 of God taking Israel by the hand.\"},{\"verse\":17,\"phrase\":\"make atonement for\",\"lemma\":\"ἱλάσκομαι\",\"kind\":\"departure\",\"traditional\":\"make propitiation for\",\"note\":\"Older translations have “make propitiation” or “make reconciliation” for the sins of the people. Scholars have long debated whether this word family means propitiation (turning away divine wrath) or expiation (removing sin). Here the direct object is “sins”, and “make atonement” reflects the priestly language of the Greek Old Testament without deciding the wider debate.\"},{\"verse\":18,\"phrase\":\"tested\",\"lemma\":\"πειράζω\",\"kind\":\"departure\",\"traditional\":\"tempted\",\"note\":\"The Greek verb means to put to the test, and in the Greek Old Testament it is the regular word for Israel’s testing in the wilderness, a background Hebrews draws on in the next chapters. Most translations have “tempted” here, and the lexicons recognize both senses. “Tested” was chosen because the context is suffering, and “tempt” in modern English has narrowed to enticement to sin.\"}],\"candidates\":[{\"lemma\":\"ἀρχηγός\",\"rendering\":\"pioneer\",\"verse\":10,\"reason\":\"Used of Jesus in Acts 3:15, 5:31, Hebrews 2:10 and 12:2, and translations vary among “author”, “founder”, “pioneer”, “leader” and “prince”, which hides that it is one title.\"},{\"lemma\":\"ἀδελφός\",\"rendering\":\"brothers and sisters\",\"verse\":11,\"reason\":\"The plural for community members occurs throughout the New Testament and needs one policy on “brothers” versus “brothers and sisters”.\"},{\"lemma\":\"υἱός\",\"rendering\":\"sons and daughters\",\"verse\":10,\"reason\":\"The plural for believers as God’s children recurs in Paul and Hebrews, where the link to “the Son” and to inheritance competes with inclusive rendering.\"},{\"lemma\":\"σπέρμα\",\"rendering\":\"offspring\",\"verse\":16,\"reason\":\"“Seed”, “offspring” and “descendants” are all in use for Abraham’s line, and Paul’s argument in Galatians 3 depends on the word’s singular form, so one rendering is needed.\"},{\"lemma\":\"ὑποτάσσω\",\"rendering\":\"subject\",\"verse\":5,\"reason\":\"Recurs across Paul, Hebrews and 1 Peter for cosmic and social relations, where “subject”, “submit” and “put under” vary and the choice shapes how household passages are read.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Therefore we must pay all the more attention to what we have heard, so that we do not drift away."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For if the word spoken through angels proved firm, and every transgression and act of disobedience received a just penalty,"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "how will we escape if we neglect so great a salvation? It was first spoken through the Lord and was confirmed to us by those who heard him,"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "while God added his testimony by signs and wonders and various deeds of power, and by gifts of the Holy Spirit distributed according to his will."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For it was not to angels that he subjected the world to come, about which we are speaking."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But someone has testified somewhere, saying,"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“What is a human being that you remember him, or a son of man that you care for him?"
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "scripture",
+      "text": "You made him for a little while lower than the angels; you crowned him with glory and honor;"
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "scripture",
+      "text": "you subjected all things under his feet.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "For in subjecting all things, he left nothing unsubjected to him. As it is, we do not yet see all things subjected to him."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But we do see Jesus, who was made for a little while lower than the angels, crowned with glory and honor because of the suffering of death, so that apart from God he might taste death for everyone."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For it was fitting that he, for whom and through whom all things exist, in bringing many sons and daughters to glory, should perfect the pioneer of their salvation through sufferings."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For the one who makes holy and those who are made holy are all from one. That is why he is not ashamed to call them brothers and sisters,"
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "saying,"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“I will proclaim your name to my brothers and sisters; in the midst of the assembly I will sing your praise.”"
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And again,"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“I will put my trust in him.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "And again,"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“Here am I, and the children God has given me.”"
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Since, then, the children share in flesh and blood, he himself likewise took part in the same things, so that through death he might render powerless the one who holds the power of death, that is, the devil,"
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and set free those who all their lives were held in slavery by the fear of death."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For surely it is not angels that he takes hold of; rather, he takes hold of the offspring of Abraham."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Therefore he had to be made like his brothers and sisters in every respect, so that he might become a merciful and faithful high priest in matters relating to God, to make atonement for the sins of the people."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For because he himself has suffered when tested, he is able to help those who are being tested."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 4,
+    "phrase": "deeds of power",
+    "lemma": "δύναμις",
+    "kind": "departure",
+    "traditional": "miracles",
+    "note": "The Greek is the ordinary word for “power”, used in the plural for acts that display it. “Deeds of power” keeps that connection visible and keeps the word distinct from “signs” and “wonders” beside it. “Miracles” is the more common rendering and is equally accurate; the meaning is not in dispute."
+   },
+   {
+    "verse": 6,
+    "phrase": "a son of man",
+    "lemma": "υἱός",
+    "kind": "ambiguity",
+    "traditional": "the son of man",
+    "note": "The quotation is Psalm 8:4–6 in its Greek form, where “a son of man” is a Semitic way of saying “a human being” and stands parallel to the first line. It is left lowercase because the psalm speaks of humankind, though the author goes on to find its fulfillment in Jesus (verse 9). Whether “him” in verse 8 refers to humanity in general or already to Jesus is disputed, and the translation leaves both readings open."
+   },
+   {
+    "verse": 7,
+    "phrase": "for a little while",
+    "lemma": "βραχύς",
+    "kind": "ambiguity",
+    "traditional": "a little",
+    "note": "The Greek phrase can mean “a little” in degree or “for a little while” in time. The Hebrew psalm means the former, but the author’s argument in verse 9, where the lowering of Jesus is followed by his crowning, favors the temporal sense. Translations are divided."
+   },
+   {
+    "verse": 9,
+    "phrase": "apart from God",
+    "lemma": "χωρίς",
+    "kind": "textual",
+    "traditional": "by the grace of God",
+    "note": "The SBLGNT reads “apart from God” here. The great majority of manuscripts read “by the grace of God”, and nearly all English translations follow them. “Apart from God” survives in only a few manuscripts but was known to early Christian writers, Origen among them, and some scholars judge it the more difficult and therefore earlier reading. If original, it may mean that Jesus died abandoned by God, or that he died for everyone with God alone excepted."
+   },
+   {
+    "verse": 10,
+    "phrase": "many sons and daughters",
+    "lemma": "υἱός",
+    "kind": "departure",
+    "traditional": "many sons",
+    "note": "The Greek has simply “sons”, which echoes the title “Son” given to Jesus in chapter one. The plural was regularly used for children of both sexes, and the author plainly has the whole community in view. “Sons and daughters” makes that clear at the cost of the verbal echo."
+   },
+   {
+    "verse": 10,
+    "phrase": "perfect",
+    "lemma": "τελειόω",
+    "kind": "background",
+    "traditional": "make perfect",
+    "note": "The verb means to bring someone to an intended goal or completed state, not to remove a moral flaw. Scholars agree on that much, but they differ on whether Hebrews also intends an overtone of priestly consecration, a sense the word has in the Greek Old Testament, or is thinking of Jesus being fully fitted for his role as savior and high priest."
+   },
+   {
+    "verse": 11,
+    "phrase": "makes holy",
+    "lemma": "ἁγιάζω",
+    "kind": "departure",
+    "traditional": "sanctifies",
+    "note": "The Greek verb is built directly on the word “holy” and means to bring someone into the sphere of what belongs to God. “Sanctify” is the traditional rendering and is accurate, but it hides the link with “holy” and now suggests to many readers a doctrine of gradual moral improvement. Several modern translations also use “make holy” here."
+   },
+   {
+    "verse": 11,
+    "phrase": "all from one",
+    "lemma": "εἷς",
+    "kind": "ambiguity",
+    "traditional": "all of one",
+    "note": "The Greek says only “from one”, without saying one what. Most interpreters take it as one Father, that is, God; others take it as one human ancestor, such as Adam or Abraham, or as one common origin or family. The translation leaves the phrase as open as the Greek."
+   },
+   {
+    "verse": 11,
+    "phrase": "brothers and sisters",
+    "lemma": "ἀδελφός",
+    "kind": "departure",
+    "traditional": "brethren, brothers",
+    "note": "The Greek plural was the ordinary way to refer to siblings of both sexes, and by extension to all members of a community. “Brothers” alone now sounds exclusively male in English, so the fuller phrase is used here and in verses 12 and 17. Many translations keep “brothers”."
+   },
+   {
+    "verse": 12,
+    "phrase": "assembly",
+    "lemma": "ἐκκλησία",
+    "kind": "departure",
+    "traditional": "church, congregation",
+    "note": "The quotation is Psalm 22:22, where the Greek word denotes Israel gathered for worship. It is the same word the New Testament uses for the Christian community, usually translated “church”. “Assembly” is used throughout this translation so that the reader can see it is one word; “church” is the near-universal rendering elsewhere and is not wrong."
+   },
+   {
+    "verse": 14,
+    "phrase": "render powerless",
+    "lemma": "καταργέω",
+    "kind": "departure",
+    "traditional": "destroy",
+    "note": "The verb means to put something out of operation or strip it of force; it is not the ordinary Greek word for destroying. Many translations have “destroy” here, but the devil is not said to cease to exist, only to lose his hold. The rendering also echoes “the power of death” that follows, though the Greek uses two unrelated words."
+   },
+   {
+    "verse": 16,
+    "phrase": "takes hold of",
+    "lemma": "ἐπιλαμβάνομαι",
+    "kind": "ambiguity",
+    "traditional": "took on him the nature of (KJV); helps (most modern versions)",
+    "note": "The verb means to take hold of or grasp someone. Most modern translations understand this as taking hold in order to help, and render it “helps”. An older interpretation took it as taking on a nature, that is, becoming human rather than angelic. The literal rendering is kept because the same verb is used in 8:9 of God taking Israel by the hand."
+   },
+   {
+    "verse": 17,
+    "phrase": "make atonement for",
+    "lemma": "ἱλάσκομαι",
+    "kind": "departure",
+    "traditional": "make propitiation for",
+    "note": "Older translations have “make propitiation” or “make reconciliation” for the sins of the people. Scholars have long debated whether this word family means propitiation (turning away divine wrath) or expiation (removing sin). Here the direct object is “sins”, and “make atonement” reflects the priestly language of the Greek Old Testament without deciding the wider debate."
+   },
+   {
+    "verse": 18,
+    "phrase": "tested",
+    "lemma": "πειράζω",
+    "kind": "departure",
+    "traditional": "tempted",
+    "note": "The Greek verb means to put to the test, and in the Greek Old Testament it is the regular word for Israel’s testing in the wilderness, a background Hebrews draws on in the next chapters. Most translations have “tempted” here, and the lexicons recognize both senses. “Tested” was chosen because the context is suffering, and “tempt” in modern English has narrowed to enticement to sin."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "ἀρχηγός",
+    "rendering": "pioneer",
+    "verse": 10,
+    "reason": "Used of Jesus in Acts 3:15, 5:31, Hebrews 2:10 and 12:2, and translations vary among “author”, “founder”, “pioneer”, “leader” and “prince”, which hides that it is one title."
+   },
+   {
+    "lemma": "ἀδελφός",
+    "rendering": "brothers and sisters",
+    "verse": 11,
+    "reason": "The plural for community members occurs throughout the New Testament and needs one policy on “brothers” versus “brothers and sisters”."
+   },
+   {
+    "lemma": "υἱός",
+    "rendering": "sons and daughters",
+    "verse": 10,
+    "reason": "The plural for believers as God’s children recurs in Paul and Hebrews, where the link to “the Son” and to inheritance competes with inclusive rendering."
+   },
+   {
+    "lemma": "σπέρμα",
+    "rendering": "offspring",
+    "verse": 16,
+    "reason": "“Seed”, “offspring” and “descendants” are all in use for Abraham’s line, and Paul’s argument in Galatians 3 depends on the word’s singular form, so one rendering is needed."
+   },
+   {
+    "lemma": "ὑποτάσσω",
+    "rendering": "subject",
+    "verse": 5,
+    "reason": "Recurs across Paul, Hebrews and 1 Peter for cosmic and social relations, where “subject”, “submit” and “put under” vary and the choice shapes how household passages are read."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 4546,
+   "output_tokens": 361
+  },
+  "findings": [],
+  "error": ""
+ }
+}

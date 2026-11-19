@@ -1,0 +1,765 @@
+{
+ "id": "john-008",
+ "book": "john",
+ "chapter": 8,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14mro17ht8cgmuwez",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 11709,
+  "output_tokens": 26777
+ },
+ "raw": "{\"verses\":[{\"verse\":12,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then Jesus spoke to them again, saying,\"},{\"speaker\":\"Jesus\",\"text\":\"“I am the light of the world. Whoever follows me will never walk in the darkness, but will have the light of life.”\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So the Pharisees said to him,\"},{\"speaker\":\"other\",\"text\":\"“You are testifying about yourself; your testimony is not true.”\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus answered them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Even if I do testify about myself, my testimony is true, because I know where I came from and where I am going. But you do not know where I come from or where I am going.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"You judge by human standards; I judge no one.\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Yet even if I do judge, my judgment is true, because I am not alone—it is I and the Father who sent me.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And in your own Law it is written that the testimony of two people is true.\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"I am the one who testifies about myself, and the Father who sent me testifies about me.”\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So they asked him,\"},{\"speaker\":\"other\",\"text\":\"“Where is your father?”\"},{\"speaker\":\"narrator\",\"text\":\"Jesus answered,\"},{\"speaker\":\"Jesus\",\"text\":\"“You know neither me nor my Father. If you knew me, you would know my Father also.”\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He spoke these words in the treasury while teaching in the temple, and no one seized him, because his hour had not yet come.\"}]},{\"verse\":21,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Then he said to them again,\"},{\"speaker\":\"Jesus\",\"text\":\"“I am going away, and you will seek me, and you will die in your sin. Where I am going, you cannot come.”\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So the Jews said,\"},{\"speaker\":\"other\",\"text\":\"“He is not going to kill himself, is he, since he says, ‘Where I am going, you cannot come’?”\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“You are from below; I am from above. You are from this world; I am not from this world.\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"That is why I told you that you will die in your sins; for unless you believe that I am he, you will die in your sins.”\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So they said to him,\"},{\"speaker\":\"other\",\"text\":\"“Who are you?”\"},{\"speaker\":\"narrator\",\"text\":\"Jesus said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Why do I speak to you at all?\"}]},{\"verse\":26,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"I have much to say about you and much to judge, but the one who sent me is true, and what I have heard from him I speak to the world.”\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They did not understand that he was speaking to them about the Father.\"}]},{\"verse\":28,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So Jesus said,\"},{\"speaker\":\"Jesus\",\"text\":\"“When you have lifted up the Son of Man, then you will know that I am he, and that I do nothing on my own, but speak these things just as the Father taught me.\"}]},{\"verse\":29,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"And the one who sent me is with me. He has not left me alone, because I always do what pleases him.”\"}]},{\"verse\":30,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"As he was saying these things, many believed in him.\"}]},{\"verse\":31,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So Jesus said to the Jews who had believed him,\"},{\"speaker\":\"Jesus\",\"text\":\"“If you remain in my word, you are truly my disciples,\"}]},{\"verse\":32,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"and you will know the truth, and the truth will set you free.”\"}]},{\"verse\":33,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They answered him,\"},{\"speaker\":\"other\",\"text\":\"“We are Abraham’s descendants and have never been slaves to anyone. How can you say, ‘You will become free’?”\"}]},{\"verse\":34,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus answered them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Truly, truly, I tell you, everyone who commits sin is a slave of sin.\"}]},{\"verse\":35,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"The slave does not remain in the household forever; the son remains forever.\"}]},{\"verse\":36,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"So if the Son sets you free, you will really be free.\"}]},{\"verse\":37,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"I know that you are Abraham’s descendants. Yet you are seeking to kill me, because my word finds no room in you.\"}]},{\"verse\":38,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"I speak what I have seen in my Father’s presence, and you, then, do what you have heard from your father.”\"}]},{\"verse\":39,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They answered him,\"},{\"speaker\":\"other\",\"text\":\"“Our father is Abraham.”\"},{\"speaker\":\"narrator\",\"text\":\"Jesus said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“If you are Abraham’s children, you would be doing the works of Abraham.\"}]},{\"verse\":40,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But now you are seeking to kill me, a man who has spoken to you the truth that I heard from God. Abraham did not do this.\"}]},{\"verse\":41,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"You are doing the works of your father.”\"},{\"speaker\":\"narrator\",\"text\":\"They said to him,\"},{\"speaker\":\"other\",\"text\":\"“We were not born of sexual immorality. We have one Father—God.”\"}]},{\"verse\":42,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“If God were your Father, you would love me, for I came from God and am here. I have not come on my own; he sent me.\"}]},{\"verse\":43,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Why do you not understand what I am saying? Because you cannot hear my word.\"}]},{\"verse\":44,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"You are from your father the devil, and you want to carry out your father’s desires. He was a murderer from the beginning and did not stand in the truth, because there is no truth in him. When he speaks a lie, he speaks from what is his own, because he is a liar and the father of lies.\"}]},{\"verse\":45,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"But because I tell the truth, you do not believe me.\"}]},{\"verse\":46,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Which of you convicts me of sin? If I tell the truth, why do you not believe me?\"}]},{\"verse\":47,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Whoever is from God hears the words of God. This is why you do not hear: because you are not from God.”\"}]},{\"verse\":48,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The Jews answered him,\"},{\"speaker\":\"other\",\"text\":\"“Are we not right to say that you are a Samaritan and have a demon?”\"}]},{\"verse\":49,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus answered,\"},{\"speaker\":\"Jesus\",\"text\":\"“I do not have a demon. I honor my Father, and you dishonor me.\"}]},{\"verse\":50,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"I do not seek my own glory; there is one who seeks it, and he judges.\"}]},{\"verse\":51,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Truly, truly, I tell you, whoever keeps my word will never see death.”\"}]},{\"verse\":52,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The Jews said to him,\"},{\"speaker\":\"other\",\"text\":\"“Now we know that you have a demon. Abraham died, and so did the prophets, yet you say, ‘Whoever keeps my word will never taste death.’\"}]},{\"verse\":53,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"other\",\"text\":\"Surely you are not greater than our father Abraham, who died? The prophets died too. Who do you make yourself out to be?”\"}]},{\"verse\":54,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus answered,\"},{\"speaker\":\"Jesus\",\"text\":\"“If I glorify myself, my glory is nothing. It is my Father who glorifies me, of whom you say, ‘He is our God.’\"}]},{\"verse\":55,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Yet you have not come to know him, but I know him. If I were to say that I do not know him, I would be a liar like you. But I do know him, and I keep his word.\"}]},{\"verse\":56,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"Jesus\",\"text\":\"Your father Abraham was overjoyed that he would see my day; he saw it and was glad.”\"}]},{\"verse\":57,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So the Jews said to him,\"},{\"speaker\":\"other\",\"text\":\"“You are not yet fifty years old, and you have seen Abraham?”\"}]},{\"verse\":58,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Jesus said to them,\"},{\"speaker\":\"Jesus\",\"text\":\"“Truly, truly, I tell you, before Abraham was born, I am.”\"}]},{\"verse\":59,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So they picked up stones to throw at him, but Jesus hid and went out of the temple.\"}]}],\"notes\":[{\"verse\":12,\"phrase\":\"Then Jesus spoke to them again\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"\",\"note\":\"Verses 1–11 of this chapter belong to the story of the woman caught in adultery (7:53–8:11). That passage is missing from the earliest manuscripts and appears at different places in later ones, and most scholars judge that it was not originally part of this Gospel. Without it, verse 12 continues directly from the debate in the temple at the end of chapter 7.\"},{\"verse\":12,\"phrase\":\"the light of the world\",\"lemma\":\"φῶς\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"The setting is still the Feast of Tabernacles (7:2, 37). Later rabbinic tradition describes great lamps lit in the temple’s Court of Women during that festival, the area where the treasury of verse 20 is usually located. Many interpreters hear the saying against that backdrop, though John does not mention the lamps.\"},{\"verse\":15,\"phrase\":\"by human standards\",\"lemma\":\"σάρξ\",\"kind\":\"departure\",\"traditional\":\"according to the flesh\",\"note\":\"The Greek is literally “according to the flesh.” Here “flesh” means the merely human point of view—judging by appearances and human criteria—not the body or sinful desire. Several modern versions render it the same way.\"},{\"verse\":17,\"phrase\":\"the testimony of two people is true\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"The rule that a matter must be established by two or three witnesses comes from Deuteronomy 17:6 and 19:15. “True” here carries the legal sense “valid,” as in verses 13 and 14. Jesus names himself and the Father as the two witnesses.\"},{\"verse\":24,\"phrase\":\"I am he\",\"lemma\":\"εἰμί\",\"kind\":\"ambiguity\",\"traditional\":\"I am he\",\"note\":\"The Greek is simply “I am” (egō eimi) with nothing after it, which is why the hearers ask “Who are you?” in the next verse. In everyday Greek the phrase can mean “I am he” or “it is I,” and it is rendered that way here and in verse 28; it also echoes God’s self-declaration in the Greek version of Isaiah (for example 43:10). The same two words stand in verse 58, where nothing can be supplied and the rendering is “I am.”\"},{\"verse\":25,\"phrase\":\"Why do I speak to you at all?\",\"lemma\":\"ἀρχή\",\"kind\":\"departure\",\"traditional\":\"Just what I have been telling you from the beginning\",\"note\":\"This is one of the most disputed sentences in John. The traditional rendering takes the opening phrase as “from the beginning,” but used adverbially it often means “at all,” John elsewhere uses a different expression for “from the beginning,” and the verb is in the present tense. The Greek edition translated here punctuates the sentence as a question, and ancient Greek-speaking commentators read it as an expression of exasperation. Many scholars and most English versions still prefer the traditional sense.\"},{\"verse\":28,\"phrase\":\"lifted up\",\"lemma\":\"ὑψόω\",\"kind\":\"ambiguity\",\"traditional\":\"lifted up\",\"note\":\"The verb means both to raise physically and to exalt. John uses it for Jesus being raised on the cross, which is at the same time his exaltation (3:14; 12:32–33). “Lifted up” keeps both senses.\"},{\"verse\":31,\"phrase\":\"the Jews who had believed him\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"\",\"note\":\"These hearers are said to have believed him, yet in the verses that follow the audience is said to be seeking to kill him. Some interpreters think their belief was shallow and gives way under challenge. Others think the group addressed widens again to the hostile crowd of the earlier verses. The text does not settle the question.\"},{\"verse\":35,\"phrase\":\"does not remain in the household forever\",\"lemma\":\"αἰών\",\"kind\":\"register-exception\",\"traditional\":\"does not remain in the house forever\",\"note\":\"The Greek idiom, literally “into the age,” usually means “never” when it follows a negative, as in verses 51 and 52. Here the contrast with the son who “remains forever” shows that the sense is “not permanently” rather than “never”: a slave has no lasting place in the household, and a son does.\"},{\"verse\":38,\"phrase\":\"do what you have heard from your father\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"you do what you have heard from your father\",\"note\":\"The Greek has simply “the father” in both halves of the verse, and the verb “do” can be a statement or a command. The rendering here takes it as a contrast between two fathers, anticipating verses 41 and 44, as most English versions do. The alternative is an appeal: “so you too should do what you have heard from the Father.” Some manuscripts add “my” and “your” to make the contrast explicit.\"},{\"verse\":41,\"phrase\":\"born of sexual immorality\",\"lemma\":\"πορνεία\",\"kind\":\"background\",\"traditional\":\"born of fornication\",\"note\":\"The word covers unlawful sexual relations in general. In the prophets it is also a standing image for idolatry—Hosea speaks of “children of whoredom”—which fits the reply “We have one Father—God”: the speakers claim to be faithful Israel, not children of a false god. Some interpreters also hear in the emphatic “We” a slur on the circumstances of Jesus’s own birth, but this is uncertain.\"},{\"verse\":44,\"phrase\":\"You are from your father the devil\",\"lemma\":\"διάβολος\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"This is said within a dispute among Jews, to the particular hearers who, Jesus says, are seeking to kill him (verses 37 and 40). He has already granted that they are Abraham’s descendants; the argument is that conduct, not ancestry, shows whose child a person is. The verse was later turned against the Jewish people as a whole, a use the context does not support.\"},{\"verse\":58,\"phrase\":\"I am\",\"lemma\":\"εἰμί\",\"kind\":\"background\",\"traditional\":\"I am\",\"note\":\"These are the same two Greek words as in verses 24 and 28, here with nothing that could be supplied after them and set against Abraham’s coming into existence. Most interpreters hear an echo of God’s self-declarations in Isaiah, and many also connect it with the divine name in Exodus 3:14. The attempt at stoning in the next verse suggests the hearers took it as blasphemy.\"}],\"candidates\":[{\"lemma\":\"μένω\",\"rendering\":\"remain\",\"verse\":31,\"reason\":\"A key Johannine term rendered variously as “abide,” “remain,” “continue” or “stay”; readers lose the thread across John and 1 John if it varies.\"},{\"lemma\":\"σάρξ\",\"rendering\":\"human standards (in the phrase κατὰ τὴν σάρκα)\",\"verse\":15,\"reason\":\"“Flesh” has several distinct senses across the Gospels and Paul, and the phrase κατὰ σάρκα recurs often enough to need a fixed policy on when to keep “flesh.”\"},{\"lemma\":\"δοῦλος\",\"rendering\":\"slave\",\"verse\":34,\"reason\":\"Translations split between “slave” and “servant” throughout the New Testament, and the choice changes how readers hear both parables and Paul’s self-descriptions.\"},{\"lemma\":\"πορνεία\",\"rendering\":\"sexual immorality\",\"verse\":41,\"reason\":\"Rendered “fornication,” “sexual immorality,” “unchastity” or “prostitution” in different versions, with a metaphorical idolatry sense that also needs a consistent approach.\"},{\"lemma\":\"σπέρμα\",\"rendering\":\"descendants\",\"verse\":33,\"reason\":\"“Seed,” “offspring” and “descendants” are all in use, and Paul’s argument in Galatians 3 turns on the singular, so one policy is needed across books.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 12,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then Jesus spoke to them again, saying,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“I am the light of the world. Whoever follows me will never walk in the darkness, but will have the light of life.”"
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So the Pharisees said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“You are testifying about yourself; your testimony is not true.”"
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus answered them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Even if I do testify about myself, my testimony is true, because I know where I came from and where I am going. But you do not know where I come from or where I am going."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "You judge by human standards; I judge no one."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Yet even if I do judge, my judgment is true, because I am not alone—it is I and the Father who sent me."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And in your own Law it is written that the testimony of two people is true."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "I am the one who testifies about myself, and the Father who sent me testifies about me.”"
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So they asked him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Where is your father?”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "Jesus answered,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“You know neither me nor my Father. If you knew me, you would know my Father also.”"
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He spoke these words in the treasury while teaching in the temple, and no one seized him, because his hour had not yet come."
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Then he said to them again,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“I am going away, and you will seek me, and you will die in your sin. Where I am going, you cannot come.”"
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So the Jews said,"
+     },
+     {
+      "speaker": "other",
+      "text": "“He is not going to kill himself, is he, since he says, ‘Where I am going, you cannot come’?”"
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“You are from below; I am from above. You are from this world; I am not from this world."
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "That is why I told you that you will die in your sins; for unless you believe that I am he, you will die in your sins.”"
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So they said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Who are you?”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "Jesus said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Why do I speak to you at all?"
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "I have much to say about you and much to judge, but the one who sent me is true, and what I have heard from him I speak to the world.”"
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They did not understand that he was speaking to them about the Father."
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So Jesus said,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“When you have lifted up the Son of Man, then you will know that I am he, and that I do nothing on my own, but speak these things just as the Father taught me."
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "And the one who sent me is with me. He has not left me alone, because I always do what pleases him.”"
+     }
+    ]
+   },
+   {
+    "verse": 30,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "As he was saying these things, many believed in him."
+     }
+    ]
+   },
+   {
+    "verse": 31,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So Jesus said to the Jews who had believed him,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“If you remain in my word, you are truly my disciples,"
+     }
+    ]
+   },
+   {
+    "verse": 32,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "and you will know the truth, and the truth will set you free.”"
+     }
+    ]
+   },
+   {
+    "verse": 33,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They answered him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“We are Abraham’s descendants and have never been slaves to anyone. How can you say, ‘You will become free’?”"
+     }
+    ]
+   },
+   {
+    "verse": 34,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus answered them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Truly, truly, I tell you, everyone who commits sin is a slave of sin."
+     }
+    ]
+   },
+   {
+    "verse": 35,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "The slave does not remain in the household forever; the son remains forever."
+     }
+    ]
+   },
+   {
+    "verse": 36,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "So if the Son sets you free, you will really be free."
+     }
+    ]
+   },
+   {
+    "verse": 37,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "I know that you are Abraham’s descendants. Yet you are seeking to kill me, because my word finds no room in you."
+     }
+    ]
+   },
+   {
+    "verse": 38,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "I speak what I have seen in my Father’s presence, and you, then, do what you have heard from your father.”"
+     }
+    ]
+   },
+   {
+    "verse": 39,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They answered him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Our father is Abraham.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "Jesus said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“If you are Abraham’s children, you would be doing the works of Abraham."
+     }
+    ]
+   },
+   {
+    "verse": 40,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But now you are seeking to kill me, a man who has spoken to you the truth that I heard from God. Abraham did not do this."
+     }
+    ]
+   },
+   {
+    "verse": 41,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "You are doing the works of your father.”"
+     },
+     {
+      "speaker": "narrator",
+      "text": "They said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“We were not born of sexual immorality. We have one Father—God.”"
+     }
+    ]
+   },
+   {
+    "verse": 42,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“If God were your Father, you would love me, for I came from God and am here. I have not come on my own; he sent me."
+     }
+    ]
+   },
+   {
+    "verse": 43,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Why do you not understand what I am saying? Because you cannot hear my word."
+     }
+    ]
+   },
+   {
+    "verse": 44,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "You are from your father the devil, and you want to carry out your father’s desires. He was a murderer from the beginning and did not stand in the truth, because there is no truth in him. When he speaks a lie, he speaks from what is his own, because he is a liar and the father of lies."
+     }
+    ]
+   },
+   {
+    "verse": 45,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "But because I tell the truth, you do not believe me."
+     }
+    ]
+   },
+   {
+    "verse": 46,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Which of you convicts me of sin? If I tell the truth, why do you not believe me?"
+     }
+    ]
+   },
+   {
+    "verse": 47,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Whoever is from God hears the words of God. This is why you do not hear: because you are not from God.”"
+     }
+    ]
+   },
+   {
+    "verse": 48,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The Jews answered him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Are we not right to say that you are a Samaritan and have a demon?”"
+     }
+    ]
+   },
+   {
+    "verse": 49,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus answered,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“I do not have a demon. I honor my Father, and you dishonor me."
+     }
+    ]
+   },
+   {
+    "verse": 50,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "I do not seek my own glory; there is one who seeks it, and he judges."
+     }
+    ]
+   },
+   {
+    "verse": 51,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Truly, truly, I tell you, whoever keeps my word will never see death.”"
+     }
+    ]
+   },
+   {
+    "verse": 52,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The Jews said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“Now we know that you have a demon. Abraham died, and so did the prophets, yet you say, ‘Whoever keeps my word will never taste death.’"
+     }
+    ]
+   },
+   {
+    "verse": 53,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "other",
+      "text": "Surely you are not greater than our father Abraham, who died? The prophets died too. Who do you make yourself out to be?”"
+     }
+    ]
+   },
+   {
+    "verse": 54,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus answered,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“If I glorify myself, my glory is nothing. It is my Father who glorifies me, of whom you say, ‘He is our God.’"
+     }
+    ]
+   },
+   {
+    "verse": 55,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Yet you have not come to know him, but I know him. If I were to say that I do not know him, I would be a liar like you. But I do know him, and I keep his word."
+     }
+    ]
+   },
+   {
+    "verse": 56,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "Jesus",
+      "text": "Your father Abraham was overjoyed that he would see my day; he saw it and was glad.”"
+     }
+    ]
+   },
+   {
+    "verse": 57,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So the Jews said to him,"
+     },
+     {
+      "speaker": "other",
+      "text": "“You are not yet fifty years old, and you have seen Abraham?”"
+     }
+    ]
+   },
+   {
+    "verse": 58,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Jesus said to them,"
+     },
+     {
+      "speaker": "Jesus",
+      "text": "“Truly, truly, I tell you, before Abraham was born, I am.”"
+     }
+    ]
+   },
+   {
+    "verse": 59,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So they picked up stones to throw at him, but Jesus hid and went out of the temple."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 12,
+    "phrase": "Then Jesus spoke to them again",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "",
+    "note": "Verses 1–11 of this chapter belong to the story of the woman caught in adultery (7:53–8:11). That passage is missing from the earliest manuscripts and appears at different places in later ones, and most scholars judge that it was not originally part of this Gospel. Without it, verse 12 continues directly from the debate in the temple at the end of chapter 7."
+   },
+   {
+    "verse": 12,
+    "phrase": "the light of the world",
+    "lemma": "φῶς",
+    "kind": "background",
+    "traditional": "",
+    "note": "The setting is still the Feast of Tabernacles (7:2, 37). Later rabbinic tradition describes great lamps lit in the temple’s Court of Women during that festival, the area where the treasury of verse 20 is usually located. Many interpreters hear the saying against that backdrop, though John does not mention the lamps."
+   },
+   {
+    "verse": 15,
+    "phrase": "by human standards",
+    "lemma": "σάρξ",
+    "kind": "departure",
+    "traditional": "according to the flesh",
+    "note": "The Greek is literally “according to the flesh.” Here “flesh” means the merely human point of view—judging by appearances and human criteria—not the body or sinful desire. Several modern versions render it the same way."
+   },
+   {
+    "verse": 17,
+    "phrase": "the testimony of two people is true",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "The rule that a matter must be established by two or three witnesses comes from Deuteronomy 17:6 and 19:15. “True” here carries the legal sense “valid,” as in verses 13 and 14. Jesus names himself and the Father as the two witnesses."
+   },
+   {
+    "verse": 24,
+    "phrase": "I am he",
+    "lemma": "εἰμί",
+    "kind": "ambiguity",
+    "traditional": "I am he",
+    "note": "The Greek is simply “I am” (egō eimi) with nothing after it, which is why the hearers ask “Who are you?” in the next verse. In everyday Greek the phrase can mean “I am he” or “it is I,” and it is rendered that way here and in verse 28; it also echoes God’s self-declaration in the Greek version of Isaiah (for example 43:10). The same two words stand in verse 58, where nothing can be supplied and the rendering is “I am.”"
+   },
+   {
+    "verse": 25,
+    "phrase": "Why do I speak to you at all?",
+    "lemma": "ἀρχή",
+    "kind": "departure",
+    "traditional": "Just what I have been telling you from the beginning",
+    "note": "This is one of the most disputed sentences in John. The traditional rendering takes the opening phrase as “from the beginning,” but used adverbially it often means “at all,” John elsewhere uses a different expression for “from the beginning,” and the verb is in the present tense. The Greek edition translated here punctuates the sentence as a question, and ancient Greek-speaking commentators read it as an expression of exasperation. Many scholars and most English versions still prefer the traditional sense."
+   },
+   {
+    "verse": 28,
+    "phrase": "lifted up",
+    "lemma": "ὑψόω",
+    "kind": "ambiguity",
+    "traditional": "lifted up",
+    "note": "The verb means both to raise physically and to exalt. John uses it for Jesus being raised on the cross, which is at the same time his exaltation (3:14; 12:32–33). “Lifted up” keeps both senses."
+   },
+   {
+    "verse": 31,
+    "phrase": "the Jews who had believed him",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "",
+    "note": "These hearers are said to have believed him, yet in the verses that follow the audience is said to be seeking to kill him. Some interpreters think their belief was shallow and gives way under challenge. Others think the group addressed widens again to the hostile crowd of the earlier verses. The text does not settle the question."
+   },
+   {
+    "verse": 35,
+    "phrase": "does not remain in the household forever",
+    "lemma": "αἰών",
+    "kind": "register-exception",
+    "traditional": "does not remain in the house forever",
+    "note": "The Greek idiom, literally “into the age,” usually means “never” when it follows a negative, as in verses 51 and 52. Here the contrast with the son who “remains forever” shows that the sense is “not permanently” rather than “never”: a slave has no lasting place in the household, and a son does."
+   },
+   {
+    "verse": 38,
+    "phrase": "do what you have heard from your father",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "you do what you have heard from your father",
+    "note": "The Greek has simply “the father” in both halves of the verse, and the verb “do” can be a statement or a command. The rendering here takes it as a contrast between two fathers, anticipating verses 41 and 44, as most English versions do. The alternative is an appeal: “so you too should do what you have heard from the Father.” Some manuscripts add “my” and “your” to make the contrast explicit."
+   },
+   {
+    "verse": 41,
+    "phrase": "born of sexual immorality",
+    "lemma": "πορνεία",
+    "kind": "background",
+    "traditional": "born of fornication",
+    "note": "The word covers unlawful sexual relations in general. In the prophets it is also a standing image for idolatry—Hosea speaks of “children of whoredom”—which fits the reply “We have one Father—God”: the speakers claim to be faithful Israel, not children of a false god. Some interpreters also hear in the emphatic “We” a slur on the circumstances of Jesus’s own birth, but this is uncertain."
+   },
+   {
+    "verse": 44,
+    "phrase": "You are from your father the devil",
+    "lemma": "διάβολος",
+    "kind": "background",
+    "traditional": "",
+    "note": "This is said within a dispute among Jews, to the particular hearers who, Jesus says, are seeking to kill him (verses 37 and 40). He has already granted that they are Abraham’s descendants; the argument is that conduct, not ancestry, shows whose child a person is. The verse was later turned against the Jewish people as a whole, a use the context does not support."
+   },
+   {
+    "verse": 58,
+    "phrase": "I am",
+    "lemma": "εἰμί",
+    "kind": "background",
+    "traditional": "I am",
+    "note": "These are the same two Greek words as in verses 24 and 28, here with nothing that could be supplied after them and set against Abraham’s coming into existence. Most interpreters hear an echo of God’s self-declarations in Isaiah, and many also connect it with the divine name in Exodus 3:14. The attempt at stoning in the next verse suggests the hearers took it as blasphemy."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "μένω",
+    "rendering": "remain",
+    "verse": 31,
+    "reason": "A key Johannine term rendered variously as “abide,” “remain,” “continue” or “stay”; readers lose the thread across John and 1 John if it varies."
+   },
+   {
+    "lemma": "σάρξ",
+    "rendering": "human standards (in the phrase κατὰ τὴν σάρκα)",
+    "verse": 15,
+    "reason": "“Flesh” has several distinct senses across the Gospels and Paul, and the phrase κατὰ σάρκα recurs often enough to need a fixed policy on when to keep “flesh.”"
+   },
+   {
+    "lemma": "δοῦλος",
+    "rendering": "slave",
+    "verse": 34,
+    "reason": "Translations split between “slave” and “servant” throughout the New Testament, and the choice changes how readers hear both parables and Paul’s self-descriptions."
+   },
+   {
+    "lemma": "πορνεία",
+    "rendering": "sexual immorality",
+    "verse": 41,
+    "reason": "Rendered “fornication,” “sexual immorality,” “unchastity” or “prostitution” in different versions, with a metaphorical idolatry sense that also needs a consistent approach."
+   },
+   {
+    "lemma": "σπέρμα",
+    "rendering": "descendants",
+    "verse": 33,
+    "reason": "“Seed,” “offspring” and “descendants” are all in use, and Paul’s argument in Galatians 3 turns on the singular, so one policy is needed across books."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 9453,
+   "output_tokens": 399
+  },
+  "findings": [],
+  "error": ""
+ }
+}

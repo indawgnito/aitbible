@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ait version="2.0" run="20261118-162954-full-nt" model="claude-fable-5-2" register="0.4-draft">
+<ait version="2.0" run="20261118-224116-full-nt-2" model="claude-fable-5-2" register="0.5-draft">
   <book id="jude" name="Jude">
     <chapter num="1">
       <verse num="1">
-        <text><p/>Jude, a slave of Jesus Christ and a brother of James, to those who are called, loved in God the Father and kept for Jesus Christ:</text>
+        <text><p/>Jude, a slave of Jesus Christ and brother of James, to those who are called, loved in God the Father and kept for Jesus Christ:</text>
         <greek>
           <w lemma="Ἰούδας">Ἰούδας</w>
           <w lemma="Ἰησοῦς">Ἰησοῦ</w>
@@ -23,8 +23,8 @@
           <w lemma="τηρέω">τετηρημένοις</w>
           <w lemma="κλητός">κλητοῖς·</w>
         </greek>
-        <note term="a slave of Jesus Christ" kind="departure" lemma="δοῦλος" traditional="servant">The Greek word is the ordinary term for a slave, a person owned by a master, and a first-century reader would have heard it that way. Most English versions soften it to &#x27;servant&#x27;, partly because &#x27;slave of God&#x27; was also an honorific in the Septuagint for figures such as Moses and David. Both the ownership and the honour are probably in view here.</note>
-        <note term="kept for Jesus Christ" kind="ambiguity" lemma="τηρέω" traditional="kept for Jesus Christ; preserved in Jesus Christ">The Greek has a bare dative, which can mean &#x27;kept for Jesus Christ&#x27; (safe until his coming) or &#x27;kept by Jesus Christ&#x27;. Most recent translations choose &#x27;for&#x27;. The verb &#x27;keep&#x27; recurs through the letter (verses 6, 13, 21) and is rendered the same way each time.</note>
+        <note term="slave" kind="departure" lemma="δοῦλος" traditional="servant">The Greek word is the ordinary term for a person owned by a master, not a hired servant. Most English versions soften it to “servant” or “bond-servant”. In the Septuagint “slave of the Lord” is also a title of honor for figures such as Moses and David, and both the ownership and the honor are probably heard here.</note>
+        <note term="kept for Jesus Christ" kind="ambiguity" lemma="τηρέω" traditional="kept for Jesus Christ; preserved in Jesus Christ">The Greek dative can mean “kept for Jesus Christ” (guarded until his coming) or “kept by Jesus Christ”. Most modern translations and commentators prefer “for”, as here. The verb “keep” runs through the letter (verses 6, 13, 21).</note>
       </verse>
       <verse num="2">
         <text>May mercy, peace, and love be multiplied to you.</text>
@@ -39,7 +39,7 @@
         </greek>
       </verse>
       <verse num="3">
-        <text><p/>Beloved, while I was making every effort to write to you about the salvation we share, I found it necessary to write and urge you to contend for the faith that was handed down to the holy ones once for all.</text>
+        <text><p/>Beloved, while I was making every effort to write to you about the salvation we share, I found it necessary to write and urge you to contend for the faith handed down once for all to the holy ones.</text>
         <greek>
           <w lemma="ἀγαπητός">Ἀγαπητοί,</w>
           <w lemma="πᾶς">πᾶσαν</w>
@@ -65,10 +65,10 @@
           <w lemma="ἅγιος">ἁγίοις</w>
           <w lemma="πίστις">πίστει.</w>
         </greek>
-        <note term="the holy ones" kind="departure" lemma="ἅγιος" traditional="saints">The traditional &#x27;saints&#x27; now suggests canonised individuals or people of exceptional virtue. The Greek term is used of all believers as people set apart for God, echoing the Septuagint&#x27;s language for Israel. Many translations keep &#x27;saints&#x27;; others use &#x27;God&#x27;s people&#x27;.</note>
+        <note term="holy ones" kind="departure" lemma="ἅγιος" traditional="saints">The traditional “saints” now suggests canonized individuals or people of unusual virtue. The Greek term is used of all believers as people set apart for God, echoing the Septuagint’s language for Israel. Many translations keep “saints”; others use “God’s holy people”.</note>
       </verse>
       <verse num="4">
-        <text>For certain people have slipped in unnoticed, those who were long ago written down for this condemnation, ungodly people who turn the grace of our God into debauchery and deny our only Master and Lord, Jesus Christ.</text>
+        <text>For certain people have slipped in unnoticed—people who long ago were written down for this condemnation, ungodly, who turn the grace of our God into debauchery and deny our only Master and Lord, Jesus Christ.</text>
         <greek>
           <w lemma="παρεισδύω">παρεισέδυσαν</w>
           <w lemma="γάρ">γάρ</w>
@@ -103,7 +103,7 @@
         </greek>
       </verse>
       <verse num="5">
-        <text><p/>Now I want to remind you, though you know all of this once for all, that Jesus, having saved a people out of the land of Egypt, afterward destroyed those who did not believe,</text>
+        <text><p/>Now I want to remind you, though you have come to know everything once for all, that Jesus, after saving a people out of the land of Egypt, afterward destroyed those who did not believe.</text>
         <greek>
           <w lemma="ὑπομιμνῄσκω">Ὑπομνῆσαι</w>
           <w lemma="δέ">δὲ</w>
@@ -127,10 +127,10 @@
           <w lemma="πιστεύω">πιστεύσαντας</w>
           <w lemma="ἀπόλλυμι">ἀπώλεσεν,</w>
         </greek>
-        <note term="Jesus" kind="textual" lemma="Ἰησοῦς" traditional="the Lord">The manuscripts are divided here: some read &#x27;Jesus&#x27;, many read &#x27;the Lord&#x27;, and a few read &#x27;God&#x27;. The Greek edition translated here adopts &#x27;Jesus&#x27;, the harder reading and one with strong early support, which would mean Jude sees Jesus as active in the exodus. Most older English versions follow &#x27;the Lord&#x27;. The position of &#x27;once for all&#x27; in the sentence also varies among manuscripts.</note>
+        <note term="Jesus" kind="textual" lemma="Ἰησοῦς" traditional="the Lord">Manuscripts differ here: many read “the Lord”, a few read “God”, and several of the earliest and most important read “Jesus”, which the SBLGNT and other recent critical editions adopt. On that reading Jude credits the pre-existent Jesus with the rescue from Egypt. The placing of “once for all” in the sentence also varies among manuscripts.</note>
       </verse>
       <verse num="6">
-        <text>and the angels who did not keep their own domain but abandoned their proper dwelling he has kept in everlasting chains beneath the gloom for the judgment of the great day;</text>
+        <text>And the angels who did not keep their own domain but left their proper dwelling he has kept in everlasting chains beneath the gloom for the judgment of the great day;</text>
         <greek>
           <w lemma="ἄγγελος">ἀγγέλους</w>
           <w lemma="τέ">τε</w>
@@ -155,10 +155,10 @@
           <w lemma="ζόφος">ζόφον</w>
           <w lemma="τηρέω">τετήρηκεν·</w>
         </greek>
-        <note term="the angels who did not keep their own domain" kind="background" lemma="" traditional="">Jude alludes to a Jewish tradition, built on Genesis 6:1–4 and told at length in 1 Enoch, in which angels left heaven to take human wives and were imprisoned until the final judgment. His readers evidently knew the story. The word rendered &#x27;domain&#x27; can also mean &#x27;position of authority&#x27; or &#x27;rule&#x27;.</note>
+        <note term="the angels who did not keep their own domain" kind="background" lemma="" traditional="the angels which kept not their first estate">Jude alludes to the Jewish tradition, built on Genesis 6:1–4 and developed at length in 1 Enoch, of angels who abandoned heaven to take human wives and were bound in darkness until the judgment. The word rendered “domain” can also mean “position of authority” or “rule”. The play on “keep” is deliberate: they did not keep their place, so God has kept them in chains.</note>
       </verse>
       <verse num="7">
-        <text>just as Sodom and Gomorrah and the cities around them, which in the same way as these gave themselves over to sexual immorality and went after flesh of a different kind, stand as an example, undergoing the punishment of eternal fire.</text>
+        <text>just as Sodom and Gomorrah and the towns around them, which in the same way as these gave themselves to sexual immorality and went after flesh of another kind, are set out as an example, undergoing the punishment of eternal fire.</text>
         <greek>
           <w lemma="ὡς">ὡς</w>
           <w lemma="Σόδομα">Σόδομα</w>
@@ -186,10 +186,10 @@
           <w lemma="δίκη">δίκην</w>
           <w lemma="ὑπέχω">ὑπέχουσαι.</w>
         </greek>
-        <note term="flesh of a different kind" kind="departure" lemma="ἕτερος" traditional="strange flesh; unnatural desire">The Greek is literally &#x27;other flesh&#x27; or &#x27;different flesh&#x27;. Many translations paraphrase it as &#x27;unnatural desire&#x27; or &#x27;perversion&#x27;. The literal wording fits the comparison Jude is drawing: &#x27;these&#x27; most naturally refers to the angels of verse 6, who crossed the boundary between angels and humans, as the men of Sodom sought to do with their angelic visitors (Genesis 19). Some interpreters instead take the phrase as a reference to same-sex acts.</note>
+        <note term="went after flesh of another kind" kind="departure" lemma="ἕτερος" traditional="going after strange flesh; pursued unnatural desire">The Greek is literally “went after other flesh”. Since “in the same way as these” most naturally points back to the angels of verse 6, many scholars take the phrase to refer to the men of Sodom seeking intercourse with angels (Genesis 19), which is the mirror image of angels seeking human women. Others take it more generally of sexual perversion, as renderings such as “unnatural desire” do.</note>
       </verse>
       <verse num="8">
-        <text><p/>Yet in the same way these people too, in their dreaming, defile the flesh, reject lordship, and slander the glorious ones.</text>
+        <text><p/>Yet in the same way these people also, in their dreaming, defile the flesh, reject authority, and slander the glorious ones.</text>
         <greek>
           <w lemma="ὁμοίως">Ὁμοίως</w>
           <w lemma="μέντοι">μέντοι</w>
@@ -206,10 +206,10 @@
           <w lemma="δέ">δὲ</w>
           <w lemma="βλασφημέω">βλασφημοῦσιν.</w>
         </greek>
-        <note term="the glorious ones" kind="background" lemma="δόξα" traditional="dignities; the glorious ones">The Greek is literally &#x27;glories&#x27;, a term used in Jewish writings for angelic beings. Most scholars take it that way here, which explains the example of Michael that follows. Older versions rendered it &#x27;dignities&#x27;, which could suggest human authorities.</note>
+        <note term="slander the glorious ones" kind="departure" lemma="βλασφημέω" traditional="blaspheme the glorious ones; speak evil of dignities">In first-century Greek this verb meant abusive or defamatory speech against anyone, while modern English “blaspheme” is reserved for speech against God. The “glorious ones” (literally “glories”) are almost certainly angelic beings, so “slander” is used; several modern versions keep “blaspheme” here. The same verb recurs in verse 10, and the related noun is rendered “slanderous” in verse 9.</note>
       </verse>
       <verse num="9">
-        <text>But Michael the archangel, when he was disputing with the devil and arguing about the body of Moses, did not dare to bring a slanderous judgment against him, but said,<q who="angel"> “May the Lord rebuke you!”</q></text>
+        <text>But Michael the archangel, when he was disputing with the devil and arguing about the body of Moses, did not dare to bring a slanderous judgment against him, but said,<q who="angel"> “The Lord rebuke you!”</q></text>
         <greek>
           <w lemma="ὁ">ὁ</w>
           <w lemma="δέ">δὲ</w>
@@ -236,10 +236,10 @@
           <w lemma="σύ">σοι</w>
           <w lemma="κύριος">κύριος.</w>
         </greek>
-        <note term="the body of Moses" kind="background" lemma="" traditional="">This episode is not in the Old Testament. Early Christian writers say Jude drew it from a Jewish work about the death of Moses, the relevant part of which has not survived. Michael&#x27;s words echo Zechariah 3:2, where the Lord rebukes Satan.</note>
+        <note term="arguing about the body of Moses" kind="background" lemma="" traditional="">This story is not in the Old Testament. Early Christian writers say Jude took it from a Jewish work known as the Assumption (or Testament) of Moses, the relevant part of which has not survived. Michael’s words echo Zechariah 3:2. The phrase rendered “a slanderous judgment” may instead mean “a condemnation for slander”, in which case Michael declined to pass sentence on the devil’s slander himself.</note>
       </verse>
       <verse num="10">
-        <text>But these people slander whatever they do not understand, and whatever they do know by instinct, like unreasoning animals, by these things they are ruined.</text>
+        <text>But these people slander whatever they do not understand, and whatever they do know by instinct, like unreasoning animals, by these things they are destroyed.</text>
         <greek>
           <w lemma="οὗτος">οὗτοι</w>
           <w lemma="δέ">δὲ</w>
@@ -262,7 +262,7 @@
         </greek>
       </verse>
       <verse num="11">
-        <text>Woe to them! For they have gone the way of Cain, have abandoned themselves to Balaam’s error for pay, and have perished in Korah’s rebellion.</text>
+        <text>Woe to them! For they have gone the way of Cain, have rushed headlong into Balaam’s error for pay, and have perished in Korah’s rebellion.</text>
         <greek>
           <w lemma="οὐαί">οὐαὶ</w>
           <w lemma="αὐτός">αὐτοῖς,</w>
@@ -288,7 +288,7 @@
         </greek>
       </verse>
       <verse num="12">
-        <text>These are the reefs at your love feasts, feasting with you, fearlessly shepherding themselves; waterless clouds swept along by winds; late-autumn trees without fruit, twice dead, uprooted;</text>
+        <text>These are the hidden reefs at your love feasts, feasting with you without fear, shepherding themselves; waterless clouds carried along by winds; late-autumn trees without fruit, twice dead, uprooted;</text>
         <greek>
           <w lemma="οὗτος">οὗτοί</w>
           <w lemma="εἰμί">εἰσιν</w>
@@ -314,10 +314,11 @@
           <w lemma="ἀποθνῄσκω">ἀποθανόντα</w>
           <w lemma="ἐκριζόω">ἐκριζωθέντα,</w>
         </greek>
-        <note term="reefs at your love feasts" kind="ambiguity" lemma="σπιλάς" traditional="spots; blemishes">The Greek word normally means a rock in or under the sea, a hazard to ships, and that is the sense followed here. Many translations instead render &#x27;blemishes&#x27; or &#x27;spots&#x27;, taking it as equivalent to a similar word used in the parallel at 2 Peter 2:13. Both readings have scholarly support. The &#x27;love feasts&#x27; were the shared meals of the early Christian communities.</note>
+        <note term="hidden reefs" kind="ambiguity" lemma="σπιλάς" traditional="spots; blemishes">The Greek word normally means a rock or reef in the sea on which ships are wrecked, and that is the sense adopted here. Some translations render “blemishes” or “stains”, taking it as equivalent to a similar word used in the parallel at 2 Peter 2:13 and echoed in “stained” in verse 23. Both senses are defended by scholars.</note>
+        <note term="love feasts" kind="background" lemma="ἀγάπη" traditional="feasts of charity">The plural of the word “love” is used here for the shared meals of the early Christian communities, at which the Lord’s Supper was probably celebrated. This is the earliest clear use of the term in that sense.</note>
       </verse>
       <verse num="13">
-        <text>wild waves of the sea, foaming up their own shameful deeds; wandering stars, for whom the gloom of darkness has been kept forever.</text>
+        <text>wild waves of the sea, foaming up their own shame; wandering stars, for whom the gloom of darkness has been kept forever.</text>
         <greek>
           <w lemma="κῦμα">κύματα</w>
           <w lemma="ἄγριος">ἄγρια</w>
@@ -339,7 +340,7 @@
         </greek>
       </verse>
       <verse num="14">
-        <text><p/>It was about these people too that Enoch, the seventh from Adam, prophesied, saying,<q who="other"> “Look, the Lord comes with his holy myriads,</q></text>
+        <text><p/>It was also about these that Enoch, the seventh from Adam, prophesied, saying,<q who="other"> “Look, the Lord is coming with his holy myriads,</q></text>
         <greek>
           <w lemma="προφητεύω">Προεφήτευσεν</w>
           <w lemma="δέ">δὲ</w>
@@ -358,10 +359,10 @@
           <w lemma="μυριάς">μυριάσιν</w>
           <w lemma="αὐτός">αὐτοῦ,</w>
         </greek>
-        <note term="Enoch, the seventh from Adam" kind="background" lemma="" traditional="">The quotation is from 1 Enoch 1:9, a Jewish work widely read in this period but not part of most biblical canons. Enoch is counted seventh from Adam by inclusive reckoning of the generations in Genesis 5. The verb rendered &#x27;comes&#x27; is a past tense in the Greek, a prophetic way of speaking of a future event as certain.</note>
+        <note term="the Lord is coming with his holy myriads" kind="background" lemma="" traditional="the Lord cometh with ten thousands of his saints">Jude quotes 1 Enoch 1:9, a Jewish work widely read in the period though not part of the Hebrew Scriptures. The “holy myriads” are the countless angels of God’s retinue, not human believers. The Greek verb is in the past tense (“came”), a prophetic idiom that presents the future event as already seen.</note>
       </verse>
       <verse num="15">
-        <text><q who="other">to execute judgment on all, and to convict all the ungodly of all the ungodly deeds they committed in their ungodliness, and of all the harsh things that ungodly sinners have spoken against him.”</q></text>
+        <text><q who="other">to carry out judgment on all and to convict all the ungodly of all the works of ungodliness they have committed in their ungodliness, and of all the harsh things ungodly sinners have spoken against him.”</q></text>
         <greek>
           <w lemma="ποιέω">ποιῆσαι</w>
           <w lemma="κρίσις">κρίσιν</w>
@@ -394,7 +395,7 @@
         </greek>
       </verse>
       <verse num="16">
-        <text>These people are grumblers, complainers about their lot, following their own desires; their mouths speak bombast, and they flatter people for the sake of gain.</text>
+        <text>These are grumblers, malcontents, following their own desires; their mouths speak bombast, and they flatter people for the sake of advantage.</text>
         <greek>
           <w lemma="οὗτος">οὗτοί</w>
           <w lemma="εἰμί">εἰσιν</w>
@@ -439,7 +440,7 @@
         </greek>
       </verse>
       <verse num="18">
-        <text>for they used to say to you,<q who="other"> “In the last time there will be scoffers, following their own ungodly desires.”</q></text>
+        <text>how they used to tell you,<q who="other"> “In the last time there will be scoffers, following their own ungodly desires.”</q></text>
         <greek>
           <w lemma="ὅτι">ὅτι</w>
           <w lemma="λέγω">ἔλεγον</w>
@@ -459,7 +460,7 @@
         </greek>
       </verse>
       <verse num="19">
-        <text>These are the ones who cause divisions, merely natural people who do not have the Spirit.</text>
+        <text>These are the ones who cause divisions, merely natural people, who do not have the Spirit.</text>
         <greek>
           <w lemma="οὗτος">οὗτοί</w>
           <w lemma="εἰμί">εἰσιν</w>
@@ -470,10 +471,10 @@
           <w lemma="μή">μὴ</w>
           <w lemma="ἔχω">ἔχοντες.</w>
         </greek>
-        <note term="merely natural people" kind="departure" lemma="ψυχικός" traditional="sensual; worldly">The Greek adjective describes someone living at the level of ordinary human life, as opposed to life animated by God&#x27;s Spirit; Paul uses it the same way in 1 Corinthians 2:14. &#x27;Sensual&#x27; wrongly suggests bodily indulgence, and &#x27;worldly&#x27; is vaguer than the Greek. Most interpreters take &#x27;Spirit&#x27; here as the Holy Spirit.</note>
+        <note term="merely natural people" kind="departure" lemma="ψυχικός" traditional="sensual; worldly">The adjective describes people who live by ordinary human life alone, as opposed to people animated by God’s Spirit; Paul uses it the same way in 1 Corinthians 2:14. “Sensual” (KJV) now suggests bodily indulgence, which is not the point. Modern versions vary among “worldly”, “natural” and “following mere natural instincts”.</note>
       </verse>
       <verse num="20">
-        <text>But you, beloved, building yourselves up on your most holy faith and praying in the Holy Spirit,</text>
+        <text><p/>But you, beloved, building yourselves up on your most holy faith and praying in the Holy Spirit,</text>
         <greek>
           <w lemma="σύ">ὑμεῖς</w>
           <w lemma="δέ">δέ,</w>
@@ -491,7 +492,7 @@
         </greek>
       </verse>
       <verse num="21">
-        <text>keep yourselves in the love of God, as you wait for the mercy of our Lord Jesus Christ that leads to eternal life.</text>
+        <text>keep yourselves in the love of God, waiting for the mercy of our Lord Jesus Christ that leads to eternal life.</text>
         <greek>
           <w lemma="ἑαυτοῦ">ἑαυτοὺς</w>
           <w lemma="ἐν">ἐν</w>
@@ -512,7 +513,7 @@
         </greek>
       </verse>
       <verse num="22">
-        <text>And have mercy on some, those who are wavering;</text>
+        <text>And have mercy on some, who are wavering;</text>
         <greek>
           <w lemma="καί">καὶ</w>
           <w lemma="ὅς">οὓς</w>
@@ -520,8 +521,7 @@
           <w lemma="ἐλεάω">ἐλεᾶτε</w>
           <w lemma="διακρίνω">διακρινομένους,</w>
         </greek>
-        <note term="have mercy on some" kind="textual" lemma="" traditional="">The manuscripts of verses 22–23 differ considerably. Some have two groups of people and others three, and in place of the first &#x27;have mercy&#x27; some read &#x27;convince&#x27; or &#x27;refute&#x27;. The three-group text translated here is the one most modern editions adopt, but the original wording is uncertain.</note>
-        <note term="those who are wavering" kind="ambiguity" lemma="διακρίνω" traditional="those who doubt">The same Greek verb is used in verse 9 of Michael &#x27;disputing&#x27; with the devil. Here it may likewise mean &#x27;those who dispute&#x27;, or, as most translations take it, &#x27;those who doubt&#x27; or &#x27;waver&#x27;. An older tradition, following a different manuscript reading, renders &#x27;making a distinction&#x27;.</note>
+        <note term="have mercy on some, who are wavering" kind="textual" lemma="διακρίνω" traditional="of some have compassion, making a difference">The text of verses 22–23 is among the most uncertain in the New Testament: manuscripts give two groups or three, and some read “convince” or “refute” in place of the first “have mercy”. The three-group form translated here follows the SBLGNT and most modern editions. The word rendered “wavering” could also mean “disputing”, as it does in verse 9.</note>
       </verse>
       <verse num="23">
         <text>save others, snatching them out of the fire; and on others have mercy with fear, hating even the tunic stained by the flesh.</text>
@@ -548,7 +548,7 @@
         </greek>
       </verse>
       <verse num="24">
-        <text><p/>Now to the one who is able to guard you from stumbling and to make you stand in the presence of his glory without blemish and with great joy,</text>
+        <text><p/>Now to the one who is able to guard you from stumbling and to set you before his glory without blemish and with great joy,</text>
         <greek>
           <w lemma="ὁ">Τῷ</w>
           <w lemma="δέ">δὲ</w>
@@ -568,7 +568,7 @@
         </greek>
       </verse>
       <verse num="25">
-        <text>to the only God, our Savior, through Jesus Christ our Lord, be glory, majesty, might, and authority, before every age and now and for all the ages. Amen.</text>
+        <text>to the only God our Savior, through Jesus Christ our Lord, be glory, majesty, power, and authority, before every age, and now, and for all the ages. Amen.</text>
         <greek>
           <w lemma="μόνος">μόνῳ</w>
           <w lemma="θεός">θεῷ</w>
@@ -598,6 +598,7 @@
           <w lemma="αἰών">αἰῶνας·</w>
           <w lemma="ἀμήν">ἀμήν.</w>
         </greek>
+        <note term="before every age, and now, and for all the ages" kind="departure" lemma="αἰών" traditional="before all time and now and forever">The Greek uses the word “age” twice, spanning past, present and future: literally “before the whole age, and now, and into all the ages”. Most translations render “before all time, now and forever”, which is the meaning. “Age” is kept in both places so that the repetition remains visible.</note>
       </verse>
     </chapter>
   </book>

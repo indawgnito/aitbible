@@ -1,0 +1,455 @@
+{
+ "id": "1john-002",
+ "book": "1john",
+ "chapter": 2,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14idfDqQqM4zRzGKP",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 13756,
+  "output_tokens": 16649
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"My little children, I am writing these things to you so that you will not sin. But if anyone does sin, we have an Advocate with the Father, Jesus Christ, the righteous one,\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and he himself is the atoning sacrifice for our sins, and not for ours only but also for the whole world.\"}]},{\"verse\":3,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And by this we know that we have come to know him: if we keep his commandments.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Whoever says, “I have come to know him,” and does not keep his commandments is a liar, and the truth is not in that person;\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"but whoever keeps his word—in that person the love of God has truly been perfected. By this we know that we are in him:\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"whoever says, “I remain in him,” ought also to walk just as he walked.\"}]},{\"verse\":7,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Beloved, I am not writing you a new commandment but an old commandment, which you have had from the beginning. The old commandment is the word that you heard.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And yet it is a new commandment I am writing to you, which is true in him and in you, because the darkness is passing away and the true light is already shining.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Whoever says, “I am in the light,” and hates their brother or sister is still in the darkness.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Whoever loves their brother or sister remains in the light, and in that person there is no cause for stumbling.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But whoever hates their brother or sister is in the darkness and walks in the darkness, and does not know where they are going, because the darkness has blinded their eyes.\"}]},{\"verse\":12,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"I am writing to you, little children, because your sins have been forgiven on account of his name.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"I am writing to you, fathers, because you have come to know the one who is from the beginning. I am writing to you, young men, because you have conquered the evil one.\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"I have written to you, children, because you have come to know the Father. I have written to you, fathers, because you have come to know the one who is from the beginning. I have written to you, young men, because you are strong, and the word of God remains in you, and you have conquered the evil one.\"}]},{\"verse\":15,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Do not love the world or the things in the world. If anyone loves the world, the love of the Father is not in that person,\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"because everything in the world—the desire of the flesh and the desire of the eyes and the pride in possessions—is not from the Father but is from the world.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And the world is passing away, along with its desire, but whoever does the will of God remains forever.\"}]},{\"verse\":18,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Children, it is the last hour, and just as you heard that antichrist is coming, so now many antichrists have arisen. From this we know that it is the last hour.\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"They went out from us, but they were not of us; for if they had been of us, they would have remained with us. But they went out so that it might be revealed that none of them is of us.\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But you have an anointing from the Holy One, and all of you know.\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"I have not written to you because you do not know the truth, but because you know it, and because no lie is from the truth.\"}]},{\"verse\":22,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Who is the liar, if not the one who denies that Jesus is the Christ? This is the antichrist: the one who denies the Father and the Son.\"}]},{\"verse\":23,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"No one who denies the Son has the Father either; whoever confesses the Son has the Father as well.\"}]},{\"verse\":24,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"As for you, let what you heard from the beginning remain in you. If what you heard from the beginning remains in you, you too will remain in the Son and in the Father.\"}]},{\"verse\":25,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And this is the promise that he himself made to us: eternal life.\"}]},{\"verse\":26,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"I have written these things to you about those who are trying to lead you astray.\"}]},{\"verse\":27,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"As for you, the anointing that you received from him remains in you, and you have no need for anyone to teach you. But as his anointing teaches you about all things, and is true and is no lie, and just as it has taught you, remain in him.\"}]},{\"verse\":28,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And now, little children, remain in him, so that when he is revealed we may have confidence and not shrink from him in shame at his coming.\"}]},{\"verse\":29,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"If you know that he is righteous, you also know that everyone who practices righteousness has been born of him.\"}]}],\"notes\":[{\"verse\":2,\"phrase\":\"atoning sacrifice\",\"lemma\":\"ἱλασμός\",\"kind\":\"departure\",\"traditional\":\"propitiation\",\"note\":\"The noun occurs in the New Testament only here and at 4:10. “Propitiation” (turning away wrath) is the older English rendering, and some prefer “expiation” (removing sin); which nuance is uppermost is a long-running dispute. “Atoning sacrifice” keeps the sacrificial associations the word family has in the Greek Old Testament without deciding that question, and several modern versions use it.\"},{\"verse\":5,\"phrase\":\"the love of God\",\"lemma\":\"ἀγάπη\",\"kind\":\"ambiguity\",\"traditional\":\"\",\"note\":\"The Greek can mean a person’s love for God, God’s love for that person, or the kind of love that comes from God, and interpreters are divided. The English phrase is left as open as the Greek. “Perfected” here means brought to its goal or full expression, not made flawless.\"},{\"verse\":6,\"phrase\":\"remain\",\"lemma\":\"μένω\",\"kind\":\"departure\",\"traditional\":\"abide\",\"note\":\"The verb is the ordinary Greek word for staying or continuing somewhere, and it runs through this chapter (verses 6, 10, 14, 17, 19, 24, 27, 28). “Abide” is the traditional rendering and is still used by several versions, but it is archaic in everyday English and hides the link with plain uses such as “they would have remained with us” in verse 19. “Remain” is used throughout so the repetition can be heard.\"},{\"verse\":9,\"phrase\":\"their brother or sister\",\"lemma\":\"ἀδελφός\",\"kind\":\"departure\",\"traditional\":\"his brother\",\"note\":\"The Greek is grammatically masculine singular, but the word was the community’s ordinary term for a fellow member, whether a man or a woman. Many translations keep “his brother”; others, as here, spell out the inclusive sense and use singular “their” for the person concerned.\"},{\"verse\":10,\"phrase\":\"in that person there is no cause for stumbling\",\"lemma\":\"σκάνδαλον\",\"kind\":\"ambiguity\",\"traditional\":\"there is no occasion of stumbling in him\",\"note\":\"The noun means a trap or obstacle that makes someone fall. The Greek pronoun can refer to the person who loves (nothing in them trips up themselves or others) or to the light (“in it there is nothing to stumble over”), which would suit the picture of walking blind in verse 11. Most translations take it of the person, as here.\"},{\"verse\":12,\"phrase\":\"because\",\"lemma\":\"ὅτι\",\"kind\":\"ambiguity\",\"traditional\":\"\",\"note\":\"Six times in verses 12–14 the Greek conjunction can mean either “because” (giving the reason for writing) or “that” (giving the content of what is written). Most translations choose “because”, as here. The shift from “I am writing” to “I have written” is usually thought to be stylistic, though its significance is debated.\"},{\"verse\":13,\"phrase\":\"conquered\",\"lemma\":\"νικάω\",\"kind\":\"departure\",\"traditional\":\"overcome\",\"note\":\"The verb is the ordinary Greek word for winning a battle, a contest or a court case. “Overcome” is the traditional rendering and remains common, but in modern English it can suggest merely getting past a difficulty. “Conquer” keeps the note of victory; the meaning itself is not in dispute.\"},{\"verse\":16,\"phrase\":\"the pride in possessions\",\"lemma\":\"ἀλαζονεία\",\"kind\":\"departure\",\"traditional\":\"the pride of life\",\"note\":\"The first noun means boastful pretension, and the second is not the usual word for life but one meaning livelihood or material means; at 3:17 the same word means worldly goods. The traditional “pride of life” is kept by several versions, while others have “pride in riches” or “pride in one’s lifestyle”. The phrase describes showing off what one has.\"},{\"verse\":18,\"phrase\":\"antichrist\",\"lemma\":\"ἀντίχριστος\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"In the New Testament the word occurs only in 1 and 2 John. It means one who opposes the Christ, and possibly one who puts himself in the Christ’s place. The readers had been taught to expect such a figure before the end; the author applies the term to people who have left the community and deny that Jesus is the Christ (verses 19 and 22).\"},{\"verse\":20,\"phrase\":\"anointing\",\"lemma\":\"χρῖσμα\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"The Greek word shares its root with “Christ” (the anointed one) and “antichrist”, a play on words a Greek reader would have heard: those who belong to the Anointed have themselves been anointed. Most interpreters take the anointing to be the Holy Spirit; some take it to be the teaching received at the beginning. “The Holy One” may be God or Jesus.\"},{\"verse\":20,\"phrase\":\"all of you know\",\"lemma\":\"οἶδα\",\"kind\":\"textual\",\"traditional\":\"you know all things\",\"note\":\"Many manuscripts read “you know all things”, differing by one short word ending, and older English versions follow them. The reading translated here is the one printed in the SBLGNT and most modern editions. It fits the argument that knowledge of the truth belongs to the whole community and not to a select few.\"},{\"verse\":27,\"phrase\":\"remain in him\",\"lemma\":\"μένω\",\"kind\":\"ambiguity\",\"traditional\":\"\",\"note\":\"The Greek verb form can be a command (“remain”) or a statement (“you remain”), and the pronoun can mean “in him” or “in it”, that is, in the anointing or its teaching. The unambiguous command “remain in him” at the start of verse 28 supports the reading chosen here, but translations differ.\"}],\"candidates\":[{\"lemma\":\"μένω\",\"rendering\":\"remain\",\"verse\":6,\"reason\":\"A key term in John and 1 John where versions split between “abide”, “remain” and “live”, and readers need to see the repetition across books.\"},{\"lemma\":\"ἀδελφός\",\"rendering\":\"brother or sister\",\"verse\":9,\"reason\":\"Whether to render the generic masculine inclusively, and how to handle the pronouns that follow, should be decided once for all the letters.\"},{\"lemma\":\"ἐπιθυμία\",\"rendering\":\"desire\",\"verse\":16,\"reason\":\"Translators vary between “lust”, “desire” and “craving”, and the word recurs across Paul, Peter, James and John in both neutral and negative senses.\"},{\"lemma\":\"σάρξ\",\"rendering\":\"flesh\",\"verse\":16,\"reason\":\"The choice between “flesh”, “sinful nature” and “human nature” affects many books and should be uniform.\"},{\"lemma\":\"ὁμολογέω\",\"rendering\":\"confess\",\"verse\":23,\"reason\":\"“Confess” and “acknowledge” are both common, and the verb covers both confessing sins (1:9) and confessing Jesus, so a single policy is needed.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "My little children, I am writing these things to you so that you will not sin. But if anyone does sin, we have an Advocate with the Father, Jesus Christ, the righteous one,"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and he himself is the atoning sacrifice for our sins, and not for ours only but also for the whole world."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And by this we know that we have come to know him: if we keep his commandments."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Whoever says, “I have come to know him,” and does not keep his commandments is a liar, and the truth is not in that person;"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "but whoever keeps his word—in that person the love of God has truly been perfected. By this we know that we are in him:"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "whoever says, “I remain in him,” ought also to walk just as he walked."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Beloved, I am not writing you a new commandment but an old commandment, which you have had from the beginning. The old commandment is the word that you heard."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And yet it is a new commandment I am writing to you, which is true in him and in you, because the darkness is passing away and the true light is already shining."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Whoever says, “I am in the light,” and hates their brother or sister is still in the darkness."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Whoever loves their brother or sister remains in the light, and in that person there is no cause for stumbling."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But whoever hates their brother or sister is in the darkness and walks in the darkness, and does not know where they are going, because the darkness has blinded their eyes."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "I am writing to you, little children, because your sins have been forgiven on account of his name."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "I am writing to you, fathers, because you have come to know the one who is from the beginning. I am writing to you, young men, because you have conquered the evil one."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "I have written to you, children, because you have come to know the Father. I have written to you, fathers, because you have come to know the one who is from the beginning. I have written to you, young men, because you are strong, and the word of God remains in you, and you have conquered the evil one."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Do not love the world or the things in the world. If anyone loves the world, the love of the Father is not in that person,"
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "because everything in the world—the desire of the flesh and the desire of the eyes and the pride in possessions—is not from the Father but is from the world."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And the world is passing away, along with its desire, but whoever does the will of God remains forever."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Children, it is the last hour, and just as you heard that antichrist is coming, so now many antichrists have arisen. From this we know that it is the last hour."
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "They went out from us, but they were not of us; for if they had been of us, they would have remained with us. But they went out so that it might be revealed that none of them is of us."
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But you have an anointing from the Holy One, and all of you know."
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "I have not written to you because you do not know the truth, but because you know it, and because no lie is from the truth."
+     }
+    ]
+   },
+   {
+    "verse": 22,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Who is the liar, if not the one who denies that Jesus is the Christ? This is the antichrist: the one who denies the Father and the Son."
+     }
+    ]
+   },
+   {
+    "verse": 23,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "No one who denies the Son has the Father either; whoever confesses the Son has the Father as well."
+     }
+    ]
+   },
+   {
+    "verse": 24,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "As for you, let what you heard from the beginning remain in you. If what you heard from the beginning remains in you, you too will remain in the Son and in the Father."
+     }
+    ]
+   },
+   {
+    "verse": 25,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And this is the promise that he himself made to us: eternal life."
+     }
+    ]
+   },
+   {
+    "verse": 26,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "I have written these things to you about those who are trying to lead you astray."
+     }
+    ]
+   },
+   {
+    "verse": 27,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "As for you, the anointing that you received from him remains in you, and you have no need for anyone to teach you. But as his anointing teaches you about all things, and is true and is no lie, and just as it has taught you, remain in him."
+     }
+    ]
+   },
+   {
+    "verse": 28,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And now, little children, remain in him, so that when he is revealed we may have confidence and not shrink from him in shame at his coming."
+     }
+    ]
+   },
+   {
+    "verse": 29,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "If you know that he is righteous, you also know that everyone who practices righteousness has been born of him."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 2,
+    "phrase": "atoning sacrifice",
+    "lemma": "ἱλασμός",
+    "kind": "departure",
+    "traditional": "propitiation",
+    "note": "The noun occurs in the New Testament only here and at 4:10. “Propitiation” (turning away wrath) is the older English rendering, and some prefer “expiation” (removing sin); which nuance is uppermost is a long-running dispute. “Atoning sacrifice” keeps the sacrificial associations the word family has in the Greek Old Testament without deciding that question, and several modern versions use it."
+   },
+   {
+    "verse": 5,
+    "phrase": "the love of God",
+    "lemma": "ἀγάπη",
+    "kind": "ambiguity",
+    "traditional": "",
+    "note": "The Greek can mean a person’s love for God, God’s love for that person, or the kind of love that comes from God, and interpreters are divided. The English phrase is left as open as the Greek. “Perfected” here means brought to its goal or full expression, not made flawless."
+   },
+   {
+    "verse": 6,
+    "phrase": "remain",
+    "lemma": "μένω",
+    "kind": "departure",
+    "traditional": "abide",
+    "note": "The verb is the ordinary Greek word for staying or continuing somewhere, and it runs through this chapter (verses 6, 10, 14, 17, 19, 24, 27, 28). “Abide” is the traditional rendering and is still used by several versions, but it is archaic in everyday English and hides the link with plain uses such as “they would have remained with us” in verse 19. “Remain” is used throughout so the repetition can be heard."
+   },
+   {
+    "verse": 9,
+    "phrase": "their brother or sister",
+    "lemma": "ἀδελφός",
+    "kind": "departure",
+    "traditional": "his brother",
+    "note": "The Greek is grammatically masculine singular, but the word was the community’s ordinary term for a fellow member, whether a man or a woman. Many translations keep “his brother”; others, as here, spell out the inclusive sense and use singular “their” for the person concerned."
+   },
+   {
+    "verse": 10,
+    "phrase": "in that person there is no cause for stumbling",
+    "lemma": "σκάνδαλον",
+    "kind": "ambiguity",
+    "traditional": "there is no occasion of stumbling in him",
+    "note": "The noun means a trap or obstacle that makes someone fall. The Greek pronoun can refer to the person who loves (nothing in them trips up themselves or others) or to the light (“in it there is nothing to stumble over”), which would suit the picture of walking blind in verse 11. Most translations take it of the person, as here."
+   },
+   {
+    "verse": 12,
+    "phrase": "because",
+    "lemma": "ὅτι",
+    "kind": "ambiguity",
+    "traditional": "",
+    "note": "Six times in verses 12–14 the Greek conjunction can mean either “because” (giving the reason for writing) or “that” (giving the content of what is written). Most translations choose “because”, as here. The shift from “I am writing” to “I have written” is usually thought to be stylistic, though its significance is debated."
+   },
+   {
+    "verse": 13,
+    "phrase": "conquered",
+    "lemma": "νικάω",
+    "kind": "departure",
+    "traditional": "overcome",
+    "note": "The verb is the ordinary Greek word for winning a battle, a contest or a court case. “Overcome” is the traditional rendering and remains common, but in modern English it can suggest merely getting past a difficulty. “Conquer” keeps the note of victory; the meaning itself is not in dispute."
+   },
+   {
+    "verse": 16,
+    "phrase": "the pride in possessions",
+    "lemma": "ἀλαζονεία",
+    "kind": "departure",
+    "traditional": "the pride of life",
+    "note": "The first noun means boastful pretension, and the second is not the usual word for life but one meaning livelihood or material means; at 3:17 the same word means worldly goods. The traditional “pride of life” is kept by several versions, while others have “pride in riches” or “pride in one’s lifestyle”. The phrase describes showing off what one has."
+   },
+   {
+    "verse": 18,
+    "phrase": "antichrist",
+    "lemma": "ἀντίχριστος",
+    "kind": "background",
+    "traditional": "",
+    "note": "In the New Testament the word occurs only in 1 and 2 John. It means one who opposes the Christ, and possibly one who puts himself in the Christ’s place. The readers had been taught to expect such a figure before the end; the author applies the term to people who have left the community and deny that Jesus is the Christ (verses 19 and 22)."
+   },
+   {
+    "verse": 20,
+    "phrase": "anointing",
+    "lemma": "χρῖσμα",
+    "kind": "background",
+    "traditional": "",
+    "note": "The Greek word shares its root with “Christ” (the anointed one) and “antichrist”, a play on words a Greek reader would have heard: those who belong to the Anointed have themselves been anointed. Most interpreters take the anointing to be the Holy Spirit; some take it to be the teaching received at the beginning. “The Holy One” may be God or Jesus."
+   },
+   {
+    "verse": 20,
+    "phrase": "all of you know",
+    "lemma": "οἶδα",
+    "kind": "textual",
+    "traditional": "you know all things",
+    "note": "Many manuscripts read “you know all things”, differing by one short word ending, and older English versions follow them. The reading translated here is the one printed in the SBLGNT and most modern editions. It fits the argument that knowledge of the truth belongs to the whole community and not to a select few."
+   },
+   {
+    "verse": 27,
+    "phrase": "remain in him",
+    "lemma": "μένω",
+    "kind": "ambiguity",
+    "traditional": "",
+    "note": "The Greek verb form can be a command (“remain”) or a statement (“you remain”), and the pronoun can mean “in him” or “in it”, that is, in the anointing or its teaching. The unambiguous command “remain in him” at the start of verse 28 supports the reading chosen here, but translations differ."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "μένω",
+    "rendering": "remain",
+    "verse": 6,
+    "reason": "A key term in John and 1 John where versions split between “abide”, “remain” and “live”, and readers need to see the repetition across books."
+   },
+   {
+    "lemma": "ἀδελφός",
+    "rendering": "brother or sister",
+    "verse": 9,
+    "reason": "Whether to render the generic masculine inclusively, and how to handle the pronouns that follow, should be decided once for all the letters."
+   },
+   {
+    "lemma": "ἐπιθυμία",
+    "rendering": "desire",
+    "verse": 16,
+    "reason": "Translators vary between “lust”, “desire” and “craving”, and the word recurs across Paul, Peter, James and John in both neutral and negative senses."
+   },
+   {
+    "lemma": "σάρξ",
+    "rendering": "flesh",
+    "verse": 16,
+    "reason": "The choice between “flesh”, “sinful nature” and “human nature” affects many books and should be uniform."
+   },
+   {
+    "lemma": "ὁμολογέω",
+    "rendering": "confess",
+    "verse": 23,
+    "reason": "“Confess” and “acknowledge” are both common, and the verb covers both confessing sins (1:9) and confessing Jesus, so a single policy is needed."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 6761,
+   "output_tokens": 263
+  },
+  "findings": [],
+  "error": ""
+ }
+}

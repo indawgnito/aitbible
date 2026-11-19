@@ -1,0 +1,375 @@
+{
+ "id": "romans-005",
+ "book": "romans",
+ "chapter": 5,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14o6WyFPcoSzu1uVK",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 9426,
+  "output_tokens": 10055
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Therefore, having been justified by faith, we have peace with God through our Lord Jesus Christ,\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"through whom we have also obtained access by faith into this grace in which we stand, and we boast in the hope of the glory of God.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And not only that, but we also boast in our afflictions, knowing that affliction produces endurance,\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and endurance produces proven character, and proven character produces hope.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And hope does not put us to shame, because God’s love has been poured out in our hearts through the Holy Spirit who was given to us.\"}]},{\"verse\":6,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For while we were still weak, at the right time Christ died for the ungodly.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For scarcely will anyone die for a righteous person—though for a good person someone might perhaps even dare to die.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But God demonstrates his own love for us in that while we were still sinners, Christ died for us.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Much more, then, having now been justified by his blood, we will be saved through him from the wrath.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For if, while we were enemies, we were reconciled to God through the death of his Son, much more, having been reconciled, we will be saved by his life.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And not only that, but we also boast in God through our Lord Jesus Christ, through whom we have now received reconciliation.\"}]},{\"verse\":12,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Therefore, just as through one man sin entered the world, and through sin death, and so death spread to all people, because all sinned—\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"for until the law sin was in the world, but sin is not charged to anyone’s account when there is no law.\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Yet death reigned from Adam until Moses, even over those who had not sinned in the likeness of Adam’s transgression. He is a pattern of the one who was to come.\"}]},{\"verse\":15,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But the gracious gift is not like the offense. For if by the offense of the one the many died, much more did the grace of God and the gift that comes in the grace of the one man, Jesus Christ, abound to the many.\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And the gift is not like what came through the one who sinned. For the judgment followed one offense and led to condemnation, but the gracious gift followed many offenses and led to justification.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For if by the offense of the one death reigned through that one, much more will those who receive the abundance of grace and of the gift of righteousness reign in life through the one, Jesus Christ.\"}]},{\"verse\":18,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So then, just as through one offense condemnation came to all people, so also through one righteous act justification that brings life comes to all people.\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For just as through the disobedience of the one man the many were made sinners, so also through the obedience of the one the many will be made righteous.\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now the law came in alongside so that the offense might increase; but where sin increased, grace abounded all the more,\"}]},{\"verse\":21,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"so that, just as sin reigned in death, so also grace might reign through righteousness, leading to eternal life through Jesus Christ our Lord.\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"justified\",\"lemma\":\"δικαιόω\",\"kind\":\"background\",\"traditional\":\"justified\",\"note\":\"Greek has a single word-family where English has two: “justify,” “justification,” “righteous” and “righteousness” in this chapter all translate forms of the same root. To be “justified” is to be declared or set in the right. Translations into Latin and most other languages use their one word for “justice” throughout, and some scholars prefer “justice” or “covenant faithfulness” in English.\"},{\"verse\":1,\"phrase\":\"we have peace\",\"lemma\":\"ἔχω\",\"kind\":\"textual\",\"traditional\":\"we have peace\",\"note\":\"Many early and important manuscripts read “let us have peace” (a difference of one vowel, which was pronounced alike in the period). The edition translated here, with most translations, reads “we have peace,” mainly because Paul’s argument at this point is stating facts, not giving exhortations. The question remains disputed.\"},{\"verse\":3,\"phrase\":\"afflictions\",\"lemma\":\"θλῖψις\",\"kind\":\"departure\",\"traditional\":\"tribulations\",\"note\":\"The traditional “tribulation” is now often heard as the name of a specific end-time period. In the period the word was an ordinary term for hardship or oppression pressing on a person. Modern versions vary here between “sufferings,” “afflictions” and “troubles.”\"},{\"verse\":5,\"phrase\":\"God’s love\",\"lemma\":\"ἀγάπη\",\"kind\":\"ambiguity\",\"traditional\":\"the love of God\",\"note\":\"The Greek phrase “the love of God” can mean God’s love for us or our love for God. Verse 8, which speaks of God demonstrating “his own love for us,” makes the first reading the more likely here, and most interpreters take it that way.\"},{\"verse\":9,\"phrase\":\"the wrath\",\"lemma\":\"ὀργή\",\"kind\":\"background\",\"traditional\":\"the wrath of God\",\"note\":\"The Greek says only “the wrath.” Many translations add “of God” for clarity. The reference is to God’s coming judgment on wrongdoing, which Paul has described earlier in the letter (1:18; 2:5).\"},{\"verse\":12,\"phrase\":\"just as through one man\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"Paul begins a comparison (“just as…”) and breaks it off at the end of the verse without completing it, turning aside to explain in verses 13–17. The comparison is resumed and completed in verse 18. The dash at the end of verse 12 marks the break.\"},{\"verse\":12,\"phrase\":\"because all sinned\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"because all sinned\",\"note\":\"The Greek connecting phrase is much debated. Most modern scholars and translations take it as “because”; others take it as “with the result that” or “on the basis of which.” The old Latin rendering “in whom all sinned,” meaning in Adam, was influential in Western theology but is not now generally thought to be what the Greek says. Whether “all sinned” refers to each person’s own sins or to humanity’s involvement in Adam’s sin is also disputed.\"},{\"verse\":14,\"phrase\":\"pattern\",\"lemma\":\"τύπος\",\"kind\":\"departure\",\"traditional\":\"type\",\"note\":\"The traditional rendering “type” is a technical term of biblical interpretation that few modern readers know. The Greek word means a mold, model or pattern: Adam, as one person whose act affected all, prefigures the Christ who was to come. Some translations have “figure” or “prototype.”\"},{\"verse\":15,\"phrase\":\"offense\",\"lemma\":\"παράπτωμα\",\"kind\":\"departure\",\"traditional\":\"trespass\",\"note\":\"The word means a wrongful act, a violation of what is right. “Trespass,” the usual rendering, now chiefly suggests entering property without permission; “offense” is used by the King James Version in this chapter and by some modern versions. Paul uses it alongside “sin” and “transgression” (verse 14), which are different Greek words.\"},{\"verse\":16,\"phrase\":\"justification\",\"lemma\":\"δικαίωμα\",\"kind\":\"register-exception\",\"traditional\":\"justification\",\"note\":\"This Greek word usually means a righteous requirement or a righteous act, and it is rendered “righteous act” in verse 18. Here, set as the opposite of “condemnation,” it must mean a verdict in someone’s favor, and so it is translated “justification,” as in most English versions. A different but related Greek word lies behind “justification” in verse 18.\"},{\"verse\":18,\"phrase\":\"one offense\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"one trespass\",\"note\":\"The Greek can also be read “the offense of one man” and, correspondingly, “the righteous act of one man.” Both readings have support among translators. The verse has no verbs in Greek; “came” and “comes” are supplied in English.\"},{\"verse\":21,\"phrase\":\"eternal\",\"lemma\":\"αἰώνιος\",\"kind\":\"background\",\"traditional\":\"eternal\",\"note\":\"The Greek adjective is formed from the word for “age.” In Jewish usage “eternal life” is the life of the age to come, so the phrase describes a kind of life as well as its unending length. “Eternal” is the standard rendering; a minority of translators render “life of the age to come.”\"}],\"candidates\":[{\"lemma\":\"καυχάομαι\",\"rendering\":\"boast\",\"verse\":2,\"reason\":\"Versions alternate between “boast,” “rejoice,” “glory” and “exult,” sometimes within one passage, hiding Paul’s deliberate repetition across Romans, Corinthians, Galatians and Philippians.\"},{\"lemma\":\"ὑπομονή\",\"rendering\":\"endurance\",\"verse\":3,\"reason\":\"Rendered variously as “patience,” “perseverance,” “endurance” and “steadfastness” across Paul, Hebrews, James and Revelation; a reader should see one word.\"},{\"lemma\":\"χάρισμα\",\"rendering\":\"gracious gift\",\"verse\":15,\"reason\":\"Used here for God’s saving gift and elsewhere for gifts of the Spirit (Romans 12, 1 Corinthians 12); it needs a consistent rendering that also keeps it distinct from δωρεά and δώρημα.\"},{\"lemma\":\"χάρις\",\"rendering\":\"grace\",\"verse\":2,\"reason\":\"A central term across the whole New Testament whose range (favor, grace, gift, thanks) needs a fixed default and stated alternates.\"},{\"lemma\":\"τύπος\",\"rendering\":\"pattern\",\"verse\":14,\"reason\":\"Translated “type,” “example,” “pattern,” “model” and “form” in different books; a decision is needed on whether the technical “type” is ever used.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Therefore, having been justified by faith, we have peace with God through our Lord Jesus Christ,"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "through whom we have also obtained access by faith into this grace in which we stand, and we boast in the hope of the glory of God."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And not only that, but we also boast in our afflictions, knowing that affliction produces endurance,"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and endurance produces proven character, and proven character produces hope."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And hope does not put us to shame, because God’s love has been poured out in our hearts through the Holy Spirit who was given to us."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For while we were still weak, at the right time Christ died for the ungodly."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For scarcely will anyone die for a righteous person—though for a good person someone might perhaps even dare to die."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But God demonstrates his own love for us in that while we were still sinners, Christ died for us."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Much more, then, having now been justified by his blood, we will be saved through him from the wrath."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For if, while we were enemies, we were reconciled to God through the death of his Son, much more, having been reconciled, we will be saved by his life."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And not only that, but we also boast in God through our Lord Jesus Christ, through whom we have now received reconciliation."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Therefore, just as through one man sin entered the world, and through sin death, and so death spread to all people, because all sinned—"
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "for until the law sin was in the world, but sin is not charged to anyone’s account when there is no law."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Yet death reigned from Adam until Moses, even over those who had not sinned in the likeness of Adam’s transgression. He is a pattern of the one who was to come."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But the gracious gift is not like the offense. For if by the offense of the one the many died, much more did the grace of God and the gift that comes in the grace of the one man, Jesus Christ, abound to the many."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And the gift is not like what came through the one who sinned. For the judgment followed one offense and led to condemnation, but the gracious gift followed many offenses and led to justification."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For if by the offense of the one death reigned through that one, much more will those who receive the abundance of grace and of the gift of righteousness reign in life through the one, Jesus Christ."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So then, just as through one offense condemnation came to all people, so also through one righteous act justification that brings life comes to all people."
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For just as through the disobedience of the one man the many were made sinners, so also through the obedience of the one the many will be made righteous."
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now the law came in alongside so that the offense might increase; but where sin increased, grace abounded all the more,"
+     }
+    ]
+   },
+   {
+    "verse": 21,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "so that, just as sin reigned in death, so also grace might reign through righteousness, leading to eternal life through Jesus Christ our Lord."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "justified",
+    "lemma": "δικαιόω",
+    "kind": "background",
+    "traditional": "justified",
+    "note": "Greek has a single word-family where English has two: “justify,” “justification,” “righteous” and “righteousness” in this chapter all translate forms of the same root. To be “justified” is to be declared or set in the right. Translations into Latin and most other languages use their one word for “justice” throughout, and some scholars prefer “justice” or “covenant faithfulness” in English."
+   },
+   {
+    "verse": 1,
+    "phrase": "we have peace",
+    "lemma": "ἔχω",
+    "kind": "textual",
+    "traditional": "we have peace",
+    "note": "Many early and important manuscripts read “let us have peace” (a difference of one vowel, which was pronounced alike in the period). The edition translated here, with most translations, reads “we have peace,” mainly because Paul’s argument at this point is stating facts, not giving exhortations. The question remains disputed."
+   },
+   {
+    "verse": 3,
+    "phrase": "afflictions",
+    "lemma": "θλῖψις",
+    "kind": "departure",
+    "traditional": "tribulations",
+    "note": "The traditional “tribulation” is now often heard as the name of a specific end-time period. In the period the word was an ordinary term for hardship or oppression pressing on a person. Modern versions vary here between “sufferings,” “afflictions” and “troubles.”"
+   },
+   {
+    "verse": 5,
+    "phrase": "God’s love",
+    "lemma": "ἀγάπη",
+    "kind": "ambiguity",
+    "traditional": "the love of God",
+    "note": "The Greek phrase “the love of God” can mean God’s love for us or our love for God. Verse 8, which speaks of God demonstrating “his own love for us,” makes the first reading the more likely here, and most interpreters take it that way."
+   },
+   {
+    "verse": 9,
+    "phrase": "the wrath",
+    "lemma": "ὀργή",
+    "kind": "background",
+    "traditional": "the wrath of God",
+    "note": "The Greek says only “the wrath.” Many translations add “of God” for clarity. The reference is to God’s coming judgment on wrongdoing, which Paul has described earlier in the letter (1:18; 2:5)."
+   },
+   {
+    "verse": 12,
+    "phrase": "just as through one man",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "Paul begins a comparison (“just as…”) and breaks it off at the end of the verse without completing it, turning aside to explain in verses 13–17. The comparison is resumed and completed in verse 18. The dash at the end of verse 12 marks the break."
+   },
+   {
+    "verse": 12,
+    "phrase": "because all sinned",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "because all sinned",
+    "note": "The Greek connecting phrase is much debated. Most modern scholars and translations take it as “because”; others take it as “with the result that” or “on the basis of which.” The old Latin rendering “in whom all sinned,” meaning in Adam, was influential in Western theology but is not now generally thought to be what the Greek says. Whether “all sinned” refers to each person’s own sins or to humanity’s involvement in Adam’s sin is also disputed."
+   },
+   {
+    "verse": 14,
+    "phrase": "pattern",
+    "lemma": "τύπος",
+    "kind": "departure",
+    "traditional": "type",
+    "note": "The traditional rendering “type” is a technical term of biblical interpretation that few modern readers know. The Greek word means a mold, model or pattern: Adam, as one person whose act affected all, prefigures the Christ who was to come. Some translations have “figure” or “prototype.”"
+   },
+   {
+    "verse": 15,
+    "phrase": "offense",
+    "lemma": "παράπτωμα",
+    "kind": "departure",
+    "traditional": "trespass",
+    "note": "The word means a wrongful act, a violation of what is right. “Trespass,” the usual rendering, now chiefly suggests entering property without permission; “offense” is used by the King James Version in this chapter and by some modern versions. Paul uses it alongside “sin” and “transgression” (verse 14), which are different Greek words."
+   },
+   {
+    "verse": 16,
+    "phrase": "justification",
+    "lemma": "δικαίωμα",
+    "kind": "register-exception",
+    "traditional": "justification",
+    "note": "This Greek word usually means a righteous requirement or a righteous act, and it is rendered “righteous act” in verse 18. Here, set as the opposite of “condemnation,” it must mean a verdict in someone’s favor, and so it is translated “justification,” as in most English versions. A different but related Greek word lies behind “justification” in verse 18."
+   },
+   {
+    "verse": 18,
+    "phrase": "one offense",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "one trespass",
+    "note": "The Greek can also be read “the offense of one man” and, correspondingly, “the righteous act of one man.” Both readings have support among translators. The verse has no verbs in Greek; “came” and “comes” are supplied in English."
+   },
+   {
+    "verse": 21,
+    "phrase": "eternal",
+    "lemma": "αἰώνιος",
+    "kind": "background",
+    "traditional": "eternal",
+    "note": "The Greek adjective is formed from the word for “age.” In Jewish usage “eternal life” is the life of the age to come, so the phrase describes a kind of life as well as its unending length. “Eternal” is the standard rendering; a minority of translators render “life of the age to come.”"
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "καυχάομαι",
+    "rendering": "boast",
+    "verse": 2,
+    "reason": "Versions alternate between “boast,” “rejoice,” “glory” and “exult,” sometimes within one passage, hiding Paul’s deliberate repetition across Romans, Corinthians, Galatians and Philippians."
+   },
+   {
+    "lemma": "ὑπομονή",
+    "rendering": "endurance",
+    "verse": 3,
+    "reason": "Rendered variously as “patience,” “perseverance,” “endurance” and “steadfastness” across Paul, Hebrews, James and Revelation; a reader should see one word."
+   },
+   {
+    "lemma": "χάρισμα",
+    "rendering": "gracious gift",
+    "verse": 15,
+    "reason": "Used here for God’s saving gift and elsewhere for gifts of the Spirit (Romans 12, 1 Corinthians 12); it needs a consistent rendering that also keeps it distinct from δωρεά and δώρημα."
+   },
+   {
+    "lemma": "χάρις",
+    "rendering": "grace",
+    "verse": 2,
+    "reason": "A central term across the whole New Testament whose range (favor, grace, gift, thanks) needs a fixed default and stated alternates."
+   },
+   {
+    "lemma": "τύπος",
+    "rendering": "pattern",
+    "verse": 14,
+    "reason": "Translated “type,” “example,” “pattern,” “model” and “form” in different books; a decision is needed on whether the technical “type” is ever used."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 5267,
+   "output_tokens": 312
+  },
+  "findings": [],
+  "error": ""
+ }
+}

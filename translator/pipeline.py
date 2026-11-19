@@ -537,6 +537,7 @@ def cmd_patch(args):
         return
     client = get_client()
     patch = {"register_version": register["version"], "register_hash": register_hash(),
+             "prompt_hash": prompt_hash(),
              "reason": args.reason, "date": datetime.datetime.now().isoformat(timespec="seconds")}
 
     def work(bc):

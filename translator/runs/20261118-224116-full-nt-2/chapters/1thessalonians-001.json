@@ -1,0 +1,273 @@
+{
+ "id": "1thessalonians-001",
+ "book": "1thessalonians",
+ "chapter": 1,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14efytAu3uVw76qu6",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 8135,
+  "output_tokens": 6954
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Paul, Silvanus, and Timothy, to the assembly of the Thessalonians in God the Father and the Lord Jesus Christ: grace to you and peace.\"}]},{\"verse\":2,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"We always give thanks to God for all of you, mentioning you in our prayers, constantly\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"remembering before our God and Father your work of faith, your labor of love, and your endurance of hope in our Lord Jesus Christ.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"We know, brothers and sisters loved by God, that he has chosen you,\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"because our good news did not come to you in word only, but also in power and in the Holy Spirit and with full conviction—just as you know what kind of people we proved to be among you for your sake.\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And you became imitators of us and of the Lord, for you received the word in much affliction with joy from the Holy Spirit,\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"so that you became an example to all the believers in Macedonia and in Achaia.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For from you the word of the Lord has rung out, not only in Macedonia and Achaia—in every place your faith in God has gone out, so that we have no need to say anything.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For they themselves report about us what kind of reception we had among you, and how you turned to God from idols, to serve a living and true God\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and to wait for his Son from the heavens, whom he raised from the dead—Jesus, who rescues us from the coming wrath.\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"assembly\",\"lemma\":\"ἐκκλησία\",\"kind\":\"departure\",\"traditional\":\"church\",\"note\":\"The Greek word was the ordinary term for a civic gathering and the Septuagint’s word for Israel assembled before God. “Church” is the near-universal rendering and readers know what it refers to, but it now suggests a building or an institution. “Assembly” is used throughout this translation so that the reader can see it is one Greek word.\"},{\"verse\":1,\"phrase\":\"Silvanus\",\"lemma\":\"Σιλουανός\",\"kind\":\"background\",\"traditional\":\"Silvanus\",\"note\":\"Silvanus is generally identified with the Silas of Acts, who with Paul and Timothy first brought the message to Thessalonica, the chief city of the Roman province of Macedonia. The three are named as joint senders, which is why the letter speaks as “we.”\"},{\"verse\":1,\"phrase\":\"grace to you and peace.\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"Grace be unto you, and peace, from God our Father, and the Lord Jesus Christ.\",\"note\":\"Many later manuscripts add “from God our Father and the Lord Jesus Christ,” matching Paul’s usual greeting in other letters. The shorter form is found in important early witnesses and is generally judged original; the longer is most likely a scribal assimilation.\"},{\"verse\":3,\"phrase\":\"your work of faith, your labor of love, and your endurance of hope\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"your work of faith and labor of love and steadfastness of hope\",\"note\":\"The three Greek genitives are left as plain “of” phrases. Most interpreters take them as naming the source: work that springs from faith, labor prompted by love, endurance sustained by hope. The hope is “of our Lord Jesus Christ,” understood here as hope directed toward him.\"},{\"verse\":3,\"phrase\":\"before our God and Father\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"in the sight of God and our Father\",\"note\":\"In the Greek this phrase comes at the end of the verse. It is taken here with “remembering,” that is, remembering in prayer before God. It could instead describe the Thessalonians’ faith, love, and hope as lived out in God’s presence.\"},{\"verse\":4,\"phrase\":\"brothers and sisters\",\"lemma\":\"ἀδελφός\",\"kind\":\"departure\",\"traditional\":\"brethren / brothers\",\"note\":\"The Greek plural was regularly used for a mixed group of siblings, and here it addresses the whole community, women as well as men. “Brothers” alone would now suggest that only men are addressed. Many recent translations make the same choice; others keep “brothers” with a footnote.\"},{\"verse\":4,\"phrase\":\"that he has chosen you\",\"lemma\":\"ἐκλογή\",\"kind\":\"departure\",\"traditional\":\"your election\",\"note\":\"The Greek is a noun phrase, literally “your choosing” or “your election.” “Election” is the traditional rendering and remains a standard theological term, but in ordinary English it now suggests voting. The word means God’s act of choosing, which the verbal phrase conveys directly.\"},{\"verse\":5,\"phrase\":\"good news\",\"lemma\":\"εὐαγγέλιον\",\"kind\":\"departure\",\"traditional\":\"gospel\",\"note\":\"The Greek was an ordinary word for an announcement of good news, used also of public and imperial proclamations. “Gospel” is the traditional rendering, but it now sounds like a religious term or the title of a book. Many modern translations already alternate between the two.\"},{\"verse\":5,\"phrase\":\"full conviction\",\"lemma\":\"πληροφορία\",\"kind\":\"ambiguity\",\"traditional\":\"much assurance\",\"note\":\"The word can mean complete certainty or, less likely here, fullness. It is not stated whose conviction is meant. The following clause about the missionaries’ conduct suggests the assurance with which they preached, though some take it of the certainty produced in the hearers.\"},{\"verse\":7,\"phrase\":\"in Macedonia and in Achaia\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"in Macedonia and Achaia\",\"note\":\"These were the two Roman provinces that together covered Greece: Macedonia in the north, with Thessalonica as its chief city, and Achaia in the south, which included Corinth and Athens. Thessalonica lay on a major road and had a busy port, which helps explain how news from there traveled quickly.\"},{\"verse\":9,\"phrase\":\"a living and true God\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"the living and true God\",\"note\":\"The Greek has no article here, and most translations supply “the.” The rendering “a living and true God” keeps the stress on the contrast with idols, which in Jewish polemic were lifeless and false. It does not imply that there are other such gods.\"},{\"verse\":10,\"phrase\":\"the heavens\",\"lemma\":\"οὐρανός\",\"kind\":\"departure\",\"traditional\":\"heaven\",\"note\":\"The Greek is plural, a Semitic turn of phrase carried over from the Hebrew Scriptures. Most translations flatten it to “heaven.” The plural is kept wherever the Greek has it and God’s dwelling is meant.\"},{\"verse\":10,\"phrase\":\"who rescues us\",\"lemma\":\"ῥύομαι\",\"kind\":\"ambiguity\",\"traditional\":\"which delivered us\",\"note\":\"The Greek is a present participle, which can describe Jesus timelessly as “our rescuer.” Older versions rendered it as past (“delivered”), while many modern ones use the present. Since the wrath is described as “coming,” the rescue in view is chiefly a future one.\"}],\"candidates\":[{\"lemma\":\"ἀδελφός\",\"rendering\":\"brothers and sisters\",\"verse\":4,\"reason\":\"The plural address to mixed communities recurs throughout the letters and Acts, and translators divide between “brothers” and “brothers and sisters”; it needs one policy.\"},{\"lemma\":\"ὀργή\",\"rendering\":\"wrath\",\"verse\":10,\"reason\":\"Used of God’s judgment across Paul, the Gospels, and Revelation, where “wrath” and “anger” compete and should not vary between chapters.\"},{\"lemma\":\"ὑπομονή\",\"rendering\":\"endurance\",\"verse\":3,\"reason\":\"Rendered variously as “patience,” “perseverance,” “steadfastness,” and “endurance” across versions; it recurs widely and readers should see one word.\"},{\"lemma\":\"ἐκλογή\",\"rendering\":\"that he has chosen you (verbal paraphrase of “choice”)\",\"verse\":4,\"reason\":\"“Election” now misleads; the noun and its cognates ἐκλεκτός and ἐκλέγομαι recur in Romans, 2 Peter, and the Gospels and need a coordinated decision.\"},{\"lemma\":\"δουλεύω\",\"rendering\":\"serve\",\"verse\":9,\"reason\":\"The verb belongs to the δοῦλος word group and can mean “serve as a slave”; its rendering should be coordinated with the decision for δοῦλος across the New Testament.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Paul, Silvanus, and Timothy, to the assembly of the Thessalonians in God the Father and the Lord Jesus Christ: grace to you and peace."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "We always give thanks to God for all of you, mentioning you in our prayers, constantly"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "remembering before our God and Father your work of faith, your labor of love, and your endurance of hope in our Lord Jesus Christ."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "We know, brothers and sisters loved by God, that he has chosen you,"
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "because our good news did not come to you in word only, but also in power and in the Holy Spirit and with full conviction—just as you know what kind of people we proved to be among you for your sake."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And you became imitators of us and of the Lord, for you received the word in much affliction with joy from the Holy Spirit,"
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "so that you became an example to all the believers in Macedonia and in Achaia."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For from you the word of the Lord has rung out, not only in Macedonia and Achaia—in every place your faith in God has gone out, so that we have no need to say anything."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For they themselves report about us what kind of reception we had among you, and how you turned to God from idols, to serve a living and true God"
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and to wait for his Son from the heavens, whom he raised from the dead—Jesus, who rescues us from the coming wrath."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "assembly",
+    "lemma": "ἐκκλησία",
+    "kind": "departure",
+    "traditional": "church",
+    "note": "The Greek word was the ordinary term for a civic gathering and the Septuagint’s word for Israel assembled before God. “Church” is the near-universal rendering and readers know what it refers to, but it now suggests a building or an institution. “Assembly” is used throughout this translation so that the reader can see it is one Greek word."
+   },
+   {
+    "verse": 1,
+    "phrase": "Silvanus",
+    "lemma": "Σιλουανός",
+    "kind": "background",
+    "traditional": "Silvanus",
+    "note": "Silvanus is generally identified with the Silas of Acts, who with Paul and Timothy first brought the message to Thessalonica, the chief city of the Roman province of Macedonia. The three are named as joint senders, which is why the letter speaks as “we.”"
+   },
+   {
+    "verse": 1,
+    "phrase": "grace to you and peace.",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "Grace be unto you, and peace, from God our Father, and the Lord Jesus Christ.",
+    "note": "Many later manuscripts add “from God our Father and the Lord Jesus Christ,” matching Paul’s usual greeting in other letters. The shorter form is found in important early witnesses and is generally judged original; the longer is most likely a scribal assimilation."
+   },
+   {
+    "verse": 3,
+    "phrase": "your work of faith, your labor of love, and your endurance of hope",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "your work of faith and labor of love and steadfastness of hope",
+    "note": "The three Greek genitives are left as plain “of” phrases. Most interpreters take them as naming the source: work that springs from faith, labor prompted by love, endurance sustained by hope. The hope is “of our Lord Jesus Christ,” understood here as hope directed toward him."
+   },
+   {
+    "verse": 3,
+    "phrase": "before our God and Father",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "in the sight of God and our Father",
+    "note": "In the Greek this phrase comes at the end of the verse. It is taken here with “remembering,” that is, remembering in prayer before God. It could instead describe the Thessalonians’ faith, love, and hope as lived out in God’s presence."
+   },
+   {
+    "verse": 4,
+    "phrase": "brothers and sisters",
+    "lemma": "ἀδελφός",
+    "kind": "departure",
+    "traditional": "brethren / brothers",
+    "note": "The Greek plural was regularly used for a mixed group of siblings, and here it addresses the whole community, women as well as men. “Brothers” alone would now suggest that only men are addressed. Many recent translations make the same choice; others keep “brothers” with a footnote."
+   },
+   {
+    "verse": 4,
+    "phrase": "that he has chosen you",
+    "lemma": "ἐκλογή",
+    "kind": "departure",
+    "traditional": "your election",
+    "note": "The Greek is a noun phrase, literally “your choosing” or “your election.” “Election” is the traditional rendering and remains a standard theological term, but in ordinary English it now suggests voting. The word means God’s act of choosing, which the verbal phrase conveys directly."
+   },
+   {
+    "verse": 5,
+    "phrase": "good news",
+    "lemma": "εὐαγγέλιον",
+    "kind": "departure",
+    "traditional": "gospel",
+    "note": "The Greek was an ordinary word for an announcement of good news, used also of public and imperial proclamations. “Gospel” is the traditional rendering, but it now sounds like a religious term or the title of a book. Many modern translations already alternate between the two."
+   },
+   {
+    "verse": 5,
+    "phrase": "full conviction",
+    "lemma": "πληροφορία",
+    "kind": "ambiguity",
+    "traditional": "much assurance",
+    "note": "The word can mean complete certainty or, less likely here, fullness. It is not stated whose conviction is meant. The following clause about the missionaries’ conduct suggests the assurance with which they preached, though some take it of the certainty produced in the hearers."
+   },
+   {
+    "verse": 7,
+    "phrase": "in Macedonia and in Achaia",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "in Macedonia and Achaia",
+    "note": "These were the two Roman provinces that together covered Greece: Macedonia in the north, with Thessalonica as its chief city, and Achaia in the south, which included Corinth and Athens. Thessalonica lay on a major road and had a busy port, which helps explain how news from there traveled quickly."
+   },
+   {
+    "verse": 9,
+    "phrase": "a living and true God",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "the living and true God",
+    "note": "The Greek has no article here, and most translations supply “the.” The rendering “a living and true God” keeps the stress on the contrast with idols, which in Jewish polemic were lifeless and false. It does not imply that there are other such gods."
+   },
+   {
+    "verse": 10,
+    "phrase": "the heavens",
+    "lemma": "οὐρανός",
+    "kind": "departure",
+    "traditional": "heaven",
+    "note": "The Greek is plural, a Semitic turn of phrase carried over from the Hebrew Scriptures. Most translations flatten it to “heaven.” The plural is kept wherever the Greek has it and God’s dwelling is meant."
+   },
+   {
+    "verse": 10,
+    "phrase": "who rescues us",
+    "lemma": "ῥύομαι",
+    "kind": "ambiguity",
+    "traditional": "which delivered us",
+    "note": "The Greek is a present participle, which can describe Jesus timelessly as “our rescuer.” Older versions rendered it as past (“delivered”), while many modern ones use the present. Since the wrath is described as “coming,” the rescue in view is chiefly a future one."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "ἀδελφός",
+    "rendering": "brothers and sisters",
+    "verse": 4,
+    "reason": "The plural address to mixed communities recurs throughout the letters and Acts, and translators divide between “brothers” and “brothers and sisters”; it needs one policy."
+   },
+   {
+    "lemma": "ὀργή",
+    "rendering": "wrath",
+    "verse": 10,
+    "reason": "Used of God’s judgment across Paul, the Gospels, and Revelation, where “wrath” and “anger” compete and should not vary between chapters."
+   },
+   {
+    "lemma": "ὑπομονή",
+    "rendering": "endurance",
+    "verse": 3,
+    "reason": "Rendered variously as “patience,” “perseverance,” “steadfastness,” and “endurance” across versions; it recurs widely and readers should see one word."
+   },
+   {
+    "lemma": "ἐκλογή",
+    "rendering": "that he has chosen you (verbal paraphrase of “choice”)",
+    "verse": 4,
+    "reason": "“Election” now misleads; the noun and its cognates ἐκλεκτός and ἐκλέγομαι recur in Romans, 2 Peter, and the Gospels and need a coordinated decision."
+   },
+   {
+    "lemma": "δουλεύω",
+    "rendering": "serve",
+    "verse": 9,
+    "reason": "The verb belongs to the δοῦλος word group and can mean “serve as a slave”; its rendering should be coordinated with the decision for δοῦλος across the New Testament."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 3360,
+   "output_tokens": 397
+  },
+  "findings": [],
+  "error": ""
+ }
+}

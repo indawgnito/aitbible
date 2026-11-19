@@ -1,0 +1,359 @@
+{
+ "id": "1peter-004",
+ "book": "1peter",
+ "chapter": 4,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14dgTw6urGCGPUBki",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 11989,
+  "output_tokens": 13032
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Since, then, Christ suffered in the flesh, arm yourselves also with the same way of thinking, because the one who has suffered in the flesh is finished with sin,\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"so as to live the remaining time in the flesh no longer by human cravings but by the will of God.\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For the time that has passed was enough for carrying out what the Gentiles want, living in debauchery, cravings, drunkenness, revels, drinking parties, and forbidden idolatries.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"In this they find it strange that you do not run with them into the same flood of dissipation, and so they slander you.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But they will give an account to the one who stands ready to judge the living and the dead.\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For this is why the good news was announced to the dead as well: so that, though judged in the flesh by human standards, they might live in the spirit by God’s standard.\"}]},{\"verse\":7,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The end of all things has come near. So be sensible and sober for the sake of your prayers.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Above all, keep your love for one another constant, because love covers a multitude of sins.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Be hospitable to one another without grumbling.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"As each one has received a gift, use it to serve one another, as good stewards of God’s varied grace.\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"If anyone speaks, let it be as speaking oracles of God; if anyone serves, as serving from the strength that God supplies, so that in everything God may be glorified through Jesus Christ. To him belong the glory and the power forever and ever. Amen.\"}]},{\"verse\":12,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Beloved, do not find it strange that a fire is burning among you to test you, as though something strange were happening to you.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Instead, insofar as you share in the sufferings of Christ, rejoice, so that at the revelation of his glory you may also rejoice and exult.\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"If you are insulted for the name of Christ, you are blessed, because the Spirit of glory and of God rests upon you.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For none of you should suffer as a murderer or a thief or an evildoer, or as a meddler.\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But if anyone suffers as a Christian, let that person not be ashamed, but glorify God in this name.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For it is time for the judgment to begin with the house of God; and if it starts with us first, what will be the end of those who disobey the good news of God?\"}]},{\"verse\":18,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And\"},{\"speaker\":\"scripture\",\"text\":\"“if the righteous person is saved only with difficulty, where will the ungodly and the sinner appear?”\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So then, those who suffer according to the will of God should also entrust their souls to a faithful Creator while doing good.\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"because the one who has suffered in the flesh is finished with sin\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"for he that hath suffered in the flesh hath ceased from sin\",\"note\":\"The Greek connective can mean “because”, giving the reason for arming oneself, or “that”, giving the content of the “way of thinking”. It is also disputed who “the one who has suffered” is: the believer who has accepted suffering and so broken with sin, the believer united with Christ’s death in baptism, or Christ himself. The rendering leaves that open, as the Greek does.\"},{\"verse\":3,\"phrase\":\"Gentiles\",\"lemma\":\"ἔθνος\",\"kind\":\"background\",\"traditional\":\"Gentiles\",\"note\":\"The Greek word is the ordinary plural “nations”, which in Jewish usage meant the non-Jewish peoples. The readers seem to have been largely non-Jews themselves, yet the letter uses the word for outsiders whose way of life they have left behind.\"},{\"verse\":4,\"phrase\":\"slander\",\"lemma\":\"βλασφημέω\",\"kind\":\"departure\",\"traditional\":\"speaking evil of you; blaspheming\",\"note\":\"The Greek verb is the source of English “blaspheme”, but in the period it meant abusive or defamatory speech against anyone. The verb has no object here; most translations supply “you” and understand abuse of the believers, as this one does. Some interpreters take it as blasphemy against God.\"},{\"verse\":6,\"phrase\":\"the good news was announced\",\"lemma\":\"εὐαγγελίζω\",\"kind\":\"departure\",\"traditional\":\"the gospel was preached\",\"note\":\"The verb is the ordinary Greek word for announcing good news. “Gospel” has become a religious term or a book title in English, so “good news” is used for this word family throughout. Many modern translations alternate between the two.\"},{\"verse\":6,\"phrase\":\"to the dead\",\"lemma\":\"νεκρός\",\"kind\":\"ambiguity\",\"traditional\":\"to them that are dead\",\"note\":\"Most scholars today take “the dead” to be believers who heard the good news while alive and have since died: human judgment condemned them, but they live before God. Others connect the verse with the proclamation to the spirits in 3:19 and understand a proclamation made to people already dead. The phrases rendered “by human standards” and “by God’s standard” are literally “according to humans” and “according to God”, and “in the spirit” could also be read as “by the Spirit”.\"},{\"verse\":8,\"phrase\":\"love covers a multitude of sins\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"charity shall cover the multitude of sins\",\"note\":\"This echoes Proverbs 10:12 in a form close to the Hebrew, not the Greek Septuagint; the same saying appears in James 5:20. In Proverbs the point is that love overlooks and forgives the wrongs of others instead of stirring up conflict, which fits the context of community life here.\"},{\"verse\":12,\"phrase\":\"a fire is burning among you\",\"lemma\":\"πύρωσις\",\"kind\":\"background\",\"traditional\":\"the fiery trial\",\"note\":\"The Greek noun means a burning and is used in the Septuagint for the smelting furnace that tests silver and gold (Proverbs 27:21), an image the letter already used at 1:7. The verse also plays on “strange”: the same verb describes the outsiders’ reaction in verse 4.\"},{\"verse\":14,\"phrase\":\"the Spirit of glory and of God\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"the spirit of glory and of God\",\"note\":\"Some manuscripts add “and of power” after “glory”, and many later ones add at the end “on their part he is blasphemed, but on your part he is glorified”, which the King James Version includes. The shorter text is translated here, following the edition used. The wording echoes Isaiah 11:2, where the Spirit of the Lord rests on the promised ruler.\"},{\"verse\":15,\"phrase\":\"meddler\",\"lemma\":\"ἀλλοτριεπίσκοπος\",\"kind\":\"ambiguity\",\"traditional\":\"busybody in other men’s matters\",\"note\":\"This word occurs nowhere earlier in surviving Greek and its meaning is uncertain. Its parts suggest “one who oversees what belongs to others”, and most translations render it “meddler” or “busybody”. Other proposals include an embezzler of property held in trust, or someone who interferes in others’ affairs in a way that provokes public hostility.\"},{\"verse\":16,\"phrase\":\"Christian\",\"lemma\":\"Χριστιανός\",\"kind\":\"background\",\"traditional\":\"Christian\",\"note\":\"The word occurs only three times in the New Testament (also Acts 11:26 and 26:28) and was probably coined by outsiders as a label for followers of Christ. Here it appears as a charge or taunt for which a person might suffer, and the letter tells readers to bear “this name” without shame. Later manuscripts read “in this matter” instead of “in this name”.\"},{\"verse\":17,\"phrase\":\"the house of God\",\"lemma\":\"οἶκος\",\"kind\":\"ambiguity\",\"traditional\":\"the house of God\",\"note\":\"The Greek word can mean a household or a building, and “house of God” was a common phrase for the temple. The letter has already called its readers a “spiritual house” (2:5), so both senses are probably in play. The idea of judgment beginning at God’s sanctuary echoes Ezekiel 9:6.\"},{\"verse\":18,\"phrase\":\"“if the righteous person is saved only with difficulty, where will the ungodly and the sinner appear?”\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"if the righteous scarcely be saved, where shall the ungodly and the sinner appear?\",\"note\":\"This is Proverbs 11:31 quoted from the Greek Septuagint, which differs from the Hebrew (“If the righteous is repaid on earth, how much more the wicked and the sinner”). The adverb means “with difficulty” or “barely”, picking up the thought that even God’s own people pass through judgment.\"}],\"candidates\":[{\"lemma\":\"ἐπιθυμία\",\"rendering\":\"cravings\",\"verse\":2,\"reason\":\"Very frequent across the letters and Gospels, and translations vary between desire, lust, passion and craving, sometimes for a neutral and sometimes for a bad sense.\"},{\"lemma\":\"ἀγαπητός\",\"rendering\":\"Beloved\",\"verse\":12,\"reason\":\"The address recurs throughout the letters, and versions split between “Beloved” and “Dear friends”; readers would notice inconsistency from book to book.\"},{\"lemma\":\"ἀσέλγεια\",\"rendering\":\"debauchery\",\"verse\":3,\"reason\":\"Recurs in vice lists across Paul, Peter and Jude with renderings ranging from licentiousness and sensuality to debauchery, and needs to be kept distinct from ἀσωτία.\"},{\"lemma\":\"οἰκονόμος\",\"rendering\":\"stewards\",\"verse\":10,\"reason\":\"Appears in Luke’s parables, Paul and Titus; “steward” versus “manager” is a real choice that should be made once.\"},{\"lemma\":\"χάρισμα\",\"rendering\":\"gift\",\"verse\":10,\"reason\":\"Used across Romans, 1 Corinthians, the Pastorals and here, with a verbal link to χάρις (“grace”) that “gift”, “spiritual gift” and “gift of grace” handle differently.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Since, then, Christ suffered in the flesh, arm yourselves also with the same way of thinking, because the one who has suffered in the flesh is finished with sin,"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "so as to live the remaining time in the flesh no longer by human cravings but by the will of God."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For the time that has passed was enough for carrying out what the Gentiles want, living in debauchery, cravings, drunkenness, revels, drinking parties, and forbidden idolatries."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "In this they find it strange that you do not run with them into the same flood of dissipation, and so they slander you."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But they will give an account to the one who stands ready to judge the living and the dead."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For this is why the good news was announced to the dead as well: so that, though judged in the flesh by human standards, they might live in the spirit by God’s standard."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The end of all things has come near. So be sensible and sober for the sake of your prayers."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Above all, keep your love for one another constant, because love covers a multitude of sins."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Be hospitable to one another without grumbling."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "As each one has received a gift, use it to serve one another, as good stewards of God’s varied grace."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "If anyone speaks, let it be as speaking oracles of God; if anyone serves, as serving from the strength that God supplies, so that in everything God may be glorified through Jesus Christ. To him belong the glory and the power forever and ever. Amen."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Beloved, do not find it strange that a fire is burning among you to test you, as though something strange were happening to you."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Instead, insofar as you share in the sufferings of Christ, rejoice, so that at the revelation of his glory you may also rejoice and exult."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "If you are insulted for the name of Christ, you are blessed, because the Spirit of glory and of God rests upon you."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For none of you should suffer as a murderer or a thief or an evildoer, or as a meddler."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But if anyone suffers as a Christian, let that person not be ashamed, but glorify God in this name."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For it is time for the judgment to begin with the house of God; and if it starts with us first, what will be the end of those who disobey the good news of God?"
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And"
+     },
+     {
+      "speaker": "scripture",
+      "text": "“if the righteous person is saved only with difficulty, where will the ungodly and the sinner appear?”"
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So then, those who suffer according to the will of God should also entrust their souls to a faithful Creator while doing good."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "because the one who has suffered in the flesh is finished with sin",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "for he that hath suffered in the flesh hath ceased from sin",
+    "note": "The Greek connective can mean “because”, giving the reason for arming oneself, or “that”, giving the content of the “way of thinking”. It is also disputed who “the one who has suffered” is: the believer who has accepted suffering and so broken with sin, the believer united with Christ’s death in baptism, or Christ himself. The rendering leaves that open, as the Greek does."
+   },
+   {
+    "verse": 3,
+    "phrase": "Gentiles",
+    "lemma": "ἔθνος",
+    "kind": "background",
+    "traditional": "Gentiles",
+    "note": "The Greek word is the ordinary plural “nations”, which in Jewish usage meant the non-Jewish peoples. The readers seem to have been largely non-Jews themselves, yet the letter uses the word for outsiders whose way of life they have left behind."
+   },
+   {
+    "verse": 4,
+    "phrase": "slander",
+    "lemma": "βλασφημέω",
+    "kind": "departure",
+    "traditional": "speaking evil of you; blaspheming",
+    "note": "The Greek verb is the source of English “blaspheme”, but in the period it meant abusive or defamatory speech against anyone. The verb has no object here; most translations supply “you” and understand abuse of the believers, as this one does. Some interpreters take it as blasphemy against God."
+   },
+   {
+    "verse": 6,
+    "phrase": "the good news was announced",
+    "lemma": "εὐαγγελίζω",
+    "kind": "departure",
+    "traditional": "the gospel was preached",
+    "note": "The verb is the ordinary Greek word for announcing good news. “Gospel” has become a religious term or a book title in English, so “good news” is used for this word family throughout. Many modern translations alternate between the two."
+   },
+   {
+    "verse": 6,
+    "phrase": "to the dead",
+    "lemma": "νεκρός",
+    "kind": "ambiguity",
+    "traditional": "to them that are dead",
+    "note": "Most scholars today take “the dead” to be believers who heard the good news while alive and have since died: human judgment condemned them, but they live before God. Others connect the verse with the proclamation to the spirits in 3:19 and understand a proclamation made to people already dead. The phrases rendered “by human standards” and “by God’s standard” are literally “according to humans” and “according to God”, and “in the spirit” could also be read as “by the Spirit”."
+   },
+   {
+    "verse": 8,
+    "phrase": "love covers a multitude of sins",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "charity shall cover the multitude of sins",
+    "note": "This echoes Proverbs 10:12 in a form close to the Hebrew, not the Greek Septuagint; the same saying appears in James 5:20. In Proverbs the point is that love overlooks and forgives the wrongs of others instead of stirring up conflict, which fits the context of community life here."
+   },
+   {
+    "verse": 12,
+    "phrase": "a fire is burning among you",
+    "lemma": "πύρωσις",
+    "kind": "background",
+    "traditional": "the fiery trial",
+    "note": "The Greek noun means a burning and is used in the Septuagint for the smelting furnace that tests silver and gold (Proverbs 27:21), an image the letter already used at 1:7. The verse also plays on “strange”: the same verb describes the outsiders’ reaction in verse 4."
+   },
+   {
+    "verse": 14,
+    "phrase": "the Spirit of glory and of God",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "the spirit of glory and of God",
+    "note": "Some manuscripts add “and of power” after “glory”, and many later ones add at the end “on their part he is blasphemed, but on your part he is glorified”, which the King James Version includes. The shorter text is translated here, following the edition used. The wording echoes Isaiah 11:2, where the Spirit of the Lord rests on the promised ruler."
+   },
+   {
+    "verse": 15,
+    "phrase": "meddler",
+    "lemma": "ἀλλοτριεπίσκοπος",
+    "kind": "ambiguity",
+    "traditional": "busybody in other men’s matters",
+    "note": "This word occurs nowhere earlier in surviving Greek and its meaning is uncertain. Its parts suggest “one who oversees what belongs to others”, and most translations render it “meddler” or “busybody”. Other proposals include an embezzler of property held in trust, or someone who interferes in others’ affairs in a way that provokes public hostility."
+   },
+   {
+    "verse": 16,
+    "phrase": "Christian",
+    "lemma": "Χριστιανός",
+    "kind": "background",
+    "traditional": "Christian",
+    "note": "The word occurs only three times in the New Testament (also Acts 11:26 and 26:28) and was probably coined by outsiders as a label for followers of Christ. Here it appears as a charge or taunt for which a person might suffer, and the letter tells readers to bear “this name” without shame. Later manuscripts read “in this matter” instead of “in this name”."
+   },
+   {
+    "verse": 17,
+    "phrase": "the house of God",
+    "lemma": "οἶκος",
+    "kind": "ambiguity",
+    "traditional": "the house of God",
+    "note": "The Greek word can mean a household or a building, and “house of God” was a common phrase for the temple. The letter has already called its readers a “spiritual house” (2:5), so both senses are probably in play. The idea of judgment beginning at God’s sanctuary echoes Ezekiel 9:6."
+   },
+   {
+    "verse": 18,
+    "phrase": "“if the righteous person is saved only with difficulty, where will the ungodly and the sinner appear?”",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "if the righteous scarcely be saved, where shall the ungodly and the sinner appear?",
+    "note": "This is Proverbs 11:31 quoted from the Greek Septuagint, which differs from the Hebrew (“If the righteous is repaid on earth, how much more the wicked and the sinner”). The adverb means “with difficulty” or “barely”, picking up the thought that even God’s own people pass through judgment."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "ἐπιθυμία",
+    "rendering": "cravings",
+    "verse": 2,
+    "reason": "Very frequent across the letters and Gospels, and translations vary between desire, lust, passion and craving, sometimes for a neutral and sometimes for a bad sense."
+   },
+   {
+    "lemma": "ἀγαπητός",
+    "rendering": "Beloved",
+    "verse": 12,
+    "reason": "The address recurs throughout the letters, and versions split between “Beloved” and “Dear friends”; readers would notice inconsistency from book to book."
+   },
+   {
+    "lemma": "ἀσέλγεια",
+    "rendering": "debauchery",
+    "verse": 3,
+    "reason": "Recurs in vice lists across Paul, Peter and Jude with renderings ranging from licentiousness and sensuality to debauchery, and needs to be kept distinct from ἀσωτία."
+   },
+   {
+    "lemma": "οἰκονόμος",
+    "rendering": "stewards",
+    "verse": 10,
+    "reason": "Appears in Luke’s parables, Paul and Titus; “steward” versus “manager” is a real choice that should be made once."
+   },
+   {
+    "lemma": "χάρισμα",
+    "rendering": "gift",
+    "verse": 10,
+    "reason": "Used across Romans, 1 Corinthians, the Pastorals and here, with a verbal link to χάρις (“grace”) that “gift”, “spiritual gift” and “gift of grace” handle differently."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 4474,
+   "output_tokens": 165
+  },
+  "findings": [],
+  "error": ""
+ }
+}

@@ -1,0 +1,359 @@
+{
+ "id": "1timothy-001",
+ "book": "1timothy",
+ "chapter": 1,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14vnmanwDKXHiADiT",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 11845,
+  "output_tokens": 14702
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Paul, an apostle of Christ Jesus by the command of God our Savior and of Christ Jesus our hope,\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"to Timothy, my true child in faith: Grace, mercy, and peace from God the Father and Christ Jesus our Lord.\"}]},{\"verse\":3,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Just as I urged you when I was leaving for Macedonia, stay on in Ephesus, so that you may instruct certain people not to teach anything different\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"nor to occupy themselves with myths and endless genealogies, which promote speculations rather than God’s plan, which works by faith.\"}]},{\"verse\":5,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But the goal of this instruction is love from a pure heart, a good conscience, and a sincere faith.\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Some have strayed from these and turned aside into empty talk,\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"wanting to be teachers of the law, though they understand neither what they are saying nor the things about which they are so insistent.\"}]},{\"verse\":8,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now we know that the law is good, if one uses it lawfully,\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"understanding this: law is not laid down for a righteous person but for the lawless and rebellious, the ungodly and sinners, the unholy and profane, those who kill their fathers or mothers, murderers,\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"the sexually immoral, men who lie with males, slave traders, liars, perjurers, and whatever else is opposed to sound teaching,\"}]},{\"verse\":11,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"in accordance with the good news of the glory of the blessed God, with which I was entrusted.\"}]},{\"verse\":12,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"I am thankful to the one who gave me strength, Christ Jesus our Lord, because he considered me faithful and appointed me to service,\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"though I was formerly a blasphemer, a persecutor, and a man of arrogant violence. But I was shown mercy, because I acted in ignorance, in unbelief,\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and the grace of our Lord overflowed beyond measure, along with the faith and love that are in Christ Jesus.\"}]},{\"verse\":15,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"The saying is trustworthy and deserves full acceptance: Christ Jesus came into the world to save sinners—and I am the foremost of them.\"}]},{\"verse\":16,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But for this very reason I was shown mercy: so that in me, the foremost, Christ Jesus might display all his patience, as a pattern for those who were going to believe in him for eternal life.\"}]},{\"verse\":17,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Now to the King of the ages, immortal, invisible, the only God, be honor and glory forever and ever. Amen.\"}]},{\"verse\":18,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"This instruction I entrust to you, Timothy, my child, in keeping with the prophecies made earlier about you, so that by them you may wage the good warfare,\"}]},{\"verse\":19,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"holding on to faith and a good conscience. By thrusting conscience aside, some have suffered shipwreck in regard to the faith;\"}]},{\"verse\":20,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"among them are Hymenaeus and Alexander, whom I have handed over to Satan so that they may be taught by discipline not to blaspheme.\"}]}],\"notes\":[{\"verse\":3,\"phrase\":\"stay on in Ephesus\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"As I besought thee to abide still at Ephesus … so do\",\"note\":\"The Greek sentence opens “Just as I urged you to stay on in Ephesus…” and is never grammatically completed. Like most modern translations, this one turns the earlier request into a present instruction; older versions instead supplied “so do” at the end of verse 4. The sense is the same either way.\"},{\"verse\":4,\"phrase\":\"God’s plan\",\"lemma\":\"οἰκονομία\",\"kind\":\"ambiguity\",\"traditional\":\"godly edifying (KJV); the stewardship from God\",\"note\":\"The word means the management of a household and, by extension, an administration or arrangement. Here it may be God’s own ordering of salvation (“plan”) or the responsibility God entrusts to those who serve him (“stewardship”); both readings have wide support. The KJV’s “godly edifying” follows a different Greek word found in a few manuscripts.\"},{\"verse\":9,\"phrase\":\"righteous\",\"lemma\":\"δίκαιος\",\"kind\":\"background\",\"traditional\":\"righteous\",\"note\":\"Greek has one word-family where English has two: “righteous” and “just,” “righteousness” and “justice” all translate the same root. Here the word describes a person who already does what is right, and so is not the target of a code of prohibitions.\"},{\"verse\":10,\"phrase\":\"men who lie with males\",\"lemma\":\"ἀρσενοκοίτης\",\"kind\":\"departure\",\"traditional\":\"sodomites; homosexuals; men who practice homosexuality\",\"note\":\"The word is a transparent compound of “male” and “bed” (a common euphemism for intercourse) and is not attested before Paul; most scholars think it was formed from the wording of Leviticus 18:22 and 20:13 in the Greek Old Testament. It refers to males who have sex with males, and the rendering keeps to that description of an act instead of using “homosexual,” a modern category of orientation. Whether it covers all male same-sex intercourse or particular forms of it is disputed.\"},{\"verse\":11,\"phrase\":\"good news\",\"lemma\":\"εὐαγγέλιον\",\"kind\":\"departure\",\"traditional\":\"gospel\",\"note\":\"The traditional rendering is “gospel,” which today sounds like a religious term or the title of a book. The Greek was an ordinary word for a public announcement of good news, used also of imperial proclamations. Many modern translations alternate between “good news” and “gospel.”\"},{\"verse\":12,\"phrase\":\"service\",\"lemma\":\"διακονία\",\"kind\":\"departure\",\"traditional\":\"ministry\",\"note\":\"Most translations have “ministry” here. The Greek was an everyday word for service or for a task carried out on someone’s behalf, and did not denote a religious office; “ministry” now suggests clergy or a church profession. Some scholars stress the idea of a commissioned agent over that of humble service, and “service” is compatible with either.\"},{\"verse\":15,\"phrase\":\"trustworthy\",\"lemma\":\"πιστός\",\"kind\":\"register-exception\",\"traditional\":\"This is a faithful saying (KJV); the saying is trustworthy\",\"note\":\"The adjective is the same one rendered “faithful” in verse 12, and this translation normally renders it “faithful” or “believing.” Applied to a saying it means one that can be relied on, and since modern English does not call a statement “faithful,” “trustworthy” is used. The formula recurs in the letters to Timothy and Titus and appears to mark established Christian sayings.\"},{\"verse\":16,\"phrase\":\"eternal life\",\"lemma\":\"αἰώνιος\",\"kind\":\"background\",\"traditional\":\"eternal life; life everlasting\",\"note\":\"The adjective is formed from the word for “age,” the same word that appears twice in the next verse. In Jewish usage “eternal life” is the life of the age to come, so the phrase speaks of a kind of life as well as its unending length. “Eternal” is the standard rendering; a minority of translators prefer “life of the age to come.”\"},{\"verse\":17,\"phrase\":\"King of the ages\",\"lemma\":\"αἰών\",\"kind\":\"departure\",\"traditional\":\"King eternal\",\"note\":\"Many versions paraphrase as “the King eternal”; the Greek says “King of the ages,” meaning the one who rules over every era of history, and some versions render it so. The closing “forever and ever” is literally “to the ages of the ages,” an ordinary idiom for endless time that echoes the title.\"},{\"verse\":18,\"phrase\":\"the prophecies made earlier about you\",\"lemma\":\"προάγω\",\"kind\":\"ambiguity\",\"traditional\":\"the prophecies which went before on thee\",\"note\":\"The Greek participle can mean “going before” in time or “leading the way.” The rendering takes it of prophetic words spoken about Timothy on an earlier occasion, perhaps at his commissioning (compare 4:14). The alternative is “the prophecies that led the way to you,” that is, that first pointed Paul to Timothy.\"},{\"verse\":20,\"phrase\":\"handed over to Satan\",\"lemma\":\"παραδίδωμι\",\"kind\":\"background\",\"traditional\":\"delivered unto Satan\",\"note\":\"The same expression occurs in 1 Corinthians 5:5, where it accompanies the removal of a man from the congregation. Most interpreters understand it here as exclusion from the community, the world outside being seen as the sphere of Satan’s power. The stated purpose is corrective: that the two men learn not to blaspheme. Exactly what the procedure involved is not known.\"}],\"candidates\":[{\"lemma\":\"ἀρσενοκοίτης\",\"rendering\":\"men who lie with males\",\"verse\":10,\"reason\":\"Occurs here and in 1 Corinthians 6:9, is heavily disputed, and the two verses must match.\"},{\"lemma\":\"πόρνος\",\"rendering\":\"the sexually immoral\",\"verse\":10,\"reason\":\"Recurs in vice lists across Paul, Hebrews and Revelation, where versions vary between “fornicator,” “sexually immoral” and “immoral person.”\"},{\"lemma\":\"διδασκαλία\",\"rendering\":\"teaching\",\"verse\":10,\"reason\":\"Frequent in the Pastorals, where “doctrine” and “teaching” compete; the phrase “sound teaching” should be uniform across 1–2 Timothy and Titus.\"},{\"lemma\":\"οἰκονομία\",\"rendering\":\"plan\",\"verse\":4,\"reason\":\"Used in Luke, 1 Corinthians, Ephesians, Colossians and here with renderings ranging over “stewardship,” “administration,” “plan” and “management”; the senses need to be sorted once.\"},{\"lemma\":\"παραγγελία\",\"rendering\":\"instruction\",\"verse\":5,\"reason\":\"The noun and its verb παραγγέλλω recur through Acts, the Thessalonian letters and 1 Timothy, and translators vary among “charge,” “command,” “order” and “instruction.”\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Paul, an apostle of Christ Jesus by the command of God our Savior and of Christ Jesus our hope,"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "to Timothy, my true child in faith: Grace, mercy, and peace from God the Father and Christ Jesus our Lord."
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Just as I urged you when I was leaving for Macedonia, stay on in Ephesus, so that you may instruct certain people not to teach anything different"
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "nor to occupy themselves with myths and endless genealogies, which promote speculations rather than God’s plan, which works by faith."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But the goal of this instruction is love from a pure heart, a good conscience, and a sincere faith."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Some have strayed from these and turned aside into empty talk,"
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "wanting to be teachers of the law, though they understand neither what they are saying nor the things about which they are so insistent."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now we know that the law is good, if one uses it lawfully,"
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "understanding this: law is not laid down for a righteous person but for the lawless and rebellious, the ungodly and sinners, the unholy and profane, those who kill their fathers or mothers, murderers,"
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "the sexually immoral, men who lie with males, slave traders, liars, perjurers, and whatever else is opposed to sound teaching,"
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "in accordance with the good news of the glory of the blessed God, with which I was entrusted."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "I am thankful to the one who gave me strength, Christ Jesus our Lord, because he considered me faithful and appointed me to service,"
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "though I was formerly a blasphemer, a persecutor, and a man of arrogant violence. But I was shown mercy, because I acted in ignorance, in unbelief,"
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and the grace of our Lord overflowed beyond measure, along with the faith and love that are in Christ Jesus."
+     }
+    ]
+   },
+   {
+    "verse": 15,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "The saying is trustworthy and deserves full acceptance: Christ Jesus came into the world to save sinners—and I am the foremost of them."
+     }
+    ]
+   },
+   {
+    "verse": 16,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But for this very reason I was shown mercy: so that in me, the foremost, Christ Jesus might display all his patience, as a pattern for those who were going to believe in him for eternal life."
+     }
+    ]
+   },
+   {
+    "verse": 17,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Now to the King of the ages, immortal, invisible, the only God, be honor and glory forever and ever. Amen."
+     }
+    ]
+   },
+   {
+    "verse": 18,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "This instruction I entrust to you, Timothy, my child, in keeping with the prophecies made earlier about you, so that by them you may wage the good warfare,"
+     }
+    ]
+   },
+   {
+    "verse": 19,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "holding on to faith and a good conscience. By thrusting conscience aside, some have suffered shipwreck in regard to the faith;"
+     }
+    ]
+   },
+   {
+    "verse": 20,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "among them are Hymenaeus and Alexander, whom I have handed over to Satan so that they may be taught by discipline not to blaspheme."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 3,
+    "phrase": "stay on in Ephesus",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "As I besought thee to abide still at Ephesus … so do",
+    "note": "The Greek sentence opens “Just as I urged you to stay on in Ephesus…” and is never grammatically completed. Like most modern translations, this one turns the earlier request into a present instruction; older versions instead supplied “so do” at the end of verse 4. The sense is the same either way."
+   },
+   {
+    "verse": 4,
+    "phrase": "God’s plan",
+    "lemma": "οἰκονομία",
+    "kind": "ambiguity",
+    "traditional": "godly edifying (KJV); the stewardship from God",
+    "note": "The word means the management of a household and, by extension, an administration or arrangement. Here it may be God’s own ordering of salvation (“plan”) or the responsibility God entrusts to those who serve him (“stewardship”); both readings have wide support. The KJV’s “godly edifying” follows a different Greek word found in a few manuscripts."
+   },
+   {
+    "verse": 9,
+    "phrase": "righteous",
+    "lemma": "δίκαιος",
+    "kind": "background",
+    "traditional": "righteous",
+    "note": "Greek has one word-family where English has two: “righteous” and “just,” “righteousness” and “justice” all translate the same root. Here the word describes a person who already does what is right, and so is not the target of a code of prohibitions."
+   },
+   {
+    "verse": 10,
+    "phrase": "men who lie with males",
+    "lemma": "ἀρσενοκοίτης",
+    "kind": "departure",
+    "traditional": "sodomites; homosexuals; men who practice homosexuality",
+    "note": "The word is a transparent compound of “male” and “bed” (a common euphemism for intercourse) and is not attested before Paul; most scholars think it was formed from the wording of Leviticus 18:22 and 20:13 in the Greek Old Testament. It refers to males who have sex with males, and the rendering keeps to that description of an act instead of using “homosexual,” a modern category of orientation. Whether it covers all male same-sex intercourse or particular forms of it is disputed."
+   },
+   {
+    "verse": 11,
+    "phrase": "good news",
+    "lemma": "εὐαγγέλιον",
+    "kind": "departure",
+    "traditional": "gospel",
+    "note": "The traditional rendering is “gospel,” which today sounds like a religious term or the title of a book. The Greek was an ordinary word for a public announcement of good news, used also of imperial proclamations. Many modern translations alternate between “good news” and “gospel.”"
+   },
+   {
+    "verse": 12,
+    "phrase": "service",
+    "lemma": "διακονία",
+    "kind": "departure",
+    "traditional": "ministry",
+    "note": "Most translations have “ministry” here. The Greek was an everyday word for service or for a task carried out on someone’s behalf, and did not denote a religious office; “ministry” now suggests clergy or a church profession. Some scholars stress the idea of a commissioned agent over that of humble service, and “service” is compatible with either."
+   },
+   {
+    "verse": 15,
+    "phrase": "trustworthy",
+    "lemma": "πιστός",
+    "kind": "register-exception",
+    "traditional": "This is a faithful saying (KJV); the saying is trustworthy",
+    "note": "The adjective is the same one rendered “faithful” in verse 12, and this translation normally renders it “faithful” or “believing.” Applied to a saying it means one that can be relied on, and since modern English does not call a statement “faithful,” “trustworthy” is used. The formula recurs in the letters to Timothy and Titus and appears to mark established Christian sayings."
+   },
+   {
+    "verse": 16,
+    "phrase": "eternal life",
+    "lemma": "αἰώνιος",
+    "kind": "background",
+    "traditional": "eternal life; life everlasting",
+    "note": "The adjective is formed from the word for “age,” the same word that appears twice in the next verse. In Jewish usage “eternal life” is the life of the age to come, so the phrase speaks of a kind of life as well as its unending length. “Eternal” is the standard rendering; a minority of translators prefer “life of the age to come.”"
+   },
+   {
+    "verse": 17,
+    "phrase": "King of the ages",
+    "lemma": "αἰών",
+    "kind": "departure",
+    "traditional": "King eternal",
+    "note": "Many versions paraphrase as “the King eternal”; the Greek says “King of the ages,” meaning the one who rules over every era of history, and some versions render it so. The closing “forever and ever” is literally “to the ages of the ages,” an ordinary idiom for endless time that echoes the title."
+   },
+   {
+    "verse": 18,
+    "phrase": "the prophecies made earlier about you",
+    "lemma": "προάγω",
+    "kind": "ambiguity",
+    "traditional": "the prophecies which went before on thee",
+    "note": "The Greek participle can mean “going before” in time or “leading the way.” The rendering takes it of prophetic words spoken about Timothy on an earlier occasion, perhaps at his commissioning (compare 4:14). The alternative is “the prophecies that led the way to you,” that is, that first pointed Paul to Timothy."
+   },
+   {
+    "verse": 20,
+    "phrase": "handed over to Satan",
+    "lemma": "παραδίδωμι",
+    "kind": "background",
+    "traditional": "delivered unto Satan",
+    "note": "The same expression occurs in 1 Corinthians 5:5, where it accompanies the removal of a man from the congregation. Most interpreters understand it here as exclusion from the community, the world outside being seen as the sphere of Satan’s power. The stated purpose is corrective: that the two men learn not to blaspheme. Exactly what the procedure involved is not known."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "ἀρσενοκοίτης",
+    "rendering": "men who lie with males",
+    "verse": 10,
+    "reason": "Occurs here and in 1 Corinthians 6:9, is heavily disputed, and the two verses must match."
+   },
+   {
+    "lemma": "πόρνος",
+    "rendering": "the sexually immoral",
+    "verse": 10,
+    "reason": "Recurs in vice lists across Paul, Hebrews and Revelation, where versions vary between “fornicator,” “sexually immoral” and “immoral person.”"
+   },
+   {
+    "lemma": "διδασκαλία",
+    "rendering": "teaching",
+    "verse": 10,
+    "reason": "Frequent in the Pastorals, where “doctrine” and “teaching” compete; the phrase “sound teaching” should be uniform across 1–2 Timothy and Titus."
+   },
+   {
+    "lemma": "οἰκονομία",
+    "rendering": "plan",
+    "verse": 4,
+    "reason": "Used in Luke, 1 Corinthians, Ephesians, Colossians and here with renderings ranging over “stewardship,” “administration,” “plan” and “management”; the senses need to be sorted once."
+   },
+   {
+    "lemma": "παραγγελία",
+    "rendering": "instruction",
+    "verse": 5,
+    "reason": "The noun and its verb παραγγέλλω recur through Acts, the Thessalonian letters and 1 Timothy, and translators vary among “charge,” “command,” “order” and “instruction.”"
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [
+  "Verse 11: πιστεύω is not rendered with a register form (believe / trust) and has no register-exception note."
+ ],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 4723,
+   "output_tokens": 250
+  },
+  "findings": [],
+  "error": ""
+ }
+}

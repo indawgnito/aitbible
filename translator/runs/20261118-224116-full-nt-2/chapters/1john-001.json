@@ -1,0 +1,225 @@
+{
+ "id": "1john-001",
+ "book": "1john",
+ "chapter": 1,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14geYTjv7wdVc2vGH",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 7552,
+  "output_tokens": 5405
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"What was from the beginning, what we have heard, what we have seen with our eyes, what we looked at and our hands touched, concerning the Logos of life—\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and the life was revealed, and we have seen it and testify and announce to you the eternal life that was with the Father and was revealed to us—\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"what we have seen and heard we announce to you also, so that you too may have fellowship with us. And indeed our fellowship is with the Father and with his Son Jesus Christ.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And we are writing these things so that our joy may be complete.\"}]},{\"verse\":5,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And this is the message that we have heard from him and declare to you: that God is light, and in him there is no darkness at all.\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"If we say that we have fellowship with him and walk in the darkness, we lie and do not do the truth.\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But if we walk in the light as he himself is in the light, we have fellowship with one another, and the blood of Jesus his Son cleanses us from all sin.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"If we say that we have no sin, we deceive ourselves, and the truth is not in us.\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"If we confess our sins, he is faithful and righteous to forgive us our sins and to cleanse us from all unrighteousness.\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"If we say that we have not sinned, we make him a liar, and his word is not in us.\"}]}],\"notes\":[{\"verse\":1,\"phrase\":\"What was from the beginning\",\"lemma\":\"ἀρχή\",\"kind\":\"ambiguity\",\"traditional\":\"That which was from the beginning\",\"note\":\"The opening pronouns are neuter (“what,” not “who”), so the subject is not simply a person but everything the witnesses heard, saw and touched. “The beginning” may mean the absolute beginning, as in John 1:1, or the beginning of Jesus’ ministry and of the proclamation about him. Interpreters are divided, and the echo of the Gospel’s opening may be deliberate in either case.\"},{\"verse\":1,\"phrase\":\"the Logos of life\",\"lemma\":\"λόγος\",\"kind\":\"departure\",\"traditional\":\"the Word of life\",\"note\":\"Nearly all translations use “Word.” This translation keeps the Greek term as a title, as in John 1:1, because “the Word” now commonly suggests the Bible. To a Greek-speaking reader the term also suggested reason and the order of the world, though most scholars see its main background in the Hebrew Bible’s “word of the Lord” and Wisdom traditions, which “Word” reflects better. Here specifically, many interpreters think the phrase means “the message about life” rather than the personal Word, since verse 2 goes on to speak of “the life,” not “the Word”; the question is open.\"},{\"verse\":2,\"phrase\":\"eternal life\",\"lemma\":\"αἰώνιος\",\"kind\":\"background\",\"traditional\":\"eternal life\",\"note\":\"In Jewish usage “eternal life” is the life of the age to come, a matter of kind as well as length. Here it is spoken of as something that “was with the Father” and then appeared, language very close to what John 1:1–2 says of the Logos.\"},{\"verse\":4,\"phrase\":\"our joy\",\"lemma\":\"\",\"kind\":\"textual\",\"traditional\":\"your joy (KJV); our joy (most modern versions)\",\"note\":\"Manuscripts are divided in two places in this verse: some read “we write these things to you” where the text has an emphatic “we are writing,” and some read “your joy” for “our joy.” The Greek words for “our” and “your” differ by one letter and were pronounced alike, so confusion was easy. Most editors prefer “our joy” as the reading that copyists were more likely to change.\"},{\"verse\":6,\"phrase\":\"do not do the truth\",\"lemma\":\"ἀλήθεια\",\"kind\":\"departure\",\"traditional\":\"do not practice the truth\",\"note\":\"The Greek says literally “do the truth,” a Semitic turn of phrase also found in John 3:21 and in Jewish writings of the period, where truth is something acted out and not only spoken. Most modern versions smooth it to “practice the truth” or “live by the truth.” The literal form is kept here because it balances “we lie” and shows that the author treats truth as a matter of conduct.\"},{\"verse\":9,\"phrase\":\"righteous\",\"lemma\":\"δίκαιος\",\"kind\":\"departure\",\"traditional\":\"just\",\"note\":\"Most English versions read “faithful and just.” Greek has a single word-family where English has two (righteous/just, righteousness/justice), and the “unrighteousness” at the end of the verse is the negative of the same word. “Righteous” keeps that link visible: the one who is in the right removes what is not right. The sense is not that God is strict in punishing, but that he acts rightly and reliably in forgiving.\"},{\"verse\":10,\"phrase\":\"his word\",\"lemma\":\"λόγος\",\"kind\":\"register-exception\",\"traditional\":\"his word\",\"note\":\"The Greek noun is the same one rendered “Logos” in verse 1, but here it has its ordinary sense of God’s spoken message, parallel to “the truth is not in us” in verse 8. The title is therefore not used. A reader of the Greek would notice the repetition, which English cannot show without confusing the two senses.\"}],\"candidates\":[{\"lemma\":\"φανερόω\",\"rendering\":\"was revealed\",\"verse\":2,\"reason\":\"Frequent in John, the Johannine letters and Paul; translations vary among “revealed,” “appeared,” “made manifest” and “made known,” and it needs to be kept distinct from ἀποκαλύπτω.\"},{\"lemma\":\"περιπατέω\",\"rendering\":\"walk\",\"verse\":6,\"reason\":\"The figurative sense of conduct recurs throughout Paul and John, and versions split between keeping the Semitic “walk” and rendering it “live.”\"},{\"lemma\":\"μαρτυρέω\",\"rendering\":\"testify\",\"verse\":2,\"reason\":\"A key Johannine word-family (with μαρτυρία, μάρτυς) where “testify,” “bear witness” and “witness” compete and consistency across books matters.\"},{\"lemma\":\"ὁμολογέω\",\"rendering\":\"confess\",\"verse\":9,\"reason\":\"Used both of admitting sins and of declaring allegiance to Jesus; “confess,” “acknowledge” and “declare” are all plausible, and readers benefit from a fixed policy.\"},{\"lemma\":\"καθαρίζω\",\"rendering\":\"cleanse\",\"verse\":7,\"reason\":\"Recurs in the Gospels, Acts, Paul, Hebrews and here, with translators varying among “cleanse,” “purify” and “make clean” for ritual and moral senses.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "What was from the beginning, what we have heard, what we have seen with our eyes, what we looked at and our hands touched, concerning the Logos of life—"
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and the life was revealed, and we have seen it and testify and announce to you the eternal life that was with the Father and was revealed to us—"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "what we have seen and heard we announce to you also, so that you too may have fellowship with us. And indeed our fellowship is with the Father and with his Son Jesus Christ."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And we are writing these things so that our joy may be complete."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And this is the message that we have heard from him and declare to you: that God is light, and in him there is no darkness at all."
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "If we say that we have fellowship with him and walk in the darkness, we lie and do not do the truth."
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But if we walk in the light as he himself is in the light, we have fellowship with one another, and the blood of Jesus his Son cleanses us from all sin."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "If we say that we have no sin, we deceive ourselves, and the truth is not in us."
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "If we confess our sins, he is faithful and righteous to forgive us our sins and to cleanse us from all unrighteousness."
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "If we say that we have not sinned, we make him a liar, and his word is not in us."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 1,
+    "phrase": "What was from the beginning",
+    "lemma": "ἀρχή",
+    "kind": "ambiguity",
+    "traditional": "That which was from the beginning",
+    "note": "The opening pronouns are neuter (“what,” not “who”), so the subject is not simply a person but everything the witnesses heard, saw and touched. “The beginning” may mean the absolute beginning, as in John 1:1, or the beginning of Jesus’ ministry and of the proclamation about him. Interpreters are divided, and the echo of the Gospel’s opening may be deliberate in either case."
+   },
+   {
+    "verse": 1,
+    "phrase": "the Logos of life",
+    "lemma": "λόγος",
+    "kind": "departure",
+    "traditional": "the Word of life",
+    "note": "Nearly all translations use “Word.” This translation keeps the Greek term as a title, as in John 1:1, because “the Word” now commonly suggests the Bible. To a Greek-speaking reader the term also suggested reason and the order of the world, though most scholars see its main background in the Hebrew Bible’s “word of the Lord” and Wisdom traditions, which “Word” reflects better. Here specifically, many interpreters think the phrase means “the message about life” rather than the personal Word, since verse 2 goes on to speak of “the life,” not “the Word”; the question is open."
+   },
+   {
+    "verse": 2,
+    "phrase": "eternal life",
+    "lemma": "αἰώνιος",
+    "kind": "background",
+    "traditional": "eternal life",
+    "note": "In Jewish usage “eternal life” is the life of the age to come, a matter of kind as well as length. Here it is spoken of as something that “was with the Father” and then appeared, language very close to what John 1:1–2 says of the Logos."
+   },
+   {
+    "verse": 4,
+    "phrase": "our joy",
+    "lemma": "",
+    "kind": "textual",
+    "traditional": "your joy (KJV); our joy (most modern versions)",
+    "note": "Manuscripts are divided in two places in this verse: some read “we write these things to you” where the text has an emphatic “we are writing,” and some read “your joy” for “our joy.” The Greek words for “our” and “your” differ by one letter and were pronounced alike, so confusion was easy. Most editors prefer “our joy” as the reading that copyists were more likely to change."
+   },
+   {
+    "verse": 6,
+    "phrase": "do not do the truth",
+    "lemma": "ἀλήθεια",
+    "kind": "departure",
+    "traditional": "do not practice the truth",
+    "note": "The Greek says literally “do the truth,” a Semitic turn of phrase also found in John 3:21 and in Jewish writings of the period, where truth is something acted out and not only spoken. Most modern versions smooth it to “practice the truth” or “live by the truth.” The literal form is kept here because it balances “we lie” and shows that the author treats truth as a matter of conduct."
+   },
+   {
+    "verse": 9,
+    "phrase": "righteous",
+    "lemma": "δίκαιος",
+    "kind": "departure",
+    "traditional": "just",
+    "note": "Most English versions read “faithful and just.” Greek has a single word-family where English has two (righteous/just, righteousness/justice), and the “unrighteousness” at the end of the verse is the negative of the same word. “Righteous” keeps that link visible: the one who is in the right removes what is not right. The sense is not that God is strict in punishing, but that he acts rightly and reliably in forgiving."
+   },
+   {
+    "verse": 10,
+    "phrase": "his word",
+    "lemma": "λόγος",
+    "kind": "register-exception",
+    "traditional": "his word",
+    "note": "The Greek noun is the same one rendered “Logos” in verse 1, but here it has its ordinary sense of God’s spoken message, parallel to “the truth is not in us” in verse 8. The title is therefore not used. A reader of the Greek would notice the repetition, which English cannot show without confusing the two senses."
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "φανερόω",
+    "rendering": "was revealed",
+    "verse": 2,
+    "reason": "Frequent in John, the Johannine letters and Paul; translations vary among “revealed,” “appeared,” “made manifest” and “made known,” and it needs to be kept distinct from ἀποκαλύπτω."
+   },
+   {
+    "lemma": "περιπατέω",
+    "rendering": "walk",
+    "verse": 6,
+    "reason": "The figurative sense of conduct recurs throughout Paul and John, and versions split between keeping the Semitic “walk” and rendering it “live.”"
+   },
+   {
+    "lemma": "μαρτυρέω",
+    "rendering": "testify",
+    "verse": 2,
+    "reason": "A key Johannine word-family (with μαρτυρία, μάρτυς) where “testify,” “bear witness” and “witness” compete and consistency across books matters."
+   },
+   {
+    "lemma": "ὁμολογέω",
+    "rendering": "confess",
+    "verse": 9,
+    "reason": "Used both of admitting sins and of declaring allegiance to Jesus; “confess,” “acknowledge” and “declare” are all plausible, and readers benefit from a fixed policy."
+   },
+   {
+    "lemma": "καθαρίζω",
+    "rendering": "cleanse",
+    "verse": 7,
+    "reason": "Recurs in the Gospels, Acts, Paul, Hebrews and here, with translators varying among “cleanse,” “purify” and “make clean” for ritual and moral senses."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 3177,
+   "output_tokens": 10
+  },
+  "findings": [],
+  "error": ""
+ }
+}

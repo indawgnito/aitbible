@@ -1,0 +1,305 @@
+{
+ "id": "hebrews-005",
+ "book": "hebrews",
+ "chapter": 5,
+ "model": "claude-fable-5-2",
+ "message_id": "msg_011ChBg14hQ4NYBHCYMje5Qm",
+ "stop_reason": "end_turn",
+ "batch": true,
+ "attempt": 1,
+ "usage": {
+  "input_tokens": 8401,
+  "output_tokens": 11455
+ },
+ "raw": "{\"verses\":[{\"verse\":1,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For every high priest taken from among people is appointed on behalf of people in matters relating to God, to offer both gifts and sacrifices for sins.\"}]},{\"verse\":2,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"He is able to deal gently with the ignorant and straying, since he himself is also clothed with weakness,\"}]},{\"verse\":3,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and because of it he is obliged to make offerings for sins, as for the people, so also for himself.\"}]},{\"verse\":4,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"And no one takes this honor for himself, but only when called by God, just as Aaron was.\"}]},{\"verse\":5,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"So also Christ did not glorify himself in becoming high priest; rather, it was the one who said to him,\"},{\"speaker\":\"God\",\"text\":\"“You are my Son; today I have fathered you,”\"}]},{\"verse\":6,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"just as he also says in another place,\"},{\"speaker\":\"God\",\"text\":\"“You are a priest forever, according to the order of Melchizedek.”\"}]},{\"verse\":7,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"In the days of his flesh, Christ offered prayers and pleas, with a loud cry and tears, to the one who was able to save him from death, and he was heard because of his reverence.\"}]},{\"verse\":8,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"Although he was a Son, he learned obedience from what he suffered,\"}]},{\"verse\":9,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"and having been made perfect, he became the source of eternal salvation for all who obey him,\"}]},{\"verse\":10,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"addressed by God as high priest according to the order of Melchizedek.\"}]},{\"verse\":11,\"paragraph_start\":true,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"About this we have much to say, and it is hard to explain, since you have become sluggish in hearing.\"}]},{\"verse\":12,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For though by this time you ought to be teachers, you again need someone to teach you the first elements of God’s oracles. You have come to need milk, not solid food.\"}]},{\"verse\":13,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"For everyone who lives on milk is inexperienced in the word of righteousness, for that person is an infant.\"}]},{\"verse\":14,\"paragraph_start\":false,\"segments\":[{\"speaker\":\"narrator\",\"text\":\"But solid food is for the mature, for those who because of their mature condition have their faculties trained to distinguish good from evil.\"}]}],\"notes\":[{\"verse\":2,\"phrase\":\"the ignorant and straying\",\"lemma\":\"ἀγνοέω\",\"kind\":\"background\",\"traditional\":\"the ignorant and wayward\",\"note\":\"The Law of Moses provided sacrifices for sins committed unknowingly or by going astray, and distinguished these from deliberate, defiant sin. The phrase points to that category of sinner, the kind a high priest's offerings were meant to cover.\"},{\"verse\":5,\"phrase\":\"today I have fathered you\",\"lemma\":\"γεννάω\",\"kind\":\"departure\",\"traditional\":\"today I have begotten you\",\"note\":\"The quotation is Psalm 2:7, where God addresses the king at his enthronement. “Begotten” is the traditional word and remains in many translations, but it is no longer current English; “fathered” gives the same meaning. Some modern versions have “today I have become your Father.”\"},{\"verse\":6,\"phrase\":\"according to the order of Melchizedek\",\"lemma\":\"τάξις\",\"kind\":\"background\",\"traditional\":\"after the order of Melchizedek\",\"note\":\"The quotation is Psalm 110:4. Melchizedek is the priest-king of Genesis 14, who stands outside the line of Aaron. The Greek word rendered “order” means rank, arrangement or kind; it does not imply a succession of priests, and many scholars take the sense here to be “of the same kind as Melchizedek.”\"},{\"verse\":7,\"phrase\":\"because of his reverence\",\"lemma\":\"εὐλάβεια\",\"kind\":\"ambiguity\",\"traditional\":\"in that he feared / because of his reverent submission\",\"note\":\"The Greek word can mean reverent awe toward God or, less often, anxious fear. Most scholars and translations take it as here: his prayer was heard because of his reverence. A minority read “he was heard and set free from his fear.”\"},{\"verse\":8,\"phrase\":\"learned obedience from what he suffered\",\"lemma\":\"\",\"kind\":\"background\",\"traditional\":\"\",\"note\":\"The Greek words for “learned” and “suffered” (emathen, epathen) rhyme, and pairing them was a familiar saying in Greek literature: one learns by suffering. The author applies the commonplace to the Son.\"},{\"verse\":9,\"phrase\":\"having been made perfect\",\"lemma\":\"τελειόω\",\"kind\":\"background\",\"traditional\":\"being made perfect\",\"note\":\"The verb means to bring someone to an intended goal or finished state, not to remove moral faults. Here it describes Christ being fully fitted for his role as high priest through what he suffered; scholars differ on how far it also echoes the Greek Old Testament's language for consecrating priests. “The mature” in verse 14 belongs to the same word family.\"},{\"verse\":10,\"phrase\":\"addressed by God as\",\"lemma\":\"προσαγορεύω\",\"kind\":\"departure\",\"traditional\":\"designated by God / called of God\",\"note\":\"The verb ordinarily means to address or greet someone by a name or title. Most translations have “designated” or “called,” which is also defensible. “Addressed” keeps the link to the psalm just quoted, in which God speaks to him directly: “You are a priest forever.”\"},{\"verse\":11,\"phrase\":\"About this\",\"lemma\":\"\",\"kind\":\"ambiguity\",\"traditional\":\"Of whom / About this\",\"note\":\"The Greek pronoun can be masculine (“about him,” meaning Melchizedek or Christ) or neuter (“about this,” meaning the subject of this high priesthood). Translations are divided, and the difference in meaning is slight.\"},{\"verse\":12,\"phrase\":\"someone to teach you\",\"lemma\":\"τις\",\"kind\":\"ambiguity\",\"traditional\":\"that one teach you\",\"note\":\"The earliest manuscripts were written without accents, and the Greek word here can be read as “someone” or as “what.” With the second reading the sense is “you need to be taught what the first elements of God's oracles are.” The edition translated here, with most modern versions, reads “someone.”\"},{\"verse\":13,\"phrase\":\"the word of righteousness\",\"lemma\":\"δικαιοσύνη\",\"kind\":\"ambiguity\",\"traditional\":\"the word of righteousness\",\"note\":\"The phrase is open to several readings: teaching about righteousness, the ability to reason about what is right (compare “distinguish good from evil” in verse 14), or, continuing the picture of the infant, correct speech. The literal form is kept so as not to close off the options. Greek has one word family where English has two (righteous and just, righteousness and justice).\"},{\"verse\":14,\"phrase\":\"because of their mature condition\",\"lemma\":\"ἕξις\",\"kind\":\"departure\",\"traditional\":\"by reason of use / by constant practice\",\"note\":\"Most translations render this “by practice” or “by constant use.” In Greek of the period, however, the word regularly means a state or condition of body or mind, often the settled condition that results from training, and not the activity of practicing. Lexicographers have argued that “practice” is a long-standing mistake here, and the standard lexicon now gives “mature state.”\"}],\"candidates\":[{\"lemma\":\"στοιχεῖον\",\"rendering\":\"elements\",\"verse\":12,\"reason\":\"Recurs in Galatians 4, Colossians 2 and 2 Peter 3 with disputed senses (basic principles, elemental spirits, physical elements), so the choice of English needs coordinating across books.\"},{\"lemma\":\"τέλειος\",\"rendering\":\"mature\",\"verse\":14,\"reason\":\"Belongs to the family of τελειόω, which the register renders “make perfect,” and translators split between “mature,” “perfect” and “complete” across Matthew, Paul, Hebrews and James.\"},{\"lemma\":\"τάξις\",\"rendering\":\"order\",\"verse\":6,\"reason\":\"The phrase “according to the order of Melchizedek” recurs through Hebrews 5–7 and must be identical each time; “order” can wrongly suggest a succession of priests.\"},{\"lemma\":\"λόγιον\",\"rendering\":\"oracles\",\"verse\":12,\"reason\":\"Occurs also at Acts 7:38, Romans 3:2 and 1 Peter 4:11, where versions vary between “oracles,” “words” and “utterances.”\"},{\"lemma\":\"νωθρός\",\"rendering\":\"sluggish\",\"verse\":11,\"reason\":\"Occurs only here and at Hebrews 6:12, framing the section, so both chapters need the same English word for the frame to be visible.\"}]}",
+ "parsed": {
+  "verses": [
+   {
+    "verse": 1,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For every high priest taken from among people is appointed on behalf of people in matters relating to God, to offer both gifts and sacrifices for sins."
+     }
+    ]
+   },
+   {
+    "verse": 2,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "He is able to deal gently with the ignorant and straying, since he himself is also clothed with weakness,"
+     }
+    ]
+   },
+   {
+    "verse": 3,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and because of it he is obliged to make offerings for sins, as for the people, so also for himself."
+     }
+    ]
+   },
+   {
+    "verse": 4,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "And no one takes this honor for himself, but only when called by God, just as Aaron was."
+     }
+    ]
+   },
+   {
+    "verse": 5,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "So also Christ did not glorify himself in becoming high priest; rather, it was the one who said to him,"
+     },
+     {
+      "speaker": "God",
+      "text": "“You are my Son; today I have fathered you,”"
+     }
+    ]
+   },
+   {
+    "verse": 6,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "just as he also says in another place,"
+     },
+     {
+      "speaker": "God",
+      "text": "“You are a priest forever, according to the order of Melchizedek.”"
+     }
+    ]
+   },
+   {
+    "verse": 7,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "In the days of his flesh, Christ offered prayers and pleas, with a loud cry and tears, to the one who was able to save him from death, and he was heard because of his reverence."
+     }
+    ]
+   },
+   {
+    "verse": 8,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "Although he was a Son, he learned obedience from what he suffered,"
+     }
+    ]
+   },
+   {
+    "verse": 9,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "and having been made perfect, he became the source of eternal salvation for all who obey him,"
+     }
+    ]
+   },
+   {
+    "verse": 10,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "addressed by God as high priest according to the order of Melchizedek."
+     }
+    ]
+   },
+   {
+    "verse": 11,
+    "paragraph_start": true,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "About this we have much to say, and it is hard to explain, since you have become sluggish in hearing."
+     }
+    ]
+   },
+   {
+    "verse": 12,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For though by this time you ought to be teachers, you again need someone to teach you the first elements of God’s oracles. You have come to need milk, not solid food."
+     }
+    ]
+   },
+   {
+    "verse": 13,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "For everyone who lives on milk is inexperienced in the word of righteousness, for that person is an infant."
+     }
+    ]
+   },
+   {
+    "verse": 14,
+    "paragraph_start": false,
+    "segments": [
+     {
+      "speaker": "narrator",
+      "text": "But solid food is for the mature, for those who because of their mature condition have their faculties trained to distinguish good from evil."
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "verse": 2,
+    "phrase": "the ignorant and straying",
+    "lemma": "ἀγνοέω",
+    "kind": "background",
+    "traditional": "the ignorant and wayward",
+    "note": "The Law of Moses provided sacrifices for sins committed unknowingly or by going astray, and distinguished these from deliberate, defiant sin. The phrase points to that category of sinner, the kind a high priest's offerings were meant to cover."
+   },
+   {
+    "verse": 5,
+    "phrase": "today I have fathered you",
+    "lemma": "γεννάω",
+    "kind": "departure",
+    "traditional": "today I have begotten you",
+    "note": "The quotation is Psalm 2:7, where God addresses the king at his enthronement. “Begotten” is the traditional word and remains in many translations, but it is no longer current English; “fathered” gives the same meaning. Some modern versions have “today I have become your Father.”"
+   },
+   {
+    "verse": 6,
+    "phrase": "according to the order of Melchizedek",
+    "lemma": "τάξις",
+    "kind": "background",
+    "traditional": "after the order of Melchizedek",
+    "note": "The quotation is Psalm 110:4. Melchizedek is the priest-king of Genesis 14, who stands outside the line of Aaron. The Greek word rendered “order” means rank, arrangement or kind; it does not imply a succession of priests, and many scholars take the sense here to be “of the same kind as Melchizedek.”"
+   },
+   {
+    "verse": 7,
+    "phrase": "because of his reverence",
+    "lemma": "εὐλάβεια",
+    "kind": "ambiguity",
+    "traditional": "in that he feared / because of his reverent submission",
+    "note": "The Greek word can mean reverent awe toward God or, less often, anxious fear. Most scholars and translations take it as here: his prayer was heard because of his reverence. A minority read “he was heard and set free from his fear.”"
+   },
+   {
+    "verse": 8,
+    "phrase": "learned obedience from what he suffered",
+    "lemma": "",
+    "kind": "background",
+    "traditional": "",
+    "note": "The Greek words for “learned” and “suffered” (emathen, epathen) rhyme, and pairing them was a familiar saying in Greek literature: one learns by suffering. The author applies the commonplace to the Son."
+   },
+   {
+    "verse": 9,
+    "phrase": "having been made perfect",
+    "lemma": "τελειόω",
+    "kind": "background",
+    "traditional": "being made perfect",
+    "note": "The verb means to bring someone to an intended goal or finished state, not to remove moral faults. Here it describes Christ being fully fitted for his role as high priest through what he suffered; scholars differ on how far it also echoes the Greek Old Testament's language for consecrating priests. “The mature” in verse 14 belongs to the same word family."
+   },
+   {
+    "verse": 10,
+    "phrase": "addressed by God as",
+    "lemma": "προσαγορεύω",
+    "kind": "departure",
+    "traditional": "designated by God / called of God",
+    "note": "The verb ordinarily means to address or greet someone by a name or title. Most translations have “designated” or “called,” which is also defensible. “Addressed” keeps the link to the psalm just quoted, in which God speaks to him directly: “You are a priest forever.”"
+   },
+   {
+    "verse": 11,
+    "phrase": "About this",
+    "lemma": "",
+    "kind": "ambiguity",
+    "traditional": "Of whom / About this",
+    "note": "The Greek pronoun can be masculine (“about him,” meaning Melchizedek or Christ) or neuter (“about this,” meaning the subject of this high priesthood). Translations are divided, and the difference in meaning is slight."
+   },
+   {
+    "verse": 12,
+    "phrase": "someone to teach you",
+    "lemma": "τις",
+    "kind": "ambiguity",
+    "traditional": "that one teach you",
+    "note": "The earliest manuscripts were written without accents, and the Greek word here can be read as “someone” or as “what.” With the second reading the sense is “you need to be taught what the first elements of God's oracles are.” The edition translated here, with most modern versions, reads “someone.”"
+   },
+   {
+    "verse": 13,
+    "phrase": "the word of righteousness",
+    "lemma": "δικαιοσύνη",
+    "kind": "ambiguity",
+    "traditional": "the word of righteousness",
+    "note": "The phrase is open to several readings: teaching about righteousness, the ability to reason about what is right (compare “distinguish good from evil” in verse 14), or, continuing the picture of the infant, correct speech. The literal form is kept so as not to close off the options. Greek has one word family where English has two (righteous and just, righteousness and justice)."
+   },
+   {
+    "verse": 14,
+    "phrase": "because of their mature condition",
+    "lemma": "ἕξις",
+    "kind": "departure",
+    "traditional": "by reason of use / by constant practice",
+    "note": "Most translations render this “by practice” or “by constant use.” In Greek of the period, however, the word regularly means a state or condition of body or mind, often the settled condition that results from training, and not the activity of practicing. Lexicographers have argued that “practice” is a long-standing mistake here, and the standard lexicon now gives “mature state.”"
+   }
+  ],
+  "candidates": [
+   {
+    "lemma": "στοιχεῖον",
+    "rendering": "elements",
+    "verse": 12,
+    "reason": "Recurs in Galatians 4, Colossians 2 and 2 Peter 3 with disputed senses (basic principles, elemental spirits, physical elements), so the choice of English needs coordinating across books."
+   },
+   {
+    "lemma": "τέλειος",
+    "rendering": "mature",
+    "verse": 14,
+    "reason": "Belongs to the family of τελειόω, which the register renders “make perfect,” and translators split between “mature,” “perfect” and “complete” across Matthew, Paul, Hebrews and James."
+   },
+   {
+    "lemma": "τάξις",
+    "rendering": "order",
+    "verse": 6,
+    "reason": "The phrase “according to the order of Melchizedek” recurs through Hebrews 5–7 and must be identical each time; “order” can wrongly suggest a succession of priests."
+   },
+   {
+    "lemma": "λόγιον",
+    "rendering": "oracles",
+    "verse": 12,
+    "reason": "Occurs also at Acts 7:38, Romans 3:2 and 1 Peter 4:11, where versions vary between “oracles,” “words” and “utterances.”"
+   },
+   {
+    "lemma": "νωθρός",
+    "rendering": "sluggish",
+    "verse": 11,
+    "reason": "Occurs only here and at Hebrews 6:12, framing the section, so both chapters need the same English word for the frame to be visible."
+   }
+  ]
+ },
+ "errors": [],
+ "warnings": [],
+ "review_history": [],
+ "review": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "prompt_hash": "1d997c9b4af2",
+  "round": 1,
+  "batch": true,
+  "usage": {
+   "input_tokens": 3484,
+   "output_tokens": 253
+  },
+  "findings": [],
+  "error": ""
+ }
+}
